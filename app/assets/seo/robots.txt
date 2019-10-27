@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /payments/
+Disallow: /payments/custom/
+Disallow: /success
+
+Sitemap: https://www.helperbird.com/sitemap.xml
