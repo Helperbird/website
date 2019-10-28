@@ -102,7 +102,7 @@ setTimeout(() => {
                     // Instead use one of the strategies described in
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
-                    cancelUrl: 'https://www.helperbird.com/canceled',
+                    cancelUrl: 'https://www.helperbird.com/cancel',
                 })
                 .then(function (result) {
                     if (result.error) {
@@ -134,7 +134,7 @@ setTimeout(() => {
                 // Instead use one of the strategies described in
                 // https://stripe.com/docs/payments/checkout/fulfillment
                 successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                cancelUrl: 'https://www.helperbird.com/cancel',
               })
               .then(function (result) {
                 if (result.error) {
