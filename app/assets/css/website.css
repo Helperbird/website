@@ -4621,12 +4621,12 @@ td.hljs-ln-code {
 	left: 0;
 }
 
-.most_popular {
+.most_popular_done {
 	border: 4px solid #510fda !important;
 }
 
 
-.most_popular::before {
+.most_popular_done::before {
     content: "Most Popular!";
     background-color: #510fda;
     color: wheat;
