@@ -4631,10 +4631,53 @@ td.hljs-ln-code {
     background-color: #510fda;
     color: wheat;
     padding: 7px;
-
-
-
 }
+
+/* Float four columns side by side */
+.column-card {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	
+  }
+
+  .display_block{
+	display: block;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-card {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row-card:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+	.column-card {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+  
+  .white{
+	  background-color: #fff !important;
+  }
+  /* Style the counter cards */
+  .card-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: white;
+  }
+  .card-card > p{
+	padding: 1rem;
+  }
+
 
 .icon svg {
 	width: 100%;

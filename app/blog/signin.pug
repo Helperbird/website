@@ -45,35 +45,29 @@ html(lang='en')
     body.font-friendly
         .lightblue-gradient
             include ../includes/header.pug
-
-            section.section_header
-                .container
+            section.section_header.website_pricing_header
+                .containerr.mt40.mb40
                     .col-12.text-center
                         h1.heading.primary-color.launchaco-builder-hoverable Sign into Google Chrome or Microsoft Edge Browser 
                         h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable
-                            | A step by step guide      
-                    .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.table_right.features_table_override.padding_40.pad40
+                            | Signing in to Chrome connects your Google Account to your browser for a more personalized browsing experience. All your Chrome data, like your bookmarks, history, passwords, and other settings, is synced to your Google Account and available on any device where you sign in to Chrome. You'll also be automatically signed in to Gmail, YouTube, Search, or other Google services.                 
+            section#faq-9.section.bg-light
+                .container.mt40
+                    .col-12
                         .mb20
-                            p.paragraph_features Click Device management in the Google Admin Console.
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_1.png', alt='Step one of how to install Helperbird on G Suite', loading="lazy" )
-                            p.paragraph_features Select Chrome management.
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_2.png', alt='Step two of how to install Helperbird on G Suite', loading="lazy" )
-                            p.paragraph_features In Chrome Management, select User & browser settings.
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_3.png', alt='Step three of how to install Helperbird on G Suite', loading="lazy" )
-                            p.paragraph_features Under Organizations choose the OU (Organizational Unit) you would like to deploy extensions to. 
-                            p.paragraph_features Scroll down to Apps and Extensions and locate Force-installed Apps and Extensions.
-                            p.paragraph_features Click the Manage force-installed apps  link.
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_4.png', alt='Step four of how to install Helperbird on G Suite',loading="lazy" )
-                            p.paragraph_features  In Force-installed Apps and Extensions, click the Chrome Web Store button. 
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_5.png', alt='Step five  of how to install Helperbird on G Suite',loading="lazy" )
-                            p.paragraph_features  Type the extension or app name (Ie Helperbird) that you're deploying into the search box and press Enter. The app or extension listing will appear immediately below the search box.
-                            p.paragraph_features Click on the Add link to add the app or extension to the force-install list. 
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_6.png', alt='Step six of how to install Helperbird on G Suite', loading="lazy" )
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_7.png', alt='Step sevem of how to install Helperbird on G Suite',loading="lazy" )
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_8.png', alt='Step eight of how to install Helperbird on G Suite',loading="lazy" )
-                            p.paragraph_features Click SAVE.   
-                            img.launchaco-builder-hoverable.width_100(src='/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_9.png', alt='Step nine of how to install Helperbird on G Suite',loading="lazy" )
-                            p.paragraph_features After the force-install window has closed, click SAVE at the bottom of the page to publish the app or extension to all of your selected users. The app or extension will now be deployed to your users.
+                            p.paragraph_features To sign in to Chrome, you'll need a Google Account. When you have an account, follow these steps:
+                            p.paragraph_features If you have more than one account or you share your computer with others, learn how to manage multiple people in Chrome.
+                            p.paragraph_features Open Chrome.
+                            p.paragraph_features In the top right, click the button with your name or People People icon.
+                            p.paragraph_features Click Sign in to Chrome.
+                            p.paragraph_features Sign in with your Google Account.
+                            p.paragraph_features To customize your sync settings, click More More icon and then Settings and then Advanced sync settings. You can choose what information to share across other devices where you're signed in to Chrome.To sign in to Chrome, you'll need a Google Account. When you have an account, follow these steps:
+                            p.paragraph_features If you have more than one account or you share your computer with others, learn how to manage multiple people in Chrome.
+                            p.paragraph_features Open Chrome.
+                            p.paragraph_features In the top right, click the button with your name or People People icon.
+                            p.paragraph_features Click Sign in to Chrome.
+                            p.paragraph_features Sign in with your Google Account.
+                            p.paragraph_features To customize your sync settings, click More More icon and then Settings and then Advanced sync settings. You can choose what information to share across other devices where you're signed in to Chrome.
     include ../includes/footer.pug
     
 
