@@ -4842,10 +4842,11 @@ td.hljs-ln-code {
 }
 
 .press-logo {
-	max-width: 100%;
-	display: block;
-	margin: auto;
-	width: 70%;
+    display: block;
+    margin: auto;
+    max-height: 49px;
+    margin-bottom: 3rem;
+
 }
 
 .linebreak {
