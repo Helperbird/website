@@ -55,7 +55,7 @@ html(lang='en')
             include ../includes/css/website.min.css
 
     body.font-friendly
-        .lightblue-gradient
+        .bg-light
             // 
             include ../includes/announcement.pug
             include ../includes/header.pug
@@ -64,7 +64,7 @@ html(lang='en')
                 .container
                     .col-12.text-center
                         h1.heading.primary-color.launchaco-builder-hoverable Speech to Text
-                        h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable
+                        h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable.black
                             | Instead of typing, you can speak and Helperbird will turn your speech to text.
                     .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.table_right.features_table_override.padding_40
                         .mb20
@@ -115,6 +115,12 @@ html(lang='en')
                                     span.span 
                                         a(href="https://en.wikipedia.org/wiki/Speech_recognition", target="_blank", title="Read more on Speech recognition")
                                             | https://en.wikipedia.org/wiki/Speech_recognition
+                            h3.h3_features Demo video
+                            div.scroller_video_home.mb20
+                                .scroller_video_item_home_page
+                                    .youtube_lazy_load(data-embed='aXXRSenvTTg')
+                                        .play-button
+                            
                             h3.h3_features Screenshots
                             .row_img
                                 .column_img

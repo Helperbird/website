@@ -56,7 +56,7 @@ html(lang='en')
             include ../includes/css/website.min.css
 
     body.font-friendly
-        .lightblue-gradient
+        .bg-light
             // 
             include ../includes/announcement.pug
             include ../includes/header.pug
@@ -65,7 +65,7 @@ html(lang='en')
                 .container
                     .col-12.text-center
                         h1.heading.primary-color.launchaco-builder-hoverable Google Translate for Google Chrome
-                        h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable
+                        h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable.black
                             | Helperbird gives free translation support to any website or text, your browsing.
                         .mt40
 
@@ -107,8 +107,11 @@ html(lang='en')
                                         a(href="https://en.wikipedia.org/wiki/dyslexia", target="_blank",   title="Read more on OpenDyslexia")
                                             | https://en.wikipedia.org/wiki/dyslexia
                             h3.h3_features Demo video
-                            .mb20.youtube-feature-video
-                                iframe(title="Helperbird Google Translate for Google Chrome feature video ",loading="lazy" ,width="560" height="315" , src='https://www.youtube.com/embed/1HvWYhpevuY', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')                            
+                            div.scroller_video_home.mb20
+                                .scroller_video_item_home_page
+                                    .youtube_lazy_load(data-embed='1HvWYhpevuY')
+                                        .play-button
+                                             
                             h3.h3_features Screenshots
                             .row_img
                                 .column_img
