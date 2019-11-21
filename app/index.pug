@@ -68,13 +68,24 @@ html(lang='en')
                 .youtube_lazy_load(data-embed='aXXRSenvTTg')
                   .play-button
             .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color(href='https://chrome.google.com/webstore/detail/dyslexia-accessibility-to/ahmapmilbkfamljbpgphfndeemhnajme', target='_blank', rel='noreferrer')
-                span  Download Helperbird for Free
+ 
+              .flex.center-horizontal.wrap.center-vertical
+                .col-12.mobile-col-12
+                  img.press-logo.launchaco-builder-hoverable(alt='Reviews', src='assets/images/logos/stars.svg', loading="lazy" )
 
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.second_button.button-signup_two(href='/pricing')
-                span  Subscribe Now
+                  h3.primary-color.launchaco-builder-hoverable.mb40
+                   | 65,000+ users with 100+ Chrome store reviews
 
+              .flex.center-horizontal.wrap.center-vertical
 
+                .col-6.mobile-col-6
+                  a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color(href='https://chrome.google.com/webstore/detail/dyslexia-accessibility-to/ahmapmilbkfamljbpgphfndeemhnajme', target='_blank', rel='noreferrer')
+                    span  Download Helperbird for Chrome
+
+                .col-6.mobile-col-6
+                  a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.second_button.button-signup_two(href='https://addons.mozilla.org/en-CA/firefox/addon/helperbird/', target='_blank', rel='noreferrer')
+                    span  Download Helperbird for Firefox
+  
     include includes/press.pug
     //include includes/app.pug
     include includes/features.pug 
