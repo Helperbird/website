@@ -293,10 +293,6 @@ svg#pricing_one {
 	margin-right: auto;
 }
 
-.nav-link:hover {
-	color: rgba(255, 255, 255, 0.5);
-}
-
 .questions {
 	padding: 20px;
 	background-color: #fff;
