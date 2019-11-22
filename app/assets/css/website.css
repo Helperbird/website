@@ -190,7 +190,7 @@ body {
 }
 
 .try_button {
-	background-color: #501cd1;
+	background-color: #501cd1 !important;
 	color: white;
 	border: 0;
 	padding: 8px;
