@@ -109,20 +109,16 @@ function enableStroke() {
 
 function cognitiveLoad() {
     const CSS = ` 
-
-		h1, h2, h3 , h4 , h5 , h6, span {     
-			display: block;
-			background: linear-gradient(to left, red, blue), linear-gradient(to left, red, blue);
-			background-size: 100% 3px;
-			background-position: bottom 0 left 0,bottom 0px left 0;
-			background-repeat: no-repeat;
-			padding-bottom: 4px;
-		} 
-
-		p {
-			display: inline;
-		}
-	`;
+  
+    h1, h2, h3 , h4 , h5 , h6 ,p {     
+  
+        background: linear-gradient(to left, blue, red), linear-gradient(to left, blue, red) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        }
+    
+    
+      `;
 
     const idName = 'helperbird-cognitive-id';
 
