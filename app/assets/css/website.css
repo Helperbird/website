@@ -189,6 +189,40 @@ body {
 	color: black;
 }
 
+.padding_0 {
+	padding: 0 !important;
+}
+
+.review_text {
+	font-size: 14px;
+	font-weight: 400;
+	-moz-box-orient: horizontal;
+	-ms-flex-direction: row;
+	-o-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	color: #8189a9;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.index_sub_text {
+	color: #3b3e4d;
+	margin-top: 26px;
+	max-width: 479px;
+}
+
+
+.margin-right-5 {
+	margin-right: 5px;
+}
+
 .try_button {
 	background-color: #501cd1 !important;
 	color: white;
@@ -227,9 +261,50 @@ body {
 	margin-right: 20px;
 	border-radius: 9px;
 }
+.img-comp-container {
+	position: relative;
+	height: 300px;
 
+	width: 500px;
+  }
+  
+  .img-comp-img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow:hidden;
+	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+  }
+
+
+  
+
+  .img-comp-img img {
+	display:block;
+	vertical-align:middle;
+    max-width: none;
+  }
+  
+  .img-comp-slider {
+	position: absolute;
+	z-index:9;
+	cursor: ew-resize;
+	/*set the appearance of the slider:*/
+	width: 40px;
+	height: 40px;
+	background-color: #510fda;
+	background: url('/assets/images/home/compare.png') #510fda no-repeat center;
+	border-radius: 50%;
+  }
+
+.img-comp-overlay{
+  border-right: 2px solid #510fda;
+}
+  
 .section_header {
-	padding-top: 150px;
+	padding-top: 130px;
 	overflow: hidden;
 	padding-bottom: 20px;
 }
@@ -4843,12 +4918,12 @@ td.hljs-ln-code {
 
 }
 
-.student{
+.student {
 	width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block !important;
-    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block !important;
+	margin-bottom: 20px;
 }
 
 .grey-background {
