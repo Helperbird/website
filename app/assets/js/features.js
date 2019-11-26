@@ -1,4 +1,16 @@
 function enableUnderline() {
+    try {
+
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable underline',
+            'value': 'enableUnderline'
+        });
+
+    } catch (error) {
+
+    }
+
     const idName = 'helperbird-blind-id';
     const CSS = ` a { text-decoration: none;     background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%)  left bottom no-repeat; background-size: 100% 2px; }`;
     const HEAD = document.head || document.getElementsByTagName('head')[0];
@@ -11,7 +23,30 @@ function enableUnderline() {
     }
 }
 
+function captureOutboundLink (url) {
+
+    gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': url,
+        'transport_type': 'beacon',
+        'event_callback': function(){document.location = url;}
+      });
+
+ }
+
 function enableFontColor(color) {
+
+    try {
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable font color',
+            'value': 'enableFontColor'
+        });
+
+    } catch (error) {
+
+    }
+
     if (color === null || color === undefined) {
         color = '#000';
     }
@@ -30,6 +65,18 @@ function enableFontColor(color) {
 
 
 function enableBackgroundColor(color) {
+
+    try {
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable background color',
+            'value': 'Enable background color'
+        });
+
+    } catch (error) {
+
+    }
+
     if (color === null || color === undefined) {
         color = '#000';
     }
@@ -47,6 +94,18 @@ function enableBackgroundColor(color) {
 }
 
 function enableTint(tint) {
+
+    try {
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable tint',
+            'value': 'Enable tint'
+        });
+
+    } catch (error) {
+
+    }
+
     const idName = 'helperbird-tint-id';
     let elem = document.createElement('div');
     let rgb = hexToRGB(tint, 0.5);
@@ -64,6 +123,19 @@ function reload() {
 }
 
 function enableRuler(ruler, size, position) {
+
+
+    try {
+ 
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable Ruler',
+            'value': 'Enable Ruler'
+        });
+
+    } catch (error) {
+
+    }
     const idName = 'helperbird-ruler-id';
     const ELEM = document.createElement('div');
     let rgb = hexToRGB(ruler, 0.5);
@@ -90,6 +162,20 @@ function hexToRGB(hex, alpha) {
 }
 
 function enableStroke() {
+
+
+    try {
+
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable Stroke',
+            'value': 'Enable Stroke'
+        });
+
+    } catch (error) {
+
+    }
+
     const CSS = ` p,h1,h2,h3,h4,h5,h6,b,a,li,lo,ul {   
       -webkit-text-fill-color: white;
       -webkit-text-stroke-width: 1px;
@@ -108,6 +194,19 @@ function enableStroke() {
 }
 
 function cognitiveLoad() {
+
+    try {
+
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable cognitive load',
+            'value': 'Enable cognitive load'
+        });
+
+
+    } catch (error) {
+
+    }
     const CSS = ` 
   
     h1, h2, h3 , h4 , h5 , h6 ,p {     
@@ -133,6 +232,17 @@ function cognitiveLoad() {
 }
 
 function enableFont() {
+    try {
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Enable font',
+            'value': 'Enable font'
+        });
+
+
+    } catch (error) {
+
+    }
     const idName = 'helperbird';
     let style = document.createElement('link');
     style.rel = 'stylesheet';
@@ -150,8 +260,15 @@ function disableFeature(id) {
     const ELEM = document.getElementById(id);
 
     try {
-        ga('send', 'event', 'Try Features', 'Button click', 'disable');
-    } catch (error) {}
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Disable ' + id,
+            'value': 'disable'
+        });
+
+    } catch (error) {
+
+    }
 
     if (ELEM) {
         ELEM.parentNode.removeChild(ELEM);
@@ -163,6 +280,18 @@ function disableFeature(id) {
 }
 
 function enableZoom(multiplier) {
+
+    try {
+        gtag('event', 'click', {
+            'event_category': 'Try Features',
+            'event_label': 'Button click',
+            'value': 'enableZoom'
+        });
+
+    } catch (error) {
+
+    }
+
     const classes = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6,b,span,a,button,div,li,lo,ul');
     let i;
     for (i = 0; i < classes.length; ++i) {
