@@ -23,16 +23,24 @@ function enableUnderline() {
     }
 }
 
-function captureOutboundLink (url) {
+function captureOutboundLink(url, newTab = false) {
 
     gtag('event', 'click', {
         'event_category': 'outbound',
         'event_label': url,
         'transport_type': 'beacon',
-        'event_callback': function(){document.location = url;}
-      });
+        'event_callback': function () {
 
- }
+            if (newTab) {
+                var win = window.open(url, '_blank');
+                win.focus();
+            } else {
+                document.location = url;
+            }
+        }
+    });
+
+}
 
 function enableFontColor(color) {
 
@@ -126,7 +134,7 @@ function enableRuler(ruler, size, position) {
 
 
     try {
- 
+
         gtag('event', 'click', {
             'event_category': 'Try Features',
             'event_label': 'Enable Ruler',
