@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/Helperbird/website.git"
   },
+  "gitHooks": {
+    "commit-msg": "node tasks/verify-commit-message.js"
+  },
   "author": "robert james gabriel",
   "license": "ISC",
   "bugs": {
@@ -47,10 +50,12 @@
   },
   "dependencies": {
     "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
     "css-loader": "^3.2.0",
     "del": "^5.1.0",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "fs": "0.0.1-security",
     "gulp-connect": "^5.7.0",
     "gulp-csso": "^3.0.1",
     "gulp-imagemin": "^5.0.3",
