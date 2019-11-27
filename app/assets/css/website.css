@@ -261,35 +261,49 @@ body {
 	margin-right: 20px;
 	border-radius: 9px;
 }
+
 .img-comp-container {
 	position: relative;
 	height: 300px;
+	margin-top: 80px;
+
+}
 
 
-  }
-  
-  .img-comp-img {
+.its_free {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	color: #cdf4ec;
+	filter: alpha(opacity=85);
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0;
+	opacity: .85;
+	margin-left: 5px;
+
+}
+
+.img-comp-img {
 	position: absolute;
 	width: auto;
 	height: auto;
-	overflow:hidden;
-	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	overflow: hidden;
+	-webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 
-  }
+}
 
 
-  
 
-  .img-comp-img img {
-	display:block;
-	vertical-align:middle;
-    max-width: none;
-  }
-  
-  .img-comp-slider {
+
+.img-comp-img img {
+	display: block;
+	vertical-align: middle;
+	max-width: none;
+}
+
+.img-comp-slider {
 	position: absolute;
-	z-index:9;
+	z-index: 9;
 	cursor: ew-resize;
 	/*set the appearance of the slider:*/
 	width: 40px;
@@ -297,12 +311,12 @@ body {
 	background-color: #510fda;
 	background: url('/assets/images/home/compare.png') #510fda no-repeat center;
 	border-radius: 50%;
-  }
-
-.img-comp-overlay{
-  border-right: 2px solid #510fda;
 }
-  
+
+.img-comp-overlay {
+	border-right: 2px solid #510fda;
+}
+
 .section_header {
 	padding-top: 130px;
 	overflow: hidden;
