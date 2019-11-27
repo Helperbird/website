@@ -865,6 +865,8 @@ input:checked+.slider:before {
 	margin-bottom: 35px;
 }
 
+
+
 .mb40:first-of-type {
 	margin-bottom: 40px;
 }
@@ -4929,6 +4931,13 @@ td.hljs-ln-code {
 	-webkit-font-smoothing: antialiased;
 	background-color: #efefef;
     color: #000;
+}
+
+.press_logos_title{
+	color: rgba(0,0,0,.498039);
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 22px;
 }
 
 .student {
