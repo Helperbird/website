@@ -1,11 +1,14 @@
 function enableUnderline() {
     try {
 
-        gtag('event', 'click', {
-            'event_category': 'Try Features',
-            'event_label': 'Enable underline',
-            'value': 'enableUnderline'
-        });
+        if (window.google_tag_manager) {
+            gtag('event', 'click', {
+                'event_category': 'Try Features',
+                'event_label': 'Enable underline',
+                'value': 'enableUnderline'
+            });
+        }
+
 
     } catch (error) {
 
@@ -24,21 +27,29 @@ function enableUnderline() {
 }
 
 function captureOutboundLink(url, newTab = false) {
+    if (window.google_tag_manager || (window.ga && ga.create)) {
+        gtag('event', 'click', {
+            'event_category': 'outbound',
+            'event_label': url,
+            'transport_type': 'beacon',
+            'event_callback': function () {
 
-    gtag('event', 'click', {
-        'event_category': 'outbound',
-        'event_label': url,
-        'transport_type': 'beacon',
-        'event_callback': function () {
-
-            if (newTab) {
-                var win = window.open(url, '_blank');
-                win.focus();
-            } else {
-                document.location = url;
+                if (newTab) {
+                    var win = window.open(url, '_blank');
+                    win.focus();
+                } else {
+                    document.location = url;
+                }
             }
+        });
+    } else {
+        if (newTab) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        } else {
+            document.location = url;
         }
-    });
+    }
 
 }
 
