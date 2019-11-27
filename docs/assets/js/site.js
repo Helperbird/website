@@ -239,7 +239,6 @@ function captureOutboundLink(url, newTab = false) {
             document.location = url;
         }
     }
-
 }
 
 function enableFontColor(color) {
