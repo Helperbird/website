@@ -46,218 +46,68 @@ html(lang='en')
       include includes/css/website.min.css
   body.font-friendly
     .lightblue-gradient
-      // 
+
+
 
       include includes/header.pug
+
       section.section_header
         .container-lrg.flex.mt40
-          .flex.flex-column.col-6
+          .flex.flex-column.col-12.text-center
             h1.heading.primary-color.launchaco-builder-hoverable
               | Privacy Policy
-            h2.paragraph.secondary-color.mt20.launchaco-builder-hoverable
-              | We Take Your Privacy and
-              | Security Seriously here at Helperbird.
-              | We do zero tracking in our app.
-            .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.try_button(href='https://chrome.google.com/webstore/detail/dyslexia-accessibility-to/ahmapmilbkfamljbpgphfndeemhnajme', target='_blank', rel='noreferrer')
-                svg(width='24', height='24', viewBox='0 0 24 24', xmlns='http://www.w3.org/2000/svg')
-                  path(d='M7.429 12c0 2.52 2.05 4.571 4.571 4.571 2.52 0 4.571-2.05 4.571-4.57 0-2.522-2.05-4.572-4.57-4.572A4.577 4.577 0 0 0 7.428 12z')
-                  path(d='M22.26 6.014a.193.193 0 0 0-.002-.196 11.991 11.991 0 0 0-4.285-4.215A12.026 12.026 0 0 0 11.966 0a11.945 11.945 0 0 0-9.352 4.468.193.193 0 0 0-.016.219l3.367 5.787a.196.196 0 0 0 .36-.049c.664-2.552 2.984-4.335 5.64-4.335a6.035 6.035 0 0 1 .524.022h9.6c.071 0 .136-.037.171-.098z')
-                  path(d='M13.673 17.779a.193.193 0 0 0-.206-.07 5.708 5.708 0 0 1-1.554.215c-2.237 0-4.3-1.332-5.254-3.395a.223.223 0 0 0-.007-.015L1.868 6.1A.194.194 0 0 0 1.698 6a.195.195 0 0 0-.17.1A12.253 12.253 0 0 0 0 12.034c0 2.916 1.036 5.733 2.917 7.931A11.863 11.863 0 0 0 10.165 24a.195.195 0 0 0 .169-.1l3.354-5.9a.201.201 0 0 0-.015-.221z')
-                  path(d='M22.996 7.429h-6.73a.196.196 0 0 0-.181.122.199.199 0 0 0 .044.216 5.848 5.848 0 0 1 1.746 4.187 5.862 5.862 0 0 1-1.047 3.356l-4.802 8.394a.2.2 0 0 0 0 .198c.036.06.1.098.17.098h.002a11.812 11.812 0 0 0 8.35-3.573A12.03 12.03 0 0 0 24 11.954c0-1.518-.276-2.998-.822-4.4a.196.196 0 0 0-.182-.125z')
-                span  Download for Chrome!
 
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center(href='https://addons.mozilla.org/en-CA/firefox/addon/helperbird/', target='_blank', rel='noreferrer')
-                span Download for Firefox!
-          .col-6.center-horizontal.center-vertical
-            .launchaco-builder-hoverable
-              include includes/svgs/webGirl.svg  
 
-    section#faq-1.section.lightblue-white(, activepage='privacy')
-      .container.mt40
-        .col-12.questions
-          .faq.pad20
-            input#faq-dropdown-1-0.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-0')
-              span.bold.primary-color.mr20 Privacy Policy
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Effective date: November 26, 2018
-              | Helperbird ("us", "we", or "our") operates the Helperbird mobile application (the "Service").
-              | This page informs you of our policies regarding the collection, use, and disclosure of personal
-              | data when you use our Service and the choices you have associated with that data. Our Privacy
-              | Policy for Helperbird is managed through Free Privacy Policy Website.
-              | We use your data to provide and improve the Service. By using the Service, you agree to the
-              | collection and use of information in accordance with this policy. Unless otherwise defined in
-              | this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms
-              | and Conditions.
-          .faq.pad20
-            input#faq-dropdown-1-1.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-1')
-              span.bold.primary-color.mr20 Information Collection And Use
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | We collect several different types of information for various purposes to provide and improve
-              | our Service to you.
-              | Types of Data Collected
-              | Personal Data
-              | While using our Service, we may ask you to provide us with certain personally identifiable
-              | information that can be used to contact or identify you ("Personal Data"). Personally
-              | identifiable information may include, but is not limited to:
-              | Email address
-              | Cookies
-              | When you access the websitr by or through a mobile device, we may collect certain information
-              | automatically, including, but not limited to, the type of mobile device you use,
-              |, your mobile operating system, the type
-              | of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage
-              | Data").
-              | Tracking & Cookies Data
-              | We use cookies and similar tracking technologies to track the activity on our website only and hold
-              | certain information though Google Anayaltics.
-              | Cookies are files with small amount of data which may include an anonymous unique identifier.
-              | Cookies are sent to your browser from a website and stored on your device. Tracking technologies
-              | also used are beacons, tags, and scripts to collect and track information and to improve and
-              | analyze our Service.
-              | You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.
-              | However, if you do not accept cookies, you may not be able to use some portions of our website.
-              | Examples of Cookies we use:
-              | Preference Cookies. We use Preference Cookies to remember your preferences and various settings for contacting support.
-              | Security Cookies. We use Security Cookies for security purposes.
-          .faq.pad20
-            input#faq-dropdown-1-2.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-2')
-              span.bold.primary-color.mr20 Use of Data
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Helperbird uses the collected data for various purposes:
-              | To provide and maintain the website and support.
-              | We collect nothing in app. Zero tracking
-              | To provide customer care and support
-              | To provide analysis or valuable information so that we can improve the Service
-          .faq.pad20
-            input#faq-dropdown-1-3.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-3')
-              span.bold.primary-color.mr20 Transfer Of Data
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Your information, including Personal Data, may be transferred to — and maintained on — computers
-              | located outside of your state, province, country or other governmental jurisdiction where the
-              | data protection laws may differ than those from your jurisdiction.
-              | If you are located outside Ireland and choose to provide information to us, please note that we
-              | transfer the data, including Personal Data, to Ireland and process it there.
-              | Your consent to this Privacy Policy followed by your submission of such information represents
-              | your agreement to that transfer.
-              | Helperbird will take all steps reasonably necessary to ensure that your data is treated securely
-              | and in accordance with this Privacy Policy and no transfer of your Personal Data will take place
-              | to an organization or a country unless there are adequate controls in place including the
-              | security of your data and other personal information.
-          .faq.pad20
-            input#faq-dropdown-1-4.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-4')
-              span.bold.primary-color.mr20 Disclosure Of Data
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Legal Requirements
-              | Helperbird may disclose your Personal Data in the good faith belief that such action is
-              | necessary to:
-              | To comply with a legal obligation
-              | To protect and defend the rights or property of Helperbird
-              | To prevent or investigate possible wrongdoing in connection with the Service
-              | To protect the personal safety of users of the Service or the public
-              | To protect against legal liability
-          .faq.pad20
-            input#faq-dropdown-1-5.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-5')
-              span.bold.primary-color.mr20 Security Of Data
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | The security of your data is important to us, but remember that no method of transmission over
-              | the Internet, or method of electronic storage is 100% secure. While we strive to use
-              | commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute
-              | security.
-          .faq.pad20
-            input#faq-dropdown-1-6.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-6')
-              span.bold.primary-color.mr20 Service Providers
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | We may employ third party companies and individuals to facilitate our Service ("Service
-              | Providers"), to provide the Service on our behalf, to perform Service-related services or to
-              | assist us in analyzing how our Service is used.
-              | These third parties have access to your Personal Data only to perform these tasks on our behalf
-              | and are obligated not to disclose or use it for any other purpose.
-          .faq.pad20
-            input#faq-dropdown-1-7.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-7')
-              span.bold.primary-color.mr20 Analytics
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | We may use third-party Service Providers to monitor and analyze the use of our Service.
-              | Google Analytics
-              | Google Analytics is a web analytics service offered by Google that tracks and reports website
-              | traffic. Google uses the data collected to track and monitor the use of our Service. This data
-              | is shared with other Google services. Google may use the collected data to contextualize and
-              | personalize the ads of its own advertising network.
-              | You may opt-out of certain Google Analytics features through your mobile device settings, such
-              | as your device advertising settings or by following the instructions provided by Google in their
-              | Privacy Policy: https://policies.google.com/privacy?hl=en
-              | For more information on the privacy practices of Google, please visit the Google Privacy &
-              | Terms web page: https://policies.google.com/privacy?hl=en
-          .faq.pad20
-            input#faq-dropdown-1-8.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-8')
-              span.bold.primary-color.mr20 Links To Other Sites
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Our Service may contain links to other sites that are not operated by us. If you click on a
-              | third party link, you will be directed to that third party's site. We strongly advise you to
-              | review the Privacy Policy of every site you visit.
-              | We have no control over and assume no responsibility for the content, privacy policies or
-              | practices of any third party sites or services.
-          .faq.pad20
-            input#faq-dropdown-1-9.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-9')
-              span.bold.primary-color.mr20 Children's Privacy
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | Our Service does not address anyone under the age of 18 ("Children").
-              | We do not knowingly collect personally identifiable information from anyone under the age of 18.
-              | If you are a parent or guardian and you are aware that your Children has provided us with
-              | Personal Data, please contact us. If we become aware that we have collected Personal Data from
-              | children without verification of parental consent, we take steps to remove that information from
-              | our servers.
-          .faq.pad20
-            input#faq-dropdown-1-10.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-10')
-              span.bold.primary-color.mr20 Changes To This Privacy Policy
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | We may update our Privacy Policy from time to time. We will notify you of any changes by posting
-              | the new Privacy Policy on this page.
-              | We will let you know via email and/or a prominent notice on our Service, prior to the change
-              | becoming effective and update the "effective date" at the top of this Privacy Policy.
-              | You are advised to review this Privacy Policy periodically for any changes. Changes to this
-              | Privacy Policy are effective when they are posted on this page.
-          .faq.pad20
-            input#faq-dropdown-1-11.faq-input(type='checkbox', name='faq')
-            label.faq-label.flex.spread.center-horizontal(for='faq-dropdown-1-11')
-              span.bold.primary-color.mr20 Contact Us
-              svg.noshrink.svg-fill(width='15px', height='9px', viewBox='0 0 15 9', version='1.1', xmlns='http://www.w3.org/2000/svg')
-                path(d='M7.4176407,5.65342711 L1.76421359,8.8817842e-16 L0.350000024,1.41421356 L6.00342714,7.06764068 L6,7.07106781 L7.41421356,8.48528137 L7.4176407,8.48185424 L7.42106784,8.48528137 L8.8352814,7.07106781 L8.83185426,7.06764068 L14.4852814,1.41421356 L13.0710678,8.8817842e-16 L7.4176407,5.65342711 Z')
-            p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
-              | If you have any questions about this Privacy Policy, please contact us:
-              | By email: support@helperbird.com
-              | By visiting this page on our website: https://helperbird.com
-    
+
+
+    section.section.lightblue-white
+      .container
+        .col-12
+          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Overview
+
+      .container
+        .col-12
+          p.paragraph.secondary-color.mt20
+            | This Privacy Policy describes how your personal information is handled in Helperbird for Chrome, Firefox and Edge.
+
+    section.section.lightblue-white
+      .container
+        .col-12
+          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us We Collect No Personal Information Using Our Applications
+
+      .container
+        .col-12
+          p.paragraph.secondary-color.mt20
+            | We do not collect, use, save, or have access to any of your personal data recorded in Helperbird for Chrome, Firefox or Edge.
+          p.paragraph.secondary-color.mt20
+            | Individual settings relating to the Helperbird apps are not personal and are stored only on your device and account. You might also be asked to provide access to your email and access to modify  the current webpage, but this is only so you can check if your account is marked as paid in Stripe and so we can make the changes you requested on the webpage. We don’t process that information at all and have no access to it.
+
+
+
+    section.section.lightblue-white
+      .container
+        .col-12
+          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Our Applications Comply with the Children’s Online Privacy Protection Act (COPPA & FERPA)
+
+      .container
+        .col-12
+          p.paragraph.secondary-color.mt20
+            | Our applications don’t collect personal information from anyone, including children under the age of 13.
+
+
+
+    section.section.lightblue-white
+      .container
+        .col-12
+          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Contact Us
+
+      .container
+        .col-12
+          p.paragraph.secondary-color.mt20
+            | If you have any questions about this Privacy Policy, feel free to get in touch with us at support@helperbird.com
+
+
+
+
+
     include includes/footer.pug
