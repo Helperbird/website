@@ -4927,9 +4927,8 @@ td.hljs-ln-code {
 	padding-top: 45px;
 	padding-bottom: 45px;
 	-webkit-font-smoothing: antialiased;
-	background-color: rgba(30, 32, 44, .95);
-	color: #fff;
-
+	background-color: #efefef;
+    color: #000;
 }
 
 .student {
