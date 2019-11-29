@@ -53,9 +53,12 @@ function svgs(cb) {
 
 
 function css_website(cb) {
-  src('app/assets/css/website.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+  src([
+    'app/assets/css/bootstrap.css',
+    'app/assets/css/website.css',
+  ])
     .pipe(minifyCSS())
+    .pipe(concat('website.css'))
     .pipe(rename({
       suffix: ".min"
     }))
@@ -67,9 +70,20 @@ function css_website(cb) {
 
 
 function javascript(cb) {
-  src('app/assets/js/*.js', {
-      sourcemaps: true
-    })
+
+
+  src(  [
+    'app/assets/js/jquery.js',
+    'app/assets/js/slim.js',
+    'app/assets/js/bootstrap.js',
+    'app/assets/js/a-stripe.js',
+    'app/assets/js/features.js',
+    'app/assets/js/plans.js',
+    'app/assets/js/site.js',
+    'app/assets/js/slider.js',
+    'app/assets/js/third-party.js',
+    'app/assets/js/youtube.js',
+  ])
     .pipe(concat('site.js'))
     .pipe(dest('docs/assets/js'));
   cb();
