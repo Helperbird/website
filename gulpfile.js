@@ -9,6 +9,7 @@ const image = require('gulp-image');
 const imagemin = require("gulp-imagemin");
 const rename = require("gulp-rename");
 const sitemapGulp = require('gulp-sitemap');
+const minify = require('gulp-minify');
 const webp = require('gulp-webp');
 const svgmin = require('gulp-svgmin');
 const TASKS = require('./tasks/service-worker.js');
@@ -70,9 +71,8 @@ function css_website(cb) {
 
 
 function javascript(cb) {
-
-
-  src(  [
+  src(  
+  [
     'app/assets/js/jquery.js',
     'app/assets/js/slim.js',
     'app/assets/js/bootstrap.js',
@@ -84,8 +84,9 @@ function javascript(cb) {
     'app/assets/js/third-party.js',
     'app/assets/js/youtube.js',
   ])
-    .pipe(concat('site.js'))
-    .pipe(dest('docs/assets/js'));
+
+  .pipe(concat('site.js'))
+  .pipe(dest('docs/assets/js'));
   cb();
 }
 
