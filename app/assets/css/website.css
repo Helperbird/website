@@ -235,6 +235,14 @@ body {
 	text-align: center;
 }
 
+.team-photo{
+	border-radius: 100px !important;
+    width: 100px !important;
+    margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 30px !important;
+}
+
 .read_more {
 	position: absolute;
 }
