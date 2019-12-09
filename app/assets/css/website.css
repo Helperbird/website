@@ -247,6 +247,11 @@ body {
 	position: absolute;
 }
 
+.modal-open .modal{
+
+	z-index: 9999999999999999999999 !important;
+}
+
 .scroller_video_item_home_page {
 	width: 100%;
 	background-color: #f5f5f5;
