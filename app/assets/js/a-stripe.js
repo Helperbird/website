@@ -167,7 +167,7 @@ setTimeout(() => {
                 // a successful payment.
                 // Instead use one of the strategies described in
                 // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
+                successUrl: 'https://www.helperbird.com/success-education',
                 cancelUrl: 'https://www.helperbird.com/cancel',
               })
               .then(function (result) {

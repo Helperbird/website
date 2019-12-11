@@ -4842,16 +4842,24 @@ td.hljs-ln-code {
 	height: 100%;
 }
 
+.blue_button{
+	background-color: #446dd8 !important;
+}
+
+.yellow_button{
+	background-color: #f6bc41 !important;
+}
+
 .pricing_icon {
 	padding-right: 20px;
 }
 
-.fa-times {
+.fa-times , .fa-times-circle{
 	fill: #d32f2f;
 	color: #d32f2f;
 }
 
-.fa-check {
+.fa-check,.fa-check-circle   {
 	fill: #4caf50;
 	color: #4caf50;
 }
