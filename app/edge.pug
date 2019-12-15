@@ -61,9 +61,8 @@ html(lang='en')
               | Helperbird is a Microsoft Edge browser extension that gives you features such as dyslexia fonts, change the font & background color, text to speech, 
               | overlays, dyslexia rulers and more to make the web accessible to your needs!
             .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.try_button(href='https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd', onclick="captureOutboundLink('https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd'); return false;",  target='_blank', rel='noreferrer')
-                span  Download Helperbird 
-                span.its_free  for Edge
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.try_button(type='button' data-toggle='modal' data-target='#downloadModal')
+                span  Download Helperbird
                 
             .flex.center-horizontal.wrap.center-vertical
               .col-12.mobile-col-12.review_text.padding_0
