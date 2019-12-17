@@ -279,6 +279,7 @@ body {
 	position: relative;
 	height: 300px;
 	margin-top: 80px;
+	left:12%;
 
 }
 
@@ -4834,6 +4835,10 @@ td.hljs-ln-code {
 	background-color: #fff;
 	color: #000;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.float_left{
+	float: left !important
 }
 
 img.grayscale {
