@@ -42,7 +42,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/</loc>
-        <lastmod>2019-12-17T21:43:44.666Z</lastmod>
+        <lastmod>2019-12-18T00:58:03.763Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/pricing.html</loc>
@@ -101,14 +101,6 @@
         <lastmod>2019-12-17T23:40:55.685Z</lastmod>
     </url>
     <url>
-        <loc>https://www.helperbird.com/compare/read&write-alternative.html</loc>
-        <lastmod>2019-12-17T22:31:22.576Z</lastmod>
-    </url>
-    <url>
-        <loc>https://www.helperbird.com/compare/read-and-write-alternative.html</loc>
-        <lastmod>2019-12-17T23:33:25.800Z</lastmod>
-    </url>
-    <url>
         <loc>https://www.helperbird.com/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html</loc>
         <lastmod>2019-11-16T01:13:13.826Z</lastmod>
     </url>
@@ -123,6 +115,14 @@
     <url>
         <loc>https://www.helperbird.com/blog/signin.html</loc>
         <lastmod>2019-11-15T09:06:08.983Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/compare/read&write-alternative.html</loc>
+        <lastmod>2019-12-17T22:31:22.576Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/compare/read-and-write-alternative.html</loc>
+        <lastmod>2019-12-18T00:44:27.151Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/features/blacklist.html</loc>
@@ -143,6 +143,14 @@
     <url>
         <loc>https://www.helperbird.com/features/google-translate.html</loc>
         <lastmod>2019-12-06T02:43:22.917Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/features/high-contrast.html</loc>
+        <lastmod>2019-12-18T00:57:47.719Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/features/invert.html</loc>
+        <lastmod>2019-12-18T00:51:44.227Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/features/notes.html</loc>
