@@ -1,0 +1,139 @@
+section.section_header.pricing_table
+    #stars
+    #stars2
+    #stars3
+    .container-lrg.flex
+        .col-12
+            .card.flex.mobile-flex-wrap.no_border
+
+                .col-4
+
+
+
+                .col-4.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.table_left.custom_table_most_popluar
+                    .mb20
+                        p.bold Life Time 
+                        b.heading#oneTimePricing $60.00           
+                        span.paragraph#oneTimePricingText  Once
+                        ul.mt20
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle                                            
+                                span.span Specialized fonts for dyslexics
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span
+                                    | Change font sizes
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Screenshot
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Reader mode
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Google Translate 
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Color blindness underline
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Color blindness text stroke
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 
+                                    | Change the font color
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Change the background color
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span  Invert mode
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Dyslexia ruler
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Tint and overlays
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span 	
+                                    | Premium support
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Dictionary app
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Notes app
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Text to speech
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span Speech to text
+
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle
+                                span.span   Success manager
+
+                            li.flex.mb20
+                                p.pricing_icon
+                                    i.fas.fa-check-circle                              
+                                span.span  
+                                    b Unlimited users 
+
+
+                    a.button.website_Plus_button.mobile-text-center.mt10.launchaco-builder-hoverable.button__full.mobile-text-center.accent-bg.button-signup.primary-color.blue_button#checkout-button-sku_GOJJLiQ8d9juJm
+                        span  Get started
+
+
+
+
+    script.
+        (function() {
+        var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
+        var checkoutButton = document.getElementById('checkout-button-sku_GOJJLiQ8d9juJm');
+        checkoutButton.addEventListener('click', function () {
+        // When the customer clicks on the button, redirect
+        // them to Checkout.
+        stripe.redirectToCheckout({
+        items: [{sku: 'sku_GOJJLiQ8d9juJm', quantity: 1}],
+        // Do not rely on the redirect to the successUrl for fulfilling
+        // purchases, customers may not always reach the success_url after
+        // a successful payment.
+        // Instead use one of the strategies described in
+        // https://stripe.com/docs/payments/checkout/fulfillment
+        successUrl: 'https://www.helperbird.com/success',
+        cancelUrl: 'https://www.helperbird.com/canceled',
+        })
+        .then(function (result) {
+        if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+
+        }
+        });
+        });
+        })();
