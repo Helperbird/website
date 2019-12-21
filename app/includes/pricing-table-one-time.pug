@@ -103,32 +103,3 @@ section.section_header.pricing_table
                     a.button.website_Plus_button.mobile-text-center.mt10.launchaco-builder-hoverable.button__full.mobile-text-center.accent-bg.button-signup.primary-color.blue_button#checkout-button-sku_GOJJLiQ8d9juJm
                         span  Get started
 
-
-    script(src='/assets/js/site.js?x=2')
-
-    script.
-        (function() {
-        var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
-        var checkoutButton = document.getElementById('checkout-button-sku_GOJJLiQ8d9juJm');
-        checkoutButton.addEventListener('click', function () {
-        // When the customer clicks on the button, redirect
-        // them to Checkout.
-        stripe.redirectToCheckout({
-        items: [{sku: 'sku_GOJJLiQ8d9juJm', quantity: 1}],
-        // Do not rely on the redirect to the successUrl for fulfilling
-        // purchases, customers may not always reach the success_url after
-        // a successful payment.
-        // Instead use one of the strategies described in
-        // https://stripe.com/docs/payments/checkout/fulfillment
-        successUrl: 'https://www.helperbird.com/success',
-        cancelUrl: 'https://www.helperbird.com/canceled',
-        })
-        .then(function (result) {
-        if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-
-        }
-        });
-        });
-        })();

@@ -69,8 +69,7 @@ html(lang='en')
                 img.margin-right-5(alt='Reviews', src='assets/images/logos/stars.svg', loading="lazy" )
                 | 65,000+ users with 100+ reviews
             .flex.center-horizontal.wrap.center-vertical.mt20
-              .col-12.mobile-col-12.review_text.padding_0.mt20
-                | #[a( href='https://www.youtube.com/watch?v=aXXRSenvTTg', onclick="captureOutboundLink('https://www.youtube.com/watch?v=aXXRSenvTTg', true); return false;", target='_blank', rel='noreferrer') Watch it in action.]
+
               .col-12.mobile-col-12.review_text.padding_0.mt20
                 b 
                   | Follow us on
@@ -90,11 +89,10 @@ html(lang='en')
 
 
           .flex.flex-column.col-6
-            .img-comp-container
-              .img-comp-img
-                img(src='./assets/images/home/before.png' width='500' height='300')
-              .img-comp-img.img-comp-overlay
-                img(src='./assets/images/home/after.png' width='500' height='300')
+            div.scroller_video_home.mb20
+              .scroller_video_item_home_page
+                .youtube_lazy_load(data-embed='aXXRSenvTTg')
+                  .play-button
 
 
 
