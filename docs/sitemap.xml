@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.helperbird.com/about.html</loc>
-        <lastmod>2019-12-06T02:25:01.325Z</lastmod>
+        <lastmod>2019-12-21T23:17:43.048Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/cancel.html</loc>
@@ -102,7 +102,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/welcome.html</loc>
-        <lastmod>2019-12-21T23:08:59.002Z</lastmod>
+        <lastmod>2019-12-21T23:16:31.402Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html</loc>
@@ -151,6 +151,10 @@
     <url>
         <loc>https://www.helperbird.com/features/high-contrast.html</loc>
         <lastmod>2019-12-18T01:12:32.866Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/features/immersive-reader-for-chrome.html</loc>
+        <lastmod>2019-12-22T23:39:37.167Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/features/invert.html</loc>
