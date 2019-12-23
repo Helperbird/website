@@ -4907,6 +4907,13 @@ img.grayscale:hover {
 
 }
 
+.center_button{
+	margin-left: auto !important;
+    margin-right: auto !important;
+    width: 120px !important;
+    display: block !important;
+}
+
 /* The dots/bullets/indicators */
 .dot,
 .dotVideo {
