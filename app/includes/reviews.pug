@@ -5,11 +5,8 @@ section#testimonial-5.section.lightblue-white
       p.paragraph.mt20.secondary-color.mt20.launchaco-builder-hoverable
         |  See what the happy users have to say about Helperbird.
 
-    div.scroller_video
-
-
-
-      .scroller_video_item
+    .slideshow-container
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | Helperbird is a very useful and smartly designed tool that will 
           | most definitely  make the browsing life of any user suffering 
@@ -22,11 +19,11 @@ section#testimonial-5.section.lightblue-white
             img(loading="lazy",src="/assets/images/reviews/vladimir.jpg", alt="Photo of a happy reviewer of Helperbird,  Vladimir Ciobica")
           p.span.secondary-color.mb10.launchaco-builder-hoverable Vladimir Ciobica
           span.span.secondary-color.launchaco-builder-hoverable Reviewer 
- 
 
 
 
-      .scroller_video_item
+
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | It's the best app for dyslexia 
           | I've ever seen! 
@@ -40,7 +37,7 @@ section#testimonial-5.section.lightblue-white
           span.span.secondary-color.launchaco-builder-hoverable Reviewer 
  
  
-      .scroller_video_item
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | Huge fan of the zoom feature. 
           br
@@ -55,7 +52,7 @@ section#testimonial-5.section.lightblue-white
           span.span.secondary-color.launchaco-builder-hoverable User
 
 
-      .scroller_video_item
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | Amazing in eliminating embarrassing mistakes. 
           | Am one happy kid here!
@@ -65,7 +62,7 @@ section#testimonial-5.section.lightblue-white
           p.span.secondary-color.mb10.launchaco-builder-hoverable Brian Borland
           span.span.secondary-color.launchaco-builder-hoverable User
 
-      .scroller_video_item
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | I love and  use Helperbird for Chrome and I think it's a great tool!
           | Thanks for the screenshot feature!
@@ -75,7 +72,7 @@ section#testimonial-5.section.lightblue-white
           p.span.secondary-color.mb10.launchaco-builder-hoverable Walter Washburn
           span.span.secondary-color.launchaco-builder-hoverable User
 
-      .scroller_video_item
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | Wow what great tool, I love it! Keep up the excellent work. 
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
@@ -88,7 +85,7 @@ section#testimonial-5.section.lightblue-white
           p.span.secondary-color.mb10.launchaco-builder-hoverable James Connell
           span.span.secondary-color.launchaco-builder-hoverable User
 
-      .scroller_video_item
+      .mySlides.scroller_video_item
         p.primary-color.launchaco-builder-hoverable.paragraph.text-center
           | Works a treat. Couldn't get dyslexie.com to work.  This is brill!
         .mt20
@@ -97,3 +94,44 @@ section#testimonial-5.section.lightblue-white
           p.span.secondary-color.mb10.launchaco-builder-hoverable Sue Dowdall
           span.span.secondary-color.launchaco-builder-hoverable User
 
+
+      a.prev(onclick='plusSlides(-1)') &#x276E;
+      a.next(onclick='plusSlides(1)') &#x276F;
+    .dot-container
+      span.dot(onclick='currentSlide(1)')
+      span.dot(onclick='currentSlide(2)')
+      span.dot(onclick='currentSlide(3)')
+      span.dot(onclick='currentSlide(4)')
+      span.dot(onclick='currentSlide(5)')
+      span.dot(onclick='currentSlide(6)')
+      span.dot(onclick='currentSlide(7)')
+
+
+
+script.
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
