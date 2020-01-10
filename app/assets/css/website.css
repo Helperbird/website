@@ -357,8 +357,8 @@ body {
 }
 
 .logo {
-	font-size: calc(70% + 1vw);
-	line-height: calc(135% + 1vw);
+	font-size: calc(35% + 1vw);
+	line-height: calc(165% + 1vw);
 	display: inherit;
 	color: #000 !important;
 }
