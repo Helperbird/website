@@ -262,6 +262,7 @@ body {
 
 .remove_border {
 	border-radius: 0px !important;
+	max-width: 200px;
 }
 
 .scroller_video_item {
@@ -354,6 +355,11 @@ body {
 	border-top: 2px solid #ffbe9d;
 
 
+}
+
+
+.mt80{
+	margin-top: 80px !important;
 }
 
 .logo {
@@ -5761,7 +5767,7 @@ img.grayscale:hover {
 .column_img {
 	float: left;
 	width: 25%;
-	padding: 10px;
+	margin: 10px;
 }
 
 .row_img_features {

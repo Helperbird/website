@@ -55,6 +55,7 @@ function svgs(cb) {
 
 function css_website(cb) {
   src([
+    'app/assets/css/toastr.css',
     'app/assets/css/bootstrap.css',
     'app/assets/css/website.css',
   ])
@@ -75,6 +76,7 @@ function javascript(cb) {
   [
     'app/assets/js/jquery.js',
     'app/assets/js/slim.js',
+    'app/assets/js/toastr.js',
     'app/assets/js/bootstrap.js',
     'app/assets/js/a-stripe.js',
     'app/assets/js/features.js',

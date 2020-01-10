@@ -8,6 +8,26 @@ setTimeout(() => {
         d.getElementsByTagName("head")[0].appendChild(s);
     })();
 
+
+	toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-bottom-left",
+        "preventDuplicates": false,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+      }
+      
+ 
+
 }, 1000), {
     once: true
 }
@@ -27,6 +47,7 @@ setTimeout(() => {
         checkoutButtonOne.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         plan: 'plan_FmS3HONbzTCxGl',
@@ -44,8 +65,9 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
+   
+                        toastr.warning(result.error.message);
+        
                     }
                 });
         });
@@ -59,6 +81,7 @@ setTimeout(() => {
         checkoutButtonTwo.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         plan: '1',
@@ -77,8 +100,7 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
+                        toastr.warning(result.error.message);
                     }
                 });
         });
@@ -91,6 +113,7 @@ setTimeout(() => {
         checkoutButtonOnceOff.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         sku: 'sku_GOJJLiQ8d9juJm',
@@ -108,7 +131,7 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-
+                        toastr.warning(result.error.message);
                     }
                 });
         });
@@ -120,6 +143,7 @@ setTimeout(() => {
             // them to Checkout.
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         plan: 'plan_G1O8Rztm6fFf4R',
@@ -138,8 +162,7 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
+                        toastr.warning(result.error.message);
                     }
                 });
         });
@@ -155,6 +178,7 @@ setTimeout(() => {
             // them to Checkout.
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         plan: 'plan_G1OnSt8DIms1PY',
@@ -173,8 +197,7 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
+                        toastr.warning(result.error.message);
                     }
                 });
         });
@@ -191,6 +214,7 @@ setTimeout(() => {
             // them to Checkout.
             // When the customer clicks on the button, redirect
             // them to Checkout.
+
             stripe.redirectToCheckout({
                     items: [{
                         plan: 'plan_GDtSwhVHQXfaSw',
@@ -209,8 +233,7 @@ setTimeout(() => {
                     if (result.error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
+                        toastr.warning(result.error.message);
                     }
                 });
         });
