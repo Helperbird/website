@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.helperbird.com/about.html</loc>
-        <lastmod>2019-12-24T18:42:18.290Z</lastmod>
+        <lastmod>2020-01-10T06:16:33.331Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/cancel.html</loc>
@@ -10,7 +10,11 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/chrome.html</loc>
-        <lastmod>2020-01-10T02:53:13.083Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/community.html</loc>
+        <lastmod>2020-01-10T07:04:58.220Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/compliance.html</loc>
@@ -22,11 +26,11 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/edge.html</loc>
-        <lastmod>2020-01-10T02:53:13.069Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/enterprise.html</loc>
-        <lastmod>2020-01-10T02:38:38.558Z</lastmod>
+        <lastmod>2020-01-10T17:02:54.254Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/feedback.html</loc>
@@ -34,7 +38,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/firefox.html</loc>
-        <lastmod>2020-01-10T02:53:13.083Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/googlea4b2e0ff05c168d5.html</loc>
@@ -46,7 +50,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/</loc>
-        <lastmod>2020-01-10T02:53:13.064Z</lastmod>
+        <lastmod>2020-01-17T04:23:29.268Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/life-time.html</loc>
@@ -78,15 +82,15 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/success-education.html</loc>
-        <lastmod>2020-01-10T02:53:13.063Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/success.html</loc>
-        <lastmod>2020-01-10T02:53:13.063Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/support.html</loc>
-        <lastmod>2019-12-24T18:02:25.791Z</lastmod>
+        <lastmod>2020-01-10T09:41:45.700Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/survey.html</loc>
@@ -106,15 +110,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/welcome.html</loc>
-        <lastmod>2020-01-10T02:53:13.063Z</lastmod>
-    </url>
-    <url>
-        <loc>https://www.helperbird.com/compare/immersive-reader-by-microsoft-alternative.html</loc>
-        <lastmod>2020-01-03T15:57:00.258Z</lastmod>
-    </url>
-    <url>
-        <loc>https://www.helperbird.com/compare/read-and-write-alternative.html</loc>
-        <lastmod>2020-01-03T15:57:00.255Z</lastmod>
+        <lastmod>2020-01-17T04:19:18.447Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html</loc>
@@ -131,6 +127,14 @@
     <url>
         <loc>https://www.helperbird.com/blog/signin.html</loc>
         <lastmod>2019-11-15T09:06:08.983Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/compare/immersive-reader-by-microsoft-alternative.html</loc>
+        <lastmod>2020-01-03T15:57:00.258Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.helperbird.com/compare/read-and-write-alternative.html</loc>
+        <lastmod>2020-01-03T15:57:00.255Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/features/blacklist.html</loc>
@@ -194,7 +198,7 @@
     </url>
     <url>
         <loc>https://www.helperbird.com/features/styles.html</loc>
-        <lastmod>2020-01-10T03:25:26.869Z</lastmod>
+        <lastmod>2020-01-10T04:17:17.173Z</lastmod>
     </url>
     <url>
         <loc>https://www.helperbird.com/features/text-to-speech.html</loc>
