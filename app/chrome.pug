@@ -67,7 +67,7 @@ html(lang='en')
             .flex.center-horizontal.wrap.center-vertical
               .col-12.mobile-col-12.review_text.padding_0
                 img.margin-right-5(alt='Reviews', src='assets/images/logos/stars.svg', loading="lazy" )
-                | 84,000+ users with 100+ reviews
+                | 120,000+ users with 100+ reviews
             .flex.center-horizontal.wrap.center-vertical.mt20
               .col-12.mobile-col-12.review_text.padding_0
                 | #[a( href='https://www.youtube.com/watch?v=aXXRSenvTTg', onclick="captureOutboundLink('https://www.youtube.com/watch?v=aXXRSenvTTg', true); return false;", target='_blank', rel='noreferrer') Watch it in action.]
@@ -96,7 +96,7 @@ html(lang='en')
                   h2.paragraph.secondary-color.mt20.launchaco-builder-hoverable.white
                       |   Monthly | Annual (20% discount)
                   label.switch
-                      input(type='checkbox', name='xxx', onclick='calc();')#annual
+                      input(type='checkbox', name='xxx', onclick='calc();' checked)#annual
                       span.slider.round
       include includes/pricing-table-new-two.pug
       .container-lrg.flex.payments
