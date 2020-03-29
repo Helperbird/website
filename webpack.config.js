@@ -686,7 +686,7 @@ module.exports = {
       // and not allow any straggling "old" SWs to hang around
 
       importsDirectory: 'assets/',
-      exclude: [/cname|app.css|robots.txt|/],
+      exclude: [/cname|CNAME|app.css|robots.txt|/],
       offlineGoogleAnalytics: true,
       clientsClaim: true,
       skipWaiting: true,
