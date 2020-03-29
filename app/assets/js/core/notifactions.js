@@ -9,8 +9,13 @@ const notyf = new Notyf({
 
 
 async function popup(message) {
+	setTimeout(() => {
 
-    notyf.success(message);
+        notyf.success(message);
+	}, 2000), {
+		once: true
+	}
+
 }
 
 
