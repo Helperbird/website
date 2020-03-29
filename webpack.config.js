@@ -685,9 +685,9 @@ module.exports = {
       // these options encourage the ServiceWorkers to get in there fast
       // and not allow any straggling "old" SWs to hang around
 
-      importsDirectory: 'assets/',
-      exclude: [/cname|CNAME|app.css|robots.txt|/],
-      offlineGoogleAnalytics: true,
+
+
+      exclude: [/(?:cname|CNAME|app.css|robots.txt|.DS_Store)$/],
       clientsClaim: true,
       skipWaiting: true,
     }),
