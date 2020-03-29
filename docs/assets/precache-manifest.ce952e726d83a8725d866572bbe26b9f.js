@@ -6540,7 +6540,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blog/signin.html"
   },
   {
-    "revision": "51836e37ffe7c1ac1625e3caa4a2e23b",
+    "revision": "b2dbb64f020e6490336aed970ed3d4a3",
     "url": "/cancel.html"
   },
   {

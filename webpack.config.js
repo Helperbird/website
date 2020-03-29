@@ -36,26 +36,27 @@ const paths = [
   '/features/styles',
   '/features/text-to-speech',
   '/features/zoom',
-  '/about', 
-  '/welcome', 
-  '/chrome', 
-  '/compliance', 
-  '/contact', 
-  '/edge', 
-  '/enterprise', 
-  '/feedback', 
-  '/firefox', 
-  '/in-the-news', 
-  '/pricing', 
-  '/privacy', 
-  '/roadmap', 
+  '/about',
+  '/welcome',
+  '/chrome',
+  '/compliance',
+  '/contact',
+  '/edge',
+  '/enterprise',
+  '/feedback',
+  '/firefox',
+  '/in-the-news',
+  '/pricing',
+  '/privacy',
+  '/roadmap',
   '/sales',
-  '/sitemap', 
-  '/support', 
-  '/survey', 
+  '/sitemap',
+  '/support',
+  '/survey',
   '/terms-of-service',
-  '/updates', 
-  '/'];
+  '/updates',
+  '/'
+];
 
 module.exports = {
   mode: 'production',
@@ -659,6 +660,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+    new HTMLInlineCSSWebpackPlugin(),
     new CopyPlugin([{
         from: 'assets/setup/',
         to: ''
@@ -677,7 +679,7 @@ module.exports = {
         to: 'assets/svgs'
       }
     ]),
-    new HTMLInlineCSSWebpackPlugin(),
+
     new SitemapPlugin('https://www.helperbird.com', paths),
     new WorkboxPlugin.GenerateSW({
       // these options encourage the ServiceWorkers to get in there fast

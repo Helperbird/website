@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "images": "gulp",
     "start": "webpack-dev-server --mode development && http-server docs",
     "clean": "purgecss --css app/assets/css/styles.css --content app/index.html --out docs/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RobertJGabriel/removemyporn.git"
+    "url": "git+https://github.com/helperbird/website.git"
   },
   "author": "Robert James Gabriel",
   "license": "ISC",
