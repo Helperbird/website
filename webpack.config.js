@@ -277,7 +277,7 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
-      filename: 'features/features/reader-mode-for-chrome-and-firefox.html',
+      filename: 'features/reader-mode-for-chrome-and-firefox.html',
       template: './templates/features/reader-mode-for-chrome-and-firefox.html',
       minify: {
         collapseWhitespace: true,
