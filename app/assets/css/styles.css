@@ -3708,9 +3708,11 @@ td.hljs-ln-code {
 /* Float four columns side by side */
 
 .column-card {
-	float: left;
+
 	width: 50%;
-	padding: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4%;
 }
 .display_block {
 	display: block;

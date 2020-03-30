@@ -1,6 +1,6 @@
-import '../css/override.css';
-import '../css/styles.css';
-import '../css/modal.css';
+import '../css/override.min.css';
+import '../css/styles.min.css';
+import '../css/modal.min.css';
 // Js
 import * as stripe from './core/stripe';
 import * as plan from './core/plans';
