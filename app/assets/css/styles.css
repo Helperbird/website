@@ -136,7 +136,7 @@ body {
 	margin-right: 5px;
 }
 .try_button {
-	background-color: #501cd1 !important;
+	background-color: #2d2857 !important;
 	color: white;
 	border: 0;
 	padding: 8px;
@@ -229,7 +229,8 @@ body {
 .header {
 	position: fixed;
 	width: 100%;
-	background: #fff !important;
+	background: #2d2857 !important;
+	
 	z-index: 9999999;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -892,7 +893,7 @@ input:checked+.slider:before {
 	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.37) !important;
 }
 .blue-flat {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .blue-flat .secondary-bg {
 	background-color: #041029;
@@ -910,7 +911,7 @@ input:checked+.slider:before {
 	fill: #fff;
 }
 .blue-gradient {
-	background: linear-gradient(#00c3ff, #501cd1);
+	background: linear-gradient(#00c3ff, #2d2857);
 }
 .blue-gradient .secondary-bg {
 	background-color: #041029;
@@ -931,7 +932,7 @@ input:checked+.slider:before {
 	background-color: #041029;
 }
 .blue-accent .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .blue-accent .primary-color {
 	color: #ffffff;
@@ -946,7 +947,7 @@ input:checked+.slider:before {
 	background-color: #041029;
 }
 .blue-black .secondary-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .blue-black .accent-bg {
 	background-color: #00cc47;
@@ -964,7 +965,7 @@ input:checked+.slider:before {
 	background-color: #ffffff;
 }
 .blue-white .secondary-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 	fill: #fff;
 }
 .blue-white .accent-bg {
@@ -974,7 +975,7 @@ input:checked+.slider:before {
 	color: #000;
 }
 .blue-white .svg-fill {
-	fill: #501cd1;
+	fill: #2d2857;
 }
 .purple-flat {
 	background-color: #b061d0;
@@ -2070,7 +2071,7 @@ input:checked+.slider:before {
 	background-color: #FFF;
 }
 .lightblue-flat .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .lightblue-flat .primary-color {
 	color: #ffffff;
@@ -2092,7 +2093,7 @@ input:checked+.slider:before {
 }
 .lightblue-gradient {
 	height: 100%;
-	background: #fff !important;
+	background: #2d2857 !important;
 	overflow: hidden;
 }
 .lightblue-gradient .secondary-bg {
@@ -2104,13 +2105,13 @@ input:checked+.slider:before {
 }
 .lightblue-gradient .primary-color {}
 .lightblue-gradient .secondary-color {
-	color: #000;
+	color: #fff;
 }
 .lightblue-gradient .svg-fill {
 	fill: #fff;
 }
 .lightblue-accent {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .lightblue-accent .secondary-bg {
 	background-color: #FFF;
@@ -2134,7 +2135,7 @@ input:checked+.slider:before {
 	background-color: #01d8fd;
 }
 .lightblue-black .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .lightblue-black .primary-color {
 	color: #ffffff;
@@ -2155,7 +2156,7 @@ input:checked+.slider:before {
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .lightblue-white .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .lightblue-white .secondary-color {
 	color: #000;
@@ -3766,7 +3767,7 @@ td.hljs-ln-code {
 	display: none;
 }
 .website_premium_button {
-	background-color: #501cd1;
+	background-color: #2d2857;
 	color: #fff;
 }
 .pricing_photo {
@@ -4401,7 +4402,7 @@ img.grayscale:hover {
 	color: #fff;
 }
 .custom-color-8637f205-ddcf-bdca-c76c-d96b1717448c .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .custom-color-8637f205-ddcf-bdca-c76c-d96b1717448c .secondary-bg {
 	background-color: #FFF;
@@ -4426,7 +4427,7 @@ img.grayscale:hover {
 	color: #fff;
 }
 .custom-color-2c59c33f-96c5-9ea8-7952-ecffe2fff531 .accent-bg {
-	background-color: #501cd1;
+	background-color: #2d2857;
 }
 .custom-color-2c59c33f-96c5-9ea8-7952-ecffe2fff531 .secondary-bg {
 	background-color: #FFF;
