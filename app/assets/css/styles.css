@@ -283,7 +283,7 @@ svg#pricing_two, svg#pricing_one {
 }
 .heading {
 	font-size: 42px;
-	color: #000;
+	color: #fff;
 	line-height: 1.5;
 }
 .heading-sml {
@@ -292,7 +292,7 @@ svg#pricing_two, svg#pricing_one {
 }
 .heading-lrg {
 	font-size: 40px;
-	color: #000;
+	color: #fff;
 }
 h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40.mt40 {
 	text-align: center;
@@ -2093,7 +2093,7 @@ input:checked+.slider:before {
 }
 .lightblue-gradient {
 	height: 100%;
-	background: #2d2857 !important;
+	background: #2e2858 !important;
 	overflow: hidden;
 }
 .lightblue-gradient .secondary-bg {
