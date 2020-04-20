@@ -183,6 +183,13 @@ body {
 	position: relative;
 	height: 441px;
 }
+
+@media screen and (max-width: 600px) {
+	.img-comp-container  {
+		height: 441px;
+	}
+}
+
 .its_free {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	color: #cdf4ec;
@@ -3755,12 +3762,26 @@ td.hljs-ln-code {
 /* Responsive columns */
 
 @media screen and (max-width: 600px) {
-	.column-card {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
+	.catch {
+		display: block !important;
+	}
+
+	.slider-show{
+		display: none !important;
 	}
 }
+
+
+@media screen and (min-width: 600px) {
+	.catch {
+		display: none !important;
+	}
+
+	.slider-show{
+		display: block !important;
+	}
+}
+
 .white-background {
 	background-color: #fff !important;
 }
