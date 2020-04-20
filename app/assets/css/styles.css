@@ -136,7 +136,7 @@ body {
 	margin-right: 5px;
 }
 .try_button {
-	background-color: #2d2857 !important;
+	background-color: rgba(220,51,99,1)!important;
 	color: white;
 	border: 0;
 	padding: 8px;
@@ -181,7 +181,7 @@ body {
 }
 .img-comp-container {
 	position: relative;
-	height: 551px;
+	height: 441px;
 }
 .its_free {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
@@ -242,7 +242,7 @@ body {
 	font-size: 20px;
 	line-height: 44px;
 	display: inherit;
-	color: #000 !important;
+	color: #fff !important;
 }
 .logo img {
 	height: 44px;
@@ -255,6 +255,7 @@ body {
 	text-decoration: none;
 	color: inherit;
 	display: inline-block;
+	color: #fff;
 	margin: 0 15px;
 }
 .border_image {
@@ -283,7 +284,7 @@ svg#pricing_two, svg#pricing_one {
 }
 .heading {
 	font-size: 42px;
-	color: #fff;
+
 	line-height: 1.5;
 }
 .heading-sml {
@@ -446,6 +447,14 @@ img {
 	position: relative;
 	width: 100%;
 	max-width: 470px;
+}
+
+
+.container-md {
+	margin: auto;
+	position: relative;
+	width: 100%;
+	max-width: 800px;
 }
 .section {
 	padding: 100px 0;
@@ -2091,9 +2100,15 @@ input:checked+.slider:before {
 	margin-bottom: .3em;
 	line-height: 1.2em;
 }
+
+.white-text{
+	color: #000;
+}
+
 .lightblue-gradient {
 	height: 100%;
 	background: #2e2858 !important;
+	color: #fff;
 	overflow: hidden;
 }
 .lightblue-gradient .secondary-bg {
@@ -2827,6 +2842,13 @@ input:checked+.slider:before {
 	background: #2e2a2a;
 	box-shadow: inset 0 2px 1px 1px #1b1b1b;
 }
+
+.middle-center{
+	margin-right: auto;
+    margin-left: auto;
+
+}
+
 .android .mask {
 	width: 260px;
 	min-height: 420px;
@@ -3744,6 +3766,9 @@ td.hljs-ln-code {
 }
 /* Style the counter cards */
 
+.white_h1{
+	color: #fff;
+}
 .card-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 16px;
