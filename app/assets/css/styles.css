@@ -3738,11 +3738,11 @@ td.hljs-ln-code {
 /* Float four columns side by side */
 
 .column-card {
+border-radius: 4px;
+	padding: 16px;
+	text-align: center;
+	background-color: white;
 
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 4%;
 }
 .display_block {
 	display: block;
@@ -3750,15 +3750,15 @@ td.hljs-ln-code {
 /* Remove extra left and right margins, due to padding */
 
 .row-card {
-	margin: 0 -5px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
 }
 /* Clear floats after the columns */
 
-.row-card:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+
 /* Responsive columns */
 
 @media screen and (max-width: 600px) {
@@ -3791,10 +3791,7 @@ td.hljs-ln-code {
 	color: #fff;
 }
 .card-card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
-	text-align: center;
-	background-color: white;
+
 	color: #000;
 }
 .card-card>p {
