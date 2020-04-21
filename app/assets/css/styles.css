@@ -3737,6 +3737,15 @@ td.hljs-ln-code {
 }
 /* Float four columns side by side */
 
+
+.fonts-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	}
+
 .column-card {
 border-radius: 4px;
 	padding: 16px;
