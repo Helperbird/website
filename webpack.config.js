@@ -12,6 +12,7 @@ const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").def
 const paths = [
   '/blog/',
   '/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console',
+  '/blog/how-to-install-and-set-up-helperbird',
   '/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia',
   '/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia',
   '/blog/signin',
@@ -363,6 +364,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html',
       template: 'templates/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'blog/how-to-install-and-set-up-helperbird.html',
+      template: 'templates/blog/how-to-install-and-set-up-helperbird.html',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
