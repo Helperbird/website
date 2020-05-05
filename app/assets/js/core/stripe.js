@@ -41,6 +41,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/support',
+                    billingAddressCollection: 'required',
                 })
                 .then(({error}) => {
                     if (error) {
@@ -75,6 +76,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/support',
+                    billingAddressCollection: 'required',
 
                 })
                 .then(({error}) => {
@@ -107,6 +109,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/canceled',
+                    billingAddressCollection: 'required',
                 })
                 .then(({error}) => {
                     if (error) {
@@ -138,6 +141,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/cancel',
+                    billingAddressCollection: 'required',
                 })
                 .then(({error}) => {
                     if (error) {
@@ -173,6 +177,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/cancel',
+                    billingAddressCollection: 'required',
                 })
                 .then(({error}) => {
                     if (error) {
@@ -209,6 +214,7 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success-education',
                     cancelUrl: 'https://www.helperbird.com/cancel',
+                    billingAddressCollection: 'required',
                 })
                 .then(({error}) => {
                     if (error) {
