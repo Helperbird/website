@@ -36,7 +36,11 @@ async function loader() {
     let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
     await reviews.showReview(slideIndex);
-    await notifactions.popup('<a href="https://www.helperbird.com/pricing">We have 20% off sale on now.</a>')
+    if (Math.random() < 0.5) {
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off sale on now.</a>')
+    } else {
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off Helperbird Pro until June 1st</a>');
+    }
     await thirdParty.tagManager();
     await thirdParty.loadManager();
 }
