@@ -601,6 +601,7 @@ img {
 	display: inline-block;
 	width: 60px;
 	height: 34px;
+	margin: 0 10px;
 }
 .switch input {
 	opacity: 0;
@@ -3850,6 +3851,26 @@ border-radius: 4px;
     right: 0px;
     overflow: hidden;
 
+}
+
+.pricing-switch{
+
+    line-height: 34px;
+
+}
+.fa-level-down-alt{
+	width: 20px;
+	height: 32px;
+    left: 70px!important;
+    top: -35px!important;
+    transform: rotate(0)!important;
+    position: relative!important;
+    color: #3ec762;
+    fill: #3ec762;
+}
+.sale-icon{
+	color:#3ec762 !important;
+fill:#3ec762;
 }
 
 .pricing-header{
