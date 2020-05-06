@@ -1,6 +1,9 @@
 const image = require('gulp-image');
 const { task,  src,
     dest } = require('gulp');
+    const html2pug = require('gulp-html2pug');
+    var clean = require('gulp-clean');
+
 
 function build(cb) {
   src('./app/assets/images/**/*.*')
@@ -20,5 +23,22 @@ function build(cb) {
   cb();
 }
 
+
+function html(cb) {
+  src('./app/templates/**/*.html')
+   .pipe(html2pug(/* options for html2pug such as { fragment: true } */))
+        .pipe(dest('./app/templates/'));
+  cb();
+}
+
+function deleteHtml(cb) {
+  src('./app/templates/**/*.html')
+   .pipe(clean())
+
+  cb();
+}
+
 exports.build = build;
+exports.delete = deleteHtml;
+exports.html = html;
 exports.default = build;

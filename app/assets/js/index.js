@@ -39,7 +39,7 @@ async function loader() {
     if (Math.random() < 0.5) {
         await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off sale on now.</a>')
     } else {
-        await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off Helperbird Pro until June 1st</a>');
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off Helperbird Pro</a>');
     }
     await thirdParty.tagManager();
     await thirdParty.loadManager();

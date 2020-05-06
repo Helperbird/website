@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+
 const {
   CleanWebpackPlugin
 } = require('clean-webpack-plugin');
@@ -75,7 +76,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'templates/index.html',
+      template: 'templates/index.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -87,7 +88,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'about.html',
-      template: 'templates/about.html',
+      template: 'templates/about.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -99,7 +100,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: '404.html',
-      template: 'templates/404.html',
+      template: 'templates/404.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -111,7 +112,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'support.html',
-      template: 'templates/support.html',
+      template: 'templates/support.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -123,7 +124,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/blacklist.html',
-      template: './templates/features/blacklist.html',
+      template: './templates/features/blacklist.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -135,7 +136,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/immersive-reader-for-chrome.html',
-      template: './templates/features/immersive-reader-for-chrome.html',
+      template: './templates/features/immersive-reader-for-chrome.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -147,7 +148,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/screenshot.html',
-      template: './templates/features/screenshot.html',
+      template: './templates/features/screenshot.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -159,7 +160,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/cognitive-load.html',
-      template: './templates/features/cognitive-load.html',
+      template: './templates/features/cognitive-load.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -171,7 +172,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/notes.html',
-      template: './templates/features/notes.html',
+      template: './templates/features/notes.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -183,7 +184,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/specialised-dyslexic-fonts.html',
-      template: './templates/features/specialised-dyslexic-fonts.html',
+      template: './templates/features/specialised-dyslexic-fonts.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -195,7 +196,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/color-blindness.html',
-      template: './templates/features/color-blindness.html',
+      template: './templates/features/color-blindness.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -207,7 +208,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/overlay.html',
-      template: './templates/features/overlay.html',
+      template: './templates/features/overlay.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -219,7 +220,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/speech-to-text.html',
-      template: './templates/features/speech-to-text.html',
+      template: './templates/features/speech-to-text.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -231,7 +232,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/dictionary.html',
-      template: './templates/features/dictionary.html',
+      template: './templates/features/dictionary.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -243,7 +244,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/privacy.html',
-      template: './templates/features/privacy.html',
+      template: './templates/features/privacy.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -255,7 +256,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/styles.html',
-      template: './templates/features/styles.html',
+      template: './templates/features/styles.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -267,7 +268,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/google-translate.html',
-      template: './templates/features/google-translate.html',
+      template: './templates/features/google-translate.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -279,7 +280,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/reader-mode-for-chrome-and-firefox.html',
-      template: './templates/features/reader-mode-for-chrome-and-firefox.html',
+      template: './templates/features/reader-mode-for-chrome-and-firefox.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -291,7 +292,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/text-to-speech.html',
-      template: './templates/features/text-to-speech.html',
+      template: './templates/features/text-to-speech.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -303,7 +304,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/high-contrast.html',
-      template: './templates/features/high-contrast.html',
+      template: './templates/features/high-contrast.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -315,7 +316,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/ruler.html',
-      template: './templates/features/ruler.html',
+      template: './templates/features/ruler.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -327,7 +328,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'features/zoom.html',
-      template: './templates/features/zoom.html',
+      template: './templates/features/zoom.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -339,7 +340,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'compare/read-and-write-alternative.html',
-      template: 'templates/compare/read-and-write-alternative.html',
+      template: 'templates/compare/read-and-write-alternative.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -351,7 +352,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'compare/immersive-reader-by-microsoft-alternative.html',
-      template: 'templates/compare/immersive-reader-by-microsoft-alternative.html',
+      template: 'templates/compare/immersive-reader-by-microsoft-alternative.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -363,7 +364,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html',
-      template: 'templates/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.html',
+      template: 'templates/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -375,7 +376,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-install-and-set-up-helperbird.html',
-      template: 'templates/blog/how-to-install-and-set-up-helperbird.html',
+      template: 'templates/blog/how-to-install-and-set-up-helperbird.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -387,7 +388,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'blog/index.html',
-      template: 'templates/blog/index.html',
+      template: 'templates/blog/index.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -399,7 +400,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia.html',
-      template: 'templates/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia.html',
+      template: 'templates/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -411,7 +412,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'blog/signin.html',
-      template: 'templates/blog/signin.html',
+      template: 'templates/blog/signin.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -423,7 +424,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'contact.html',
-      template: 'templates/contact.html',
+      template: 'templates/contact.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -435,7 +436,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'privacy.html',
-      template: 'templates/privacy.html',
+      template: 'templates/privacy.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -447,7 +448,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'terms-of-service.html',
-      template: 'templates/terms-of-service.html',
+      template: 'templates/terms-of-service.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -459,7 +460,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'survey.html',
-      template: 'templates/survey.html',
+      template: 'templates/survey.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -471,7 +472,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'reviews.html',
-      template: 'templates/reviews.html',
+      template: 'templates/reviews.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -483,7 +484,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'welcome.html',
-      template: 'templates/welcome.html',
+      template: 'templates/welcome.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -495,7 +496,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'cancel.html',
-      template: 'templates/cancel.html',
+      template: 'templates/cancel.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -507,7 +508,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'success.html',
-      template: 'templates/success.html',
+      template: 'templates/success.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -519,7 +520,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'success-education.html',
-      template: 'templates/success-education.html',
+      template: 'templates/success-education.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -531,7 +532,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'enterprise.html',
-      template: 'templates/enterprise.html',
+      template: 'templates/enterprise.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -543,7 +544,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'roadmap.html',
-      template: 'templates/roadmap.html',
+      template: 'templates/roadmap.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -555,7 +556,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'updates.html',
-      template: 'templates/updates.html',
+      template: 'templates/updates.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -567,7 +568,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'sitemap.html',
-      template: 'templates/sitemap.html',
+      template: 'templates/sitemap.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -579,7 +580,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'chrome.html',
-      template: 'templates/chrome.html',
+      template: 'templates/chrome.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -591,7 +592,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'sales.html',
-      template: 'templates/sales.html',
+      template: 'templates/sales.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -603,7 +604,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'edge.html',
-      template: 'templates/edge.html',
+      template: 'templates/edge.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -615,7 +616,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'firefox.html',
-      template: 'templates/firefox.html',
+      template: 'templates/firefox.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -627,7 +628,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'in-the-news.html',
-      template: 'templates/in-the-news.html',
+      template: 'templates/in-the-news.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -639,7 +640,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'feedback.html',
-      template: 'templates/feedback.html',
+      template: 'templates/feedback.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -651,7 +652,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'compliance.html',
-      template: 'templates/compliance.html',
+      template: 'templates/compliance.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -663,7 +664,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'pricing.html',
-      template: 'templates/pricing.html',
+      template: 'templates/pricing.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -706,7 +707,14 @@ module.exports = {
     }),
   ],
   module: {
-    rules: [{
+    rules: [
+      {
+        test: /\.pug$/,
+        use: 'pug-loader'
+      },
+      
+      
+      {
       test: /\.css$/,
       use: [
         MiniCssExtractPlugin.loader,
@@ -719,7 +727,8 @@ module.exports = {
         name: '[name].[ext]',
         outputPath: './docs'
       }
-    }, ],
+    }
+  ],
   },
   output: {
     publicPath: '/',
