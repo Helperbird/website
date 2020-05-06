@@ -23,9 +23,9 @@ async function calc() {
 
         document.getElementById('plusPricing').innerHTML = '$50.00 ';
         document.getElementById('enterprisePricing').innerHTML = '$1000 ';
-        document.getElementById('plusPricingText').innerText = 'Yearly';
+        document.getElementById('plusPricingText').innerText = 'Billed yearly';
 
-        document.getElementById('enterprisePricingText').innerText = 'Yearly';
+        document.getElementById('enterprisePricingText').innerText = 'Billed yearly';
         const element3 = document.getElementById("checkout-button-plan_FmS3HONbzTCxGl");
         element3.classList.remove("hide");
 
@@ -35,9 +35,9 @@ async function calc() {
     } else {
 
         document.getElementById('plusPricing').innerHTML = '$4.99 ';
-        document.getElementById('plusPricingText').innerText = 'Monthly';
+        document.getElementById('plusPricingText').innerText = 'Billed monthly';
         document.getElementById('enterprisePricing').innerHTML = '$99.99 ';
-        document.getElementById('enterprisePricingText').innerText = 'Monthly';
+        document.getElementById('enterprisePricingText').innerText = 'Billed monthly';
 
 
 

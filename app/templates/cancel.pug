@@ -129,22 +129,7 @@ html(lang='en')
     meta(content='#ffffff', name='theme-color')
   body.font-friendly
     .lightblue-gradient
-      header.header
-        .container-lrg
-          .flex.col-12.spread
-            a.logo.primary-color.launchaco-builder-hoverable.logo(href='/')
-              img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png')
-              | Helperbird
-            a.menu-toggle#menu(href='#main-menu')
-              b.nav-link.mr0.secondary-color ☰
-            nav.main-menu#main-menu(role='navigation')
-              a.menu-close#main-menu-close(href='#')
-                span.bold ✕
-              a.nav-link.secondary-color(href='/about') About
-              a.nav-link.secondary-color(href='/#features') Features
-              a.nav-link.secondary-color(href='/pricing') Pricing
-              a.nav-link.secondary-color(href='/support') Help
-              a.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
+      include includes/layout/navigation.pug
       section.section_header
         .container-lrg.flex
           .flex.flex-column.col-8.text-center.middle-center
@@ -263,96 +248,4 @@ html(lang='en')
             p.paragraph.secondary-color.faq-content.mt20.launchaco-builder-hoverable
               | We'd be happy to answer 
               a(href='/cdn-cgi/l/email-protection#456a6a363035352a3731052d2029352037272c37216b262a28') them
-    footer.footer#footer-10
-      .container.col-12
-        .flex.wrap.center-vertical
-          .col-3.mobile-col-6
-            p.mb10
-              b Company
-            p.mb10
-              a(href='/about', onclick='return features.captureOutboundLink("/about"),!1', title='Link to Helperbirds about') About
-            p.mb10
-              a(href='/blog/', onclick='return features.captureOutboundLink("/blog/"),!1', title='Link to Helperbirds blog') Blog
-            p.mb10
-              a(href='/in-the-news', onclick='return features.captureOutboundLink("/in-the-news"),!1', title='Link to Helperbirds terms') In the News
-            p.mb10
-              a(href='https://drive.google.com/drive/folders/1kZkWObEYGimW391EetVThd6YkEYDHu8-?usp=sharing', onclick='return features.captureOutboundLink("https://drive.google.com/drive/folders/1kZkWObEYGimW391EetVThd6YkEYDHu8-?usp=sharing",!0),!1', title='Helperbird Presskit') Presskit
-            p.mb10
-              a(href='/enterprise', onclick='return features.captureOutboundLink("/enterprise",!0),!1', title='Helperbird Enteprise') Enterprise
-          .col-3.mobile-col-6
-            p.mb10
-              b Product
-            p.mb10
-              a(href='https://chrome.google.com/webstore/detail/dyslexia-accessibility-to/ahmapmilbkfamljbpgphfndeemhnajme', onclick='return features.captureOutboundLink("https://chrome.google.com/webstore/detail/dyslexia-accessibility-to/ahmapmilbkfamljbpgphfndeemhnajme"),!1', rel='noreferrer', target='_blank', title='Link to download Helperbird for Google') Chrome
-            p.mb10
-              a(href='https://addons.mozilla.org/en-CA/firefox/addon/helperbird/', onclick='return features.captureOutboundLink("https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"),!1', rel='noreferrer', target='_blank', title='Link to download Helperbird for Firefox') Firefox
-            p.mb10
-              a(href='https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd', onclick='return features.captureOutboundLink("https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"),!1', rel='noreferrer', target='_blank', title='Link to download Helperbird for Edge') Edge
-            p.mb10
-              a(href='/pricing', onclick='return features.captureOutboundLink("/pricing"),!1', title='Link to Helperbirds pricing') Pricing
-            p.mb10
-              a(href='https://datastudio.google.com/u/0/reporting/3e86f5ee-b27b-4bb6-bfdc-90c1dd67f06e/page/1M', rel='noopener', onclick='return features.captureOutboundLink("https://datastudio.google.com/u/0/reporting/3e86f5ee-b27b-4bb6-bfdc-90c1dd67f06e/page/1M"),!1', title='Helperbird webinar') Growth
-          .col-3.mobile-col-6
-            p.mb10
-              b Help
-            p.mb10
-              a(href='/support', onclick='return features.captureOutboundLink("/support"),!1', title='Link to Helperbirds contact page') Support
-            p.mb10
-              a(href='/feedback', onclick='return features.captureOutboundLink("/feedback"),!1', title='Link to Helperbirds Feedback page') Feedback
-            p.mb10
-              a(href='/contact', onclick='return features.captureOutboundLink("/contact"),!1', title='Link to Helperbirds contact page') Contact
-            p.mb10
-              a(href='/roadmap', onclick='return features.captureOutboundLink("/roadmap"),!1', title='Link to Helperbirds Roadmap') Roadmap
-          .col-3.mobile-col-6
-            p.mb10
-              b Support
-            p.mb10
-              a(href='/updates', onclick='return features.captureOutboundLink("/updates"),!1', title='Link to Helperbirds updates') Updates
-            p.mb10
-              a(href='/privacy', onclick='return features.captureOutboundLink("/privacy"),!1', title='Link to Helperbirds privacy') Privacy
-            p.mb10
-              a(href='/compliance', onclick='return features.captureOutboundLink("/compliance"),!1', title='Link to Helperbirds Compliance') Compliance
-            p.mb10
-              a(href='/terms-of-service', onclick='return features.captureOutboundLink("/terms-of-service"),!1', title='Link to Helperbirds terms') Terms
-      .container.col-12
-        .flex.wrap.center-vertical.text_center.mt75
-          .col-3.mobile-col-6
-            a(href='https://facebook.com/helperbird/', onclick='return features.captureOutboundLink("https://facebook.com/helperbird/"),!1', rel='noreferrer', target='_blank', title='Link to Helperbirds Facebook')
-              i.fab.fa-facebook.icon-size-small
-          .col-3.mobile-col-6
-            a(href='https://twitter.com/helperbird_', onclick='return features.captureOutboundLink("https://twitter.com/helperbird_"),!1', rel='noreferrer', target='_blank', title='Link to Helperbirds Twitter')
-              i.fab.fa-twitter.icon-size-small
-          .col-3.mobile-col-6
-            a(href='https://www.linkedin.com/company/19112429/', onclick='return features.captureOutboundLink("https://www.linkedin.com/company/19112429/"),!1', rel='noreferrer', target='_blank', title='Link to Helperbirds Linkedin')
-              i.fab.fa-linkedin.icon-size-small
-          .col-3.mobile-col-6
-            a(href='https://www.youtube.com/watch?v=aXXRSenvTTg', onclick='return features.captureOutboundLink("https://www.youtube.com/watch?v=aXXRSenvTTg"),!1', rel='noreferrer', target='_blank', title='Link to Helperbirds Youtube')
-              i.fab.fa-youtube.icon-size-small
-    .base-footer.text-center
-      .span.secondary-color.
-        
-        © 2020 Helperbird.com . All rights reserved.
-        
-    .modal.fade#downloadModal(aria-hidden='true', aria-labelledby='exampleModalCenterTitle', role='dialog', tabindex='-1')
-      .modal-dialog.modal-dialog-centered(role='document')
-        .modal-content
-          .modal-header
-            h5.modal-title#downloadModalLongTitle Download Helperbird
-          .modal-body
-            .container-lrg.flex.mt40
-              .flex.flex-column.col-4
-                .launchaco-builder-hoverable
-                  img.launchaco-builder-hoverable.logos_modal(alt='Firefox logo', loading='lazy', src='/assets/images/home/chrome.png', width='50px')
-                  |  
-                  a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button__full.mobile-text-center.accent-bg.button-signup.primary-color(href='https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/ahmapmilbkfamljbpgphfndeemhnajme', rel='noopener', target='_blank')
-                    span Chrome
-              .flex.flex-column.col-4
-                .launchaco-builder-hoverable
-                  img.launchaco-builder-hoverable.logos_modal(alt='Firefox logo', loading='lazy', src='/assets/images/home/firefox.png', width='50px')
-                  a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button__full.mobile-text-center.accent-bg.button-signup.primary-color(href='https://addons.mozilla.org/en-CA/firefox/addon/helperbird/', rel='noreferrer', target='_blank')
-                    span Firefox
-              .flex.flex-column.col-4
-                .launchaco-builder-hoverable
-                  img.launchaco-builder-hoverable.logos_modal(alt='Firefox logo', loading='lazy', src='/assets/images/home/edge.png', width='50px')
-                  a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button__full.mobile-text-center.accent-bg.button-signup.primary-color(href='https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd', rel='noreferrer', target='_blank')
-                    span Edge
+    include includes/layout/footer.pug
