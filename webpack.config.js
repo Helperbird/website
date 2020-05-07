@@ -680,6 +680,10 @@ module.exports = {
         to: ''
       },
       {
+        from: 'assets/videos/',
+        to: 'assets/videos/'
+      },
+      {
         from: 'assets/images/',
         to: 'assets/images/'
       }, {
@@ -708,6 +712,10 @@ module.exports = {
   ],
   module: {
     rules: [
+      {
+        test: /\.mp4$/,
+        use: 'file-loader?name=videos/[name].[ext]',
+ },
       {
         test: /\.pug$/,
         use: 'pug-loader'
