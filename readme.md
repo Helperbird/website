@@ -5,7 +5,7 @@
 ## Usage
 
 ```js
-    // Locally
+    // Locally 
     npm run build // To build the files
     npm run start // To run it on localhost:8080
 
