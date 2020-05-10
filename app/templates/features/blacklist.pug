@@ -48,20 +48,14 @@ html(lang='en')
         .container-lrg.flex
           .flex.flex-column.col-8.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable Blacklist
-            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Use the blacklist feature to excluded Helperbird from running on that URL.
+            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Disable Helperbird from running on certain sites.
             .mt40
               a.try_it_now.button.pink.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color(href='#pricing')
                 span Download Helperbird 
                 span.its_free Its Free!
               a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
                 span Watch it in action
-        .container-lrg.flex
-          .flex.flex-column.col-12.text-center
-            .launchaco-builder-hoverable
-              .scroller_video_home.mb20
-                .scroller_video_item_home_page
-                  .youtube_lazy_load(data-embed='UveJkN-npI0')
-                    .play-button.
+
                       
                       
     section.section.mb80.press-logos
@@ -70,23 +64,10 @@ html(lang='en')
           h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
             About this feature
             
-          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Use the blacklist feature to excluded Helperbird from running on chosen websites. Exclude as many websites as you wish from running Helperbird.
-    .section.lightblue-white.mb80.press-logos
-      .container-lrg
-        .col-12
-          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40 Options
-        .col-12
-          .fonts-list
-            .column-card
-              .card-card
-                span.span Exclude websites
-    .section.lightblue-white.mb80.press-logos
-      .container-lrg
-        .col-12
-          h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
-            Why use it?
-            
-          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Some websites already have built-in accessibility sufficient enough for the user needs. In this case, users can choose to opt-out Helperbird form running on those websites.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text 
+            | Use the blacklist feature to excluded Helperbird from running on chosen websites. Exclude as many websites as you wish from running Helperbird.
+            | Some websites already have built-in accessibility sufficient enough for the user needs. In this case, users can choose to opt-out Helperbird form running on those websites.
+
     section.section.lightblue-white.mb80.press-logos
       .container-lrg
         .col-12
@@ -104,7 +85,8 @@ html(lang='en')
         .container_img.browser
           img.width_100#expandedImg
           #imgtext.
-            
+    
+    include ../includes/pricing/pricing-table.pug
             
     .section.lightblue-white.mb80.press-logos
       .container-lrg
