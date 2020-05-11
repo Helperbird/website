@@ -272,10 +272,50 @@ body {
 	border-right: 2px solid #510dda;
 }
 
+
+.cta-small-text{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex !important;
+    margin-top: 10px !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center !important;
+    color: #929eaa !important;
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    background-color: transparent !important;
+}
+
+
+.cta-button{
+	position: relative !important;
+    z-index: 10 !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 264px;
+    padding: 18px 20px !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    border-radius: 6px !important;
+
+    box-shadow: 0 10px 20px 3px rgba(82, 104, 206, 0.15) !important;
+    -webkit-transition: all 600ms ease !important;
+    transition: all 600ms ease !important;
+    color: #fff !important;
+	font-size: 18px !important;
+	margin:auto !important;
+}
 .section_header {
-	padding-top: 130px;
+	padding-top: 12rem;
 	overflow: hidden;
-	padding-bottom: 20px;
+	padding-bottom: 6rem;
 }
 
 .width_100 {
@@ -5457,6 +5497,12 @@ img.grayscale:hover {
 
 	.heading-lrg {
 		font-size: calc(105% + 5.3vw);
+		color: #000000
+	}
+
+
+	.heading-lrgXl {
+		font-size: calc(125% + 5.3vw);
 		color: #000000
 	}
 
