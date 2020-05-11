@@ -545,77 +545,7 @@ html(lang='en')
           .browser.mt75.launchaco-builder-hoverable
             .mask.mask__noimage
               img.width_100(alt='Blacklist feature in work of Helperbird ', loading='lazy', src='/assets/images/screenshot/immersive/immersive_1.png')
-    section.section.lightblue-white#testimonial-5
-      .container.text-center
-        .col-12.text-center
-          h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.why_us Reviews
-          p.paragraph.mt20.secondary-color.mt20.launchaco-builder-hoverable See what the happy users have to say about Helperbird.
-        .slideshow-container
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of a happy reviewer of Helperbird, Vladimir Ciobica', src='/assets/images/reviews/vladimir.jpg', loading='lazy')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Vladimir Ciobica
-              span.span.secondary-color.launchaco-builder-hoverable Reviewer
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center It's the best app for dyslexia I've ever seen! I liked the variety of features and the flexibility it gives, unfortunately I realised for me it was not needed, but I'm glad to see there is such a helpful thing.
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of a happy reviewer of Helperbird, Steven Hood', src='/assets/images/reviews/steven.png', loading='lazy')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Steven Hood
-              span.span.secondary-color.launchaco-builder-hoverable Reviewer
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center
-              | Huge fan of the zoom feature.
-              br
-              | It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of Helperbird user Taylor Kirkpatrick', src='/assets/images/people/ken.png')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Taylor Kirkpatrick
-              span.span.secondary-color.launchaco-builder-hoverable User
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Amazing in eliminating embarrassing mistakes. Am one happy kid here!
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of Helperbird user Brian Borland', src='https://lh3.googleusercontent.com/a-/AAuE7mAI6_XtVrIdDAR4ShTnEt4zWjIvwa2Ver5y1MPE=s40-c-k')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Brian Borland
-              span.span.secondary-color.launchaco-builder-hoverable User
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center I love and use Helperbird for Chrome and I think it's a great tool! Thanks for the screenshot feature!
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of Helperbird user Walter Washburn', src='https://lh3.googleusercontent.com/a-/AAuE7mDzQH7ArvEfKLDrZs394-VOAdy-i7xJqY_O-RDD=s40-c-k')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Walter Washburn
-              span.span.secondary-color.launchaco-builder-hoverable User
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Wow what great tool, I love it! Keep up the excellent work.
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Add more fonts in the future and cant wait for the ios version!!
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Also thank you Robert for the support emails.
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of Helperbird user James Connell', src='/assets/images/people/steve.png')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable James Connell
-              span.span.secondary-color.launchaco-builder-hoverable User
-          .mySlides.scroller_video_item
-            p.primary-color.launchaco-builder-hoverable.paragraph.text-center Works a treat. Couldn't get dyslexie.com to work. This is brill!
-            .mt20
-              .user-image.mt20.mb20.launchaco-builder-hoverable
-                img(alt='Photo of Helperbird user Sue Dowdall', src='/assets/images/people/sue.png')
-              p.span.secondary-color.mb10.launchaco-builder-hoverable Sue Dowdall
-              span.span.secondary-color.launchaco-builder-hoverable User
-          a.prev(onclick='window.reviews.plusReview(-1)') ❮
-          |  
-          a.next(onclick='window.reviews.plusReview(1)') ❯
-        .dot-container
-          span.dot(onclick='window.reviews.currentReview(1)')
-          span.dot(onclick='window.reviews.currentReview(2)')
-          span.dot(onclick='window.reviews.currentReview(3)')
-          span.dot(onclick='window.reviews.currentReview(4)')
-          span.dot(onclick='window.reviews.currentReview(5)')
-          span.dot(onclick='window.reviews.currentReview(6)')
-          span.dot(onclick='window.reviews.currentReview(7)')
+    include includes/sections/reviews.pug
     include includes/pricing/pricing-table.pug
    
     include includes/sections/support_videos.pug

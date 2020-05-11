@@ -483,6 +483,18 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'testimonials.html',
+      template: 'templates/testimonials.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
       filename: 'welcome.html',
       template: 'templates/welcome.pug',
       minify: {

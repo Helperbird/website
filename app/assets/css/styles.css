@@ -4824,6 +4824,17 @@ td.hljs-ln-code {
 }
 
 
+.grid__item--reviews {
+	grid-column: 4/span 18;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+
+}
+
 
 .grid__item--large {
 	grid-column: 4/span 18;
@@ -4912,6 +4923,10 @@ td.hljs-ln-code {
 	margin: 0 0 0 -1rem !important;
 	border-radius: 100%;
 	background-color: #2d2857;
+}
+
+.hi-items > img{
+	border-radius: 3rem;
 }
 
 .plan-features__item:before:nth-child(1n+1) {
@@ -5772,13 +5787,13 @@ img.grayscale:hover {
 
 .footer {
 	background-color: #343a40 !important;
-	padding: 3rem;
+	padding: 5rem !important;
 	color: #fff;
 }
 
 .base-footer {
 	background-color: #222b37;
-	padding: 2rem;
+	padding: 1rem;
 	color: #fff;
 }
 
