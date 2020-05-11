@@ -4832,7 +4832,7 @@ td.hljs-ln-code {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     text-align: center;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 240px);
 
 }
 
