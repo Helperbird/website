@@ -326,6 +326,47 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+        
+    new HtmlWebpackPlugin({
+      filename: 'features/optical-character-recognition.html',
+      template: 'templates/features/optical-character-recognition.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
+
+    new HtmlWebpackPlugin({
+      filename: 'features/cursor-control.html',
+      template: 'templates/features/cursor-control.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: 'features/adjust-letters-and-words.html',
+      template: 'templates/features/adjust-letters-and-words.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    
     new HtmlWebpackPlugin({
       filename: 'features/zoom.html',
       template: './templates/features/zoom.pug',
@@ -626,6 +667,8 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+    
     new HtmlWebpackPlugin({
       filename: 'firefox.html',
       template: 'templates/firefox.pug',
@@ -638,6 +681,9 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+
+
     new HtmlWebpackPlugin({
       filename: 'in-the-news.html',
       template: 'templates/in-the-news.pug',
