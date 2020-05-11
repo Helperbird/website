@@ -147,14 +147,7 @@ html(lang='en')
             .mt40
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.try_button(onclick='features.enableTint("#22942b")')
                 span Try Overlay
-        .container-lrg.flex
-          .flex.flex-column.col-12.text-center
-            .launchaco-builder-hoverable
-              .scroller_video_home.mb20
-                .scroller_video_item_home_page
-                  .youtube_lazy_load(data-embed='-O3yd1zXtRc')
-                    .play-button.
-                      
+
                       
     section.section.mb80.press-logos
       .container-lrg
@@ -171,6 +164,20 @@ html(lang='en')
             
           h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Overlay
           h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Color options
+ 
+ 
+    .section.lightblue-white.mb80.press-logos
+      .container-lrg
+        .col-12
+          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40 See it in action
+      .container-lrg.flex
+        .flex.flex-column.col-12.text-center
+          .launchaco-builder-hoverable
+            .scroller_video_home.mb20
+              .scroller_video_item_home_page
+                .youtube_lazy_load(data-embed='uOOucEf_tQk')
+                  .play-button.
+
     section.section.mb80.press-logos
       .container-lrg
         .col-12
@@ -196,4 +203,17 @@ html(lang='en')
           #imgtext.
             
             
+    .section.lightblue-white.mb80.press-logos
+      .container-lrg
+        .col-12
+          h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
+            Pro feature
+            
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text For more information on Helperbird Pro version click the button below.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text
+            a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.accent-bg.button-signup_two.text-center(href='/pricing', title='Link to Helperbird pricing page')
+              span See pricing 
+    include ../includes/pricing/pricing-table.pug
+            
+
     include ../includes/layout/footer.pug

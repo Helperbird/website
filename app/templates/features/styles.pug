@@ -150,14 +150,7 @@ html(lang='en')
               |  
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.try_button(onclick='features.features.enableFontColor("#22942b")')
                 span Try Font Color
-        .container-lrg.flex
-          .flex.flex-column.col-12.text-center
-            .launchaco-builder-hoverable
-              .scroller_video_home.mb20
-                .scroller_video_item_home_page
-                  .youtube_lazy_load(data-embed='1818bqUyXNE')
-                    .play-button.
-                      
+
                       
     section.section.mb80.press-logos
       .container-lrg
@@ -184,16 +177,18 @@ html(lang='en')
             
           h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Improves reading and visual focus.
           h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Allows customization of web content based on user learning and working needs.
-    section.section.mb80.press-logos
+    .section.lightblue-white.mb80.press-logos
       .container-lrg
         .col-12
-          h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
-            Demo video
-            
-          .scroller_video_home.mb20
-            .scroller_video_item_home_page
-              .youtube_lazy_load(data-embed='zEM-hXZ2278')
-                .play-button.
+          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40 See it in action
+      .container-lrg.flex
+        .flex.flex-column.col-12.text-center
+          .launchaco-builder-hoverable
+            .scroller_video_home.mb20
+              .scroller_video_item_home_page
+                .youtube_lazy_load(data-embed='K0qfFBytszE')
+                  .play-button.
+    
                   
                   
     section.section.lightblue-white.mb80.press-logos
@@ -223,4 +218,17 @@ html(lang='en')
           #imgtext.
             
             
+    .section.lightblue-white.mb80.press-logos
+      .container-lrg
+        .col-12
+          h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
+            Free feature
+            
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text For more information on Helperbird Pro version click the button below.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text
+            a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.accent-bg.button-signup_two.text-center(href='/pricing', title='Link to Helperbird pricing page')
+              span See pricing 
+    include ../includes/pricing/pricing-table.pug
+            
+
     include ../includes/layout/footer.pug

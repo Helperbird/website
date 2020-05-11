@@ -150,13 +150,7 @@ html(lang='en')
                 span.its_free Its Free!
               a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
                 span Watch it in action
-        .container-lrg.flex
-          .flex.flex-column.col-12.text-center
-            .launchaco-builder-hoverable
-              .scroller_video_home.mb20
-                .scroller_video_item_home_page
-                  .youtube_lazy_load(data-embed='aXXRSenvTTg')
-                    .play-button.
+
                       
                       
     section.section.mb80.press-logos
@@ -184,6 +178,19 @@ html(lang='en')
             .column-card
               .card-card
                 span.span Over 40 voices
+
+    .section.lightblue-white.mb80.press-logos
+      .container-lrg
+        .col-12
+          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40 See it in action
+      .container-lrg.flex
+        .flex.flex-column.col-12.text-center
+          .launchaco-builder-hoverable
+            .scroller_video_home.mb20
+              .scroller_video_item_home_page
+                .youtube_lazy_load(data-embed='rh4Ur2gdgio')
+                  .play-button.
+
     section.section.mb80.press-logos
       .container-lrg
         .col-12
@@ -209,4 +216,17 @@ html(lang='en')
           #imgtext.
             
             
+    .section.lightblue-white.mb80.press-logos
+      .container-lrg
+        .col-12
+          h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
+            Free feature
+            
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text For more information on Helperbird Pro version click the button below.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text
+            a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.accent-bg.button-signup_two.text-center(href='/pricing', title='Link to Helperbird pricing page')
+              span See pricing 
+    include ../includes/pricing/pricing-table.pug
+            
+
     include ../includes/layout/footer.pug
