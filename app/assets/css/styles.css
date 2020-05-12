@@ -232,7 +232,20 @@ body {
 	}
 }
 
-.its_free {
+
+
+
+
+.img-comp-container-side {
+	position: relative;
+	height: 312px;
+}
+
+@media screen and (max-width: 600px) {
+	.img-comp-container-side {
+		height: 312px;
+	}
+}.its_free {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	color: #cdf4ec;
 	filter: alpha(opacity=85);
