@@ -355,6 +355,20 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      filename: 'blog/how-to-install-helperbird-in-edu-accounts.html',
+      template: 'templates/blog/how-to-install-helperbird-in-edu-accounts.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
+    
+    new HtmlWebpackPlugin({
       filename: 'features/adjust-letters-and-words.html',
       template: 'templates/features/adjust-letters-and-words.pug',
       minify: {
