@@ -234,7 +234,10 @@ body {
 
 
 
-
+.me-photo{
+	margin: auto;
+    border-radius: 203px;
+}
 
 .img-comp-container-side {
 	position: relative;

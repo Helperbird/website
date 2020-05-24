@@ -39,6 +39,8 @@ footer.footer#footer-10
       
         p.mb10
           a(href='/roadmap', onclick='return features.captureOutboundLink("/roadmap"),!1', title='Link to Helperbirds Roadmap') Roadmap
+        p.mb10
+          a(href='/privacy', onclick='return features.captureOutboundLink("/privacy"),!1', title='Link to Helperbirds Roadmap') Privacy
 
 
       .col-3.mobile-col-6
@@ -55,11 +57,14 @@ footer.footer#footer-10
 
 
 
-.base-footer.text-center
-  .span.secondary-color.
+.base-footer
+  .span.secondary-color
     
-    © 2020 Helperbird.com . All rights reserved.
-    
+    .container.col-12
+      .flex.wrap.center-vertical
+        .col-12.mobile-col-12
+          | © 2020 Helperbird.com . All rights reserved.
+
 .modal.fade#downloadModal(aria-hidden='true', aria-labelledby='exampleModalCenterTitle', role='dialog', tabindex='-1')
   .modal-dialog.modal-dialog-centered(role='document')
     .modal-content
