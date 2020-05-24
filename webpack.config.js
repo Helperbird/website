@@ -367,6 +367,22 @@ module.exports = {
       },
     }),
 
+
+
+
+
+    new HtmlWebpackPlugin({
+      filename: 'updates/24-1-0.html',
+      template: 'templates/updates/24-1-0.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
     
     new HtmlWebpackPlugin({
       filename: 'features/adjust-letters-and-words.html',
@@ -622,8 +638,8 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
-      filename: 'updates.html',
-      template: 'templates/updates.pug',
+      filename: 'updates/index.html',
+      template: 'templates/updates/index.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
