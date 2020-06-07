@@ -113,7 +113,7 @@ body {
 
 .second_button {
 	background-color: #fc8063 !important;
-	color: #fff;
+	color: #000;
 }
 
 .scroller_video {
@@ -341,7 +341,7 @@ body {
 .header {
 	position: fixed;
 	width: 100%;
-	background: #2d2857 !important;
+	background: #fff !important;
 
 	z-index: 9999999;
 	padding-bottom: 20px;
@@ -356,7 +356,7 @@ body {
 	font-size: 20px;
 	line-height: 44px;
 	display: inherit;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .logo img {
@@ -371,7 +371,7 @@ body {
 	text-decoration: none;
 	color: inherit;
 	display: inline-block;
-	color: #fff;
+	color: #000;
 	margin: 0 15px;
 }
 
@@ -387,7 +387,7 @@ body {
 
 #pricing>h1,
 h2 {
-	color: #fff;
+	color: #000;
 }
 
 svg#pricing_two,
@@ -420,7 +420,7 @@ svg#pricing_one {
 
 .heading-lrg {
 	font-size: 40px;
-	color: #fff;
+	color: #000;
 }
 
 h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40.mt40 {
@@ -448,11 +448,15 @@ h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40.mt40 {
 
 .paragraph {
 	font-weight: 400;
-	font-size: 17px;
-	line-height: 28px;
-	margin-top: .5em;
-	margin-bottom: .4em;
-	font-weight: inherit;
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+
+	color: #000 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    font-weight: 300 !important;
 }
 
 .sub_header_text {
@@ -836,7 +840,7 @@ input:checked+.slider:before {
 	width: 100%;
 	height: 100vh;
 	font-family: "Exo", sans-serif;
-	color: #fff;
+	color: #000;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
@@ -1148,7 +1152,7 @@ input:checked+.slider:before {
 }
 
 .blue-flat {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .blue-flat .secondary-bg {
@@ -1172,7 +1176,7 @@ input:checked+.slider:before {
 }
 
 .blue-gradient {
-	background: linear-gradient(#00c3ff, #2d2857);
+	background: linear-gradient(#00c3ff, #fff);
 }
 
 .blue-gradient .secondary-bg {
@@ -1200,7 +1204,7 @@ input:checked+.slider:before {
 }
 
 .blue-accent .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .blue-accent .primary-color {
@@ -1220,7 +1224,7 @@ input:checked+.slider:before {
 }
 
 .blue-black .secondary-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .blue-black .accent-bg {
@@ -1244,7 +1248,7 @@ input:checked+.slider:before {
 }
 
 .blue-white .secondary-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 	fill: #fff;
 }
 
@@ -1257,7 +1261,7 @@ input:checked+.slider:before {
 }
 
 .blue-white .svg-fill {
-	fill: #2d2857;
+	fill: #fff;
 }
 
 .purple-flat {
@@ -2718,7 +2722,7 @@ input:checked+.slider:before {
 }
 
 .lightblue-flat .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .lightblue-flat .primary-color {
@@ -2734,13 +2738,13 @@ input:checked+.slider:before {
 }
 
 .h3_why_us {
-	font-size: 1em;
+	font-size: 1.3em;
 	font-style: normal;
-	color: #555;
+	color: #000;
 	letter-spacing: normal;
 	margin-top: 0;
 	margin-bottom: .3em;
-	line-height: 1.2em;
+	line-height: 1.3em;
 }
 
 .white-text {
@@ -2749,8 +2753,8 @@ input:checked+.slider:before {
 
 .lightblue-gradient {
 	height: 100%;
-	background: #2e2858 !important;
-	color: #fff;
+	background: #fff !important;
+	color: #000;
 	overflow: hidden;
 }
 
@@ -2759,22 +2763,22 @@ input:checked+.slider:before {
 }
 
 .lightblue-gradient .accent-bg {
-	background-color: #2d2857;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 }
 
 .lightblue-gradient .primary-color {}
 
 .lightblue-gradient .secondary-color {
-	color: #fff;
+	color: #000;
 }
 
 .lightblue-gradient .svg-fill {
-	fill: #fff;
+	fill: #000;
 }
 
 .lightblue-accent {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .lightblue-accent .secondary-bg {
@@ -2806,7 +2810,7 @@ input:checked+.slider:before {
 }
 
 .lightblue-black .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .lightblue-black .primary-color {
@@ -2826,14 +2830,14 @@ input:checked+.slider:before {
 }
 
 .lightblue-white .secondary-bg {
-	background-color: #2d2857 !important;
+	background-color: #000!important;
 	fill: #fff;
 	-webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .lightblue-white .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .lightblue-white .secondary-color {
@@ -4735,12 +4739,12 @@ td.hljs-ln-code {
 }
 
 .most_popular_done {
-	border: 4px solid #2d2857 !important;
+	border: 4px solid #fff !important;
 }
 
 .most_popular_done::before {
 	content: "Most Popular!";
-	background-color: #2d2857;
+	background-color: #fff;
 	color: wheat;
 	padding: 7px;
 }
@@ -4810,8 +4814,14 @@ td.hljs-ln-code {
 
 /* Style the counter cards */
 
+.cta-small-text{
+	box-shadow: 0 0px 0px rgba(50,50,93,.11), 0 0px 0px rgba(0,0,0,.08) !important;
+    color: #000 !important;
+    padding-top: 2rem  !important;
+}
+
 .white_h1 {
-	color: #fff;
+	color: #000;
 }
 
 .card-card {
@@ -4840,8 +4850,8 @@ td.hljs-ln-code {
 }
 
 .website_premium_button {
-	background-color: #2d2857;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 }
 
 .pricing_photo {
@@ -4858,7 +4868,7 @@ td.hljs-ln-code {
 }
 
 .pink-card {
-	background-color: #f93f7e !important;
+	background-color: rgba(220,51,99,1) !important;
 	color: #fff !important;
 }
 
@@ -4978,7 +4988,7 @@ td.hljs-ln-code {
 	top: -1.5rem;
 	margin: 0 0 0 -1rem !important;
 	border-radius: 100%;
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .hi-items > img{
@@ -4991,7 +5001,7 @@ td.hljs-ln-code {
 
 
 .plan-features__item:before:nth-child(2n+1) {
-	background-color: #2D2857;
+	background-color: #fff;
 }
 
 
@@ -5057,7 +5067,7 @@ td.hljs-ln-code {
 	top: 30px;
 	transform: rotate(45deg);
 	padding: 12px 0px;
-	background: #f93f7e;
+	background: rgba(220,51,99,1);
 }
 
 .pink-card .heading,
@@ -5070,7 +5080,7 @@ td.hljs-ln-code {
 .pink-card>.fa-times-circle,
 .pink-card .fa-times-circle {
 	fill: #fff;
-	color: #fff;
+	color: #000;
 }
 
 .svg-inline--fa.fa-w-16 {
@@ -5832,11 +5842,11 @@ img.grayscale:hover {
 }
 
 .custom-color-8637f205-ddcf-bdca-c76c-d96b1717448c .secondary-color {
-	color: #fff;
+	color: #000;
 }
 
 .custom-color-8637f205-ddcf-bdca-c76c-d96b1717448c .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .custom-color-8637f205-ddcf-bdca-c76c-d96b1717448c .secondary-bg {
@@ -5850,8 +5860,30 @@ img.grayscale:hover {
 .footer {
 	background-color: #343a40 !important;
 	padding: 5rem !important;
-	color: #fff;
+	color: #000;
 }
+
+.footer-header{
+	margin-bottom: 15px;
+
+	font-size: 18px;
+	line-height: 41px;
+	font-weight: 700;
+}
+
+
+.footer-list{
+	position: static;
+    width: 120px;
+    padding-bottom: 2px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
 
 .base-footer {
 	background-color: #222b37;
@@ -5864,11 +5896,11 @@ img.grayscale:hover {
 }
 
 .custom-color-2c59c33f-96c5-9ea8-7952-ecffe2fff531 .secondary-color {
-	color: #fff;
+	color: #000;
 }
 
 .custom-color-2c59c33f-96c5-9ea8-7952-ecffe2fff531 .accent-bg {
-	background-color: #2d2857;
+	background-color: #fff;
 }
 
 .custom-color-2c59c33f-96c5-9ea8-7952-ecffe2fff531 .secondary-bg {
@@ -5882,12 +5914,14 @@ img.grayscale:hover {
 .button-signup_two {
 	-webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-	background: #fff !important;
+
 	border-radius: 4px;
 	font-size: 15px;
-	font-weight: 600;
 	letter-spacing: .025em;
-	color: #ec9368 !important;
+	background-color: rgba(220,51,99,1)!important;
+    color: #fff;
+    border: 0;
+    padding: 8px;
 	text-decoration: none;
 	-webkit-transition: all .15s ease;
 	transition: all .15s ease;
@@ -5955,7 +5989,7 @@ img.grayscale:hover {
 	top: 50%;
 	left: 0;
 	right: 0;
-	color: #FFF;
+	color: #000;
 	text-align: center;
 	font-family: "lato", sans-serif;
 	font-weight: 300;
@@ -6137,7 +6171,7 @@ img.grayscale:hover {
 .w3-badge,
 .w3-tag {
 	background-color: #000;
-	color: #fff;
+	color: #000;
 	display: inline-block;
 	padding: 10px;
 	margin-top: 25px;
@@ -6152,7 +6186,7 @@ img.grayscale:hover {
 
 .w3-red,
 .w3-hover-red:hover {
-	color: #fff;
+	color: #000;
 	background-color: #f44336;
 }
 
