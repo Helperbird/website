@@ -136,10 +136,8 @@ html(lang='en')
             h1.heading.primary-color.launchaco-builder-hoverable Thank you for subscribing to Helperbird
             h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text You successfully bought a Helperbird Subscription. The email that was used for the billing is the email we use for your subscription.
             .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(data-target='#downloadModal', data-toggle='modal', type='button')
-                span Download Helperbird
-                |  
-                span.its_free Its Free!
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(href="https://www.helperbird.com/blog/signin")
+                span How to Sign in?
         .container-lrg.flex
           .flex.flex-column.col-12.text-center
             .scroller_video_home.mb20
@@ -147,6 +145,5 @@ html(lang='en')
                 .youtube_lazy_load(data-embed='aXXRSenvTTg')
                   .play-button
                   img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
-    include includes/features/list.pug
     include includes/sections/questions.pug
     include includes/layout/footer.pug
