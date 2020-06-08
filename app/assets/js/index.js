@@ -12,26 +12,27 @@ import * as reviews from './core/reviews';
 import * as features from './core/features';
 import * as images from './core/images';
 import * as notifactions from './core/notifactions';
-
+import * as webp from './core/webp'
 // Make it public 
 window.videos = videos;
 window.reviews = reviews;
 window.features = features;
 window.images = images;
 
-
+ webp.load();
 import '@fortawesome/fontawesome-free/js/all';
 
 import 'bootstrap/js/dist/modal';
 
 async function loader() {
 
-
+    
     await stripe.load(); // Load Stripe
     await plan.eventListner(); // Pricing table 
     await youtube.load();
     await thirdParty.crisp();
     await slider.initComparisons();
+    
 
     let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);

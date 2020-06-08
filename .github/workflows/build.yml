@@ -13,6 +13,7 @@ jobs:
         run: |
           npm install
           npm run images
+          npm run webp
           npm run build
 
       - name: Deploy 🚀
