@@ -147,7 +147,25 @@ html(lang='en')
             .mt40
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(onclick='features.enableTint("#22942b")')
                 span Try Overlay
-
+              a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text.cta-small-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
+                span Watch it in action
+        .container-md.flex.catch.hide
+          .flex.flex-column.col-12.text-center
+            .scroller_video_home.mb20
+              .scroller_video_item_home_page
+                .youtube_lazy_load(data-embed='aXXRSenvTTg')
+                  .play-button
+                  img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
+        .container-md.flex.slider-show
+          .flex.flex-column.col-12.text-center
+            .browser.mt40.launchaco-builder-hoverable
+              .mask.mask__noimage
+                .img-comp-container
+                  .img-comp-img
+                    img(src='/assets/images/switch/overlay/after.png', loading='lazy', alt='Before Helperbird', width='760', height='441')
+                  .img-comp-img.img-comp-overlay
+                    img(src='/assets/images/switch/overlay/before.png', loading='lazy', alt='After Helperbird', width='760', height='441')
+                  
                       
     section.section.mb80
       .container-lrg
@@ -155,15 +173,16 @@ html(lang='en')
           h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
             About this feature
             
-          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Bright web pages are a known issue on the web which affects people's ability to read and focus. Users with Irlen syndrome or people who don't like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Bright web pages are a known issue on the web which affects people's ability to read and focus. 
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Users with Irlen syndrome or people who don't like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.
     section.section.mb80
       .container-lrg
         .col-12
           h2.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000').
             Options
             
-          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Overlay
-          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Color options
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Apply a overlay to any website you visit.
+          h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Pick from 24 default colors or a custom color.
  
  
     .section.lightblue-white.mb80
@@ -191,11 +210,11 @@ html(lang='en')
         .col-12
           h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us Screenshots
         .row_img
-          .column_img.browser
+          .column_img.mask.mask__noimage
             img.width_100(alt='Enable purple overlay', loading='lazy', onclick='window.images.big(this)', src='/assets/images/screenshot/overlay/overlay_1.png')
-          .column_img.browser
+          .column_img.mask.mask__noimage
             img.width_100(alt='Enable yellow overlay', loading='lazy', onclick='window.images.big(this)', src='/assets/images/screenshot/overlay/overlay_2.png')
-          .column_img.browser
+          .column_img.mask.mask__noimage
             img.width_100(alt='Enable purple overlay', loading='lazy', onclick='window.images.big(this)', src='/assets/images/screenshot/overlay/overlay_3.png')
       .container-lrg.flex.mt75
         .container_img.browser
