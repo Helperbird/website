@@ -37,7 +37,7 @@ async function loader() {
     await videos.showSlidesVideo(slideIndex);
     await reviews.showReview(slideIndex);
     if (Math.random() < 0.5) {
-        await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off sale on now.</a>')
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">Helperbird Pro sale now on!</a>')
     } else {
         await notifactions.popup('<a href="https://www.helperbird.com/pricing">20% off Helperbird Pro</a>');
     }
