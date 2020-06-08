@@ -458,6 +458,19 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+    new HtmlWebpackPlugin({
+      filename: 'compare/snap-and-read-alternative.html',
+      template: 'templates/compare/snap-and-read-alternative.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
     new HtmlWebpackPlugin({
       filename: 'compare/read-and-write-alternative.html',
       template: 'templates/compare/read-and-write-alternative.pug',
