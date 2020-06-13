@@ -1,1 +1,10 @@
-User-agent: * Disallow: Disallow: /cgi-bin/ Disallow: /payments/ Disallow: /payments/custom/ Disallow: /success Disallow: /cancel Disallow: /life-time Sitemap: https://www.helperbird.com/sitemap.xml
+User-agent: * 
+Disallow: /cgi-bin/ 
+Disallow: /payments/ 
+Disallow: /payments/custom/
+Disallow: /success 
+Disallow: /cancel 
+Disallow: /life-time 
+Disallow: /life-time 
+Disallow: /feedback
+Sitemap: https://www.helperbird.com/sitemap.xml

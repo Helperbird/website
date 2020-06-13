@@ -135,14 +135,15 @@ html(lang='en')
       include includes/layout/navigation.pug
       section.section_header
         .container-lrg.flex
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Helperbird Roadmap
-            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text See upcoming features coming to Helperbird
-            .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(data-target='#downloadModal', data-toggle='modal', type='button')
-                span Download Helperbird
-                |  
-                span.its_free Its Free!
+          .flex.flex-column.col-10.text-center.middle-center
+            h1.heading.primary-color.launchaco-builder-hoverable Helperbird Features and Development Roadmap
+            .flex.flex-column.col-10.text-center.middle-center
+				h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text We're always improving Helperbird based on our customer feedback. We make lots of small improvements every two weeks, but here's a note of the main features we're working on our future releases.
+				.mt40
+					a.try_it_now.button.pink.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.cta-button(href='#pricing')
+					span Get Helperbird for Free
+					a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text.cta-small-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
+					span Watch it in action
     
     include includes/sections/roadmap.pug
     include includes/layout/footer.pug
