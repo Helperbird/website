@@ -472,7 +472,19 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    
+
+    new HtmlWebpackPlugin({
+      filename: 'features/index.html',
+      template: 'templates/features/index.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
     new HtmlWebpackPlugin({
       filename: 'features/adjust-letters-and-words.html',
       template: 'templates/features/adjust-letters-and-words.pug',
