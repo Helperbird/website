@@ -384,6 +384,20 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
+      filename: 'updates/25-0-0.html',
+      template: 'templates/updates/25-0-0.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
+
+    new HtmlWebpackPlugin({
       filename: 'updates/24-1-0.html',
       template: 'templates/updates/24-1-0.pug',
       minify: {
