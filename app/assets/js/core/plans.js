@@ -39,6 +39,7 @@ async function calc() {
         document.getElementById('plusPricing').innerHTML = '$6.99 ';
         document.getElementById('plusPricingText').innerText = 'Billed monthly';
         document.getElementById('enterprisePricingBefore').innerHTML = 'Was $99';
+        document.getElementById('proPricingBefore').innerHTML = '';
         document.getElementById('enterprisePricing').innerHTML = '$50.00';
         document.getElementById('enterprisePricingText').innerText = 'Billed monthly';
 
