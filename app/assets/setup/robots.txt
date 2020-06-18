@@ -7,4 +7,5 @@ Disallow: /cancel
 Disallow: /life-time 
 Disallow: /life-time 
 Disallow: /feedback
+Disallow: /friend/dai
 Sitemap: https://www.helperbird.com/sitemap.xml

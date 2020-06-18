@@ -314,6 +314,20 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+    new HtmlWebpackPlugin({
+      filename: 'friend/dai.html',
+      template: './templates/friend/dai.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
     new HtmlWebpackPlugin({
       filename: 'features/ruler.html',
       template: './templates/features/ruler.pug',
