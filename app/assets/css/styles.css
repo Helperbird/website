@@ -198,11 +198,12 @@ body {
 }
 
 .scroller_video_item_home_page {
-	width: 100%;
+	width: 70%;
 	background-color: #f5f5f5;
 	text-decoration: none;
 	margin-right: 0;
 	border-radius: 9px;
+	margin:auto;
 }
 
 .remove_border {
