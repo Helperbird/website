@@ -24,7 +24,7 @@ async function calc() {
         document.getElementById('plusPricing').innerHTML = '$30.00 ';
         document.getElementById('enterprisePricing').innerHTML = '$500';
         document.getElementById('enterprisePricingBefore').innerHTML = 'Was $1000';
-        document.getElementById('proPricingBefore').innerHTML = 'Was $30';
+        document.getElementById('proPricingBefore').innerHTML = 'Was $50';
         document.getElementById('plusPricingText').innerText = 'Billed yearly';
 
         document.getElementById('enterprisePricingText').innerText = 'Billed yearly';
@@ -36,7 +36,7 @@ async function calc() {
 
     } else {
 
-        document.getElementById('plusPricing').innerHTML = '$6.99 ';
+        document.getElementById('plusPricing').innerHTML = '$4.99';
         document.getElementById('plusPricingText').innerText = 'Billed monthly';
         document.getElementById('enterprisePricingBefore').innerHTML = 'Was $99';
         document.getElementById('proPricingBefore').innerHTML = '';
