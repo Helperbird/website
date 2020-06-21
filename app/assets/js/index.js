@@ -1,8 +1,11 @@
-import '../css/override.min.css';
+
 import '../css/styles.min.css';
 import '../css/modal.min.css';
+import '../css/override.min.css';
+import '../css/dropdown.min.css';
 // Js
 import * as stripe from './core/stripe';
+import * as dropdown from './core/dropdown';
 import * as plan from './core/plans';
 import * as youtube from './core/youtube';
 import * as thirdParty from './core/third-party';

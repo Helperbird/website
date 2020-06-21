@@ -123,22 +123,7 @@ html(lang='en')
       
   body.font-friendly
     .lightblue-gradient
-      header.header
-        .container-lrg
-          .flex.col-12.spread
-            a.logo.primary-color.launchaco-builder-hoverable.logo(href='/')
-              img(alt='Helperbird Logo', loading='lazy', src='/assets/images/pwa/logo/full.png')
-              | Helperbird
-            a.menu-toggle#menu(href='#main-menu')
-              b.nav-link.mr0.secondary-color ☰
-            nav.main-menu#main-menu(role='navigation')
-              a.menu-close#main-menu-close(href='#')
-                span.bold ✕
-              a.nav-link.secondary-color(href='/about') About
-              a.nav-link.secondary-color(href='/#features') Features
-              a.nav-link.secondary-color(href='/pricing') Pricing
-              a.nav-link.secondary-color(href='/support') Help
-              a.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
+      include ../includes/layout/dropdown.pug
       section.section_header
         .container-lrg.flex
           .flex.flex-column.col-8.text-center.middle-center

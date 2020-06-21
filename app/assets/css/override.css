@@ -39,3 +39,13 @@ html {
     fill: rgba(220, 51, 99, 1);
     color: rgba(220, 51, 99, 1);
 }
+
+
+
+
+a,button{
+    cursor: pointer !important;
+}
+
+
+

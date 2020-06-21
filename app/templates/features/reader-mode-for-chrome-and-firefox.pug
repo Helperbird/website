@@ -123,27 +123,12 @@ html(lang='en')
       
   body.font-friendly
     .lightblue-gradient
-      header.header
-        .container-lrg
-          .flex.col-12.spread
-            a.logo.primary-color.launchaco-builder-hoverable.logo(href='/')
-              img(alt='Helperbird Logo', loading='lazy', src='/assets/images/pwa/logo/full.png')
-              | Helperbird
-            a.menu-toggle#menu(href='#main-menu')
-              b.nav-link.mr0.secondary-color ☰
-            nav.main-menu#main-menu(role='navigation')
-              a.menu-close#main-menu-close(href='#')
-                span.bold ✕
-              a.nav-link.secondary-color(href='/about') About
-              a.nav-link.secondary-color(href='/#features') Features
-              a.nav-link.secondary-color(href='/pricing') Pricing
-              a.nav-link.secondary-color(href='/support') Help
-              a.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
+      include ../includes/layout/dropdown.pug
       section.section_header
         .container-lrg.flex
           .flex.flex-column.col-8.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable Reader mode 
-            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Helperbird gives you a Reader Mode that removes ads and distractions from any webpage with complete customization. View for clutter-free web pages
+            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Helperbird gives you a Reader Mode that removes ads and distractions from any webpage with complete customization. View  clutter-free web pages
             .mt40
               a.try_it_now.button.pink.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.cta-button(data-target='#downloadModal', data-toggle='modal')
                 span Get Helperbird for Free
