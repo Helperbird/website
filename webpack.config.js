@@ -328,6 +328,20 @@ module.exports = {
       },
     }),
 
+
+    new HtmlWebpackPlugin({
+      filename: 'friend/free.html',
+      template: './templates/friend/free.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
     new HtmlWebpackPlugin({
       filename: 'features/ruler.html',
       template: './templates/features/ruler.pug',
@@ -410,7 +424,18 @@ module.exports = {
       },
     }),
 
-
+    new HtmlWebpackPlugin({
+      filename: 'updates/25-1-0.html',
+      template: 'templates/updates/25-1-0.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
 
     new HtmlWebpackPlugin({
       filename: 'updates/25-0-1.html',
