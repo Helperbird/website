@@ -1,3 +1,4 @@
+
 footer {
     background-color: #222b37 !important;
     padding: 2rem !important;
@@ -43,7 +44,8 @@ html {
 
 
 
-a,button{
+a,
+button {
     cursor: pointer !important;
 }
 
@@ -51,32 +53,4 @@ a,button{
 
 
 
-.really-red{
 
-}
-
-
-.really-blue{
-    
-}
-
-
-
-.really-green{
-    
-}
-
-
-.really-yellow{
-    
-}
-
-
-.really-lightblue{
-    
-}
-
-
-.really-purple{
-    
-}

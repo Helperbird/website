@@ -1,3 +1,41 @@
+
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lexend Tera';
+    src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html {
 	scroll-behavior: smooth;
 }
@@ -9,43 +47,43 @@ body {
 }
 
 .font-elegant * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-elegant .bold {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-elegant .heading {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-elegant .heading-lrg {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-elegant .heading-sml {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-friendly * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-hacker * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-hacker .heading {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-hacker .heading-lrg {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-hacker .heading-sml {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .white {
@@ -57,31 +95,31 @@ body {
 }
 
 .font-modern * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-neutral * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-serious * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-serious .bold {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-serious .heading {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-serious .heading-lrg {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 .font-serious .heading-sml {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 * {
@@ -839,7 +877,7 @@ input:checked+.slider:before {
 	margin: 0;
 	width: 100%;
 	height: 100vh;
-	font-family: "Exo", sans-serif;
+	font-family: 'Lexend Tera' !important;
 	color: #000;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -3991,7 +4029,7 @@ input:checked+.slider:before {
 }
 
 .hljs * {
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 	font-size: 14px;
 	line-height: 1.4;
 }
@@ -4016,7 +4054,7 @@ td.hljs-ln-numbers {
 
 .hljs-ln-n:before {
 	content: attr(data-line-number);
-	font-family: Arial, sans-serif;
+	    font-family: 'Lexend Tera' !important;
 }
 
 td.hljs-ln-code {

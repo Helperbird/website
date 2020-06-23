@@ -80,11 +80,14 @@ var menuItems = [].slice.call(document.querySelectorAll('.menu__item')),
         //- Remove active class from all sub menus
         menuSubs.forEach(el => {
             el.classList.remove('active2');
+            el.removeAttribute('style');
             el.style.opacity = 0;
         });
         //- set sub menu background opacity
+        subBg.removeAttribute('style');
         subBg.style.opacity = 0;
         //- set arrow opacity
+        subArr.removeAttribute('style');
         subArr.style.opacity = 0;
 
 

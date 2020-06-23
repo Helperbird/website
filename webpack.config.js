@@ -921,6 +921,10 @@ module.exports = {
         to: ''
       },
       {
+        from: 'assets/fonts/',
+        to: 'assets/fonts/'
+      },
+      {
         from: 'assets/videos/',
         to: 'assets/videos/'
       },
@@ -969,8 +973,15 @@ module.exports = {
         MiniCssExtractPlugin.loader,
         "css-loader"
       ]
-    }, {
-      test: /\.(png|jpe?g|gif|xml|ico|svg|webmanifest)$/i,
+    }, 
+    
+    {
+      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      loader: 'file-loader?name=/fonts/[name].[ext]'
+    },
+    
+    {
+      test: /\.(png|jpe?g|gif|xml|ico|svg|woff2|webmanifest)$/i,
       loader: 'file-loader',
       options: {
         name: '[name].[ext]',

@@ -31,7 +31,7 @@
     position: absolute;
     background-color: #000;
     width: 100%;
-    left: 0;
+    left: -2000px;
     top: 100%;
 }
 

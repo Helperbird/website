@@ -43,6 +43,7 @@
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "sitemap-webpack-plugin": "^0.6.0",
+    "url-loader": "^4.1.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.3",
