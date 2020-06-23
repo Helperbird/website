@@ -33,7 +33,8 @@ var menuItems = [].slice.call(document.querySelectorAll('.menu__item')),
         //- get sub menu position
         var subMeta = menuSubCnt.getBoundingClientRect();
 
-
+        let holder = document.getElementById('dropdown-holder');
+        holder.style.left = 0;
         //- set selected menu
         selectedMenu = menuId;
 
@@ -93,7 +94,8 @@ var menuItems = [].slice.call(document.querySelectorAll('.menu__item')),
 
         // unset selected menu
         selectedMenu = undefined;
-
+        let holder = document.getElementById('dropdown-holder');
+        holder.style.left = '-2000px';
         header.classList.remove('dropdown-active');
     };
 
