@@ -163,7 +163,7 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
-                lineItems: [{price: 'Student', quantity: 1}],
+                lineItems: [{price: 'price_1Gxm97ENE7uqpRK1VbHmB8cZ', quantity: 1}],
                 mode: 'subscription',
                 // Do not rely on the redirect to the successUrl for fulfilling
                 // purchases, customers may not always reach the success_url after

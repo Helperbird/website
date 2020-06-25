@@ -56,7 +56,7 @@ var menuItems = [].slice.call(document.querySelectorAll('.menu__item')),
         subBg.style.height = subMeta.height + 'px';
         //- Set dropdown menu bottom section background position
         subBgBtm.style.top = menuSubTop.height + 'px';
-        console.log(menuSubBtm);
+
 
         //- Set Arrow position
         subArr.style.opacity = 1;
