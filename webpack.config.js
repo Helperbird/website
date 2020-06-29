@@ -28,6 +28,7 @@ const paths = [
   '/features/immersive-reader-for-chrome',
   '/features/notes',
   '/features/bookmarks',
+  '/features/analyze',
   '/features/overlay',
   '/features/privacy',
   '/features/reader-mode-for-chrome-and-firefox',
@@ -183,6 +184,19 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+    new HtmlWebpackPlugin({
+      filename: 'features/analyze.html',
+      template: './templates/features/analyze.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    
     new HtmlWebpackPlugin({
       filename: 'features/bookmarks.html',
       template: './templates/features/bookmarks.pug',
