@@ -20,6 +20,8 @@ const paths = [
   '/compare/immersive-reader-by-microsoft-alternative',
   '/compare/read-and-write-alternative',
   '/features/blacklist',
+  '/features/ad-blocker',
+  '/features/shortcuts',
   '/features/cognitive-load',
   '/features/color-blindness',
   '/features/dictionary',
@@ -576,7 +578,32 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+    new HtmlWebpackPlugin({
+      filename: 'features/shortcuts.html',
+      template: './templates/features/shortcuts.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
 
+    new HtmlWebpackPlugin({
+      filename: 'features/ad-blocker.html',
+      template: './templates/features/ad-blocker.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    
     new HtmlWebpackPlugin({
       filename: 'compare/snap-and-read-alternative.html',
       template: 'templates/compare/snap-and-read-alternative.pug',
