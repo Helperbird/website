@@ -27,6 +27,7 @@ const paths = [
   '/features/high-contrast',
   '/features/immersive-reader-for-chrome',
   '/features/notes',
+  '/features/bookmarks',
   '/features/overlay',
   '/features/privacy',
   '/features/reader-mode-for-chrome-and-firefox',
@@ -173,6 +174,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'features/notes.html',
       template: './templates/features/notes.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'features/bookmarks.html',
+      template: './templates/features/bookmarks.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
