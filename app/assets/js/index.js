@@ -41,9 +41,9 @@ async function loader() {
     await videos.showSlidesVideo(slideIndex);
     await reviews.showReview(slideIndex);
     if (Math.random() < 0.5) {
-        await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird for 7 days for Free</a>');
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro for 7 days for Free</a>');
     } else {
-        await notifactions.popup('<a href="https://www.helperbird.com/pricing">50% off summer sale on now!</a>');
+        await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro for 7 days for Free</a>');
     }
     await thirdParty.tagManager();
     await thirdParty.loadManager();
