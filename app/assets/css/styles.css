@@ -6319,8 +6319,8 @@ a:hover{
 }
 
 
-b{
-color: #F44336 !important;
+.make-it-red{
+color:	rgba(220,51,99,1)!important;
 }
 
 .star-reviews{
