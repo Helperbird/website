@@ -438,7 +438,18 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-
+    new HtmlWebpackPlugin({
+      filename: 'updates/26-0-1.html',
+      template: 'templates/updates/26-0-1.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
 
     new HtmlWebpackPlugin({
       filename: 'updates/25-0-0.html',
