@@ -6317,3 +6317,18 @@ a:hover{
 .grey-color{
 	background-color:	#9E9E9E !important;
 }
+
+
+b{
+color: #F44336 !important;
+}
+
+.star-reviews{
+	align-items: center;
+	text-align: center;
+}
+
+
+.review-title-stars{
+	margin: 1.5rem 0px;
+}

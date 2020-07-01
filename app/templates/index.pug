@@ -137,7 +137,10 @@ html(lang='en')
     .lightblue-gradient
       include includes/layout/dropdown.pug
       section.section_header
+
         .container-lrg.flex
+
+        
           .flex.flex-column.col-10.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable(style="color:#000") Working on the web just got easier.
 
@@ -158,6 +161,19 @@ html(lang='en')
                   span Get Helperbird for Free
                 a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text.cta-small-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
                   span Watch it in action
+        .container-lrg.flex
+          .flex.flex-column.col-4.text-center.middle-center.star-reviews
+            include ../assets/images/logo/stars.svg
+            p.review-title-stars
+              | “Game changing!”
+          .flex.flex-column.col-4.text-center.middle-center.star-reviews
+            include ../assets/images/logo/stars.svg
+            p.review-title-stars
+              | “extremely user friendly”
+          .flex.flex-column.col-4.text-center.middle-center.star-reviews
+            include ../assets/images/logo/stars.svg
+            p.review-title-stars
+              | “perfect solution”
         .container-md.flex.catch.hide
           .flex.flex-column.col-12.text-center
             .scroller_video_home.mb20
