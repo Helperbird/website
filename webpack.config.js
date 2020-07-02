@@ -49,7 +49,6 @@ const paths = [
   '/contact',
   '/edge',
   '/enterprise',
-  '/feedback',
   '/firefox',
   '/in-the-news',
   '/pricing',
@@ -410,6 +409,20 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+        new HtmlWebpackPlugin({
+      filename: 'partners/sascharoos.html',
+      template: 'templates/partners/sascharoos.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
 
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-install-helperbird-in-edu-accounts.html',
