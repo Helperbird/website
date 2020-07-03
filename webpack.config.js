@@ -411,7 +411,7 @@ module.exports = {
     }),
 
         new HtmlWebpackPlugin({
-      filename: 'partners/sascharoos.html',
+      filename: 'partners/sprialisconsulting.html',
       template: 'templates/partners/sascharoos.pug',
       minify: {
         collapseWhitespace: true,
@@ -424,6 +424,18 @@ module.exports = {
     }),
 
 
+    new HtmlWebpackPlugin({
+      filename: 'partners/sprialisconsulting.html',
+      template: 'templates/partners/sprialisconsulting.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-install-helperbird-in-edu-accounts.html',
       template: 'templates/blog/how-to-install-helperbird-in-edu-accounts.pug',
