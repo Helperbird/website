@@ -11,56 +11,81 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
 
 const paths = [
-  '/blog/',
-  '/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console',
-  '/blog/how-to-install-and-set-up-helperbird',
-  '/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia',
-  '/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia',
-  '/blog/signin',
-  '/compare/immersive-reader-by-microsoft-alternative',
-  '/compare/read-and-write-alternative',
-  '/features/blacklist',
-  '/features/ad-blocker',
-  '/features/shortcuts',
-  '/features/cognitive-load',
-  '/features/color-blindness',
-  '/features/dictionary',
-  '/features/google-translate',
-  '/features/high-contrast',
-  '/features/immersive-reader-for-chrome',
-  '/features/notes',
-  '/features/bookmarks',
-  '/features/analyze',
-  '/features/overlay',
-  '/features/privacy',
-  '/features/reader-mode-for-chrome-and-firefox',
-  '/features/ruler',
-  '/features/screenshot',
-  '/features/specialised-dyslexic-fonts',
-  '/features/',
-  '/features/speech-to-text',
-  '/features/styles',
-  '/features/text-to-speech',
-  '/features/zoom',
-  '/about',
-  '/welcome',
-  '/chrome',
-  '/compliance',
-  '/contact',
-  '/edge',
-  '/enterprise',
-  '/firefox',
-  '/in-the-news',
-  '/pricing',
-  '/privacy',
-  '/roadmap',
-  '/sales',
-  '/sitemap',
-  '/support',
-  '/survey',
-  '/terms-of-service',
-  '/updates',
-  '/'
+  "/success-education",
+  "/cancel",
+  "/friend/free",
+  "/friend/dai",
+  "/",
+  "/feedback",
+  "/compliance",
+  "/testimonials",
+  "/about",
+  "/contact",
+  "/pricing",
+  "/support",
+  "/sitemap",
+  "/survey",
+  "/firefox",
+  "/features/",
+  "/features/blacklist",
+  "/features/zoom",
+  "/features/text-to-speech",
+  "/features/optical-character-recognition",
+  "/features/screenshot",
+  "/features/google-translate",
+  "/features/styles",
+  "/features/color-blindness",
+  "/features/reader-mode-for-chrome-and-firefox",
+  "/features/speech-to-text",
+  "/features/ruler",
+  "/features/notes",
+  "/features/bookmarks",
+  "/features/immersive-reader-for-chrome",
+  "/features/shortcuts",
+  "/features/analyze",
+  "/features/adjust-letters-and-words",
+  "/features/high-contrast",
+  "/features/dictionary",
+  "/features/cognitive-load",
+  "/features/specialised-dyslexic-fonts",
+  "/features/overlay",
+  "/features/ad-blocker",
+  "/features/cursor-control",
+  "/features/privacy",
+  "/sales",
+  "/404",
+  "/updates/24-1-1",
+  "/updates/24-3-0",
+  "/updates/24-2-4",
+  "/updates/",
+  "/updates/26-0-1",
+  "/updates/25-1-0",
+  "/updates/24-1-0",
+  "/updates/24-2-2",
+  "/updates/25-0-1",
+  "/updates/25-0-0",
+  "/updates/26-0-2",
+  "/updates/24-1-2",
+  "/blog/how-to-install-and-set-up-helperbird",
+  "/blog/",
+  "/blog/how-to-install-helperbird-in-edu-accounts",
+  "/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia",
+  "/blog/signin",
+  "/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console",
+  "/partners/sascharoos",
+  "/welcome",
+  "/terms-of-service",
+  "/compare/immersive-reader-by-microsoft-alternative",
+  "/compare/snap-and-read-alternative",
+  "/compare/read-and-write-alternative",
+  "/chrome",
+  "/success",
+  "/enterprise",
+  "/roadmap",
+  "/reviews",
+  "/edge",
+  "/privacy",
+  "/in-the-news"
 ];
 
 module.exports = {
@@ -197,7 +222,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    
+
     new HtmlWebpackPlugin({
       filename: 'features/bookmarks.html',
       template: './templates/features/bookmarks.pug',
@@ -382,7 +407,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-        
+
     new HtmlWebpackPlugin({
       filename: 'features/optical-character-recognition.html',
       template: 'templates/features/optical-character-recognition.pug',
@@ -410,7 +435,7 @@ module.exports = {
       },
     }),
 
-        new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({
       filename: 'partners/sprialisconsulting.html',
       template: 'templates/partners/sascharoos.pug',
       minify: {
@@ -538,7 +563,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    
+
     new HtmlWebpackPlugin({
       filename: 'updates/24-2-4.html',
       template: 'templates/updates/24-2-4.pug',
@@ -612,7 +637,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    
+
     new HtmlWebpackPlugin({
       filename: 'features/zoom.html',
       template: './templates/features/zoom.pug',
@@ -650,7 +675,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    
+
     new HtmlWebpackPlugin({
       filename: 'compare/snap-and-read-alternative.html',
       template: 'templates/compare/snap-and-read-alternative.pug',
@@ -952,7 +977,7 @@ module.exports = {
       },
     }),
 
-    
+
     new HtmlWebpackPlugin({
       filename: 'firefox.html',
       template: 'templates/firefox.pug',
@@ -1057,39 +1082,38 @@ module.exports = {
     }),
   ],
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.mp4$/,
         use: 'file-loader?name=videos/[name].[ext]',
- },
+      },
       {
         test: /\.pug$/,
         use: 'pug-loader'
       },
-      
-      
+
+
       {
-      test: /\.css$/,
-      use: [
-        MiniCssExtractPlugin.loader,
-        "css-loader"
-      ]
-    }, 
-    
-    {
-      test: /\.(eot|svg|ttf|woff|woff2)$/,
-      loader: 'file-loader?name=/fonts/[name].[ext]'
-    },
-    
-    {
-      test: /\.(png|jpe?g|gif|xml|ico|svg|woff2|webmanifest)$/i,
-      loader: 'file-loader',
-      options: {
-        name: '[name].[ext]',
-        outputPath: './docs'
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          "css-loader"
+        ]
+      },
+
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=/fonts/[name].[ext]'
+      },
+
+      {
+        test: /\.(png|jpe?g|gif|xml|ico|svg|woff2|webmanifest)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: './docs'
+        }
       }
-    }
-  ],
+    ],
   },
   output: {
     publicPath: '/',
