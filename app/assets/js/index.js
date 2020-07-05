@@ -1,4 +1,3 @@
-
 import '../css/styles.min.css';
 import '../css/modal.min.css';
 import '../css/override.min.css';
@@ -22,20 +21,20 @@ window.reviews = reviews;
 window.features = features;
 window.images = images;
 
- webp.load();
+webp.load();
 import '@fortawesome/fontawesome-free/js/all';
 
 import 'bootstrap/js/dist/modal';
 
 async function loader() {
 
-    
+
     await stripe.load(); // Load Stripe
     await plan.eventListner(); // Pricing table 
     await youtube.load();
     await thirdParty.crisp();
     await slider.initComparisons();
-    
+
 
     let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
@@ -60,7 +59,26 @@ if ('serviceWorker' in navigator) {
             //console.log('SW registered: ', registration);
         }).catch(registrationError => {
 
-           // console.log('SW registration failed: ', registrationError);
+            // console.log('SW registration failed: ', registrationError);
         });
     });
 }
+
+
+import {
+    scanForProblems
+} from 'accessibilityjs';
+
+function logError(error) {
+    error.element.classList.add('accessibility-error')
+    error.element.addEventListener('click', function () {
+        alert(`${error.name}\n\n${error.message}`)
+    }, {
+        once: true
+    })
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    scanForProblems(document, logError)
+})

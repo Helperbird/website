@@ -61,9 +61,9 @@ section.section.lightblue-white#testimonial-5
             img(alt='Photo of Helperbird user Sue Dowdall', src='/assets/images/people/sue.png')
           p.span.secondary-color.mb10.launchaco-builder-hoverable Sue Dowdall
           span.span.secondary-color.launchaco-builder-hoverable User
-      a.prev(onclick='window.reviews.plusReview(-1)') ❮
+      button.prev(onclick='window.reviews.plusReview(-1)', role="button", title="Previous review") ❮
       |  
-      a.next(onclick='window.reviews.plusReview(1)') ❯
+      button.next(onclick='window.reviews.plusReview(1)',role="button", title="Next review") ❯
     .dot-container
       span.dot(onclick='window.reviews.currentReview(1)')
       span.dot(onclick='window.reviews.currentReview(2)')

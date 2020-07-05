@@ -4,7 +4,7 @@ header.header
       a.logo.primary-color.launchaco-builder-hoverable.logo(href='/')
         img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png')
         | Helperbird
-      a.menu-toggle#menu(href='#main-menu')
+      a.menu-toggle#menu(href='#main-menu', title="menu button")
         b.nav-link.mr0.secondary-color ☰
       nav.main-menu#main-menu(role='navigation')
         a.menu-close#main-menu-close(href='#')
@@ -13,4 +13,4 @@ header.header
         a.nav-link.secondary-color(href='/features') Features
         a.nav-link.secondary-color(href='/pricing') Pricing
         a.nav-link.secondary-color(href='/support') Help
-        a.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
+        button.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal',role="button", type='button') Download Helperbird

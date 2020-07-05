@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.3.0",
+    "accessibilityjs": "^1.1.2",
     "bootstrap": "^4.4.1",
     "gulp": "^4.0.2",
     "gulp-webp": "^4.0.1",

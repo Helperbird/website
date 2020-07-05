@@ -6332,3 +6332,14 @@ color:	rgba(220,51,99,1)!important;
 .review-title-stars{
 	margin: 1.5rem 0px;
 }
+
+.accessibility-error{
+
+}
+
+
+button{
+
+	border: 0 !important;
+	border-radius: 15px !important;
+}

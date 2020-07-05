@@ -8,19 +8,19 @@ header.header
       a.logo.primary-color.launchaco-builder-hoverable.logo(href='/')
         img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png')
         | Helperbird
-      a.menu-toggle#menu(href='#main-menu')
+      a.menu-toggle#menu(href='#main-menu', title="menu button", role="button")
         b.nav-link.mr0.secondary-color ☰
 
 
         ul.menu.nav.main-menu#main-menu(role='navigation')
             li.menu__item.nav-link.menu-close
-                a.menu-close#main-menu-close(href='#')
+                a.menu-close#main-menu-close(href='#', role="button")
                     span.bold ✕
-            li.menu__item.nav-link: a.secondary-color(href='/about') Our Story
-            li.menu__item.nav-link(data-sub="product"): a.secondary-color(href='/features') Features
-            li.menu__item.nav-link: a.secondary-color(href='/pricing') Pricing
-            li.menu__item.nav-link: a.secondary-color(href='/support') Help
-            li.menu__item.nav-link: a.secondary-color.button.mobile-text-center.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
+            li.menu__item.nav-link: a.secondary-color(href='/about', title="Visit our about page") Our Story
+            li.menu__item.nav-link(data-sub="product"): a.secondary-color(href='/features', title="Visit our features page") Features
+            li.menu__item.nav-link: a.secondary-color(href='/pricing', title="Visit our pricing page") Pricing
+            li.menu__item.nav-link: a.secondary-color(href='/support', title="Visit our support page") Help
+            li.menu__item.nav-link: a.secondary-color.button.mobile-text-center.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', role="Download Helperbird modal", type='button') Download Helperbird
         .dropdown-holder#dropdown-holder
         
             .dropdown__arrow
