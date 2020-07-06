@@ -785,6 +785,18 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'examples/iron.html',
+      template: 'templates/examples/iron.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
       filename: 'privacy.html',
       template: 'templates/privacy.pug',
       minify: {
