@@ -72,7 +72,7 @@ import {
 function logError(error) {
     error.element.classList.add('accessibility-error')
     error.element.addEventListener('click', function () {
-        alert(`${error.name}\n\n${error.message}`)
+        console.log(`${error.name}\n\n${error.message}`)
     }, {
         once: true
     })
@@ -80,5 +80,5 @@ function logError(error) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    scanForProblems(document, logError)
+   // scanForProblems(document, logError)
 })
