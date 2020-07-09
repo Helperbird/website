@@ -20,7 +20,7 @@ window.videos = videos;
 window.reviews = reviews;
 window.features = features;
 window.images = images;
-
+window.notifactions = notifactions;
 webp.load();
 import '@fortawesome/fontawesome-free/js/all';
 
