@@ -65,20 +65,3 @@ if ('serviceWorker' in navigator) {
 }
 
 
-import {
-    scanForProblems
-} from 'accessibilityjs';
-
-function logError(error) {
-    error.element.classList.add('accessibility-error')
-    error.element.addEventListener('click', function () {
-        console.log(`${error.name}\n\n${error.message}`)
-    }, {
-        once: true
-    })
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-
-   // scanForProblems(document, logError)
-})

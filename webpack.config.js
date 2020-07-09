@@ -797,6 +797,18 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'products/accessibility-checker.html',
+      template: 'templates/products/accessibility-checker.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
       filename: 'privacy.html',
       template: 'templates/privacy.pug',
       minify: {

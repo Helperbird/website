@@ -21,6 +21,39 @@ async function load() {
     let educationYearly = document.getElementById('checkout-button-plan_G1O8Rztm6fFf4R');
     let educationMonthly = document.getElementById('checkout-button-plan_G1OnSt8DIms1PY');
     let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
+    let a11yChecker = document.getElementById('checkout-button-price_1H2OvdENE7uqpRK1QXNcEJJB');
+
+
+    if (a11yChecker !== null) {
+        a11yChecker.addEventListener('click', function () {
+            // When the customer clicks on the button, redirect
+            // them to Checkout.
+            notyf.success('Loading.....');
+            stripe.redirectToCheckout({
+                    lineItems: [{
+                        price: 'price_1H2OvdENE7uqpRK1QXNcEJJB',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
+                })
+                .then(({
+                    error
+                }) => {
+                    if (result.error) {
+                        // If `redirectToCheckout` fails due to a browser or network
+        
+                        notyf.error(error.message);
+                    }
+                });
+        });
+    }
 
     if (proMonthly !== null) {
         proMonthly.addEventListener('click', () => {
@@ -31,19 +64,24 @@ async function load() {
             stripe.redirectToCheckout({
 
 
-                lineItems: [{price: 'price_1Gs8aeENE7uqpRK1ENLxNh3F', quantity: 1}],
-                mode: 'subscription',
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                    lineItems: [{
+                        price: 'price_1Gs8aeENE7uqpRK1ENLxNh3F',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
 
-        
+
                 })
-                .then(({error}) => {
+                .then(({
+                    error
+                }) => {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
@@ -65,19 +103,24 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
-                lineItems: [{price: '1', quantity: 1}],
-                mode: 'subscription',
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                    lineItems: [{
+                        price: '1',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
 
 
                 })
-                .then(({error}) => {
+                .then(({
+                    error
+                }) => {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
@@ -98,17 +141,22 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
-                lineItems: [{price: 'Education_Yearly', quantity: 1}],
-                mode: 'subscription',
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                    lineItems: [{
+                        price: 'Education_Yearly',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
                 })
-                .then(({error}) => {
+                .then(({
+                    error
+                }) => {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
@@ -130,17 +178,22 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
-                lineItems: [{price: 'price_1GuonLENE7uqpRK1R3fgcfn1', quantity: 1}],
-                mode: 'subscription',
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                    lineItems: [{
+                        price: 'price_1GuonLENE7uqpRK1R3fgcfn1',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
                 })
-                .then(({error}) => {
+                .then(({
+                    error
+                }) => {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
@@ -163,17 +216,22 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
-                lineItems: [{price: 'price_1Gxm97ENE7uqpRK1VbHmB8cZ', quantity: 1}],
-                mode: 'subscription',
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://www.helperbird.com/success',
-                cancelUrl: 'https://www.helperbird.com/canceled',
+                    lineItems: [{
+                        price: 'price_1Gxm97ENE7uqpRK1VbHmB8cZ',
+                        quantity: 1
+                    }],
+                    mode: 'subscription',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.helperbird.com/success',
+                    cancelUrl: 'https://www.helperbird.com/canceled',
                 })
-                .then(({error}) => {
+                .then(({
+                    error
+                }) => {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
