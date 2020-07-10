@@ -86,8 +86,6 @@ async function load() {
                     // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://www.helperbird.com/success',
                     cancelUrl: 'https://www.helperbird.com/canceled',
-
-
                 })
                 .then(({
                     error
@@ -95,9 +93,7 @@ async function load() {
                     if (error) {
                         // If `redirectToCheckout` fails due to a browser or network
                         // error, display the localized error message to your customer.
-
                         notyf.error(error.message);
-
                     }
                 });
         });

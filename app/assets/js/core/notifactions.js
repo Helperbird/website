@@ -4,9 +4,9 @@ import {
 import 'notyf/notyf.min.css'; // for React and Vue
 const notyf = new Notyf({
     ripple: true,
-    duration: 9000,
+    duration: 5000,
     position: {
-      x: 'center',
+      x: 'left',
       y: 'bottom',
     }
 });

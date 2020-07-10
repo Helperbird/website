@@ -14,6 +14,7 @@ import * as reviews from './core/reviews';
 import * as features from './core/features';
 import * as images from './core/images';
 import * as notifactions from './core/notifactions';
+import * as a11y from './core/scanner';
 import * as webp from './core/webp'
 // Make it public 
 window.videos = videos;
@@ -21,6 +22,7 @@ window.reviews = reviews;
 window.features = features;
 window.images = images;
 window.notifactions = notifactions;
+window.a11y = a11y;
 webp.load();
 import '@fortawesome/fontawesome-free/js/all';
 
