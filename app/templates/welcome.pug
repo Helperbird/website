@@ -137,17 +137,41 @@ html(lang='en')
           .flex.flex-column.col-8.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable Welcome to Helperbird 👋
             h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Learn how to use Helperbirds best in class features. Which include specialized fonts, changing of the background color, font colors, text to speech, overlays, ruler and much more!
+section.section
+  .container-lrg.flex
+    .flex.flex-column.col-12.center-vertical.mobile-text-center.padding40.banner_sell.reall_red.banner_sell_margin.helperbird_background
+      h1.heading.primary-color.launchaco-builder-hoverable.white
+        span
+            | Helperbird Pro 
+      h2.subheading.secondary-color.mt20.launchaco-builder-hoverable.white
+        | Learn more about the award winning Helperbird Pro, loved by 200,000 users
+      .mt40
+          a.button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href="/chrome", title="Learn more about Helperbird Pro")
+            span  Learn more
 
-      section.section.lightblue-white#features
-        .container.text-center
-          .col-12
-            h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us
-                | Discover all of Helperbirds features
 
-    include includes/features/boxes_no_text_small.pug
-    include includes/sections/support_videos.pug
-    
-    include includes/sections/questions.pug
+section.section
+  .container-lrg.flex
+    .flex.flex-column.col-12.center-vertical.mobile-text-center.padding40.banner_sell.reall_red.banner_sell_margin.helperbird_background_a11y(style="background-color:black !important")
+      h1.heading.primary-color.launchaco-builder-hoverable.white
+        span
+            | Accessibility Checker 
+        span.its_free_a11y.white.hide-on-small-screens by Helperbird
+      h2.subheading.secondary-color.mt20.launchaco-builder-hoverable.white
+        | Find out your website's accessibility issues before your customers do.
+      .mt40
+          a.button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href="/products/accessibility-checker", title="Learn more about Accessibility checker by Helperbird")
+            span  Learn more
 
-    include includes/pricing/pricing-table.pug
+
+style.
+    .white{
+        color:#fff !important;
+    }
+    .padding40{
+        padding: 40px;
+    }
+
+include includes/sections/questions.pug
+
 include includes/layout/footer.pug
