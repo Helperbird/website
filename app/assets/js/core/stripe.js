@@ -31,9 +31,6 @@ async function load() {
 			a11yCheckers[i].addEventListener('click', function () {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
-
-                notyf.success('Coming July 15th 2020....');
-                return false;
                 notyf.success('Loading.....');
                 stripe.redirectToCheckout({
                         lineItems: [{
@@ -46,7 +43,7 @@ async function load() {
                         // a successful payment.
                         // Instead use one of the strategies described in
                         // https://stripe.com/docs/payments/checkout/fulfillment
-                        successUrl: 'https://www.helperbird.com/success',
+                        successUrl: 'https://www.helperbird.com/success-a11y',
                         cancelUrl: 'https://www.helperbird.com/canceled',
                     })
                     .then(({

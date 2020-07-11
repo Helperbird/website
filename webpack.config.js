@@ -905,6 +905,18 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
+      filename: 'success-a11y.html',
+      template: 'templates/success-a11y.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
       filename: 'success-education.html',
       template: 'templates/success-education.pug',
       minify: {
