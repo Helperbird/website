@@ -142,7 +142,7 @@ html(lang='en')
 
         
           .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
-            h1.heading.primary-color.launchaco-builder-hoverable Working on the web just got easier.
+            h1.heading.primary-color.launchaco-builder-hoverable Be More Productive Working Online
             h2.subheading.secondary-color.mt20.launchaco-builder-hoverable
               | Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. 
               | Providing you features like 
@@ -163,8 +163,9 @@ html(lang='en')
                 span Watch it in action
             .flex.wrap.mt40
               .flex.flex-column.col-12.mobile-col-12
-                include ../assets/images/logo/stars.svg
+                
                 p.review-title-stars
+                  include ../assets/images/logo/stars.svg
                   | 200,000 people use Helperbird to improve their productivity
 
 
@@ -230,7 +231,58 @@ html(lang='en')
     include includes/features/list.pug
     include includes/features/boxes_no_text_small.pug
     include includes/sections/reviews-slider.pug
-    include includes/pricing/pricing-table.pug
+    section.section#student 
+      .container-lrg.flex
+        .flex.flex-column.col-6.center-vertical.mobile-text-center.padding40.banner_sell.reall_red.banner_sell_margin
+          h1.heading.primary-color.launchaco-builder-hoverable.white
+            span
+                | Are you a student?
+            span.its_free_a11y.white.hide-on-small-screens
+          h2.subheading.secondary-color.mt20.launchaco-builder-hoverable.white
+            | Get Helperbird Pro for only $20.00 a year.
+          .mt40
+              a.button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color#checkout-button-plan_GDtSwhVHQXfaSw
+                span  Upgrade now
+
+        .flex.flex-column.col-6.center-vertical.mobile-text-center.padding40.banner_sell.banner_sell_margin.helperbird_background
+          h1.heading.primary-color.launchaco-builder-hoverable.white
+            span
+                | Discover Helperbird Pro
+            span.its_free_a11y.white.hide-on-small-screens
+          h2.subheading.secondary-color.mt20.launchaco-builder-hoverable.white
+            | Discover all the features and benefits of Helperbird Pro and how 200,000 people can't be wrong.
+          .mt40
+        
+
+
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.hides(style="background-color:rgba(220,51,99,1) !important;", href="/pricing", title="Helperbird School pricing")
+                span  See pricing
+
+          
+
+
+      .container-lrg.flex
+        .flex.flex-column.col-12.center-vertical.mobile-text-center.padding40.banner_sell.reall_red.banner_sell_margin.helperbird_background_a11y(style="background-color:black !important")
+          h1.heading.primary-color.launchaco-builder-hoverable.white
+            span
+                | Get Accessibility Checker 
+            span.its_free_a11y.white.hide-on-small-screens by Helperbird
+          h2.subheading.secondary-color.mt20.launchaco-builder-hoverable.white
+            | Find out your website's accessibility issues before your customers do.
+          .mt40
+              a.button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href="/products/accessibility-checker", title="Learn more about Accessibility checker by Helperbird")
+                span  Learn more
+
+    style.
+        .white{
+            color:#fff !important;
+        }
+        .padding40{
+            padding: 40px;
+        }
+
+
+
 
 
 
