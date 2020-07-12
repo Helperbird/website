@@ -161,16 +161,20 @@ html(lang='en')
                 span.its_free - Free
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
                 span Watch it in action
+            .flex.wrap.mt40
+              .flex.flex-column.col-4.mobile-col-12.text-center.star-reviews
+                include ../assets/images/logo/stars.svg
+                p.review-title-stars
+                  | “200,000 people use Helperbird to improve their productivity
+
 
 
 
           .col-6.flex.flex-column.text-center.mobile-col-12.catch.hide
 
-            .scroller_video_home.mb20
-              .scroller_video_item_home_page
-                .youtube_lazy_load(data-embed='aXXRSenvTTg')
-                  .play-button
-                  img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
+            .youtube_lazy_load(data-embed='aXXRSenvTTg')
+              .play-button
+              img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
 
           .col-6.flex.flex-column.text-center.mobile-col-12.slider-show
 
