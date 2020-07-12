@@ -270,6 +270,51 @@ background-color:	rgba(220,51,99,1) !important
 	}
 }
 
+
+.img-comp-container {
+	position: relative;
+	height: 391px;
+}
+
+@media screen and (max-width: 600px) {
+	.img-comp-container {
+		height: 391px;
+	}
+}
+
+
+
+
+
+
+.img-comp-container-home {
+	position: relative;
+	height: 441px;
+}
+
+@media screen and (max-width: 600px) {
+	.img-comp-container-home {
+		height: 441px;
+	}
+}
+
+
+.img-comp-container-home {
+	position: relative;
+	height: 391px;
+}
+
+@media screen and (max-width: 600px) {
+	.img-comp-container-home {
+		height: 391px;
+	}
+}
+
+
+
+
+
+
 .me-photo {
 	margin: auto;
 	border-radius: 203px;
@@ -345,6 +390,20 @@ background-color:	rgba(220,51,99,1) !important
 	vertical-align: middle;
 }
 
+
+.img-comp-img-home {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.img-comp-img-home img {
+	max-width: none;
+	display: block;
+	vertical-align: middle;
+}
+
 .img-comp-slider {
 	position: absolute;
 	z-index: 9;
@@ -357,7 +416,24 @@ background-color:	rgba(220,51,99,1) !important
 	border-radius: 50%;
 }
 
+
+.img-comp-slider-home {
+	position: absolute;
+	z-index: 9;
+	cursor: ew-resize;
+	/*set the appearance of the slider:*/
+	width: 40px;
+	height: 40px;
+	background-color: #510dda;
+	background: url('/assets/images/home/compare.png') #510dda no-repeat center;
+	border-radius: 50%;
+}
+
 .img-comp-overlay {
+	border-right: 2px solid #510dda;
+}
+
+.img-comp-overlay-home {
 	border-right: 2px solid #510dda;
 }
 

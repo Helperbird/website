@@ -9,6 +9,7 @@ import * as plan from './core/plans';
 import * as youtube from './core/youtube';
 import * as thirdParty from './core/third-party';
 import * as slider from './core/slider';
+import * as sliderHome from './core/slider-home';
 import * as videos from './core/videos';
 import * as reviews from './core/reviews';
 import * as features from './core/features';
@@ -36,7 +37,7 @@ async function loader() {
     await youtube.load();
     await thirdParty.crisp();
     await slider.initComparisons();
-
+await sliderHome.initComparisons();
 
     let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
