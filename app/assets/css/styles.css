@@ -750,7 +750,11 @@ img {
 	width: 100%;
 	max-width: 1420px;
 }
+.container-xlrg:before {
+	transform: skewY(-5deg);
+    background: #006df6;
 
+}
 .container-lrg {
 	margin: auto;
 	position: relative;
