@@ -5224,9 +5224,10 @@ td.hljs-ln-code {
 	color: #000;
 }
 
-.svg-inline--fa.fa-w-16 {
+.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14,.svg-inline--fa.fa-w-18 {
 	width: 1.4rem !important;
 	height: 1.4rem !important;
+	margin-right: 1rem !important;
 }
 
 .line-through {
