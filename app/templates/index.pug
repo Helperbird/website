@@ -172,20 +172,17 @@ html(lang='en')
 
 
           .col-6.flex.flex-column.text-center.mobile-col-12.catch.hide
+            .browser.mt40.launchaco-builder-hoverable
 
-            .youtube_lazy_load(data-embed='aXXRSenvTTg')
-              .play-button
-              img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
+              video( width='670', height='391')
+                source(src="/assets/videos/overview.mp4" type="video/mp4")
 
           .col-6.flex.flex-column.text-center.mobile-col-12.slider-show
-
             .browser.mt40.launchaco-builder-hoverable
-              .mask.mask__noimage
-                .img-comp-container-home
-                  .img-comp-img-home
-                    img(src='./assets/images/home/before.png', loading='lazy', alt='Before Helperbird', width='670', height='391')
-                  .img-comp-img-home.img-comp-overlay-home
-                    img(src='./assets/images/home/after.png', loading='lazy', alt='After Helperbird', width='670', height='391')
+
+              video( width='670', height='391' poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217")
+                source(src="/assets/videos/example-15.mp4" type="video/mp4")
+
 
 
 
