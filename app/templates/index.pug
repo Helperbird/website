@@ -224,6 +224,36 @@ html(lang='en')
     include includes/features/list.pug
     include includes/features/boxes_no_text_small.pug
     include includes/sections/reviews-slider.pug
+    .lightblue-gradient#pricing
+      section.section_header.website_pricing_header
+        .container
+          .col-12.text-center
+            h1.heading.primary-color.launchaco-builder-hoverable 
+              | Choose your plan
+
+            
+            
+            h2.paragraph.secondary-color.mt20.launchaco-builder-hoverable
+              a(href='https://datastudio.google.com/u/0/reporting/3e86f5ee-b27b-4bb6-bfdc-90c1dd67f06e/page/1M', rel='noopener', target='_blank') 2,000 
+              | users signed up last week. Join them.
+
+            h2.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
+              b
+                | Save 50%
+
+            svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
+              path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
+
+
+            .pricing-switch
+              
+              | Monthly
+              label.switch
+                input#annual(name='xxx', type='checkbox')
+                span.slider.round
+              | Yearly
+
+      include includes/pricing/pricing-three.pug
     section.section#student 
       .container-lrg.flex
         .flex.flex-column.col-6.center-vertical.mobile-text-center.padding40.banner_sell.reall_red.banner_sell_margin
