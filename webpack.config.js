@@ -81,6 +81,7 @@ const paths = [
   "/chrome",
   "/success",
   "/enterprise",
+  "/edu",
   "/roadmap",
   "/reviews",
   "/edge",
@@ -931,6 +932,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'enterprise.html',
       template: 'templates/enterprise.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'edit.html',
+      template: 'templates/edu.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
