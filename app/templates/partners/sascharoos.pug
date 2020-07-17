@@ -69,59 +69,72 @@ html(lang='en')
       	   }
       
     script(type='application/ld+json').
-      
+        
       {
-      	   "@context": "https://schema.org/",
-      	   "@type": "Product",
-      	   "name": "Helperbird",
-      	   "image": [
-      	      "https://www.helperbird.com/assets/images/pwa/144.png",
-      	      "https://www.helperbird.com/assets/images/pwa/512.png",
-      	      "https://www.helperbird.com/assets/images/pwa/full.png"
-      	   ],
-      	   "description": "Helperbird is a browser extension that gives people the features to make reading, learning, working easier and more fun. Including specialized fonts, changing the background color, font colors, text to speech, overlays, rulers and more!",
-      	   "sku": "0446310786",
-      	   "mpn": "925872",
-      	   "brand": {
-      	      "@type": "Thing",
-      	      "name": "Helperbird"
-      	   },
-      	      "review": {
-      	          "@context": "http://schema.org/",
-      	          "@type": "Review",
-      	          "name": "Colm Murphy",
-      	          "reviewBody": "This is a great little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-      	          "reviewRating": {
-      	              "@type": "Rating",
-      	              "ratingValue": "5",
-      	              "bestRating": "5",
-      	              "worstRating": "1"
-      	          },
-      	          "datePublished": "2019-05-02",
-      	          "author": {
-      	              "@type": "Person",
-      	              "name": "Colm Murphy"
-      	          }
-      	      },
-      	   "aggregateRating": {
-      	      "@type": "AggregateRating",
-      	      "ratingValue": "4.8",
-      	      "reviewCount": "57"
-      	   },
-      	   "offers": {
-      	      "@type": "Offer",
-      	      "url": "https://www.helperbird.com",
-      	      "priceCurrency": "USD",
-      	      "price": "4.99",
-      	      "priceValidUntil": "2020-11-05",
-      	      "itemCondition": "https://schema.org/NewCondition",
-      	      "availability": "https://schema.org/InStock",
-      	      "seller": {
-      	      "@type": "Organization",
-      	      "name": "Helperbird"
-      	      }
-      	   }
-      	   }
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Helperbird",
+        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
+        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
+        "brand": "Helperbird",
+        "sku": "0446310786",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.helperbird.com/pricing",
+          "priceCurrency": "USD",
+          "price": "30",
+          "priceValidUntil": "2020-12-31",
+          "availability": "https://schema.org/OnlineOnly",
+          "itemCondition": "https://schema.org/NewCondition"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2",
+          "reviewCount": "2"
+        },
+        "review": [{
+          "@type": "Review",
+          "name": "Vladimir Ciobica",
+          "reviewBody": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-07-10",
+          "author": {
+            "@type": "Person",
+            "name": "Vladimir Ciobica"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "softpedia"
+          }
+        }, {
+          "@type": "Review",
+          "name": "Colm Murphy",
+          "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-05-13",
+          "author": {
+            "@type": "Person",
+            "name": "Colm Murphy"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "User"
+          }
+        }]
+      }
       
     link(href='assets/images/social/apple-touch-icon.png', rel='apple-touch-icon', sizes='180x180')
     link(href='assets/images/social/social/favicon-32x32.png', rel='icon', sizes='32x32', type='image/png')
