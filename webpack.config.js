@@ -942,7 +942,7 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
-      filename: 'edit.html',
+      filename: 'edu.html',
       template: 'templates/edu.pug',
       minify: {
         collapseWhitespace: true,
