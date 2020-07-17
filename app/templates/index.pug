@@ -173,15 +173,13 @@ html(lang='en')
 
 
 
-          .col-6.flex.flex-column.text-center.mobile-col-12.slider-show
+
+          .col-6.flex.flex-column.text-center.mobile-col-12
             .browser.mt40.launchaco-builder-hoverable
 
-              .scroller_video_home
-                .scroller_video_item_home_page(style="    width: 100%;")
-                  .youtube_lazy_load(data-embed='aXXRSenvTTg', style="border-radius: 0px !important")
-                    .play-button.
-
-
+              video(width="680" height="402" autoplay="autoplay" control="control" loop="loop")
+                source(src="/assets/videos/home.webm" type="video/webm")
+                source(src="/assets/videos/home.mp4" type="video/mp4")
     section.section.press-logos#featuredin-1
       .container.text-center
         .col-12
