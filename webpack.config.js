@@ -437,7 +437,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      filename: 'partners/sprialisconsulting.html',
+      filename: 'partners/sascharoos.html',
       template: 'templates/partners/sascharoos.pug',
       minify: {
         collapseWhitespace: true,

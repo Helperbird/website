@@ -1,0 +1,187 @@
+
+
+
+section.pricing_table
+  .container-xlrg.flex
+    .col-12
+      .card.flex.mobile-flex-wrap.no_border
+        .col-3.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.pricing_table_card
+          .mb20
+            .pricing-header
+              p.bold 10 activations
+              b.heading $100
+              span.paragraph Billed yearly
+
+          a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.text-center#checkout-button-price_1H64HxENE7uqpRK17GrIqFfW
+            span  Upgrade now
+            | 
+            span.its_free $100.00
+
+        .col-3.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.pricing_table_card
+          .mb20
+            .pricing-header
+              p.bold 25 activations
+              b.heading $250
+              span.paragraph Billed yearly
+
+          a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.text-center#checkout-button-price_1H5ehQENE7uqpRK1VVDhl2em
+            span  Upgrade now
+            | 
+            span.its_free $250.00
+
+
+        .col-3.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.pricing_table_card.custom_table_most_popluar
+          .popular-badge
+            span.popular-badge-inner Most Popular
+          .mt20
+            .pricing-header
+              p.bold 50 activations
+              b.heading $500
+              span.paragraph  Billed yearly
+   
+
+         
+
+          a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.text-center#checkout-button-price_1H5ehmENE7uqpRK1jifAiPty
+            span  Upgrade now
+            | 
+            span.its_free $500.00
+
+
+
+
+
+        .col-3.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.pricing_table.pricing_table_card.custom_table_most_popluar
+          .mt20
+            .pricing-header
+              p.bold Unlimited activations
+              b.heading $1000
+              span.paragraph  Billed yearly
+        
+          button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.text-center#checkout-button-price_1H63jAENE7uqpRK1RxJhmkmy
+            span  Upgrade now
+            | 
+
+            span.its_free $1000
+ 
+
+
+
+script.
+  (function() {
+  var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
+  var checkoutButton = document.getElementById('checkout-button-price_1H64HxENE7uqpRK17GrIqFfW');
+  checkoutButton.addEventListener('click', function () {
+  // When the customer clicks on the button, redirect
+  // them to Checkout.
+  stripe.redirectToCheckout({
+  lineItems: [{price: 'price_1H64HxENE7uqpRK17GrIqFfW', quantity: 1}],
+  mode: 'subscription',
+  // Do not rely on the redirect to the successUrl for fulfilling
+  // purchases, customers may not always reach the success_url after
+  // a successful payment.
+  // Instead use one of the strategies described in
+  // https://stripe.com/docs/payments/checkout/fulfillment
+  successUrl: 'https://www.helperbird.com/success',
+  cancelUrl: 'https://www.helperbird.com/canceled',
+  })
+  .then(function (result) {
+  if (result.error) {
+  // If `redirectToCheckout` fails due to a browser or network
+  // error, display the localized error message to your customer.
+  var displayError = document.getElementById('error-message');
+  displayError.textContent = result.error.message;
+  }
+  });
+  });
+  })();
+
+
+script.
+  (function() {
+  var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
+  var checkoutButton = document.getElementById('checkout-button-price_1H63jAENE7uqpRK1RxJhmkmy');
+  checkoutButton.addEventListener('click', function () {
+  // When the customer clicks on the button, redirect
+  // them to Checkout.
+  stripe.redirectToCheckout({
+  lineItems: [{price: 'price_1H63jAENE7uqpRK1RxJhmkmy', quantity: 1}],
+  mode: 'subscription',
+  // Do not rely on the redirect to the successUrl for fulfilling
+  // purchases, customers may not always reach the success_url after
+  // a successful payment.
+  // Instead use one of the strategies described in
+  // https://stripe.com/docs/payments/checkout/fulfillment
+  successUrl: 'https://www.helperbird.com/success',
+  cancelUrl: 'https://www.helperbird.com/canceled',
+  })
+  .then(function (result) {
+  if (result.error) {
+  // If `redirectToCheckout` fails due to a browser or network
+  // error, display the localized error message to your customer.
+  var displayError = document.getElementById('error-message');
+  displayError.textContent = result.error.message;
+  }
+  });
+  });
+  })();
+
+
+
+script.
+  (function() {
+  var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
+  var checkoutButton = document.getElementById('checkout-button-price_1H5ehmENE7uqpRK1jifAiPty');
+  checkoutButton.addEventListener('click', function () {
+  // When the customer clicks on the button, redirect
+  // them to Checkout.
+  stripe.redirectToCheckout({
+  lineItems: [{price: 'price_1H5ehmENE7uqpRK1jifAiPty', quantity: 1}],
+  mode: 'subscription',
+  // Do not rely on the redirect to the successUrl for fulfilling
+  // purchases, customers may not always reach the success_url after
+  // a successful payment.
+  // Instead use one of the strategies described in
+  // https://stripe.com/docs/payments/checkout/fulfillment
+  successUrl: 'https://www.helperbird.com/success',
+  cancelUrl: 'https://www.helperbird.com/canceled',
+  })
+  .then(function (result) {
+  if (result.error) {
+  // If `redirectToCheckout` fails due to a browser or network
+  // error, display the localized error message to your customer.
+  var displayError = document.getElementById('error-message');
+  displayError.textContent = result.error.message;
+  }
+  });
+  });
+  })();
+
+script.
+  (function() {
+  var stripe = Stripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
+  var checkoutButton = document.getElementById('checkout-button-price_1H5ehQENE7uqpRK1VVDhl2em');
+  checkoutButton.addEventListener('click', function () {
+  // When the customer clicks on the button, redirect
+  // them to Checkout.
+  stripe.redirectToCheckout({
+  lineItems: [{price: 'price_1H5ehQENE7uqpRK1VVDhl2em', quantity: 1}],
+  mode: 'subscription',
+  // Do not rely on the redirect to the successUrl for fulfilling
+  // purchases, customers may not always reach the success_url after
+  // a successful payment.
+  // Instead use one of the strategies described in
+  // https://stripe.com/docs/payments/checkout/fulfillment
+  successUrl: 'https://www.helperbird.com/success',
+  cancelUrl: 'https://www.helperbird.com/canceled',
+  })
+  .then(function (result) {
+  if (result.error) {
+  // If `redirectToCheckout` fails due to a browser or network
+  // error, display the localized error message to your customer.
+  var displayError = document.getElementById('error-message');
+  displayError.textContent = result.error.message;
+  }
+  });
+  });
+  })();
