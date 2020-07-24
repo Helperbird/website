@@ -6,6 +6,7 @@ import '../css/dropdown.min.css';
 import * as stripe from './core/stripe';
 import * as dropdown from './core/dropdown';
 import * as plan from './core/plans';
+import * as widget from './core/plans-widget';
 import * as youtube from './core/youtube';
 import * as thirdParty from './core/third-party';
 import * as slider from './core/slider';
@@ -37,7 +38,8 @@ async function loader() {
     await youtube.load();
     await thirdParty.crisp();
     await slider.initComparisons();
-await sliderHome.initComparisons();
+    await sliderHome.initComparisons();
+    await widget.eventListner();
 
     let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
@@ -66,5 +68,3 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
-
-

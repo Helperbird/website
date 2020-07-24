@@ -22,18 +22,24 @@ async function load() {
     let educationMonthly = document.getElementById('checkout-button-plan_G1OnSt8DIms1PY');
     let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
     let a11yCheckers = document.getElementsByClassName('helperbird-accessibility-buy-button');
+    let widget = document.getElementsByClassName('helperbird-widget-buy-button');
 
 
-    if (a11yCheckers.length !== 0) {
 
-        
-		for (var i = 0; i < a11yCheckers.length; i++) {
-			a11yCheckers[i].addEventListener('click', function () {
+    if (widget.length !== 0) {
+
+
+        for (var i = 0; i < widget.length; i++) {
+            widget[i].addEventListener('click', function () {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
-                notyf.success('Loading.....');
+                notyf.success('Coming Monday the 27th of July');
+                return false;
                 stripe.redirectToCheckout({
-                    lineItems: [{price: 'price_1H6SB0ENE7uqpRK1tFZO3Puk', quantity: 1}],
+                        lineItems: [{
+                            price: 'price_1H6SB0ENE7uqpRK1tFZO3Puk',
+                            quantity: 1
+                        }],
                         mode: 'subscription',
                         // Do not rely on the redirect to the successUrl for fulfilling
                         // purchases, customers may not always reach the success_url after
@@ -48,12 +54,50 @@ async function load() {
                     }) => {
                         if (result.error) {
                             // If `redirectToCheckout` fails due to a browser or network
-            
+
                             notyf.error(error.message);
                         }
                     });
             });
-		}
+        }
+
+
+
+    }
+
+    if (a11yCheckers.length !== 0) {
+
+
+        for (var i = 0; i < a11yCheckers.length; i++) {
+            a11yCheckers[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                notyf.success('Loading.....');
+                stripe.redirectToCheckout({
+                        lineItems: [{
+                            price: 'price_1H6SB0ENE7uqpRK1tFZO3Puk',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success-a11y',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(({
+                        error
+                    }) => {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+
+                            notyf.error(error.message);
+                        }
+                    });
+            });
+        }
 
 
 

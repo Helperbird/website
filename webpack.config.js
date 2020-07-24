@@ -20,6 +20,7 @@ const paths = [
   "/compliance",
   "/testimonials",
   "/about",
+  "/products/widget",
   "/contact",
   "/pricing",
   "/support",
@@ -811,6 +812,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'products/accessibility-checker.html',
       template: 'templates/products/accessibility-checker.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'products/widget.html',
+      template: 'templates/products/widget.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
