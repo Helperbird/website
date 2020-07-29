@@ -21,6 +21,7 @@ const paths = [
   "/testimonials",
   "/about",
   "/products/widget",
+  "/products/accessibility-checker",
   "/contact",
   "/pricing",
   "/support",
