@@ -34,12 +34,153 @@ async function load() {
     let widgetLargeMonthly = document.getElementsByClassName('helperbird-widget-monthly');
     let widgetLargeYearly = document.getElementsByClassName('helperbird-widget-large');
 
-
     let widgetEnterprise = document.getElementsByClassName('helperbird-widget-enterprise');
     let widgetEnterpriseYearly = document.getElementsByClassName('helperbird-widget-enterprise-yearly');
 
 
 
+
+    // Bundles 
+    let smallBundle = document.getElementsByClassName('helperbird-bundle-small');
+    let mediumBundle = document.getElementsByClassName('helperbird-bundle-medium');
+
+    let largeBundle = document.getElementsByClassName('helperbird-bundle-large');
+    let fullBundle = document.getElementsByClassName('helperbird-bundle-full');
+
+    if (smallBundle.length !== 0) {
+
+
+        for (var i = 0; i < smallBundle.length; i++) {
+            smallBundle[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                stripe.redirectToCheckout({
+                        lineItems: [{
+                            price: 'price_1H64HxENE7uqpRK17GrIqFfW',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
+        }
+    }
+
+
+    if (mediumBundle.length !== 0) {
+
+
+        for (var i = 0; i < mediumBundle.length; i++) {
+            mediumBundle[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                stripe.redirectToCheckout({
+                        lineItems: [{
+                            price: 'price_1H5ehQENE7uqpRK1VVDhl2em',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
+        }
+    }
+
+
+    if (largeBundle.length !== 0) {
+
+
+        for (var i = 0; i < largeBundle.length; i++) {
+            largeBundle[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                stripe.redirectToCheckout({
+                        lineItems: [{
+                            price: 'price_1H5ehmENE7uqpRK1jifAiPty',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
+        }
+    }
+
+
+    if (fullBundle.length !== 0) {
+
+
+        for (var i = 0; i < fullBundle.length; i++) {
+            fullBundle[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                stripe.redirectToCheckout({
+                        lineItems: [{
+                            price: 'price_1H63jAENE7uqpRK1RxJhmkmy',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
+        }
+    }
 
 
     if (widgetEnterpriseYearly.length !== 0) {
@@ -50,25 +191,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'price_1H9xPqENE7uqpRK1zEsky6Ws', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'price_1H9xPqENE7uqpRK1zEsky6Ws',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -81,25 +225,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'price_1H9xPpENE7uqpRK1SZ6RF4lB', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'price_1H9xPpENE7uqpRK1SZ6RF4lB',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -113,25 +260,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'price_1H9xPqENE7uqpRK1wtjQeEV0', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'price_1H9xPqENE7uqpRK1wtjQeEV0',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -144,25 +294,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'price_1H9xPpENE7uqpRK1HKnR7pRZ', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'price_1H9xPpENE7uqpRK1HKnR7pRZ',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -176,25 +329,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'price_1H9xPpENE7uqpRK1cluZa5YB', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'price_1H9xPpENE7uqpRK1cluZa5YB',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -209,25 +365,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'medium', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'medium',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -242,25 +401,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'Basic-yearly', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'Basic-yearly',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
@@ -274,25 +436,28 @@ async function load() {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
                 stripe.redirectToCheckout({
-                  lineItems: [{price: 'basic', quantity: 1}],
-                  mode: 'subscription',
-                  // Do not rely on the redirect to the successUrl for fulfilling
-                  // purchases, customers may not always reach the success_url after
-                  // a successful payment.
-                  // Instead use one of the strategies described in
-                  // https://stripe.com/docs/payments/checkout/fulfillment
-                  successUrl: 'https://www.helperbird.com/success',
-                  cancelUrl: 'https://www.helperbird.com/canceled',
-                })
-                .then(function (result) {
-                  if (result.error) {
-                    // If `redirectToCheckout` fails due to a browser or network
-                    // error, display the localized error message to your customer.
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-                });
-              });
+                        lineItems: [{
+                            price: 'basic',
+                            quantity: 1
+                        }],
+                        mode: 'subscription',
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        successUrl: 'https://www.helperbird.com/success',
+                        cancelUrl: 'https://www.helperbird.com/canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
         }
     }
 
