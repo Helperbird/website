@@ -15,6 +15,6 @@
     "theme_color": "#e9e8dc",
     "background_color": "#e9e8dc",
     "display": "standalone",
-    "start_url": "index.html",
-    "description": "Helperbird is a  privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.."
+    "start_url": "/index.html",
+    "description": "Helperbird is a browser extension that gives you the features to make more web more accessible and make you more productive."
 }
