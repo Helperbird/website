@@ -19,7 +19,7 @@ async function load() {
     let proMonthly = document.getElementById('checkout-button-plan_FmS3HONbzTCxGl');
     let proYearly = document.getElementById('checkout-button-1');
     let educationYearly = document.getElementById('checkout-button-plan_G1OnSt8DIms1PY');
-    let educationMonthly = document.getElementById('checkout-button-plan_G1O8Rztm6fFf4R ');
+    let educationMonthly = document.getElementById('checkout-button-plan_G1O8Rztm6fFf4R');
     let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
     let a11yCheckers = document.getElementsByClassName('helperbird-accessibility-buy-button');
 
