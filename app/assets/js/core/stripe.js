@@ -633,7 +633,7 @@ async function load() {
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
                     lineItems: [{
-                        price: 'price_1GuonLENE7uqpRK1R3fgcfn1',
+                        price: 'price_1HKAyCENE7uqpRK1ZXJF8cth',
                         quantity: 1
                     }],
                     mode: 'subscription',
