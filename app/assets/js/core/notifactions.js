@@ -6,7 +6,7 @@ const notyf = new Notyf({
     ripple: true,
     duration: 5000,
     position: {
-      x: 'left',
+      x: 'center',
       y: 'bottom',
     }
 });
@@ -14,7 +14,6 @@ const notyf = new Notyf({
 
 async function popup(message) {
 	setTimeout(() => {
-
         notyf.success(message);
 	}, 2000), {
 		once: true

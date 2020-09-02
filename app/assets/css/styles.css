@@ -205,7 +205,7 @@ body {
 }
 
 .try_button {
-	background-color: rgba(220, 51, 99, 1) !important;
+	background-color:#2ebc4f !important;
 	color: white;
 	border: 0;
 	padding: 8px;
@@ -5266,8 +5266,8 @@ td.hljs-ln-code {
 }
 
 .svg-inline--fa:hover {
-	fill: #ec9368 !important;
-	color: #ec9368 !important;
+	fill: #ff4500 !important;
+	color: #ff4500 !important;
 }
 
 img.grayscale {
@@ -5480,7 +5480,7 @@ img.grayscale:hover {
 	padding-top: 45px;
 	padding-bottom: 45px;
 	-webkit-font-smoothing: antialiased;
-	background-color: #efefef;
+	background-color: #FFF;
 	color: #000;
 }
 
@@ -6161,11 +6161,11 @@ img.grayscale:hover {
 	text-decoration: none;
 	-webkit-transition: all .15s ease;
 	transition: all .15s ease;
-	color: #fff !important;
-	background: #ec9368 !important;
+	color: #ffffff !important;
+	background: #1074e7 !important;
 	padding: 0px;
-	padding-left: 7px;
-	padding-right: 7px;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 .button-signup:hover,
@@ -6392,7 +6392,7 @@ ol {
 }
 
 .make-it-red {
-	color: rgba(220, 51, 99, 1) !important;
+    color: hsl(344deg 71% 54% / 100%) !important;
 }
 
 .star-reviews {
