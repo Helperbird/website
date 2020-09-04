@@ -636,11 +636,6 @@ async function load() {
                         price: 'price_1HKAyCENE7uqpRK1ZXJF8cth',
                         quantity: 1
                     },
-                
-                    {
-                        price: 'plan_G1O8Rztm6fFf4R',
-                        quantity: 1
-                    }
                 ],
                     mode: 'subscription',
                     // Do not rely on the redirect to the successUrl for fulfilling
