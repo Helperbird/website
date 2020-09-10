@@ -70,6 +70,7 @@ const paths = [
   "/updates/24-1-2",
   "/updates/27-0-0",
   "/updates/27-1-0",
+  "/updates/28-0-2",
   "/blog/how-to-install-and-set-up-helperbird",
   "/blog/",
   "/blog/how-to-install-helperbird-in-edu-accounts",
@@ -507,6 +508,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'updates/27-1-0.html',
       template: 'templates/updates/27-1-0.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: 'updates/28-0-2.html',
+      template: 'templates/updates/28-0-2.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
