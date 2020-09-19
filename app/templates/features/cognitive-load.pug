@@ -148,7 +148,7 @@ html(lang='en')
       
   body.font-friendly
     .lightblue-gradient
-      include ../includes/layout/dropdown.pug
+      include ../includes/layout/navigation.pug
       section.section_header
         .container-lrg.flex
           .flex.flex-column.col-8.text-center.middle-center
@@ -157,9 +157,9 @@ html(lang='en')
               
               Underlining of web page text leads to improved reading focus and memory retention rate. Using granular colors that underline text, users can find reading more comfortable and fun.
             .mt40
-              button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(data-target='#downloadModal',role="button", title="Open Helperbird download options", data-toggle='modal')
+              button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(data-target='#downloadModal',role="button", title="Open Helperbird download options", data-toggle='modal')
                 span Get Helperbird for Free
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button(onclick='features.cognitiveLoad()')
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(onclick='features.cognitiveLoad()')
                 span Try Cognitive Load
 
         .container-md.flex.catch.hide

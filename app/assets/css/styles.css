@@ -5038,6 +5038,10 @@ td.hljs-ln-code {
 	overflow: hidden;
 }
 
+.float-left-hard{
+	text-align:left !important;
+}
+
 .grid__item {
 	grid-column: 3 / -3;
 	width: 100%;
@@ -5051,7 +5055,7 @@ td.hljs-ln-code {
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	text-align: center;
-	grid-template-columns: repeat(auto-fill, 300px);
+	grid-template-columns: repeat(auto-fill, 900px);
 }
 
 .grid__item--large {
@@ -5061,7 +5065,7 @@ td.hljs-ln-code {
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	text-align: center;
-	grid-template-columns: repeat(auto-fill, 330px);
+	grid-template-columns: repeat(auto-fill, 240px);
 }
 
 .plan-features {
@@ -5225,8 +5229,8 @@ td.hljs-ln-code {
 }
 
 .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14,.svg-inline--fa.fa-w-18 {
-	width: 1.4rem !important;
-	height: 1.4rem !important;
+	width: 1.1rem !important;
+	height: 1.1rem !important;
 	margin-right: 1rem !important;
 }
 
@@ -5944,9 +5948,7 @@ img.grayscale:hover {
 }
 
 @media (min-width: 820px) {
-	.header .nav-link:last-of-type {
-		margin-right: 0;
-	}
+	
 
 	.menu-toggle {
 		line-height: 44px;
