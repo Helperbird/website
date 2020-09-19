@@ -1,10 +1,10 @@
 :root {
-	--background: linear-gradient(#507eb1, #709dc7 10%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 62%);
-	--first:  linear-gradient(100grad, rgba(243, 251, 255, .4), rgba(243, 251, 255, .15) 20%, rgba(243, 251, 255, 0));
-	--second:  linear-gradient(100grad, rgba(0, 119, 204, 0), rgba(0, 119, 204, .05) 40%, rgba(0, 119, 204, .35)); 
-	--third: linear-gradient(100grad, #fff 50%, hsla(0, 0%, 100%, 0)); 
-	--fourth:  linear-gradient(100grad, rgba(0, 119, 204, 0) 10%, rgba(0, 119, 204, .05)); 
-	--fifth: linear-gradient(100grad, #fff 80%, #f5fafd); 
+	--background: linear-gradient(#5f4fb0, #7e70c7 10%, #e0dbf5 38%, #edebf9 48%, #f8f7fc 62%);
+	--first:  linear-gradient(100grad, rgba(246, 245, 255, 0.4), rgba(246, 245, 255, 0.15) 20%, rgba(246, 245, 255, 0));
+	--second:  linear-gradient(100grad, rgba(34, 0, 204, 0),rgba(34, 0, 204, 0.05) 40%, rgba(34, 0, 204, 0.35)); 
+	--third: linear-gradient(100grad, #fff 50%, hsla(250, 0%, 100%, 0)); 
+	--fourth:  linear-gradient(100grad, rgba(34, 0, 204, 0) 10%, rgba(34, 0, 204, 0.05)); 
+	--fifth: linear-gradient(100grad, #fff 80%, #f8f6fd); 
 }
 
 .mt200{
@@ -30,7 +30,7 @@
 	width: 100%;
 	transform-origin: 0;
 	transform: skewY(-11deg);
-	background: linear-gradient(#507eb1, #709dc7 10%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 62%);
+	background: var(--background);
 
 	/*Position*/
 	width: 100%;
@@ -72,6 +72,11 @@
 
 	background: var(--fifth);
 }
+
+
+
+
+
 
 @font-face {
 	font-family: 'Lexend Tera';
