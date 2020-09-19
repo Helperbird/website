@@ -1,10 +1,10 @@
 import '../css/styles.min.css';
 import '../css/modal.min.css';
 import '../css/override.min.css';
-import '../css/dropdown.min.css';
+
 // Js
 import * as stripe from './core/stripe';
-import * as dropdown from './core/dropdown';
+
 import * as plan from './core/plans';
 import * as widget from './core/plans-widget';
 import * as youtube from './core/youtube';
@@ -17,7 +17,10 @@ import * as features from './core/features';
 import * as images from './core/images';
 import * as notifactions from './core/notifactions';
 import * as a11y from './core/scanner';
-import * as webp from './core/webp'
+import * as webp from './core/webp';
+import * as nav from './core/nav';
+
+
 // Make it public 
 window.videos = videos;
 window.reviews = reviews;
@@ -25,6 +28,8 @@ window.features = features;
 window.images = images;
 window.notifactions = notifactions;
 window.a11y = a11y;
+window.nav = nav;
+
 webp.load();
 import '@fortawesome/fontawesome-free/js/all';
 
@@ -51,6 +56,7 @@ async function loader() {
     }
     await thirdParty.tagManager();
     await thirdParty.loadManager();
+    await nav.load();
 }
 
 

@@ -155,10 +155,16 @@ html(lang='en')
     .lightblue-gradient
       include includes/layout/navigation.pug
       section.section_header
+        #helperbird-banner
+          span
+          span
+          span
+          span
+          span
+        .container-xlrg.flex.mobile-col-flex-12.mt200
 
-        .container-xlrg.flex.mobile-col-flex-12
 
-        
+
           .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
             h1.heading.primary-color.launchaco-builder-hoverable Unlock your full potential with Helperbird
             h3.subheading.secondary-color.mt20.launchaco-builder-hoverable
@@ -241,7 +247,9 @@ html(lang='en')
     include includes/features/list.pug
     include includes/features/boxes_no_text_small.pug
 
+    include includes/sections/reviews-slider.pug
 
+    
     .lightblue-gradient#pricing
       section.section_header.website_pricing_header
         .container
@@ -279,7 +287,7 @@ html(lang='en')
             .padding40{
                 padding: 40px;
             }
-    include includes/sections/reviews-slider.pug
+
 
     
 include includes/layout/footer.pug

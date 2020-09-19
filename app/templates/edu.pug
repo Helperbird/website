@@ -148,7 +148,13 @@ html(lang='en')
     .lightblue-gradient
       include includes/layout/navigation.pug
       section.section_header
-        .container-lrg.flex
+        #helperbird-banner
+          span
+          span
+          span
+          span
+          span
+        .container-lrg.flex.mt200
           .flex.flex-column.col-8.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable Helperbird Edu
             h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text
@@ -273,5 +279,5 @@ html(lang='en')
         iframe(frameborder='0', height='1693', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLScyGWAggLJUHXrmjjWBu-ME4I8BNV6YzcFReClr0DtqmTCVsw/viewform?embedded=true', title='Helperbird sales fourm ', width='100%') Loading...
 
 include includes/features/boxes_no_text_small.pug
-include includes/pricing/pricing-table-edu.pug
+include includes/pricing/pricing-three.pug
 include includes/layout/footer.pug

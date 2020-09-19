@@ -1,3 +1,78 @@
+:root {
+	--background: linear-gradient(#507eb1, #709dc7 10%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 62%);
+	--first:  linear-gradient(100grad, rgba(243, 251, 255, .4), rgba(243, 251, 255, .15) 20%, rgba(243, 251, 255, 0));
+	--second:  linear-gradient(100grad, rgba(0, 119, 204, 0), rgba(0, 119, 204, .05) 40%, rgba(0, 119, 204, .35)); 
+	--third: linear-gradient(100grad, #fff 50%, hsla(0, 0%, 100%, 0)); 
+	--fourth:  linear-gradient(100grad, rgba(0, 119, 204, 0) 10%, rgba(0, 119, 204, .05)); 
+	--fifth: linear-gradient(100grad, #fff 80%, #f5fafd); 
+}
+
+.mt200{
+	margin-top:220px !important;
+}
+
+.fade-in{
+	--ease: all 300ms ease;
+    position: fixed;
+    background: #fff;
+
+    width: 100%;
+    opacity: 1;
+    transition: var(--ease);
+}
+
+#helperbird-banner {
+	/* Grid */
+	display: grid;
+	grid: repeat(5, 200px) / repeat(10, 1fr);
+
+	/* Style */
+	width: 100%;
+	transform-origin: 0;
+	transform: skewY(-11deg);
+	background: linear-gradient(#507eb1, #709dc7 10%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 62%);
+
+	/*Position*/
+	width: 100%;
+	height: 55vw;
+	padding-top: 0px;
+    position: absolute;
+}
+
+
+
+#helperbird-banner span:nth-child(1) {
+	grid-column: span 3;
+	background: var(--first);
+}
+
+
+#helperbird-banner span:nth-child(2) {
+	grid-area: 3 / span 3 / auto / -1; 
+	background: var(--second);
+}
+
+
+#helperbird-banner span:nth-child(3) {
+  grid-area: 4 / span 5 / auto / -1; 
+	grid-column: span 5; 
+	background: var(--third);
+}
+
+
+
+#helperbird-banner span:nth-child(4) {
+	grid-area: 4 / span 5 / auto / -1; 
+	background: var(--fourth);
+}
+
+
+#helperbird-banner span:nth-child(5) {
+	grid-area: auto / 1 / -1 / -1; 
+
+	background: var(--fifth);
+}
+
 @font-face {
 	font-family: 'Lexend Tera';
 	src: url("/assets/fonts/lexend/lexend.woff2") format("woff2");
@@ -205,7 +280,7 @@ body {
 }
 
 .try_button {
-	background-color:#2ebc4f !important;
+	background-color: #2ebc4f !important;
 	color: white;
 	border: 0;
 	padding: 8px;
@@ -232,9 +307,10 @@ body {
 	z-index: 9999999999999999999999 !important;
 }
 
-.reall_red{
-background-color:	rgba(220,51,99,1) !important
+.reall_red {
+	background-color: rgba(220, 51, 99, 1) !important
 }
+
 .scroller_video_item_home_page {
 	width: 70%;
 	background-color: #f5f5f5;
@@ -479,6 +555,7 @@ background-color:	rgba(220,51,99,1) !important
 	padding-top: 12rem;
 	overflow: hidden;
 	padding-bottom: 6rem;
+	padding-top: 0px;
 }
 
 .width_100 {
@@ -488,7 +565,7 @@ background-color:	rgba(220,51,99,1) !important
 .header {
 	position: fixed;
 	width: 100%;
-	background: #fff !important;
+
 	z-index: 9999999;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -750,11 +827,13 @@ img {
 	width: 100%;
 	max-width: 1420px;
 }
+
 .container-xlrg:before {
 	transform: skewY(-5deg);
-    background: #006df6;
+	background: #006df6;
 
 }
+
 .container-lrg {
 	margin: auto;
 	position: relative;
@@ -779,7 +858,7 @@ img {
 .section {
 	padding: 100px 0;
 	overflow: hidden;
-	position: relative;
+
 }
 
 .button {
@@ -4968,6 +5047,7 @@ td.hljs-ln-code {
 
 .white-background {
 	background-color: #fff !important;
+	border-radius: 20px;
 }
 
 /* Style the counter cards */
@@ -5038,8 +5118,8 @@ td.hljs-ln-code {
 	overflow: hidden;
 }
 
-.float-left-hard{
-	text-align:left !important;
+.float-left-hard {
+	text-align: left !important;
 }
 
 .grid__item {
@@ -5228,7 +5308,9 @@ td.hljs-ln-code {
 	color: #000;
 }
 
-.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14,.svg-inline--fa.fa-w-18 {
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-14,
+.svg-inline--fa.fa-w-18 {
 	width: 1.1rem !important;
 	height: 1.1rem !important;
 	margin-right: 1rem !important;
@@ -5948,7 +6030,6 @@ img.grayscale:hover {
 }
 
 @media (min-width: 820px) {
-	
 
 	.menu-toggle {
 		line-height: 44px;
@@ -6394,7 +6475,7 @@ ol {
 }
 
 .make-it-red {
-    color: hsl(344deg 71% 54% / 100%) !important;
+	color: hsl(344deg 71% 54% / 100%) !important;
 }
 
 .star-reviews {
@@ -6406,7 +6487,7 @@ ol {
 	margin: 1.5rem 0px;
 }
 
-.review-title-stars > svg{
+.review-title-stars>svg {
 	margin-right: 1rem;
 }
 
@@ -6427,6 +6508,6 @@ video {
 	height: auto !important;
 }
 
-a:hover{
+a:hover {
 	text-decoration: underline !important;
 }
