@@ -54,6 +54,7 @@ const paths = [
   "/features/ad-blocker",
   "/features/cursor-control",
   "/features/privacy",
+  "/features/annotation",
   "/sales",
   "/404",
   "/updates/24-1-1",
@@ -302,6 +303,20 @@ module.exports = {
         useShortDoctype: true
       },
     }),
+
+    new HtmlWebpackPlugin({
+      filename: 'features/annotation.html',
+      template: './templates/features/annotation.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    
     new HtmlWebpackPlugin({
       filename: 'features/privacy.html',
       template: './templates/features/privacy.pug',
