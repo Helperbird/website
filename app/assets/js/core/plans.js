@@ -21,13 +21,13 @@ async function calc() {
 
     if (document.getElementById("annual").checked) {
 
-        document.getElementById('plusPricing').innerHTML = '$30.00 ';
-        document.getElementById('enterprisePricing').innerHTML = '$500';
-        document.getElementById('enterprisePricingBefore').innerHTML = 'Was $1000';
-        document.getElementById('proPricingBefore').innerHTML = 'Was $50';
-        document.getElementById('plusPricingText').innerText = 'Billed yearly';
+        document.getElementById('plusPricing').innerHTML = '$30.00/yearly';
+        document.getElementById('enterprisePricing').innerHTML = '$500/yearly';
 
-        document.getElementById('enterprisePricingText').innerText = 'Billed yearly';
+
+
+
+
         const element3 = document.getElementById("checkout-button-plan_FmS3HONbzTCxGl");
         element3.classList.remove("hide");
 
@@ -36,12 +36,11 @@ async function calc() {
 
     } else {
 
-        document.getElementById('plusPricing').innerHTML = '$4.99';
-        document.getElementById('plusPricingText').innerText = 'Billed monthly';
-        document.getElementById('enterprisePricingBefore').innerHTML = 'Was $99';
-        document.getElementById('proPricingBefore').innerHTML = '';
-        document.getElementById('enterprisePricing').innerHTML = '$50.00';
-        document.getElementById('enterprisePricingText').innerText = 'Billed monthly';
+        document.getElementById('plusPricing').innerHTML = '$4.99/monthly';
+     
+
+        document.getElementById('enterprisePricing').innerHTML = '$50.00/monthly';
+
 
 
 
