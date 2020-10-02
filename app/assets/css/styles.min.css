@@ -5416,6 +5416,21 @@ align-items: center;
     background-color: #dc3363;
 }
 
+.free::before{
+	background-color: #DEC32C;
+}
+
+
+.business::before{
+	background-color: #2C44DE;
+}
+
+
+
+.discount::before{
+	background-color: #FA5032;
+}
+
 .float_left {
 	float: left !important
 }
