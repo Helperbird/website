@@ -523,7 +523,7 @@ async function load() {
 
 
                     lineItems: [{
-                        price: 'price_1HW6hgENE7uqpRK1xiLVVeOm',
+                        price: '1',
                         quantity: 1
                     }],
                     mode: 'subscription',
