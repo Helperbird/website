@@ -16,8 +16,8 @@ async function load() {
 
 
     const stripe = await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');
-    let proMonthly = document.getElementById('checkout-button-plan_FmS3HONbzTCxGl');
-    let proYearly = document.getElementById('checkout-button-1');
+    let   proYearly= document.getElementById('checkout-button-plan_FmS3HONbzTCxGl');
+    let proMonthly  = document.getElementById('checkout-button-1');
     let educationYearly = document.getElementById('checkout-button-plan_G1OnSt8DIms1PY');
     let educationMonthly = document.getElementById('checkout-button-plan_G1O8Rztm6fFf4R');
     let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
@@ -558,7 +558,7 @@ async function load() {
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
                     lineItems: [{
-                        price: '1',
+                        price: 'price_1HXGtpENE7uqpRK1CqhMyS1l',
                         quantity: 1
                     }],
                     mode: 'subscription',
@@ -672,7 +672,7 @@ async function load() {
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
                     lineItems: [{
-                        price: 'price_1Gxm97ENE7uqpRK1VbHmB8cZ',
+                        price: 'price_1HXGtpENE7uqpRK1XMmfEFb0',
                         quantity: 1
                     }],
                     mode: 'subscription',
