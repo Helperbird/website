@@ -21,7 +21,7 @@ async function calc() {
 
     if (document.getElementById("annual").checked) {
 
-        document.getElementById('plusPricing').innerHTML = '$30.00/yearly';
+        document.getElementById('plusPricing').innerHTML = '$50.00/yearly';
         document.getElementById('enterprisePricing').innerHTML = '$750/yearly';
 
 
