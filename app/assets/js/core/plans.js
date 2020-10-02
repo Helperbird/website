@@ -22,7 +22,7 @@ async function calc() {
     if (document.getElementById("annual").checked) {
 
         document.getElementById('plusPricing').innerHTML = '$30.00/yearly';
-        document.getElementById('enterprisePricing').innerHTML = '$500/yearly';
+        document.getElementById('enterprisePricing').innerHTML = '$750/yearly';
 
 
 
@@ -39,7 +39,7 @@ async function calc() {
         document.getElementById('plusPricing').innerHTML = '$4.99/monthly';
      
 
-        document.getElementById('enterprisePricing').innerHTML = '$50.00/monthly';
+        document.getElementById('enterprisePricing').innerHTML = '$75.00/monthly';
 
 
 

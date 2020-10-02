@@ -596,7 +596,7 @@ async function load() {
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
                     lineItems: [{
-                        price: 'Education_Yearly',
+                        price: 'price_1HXrh2ENE7uqpRK1F6cfQea5',
                         quantity: 1
                     }],
                     mode: 'subscription',
@@ -633,7 +633,7 @@ async function load() {
             notyf.success('Loading.....');
             stripe.redirectToCheckout({
                     lineItems: [{
-                        price: 'price_1HKAyCENE7uqpRK1ZXJF8cth',
+                        price: 'price_1HXsNCENE7uqpRK1pSvkZh7V',
                         quantity: 1
                     },
                 ],
