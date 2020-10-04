@@ -74,6 +74,7 @@ const paths = [
   "/updates/28-0-2",
   "/blog/how-to-install-and-set-up-helperbird",
   "/blog/",
+  "/blog/interview-with-dyslexic-founder-of-helperbird",
   "/blog/how-to-install-helperbird-in-edu-accounts",
   "/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia",
   "/blog/signin",
@@ -486,6 +487,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'blog/how-to-install-helperbird-in-edu-accounts.html',
       template: 'templates/blog/how-to-install-helperbird-in-edu-accounts.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'blog/interview-with-dyslexic-founder-of-helperbird.html',
+      template: 'templates/blog/interview-with-dyslexic-founder-of-helperbird.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
