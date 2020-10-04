@@ -5,6 +5,15 @@
 	--third: linear-gradient(100grad, #fff 50%, hsla(250, 0%, 100%, 0)); 
 	--fourth:  linear-gradient(100grad, rgba(34, 0, 204, 0) 10%, rgba(34, 0, 204, 0.05)); 
 	--fifth: linear-gradient(100grad, #fff 80%, #f8f6fd); 
+
+
+
+	--widget-background: linear-gradient(#b04f4f, #c77070 10%, #f5dbdb 38%, #f9ebeb 48%, #fcf7f7 62%);
+	--widget-first:  linear-gradient(100grad, rgba(255, 245, 245, 0.4), rgba(255, 245, 245, 0.15) 20%, rgba(255, 245, 245, 0));
+	--widget-second:  linear-gradient(100grad, rgba(204, 0, 0, 0),rgba(204, 0, 0, 0.05) 40%, rgba(204, 0, 0, 0.35)); 
+	--widget-third: linear-gradient(100grad, #fff 50%, rgba(255, 255, 255, 0)); 
+	--widget-fourth:  linear-gradient(100grad, rgba(204, 0, 0, 0) 10%, rgba(204, 0, 0, 0.05)); 
+	--widget-fifth: linear-gradient(100grad, #fff 80%, #fdf6f6); 
 }
 
 .mt200{
@@ -73,6 +82,59 @@
 	background: var(--fifth);
 }
 
+
+
+#helperbird-banner-widget {
+	/* Grid */
+	display: grid;
+	grid: repeat(5, 200px) / repeat(10, 1fr);
+
+	/* Style */
+	width: 100%;
+	transform-origin: 0;
+	transform: skewY(-11deg);
+	background: var(--widget-background);
+
+	/*Position*/
+	width: 100%;
+	height: 55vw;
+	padding-top: 0px;
+    position: absolute;
+}
+
+
+
+#helperbird-banner-widget span:nth-child(1) {
+	grid-column: span 3;
+	background: var(--widget-first);
+}
+
+
+#helperbird-banner-widget span:nth-child(2) {
+	grid-area: 3 / span 3 / auto / -1; 
+	background: var(--widget-second);
+}
+
+
+#helperbird-banner-widget span:nth-child(3) {
+  grid-area: 4 / span 5 / auto / -1; 
+	grid-column: span 5; 
+	background: var(--widget-third);
+}
+
+
+
+#helperbird-banner-widget span:nth-child(4) {
+	grid-area: 4 / span 5 / auto / -1; 
+	background: var(--widget-fourth);
+}
+
+
+#helperbird-banner-widget span:nth-child(5) {
+	grid-area: auto / 1 / -1 / -1; 
+
+	background: var(--widget-fifth);
+}
 
 
 
