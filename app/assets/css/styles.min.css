@@ -5144,13 +5144,13 @@ td.hljs-ln-code {
 }
 
 .grid__item--large {
-	grid-column: 4/span 18;
+	grid-column: 3/span 18;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	text-align: center;
-	grid-template-columns: repeat(auto-fill, 240px);
+	grid-template-columns: repeat(auto-fill, 330px);
 }
 
 .plan-features {
@@ -6521,7 +6521,7 @@ ol {
 
 .blog-title {
 	font-size: 20px !important;
-	margin-bottom: 3rem !important;
+
 	text-align: left !important;
 }
 
@@ -6529,7 +6529,7 @@ ol {
 	text-align: left !important;
 	text-align: left !important;
 	margin-bottom: 2.5rem !important;
-	font-size: 16px !important;
+	font-size: 22px !important;
 	line-height: 1.5 !important;
 }
 
