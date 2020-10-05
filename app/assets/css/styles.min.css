@@ -5449,6 +5449,28 @@ align-items: center;
 
 
 
+.features_table_card_new{
+	color: #000;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(81,107,152,.24);
+    padding: 44px 22px 22px !important;
+    margin-bottom: 4rem;
+}
+
+
+.features_table_card_new::before {
+    padding-top: 0;
+    background-color: var(--plan-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #dc3363;
+}
 
 .pricing_table_card_new {
     margin: 10px 10px 40px 10px;
