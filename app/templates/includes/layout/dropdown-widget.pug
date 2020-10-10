@@ -10,15 +10,25 @@ header.header
         span
             | Accessibility Widget 
         span.its_free_a11y.hide-on-small-screens
-      a.menu-toggle#menu(href='#main-menu', title="menu button", role="button")
+          | By Helperbird
+
+
+
+      a.menu-toggle#menu(href='#main-menu', title="menu button")
         b.nav-link.mr0.secondary-color ☰
-
-
-        ul.menu.nav.main-menu#main-menu(role='navigation')
-            li.menu__item.nav-link.menu-close
-                a.menu-close#main-menu-close(href='#', role="button")
-                    span.bold ✕
-
-
-            li.menu__item.nav-link: a.secondary-color.button.mobile-text-center.launchaco-builder-hoverable.button-signup.primary-color(type='button', href="#pricing", title="See widget pricing") 
-                span  See Pricing
+      nav.main-menu#main-menu(role='navigation')
+        a.menu-close#main-menu-close(href='#')
+          span.bold ✕
+        a.nav-link.secondary-color(href='/about', title="About Helperbird") About
+        .nav-link.secondary-color
+          a.nav-link.secondary-color.dropbtn(onclick='nav.dropdown()')
+            | Products
+            i.fa.fa-caret-down
+          #myDropdown.dropdown-content
+            a(href='/chrome') Helperbird extension
+            a(href='/products/widget') Accessibility widget
+            a(href='/products/accessibility-checker') Accessibility Checker
+        a.nav-link.secondary-color(href='#features', title="Learn about Helperbirds features") Features
+        a.nav-link.secondary-color(href='#pricing', title="Learn about Helperbirds Pricing") Pricing
+        a.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(type='button',href='#pricing') 
+          span  Get it now

@@ -13,13 +13,12 @@ const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").def
 const paths = [
   "/success-education",
   "/cancel",
-  "/friend/free",
-  "/friend/dai",
   "/",
   "/feedback",
   "/compliance",
   "/testimonials",
   "/about",
+  "/extension",
   "/products/widget",
   "/products/accessibility-checker",
   "/contact",
@@ -261,6 +260,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'features/color-blindness.html',
       template: './templates/features/color-blindness.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'extension.html',
+      template: './templates/extension.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
