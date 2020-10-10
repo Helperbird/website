@@ -10,7 +10,16 @@ header.header
         a.menu-close#main-menu-close(href='#')
           span.bold ✕
         a.nav-link.secondary-color(href='/about', title="About Helperbird") About
+        .nav-link.secondary-color
+          a.nav-link.secondary-color.dropbtn(onclick='window.nav.dropdown()')
+            | Products
+            i.fa.fa-caret-down
+          #myDropdown.dropdown-content
+            a(href='/chrome') Helperbird extension
+            a(href='/products/widget') Accessibility widget
+            a(href='/products/accessibility-checker') Accessibility Checker
         a.nav-link.secondary-color(href='/features', title="Learn about Helperbirds features") Features
         a.nav-link.secondary-color(href='/pricing', title="Learn about Helperbirds Pricing") Pricing
-        a.nav-link.secondary-color(href='/support', title="Contact Helperbird support") Support
+
+
         button.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Download Helperbird
