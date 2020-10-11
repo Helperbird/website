@@ -261,7 +261,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'price_1H9xPqENE7uqpRK1wtjQeEV0',
+                            price: 'price_1HauAgENE7uqpRK1bGkSo3Nt',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -295,7 +295,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'price_1H9xPpENE7uqpRK1HKnR7pRZ',
+                            price: 'price_1HauAXENE7uqpRK1Xy4XxHY8',
                             quantity: 1
                         }],
                         mode: 'subscription',
