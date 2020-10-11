@@ -192,7 +192,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'price_1H9xPqENE7uqpRK1zEsky6Ws',
+                            price: 'price_1HauAxENE7uqpRK1UC8XShDm',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -226,7 +226,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'price_1H9xPpENE7uqpRK1SZ6RF4lB',
+                            price: 'price_1HauAoENE7uqpRK1Hlqdbqog',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -330,7 +330,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'price_1H9xPpENE7uqpRK1cluZa5YB',
+                            price: 'price_1HauAgENE7uqpRK1bGkSo3Nt',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -366,7 +366,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'medium',
+                            price: 'price_1HauAXENE7uqpRK1Xy4XxHY8',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -402,7 +402,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'Basic-yearly',
+                            price: 'price_1HauAKENE7uqpRK1R6cap2jz',
                             quantity: 1
                         }],
                         mode: 'subscription',
@@ -437,7 +437,7 @@ async function load() {
                 // them to Checkout.
                 stripe.redirectToCheckout({
                         lineItems: [{
-                            price: 'basic',
+                            price: 'price_1HauA7ENE7uqpRK12F2UlODP',
                             quantity: 1
                         }],
                         mode: 'subscription',
