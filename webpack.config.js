@@ -510,18 +510,7 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    new HtmlWebpackPlugin({
-      filename: 'blog/positive-thoughts-might-benefit-dyslexic-students.html',
-      template: 'templates/blog/positive-thoughts-might-benefit-dyslexic-students.pug',
-      minify: {
-        collapseWhitespace: true,
-        removeComments: true,
-        removeRedundantAttributes: true,
-        removeScriptTypeAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true
-      },
-    }),
+
     new HtmlWebpackPlugin({
       filename: 'blog/three-facts-about-dyslexia.html',
       template: 'templates/blog/three-facts-about-dyslexia.pug',
@@ -1226,6 +1215,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'pricing.html',
       template: 'templates/pricing.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'blog/positive-thoughts-might-benefit-dyslexic-students.html',
+      template: 'templates/blog/positive-thoughts-might-benefit-dyslexic-students.pug',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
