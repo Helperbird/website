@@ -79,6 +79,7 @@ const paths = [
   "/blog/how-to-install-helperbird-in-edu-accounts",
   "/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia",
   "/blog/signin",
+  "/blog/positive-thoughts-might-benefit-dyslexic-students",
   "/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console",
   "/partners/sascharoos",
   "/partners/sprialisconsulting",
@@ -509,10 +510,18 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-
-
-    
-
+    new HtmlWebpackPlugin({
+      filename: 'blog/positive-thoughts-might-benefit-dyslexic-students.html',
+      template: 'templates/blog/positive-thoughts-might-benefit-dyslexic-students.pug',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
     new HtmlWebpackPlugin({
       filename: 'blog/three-facts-about-dyslexia.html',
       template: 'templates/blog/three-facts-about-dyslexia.pug',
