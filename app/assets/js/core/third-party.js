@@ -41,6 +41,7 @@ async function loadManager() {
 			dataLayer.push(arguments);
 		}
 		gtag('js', new Date());
+		gtag('config', 'AW-856875991');
 		gtag('config', 'UA-39444052-20');
 
 	}, 2000), {
