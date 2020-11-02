@@ -25,7 +25,6 @@ async function load() {
 	let widgetEnterprise = document.getElementsByClassName('helperbird-widget-enterprise');
 	let widgetEnterpriseYearly = document.getElementsByClassName('helperbird-widget-enterprise-yearly');
 
-
 	if (widgetEnterpriseYearly.length !== 0) {
 		for (var i = 0; i < widgetEnterpriseYearly.length; i++) {
 			widgetEnterpriseYearly[i].addEventListener('click', function() {
@@ -35,7 +34,7 @@ async function load() {
 					.redirectToCheckout({
 						lineItems: [
 							{
-								price: 'price_1HauAxENE7uqpRK1UC8XShDm',
+								price: 'price_1Hb6i7ENE7uqpRK16JaSyrkZ',
 								quantity: 1
 							}
 						],
@@ -69,7 +68,7 @@ async function load() {
 					.redirectToCheckout({
 						lineItems: [
 							{
-								price: 'price_1HauAoENE7uqpRK1Hlqdbqog',
+								price: 'price_1HjCSJENE7uqpRK1Lzwpxhhh',
 								quantity: 1
 							}
 						],
