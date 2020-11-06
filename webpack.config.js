@@ -191,10 +191,7 @@ module.exports = {
 	]
 		.concat(indexFiles)
 		.concat(blogFiles)
-		.concat(compareFiles)
-		.concat(featuresFiles)
-		.concat(partnersFiles)
-		.concat(productsFiles)
+
 		.concat(updatesFiles)
 		.concat(new HTMLInlineCSSWebpackPlugin()),
 	module: {

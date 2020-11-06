@@ -1,194 +1,49 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    title Whats new in  Helperbird 30.2.0 | Helperbird
-    meta(content='Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
-    link(href='https://www.helperbird.com/updates/30-2-0', rel='canonical')
-    meta(content='Whats new in  Helperbird 30.2.0', name='description')
-    meta(content='/assets/images/favicon.png', name='image')
-    meta(content='width=device-width,initial-scale=1', name='viewport')
-    meta(content='#db5945', name='theme-color')
-    meta(content='Whats new in  Helperbird 30.2.0 | Helperbird', itemprop='name')
-    meta(content='Whats new in  Helperbird 30.2.0', itemprop='description')
-    meta(content='/assets/images/favicon.png', itemprop='image')
-    meta(content='summary_large_image', name='twitter:card')
+
+extends ../includes/templates/updates_post.pug
+
+block seo
+  - var title = '30.2.0'
+  - var description = '30.2.0'
+  - var url = '30-2-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+  .col-12.text-center
+
+    +updates_title("Welcome to the Spooky Month update!  🎃🦇")
+    +updates_description("We have no tricks and only treats in this new version of Helperbird.")
+
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+    div.paragraph_features
+      +updates_paragraph_title("NEW FEATURES")
+      +updates_paragraph('A huge thank you to Wendy Torres for reviewing Helperbird and letting us know we needed some improvement. We rebuilt the extension and updated the frameworks we used to be more keyboard and screen reader-supported.')
+      +updates_image('Save notes from around the web.','/assets/images/updates/27-0-0/highlights.png')
+
+    div.paragraph_features
+      +updates_paragraph_title("Annotations")
+      +updates_paragraph('Annotations have been added to Helperbird. Now leave yourself "stickable” notes on any website, customize the colors on each note and keep them all saved for future use.')
+      +updates_video('/assets/videos/annotations.mp4')
 
 
-    meta(content='Whats new in  Helperbird 30.2.0 | Helperbird', name='twitter:title')
-    meta(content='Whats new in  Helperbird 30.2.0', name='twitter:description')
-    meta(content='@helperbird_', name='twitter:site')
-    meta(content='RobertJGabriel', name='twitter:creator')
-    meta(content='https://www.helperbird.com/assets/images/social/twitter.png', name='twitter:image:src')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='twitter:player')
-    meta(content='Whats new in  Helperbird 30.2.0 | Helperbird', name='og:title')
-    meta(content='Whats new in  Helperbird 30.2.0', name='og:description')
-    meta(content='https://www.helperbird.com/assets/images/social/facebook.png', name='og:image')
-    meta(content='https://www.helperbird.com/', name='og:url')
-    meta(content='Whats new in  Helperbird 30.2.0 | Helperbird', name='og:site_name')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
-    meta(content='website', name='og:type')
-    meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
-    link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    meta(content='https://www.helperbird.com/', name='og:url')
-    meta(content='Helperbird', name='og:site_name')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
-    meta(content='website', name='og:type')
-    link(href='/assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    link(href='touch-icon-iphone.png', rel='apple-touch-icon')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='152x152')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='167x167')
-    meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
-    link(href='/assets/images/social/apple-touch-icon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='/assets/images/social/social/favicon-32x32.png', rel='icon', sizes='32x32', type='image/png')
-    link(href='/assets/images/social/social/favicon-16x16.png', rel='icon', sizes='16x16', type='image/png')
-    link(href='/assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='/assets/images/social/safari-pinned-tab.svg', rel='mask-icon')
-    link(href='/assets/images/social/social/favicon.ico', rel='shortcut icon')
-    meta(content='#ffffff', name='msapplication-TileColor')
-    meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
-    meta(content='#ffffff', name='theme-color')
-    script(type='application/ld+json').
-      
-      {
-      	           "@context": "https://schema.org",
-      	           "@type": "SoftwareApplication",
-      	           "name": "Helperbird",
-      	           "operatingSystem": "Windows",
-      	           "applicationCategory": "https://schema.org/UtilitiesApplication",
-      	           "aggregateRating": {
-      	              "@type": "AggregateRating",
-      	              "ratingValue": "4.8",
-      	              "ratingCount": "42"
-      	           },
-      	           "offers": {
-      	              "@type": "Offer",
-      	              "price": "4.99",
-      	              "priceCurrency": "USD"
-      	           }
-      	           }
-      
-    script(type='application/ld+json').
-      
-      {
-      	              "@context": "https://schema.org",
-      	              "@type": "Organization",
-      	              "name": "Helperbird",
-      	              "url": "https://www.helperbird.com",
-      	              "sameAs": [
-      	                  "http://www.facebook.com/helperbird",
-      	                  "https://www.linkedin.com/company/19112429",
-      	                  "https://twitter.com/helperbird_"
-      	              ]
-      	           }
-      
-    script(type='application/ld+json').
-      
-      {
-      	           "@context": "https://schema.org/",
-      	           "@type": "Product",
-      	           "name": "Helperbird",
-      	           "image": [
-      	              "https://www.helperbird.com/assets/images/pwa/144.png",
-      	              "https://www.helperbird.com/assets/images/pwa/512.png",
-      	              "https://www.helperbird.com/assets/images/pwa/full.png"
-      	           ],
-      	           "description": "Helperbird is a browser extension that gives people the features to make reading, learning, working easier and more fun. Including specialized fonts, changing the background color, font colors, text to speech, overlays, rulers and more!",
-      	           "sku": "helperbird2016","gtin12": "helperbird2016",
-      	           "mpn": "925872",
-      	           "brand": {
-      	              "@type": "Thing",
-      	              "name": "Helperbird"
-      	           },
-      	              "review": {
-      	                  "@context": "http://schema.org/",
-      	                  "@type": "Review",
-      	                  "name": "Colm Murphy",
-      	                  "reviewBody": "This is a great little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-      	                  "reviewRating": {
-      	                      "@type": "Rating",
-      	                      "ratingValue": "5",
-      	                      "bestRating": "5",
-      	                      "worstRating": "1"
-      	                  },
-      	                  "datePublished": "2019-05-02",
-      	                  "author": {
-      	                      "@type": "Person",
-      	                      "name": "Colm Murphy"
-      	                  }
-      	              },
-      	           "aggregateRating": {
-      	              "@type": "AggregateRating",
-      	              "ratingValue": "4.8",
-      	              "reviewCount": "57"
-      	           },
-      	           "offers": {
-      	              "@type": "Offer",
-      	              "url": "https://www.helperbird.com",
-      	              "priceCurrency": "USD",
-      	              "price": "4.99",
-      	              "priceValidUntil": "2020-11-05",
-      	              "itemCondition": "https://schema.org/NewCondition",
-      	              "availability": "https://schema.org/InStock",
-      	              "seller": {
-      	              "@type": "Organization",
-      	              "name": "Helperbird"
-      	              }
-      	           }
-      	           }
-      
-  body.font-friendly
-    .lightblue-gradient
-      include ../includes/layout/navigation.pug
-      section.section_header
-        #helperbird-banner-widget
-          span
-          span
-          span
-          span
-          span
-        .container.mt200.mb40
-          .col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable Welcome to the second Spooky Month update!  🎃🦇
-            h2.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable The spooky month continues with our latest Helperbird update with exciting and non-spooky new features and changes.
-          .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.icons-svg.padding_40.pad40.white-background
-            section
-              .container.mt40
-                .col-12
-                  div.mb20
-                    h2.mb20(style="text-align:left")
-                      b NEW FEATURES
-                    div.paragraph_features
-                      h3 Font sizes
-                      p You can now change the Font sizes on any webpage.
-                      .browser.mt40.launchaco-builder-hoverable
-                        video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
-          
-                          source(src="/assets/videos/annotations.mp4" type="video/mp4")
+    div.paragraph_features
+      +updates_paragraph_title("Templates")
+      +updates_paragraph('Templates is a brand new feature that with a click of a button some of our most popular settings will be automatically enabled. This is a feature that will continue to be improved and added to in later updated but fo now why dont you give the Dyslexia, ADHD, Visually Impaired, and Cognitive settings a try and see how you like it? Tweet us @Helperbird with any future template suggestions.')
+      +updates_video("/assets/videos/Templates.mp4")
+  
 
-                    div.paragraph_features
-                      h3 White labeling
-                      p Businesses and Government websites can now use the white labelling feature to replace the Helperbird logo/branding with their own. Please contact us to discuss white labelling for your company.
+    div.paragraph_features
+      +updates_paragraph_title("IMPROVED FEATURES")
+      +updates_paragraph('🗣️  More speed, volume and pitch controls for text to speech options. (Hooray!)')
+      +updates_paragraph('🎨  More color themes to customize Helperbird to your favorite hue.')
+      +updates_paragraph('💻  OCR is 20 times faster and quicker at processing text.')
+      +updates_paragraph('📓  The "Notes" app has now been renamed to "Editor". Check it out!')
+      +updates_paragraph('✅  The slider design when customizing certain features has been updated to be easier to read the settings youre selecting.')
+      +updates_paragraph('📌  Also, we are super excited to be starting the Helperbird newsletter, "The Bulletin Board". From day one, Helperbird has been designed to be the tool you trust for navigating and working on the web and we hope you will trust and enjoy our editorial stories focusing on inspiring people, fun facts and helpful accessibility tips.')
+      +updates_paragraph('📬  Join us and see whats new on The Bulletin Board by signing up here.')
+      +updates_paragraph('Transparency and trust are two “offline” values that Helperbird holds dear. We want to assure our users that we do not share your information, we do not spam and we will respect your inbox.')
+      +updates_paragraph('And thats all she wrote for this version of Helperbird. Hope you enjoy the updates and have a spoooooky good time!')
 
-                      .browser.mt40.launchaco-builder-hoverable
-                        video(width="680" height="402" autoplay="autoplay"  muted="muted"  control="control" loop="loop" playsinline="playsinline")
-                          source(src="/assets/videos/Templates.mp4" type="video/mp4")
-
-                    div.paragraph_features
-                      h3.mb75 IMPROVED FEATURES:
-                      p.mb20 🗣️  Changed the “Enable” wording to “On/Off” when toggling features on or off in Helperbird to make things clearer to understand.
-                      p.mb20 🎨  You now have the ability to delete all settings and reset Helperbird back to it’s default settings easily by going to your 
-                      p.mb20 💻  Managing your account’s billing and subscription info is now easier through our manage page.
-                      p.mb20 📓  The Annotations and Read It Later features have been updated and redesigned.
-                      p.mb20 ✅  The slider design when customizing certain features has been updated to be easier to read the settings you're selecting.
-                      p.mb20 📌  The Pinned Features and Templates have been moved towards the bottom of the features list.
-                      p.mb20 📬  UI has been cleaned up and bugs have been fixed and exterminated.
-                      p.mb20 Bookmark is now called Read it later.
-
-                    div.paragraph_features
-                      h4.mb20 And that's all she wrote for this version of Helperbird. Hope you enjoy the updates and have a spoooooky good time!
               script.
                 ;(function () {
                 var r=Math.random,n=0,d=document,w=window,
@@ -216,4 +71,3 @@ html(lang='en')
                 };setTimeout(A,r()*3e3);
                 })();
 
-    include ../includes/layout/footer.pug

@@ -1,0 +1,38 @@
+mixin updates_title(text)
+    h1.heading.primary-color.launchaco-builder-hoverable= text
+
+mixin updates_description(text)
+    h3.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable= text
+
+mixin updates_paragraph_title(text)
+    h3.mb20= text
+
+mixin updates_paragraph(text)
+    p.mb75= text
+
+mixin updates_button(text,link)
+    p.paragraph_features= text
+    a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.button-signup_two.text-center(href= link, target='_blank')
+        span= text
+
+mixin updates_image(altText,imageUrl)
+    img.launchaco-builder-hoverable.width_100(alt= altText, loading="lazy", src= imageUrl)
+
+mixin updates_video(videoUrl)
+
+    .browser.mt40.launchaco-builder-hoverable
+        video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
+
+            source(src= videoUrl  type="video/mp4")
+
+mixin home_page_updateslist(text, link, description, group)
+
+    li.blog_list_item
+        a.blog_list_item_link(href= 'updates/' + link , title= text)
+            div.blog_list_item_image.mb20.release-images= text
+
+            h4.blog_list_item_title= text
+            p.blog_list_item_paragraph.truncate-overflow= 'Release notes for version ' + description + ' of Helperbird.'
+        div.blog_list_item_footer
+            p.blog_list_item_footer_left=  group
+            
