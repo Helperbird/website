@@ -1,0 +1,30 @@
+mixin blog_title(text)
+    h1.heading.primary-color.launchaco-builder-hoverable= text
+
+mixin blog_description(text)
+    h3.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable= text
+
+mixin blog_paragraph_title(text)
+    h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black= text
+
+mixin blog_paragraph(text)
+    p.paragraph_features= text
+
+mixin blog_button(text,link)
+    p.paragraph_features= text
+    a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.button-signup_two.text-center(href= link, target='_blank')
+        span= text
+mixin blog_image(altText,imageUrl)
+    img.launchaco-builder-hoverable.width_100.mb75(alt= altText, loading="lazy", src= imageUrl)
+
+
+mixin home_page_blog_list(text, link, description, group, imageUrl)
+
+    li.blog_list_item
+        a.blog_list_item_link(href= link , title= text)
+            div.blog_list_item_image.mb20(style="background: url('" + imageUrl + "') no-repeat center center; background-size: cover;")
+            h4.blog_list_item_title= text
+            p.blog_list_item_paragraph.truncate-overflow= description
+        div.blog_list_item_footer
+            p.blog_list_item_footer_left=  group
+            

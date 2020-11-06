@@ -1,201 +1,34 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    title 3 Facts about Dyslexia and 1 Fact about Cats | Helperbird
-    meta(content='Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
-    link(href='https://www.helperbird.com/blog/three-facts-about-dyslexia', rel='canonical')
-    meta(content='Despite popular belief, dyslexics do not see letters backwards.', name='description')
-    meta(content='/assets/images/favicon.png', name='image')
-    meta(content='width=device-width,initial-scale=1', name='viewport')
-    meta(content='#db5945', name='theme-color')
-    meta(content='3 Facts about Dyslexia and 1 Fact about Cats | Helperbird', itemprop='name')
-    meta(content='Despite popular belief, dyslexics do not see letters backwards.', itemprop='description')
-    meta(content='/assets/images/favicon.png', itemprop='image')
-    meta(content='summary_large_image', name='twitter:card')
 
+extends ../includes/templates/blog_post.pug
 
-    meta(content='3 Facts about Dyslexia and 1 Fact about Cats | Helperbird', name='twitter:title')
-    meta(content='Despite popular belief, dyslexics do not see letters backwards.', name='twitter:description')
-    meta(content='@helperbird_', name='twitter:site')
-    meta(content='RobertJGabriel', name='twitter:creator')
-    meta(content='https://www.helperbird.com/assets/images/social/twitter.png', name='twitter:image:src')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='twitter:player')
-    meta(content='3 Facts about Dyslexia and 1 Fact about Cats | Helperbird', name='og:title')
-    meta(content='Despite popular belief, dyslexics do not see letters backwards.', name='og:description')
-    meta(content='https://www.helperbird.com/assets/images/social/facebook.png', name='og:image')
-    meta(content='https://www.helperbird.com/', name='og:url')
-    meta(content='3 Facts about Dyslexia and 1 Fact about Cats | Helperbird', name='og:site_name')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
-    meta(content='website', name='og:type')
-    meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
-    link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    meta(content='https://www.helperbird.com/', name='og:url')
-    meta(content='Helperbird', name='og:site_name')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
-    meta(content='website', name='og:type')
-    link(href='/assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    link(href='touch-icon-iphone.png', rel='apple-touch-icon')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='152x152')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='167x167')
-    meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
-    link(href='/assets/images/social/apple-touch-icon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='/assets/images/social/social/favicon-32x32.png', rel='icon', sizes='32x32', type='image/png')
-    link(href='/assets/images/social/social/favicon-16x16.png', rel='icon', sizes='16x16', type='image/png')
-    link(href='/assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='/assets/images/social/safari-pinned-tab.svg', rel='mask-icon')
-    link(href='/assets/images/social/social/favicon.ico', rel='shortcut icon')
-    meta(content='#ffffff', name='msapplication-TileColor')
-    meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
-    meta(content='#ffffff', name='theme-color')
-    script(type='application/ld+json').
-      
-      {
-      	   "@context": "https://schema.org",
-      	   "@type": "SoftwareApplication",
-      	   "name": "Helperbird",
-      	   "operatingSystem": "Windows",
-      	   "applicationCategory": "https://schema.org/UtilitiesApplication",
-      	   "aggregateRating": {
-      	      "@type": "AggregateRating",
-      	      "ratingValue": "4.8",
-      	      "ratingCount": "42"
-      	   },
-      	   "offers": {
-      	      "@type": "Offer",
-      	      "price": "4.99",
-      	      "priceCurrency": "USD"
-      	   }
-      	   }
-      
-    script(type='application/ld+json').
-      
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Helperbird",
-        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "logo": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "url": "https://www.helperbird.com",
-        "telephone": "5012936819",
-        "sameAs": ["https://twitter.com/helperbird_", "https://www.linkedin.com/company/19112429", "https://www.facebook.com/helperbird/", "https://www.youtube.com/channel/UCxTbxBMw8MTcsExcOdBBFQw", "https://www.crunchbase.com/organization/helperbird"],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "15 Markay Street",
-          "addressLocality": "Toronto",
-          "postalCode": "M3L2C6",
-          "addressCountry": "Canada"
-        }
-      }
-        
-      {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": "Helperbird",
-        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-        "brand": "Helperbird",
-        "sku": "helperbird2016","gtin12": "helperbird2016",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://www.helperbird.com/pricing",
-          "priceCurrency": "USD",
-          "price": "30",
-          "priceValidUntil": "2020-12-31",
-          "availability": "https://schema.org/OnlineOnly",
-          "itemCondition": "https://schema.org/NewCondition"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2",
-          "reviewCount": "2"
-        },
-        "review": [{
-          "@type": "Review",
-          "name": "Vladimir Ciobica",
-          "reviewBody": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-07-10",
-          "author": {
-            "@type": "Person",
-            "name": "Vladimir Ciobica"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "softpedia"
-          }
-        }, {
-          "@type": "Review",
-          "name": "Colm Murphy",
-          "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-05-13",
-          "author": {
-            "@type": "Person",
-            "name": "Colm Murphy"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "User"
-          }
-        }]
-      }
-      
-  body.font-friendly
-    .lightblue-gradient
-      include ../includes/layout/navigation.pug
-      section.section_header
-        #helperbird-banner
-          span
-          span
-          span
-          span
-          span
-        .container.mt200.mb40
-          .col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable 3 Facts about Dyslexia and 1 Fact about Cats
-            h3.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable By Helperbird Staff
-          .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background.discount
-          
-            section.fun
-              .container.mt40
-                .col-12
+block seo
+  - var title = '3 Facts about Dyslexia and 1 Fact about Cats'
+  - var description = 'Despite popular belief, dyslexics do not see letters backwards.'
+  - var url = 'three-facts-about-dyslexia'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
-                  h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black Fact one
-                  p.paragraph_features Despite popular belief, dyslexics do not see letters backwards. They often have difficulty naming and writing letters, and in fact, writing letters backwards is something that many kids do when they’re first learning to write, whether they have dyslexia or not.
-                  img.launchaco-builder-hoverable.width_100.mb75.mt75(alt='Have a good day', loading='lazy', src='/assets/images/blog/extra/crash-the-cat.png')
-                  
-                  h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black Fact two
-                  p.paragraph_features  Most dyslexics often have a better use of their right brain.
+block content
+  include ../includes/mixins/blog
+  .col-12.text-center
 
+    +blog_title("3 Facts about Dyslexia and 1 Fact about Cats")
+    +blog_description("By Helperbird Staff")
 
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+    .mb20
+      +blog_paragraph_title("Fact one")
+      +blog_paragraph('Despite popular belief, dyslexics do not see letters backwards. They often have difficulty naming and writing letters, and in fact, writing letters backwards is something that many kids do when they’re first learning to write, whether they have dyslexia or not.')
+      +blog_image('Have a good day','/assets/images/blog/extra/crash-the-cat.png')
+    .mb20
+      +blog_paragraph_title("Fact two")
+      +blog_paragraph('Most dyslexics often have a better use of their right brain.')
+    
+    .mb20
+      +blog_paragraph_title("Fact three")
+      +blog_paragraph('Dyslexics score significantly higher on test when they are given the test orally.')
 
-                  h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black Fact three
+    .mb20
+    
+      +blog_paragraph_title("Bonus cat fact")
+      +blog_paragraph('There are over 500 million domestic cats in the world. And and estimated 700 million Dyslexics. So if you ever are feeling alone just know that there’s at least 6 million 9 hundred thousand nine hundred and ninety nine other people like you and plenty of kitties to cuddle.')
 
-                  p.paragraph_features Dyslexics score significantly higher on test when they are given the test orally.
-
-                  h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black Bonus cat fact
-
-                  p.paragraph_features There are over 500 million domestic cats in the world. And and estimated 700 million Dyslexics. So if you ever are feeling alone just know that there’s at least 6 million 9 hundred thousand nine hundred and ninety nine other people like you and plenty of kitties to cuddle.
-
-
-           
-
-    include ../includes/sections/support_videos.pug
-    include ../includes/layout/footer.pug
