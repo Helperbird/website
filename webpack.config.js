@@ -38,9 +38,7 @@ function generateHtmlPlugins(templateDir, location) {
 indexFiles = generateHtmlPlugins('./app/templates/', '');
 blogFiles = generateHtmlPlugins('./app/templates/blog/', 'blog/');
 compareFiles = generateHtmlPlugins('./app/templates/compare/', 'compare/');
-examplesFiles = generateHtmlPlugins('./app/templates/examples/', 'examples/');
 featuresFiles = generateHtmlPlugins('./app/templates/features/', 'features/');
-friendFiles = generateHtmlPlugins('./app/templates/friend/', 'friend/');
 partnersFiles = generateHtmlPlugins('./app/templates/partners/', 'partners/');
 productsFiles = generateHtmlPlugins('./app/templates/products/', 'products/');
 updatesFiles = generateHtmlPlugins('./app/templates/updates/', 'updates/');
@@ -194,9 +192,7 @@ module.exports = {
 		.concat(indexFiles)
 		.concat(blogFiles)
 		.concat(compareFiles)
-		.concat(examplesFiles)
 		.concat(featuresFiles)
-		.concat(friendFiles)
 		.concat(partnersFiles)
 		.concat(productsFiles)
 		.concat(updatesFiles)
