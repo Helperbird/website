@@ -1,0 +1,38 @@
+
+extends ../includes/templates/updates_post.pug
+
+block seo
+  - var title = '30.4.0'
+  - var description = '30.4.0'
+  - var url = '30-4-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+  .col-12.text-center
+
+    +updates_title("Welcome to the November update!  🦃 🍂")
+    +updates_description("The november month continues with our latest Helperbird update with exciting features and changes.")
+
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+    div.paragraph_features
+
+    div.paragraph_features
+      +updates_paragraph_title("Full Google Docs support")
+      +updates_paragraph('It’s here! Full Google Docs support is in the latest version of Helperbird. Now you can use all features of Helperbird within Google Docs. This has been one of our most highly requested features. We’re so happy to be a small part as you create and collaborate on all the A+ papers, winning business pitches, and even your secret fanfic now with all of Helperbird’s accessibility tools at your disposal.')
+      +updates_video('/assets/videos/GoogleDocsHB.mp4')
+
+    div.paragraph_features
+      +updates_paragraph_title("Quick Access Menu")
+      +updates_paragraph('Another big addition to Helperbird that we hope will make reading and working on the web even easier is our Quick Access Menu.')
+      +updates_paragraph('Now if you hold Alt on Windows or (⌥) alt/option on Mac as you click and select text a new menu will pop up giving you quick access to definitions, search, Text To Speech options, and additional access to other Helperbird Tools like Immersive Reader, Screenshot, Translate and Annotate.')
+      +updates_image('Quick access menu','/assets/images/updates/30-4-0/HBmenu1.png')
+      +updates_image('Quick access menu','/assets/images/updates/30-4-0/HBmenu2.png')
+    div.paragraph_features
+      +updates_paragraph_title("Slider option")
+      +updates_paragraph('We’ve also added more finite control for every slider option to make reading and working on the web even more custom to your needs.')
+
+    div.paragraph_features
+      +updates_paragraph_title("Youtube Videos")
+      +updates_paragraph('Also, don’t forget we have dozens or help videos and tutorials on our YouTube Channel with more being added every month. It’s a great resource for learning the full capabilities of Helperbird’s tools.')
+
