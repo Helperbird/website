@@ -6,7 +6,7 @@ html(lang='en')
     meta(charset='utf-8')
     title #{title}  | Helperbird
     meta(content='#{keywords}', name='keywords')
-    link(href='https://www.helperbird.com/blog/#{url}', rel='canonical')
+    link(href='https://www.helperbird.com/features/#{url}', rel='canonical')
     meta(content='#{description}', name='description')
     meta(content='/assets/images/favicon.png', name='image')
     meta(content='width=device-width,initial-scale=1', name='viewport')
@@ -24,13 +24,13 @@ html(lang='en')
     meta(content="#{title}", name='og:title')
     meta(content='#{description}', name='og:description')
     meta(content='https://www.helperbird.com/assets/images/social/facebook.png', name='og:image')
-    meta(content='https://www.helperbird.com/blog/#{url}', name='og:url')
+    meta(content='https://www.helperbird.com/features/#{url}', name='og:url')
     meta(content="#{title}", name='og:site_name')
     meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
     meta(content='website', name='og:type')
     meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
     link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    meta(content='https://www.helperbird.com/blog/#{url}', name='og:url')
+    meta(content='https://www.helperbird.com/features/#{url}', name='og:url')
     meta(content='Helperbird', name='og:site_name')
     meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
     meta(content='website', name='og:type')
@@ -139,15 +139,21 @@ html(lang='en')
       	           }
       	       }
       
+
+
   body.font-friendly
     .lightblue-gradient
-      include ../layout/navigation.pug
+      include ../../layout/navigation.pug
       section.section_header
+        #helperbird-banner
+          span
+          span
+          span
+          span
+          span
         .container.mt200
           block content
 
     
-   
-    include ../sections/reviews-slider.pug 
-    include ../sections/support_videos.pug
-    include ../layout/footer.pug
+
+    include ../../layout/footer.pug

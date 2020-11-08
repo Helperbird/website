@@ -6,7 +6,7 @@ html(lang='en')
 		meta(charset='utf-8')
 		title #{title}  | Helperbird
 		meta(content='#{keywords}', name='keywords')
-		link(href='https://www.helperbird.com/blog/#{url}', rel='canonical')
+		link(href='https://www.helperbird.com/updates/#{url}', rel='canonical')
 		meta(content='#{description}', name='description')
 		meta(content='/assets/images/favicon.png', name='image')
 		meta(content='width=device-width,initial-scale=1', name='viewport')
@@ -140,13 +140,16 @@ html(lang='en')
 			}
 
 
-	body.font-friendly(style="background-color:#f8f8f9")
+	body.font-friendly
 
 		.lightblue-gradient
-			include ../layout/navigation.pug
+			include ../../layout/navigation.pug
 			section.section_header
-				.container-lrg.flex
-				
+				.container-lrg.flex.mt200
+					.flex.flex-column.col-8.text-center.middle-center
+						h1.heading.primary-color.launchaco-builder-hoverable Release Notes
+						h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Latest changes to Helperbird.
+
 
 		.container-lrg.flex.mb75.mt75
 
@@ -154,4 +157,4 @@ html(lang='en')
 				block list
 
 
-		include ../layout/footer.pug
+		include ../../layout/footer.pug
