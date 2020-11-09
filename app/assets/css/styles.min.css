@@ -4083,7 +4083,9 @@ td.hljs-ln-code {
 	grid-row-gap: 20px;
 }
 
-
+.blue_shine{
+	background: radial-gradient(circle at bottom, #fff, transparent 80%), linear-gradient(to top, dodgerblue 0%, transparent 70%), linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.4) 70%), #1e90ff;
+}
 
 @media screen and (max-width: 600px) {
 
