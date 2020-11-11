@@ -8,14 +8,18 @@ block seo
 
 block content
     include ../includes/mixins/features
-    .flex.flex-column.col-8.text-center.middle-center
+    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-        +features_title("Ad Blocker — best light weight ad blocker!")
+        +features_title("Best light weight ad blocker! ",'Content features')
         +features_description("Block ads and pop-ups on YouTube, Facebook, Twitch, and your favorite websites.")
         +download_button()
 
+    .col-6.flex.flex-column.text-center.mobile-col-12
+        +compare('/assets/images/switch/adjust/after.png','/assets/images/switch/adjust/before.png')
+block features
+    include ../includes/mixins/features
     +video_showoff('aXXRSenvTTg')
-    +compare('/assets/images/switch/adjust/after.png','/assets/images/switch/adjust/before.png')
+    
 
     +section('About',['Block ads and pop-ups on YouTube, Facebook, Twitch, and your favorite websites.','It’s not just the need for reading glasses that can make you wish the words on your display were bigger. Well with Helperbirds adjust feature, you can adjust letter, word, and line-height spacing.'])
     

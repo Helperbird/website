@@ -8,20 +8,26 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Color overlays & tints for Google Chrome")
+    +features_title("Color overlays & tints for Google Chrome",'Content features')
     +features_description("People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.")
     +download_button()
 
-  +compare('/assets/images/switch/overlay/after.png','/assets/images/switch/overlay/before.png')
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('uOOucEf_tQk')
 
-  +section('About',['Color Overlay is a filter that puts a tint on your browser viewport to make the text more readable. This Helperbird feature is used by people suffering from visual distortions reading the content on the normal background (Scotopic Sensitivity Syndrome). ','The colored overlay can improve the reading abilities of such users by reducing or eliminate perceptual processing errors.','Bright web pages are a known issue on the web which affects peoples ability to read and focus. ','Users with Irlen syndrome or people who dont like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.'])
+block features
+    include ../includes/mixins/features
 
-  +section('Options',['Apply a overlay to any website you visit.','Pick from 24 default colors or a custom color.','Shades Chrome to a soothing orange color to decrease eye-strain, eye fatigue and to appease your brains day/night cycle.'])
 
-  +watch_it_in_action('uOOucEf_tQk')
+    +section('About',['Color Overlay is a filter that puts a tint on your browser viewport to make the text more readable. This Helperbird feature is used by people suffering from visual distortions reading the content on the normal background (Scotopic Sensitivity Syndrome). ','The colored overlay can improve the reading abilities of such users by reducing or eliminate perceptual processing errors.','Bright web pages are a known issue on the web which affects peoples ability to read and focus. ','Users with Irlen syndrome or people who dont like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.'])
+    +compare('/assets/images/switch/overlay/after.png','/assets/images/switch/overlay/before.png')
 
-  +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +section('Options',['Apply a overlay to any website you visit.','Pick from 24 default colors or a custom color.','Shades Chrome to a soothing orange color to decrease eye-strain, eye fatigue and to appease your brains day/night cycle.'])
+
+
+
+    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 

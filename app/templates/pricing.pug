@@ -148,44 +148,35 @@ html(lang='en')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
   body.font-friendly
-    .lightblue-gradient
+  
+    .lightblue-gradient#pricing
       include includes/layout/navigation.pug
-
       section.section_header
-        #helperbird-banner
-          span
-          span
-          span
-          span
-          span
+
+        .container-xlrg.flex.mobile-col-flex-12.mt200
+          .col-12.text-center
+            h1.heading.primary-color.launchaco-builder-hoverable 
+              | Choose the plan that’s right for you
+            h2.secondary-color.mt20.launchaco-builder-hoverable
+              b
+                | All plans include a 7 day free trial.
+            h2.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
+              b
+                | Save 20%
+
+            svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
+              path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
 
 
-        .lightblue-gradient#pricing.mt200
-          section.section_header.website_pricing_header
-            .container
-              .col-12.text-center
-                h1.heading.primary-color.launchaco-builder-hoverable 
-                  | Choose the plan that’s right for you
-                h2.secondary-color.mt20.launchaco-builder-hoverable
-                  b
-                    | All plans include a 7 day free trial.
-                h2.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
-                  b
-                    | Save 20%
+            .pricing-switch.mb40
+              
+              | Billed Monthly
+              label.switch
+                input#annual(name='xxx', type='checkbox')
+                span.slider.round
+              | Billed Yearly
 
-                svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
-                  path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
-
-
-                .pricing-switch.mb40
-                  
-                  | Billed Monthly
-                  label.switch
-                    input#annual(name='xxx', type='checkbox')
-                    span.slider.round
-                  | Billed Yearly
-
-          include includes/pricing/pricing-four.pug
+      include includes/pricing/pricing-four.pug
 
     include includes/sections/questions.pug
     include includes/layout/footer.pug

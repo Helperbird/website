@@ -8,22 +8,28 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Translate any website or word!")
+    +features_title("Translate any website or word!",'Content features')
     +features_description("Helperbird gives free translation support to any website or text, your browsing.")
     +download_button()
 
 
-  +compare('/assets/images/switch/translate/after.png','/assets/images/switch/translate/before.png')
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('xZa5CaMaFI4')
 
-  +section('About',['Helperbird gives free translation support to any website or text, your browsing.','Select a sentence or a word, right-click, Helperbird, Google translate, and pick the language in which you would like the phrase to be translated.','Highlight or right-click on a section of text and click on Translate icon next to it to translate it to your language. Or, to translate the entire page youre visiting, click the translate icon on the browser toolbar.'])
+block features
+    include ../includes/mixins/features
 
-  +section('What langues can I use?',['🇿🇦 Afrikaans','🇦🇱 Albanian','🇸🇦 Arabic','🇦🇿 Azerbaijani','🏴󠁥󠁳󠁰󠁶󠁿 Basque','🇧🇩 Bengali','🇧🇾 Belarusian','🇧🇬 Bulgarian','🏴󠁥󠁳󠁰󠁶󠁿 Catalan','🇨🇳 Chinese Simplified','🇨🇳 Chinese Traditional','🇭🇷 Croatian','🇨🇿 Czech','🇩🇰 Danish','🇳🇱 Dutch','🇬🇧 English','🏴󠁥󠁳󠁰󠁶󠁿 Esperanto','🇪🇪 Estonian','🇵🇭 Filipino','🇫🇮 Finnish','🇫🇷 French','🇪🇸 Galician','🇬🇪 Georgian','🇩🇪 German','🇬🇷 Greek','🇮🇳 Gujarati','🇭🇹 Haitian Creole','🇮🇱 Hebrew','🇮🇳 Hindi','🇭🇺 Hungarian','🇮🇸 Icelandic','🇮🇩 Indonesian','🇮🇪 Irish','🇮🇹 Italian','🇯🇵 Japanese','🇮🇳 Kannada','🇰🇷 Korean','🏴󠁥󠁳󠁰󠁶󠁿 Latin','🇱🇻 Latvian','🇱🇹 Lithuanian','🇲🇰 Macedonian','🇲🇾 Malay','🇲🇹 Maltese','🇳🇴 Norwegian','🇮🇷 Persian','🇵🇱 Polish','🇵🇹 Portuguese','🇷🇴 Romanian','🇷🇺 Russian','🇷🇸 Serbian','🇸🇰 Slovak','🇸🇮 Slovenian','🇪🇸 Spanish','🏴󠁥󠁳󠁰󠁶󠁿 Swahili','🇸🇪 Swedish','🇮🇳 Tamil','🇮🇳 Telugu','🇹🇭 Thai','🇹🇷 Turkish','🇺🇦 Ukrainian','🇵🇰 Urdu','🇻🇳 Vietnamese','🇬🇧 Welsh','🇮🇱 Yiddish'])
 
-  +video_showoff('xZa5CaMaFI4')
 
-  +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +section('About',['Helperbird gives free translation support to any website or text, your browsing.','Select a sentence or a word, right-click, Helperbird, Google translate, and pick the language in which you would like the phrase to be translated.','Highlight or right-click on a section of text and click on Translate icon next to it to translate it to your language. Or, to translate the entire page youre visiting, click the translate icon on the browser toolbar.'])
+    +compare('/assets/images/switch/translate/after.png','/assets/images/switch/translate/before.png')
+
+    +section('What langues can I use?',['🇿🇦 Afrikaans','🇦🇱 Albanian','🇸🇦 Arabic','🇦🇿 Azerbaijani','🏴󠁥󠁳󠁰󠁶󠁿 Basque','🇧🇩 Bengali','🇧🇾 Belarusian','🇧🇬 Bulgarian','🏴󠁥󠁳󠁰󠁶󠁿 Catalan','🇨🇳 Chinese Simplified','🇨🇳 Chinese Traditional','🇭🇷 Croatian','🇨🇿 Czech','🇩🇰 Danish','🇳🇱 Dutch','🇬🇧 English','🏴󠁥󠁳󠁰󠁶󠁿 Esperanto','🇪🇪 Estonian','🇵🇭 Filipino','🇫🇮 Finnish','🇫🇷 French','🇪🇸 Galician','🇬🇪 Georgian','🇩🇪 German','🇬🇷 Greek','🇮🇳 Gujarati','🇭🇹 Haitian Creole','🇮🇱 Hebrew','🇮🇳 Hindi','🇭🇺 Hungarian','🇮🇸 Icelandic','🇮🇩 Indonesian','🇮🇪 Irish','🇮🇹 Italian','🇯🇵 Japanese','🇮🇳 Kannada','🇰🇷 Korean','🏴󠁥󠁳󠁰󠁶󠁿 Latin','🇱🇻 Latvian','🇱🇹 Lithuanian','🇲🇰 Macedonian','🇲🇾 Malay','🇲🇹 Maltese','🇳🇴 Norwegian','🇮🇷 Persian','🇵🇱 Polish','🇵🇹 Portuguese','🇷🇴 Romanian','🇷🇺 Russian','🇷🇸 Serbian','🇸🇰 Slovak','🇸🇮 Slovenian','🇪🇸 Spanish','🏴󠁥󠁳󠁰󠁶󠁿 Swahili','🇸🇪 Swedish','🇮🇳 Tamil','🇮🇳 Telugu','🇹🇭 Thai','🇹🇷 Turkish','🇺🇦 Ukrainian','🇵🇰 Urdu','🇻🇳 Vietnamese','🇬🇧 Welsh','🇮🇱 Yiddish'])
+
+
+    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 
             

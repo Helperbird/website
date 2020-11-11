@@ -8,23 +8,29 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Color blindness support")
+    +features_title("Color blindness support",'Display features')
     +features_description("Fortunately, on computers we have full control over the presentation of colors, which means there are various ways of addressing the issue, thanks to Helperbird.")
     +download_button()
 
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('9qES8eBGxBg')
 
-  +compare('/assets/images/switch/blindness/after.png','/assets/images/switch/blindness/before.png')
+block features
+    include ../includes/mixins/features
 
-  +section('About',['Underline links and add strokes around the text to help with color blindness. ','The most common types of color blindness are Protanopia and Deuteranopia, which affects over 7% of the male population. ','These types of color blindness can result in links being barely indistinguishable from regular text. Helperbird helps with color blindness by underling and stroking links.'])
 
-  +section('Features',['Links should be easy to spot without relying on color.  With Helperbird, underlines to every line on the page using a four different colors. Making it stand out for most color blind types.',' Along with Helperbirds theme and style features. We offer a stroke feature that adds a stroke effect around the text to help with color blindness.'])
 
-  +video_showoff('9qES8eBGxBg')
-  +section(' How it helps',['Dyslexics find websites text easier to read with dyslexia friendly colors.','Users can choose to customize their web page colors for personal preference.'])
+    +section('About',['Underline links and add strokes around the text to help with color blindness. ','The most common types of color blindness are Protanopia and Deuteranopia, which affects over 7% of the male population. ','These types of color blindness can result in links being barely indistinguishable from regular text. Helperbird helps with color blindness by underling and stroking links.'])
+    +compare('/assets/images/switch/blindness/after.png','/assets/images/switch/blindness/before.png')
 
-  +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +section('Features',['Links should be easy to spot without relying on color.  With Helperbird, underlines to every line on the page using a four different colors. Making it stand out for most color blind types.',' Along with Helperbirds theme and style features. We offer a stroke feature that adds a stroke effect around the text to help with color blindness.'])
+
+
+    +section(' How it helps',['Dyslexics find websites text easier to read with dyslexia friendly colors.','Users can choose to customize their web page colors for personal preference.'])
+
+    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 
 

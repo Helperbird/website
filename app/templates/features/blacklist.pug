@@ -8,17 +8,21 @@ block seo
 
 block content
     include ../includes/mixins/features
-    .flex.flex-column.col-8.text-center.middle-center
+    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-        +features_title("Blocklist")
+        +features_title("Blocklist",'App features')
         +features_description("Disable Helperbird from running on certain sites.")
         +download_button()
+    .col-6.flex.flex-column.text-center.mobile-col-12
+        +video_showoff('aXXRSenvTTg')
 
-    +video_showoff('aXXRSenvTTg')
-    +compare('/assets/images/switch/annonations/after.png','/assets/images/switch/annonations/before.png')
+block features
+    include ../includes/mixins/features
+
 
     +section('About',['Use the Blocklist feature to excluded Helperbird from running on chosen websites. Exclude as many websites as you wish from running Helperbird.','Some websites already have built-in accessibility sufficient enough for the user needs. In this case, users can choose to opt-out Helperbird form running on those websites.'])
-    
+    +compare('/assets/images/switch/annonations/after.png','/assets/images/switch/annonations/before.png')
+
     +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 

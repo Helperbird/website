@@ -10,21 +10,28 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Full Page Screenshot Capture")
+    +features_title("Full Page Screenshot Capture",'Content features')
     +features_description("Capture a screenshot of your current page in entirety and reliably—without requesting any extra permissions with Helperbird.")
     +download_button()
 
-  +compare('/assets/images/switch/screenshot/after.png','/assets/images/switch/screenshot/before.png')
-  +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a screenshot to the download folder in only a few clicks.','','Open the Helperbird extension, select the Screenshot option, click the "NOW" button, and the screenshot will download to your download folder.','Right-click on any web page, Helperbird, Screenshot, and the screenshot will download to your downloads folder.'])
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('R-ZoDsYBR7o')
 
-  +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
+block features
+    include ../includes/mixins/features
 
-  +section('How it helps?',['It can remove the need for a resource heavy screen capturing software.','Capture and save a web page in just a few clicks which can increase overall browsing efficiency.'])
 
 
-  +watch_it_in_action('R-ZoDsYBR7o')
+    +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a screenshot to the download folder in only a few clicks.','','Open the Helperbird extension, select the Screenshot option, click the "NOW" button, and the screenshot will download to your download folder.','Right-click on any web page, Helperbird, Screenshot, and the screenshot will download to your downloads folder.'])
+    +compare('/assets/images/switch/screenshot/after.png','/assets/images/switch/screenshot/before.png')
 
-  +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
+
+    +section('How it helps?',['It can remove the need for a resource heavy screen capturing software.','Capture and save a web page in just a few clicks which can increase overall browsing efficiency.'])
+
+
+
+    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

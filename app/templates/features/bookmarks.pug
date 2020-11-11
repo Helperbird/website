@@ -9,17 +9,21 @@ block seo
 
 block content
     include ../includes/mixins/features
-    .flex.flex-column.col-8.text-center.middle-center
+    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-        +features_title("Your Bookmarks. Organized. Effortless for Google Chrome")
+        +features_title("Your Bookmarks. Organized. Effortless",'Content features')
         +features_description("Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms")
         +download_button()
 
-    +video_showoff('aXXRSenvTTg')
-    +compare('/assets/images/switch/bookmarks/after.png','/assets/images/switch/bookmarks/before.png')
+    .col-6.flex.flex-column.text-center.mobile-col-12
+        +video_showoff('aXXRSenvTTg')
+
+block features
+    include ../includes/mixins/features
 
     +section('About',['Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.'])
-    
+    +compare('/assets/images/switch/bookmarks/after.png','/assets/images/switch/bookmarks/before.png')
+
     +section('Features',['Capture ideas and inspiration bookmarks.','Sync Searches and Bookmarks Cross Browsers.','Delete and edit bookmarks.','Manage everything from big projects to personal bookmarks.'])
     +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

@@ -8,22 +8,28 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Immersive reader for Chrome")
+    +features_title("Immersive reader for Chrome",'Content features')
     +features_description("Immersive Reader is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners.")
     +download_button()
 
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('lMj6a7UvJng')
 
-  +compare('/assets/images/switch/home/after.png','/assets/images/switch/home/before.png')
+block features
+    include ../includes/mixins/features
 
-  +section('About',['Immersive Reader is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners.'])
 
-  +section('Options',['Change font size, text spacing, and background colour.','Split up words into syllables.','Highlight verbs, nouns, adjectives and sub-clauses.','Read out text aloud, and change the speed of reading.'])
 
-  +watch_it_in_action('lMj6a7UvJng')
 
-  +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+
+    +section('About',['Immersive Reader is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners.'])
+    +compare('/assets/images/switch/home/after.png','/assets/images/switch/home/before.png')
+
+    +section('Options',['Change font size, text spacing, and background colour.','Split up words into syllables.','Highlight verbs, nouns, adjectives and sub-clauses.','Read out text aloud, and change the speed of reading.'])
+
+    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 
 

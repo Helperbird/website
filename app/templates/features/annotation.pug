@@ -8,17 +8,23 @@ block seo
 
 block content
     include ../includes/mixins/features
-    .flex.flex-column.col-8.text-center.middle-center
+    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-        +features_title("Annotate the web anywhere with Helperbird")
+        +features_title("Annotate the web anywhere with Helperbird",'Note features')
         +features_description("Highlight or annotate text directly in web pages.")
         +download_button()
 
-    +video_showoff('aXXRSenvTTg')
-    +compare('/assets/images/switch/annonations/after.png','/assets/images/switch/annonations/before.png')
+
+    .col-6.flex.flex-column.text-center.mobile-col-12
+        +video_showoff('aXXRSenvTTg')
+
+block features
+    include ../includes/mixins/features
+
 
     +section('About',['Highlight or annotate text directly in web pages. They will show up when you revisit the web page and saved for you in Helperbird.'])
-    
+    +compare('/assets/images/switch/annonations/after.png','/assets/images/switch/annonations/before.png')
+
     +section('Features',['Annotate any website','Simple easy to use UI.','All notes are safe and synced across all your devices.','Change background color and font color of annotates.','Change size of the annotations and location.'])
     +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

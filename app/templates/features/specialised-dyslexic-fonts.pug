@@ -8,20 +8,29 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title(" Specialised Dyslexic Fonts")
+    +features_title(" Specialised Dyslexic Fonts",'Dyslexia features')
     +features_description("Helperbird allows users to enable specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Dyslexie, Arial, Comic Sans, and more. Users can also zoom font on a web page to help with reading and focus.")
     +download_button()
 
-  +compare('/assets/images/switch/fonts/after.png','/assets/images/switch/fonts/before.png')
-  +section('About',['Helperbird allows users to enable specialized web fonts for dyslexics and others.','Convert the font on websites to use OpenDyslexic, Dyslexie, Arial, Comic Sans, and more. ',' Users can also zoom font on a web page to help with reading and focus.'])
 
-  +section('What fonts can I use?',['Arial','Cosmic Sans','OpenDyslexic','Tahoma','Verdana','Gothic','Lexend','Trebuchet','Bookman','Courier','Georgia','Gothic','Helvetica','Impact','Times','Lexend'])
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('R-ZoDsYBR7o')
+
+block features
+    include ../includes/mixins/features
 
 
 
-  +watch_it_in_action('R-ZoDsYBR7o')
+    +section('About',['Helperbird allows users to enable specialized web fonts for dyslexics and others.','Convert the font on websites to use OpenDyslexic, Dyslexie, Arial, Comic Sans, and more. ',' Users can also zoom font on a web page to help with reading and focus.'])
 
-  +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +compare('/assets/images/switch/fonts/after.png','/assets/images/switch/fonts/before.png')
+    +section('What fonts can I use?',['Arial','Cosmic Sans','OpenDyslexic','Tahoma','Verdana','Gothic','Lexend','Trebuchet','Bookman','Courier','Georgia','Gothic','Helvetica','Impact','Times','Lexend'])
+
+
+
+
+
+    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

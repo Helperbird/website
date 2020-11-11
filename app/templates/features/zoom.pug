@@ -9,22 +9,26 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Page & text magnifier ")
+    +features_title("Page & text magnifier ",'Display features')
     +features_description("Increase the text and images on any page to suit your needs. Zooming right into the page.")
     +download_button()
 
-  +compare('/assets/images/switch/text-to-speech/after.png','/assets/images/switch/text-to-speech/before.png')
-  +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a web page screenshot to downloads folder in only three clicks.'])
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('JRUpKdqMus')
 
-  +section('Features',['Open the Helperbird extension, select the Zoom option, select the zoom percentage value, toggle enable zoom.'])
+block features
+    include ../includes/mixins/features
 
-  +section('How it helps?',['The zoom percentage set will stay while you browse between different web pages helping to keep a consistent zoom level.',' It can help to focus as it can remove the full display of cluttered web pages.'])
+    +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a web page screenshot to downloads folder in only three clicks.'])
+    +compare('/assets/images/switch/text-to-speech/after.png','/assets/images/switch/text-to-speech/before.png')
+
+    +section('Features',['Open the Helperbird extension, select the Zoom option, select the zoom percentage value, toggle enable zoom.'])
+
+    +section('How it helps?',['The zoom percentage set will stay while you browse between different web pages helping to keep a consistent zoom level.',' It can help to focus as it can remove the full display of cluttered web pages.'])
 
 
 
-  +watch_it_in_action('JRUpKdqMus')
-
-  +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

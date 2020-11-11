@@ -9,21 +9,29 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Helperbirds award winning OCR (Optical Character Recognition) software")
+    +features_title("OCR (Optical Character Recognition) software",'Content features')
     +features_description("A powerful optical character recognition (OCR) extension to capture and convert images to text. In seconds!!")
     +download_button()
 
-  +compare('/assets/images/switch/ocr/after.png','/assets/images/switch/ocr/before.png')
 
-  +section('About',['It uses character recognition to convert the photo of the document into a text file. In many cases, the digital version will maintain the “look and feel” of the original. OCR makes it possible to make changes to the digital text. What can be done with the digital text depends on which reading software youre using.','OCR technology has proven immensely useful in digitising historic newspapers and texts that have now been converted into fully searchable formats and had made accessing those earlier texts easier and faster.'])
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('lWqqOFM-dDE')
 
-  +section('How it helps',['View notes in the Notes taking including time and date of the saved note as well as the website from which it was saved from.','Capture ideas and inspiration in notes, voice, and pictures.','Delete and edit saved notes.','Never lose track of your tasks and deadlines.','Manage everything from big projects to personal moments.'])
+block features
+    include ../includes/mixins/features
 
-  +watch_it_in_action('lWqqOFM-dDE')
 
-  +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+
+    +section('About',['It uses character recognition to convert the photo of the document into a text file. In many cases, the digital version will maintain the “look and feel” of the original. OCR makes it possible to make changes to the digital text. What can be done with the digital text depends on which reading software youre using.','OCR technology has proven immensely useful in digitising historic newspapers and texts that have now been converted into fully searchable formats and had made accessing those earlier texts easier and faster.'])
+    +compare('/assets/images/switch/ocr/after.png','/assets/images/switch/ocr/before.png')
+
+    +section('How it helps',['View notes in the Notes taking including time and date of the saved note as well as the website from which it was saved from.','Capture ideas and inspiration in notes, voice, and pictures.','Delete and edit saved notes.','Never lose track of your tasks and deadlines.','Manage everything from big projects to personal moments.'])
+
+
+
+    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 
 

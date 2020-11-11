@@ -8,22 +8,28 @@ block seo
 
 block content
   include ../includes/mixins/features
-  .flex.flex-column.col-8.text-center.middle-center
+  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Helperbird keyboard shortcuts!")
+    +features_title("Helperbird keyboard shortcuts!",'App features')
     +features_description("Learn keyboard shortcuts and become a pro at using Helperbird.")
     +download_button()
 
-  +compare('/assets/images/switch/screenshot/after.png','/assets/images/switch/screenshot/before.png')
-  +section('About',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
+  .col-6.flex.flex-column.text-center.mobile-col-12
+    +video_showoff('R-ZoDsYBR7o')
 
-  +section('Features',['Enable Immersive Reader with a custom shortcut. ','Enable  Reader Mode with a custom shortcut. ','Enable  Text to speech with a custom shortcut.','Enable  OCR with a custom shortcut.'])
+block features
+    include ../includes/mixins/features
+
+
+    +section('About',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
+    +compare('/assets/images/switch/screenshot/after.png','/assets/images/switch/screenshot/before.png')
+
+    +section('Features',['Enable Immersive Reader with a custom shortcut. ','Enable  Reader Mode with a custom shortcut. ','Enable  Text to speech with a custom shortcut.','Enable  OCR with a custom shortcut.'])
 
 
 
-  +watch_it_in_action('R-ZoDsYBR7o')
 
-  +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 
 
 
