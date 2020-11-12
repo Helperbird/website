@@ -1,0 +1,77 @@
+- 
+    var reviews = [
+        {
+        "name": "Terry Martin",
+        "title": "Assistive technology specialist",
+        "review": "I am getting such great support from Robert. I enjoy working with him. He answers my questions very quickly. Thanks so much for your great support and a great product.",
+        "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+        "rating": [0, 1, 2, 3, 4]
+        },
+
+            {
+        "name": "Catherine Contillo",
+        "title": "User",
+        "review": "I found this extension on a whim to help myself. Suffering with post concussion syndrome symptoms and working remotely is really hard! This extension basically saved my job. It gave me back productivity and the ability to read the screen. This extension has so many neat features I never even knew I needed. I love this and you will too! You don't need to be dyslexic or have dyslexia for this extension to benefit you. Do yourself a giant favor and get it! I highly recommend it!",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14GhyAic73JjhQT0xGJp38l7wIklg52lYRXegjCjD=s40-c-k",
+        "rating": [0, 1, 2, 3, 4 ]
+        },
+
+            {
+        "name": "Martin Bui",
+        "title": "User",
+        "review": "Making such an useful tool, replying to every single comment or review and giving support to people's issues as soon as possible?? Carefully, he is a hero.",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14Ghm2YPaMZuz48Lhr2s0bU-O66dOIBpQXL2oEJaENw=s40-c-k",
+        "rating": [0, 1, 2, 3, 4 ]
+        },
+
+            {
+        "name": "Josh Sharrad",
+        "title": "User",
+        "review": "A truly great extension! We installed this on all of our 200 Chromebooks across the 3 special schools i work in and it has greatly helped our students use technology to learn. It not only helps our dyslexic learners, but also our autistic and ADHD students by helping remove distractions and making the web a more accessible place. Support is fast and efficient, and updates are very regular with new features constantly being added!",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14Gj-FXmbt6CIoHtVQf4hZYqi9KIEAsjmzoZ7if0l=s40-c-k",
+        "rating": [0, 1, 2, 3, 4 ]
+        },
+            {
+        "name": "Vladimir Ciobica",
+        "title": "Reviewer",
+        "review": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
+        "photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
+        "rating": [0, 1, 2, 3, 4 ]
+        },            {
+        "name": "Taylor Kirkpatrick",
+        "title": "User",
+        "review": "Huge fan of the zoom feature. It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.",
+        "photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
+        "rating": [0, 1, 2, 3, ]
+        },
+
+            {
+        "name": "Sue Dowdall",
+        "title": "User",
+        "review": "Works a treat. Couldn't get dyslexie.com to work. This is brill!",
+        "photo": "https://www.helperbird.com/assets/images/people/sue.png",
+        "rating": [0, 1, 2, 3, 4 ]
+        },
+
+    ]
+section.testimonials
+    .container
+        .title
+            h3 Reviews
+            h2 What our users say
+        .owl-carousel.owl-carousel-loader
+
+            each val in reviews
+
+                .item
+                    .profile
+                        img(src= val.photo alt='')
+                        .information
+                            .stars
+                                each star in val.rating
+                                    i.fa.fa-star
+                            p #{val.name}
+                            span #{val.title}
+                    p #{val.review}
+                    .icon_testiomals
+                        i.fa.fa-quote-right(aria-hidden='true')

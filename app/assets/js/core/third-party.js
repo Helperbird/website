@@ -1,37 +1,34 @@
 async function crisp() {
-
 	setTimeout(() => {
 		// Crisp
 		window.$crisp = [];
-		window.CRISP_WEBSITE_ID = "ada9377d-ca07-4dc7-9119-264f4724a975";
+		window.CRISP_WEBSITE_ID = 'ada9377d-ca07-4dc7-9119-264f4724a975';
 
 		let d = document;
-		let s = d.createElement("script");
-		s.src = "https://client.crisp.chat/l.js";
+		let s = d.createElement('script');
+		s.src = 'https://client.crisp.chat/l.js';
 		s.async = 1;
-		d.getElementsByTagName("head")[0].appendChild(s);
-
-	}, 2000), {
-		once: true
-	}
+		d.getElementsByTagName('head')[0].appendChild(s);
+	}, 2000),
+		{
+			once: true
+		};
 }
 
-
-
+//owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js
 
 async function tagManager() {
 	setTimeout(() => {
-
 		let d = document;
-		let s = d.createElement("script");
-		s.src = "https://www.googletagmanager.com/gtag/js?id=UA-39444052-20";
+		let s = d.createElement('script');
+		s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-39444052-20';
 		s.async = 1;
-		d.getElementsByTagName("head")[0].appendChild(s);
-	}, 2000), {
-		once: true
-	}
+		d.getElementsByTagName('head')[0].appendChild(s);
+	}, 2000),
+		{
+			once: true
+		};
 }
-
 
 async function loadManager() {
 	setTimeout(() => {
@@ -43,14 +40,10 @@ async function loadManager() {
 		gtag('js', new Date());
 		gtag('config', 'AW-856875991');
 		gtag('config', 'UA-39444052-20');
-
-	}, 2000), {
-		once: true
-	}
+	}, 2000),
+		{
+			once: true
+		};
 }
 
-export {
-	crisp,
-	tagManager,
-	loadManager
-}; // a list of exported variables
+export { crisp, tagManager, loadManager }; // a list of exported variables

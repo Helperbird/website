@@ -165,7 +165,7 @@ html(lang='en')
 
 
           .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center
-            h1.heading.primary-color.launchaco-builder-hoverable.heading-home Get more done with Helperbird
+            h1.heading.primary-color.launchaco-builder-hoverable.heading-home Reduce accessibility issues, Instantly.
             h3.subheading.secondary-color.mt20.launchaco-builder-hoverable
               | Helperbird is your all in one extension, that gives you the features to make the web more accessible and productive. 
               | Providing you 
@@ -246,46 +246,11 @@ html(lang='en')
     include includes/features/list.pug
     include includes/features/boxes_no_text_small.pug
 
-    include includes/sections/reviews-slider.pug
+    include includes/sections/reviews-two.pug
 
     
-    .lightblue-gradient#pricing
-      section.section_header.website_pricing_header
-        .container
-          .col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable 
-              | Choose your plan
 
-            h2.secondary-color.mt20.launchaco-builder-hoverable
-              b
-                | All plans include a 7 day free trial.
+    include includes/pricing/pricing.pug
+
   
-            h2.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
-              b
-                | Save 25%
-
-            svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
-              path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
-
-
-            .pricing-switch.mb40
-              
-              | Monthly
-              label.switch
-                input#annual(name='xxx', type='checkbox')
-                span.slider.round
-              | Yearly
-
-      include includes/pricing/pricing-four.pug
-
-        style.
-            .white{
-                color:#fff !important;
-            }
-            .padding40{
-                padding: 40px;
-            }
-
-
-    
 include includes/layout/footer.pug
