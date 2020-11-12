@@ -652,6 +652,11 @@ svg#pricing_two {
 
 
 }
+
+.wavey .paragraph{
+color: #fff !important ;
+}
+
 .heading_compare {
 	font-size: 35px;
 	line-height: 1.5;
