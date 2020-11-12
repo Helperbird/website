@@ -2,6 +2,8 @@ import '../css/styles.min.css';
 import '../css/modal.min.css';
 import '../css/override.min.css';
 
+import '../css/table.css';
+
 // Js
 import * as stripe from './core/stripe';
 
