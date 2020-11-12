@@ -9,7 +9,7 @@ async function start() {
 		tns({
 			container: '.owl-carousel-loader',
 			autoWidth: false,
-			items: 3,
+			items: 2,
 			controls: false,
 			slideBy: 1,
 			controls: false,
@@ -18,7 +18,7 @@ async function start() {
 			gutter: 10,
 			mouseDrag: true,
 			swipeAngle: false,
-			speed: 200
+			speed: 1000
 		});
 	}
 }
