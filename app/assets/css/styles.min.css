@@ -662,6 +662,15 @@ svg#pricing_two {
 	background-color: #0099ff !important;
 }
 
+.wavey-grey{
+	background-color: #ebebeb !important;
+}
+
+.wavey-grey.paragraph,
+.wavey-grey .subheading{
+	color: #000 !important;
+}
+
 .wavey-orange{
 	background-color:	#0099ff !important;
 }
