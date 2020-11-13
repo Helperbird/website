@@ -20,6 +20,13 @@ header.header
             a(href='/chrome') Helperbird extension
             a(href='/products/widget') Accessibility widget
             a(href='/products/accessibility-checker') Accessibility Checker
-
+        .nav-link.secondary-color
+          a.nav-link.secondary-color.dropbtnCompare(onclick='nav.dropdown_compare()')
+            | Compare
+            i.fa.fa-caret-down
+          #myDropdownCompare.dropdown-content
+            a(href='/compare/read-and-write-alternative') Read & Write
+            a(href='/compare/snap-and-read-alternative') Snap & Read
+            a(href='/compare/immersive-reader-by-microsoft-alternative') Immersive reader
 
         button.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Try for free
