@@ -3,7 +3,7 @@
 	--first: linear-gradient(100grad, rgba(243, 251, 255, 0.4), rgba(243, 251, 255, 0.15) 20%, rgba(243, 251, 255, 0));
 	--second: linear-gradient(100grad, rgba(0, 119, 204, 0), rgba(0, 119, 204, 0.05) 40%, rgba(0, 119, 204, 0.35));
 	--third: linear-gradient(100grad, #fff 50%, hsla(0, 0%, 100%, 0));
-	--fourth: linear-gradient(100grad, rgba(0, 119, 204, 0) 10%, rgba(0, 119, 204, 0.05));
+	--fourth: linear-gradient(100grad, rgba(110, 179, 228, 0) 10%, rgba(0, 119, 204, 0.05));
 	--fifth: linear-gradient(100grad, #fff 80%, #f5fafd);
 	--widget-background: linear-gradient(#b04f4f, #c77070 10%, #f5dbdb 38%, #f9ebeb 48%, #fcf7f7 62%);
 	--widget-first: linear-gradient(
@@ -64,7 +64,9 @@
 	box-shadow: 0 2px 12px 0 rgba(36, 50, 66, .90);
 }
 
-.layer1, .layer2, .layer4 {
+.layer1,
+.layer2,
+.layer4 {
 	font-family: sans-serif;
 	font-size: 108px;
 	font-weight: 700;
@@ -74,21 +76,21 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: auto;
-  }
-  
-  .layer1 {
+}
+
+.layer1 {
 	color: #3a3a3a;
 	mix-blend-mode: color-burn;
 	z-index: 2;
-  }
-  
-  .layer2 {
+}
+
+.layer2 {
 	color: #3a3a3a;
 	opacity: 0.3;
 	z-index: 2;
-  }
-  
-  .layer3 {
+}
+
+.layer3 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -99,21 +101,22 @@
 	background-size: 600%;
 	animation: color-shift 20s infinite;
 	transform: skew(0, -12deg) translate(0, -50%);
-  }
-  
-  @keyframes color-shift {
-	0%, 100% {
-	  background-position: 0% 50;
+}
+
+@keyframes color-shift {
+	0%,
+	100% {
+		background-position: 0% 50;
 	}
-  
+
 	50% {
-	  background-position: 100% 50%;
+		background-position: 100% 50%;
 	}
-  }
-  
-  .layer4 {
+}
+
+.layer4 {
 	color: #bdc6d2;
-  }
+}
 
 #helperbird-banner {
 	/* Grid */
@@ -567,7 +570,7 @@ body {
 	margin: auto !important;
 }
 
-.heading-home{
+.heading-home {
 	font-size: 56px !important;
 }
 .section_header {
@@ -594,8 +597,7 @@ body {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	background-color: #fff !important;
-	box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
-	
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
 .mt80 {
 	margin-top: 80px !important;
@@ -5941,4 +5943,8 @@ a:hover {
 }
 .updates_release:nth-child(4n-4) > a > .blog_list_item_image {
 	background-color: #0fceff;
+}
+
+.margin_top_alot {
+	margin-top: -27rem !important;
 }

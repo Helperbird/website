@@ -650,32 +650,36 @@ svg#pricing_two {
 	padding-bottom: 17rem;
 }
 
+.wavey-blue-alot {
+	padding-bottom: 20rem;
+}
+
 .wavey .paragraph,
 .wavey .subheading {
 	color: #fff !important;
 }
 
-.wavey-font-black{
-	color:#000 !important;
+.wavey-font-black {
+	color: #000 !important;
 }
 .wavey-blue {
 	background-color: #0099ff !important;
 }
 
-.wavey-grey{
+.wavey-grey {
 	background-color: #ebebeb !important;
 }
 
 .wavey-grey .paragraph,
-.wavey-grey .subheading{
+.wavey-grey .subheading {
 	color: #000 !important;
 }
 
-.wavey-orange{
-	background-color:	#0099ff !important;
+.wavey-orange {
+	background-color: #0099ff !important;
 }
 
-svg.svg-inline--fa.fa-caret-down.fa-w-10{
+svg.svg-inline--fa.fa-caret-down.fa-w-10 {
 	margin-left: 0.5rem !important;
 }
 
@@ -4540,6 +4544,10 @@ td.hljs-ln-code {
 .blog_list_item_image {
 	height: 200px;
 }
+
+.blog_list_item_image_welcome {
+	height: 80px;
+}
 .blog_list_item_title {
 	color: #1b2432;
 	margin: 0 0 10px;
@@ -6102,4 +6110,18 @@ a:hover {
 
 .tns-outer button {
 	display: none !important;
+}
+
+.margin_top_alot {
+	margin-top: -14rem !important;
+}
+
+
+.red-card{
+	background-color: #ff717f;
+}
+
+
+.black-card{
+	background-color: #002554;
 }
