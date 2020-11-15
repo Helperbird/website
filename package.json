@@ -26,6 +26,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^5.0.2",
     "gulp-clean": "^0.4.0",
@@ -63,6 +64,7 @@
     "imagemin": "^7.0.1",
     "imagemin-webpack-plugin": "^2.4.2",
     "jquery": "^3.5.1",
+    "minify-css-string": "^1.0.0",
     "notyf": "^3.4.0",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.16.1",
@@ -70,9 +72,11 @@
     "pug-loader": "^2.4.0",
     "sitemap": "*",
     "stream": "0.0.2",
+    "style-loader": "^2.0.0",
     "tiny-slider": "^2.9.3",
     "toastr": "^2.1.4",
     "uglifyjs-webpack-plugin": "^2.2.0",
+    "uncss-webpack-plugin": "^0.2.0",
     "webpack-google-tag-manager-plugin": "^1.0.3"
   }
 }

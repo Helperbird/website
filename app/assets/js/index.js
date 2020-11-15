@@ -1,6 +1,7 @@
-import '../css/styles.min.css';
-import '../css/modal.min.css';
-import '../css/override.min.css';
+
+import '../css/styles.css';
+import '../css/modal.css';
+import '../css/override.css';
 
 import '../css/table.css';
 

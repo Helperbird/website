@@ -1,7 +1,5 @@
 const fs = require('fs');
-
 const globby = require('globby');
-
 const { SitemapStream, streamToPromise } = require('sitemap');
 const { Readable } = require('stream');
 
@@ -16,7 +14,6 @@ async function createSitemap() {
 			priority: 1.0
 		};
 	});
-
 
 	// Create a stream to write to
 	const stream = new SitemapStream({ hostname: 'https://www.helperbird.com' });
