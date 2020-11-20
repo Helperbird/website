@@ -1,192 +1,71 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    title Privacy Policy of Helperbird | Helperbird
-    link(href='https://www.helperbird.com/privacy', rel='canonical')
-    meta(content='Privacy Policy of Helperbird ,Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
-    meta(content='At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure.', name='description')
-    meta(content='/assets/images/favicon.png', name='image')
-    meta(content='width=device-width,initial-scale=1', name='viewport')
-    meta(content='#db5945', name='theme-color')
-    meta(content='Privacy Policy | Helperbird', itemprop='name')
-    meta(content='At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure.', itemprop='description')
-    meta(content='/assets/images/favicon.png', itemprop='image')
-    meta(content='summary_large_image', name='twitter:card')
+extends includes/templates/common/page.pug
+
+block seo
+  - var title = 'Privacy features of Helperbird'
+  - var description = 'At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure. Helperbirds privacy features don`t sell, store, or consume any user data. We do not store data or any other user-related content.'
+  - var url = 'privacy'
+  - var keywords = 'Privacy Policy of Helperbird ,Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include includes/mixins/common
+  .flex.flex-column.col-8.text-center.middle-center
+
+    +features_title("Privacy Policy",'')
+    +features_description("Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.")
 
 
-    meta(content='Privacy Policy | Helperbird', name='twitter:title')
-    meta(content='At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure.', name='twitter:description')
-    meta(content='@helperbird_', name='twitter:site')
-    meta(content='RobertJGabriel', name='twitter:creator')
-    meta(content='https://www.helperbird.com/assets/images/social/twitter.png', name='twitter:image:src')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='twitter:player')
-    meta(content='Privacy Policy | Helperbird', name='og:title')
-    meta(content='At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure.', name='og:description')
-    meta(content='https://www.helperbird.com/assets/images/social/facebook.png', name='og:image')
-    meta(content='https://www.helperbird.com/privacy', name='og:url')
-    meta(content='Privacy Policy | Helperbird', name='og:site_name')
-    meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
-    meta(content='website', name='og:type')
-    meta(content='5A7359B55CCBDE2A927000280EAECBBC', name='msvalidate.01')
-    link(href='touch-icon-iphone.png', rel='apple-touch-icon')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='152x152')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='/assets/images/favicon.png', rel='apple-touch-icon', sizes='167x167')
-    link(href='assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='/assets/images/site/favicon.png', rel='shortcut icon')
-    script(type='application/ld+json').
-      
-      {
-      	   "@context": "https://schema.org",
-      	   "@type": "SoftwareApplication",
-      	   "name": "Helperbird",
-      	   "operatingSystem": "Windows",
-      	   "applicationCategory": "https://schema.org/UtilitiesApplication",
-      	   "aggregateRating": {
-      	      "@type": "AggregateRating",
-      	      "ratingValue": "4.8",
-      	      "ratingCount": "42"
-      	   },
-      	   "offers": {
-      	      "@type": "Offer",
-      	      "price": "4.99",
-      	      "priceCurrency": "USD"
-      	   }
-      	   }
-      
-    script(type='application/ld+json').
-      
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Helperbird",
-        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "logo": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "url": "https://www.helperbird.com",
-        "telephone": "5012936819",
-        "sameAs": ["https://twitter.com/helperbird_", "https://www.linkedin.com/company/19112429", "https://www.facebook.com/helperbird/", "https://www.youtube.com/channel/UCxTbxBMw8MTcsExcOdBBFQw", "https://www.crunchbase.com/organization/helperbird"],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "15 Markay Street",
-          "addressLocality": "Toronto",
-          "postalCode": "M3L2C6",
-          "addressCountry": "Canada"
-        }
-      }
-        
-      {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": "Helperbird",
-        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-        "brand": "Helperbird",
-        "sku": "helperbird2016","gtin12": "helperbird2016",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://www.helperbird.com/pricing",
-          "priceCurrency": "USD",
-          "price": "30",
-          "priceValidUntil": "2020-12-31",
-          "availability": "https://schema.org/OnlineOnly",
-          "itemCondition": "https://schema.org/NewCondition"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2",
-          "reviewCount": "2"
-        },
-        "review": [{
-          "@type": "Review",
-          "name": "Vladimir Ciobica",
-          "reviewBody": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-07-10",
-          "author": {
-            "@type": "Person",
-            "name": "Vladimir Ciobica"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "softpedia"
-          }
-        }, {
-          "@type": "Review",
-          "name": "Colm Murphy",
-          "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-05-13",
-          "author": {
-            "@type": "Person",
-            "name": "Colm Murphy"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "User"
-          }
-        }]
-      }
-      
-    link(href='assets/images/social/apple-touch-icon.png', rel='apple-touch-icon', sizes='180x180')
-    link(href='assets/images/social/social/favicon-32x32.png', rel='icon', sizes='32x32', type='image/png')
-    link(href='assets/images/social/social/favicon-16x16.png', rel='icon', sizes='16x16', type='image/png')
-    link(href='assets/images/social/social/site.webmanifest', rel='manifest')
-    link(href='assets/images/social/safari-pinned-tab.svg', rel='mask-icon')
-    link(href='assets/images/social/social/favicon.ico', rel='shortcut icon')
-    meta(content='#ffffff', name='msapplication-TileColor')
-    meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
-    meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header.wavey.wavey-grey
+block features
+  include includes/mixins/common
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Privacy Policy
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Learn more about the history of Helperbird and our core values.
-    section.section.lightblue-white
-      .container
-        .col-12
-          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Overview
-      .container
-        .col-12
-          p.paragraph.secondary-color.mt20 This Privacy Policy describes how your personal information is handled in Helperbird for Chrome, Firefox and Edge or our widget
-    section.section.lightblue-white
-      .container
-        .col-12
-          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us We Collect No Personal Information Using Our Applications
-      .container
-        .col-12
-          p.paragraph.secondary-color.mt20 We do not collect, use, save, or have access to any of your personal data recorded in Helperbird for Chrome, Firefox Edge or our widget.
-          p.paragraph.secondary-color.mt20 Individual settings relating to the Helperbird apps are not personal and are stored only on your device and account. You might also be asked to provide access to your email and access to modify the current webpage, but this is only so you can check if your account is marked as paid in Stripe and so we can make the changes you requested on the webpage. We don’t process that information at all and have no access to it.
-    section.section.lightblue-white
-      .container
-        .col-12
-          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Our Applications Comply with the Children’s Online Privacy Protection Act (COPPA & FERPA)
-      .container
-        .col-12
-          p.paragraph.secondary-color.mt20 Our applications don’t collect personal information from anyone, including children under the age of 13.
-    section.section.lightblue-white
-      .container
-        .col-12
-          h3.heading-sml.heading.primary-color.launchaco-builder-hoverable.why_us Contact Us
-      .container
-        .col-12
-          p.paragraph.secondary-color.mt20 If you have any questions about this Privacy Policy, feel free to get in touch with us at support@helperbird.com
-    include includes/layout/footer.pug
+  +section('Overview',
+    [
+    'This Privacy Policy describes how your personal information is handled in Helperbird for Chrome, Firefox and Edge or our widget',
+    'We do not store data or any other user-related content. ',
+    'We do not promote advertisements or integrate any third-party software libraries, which can lead to malware exploits. ',
+    'This level of privacy transparency allows Helperbird to be compliant with Coppa and Ferpa laws. ',
+    'Individual settings relating to the Helperbird apps are stored only on your device.'
+    ])
+
+
+  +section('Highlights',
+    [
+    'We don`t track nor do we store data anywhere but locally in your machine. We don`t use Google analytics or any third-party app.',
+    'User data will never be used for commercial purposes. (We don`t do tracking nor store anything).',
+    'All data stored locally is for users` settings and education purposes.'
+    ])
+
+
+
+  +section('We Collect No Personal Information Using Our Applications',
+    [
+    'We do not collect, use, save, or have access to any of your data recorded in Helperbird for Chrome, Firefox Edge or our widget.',
+    'Individual settings relating to the Helperbird apps are not personal and are stored only on your device.',
+    'You might also be asked to provide access to your email and access to modify the current webpage, but this is only so you can check if your account is marked as paid in Stripe and so we can make the changes you requested on the webpage.', 
+    'We don’t process that information at all and have no access to it.'
+    ])
+
+
+  +section('Highlights',
+    [
+    'We don`t track nor do we store data anywhere but locally in your machine. We don`t use Google analytics or any third-party app.',
+    'User data will never be used commercial purposes. (We don`t do tracking nor store anything)',
+    'All data stored locally is for users` settings and education purposes.',
+    'We ask for your email to check it in Stripe if you have paid.'
+    ])
+
+  +section('Data breach plan',
+    [
+      'Incase of data breach, of any kind. That includes a breach to either our Amazon cloud account, Stripe or Webstore account. We havea responce steps and plan, which will be public soon. If you would like to see it eailier. Email robert.gabriel@helperbird.com'
+    ])
+
+  +section('Our Applications Comply with the Children’s Online Privacy Protection Act (COPPA & FERPA)',
+    [
+    'Our applications don’t collect personal information from anyone, including children under the age of 13.'
+    ])
+
+
+  +section('Contact Us',
+    [
+    'If you have any questions about this Privacy Policy, feel free to get in touch with us at support@helperbird.com'
+    ])
+
