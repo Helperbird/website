@@ -151,9 +151,9 @@ html(lang='en')
   body.font-friendly
     .lightblue-gradient
       include includes/layout/navigation.pug
-      section.section_header.wavey.wavey-grey
+      section.section_header
 
-        li.plan-features__item-lrg.flex
+        .container-lrg.flex.mt200
           .flex.flex-column.col-8.text-center.middle-center
             h1.heading.primary-color.launchaco-builder-hoverable In The News
             h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text See what trusted publications wrote about Helperbird
@@ -163,7 +163,7 @@ html(lang='en')
                 |  
                 span.its_free Its Free!
 
-    section.section.lightblue-white#testimonial-5
-      include includes/sections/reviews-two.pug
+
+    include includes/sections/news.pug
 
     include includes/layout/footer.pug
