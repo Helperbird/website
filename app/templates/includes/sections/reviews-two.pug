@@ -65,7 +65,7 @@ section.testimonials
 
                 .item
                     .profile
-                        img(src= val.photo alt='')
+                        img(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
                         .information
                             .stars
                                 each star in val.rating
