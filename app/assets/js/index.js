@@ -43,9 +43,9 @@ async function loader() {
 	let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
 	if (Math.random() < 0.5) {
-		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Start your free 7 day trial</a>');
+		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">Thanksgiving sale 🦃</a>');
 	} else {
-		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Start your free 7 day trial</a>');
+		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">⚡ Black friday sale⚡</a>');
 	}
 	await thirdParty.tagManager();
 	await slider.start();

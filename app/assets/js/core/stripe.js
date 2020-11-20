@@ -12,6 +12,11 @@ async function load() {
 	let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
 	let a11yCheckers = document.getElementsByClassName('helperbird-accessibility-buy-button');
 
+
+	// Sale trigger
+	let saleSchools = document.getElementById('sale-schools-button');
+
+
 	// Widget
 	let widgetSmall = document.getElementsByClassName('helperbird-widget-small-montly');
 	let widgetSmallYearly = document.getElementsByClassName('helperbird-widget-small-yearly');
@@ -24,6 +29,42 @@ async function load() {
 
 	let widgetEnterprise = document.getElementsByClassName('helperbird-widget-enterprise');
 	let widgetEnterpriseYearly = document.getElementsByClassName('helperbird-widget-enterprise-yearly');
+
+
+
+	if (saleSchools !== null) {
+		saleSchools.addEventListener('click', () => {
+			// When the customer clicks on the button, redirect
+			// them to Checkout.
+
+			notyf.success('Loading.....');
+			stripe
+				.redirectToCheckout({
+					lineItems: [
+						{
+							price: 'price_1HXraQENE7uqpRK1TM0FgiXM',
+							quantity: 1
+						}
+					],
+					mode: 'subscription',
+					// Do not rely on the redirect to the successUrl for fulfilling
+					// purchases, customers may not always reach the success_url after
+					// a successful payment.
+					// Instead use one of the strategies described in
+					// https://stripe.com/docs/payments/checkout/fulfillment
+					successUrl: 'https://www.helperbird.com/success',
+					cancelUrl: 'https://www.helperbird.com/pricing'
+				})
+				.then(({ error }) => {
+					if (error) {
+						// If `redirectToCheckout` fails due to a browser or network
+						// error, display the localized error message to your customer.
+						notyf.error(error.message);
+					}
+				});
+		});
+	}
+
 
 	if (widgetEnterpriseYearly.length !== 0) {
 		for (var i = 0; i < widgetEnterpriseYearly.length; i++) {
