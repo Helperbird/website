@@ -1,0 +1,32 @@
+extends ../includes/templates/blog/post.pug
+
+block seo
+  - var title = 'Thanksgiving day message from Helperbird'
+  - var description = 'A thanksgiving day message from Helperbird.'
+  - var url = 'thanksgiving-message-from-helperbird'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/blog
+  .col-12.text-center
+
+    +blog_title("Giving Thanks")
+
+
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+    .mb20
+      +blog_paragraph("On the day before Thanksgiving, Helperbird wants to give thanks for what we're most grateful for this year.")
+      +blog_paragraph('Give Thanks for our Uniqueness!')
+
+    .mb20
+      +blog_paragraph("No two humans are alike! Our differences make us who we are and we think that's awesome!! This is why we want the internet to be an accessible place for each unique individual so no matter your needs or preferences, you can keep being you online!")
+      +blog_paragraph('Give Thanks for Teachers!')
+
+    .mb20
+      +blog_paragraph("This year teachers have had to adapt and overcome numerous global challenges and we are so thankful for your hard work and dedication. We have teachers writing to us every day looking for solutions for their students and your passion does not go unnoticed! So we're giving a big thanks to all our teachers out there!")
+      +blog_paragraph('Give Thanks for Community!')
+
+    .mb20
+      +blog_paragraph("With so many of us transitioning our work, school, and social lives online, we're so thankful for this terrific Helperbird community that's striving to make the web friendlier and more accessible for all.")
+      +blog_paragraph('We hope that our app this year has, in some small way, made it easier for you to connect and contribute to your online communities in meaningful ways.')
+      +blog_paragraph('#GiveThanks')
