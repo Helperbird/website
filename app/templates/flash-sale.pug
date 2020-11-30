@@ -159,8 +159,8 @@ html(lang='en')
         .container.flex.mt200.red-background
           .flex.flex-column.col-12
 
-            h1.countdown-h1.heading.primary-color.launchaco-builder-hoverable.text-center#headline Thanksgiving flash sale
-            h2.heading.primary-color.launchaco-builder-hoverable.text-center.white 25% or more off all yearly plans
+            h1.countdown-h1.heading.primary-color.launchaco-builder-hoverable.text-center#headline Cyber monday
+            h2.heading.primary-color.launchaco-builder-hoverable.text-center.white 50% or more off all yearly plans
      
 
             #countdown.countdown.text-center 
@@ -183,13 +183,39 @@ html(lang='en')
     include includes/pricing/pricing-sale.pug
 
 
+    .lightblue-gradient#pricing.mb75.mt75
+      section.section_header.wavey.wavey-grey(style="padding-top:65px;")
+        .container
+          .col-12.text-center
+            h1.heading.primary-color.launchaco-builder-hoverable 
+              | Flash sale on the widget
+            h3.paragraph.secondary-color.mt20.launchaco-builder-hoverable
+              | Each plan includes all features and services. 7 day free trial.
+            h3.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
+              b
+                | Save 50%
+            svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
+              path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
+
+
+            .pricing-switch
+              
+              | Monthly
+              label.switch
+                input#annual-widget(name='xxx', type='checkbox')
+                span.slider.round
+              | Yearly
+
+      include includes/pricing/pricing-widget.pug
+
+
           script.
             (function () {
             const second = 1000,
             minute = second * 60,
             hour = minute * 60,
             day = hour * 24;
-            let birthday = "December 2, 2020 00:00:00",
+            let birthday = "December 6, 2020 00:00:00",
             countDown = new Date(birthday).getTime(),
             x = setInterval(function() {
             let now = new Date().getTime(),
