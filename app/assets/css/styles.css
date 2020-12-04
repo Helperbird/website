@@ -54,6 +54,9 @@
 .mt200 {
 	margin-top: 200px !important;
 }
+.mt150 {
+	margin-top: 150px !important;
+}
 .fade-in {
 	--ease: all 300ms ease;
 	position: fixed;
@@ -570,7 +573,12 @@ body {
 	margin: auto !important;
 }
 .heading-home {
-	font-size: 48px !important;
+	
+	max-width: 500px;
+    font-size: 45px !important;
+    line-height: 1.32em;
+    font-weight: 700;
+    letter-spacing: -.14px;
 }
 .section_header {
 	padding-top: 12rem;
@@ -597,8 +605,6 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 9999999;
-
-	padding-top: 10px;
 	background-color: #fff !important;
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
@@ -606,24 +612,26 @@ body {
 	margin-top: 80px !important;
 }
 .logo {
-	font-size: 20px;
-	line-height: 44px;
-	display: inherit;
-	color: #000 !important;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 5px 0px;
+    display: inherit;
+    color: #000 !important;
 }
 .logo img {
-	height: 44px;
-	display: inherit;
-	margin-right: 10px;
+    height: 32px;
+    display: inherit;
+    margin-right: 10px;
+    margin-top: 8px;
 }
 .nav-link {
-	font-size: 19px;
-	line-height: 44px;
-	text-decoration: none;
-	color: inherit;
-	display: inline-block;
-	color: #000;
-	margin: 0 15px;
+    font-size: 18px;
+    line-height: 33px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    color: #000;
+    margin: 0 12px;
 }
 .border_image {
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
@@ -667,7 +675,7 @@ svg#pricing_two {
 	background-repeat: no-repeat;
 	background-position: bottom;
 
-	padding-bottom: 17rem;
+	padding-bottom: 11rem;
 }
 
 .wavey-yellow {
@@ -736,9 +744,14 @@ h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb40.mt40 {
 	margin-top: 20px;
 }
 .subheading {
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 1.8;
 }
+
+.slider-max-width{
+	max-width: 1200px !important;
+}
+
 .paragraph {
 	font-weight: 400;
 	margin-top: 1rem;
@@ -5967,7 +5980,7 @@ ul {
 	text-align: center;
 }
 .review-title-stars {
-	margin: 1.5rem 0;
+	margin: 1.0rem 0;
 }
 .review-title-stars > svg {
 	margin-right: 1rem;

@@ -4,26 +4,26 @@ html(lang='en')
     meta(charset='utf-8')
     title Literacy, Accessibility & Dyslexia Software | Helperbird
     link(href='https://www.helperbird.com', rel='canonical')
-    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annonations and  more.', name='description')
+    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annotations and  more.', name='description')
     meta(content='Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic', name='keywords')
 
     meta(content='/assets/images/favicon.png', name='image')
     meta(content='width=device-width,initial-scale=1', name='viewport')
     meta(content='#db5945', name='theme-color')
     meta(content='Helperbird', itemprop='name')
-    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annonations and  more.', itemprop='description')
+    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annotations and  more.', itemprop='description')
     meta(content='/assets/images/favicon.png', itemprop='image')
     meta(content='summary_large_image', name='twitter:card')
 
 
     meta(content='Literacy, Accessibility & Dyslexia Software |  Helperbird', name='twitter:title')
-    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annonations and  more.', name='twitter:description')
+    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annotations and  more.', name='twitter:description')
     meta(content='@helperbird_', name='twitter:site')
     meta(content='RobertJGabriel', name='twitter:creator')
     meta(content='https://www.helperbird.com/assets/images/social/twitter.png', name='twitter:image:src')
     meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='twitter:player')
     meta(content='Literacy, Accessibility & Dyslexia Software |  Helperbird', name='og:title')
-    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annonations and  more.', name='og:description')
+    meta(content='Helperbird is a browser extension that gives you the features to make the web more accessible and you more productive. Providing you with  dyslexia fonts, dyslexia support, text to speech, overlays, dyslexia ruler, immersive reader, reader mode, annotations and  more.', name='og:description')
     meta(content='/assets/images/social/facebook.png', name='og:image')
     meta(content='https://www.helperbird.com/', name='og:url')
     meta(content='Helperbird', name='og:site_name')
@@ -155,13 +155,13 @@ html(lang='en')
   body.font-friendly
     .lightblue-gradient
       include includes/layout/navigation.pug
-      section.section_header.wavey.wavey-grey
+      section.section_header
 
 
  
 
 
-        .container-xlrg.flex.mobile-col-flex-12.mt200
+        .container-xlrg.flex.mobile-col-flex-12.mt150.slider-max-width
 
 
 
@@ -170,26 +170,23 @@ html(lang='en')
             h2.subheading.secondary-color.mt20.launchaco-builder-hoverable
               | Helperbird is your all in one extension, that gives you the features to make the web more accessible and productive. 
               | Providing you 
-              b text to speech, 
-              | ad removal, 
-              b dyslexia support, 
-              | dictation, 
-              b immersive reader, 
-              | overlays, 
-              b reader mode, 
-              | and more.
+              strong #[a(href='/features/text-to-speech') text to speech], 
+              | #[a(href='/features/optical-character-recognition') OCR], 
+              strong #[a(href='/features/ruler') dyslexia support], 
+              | #[a(href='/features/speech-to-text') dictation], 
+              strong #[a(href='/features/immersive-reader-for-chrome') immersive reader], 
+              | #[a(href='/features/overlay') overlays],  
+              strong #[a(href='/features/annotation') annotate any website],
+              | #[a(href='/features/immersive-reader-for-chrome') picture dictionary],
+              strong #[a(href='/features/reader-mode-for-chrome-and-firefox') Reader mode], 
+              | #[a(href='/features') and more].
+   
             .mt40
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(href='/pricing', title="Visit pricing")
                 span  Try now for free
   
               a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
                 span Watch it in action
-            .flex.wrap.mt40
-              .flex.flex-column.col-12.mobile-col-12
-                
-                p.review-title-stars
-                  include ../assets/images/logo/stars.svg
-                  | 300,000 people use Helperbird to improve their productivity
 
 
 
@@ -205,10 +202,20 @@ html(lang='en')
               video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
                 source(src="/assets/videos/home.webm" type="video/webm")
                 source(src="/assets/videos/home.mp4" type="video/mp4")
+            
+            .flex.wrap.mt10
+              .flex.flex-column.col-12.mobile-col-12
+                
+                p.review-title-stars
+                  include ../assets/images/logo/stars.svg
+                  | #[a(href='https://datastudio.google.com/u/0/reporting/3e86f5ee-b27b-4bb6-bfdc-90c1dd67f06e/page/1M', rel='noopener', target='_blank') 300,000]  people use Helperbird to improve their productivity
+
+
+
     section.section.press-logos#featuredin-1
       .container.text-center
         .col-12
-          h2.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb75.press_logos_title Trusted by people at the world’s most innovative organisations
+          h2.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb75.press_logos_title RELIED UPON BY THOUSANDS OF BUSINESSES
       .container-lrg
         .flex.center-horizontal.wrap.center-vertical
           .col-2.mobile-col-6

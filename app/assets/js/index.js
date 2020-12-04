@@ -43,9 +43,9 @@ async function loader() {
 	let slideIndex = 1;
     await videos.showSlidesVideo(slideIndex);
 	if (Math.random() < 0.5) {
-		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">Cyber monday deals</a>');
+		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
 	} else {
-		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">⚡ Cyber monday deals⚡</a>');
+		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">Discover Helperbird</a>');
 	}
 	await thirdParty.tagManager();
 	await slider.start();

@@ -5,7 +5,7 @@ header.header
         img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png')
         | Helperbird
       a.menu-toggle#menu(href='#main-menu', title="menu button")
-        b.nav-link.mr0.secondary-color ☰
+        b.nav-link.mr0.secondary-color.mt10 ☰
       nav.main-menu#main-menu(role='navigation')
         a.menu-close#main-menu-close(href='#')
           span.bold ✕
@@ -19,7 +19,6 @@ header.header
           #myDropdown.dropdown-content
             a(href='/chrome') Helperbird extension
             a(href='/products/widget') Accessibility widget
-            a(href='/products/accessibility-checker') Accessibility Checker
         .nav-link.secondary-color
           a.nav-link.secondary-color.dropbtnCompare(onclick='nav.dropdown_compare()')
             | Compare
@@ -30,73 +29,3 @@ header.header
             a(href='/compare/immersive-reader-by-microsoft-alternative') Immersive reader
 
         button.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Try for free
-
-  span(class="banner_sell")
-
-
-
-    a(href='/flash-sale')
-      ul.countdown-ul-header(style='\
-      display: inline-table;\
-      list-style: none;\
-      ')
-        li
-          | 25% or more  Cyber Monday sale &#x27A1;&#xFE0F;
-        li.countdown-li-header(style='\
-        float: left;\
-        margin-right: 0.5rem;\
-        ')
-          span#daysHeader(style='\
-          margin-right: 0.3rem;\
-          ') 9
-          | days
-        li.countdown-li-li-header(style='\
-        float: left;\
-        margin-right: 0.5rem;\
-        ')
-          span#hoursHeader(style='\
-          margin-right: 0.3rem;\
-          ') 6
-          | Hours
-        li.countdown-li-li-header(style='\
-        float: left;\
-        margin-right: 0.5rem;\
-        ')
-          span#minutesHeader(style='\
-          margin-right: 0.3rem;\
-          ') 32
-          | Minutes
-        li.countdown-li-li-header(style='\
-        float: left;\
-        margin-right: 1rem;\
-        margin-right: 0.5rem;\
-        ')
-          span#secondsHeader(style='\
-          margin-right: 0.3rem;\
-          ') 50
-          | Seconds left
-
-
-      script.
-        (function () {
-        const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-        let birthday = "December 6, 2020 00:00:00",
-        countDown = new Date(birthday).getTime(),
-        x = setInterval(function() {
-        let now = new Date().getTime(),
-        distance = countDown - now;
-        document.getElementById("daysHeader").innerText = Math.floor(distance / (day)),
-        document.getElementById("hoursHeader").innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById("minutesHeader").innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById("secondsHeader").innerText = Math.floor((distance % (minute)) / second);
-        //do something later when date is reached
-        if (distance < 0) {
-
-        clearInterval(x);
-        }
-        //seconds
-        }, 0)
-        }());
