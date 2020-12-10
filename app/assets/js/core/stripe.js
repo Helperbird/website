@@ -12,10 +12,8 @@ async function load() {
 	let studentPricing = document.getElementById('checkout-button-plan_GDtSwhVHQXfaSw');
 	let a11yCheckers = document.getElementsByClassName('helperbird-accessibility-buy-button');
 
-
 	// Sale trigger
 	let saleSchools = document.getElementById('sale-schools-button');
-
 
 	// Widget
 	let widgetSmall = document.getElementsByClassName('helperbird-widget-small-montly');
@@ -29,8 +27,6 @@ async function load() {
 
 	let widgetEnterprise = document.getElementsByClassName('helperbird-widget-enterprise');
 	let widgetEnterpriseYearly = document.getElementsByClassName('helperbird-widget-enterprise-yearly');
-
-
 
 	if (saleSchools !== null) {
 		saleSchools.addEventListener('click', () => {
@@ -64,7 +60,6 @@ async function load() {
 				});
 		});
 	}
-
 
 	if (widgetEnterpriseYearly.length !== 0) {
 		for (var i = 0; i < widgetEnterpriseYearly.length; i++) {
