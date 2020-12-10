@@ -438,7 +438,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'price_1HwsWKENE7uqpRK18Qp9tEH2',
+							price: 'price_1HwthYENE7uqpRK11HU8zN2n',
 							quantity: 1
 						}
 					],
@@ -474,7 +474,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'price_1HwsWpENE7uqpRK1JnodBuKx',
+							price: 'price_1HwthYENE7uqpRK1MyIFS6Uh',
 							quantity: 1
 						}
 					],
@@ -510,7 +510,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'price_1HwsTqENE7uqpRK1tKRzvURz',
+							price: 'price_1HwtjgENE7uqpRK1MMaQveG3',
 							quantity: 1
 						}
 					],
