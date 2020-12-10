@@ -377,7 +377,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: '1',
+							price: 'price_1HwsTqENE7uqpRK1rZ0WjoHF',
 							quantity: 1
 						}
 					],
@@ -409,7 +409,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'plan_FmS3HONbzTCxGl',
+							price: 'price_1HwsTqENE7uqpRK1QDcWrD5g',
 							quantity: 1
 						}
 					],
@@ -443,7 +443,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'plan_G1OnSt8DIms1PY',
+							price: 'price_1HwsWKENE7uqpRK18Qp9tEH2',
 							quantity: 1
 						}
 					],
@@ -479,7 +479,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'plan_G1O8Rztm6fFf4R',
+							price: 'price_1HwsWpENE7uqpRK1JnodBuKx',
 							quantity: 1
 						}
 					],
@@ -515,7 +515,7 @@ async function load() {
 				.redirectToCheckout({
 					lineItems: [
 						{
-							price: 'plan_GDtSwhVHQXfaSw',
+							price: 'price_1HwsTqENE7uqpRK1tKRzvURz',
 							quantity: 1
 						}
 					],

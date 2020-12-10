@@ -15,8 +15,8 @@ async function calc() {
 	element6.classList.add('hide');
 
 	if (document.getElementById('annual').checked) {
-		document.getElementById('plusPricing').innerHTML = '$50.00/yearly';
-		document.getElementById('enterprisePricing').innerHTML = '$1000.00/yearly';
+		document.getElementById('plusPricing').innerHTML = '$60.00/yearly';
+		document.getElementById('enterprisePricing').innerHTML = '$1200.00/yearly';
 
 		const element3 = document.getElementById('checkout-button-plan_FmS3HONbzTCxGl');
 		element3.classList.remove('hide');
@@ -24,7 +24,7 @@ async function calc() {
 		const element2 = document.getElementById('checkout-button-plan_G1OnSt8DIms1PY');
 		element2.classList.remove('hide');
 	} else {
-		document.getElementById('plusPricing').innerHTML = '$4.99/monthly';
+		document.getElementById('plusPricing').innerHTML = '$6.99/monthly';
 
 		document.getElementById('enterprisePricing').innerHTML = '$99.99/monthly';
 
