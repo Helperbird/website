@@ -1,0 +1,36 @@
+extends ../includes/templates/blog/post.pug
+
+block seo
+  - var title = 'How to use Immerive reader in Google Docs'
+  - var description = 'Discover how to use Immersive reader in Google Docs for free.'
+  - var url = 'how-to-use-immersive-reader-in-google-docs'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/blog
+  .col-12.text-center
+
+	+blog_title("How to use Immerive reader in Google Docs")
+	+blog_description("A step by step guide.")
+
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+	.mb20(style="padding: 40px 0px;")
+	  +blog_paragraph_title("What is Immersive Reader")
+	  +blog_paragraph("Immersive Reader is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners. It can help build confidence for emerging readers learning to read at higher levels, and offer text decoding solutions for students with learning differences such as dyslexia.")
+	  +blog_paragraph("Currently it is ONLY available in OneNote, Word, and the web version of Outlook.")
+	  +blog_paragraph("Until now.")
+
+	.mb20(style="padding: 40px 0px;")
+	  +blog_paragraph_title("How to use Immersive reader in Google Docs")
+	  +blog_paragraph("First you need to download Helperbird.com, which is available a browser extension on Google Chrome, Firefox, and Edge.")
+	  +blog_paragraph("Once you have it installed.")
+	  +blog_paragraph("Highlight the paragraph or text you want to use in Immersive reader.")
+	  +blog_image('Step one of how to use immersive reader in Google docs','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/steps_1.png')
+
+	  +blog_paragraph("The Helperbird quick menu will appear.")
+	  +blog_paragraph("Scroll down in the quick menu.  You will see a button called 'Immersive reader'. Click it.")
+	  +blog_image('Step two of how to use immersive reader in Google docs','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/steps_2.png')
+
+	  +blog_paragraph(" That's it, you can now access Immersive reader on Google docs and every other website.")
+
+
