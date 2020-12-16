@@ -5,13 +5,12 @@ mixin blog_description(text)
     h3.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable= text
 
 mixin blog_paragraph_title(text)
-    h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black= text
+    h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.black(style="padding-bottom: 20px;")= text
 
 mixin blog_paragraph(text)
     p.paragraph_features= text
 
 mixin blog_button(text,link)
-    p.paragraph_features= text
     a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.button-signup_two.text-center(href= link, target='_blank')
         span= text
         
