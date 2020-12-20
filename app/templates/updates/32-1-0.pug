@@ -1,0 +1,209 @@
+
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '32.1.0'
+  - var description = '32.1.0'
+  - var url = '32-1-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+  .col-12.text-center
+
+    h1.header_snow.christmas Helperbird update
+
+  .col-12.text-center.white(style="margin-top:50px;color:#000a53")
+
+    +updates_description("")
+
+  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+
+    div.paragraph_features
+      +updates_paragraph_title("Faster then ever.")
+      +updates_paragraph('Helperbird is now 20% faster then the last version.')
+
+    div.paragraph_features
+      +updates_paragraph_title("Try Helperbird Pro for 3 days free.")
+      +updates_paragraph('Try Helperbird Pro for 3 days free.')
+
+
+
+    div.paragraph_features
+      +updates_paragraph_title(" Access Helperbirds features even quicker ")
+      +updates_paragraph('Access Helperbirds features by highlighting any word.')
+
+    div.paragraph_features
+      +updates_paragraph_title("New colors")
+      +updates_paragraph('Added new colors to the on,off and pause feature.')
+
+
+    div.paragraph_features
+      +updates_paragraph_title("For unlimited plan users")
+      +updates_paragraph('You can now use subscription keys for the unlimited users option.')
+
+
+    div.paragraph_features
+      +updates_paragraph_title("Redesigned app")
+      +updates_paragraph('We gave the apps a new and improved look.')
+
+  script(src='https://code.jquery.com/jquery-3.5.1.min.js')
+
+  script.
+
+
+      $.fn.christmas = function() {
+        $(this).each(function() {
+          $(this).html($(this).text().split("").map(function(v, i) {
+            return '<span class="christmas-' + (i % 2 == 0 ? 'gold' : 'blue') + '">' + v + '</span>';
+          }).join(""));
+        });
+      };
+
+      $(function() { 
+        $('h1.christmas').christmas();
+      });
+
+
+
+
+
+  style.
+      @import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700);
+
+      .font-friendly { 
+      background: #000854;
+        background-size:100%; 
+
+        background-repeat: no-repeat;
+
+        margin:0;
+        width:100%;
+      }
+      .christmas-blue {
+      color: #035ee2;
+        background: -webkit-linear-gradient(transparent, transparent), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/blue_glitter.gif) repeat;
+        background: -o-linear-gradient(transparent, transparent) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        margin: 0;
+        padding: 0;
+
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1px;
+        z-index: 999999;
+        -webkit-background-clip: text;
+      }
+
+      .christmas-gold {
+        color: #D81E1E;
+        
+      color: gold;
+        background: -webkit-linear-gradient(transparent, transparent), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/gold_glitter.gif) repeat;
+        background: -o-linear-gradient(transparent, transparent) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        margin: 0;
+        padding: 0;
+
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1px;
+        z-index: 999999;
+        -webkit-background-clip: text;
+      }
+
+
+
+      .header_snow {position:absolute;font-size: 5.5vw;
+        width:100%;
+        height:100%;
+        text-align:center;
+        max-height:100px;
+        z-index:-1;
+      line-height:0;
+ 
+        color:#fff;
+        font-family: 'Mountains of Christmas', cursive;
+      }
+
+
+      /***************************
+
+      Snow.  
+
+      ***************************/
+      .snow, .snow:before, .snow:after {
+
+        position: absolute;
+        top: -600px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: radial-gradient(5px 5px at 34px 172px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 86px 25px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 388px 47px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 53px 303px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 373px 475px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 196px 261px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 434px 424px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 234px 213px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 393px 356px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 537px 497px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 151px 362px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 110px 99px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 270px 111px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 351px 424px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 459px 279px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 584px 126px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 303px 486px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 132px 292px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 120px 162px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 396px 460px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 169px 508px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 177px 298px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 575px 410px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 29px 140px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 82px 378px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 482px 473px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 56px 24px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 157px 73px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 97px 496px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 240px 225px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 12px 102px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 518px 417px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 323px 155px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 534px 119px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 294px 245px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 270px 432px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 406px 292px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 42px 233px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 109px 160px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 158px 359px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 212px 133px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 303px 536px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 513px 314px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 54px 346px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 127px 115px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 559px 29px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 493px 581px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 339px 414px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 349px 481px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 331px 86px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 497px 385px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 65px 332px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 432px 593px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 377px 240px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 293px 224px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 455px 336px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 93px 50px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 129px 453px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 393px 78px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 364px 75px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 66px 19px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 254px 199px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 178px 454px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 499px 280px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 419px 40px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 179px 593px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)), radial-gradient(3px 3px at 66px 529px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)), radial-gradient(6px 6px at 498px 329px, #ffffff 50%, rgba(0, 0, 0, 0)), radial-gradient(5px 5px at 381px 464px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)), radial-gradient(4px 4px at 172px 17px, #ffffff 50%, rgba(0, 0, 0, 0));
+        background-size: 600px 600px;
+        animation: snow 5s linear infinite;
+      }
+      #snow {
+     background: none;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake1.png), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake2.png), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/flake3.png);
+    left: 0;
+    width: 100%;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+      }
+
+      .section_header,.lightblue-gradient{
+        background-color:transparent !important;
+      }
+      @keyframes snow {
+      0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+      }
+      50% {
+      background-position: 500px 500px, 100px 200px, -100px 150px;
+      }
+      100% {
+      background-position: 500px 1000px, 200px 400px, -100px 300px;
+      }
+      }
+      @-moz-keyframes snow {
+      0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+      }
+      50% {
+      background-position: 500px 500px, 100px 200px, -100px 150px;
+      }
+      100% {
+      background-position: 400px 1000px, 200px 400px, 100px 300px;
+      }
+      }
+      @-webkit-keyframes snow {
+      0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+      }
+      50% {
+      background-position: 500px 500px, 100px 200px, -100px 150px;
+      }
+      100% {
+      background-position: 500px 1000px, 200px 400px, -100px 300px;
+      }
+      }
+      @-ms-keyframes snow {
+      0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+      }
+      50% {
+      background-position: 500px 500px, 100px 200px, -100px 150px;
+      }
+      100% {
+      background-position: 500px 1000px, 200px 400px, -100px 300px;
+      }
+      }
+
+
