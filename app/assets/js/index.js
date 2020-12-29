@@ -1,4 +1,3 @@
-
 import '../css/styles.css';
 import '../css/modal.css';
 import '../css/override.css';
@@ -41,11 +40,11 @@ async function loader() {
 	await widget.eventListner();
 	await sliderHome.initComparisons();
 	let slideIndex = 1;
-    await videos.showSlidesVideo(slideIndex);
+	await videos.showSlidesVideo(slideIndex);
 	if (Math.random() < 0.5) {
 		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
 	} else {
-		await notifactions.popup('<a href="https://www.helperbird.com/flash-sale">Discover Helperbird</a>');
+		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
 	}
 	await thirdParty.tagManager();
 	await slider.start();
