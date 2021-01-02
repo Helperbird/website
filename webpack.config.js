@@ -41,6 +41,7 @@ blogFiles = generateHtmlPlugins('./app/templates/blog/', 'blog/');
 compareFiles = generateHtmlPlugins('./app/templates/compare/', 'compare/');
 featuresFiles = generateHtmlPlugins('./app/templates/features/', 'features/');
 partnersFiles = generateHtmlPlugins('./app/templates/partners/', 'partners/');
+supportFiles = generateHtmlPlugins('./app/templates/support/', 'support/');
 productsFiles = generateHtmlPlugins('./app/templates/products/', 'products/');
 updatesFiles = generateHtmlPlugins('./app/templates/updates/', 'updates/');
 
@@ -102,6 +103,7 @@ module.exports = {
 		.concat(compareFiles)
 		.concat(featuresFiles)
 		.concat(partnersFiles)
+		.concat(supportFiles)
 		.concat(productsFiles)
 		.concat(updatesFiles)
 		.concat(new HTMLInlineCSSWebpackPlugin())
