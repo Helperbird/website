@@ -572,6 +572,21 @@ body {
 	font-size: 18px !important;
 	margin: auto !important;
 }
+
+
+.how_to_guide_list_style{
+	padding-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+}
+
+
+.how_to_guide_list_style > li{
+	margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 .how_to_guide{
 
 
