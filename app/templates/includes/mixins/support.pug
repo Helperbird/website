@@ -59,8 +59,9 @@ mixin  section(title, features)
     .container-lrg
       .col-12
         h3.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000')= title
+        ol
         each val in features
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text= val
+            li= val
 
 
 mixin  upsell(title, text, button)
