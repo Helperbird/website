@@ -572,6 +572,13 @@ body {
 	font-size: 18px !important;
 	margin: auto !important;
 }
+.how_to_guide{
+
+
+	background: #fdc830; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fdc830, #f37335); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .heading-home {
 	
 	max-width: 500px;
