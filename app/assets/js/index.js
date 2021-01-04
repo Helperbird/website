@@ -1,12 +1,11 @@
+// css
 import '../css/styles.css';
 import '../css/modal.css';
 import '../css/override.css';
-
 import '../css/table.css';
 
 // Js
 import * as stripe from './core/stripe';
-
 import * as plan from './core/plans';
 import * as widget from './core/plans-widget';
 import * as youtube from './core/youtube';
@@ -17,8 +16,13 @@ import * as features from './core/features';
 import * as sliderHome from './core/slider-home';
 import * as notifactions from './core/notifactions';
 import * as a11y from './core/scanner';
-import * as webp from './core/webp';
 import * as nav from './core/nav';
+
+
+import 'lazysizes';
+import  '@fortawesome/fontawesome-free/js/brands';
+import  '@fortawesome/fontawesome-free/js/fontawesome';
+import 'bootstrap/js/dist/modal';
 
 // Make it public
 window.videos = videos;
@@ -27,10 +31,8 @@ window.notifactions = notifactions;
 window.a11y = a11y;
 window.nav = nav;
 
-webp.load();
-import '@fortawesome/fontawesome-free/js/all';
 
-import 'bootstrap/js/dist/modal';
+
 
 async function loader() {
 	await stripe.load(); // Load Stripe
