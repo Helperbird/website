@@ -20,7 +20,7 @@ import * as nav from './core/nav';
 
 
 import 'lazysizes';
-import  '@fortawesome/fontawesome-free/js/brands';
+import  '@fortawesome/fontawesome-free/js/all';
 import  '@fortawesome/fontawesome-free/js/fontawesome';
 import 'bootstrap/js/dist/modal';
 
