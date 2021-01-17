@@ -153,30 +153,47 @@ html(lang='en')
   body.font-friendly
     .lightblue-gradient
       include includes/layout/navigation.pug
-      section.section_header.section_header_compare
+      section.section_header(style="    background-color: #fff;")
 
 
-        .container.flex.mt200.mb40
-          .flex.flex-column.col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable.white
-              | Chromebook Giveaway
-            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text.white
-              | Start 2021 with a new Chromebook from Helperbird. 
-            h2.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text.white
-              | Just follow us on 
-              a(href='https://twitter.com/helperbird_', rel='noopener', target='_blank') Twitter
-              | or write a review on the 
-              a(href='hhttps://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme/reviews', rel='noopener', target='_blank') Google Webstore to win.
+
+        .container-xlrg.flex.mobile-col-flex-12.mt150.slider-max-width
+          .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center
+            h1.heading.primary-color.launchaco-builder-hoverable.heading-home HP 14 Chromebook Giveaway
+            h2.subheading.secondary-color.mt20.launchaco-builder-hoverable
+              | Win a HP 14 Chromebook  & 1 year free of Helperbird Pro. Just follow us on Twitter or write a review on the Google Webstore to win.
+   
             .mt40
-                a.try_it_now.button.pink.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.cta-button(href='#enter', title="Download Helperbird today")
-                    span Enter now
-                a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text.cta-small-text.white(href='https://www.helperbird.com/blog/giveaway-rules', target='_blank', rel='noopener', alt='Watch Helperbird video')
-                    span Rules
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(href='#enter', title="Download Helperbird today")
+                span Enter now
+              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href='https://www.helperbird.com/blog/giveaway-rules', target='_blank', rel='noopener', alt='Watch Helperbird video')
+                span Rules
+
+
+
+
+          .col-6.flex.flex-column.text-center.mobile-col-12
+
+            .mt40.launchaco-builder-hoverable
+
+              img(src="/assets/images/blog/giveaway/chromebookside.jpeg", style="border-radius: 15px;")
+            
+
+
+
+
+
+
+      
 
 
     section.lightblue-white#enter.mt40.mb40
-      .container.text-center
-        .col-12
+      .container-xlrg.flex.mobile-col-flex-12.mt150.slider-max-width
+        
+
+
+
+        .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center
           h1.heading.primary-color.launchaco-builder-hoverable What can you win?
 
           p.subheading.secondary-color.mt20.launchaco-builder-hoverable Brand: HP
@@ -196,6 +213,14 @@ html(lang='en')
           | Battery life: Up to 13 hours and 30 minutes (mixed usage); 0 to 50% charge in 45 minutes with HP Fast Charge
           | Thin, light & portable: 12.82 inch (W) x 8.60 inch (D) x 0.70 inch (H); 3.24 pounds
           | Operating system and warranty: Chrome and 1-year limited hardware warranty
+
+
+        .col-6.flex.flex-column.text-center.mobile-col-12
+
+          .mt40.launchaco-builder-hoverable
+
+            img(src="/assets/images/blog/giveaway/chromebookfront.jpeg", style="border-radius: 15px;")
+            
 
 
 
