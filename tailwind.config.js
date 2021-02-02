@@ -10,12 +10,12 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				orange: colors.orange,
-			  }
+				orange: colors.orange
+			}
 		}
 	},
 	variants: {
 		extend: {}
 	},
-	plugins: [ require('daisyui'),    require('@tailwindcss/typography'),require('@tailwindcss/aspect-ratio') ]
+	plugins: [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio') ]
 };

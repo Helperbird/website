@@ -18,7 +18,7 @@ new Vue({
 		openProducts: false,
 		openCompare: false,
 		closeMenu: false,
-		showModal: false
+		openModal: false
 	},
 	methods: {
 		handleFeatures: function() {
@@ -27,7 +27,7 @@ new Vue({
 			this.openFeatures = !this.openFeatures;
 		},
 		handleModal: function() {
-			this.showModal = !this.showModal;
+			this.openModal = !this.openModal;
 		},
 		handleProducts: function() {
 			this.openFeatures = false;
@@ -48,7 +48,7 @@ new Vue({
 			return this.openFeatures;
 		},
 		showModal: function() {
-			return this.showModal;
+			return this.openModal;
 		},
 		showCompare: function() {
 			return this.openCompare;
