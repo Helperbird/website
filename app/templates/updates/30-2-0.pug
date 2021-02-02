@@ -9,65 +9,34 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
-
-    +updates_title("Welcome to the Spooky Month update!  🎃🦇")
-    +updates_description("We have no tricks and only treats in this new version of Helperbird.")
-
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("NEW FEATURES")
-      +updates_paragraph('A huge thank you to Wendy Torres for reviewing Helperbird and letting us know we needed some improvement. We rebuilt the extension and updated the frameworks we used to be more keyboard and screen reader-supported.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/27-0-0/highlights.png')
-
-    div.paragraph_features
-      +updates_paragraph_title("Annotations")
-      +updates_paragraph('Annotations have been added to Helperbird. Now leave yourself "stickable” notes on any website, customize the colors on each note and keep them all saved for future use.')
-      +updates_video('/assets/videos/annotations.mp4')
 
 
-    div.paragraph_features
-      +updates_paragraph_title("Templates")
-      +updates_paragraph('Templates is a brand new feature that with a click of a button some of our most popular settings will be automatically enabled. This is a feature that will continue to be improved and added to in later updated but fo now why dont you give the Dyslexia, ADHD, Visually Impaired, and Cognitive settings a try and see how you like it? Tweet us @Helperbird with any future template suggestions.')
-      +updates_video("/assets/videos/Templates.mp4")
-  
+  +updates_title("Welcome to the Spooky Month update!  🎃🦇","We have no tricks and only treats in this new version of Helperbird.")
 
-    div.paragraph_features
-      +updates_paragraph_title("IMPROVED FEATURES")
-      +updates_paragraph('🗣️  More speed, volume and pitch controls for text to speech options. (Hooray!)')
-      +updates_paragraph('🎨  More color themes to customize Helperbird to your favorite hue.')
-      +updates_paragraph('💻  OCR is 20 times faster and quicker at processing text.')
-      +updates_paragraph('📓  The "Notes" app has now been renamed to "Editor". Check it out!')
-      +updates_paragraph('✅  The slider design when customizing certain features has been updated to be easier to read the settings youre selecting.')
-      +updates_paragraph('📌  Also, we are super excited to be starting the Helperbird newsletter, "The Bulletin Board". From day one, Helperbird has been designed to be the tool you trust for navigating and working on the web and we hope you will trust and enjoy our editorial stories focusing on inspiring people, fun facts and helpful accessibility tips.')
-      +updates_paragraph('📬  Join us and see whats new on The Bulletin Board by signing up here.')
-      +updates_paragraph('Transparency and trust are two “offline” values that Helperbird holds dear. We want to assure our users that we do not share your information, we do not spam and we will respect your inbox.')
-      +updates_paragraph('And thats all she wrote for this version of Helperbird. Hope you enjoy the updates and have a spoooooky good time!')
 
-              script.
-                ;(function () {
-                var r=Math.random,n=0,d=document,w=window,
-                i=d.createElement('img'),
-                z=d.createElement('div'),
-                zs=z.style,
-                a=w.innerWidth*r(),b=w.innerHeight*r();
-                zs.position="fixed";
-                zs.left=0;
-                zs.top=0;
-                zs.opacity=0;
-                z.appendChild(i);
-                i.src='data:image/gif;base64,R0lGODlhMAAwAJECAAAAAEJCQv///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAQACACwAAAAAMAAwAAACdpSPqcvtD6NcYNpbr4Z5ewV0UvhRohOe5UE+6cq0carCgpzQuM3ut16zvRBAH+/XKQ6PvaQyCFs+mbnWlEq0FrGi15XZJSmxP8OTRj4DyWY1lKdmV8fyLL3eXOPn6D3f6BcoOEhYaHiImKi4yNjo+AgZKTl5WAAAIfkECQEAAgAsAAAAADAAMAAAAnyUj6nL7Q+jdCDWicF9G1vdeWICao05ciUVpkrZIqjLwCdI16s+5wfck+F8JOBiR/zZZAJk0mAsDp/KIHRKvVqb2KxTu/Vdvt/nGFs2V5Bpta3tBcKp8m5WWL/z5PpbtH/0B/iyNGh4iJiouMjY6PgIGSk5SVlpeYmZqVkAACH5BAkBAAIALAAAAAAwADAAAAJhlI+py+0Po5y02ouz3rz7D4biSJbmiabq6gCs4B5AvM7GTKv4buby7vsAbT9gZ4h0JYmZpXO4YEKeVCk0QkVUlw+uYovE8ibgaVBSLm1Pa3W194rL5/S6/Y7P6/f8vp9SAAAh+QQJAQACACwAAAAAMAAwAAACZZSPqcvtD6OctNqLs968+w+G4kiW5omm6ooALeCusAHHclyzQs3rOz9jAXuqIRFlPJ6SQWRSaIQOpUBqtfjEZpfMJqmrHIFtpbGze2ZywWu0aUwWEbfiZvQdD4sXuWUj7gPos1EAACH5BAkBAAIALAAAAAAwADAAAAJrlI+py+0Po5y02ouz3rz7D4ZiCIxUaU4Amjrr+rDg+7ojXTdyh+e7kPP0egjabGg0EIVImHLJa6KaUam1aqVynNNsUvPTQjO/J84cFA3RzlaJO2495TF63Y7P6/f8vv8PGCg4SFhoeIg4UQAAIfkEBQEAAgAsAAAAADAAMAAAAnaUj6nL7Q+jXGDaW6+GeXsFdFL4UaITnuVBPunKtHGqwoKc0LjN7rdes70QQB/v1ykOj72kMghbPpm51pRKtBaxoteV2SUpsT/Dk0Y+A8lmNZSnZlfH8iy93lzj5+g93+gXKDhIWGh4iJiouMjY6PgIGSk5eVgAADs=';
-                d.body.appendChild(z);
-                function R(o,m){return Math.max(Math.min(o+(r()-.5)*400,m-50),50)}
-                function A(){
-                var x=R(a,w.innerWidth),y=R(b,w.innerHeight),
-                d=5*Math.sqrt((a-x)*(a-x)+(b-y)*(b-y));
-                zs.opacity=n;n=1;
-                zs.transition=zs.webkitTransition=d/1e3+'s linear';
-                zs.transform=zs.webkitTransform='translate('+x+'px,'+y+'px)';
-                i.style.transform=i.style.webkitTransform=(a>x)?'':'scaleX(-1)';
-                a=x;b=y;
-                setTimeout(A,d);
-                };setTimeout(A,r()*3e3);
-                })();
+
+  +updates_paragraph_title("NEW FEATURES",'A huge thank you to Wendy Torres for reviewing Helperbird and letting us know we needed some improvement. We rebuilt the extension and updated the frameworks we used to be more keyboard and screen reader-supported.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/27-0-0/highlights.png')
+
+
+  +updates_paragraph_title("Annotations",'Annotations have been added to Helperbird. Now leave yourself "stickable” notes on any website, customize the colors on each note and keep them all saved for future use.')
+  +updates_video('/assets/videos/annotations.mp4')
+
+
+
+  +updates_paragraph_title("Templates",'Templates is a brand new feature that with a click of a button some of our most popular settings will be automatically enabled. This is a feature that will continue to be improved and added to in later updated but fo now why dont you give the Dyslexia, ADHD, Visually Impaired, and Cognitive settings a try and see how you like it? Tweet us @Helperbird with any future template suggestions.')
+  +updates_video("/assets/videos/Templates.mp4")
+
+
+
+  +updates_paragraph_title("IMPROVED FEATURES",'🗣️  More speed, volume and pitch controls for text to speech options. (Hooray!)')
+  +updates_paragraph('🎨  More color themes to customize Helperbird to your favorite hue.')
+  +updates_paragraph('💻  OCR is 20 times faster and quicker at processing text.')
+  +updates_paragraph('📓  The "Notes" app has now been renamed to "Editor". Check it out!')
+  +updates_paragraph('✅  The slider design when customizing certain features has been updated to be easier to read the settings youre selecting.')
+  +updates_paragraph('📌  Also, we are super excited to be starting the Helperbird newsletter, "The Bulletin Board". From day one, Helperbird has been designed to be the tool you trust for navigating and working on the web and we hope you will trust and enjoy our editorial stories focusing on inspiring people, fun facts and helpful accessibility tips.')
+  +updates_paragraph('📬  Join us and see whats new on The Bulletin Board by signing up here.')
+  +updates_paragraph('Transparency and trust are two “offline” values that Helperbird holds dear. We want to assure our users that we do not share your information, we do not spam and we will respect your inbox.')
+  +updates_paragraph('And thats all she wrote for this version of Helperbird. Hope you enjoy the updates and have a spoooooky good time!')
+
 

@@ -1,7 +1,16 @@
 mixin features_title(text,feature_type = 'Helperbird feature')
-    h1.heading.primary-color.launchaco-builder-hoverable
-      .feature_title= feature_type 
-      span= text
+  .text-lg.max-w-prose.mx-auto
+    h1
+      span.block.text-base.text-center.text-indigo-600.font-semibold.tracking-wide.uppercase Helperbird
+      span.mt-2.block.text-3xl.text-center.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= feature_type 
+    p.mt-8.text-xl.text-gray-500.leading-8= text
+
+
+
+
+  
+
+
 
 mixin features_description(text)
     h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text= text
@@ -55,12 +64,12 @@ mixin  compare(before, after)
      
 
 mixin  section(title, features)
-  section.section.mb80
-    .container-lrg
-      .col-12
-        h3.heading-sml.primary-color.launchaco-builder-hoverable(style='color:#000')= title
-        each val in features
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text= val
+  .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
+    h2= title
+    each val in features
+      p= val
+
+
 
 
 mixin  upsell(title, text, button)

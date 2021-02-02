@@ -6,23 +6,24 @@ block seo
   - var url = 'privacy'
   - var keywords = 'Privacy features of Helperbird, Privacy features, Privacy, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
+
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Privacy",'App features')
-    +features_description("Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('uOOucEf_tQk')
+  +features_title("Privacy","Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.")
+  +image_showoff()
+
+
 
 block features
-    include ../includes/mixins/features
-
-    +section('About',['Helperbird does not sell, store, or consume any user data. ','We do not store data or any other user-related content. ','We do not promote advertisements or integrate any third-party software libraries, which can lead to malware exploits. ','This level of privacy transparency allows Helperbird to be compliant with Coppa and Ferpa laws. ','As long as schools have technology waiver from parents, Helperbird can be installed and used on school computers.'])
-
-    +section('How it helps',['Many online services sell, store, track, or promote advertisement as forms of revenue streams. ','Helperbird does not support this idea as we believe in everyones right to full privacy.','Having not to worry about a software tracking, storing, or sharing of private user data helps users to stay confident and secure about how their private information is processed online.'])
+  include ../includes/mixins/features_new
 
 
-    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+
+
+
+  +section('About',['Helperbird does not sell, store, or consume any user data. ','We do not store data or any other user-related content. ','We do not promote advertisements or integrate any third-party software libraries, which can lead to malware exploits. ','This level of privacy transparency allows Helperbird to be compliant with Coppa and Ferpa laws. ','As long as schools have technology waiver from parents, Helperbird can be installed and used on school computers.'])
+
+  +section('How it helps',['Many online services sell, store, track, or promote advertisement as forms of revenue streams. ','Helperbird does not support this idea as we believe in everyones right to full privacy.','Having not to worry about a software tracking, storing, or sharing of private user data helps users to stay confident and secure about how their private information is processed online.'])
+

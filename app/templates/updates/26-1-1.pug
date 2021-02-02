@@ -9,18 +9,15 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 26.1.1")
-    +updates_description("See whats new in Helperbird 26.1.1")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Hightlight titles & paragraphs")
-      +updates_paragraph('You can now highlight paragraphs and titles with any color you want. Making it easier to keep focus.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/26-1-1/highlights.png')
+  +updates_title("What's new in Helperbird 26.1.1","See whats new in Helperbird 26.1.1")
 
-    div.paragraph_features
-      +updates_paragraph_title("You can signin without the browser now")
-      +updates_paragraph('If your signed out of your browser. You can input your email manually and unlock all features.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/26-1-1/signin.png')
+  
+
+  +updates_paragraph_title("Hightlight titles & paragraphs",'You can now highlight paragraphs and titles with any color you want. Making it easier to keep focus.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/26-1-1/highlights.png')
+
+
+  +updates_paragraph_title("You can signin without the browser now",'If your signed out of your browser. You can input your email manually and unlock all features.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/26-1-1/signin.png')

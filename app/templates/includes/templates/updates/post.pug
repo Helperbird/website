@@ -139,17 +139,31 @@ html(lang='en')
 				}
 			}
 
-	body.font-friendly
-		.lightblue-gradient
-			include ../../layout/navigation.pug
-			section.section_header#snow
-				.container.mt200
+	body.bg-content-100
 
+		include ../../layout/navigation.pug
+		.relative.py-16.bg-white.overflow-hidden
+			.hidden(class='lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full')
+				.relative.h-full.text-lg.max-w-prose.mx-auto(aria-hidden='true')
+					svg.absolute.top-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+						defs
+							pattern#74b3fd99-0a6f-4271-bef2-e80eeafdf357(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+								rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+						rect(width='404' height='384' fill='url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)')
+					svg.absolute.right-full.transform.-translate-x-32(class='top-1/2 -translate-y-1/2' width='404' height='384' fill='none' viewbox='0 0 404 384')
+						defs
+							pattern#f210dbf6-a58d-4871-961e-36d5016a0f49(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+								rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+						rect(width='404' height='384' fill='url(#f210dbf6-a58d-4871-961e-36d5016a0f49)')
+					svg.absolute.bottom-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+						defs
+							pattern#d3eb07ae-5182-43e6-857d-35c643af9034(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+								rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+						rect(width='404' height='384' fill='url(#d3eb07ae-5182-43e6-857d-35c643af9034)')
+			.relative.px-4(class='sm:px-6 lg:px-8')
+				block content
 
-					block content
-
-
-
+		block features
+		
 		include ../../sections/reviews-two.pug 
-		include ../../sections/support_videos.pug
 		include ../../layout/footer.pug

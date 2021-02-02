@@ -9,24 +9,15 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 25.0.0")
-    +updates_description("See whats new in Helperbird 25.0.0")
+  +updates_title("What's new in Helperbird 25.0.0","See whats new in Helperbird 25.0.0")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Added more Lexend fonts")
-      +updates_paragraph('Based on feedback we have added all Lexend fonts.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/font.png')
-    div.paragraph_features
-      +updates_paragraph_title("We added shortcuts!")
-      +updates_paragraph('Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/shortcut.png')
-    div.paragraph_features
-      +updates_paragraph_title("Added Line height controls")
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/line.png')
-    div.paragraph_features
-      +updates_paragraph_title("Updated the design!")
-      +updates_paragraph(' We listened, we have placed all features into different sections, so all display options are together and more.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/redesign.png')
+
+  +updates_paragraph_title("Added more Lexend fonts",'Based on feedback we have added all Lexend fonts.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/font.png')
+  +updates_paragraph_title("We added shortcuts!",'Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/shortcut.png')
+  +updates_paragraph_title("Added Line height controls")
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/line.png')
+  +updates_paragraph_title("Updated the design!",' We listened, we have placed all features into different sections, so all display options are together and more.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-0/redesign.png')

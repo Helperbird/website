@@ -7,31 +7,27 @@ block seo
     - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-    include ../includes/mixins/blog
-    .col-12.text-center
+    include ../includes/mixins/support
+    +support_title("How to install and set up Helperbird","Your step by step guide on how to install and set up Helperbird.")
 
-        +blog_title("How to deploy Helperbird for Chrome through the Google Admin Console")
-        +blog_description("A step by step guide")
 
-    .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-        .mb20
-            +blog_paragraph("Click Device management in the Google Admin Console.")
-            +blog_image('Step one of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_1.png')
-            +blog_paragraph("Select Chrome management.")
-            +blog_image('Step two of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_2.png')
-            +blog_paragraph("In Chrome Management, select User & browser settings.")
-            +blog_image('Step three of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_3.png')
-            +blog_paragraph("Under Organizations choose the OU (Organizational Unit) you would like to deploy extensions to.")
-            +blog_paragraph("Scroll down to Apps and Extensions and locate Force-installed Apps and Extensions.")
-            +blog_paragraph("Click the Manage force-installed apps link.")
-            +blog_image('Step four of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_4.png')
-            +blog_paragraph("In Force-installed Apps and Extensions, click the Chrome Web Store button.")
-            +blog_image('Step five of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_5.png')
-            +blog_paragraph("Type the extension or app name (Ie Helperbird) that you're deploying into the search box and press Enter. The app or extension listing will appear immediately below the search box.")
-            +blog_paragraph("Click on the Add link to add the app or extension to the force-install list.")
-            +blog_image('Step six of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_6.png')
-            +blog_image('Step sevem of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_7.png')
-            +blog_image('Step eight of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_8.png')
-            +blog_paragraph("Click SAVE.")
-            +blog_image('Step nine of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_9.png')
-            +blog_paragraph("After the force-install window has closed, click SAVE at the bottom of the page to publish the app or extension to all of your selected users. The app or extension will now be deployed to your users.")
+    +section('',["Click Device management in the Google Admin Console."])
+    +support_image('Step one of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_1.png')
+    +section('',["Select Chrome management."])
+    +support_image('Step two of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_2.png')
+    +section('',["In Chrome Management, select User & browser settings."])
+    +support_image('Step three of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_3.png')
+    +section('',["Under Organizations choose the OU (Organizational Unit) you would like to deploy extensions to."])
+    +section('',["Scroll down to Apps and Extensions and locate Force-installed Apps and Extensions."])
+    +section('',["Click the Manage force-installed apps link."])
+    +support_image('Step four of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_4.png')
+    +section('',["In Force-installed Apps and Extensions, click the Chrome Web Store button."])
+    +support_image('Step five of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_5.png')
+    +section('',["Type the extension or app name (Ie Helperbird) that you're deploying into the search box and press Enter. The app or extension listing will appear immediately below the search box."])
+    +section('',["Click on the Add link to add the app or extension to the force-install list."])
+    +support_image('Step six of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_6.png')
+    +support_image('Step sevem of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_7.png')
+    +support_image('Step eight of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_8.png')
+    +section('',["Click SAVE."])
+    +support_image('Step nine of how to install Helperbird on G Suite','/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_9.png')
+    +section('',["After the force-install window has closed, click SAVE at the bottom of the page to publish the app or extension to all of your selected users. The app or extension will now be deployed to your users."])

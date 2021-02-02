@@ -1,5 +1,11 @@
 
 
+
+
+
+
+
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -9,28 +15,25 @@ block seo
   - var keywords = 'Take a screenshot of any page on Google Chrome, Take a screenshot on Google Chrome,Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Full Page Screenshot Capture",'Content features')
-    +features_description("Capture a screenshot of your current page in entirety and reliably—without requesting any extra permissions with Helperbird.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('R-ZoDsYBR7o')
+  +features_title("Full Page Screenshot Capture","apture a screenshot of your current page in entirety and reliably—without requesting any extra permissions with Helperbird.")
+  +image_showoff()
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
 
 
 
-    +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a screenshot to the download folder in only a few clicks.','','Open the Helperbird extension, select the Screenshot option, click the "NOW" button, and the screenshot will download to your download folder.','Right-click on any web page, Helperbird, Screenshot, and the screenshot will download to your downloads folder.'])
-
-    +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
-
-    +section('How it helps?',['It can remove the need for a resource heavy screen capturing software.','Capture and save a web page in just a few clicks which can increase overall browsing efficiency.'])
 
 
+  +section('About',['From the feedback of our users who wanted an easy and quick way to capture and download a screenshot comes the Helperbirds free Screenshot feature. This option allows users to capture and download a screenshot to the download folder in only a few clicks.','','Open the Helperbird extension, select the Screenshot option, click the "NOW" button, and the screenshot will download to your download folder.','Right-click on any web page, Helperbird, Screenshot, and the screenshot will download to your downloads folder.'])
 
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+  +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
+
+  +section('How it helps?',['It can remove the need for a resource heavy screen capturing software.','Capture and save a web page in just a few clicks which can increase overall browsing efficiency.'])
+
 

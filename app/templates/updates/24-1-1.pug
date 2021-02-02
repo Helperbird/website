@@ -9,19 +9,15 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 24.1.1")
-    +updates_description("See whats new in Helperbird 24.1.1")
+  +updates_title("What's new in Helperbird 24.1.1","See whats new in Helperbird 24.1.1")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Bug fix for fonts not changing")
-      +updates_paragraph('In version 24.1.0, their was an issue were it was only switching to OpenDyslexic. All fixed now')
 
-    div.paragraph_features
-      +updates_paragraph_title("Analyze")
-      +updates_paragraph('Highlight a sentence and get the amount of words and characters. All in one click.')
-      +updates_image('Play, Stop and pause controls for Helperbird in a click','/assets/images/updates/24-1-2/analyze.png')
+
+  +updates_paragraph_title("Bug fix for fonts not changing",'In version 24.1.0, their was an issue were it was only switching to OpenDyslexic. All fixed now')
+
+
+  +updates_paragraph_title("Analyze",'Highlight a sentence and get the amount of words and characters. All in one click.')
+  +updates_image('Play, Stop and pause controls for Helperbird in a click','/assets/images/updates/24-1-2/analyze.png')
 
 

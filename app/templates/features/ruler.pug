@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -8,28 +16,23 @@ block seo
   - var keywords = 'Dyslexia ruler for Google Chrome, Dyslexia ruler, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Dyslexia Ruler",'Dylexia features')
-    +features_description("Dyslexia Ruler helps you to read long texts on web pages. This tool can assist dyslexic readers and others in keeping their place on the page being read.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('scHiXL0BldA')
+  +features_title("Dyslexia Ruler","Dyslexia Ruler helps you to read long texts on web pages. This tool can assist dyslexic readers and others in keeping their place on the page being read.")
+  +image_showoff()
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
 
+  +section('About',['Helperbirds Dyslexia ruler is a colored transparent  ruler that is placed across a web page while users are trying to read. ','Not only does the Helperbirds dyslexia ruler work to reduce the symptoms of Visual Stress, it also highlights and underlines text, making it easier for the dyslexic reader to keep their place on the page they are reading.'])
 
-    +section('About',['Helperbirds Dyslexia ruler is a colored transparent  ruler that is placed across a web page while users are trying to read. ','Not only does the Helperbirds dyslexia ruler work to reduce the symptoms of Visual Stress, it also highlights and underlines text, making it easier for the dyslexic reader to keep their place on the page they are reading.'])
+  +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
 
-    +section('Features',['Choose from over 20 default colors or any custom color you want.','Adjust the height of the ruler to your reading line.','Adjust the position of the ruler to your reading line.','Follow your cursor option.'])
-
-    +section('How it helps?',['Helps dyslexics and dyspraxics to keep focus while reading a web page.','Helps people who have focus difficulties.','Helps people with visual impairment conditions.'])
-
+  +section('How it helps?',['Helps dyslexics and dyspraxics to keep focus while reading a web page.','Helps people who have focus difficulties.','Helps people with visual impairment conditions.'])
 
 
 
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

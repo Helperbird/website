@@ -7,17 +7,11 @@ block seo
   - var url = 'how-to-use-immersive-reader-in-google-chrome-firefox-edge'
   - var keywords = 'Immersive reader ,Lexend'
 
-block content
-  include ../includes/mixins/support
-  .flex.flex-column.col-12.mobile-col-12.center-vertical.text-center.mb40
-
-    +support_title("How to use Immersive reader in Google Chrome ",'Guides')
-    +support_description("How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.")
-    +download_button()
 
 
 block guide
   include ../includes/mixins/support
+  +support_title("How to use Immersive reader in Google Chrome ","How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.")
 
   +section('Steps',
     [
@@ -27,7 +21,6 @@ block guide
     ]
   )
 
-  +support_image('Helperbird support menu','/assets/images/guide/menu_immersive_reader.png')
 
   +section('Steps',
     [

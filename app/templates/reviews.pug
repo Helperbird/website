@@ -44,18 +44,20 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
+  body.bg-content-100
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Reviews
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text See what the happy users have to say about Helperbird.
+    // This example requires Tailwind CSS v2.0+
+    .bg-white
+      .max-w-7xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8')
+        .text-center
+          h2.text-base.font-semibold.text-indigo-600.tracking-wide.uppercase Reviews
+          p.mt-1.text-4xl.font-extrabold.text-gray-900(class='sm:text-5xl sm:tracking-tight lg:text-6xl') Reviews
+          p.max-w-xl.mt-5.mx-auto.text-xl.text-gray-500
+            | See what the happy users have to say about Helperbird.
 
-    div
-      include includes/sections/reviews.pug
+
+
+    include includes/sections/reviews.pug
 
 
 

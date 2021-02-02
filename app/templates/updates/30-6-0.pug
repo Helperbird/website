@@ -9,46 +9,37 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
-
-    +updates_title("Welcome to the December update")
-    +updates_description("The December month continues with our latest Helperbird update with exciting features and changes.")
-
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-
-    div.paragraph_features
-      +updates_paragraph_title("No more update pages.")
-      +updates_paragraph('We have heard you, no more pop ups unless its a new major release.')
-
-    div.paragraph_features
-      +updates_paragraph_title("Tooltip")
-      +updates_paragraph('Hover over links and images and see what the alt and titles are.')
-
-    div.paragraph_features
-      +updates_paragraph_title("Updated immersive reader")
-      +updates_paragraph('Immersive reader is now faster and quicker.')
-
-    div.paragraph_features
-      +updates_paragraph_title("Default annotations")
-      +updates_paragraph('Added a default annotations in the page.')
 
 
-    div.paragraph_features
-      +updates_paragraph_title("Custom shortcuts")
-      +updates_paragraph('New shortcuts for all your favioute features.')
-  
-    div.paragraph_features
-      +updates_paragraph_title("Close button for reader mode")
-      +updates_paragraph('You can now close the reader mode from the top right of it.')
-
-  
-    div.paragraph_features
-      +updates_paragraph_title("Reader mode added to the quick menu")
-      +updates_paragraph('You can now access the reader mode from the quick menu.')
+  +updates_title("Welcome to the December update","The December month continues with our latest Helperbird update with exciting features and changes.")
 
 
-  
-    div.paragraph_features
-      +updates_paragraph_title("Export noted to markdown")
-      +updates_paragraph('Export noted to markdown')
+
+
+
+  +updates_paragraph_title("No more update pages.",'We have heard you, no more pop ups unless its a new major release.')
+
+
+  +updates_paragraph_title("Tooltip",'Hover over links and images and see what the alt and titles are.')
+
+
+  +updates_paragraph_title("Updated immersive reader",'Immersive reader is now faster and quicker.')
+
+
+  +updates_paragraph_title("Default annotations",'Added a default annotations in the page.')
+
+
+
+  +updates_paragraph_title("Custom shortcuts",'New shortcuts for all your favioute features.')
+
+
+  +updates_paragraph_title("Close button for reader mode",'You can now close the reader mode from the top right of it.')
+
+
+
+  +updates_paragraph_title("Reader mode added to the quick menu",'You can now access the reader mode from the quick menu.')
+
+
+
+
+  +updates_paragraph_title("Export noted to markdown",'Export noted to markdown')

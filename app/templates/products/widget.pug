@@ -157,112 +157,14 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include ../includes/layout/dropdown-widget.pug
-      section.section_header.wavey.wavey-blue
+  body.bg-content-300
 
-        .container-xlrg.flex.mobile-col-flex-12.mt150.slider-max-width
+    include ../includes/layout/navigation.pug
+    include ../includes/sections/header_widget.pug
 
-
-
-          .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center
-            h1.heading.primary-color.launchaco-builder-hoverable.heading-home.white Make your website accessible
-            h2.subheading.secondary-color.mt20.launchaco-builder-hoverable
-              | Make your website more accessible to everyone in seconds. Accelerate your business with Helperbirds accessibility widget without re-structuring your website’s existing code. Covering WCAG 2.1 AA.
-   
-            .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink.helperbird-widget-buy-button(title="Get the Helperbird widget",href="#widgetGet")
-                span  Get the widget
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color( title="How to install Helperbirds widget" href="#widgetGet")
-                span  How to install
-
-
-
-
-
-
-
-
-          .col-6.flex.flex-column.text-center.mobile-col-12
-
-            .browser.mt40.launchaco-builder-hoverable
-              video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
-                source(src="/assets/videos/widget.webm" type="video/webm")
-                source(src="/assets/videos/widget.mp4" type="video/mp4")
-            
-    
-
-
-    section.section.press-logos#featuredin-1
-      .container.text-center
-        .col-12
-          h2.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb75.press_logos_title Relied upon by Hundreds of businesses
-      .container-lrg
-        .flex.center-horizontal.wrap.center-vertical
-          .col-2.mobile-col-6
-            a(href='https://www.producthunt.com/posts/helperbird-3-0', rel='noreferrer', target='_blank', title='Link to Producthunt')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Product hunt', src='/assets/images/logo/producthunt.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.nexus-education.com/made-dyslexia-i-encourage-train/', rel='noreferrer', target='_blank', title='Link to Nexus')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of nexus', src='/assets/images/logo/nexus.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.softpedia.com/get/Office-tools/Text-editors/Helperbird.shtml', rel='noreferrer', target='_blank', title='Link to Softpedia')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Softpedia', src='/assets/images/logo/softpedia.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://optocrypto.com/dyslexics-helperbird-chrome-extension/', rel='noreferrer', target='_blank', title='Link to Optologo')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Softpedia', src='/assets/images/logo/optologo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.smashingmagazine.com/2019/11/black-friday-2019/', rel='noreferrer', target='_blank', title='Link to Producthunt')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of smashing-magazine-logo', src='/assets/images/logo/smashing-magazine-logo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.indiehackers.com/product/helperbird/made-it-onto-the-indiehackers-podcast--LuJYrgVZ12TsNIDCFOU', rel='noreferrer', target='_blank', title='Link to Nexus')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of indiehackers', src='/assets/images/logo/indiehackers_logo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='http://techtalk.stratford.edu/2019/11/23/show-of-11-23-2019/', rel='noreferrer', target='_blank', title='Link to stratford techtalk')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of stratford techtalk', src='/assets/images/logo/logo_pentahoV2.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://educationblog.microsoft.com/en-us/2020/01/live-from-bett-whats-new-in-edu-fostering-an-accessible-inclusive-classroom-that-works-for-all-students/', rel='noreferrer', target='_blank', title='Link to Microsoft')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Microsoft', src='/assets/images/logo/microsoft.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.ucc.ie', rel='noreferrer', target='_blank', title='Link to Ucc college work.')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of UCC', src='/assets/images/logo/ucc.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.utoronto.ca/', rel='noreferrer', target='_blank', title='Link to Toronto college work.')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/toronto.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.usfca.edu/', rel='noreferrer', target='_blank', title='Link to San Francisco college')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/san.png', loading='lazy')
-    
     include ../includes/features/list_widget.pug
     include ../includes/features/boxes_widget.pug
-    .lightblue-gradient#pricing.mb75.mt75
-      section.section_header(style="padding-top:65px;")
-        .container
-          .col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable 
-              | Choose your plan
-            h3.paragraph.secondary-color.mt20.launchaco-builder-hoverable
-              | Each plan includes all features and services. 3 day free trial.
-            h3.secondary-color.mt20.launchaco-builder-hoverable.sale-icon 
-              b
-                | Save 20%
-            svg.svg-inline--fa.fa-level-down-alt.fa-w-10.fa-2x(aria-hidden='true', focusable='false', data-prefix='fas', data-icon='level-down-alt', role='img', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 320 512')
-              path(fill='currentColor', d='M313.553 392.331L209.587 504.334c-9.485 10.214-25.676 10.229-35.174 0L70.438 392.331C56.232 377.031 67.062 352 88.025 352H152V80H68.024a11.996 11.996 0 0 1-8.485-3.515l-56-56C-4.021 12.926 1.333 0 12.024 0H208c13.255 0 24 10.745 24 24v328h63.966c20.878 0 31.851 24.969 17.587 40.331z')
 
-
-            .pricing-switch
-              
-              | Monthly
-              label.switch
-                input#annual-widget(name='xxx', type='checkbox')
-                span.slider.round
-              | Yearly
-
-      include ../includes/pricing/pricing-widget.pug
-    include ../includes/features/upsell_widget.pug
-    include ../includes/sections/questions_a11y.pug
-
-
-
+    include ../includes/pricing/pricing-widget.pug
+    include ../includes/sections/questions_widget.pug
     include ../includes/layout/footer.pug

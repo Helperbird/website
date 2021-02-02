@@ -1,67 +1,63 @@
+console.log('New website.....');
+
 // css
 import '../css/styles.css';
-import '../css/modal.css';
-import '../css/override.css';
-import '../css/table.css';
 
-// Js
-import * as stripe from './core/stripe';
-import * as plan from './core/plans';
-import * as widget from './core/plans-widget';
-import * as youtube from './core/youtube';
-import * as thirdParty from './core/third-party';
-import * as slider from './core/slider';
-import * as videos from './core/videos';
-import * as features from './core/features';
-import * as sliderHome from './core/slider-home';
-import * as notifactions from './core/notifactions';
-import * as a11y from './core/scanner';
-import * as nav from './core/nav';
+import Vue from 'vue/dist/vue.js';
 
+import * as Youtube from './core/youtube';
+import * as reviewSlider from './core/slider';
 
-import 'lazysizes';
-import  '@fortawesome/fontawesome-free/js/all';
-import  '@fortawesome/fontawesome-free/js/fontawesome';
-import 'bootstrap/js/dist/modal';
+reviewSlider.start();
+Youtube.load();
 
-// Make it public
-window.videos = videos;
-window.features = features;
-window.notifactions = notifactions;
-window.a11y = a11y;
-window.nav = nav;
-
-
-
-
-async function loader() {
-	await stripe.load(); // Load Stripe
-	await plan.eventListner(); // Pricing table
-	await youtube.load();
-	await thirdParty.crisp();
-	await widget.eventListner();
-	await sliderHome.initComparisons();
-	let slideIndex = 1;
-	await videos.showSlidesVideo(slideIndex);
-	if (Math.random() < 0.5) {
-		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
-	} else {
-		await notifactions.popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
+new Vue({
+	el: '#nav',
+	data: {
+		openFeatures: false,
+		openProducts: false,
+		openCompare: false,
+		closeMenu: false,
+		showModal: false
+	},
+	methods: {
+		handleFeatures: function() {
+			this.openProducts = false;
+			this.openCompare = false;
+			this.openFeatures = !this.openFeatures;
+		},
+		handleModal: function() {
+			this.showModal = !this.showModal;
+		},
+		handleProducts: function() {
+			this.openFeatures = false;
+			this.openCompare = false;
+			this.openProducts = !this.openProducts;
+		},
+		handleCommon: function() {
+			this.openFeatures = false;
+			this.openProducts = false;
+			this.openCompare = !this.openCompare;
+		},
+		handleMobileMenu: function() {
+			this.closeMenu = !this.closeMenu;
+		}
+	},
+	computed: {
+		showFeatures: function() {
+			return this.openFeatures;
+		},
+		showModal: function() {
+			return this.showModal;
+		},
+		showCompare: function() {
+			return this.openCompare;
+		},
+		showMenu: function() {
+			return this.closeMenu;
+		},
+		showProducts: function() {
+			return this.openProducts;
+		}
 	}
-	await thirdParty.tagManager();
-	await slider.start();
-
-	await thirdParty.loadManager();
-	await nav.load();
-}
-
-loader();
-
-if ('serviceWorker' in navigator) {
-	window.addEventListener('load', () => {
-		navigator.serviceWorker
-			.register('/service-worker.js')
-			.then((registration) => {})
-			.catch((registrationError) => {});
-	});
-}
+});

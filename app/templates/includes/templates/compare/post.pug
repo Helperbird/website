@@ -139,11 +139,10 @@ html(lang='en')
 				}
 			}
 
-	body.font-friendly
-		.lightblue-gradient
-			include ../../layout/navigation.pug
-			section.section_header.section_header_compare.wavey.wavey-orange
-				block header
+	body.bg-content-100
+		include ../../layout/navigation.pug
+
+		block header
 
 
 
@@ -154,6 +153,6 @@ html(lang='en')
 
 
 		include ../../sections/reviews-two.pug
-		include ../../sections/support_videos.pug
 		include ../../sections/questions.pug
+		include ../../sections/cta_2.pug
 		include ../../layout/footer.pug

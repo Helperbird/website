@@ -24,7 +24,7 @@ async function load() {
 						// Instead use one of the strategies described in
 						// https://stripe.com/docs/payments/checkout/fulfillment
 						successUrl: 'https://www.helperbird.com/success-a11y',
-						cancelUrl: 'https://www.helperbird.com/canceled'
+						cancelUrl: 'https://www.helperbird.com/support/cancel'
 					})
 					.then(({ error }) => {
 						if (result.error) {

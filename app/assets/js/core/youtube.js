@@ -1,8 +1,9 @@
-async function load() {
+ function load() {
+     console.log('YOUTUBE LOAD');
 
     const youtubeLazyLoad = document.querySelectorAll(".youtube_lazy_load");
 
-
+console.log(youtubeLazyLoad);
     if (youtubeLazyLoad.length > 0) {
 
 

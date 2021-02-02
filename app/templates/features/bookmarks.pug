@@ -1,4 +1,6 @@
 
+
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -8,21 +10,17 @@ block seo
     - var keywords = 'Annotate extension, Notes taking extension for Google Chrome,Notes taking extension, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-    include ../includes/mixins/features
-    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-        +features_title("Your Bookmarks. Organized. Effortless",'Content features')
-        +features_description("Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms")
-        +download_button()
 
-    .col-6.flex.flex-column.text-center.mobile-col-12
-        +video_showoff('aXXRSenvTTg')
+  +features_title("Your Bookmarks. Organized. Effortless","Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms")
+  +image_showoff()
+
+
 
 block features
-    include ../includes/mixins/features
+    include ../includes/mixins/features_new
 
     +section('About',['Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.'])
 
     +section('Features',['Capture ideas and inspiration bookmarks.','Sync Searches and Bookmarks Cross Browsers.','Delete and edit bookmarks.','Manage everything from big projects to personal bookmarks.'])
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-

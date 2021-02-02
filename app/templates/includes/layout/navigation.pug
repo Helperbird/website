@@ -1,31 +1,322 @@
-header.header
-  .container-xlrg
-    .flex.col-12.spread
-      a.logo.primary-color.launchaco-builder-hoverable.logo(href='/', title="Link back to Helperbirds home page")
-        img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png')
-        | Helperbird
-      a.menu-toggle#menu(href='#main-menu', title="menu button")
-        b.nav-link.mr0.secondary-color.mt10 ☰
-      nav.main-menu#main-menu(role='navigation')
-        a.menu-close#main-menu-close(href='#')
-          span.bold ✕
-        a.nav-link.secondary-color(href='/about', title="About Helperbird") About
-        a.nav-link.secondary-color(href='/features', title="Learn about Helperbirds features") Features
-        a.nav-link.secondary-color(href='/pricing', title="Learn about Helperbirds Pricing") Pricing
-        .nav-link.secondary-color
-          a.nav-link.secondary-color.dropbtn(onclick='nav.dropdown()')
-            | Products
-            i.fa.fa-caret-down
-          #myDropdown.dropdown-content
-            a(href='/chrome') Helperbird extension
-            a(href='/products/widget') Accessibility widget
-        .nav-link.secondary-color
-          a.nav-link.secondary-color.dropbtnCompare(onclick='nav.dropdown_compare()')
-            | Compare
-            i.fa.fa-caret-down
-          #myDropdownCompare.dropdown-content
-            a(href='/compare/read-and-write-alternative') Read & Write
-            a(href='/compare/snap-and-read-alternative') Snap & Read
-            a(href='/compare/immersive-reader-by-microsoft-alternative') Immersive reader
+.relative.bg-white.shadow#nav
+  .max-w-7xl.mx-auto.px-4(class='sm:px-6')
+    .flex.justify-between.items-center.py-6(class='md:justify-start md:space-x-10')
+      .flex.justify-start(class='lg:w-0 lg:flex-1')
+        a(href='/')
+          span.sr-only Helperbird
+          img.h-8.w-auto(class='sm:h-10' src='/assets/images/pwa/logo/full.png' alt='')
+      .-mr-2.-my-2(class='md:hidden')
+        button.bg-white.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
+          span.sr-only Open menu
+          // Heroicon name: menu
+          svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+            path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16')
+      nav.hidden.space-x-10(class='md:flex')
+        a.text-base.font-medium.text-gray-500(href='/about' title="Learn about Helperbird" class='hover:text-gray-900')
+          | About
+        .relative
+          // Item active: "text-gray-900", Item inactive: "text-gray-500"
+          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(@click="handleFeatures" type='button' class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+            span Features
 
-        button.nav-link.secondary-color.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-signup.primary-color(data-target='#downloadModal', data-toggle='modal', type='button') Try for free
+            svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
+
+          .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2', v-if="showFeatures === true")
+            .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
+              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8')
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  // Heroicon name: chart-bar
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Analytics
+                    p.mt-1.text-sm.text-gray-500
+                      | Get a better understanding of where your traffic is coming from.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  // Heroicon name: cursor-click
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Engagement
+                    p.mt-1.text-sm.text-gray-500
+                      | Speak directly to your customers in a more meaningful way.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  // Heroicon name: shield-check
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Security
+                    p.mt-1.text-sm.text-gray-500
+                      | Your customers&apos; data will be safe and secure.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  // Heroicon name: view-grid
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Integrations
+                    p.mt-1.text-sm.text-gray-500
+                      | Connect with third-party tools that you&apos;re already using.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  // Heroicon name: refresh
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Automations
+                    p.mt-1.text-sm.text-gray-500
+                      | Build strategic funnels that will drive your customers to convert
+              .px-5.py-5.bg-gray-50.space-y-6(class='sm:flex sm:space-y-0 sm:space-x-10 sm:px-8')
+                .flow-root
+                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='#' class='hover:bg-gray-100')
+                    // Heroicon name: play
+                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
+                    span.ml-3 Watch Demo
+                .flow-root
+                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='#' class='hover:bg-gray-100')
+                    // Heroicon name: phone
+                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z')
+                    span.ml-3 Contact Sales
+        a.text-base.font-medium.text-gray-500(href='/pricing' class='hover:text-gray-900')
+          | Pricing
+        .relative
+          // Item active: "text-gray-900", Item inactive: "text-gray-500"
+          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleProducts" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+            span Products
+            //
+              Heroicon name: chevron-down
+              Item active: "text-gray-600", Item inactive: "text-gray-400"
+            svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
+          //
+            'More' flyout menu, show/hide based on flyout menu state.
+            Entering: "transition ease-out duration-200"
+            From: "opacity-0 translate-y-1"
+            To: "opacity-100 translate-y-0"
+            Leaving: "transition ease-in duration-150"
+            From: "opacity-100 translate-y-0"
+            To: "opacity-0 translate-y-1"
+          .absolute.z-10.transform.mt-3.px-2.w-screen.max-w-md(v-if="showProducts === true" class='left-1/2 -translate-x-1/2 sm:px-0 lg:max-w-3xl')
+            .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
+              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: chart-bar
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Analytics
+                    p.mt-1.text-sm.text-gray-500
+                      | Get a better understanding of where your traffic is coming from.
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: cursor-click
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Engagement
+                    p.mt-1.text-sm.text-gray-500
+                      | Speak directly to your customers in a more meaningful way.
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: shield-check
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Security
+                    p.mt-1.text-sm.text-gray-500
+                      | Your customers&apos; data will be safe and secure.
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: view-grid
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Integrations
+                    p.mt-1.text-sm.text-gray-500
+                      | Connect with third-party tools that you&apos;re already using.
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: refresh
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Automations
+                    p.mt-1.text-sm.text-gray-500
+                      | Build strategic funnels that will drive your customers to convert
+                a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: document-report
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Reports
+                    p.mt-1.text-sm.text-gray-500
+                      | Get detailed reports that will help you make more informed decisions
+              .p-5.bg-gray-50(class='sm:p-8')
+                a.-m-3.p-3.flow-root.rounded-md.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-100')
+                  span.flex.items-center
+                    span.text-base.font-medium.text-gray-900
+                      | Enterprise
+                    span.ml-3.inline-flex.items-center.px-3.rounded-full.text-xs.font-medium.leading-5.bg-indigo-100.text-indigo-800(class='py-0.5')
+                      | New
+                  span.mt-1.block.text-sm.text-gray-500
+                    | Empower your entire team with even more advanced tools.
+
+
+        .relative
+      
+          // Item active: "text-gray-900", Item inactive: "text-gray-500"
+          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleCommon" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+            span Compare
+            //
+              Heroicon name: chevron-down
+              Item active: "text-gray-600", Item inactive: "text-gray-400"
+            svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
+          
+          
+
+          .absolute.z-10.-ml-4.mt-3.transform.w-screen.max-w-md(class='lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2' v-if="showCompare === true")
+            .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
+              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-gradient-to-r.from-purple-600.to-indigo-600.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: inbox
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Helpebird vs Read & Write
+                    p.mt-1.text-sm.text-gray-500
+                      | Get a better understanding of where your traffic is coming from.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-gradient-to-r.from-purple-600.to-indigo-600.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: annotation
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Helperbird vs Snap & Read
+                    p.mt-1.text-sm.text-gray-500
+                      | Speak directly to your customers in a more meaningful way.
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-gradient-to-r.from-purple-600.to-indigo-600.text-white(class='sm:h-12 sm:w-12')
+                    // Heroicon name: chat-alt-2
+                    svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z')
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Helperbird vs Immersive reader
+                    p.mt-1.text-sm.text-gray-500
+                      | Your customers&apos; data will be safe and secure.
+        
+              .px-5.py-5.bg-gray-50.space-y-6(class='sm:flex sm:space-y-0 sm:space-x-10 sm:px-8')
+                .flow-root
+                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='#' class='hover:bg-gray-100')
+                    // Heroicon name: play
+                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
+                    span.ml-3 See pricing
+                .flow-root
+                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='#' class='hover:bg-gray-100')
+                    // Heroicon name: phone
+                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z')
+                    span.ml-3 Contact Sales
+
+      .hidden.items-center.justify-end(class='md:flex md:flex-1 lg:w-0')
+
+        a.ml-8.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(@click="handleModal" href='#' role="button" class='hover:bg-indigo-700')
+          | Try for Free
+
+
+
+  //
+    Mobile menu, show/hide based on mobile menu state.
+    Entering: "duration-200 ease-out"
+    From: "opacity-0 scale-95"
+    To: "opacity-100 scale-100"
+    Leaving: "duration-100 ease-in"
+    From: "opacity-100 scale-100"
+    To: "opacity-0 scale-95"
+  .absolute.top-0.inset-x-0.z-10.p-2.transition.transform.origin-top-right(class='md:hidden')
+    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-white.divide-y-2.divide-gray-50(v-if="showMenu === true")
+      .pt-5.pb-6.px-5
+        .flex.items-center.justify-between
+          div
+            img.h-8.w-auto(src='/assets/images/pwa/logo/full.png' alt='Workflow')
+          .-mr-2
+            button.bg-white.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
+              span.sr-only Close menu
+              // Heroicon name: x
+              svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+        .mt-6
+          nav.grid.gap-y-8
+            a.-m-3.p-3.flex.items-center.rounded-md(href='#' class='hover:bg-gray-50')
+              // Heroicon name: chart-bar
+              svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z')
+              span.ml-3.text-base.font-medium.text-gray-900
+                | Analytics
+            a.-m-3.p-3.flex.items-center.rounded-md(href='#' class='hover:bg-gray-50')
+              // Heroicon name: cursor-click
+              svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122')
+              span.ml-3.text-base.font-medium.text-gray-900
+                | Engagement
+            a.-m-3.p-3.flex.items-center.rounded-md(href='#' class='hover:bg-gray-50')
+              // Heroicon name: shield-check
+              svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z')
+              span.ml-3.text-base.font-medium.text-gray-900
+                | Security
+            a.-m-3.p-3.flex.items-center.rounded-md(href='#' class='hover:bg-gray-50')
+              // Heroicon name: view-grid
+              svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z')
+              span.ml-3.text-base.font-medium.text-gray-900
+                | Integrations
+            a.-m-3.p-3.flex.items-center.rounded-md(href='#' class='hover:bg-gray-50')
+              // Heroicon name: refresh
+              svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15')
+              span.ml-3.text-base.font-medium.text-gray-900
+                | Automations
+      .py-6.px-5.space-y-6
+        .grid.grid-cols-2.gap-y-4.gap-x-8
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Pricing
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Docs
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Enterprise
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Blog
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Help Center
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Guides
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Security
+          a.text-base.font-medium.text-gray-900(href='#' class='hover:text-gray-700')
+            | Events
+        div
+          a.w-full.flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(href='#' class='hover:bg-indigo-700')
+            | Sign up
+  include modal.pug

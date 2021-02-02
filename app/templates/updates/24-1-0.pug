@@ -9,27 +9,19 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 24.1.0")
-    +updates_description("See whats new in Helperbird 24.1.0")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Pause feature")
-      +updates_paragraph('We heard your comments and im delighted to say we finally have a Helperbird Pause feature. Keep your settings but pause when you want.')
-      +updates_image('You can now pause Helperbird with one click!','/assets/images/updates/24-1-0/pause.png')
-    div.paragraph_features
-      +updates_paragraph_title("New and improved loader")
-      +updates_paragraph('Within the Readermode feature, you can now enable full screen mode.')
-      +updates_image('Better and improved loading animations','/assets/images/updates/24-1-0/loader.png')
+  +updates_title("What's new in Helperbird 24.1.0","See whats new in Helperbird 24.1.0")
 
-    div.paragraph_features
-      +updates_paragraph_title("Full screen mode")
-      +updates_paragraph('Dyslexics score significantly higher on test when they are given the test orally.')
-      +updates_image('Go full screen in the reader mode','/assets/images/updates/24-1-0/full.png')
 
-    div.paragraph_features
 
-      +updates_paragraph_title(" 20% faster loading times.")
-      +updates_paragraph('The title says everything we couldnt.')
+  +updates_paragraph_title("Pause feature",'We heard your comments and im delighted to say we finally have a Helperbird Pause feature. Keep your settings but pause when you want.')
+  +updates_image('You can now pause Helperbird with one click!','/assets/images/updates/24-1-0/pause.png')
+
+  +updates_paragraph_title("New and improved loader",'Within the Readermode feature, you can now enable full screen mode.')
+  +updates_image('Better and improved loading animations','/assets/images/updates/24-1-0/loader.png')
+
+  +updates_paragraph_title("Full screen mode",'Dyslexics score significantly higher on test when they are given the test orally.')
+  +updates_image('Go full screen in the reader mode','/assets/images/updates/24-1-0/full.png')
+
+  +updates_paragraph_title(" 20% faster loading times.",'The title says everything we couldnt.')

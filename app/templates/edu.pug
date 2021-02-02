@@ -144,135 +144,82 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
+  body.bg-content-100
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Helperbird Edu
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text
-              | Helperbird Edu gives you more control and more support.
-              br
-              | Perfect for organizations or schools that are large, complex, or want more support and features.
+    include includes/layout/navigation.pug
+    main
 
-            .mt40
-                a.try_it_now.button.pink.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.accent-bg.fill-white.primary-color.cta-button(href='#pricing')
-                  span Get Helperbird for Free
-                a.try_it_now.button.mobile-text-center.mt10.launchaco-builder-hoverable.white-text.cta-small-text(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
-                  span See how it works
-        .container-md.flex.catch.hide
-          .flex.flex-column.col-12.text-center
-            .scroller_video_home.mb20
-              .scroller_video_item_home_page
-                .youtube_lazy_load(data-embed='aXXRSenvTTg')
-                  .play-button
-                  img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
-        .container-md.flex.slider-show
-          .flex.flex-column.col-12.text-center
-            .browser.mt40.launchaco-builder-hoverable
-              .mask.mask__noimage
-                .img-comp-container
-                  .img-comp-img
-                    img(src='./assets/images/home/before.png', loading='lazy', alt='Before Helperbird', width='760', height='441')
-                  .img-comp-img.img-comp-overlay
-                    img(src='./assets/images/home/after.png', loading='lazy', alt='After Helperbird', width='760', height='441')
-    section.section.lightblue-white.mb80#features
-      .container.text-center
-        .col-12
-          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us What you can do with Helperbird Edu
-      .container-lrg.flex.mt75
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-                path(d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us Top-notch support
-              p.paragraph.secondary-color.launchaco-builder-hoverable Have a question? We’re on it. Jump the line with priority support.
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z').
-                  
-                  
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us User provisioning and deprovisioning
-              p.paragraph.secondary-color.launchaco-builder-hoverable Automatically provision and deprovision users in Helpebrird through your standardized SAML provider.
-      .container-lrg.flex.mt40
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-                path(d='M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us Custom branding
-              p.paragraph.secondary-color.launchaco-builder-hoverable Put your logo front and center. With custom branding, you’re able to customize Helperbird with your own logo.
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-                path(d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us Customer success
-              p.paragraph.secondary-color.launchaco-builder-hoverable Get access to online trainings and resources to help your team be successful with Helperbird. Plus, teams of 30 or more seats get online and regular training with our customer success managers to help you.
-      .container-lrg.flex.mt40
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-                path(d='M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us 99.9% Uptime SLA
-              p.paragraph.secondary-color.launchaco-builder-hoverable Ensure that your organization can access Helperbird whenever you need it with guaranteed 99.9% uptime.
-        .col-6.flex.flex-column.center-vertical
-          .flex.mobile-flex-wrap.mb20.mobile-text-center
-            i.icon.secondary-bg.mr20.mobile-center-icon.launchaco-builder-hoverable
-              svg(height='24', viewBox='0 0 24 24', width='24', xmlns='http://www.w3.org/2000/svg')
-                path(d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z').
-                  
-                  
-                path(d='M0 0h24v24H0z', fill='none').
-                  
-                  
-            div
-              h3.bold.primary-color.launchaco-builder-hoverable.h3_why_us Pro features
-              p.paragraph.secondary-color.launchaco-builder-hoverable Edu gives you all the power and features available to Helperbird Pro users.
-    section.section_header.website_pricing_header#salesRequest
-      .container
-        .col-12.text-center
-          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.
-            Help Your Team Do Better Work
-            
-          h3.paragraph.secondary-color.mt20.launchaco-builder-hoverable Get started today and instantly elevate the skills of your entire team.
-      .container.mt40
-        iframe(frameborder='0', height='1693', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLScyGWAggLJUHXrmjjWBu-ME4I8BNV6YzcFReClr0DtqmTCVsw/viewform?embedded=true', title='Helperbird sales fourm ', width='100%') Loading...
 
-include includes/features/boxes_no_text_small.pug
-include includes/pricing/pricing.pug
-include includes/layout/footer.pug
+      .relative
+        .absolute.inset-x-0.bottom-0.bg-gray-100(class='h-1/2')
+        .max-w-7xl.mx-auto(class='sm:px-6 lg:px-8')
+          .relative.shadow-xl(class='sm:rounded-2xl sm:overflow-hidden')
+            .absolute.inset-0
+              img.h-full.w-full.object-cover(src='https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100' alt='People working on laptops')
+              .absolute.inset-0.bg-gradient-to-r.from-purple-800.to-indigo-700(style='mix-blend-mode: multiply;')
+            .relative.px-4.py-16(class='sm:px-6 sm:py-24 lg:py-32 lg:px-8')
+              h1.text-center.text-4xl.font-extrabold.tracking-tight(class='sm:text-5xl lg:text-6xl')
+                span.block.text-white Take control of your
+                span.block.text-indigo-200 customer support
+              p.mt-6.max-w-lg.mx-auto.text-center.text-xl.text-indigo-200(class='sm:max-w-3xl')
+                | Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+              .mt-10.max-w-sm.mx-auto(class='sm:max-w-none sm:flex sm:justify-center')
+                .space-y-4(class='sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5')
+                  a.flex.items-center.justify-center.px-4.py-3.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-indigo-700.bg-white(href='#' class='hover:bg-indigo-50 sm:px-8')
+                    | Get started
+                  a.flex.items-center.justify-center.px-4.py-3.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-500.bg-opacity-60(href='#' class='hover:bg-opacity-70 sm:px-8')
+                    | Live demo
+
+      // Logo Cloud
+      include includes/sections/press.pug
+
+      include includes/features/list.pug
+
+
+      include includes/features/boxes_no_text_small.pug
+
+
+      // Stats section
+      .relative.bg-gray-900
+        .h-80.absolute.bottom-0(class='xl:inset-0 xl:h-auto xl:grid xl:grid-cols-2')
+          .h-full(class='xl:relative xl:col-start-2')
+            img.h-full.w-full.object-cover.opacity-25(class='xl:absolute xl:inset-0' src='https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100' alt='People working on laptops')
+            .absolute.inset-x-0.top-0.h-32.bg-gradient-to-b.from-gray-900(aria-hidden='true' class='xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r')
+        .max-w-4xl.mx-auto.px-4(class='sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8')
+          .relative.pt-12.pb-64(class='sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24')
+            h2.text-sm.font-semibold.tracking-wide.uppercase
+              span.bg-gradient-to-r.from-purple-300.to-indigo-300.bg-clip-text.text-transparent Valuable Metrics
+            p.mt-3.text-3xl.font-extrabold.text-white Get actionable data that will help grow your business
+            p.mt-5.text-lg.text-gray-300
+              | Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
+            .mt-12.grid.grid-cols-1.gap-y-12.gap-x-6(class='sm:grid-cols-2')
+              p
+                span.block.text-2xl.font-bold.text-white 8K+
+                span.mt-1.block.text-base.text-gray-300
+                  span.font-medium.text-white Companies
+                  |  use laoreet amet lacus nibh integer quis.
+              p
+                span.block.text-2xl.font-bold.text-white 25K+
+                span.mt-1.block.text-base.text-gray-300
+                  span.font-medium.text-white Countries around the globe
+                  |  lacus nibh integer quis.
+              p
+                span.block.text-2xl.font-bold.text-white 98%
+                span.mt-1.block.text-base.text-gray-300
+                  span.font-medium.text-white Customer satisfaction
+                  |  laoreet amet lacus nibh integer quis.
+              p
+                span.block.text-2xl.font-bold.text-white 12M+
+                span.mt-1.block.text-base.text-gray-300
+                  span.font-medium.text-white Issues resolved
+                  |  lacus nibh integer quis.
+
+
+      include includes/pricing/pricing_header.pug
+      include includes/pricing/pricing_table.pug
+      include includes/sections/reviews-two.pug
+      include includes/sections/cta_2.pug
+ 
+
+      include includes/sections/questions.pug
+    include includes/layout/footer.pug

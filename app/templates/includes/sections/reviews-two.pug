@@ -54,24 +54,27 @@
         },
 
     ]
+
 section.testimonials
-    .container
-        .title
-            h3 Reviews
-            h2 What our users say
-        .owl-carousel.owl-carousel-loader
 
-            each val in reviews
+    .max-w-7xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8')
+      .text-center
+        h2.text-base.font-semibold.text-indigo-600.tracking-wide.uppercase Reviews
+        p.mt-1.text-4xl.font-extrabold.text-gray-900(class='sm:text-5xl sm:tracking-tight lg:text-6xl') See what our customers are saying
+        p.max-w-xl.mt-5.mx-auto.text-xl.text-gray-500
+          | Start building for free, then add a site plan to go live. Account plans unlock additional features.
 
-                .item
-                    .profile
-                        img(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
-                        .information
-                            .stars
-                                each star in val.rating
-                                    i.fa.fa-star
-                            p #{val.name}
-                            span #{val.title}
-                    p #{val.review}
-                    .icon_testiomals
-                        i.fa.fa-quote-right(aria-hidden='true')
+
+    .owl-carousel.owl-carousel-loader
+
+        each val in reviews
+            .max-w-md.py-4.px-8.bg-white.shadow-lg.rounded-lg.my-20.item.m-16
+                .flex.justify-center.-mt-16(class='md:justify-end')
+                    img.w-20.h-20.object-cover.rounded-full.border-2.border-indigo-500(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
+                div
+                    h2.text-gray-800.text-3xl.font-semibold 
+
+                    p.mt-2.text-gray-600 #{val.review}
+                .flex.justify-end.mt-4
+                    a.text-xl.font-medium.text-indigo-500(href='#') #{val.name}
+

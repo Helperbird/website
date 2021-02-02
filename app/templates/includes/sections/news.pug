@@ -97,17 +97,18 @@
     }
   ]
 
-section.section.testimonials.testimonials_custom
-  .container
 
 
-    ul.plan-features.grid__item.grid__item--reviews.grid__item--mobile-large.owl-carousel
-      each val in news
-        li.plan-features__item
-          a(href= val.link, target="_blank" alt= val.site + ' ' + val.title )
-            .item
-              .profile
-                .information
-                  p #{val.title} 
-                  span.in-the-news #{val.site}
+
+.mt-6.pt-10.grid.gap-16(class='lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12')
+  each val in news
+    div
+      a.mt-2.block(href= val.link, target="_blank" alt= val.site + ' ' + val.title )
+        p.text-xl.font-semibold.text-gray-900 
+          | #{val.title} 
+        p.mt-3.text-base.text-gray-500
+          | #{val.site}
+      .mt-3
+        a.text-base.font-semibold.text-indigo-600(href= val.link, target="_blank" alt= val.site + ' ' + val.title  class='hover:text-indigo-500')
+          | Read full story
 

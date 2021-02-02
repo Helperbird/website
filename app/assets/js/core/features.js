@@ -215,7 +215,7 @@ function enableFont() {
 	const idName = 'helperbird';
 	let style = document.createElement('link');
 	style.rel = 'stylesheet';
-	style.type = 'text/css';
+	type = 'text/css';
 	style.setAttribute('id', idName);
 	style.href = `assets/css/default.min.css`;
 

@@ -45,7 +45,6 @@ supportFiles = generateHtmlPlugins('./app/templates/support/', 'support/');
 productsFiles = generateHtmlPlugins('./app/templates/products/', 'products/');
 updatesFiles = generateHtmlPlugins('./app/templates/updates/', 'updates/');
 
-
 module.exports = {
 	mode: 'production',
 	context: __dirname + '/app/',
@@ -55,10 +54,7 @@ module.exports = {
 	plugins: [
 		// new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
 		new CleanWebpackPlugin(),
-		new MiniCssExtractPlugin({
-			filename: '[name].css',
-			chunkFilename: '[id].css'
-		}),
+	
 		new CopyPlugin([
 			{
 				from: 'assets/setup/',
@@ -76,18 +72,7 @@ module.exports = {
 				from: 'assets/images/',
 				to: 'assets/images/'
 			},
-			{
-				from: '../node_modules/@fortawesome/fontawesome-free/svgs/solid/',
-				to: 'assets/svgs'
-			},
-			{
-				from: '../node_modules/@fortawesome/fontawesome-free/svgs/brands/',
-				to: 'assets/svgs'
-			},
-			{
-				from: '../node_modules/@fortawesome/fontawesome-free/svgs/regular/',
-				to: 'assets/svgs'
-			}
+		
 		]),
 		new WorkboxPlugin.GenerateSW({
 			// these options encourage the ServiceWorkers to get in there fast
@@ -121,12 +106,21 @@ module.exports = {
 
 			{
 				test: /\.css$/,
-				use: [ MiniCssExtractPlugin.loader, 'css-loader' ]
+				use: ['style-loader', 'css-loader', 'postcss-loader' ]
 			},
-
 			{
-				test: /\.(eot|svg|ttf|woff|woff2)$/,
-				loader: 'file-loader?name=/fonts/[name].[ext]'
+				test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							useRelativePath: false,
+							name: '[name].[ext]',
+							publicPath: 'fonts/icons/',
+							outputPath: 'fonts/'
+						}
+					}
+				]
 			},
 
 			{
