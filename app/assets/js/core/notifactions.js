@@ -1,7 +1,7 @@
 import {
     Notyf
 } from 'notyf';
-import 'notyf/notyf.min.css'; // for React and Vue
+
 const notyf = new Notyf({
     ripple: true,
     duration: 5000,

@@ -7,6 +7,8 @@ const WorkboxPlugin = require('workbox-webpack-plugin');
 const fs = require('fs');
 const HTMLInlineCSSWebpackPlugin = require('html-inline-css-webpack-plugin').default;
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
 
 function generateHtmlPlugins(templateDir, location) {
 	const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir));
@@ -54,7 +56,7 @@ module.exports = {
 	plugins: [
 		// new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
 		new CleanWebpackPlugin(),
-	
+		new MiniCssExtractPlugin({ ignoreOrder: false}),
 		new CopyPlugin([
 			{
 				from: 'assets/setup/',
@@ -71,8 +73,7 @@ module.exports = {
 			{
 				from: 'assets/images/',
 				to: 'assets/images/'
-			},
-		
+			}
 		]),
 		new WorkboxPlugin.GenerateSW({
 			// these options encourage the ServiceWorkers to get in there fast
@@ -106,7 +107,16 @@ module.exports = {
 
 			{
 				test: /\.css$/,
-				use: ['style-loader', 'css-loader', 'postcss-loader' ]
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader,
+						options: {
+							esModule: false
+						}
+					},
+					'css-loader',
+					'postcss-loader'
+				  ]
 			},
 			{
 				test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -133,6 +143,14 @@ module.exports = {
 			}
 		]
 	},
+	optimization: {
+		minimize: true,
+		minimizer: [
+		  // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+		  // `...`,
+		  new CssMinimizerPlugin(),
+		],
+	  },
 	output: {
 		publicPath: '/',
 		filename: '[name].bundle.js',

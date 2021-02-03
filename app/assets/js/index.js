@@ -2,7 +2,8 @@ console.log('New website.....');
 
 // css
 import '../css/styles.css';
-
+import 'tiny-slider/dist/tiny-slider.css';
+import 'notyf/notyf.min.css'; // for React and Vue
 import Vue from 'vue/dist/vue.js';
 
 import * as Youtube from './core/youtube';

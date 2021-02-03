@@ -22,7 +22,7 @@
             svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
               path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
 
-          .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2', v-if="showFeatures === true")
+          .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2', v-bind:class=" showFeatures   ? 'block' : 'hidden'")
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
               .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8')
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='#' class='hover:bg-gray-50')
@@ -97,7 +97,7 @@
             Leaving: "transition ease-in duration-150"
             From: "opacity-100 translate-y-0"
             To: "opacity-0 translate-y-1"
-          .absolute.z-10.transform.mt-3.px-2.w-screen.max-w-md(v-if="showProducts === true" class='left-1/2 -translate-x-1/2 sm:px-0 lg:max-w-3xl')
+          .absolute.z-10.transform.mt-3.px-2.w-screen.max-w-md( v-bind:class=" showProducts ?  'block' : 'hidden'" class='left-1/2 -translate-x-1/2 sm:px-0 lg:max-w-3xl')
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
               .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
                 a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-50')
@@ -180,7 +180,7 @@
           
           
 
-          .absolute.z-10.-ml-4.mt-3.transform.w-screen.max-w-md(class='lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2' v-if="showCompare === true")
+          .absolute.z-10.-ml-4.mt-3.transform.w-screen.max-w-md( class='lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2' v-bind:class=" showCompare ? 'block' : 'hidden'")
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
               .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='/compare/read-and-write-alternative' class='hover:bg-gray-50')
@@ -236,7 +236,7 @@
     From: "opacity-100 scale-100"
     To: "opacity-0 scale-95"
   .absolute.top-0.inset-x-0.z-10.p-2.transition.transform.origin-top-right(class='md:hidden')
-    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-white.divide-y-2.divide-gray-50(v-if="showMenu === true")
+    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-white.divide-y-2.divide-gray-50(v-bind:class="showMenu ? 'block' : 'hidden'")
       .pt-5.pb-6.px-5
         .flex.items-center.justify-between
           div

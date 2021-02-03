@@ -3,8 +3,8 @@ const colors = require('tailwindcss/colors');
 module.exports = {
 	enabled: true,
 	purge: {
-		content: [ './app/**/*.pug', './docs/**/*.html', './app/**/*.{vue,js,ts,jsx,tsx}' ],
-		enabled: false
+		content: [ './app/**/*.pug',  './app/**/*.js' ],
+		enabled: true
 	},
 	darkMode: false, // or 'media' or 'class'
 	theme: {

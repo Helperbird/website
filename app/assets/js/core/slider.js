@@ -1,5 +1,4 @@
 import { tns } from 'tiny-slider/src/tiny-slider';
-import 'tiny-slider/dist/tiny-slider.css';
 
 
 async function start() {
