@@ -19,36 +19,20 @@ mixin  image_showoff(default_image = 'https://tailwindui.com/img/component-image
     .absolute.inset-0.flex.flex-col(aria-hidden='true')
       .flex-1
       .flex-1.w-full.bg-gray-800
-    .max-w-7xl.mx-auto.px-4(class='sm:px-6')
-      img.relative.rounded-lg.shadow-lg(src= default_image alt='App screenshot')
-  .bg-gray-800
-    .max-w-7xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8')
-      h2.text-center.text-gray-400.text-sm.font-semibold.uppercase.tracking-wide Trusted by over 26,000 forward-thinking companies
-      .mt-8.grid.grid-cols-2.gap-8(class='md:grid-cols-6 lg:grid-cols-5')
-        .col-span-1.flex.justify-center(class='md:col-span-2 lg:col-span-1')
-          img.h-12(src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg' alt='Tuple')
-        .col-span-1.flex.justify-center(class='md:col-span-2 lg:col-span-1')
-          img.h-12(src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg' alt='Mirage')
-        .col-span-1.flex.justify-center(class='md:col-span-2 lg:col-span-1')
-          img.h-12(src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg' alt='StaticKit')
-        .col-span-1.flex.justify-center(class='md:col-span-3 lg:col-span-1')
-          img.h-12(src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg' alt='Transistor')
-        .col-span-2.flex.justify-center(class='md:col-span-3 lg:col-span-1')
-          img.h-12(src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg' alt='Workcation')
+    .max-w-7xl.mx-auto.px-4.pb-16(class='sm:px-6')
+      img.relative.rounded-lg(src= default_image alt='App screenshot')
 
 
 
 
 
 
-
-
-mixin section(title, features)
+mixin section(title, features,buttons=false)
 
   .py-16.bg-gray-50.overflow-hidden
     .max-w-7xl.mx-auto.px-4.space-y-8(class='sm:px-6 lg:px-8')
       .text-base.max-w-prose.mx-auto(class='lg:max-w-none')
-        h2.text-base.text-indigo-600.font-semibold.tracking-wide.uppercase Helperbird feature
+        h2.text-base.text-indigo-600.font-semibold.tracking-wide.uppercase 
         p.mt-2.text-3xl.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= title
       .relative.z-10.text-base.max-w-prose.mx-auto(class='lg:max-w-5xl lg:mx-0 lg:pr-72')
 
@@ -61,13 +45,14 @@ mixin section(title, features)
             each val in features
               p= val
 
-          .mt-10.flex.text-base.max-w-prose.mx-auto(class='lg:max-w-none')
-            .rounded-md.shadow
-              a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='#' class='hover:bg-indigo-700')
-                | Contact sales
-            .rounded-md.shadow.ml-4
-              a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='#' class='hover:bg-gray-50')
-                | Learn more
+          if button = false
+            .mt-10.flex.text-base.max-w-prose.mx-auto(class='lg:max-w-none')
+              .rounded-md.shadow
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='#' class='hover:bg-indigo-700')
+                  | Contact sales
+              .rounded-md.shadow.ml-4
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='#' class='hover:bg-gray-50')
+                  | Learn more
 
 
 
@@ -80,17 +65,4 @@ mixin section(title, features)
               pattern#bedc54bc-7371-44a2-a2bc-dc68d819ae60(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
                 rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
             rect(width='404' height='384' fill='url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)')
-          blockquote.relative.bg-white.rounded-lg.shadow-lg
-            .rounded-t-lg.px-6.py-8(class='sm:px-10 sm:pt-10 sm:pb-8')
-              img.h-8(src='https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg' alt='Workcation')
-              .relative.text-lg.text-gray-700.font-medium.mt-8
-                svg.absolute.top-0.left-0.transform.-translate-x-3.-translate-y-2.h-8.w-8.text-gray-200(fill='currentColor' viewbox='0 0 32 32' aria-hidden='true')
-                  path(d='M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z')
-                p.relative
-                  | Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus.
-            cite.relative.flex.items-center.bg-indigo-600.rounded-b-lg.not-italic.py-5.px-6(class='sm:items-start sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10')
-              .relative.rounded-full.border-2.border-white(class='sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2')
-                img.w-12.h-12.rounded-full.bg-indigo-300(class='sm:w-20 sm:h-20' src='https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80' alt='')
-              span.relative.ml-4.text-indigo-300.font-semibold.leading-6(class='sm:ml-24 sm:pl-1')
-                p.text-white.font-semibold(class='sm:inline') Judith Black
-                p(class='sm:inline') CEO at Workcation
+
