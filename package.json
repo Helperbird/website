@@ -9,7 +9,6 @@
     "webp": "gulp webm",
     "sitemap": "node sitemap.js",
     "start": "webpack-dev-server --mode development && http-server docs",
-    "tailwind": "npx tailwindcss-cli@latest build ./app/assets/css/styles.css -o ./dist/tailwind.css",
     "clean": "purgecss --css app/assets/css/styles.css --content app/index.html --out docs/"
   },
   "repository": {
