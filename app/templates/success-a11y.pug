@@ -32,27 +32,27 @@ html(lang='en')
     link(href='assets/images/social/social/site.webmanifest', rel='manifest')
     link(href='/assets/images/site/favicon.png', rel='shortcut icon')
     script(type='application/ld+json').
-      
+
       {
-      	   "@context": "https://schema.org",
-      	   "@type": "SoftwareApplication",
-      	   "name": "Helperbird",
-      	   "operatingSystem": "Windows",
-      	   "applicationCategory": "https://schema.org/UtilitiesApplication",
-      	   "aggregateRating": {
-      	      "@type": "AggregateRating",
-      	      "ratingValue": "4.8",
-      	      "ratingCount": "42"
-      	   },
-      	   "offers": {
-      	      "@type": "Offer",
-      	      "price": "4.99",
-      	      "priceCurrency": "USD"
-      	   }
-      	   }
-      
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Helperbird",
+        "operatingSystem": "Windows",
+        "applicationCategory": "https://schema.org/UtilitiesApplication",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "42"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "4.99",
+          "priceCurrency": "USD"
+        }
+        }
+
     script(type='application/ld+json').
-      
+
       {
         "@context": "http://schema.org",
         "@type": "Organization",
@@ -71,7 +71,7 @@ html(lang='en')
           "addressCountry": "Canada"
         }
       }
-        
+
       {
         "@context": "https://schema.org/",
         "@type": "Product",
@@ -137,7 +137,7 @@ html(lang='en')
           }
         }]
       }
-      
+
     link(href='assets/images/social/apple-touch-icon.png', rel='apple-touch-icon', sizes='180x180')
     link(href='assets/images/social/social/favicon-32x32.png', rel='icon', sizes='32x32', type='image/png')
     link(href='assets/images/social/social/favicon-16x16.png', rel='icon', sizes='16x16', type='image/png')
@@ -148,24 +148,46 @@ html(lang='en')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
   body.bg-content-100
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Thank you for subscribing to Accessibility Checker Pro
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text You successfully bought a Accessibility Checker subscription. 
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text The email that was used for the billing is the email we use for your subscription.
-            .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(href="https://www.helperbird.com/blog/signin")
-                span How to Sign in?
-        .container-lrg.flex
-          .flex.flex-column.col-12.text-center
-            .scroller_video_home.mb20
-              .scroller_video_item_home_page
-                .youtube_lazy_load(data-embed='aXXRSenvTTg')
-                  .play-button
-                  img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
+    include includes/layout/navigation.pug
+    .relative.py-16.bg-white.overflow-hidden
+      .hidden(class='lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full')
+        .relative.h-full.text-lg.max-w-prose.mx-auto(aria-hidden='true')
+          svg.absolute.top-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#74b3fd99-0a6f-4271-bef2-e80eeafdf357(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)')
+          svg.absolute.right-full.transform.-translate-x-32(class='top-1/2 -translate-y-1/2' width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#f210dbf6-a58d-4871-961e-36d5016a0f49(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#f210dbf6-a58d-4871-961e-36d5016a0f49)')
+          svg.absolute.bottom-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#d3eb07ae-5182-43e6-857d-35c643af9034(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#d3eb07ae-5182-43e6-857d-35c643af9034)')
+      .relative.px-4(class='sm:px-6 lg:px-8')
+        .text-lg.max-w-prose.mx-auto
+          h1
+            span.mt-2.block.text-3xl.text-center.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl') Purchase confirmed
+
+        .mt-6.max-w-prose.mx-auto.prose-lg.text-gray-500.mx-auto
+
+
+          h2 Watch tutorials
+          p A compilation of quick tips and examples to see Helperbird in action for visual learners.
+          a.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(href="https://www.youtube.com/channel/UCxTbxBMw8MTcsExcOdBBFQw" target="_blank" role="button" class='hover:bg-indigo-700')
+            | Watch videos
+          h2 Need help?
+          p Troubleshoot common questions about Helperbird and its features from our support team.
+          a.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(href="/support" role="button" class='hover:bg-indigo-700')
+            | Check guides
+          h2 Helperbird Pro
+          p Unlock all of Helperbirds features for only $6.99 a month or $40 a year. $99 a month for unlimated users.
+          a.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(href="/pricing" role="button" class='hover:bg-indigo-700')
+            | See pricing
     include includes/sections/questions.pug
+    include includes/sections/cta_2.pug
     include includes/layout/footer.pug
