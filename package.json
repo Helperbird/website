@@ -84,6 +84,7 @@
     "stream": "0.0.2",
     "style-loader": "^2.0.0",
     "tailwindcss": "^2.0.2",
+    "tailwindcss-toggle": "github:TowelSoftware/tailwindcss-toggle",
     "tiny-slider": "^2.9.3",
     "toastr": "^2.1.4",
     "uglifyjs-webpack-plugin": "^2.2.0",
