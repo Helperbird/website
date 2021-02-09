@@ -1,5 +1,58 @@
 - 
-  var reviews = [{
+  var reviews = [
+      {
+        "name": "Kelli Suding",
+        "title": "Assistive technology specialist",
+        "review": "This is my first google review ever! I have to share that the accessibility and support for independent access for students that Helperbird provides, is a game changer. It is constantly being updated with new features based on feedback and it is extremely user friendly. The ability to customize the settings allows students to have control over their own learning, aligning with Universal Design for Learning. Looking forward to sharing with students and fellow educators on a daily basis. Thanks, Helperbird team!",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14GiMqVT9K85Bf8mPaMF9GIOxYfuzCo7M48-nBdP6kxY=s40-c-k",
+        "rating": [0, 1, 2, 3, 4]
+      },
+      {
+        "name": "Pauline Olsen",
+        "title": "User",
+        "review": "Love this extension works beautifully overall. Is there a way that this could have more compatibility with Salesforce system?",
+        "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+        "rating": [0, 1, 2, 3, 4]
+      },
+      {
+        "name": "Cris Townley",
+        "title": "Parent",
+        "review": 'I have been trying to find ways to make my child happy to go to school again, and someone recommended helperbird. She loves helperbird, and she is now much happier about the idea of returning to school. I think this might be a game changer, as they do so much web based schoolwork and research.  She says "they really understand people with dyslexia".',
+        "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+        "rating": [0, 1, 2, 3, 4]
+      },
+      {
+        "name": "Matthew Burns",
+        "title": "Health care worker",
+        "review": "Let me tell you, I didn't know how badly I needed this until I got it. It was much like when I got glasses, I had just assumed that was how everyone saw the world...then it wasn't. Thank you Helperbird for the efforts you put forth in this lovely extension for everyone to use. The fact that you can use so much on the free just goes to show that this is something to help aid people not just some money grab. However with the pricing it still couldn't be a money grab. Thank you all again for the efforts you put forth so others can enjoy the internet more fully.",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14Gioealufqkub4v8-nBKY6soOSCnuHYAXzJzzx4A=s40-c-k",
+        "rating": [0, 1, 2, 3, 4]
+      },
+      {
+        "name": "Denise Young",
+        "title": "Parent",
+        "review": "I am an assistive technology consultant for 30 school districts. I am adding Helperbird to the list of reading resources that I have available.",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14GimmxVmdGgr8kp4ZjWRrb3RBKzE-e24NdlqJub6aY0=s40-c-k",
+        "rating": [0, 1, 2, 3, 4]
+      },
+    
+      {
+        "name": "Jim Sprialis",
+        "title": "Assistive technology specialist",
+        "review": "Have an amazing collection of assistive tools that have benefits for everyone. For me, the combination of Microsoft's Immersive Reader and Apple's reading machine voice (US Alex) makes Helperbird my first choice for processing web content.",
+        "photo": "https://lh3.googleusercontent.com/a-/AOh14GgzGq40AO1sKGZ062f4AjhTf7WugrJkO_MBbVsHEw=s40-c-k",
+        "rating": [0, 1, 2, 3, 4]
+      },
+
+      {
+        "name": "Michelle Howard-Price",
+        "title": "Assistive technology specialist",
+        "review": "I purchased this for my daughter who has been having a lot of difficulty accessing the online work set remotely by her teachers during our National Lockdown because of Covid-19. Her dyslexia was really hindering her ability to complete tasks and keep up which in turn led to increased anxiety levels...a really horrid place to be in during a global pandemic! Helper bird has been a vast help and I fully recommend it and wish more schools knew about it. Thank You Helper Bird.",
+        "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+        "rating": [0, 1, 2, 3, 4]
+      },
+
+      {
         "name": "Terry Martin",
         "title": "Assistive technology specialist",
         "review": "I am getting such great support from Robert. I enjoy working with him. He answers my questions very quickly. Thanks so much for your great support and a great product.",
@@ -241,22 +294,36 @@
       }
     ]
 
-section.testimonials.testimonials_custom
-    .container
 
 
-      ul.plan-features.grid__item.grid__item--reviews.grid__item--mobile-large.owl-carousel
-        each val in reviews
-          li.plan-features__item
-            .item
-                .profile
-                    img(src= val.photo alt='')
-                    .information
-                        .stars
-                            each star in val.rating
-                                i.fa.fa-star
-                        p #{val.name}
-                        span #{val.title}
-                p #{val.review}
-                .icon_testiomals
-                    i.fa.fa-quote-right(aria-hidden='true')
+// This example requires Tailwind CSS v2.0+
+each val in reviews
+  section.py-12.bg-gray-50.overflow-hidden(class='md:py-20 lg:py-24')
+    .relative.max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
+      svg.absolute.top-full.right-full.transform(class='translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' role='img' aria-labelledby='svg-workcation')
+        title#svg-workcation Workcation
+        defs
+          pattern#ad119f34-7694-4c31-947f-5c9d249b21f3(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+            rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+        rect(width='404' height='404' fill='url(#ad119f34-7694-4c31-947f-5c9d249b21f3)')
+      .relative
+
+        blockquote.mt-10
+          .max-w-3xl.mx-auto.text-center.text-2xl.leading-9.font-medium.text-gray-900
+            p
+              | #{val.review}
+          footer.mt-8
+            div(class='md:flex md:items-center md:justify-center')
+              div(class='md:flex-shrink-0')
+                img.mx-auto.h-10.w-10.rounded-full(src= val.photo alt=`${val.title}s review of Helperbird`)
+              .mt-3.text-center(class='md:mt-0 md:ml-4 md:flex md:items-center')
+                .text-base.font-medium.text-gray-900 
+                  | #{val.name}
+                svg.hidden.mx-1.h-5.w-5.text-indigo-600(class='md:block' fill='currentColor' viewbox='0 0 20 20')
+                  path(d='M11 0h3L9 20H6l5-20z')
+                .text-base.font-medium.text-gray-500
+                  | #{val.title}
+
+
+
+   

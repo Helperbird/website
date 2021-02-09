@@ -1,480 +1,210 @@
-.bg-indigo-900#pricing
-  .relative
-    .max-w-2xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8 lg:max-w-7xl')
-      .px-0(class='sm:px-4 lg:px-0 lg:flex lg:justify-between lg:items-center')
-        .max-w-xl
-          h2.text-4xl.font-extrabold.text-white(class='sm:text-5xl sm:tracking-tight lg:text-6xl') Pricing Plans
-          p.mt-5.text-xl.text-indigo-300
-            | Make your website accessible from only $30 a month.
+// This example requires Tailwind CSS v2.0+
+.bg-white#pricing-table-widget
+  .max-w-7xl.mx-auto.py-24.px-4(class='sm:px-6 lg:px-8')
+    div(class='sm:flex sm:flex-col sm:align-center')
+      h1.text-5xl.font-extrabold.text-gray-900(class='sm:text-center') Pricing Plans
+      p.mt-5.text-xl(class='sm:text-center')
+        | Get the Helperbird widget at a price that suits everyone.
+      .relative.self-center.mt-6.bg-gray-100.rounded-lg.flex(class='p-0.5 sm:mt-8')
+        button.relative.rounded-md.shadow-sm.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType" class='w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'       v-bind:class="!isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Monthly billing
+        button.relative.rounded-md.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType"  class='ml-0.5 w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'    v-bind:class="isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Yearly billing
+   
 
 
-        .mt-10.w-full.max-w-xs(class='lg:mt-0')
-          .p-6.card.bordered.mb-4
-            h3.text-right.text-green-500.mb-4 Save 20%
-            .form-control.text-right
-              .pricing-switch
-                | Monthly
-                label.switch
-                  input#annual-widget(name='xxx' type='checkbox' spellcheck='false')
-                  span.slider.round
-                | Yearly
 
+
+    .mt-12.space-y-4(class='sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-3')
   
 
+      .border.border-pink-500.rounded-lg.shadow-sm.divide-y.divide-pink-500
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Standard
+          p.mt-4.text-sm Access to all features!
+          p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $30.00
+            span.text-base.font-medium /monthly
 
-
-
-.max-w-2xl.mx-auto.bg-white.py-16(class='sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8')
-  // xs to lg
-  .space-y-24(class='lg:hidden')
-    div
-      .px-4
-        h2.text-lg.leading-6.font-medium.text-gray-900 Basic
-        p.mt-4
-          span.text-4xl.font-extrabold.text-gray-900 $30
-          span.text-base.font-medium.text-gray-500 /mo
-        p.mt-4.text-sm.text-gray-500 All of our features but with our branding and colors.
-        a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Basic
-      table.mt-8.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Features
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Full suite of accessibility features
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Continuous accessibility monitoring
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Always-on cloud updates
-            td.py-5.pr-4
-              // Heroicon name: minus
-              svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
-
-              span.sr-only No
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Convallis.
-            td.py-5.pr-4
-
-
-
-              svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-
-
-      table.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Highlights
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') All of Helperbird's features.
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Premium support.
-            td.py-5.pr-4
-              // Heroicon name: minus
-              svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
-
-              span.sr-only No
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Unlimited subdomains
-            td.py-5.pr-4
-              // Heroicon name: minus
-              svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
-
-              span.sr-only No
-
-
-      .border-t.border-gray-200.px-4.pt-5
-        a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Basic
-    div
-      .px-4
-        h2.text-lg.leading-6.font-medium.text-gray-900 Essential
-        p.mt-4
-          span.text-4xl.font-extrabold.text-gray-900 $99
-          span.text-base.font-medium.text-gray-500 /mo
-        p.mt-4.text-sm.text-gray-500 All of our features plus white labeling. Only one domain.
-        a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Essential
-      table.mt-8.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Features
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Full suite of accessibility features
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Continuous accessibility monitoring
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Always-on cloud updates
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Convallis.
-            td.py-5.pr-4
-
-
-              svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-      table.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Highlights
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') All of Helperbird's features.
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Premium support.
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Unlimited subdomains
-            td.py-5.pr-4
-              // Heroicon name: minus
-              svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
-
-              span.sr-only No
+          p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $300.00
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openStandard") Buy Widget standard
   
-      .border-t.border-gray-200.px-4.pt-5
-        a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Essential
-    div
-      .px-4
-        h2.text-lg.leading-6.font-medium.text-gray-900 Premium
-        p.mt-4
-          span.text-4xl.font-extrabold.text-gray-900 $250
-          span.text-base.font-medium.text-gray-500 /mo
-        p.mt-4.text-sm.text-gray-500 All our features, whitelabing and all wild card domains.
-        a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Premium
-      table.mt-8.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Features
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Full suite of accessibility features
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Continuous accessibility monitoring
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm Full suite of accessibility features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Always-on cloud updates
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Convallis.
-            td.py-5.pr-4
-              svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm Continuous accessibility monitoring
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-      table.w-full
-        caption.bg-gray-50.border-t.border-gray-200.py-3.px-4.text-sm.font-medium.text-gray-900.text-left
-          | Highlights
-        thead
-          tr
-            th.sr-only(scope='col') Feature
-            th.sr-only(scope='col') Included
-        tbody.divide-y.divide-gray-200
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') All of Helperbird's features.
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm Always-on cloud updates
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Premium support.
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm Dedicated account manager
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Highlights
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
-          tr.border-t.border-gray-200
-            th.py-5.px-4.text-sm.font-normal.text-gray-500.text-left(scope='row') Unlimited subdomains
-            td.py-5.pr-4
-              // Heroicon name: check
-              svg.ml-auto.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              span.text-sm All of Helperbird's features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.sr-only Yes
+              span.text-sm Premium support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm White labeling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Includes immersive reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Unlimited subdomains
+        .p-6
+          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openStandard") Buy Widget Standard
+   
+      .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Pro
+          p.mt-4.text-sm Includes whitelabing
 
-      .border-t.border-gray-200.px-4.pt-5
-        a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Premium
-  // lg+
-  .hidden(class='lg:block')
-    table.w-full.h-px.table-fixed
-      caption.sr-only
-        | Pricing plan comparison
-      thead
-        tr
-          th.pb-4.pl-6.pr-6.text-sm.font-medium.text-gray-900.text-left(scope='col')
-            span.sr-only Feature by
-            span Plans
-          th.pb-4.px-6.text-lg.leading-6.font-medium.text-gray-900.text-left(class='w-1/4' scope='col') Basic
-          th.pb-4.px-6.text-lg.leading-6.font-medium.text-gray-900.text-left(class='w-1/4' scope='col') Essential
-          th.pb-4.px-6.text-lg.leading-6.font-medium.text-gray-900.text-left(class='w-1/4' scope='col') Premium
-      tbody.border-t.border-gray-200.divide-y.divide-gray-200
-        tr
-          th.py-8.pl-6.pr-6.align-top.text-sm.font-medium.text-gray-900.text-left(scope='row') Pricing
-          td.h-full.py-8.px-6.align-top
-            .h-full.flex.flex-col.justify-between
-              div
-                p
-                  span.text-4xl.font-extrabold.text-gray-900 $30
-                  span.text-base.font-medium.text-gray-500 /mo
-                p.mt-4.text-sm.text-gray-500 All of our features but with our branding and colors.
-              a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Basic
-          td.h-full.py-8.px-6.align-top
-            .h-full.flex.flex-col.justify-between
-              div
-                p
-                  span.text-4xl.font-extrabold.text-gray-900 $99
-                  span.text-base.font-medium.text-gray-500 /mo
-                p.mt-4.text-sm.text-gray-500 All of our features plus white labeling. Only one domain.
-              a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Essential
-          td.h-full.py-8.px-6.align-top
-            .h-full.flex.flex-col.justify-between
-              div
-                p
-                  span.text-4xl.font-extrabold.text-gray-900 $250
-                  span.text-base.font-medium.text-gray-500 /mo
-                p.mt-4.text-sm.text-gray-500 All our features, whitelabing and all wild card domains.
-              a.mt-6.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Premium
-        tr
-          th.py-3.pl-6.bg-gray-50.text-sm.font-medium.text-gray-900.text-left(colspan='4' scope='colgroup') Features
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Full suite of accessibility features
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Continuous accessibility monitoring
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Always-on cloud updates
-          td.py-5.px-6
+          p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $99.99
+            span.text-base.font-medium /monthly
 
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Yes
+          p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $1000.00
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openPro") Buy Widget Pro
 
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Dedicated account manager.
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Full suite of accessibility features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Continuous accessibility monitoring
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Always-on cloud updates
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dedicated account manager
 
-            span.sr-only Not included in Basic
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Highlights
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm All of Helperbird's features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Premium support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm White labeling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Includes immersive reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Unlimited subdomains
+       
 
-          td.py-5.px-6
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Yes
-          td.py-5.px-6
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Yes
-        tr
-          th.py-3.pl-6.bg-gray-50.text-sm.font-medium.text-gray-900.text-left(colspan='4' scope='colgroup') Highlights
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') All of Helperbird's features.
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Premium support.
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+        .p-6
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openPro") Buy Widget Pro
 
-            span.sr-only Not included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Unlimited subdomains
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
-            span.sr-only Not included in Basic
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+     
+     
+      .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Unlimited
+          p.mt-4.text-sm Totally unlimited wild card domains.
+          p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $250.00
+            span.text-base.font-medium /monthly
+          p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900  $2,500
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Widget unlimited
+        .pt-6.pb-8.px-6
 
-            span.sr-only Not included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Full suite of accessibility features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Continuous accessibility monitoring
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Always-on cloud updates
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dedicated account manager
 
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') Includes immersive reader
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Highlights
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm All of Helperbird's features
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Premium support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm White labeling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Includes immersive reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Unlimited subdomains
 
-            span.sr-only Not included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-        tr
-          th.py-5.pl-6.pr-6.text-sm.font-normal.text-gray-500.text-left(scope='row') White labeling
-          td.py-5.px-6
-            // Heroicon name: minus
-            svg.h-5.w-5.text-red-600.font-bold(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
-
-            span.sr-only Not included in Basic
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Essential
-          td.py-5.px-6
-            // Heroicon name: check
-            svg.h-5.w-5.text-green-500.font-bold(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-              path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-            span.sr-only Included in Premium
-
-      tfoot
-        tr.border-t.border-gray-200
-          th.sr-only(scope='row') Choose your plan
-          td.pt-5.px-6
-            a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Basic
-          td.pt-5.px-6
-            a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Essential
-          td.pt-5.px-6
-            a.block.w-full.bg-gradient-to-r.from-orange-500.to-pink-500.border.border-transparent.rounded-md.shadow.py-2.text-sm.font-semibold.text-white.text-center(href='#' class='hover:to-pink-600') Buy Premium
+        .p-6
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Widget unlimited

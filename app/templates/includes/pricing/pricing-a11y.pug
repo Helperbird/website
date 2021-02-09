@@ -1,12 +1,12 @@
 // This example requires Tailwind CSS v2.0+
-.bg-gray-100
+.bg-gray-100#pricing-table-a11y
   .pt-12(class='sm:pt-16 lg:pt-20')
     .max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
       .text-center
         h2.text-3xl.font-extrabold.text-gray-900(class='sm:text-4xl lg:text-5xl')
           | Simple no-tricks pricing
         p.mt-4.text-xl.text-gray-600
-          | If you&apos;re not satisfied, contact us within the first 14 days and we&apos;ll send you a full refund.
+          | If you&apos;re not satisfied, contact us within the first 3 days and we&apos;ll send you a full refund.
   .mt-8.bg-white.pb-16(class='sm:mt-12 sm:pb-20 lg:pb-28')
     .relative
       .absolute.inset-0.bg-gray-100(class='h-1/2')
@@ -16,7 +16,7 @@
             h3.text-2xl.font-extrabold.text-gray-900(class='sm:text-3xl')
               | Yearly Membership
             p.mt-6.text-base.text-gray-500
-              | Get access to all of accessibility issue tools for only 20 USD a year.
+              | Get access to all of accessibility issue tools for only 24 USD a year.
             .mt-8
               .flex.items-center
                 h4.flex-shrink-0.pr-4.bg-white.text-sm.tracking-wider.font-semibold.uppercase.text-indigo-600
@@ -53,10 +53,10 @@
                     | How to fix it
           .py-8.px-6.text-center.bg-gray-50(class='lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12')
             p.text-lg.leading-6.font-medium.text-gray-900
-              | Yearly subscription, Only 1.6 USD a month
+              | Yearly subscription, Only 2 USD a month
             .mt-4.flex.items-center.justify-center.text-5xl.font-extrabold.text-gray-900
               span
-                | $20
+                | $24
               span.ml-3.text-xl.font-medium.text-gray-500
                 | USD
             p.mt-4.text-sm
@@ -64,5 +64,5 @@
                 | Discover Helperbird Pro 
             .mt-6
               .rounded-md.shadow
-                a.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-gray-800(href='#' class='hover:bg-gray-900')
-                  | Get Access
+                a.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-gray-800(@click="openPro" class='hover:bg-gray-900')
+                  | Get Access $24.00
