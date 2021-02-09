@@ -55,6 +55,10 @@ input:checked + .slider:before {
 
 }
 
+.helperbird-accessibility-error{
+	border: 5px red solid !important;
+}
+
 .press-logos {
 	height: min-content;
 }
