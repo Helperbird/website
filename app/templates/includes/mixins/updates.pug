@@ -42,7 +42,7 @@ mixin home_page_updateslist(text, link, description, group, author="Robert James
             .flex-1
                 p.text-sm.font-medium.text-indigo-600
                     a(href= '/updates/' + link , title= text class='hover:underline')=  group
-                a.block.mt-2(href='#')
+                a.block.mt-2(href= '/updates/' + link)
                     p.text-xl.font-semibold.text-gray-900= text
                     p.mt-3.text-base.text-gray-500
             .mt-6.flex.items-center

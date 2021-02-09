@@ -10,7 +10,7 @@ mixin features_title(feature_type = 'Helperbird feature',text)
             a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
               | Try for Free
           .mt-3(class='sm:mt-0 sm:ml-3')
-            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-700.bg-indigo-100(href='#' class='hover:bg-indigo-200 md:py-4 md:text-lg md:px-10')
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-700.bg-indigo-100(href='/features' class='hover:bg-indigo-200 md:py-4 md:text-lg md:px-10')
               | Live demo
 
 
@@ -48,10 +48,10 @@ mixin section(title, features,buttons=false)
           if button = false
             .mt-10.flex.text-base.max-w-prose.mx-auto(class='lg:max-w-none')
               .rounded-md.shadow
-                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='#' class='hover:bg-indigo-700')
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/sales' class='hover:bg-indigo-700')
                   | Contact sales
               .rounded-md.shadow.ml-4
-                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='#' class='hover:bg-gray-50')
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='/features' class='hover:bg-gray-50')
                   | Learn more
 
 

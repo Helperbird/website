@@ -147,78 +147,39 @@ html(lang='en')
   body.bg-content-100
 
     include includes/layout/navigation.pug
-    main
+    main.mt-16.mx-auto.max-w-7xl.px-4(class='sm:mt-24')
+      .text-center
+        h1.text-4xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-5xl md:text-6xl')
+          span.block(class='xl:inline') Helperbird for 
+          span.block.text-indigo-600(class='xl:inline') Education
+        p.mt-3.max-w-md.mx-auto.text-base.text-gray-500(class='sm:text-lg md:mt-5 md:text-xl md:max-w-3xl')
+          | Helperbird Edu gives you more control and more support. Perfect for organizations or schools that are large, complex, or want more support and features.
+        .mt-5.max-w-md.mx-auto(class='sm:flex sm:justify-center md:mt-8')
+          .rounded-md.shadow
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
+              | Get started
+          .mt-3.rounded-md.shadow(class='sm:mt-0 sm:ml-3')
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='/demo' class='hover:bg-gray-50 md:py-4 md:text-lg md:px-10')
+              | Live demo
 
 
-      .relative
-        .absolute.inset-x-0.bottom-0.bg-gray-100(class='h-1/2')
-        .max-w-7xl.mx-auto(class='sm:px-6 lg:px-8')
-          .relative.shadow-xl(class='sm:rounded-2xl sm:overflow-hidden')
-            .absolute.inset-0
-              img.h-full.w-full.object-cover(src='https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100' alt='People working on laptops')
-              .absolute.inset-0.bg-gradient-to-r.from-purple-800.to-indigo-700(style='mix-blend-mode: multiply;')
-            .relative.px-4.py-16(class='sm:px-6 sm:py-24 lg:py-32 lg:px-8')
-              h1.text-center.text-4xl.font-extrabold.tracking-tight(class='sm:text-5xl lg:text-6xl')
-                span.block.text-white Take control of your
-                span.block.text-indigo-200 customer support
-              p.mt-6.max-w-lg.mx-auto.text-center.text-xl.text-indigo-200(class='sm:max-w-3xl')
-                | Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-              .mt-10.max-w-sm.mx-auto(class='sm:max-w-none sm:flex sm:justify-center')
-                .space-y-4(class='sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5')
-                  a.flex.items-center.justify-center.px-4.py-3.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-indigo-700.bg-white(href='#' class='hover:bg-indigo-50 sm:px-8')
-                    | Get started
-                  a.flex.items-center.justify-center.px-4.py-3.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-500.bg-opacity-60(href='#' class='hover:bg-opacity-70 sm:px-8')
-                    | Live demo
 
-      // Logo Cloud
-      include includes/sections/press.pug
-
-      include includes/features/list.pug
+    // Logo Cloud
+    include includes/sections/press.pug
 
 
-      include includes/features/boxes_no_text_small.pug
+
+    include includes/features/boxes_edu.pug
 
 
-      // Stats section
-      .relative.bg-gray-900
-        .h-80.absolute.bottom-0(class='xl:inset-0 xl:h-auto xl:grid xl:grid-cols-2')
-          .h-full(class='xl:relative xl:col-start-2')
-            img.h-full.w-full.object-cover.opacity-25(class='xl:absolute xl:inset-0' src='https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100' alt='People working on laptops')
-            .absolute.inset-x-0.top-0.h-32.bg-gradient-to-b.from-gray-900(aria-hidden='true' class='xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r')
-        .max-w-4xl.mx-auto.px-4(class='sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8')
-          .relative.pt-12.pb-64(class='sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24')
-            h2.text-sm.font-semibold.tracking-wide.uppercase
-              span.bg-gradient-to-r.from-purple-300.to-indigo-300.bg-clip-text.text-transparent Valuable Metrics
-            p.mt-3.text-3xl.font-extrabold.text-white Get actionable data that will help grow your business
-            p.mt-5.text-lg.text-gray-300
-              | Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
-            .mt-12.grid.grid-cols-1.gap-y-12.gap-x-6(class='sm:grid-cols-2')
-              p
-                span.block.text-2xl.font-bold.text-white 8K+
-                span.mt-1.block.text-base.text-gray-300
-                  span.font-medium.text-white Companies
-                  |  use laoreet amet lacus nibh integer quis.
-              p
-                span.block.text-2xl.font-bold.text-white 25K+
-                span.mt-1.block.text-base.text-gray-300
-                  span.font-medium.text-white Countries around the globe
-                  |  lacus nibh integer quis.
-              p
-                span.block.text-2xl.font-bold.text-white 98%
-                span.mt-1.block.text-base.text-gray-300
-                  span.font-medium.text-white Customer satisfaction
-                  |  laoreet amet lacus nibh integer quis.
-              p
-                span.block.text-2xl.font-bold.text-white 12M+
-                span.mt-1.block.text-base.text-gray-300
-                  span.font-medium.text-white Issues resolved
-                  |  lacus nibh integer quis.
+    include includes/sections/reviews-two.pug
+    include includes/sections/metric.pug
 
 
-  
-      include includes/pricing/pricing_table.pug
-      include includes/sections/reviews-two.pug
-      include includes/sections/cta_2.pug
+
+    include includes/pricing/pricing_table.pug
+
+
  
 
       include includes/sections/questions.pug
