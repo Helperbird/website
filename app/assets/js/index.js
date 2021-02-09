@@ -5,20 +5,26 @@ import '../css/styles.css';
 import 'tiny-slider/dist/tiny-slider.css';
 import 'notyf/notyf.min.css'; // for React and Vue
 
-import * as Youtube from './new/youtube';
-import * as reviewSlider from './new/slider';
+import * as Youtube from './core/youtube';
+import * as reviewSlider from './core/slider';
+import * as thirdParty from './core/third-party';
 
-import * as navigation from './new/navigation';
-import * as pricing_table from './new/extension-pricing';
-import * as widget_table from './new/widget-pricing';
-import * as a11y_table from './new/a11y-pricing';
+// Vue components
+import * as navigation from './core/navigation';
+import * as pricing_table from './core/extension-pricing';
+import * as widget_table from './core/widget-pricing';
+import * as a11y_table from './core/a11y-pricing';
 
 reviewSlider.start();
+Youtube.load();
 
+// Vue components load
 navigation.load();
-
 widget_table.load();
 pricing_table.load();
-
 a11y_table.load();
-Youtube.load();
+
+
+thirdParty.crisp();
+thirdParty.tagManager();
+thirdParty.loadManager();

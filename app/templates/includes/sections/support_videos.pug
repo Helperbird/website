@@ -1,129 +1,93 @@
-section.section.red-white#supportVideos
-  .container
-    .col-12.text-center
-      h3.heading.heading-sml.primary-color.launchaco-builder-hoverable.why_us  Tutorials on how to use Helperbird
-      p.subheading.secondary-color.mt40.launchaco-builder-hoverable Master your workflow with the beginner's guide, tips & tricks.
-    .slideshow-container
+- 
+    var videos = [
+        {
+        "title": "Adjust letter & word spacing on any website",
+        "id":"cybvKJyYaiM"
+        },
+        {
+        "title": "Improve focus and reading with Helperbird",
+        "id":"_AQIq3T8wwQ"
+        },
+        {
+        "title": "Text to Speech feature",
+        "id":"rh4Ur2gdgio"
+        },
+        {
+        "title": "How to Turn High Contrast Mode On/Off on any website",
+        "id":"ogS5qh2rhmk"
+        },
+        {
+        "title": " Dyslexia ruler for Google Chrome ",
+        "id":"scHiXL0BldA"
+        },
+        {
+        "title": "Hide all images (including gif and flashing images) from every website",
+        "id":"y4BMnYzFwnM"
+        },
+        {
+        "title": "Chrome accessibility large mouse pointer",
+        "id":"etJBvXGUI58"
+        },
+        {
+        "title": "Colored Overlays - Improve Reading Skills",
+        "id":"uOOucEf_tQk"
+        },
+        {
+        "title": "How to Convert Image to Text Using Helperbird (OCR software)",
+        "id":"lWqqOFM-dDE"
+        },
+        {
+        "title": "What is the Immersive Reader? How do I  use it? ",
+        "id":"lMj6a7UvJng"
+        },
+        {
+        "title": "How to Enable Reader Mode in Google Chrome on Desktop for any website.",
+        "id":"6tDiVNUnkSY"
+        },
+        {
+        "title": "How to translate any website for free with Helperbird",
+        "id":"xZa5CaMaFI4"
+        },
+        {
+        "title": "How to print any website using Helperbird",
+        "id":"I5eUoFBGBfc"
+        },
+        {
+        "title": "How to make any website colorblind friendly with Helperbird",
+        "id":"9qES8eBGxBg"
+        },
+
+        {
+        "title": "Change the font on any website (OpenDyslexic) with Helperbird",
+        "id":"i1EeaekPHIo"
+        },
+    ]
+
+
+// This example requires Tailwind CSS v2.0+
+.relative.bg-white.py-16(class='sm:py-24 lg:py-32')
+  .mx-auto.max-w-md.px-4.text-center(class='sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl')
+    h2.text-base.font-semibold.tracking-wider.text-indigo-600.uppercase Tutorials
+    p.mt-2.text-3xl.font-extrabold.text-gray-900.tracking-tight(class='sm:text-4xl')
+      | Tutorials on how to use Helperbird
+    p.mt-5.max-w-prose.mx-auto.text-xl.text-gray-500
+      | Master your workflow with the beginner's guide, tips & tricks.
+    .mt-12
+      .grid.grid-cols-2.gap-8(class='sm:grid-cols-2 lg:grid-cols-2')
+        each val in videos
+          .pt-6
+            .flow-root.bg-gray-50.rounded-lg.px-6.pb-8
+              .-mt-6
+                h3.mt-8.text-lg.font-medium.text-gray-900.tracking-tight.mb-8
+                  | #{val.title}
+                .w-full.rounded-lg.youtube_lazy_load(data-embed= val.id) 
+                  .play-button
+
+
+
       
-      
-      
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='cybvKJyYaiM')
-          .play-button.   
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Adjust letter & word spacing on any website
-      
-      
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='_AQIq3T8wwQ')
-          .play-button.
+
+
             
+
             
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Improve focus and reading with Helperbird
-     
-     
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='rh4Ur2gdgio')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Text to Speech feature
-      
-      
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='ogS5qh2rhmk')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to Turn High Contrast Mode On/Off on any website
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='scHiXL0BldA')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Dyslexia ruler for Google Chrome 
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='y4BMnYzFwnM')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Hide all images (including gif and flashing images) from every website
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='etJBvXGUI58')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Chrome accessibility large mouse pointer
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='uOOucEf_tQk')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Colored Overlays - Improve Reading Skills
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='/lWqqOFM-dDE')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to Convert Image to Text Using Helperbird (OCR software)
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='lMj6a7UvJng')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape What is the Immersive Reader? How do I  use it? 
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='6tDiVNUnkSY')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to Enable Reader Mode in Google Chrome on Desktop for any website.
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='xZa5CaMaFI4')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to translate any website for free with Helperbird
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='I5eUoFBGBfc')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to print any website using Helperbird
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='9qES8eBGxBg')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape How to make any website colorblind friendly with Helperbird
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='-JRUpKdqMus')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Increase zoom and  and text magnifying on any website with Helperbird
-      .mySlidesVideo.scroller_video_item
-        .youtube_lazy_load(data-embed='i1EeaekPHIo')
-          .play-button.
-            
-            
-        p.secondary-color.mt20.launchaco-builder-hoverable.overflow_escape Change the font on any website (OpenDyslexic) with Helperbird
- 
-      button.prev(onclick='window.videos.plusSlidesVideo(-1)' ,role="button", title="past video") ❮
-      button.next(onclick='window.videos.plusSlidesVideo(1)', role="button", title="Next video") ❯
-    .dotVideo-container
-      span.dotVideo(onclick='window.videos.currentSlideVideo(1)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(2)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(3)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(4)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(5)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(6)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(7)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(8)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(9)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(10)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(11)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(12)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(13)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(14)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(15)')
-      span.dotVideo(onclick='window.videos.currentSlideVideo(16)')

@@ -15,7 +15,6 @@ async function crisp() {
 		};
 }
 
-//owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js
 
 async function tagManager() {
 	setTimeout(() => {
