@@ -1,6 +1,8 @@
 import Vue from 'vue/dist/vue.js';
 
 async function load() {
+	let isThere = document.getElementById('nav');
+	if (isThere === null) return false;
 	new Vue({
 		el: '#nav',
 		data: {

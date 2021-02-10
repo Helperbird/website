@@ -51,7 +51,7 @@ module.exports = {
 	mode: 'production',
 	context: __dirname + '/app/',
 	entry: {
-		app: './assets/js/index.js'
+	website_script: './assets/js/index.js'
 	},
 	plugins: [
 		// new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin

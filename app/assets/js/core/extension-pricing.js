@@ -11,12 +11,18 @@ async function load() {
 		data: {
 			isYearly: false,
 			stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-			notyf: new Notyf()
+			notyf: new Notyf(),
+		
+			openModal: false
 		},
 
 		methods: {
 			switchType: function() {
 				this.isYearly = !this.isYearly;
+			},
+
+			handleModal: function() {
+				this.openModal = !this.openModal;
 			},
 
 			openPro: function() {
@@ -103,7 +109,10 @@ async function load() {
 		computed: {
 			showYearly: function() {
 				return this.isYearly;
-			}
+			},
+			showModal: function() {
+				return this.openModal;
+			},
 		}
 	});
 }
