@@ -1564,6 +1564,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/updates/35-0-0/reading.png"
   },
   {
+    "revision": "e6d5c4170c49099338a67118d9345eec",
+    "url": "/assets/images/updates/40-0-0/design.png"
+  },
+  {
+    "revision": "7b5ed20f47ec6ede8dc47b53bde465aa",
+    "url": "/assets/images/updates/40-0-0/editor.png"
+  },
+  {
+    "revision": "bd7ad5e22ff78acc21e5b816bd85753e",
+    "url": "/assets/images/updates/40-0-0/lookup.png"
+  },
+  {
     "revision": "670f36960155c5fbc4ce1f539ed6e75f",
     "url": "/assets/images/updates/updates.jpeg"
   },
