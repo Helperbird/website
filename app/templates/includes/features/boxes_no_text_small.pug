@@ -305,7 +305,8 @@
             h3.text-lg.font-medium.text-white #{val.title}
             p.mt-2.text-base.text-indigo-200
               | #{val.description}
-            .mt-6
+            if val.link
+              .mt-6
 
-              a.inline-flex.px-4.py-2.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-600(href= val.link class='hover:bg-indigo-700')
-                | Learn more
+                a.inline-flex.px-4.py-2.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-600(href= val.link class='hover:bg-indigo-700')
+                  | Learn more

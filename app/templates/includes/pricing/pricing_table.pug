@@ -814,7 +814,10 @@
       .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
         .p-6
           h2.text-lg.leading-6.font-medium.text-gray-900 Schools & Businesses
-          p.mt-4.text-sm Includes unlimited users
+          p.mt-4.text-sm
+            | Unlimited users. #[a(href='/order') Request a quote ]
+
+
           p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
             span.text-4xl.font-extrabold.text-gray-900 $99.99
             span.text-base.font-medium /monthly
