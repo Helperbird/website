@@ -81,8 +81,7 @@ module.exports = {
 
 			exclude: [ /(?:cname|CNAME|app.css|robots.txt|.DS_Store)$/ ],
 			clientsClaim: true,
-			skipWaiting: true,
-			cleanupOutdatedCaches: true,
+			skipWaiting: true
 		})
 	]
 		.concat(indexFiles)
