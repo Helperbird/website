@@ -36,15 +36,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/fonts/lexend/lexend.woff2"
   },
   {
-    "revision": "770ed6a2d0e79be169cd70499b66b37e",
+    "revision": "c0e0cd81bdcc113b0cc527a6dfa7e567",
     "url": "/assets/images/apps/chrome.png"
   },
   {
-    "revision": "b34818cad1a7af443eb77fc08a223296",
+    "revision": "554fdb15277d571cb08a3f53639efe9d",
     "url": "/assets/images/apps/edge.png"
   },
   {
-    "revision": "b34818cad1a7af443eb77fc08a223296",
+    "revision": "554fdb15277d571cb08a3f53639efe9d",
     "url": "/assets/images/apps/firefox.png"
   },
   {
@@ -224,7 +224,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/gif/dictionary.gif"
   },
   {
-    "revision": "d5f83e924240e813441dd666fbf4735d",
+    "revision": "940f4e18b27ffba1cd49df2078d59348",
     "url": "/assets/images/guide/menu_immersive_reader.png"
   },
   {
@@ -348,7 +348,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/logo/edutech.png"
   },
   {
-    "revision": "21cf2b582e598eda10b1af54241aa0f7",
+    "revision": "02844b937bbcbb01c9ae03dc5de3b870",
     "url": "/assets/images/logo/hope.jpg"
   },
   {
