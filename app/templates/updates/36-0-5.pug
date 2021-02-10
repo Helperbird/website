@@ -1,0 +1,56 @@
+
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '36.0.0'
+  - var description = '36.0.0'
+  - var url = '36-0-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+
+
+
+  +updates_paragraph_title("Love Helperbird? Review us and help us grow?","Help the world know about Helperbird by reviewing us on the Google Chrome store. Every 4 and 5-star review helps us grow and raise through the charts and help with our mission to make the world more accessible. We will be giving away Helperbird Pro to random reviewers.")
+  +updates_button("Leave a review","https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme/reviews")
+
+
+
+
+  +updates_paragraph_title("Bug fix: Pasting into input with Tool",'There was an issue when having the Highlight menu on, pasting wouldnt work on every input.')
+
+
+  +updates_paragraph_title("Bug fix: Google Forms support")
+  +updates_paragraph('Fixed, where you couldn`t select radio buttons when the Highlight menu was on.')
+
+
+
+  +updates_paragraph_title("Bug fix: Enter key",'Fixed, where you couldn`t use the enter key.')
+
+
+
+  +updates_paragraph_title("Helperbird Pro",'Get access to all our Pro features for only 40 USD a year.')
+
+  +updates_button("See pricing","https://www.helperbird.com/pricing")
+
+
+
+
+  +updates_paragraph_title("New feature: Reading Guide",'Helperbird now has a Reading Guide/Ruler, to help you stay on the line your reading. Access it for a rulers that follows your mouse on the page. Don`t forget we also we have Dyslexia ruler and Line focus too.')
+  +updates_image('Quick access menu','/assets/images/updates/35-0-0/reading.png')
+
+
+
+
+
+  +updates_paragraph_title("New feature: Gray Hue",'Turn every webpage or app you visit gray, in just one click.')
+  +updates_image('Quick access menu','/assets/images/updates/35-0-0/gray.png')
+
+
+
+  +updates_paragraph_title("Love Helperbird? Want to help us grow?","Help the world know about Helperbird by reviewing us on the Google Chrome store. Every 4 and 5-star review helps us grow and raise through the charts and help with our mission to make the world more accessible. We will be giving away Helperbird Pro to random reviewers.")
+  +updates_button("Leave a review","https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme/reviews")
+
