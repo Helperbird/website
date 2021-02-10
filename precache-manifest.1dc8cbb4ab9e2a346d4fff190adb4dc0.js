@@ -1,9 +1,5 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41c48b7e1842cbad0a9b",
-    "url": "/app.bundle.js"
-  },
-  {
     "revision": "9a40fffdc8f24055e40c49cb7f716f10",
     "url": "/assets/fonts/lexend/lexend-deca.woff2"
   },
@@ -348,7 +344,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/logo/edutech.png"
   },
   {
-    "revision": "02844b937bbcbb01c9ae03dc5de3b870",
+    "revision": "d34667afdbf4c5ede2f8dcba461a8214",
     "url": "/assets/images/logo/hope.jpg"
   },
   {
@@ -388,7 +384,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/logo/producthunt.png"
   },
   {
-    "revision": "b73046c23c1d3d9ff0a62c9e74e47724",
+    "revision": "4ad528a1fb3d6b100d77574e5314fb35",
     "url": "/assets/images/logo/san.png"
   },
   {
@@ -1682,5 +1678,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "16c6a6b0a95bf3255612e4b17f475516",
     "url": "/googlea4b2e0ff05c168d5.html"
+  },
+  {
+    "revision": "05df921d31c05a4afa8d",
+    "url": "/website_script.bundle.js"
+  },
+  {
+    "revision": "05df921d31c05a4afa8d",
+    "url": "/website_script.css"
   }
 ]);

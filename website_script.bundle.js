@@ -16655,6 +16655,8 @@ var vue_default = /*#__PURE__*/__webpack_require__.n(vue);
 
 
 async function navigation_load() {
+	let isThere = document.getElementById('nav');
+	if (isThere === null) return false;
 	new vue_default.a({
 		el: '#nav',
 		data: {
@@ -16783,12 +16785,18 @@ async function extension_pricing_load() {
 		data: {
 			isYearly: false,
 			stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-			notyf: new Notyf()
+			notyf: new Notyf(),
+		
+			openModal: false
 		},
 
 		methods: {
 			switchType: function() {
 				this.isYearly = !this.isYearly;
+			},
+
+			handleModal: function() {
+				this.openModal = !this.openModal;
 			},
 
 			openPro: function() {
@@ -16875,7 +16883,10 @@ async function extension_pricing_load() {
 		computed: {
 			showYearly: function() {
 				return this.isYearly;
-			}
+			},
+			showModal: function() {
+				return this.openModal;
+			},
 		}
 	});
 }
