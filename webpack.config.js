@@ -51,7 +51,7 @@ module.exports = {
 	mode: 'production',
 	context: __dirname + '/app/',
 	entry: {
-	website_script: './assets/js/index.js'
+	helperbird: './assets/js/index.js'
 	},
 	plugins: [
 		// new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
@@ -79,7 +79,7 @@ module.exports = {
 			// these options encourage the ServiceWorkers to get in there fast
 			// and not allow any straggling "old" SWs to hang around
 
-			exclude: [ /(?:cname|CNAME|app.css|robots.txt|.DS_Store)$/ ],
+			exclude: [ /(?:cname|CNAME|helperbird.css|robots.txt|.DS_Store)$/ ],
 			clientsClaim: true,
 			skipWaiting: true
 		})
