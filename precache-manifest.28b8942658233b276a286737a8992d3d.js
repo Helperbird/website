@@ -288,6 +288,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/home/firefox.png"
   },
   {
+    "revision": "8ebcbefa868a3a19c905bc23b5baa53f",
+    "url": "/assets/images/home/metric.jpeg"
+  },
+  {
     "revision": "809a524a92e2ece588b0b2c5d7849663",
     "url": "/assets/images/home/screenshots/colors.png"
   },
