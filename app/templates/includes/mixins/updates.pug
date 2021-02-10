@@ -49,7 +49,7 @@ mixin home_page_updateslist(text, link, description, group, author="Robert James
                 .flex-shrink-0
                     a(href= '/updates/' + link , title= text)
                         span.sr-only= author
-                        img.h-10.w-10(src='/assets/images/pwa/logo/full.png' alt='Photo of Helperbirds user')
+                        img.h-10.w-10(loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Photo of Helperbirds user')
                 .ml-3
                     p.text-sm.font-medium.text-gray-900
                         a(href= '/updates/' + link , title= text class='hover:underline')= author

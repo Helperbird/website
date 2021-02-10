@@ -33,7 +33,7 @@ mixin home_page_blog_list(text, link, description, group, imageUrl,author="Rober
                 .flex-shrink-0
                     a(href= link)
                         span.sr-only= author
-                        img.h-10.w-10(src='/assets/images/pwa/logo/full.png' alt='Helperbird icon')
+                        img.h-10.w-10(loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Helperbird icon')
                 .ml-3
                     p.text-sm.font-medium.text-gray-900
                         a(href= link class='hover:underline')= author

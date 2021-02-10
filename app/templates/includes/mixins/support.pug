@@ -62,7 +62,7 @@ mixin  section(title, features,videoLink)
     if videoLink
       .w-full.rounded-lg.youtube_lazy_load(data-embed= videoLink) 
         .play-button
-        img(src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
+        img(loading="lazy" src='https://img.youtube.com/vi/aXXRSenvTTg/sddefault.jpg', alt='Helperbird support feature')
 
 
 
