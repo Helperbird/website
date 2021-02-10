@@ -2,6 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Get help from the Helperbird support team | Helperbird
     link(href='https://www.helperbird.com/support', rel='canonical')
     meta(content='Get help from the Helperbird support team,  Helperbird support team, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
@@ -150,33 +151,42 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable Award winning support!
-            p.subheading.secondary-color.mt20.launchaco-builder-hoverable
+  body.bg-content-100
+
+    include includes/layout/navigation.pug
+    main
+
+      .bg-white.py-16.px-4.overflow-hidden(class='sm:px-6 lg:px-8 lg:py-24')
+        .relative.max-w-xl.mx-auto
+          svg.absolute.left-full.transform(class='translate-x-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' aria-hidden='true')
+            defs
+              pattern#85737c0e-0916-41d7-917f-596dc7edfa27(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='404' fill='url(#85737c0e-0916-41d7-917f-596dc7edfa27)')
+          svg.absolute.right-full.bottom-0.transform(class='-translate-x-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' aria-hidden='true')
+            defs
+              pattern#85737c0e-0916-41d7-917f-596dc7edfa27(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='404' fill='url(#85737c0e-0916-41d7-917f-596dc7edfa27)')
+          .text-center
+            h2.text-3xl.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')
+              | How can we help?
+            p.mt-4.text-lg.leading-6.text-gray-500
               | Always a human, never a bot. The hands-down, sharpest, and friendliest support team in the ed-tech world.
-            p.subheading.secondary-color.mt20.launchaco-builder-hoverable
+            p.mt-4.text-lg.leading-6.text-gray-500
               | Contact us and we’ll get back to you in 
               b 5 minutes 
               | or less
+          .mt-12
+            iframe(frameborder='0', height='1093', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLSe2M4aJua6lRpVA-LTVB_Z9uCpFNTVOZcmrZc77uhIGRBP2VA/viewform?embedded=true', title='Helperbird support fourm ', width='100%') Loading...
 
-    section.section.red-white#contactForm
-      .container.text-center
-        .col-12
-          h1.heading.primary-color.launchaco-builder-hoverable How can we help?
-          p.subheading.secondary-color.mt20.launchaco-builder-hoverable
-            a(href='https://www.youtube.com/channel/UCxTbxBMw8MTcsExcOdBBFQw/videos', rel='noopener', target='_blank') Watch tutorials
-            | ,read the help guides, or send us a message to get detailed help.
-      .container.mt40
-        iframe(frameborder='0', height='1093', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLSe2M4aJua6lRpVA-LTVB_Z9uCpFNTVOZcmrZc77uhIGRBP2VA/viewform?embedded=true', title='Helperbird support fourm ', width='100%') Loading...
-    
-    include includes/sections/support_videos.pug
-    
+
+
+
+
+
+    include includes/sections/contact_sales_support.pug          
     include includes/sections/questions.pug
-
+    include includes/sections/support_videos.pug
     include includes/layout/footer.pug

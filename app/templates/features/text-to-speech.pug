@@ -1,3 +1,4 @@
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -6,24 +7,24 @@ block seo
   - var url = 'text-to-speech'
   - var keywords = 'Styles, Change fonts and background colors for Google Chrome, Change fonts and background, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
+
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Listen to any part of your Webpages and Google Docs",'Navigation features')
-    +features_description("Sit back, press play, and have your news, emails, or news read aloud to you.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('rh4Ur2gdgio')
+  +features_title("Listen to any part of your Webpages and Google Docs","Sit back, press play, and have your news, emails, or news read aloud to you.")
+  +image_showoff('/assets/images/new/text-to-speech/text-to-speech.png')
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
 
-    +section('About',['Not sure how to pronounce a word? Highlight the word, and Helperbird will pronounce it out loud with the customizable text to speech options. ','Having a section of text like a paragraph spoken out to you in different dialects makes web pages more accessible.'])
 
-    +section('Features',['Advanced text to speech reader with a human-like voice. ',' Ultimate language and voice choice. ',' Supports web pages, documents and pdfs. Listen to your content from any device. ',' Over 40 different natual human voices. ',' Adjust pitch.',' Adjust volume.',' Adjust speed.'])
+  +section('About',['Not sure how to pronounce a word? Highlight the word, and Helperbird will pronounce it out loud with the customizable text to speech options. ','Having a section of text like a paragraph spoken out to you in different dialects makes web pages more accessible.'])
 
-    +section('How it helps?',['Many people have issues reading in a second language. Helperbird’s text to speech technology allows people to understand the information in a way that makes content easier to retain.','For visually impaired, blind, and people with attention difficulties, text to speech has proved to be a beneficial tool.','Provides a method for people to get information access without having to scroll for long.','Having a piece of information spoken out to you in different dialects makes web pages more accessible and improves users ability to multitask efficiently.'])
+  +section('Features',['Advanced text to speech reader with a human-like voice. ',' Ultimate language and voice choice. ',' Supports web pages, documents and pdfs. Listen to your content from any device. ',' Over 40 different natual human voices. ',' Adjust pitch.',' Adjust volume.',' Adjust speed.'])
 
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
+  +section('How it helps?',['Many people have issues reading in a second language. Helperbird’s text to speech technology allows people to understand the information in a way that makes content easier to retain.','For visually impaired, blind, and people with attention difficulties, text to speech has proved to be a beneficial tool.','Provides a method for people to get information access without having to scroll for long.','Having a piece of information spoken out to you in different dialects makes web pages more accessible and improves users ability to multitask efficiently.'])
+
+  

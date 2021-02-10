@@ -1,3 +1,6 @@
+
+
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -6,28 +9,25 @@ block seo
   - var url = 'styles'
   - var keywords = 'Styles, Change fonts and background colors for Google Chrome, Change fonts and background, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
+
+
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Styles & Colors",'Color features')
-    +features_description("Background and font colors help people with dyslexia focus and improve reading. All suggested colors included in Helperbird.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('K0qfFBytszE')
+  +features_title("Styles & Colors","Background and font colors help people with dyslexia focus and improve reading. All suggested colors included in Helperbird.")
+  +image_showoff('/assets/images/new/styles/styles.png')
+
+
 
 block features
-    include ../includes/mixins/features
-
-    +section('About',['Web page background and font colors help people with dyslexia focus and improve reading. Helperbird provides an easy, customizable method to change web page background and font colors.'])
-
-    +section('Features',['Change the font color to any color you want.','Change the background color of any page.','Change the color of any link, to highlight them.','Pick and choose the highlight color you want.'])
-
-    +section('How it helps?',['Improves reading and visual focus.','Allows customization of web content based on user learning and working needs.'])
+  include ../includes/mixins/features_new
 
 
+  +section('About',['Web page background and font colors help people with dyslexia focus and improve reading. Helperbird provides an easy, customizable method to change web page background and font colors.'])
 
-    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
+  +section('Features',['Change the font color to any color you want.','Change the background color of any page.','Change the color of any link, to highlight them.','Pick and choose the highlight color you want.'])
+
+  +section('How it helps?',['Improves reading and visual focus.','Allows customization of web content based on user learning and working needs.'])
 
 

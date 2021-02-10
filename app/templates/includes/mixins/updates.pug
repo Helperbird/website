@@ -1,21 +1,30 @@
-mixin updates_title(text)
-    h1.heading.primary-color.launchaco-builder-hoverable= text
+mixin updates_title(feature_type,text)
+  .text-lg.max-w-prose.mx-auto
+    h1
+      span.block.text-base.text-center.text-indigo-600.font-semibold.tracking-wide.uppercase Helperbird
+      span.mt-2.block.text-3xl.text-center.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= feature_type 
+    p.mt-8.text-xl.text-gray-500.leading-8.text-center= text
 
 mixin updates_description(text)
     h3.paragraph.paragraph_features.secondary-color.mt20.launchaco-builder-hoverable= text
 
-mixin updates_paragraph_title(text)
-    h2.mb20= text
+mixin updates_paragraph_title(title,text)
+    .text-lg.max-w-prose.mx-auto
+        .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
+            h2= title
+            p= text
+
 
 mixin updates_paragraph(text)
-    p.mb75= text
+    p= text
 
 mixin updates_button(text,link)
     a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.button-signup_two.text-center(href= link, target='_blank')
         span= text
 
 mixin updates_image(altText,imageUrl)
-    img.launchaco-builder-hoverable.width_100.mb40.mt40(alt= altText, loading="lazy", src= imageUrl)
+    figure.m-8
+        img.rounded-lg.mx-auto(alt= altText, loading="lazy", src= imageUrl, width="600")
 
 mixin updates_video(videoUrl)
 
@@ -24,14 +33,28 @@ mixin updates_video(videoUrl)
 
             source(src= videoUrl  type="video/mp4")
 
-mixin home_page_updateslist(text, link, description, group)
+mixin home_page_updateslist(text, link, description, group, author="Robert James",imageUrl, date="March 20t 2021", length="7min")
 
-    li.blog_list_item.updates_release
-        a.blog_list_item_link(href= '/updates/' + link , title= text)
-            div.blog_list_item_image.mb20.release-images= 'Helperbird ' + text 
-
-            h4.blog_list_item_title= 'Helperbird ' + text + ' release'
-            p.blog_list_item_paragraph.truncate-overflow= 'Release notes for version ' + description + ' of Helperbird. Discover whats new, whats fixed'
-        div.blog_list_item_footer
-            p.blog_list_item_footer_left=  group
-            
+    .flex.flex-col.rounded-lg.shadow-lg.overflow-hidden
+        .flex-shrink-0
+            img.h-48.w-full.object-cover(src= imageUrl alt='')
+        .flex-1.bg-white.p-6.flex.flex-col.justify-between
+            .flex-1
+                p.text-sm.font-medium.text-indigo-600
+                    a(href= '/updates/' + link , title= text class='hover:underline')=  group
+                a.block.mt-2(href= '/updates/' + link)
+                    p.text-xl.font-semibold.text-gray-900= text
+                    p.mt-3.text-base.text-gray-500
+            .mt-6.flex.items-center
+                .flex-shrink-0
+                    a(href= '/updates/' + link , title= text)
+                        span.sr-only= author
+                        img.h-10.w-10(src='/assets/images/pwa/logo/full.png' alt='')
+                .ml-3
+                    p.text-sm.font-medium.text-gray-900
+                        a(href= '/updates/' + link , title= text class='hover:underline')= author
+                    .flex.space-x-1.text-sm.text-gray-500
+                        time(datetime='2020-03-16')= date
+                        span(aria-hidden='true')
+                            | &middot;
+                        span=  length

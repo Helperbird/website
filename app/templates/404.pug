@@ -2,6 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Page Not Found | Helperbird
     meta(content='Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
     link(href='https://www.helperbird.com/404', rel='canonical')
@@ -240,18 +241,45 @@ html(lang='en')
       	           }
       	       }
       
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
+  body.bg-content-100
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable The page you’re looking for can’t be found.
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text Learn more about the history of Helperbird and our core values.
-            .mt40
-              button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(data-target='#downloadModal',role="button", title="Open Helperbird download options", data-toggle='modal', type='button')
-                span Download Helperbird
-                |  
-                span.its_free Its Free!
+    include includes/layout/navigation.pug
+    section.p-16
+      .container
+        .row
+          .col-sm-12
+            .col-sm-10.col-sm-offset-1.text-center
+              .four_zero_four_bg
+                h1.text-4xl.font-extrabold.text-gray-900.tracking-tight.text-center 404
+              .contant_box_404
+                p.mt-6.text-xl.text-gray-500
+                  | Look like you&apos;re lost
+                p.mt-6.text-xl.text-gray-500 the page you are looking for not avaible!
+                a.mt-6.inline-flex.px-4.py-2.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-600(href='/' class='hover:bg-indigo-700') 
+                  | Go to Home
+
+    style.
+
+
+        /*======================
+            404 page
+        =======================*/
+
+
+
+
+
+        .four_zero_four_bg{
+          background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+          height: 400px;
+          background-position: center;
+        }
+        
+        
+  
+
+
+
+
+    include includes/sections/cta_2.pug
     include includes/layout/footer.pug

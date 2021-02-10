@@ -9,35 +9,27 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 25.1.0")
-    +updates_description("See whats new in Helperbird 25.1.0")
+  +updates_title("What's new in Helperbird 25.1.0","See whats new in Helperbird 25.1.0")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
 
-    div.paragraph_features
-      +updates_paragraph_title("We added shortcuts!")
-      +updates_paragraph('Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-1/shortcut.png')
 
-    div.paragraph_features
-      +updates_paragraph_title("Improved Dyslexia ruler")
-      +updates_paragraph('We added a follow feature, meaning the dyslexia ruler can now follow your cursor as you read.')
 
-    div.paragraph_features
-      +updates_paragraph_title("Added improments to the Lexend fonts")
-      +updates_paragraph('All styles of lexend fonts are now fully supported and working across all sites.')
+  +updates_paragraph_title("We added shortcuts!",'Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-1/shortcut.png')
 
-    div.paragraph_features
-      +updates_paragraph_title("Added how to buttons!")
-      +updates_paragraph('Added learn more buttons across all features. So you can see how it works, see it in action and discover tips.')
 
-    div.paragraph_features
-      +updates_paragraph_title("Word spacing is now Free!")
-      +updates_paragraph('We listend, word spacing is now free to everyone. Hope you enjoy.')
+  +updates_paragraph_title("Improved Dyslexia ruler",'We added a follow feature, meaning the dyslexia ruler can now follow your cursor as you read.')
 
-    div.paragraph_features
-      +updates_paragraph_title("The app is now 45% smaller and faster")
-      +updates_paragraph('Better, faster and quicker helperbird.')
+
+  +updates_paragraph_title("Added improments to the Lexend fonts",'All styles of lexend fonts are now fully supported and working across all sites.')
+
+
+  +updates_paragraph_title("Added how to buttons!",'Added learn more buttons across all features. So you can see how it works, see it in action and discover tips.')
+
+
+  +updates_paragraph_title("Word spacing is now Free!",'We listend, word spacing is now free to everyone. Hope you enjoy.')
+
+
+  +updates_paragraph_title("The app is now 45% smaller and faster",'Better, faster and quicker helperbird.')
 

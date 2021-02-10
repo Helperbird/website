@@ -7,29 +7,19 @@ block seo
   - var keywords = 'Helperbird keyboard shortcuts,Ad Blocker, Adjust letters and words with Helperbird, Adjust letters and words, Adjust letters and words, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Helperbird keyboard shortcuts!",'App features')
-    +features_description("Learn keyboard shortcuts and become a pro at using Helperbird.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('R-ZoDsYBR7o')
+  +features_title("Helperbird keyboard shortcuts!","Learn keyboard shortcuts and become a pro at using Helperbird.")
+  +image_showoff('/assets/images/new/shortcuts/shortcuts.png')
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
+
+  +section('About',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
+
+  +section('Features',['Enable Immersive Reader with a custom shortcut. ','Enable  Reader Mode with a custom shortcut. ','Enable  Text to speech with a custom shortcut.','Enable  OCR with a custom shortcut.'])
 
 
-    +section('About',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
-
-    +section('Features',['Enable Immersive Reader with a custom shortcut. ','Enable  Reader Mode with a custom shortcut. ','Enable  Text to speech with a custom shortcut.','Enable  OCR with a custom shortcut.'])
-
-
-
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-
-
-
-            

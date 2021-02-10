@@ -1,0 +1,68 @@
+mixin features_title(feature_type = 'Helperbird feature',text)
+  .relative
+    .mt-16.mx-auto.max-w-7xl.px-4(class='sm:mt-24 sm:px-6')
+      .text-center
+        h1.text-4xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-5xl md:text-6xl')
+          span.block= feature_type 
+        p.mt-3.max-w-md.mx-auto.text-base.text-gray-500(class='sm:text-lg md:mt-5 md:text-xl md:max-w-3xl')= text
+        .mt-5(class='sm:mt-8 sm:flex justify-center lg:justify-center')
+          .rounded-md.shadow
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
+              | Try for Free
+          .mt-3(class='sm:mt-0 sm:ml-3')
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-700.bg-indigo-100(href='/features' class='hover:bg-indigo-200 md:py-4 md:text-lg md:px-10')
+              | Live demo
+
+
+mixin  image_showoff(default_image = '/assets/images/new/immersive-reader-for-chrome/immersive-reader-for-chrome.png' )
+  .relative.mt-8
+    .absolute.inset-0.flex.flex-col(aria-hidden='true')
+      .flex-1
+      .flex-1.w-full.bg-gray-800
+    .max-w-7xl.mx-auto.px-4.pb-16(class='sm:px-6')
+      img.relative.rounded-lg(src= default_image alt='App screenshot')
+
+
+
+
+
+
+mixin section(title, features,buttons=false)
+
+  .py-16.bg-gray-50.overflow-hidden
+    .max-w-7xl.mx-auto.px-4.space-y-8(class='sm:px-6 lg:px-8')
+      .text-base.max-w-prose.mx-auto(class='lg:max-w-none')
+        h2.text-base.text-indigo-600.font-semibold.tracking-wide.uppercase 
+        p.mt-2.text-3xl.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= title
+      .relative.z-10.text-base.max-w-prose.mx-auto(class='lg:max-w-5xl lg:mx-0 lg:pr-72')
+
+        each val in features
+          p.text-lg.text-gray-500= val
+
+      div(class='lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start')
+        .relative.z-10
+          .prose.prose-indigo.text-gray-500.mx-auto(class='lg:max-w-none')
+            each val in features
+              p= val
+
+          if button = false
+            .mt-10.flex.text-base.max-w-prose.mx-auto(class='lg:max-w-none')
+              .rounded-md.shadow
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/sales' class='hover:bg-indigo-700')
+                  | Contact sales
+              .rounded-md.shadow.ml-4
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='/features' class='hover:bg-gray-50')
+                  | Learn more
+
+
+
+
+       
+                
+        .mt-12.relative.text-base.max-w-prose.mx-auto(class='lg:mt-0 lg:max-w-none')
+          svg.absolute.top-0.right-0.-mt-20.-mr-20(class='lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20' width='404' height='384' fill='none' viewbox='0 0 404 384' aria-hidden='true')
+            defs
+              pattern#bedc54bc-7371-44a2-a2bc-dc68d819ae60(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)')
+

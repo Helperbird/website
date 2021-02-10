@@ -7,29 +7,19 @@ block seo
   - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
-
-    +features_title(" Specialised Dyslexic Fonts",'Dyslexia features')
-    +features_description("Helperbird allows users to enable specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Arial, Comic Sans, and more. Users can also zoom font on a web page to help with reading and focus.")
-    +download_button()
+  include ../includes/mixins/features_new
 
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('R-ZoDsYBR7o')
+  +features_title("Specialised Dyslexic Fonts","Helperbird allows users to enable specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Arial, Comic Sans, and more. Users can also zoom font on a web page to help with reading and focus.")
+  +image_showoff('/assets/images/new/dyslexia-font/dyslexia-font.png')
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
 
+  +section('About',['Helperbird allows users to enable specialized web fonts for dyslexics and others.','Convert the font on websites to use OpenDyslexic, Arial, Comic Sans, and more. ',' Users can also zoom font on a web page to help with reading and focus.'])
 
+  +section('What fonts can I use?',['Arial','Cosmic Sans','OpenDyslexic','Tahoma','Verdana','Gothic','Lexend','Trebuchet','Bookman','Courier','Georgia','Gothic','Helvetica','Impact','Times','Lexend'])
 
-    +section('About',['Helperbird allows users to enable specialized web fonts for dyslexics and others.','Convert the font on websites to use OpenDyslexic, Arial, Comic Sans, and more. ',' Users can also zoom font on a web page to help with reading and focus.'])
-
-    +section('What fonts can I use?',['Arial','Cosmic Sans','OpenDyslexic','Tahoma','Verdana','Gothic','Lexend','Trebuchet','Bookman','Courier','Georgia','Gothic','Helvetica','Impact','Times','Lexend'])
-
-
-
-
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
 

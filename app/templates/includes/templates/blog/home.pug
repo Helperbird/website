@@ -140,18 +140,23 @@ html(lang='en')
 			}
 
 
-	body.font-friendly(style="background-color:#f8f8f9")
+	body.antialiased.font-sans.bg-gray-200
 
-		.lightblue-gradient
-			include ../../layout/navigation.pug
-			section.section_header
-				.container-lrg.flex
-				
 
-		.container-lrg.flex.mb75.mt75
+		include ../../layout/navigation.pug
 
-			ul.grid__item.grid__item--large.grid__item--mobile-large.style_none.featured_sign.blog_middle_small
-				block list
+		.relative.bg-gray-50.pt-16.pb-20.px-4(class='sm:px-6 lg:pt-24 lg:pb-28 lg:px-8')
+			.absolute.inset-0
+				.bg-white(class='h-1/3 sm:h-2/3')
+			.relative.max-w-7xl.mx-auto
+				.text-center
+					h2.text-3xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-4xl')
+						| From the blog
+					p.mt-3.max-w-2xl.mx-auto.text-xl.text-gray-500(class='sm:mt-4')
+						| Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
+				.mt-12.max-w-lg.mx-auto.grid.gap-5(class='lg:grid-cols-3 lg:max-w-none')
+			
+					block list
 
 
 		include ../../layout/footer.pug

@@ -8,14 +8,7 @@ block seo
 
 block content
   include includes/mixins/common
-  .flex.flex-column.col-8.text-center.middle-center
-
-    +features_title("Privacy Policy",'')
-    +features_description("Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.")
-
-
-block features
-  include includes/mixins/common
+  +features_title("Privacy Policy","Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.")
 
   +section('Overview',
     [
@@ -44,14 +37,6 @@ block features
     'We don’t process that information at all and have no access to it.'
     ])
 
-
-  +section('Highlights',
-    [
-    'We don`t track nor do we store data anywhere but locally in your machine. We don`t use Google analytics or any third-party app.',
-    'User data will never be used commercial purposes. (We don`t do tracking nor store anything)',
-    'All data stored locally is for users` settings and education purposes.',
-    'We ask for your email to check it in Stripe if you have paid.'
-    ])
 
   +section('Data breach plan',
     [

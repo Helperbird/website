@@ -1,4 +1,4 @@
-async function load() {
+ function load() {
 
     const youtubeLazyLoad = document.querySelectorAll(".youtube_lazy_load");
 

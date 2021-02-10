@@ -7,27 +7,24 @@ block seo
   - var url = 'speech-to-text'
   - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
-block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
 
-    +features_title("Dictate on any site with Helperbirds speech to text",'Navigation features')
-    +features_description("Instead of typing, you can speak and Helperbird will turn your speech to text.")
-    +download_button()
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('rh4Ur2gdgio')
+
+block content
+  include ../includes/mixins/features_new
+
+
+  +features_title("Dictate on any site with Helperbirds speech to text","Instead of typing, you can speak and Helperbird will turn your speech to text.")
+  +image_showoff('/assets/images/new/speech-to-text/speech-to-text.png')
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
+
+
+  +section('About',['Speak out to the microphone, and your speech is captured and displayed in a text format with Helperbirds speech to text. Captured text can then be saved into Helperbird notes or shared with other forms of media.','Not everyone who struggles with writing has poor grammar or vocabulary. Some have trouble getting ideas together and planning how to put them into written form. Speech to text provides an alternative for people struggling to express their ideas in a written format.'])
+
+  +section('Features',['Save recorded text to notes.','Use Helperbird speech to text to compose emails with ease in Gmail, Outlook, and, other popular email sites.','Fewer errors – provides an accurate and reliable method of documentation.','Helps to save time with increased efficiency and less paperwork to worry about.','Go hands free and type with your voice. Get our thoughts out and take a quick pass in the end to fix mistakes.','Practice language pronunciation using our speech to text engine. Helperbird supports 40+ languages.'])
 
 
 
-    +section('About',['Speak out to the microphone, and your speech is captured and displayed in a text format with Helperbirds speech to text. Captured text can then be saved into Helperbird notes or shared with other forms of media.','Not everyone who struggles with writing has poor grammar or vocabulary. Some have trouble getting ideas together and planning how to put them into written form. Speech to text provides an alternative for people struggling to express their ideas in a written format.'])
-
-    +section('Features',['Save recorded text to notes.','Use Helperbird speech to text to compose emails with ease in Gmail, Outlook, and, other popular email sites.','Fewer errors – provides an accurate and reliable method of documentation.','Helps to save time with increased efficiency and less paperwork to worry about.','Go hands free and type with your voice. Get our thoughts out and take a quick pass in the end to fix mistakes.','Practice language pronunciation using our speech to text engine. Helperbird supports 40+ languages.'])
-
-
-
-    +watch_it_in_action('rh4Ur2gdgio')
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')

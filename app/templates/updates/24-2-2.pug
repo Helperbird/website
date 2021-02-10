@@ -9,19 +9,15 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 24.2.2")
-    +updates_description("See whats new in Helperbird 24.2.2")
+  +updates_title("What's new in Helperbird 24.2.2","See whats new in Helperbird 24.2.2")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("We rebuilt our notes app. Including a new editor!")
-      +updates_paragraph('Features include a new WYSIWYG editor.')
-      +updates_paragraph('Save and import images, videos and audio files.')
-      +updates_paragraph('Improved search!')
-      +updates_paragraph('View edit labels and links.')
-      +updates_paragraph('Coming soon, export to evernote, word and Google Docs.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-1.png')
-      +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-2.png')
-      +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-3.png')
+  
+  +updates_paragraph_title("We rebuilt our notes app. Including a new editor!",'Features include a new WYSIWYG editor.')
+  +updates_paragraph('Save and import images, videos and audio files.')
+  +updates_paragraph('Improved search!')
+  +updates_paragraph('View edit labels and links.')
+  +updates_paragraph('Coming soon, export to evernote, word and Google Docs.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-1.png')
+  +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-2.png')
+  +updates_image('Save notes from around the web.','/assets/images/updates/24-2-2/notes-3.png')

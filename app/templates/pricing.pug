@@ -2,6 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Helperbird Pricing | Helperbird
     link(href='https://www.helperbird.com/pricing', rel='canonical')
     meta(content='Subscription Pricing for Helperbird, Helperbird Pricing, Subscription Pricing, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
@@ -147,12 +148,11 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
+  body.bg-content-100
   
-    .lightblue-gradient#pricing
-      include includes/layout/navigation.pug
+    include includes/layout/navigation.pug
 
-    include includes/pricing/pricing.pug
-
+    include includes/pricing/pricing_table.pug
     include includes/sections/questions.pug
+
     include includes/layout/footer.pug

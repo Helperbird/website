@@ -9,14 +9,9 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("Welcome to the November patch update!  🦃 🍂")
-    +updates_description("The November month continues with our latest Helperbird update with exciting features and changes.")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
+  +updates_title("Welcome to the November patch update!  🦃 🍂","The November month continues with our latest Helperbird update with exciting features and changes.")
 
-    div.paragraph_features
-      +updates_paragraph_title("Network bug fixed")
-      +updates_paragraph('There was an issue where we were making an unneeded api call. This is now fixed.')
+
+  +updates_paragraph_title("Network bug fixed",'There was an issue where we were making an unneeded api call. This is now fixed.')

@@ -243,96 +243,74 @@ block seo
 
 
 
+
+
+
+
 block header
-  include ../includes/mixins/blog
+  include ../includes/mixins/compare
+
+  +compare_title("Helperbird vs Snap & Read","See why over 300,000 of people choose Helperbird over Snap & Read to give them more accessibility over their work.")
+  +image_showoff()
 
 
 
-  .container-lrg.flex.mobile-col-flex-12.mt200
-
-
-
-    .col-6.mobile-col-12.center-vertical.mobile-text-center
-      h1.heading.primary-color.launchaco-builder-hoverable.heading_compare
-        | Helperbird vs
-        | Snap & Read
-      h3.subheading.secondary-color.mt20.launchaco-builder-hoverable
-        | See why over 300,000 of people choose Helperbird over Snap & Read to give them more accessibility over their work.
-      .mt40
-        a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(href='/pricing', title="Visit pricing")
-          span  Try now for free
-
-        a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
-          span Watch it in action
-
-
-
-    .col-6.flex.flex-column.text-center.mobile-col-12
-
-      .browser.mt40.launchaco-builder-hoverable
-
-        video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
-          source(src="/assets/videos/home.webm" type="video/webm")
-          source(src="/assets/videos/home.mp4" type="video/mp4")
-
-  section.section
-    .container-lrg
-      .flex.center-horizontal.wrap.center-vertical
-
-        .col-2.mobile-col-6
-          a(href='https://www.softpedia.com/get/Office-tools/Text-editors/Helperbird.shtml', rel='noreferrer', target='_blank', title='Link to Softpedia')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of Softpedia', src='/assets/images/logo/softpedia.png', loading='lazy')
-        .col-2.mobile-col-6
-          a(href='http://techtalk.stratford.edu/2019/11/23/show-of-11-23-2019/', rel='noreferrer', target='_blank', title='Link to stratford techtalk')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of stratford techtalk', src='/assets/images/logo/logo_pentahoV2.png', loading='lazy')
-        .col-2.mobile-col-6
-          a(href='https://educationblog.microsoft.com/en-us/2020/01/live-from-bett-whats-new-in-edu-fostering-an-accessible-inclusive-classroom-that-works-for-all-students/', rel='noreferrer', target='_blank', title='Link to Microsoft')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of Microsoft', src='/assets/images/logo/microsoft.png', loading='lazy')
-        .col-2.mobile-col-6
-          a(href='https://www.ucc.ie', rel='noreferrer', target='_blank', title='Link to Ucc college work.')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of UCC', src='/assets/images/logo/ucc.png', loading='lazy')
-        .col-2.mobile-col-6
-          a(href='https://www.utoronto.ca/', rel='noreferrer', target='_blank', title='Link to Toronto college work.')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/toronto.png', loading='lazy')
-        .col-2.mobile-col-6
-          a(href='https://www.usfca.edu/', rel='noreferrer', target='_blank', title='Link to San Francisco college')
-            img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/san.png', loading='lazy')
 
 block content
-  section.red-white
-    .col-12.flex.flex-column.pad30.mt40
-      .mb20
-        h3.heading.text-center What you can expect with Helperbird
-        .container.mt40.force-flex
 
-          .table-responsive
-            table.table-striped.table.table-borderless
-              thead
+
+  section
+
+
+    .max-w-7xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8')
+      .text-center
+        h2.text-base.font-semibold.text-indigo-600.tracking-wide.uppercase Compare
+        p.mt-1.text-4xl.font-extrabold.text-gray-900(class='sm:text-5xl sm:tracking-tight lg:text-6xl') What you can expect with Helperbird
+        p.max-w-xl.mt-5.mx-auto.text-xl.text-gray-500
+          | Over 300,000 use Helperbird every day. Allowing them to be more accessible and productive on the web.
+
+
+    .flex.flex-col
+      .-my-2.overflow-x-auto(class='sm:-mx-6 lg:-mx-8')
+        .py-2.align-middle.inline-block.min-w-full(class='sm:px-6 lg:px-8')
+          .shadow.overflow-hidden.border-b.border-gray-200(class='sm:rounded-lg')
+            table.w-full.divide-y.divide-gray-200
+              thead.bg-gray-50
                 tr
-                  td.text-left(style="width:60%")
-                    h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.press_logos_title Features
-                  td.text-center
+                  th.px-6.py-3.text-left.text-xs.font-medium.text-gray-500.uppercase.tracking-wider(scope='col')
+                    | Features
+                  th.px-6.py-3.text-left.text-xs.font-medium.text-gray-500.uppercase.tracking-wider(scope='col')
                     img(alt='Helperbird Logo', src='/assets/images/pwa/logo/full.png',width="60px")
-                  td.text-center
+                  th.px-6.py-3.text-left.text-xs.font-medium.text-gray-500.uppercase.tracking-wider(scope='col')
                     img(alt='Helperbird Logo', src='https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe',width="60px")
 
-              tbody
+              tbody.bg-white.divide-y.divide-gray-200
                 each val in table_points
-
                   tr
-                    th.text-left(scope="col") #{val.feature}
-                    td.text-center()
+                    td.px-6.py-4.whitespace-nowrap
+                      .text-gray-900 #{val.feature}
+                    td.px-6.py-4.whitespace-nowrap.text-center
                       if val.helperbird
-                        p.pricing_icon
-                          i.fas.fa-check-circle
+                        .text-gray-900.text-center
+                          svg(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='green')
+                            path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z')
+
                       else
-                        p.pricing_icon
-                          i.fas.fa-times-circle
-                    td.text-center()
+                        .text-gray-900.text-center
+                          svg(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                            path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+                    td.px-6.py-4.whitespace-nowrap.text-center
                       if val.other
-                        p.pricing_icon
-                          i.fas.fa-check-circle
+                        .text-gray-900.text-center
+                          svg(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='green')
+                            path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z')
+
                       else
-                        p.pricing_icon
-                          i.fas.fa-times-circle
+                        .text-gray-900.text-center
+                          svg(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                            path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+      
+
 

@@ -9,17 +9,15 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 25.0.1")
-    +updates_description("See whats new in Helperbird 25.0.1")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
+  +updates_title("What's new in Helperbird 25.0.1","See whats new in Helperbird 25.0.1")
 
-    div.paragraph_features
-      +updates_paragraph_title("We added shortcuts!")
-      +updates_paragraph('Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
-      +updates_image('Save notes from around the web.','/assets/images/updates/25-0-1/shortcut.png')
+  
+
+
+  +updates_paragraph_title("We added shortcuts!",'Check them out, enable Reader Mode, text to speech, Immersive reader, ORC all in a click.')
+  +updates_image('Save notes from around the web.','/assets/images/updates/25-0-1/shortcut.png')
 
 
   

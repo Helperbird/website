@@ -132,21 +132,9 @@ html(lang='en')
 				}
 				}
 
-	body.font-friendly
-		.lightblue-gradient
-			include ../includes/layout/navigation.pug
-			section.section_header.section_header_compare
-
-				.container-xlrg.flex.mt200
-					.flex.flex-column.col-10.text-center.middle-center
-						h1.heading.primary-color.launchaco-builder-hoverable Understand Helperbird's award winning features
-						.flex.flex-column.col-10.text-center.middle-center
-							h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text.white
-								| Helperbird is more than just a accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are more productive and better organized thanks to our accessibility features. Users communicate better. And they’re far more efficient than before. Here’s how Helperbird makes it happen.
-
-
-		include ../includes/features/list_wide.pug	
-		include ../includes/features/boxes_wide.pug
+	body.bg-content-300
+		include ../includes/layout/navigation.pug
+		include ../includes/sections/features_header.pug
 		include ../includes/sections/support_videos.pug
 		include ../includes/sections/questions.pug
 		include ../includes/layout/footer.pug

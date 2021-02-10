@@ -7,29 +7,31 @@ block seo
   - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/blog
-  .col-12.text-center
-
-    +blog_title("How to install and set up Helperbird")
-    +blog_description("Your step by step guide on how to install and set up Helperbird.")
-
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    .mb20
-      +blog_paragraph("First you need to visit a(href='https://www.helperbird.com', target='_blank') Helperbird.com")
-      +blog_image('Step one of how to install Helperbird on G Suite',  '/assets/images/blog/setup/setup_1.png')
-      +blog_paragraph("Then click the download button on the top right of the page.")
-      +blog_paragraph("Then select the Google Chrome button.")
-
-      +blog_image('Step two of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_2.png')
+  include ../includes/mixins/support
 
 
-      +blog_paragraph("You will see the page below. Click the `add to Chrome` button.")
-
-      +blog_image('Step three of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_3.png')
+  +support_title("How to install and set up Helperbird","Your step by step guide on how to install and set up Helperbird.")
 
 
-      +blog_paragraph(" You will then see the below popup. Click add extension button.")
 
-      +blog_image('Step four of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_4.png')
+  +section('',['First you need to visit Helperbird.com'])
+  +support_image('Step one of how to install Helperbird on G Suite',  '/assets/images/blog/setup/setup_1.png')
+  +section('',["Then click the download button on the top right of the page.","Then select the Google Chrome button."])
 
-      +blog_paragraph("Woo, you have Helperbird installed.")
+  +support_image('Step two of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_2.png')
+
+
+  +section('',["You will see the page below. Click the `add to Chrome` button."])
+
+  +support_image('Step three of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_3.png')
+
+
+  +section('',[" You will then see the below popup. Click add extension button."])
+
+  +support_image('Step four of how to install Helperbird on G Suite', '/assets/images/blog/setup/setup_4.png')
+
+  +section('',["Woo, you have Helperbird installed."])
+
+
+
+

@@ -6,19 +6,29 @@ block seo
   - var url = 'color-blindness'
   - var keywords = 'Color blindness support for Google Chrome,Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
+
+
+
+
+
+
+
+
+
+
+
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Color blindness support",'Display features')
-    +features_description("Fortunately, on computers we have full control over the presentation of colors, which means there are various ways of addressing the issue, thanks to Helperbird.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('9qES8eBGxBg')
+  +features_title("Color blindness support","Fortunately, on computers we have full control over the presentation of colors, which means there are various ways of addressing the issue, thanks to Helperbird.")
+  +image_showoff('/assets/images/new/color-blindness/color-blindness.png')
+
+
 
 block features
-    include ../includes/mixins/features
+    include ../includes/mixins/features_new
+
 
 
 
@@ -28,11 +38,4 @@ block features
 
 
     +section(' How it helps',['Dyslexics find websites text easier to read with dyslexia friendly colors.','Users can choose to customize their web page colors for personal preference.'])
-
-    +upsell('Free feature','For more information on Helperbird Pro version click the button below.','See pricing')
-
-
-
-
-
 

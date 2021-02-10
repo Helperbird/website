@@ -9,18 +9,16 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 28.0.2")
-    +updates_description("See whats new in Helperbird 28.0.2")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Updates")
-      +updates_paragraph('No more save button, everything changes in real time.')
-      +updates_paragraph('Pin your favorite features to the top.')
-      +updates_paragraph('Blocklist is now working again.')
-      +updates_paragraph('Immersive reader the full page.')
-      +updates_paragraph('Change the color of Helperbird.')
-      +updates_paragraph('15% faster and quicker.')
-      +updates_paragraph('Thank you for the feedback.')
+  +updates_title("What's new in Helperbird 28.0.2","See whats new in Helperbird 28.0.2")
+
+
+
+  +updates_paragraph_title("Updates",'No more save button, everything changes in real time.')
+  +updates_paragraph('Pin your favorite features to the top.')
+  +updates_paragraph('Blocklist is now working again.')
+  +updates_paragraph('Immersive reader the full page.')
+  +updates_paragraph('Change the color of Helperbird.')
+  +updates_paragraph('15% faster and quicker.')
+  +updates_paragraph('Thank you for the feedback.')

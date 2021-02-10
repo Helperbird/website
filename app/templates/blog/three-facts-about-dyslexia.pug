@@ -7,28 +7,38 @@ block seo
   - var url = 'three-facts-about-dyslexia'
   - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
+
 block content
-  include ../includes/mixins/blog
-  .col-12.text-center
+  include ../includes/mixins/support
 
-    +blog_title("3 Facts about Dyslexia and 1 Fact about Cats")
-    +blog_description("By Helperbird Staff")
+  +support_title("3 Facts about Dyslexia and 1 Fact about Cats","By Helperbird Staff")
+ 
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    .mb20
-      +blog_paragraph_title("Fact one")
-      +blog_paragraph('Despite popular belief, dyslexics do not see letters backwards. They often have difficulty naming and writing letters, and in fact, writing letters backwards is something that many kids do when they’re first learning to write, whether they have dyslexia or not.')
-      +blog_image('Have a good day','/assets/images/blog/extra/crash-the-cat.png')
-    .mb20
-      +blog_paragraph_title("Fact two")
-      +blog_paragraph('Most dyslexics often have a better use of their right brain.')
+  +section('Fact one',
+    [
+      'Despite popular belief, dyslexics do not see letters backwards. They often have difficulty naming and writing letters, and in fact, writing letters backwards is something that many kids do when they’re first learning to write, whether they have dyslexia or not.'
+    ]
+  )
+
+  +section('Fact two',
+    [
+      'Most dyslexics often have a better use of their right brain.'
+    ]
+  )
+
+  +section('Fact three',
+    [
+      'Dyslexics score significantly higher on test when they are given the test orally.'
+    ]
+  )
+
+  +section('Bonus cat fact',
+    [
+      'There are over 500 million domestic cats in the world. And and estimated 700 million Dyslexics. So if you ever are feeling alone just know that there’s at least 6 million 9 hundred thousand nine hundred and ninety nine other people like you and plenty of kitties to cuddle.'
+    ]
+  )
+
+
+
+
     
-    .mb20
-      +blog_paragraph_title("Fact three")
-      +blog_paragraph('Dyslexics score significantly higher on test when they are given the test orally.')
-
-    .mb20
-    
-      +blog_paragraph_title("Bonus cat fact")
-      +blog_paragraph('There are over 500 million domestic cats in the world. And and estimated 700 million Dyslexics. So if you ever are feeling alone just know that there’s at least 6 million 9 hundred thousand nine hundred and ninety nine other people like you and plenty of kitties to cuddle.')
-

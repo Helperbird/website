@@ -1,4 +1,9 @@
 
+
+
+
+
+
 extends ../includes/templates/features/post.pug
 
 block seo
@@ -8,30 +13,18 @@ block seo
   - var keywords = 'Dictionary app by Helperbird for Google Chrome, Dictionary app, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Dictionary lookup",'App features')
-    +features_description(" With one right click of a mouse, users can discover what any English word means. Including in search results are synonyms and related words.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('etJBvXGUI58')
+  +features_title("Dictionary lookup"," With one right click of a mouse, users can discover what any English word means. Including in search results are synonyms and related words.")
+  +image_showoff('/assets/images/new/dictionary/dictionary.png')
+
+
 
 block features
-    include ../includes/mixins/features
+  include ../includes/mixins/features_new
 
 
+  +section('About',['Helperbird Dictionary feature allows you to quickly lookup and research definitions of words and phrase. ','The definitions come from Wiktionary but have been preprocessed to reduce formatting and provide faster lookup. ','Open to the dictionary entry of that word, usually including examples, audio pronunciation, and synonyms.','Helperbird provides online English dictionary that is clean and easily accessible for explaining any English word they found on a web page.','ith two right clicks of a mouse, users can discover what a word in English means. Included in the search results are synonyms, related words and the primary meaning of the word.'])
 
-    +section('About',['Helperbird Dictionary feature allows you to quickly lookup and research definitions of words and phrase. ','The definitions come from Wiktionary but have been preprocessed to reduce formatting and provide faster lookup. ','Open to the dictionary entry of that word, usually including examples, audio pronunciation, and synonyms.','Helperbird provides online English dictionary that is clean and easily accessible for explaining any English word they found on a web page.','ith two right clicks of a mouse, users can discover what a word in English means. Included in the search results are synonyms, related words and the primary meaning of the word.'])
-
-    +section('Features',[ 'Helps to search the meaning of an English word with ease.','Provides with a fast, clean designed, and add free user interface.','Included in the search results are synonyms, related words and the primary meaning of the word.','View definitions easily as you browse the web.'])
-
-    +video_showoff('etJBvXGUI58')
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-
-
-
-
-
+  +section('Features',[ 'Helps to search the meaning of an English word with ease.','Provides with a fast, clean designed, and add free user interface.','Included in the search results are synonyms, related words and the primary meaning of the word.','View definitions easily as you browse the web.'])

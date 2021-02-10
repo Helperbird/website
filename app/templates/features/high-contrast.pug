@@ -7,25 +7,20 @@ block seo
   - var keywords = 'Enable high contrast in Google Chrome, high contrast in Google Chrome,high contrast in Google Chrome, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-  include ../includes/mixins/features
-  .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-    +features_title("Enable High contrast mode on any website or app",'Display features')
-    +features_description("High Contrast mode by Helperbird allows you to invert every color on the page, to be high contrast.")
-    +download_button()
 
-  .col-6.flex.flex-column.text-center.mobile-col-12
-    +video_showoff('ogS5qh2rhmk')
+  +features_title("High contrast","High Contrast mode by Helperbird allows you to invert every color on the page, to be high contrast.")
+  +image_showoff('/assets/images/new/invert/invert.png')
+
+
 
 block features
-    include ../includes/mixins/features
+
+  include ../includes/mixins/features_new
+  +section('About',['High Contrast mode by Helperbird allows you to invert every color on the page. High Contrast lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.'])
+
+  +section('Why use it?',['Switch the colors on the page to be high contrast.','High contrast helps you distinguish between items and text on your screen.'])
 
 
 
-
-    +section('About',['High Contrast mode by Helperbird allows you to invert every color on the page. High Contrast lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.'])
-
-    +section('Why use it?',['Switch the colors on the page to be high contrast.','High contrast helps you distinguish between items and text on your screen.'])
-
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')

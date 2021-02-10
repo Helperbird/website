@@ -7,22 +7,15 @@ block seo
     - var keywords = 'Blocklist & blacklist for Helperbird, Blocklist & blacklist, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-    include ../includes/mixins/features
-    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-        +features_title("Blocklist",'App features')
-        +features_description("Disable Helperbird from running on certain sites.")
-        +download_button()
-    .col-6.flex.flex-column.text-center.mobile-col-12
-        +video_showoff('aXXRSenvTTg')
+
+  +features_title("Blocklist","Disable Helperbird from running on certain sites.")
+
+
 
 block features
-    include ../includes/mixins/features
+    include ../includes/mixins/features_new
 
 
     +section('About',['Use the Blocklist feature to excluded Helperbird from running on chosen websites. Exclude as many websites as you wish from running Helperbird.','Some websites already have built-in accessibility sufficient enough for the user needs. In this case, users can choose to opt-out Helperbird form running on those websites.'])
-
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-
-
- 

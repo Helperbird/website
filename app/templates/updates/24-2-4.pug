@@ -9,17 +9,13 @@ block seo
 
 block content
   include ../includes/mixins/updates
-  .col-12.text-center
 
-    +updates_title("What's new in Helperbird 24.2.4")
-    +updates_description("See whats new in Helperbird 24.2.4")
+  +updates_title("What's new in Helperbird 24.2.4","See whats new in Helperbird 24.2.4")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    div.paragraph_features
-      +updates_paragraph_title("Updates")
-      +updates_paragraph('Improved settings page')
-      +updates_paragraph('See what email your signed into as.     ')
-      +updates_paragraph('Redesigned settings page to be easier and more useful.')
-      +updates_paragraph('Updated Bookmarks app')
-      +updates_paragraph('Updated the bookmarks app to be eaiser to search.')
+
+  +updates_paragraph_title("Updates",'Improved settings page')
+  +updates_paragraph('See what email your signed into as.     ')
+  +updates_paragraph('Redesigned settings page to be easier and more useful.')
+  +updates_paragraph('Updated Bookmarks app')
+  +updates_paragraph('Updated the bookmarks app to be eaiser to search.')
 

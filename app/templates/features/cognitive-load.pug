@@ -7,25 +7,20 @@ block seo
     - var keywords = 'Read faster and more accurately with Helperbird,Read faster, cognitive load feature, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-    include ../includes/mixins/features
-    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
+  include ../includes/mixins/features_new
 
-        +features_title("Cognitive Load",'Display features')
-        +features_description("Underlining of web page text leads to improved reading focus and memory retention rate. Using granular colors that underline text, users can find reading more comfortable and fun.")
-        +download_button()
 
-    .col-6.flex.flex-column.text-center.mobile-col-12
-        +video_showoff('aXXRSenvTTg')
+  +features_title("Cognitive Load","Underlining of web page text leads to improved reading focus and memory retention rate. Using granular colors that underline text, users can find reading more comfortable and fun.")
+  +image_showoff('/assets/images/new/cognitive-load/cognitive-load.png')
+
+
 
 block features
-    include ../includes/mixins/features
+    include ../includes/mixins/features_new
 
     +section('About',['Have you ever found yourself getting lost when reading a wall of text?','It turns out your eyes often struggle to navigate from line to line, from paragraph to paragraph.','Helperbirds cognitive load feature helps by using a simple cognitive trick. Making reading more comfortable, easier, and quicker for a lot of users.','This is done by using a granular colored pattern across each sentence and text on the page.'])
 
     +section('How it helps?',[ 'With continued increase in daily information intake, especially from smartphone use, people are more exposed to experiencing a high cognitive load, which leads to a reduction in work and academic success.','Helperbird provides cognitive load help by underlining web page text in a granular colored pattern, which helps to reduce reading stress and improve focus.','Helps users to stay focused on the web page they are reading.','Helps to improve reading speed.','Can improve memory retention of the information being read.'])
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-
-
 
 
 

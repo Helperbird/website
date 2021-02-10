@@ -2,6 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Survey | Helperbird
     link(href='https://www.helperbird.com/survey', rel='canonical')
     meta(content='Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
@@ -150,19 +151,35 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
+  body.bg-content-100
 
-        .container-lrg.flex.mt200.mt40
-          .flex.flex-column.col-12.text-center
-            h1.heading.primary-color.launchaco-builder-hoverable Sorry to see you leave.
-            h3.paragraph.secondary-color.mt20.launchaco-builder-hoverable Help us improve Helperbird, by telling us how we can improve.
-            .mt40
+    include includes/layout/navigation.pug
+    main
 
-    section.section.red-white#contactForm
-      .container.mt40
-        .col-12
-          iframe(alt='Main menu', frameborder='0', height='1006', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLSfVV9TpEzPym1hHXloM80Jf4NgzfjpFCHZY6bNFdhdJyW-Xtg/viewform?embedded=true', title='Helperbird survey fourm ', width='100%') Loading...
+      .bg-white.py-16.px-4.overflow-hidden(class='sm:px-6 lg:px-8 lg:py-24')
+        .relative.max-w-xl.mx-auto
+          svg.absolute.left-full.transform(class='translate-x-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' aria-hidden='true')
+            defs
+              pattern#85737c0e-0916-41d7-917f-596dc7edfa27(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='404' fill='url(#85737c0e-0916-41d7-917f-596dc7edfa27)')
+          svg.absolute.right-full.bottom-0.transform(class='-translate-x-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' aria-hidden='true')
+            defs
+              pattern#85737c0e-0916-41d7-917f-596dc7edfa27(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='404' fill='url(#85737c0e-0916-41d7-917f-596dc7edfa27)')
+          .text-center
+            h2.text-3xl.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')
+              | Sorry to see you leave.
+            p.mt-4.text-lg.leading-6.text-gray-500
+              | Help us improve Helperbird, by telling us how we can improve.
+          .mt-12
+            iframe(alt='Main menu', frameborder='0', height='1006', loading='lazy', marginheight='0', marginwidth='0', src='https://docs.google.com/forms/d/e/1FAIpQLSfVV9TpEzPym1hHXloM80Jf4NgzfjpFCHZY6bNFdhdJyW-Xtg/viewform?embedded=true', title='Helperbird feedback fourm ', width='100%') Loading...
+
+
+
+
+
+          
+    include includes/sections/questions.pug
     include includes/layout/footer.pug

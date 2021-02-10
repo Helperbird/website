@@ -1,29 +1,24 @@
 extends ../includes/templates/features/post.pug
 
 block seo
-    - var title = 'Annotate the web anywhere with Helperbird'
-    - var description = 'Annotate, highlight, and tag web pages and documents with Helperbird for Google Chrome, Firefox and Edge.'
-    - var url = 'annotation'
-    - var keywords = 'Annotate extension, Notes taking extension for Google Chrome,Notes taking extension, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+    - var title = 'Analyze text and webpages quickly'
+    - var description = 'Quickly find the amount of character, letters and break downs of all sentences on a webpage.'
+    - var url = 'analyze'
+    - var keywords = 'Adjust letters and words with Helperbird, Adjust letters and words, Adjust letters and words, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
 
 block content
-    include ../includes/mixins/features
-    .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
-
-        +features_title("Annotate the web anywhere with Helperbird",'Note features')
-        +features_description("Highlight or annotate text directly in web pages.")
-        +download_button()
+  include ../includes/mixins/features_new
 
 
-    .col-6.flex.flex-column.text-center.mobile-col-12
-        +video_showoff('aXXRSenvTTg')
+  +features_title("Annotate the web anywhere with Helperbird","Highlight or annotate text directly in web pages.")
+  +image_showoff('/assets/images/new/annotation/annotation.png')
+
+
 
 block features
-    include ../includes/mixins/features
+    include ../includes/mixins/features_new
 
 
     +section('About',['Highlight or annotate text directly in web pages. They will show up when you revisit the web page and saved for you in Helperbird.'])
 
     +section('Features',['Annotate any website','Simple easy to use UI.','All notes are safe and synced across all your devices.','Change background color and font color of annotates.','Change size of the annotations and location.'])
-    +upsell('Pro feature','For more information on Helperbird Pro version click the button below.','See pricing')
-

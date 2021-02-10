@@ -2,8 +2,9 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Learning and Reading tools | Helperbird for Google Chrome
-    link(href='https://www.helperbird.com/chrome', rel='canonical')
+    link(href='https://www.helperbird.com/extension', rel='canonical')
     meta(content='Helperbird for Chrome,Helperbird,Chrome,dyslexia fonts for chrome,dyslexia,text to speech,reading,Chrome download,colored contacts,google speaker,install chrome,chrome browser,Chrome app,dyslexia test,opendyslexic for chrome,dyslexia app chrome,Chrome extensions,speech to text,color blind for chrome,speech to text for chrome,text to speech for chrome,text reader,book recommendations,text to voice,tools for sale,google text to speech,talk to text,google text,install Chrome,voice to text,dyslexia symptoms,color wow,chrome browser download,chrome latest version,text to speech google,get chrome,dyslexia font,text to talk,signs of dyslexia,learn to read,Chrome browser,free text to speech,google computer,google voice text,text to speech online,text to speech app,text to speech voices,voice typing,Chrome settings,text to speech robot,voice recognition,Chrome free download,voice to text app,google speech,chrome free download,talk and text app,Chrome latest version,talk text app,google installer,google speech to text,read text aloud,chrome app download,Chrome download for windows,types of speech,dyslexia diagnosis,talk to text app,type and speak,dyslexia examples,talk text free app,work tools,speech to text app', name='keywords')
     meta(content='Helperbird is a browser extension that gives people the features and customization to make reading and browsing the web easier. Including specialized fonts (OpenDyslexic, Dyslexie), background colors, font colors, dyslexia ruler, text to speech and more for Chrome!', name='description')
     meta(content='/assets/images/favicon.png', name='image')
@@ -24,7 +25,7 @@ html(lang='en')
     meta(content='Literacy, Accessibility & Dyslexia Software |  Helperbird for Chrome', name='og:title')
     meta(content='Helperbird is a browser extension that gives people the features and customization to make reading and browsing the web easier. Including specialized fonts (OpenDyslexic, Dyslexie), background colors, font colors, dyslexia ruler, text to speech and more for Chrome!', name='og:description')
     meta(content='https://www.helperbird.com/assets/images/social/facebook.png', name='og:image')
-    meta(content='https://www.helperbird.com/Chrome', name='og:url')
+    meta(content='https://www.helperbird.com/extension', name='og:url')
     meta(content='Helperbird', name='og:site_name')
     meta(content='https://www.youtube.com/watch?v=PfILiWebkuc', name='og:video')
     meta(content='website', name='og:type')
@@ -76,102 +77,46 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
-
-        .container-xlrg.flex.mobile-col-flex-12.mt200
+  body.bg-content-100
+    include includes/layout/navigation.pug
+    main
 
 
+      .relative
+        .mt-16.mx-auto.max-w-7xl.px-4(class='sm:mt-24 sm:px-6')
+          .text-center
+            h1.text-4xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-5xl md:text-6xl')
+              span.block
+                | All your productivity, research and accessibility needs, rolled up into one.
+            p.mt-3.max-w-md.mx-auto.text-base.text-gray-500(class='sm:text-lg md:mt-5 md:text-xl md:max-w-3xl')
+              | Helperbird can be used on Chrome, Firefox and Edge 
+            .mt-5(class='sm:mt-8 sm:flex justify-center lg:justify-center')
+              .rounded-md.shadow
+                a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
+                  | Try for Free
+              .mt-3(class='sm:mt-0 sm:ml-3')
+                a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-700.bg-indigo-100(href='/demo' class='hover:bg-indigo-200 md:py-4 md:text-lg md:px-10')
+                  | Live demo
+      .relative.mt-8
+        .absolute.inset-0.flex.flex-col(aria-hidden='true')
+          .flex-1
+          .flex-1.w-full.bg-gray-800
+        .max-w-7xl.mx-auto.px-4.pb-16(class='sm:px-6')
+          img.relative.rounded-lg(src='/assets/images/apps/extension.png' alt='App screenshot')
 
-          .flex.flex-column.col-6.mobile-col-12.center-vertical.mobile-text-center.mb40
-            h1.heading.primary-color.launchaco-builder-hoverable Unlock your full potential with Helperbird
-            h3.subheading.secondary-color.mt20.launchaco-builder-hoverable
-              | Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. 
-              | Providing you features like 
-              b text to speech, 
-              | ad removal, 
-              b dyslexia support, 
-              | dictation, 
-              b immersive reader, 
-              | overlays, 
-              b reader mode, 
-              | and much more.
-            .mt40
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(href='/pricing', title="Visit pricing")
-                span  Try now for free
-  
-              a.button.mobile-text-center.mt10.launchaco-builder-hoverable.mobile-text-center.accent-bg.button-signup-free.primary-color(href='https://www.youtube.com/watch?v=aXXRSenvTTg', target='_blank', rel='noopener', alt='Watch Helperbird video')
-                span See how it works
-            .flex.wrap.mt40
-              .flex.flex-column.col-12.mobile-col-12
-                
-                p.review-title-stars
-                  include ../assets/images/logo/stars.svg
-                  | 300,000 people use Helperbird to improve their productivity
+      // Logo Cloud
+      include includes/sections/press.pug
 
-
+      include includes/features/list.pug
 
 
+      include includes/features/boxes_no_text_small.pug
 
 
+      include includes/sections/metric.pug
 
+      include includes/sections/cta_2.pug
+ 
 
-          .col-6.flex.flex-column.text-center.mobile-col-12
-
-            .browser.mt40.launchaco-builder-hoverable
-
-              video(width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
-                source(src="/assets/videos/home.webm" type="video/webm")
-                source(src="/assets/videos/home.mp4" type="video/mp4")
-    section.section.press-logos#featuredin-1
-      .container.text-center
-        .col-12
-          h4.heading-sml.primary-color.launchaco-builder-hoverable.why_us.mb75.press_logos_title RELIED UPON BY THOUSANDS OF BUSINESSES
-      .container-lrg
-        .flex.center-horizontal.wrap.center-vertical
-          .col-2.mobile-col-6
-            a(href='https://www.producthunt.com/posts/helperbird-3-0', rel='noreferrer', target='_blank', title='Link to Producthunt')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Product hunt', src='/assets/images/logo/producthunt.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.nexus-education.com/made-dyslexia-i-encourage-train/', rel='noreferrer', target='_blank', title='Link to Nexus')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of nexus', src='/assets/images/logo/nexus.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.softpedia.com/get/Office-tools/Text-editors/Helperbird.shtml', rel='noreferrer', target='_blank', title='Link to Softpedia')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Softpedia', src='/assets/images/logo/softpedia.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://optocrypto.com/dyslexics-helperbird-chrome-extension/', rel='noreferrer', target='_blank', title='Link to Optologo')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Softpedia', src='/assets/images/logo/optologo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.smashingmagazine.com/2019/11/black-friday-2019/', rel='noreferrer', target='_blank', title='Link to Producthunt')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of smashing-magazine-logo', src='/assets/images/logo/smashing-magazine-logo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.indiehackers.com/product/helperbird/made-it-onto-the-indiehackers-podcast--LuJYrgVZ12TsNIDCFOU', rel='noreferrer', target='_blank', title='Link to Nexus')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of indiehackers', src='/assets/images/logo/indiehackers_logo.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='http://techtalk.stratford.edu/2019/11/23/show-of-11-23-2019/', rel='noreferrer', target='_blank', title='Link to stratford techtalk')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of stratford techtalk', src='/assets/images/logo/logo_pentahoV2.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://educationblog.microsoft.com/en-us/2020/01/live-from-bett-whats-new-in-edu-fostering-an-accessible-inclusive-classroom-that-works-for-all-students/', rel='noreferrer', target='_blank', title='Link to Microsoft')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Microsoft', src='/assets/images/logo/microsoft.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.ucc.ie', rel='noreferrer', target='_blank', title='Link to Ucc college work.')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of UCC', src='/assets/images/logo/ucc.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.utoronto.ca/', rel='noreferrer', target='_blank', title='Link to Toronto college work.')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/toronto.png', loading='lazy')
-          .col-2.mobile-col-6
-            a(href='https://www.usfca.edu/', rel='noreferrer', target='_blank', title='Link to San Francisco college')
-              img.press-logo.launchaco-builder-hoverable(alt='Logo of Toronto', src='/assets/images/logo/san.png', loading='lazy')
-    include includes/features/list.pug
-    include includes/features/boxes_no_text_small.pug
-    include includes/sections/reviews-two.pug
-
-    include includes/pricing/pricing.pug
-
-
-    
-    include includes/sections/support_videos.pug
-    include includes/sections/questions.pug
+      include includes/sections/questions.pug
     include includes/layout/footer.pug

@@ -2,6 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Latest news and press for Helperbird  | Helperbird
     link(href='https://www.helperbird.com/in-the-news', rel='canonical')
     meta(content='Latest news and press for Helperbird, Latest news for Helperbird, Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software', name='keywords')
@@ -148,22 +149,20 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.font-friendly
-    .lightblue-gradient
-      include includes/layout/navigation.pug
-      section.section_header
+  body.bg-content-100
 
-        .container-lrg.flex.mt200
-          .flex.flex-column.col-8.text-center.middle-center
-            h1.heading.primary-color.launchaco-builder-hoverable In The News
-            h3.paragraph.secondary-color.mt30.launchaco-builder-hoverable.index_sub_text See what trusted publications wrote about Helperbird
-            .mt40
-              button.button.mobile-text-center.mt10.launchaco-builder-hoverable.mr10.mobile-text-center.fill-white.primary-color.try_button.pink(data-target='#downloadModal',role="button", title="Open Helperbird download options", data-toggle='modal', type='button')
-                span Download Helperbird
-                |  
-                span.its_free Its Free!
+    include includes/layout/navigation.pug
+    .bg-white.pt-16.pb-20.px-4(class='sm:px-6 lg:pt-24 lg:pb-28 lg:px-8')
+      .relative.max-w-lg.mx-auto.divide-y-2.divide-gray-200(class='lg:max-w-7xl')
+        div
+          h2.text-3xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-4xl')
+            | Press
+          .mt-3(class='sm:mt-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:items-center')
+            p.text-xl.text-gray-500
+              | Get weekly articles in your inbox on how to grow your business.
+            
 
 
-    include includes/sections/news.pug
+        include includes/sections/news.pug
 
     include includes/layout/footer.pug

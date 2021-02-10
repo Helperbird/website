@@ -1,0 +1,1068 @@
+// This example requires Tailwind CSS v2.0+
+.bg-white#pricing-table
+  .max-w-7xl.mx-auto.py-24.px-4(class='sm:px-6 lg:px-8')
+    div(class='sm:flex sm:flex-col sm:align-center')
+      h1.text-5xl.font-extrabold.text-gray-900(class='sm:text-center') Pricing Plans
+      p.mt-5.text-xl(class='sm:text-center')
+        | Helperbird has a free version but we also have Helperbird Pro, which includes a 3 day free trial.
+      .relative.self-center.mt-6.bg-gray-100.rounded-lg.flex(class='p-0.5 sm:mt-8')
+        button.relative.rounded-md.shadow-sm.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType" class='w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'       v-bind:class="!isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Monthly billing
+        button.relative.rounded-md.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType"  class='ml-0.5 w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'    v-bind:class="isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Yearly billing
+   
+
+
+
+
+    .mt-12.space-y-4(class='sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4')
+  
+      .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Free Forever
+          p.mt-4.text-sm Basic features
+          p.mt-8
+            span.text-4xl.font-extrabold.text-gray-900 $0.00
+            span.text-base.font-medium
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900') Download now
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Text features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font changer
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia fonts
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Magnifier
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word spacing
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Line height
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Letter spacing
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Content features
+          ul.mt-6.space-y-4
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reader mode
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Focus mode
+  
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Immersive Reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Picture Dictionary
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Screenshot tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Printing tools
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Translation
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Annotations
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Analyze
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Highlight paragraphs
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Volume control
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Extract text from images (OCR)
+              
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Display features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Emphasize Links
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Color blindess tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Dyslexia ruler
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Reading guide
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Overlay
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Adblocker
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm High contrast
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Hide images
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Line focus
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Coginitive load 
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Navigation features
+          ul.mt-6.space-y-4
+
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Text to speech options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm 14 natural voices
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Cursor options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Auto scrolling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Spell check
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Blocklist
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Color features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Font options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm Background options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Link options
+
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Other features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Sync settings & styles
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Themes
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Google doc support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word support
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Helperbird apps
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Dictionary app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Annotations app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Text editor app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Dication app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Bookmark app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm 
+                | iPad app
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Unlimited users
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm Premium support
+        .p-6
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900') Download now
+
+      .border.border-pink-500.rounded-lg.shadow-sm.divide-y.divide-pink-500
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Pro
+          p.mt-4.text-sm Access to all features!
+          p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $6.99
+            span.text-base.font-medium /monthly
+
+          p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $60.00
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openPro") Buy Helperbird Pro
+  
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Text features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font changer
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia fonts
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Magnifier
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word spacing
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line height
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Letter spacing
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Content features
+          ul.mt-6.space-y-4
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reader mode
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Focus mode
+  
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Immersive Reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Picture Dictionary
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Screenshot tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Printing tools
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Translation
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Analyze
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight paragraphs
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Volume control
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Extract text from images (OCR)
+              
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Display features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Emphasize Links
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Color blindess tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia ruler
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Overlay
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Adblocker
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm High contrast
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Hide images
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line focus
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Coginitive load 
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Navigation features
+          ul.mt-6.space-y-4
+
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 14 natural voices
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Cursor options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Auto scrolling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Spell check
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Blocklist
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Color features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Background options
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Link options
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Other features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Sync settings & styles
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Themes
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Google doc support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word support
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Helperbird apps
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dictionary app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text editor app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dication app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Bookmark app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 
+                | iPad app
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm Unlimited users
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Premium support
+
+        .p-6
+          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openPro") Buy Helperbird Pro
+   
+      .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Student deal
+          p.mt-4.text-sm 40% off Helperbird Pro
+          p.mt-8
+            span.text-4xl.font-extrabold.text-gray-900 $40.00
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openStudent") Buy Student discount
+
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Text features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font changer
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia fonts
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Magnifier
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word spacing
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line height
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Letter spacing
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Content features
+          ul.mt-6.space-y-4
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reader mode
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Focus mode
+  
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Immersive Reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Picture Dictionary
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Screenshot tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Printing tools
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Translation
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Analyze
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight paragraphs
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Volume control
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Extract text from images (OCR)
+              
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Display features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Emphasize Links
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Color blindess tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia ruler
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Overlay
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Adblocker
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm High contrast
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Hide images
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line focus
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Coginitive load 
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Navigation features
+          ul.mt-6.space-y-4
+
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 14 natural voices
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Cursor options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Auto scrolling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Spell check
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Blocklist
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Color features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Background options
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Link options
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Other features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Sync settings & styles
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Themes
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Google doc support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word support
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Helperbird apps
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dictionary app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text editor app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dication app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Bookmark app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 
+                | iPad app
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Unlimited users
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+
+              span.text-sm Premium support
+
+        .p-6
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openStudent") Buy Student discount
+
+
+     
+     
+      .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
+        .p-6
+          h2.text-lg.leading-6.font-medium.text-gray-900 Schools & Businesses
+          p.mt-4.text-sm
+            | Unlimited users. #[a(href='/order') Request a quote ]
+
+
+          p.mt-8(v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900 $99.99
+            span.text-base.font-medium /monthly
+          p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
+            span.text-4xl.font-extrabold.text-gray-900  $1,200
+            span.text-base.font-medium /yearly
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Helperbird unlimited
+        .pt-6.pb-8.px-6
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Text features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font changer
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia fonts
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Magnifier
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word spacing
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line height
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Letter spacing
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Content features
+          ul.mt-6.space-y-4
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reader mode
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Focus mode
+  
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Immersive Reader
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Picture Dictionary
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Screenshot tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Printing tools
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Translation
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Analyze
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight paragraphs
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Volume control
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Extract text from images (OCR)
+              
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Display features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Emphasize Links
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Color blindess tools
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dyslexia ruler
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Overlay
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Adblocker
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm High contrast
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Hide images
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Reading guide
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Line focus
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Coginitive load 
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Navigation features
+          ul.mt-6.space-y-4
+
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text to speech options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 14 natural voices
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Cursor options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Auto scrolling
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Spell check
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Blocklist
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Color features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Highlight options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Font options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Background options
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Link options
+
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Other features
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Sync settings & styles
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Themes
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Google doc support
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Word support
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Helperbird apps
+          ul.mt-6.space-y-4
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dictionary app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Annotations app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text editor app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Dication app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Bookmark app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm 
+                | iPad app
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Unlimited users
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Premium support
+        .p-6
+          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Helperbird unlimited

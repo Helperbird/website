@@ -8,35 +8,54 @@ block seo
 
 block content
   include ../includes/mixins/blog
-  .col-12.text-center
 
-    +blog_title("Interview with Helperbird founder & dyslexic, Robert James")
-    +blog_description("By Helperbird Staff")
 
-  .col-12.flex.flex-column.pad30.launchaco-builder-hoverable.padding_40.pad40.white-background
-    .mb20
-      +blog_paragraph_title("What made you develop Helperbird?")
-      +blog_paragraph("At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.")
-      +blog_image('Have a good day', '/assets/images/blog/extra/robert-gabriel.png')
 
-    .mb20
-      +blog_paragraph_title("When were you diagnosed?")
-      +blog_paragraph("People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I was struggling in school. One of my teachers told my parents that I should just drop out of school and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being diagnosed and starting to get the help I needed, I ended up winning my first technology award.")
-      +blog_paragraph("That teacher didn’t sound very encouraging.")
-      +blog_paragraph("She wasn’t haha.")
+block content
+  include ../includes/mixins/support
 
-    .mb20
-      +blog_paragraph_title(" Did you have any teachers that left a positive impact?")
-      +blog_paragraph("Sean Foley was my Physics teacher and he was super encouraging and even helped me get my first internship. Definitely was someone who saw something in me and that was very reassuring at that time in my life.")
+  +support_title("Interview with Helperbird founder & dyslexic, Robert James","By Courtney Hood")
+ 
+  +section('What made you develop Helperbird?',
+    [
+      "At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read."
+    ]
+  )
+  +support_image('Have a good day', '/assets/images/blog/extra/robert-gabriel.png')
 
-    .mb20
-      +blog_paragraph_title("How did you come up with the name Helperbird?")
-      +blog_paragraph("I had a previous website called ProjectBird and ended up liking the bird theme I guess haha. And obviously the helper part came from how the app is designed to help people.")
+  +section('When were you diagnosed?',
+    [
+      "People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I was struggling in school. One of my teachers told my parents that I should just drop out of school and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being diagnosed and starting to get the help I needed, I ended up winning my first technology award."
+    ,"That teacher didn’t sound very encouraging.",
+    "She wasn't hahaha"
+    ]
+  )
 
-    .mb20
-      +blog_paragraph_title("Do you feel like there’s a stigma attached to dyslexia?")
-      +blog_paragraph("I think there still is unfortunately. Everyone’s different and has different abilities, if there is an area in life that you struggle with, whether it’s dyslexia or not, I don’t think you should feel ashamed for seeking help. Everyone does the best that they can with what they are given, no matter who you are we’re all in the same boat just trying to do our best.")
+  +section('',
+    [
+      " Did you have any teachers that left a positive impact?",
+    "Sean Foley was my Physics teacher and he was super encouraging and even helped me get my first internship. Definitely was someone who saw something in me and that was very reassuring at that time in my life."
+    ]
+  )
 
-    .mb20
-      +blog_paragraph_title("Looking back, any advice you’d give to your younger self?")
-      +blog_paragraph("Bet on Fulham to get promoted haha. No but really I’d prob give myself the same advice I’d give to any younger person, if you’re struggling with something don’t stay quiet about it. I’d let them know that it’s okay to ask for help and it’s okay to even need help. Everyone needs help sometimes.")
+  +section('',
+    [
+      "How did you come up with the name Helperbird?",
+      "I had a previous website called ProjectBird and ended up liking the bird theme I guess haha. And obviously the helper part came from how the app is designed to help people."
+    ]
+  )
+
+
+  +section('',
+    [
+      "Do you feel like there’s a stigma attached to dyslexia?",
+      "I think there still is unfortunately. Everyone’s different and has different abilities, if there is an area in life that you struggle with, whether it’s dyslexia or not, I don’t think you should feel ashamed for seeking help. Everyone does the best that they can with what they are given, no matter who you are we’re all in the same boat just trying to do our best."
+    ]
+  )
+
+  +section('',
+    [
+      "Looking back, any advice you’d give to your younger self?",
+      "Bet on Fulham to get promoted haha. No but really I’d prob give myself the same advice I’d give to any younger person, if you’re struggling with something don’t stay quiet about it. I’d let them know that it’s okay to ask for help and it’s okay to even need help. Everyone needs help sometimes."
+    ]
+  )
