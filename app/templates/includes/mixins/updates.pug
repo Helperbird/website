@@ -16,7 +16,9 @@ mixin updates_paragraph_title(title,text)
 
 
 mixin updates_paragraph(text)
-    p= text
+    .text-lg.max-w-prose.mx-auto
+        .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
+            p= text
 
 mixin updates_button(text,link)
     a.button.mobile-text-center.mt10.launchaco-builder-hoverable.button-full-features.mobile-text-center.button-signup_two.text-center(href= link, target='_blank')
