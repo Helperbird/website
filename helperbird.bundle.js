@@ -16711,6 +16711,35 @@ async function navigation_load() {
 
  // a list of exported variables
 
+// CONCATENATED MODULE: ./assets/js/core/banner.js
+
+
+async function banner_load() {
+	let isThere = document.getElementById('banner');
+	if (isThere === null) return false;
+	new vue_default.a({
+		el: '#banner',
+		data: {
+			closeBanner: true,
+		},
+		methods: {
+	
+			handleBannerMenu: function() {
+				this.closeBanner = !this.closeBanner;
+			}
+		},
+		computed: {
+		
+			showBanner: function() {
+				return this.closeBanner;
+			},
+		
+		}
+	});
+}
+
+ // a list of exported variables
+
 // CONCATENATED MODULE: ../node_modules/@stripe/stripe-js/dist/stripe.esm.js
 var V3_URL = 'https://js.stripe.com/v3';
 
@@ -17089,12 +17118,14 @@ async function a11y_pricing_load() {
 
 
 
+
 async function js_load() {
     slider_start();
     load();
     
     // Vue components load
     navigation_load();
+	banner_load();
     widget_pricing_load();
     extension_pricing_load();
     a11y_pricing_load();
@@ -17104,11 +17135,6 @@ async function js_load() {
     tagManager();
     loadManager();
 
-	if (Math.random() < 0.5) {
-		await popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
-	} else {
-		await popup('<a href="https://www.helperbird.com/pricing">Try Helperbird Pro today</a>');
-	}
 	
 }
 
