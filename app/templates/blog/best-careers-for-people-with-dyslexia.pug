@@ -53,3 +53,20 @@ block content
       |  Gone are the days when people with dyslexia lag behind their peers. With a better understanding of what dyslexia is, and with the #[a(href="https://www.helperbird.com/chrome" target="_blank") new technologies available] to help them navigate through everyday life, dyslexics are very likely to succeed in their chosen careers.
     p
       | Exclusively written for helperbird.com by Jerrica Borrell
+
+  // This example requires Tailwind CSS v2.0+
+  .bg-white
+    .max-w-7xl.mx-auto.py-12.px-4.text-center(class='sm:px-6 lg:px-8 lg:py-24')
+      .space-y-8(class='sm:space-y-12')
+        .space-y-5(class='sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl')
+          h2.text-3xl.font-extrabold.tracking-tight(class='sm:text-4xl') Meet Jerrica Borrell
+
+        ul.mx-auto.grid.grid-cols-2.gap-x-4.gap-y-8(class='sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6')
+          li
+            .space-y-4
+              img.mx-auto.h-20.w-20.rounded-full(class='lg:w-24 lg:h-24' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Photo of Jennifer Birch')
+              .space-y-2
+                .text-xs.font-medium(class='lg:text-sm')
+                  h3 Jerrica Borrell
+                  p.text-indigo-600 Writer
+
