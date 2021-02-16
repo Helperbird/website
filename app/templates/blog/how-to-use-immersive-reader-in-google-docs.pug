@@ -1,7 +1,7 @@
 extends ../includes/templates/blog/post.pug
 
 block seo
-  - var title = 'How to use Immerive reader in Google Docs'
+  - var title = 'How to use Immersive reader on Google Docs'
   - var description = 'Discover how to use Immersive reader in Google Docs for free.'
   - var url = 'how-to-use-immersive-reader-in-google-docs'
   - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
@@ -9,28 +9,37 @@ block seo
 block content
   include ../includes/mixins/support
 
-  +support_title("How to use Immerive reader in Google Docs","A step by step guide.")
+  +support_title("How to use Immersive reader on Google Docs","A step by step guide.")
  
-  +section("What is Immersive Reader",["Immersive Reader is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners. It can help build confidence for emerging readers learning to read at higher levels, and offer text decoding solutions for students with learning differences such as dyslexia.","Currently it is ONLY available in OneNote, Word, and the web version of Outlook.","Until now."])
-
 
   +section(
-      "How to use Immersive reader in Google Docs",
+      "You can use Immersive reader in Google docs using Helperbird.",
       [
-        "First you need to download Helperbird.com, which is available a browser extension on Google Chrome, Firefox, and Edge.",
-        "Once you have it installed.","Highlight the paragraph or text you want to use in Immersive reader."
+        "Today we will walk you through how to to do it.",
+        "First, you will need to download Helperbird and install it on your browser.",
+        "You can use it on Google Chrome, Mozilla Firefox and Microsoft Edge.",
+        "Now that you have it installed, visit your Google docs file.",
+        "Once it is open, you will need to turn on the Helperbird Google doc toolbar."
+
       ]
   )
-  +support_image('Step one of how to use immersive reader in Google docs','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/step_1.png')
+  +support_image('Step one of how to use immersive reader in Google docs','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png')
 
   +section(
-    "The Helperbird quick menu will appear.",
+    "",
     [
-      "Scroll down in the quick menu.  You will see a button called 'Immersive reader'. Click it."
+      "Now you should see the toolbar along the top of your Google docs file.", 
+      "Excellent, so next highlight the text you want to use in Immersive reader."
     ]
   )
-  +support_image('Step two of how to use immersive reader in Google docs','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/step_2.png')
+  +support_image('Highlight the text you want to use in Immersive reader.','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/highlight-the-text-in-google-docs-to-use-immersive-reader.png')
 
   +section('',
-    ["That's it, you can now access Immersive reader on Google docs and every other website."]
+    ["Now in the toolbar, click the first book icon; immersive reader will begin to load using the text you highlighted."]
   )
+  +support_image('Click the first book icon in the toolbar to load immersive reader.','/assets/images/blog/how-to-use-immersive-reader-in-google-docs/immersive-reader-loading-in-google-docs.png')
+
+  +section('',
+    ["Now that's how you use the immersive reader in Google docs."]
+  )
+
