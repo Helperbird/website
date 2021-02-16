@@ -140,12 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_9.png"
   },
   {
-    "revision": "b5aa81a9a9ee86af570337f6d3f7301b",
-    "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/step_1.png"
+    "revision": "e195862aec74fe9b0bd1eb5eeab4d64e",
+    "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/highlight-the-text-in-google-docs-to-use-immersive-reader.png"
   },
   {
-    "revision": "4bde926df5bfe4972aa378693c9a1c21",
-    "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/step_2.png"
+    "revision": "4223cbdf9e77d236b0e3a104f8aa7699",
+    "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png"
+  },
+  {
+    "revision": "d400e40f1fbc6b1e1984e2e783d978bb",
+    "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/immersive-reader-loading-in-google-docs.png"
   },
   {
     "revision": "d450ef6ce808292f98a6e041a608b860",
