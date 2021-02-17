@@ -304,7 +304,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/home/firefox.png"
   },
   {
-    "revision": "8ebcbefa868a3a19c905bc23b5baa53f",
+    "revision": "fe126edddb8a899ede9298e107dfdd24",
     "url": "/assets/images/home/metric.jpeg"
   },
   {
@@ -364,7 +364,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/logo/edutech.png"
   },
   {
-    "revision": "d34667afdbf4c5ede2f8dcba461a8214",
+    "revision": "015275a7486d70752382dbfbb4ea046a",
     "url": "/assets/images/logo/hope.jpg"
   },
   {
