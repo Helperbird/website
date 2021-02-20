@@ -1592,6 +1592,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/updates/40-0-0/lookup.png"
   },
   {
+    "revision": "907b2ea20cbc50b1639292646f9d6ddf",
+    "url": "/assets/images/updates/40-1-0/color.png"
+  },
+  {
+    "revision": "eafeecd0c851fc9d766a0583be202571",
+    "url": "/assets/images/updates/40-1-0/favourite.png"
+  },
+  {
+    "revision": "6456f67c650d520d66e19bf300ec1786",
+    "url": "/assets/images/updates/40-1-0/pdf.png"
+  },
+  {
+    "revision": "e082390f976bae27b2ec54b3858ac558",
+    "url": "/assets/images/updates/40-1-0/searchbar.png"
+  },
+  {
     "revision": "670f36960155c5fbc4ce1f539ed6e75f",
     "url": "/assets/images/updates/updates.jpeg"
   },
