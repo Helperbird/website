@@ -1,0 +1,46 @@
+
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '40.1.0'
+  - var description = '40.1.0'
+  - var url = '40-1-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+  +updates_title("Welcome to the new Helperbird 40.1.0")
+
+
+  +updates_paragraph_title('Search bar')
+  +updates_paragraph('Quickly find the feature you want to use—no more scrolling. Also, don`t forget you can favourite your favourite Helperbird features.')
+
+  +updates_image('Helperbirds redesign','/assets/images/updates/40-1-0/searchbar.png')
+
+  +updates_paragraph_title('Highlight text to speech')
+  +updates_paragraph('You can pick the highlighted colour as the text is read out loud to you. Choose from seven different colours.')
+
+  +updates_image('Helperbirds redesign','/assets/images/updates/40-1-0/color.png')
+
+
+  +updates_paragraph_title('Favourite your Helperbird features')
+  +updates_paragraph('Save your favourite Helperbird features, so they are always on top, and hide the ones you don`t use daily.')
+
+  +updates_image('Helperbirds redesign','/assets/images/updates/40-1-0/favourite.png')
+
+
+  +updates_paragraph_title('PDF support')
+  +updates_paragraph('Helperbird is proud to announce we now have PDF support. So what does that mean? Just open a PDF file and turn on the Toolbar option. Using the toolbar, you have access to all our features. Just highlight the text and click the feature. This includes immersive reader.')
+
+  +updates_image('Helperbirds redesign','/assets/images/updates/40-1-0/pdf.png')
+
+
+  +updates_paragraph_title('Other changes')
+  +updates_paragraph('Reader mode feature has a new icon.')
+  +updates_paragraph('Added a red colour to the favourite icon.')
+
+  +updates_paragraph_title('Whats coming next')
+  +updates_paragraph('Import and export your annotations and documents to and from your other favourite annotation and highlighting software.')
+  +updates_paragraph('Word prediction.')
