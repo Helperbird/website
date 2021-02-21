@@ -236,8 +236,88 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/gif/dictionary.gif"
   },
   {
+    "revision": "03f211b498b5bd89c3edf505fdb5f325",
+    "url": "/assets/images/guide/annonations/a-sticky-note-will-appear.png"
+  },
+  {
+    "revision": "21c4d44bf6cd2bcefd05469913a0df06",
+    "url": "/assets/images/guide/annonations/all-done.png"
+  },
+  {
+    "revision": "40640ccbebe208ab7dbdc81a6574ea09",
+    "url": "/assets/images/guide/annonations/highlight-the-text-you-want-use.png"
+  },
+  {
+    "revision": "7834f3f17f0f65916f4499f1f935a9c4",
+    "url": "/assets/images/guide/annonations/make-sure-highlight-menu-is-on.png"
+  },
+  {
+    "revision": "d4c82054ce696104e61e3ada266a3a19",
+    "url": "/assets/images/guide/annonations/you-can-change-the-color.png"
+  },
+  {
+    "revision": "ba991e4c7c784fb2a64e06de50766ff3",
+    "url": "/assets/images/guide/cancel/click-cancel.png"
+  },
+  {
+    "revision": "7d2810739690ce4aa5f7402a586e7060",
+    "url": "/assets/images/guide/cancel/click-manage.png"
+  },
+  {
+    "revision": "27d31c833ba4b49550acd9ebfe50c17c",
+    "url": "/assets/images/guide/cancel/confirm-with-cancel-button.png"
+  },
+  {
+    "revision": "a840f48003973f79b6d72141c3caf69c",
+    "url": "/assets/images/guide/cancel/open-settings-cog-click-settings.png"
+  },
+  {
+    "revision": "13116b18b278837b142833d8af12118b",
+    "url": "/assets/images/guide/cancel/you-are-now-cancel.png"
+  },
+  {
+    "revision": "10f8e1bab15001870c984b464fc81084",
+    "url": "/assets/images/guide/font-changer/font-changer-turn-to-on.png"
+  },
+  {
+    "revision": "365a4a13d71257cb69ce120ec8d446ce",
+    "url": "/assets/images/guide/font-changer/open-extension.png"
+  },
+  {
+    "revision": "e897119c9e49c800315e6b87bbed0acc",
+    "url": "/assets/images/guide/font-changer/other-fonts.png"
+  },
+  {
     "revision": "940f4e18b27ffba1cd49df2078d59348",
     "url": "/assets/images/guide/menu_immersive_reader.png"
+  },
+  {
+    "revision": "1819c235cebca979801cd97686e9063c",
+    "url": "/assets/images/guide/readermode/open-the-helperbird-extension.png"
+  },
+  {
+    "revision": "fb4c8951cde12b2ac7ef527445ac34db",
+    "url": "/assets/images/guide/readermode/turn-it-on.png"
+  },
+  {
+    "revision": "e5cdb0b055b555db6e34dc8eee68ad9d",
+    "url": "/assets/images/guide/readermode/visit-website.png"
+  },
+  {
+    "revision": "01cd790c31422dc09783fe122d891285",
+    "url": "/assets/images/guide/readermode/you-can-also-change-the-theme.png"
+  },
+  {
+    "revision": "87f67a9221bf8fbda8f789a5cbed3ae7",
+    "url": "/assets/images/guide/shortcuts/input-the-keys-you-want-to-use.png"
+  },
+  {
+    "revision": "2f345fad9e9ccd1e4d921c80b8b9926d",
+    "url": "/assets/images/guide/shortcuts/open-menu-go-to-more-tools.png"
+  },
+  {
+    "revision": "421b32888332383e86e9739fedd2b457",
+    "url": "/assets/images/guide/shortcuts/right-click-the-side-menu.png"
   },
   {
     "revision": "b51ae1ad46503f53a04e6f20e94812b9",
