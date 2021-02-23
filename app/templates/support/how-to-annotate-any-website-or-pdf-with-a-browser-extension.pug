@@ -1,0 +1,55 @@
+
+extends ../includes/templates/support/post.pug
+
+block seo
+  - var title = 'How to annotate any website or pdf with a browser extension'
+  - var description = 'How to annotate any website or pdf with a Chrome, Firefox or Edge extension. By Helperbird.'
+  - var url = 'how-to-annotate-any-website-or-pdf-with-a-browser-extension'
+  - var keywords = 'Opendyselxic,Lexend'
+
+
+
+
+
+block guide
+  include ../includes/mixins/support
+
+
+  +support_title("How to annotate any website or pdf with Helperbird","A step by step guide.")
+ 
+
+  +section(
+      "",
+      [
+        "Today we will walk you through how to to do it.",
+        "First, you will need to download Helperbird and install it on your browser.",
+        "You can use it on Google Chrome, Mozilla Firefox and Microsoft Edge.",
+        "Now that you have it installed, visit any website",
+        "Once it is open, you will need to turn on the Highlight menu."
+
+      ]
+  )
+  +support_image('Step one of how to use immersive reader in Google docs','/assets/images/guide/annonations/make-sure-highlight-menu-is-on.png')
+
+  +section(
+    "",
+    [
+      "Now highlight any text on the webpage your on. You should see a popup menu alonh the top of what you highlighted."
+    ]
+  )
+  +support_image('Highlight the text you want to use in Immersive reader.','/assets/images/guide/annonations/highlight-the-text-you-want-use.png')
+
+  +section('',
+    ["Now in the highlight menu, click the note icon; a sticky note will now appear on the page."]
+  )
+  +support_image('Click the first book icon in the toolbar to load immersive reader.','/assets/images/guide/annonations/a-sticky-note-will-appear.png')
+
+  +section('',
+    ["Now you can type any notes or text. You can also make it bigger, smaller and change color. It will auto save too."]
+  )
+
+  +support_image('Click the first book icon in the toolbar to load immersive reader.','/assets/images/guide/annonations/you-can-change-the-color.png')
+
+  +section('',
+    ["Thats how you use the annotate feature in Helperbird."]
+  )
