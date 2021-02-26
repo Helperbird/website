@@ -1,0 +1,52 @@
+
+extends ../includes/templates/support/post.pug
+
+block seo
+  - var title = 'How to set custom shortcuts in Helperbird'
+  - var description = 'How to set custom shortcuts in Helperbird for Chrome, Firefox or Edge extension.'
+  - var url = 'how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge'
+  - var keywords = 'Opendyselxic,Lexend'
+
+
+
+
+
+block guide
+  include ../includes/mixins/support
+
+
+  +support_title("How to set custom shortcuts in Helperbird")
+ 
+
+  +section(
+      "",
+      [
+        "Today we will walk you through how to to do it.",
+        "First, you will need to download Helperbird and install it on your browser.",
+        "You can use it on Google Chrome, Mozilla Firefox and Microsoft Edge.",
+        "Now that you have it installed.",
+        "Open the develop tool menu like in the photo below."
+
+      ]
+  )
+  +support_image('Open the develop tool menu like in the photo below','/assets/images/guide/shortcuts/open-menu-go-to-more-tools.png')
+
+  +section(
+    "",
+    [
+      "This will open the a new tab.",
+      "This is the extension page, now on this page, you will need to click on the left menu.",
+      "A slide menu will open. At the bottom, click the Keyboard shortcuts."
+    ]
+  )
+  +support_image('A slide menu will open. At the bottom, click the Keyboard shortcuts.','/assets/images/guide/shortcuts/right-click-the-side-menu.png')
+
+  +section('',
+    [
+      "On this page, you will see the options for the four different shortcuts.",
+      "Click on the inputs and press the keys you want to trigger in Helperbird.",
+      "Thats it. The one limit of Chrome, is we can only have four shortcuts."
+    ]
+  )
+  +support_image('Click the first book icon in the toolbar to load immersive reader.','/assets/images/guide/shortcuts/input-the-keys-you-want-to-use')
+
