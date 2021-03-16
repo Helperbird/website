@@ -1688,6 +1688,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/updates/40-1-0/searchbar.png"
   },
   {
+    "revision": "3c6fc68ec99f9520e1bb4642d004e2fa",
+    "url": "/assets/images/updates/50-0-0/google.png"
+  },
+  {
+    "revision": "19981bf7a722afa2693bc1b48e0e158b",
+    "url": "/assets/images/updates/50-0-0/input.png"
+  },
+  {
+    "revision": "7934850b17db678f691fda9cb234ffab",
+    "url": "/assets/images/updates/50-0-0/summarize.png"
+  },
+  {
     "revision": "670f36960155c5fbc4ce1f539ed6e75f",
     "url": "/assets/images/updates/updates.jpeg"
   },
