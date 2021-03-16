@@ -1,0 +1,35 @@
+
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '50.0.0'
+  - var description = '50.0.0'
+  - var url = '50-0-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+  +updates_title("Welcome to the new Helperbird 50.0.0")
+
+
+  +updates_paragraph_title('Summarize text on a page.')
+  +updates_paragraph('Highlight any text or page and we will summarize the next into three bullet points. Handy for making notes.')
+
+  +updates_paragraph_title('Speech to text in Google docs')
+  +updates_paragraph('Speak instead of typing into Google docs, using our a new speech to text feature. Just enable the toolbar and click the mic.')
+
+  +updates_paragraph_title('Speech to text on all inputs')
+  +updates_paragraph('Speak instead of typing on all inputs, using our a new speech to text feature. Just enable the feature.')
+
+  +updates_paragraph_title('PDF support')
+  +updates_paragraph('Helperbird is proud to announce we now have PDF support. So what does that mean? Just open a PDF file and turn on the Toolbar option. Using the toolbar, you have access to all our features. Just highlight the text and click the feature. This includes immersive reader.')
+
+  +updates_paragraph_title('Other changes')
+  +updates_paragraph('Icon fonts go missing on Helperbird. Exampe being outlook.com')
+  +updates_paragraph('Update links in app to support guide links')
+
+  +updates_paragraph_title('Whats coming next')
+  +updates_paragraph('Word prediction.')
+  +updates_paragraph('Safari plugin')
