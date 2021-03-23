@@ -144,9 +144,13 @@ html(lang='en')
 	body.bg-content-100
 
 		include ../../layout/navigation.pug
+		.bg-white.pb-8(class='sm:pb-12 lg:pb-12')
+			.pt-8.overflow-hidden(class='sm:pt-12 lg:relative lg:py-24')
+				block content
 
-		block content
+		.relative.px-4(class='sm:px-6 lg:px-8')
+			.mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
 
-		block features
-		include ../../sections/cta_2.pug
+				block features
+			include ../../sections/cta_2.pug
 		include ../../layout/footer.pug	
