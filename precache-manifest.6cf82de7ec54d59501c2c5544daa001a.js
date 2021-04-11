@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/apps/firefox.png"
   },
   {
+    "revision": "7729f1f2128dc9a05391270b9d5d80a0",
+    "url": "/assets/images/blog/announcing-helperbird-for-websites/announcing-helperbird-for-websites.png"
+  },
+  {
     "revision": "47a5a7f448f7e1874c4101ea78bcb36d",
     "url": "/assets/images/blog/best-careers-for-people-with-dyslexia/dyslexic-architect.jpg"
   },
