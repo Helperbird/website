@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/giveaway/giveaway.jpeg"
   },
   {
+    "revision": "500a8d6e152a139d4e9cce50ae676a55",
+    "url": "/assets/images/blog/helperbirds-winner-of-the-2021-chromebook/helperbirds-winner-of-the-2021-chromebook.jpg"
+  },
+  {
     "revision": "bbdbd1bb1dad1e9d091d4e34a3de597c",
     "url": "/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_1.png"
   },
