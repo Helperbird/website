@@ -1,7 +1,7 @@
 mixin updates_title(feature_type,text)
   .text-lg.max-w-prose.mx-auto
     h1
-      span.block.text-base.text-center.text-indigo-600.font-semibold.tracking-wide.uppercase Helperbird
+      span.block.text-base.text-center.text-indigo-600.font-semibold.tracking-wide.uppercase
       span.mt-2.block.text-3xl.text-center.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= feature_type 
     p.mt-8.text-xl.text-gray-500.leading-8.text-center= text
 
@@ -12,6 +12,13 @@ mixin updates_paragraph_title(title,text)
     .text-lg.max-w-prose.mx-auto
         .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
             h2= title
+            p= text
+
+
+mixin updates_paragraph_title_smaller(title,text)
+    .max-w-prose.mx-auto
+        .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
+            h4= title
             p= text
 
 

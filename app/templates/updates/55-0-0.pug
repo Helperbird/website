@@ -1,0 +1,47 @@
+
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '50.0.0'
+  - var description = '50.0.0'
+  - var url = '50-0-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+  +updates_title("Welcome to the new Helperbird 55.0.0 🚀 🌙", "We have a few surprises..... like word prediction")
+
+
+  +updates_paragraph('Thanks to users like yourself, we create and add features to Helperbird that change the lives of over 400,000 users across the world. ')
+
+
+  +updates_paragraph('I would also like to thank all free and Helperbird Pros users who support Helperbird. From leaving reviews, upgrading to Helperbird Pro, telling your friends about Helperbird, giving us suggestions and bug reports. It all helps us to make Helperbird the fastest growing tool for accessibility in the world and allowing me to continue on Helperbird full time.')
+  +updates_paragraph("I hope everyone's looking forward to the iPad version.")
+
+  +updates_paragraph_title('New features')
+  +updates_paragraph_title_smaller("Word prediction for every website and Google docs.", "This was a feature we have been working on for the past few months and we are proud to say it works really well.  Helperbirds word prediction (English for the moment) works on every website and even Google docs. It's light and doesn't slow down your browser and makes it easier to discover words as you type.")
+  +updates_paragraph_title_smaller("Text alignment", "Thanks to David Flair and his suggestion, you can now align the text on any page to your needs and style. From left, right, center, justify and justifying the text.")
+  +updates_paragraph_title_smaller("Paragraph width", "Not to bore users but according to the W3C, paragraphs shouldn't be longer than 80 characters. We thank to David Flair you now have control over this.")
+
+
+
+  +updates_paragraph_title('Changes')
+  +updates_paragraph_title_smaller("Six new themes","We have added six new themes. They are  Light, Dark, Garden, Cupcake, Bumblebee and Pastel. We know you're going to love them. ")
+  +updates_paragraph_title_smaller("Read it later is now Reading list.","An easier name we think. It has also gotten a slight redesign. It looks stunning.")
+
+  +updates_paragraph_title_smaller("Backup your data","Export your settings to a json file. An importer is coming soon.")
+
+  +updates_paragraph_title_smaller("Delete annotations from the views page","Delete your annotations from the annotations page. Making it easier for everyone.")
+
+  +updates_paragraph_title_smaller("Highlight menu now supports multi-line highlighting","You can now select any paragraph and have access to the highlight menu options.")
+  +updates_paragraph_title_smaller("Settings page redesigned.","Our settings page now has been redesigned. Making it easier to do everything and navigate.")
+  +updates_paragraph_title_smaller("Support videos","Our talented editor Courtneymakesvideo.com has been uploading our latest support videos, have you seen them? Discover them on our Youtube channel or on our support pages.")
+  +updates_paragraph_title_smaller("Support videos","Our talented editor Courtneymakesvideo.com has been uploading our latest support videos, have you seen them? Discover them on our Youtube channel or on our support pages.")
+
+
+  +updates_paragraph_title('Bug fixes')
+  +updates_paragraph("The icons and title above features were slightly off.")
+  +updates_paragraph("On Edge, it was bringing users to the Chrome store for reviews.")
+  +updates_paragraph("The Helperbird toolbar only shows on the google docs pages now.")
