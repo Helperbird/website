@@ -16861,9 +16861,7 @@ async function extension_pricing_load() {
 					.redirectToCheckout({
 						lineItems: [
 							{
-								price: this.isYearly
-								? 'price_1HwtjgENE7uqpRK1MMaQveG3'
-								: 'price_1IhlTyENE7uqpRK1SeoluKeU',
+								price:  'price_1HwtjgENE7uqpRK1MMaQveG3',
 		
 
 								quantity: 1
