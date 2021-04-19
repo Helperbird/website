@@ -1828,7 +1828,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/googlea4b2e0ff05c168d5.html"
   },
   {
-    "revision": "baf69a7d11751f908918",
+    "revision": "942932ab6343e6c27d73",
     "url": "/helperbird.bundle.js"
   }
 ]);
