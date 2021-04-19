@@ -77,10 +77,7 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reader mode
 
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Summarize page
+
 
 
             li.flex.space-x-3
@@ -109,11 +106,16 @@
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
               span.text-sm Annotations
+           
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm Summarize page
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
-              span.text-sm Analyze
+              span.text-sm Text analyze
 
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
@@ -245,8 +247,8 @@
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Background colors
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Link colors
 
 
@@ -291,12 +293,7 @@
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
               span.text-sm Reading list
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
-                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
-              span.text-sm 
-                | iPad app
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
           ul.mt-6.space-y-4.mb20
@@ -309,6 +306,18 @@
               svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Premium support
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Coming soon
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm iPad app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
+              span.text-sm  Highlighter 
+
         .p-6
           button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="handleModal") Download now
 
@@ -376,10 +385,6 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reader mode
 
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Summarize page
 
   
             li.flex.space-x-3
@@ -410,7 +415,12 @@
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Analyze
+              span.text-sm Summarize page
+
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text analyze
 
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -568,11 +578,7 @@
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reading list
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm 
-                | iPad app
+
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
           ul.mt-6.space-y-4.mb20
@@ -585,6 +591,16 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Premium support
 
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Coming soon
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm iPad app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm  Highlighter 
         .p-6
           button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openPro") Buy Helperbird Pro
    
@@ -651,10 +667,7 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reader mode
 
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Summarize page
+
 
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -684,7 +697,11 @@
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Analyze
+              span.text-sm Summarize page
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text analyze
 
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -838,11 +855,6 @@
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reading list
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm 
-                | iPad app
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
           ul.mt-6.space-y-4.mb20
@@ -856,6 +868,17 @@
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
 
               span.text-sm Premium support
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Coming soon
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm iPad app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm  Highlighter 
 
         .p-6
           button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openStudent") Buy Student discount
@@ -925,10 +948,7 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reader mode
 
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Summarize page
+
  
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -958,7 +978,11 @@
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm Analyze
+              span.text-sm Summarize page
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm Text analyze
 
             li.flex.space-x-3
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -1113,11 +1137,7 @@
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Reading list
-            li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
-              span.text-sm 
-                | iPad app
+
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Bonus
           ul.mt-6.space-y-4.mb20
@@ -1129,6 +1149,18 @@
               svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Premium support
+
+
+          h3.font-medium.text-gray-900.tracking-wide.mt-8 Coming soon
+          ul.mt-6.space-y-4.mb20
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm iPad app
+            li.flex.space-x-3
+              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              span.text-sm  Highlighter 
         .p-6
           button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Helperbird unlimited
   include ../layout/modal.pug
