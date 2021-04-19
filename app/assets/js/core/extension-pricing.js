@@ -58,7 +58,11 @@ async function load() {
 					.redirectToCheckout({
 						lineItems: [
 							{
-								price: 'price_1HwtjgENE7uqpRK1MMaQveG3',
+								price: this.isYearly
+								? 'price_1HwtjgENE7uqpRK1MMaQveG3'
+								: 'price_1IhlTyENE7uqpRK1SeoluKeU',
+		
+
 								quantity: 1
 							}
 						],
