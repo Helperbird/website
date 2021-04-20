@@ -167,37 +167,61 @@ html(lang='en')
 
     include ../includes/layout/navigation.pug
 
-    .relative.bg-white
-      div(class='lg:absolute lg:inset-0')
-        div(class='lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2')
-          img.h-56.w-full.object-cover(class='lg:absolute lg:h-full' loading="lazy" src='https://lh3.googleusercontent.com/proxy/LNt0HShmZ81i2rDSBKBEOiwHRs3toBFG9QGQ1T8MHo36dyQy9PAmi9ZvuHmKXt3cmnL36hAxKwDTq8CBQZeLVBl7Al7Q_eVbXgIIGXn9h_P0M9Pk6DqgXv83so7XAsQuFdqp-FaXet8' alt='Photo of Helperbirds user')
-      .relative.pt-12.pb-16.px-4(class='sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2')
-        div(class='lg:col-start-2 lg:pl-8')
-          .text-base.max-w-prose.mx-auto(class='lg:max-w-lg lg:ml-auto lg:mr-0')
-            h2.leading-6.text-indigo-600.font-semibold.tracking-wide.uppercase Sascha Roos
-            h3.mt-2.text-3xl.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl') About
-            p.mt-8.text-lg.text-gray-500
-              | Sascha is an author and dyslexia specialist supporting people with the challenges of dyslexia for over 15 years. She has a well-established private practice, and an approach that encourages the strengths and abilities of the dyslexic individual. Sascha is a member of the Dyslexia Association of Ireland, the Institute of Guidance Counsellors and the Society of Authors.
-              | She has had several articles on dyslexia published by national dyslexia associations, including Britain, Australia and Ireland, as well as a blog on study skills for dyslexic students for a leading study skills website.
+    .relative.py-16.bg-white.overflow-hidden
+      .hidden(class='lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full')
+        .relative.h-full.text-lg.max-w-prose.mx-auto(aria-hidden='true')
+          svg.absolute.top-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#74b3fd99-0a6f-4271-bef2-e80eeafdf357(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)')
+          svg.absolute.right-full.transform.-translate-x-32(class='top-1/2 -translate-y-1/2' width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#f210dbf6-a58d-4871-961e-36d5016a0f49(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#f210dbf6-a58d-4871-961e-36d5016a0f49)')
+          svg.absolute.bottom-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
+            defs
+              pattern#d3eb07ae-5182-43e6-857d-35c643af9034(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#d3eb07ae-5182-43e6-857d-35c643af9034)')
+      .relative.px-4(class='sm:px-6 lg:px-8')
+        .text-lg.max-w-prose.mx-auto
+          h1
+            span.block.text-base.text-center.text-indigo-600.font-semibold.tracking-wide.uppercase Helperbird partner
+            span.mt-2.block.text-3xl.text-center.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')  Sascha Roos
 
-            h3.mt-2.text-3xl.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl') Sascha Roos' book
-            p.mt-8.text-lg.text-gray-500
-              |  Sascha’s guide book for parents, ‘At Home with Dyslexia: A Parent’s Guide to Supporting your Child’, published in August 2018 by the UK publisher Little, Brown Book Group, is a dyslexia-friendly practical guide for parents and guardians wanting to support their dyslexic child at home.
+        .mt-6.prose.prose-indigo.prose-lg.text-gray-500.mx-auto
 
-              | ‘This is by far the best resource I have found as the parent of two dyslexic children. Out of all the documentaries, websites, seminars, podcasts and of course other books I have studied trying to educate myself on how best to support my little ladies, this provides the most relevant and necessary information in the clearest format. It has been great sharing snippets of the book with the girls, especially the view points of other people with dyslexia. Thank you for a great book!’ Amazon review
 
-              | At Home with Dyslexia empowers parents by giving them the tools and strategies to deal with dyslexia. It encourages parents to be advocates for their dyslexic child, helping them to give practical and emotional support for the entirety of their child’s school years.
+          h2 About 
+          p 
+            | Sascha is an author and dyslexia specialist supporting people with the challenges of dyslexia for over 15 years. She has a well-established private practice, and an approach that encourages the strengths and abilities of the dyslexic individual. Sascha is a member of the Dyslexia Association of Ireland, the Institute of Guidance Counsellors and the Society of Authors.
+            | She has had several articles on dyslexia published by national dyslexia associations, including Britain, Australia and Ireland, as well as a blog on study skills for dyslexic students for a leading study skills website.
 
-              | Central to this guide is the language of acceptance and celebration, emphasising a learning ‘difference’ rather than a ‘disability’. Interwoven throughout the book are stories from dyslexic individuals in their own words, who give authentic insights into the challenges, solutions and achievements as a result of their dyslexia. The illustrations, by Danielle Sheehy, are inspired by their heartfelt words.
 
-            .mt-10(class='sm:flex sm:justify-center lg:justify-start')
-              .rounded-md.shadow
-                a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='http://dyslexiasupport.ie/about/' target="_blank"   class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
-                  | Learn more about Jim
-              .mt-3.rounded-md.shadow(class='sm:mt-0 sm:ml-3')
-                a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='https://www.amazon.co.uk/dp/1472140656/ref=cm_sw_r_cp_ep_dp_cYdHAbQ4ZZRQ1' target="_blank"  class='hover:bg-gray-50 md:py-4 md:text-lg md:px-10')
-                  | Order book
+          figure
+            img.w-full.rounded-lg(loading="lazy" src='http://dyslexiasupport.ie/wp-content/uploads/2020/03/20181006_134701-703x1024.jpg' alt='Photo of Helperbirds founder Robert James dancing.' height='73')
+            figcaption Photo of Sascha.
 
+          h2 Intro
+
+          p
+            |  Sascha’s guide book for parents, ‘At Home with Dyslexia: A Parent’s Guide to Supporting your Child’, published in August 2018 by the UK publisher Little, Brown Book Group, is a dyslexia-friendly practical guide for parents and guardians wanting to support their dyslexic child at home.
+          p
+            | ‘This is by far the best resource I have found as the parent of two dyslexic children. Out of all the documentaries, websites, seminars, podcasts and of course other books I have studied trying to educate myself on how best to support my little ladies, this provides the most relevant and necessary information in the clearest format. It has been great sharing snippets of the book with the girls, especially the view points of other people with dyslexia. Thank you for a great book!’ Amazon review
+          p
+            | At Home with Dyslexia empowers parents by giving them the tools and strategies to deal with dyslexia. It encourages parents to be advocates for their dyslexic child, helping them to give practical and emotional support for the entirety of their child’s school years.
+          p
+            | Central to this guide is the language of acceptance and celebration, emphasising a learning ‘difference’ rather than a ‘disability’. Interwoven throughout the book are stories from dyslexic individuals in their own words, who give authentic insights into the challenges, solutions and achievements as a result of their dyslexia. The illustrations, by Danielle Sheehy, are inspired by their heartfelt words.
+          h2 Contact information
+          .mt-10(class='sm:flex sm:justify-center lg:justify-start')
+            .rounded-md.shadow
+              a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(style="color: white;" href='http://dyslexiasupport.ie/about/' target="_blank"   class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
+                | Vist website
+            .mt-3.rounded-md.shadow(class='sm:mt-0 sm:ml-3')
+              a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='https://www.amazon.co.uk/dp/1472140656/ref=cm_sw_r_cp_ep_dp_cYdHAbQ4ZZRQ1' target="_blank"  class='hover:bg-gray-50 md:py-4 md:text-lg md:px-10')
+                | Order book
 
 
 
