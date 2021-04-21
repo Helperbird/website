@@ -10,16 +10,46 @@ block content
   include ../includes/mixins/features_new
 
 
-  +features_title("Helperbird keyboard shortcuts!","Learn keyboard shortcuts and become a pro at using Helperbird.")
-  //+image_showoff('/assets/images/new/shortcuts/shortcuts.png')
+  +features_title("Helperbird keyboard shortcuts!","Learn keyboard shortcuts and become a pro at using Helperbird.",'/assets/images/new/dyslexia-font/dyslexia-font.png')
 
 
 
 block features
   include ../includes/mixins/features_new
 
-  +section('About',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
+  +section_intro('Intro',['Learn keyboard shortcuts and become a pro at using Helperbird Pro.'])
 
-  +section('Features',['Enable Immersive Reader with a custom shortcut. ','Enable  Reader Mode with a custom shortcut. ','Enable  Text to speech with a custom shortcut.','Enable  OCR with a custom shortcut.'])
+  +section('How to use','')
 
+  +section(
+      "",
+      [
+        "Today we will walk you through how to to do it.",
+        "First, you will need to download Helperbird and install it on your browser.",
+        "You can use it on Google Chrome, Mozilla Firefox and Microsoft Edge.",
+        "Now that you have it installed.",
+        "Open the develop tool menu like in the photo below."
+
+      ]
+  )
+  +image_('/assets/images/guide/shortcuts/open-menu-go-to-more-tools.png')
+
+  +section(
+    "",
+    [
+      "This will open the a new tab.",
+      "This is the extension page, now on this page, you will need to click on the left menu.",
+      "A slide menu will open. At the bottom, click the Keyboard shortcuts."
+    ]
+  )
+  +image_('/assets/images/guide/shortcuts/right-click-the-side-menu.png')
+
+  +section('',
+    [
+      "On this page, you will see the options for the four different shortcuts.",
+      "Click on the inputs and press the keys you want to trigger in Helperbird.",
+      "Thats it. The one limit of Chrome, is we can only have four shortcuts."
+    ]
+  )
+  +image_('/assets/images/guide/shortcuts/input-the-keys-you-want-to-use.png')
 

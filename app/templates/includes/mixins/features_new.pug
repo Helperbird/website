@@ -2,55 +2,40 @@
 
 
 
-mixin features_title(feature_type = 'Helperbird feature',text)
+mixin features_title(feature_type = 'Helperbird feature',text, image = "/images/new/dyslexia-font/dyslexia-font.png")
 
 
   .relative.pt-6.pb-6(class='sm:pb-11')
     .mt-16.mx-auto.max-w-7xl.px-4(class='sm:mt-24 sm:px-6')
       .text-center
-        h1.text-4xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-5xl md:text-6xl')
+        h1.text-4xl.tracking-tight.font-extrabold.text-gray-900(class='sm:text-4xl md:text-4xl')
           span.block= feature_type
         p.mt-3.max-w-md.mx-auto.text-base.text-gray-500(class='sm:text-lg md:mt-5 md:text-xl md:max-w-3xl')= text
 
-        .mt-6
-          .inline-flex.items-center.divide-x.divide-gray-300
-            .flex-shrink-0.flex.pr-5
-              // Heroicon name: star
-              svg.h-5.w-5.text-yellow-400(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-              // Heroicon name: star
-              svg.h-5.w-5.text-yellow-400(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-              // Heroicon name: star
-              svg.h-5.w-5.text-yellow-400(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-              // Heroicon name: star
-              svg.h-5.w-5.text-yellow-400(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-              // Heroicon name: star
-              svg.h-5.w-5.text-yellow-400(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-            .min-w-0.flex-1.pl-5.py-1.text-sm.text-gray-500(class='sm:py-3')
-              span.font-medium.text-gray-900 Rated 5 stars
-              |  by over 
-              span.font-medium.text-rose-500 400,000 people using Helperbird to improve their productivity and accessibility.
-        
-        .mt-10(class='sm:flex sm:justify-center lg:justify-center')
+        .mt-10(class='flex justify-center')
           .rounded-md.shadow
-            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:text-lg md:px-10')
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/pricing' class='hover:bg-indigo-700 md:py-4 md:px-10')
               | Try for Free
-          .mt-3.rounded-md.shadow(class='sm:mt-0 sm:ml-3')
-            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-700.bg-indigo-100(href='#support_video' class='hover:bg-indigo-200 md:py-4 md:text-lg md:px-10')
-              | See it in action
+        .mt-10(class='flex justify-center')
+          .rounded-md.shadow
+            a.w-full.flex.items-center.justify-center.px-8.py-3.border.border-transparent.text-base.font-medium.rounded-md(href='#introsection' class='hover:bg-indigo-200 md:py-4 md:px-10')
+              | Learn More Below
 
 
+  .relative
+    .absolute.inset-0.flex.flex-col(aria-hidden='true')
+      .flex-1
+    .max-w-4xl.mx-auto.px-4(class='sm:px-6')
+      img.relative.rounded-lg.shadow-lg(src= image alt='App screenshot')
 
 
+mixin  image_(default_image = '/assets/images/new/immersive-reader-for-chrome/immersive-reader-for-chrome.png' )
 
-
-
-
-
+  .relative
+    .absolute.inset-0.flex.flex-col(aria-hidden='true')
+      .flex-1
+    .max-w-4xl.mx-auto.px-4(class='sm:px-6')
+      img.relative.rounded-lg.shadow-lg(src= default_image alt='App screenshot')
 
 
 
@@ -89,6 +74,43 @@ mixin  video_support(default_video = 'u67t7Ap61Nc' )
     .relative.-mr-40(class='pl-4 sm:pl-0 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:pl-12')
       .w-full.rounded-lg.youtube_lazy_load.rounded-md.ring-0.ring-black.ring-opacity-100(data-embed= default_video) 
         .play-button
+
+
+mixin section_intro(title, features,buttons=false)
+
+  .py-11.overflow-hidden#introsection
+    .max-w-7xl.mx-auto.px-4.space-y-8(class='sm:px-6 lg:px-8')
+      .text-base.mx-auto
+        h2.text-base.text-indigo-600.font-semibold.tracking-wide.uppercase 
+        p.mt-2.text-3xl.leading-8.font-extrabold.tracking-tight.text-gray-900(class='sm:text-4xl')= title
+      .text-base.mx-auto
+
+        each val in features
+          p.text-lg.text-gray-500= val
+
+      div(class='lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start')
+        .relative.z-10
+
+          if button = false
+            .mt-10.flex.text-base.mx-auto(class='lg:max-w-none')
+              .rounded-md.shadow
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(href='/sales' class='hover:bg-indigo-700')
+                  | Contact sales
+              .rounded-md.shadow.ml-4
+                a.w-full.flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-indigo-600.bg-white(href='/features' class='hover:bg-gray-50')
+                  | Learn more
+
+
+
+
+       
+                
+        .mt-12.relative.text-base.max-w-prose.mx-auto(class='lg:mt-0 lg:max-w-none')
+          svg.absolute.top-0.right-0.-mt-20.-mr-20(class='lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20' width='404' height='384' fill='none' viewbox='0 0 404 384' aria-hidden='true')
+            defs
+              pattern#bedc54bc-7371-44a2-a2bc-dc68d819ae60(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+                rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+            rect(width='404' height='384' fill='url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)')
 
 
 
