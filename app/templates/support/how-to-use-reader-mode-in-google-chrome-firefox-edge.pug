@@ -2,25 +2,23 @@
 extends ../includes/templates/support/post.pug
 
 block seo
-  - var title = 'How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge'
-  - var description = 'How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.'
-  - var url = 'how-to-use-reader-mode-in-google-chrome-firefox-edge'
-  - var keywords = 'reader mode,Lexend'
+  - var title = 'How to login into Helperbird'
+  - var description = 'How to login into Helperbird on Chrome, Edge & Firefox.'
+  - var url = 'how-to-login-into-helperbird'
+  - var keywords = 'login into Helperbird on Chrome, Edge & Firefox.'
 
 
 block guide
   include ../includes/mixins/support
-  +support_title("How to use Reader Mode","How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.")
+  +support_title("How to login into Helperbird","To login into Helperbird and unlock Helperbird Pro, we use the email that you are signed into your browser with.")
 
-  +section('Steps',
+  +section('When you have a Google or Microsft account, follow these steps:',
     [
-    'Visit the website you want to use the Reader mode feature on.',
-    'Open Helperbird.',
-    'Under the "Content Adjustments", you will see a Reader Mode option',
-    'Click "Reader Mode"',
-    'A dropdown menu will show.',
-    'Clicking the switch to on, will enable Reader Mode and will remove all the un needed content and ads on the page. ',
-    'To change the theme to a dark mode, just click the dropdown menu and select the theme you want.',
-    'To turn it off, just click the toggle switch until it says off.',
+    'Open Chrome or Edge.',
+    'In the top right, click the button with your name or People icon.',
+    'Click "Sign in to Chrome" or "Sign in to Edge".',
+    "Sign in with your Google/Microsoft Account.",
+    "To customize your sync settings, click the More icon and then Settings and then Advanced sync settings. You can choose what information to share across other devices where you're signed in to Chrome or Edge.",
+    "That's it, we use the email that you just signed into as."
     ]
 )
