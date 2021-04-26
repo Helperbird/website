@@ -93,7 +93,7 @@
 
 
 // This example requires Tailwind CSS v2.0+
-.relative.bg-white.py-16(class='sm:py-24 lg:py-32')
+.relative.bg-gray-50.py-16(class='sm:py-24 lg:py-32')
   .mx-auto.max-w-md.px-4.text-center(class='sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl')
     h2.text-base.font-semibold.tracking-wider.text-indigo-600.uppercase Tutorials
     p.mt-2.text-3xl.font-extrabold.text-gray-900.tracking-tight(class='sm:text-4xl')
@@ -102,14 +102,19 @@
       | Master your workflow with the beginner's guide, tips & tricks.
     .mt-12
       .grid.grid-cols-2.gap-8(class='sm:grid-cols-2 lg:grid-cols-2')
+
+
         each val in videos
-          .pt-6
-            .flow-root.bg-gray-50.rounded-lg.px-6.pb-8
-              .-mt-6
-                h3.mt-8.text-lg.font-medium.text-gray-900.tracking-tight.mb-8
-                  | #{val.title}
+          figure.shadow-lg.rounded-xl.flex-none.mx-16.p-0(class='md:w-xl')
+              blockquote.rounded-t-xl.bg-gray-50.px-6.py-8.text-lg.leading-8.font-semibold.text-gray-900(class='md:p-10 md:text-xl md:leading-8')
                 .w-full.rounded-lg.youtube_lazy_load(data-embed= val.id) 
                   .play-button
+              figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold.text-white.bg-green-500
+
+                .flex-auto
+                    span
+                      | #{val.title}
+
 
 
 

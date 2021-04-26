@@ -246,27 +246,19 @@ section.bg-indigo-800
   .max-w-7xl.mx-auto(class='md:grid md:grid-cols-2 md:px-6 lg:px-8')
 
     each val in reviews
-
-      .py-12.px-4(class='sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16')
-        div(class='md:flex-shrink-0')
-          img.h-12(src= val.photo alt='Tuple')
-        blockquote.mt-6(class='md:flex-grow md:flex md:flex-col')
-          .relative.text-lg.font-medium.text-white(class='md:flex-grow')
-            svg.absolute.top-0.left-0.transform.-translate-x-3.-translate-y-2.h-8.w-8.text-indigo-600(fill='currentColor' viewbox='0 0 32 32' aria-hidden='true')
-              path(d='M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z')
-            p.relative
-              | #{val.review}
-          footer.mt-8
-            .flex
-              .flex-shrink-0.inline-flex.rounded-full.border-2.border-white
-                img.h-12.w-12.rounded-full(src= val.photo alt='Photo of Helperbird user.')
-              .ml-4
-                .text-base.font-medium.text-white #{val.name}
-                .text-base.font-medium.text-indigo-200 #{val.title}
-
-
-
-
-
+      figure.shadow-lg.rounded-xl.flex-none.w-80.mx-16.p-0(class='md:w-xl' style='transform: rotate(1deg) translateZ(0px);')
+          blockquote.rounded-t-xl.bg-gray-50.px-6.py-8.text-lg.leading-8.font-semibold.text-gray-900(class='md:p-10 md:text-xl md:leading-8')
+              svg.mb-5.fill-current.text-pink-100(width='45' height='36')
+                  path(d='M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z')
+              p
+                  | #{val.review}
+          figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold.text-white.bg-pink-500
+              .w-14.h-14.bg-gray-50.rounded-full.flex.items-center.justify-center
+                  img.w-12.h-12.rounded-full.bg-fuchsia-100(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
+              .flex-auto
+                  | #{val.name}
+                  br
+                  span.text-green-100
+                      | #{val.title}
 
 

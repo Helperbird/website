@@ -1,5 +1,5 @@
 // This example requires Tailwind CSS v2.0+
-.bg-white#pricing-table
+.bg-gray-50#pricing-table
   .max-w-7xl.mx-auto.py-24.px-4(class='sm:px-6 lg:px-8')
     div(class='sm:flex sm:flex-col sm:align-center')
       h1.text-5xl.font-extrabold.text-gray-900(class='sm:text-center')
@@ -7,8 +7,8 @@
       p.mt-5.text-xl(class='sm:text-center')
         | All paid plans include 3 day free trial.
       .relative.self-center.mt-6.bg-gray-100.rounded-lg.flex(class='p-0.5 sm:mt-8')
-        button.relative.rounded-md.shadow-sm.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType" class='w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'       v-bind:class="!isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Monthly billing
-        button.relative.rounded-md.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType"  class='ml-0.5 w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'    v-bind:class="isYearly ? 'bg-white border-gray-200' : 'border border-transparent'") Yearly billing
+        button.relative.rounded-md.shadow-sm.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType" class='w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'       v-bind:class="!isYearly ? 'bg-gray-50 border-gray-200' : 'border border-transparent'") Monthly billing
+        button.relative.rounded-md.py-2.text-sm.font-medium.text-gray-700.whitespace-nowrap(type='button' @click="switchType"  class='ml-0.5 w-1/2 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:z-10 sm:w-auto sm:px-8'    v-bind:class="isYearly ? 'bg-gray-50 border-gray-200' : 'border border-transparent'") Yearly billing
    
 
 

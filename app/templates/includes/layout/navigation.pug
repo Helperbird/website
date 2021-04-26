@@ -1,4 +1,4 @@
-.relative.bg-white.shadow-lg#nav
+.relative.bg-gray-50.shadow-lg#nav
   .max-w-7xl.mx-auto.px-4(class='sm:px-6')
     .flex.justify-between.items-center.py-6(class='md:justify-start md:space-x-10')
       .flex.justify-start(class='lg:w-0 lg:flex-1')
@@ -6,7 +6,7 @@
           span.sr-only Helperbird
           img.h-8.w-auto(class='sm:h-10' loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Helperbirds logo of an owl')
       .-mr-2.-my-2(class='md:hidden')
-        button.bg-white.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
+        button.bg-gray-50.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
           span.sr-only Open menu
           // Heroicon name: menu
           svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
@@ -16,7 +16,7 @@
           | About
         .relative
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
-          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(@click="handleFeatures" type='button' class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+          button.group.bg-gray-50.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(@click="handleFeatures" type='button' class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
             span Features
 
             svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
@@ -24,7 +24,7 @@
 
           .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md.hidden(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2', v-bind:style="showFeatures ?'display:block !important;' : 'display: none !important;'"  )
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
-              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8')
+              .relative.grid.gap-6.bg-gray-50.px-5.py-6(class='sm:gap-8 sm:p-8')
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='/features/annotation' class='hover:bg-gray-50')
                   // Heroicon name: chart-bar
                   svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
@@ -80,7 +80,7 @@
           | Pricing
         .relative
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
-          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleProducts" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+          button.group.bg-gray-50.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleProducts" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
             span Products
             //
               Heroicon name: chevron-down
@@ -97,7 +97,7 @@
             To: "opacity-0 translate-y-1"
           .absolute.z-10.transform.mt-3.px-2.w-screen.max-w-md.hidden( v-bind:style="showProducts ?'display:block !important;' : 'display: none !important;'" class='left-1/2 -translate-x-1/2 sm:px-0 lg:max-w-3xl')
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
-              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
+              .relative.grid.gap-6.bg-gray-50.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
                 a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='/chrome' class='hover:bg-gray-50')
                   .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
                     // Heroicon name: chart-bar
@@ -168,7 +168,7 @@
         .relative
       
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
-          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleCommon" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
+          button.group.bg-gray-50.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleCommon" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
             span Compare
             //
               Heroicon name: chevron-down
@@ -180,7 +180,7 @@
 
           .absolute.z-10.-ml-4.mt-3.transform.w-screen.max-w-md.hidden( class='lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'  v-bind:style="showCompare ?'display:block !important;' : 'display: none !important;'")
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
-              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
+              .relative.grid.gap-6.bg-gray-50.px-5.py-6(class='sm:gap-8 sm:p-8 lg:grid-cols-2')
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='/compare/read-and-write-alternative' class='hover:bg-gray-50')
                   .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-gradient-to-r.from-purple-600.to-indigo-600.text-white(class='sm:h-12 sm:w-12')
                     // Heroicon name: inbox
@@ -219,13 +219,13 @@
     From: "opacity-100 scale-100"
     To: "opacity-0 scale-95"
   .absolute.top-0.inset-x-0.z-10.p-2.transition.transform.origin-top-right(class='md:hidden')
-    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-white.divide-y-2.divide-gray-50( v-bind:style="showMenu ?'display:block !important;' : 'display: none !important;'")
+    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-gray-50.divide-y-2.divide-gray-50( v-bind:style="showMenu ?'display:block !important;' : 'display: none !important;'")
       .pt-5.pb-6.px-5
         .flex.items-center.justify-between
           div
             img.h-8.w-auto(loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Workflow')
           .-mr-2
-            button.bg-white.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
+            button.bg-gray-50.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
               span.sr-only Close menu
               // Heroicon name: x
               svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')

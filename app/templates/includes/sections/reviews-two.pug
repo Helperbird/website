@@ -16,7 +16,7 @@
         "rating": [0, 1, 2, 3, 4 ]
         },
 
-                  {
+            {
         "name": "Melissa Motz",
         "title": "Teacher",
         "review": "My son has dyslexia and has been struggling with parts of distant learning over the last year. We recently discovered this software and he is loving everything about it, especially with the ease of following directions and completing his assignments! We have used several other tools but this has everything a dyslexia person needs all in one bundle! The upgrade is defiantly worth it to make our daily struggles, on the computer, run much smoother. I also greatly appreciate customer support (helpdesk). They went above and beyond to make sure we were all set up on the computer for my son to most successful.",
@@ -53,7 +53,7 @@
         "rating": [0, 1, 2, 3, 4 ]
         },
 
-             {
+            {
         "name": "Luke Mccarthy",
         "title": "Teacher",
         "review": "This chrome extension is absolutely amazing. I'm a Primary school teacher and it helps children with a broad range of needs. It's so easy to set up. I love the way it syncs across devices so set up is seamless across all the children's computers. The customizable features are a game changer for allowing children to enjoy reading and accessing the web in our school. The best application I have ever seen for school children. Looking forward to trying the iPad application soon.",
@@ -74,23 +74,27 @@
 section.testimonials
 
     .max-w-7xl.mx-auto.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-8')
-      .text-center
-        h2.text-base.font-semibold.text-indigo-600.tracking-wide.uppercase Reviews
-        p.mt-1.text-4xl.font-extrabold.text-gray-900(class='sm:text-5xl sm:tracking-tight lg:text-6xl') See what our customers are saying
-        p.max-w-xl.mt-5.mx-auto.text-xl.text-gray-500
-          | Over 400,000 use Helperbird every day. Allowing them to be more accessible and productive on the web.
+        .text-center
+            h2.mt-1.text-4xl.font-extrabold.text-gray-900(class='sm:text-5xl sm:tracking-tight lg:text-6xl') See what our customers are saying
+            p.max-w-xl.mt-5.mx-auto.text-xl.text-gray-500
+                | Over 400,000 use Helperbird every day. Allowing them to be more accessible and productive on the web.
 
 
     .owl-carousel.owl-carousel-loader
 
         each val in reviews
-            .max-w-md.py-4.px-8.bg-white.shadow-lg.rounded-lg.my-20.item.m-16
-                .flex.justify-center.-mt-16(class='md:justify-end')
-                    img.w-20.h-20.object-cover.rounded-full.border-2.border-indigo-500(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
-                div
-                    h2.text-gray-800.text-3xl.font-semibold 
 
-                    p.mt-2.text-gray-600 #{val.review}
-                .flex.justify-end.mt-4
-                    p.text-xl.font-medium.text-indigo-500 #{val.name}
-
+            figure.shadow-lg.rounded-xl.flex-none.w-80.mx-16.p-0(class='md:w-xl' style='transform: rotate(1deg) translateZ(0px);')
+                blockquote.rounded-t-xl.bg-white-50.px-6.py-8.text-lg.leading-8.font-semibold.text-gray-900(class='md:p-10 md:text-xl md:leading-8')
+                    svg.mb-5.fill-current.text-pink-100(width='45' height='36')
+                        path(d='M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z')
+                    p
+                        | #{val.review}
+                figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold.text-white.bg-pink-500
+                    .w-14.h-14.bg-gray-50.rounded-full.flex.items-center.justify-center
+                        img.w-12.h-12.rounded-full.bg-fuchsia-100(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
+                    .flex-auto
+                        | #{val.name}
+                        br
+                        span.text-green-100
+                            | #{val.title}
