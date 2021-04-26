@@ -9,6 +9,7 @@ async function load() {
 			openFeatures: false,
 			openProducts: false,
 			openCompare: false,
+			openSupport: false,
 			closeMenu: false,
 			openModal: false
 		},
@@ -16,6 +17,7 @@ async function load() {
 			handleFeatures: function() {
 				this.openProducts = false;
 				this.openCompare = false;
+				this.openSupport = false;
 				this.openFeatures = !this.openFeatures;
 			},
 			handleModal: function() {
@@ -24,12 +26,20 @@ async function load() {
 			handleProducts: function() {
 				this.openFeatures = false;
 				this.openCompare = false;
+				this.openSupport = false;
 				this.openProducts = !this.openProducts;
 			},
 			handleCommon: function() {
 				this.openFeatures = false;
 				this.openProducts = false;
+				this.openSupport = false;
 				this.openCompare = !this.openCompare;
+			},
+			handleSupport: function() {
+				this.openFeatures = false;
+				this.openProducts = false;
+				this.openCompare = false;
+				this.openSupport = !this.openSupport;
 			},
 			handleMobileMenu: function() {
 				this.closeMenu = !this.closeMenu;
@@ -44,6 +54,9 @@ async function load() {
 			},
 			showCompare: function() {
 				return this.openCompare;
+			},
+			showSupport: function() {
+				return this.openSupport;
 			},
 			showMenu: function() {
 				return this.closeMenu;
