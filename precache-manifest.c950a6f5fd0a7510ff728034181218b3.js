@@ -196,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/thanksgiving/GIVE-THANKS-01.png"
   },
   {
+    "revision": "d6929ce040178224c0f00d945ed73025",
+    "url": "/assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png"
+  },
+  {
     "revision": "82d009695ce3a6676ed1ada23b3a6904",
     "url": "/assets/images/blog/top-five/google-meet.jpeg"
   },
@@ -1828,7 +1832,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/googlea4b2e0ff05c168d5.html"
   },
   {
-    "revision": "a7ab9e5f6b623e2944e1",
+    "revision": "fca866396d9490e7c623",
     "url": "/helperbird.bundle.js"
   }
 ]);
