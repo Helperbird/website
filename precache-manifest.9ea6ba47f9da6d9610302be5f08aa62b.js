@@ -192,6 +192,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/setup/setup_4.png"
   },
   {
+    "revision": "75fc3c8d30a58634a2ad43bae8ba616b",
+    "url": "/assets/images/blog/teacher-appreciation-week-2020-dyslexia-story/teacher-appreciation-week-2020-dyslexia-story.png"
+  },
+  {
     "revision": "936659f6d5edfed376eb102e380289eb",
     "url": "/assets/images/blog/thanksgiving/GIVE-THANKS-01.png"
   },
