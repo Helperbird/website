@@ -75,9 +75,12 @@
                       | See all features
                     span.ml-3.inline-flex.items-center.px-3.rounded-full.text-xs.font-medium.leading-5.bg-indigo-100.text-indigo-800(class='py-0.5')
                       | New
-                
+
         a.text-base.font-medium.text-gray-500(href='/pricing' class='hover:text-gray-900')
           | Pricing
+          span.ml-3.inline-flex.items-center.px-3.rounded-full.text-xs.font-medium.leading-5.bg-indigo-100.text-indigo-800(class='py-0.5')
+            | Sale
+
         .relative
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
           button.group.bg-gray-50.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleProducts" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
@@ -119,7 +122,7 @@
                     p.mt-1.text-sm.text-gray-500
                       | Add the Helperbird features to your website.
                 a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='/products/accessibility-checker' class='hover:bg-gray-50')
-                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-green-500.text-white(class='sm:h-12 sm:w-12')
                     // Heroicon name: shield-check
                     svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
                       path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4')
@@ -130,7 +133,7 @@
                     p.mt-1.text-sm.text-gray-500
                       | A browser extension to check for accessibility issues on any website.
                 a.-m-3.p-3.flex.items-start.rounded-lg.transition.ease-in-out.duration-150(href='/products/ipad' class='hover:bg-gray-50')
-                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-indigo-500.text-white(class='sm:h-12 sm:w-12')
+                  .flex-shrink-0.flex.items-center.justify-center.h-10.w-10.rounded-md.bg-blue-500.text-white(class='sm:h-12 sm:w-12')
                     // Heroicon name: view-grid
                     svg.h-6.w-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
                       path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z')
@@ -139,25 +142,15 @@
                       | Helperbird iPad app
                     p.mt-1.text-sm.text-gray-500
                       | Coming 2021
-          
-      
+
+
               .px-5.py-5.bg-gray-50.space-y-6(class='sm:flex sm:space-y-0 sm:space-x-10 sm:px-8')
-                .flow-root
-                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='/demo' class='hover:bg-gray-100')
-                    // Heroicon name: play
-                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
-                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
-                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
-                    span.ml-3 Watch Demo
                 .flow-root
                   a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='/sales' class='hover:bg-gray-100')
                     // Heroicon name: phone
                     svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
                       path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z')
                     span.ml-3 Contact Sales
-
-
-
                 .flow-root
                   a.-m-3.p-3.flow-root.rounded-md.transition.ease-in-out.duration-150(href='/order' class='hover:bg-gray-100')
                     span.flex.items-center
@@ -166,7 +159,7 @@
                       span.ml-3.inline-flex.items-center.px-3.rounded-full.text-xs.font-medium.leading-5.bg-indigo-100.text-indigo-800(class='py-0.5')
                         | New
         .relative
-      
+
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
           button.group.bg-gray-50.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleCommon" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500')
             span Compare
@@ -175,8 +168,8 @@
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
               path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
-          
-          
+
+
 
           .absolute.z-10.-ml-4.mt-3.transform.w-screen.max-w-md.hidden( class='lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'  v-bind:style="showCompare ?'display:block !important;' : 'display: none !important;'")
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
@@ -202,7 +195,78 @@
                   .ml-4
                     p.text-base.font-medium.text-gray-900
                       | Helperbird vs Immersive reader
-        
+
+        .relative
+
+          // Item active: "text-gray-900", Item inactive: "text-gray-500"
+          button.group.bg-white.rounded-md.text-gray-500.inline-flex.items-center.text-base.font-medium(type='button' @click="handleSupport" class='hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500' )
+            span Help center
+            //
+              Heroicon name: chevron-down
+              Item active: "text-gray-600", Item inactive: "text-gray-400"
+            svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
+              path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
+
+
+          .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md.hidden(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2',v-bind:style="showSupport ?'display:block !important;' : 'display: none !important;'")
+            .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
+              .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8')
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='/tutorials' class='hover:bg-gray-50')
+                  // Heroicon name: chart-bar
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z')
+
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Video tutorials
+
+
+
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='/partners/' class='hover:bg-gray-50')
+                  // Heroicon name: shield-check
+
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01')
+
+                                    
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Partners
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='/blog' target="_blank" class='hover:bg-gray-50')
+                  // Heroicon name: view-grid
+  
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z')
+
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Blog
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='https://www.youtube.com/channel/UCxTbxBMw8MTcsExcOdBBFQw' target="_blank" class='hover:bg-gray-50')
+                  // Heroicon name: view-grid
+
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
+
+                                  
+                                  
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Youtube channel
+
+                a.-m-3.p-3.flex.items-start.rounded-lg(href='/support' class='hover:bg-gray-50')
+                  // Heroicon name: cursor-click
+
+                  svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+                    path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z')
+
+                  
+                  .ml-4
+                    p.text-base.font-medium.text-gray-900
+                      | Support
+
+
+
       .hidden.items-center.justify-end(class='md:flex md:flex-1 lg:w-0')
 
         button.ml-8.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(@click="handleModal" role="button" class='hover:bg-indigo-700')
@@ -247,6 +311,10 @@
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
               span.ml-3.text-base.font-medium.text-gray-900
                 | Pricing
+              span.ml-3.inline-flex.items-center.px-3.rounded-full.text-xs.font-medium.leading-5.bg-indigo-100.text-indigo-800(class='py-0.5')
+                | Sale
+
+
             a.-m-3.p-3.flex.items-center.rounded-md(href='/support'  class='hover:bg-gray-50')
               svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
                 path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
