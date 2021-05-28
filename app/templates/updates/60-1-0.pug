@@ -1,0 +1,51 @@
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '60.1.0 🥳'
+  - var description = 'We want to say a huge congratulations to all teachers, students & staff for finishing the school this year. I hope you have a great summer. We have been busy at work here at Helperbird. We have spring-cleaned Helperbird and added new improvements, thanks to you.'
+  - var url = '60-1-0'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+  +updates_title("Welcome to the new Helperbird 60.1.0 🥳", "We have a few surprises..... ")
+
+
+  +updates_paragraph('We want to say a huge congratulations to all teachers, students & staff for finishing the school this year. I hope you have a great summer. We have been busy at work here at Helperbird. We have spring-cleaned Helperbird and added new improvements, thanks to you.')
+
+
+  +updates_paragraph('As a thank you to all our users, here is a 20% off code for Helperbird Pro "Helperbird20". Just use it in app. ')
+
+  +updates_paragraph_title('New features')
+
+  +updates_paragraph_title_smaller("🖼️ OCR can now speak out the words","Thanks to  Patrick Hausammann for the suggestion. You can now enable the OCR to read out the text it extracts now. Such a great idea. Thank you, Patrick.")
+
+  +updates_paragraph_title_smaller("🪟 Highlight text and paragraphs across the web.","A much-requested feature is finally here. Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. All highlights will stay on the page and will also be stored in yours notes app.")
+
+  +updates_paragraph_title_smaller("✍️ Filter and view controls","Speaking of the notes app. We have given them a little facelift, making them easier to look at and discover. You can now filter by group, and by the view. From card and table.")
+
+  +updates_paragraph_title_smaller("🗒️ Pdf & Google docs toolbar are separate.","As you might know, Google docs will be updating this year, so to get ready, we have broken up our PDF and Google docs toolbar. So when the change happens we will be ready.")
+
+  +updates_paragraph_title_smaller("🏛️ Column support for paragraphs","Thanks to Edward O' Connor, we have added column support for paragraphs, making it easier for text to be read when it is broken up.")
+
+  +updates_paragraph_title_smaller("✔️ OCR works offline","That's right!, our OCR tool is now is 70% quicker and works offline. Be sure to check it out.")
+
+  +updates_paragraph_title('Changes')
+  +updates_paragraph_title_smaller("Reader mode updated","Helperbird's Reader mode has gotten a huge update. With Helperbirds Reader mode, it allows distraction-free reading of any page but now you have more access to Helperbirds other features, including Text to speech, immersive reader, colours and more.")
+  +updates_paragraph_title_smaller("Annotations have got a redesign.","Cleaner looking and easier to use.")
+  +updates_paragraph_title_smaller("Reading list now shows images","When you add a site to the reading list it now adds an image to the view list of the websites you added.")
+  +updates_paragraph_title_smaller("Highlight menu redesigned","We now show labels under each feature, making it easier to understand each feature.")
+
+  +updates_paragraph_title('Bug fixes')
+  +updates_paragraph("Word prediction is now 30% faster.")
+  +updates_paragraph("Text to speech now working on Google docs.")
+
+  +updates_paragraph_title('Whats coming next?')
+  +updates_paragraph("PDF highlighter support.")
+  +updates_paragraph("Our iPad app is coming August 21st.")
+  +updates_paragraph("Our new website.")
+
+
+
