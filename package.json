@@ -61,7 +61,7 @@
     "autoprefixer": "^10.2.3",
     "bootstrap": "^4.4.1",
     "cssnano": "^4.1.10",
-    "daisyui": "^0.11.1",
+    "daisyui": "^1.0.2",
     "glob": "^7.1.6",
     "globby": "^11.0.1",
     "gulp": "^4.0.2",
