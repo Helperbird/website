@@ -1,0 +1,100 @@
+
+// This example requires Tailwind CSS v2.0+
+.relative.bg-white
+  .absolute.inset-0(aria-hidden='true')
+    .absolute.inset-y-0.right-0.bg-indigo-700(class='w-1/2')
+  .relative.max-w-7xl.mx-auto(class='lg:px-8 lg:grid lg:grid-cols-2')
+    .bg-white.py-16.px-4(class='sm:py-24 sm:px-6 lg:px-0 lg:pr-8')
+      .max-w-lg.mx-auto(class='lg:mx-0')
+        h2.text-base.font-semibold.tracking-wide.text-indigo-600.uppercase
+          | Full-featured
+        p.mt-2.text-2xl.font-extrabold.text-gray-900(class='sm:text-3xl') Everything you need to talk with your customers
+        dl.mt-12.space-y-10
+          .relative
+            dt
+              .absolute.h-12.w-12.flex.items-center.justify-center.bg-indigo-500.rounded-md
+                // Heroicon name: outline/view-list
+                svg.h-6.w-6.text-white(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                  path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 10h16M4 14h16M4 18h16')
+              p.ml-16.text-lg.leading-6.font-medium.text-gray-900 List view
+            dd.mt-2.ml-16.text-base.text-gray-500
+              | Nunc a, lacinia sed risus neque, arcu, rhoncus. Id mauris justo facilisis aliquam platea vestibulum condimentum morbi.
+          .relative
+            dt
+              .absolute.h-12.w-12.flex.items-center.justify-center.bg-indigo-500.rounded-md
+                // Heroicon name: outline/view-boards
+                svg.h-6.w-6.text-white(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                  path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2')
+              p.ml-16.text-lg.leading-6.font-medium.text-gray-900 Boards
+            dd.mt-2.ml-16.text-base.text-gray-500
+              | Purus lobortis volutpat posuere id integer nunc tellus. Non mauris malesuada feugiat massa mi pellentesque cum est. Pharetra a varius urna rhoncus, tempor rutrum.
+          .relative
+            dt
+              .absolute.h-12.w-12.flex.items-center.justify-center.bg-indigo-500.rounded-md
+                // Heroicon name: outline/calendar
+                svg.h-6.w-6.text-white(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                  path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z')
+              p.ml-16.text-lg.leading-6.font-medium.text-gray-900 Calendar
+            dd.mt-2.ml-16.text-base.text-gray-500
+              | Purus lobortis volutpat posuere id integer nunc tellus. Non mauris malesuada feugiat massa mi pellentesque cum est. Pharetra a varius urna rhoncus, tempor rutrum.
+          .relative
+            dt
+              .absolute.h-12.w-12.flex.items-center.justify-center.bg-indigo-500.rounded-md
+                // Heroicon name: outline/users
+                svg.h-6.w-6.text-white(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                  path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z')
+              p.ml-16.text-lg.leading-6.font-medium.text-gray-900 Teams
+            dd.mt-2.ml-16.text-base.text-gray-500
+              | Tincidunt sollicitudin interdum nunc sit risus at bibendum vitae. Urna, quam ut sit justo non, consectetur et varius.
+    .bg-indigo-700.py-16.px-4(class='sm:py-24 sm:px-6 lg:bg-none lg:px-0 lg:pl-8 lg:flex lg:items-center lg:justify-end')
+      .max-w-lg.mx-auto.w-full.space-y-8(class='lg:mx-0')
+        div
+          h2.sr-only Price
+          p.relative.grid.grid-cols-2
+            span.flex.flex-col.text-center
+              span.text-5xl.font-extrabold.text-white.tracking-tight $99
+              span.mt-2.text-base.font-medium.text-indigo-200 Setup fee
+              span.sr-only plus
+            span.pointer-events-none.absolute.h-12.w-full.flex.items-center.justify-center(aria-hidden='true')
+              // Heroicon name: outline/plus
+              svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6m0 0v6m0-6h6m-6 0H6')
+            span
+              span.flex.flex-col.text-center
+                span.text-5xl.font-extrabold.text-white.tracking-tight $4
+                span.mt-2.text-base.font-medium.text-indigo-200 Per month
+        ul.rounded.overflow-hidden.grid.gap-px(class='sm:grid-cols-2')
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span Unlimited projects
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span No per user fees
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span Unlimited storage
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span 24/7 support
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span Cancel any time
+          li.bg-indigo-800.bg-opacity-50.py-4.px-4.flex.items-center.space-x-3.text-base.text-white
+            // Heroicon name: outline/check
+            svg.h-6.w-6.text-indigo-300(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 13l4 4L19 7')
+            span 14 days free
+        a.bg-white.border.border-transparent.rounded-md.w-full.px-8.py-4.flex.items-center.justify-center.text-lg.leading-6.font-medium.text-indigo-600(href='#' class='hover:bg-indigo-50 md:px-10')
+          | Get started today
+        a.block.text-center.text-base.font-medium.text-indigo-200(href='#' class='hover:text-white')
+          | Try Workflow Lite for free
