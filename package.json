@@ -8,7 +8,7 @@
     "images": "gulp",
     "webp": "gulp webm",
     "sitemap": "node sitemap.js",
-    "start": "webpack-dev-server --mode development && http-server docs",
+    "start": "webpack-dev-server --mode development && http-server docs --ext html",
     "clean": "purgecss --css app/assets/css/styles.css --content app/index.html --out docs/"
   },
   "repository": {
