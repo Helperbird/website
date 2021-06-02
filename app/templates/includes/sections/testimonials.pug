@@ -295,34 +295,35 @@
     ]
 
 
-.grid.grid-cols-2.grid-flow-col-dense.gap-24
-  // This example requires Tailwind CSS v2.0+
-  each val in reviews
-    section.py-12.bg-gray-50.overflow-hidden(class='md:py-20 lg:py-24')
-      .relative.max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
-        svg.absolute.top-full.right-full.transform(class='translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' role='img' aria-labelledby='svg-workcation')
-          title#svg-workcation Helperbird
-          defs
-            pattern#ad119f34-7694-4c31-947f-5c9d249b21f3(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
-              rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
-          rect(width='404' height='404' fill='url(#ad119f34-7694-4c31-947f-5c9d249b21f3)')
-        .relative
+
+each val in reviews
 
 
-          figure.shadow-lg.rounded-xl.flex-none.mx-16.p-0(class='md:w-xl' style='transform: rotate(1deg) translateZ(0px);')
-              blockquote.rounded-t-xl.bg-gray-50.px-6.py-8.text-lg.leading-8.font-semibold.text-gray-900(class='md:p-10 md:text-xl md:leading-8')
-                  svg.mb-5.fill-current.text-pink-100(width='45' height='36')
-                      path(d='M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z')
-                  p
-                      | #{val.review}
-              figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold.text-white.bg-pink-500
-                  .w-14.h-14.bg-gray-50.rounded-full.flex.items-center.justify-center
-                      img.w-12.h-12.rounded-full.bg-fuchsia-100(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
-                  .flex-auto
-                      | #{val.name}
-                      br
-                      span.text-green-100
-                          | #{val.title}
+  section.py-12.bg-gray-50(class='md:py-20 lg:py-24')
+    .relative.max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
+      svg.absolute.top-full.right-full.transform(class='translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2' width='404' height='404' fill='none' viewbox='0 0 404 404' role='img' aria-labelledby='svg-workcation')
+        title#svg-workcation Helperbird
+        defs
+          pattern#ad119f34-7694-4c31-947f-5c9d249b21f3(x='0' y='0' width='20' height='20' patternunits='userSpaceOnUse')
+            rect.text-gray-200(x='0' y='0' width='4' height='4' fill='currentColor')
+        rect(width='404' height='404' fill='url(#ad119f34-7694-4c31-947f-5c9d249b21f3)')
+      .relative
 
 
-   
+        figure.shadow-lg.rounded-xl.flex-none.mx-16.p-0(class='md:w-xl' style='transform: rotate(1deg) translateZ(0px);')
+            blockquote.rounded-t-xl.bg-gray-50.px-6.py-8.text-lg.leading-8.font-semibold.text-gray-900(class='md:p-10 md:text-xl md:leading-8')
+                svg.mb-5.fill-current.text-pink-100(width='45' height='36')
+                    path(d='M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z')
+                p
+                    | #{val.review}
+            figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold.text-white.bg-pink-500
+                .w-14.h-14.bg-gray-50.rounded-full.flex.items-center.justify-center
+                    img.w-12.h-12.rounded-full.bg-fuchsia-100(src= val.photo alt= val.name + 's` review of Helperbird. ', loading="lazy")
+                .flex-auto
+                    | #{val.name}
+                    br
+                    span.text-green-100
+                        | #{val.title}
+
+
+  
