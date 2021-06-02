@@ -27,7 +27,7 @@
           p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
             span.text-4xl.font-extrabold.text-gray-900 $300.00
             span.text-base.font-medium /yearly
-          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openStandard") Buy Widget standard
+          a.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' :href="standardLink") Buy Widget standard
   
 
         .pt-6.pb-8.px-6
@@ -50,8 +50,8 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Always-on cloud updates
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Dedicated account manager
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Highlights
@@ -65,19 +65,19 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Premium support
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm White labeling
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Includes immersive reader
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Unlimited subdomains
         .p-6
-          button.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' @click="openStandard") Buy Widget Standard
+          a.mt-8.block.w-full.bg-pink-500.border.border-pink-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center(class='bg-pink-500 hover:bg-pink-900' :href="standardLink") Buy Widget Standard
    
       .border.border-gray-200.rounded-lg.shadow-sm.divide-y.divide-gray-200
         .p-6
@@ -91,7 +91,7 @@
           p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
             span.text-4xl.font-extrabold.text-gray-900 $1000.00
             span.text-base.font-medium /yearly
-          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openPro") Buy Widget Pro
+          a.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' :href="proLink") Buy Widget Pro
 
         .pt-6.pb-8.px-6
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Features
@@ -136,13 +136,13 @@
                 path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
               span.text-sm Includes immersive reader
             li.flex.space-x-3
-              svg.flex-shrink-0.h-5.w-5.text-green-500(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
-                path(fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd')
+              svg.flex-shrink-0.h-5.w-5.text-red-500(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' width="30px" stroke='red')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 18L18 6M6 6l12 12')
               span.text-sm Unlimited subdomains
        
 
         .p-6
-          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openPro") Buy Widget Pro
+          a.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' :href="proLink") Buy Widget Pro
 
 
      
@@ -157,7 +157,7 @@
           p.mt-8.hidden(v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'")
             span.text-4xl.font-extrabold.text-gray-900  $2,500
             span.text-base.font-medium /yearly
-          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Widget unlimited
+          a.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' :href="unlimitedLink") Buy Widget unlimited
         .pt-6.pb-8.px-6
 
           h3.font-medium.text-gray-900.tracking-wide.mt-8 Features
@@ -207,4 +207,4 @@
               span.text-sm Unlimited subdomains
 
         .p-6
-          button.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' @click="openUnlimited") Buy Widget unlimited
+          a.mt-8.block.w-full.bg-indigo-500.border.border-indigo-500.rounded-md.py-2.text-sm.font-semibold.text-white.text-center( class='bg-indigo-500 hover:bg-indigo-900' :href="unlimitedLink") Buy Widget unlimited

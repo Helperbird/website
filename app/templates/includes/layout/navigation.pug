@@ -140,19 +140,26 @@
               .bg-white(class='w-1/2')
               .bg-gray-50(class='w-1/2')
             .relative.max-w-7xl.mx-auto.grid.grid-cols-1(class='lg:grid-cols-2')
-              nav.grid.gap-y-10.px-4.py-8.bg-white(class='sm:px-6 lg:px-8 xl:pr-12' aria-labelledby='solutionsHeading')
+              nav.grid.gap-y-10.px-4.py-8.bg-white.px-4.py-8(class='sm:py-12 sm:px-6 lg:px-8 xl:pl-12' aria-labelledby='solutionsHeading')
                 h2#solutionsHeading.sr-only Solutions menu
                 div
-                  ul.mt-5.space-y-6.space-y-6.grid.grid-cols-2(class='sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12' )
+                  h3.text-sm.font-medium.tracking-wide.text-gray-500.uppercase
+                    | Popular features
+                  ul.grid.grid-cols-2.pt-4.pb-8(class='sm:grid-cols-2 sm:gap-x-8   pt-4 pb-8' )
                     each val in features    
-                      li
+                      li.mt-5.mb-5
                         a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900.transition.ease-in-out.duration-150(href= val.link class='hover:bg-gray-50')
-          
+
                           span!=  val.icon
-                         
+
                           span.ml-4 
                             | #{val.title}
 
+
+                  .max-w-7xl.mx-auto.space-y-6.-m-3.p-3(class='sm:flex sm:space-y-0')
+                    .flow-root
+                      a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium(href='/features' class='hover:bg-gray-100  px-8 py-3 border border-transparent font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 ')
+                        span.ml-3 See all features
 
 
 
@@ -160,7 +167,7 @@
               .bg-gray-50.px-4.py-8(class='sm:py-12 sm:px-6 lg:px-8 xl:pl-12')
                 div
                   h3.text-sm.font-medium.tracking-wide.text-gray-500.uppercase
-                    | From the blog
+                    | Highlights
                   ul.mt-6.space-y-6
                     li.flow-root
                       a.-m-3.p-3.flex.rounded-lg.transition.ease-in-out.duration-150(href='#' class='hover:bg-gray-100')
@@ -186,15 +193,6 @@
                     span(aria-hidden='true') &rarr;
 
 
-            .bg-gray-50
-              .max-w-7xl.mx-auto.space-y-6.px-4.py-5(class='sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8')
-                .flow-root
-                  a.-m-3.p-3.flex.items-center.rounded-md.text-base.font-medium.text-gray-900(href='/features' class='hover:bg-gray-100')
-                    // Heroicon name: outline/play
-                    svg.flex-shrink-0.h-6.w-6.text-gray-400(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor' aria-hidden='true')
-                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
-                      path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
-                    span.ml-3 See all features
 
 
         a.text-base.font-medium.text-gray-500(href='/pricing' class='hover:text-gray-900')
@@ -289,7 +287,7 @@
 
 
 
-   
+
         .div
 
           // Item active: "text-gray-900", Item inactive: "text-gray-500"
@@ -382,13 +380,13 @@
                   svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
                     path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01')
 
-                                    
+
                   .ml-4
                     p.text-base.font-medium.text-gray-900
                       | Partners
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='/blog' target="_blank" class='hover:bg-gray-50')
                   // Heroicon name: view-grid
-  
+
                   svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
                     path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z')
 
@@ -402,8 +400,8 @@
                     path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z')
                     path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z')
 
-                                  
-                                  
+
+
                   .ml-4
                     p.text-base.font-medium.text-gray-900
                       | Youtube channel
@@ -414,7 +412,7 @@
                   svg.flex-shrink-0.h-6.w-6.text-indigo-600(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
                     path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z')
 
-                  
+
                   .ml-4
                     p.text-base.font-medium.text-gray-900
                       | Support
