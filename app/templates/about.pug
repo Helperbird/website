@@ -154,7 +154,7 @@ html(lang='en')
   body.bg-content-100
 
     include includes/layout/navigation.pug
-    .relative.py-16.bg-white.overflow-hidden
+    .relative.py-16.bg-gray-50.overflow-hidden
       .hidden(class='lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full')
         .relative.h-full.text-lg.max-w-prose.mx-auto(aria-hidden='true')
           svg.absolute.top-12.left-full.transform.translate-x-32(width='404' height='384' fill='none' viewbox='0 0 404 384')
@@ -199,7 +199,36 @@ html(lang='en')
             | My mission for Helperbird is to ensure that reading is never a barrier to learning. If you want to learn, dyslexia, concussion symptoms, ADD, low vision, or anything in between should not stop you from intake information quickly and effectively. Growing up with less than a perfect education system should not stop you from being able to learn.
           p
             | Today most of our users are productivity lovers, even those without learning differences, who want to reach their full potential.
-  
+      
+          .bg-gray-50.pt-12(class='sm:pt-16')
+            .max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
+              .max-w-4xl.mx-auto.text-center
+                h2.text-3xl.font-extrabold.text-gray-900(class='sm:text-4xl')
+                  | Trusted by developers from over 80 planets
+                p.mt-3.text-xl.text-gray-500(class='sm:mt-4')
+                  | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
+            .mt-10.pb-12.bg-white(class='sm:pb-16')
+              .relative
+                .absolute.inset-0.bg-gray-50(class='h-1/2')
+                .relative.max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
+                  .max-w-4xl.mx-auto
+                    dl.rounded-lg.bg-white.shadow-lg(class='sm:grid sm:grid-cols-3')
+                      .flex.flex-col.border-b.border-gray-100.p-6.text-center(class='sm:border-0 sm:border-r')
+                        dt.order-2.mt-2.text-lg.leading-6.font-medium.text-gray-500
+                          | Pepperoni
+                        dd.order-1.text-5xl.font-extrabold.text-indigo-600
+                          | 100%
+                      .flex.flex-col.border-t.border-b.border-gray-100.p-6.text-center(class='sm:border-0 sm:border-l sm:border-r')
+                        dt.order-2.mt-2.text-lg.leading-6.font-medium.text-gray-500
+                          | Delivery
+                        dd.order-1.text-5xl.font-extrabold.text-indigo-600
+                          | 24/7
+                      .flex.flex-col.border-t.border-gray-100.p-6.text-center(class='sm:border-0 sm:border-l')
+                        dt.order-2.mt-2.text-lg.leading-6.font-medium.text-gray-500
+                          | Calories
+                        dd.order-1.text-5xl.font-extrabold.text-indigo-600
+                          | 100k
+
           figure
             img.w-full.rounded-lg(loading="lazy" src='/assets/images/people/rob-about.png' alt='Photo of Robert James being interviewed on the indiehackers website.' width='1310' height='873')
             figcaption Our founder, Robert James Gabriel, is talking on the indie hackers podcast.
@@ -219,5 +248,5 @@ html(lang='en')
 
 
 
-    include includes/sections/cta_2.pug
+
     include includes/layout/footer.pug

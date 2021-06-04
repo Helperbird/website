@@ -1,4 +1,3 @@
-
 // css
 import '../css/styles.css';
 import 'tiny-slider/dist/tiny-slider.css';
@@ -15,26 +14,20 @@ import * as navigation from './core/navigation';
 import * as banner from './core/banner';
 import * as pricing_table from './core/extension-pricing';
 import * as widget_table from './core/widget-pricing';
-import * as a11y_table from './core/a11y-pricing';
-
 
 async function load() {
-    reviewSlider.start();
-    Youtube.load();
-    
-    // Vue components load
-    navigation.load();
-	banner.load();
-    widget_table.load();
-    pricing_table.load();
-    a11y_table.load();
-    
-    
-    thirdParty.crisp();
-    thirdParty.tagManager();
-    thirdParty.loadManager();
+	reviewSlider.start();
+	Youtube.load();
 
-	
+	// Vue components load
+	navigation.load();
+	banner.load();
+	widget_table.load();
+	pricing_table.load();
+
+	thirdParty.crisp();
+	thirdParty.tagManager();
+	thirdParty.loadManager();
 }
 
 load();

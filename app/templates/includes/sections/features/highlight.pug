@@ -1,0 +1,37 @@
+// This example requires Tailwind CSS v2.0+
+.relative.bg-white.pt-16.pb-16.overflow-hidden
+  .relative
+    div(class='lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24')
+      .px-4.max-w-xl.mx-auto(class='sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0')
+        div
+          div
+            span.h-12.w-12.rounded-md.flex.items-center.justify-center.bg-indigo-600
+              // Heroicon name: inbox
+              svg.inline-block.w-6.h-6.stroke-current.text-white(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='#fff')
+                path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z')
+
+          .mt-6
+            h2.text-3xl.font-extrabold.tracking-tight.text-gray-900
+              | Annotate any website
+            p.mt-4.text-lg.text-gray-500
+              | Highlight or annotate web pages, documents, pdfs, ebooks and more to improve research and study. Leaving sticking notes that help you with your research and homework.
+            .mt-6
+              a.inline-flex.px-4.py-2.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-600(href='/features/annotation' class='hover:bg-indigo-700')
+                | Learn more
+        .mt-8.border-t.border-gray-200.pt-6
+          blockquote
+            div
+              p.text-base.text-gray-500
+                | &ldquo;I have been trying to find ways to make my child happy to go to school again, and someone recommended helperbird. She loves helperbird, and she is now much happier about the idea of returning to school. I think this might be a game changer, as they do so much web based schoolwork and research.  She says "they really understand people with dyslexia.&rdquo;
+            footer.mt-3
+              .flex.items-center.space-x-3
+                .flex-shrink-0
+                  img.h-6.w-6.rounded-full(loading="lazy" src='https://www.gstatic.com/s2/contacts/images/NoPicture.gif' alt='Photo of Helperbirds user')
+                .text-base.font-medium.text-gray-700
+                  | Cris Townley, Partent
+      .mt-12(class='sm:mt-16 lg:mt-0')
+        .pl-4.-mr-48(class='sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full')
+          video.w-full.rounded-xl.shadow-xl.ring-1.ring-black.ring-opacity-5( width="680" height="402" autoplay="autoplay" muted="muted"  control="control" loop="loop" playsinline="playsinline")
+            source(src="/assets/videos/annotation.webm" type="video/webm")
+            source(src="/assets/videos/annotation.mp4" type="video/mp4")
+  

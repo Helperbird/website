@@ -313,23 +313,22 @@
 
 
 // This example requires Tailwind CSS v2.0+
-.bg-indigo-700
-  .max-w-4xl.mx-auto.px-4.py-16(class='sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8')
-    h2.text-3xl.font-extrabold.text-white.tracking-tight
-      | Features 400,000 people love
-    p.mt-4.max-w-3xl.text-lg.text-indigo-200
-      | From students, working professionals, researchers, and everyone between in over 151 countries. We have features that help you be more productive and make the web more accessible for everyone, from award-winning features like Opendyslexic, Immersive Reader, note-taking to complete customization of your web experience with over 30 other mix and match features. Helperbird is built for everyone.
-    .mt-12.grid.grid-cols-1.gap-x-6.gap-y-12(class='sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16')
-      each val in features      
-        div
-          div
-            span.flex.items-center.justify-center.h-12.w-12.rounded-md.bg-white.bg-opacity-10.text-white!= val.icon
-          .mt-6
-            h3.text-lg.font-medium.text-white #{val.title}
-            p.mt-2.text-base.text-indigo-200
-              | #{val.description}
-            if val.link
-              .mt-6
+.py-12.bg-white
+  .max-w-7xl.mx-auto.px-4(class='sm:px-6 lg:px-8')
+    .mt-10
+      dl.space-y-10(class='md:space-y-0 md:grid grid-cols-3 gap-x-8 gap-y-10')
 
-                a.inline-flex.px-4.py-2.border.border-transparent.text-base.font-medium.rounded-md.shadow-sm.text-white.bg-indigo-600(href= val.link class='hover:bg-indigo-700')
-                  | Learn more
+
+
+        
+
+        each val in features
+          figure.shadow-lg.rounded-xl.flex-none.w-80.mx-16.p-0(class='md:w-xl')
+              .flex.items-center.space-x-4.p-6.text-white.bg-pink-500
+                .text-lg.leading-8.font-semibold.text-gray-900!= val.icon
+                p.flex-auto
+                  | #{val.title}
+              figcaption.flex.items-center.space-x-4.p-6.rounded-b-xl.leading-6.font-semibold
+                  .flex-auto
+                      | #{val.description}
+  

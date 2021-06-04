@@ -8,7 +8,7 @@
     "images": "gulp",
     "webp": "gulp webm",
     "sitemap": "node sitemap.js",
-    "start": "webpack-dev-server --mode development && http-server docs",
+    "start": "webpack-dev-server --mode development && http-server docs --ext html",
     "clean": "purgecss --css app/assets/css/styles.css --content app/index.html --out docs/"
   },
   "repository": {
@@ -54,14 +54,13 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
-    "@stripe/stripe-js": "^1.3.0",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/typography": "^0.4.0",
     "accessibilityjs": "^1.1.2",
     "autoprefixer": "^10.2.3",
     "bootstrap": "^4.4.1",
     "cssnano": "^4.1.10",
-    "daisyui": "^0.11.1",
+    "daisyui": "^1.0.2",
     "glob": "^7.1.6",
     "globby": "^11.0.1",
     "gulp": "^4.0.2",
