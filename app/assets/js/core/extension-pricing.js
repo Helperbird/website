@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue.js';
-import { loadStripe } from '@stripe/stripe-js';
-import { Notyf } from 'notyf';
+
+
 
 async function load() {
 	let isThere = document.getElementById('pricing-table');
@@ -10,12 +10,23 @@ async function load() {
 		el: '#pricing-table',
 		data: {
 			isYearly: false,
-			stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-			notyf: new Notyf(),
-		
+			proLink: '',
+			studentLink:'',
+			unlimitedLink:'',
 			openModal: false
 		},
+		created: function () {
 
+			this.proLink = this.isYearly ? "https://buy.stripe.com/aEUcNt1yQ27W4Ss5kn" : "https://buy.stripe.com/28ofZF1yQ6oc84E5kl";
+			
+		
+			
+			this.studentLink =  "https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss" ;
+
+
+			this.unlimitedLink = this.isYearly ? "https://buy.stripe.com/cN2bJpgtK7sg5Ww9AC" : "https://buy.stripe.com/dR6cNt4L2dQEfx69AE";
+			
+		},
 		methods: {
 			switchType: function() {
 				this.isYearly = !this.isYearly;
@@ -25,88 +36,7 @@ async function load() {
 				this.openModal = !this.openModal;
 			},
 
-			openPro: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HwsTqENE7uqpRK1QDcWrD5g'
-									: 'price_1HwsTqENE7uqpRK1rZ0WjoHF',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
-			openStudent: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price:  'price_1HwtjgENE7uqpRK1MMaQveG3',
-		
 
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
-
-			openUnlimited: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HwthYENE7uqpRK1MyIFS6Uh'
-									: 'price_1HwthYENE7uqpRK11HU8zN2n',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			}
 		},
 		computed: {
 			showYearly: function() {

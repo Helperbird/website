@@ -135,7 +135,7 @@
               path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
 
 
-          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showFeatures ?'display:block !important;' : 'display: none !important;'")
+          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showFeatures  === true  ?'display:block !important;' : 'display: none !important;'")
             .absolute.inset-0.flex(aria-hidden='true')
               .bg-white(class='w-1/2')
               .bg-gray-50(class='w-1/2')
@@ -216,7 +216,7 @@
             From: "opacity-100 translate-y-0"
             To: "opacity-0 translate-y-1"
 
-          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showProducts ?'display:block !important;' : 'display: none !important;'")
+          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showProducts  === true  ?'display:block !important;' : 'display: none !important;'")
             .max-w-7xl.mx-auto.grid.gap-y-6.px-4.py-6(class='sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16')
               a.-m-3.p-3.flex.flex-col.justify-between.rounded-lg(href='/chrome' class='hover:bg-gray-50')
                 .flex(class='md:h-full lg:flex-col')
@@ -297,7 +297,7 @@
             svg.ml-2.h-5.w-5.text-gray-400(class='group-hover:text-gray-500' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
               path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
 
-          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showCompare ?'display:block !important;' : 'display: none !important;'")
+          .hidden.absolute.z-10.top-full.inset-x-0.transform.shadow-lg.bg-white(class='md:block' v-bind:style="showCompare  === true  ?'display:block !important;' : 'display: none !important;'")
             .max-w-7xl.mx-auto.grid.gap-y-6.px-4.py-6(class='sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16')
               a.-m-3.p-3.flex.flex-col.justify-between.rounded-lg(href='/compare/snap-and-read-alternativ' class='hover:bg-gray-50')
                 .flex(class='md:h-full lg:flex-col')
@@ -358,7 +358,7 @@
               path(fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd')
 
 
-          .absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md.hidden(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2',v-bind:style="showSupport ?'display:block !important;' : 'display: none !important;'")
+          .hidden.absolute.-ml-4.mt-3.transform.z-10.px-2.w-screen.max-w-md(class='sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2',v-bind:style="showSupport === true ?'display:block !important;' : 'display: none !important;'", style="display=")
             .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.overflow-hidden
               .relative.grid.gap-6.bg-white.px-5.py-6(class='sm:gap-8 sm:p-8')
                 a.-m-3.p-3.flex.items-start.rounded-lg(href='/tutorials' class='hover:bg-gray-50')
@@ -433,7 +433,7 @@
     From: "opacity-100 scale-100"
     To: "opacity-0 scale-95"
   .absolute.top-0.inset-x-0.z-10.p-2.transition.transform.origin-top-right(class='md:hidden')
-    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-gray-50.divide-y-2.divide-gray-50( v-bind:style="showMenu ?'display:block !important;' : 'display: none !important;'")
+    .rounded-lg.shadow-lg.ring-1.ring-black.ring-opacity-5.bg-gray-50.divide-y-2.divide-gray-50( v-bind:style="showMenu  === true  ?'display:block !important;' : 'display: none !important;'")
       .pt-5.pb-6.px-5
         .flex.items-center.justify-between
           div
