@@ -480,7 +480,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/logo/logo_pentahoV2.png"
   },
   {
-    "revision": "3a1bf2c4f056ddfd87c22055383b11be",
+    "revision": "aa25b5363d8736f3d562248781c199a3",
     "url": "/assets/images/logo/microsoft.png"
   },
   {
@@ -1836,7 +1836,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/googlea4b2e0ff05c168d5.html"
   },
   {
-    "revision": "fca866396d9490e7c623",
+    "revision": "19005fd69464a7ac87ef",
     "url": "/helperbird.bundle.js"
   }
 ]);

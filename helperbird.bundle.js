@@ -16626,7 +16626,7 @@ var Notyf = /** @class */ (function () {
 // CONCATENATED MODULE: ./assets/js/core/notifactions.js
 
 
-const notifactions_notyf = new Notyf({
+const notyf = new Notyf({
     ripple: true,
     duration: 5000,
     position: {
@@ -16638,7 +16638,7 @@ const notifactions_notyf = new Notyf({
 
 async function popup(message) {
 	setTimeout(() => {
-        notifactions_notyf.success(message);
+        notyf.success(message);
 	}, 2000), {
 		once: true
 	}
@@ -16753,66 +16753,6 @@ async function banner_load() {
 
  // a list of exported variables
 
-// CONCATENATED MODULE: ../node_modules/@stripe/stripe-js/dist/stripe.esm.js
-var V3_URL = 'https://js.stripe.com/v3';
-
-var injectScript = function injectScript() {
-  var script = document.createElement('script');
-  script.src = V3_URL;
-  var headOrBody = document.head || document.body;
-
-  if (!headOrBody) {
-    throw new Error('Expected document.body not to be null. Stripe.js requires a <body> element.');
-  }
-
-  headOrBody.appendChild(script);
-  return script;
-}; // Execute our own script injection after a tick to give users time to
-// do their own script injection.
-
-
-var stripePromise = Promise.resolve().then(function () {
-  if (typeof window === 'undefined') {
-    // Resolve to null when imported server side. This makes the module
-    // safe to import in an isomorphic code base.
-    return null;
-  }
-
-  if (window.Stripe) {
-    return window.Stripe;
-  }
-
-  var script = document.querySelector("script[src=\"".concat(V3_URL, "\"], script[src=\"").concat(V3_URL, "/\"]")) || injectScript();
-  return new Promise(function (resolve, reject) {
-    script.addEventListener('load', function () {
-      if (window.Stripe) {
-        resolve(window.Stripe);
-      } else {
-        reject(new Error('Stripe.js not available'));
-      }
-    });
-    script.addEventListener('error', function () {
-      reject(new Error('Failed to load Stripe.js'));
-    });
-  });
-});
-var loadCalled = false;
-stripePromise["catch"](function (err) {
-  if (!loadCalled) console.warn(err);
-});
-var loadStripe = function loadStripe() {
-  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-    args[_key] = arguments[_key];
-  }
-
-  loadCalled = true;
-  return stripePromise.then(function (maybeStripe) {
-    return maybeStripe ? maybeStripe.apply(void 0, args) : null;
-  });
-};
-
-
-
 // CONCATENATED MODULE: ./assets/js/core/extension-pricing.js
 
 
@@ -16826,12 +16766,23 @@ async function extension_pricing_load() {
 		el: '#pricing-table',
 		data: {
 			isYearly: false,
-			stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-			notyf: new Notyf(),
-		
+			proLink: '',
+			studentLink:'',
+			unlimitedLink:'',
 			openModal: false
 		},
+		created: function () {
 
+			this.proLink = this.isYearly ? "https://buy.stripe.com/aEUcNt1yQ27W4Ss5kn" : "https://buy.stripe.com/28ofZF1yQ6oc84E5kl";
+			
+		
+			
+			this.studentLink =  "https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss" ;
+
+
+			this.unlimitedLink = this.isYearly ? "https://buy.stripe.com/cN2bJpgtK7sg5Ww9AC" : "https://buy.stripe.com/dR6cNt4L2dQEfx69AE";
+			
+		},
 		methods: {
 			switchType: function() {
 				this.isYearly = !this.isYearly;
@@ -16841,88 +16792,7 @@ async function extension_pricing_load() {
 				this.openModal = !this.openModal;
 			},
 
-			openPro: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HwsTqENE7uqpRK1QDcWrD5g'
-									: 'price_1HwsTqENE7uqpRK1rZ0WjoHF',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
-			openStudent: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price:  'price_1HwtjgENE7uqpRK1MMaQveG3',
-		
 
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
-
-			openUnlimited: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HwthYENE7uqpRK1MyIFS6Uh'
-									: 'price_1HwthYENE7uqpRK11HU8zN2n',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			}
 		},
 		computed: {
 			showYearly: function() {
@@ -16940,8 +16810,6 @@ async function extension_pricing_load() {
 // CONCATENATED MODULE: ./assets/js/core/widget-pricing.js
 
 
-
-
 async function widget_pricing_load() {
 	let isThere = document.getElementById('pricing-table-widget');
 	if (isThere === null) return false;
@@ -16950,96 +16818,37 @@ async function widget_pricing_load() {
 		el: '#pricing-table-widget',
 		data: {
 			isYearly: false,
-			stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-			notyf: new Notyf()
+
+			proLink: '',
+			standardLink:'',
+			unlimitedLink:''
 		},
 
+		created: function () {
+
+			this.proLink = this.isYearly ? "https://buy.stripe.com/14k8xd5P6eUI2KkfZ8" : "https://buy.stripe.com/3cs5l14L25k8acMaEL";
+			
+		
+			
+			this.standardLink = this.isYearly ? "https://buy.stripe.com/bIYeVBelC8wk2KkdQW" : "https://buy.stripe.com/3cs14La5m9Ao1Gg149";
+
+
+			this.unlimitedLink = this.isYearly ? "https://buy.stripe.com/dR6dRx4L2fYMbgQdQZ" : "https://buy.stripe.com/eVaaFldhy5k898IfZ6";
+			
+		},
 		methods: {
 			switchType: function() {
 				this.isYearly = !this.isYearly;
-			},
 
-			openPro: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HauAgENE7uqpRK1bGkSo3Nt'
-									: 'price_1HauAXENE7uqpRK1Xy4XxHY8',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
-			openStandard: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HauAKENE7uqpRK1R6cap2jz'
-									: 'price_1HauA7ENE7uqpRK12F2UlODP',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
-			},
+				this.proLink = this.isYearly ? "https://buy.stripe.com/14k8xd5P6eUI2KkfZ8" : "https://buy.stripe.com/3cs5l14L25k8acMaEL";
+			
+		
+			
+				this.standardLink = this.isYearly ? "https://buy.stripe.com/bIYeVBelC8wk2KkdQW" : "https://buy.stripe.com/3cs14La5m9Ao1Gg149";
+	
 
-			openUnlimited: function() {
-				this.notyf.success('Loading.....');
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [
-							{
-								price: this.isYearly
-									? 'price_1HauAgENE7uqpRK1bGkSo3Nt'
-									: 'price_1HauAXENE7uqpRK1Xy4XxHY8',
-								quantity: 1
-							}
-						],
-						mode: 'subscription',
-						// Do not rely on the redirect to the successUrl for fulfilling
-						// purchases, customers may not always reach the success_url after
-						// a successful payment.
-						// Instead use one of the strategies described in
-						// https://stripe.com/docs/payments/checkout/fulfillment
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/pricing'
-					})
-					.then(({ error }) => {
-						if (error) {
-							notyf.error(error.message);
-						}
-					});
+				this.unlimitedLink = this.isYearly ? "https://buy.stripe.com/dR6dRx4L2fYMbgQdQZ" : "https://buy.stripe.com/eVaaFldhy5k898IfZ6";
+				
 			}
 		},
 		computed: {
@@ -17052,69 +16861,7 @@ async function widget_pricing_load() {
 
  // a list of exported variables
 
-// CONCATENATED MODULE: ./assets/js/core/a11y-pricing.js
-
-
-
-
-
-async function a11y_pricing_load() {
-    let isThere = document.getElementById('pricing-table-a11y');
-    if (isThere === null) 
-        return false;
-    
-
-    new vue_default.a({
-        el: '#pricing-table-a11y',
-        data: {
-            eventArray: [],
-            isYearly: false,
-            stripe: await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu'),
-            notyf: new Notyf()
-        },
-        mounted() {
-        
- 
-        },
-        methods: {
-
-
-            openPro: function () {
-                this.notyf.success('Loading.....');
-                this.stripe.redirectToCheckout({
-                    lineItems: [
-                        {
-                            price: 'price_1HEehMENE7uqpRK1XQYKyaNR',
-                            quantity: 1
-                        }
-                    ],
-                    mode: 'subscription',
-                    // Do not rely on the redirect to the successUrl for fulfilling
-                    // purchases, customers may not always reach the success_url after
-                    // a successful payment.
-                    // Instead use one of the strategies described in
-                    // https://stripe.com/docs/payments/checkout/fulfillment
-                    successUrl: 'https://www.helperbird.com/success',
-                    cancelUrl: 'https://www.helperbird.com/pricing'
-                }).then(({error}) => {
-                    if (error) {
-                        notyf.error(error.message);
-                    }
-                });
-            }
-        },
-        computed: {
-            showYearly: function () {
-                return this.isYearly;
-            }
-        }
-    });
-}
-
- // a list of exported variables
-
 // CONCATENATED MODULE: ./assets/js/index.js
-
 // css
 
 
@@ -17132,25 +16879,19 @@ async function a11y_pricing_load() {
 
 
 
-
-
 async function js_load() {
-    slider_start();
-    load();
-    
-    // Vue components load
-    navigation_load();
-	banner_load();
-    widget_pricing_load();
-    extension_pricing_load();
-    a11y_pricing_load();
-    
-    
-    crisp();
-    tagManager();
-    loadManager();
+	slider_start();
+	load();
 
-	
+	// Vue components load
+	navigation_load();
+	banner_load();
+	widget_pricing_load();
+	extension_pricing_load();
+
+	crisp();
+	tagManager();
+	loadManager();
 }
 
 js_load();
