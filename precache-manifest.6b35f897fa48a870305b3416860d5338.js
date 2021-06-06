@@ -1320,6 +1320,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/social/twitter.png"
   },
   {
+    "revision": "3356a5402607d5c8405497417458a2ac",
+    "url": "/assets/images/support/background.jpeg"
+  },
+  {
     "revision": "b842aa8d4a4e77c8f983bce21b9eba26",
     "url": "/assets/images/switch/adblocker/after.png"
   },
