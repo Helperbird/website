@@ -192,6 +192,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/setup/setup_4.png"
   },
   {
+    "revision": "888e624f5d467ea5c66b58fb85c3ce3c",
+    "url": "/assets/images/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work.jpg"
+  },
+  {
     "revision": "75fc3c8d30a58634a2ad43bae8ba616b",
     "url": "/assets/images/blog/teacher-appreciation-week-2020-dyslexia-story/teacher-appreciation-week-2020-dyslexia-story.png"
   },
