@@ -160,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_9.png"
   },
   {
+    "revision": "4be3c7927c5d249381c5e93d77f8d5bd",
+    "url": "/assets/images/blog/how-to-keep-wfh-employees-engaged-and-motivated/how-to-keep-wfh-employees-engaged-and-motivated.jpg"
+  },
+  {
     "revision": "e195862aec74fe9b0bd1eb5eeab4d64e",
     "url": "/assets/images/blog/how-to-use-immersive-reader-in-google-docs/highlight-the-text-in-google-docs-to-use-immersive-reader.png"
   },
