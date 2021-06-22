@@ -1,0 +1,40 @@
+
+extends ../includes/templates/support/post.pug
+
+block seo
+  - var title = 'How to annotate and highlight Pdfs online in Chrome, Edge, iPad, iPhone and Firefox'
+  - var description = 'Discover to annotate, highlight pdfs and more with Helperbird for Edge, Chrome, iPad, iPhone online.'
+  - var url = 'annotate-and-highlight-pdfs-with-helperbird-online-extension.'
+  - var keywords = 'Opendyselxic,Lexend'
+
+
+block guide
+  include ../includes/mixins/support
+  +support_title("How to annotate and highlight Pdfs online","Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird makes it easy to annotate your PDF documents and send them for group review online and for studying. ")
+
+
+
+  
+
+  +section('How to annotate PDF files online',
+    [
+     "Open Helperbird and select the PDF reader option.",
+     "Click the open PDF button.",
+     "Click annotate button along the top.",
+    "Thats it. You have now annotated your pdf file."
+    ]
+  )
+
+
+  
+
+  +section('How to highlight PDF files online',
+    [
+      "Open Helperbird and select the PDF reader option.",
+      "Click the open PDF button.",
+      "Highlight the text you want highlight",
+      "Click the highlight button.",
+      "Thats it. You have now highlighted your pdf file."
+    ]
+  )
+
