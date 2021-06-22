@@ -652,6 +652,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/images/new/overlay/overlay.png"
   },
   {
+    "revision": "ba3888c3c5f74a03d6995f7dd28c4874",
+    "url": "/assets/images/new/pdfs/highlight-and-annotate-pdfs-online.jpeg"
+  },
+  {
     "revision": "4643356e1ab636c5c7960a912e275d7f",
     "url": "/assets/images/new/read-it-later/read-it-later.png"
   },
