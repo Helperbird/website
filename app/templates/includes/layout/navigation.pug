@@ -418,7 +418,8 @@
 
 
       .hidden.items-center.justify-end(class='md:flex md:flex-1 lg:w-0')
-
+        a.ml-8.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(href="/login" title="login page for Helperbird" class='hover:bg-indigo-700')
+          | Login
         button.ml-8.whitespace-nowrap.inline-flex.items-center.justify-center.px-4.py-2.border.border-transparent.rounded-md.shadow-sm.text-base.font-medium.text-white.bg-indigo-600(@click="handleModal" role="button" class='hover:bg-indigo-700')
           | Try for Free
 
@@ -437,7 +438,7 @@
       .pt-5.pb-6.px-5
         .flex.items-center.justify-between
           div
-            img.h-8.w-auto(loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Workflow')
+            img.h-8.w-auto(loading="lazy" src='/assets/images/pwa/logo/full.png' alt='Helperbird owl logo')
           .-mr-2
             button.bg-gray-50.rounded-md.p-2.inline-flex.items-center.justify-center.text-gray-400(@click="handleMobileMenu" type='button' class='hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500')
               span.sr-only Close menu
