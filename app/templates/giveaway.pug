@@ -151,7 +151,7 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.bg-content-100
+  body(:data-theme="light").bg-white
     include includes/layout/navigation.pug
     .bg-gray-50.pb-8(class='sm:pb-12 lg:pb-12')
       .pt-8.overflow-hidden(class='sm:pt-12 lg:relative lg:py-24')

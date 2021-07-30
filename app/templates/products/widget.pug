@@ -158,7 +158,7 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.bg-content-300
+  body(:data-theme="light").bg-content-300
 
     include ../includes/layout/navigation.pug
     include ../includes/sections/header_widget.pug

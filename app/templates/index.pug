@@ -153,19 +153,20 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.bg-content-100
+  body(:data-theme="light").bg-white
 
 
 
 
     include includes/layout/navigation.pug
-    include includes/sections/header_home_page.pug
+    include includes/sections/header_home_page_three.pug
+
     include includes/sections/logos.pug
 
-    include includes/features/list.pug
-    include includes/sections/features/dyslexia.pug
+    include includes/features/list_new_2021.pug
 
-    include includes/sections/metric.pug
+
+
   
     include includes/sections/reviews-two.pug
     include includes/sections/cta_2.pug

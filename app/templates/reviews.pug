@@ -45,7 +45,7 @@ html(lang='en')
     meta(content='#ffffff', name='msapplication-TileColor')
     meta(content='assets/images/social/browserconfig.xml', name='msapplication-config')
     meta(content='#ffffff', name='theme-color')
-  body.bg-content-100
+  body(:data-theme="light").bg-white
     include includes/layout/navigation.pug
     // This example requires Tailwind CSS v2.0+
     .bg-gray-50

@@ -1,0 +1,30 @@
+extends ../includes/templates/updates/post.pug
+
+block seo
+  - var title = '70.2.1 🥳'
+  - var description = "We hope everyone has a great summer. Here at Helperbird, we are going to be busy releasing new features and new platforms for Helperbird to run on. Google docs add-on, iPad, iPhone & Sarfrai extensions. It's a really exciting time here at Helperbird."
+  - var url = '70-2-1'
+  - var keywords = 'Helperbird for Edge,Helperbird for Firefox,Opendyslexic for Chrome,OpenDyslexic,Text to speech,Speech to text, Dyslexia software,        Reader Mode for Google Chrome,Reader Mode for Edge,speech to text for chrome,Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, Helperbird for Chrome, Accessibility & Dyslexia Software'
+
+block content
+  include ../includes/mixins/updates
+
+
+  +updates_title("Welcome to the new Helperbird 70.2.1 🥳", "We have a few surprises..... ")
+
+
+  +updates_paragraph("We hope everyone is having a great summer. Here at Helperbird, we are going to be busy releasing new features and new platforms for Helperbird to run on. Google docs add-on, iPad, iPhone & Sarfrai extensions. It's a really exciting time here at Helperbird.")
+
+  +updates_paragraph("So what's new in this update of Helperbird?")
+  +updates_paragraph_title('Features')
+
+  +updates_paragraph_title_smaller("🖼️ Text to speech","Text to speech on Windows, doesnt cut out after 15 words any more.")
+  +updates_paragraph_title_smaller("🖼️ Speech to text","Speech to text is now going to the right input.")
+  
+
+  +updates_paragraph_title('Whats coming next?')
+  +updates_paragraph("iPad app")
+  +updates_paragraph("iPhone app")
+
+
+

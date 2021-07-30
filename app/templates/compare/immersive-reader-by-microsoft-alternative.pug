@@ -244,7 +244,7 @@ block content
                   th.px-6.py-3.text-left.text-xs.font-medium.text-gray-500.uppercase.tracking-wider(scope='col')
                     img(alt='Helperbird Logo', loading="lazy" src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png',width="60px")
 
-              tbody.bg-gray-50.divide-y.divide-gray-200
+              tbody(:data-theme="light").bg-gray-50.divide-y.divide-gray-200
                 each val in table_points
                   tr
                     td.px-6.py-4.whitespace-nowrap
