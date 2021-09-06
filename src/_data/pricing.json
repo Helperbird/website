@@ -1,0 +1,425 @@
+{
+	"text": [
+		{
+			"feature": "Font changer",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Dyslexia fonts",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Magnifier",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Word spacing",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Line height",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Letter spacing",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Font size",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Paragraph width",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Text align",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"content": [
+		{
+			"feature": "Reader mode",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Immersive Reader by Microsoft",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Picture Dictionary",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Screenshot tools",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Printing tools",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Translation",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Annotations",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Summarize page",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Text analyze",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Highlight paragraphs",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Volume control",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+
+		{
+			"feature": "Extract text from images (OCR)",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"display": [
+		{
+			"feature": "Emphasize Links",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Color blindess tools",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Dyslexia ruler",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Reading guide",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Overlay",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "High contrast",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Hide images",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Reading guide",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Line focus",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Coginitive load",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"navigation": [
+		{
+			"feature": " Highlighter",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Text to speech",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Text to speech options",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "14 voices",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Speech to text",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Word prediction",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Cursor options",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Auto scrolling",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"color": [
+		{
+			"feature": "Highlight colors",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Font colors",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Background colors",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Link colors",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"other": [
+		{
+			"feature": "Sync settings & styles",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Themes",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Google Docs support",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Word support",
+			"free": true,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+	"apps": [
+		{
+			"feature": "Google Docs addon",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Dictionary app",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Annotations / Sticky notes",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Document Editor",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "PDF support",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Reading list",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
+		{
+			"feature": "Google Slides Addon",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+
+	"bonus": [
+		{ "feature": "Unlmitied", "free": false, "pro": true, "unlimited": true, "student": true },
+
+		{
+			"feature": "Premium support",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		}
+	],
+
+	"soon": [{ "feature": "iPad", "free": false, "pro": true, "unlimited": true, "student": true }]
+}

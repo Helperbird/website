@@ -1,0 +1,59 @@
+---
+layout: templates/base.html
+title: Video guides & tutorials | Helperbird
+description: Helperbird Video guides & tutorials is here to help. Learn more about popular topics and find resources that will help you with all of your Helperbird products.
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/twitter.png
+facebookSocial: assets/images/graph/twitter.png
+url: /guides
+---
+
+
+<div class="relative bg-gray-50 pt-16 pb-16  overflow-hidden sm:pt-24 lg:pt-32">
+	<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
+		<div>
+			<h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">Tutorials & video guides on how to use Helperbird</h2>
+			<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Master your workflow with the beginner's guide, tips & tricks.
+
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="relative p-16 overflow-hidden">
+	<div class="relative">
+		<div class="grid grid-cols-1 gap-8 xs:grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
+{%- for video in videos.support -%}
+  
+
+<div class="card bordered text-base-content shadow-2xl bg-base-100 text-base-content">
+	<figure class="">
+		<blockquote class="rounded-t-xl bg-gray-50 text-lg leading-8 f">
+			<div class="w-full rounded-lg youtube_lazy_load" data-embed="{{ video.id }}">
+				<div class="play-button"></div>
+			</div>
+		</blockquote>
+	
+	</figure>
+	<div class="card-body">
+	  <h2 class="card-title text-base-content"> {{ video.title }} </h2>
+
+
+	  <p>{{ video.description }}</p> 
+	  <div class="justify-end card-actions">
+		<a class="btn btn-secondary" href="{{ video.link }}">More info</a>
+	  </div>
+	</div>
+  </div>
+{%- endfor -%}
+
+</div>
+
+	</div>
+</div>

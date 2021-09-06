@@ -1,0 +1,66 @@
+---
+layout: templates/blog_post.liquid
+title: Interview our dyslexic founder, Robert James Gabriel | Helperbird
+description:
+  People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I
+  was struggling in school. One of my teachers told my parents that I should just drop out of school
+  and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being
+  diagnosed and starting to get the help I needed, I ended up winning my first technology award.
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/twitter.png
+facebookSocial: assets/images/graph/twitter.png
+url: /blog/interview-with-dyslexic-founder-of-helperbird
+blog_cat: Blog
+blog_title: Interview with Helperbird founder & dyslexic, Robert James Gabriel
+blog_snip: By Courtney Hood
+---
+
+By Courtney Hood
+
+## What made you develop Helperbird?
+
+- At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a
+  simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option
+  on webpages that were hard to read.
+
+![Have a good day](/assets/images/blog/extra/robert-gabriel.png)
+
+Have a good day
+
+## When were you diagnosed?
+
+- People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I
+  was struggling in school. One of my teachers told my parents that I should just drop out of school
+  and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being
+  diagnosed and starting to get the help I needed, I ended up winning my first technology award.
+- That teacher didn’t sound very encouraging.
+- She wasn't hahaha
+
+## Did you have any teachers that left a positive impact?
+
+- Sean Foley was my Physics teacher and he was super encouraging and even helped me get my first
+  internship. Definitely was someone who saw something in me and that was very reassuring at that
+  time in my life.
+
+## How did you come up with the name Helperbird?
+
+- I had a previous website called ProjectBird and ended up liking the bird theme I guess haha. And
+  obviously the helper part came from how the app is designed to help people.
+
+## Do you feel like there’s a stigma attached to dyslexia?
+
+- I think there still is unfortunately. Everyone’s different and has different abilities, if there
+  is an area in life that you struggle with, whether it’s dyslexia or not, I don’t think you should
+  feel ashamed for seeking help. Everyone does the best that they can with what they are given, no
+  matter who you are we’re all in the same boat just trying to do our best.
+
+## Looking back, any advice you’d give to your younger self?
+
+- Bet on Fulham to get promoted haha. No but really I’d prob give myself the same advice I’d give to
+  any younger person, if you’re struggling with something don’t stay quiet about it. I’d let them
+  know that it’s okay to ask for help and it’s okay to even need help. Everyone needs help
+  sometimes.

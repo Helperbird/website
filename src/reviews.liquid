@@ -1,0 +1,56 @@
+---
+layout: templates/base.html
+title: Reviews for Helperbird | Helperbird
+description: Reviews for Helperbird from 200,000 plus users on why they love Helperbird
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/twitter.png
+facebookSocial: assets/images/graph/twitter.png
+url: /reviews
+---
+
+
+<div class="relative bg-gray-50 pt-16 overflow-hidden sm:pt-24 lg:pt-32">
+	<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
+		<div>
+			<h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">Customer Testimonials</h2>
+			<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">See what over 500,000 happy users have to say about Helperbird.</p>
+		</div>
+	</div>
+</div>
+
+{%- for review in reviews.reviews -%}
+  
+<section class="py-12 bg-gray-50 md:py-20 lg:py-24">
+	<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<svg aria-labelledby="svg-workcation" class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" fill="none" height="404" role="img" viewbox="0 0 404 404" width="404">
+		<title id="svg-workcation">Helperbird</title>
+		<defs>
+			<pattern height="20" id="ad119f34-7694-4c31-947f-5c9d249b21f3" patternunits="userSpaceOnUse" width="20" x="0" y="0">
+				<rect class="text-gray-200" fill="currentColor" height="4" width="4" x="0" y="0"></rect>
+			</pattern>
+		</defs>
+		<rect fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)" height="404" width="404"></rect></svg>
+		<div class="relative">
+			<figure class="shadow-lg rounded-xl flex-none mx-16 p-0 md:w-xl" style="transform: rotate(1deg) translateZ(0px);">
+				<blockquote class="rounded-t-xl bg-gray-50 px-6 py-8 text-lg leading-8 font-semibold text-gray-900 md:p-10 md:text-xl md:leading-8">
+					<svg class="mb-5 fill-current text-pink-100" height="36" width="45">
+					<path d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path></svg>
+					<p>{{ review.review }}</p>
+				</blockquote>
+				<figcaption class="flex items-center space-x-4 p-6 rounded-b-xl leading-6 font-semibold text-white bg-pink-500">
+					<div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center"><img alt="{{ review.name }} review of Helperbird. " class="w-12 h-12 rounded-full bg-fuchsia-100" loading="lazy" src="{{ review.photo }}"></div>
+					<div class="flex-auto">
+                        <p>{{ review.name }}</p>
+						<br>
+						<span class="text-green-100">{{ review.title }}</span>
+					</div>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+{%- endfor -%}

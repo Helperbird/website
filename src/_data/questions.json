@@ -1,0 +1,44 @@
+{
+	"a11y": [
+		{
+			"question": "What is Accessibility checker?",
+			"answer": "Discover accessibility issues without having to open the browser's console. See logs in a toast notification format and find out issues you didn't know existed."
+		},
+		{
+			"question": "How do I activate my subscription?",
+			"answer": "We use the email your logged into Google Chrome or your browser with. If you used a different email then your billing. Just contact us."
+		},
+		{
+			"question": "How do I login ?",
+			"answer": "We use the email your logged into Google Chrome or your browser. Suppose you need to update your email. Just contact us."
+		},
+		{
+			"question": "Do I need a student email for the student pricing",
+			"answer": "Yes, we are doing the honour system here. We will follow up to ask for confirmation you are a student.        "
+		},
+		{
+			"question": "Can we cancel at any time?",
+			"answer": "There's no minimum contract for Helperbird — cancel at any time without penalty or hassle. If you prepaid for a year, we'll refund any unused months. To cancel, open up the app, go to the subscription option, and click cancel."
+		},
+		{
+			"question": "Why are we charging for this?",
+			"answer": "The $6.99 per month is to support the cost of the development of new and upcoming features. We also do a yearly subscription for $60.00 as this is a one-person team."
+		},
+		{
+			"question": "What browsers does Helperbird run on?",
+			"answer": "Currently Google Chrome, Mozilla Firefox and Edge. Coming soon on macOS Safari extension and iPad."
+		},
+		{
+			"question": "I have a suggestion!",
+			"answer": "Excellent I would love to hear about it! Email robert.gabriel@helperbird.com with your suggestion.        "
+		},
+		{
+			"question": "Does Helperbird and OpenDyslexic work on Google Docs?",
+			"answer": "Yes! Google Docs currently doesn't support some fonts like OpenDyslexic. So we built CSS and support for these fonts."
+		},
+		{
+			"question": "What if I have more questions?",
+			"answer": "We'd be happy to answer them."
+		}
+	]
+}
