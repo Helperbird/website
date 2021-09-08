@@ -16,7 +16,7 @@ featureDescription:
   Helperbird  allows you to easily change the auto-scroll speed and save it in three different
   modes; slow, medium and fast. A single click will stop the auto-scrolling.
 tags: features
-url: /features/auto-scroll
+url: /features/auto-scroll/
 ---
 
 # Simple speed-customizable auto scroll

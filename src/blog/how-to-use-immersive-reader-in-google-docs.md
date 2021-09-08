@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/how-to-use-immersive-reader-in-google-docs
+url: /blog/how-to-use-immersive-reader-in-google-docs/
 blog_cat: Guide
 blog_title: How to use Immersive reader on Google Docs
 blog_snip: A step by step guide.

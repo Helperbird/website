@@ -16,7 +16,7 @@ featureDescription:
   Helperbirds word prediction is smart & spelling aware. Helperbird Speech to text recognition
   allows you to speak it, and Helperbird will write it.
 tags: features
-url: /features/word-prediction # URL of the page
+url: /features/word-prediction/
 ---
 
 # Word prediction on every website, even Google docs.

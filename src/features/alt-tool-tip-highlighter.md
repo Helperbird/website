@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Alt tags highlighter
 featureDescription: Show Alt tags on mouse over for Chrome, Firefox and Edge
 tags: features
-url: /features/alt-tool-tip-highlighter
+url: /features/alt-tool-tip-highlighter/
 ---
 
 # Show Alt tags on mouse over

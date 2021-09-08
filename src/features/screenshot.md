@@ -14,7 +14,7 @@ featureTitle: Screenshot of any page
 featureDescription:
   Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.
 tags: features
-url: /features/screenshot # URL of the page
+url: /features/screenshot/
 ---
 
 # Full Page Screenshot Capture

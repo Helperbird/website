@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia
+url: /blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/
 blog_cat: Research
 blog_title:
   Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexia

@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/the-5-must-have-accessibility-tools-for-students-in-2021
+url: /blog/the-5-must-have-accessibility-tools-for-students-in-2021/
 blog_cat: Blog
 blog_title: The 5 Must-Have Accessibility Tools for students in 2021
 blog_snip: By Helperbird Staff

@@ -14,7 +14,7 @@ featureTitle: English Dictionary app
 featureDescription:
   Dictionary app by Helperbird allows you to easily lookup the meaning of any English word.
 tags: features
-url: /features/dictionary
+url: /features/dictionary/
 ---
 
 # Dictionary lookup

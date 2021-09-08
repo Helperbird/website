@@ -13,7 +13,7 @@ facebookSocial: assets/images/graph/mute.png
 featureTitle: Mute videos and audio
 featureDescription: Quickly mute videos and audio in your browser.
 tags: features
-url: /features/immersive-reader-for-chrome # URL of the page
+url: /features/immersive-reader-for-chrome/
 ---
 
 # Immersive Reader for Chrome, Edge, Firefox, and Safari

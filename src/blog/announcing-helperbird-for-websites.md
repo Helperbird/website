@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/announcing-helperbird-for-websites
+url: /blog/announcing-helperbird-for-websites/
 blog_cat: ANNOUNCEMENT,
 blog_title: Helperbird for Websites
 blog_snip:

@@ -15,7 +15,7 @@ featureTitle: Cognitive Load
 featureDescription:
   Using granular colours that underline text, users can find reading more comfortable and fun.
 tags: features
-url: /features/cognitive-load # URL of the page
+url: /features/cognitive-load/
 ---
 
 # Cognitive Load

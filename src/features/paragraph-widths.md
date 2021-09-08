@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/width.png
 featureTitle: Paragraphs widths
 featureDescription: Set the width of paragraphs. Making it easier to focus and read.
 tags: features
-url: /features/paragraph-widths # URL of the page
+url: /features/paragraph-widths/
 ---
 
 # Set the width of paragraphs

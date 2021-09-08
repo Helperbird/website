@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-cancel-my-helperbird-pro-subscription
+url: /support/how-to-cancel-my-helperbird-pro-subscription/
 blog_cat: Support guide
 blog_title: How to cancel my Helperbird Pro subscription
 blog_snip: Discover how to cancel your Helperbird Pro subscription.

@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/translate.png
 featureTitle: Translate
 featureDescription: Helperbird gives free translation support to any website or text, your browsing.
 tags: features
-url: /features/google-translate # URL of the page
+url: /features/google-translate/
 ---
 
 # Translate any website or word!

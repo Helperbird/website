@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/hide.png
 featureTitle: Hide all images
 featureDescription: Hides all images or just gifs on a website and show them again when your ready.
 tags: features
-url: /features/hide-images # URL of the page
+url: /features/hide-images/
 ---
 
 # Hide all Gifs, Images or flashing images

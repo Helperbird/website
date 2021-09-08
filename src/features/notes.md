@@ -17,7 +17,7 @@ featureDescription:
   pages,projects, to-do lists—with Helperbird as your note taking app, nothing falls through the
   cracks.
 tags: features
-url: /features/notes # URL of the page
+url: /features/notes/
 ---
 
 # Your notes. Organized. Effortless.

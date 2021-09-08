@@ -14,7 +14,7 @@ featureTitle: Read it later
 featureDescription:
   Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.
 tags: features
-url: /features/bookmarks # URL of the page
+url: /features/bookmarks/
 ---
 
 # Your Bookmarks. Organized. Effortless

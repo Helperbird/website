@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 featureTitle: Keyboard shortcuts
 featureDescription: Learn keyboard shortcuts and become a pro at using Helperbird
 tags: features
-url: /features/shortcuts # URL of the page
+url: /features/shortcuts/
 ---
 
 # Helperbird keyboard shortcuts!

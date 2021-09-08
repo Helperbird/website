@@ -13,7 +13,7 @@ featureTitle: Page & text magnifier
 featureDescription:
   Page & text magnifier for Google Chrome. Increase your page and zoom on any page.
 tags: features
-url: /features/zoom # URL of the page
+url: /features/zoom/
 ---
 
 # Page & text magnifier

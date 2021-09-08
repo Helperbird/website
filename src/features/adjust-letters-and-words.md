@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/adjustletter.png
 featureTitle: Adjust Letters and Words
 featureDescription:
   Adjust letter and word spacing, font size and line-height according to your needs.
-url: /features/adjust-letters-and-words
+url: /features/adjust-letters-and-words/
 tags: features
 ---
 

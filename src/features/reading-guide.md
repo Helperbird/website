@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/guide.png
 featureTitle: Reading guide
 featureDescription: Reading ruler, useful when you are reading long texts on the web.
 tags: features
-url: /features/reading-guide # URL of the page
+url: /features/reading-guide/
 ---
 
 # Reading guide helps you to read long texts on web pages.

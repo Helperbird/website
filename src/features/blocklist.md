@@ -15,7 +15,7 @@ featureTitle: Blocklist & blacklist for Chrome
 featureDescription:
   Helperbird provides a method of excluding itself from running on websites using the Blocklist
   feature.
-url: /features/blocklist # URL of the page
+url: /features/blocklist/
 ---
 
 # Blocklist

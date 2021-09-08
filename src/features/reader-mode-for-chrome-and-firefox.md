@@ -17,7 +17,7 @@ featureDescription:
   Removes ads and distractions from any webpage with complete customization. View for clutter-free
   web pages
 tags: features
-url: /features/reader-mode-for-chrome-and-firefox # URL of the page
+url: /features/reader-mode-for-chrome-and-firefox/
 ---
 
 # Reader mode for Firefox, Edge and Chrome

@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge
+url: /support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge/
 blog_cat: Support guide
 blog_title: How to set custom shortcuts in Helperbird
 blog_snip:

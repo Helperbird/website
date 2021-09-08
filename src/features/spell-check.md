@@ -13,7 +13,7 @@ featureTitle: Spelling & Grammar Checker
 featureDescription:
   Write with confidence thanks to Helperbird, your intelligent grammar, spelling checker.
 tags: features
-url: /features/spell-check # URL of the page
+url: /features/spell-check/
 ---
 
 # Spelling & Grammar Checker for Google Chrome, Firefox & Edge

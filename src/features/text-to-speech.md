@@ -16,7 +16,7 @@ featureDescription:
   Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages,
   ebooks and pdfs with natural sounding voices.
 tags: features
-url: /features/text-to-speech # URL of the page
+url: /features/text-to-speech/
 ---
 
 # Listen to any part of your Webpages and Google Docs

@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/blindness.png
 featureTitle: Color blindness
 featureDescription: Color blindness features including Emphasize Links and stroke text
 tags: features
-url: /features/color-blindness # URL of the page
+url: /features/color-blindness/
 ---
 
 # Color blindness support

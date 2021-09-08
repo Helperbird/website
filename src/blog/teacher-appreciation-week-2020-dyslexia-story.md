@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/teacher-appreciation-week-2020-dyslexia-story
+url: /blog/teacher-appreciation-week-2020-dyslexia-story/
 blog_cat: TEACHER APPRECIATION WEEK.
 blog_title: How a teacher helped me achieve my full potential.
 blog_snip: From droping out of school to starting my own company.

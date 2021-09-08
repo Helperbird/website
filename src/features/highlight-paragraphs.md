@@ -18,7 +18,7 @@ featureDescription:
   summarised, either as snippets or as full text. Only with Helperbird for Google Chrome, Firefox
   and Edge.
 tags: features
-url: /features/highlight-paragraphs # URL of the page
+url: /features/highlight-paragraphs/
 ---
 
 # Highlight any text you want with any color.

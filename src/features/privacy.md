@@ -16,7 +16,7 @@ featureDescription:
   Helperbirds privacy features don`t sell, store, or consume any user data. We do not store data or
   any other user-related content.
 tags: features
-url: /features/privacy # URL of the page
+url: /features/privacy/
 ---
 
 # Privacy features of Helperbird

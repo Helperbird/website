@@ -13,7 +13,7 @@ featureTitle: Cursor controls
 featureDescription:
   Helperbird gives keyboard accessibility & mouse control alternatives for Google Chrome
 tags: features
-url: /features/cursor-control # URL of the page
+url: /features/cursor-control/
 ---
 
 # Accessibility cursor controls for Chrome

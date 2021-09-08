@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/is-helperbird-safe
+url: /blog/is-helperbird-safe/
 blog_cat: Guide
 blog_title: Is Helperbird safe to use?
 blog_snip:

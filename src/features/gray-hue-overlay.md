@@ -16,7 +16,7 @@ featureDescription:
   Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for
   all sites.
 tags: features
-url: /features/gray-hue-overlay # URL of the page
+url: /features/gray-hue-overlay/
 ---
 
 # Translate any website or word!

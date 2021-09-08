@@ -16,7 +16,7 @@ featureDescription:
   Change the font to any specialized web fonts for dyslexics and others. Convert the font on
   websites to use OpenDyslexic, Lexend and more.
 tags: features
-url: /features/specialised-dyslexic-fonts
+url: /features/specialised-dyslexic-fonts/
 ---
 
 # Specialised Dyslexic Fonts

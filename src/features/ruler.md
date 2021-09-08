@@ -15,7 +15,7 @@ featureTitle: Dyslexia ruler
 featureDescription:
   Dyslexia ruler allows users to place a transparent ruler on a web page to improve reading focus.
 tags: features
-url: /features/ruler # URL of the page
+url: /features/ruler/
 ---
 
 # Dyslexia Ruler

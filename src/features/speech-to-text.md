@@ -16,7 +16,7 @@ featureDescription:
   Type text using your voice. Speak using your voice, and it will be typed into a notepad where you
   can edit it.
 tags: features
-url: /features/speech-to-text # URL of the page
+url: /features/speech-to-text/
 ---
 
 # Dictate on any site

@@ -15,7 +15,7 @@ featureDescription:
   Create, edit and delete documents in a full editor. Export and import to Google docs, Markdown and
   more.
 tags: features
-url: /features/editor # URL of the page
+url: /features/editor/
 ---
 
 # Your Bookmarks. Organized. Effortless

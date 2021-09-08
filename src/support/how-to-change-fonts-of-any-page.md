@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-change-my-email
+url: /support/how-to-change-my-email/
 blog_cat: Support guide
 blog_title: How to change or update your email
 blog_snip: Discover how to update or change your email for Helperbird and Helperbird Pro.

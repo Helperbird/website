@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/positive-thoughts-might-benefit-dyslexic-students
+url: /blog/positive-thoughts-might-benefit-dyslexic-students/
 blog_cat: Guide
 blog_title: TODAY WILL BE A GOOD DAY
 blog_snip: By Helperbird Staff

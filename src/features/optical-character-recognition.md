@@ -14,7 +14,7 @@ featureTitle: Optical Character Recognition
 featureDescription:
   A powerful optical character recognition (OCR) to capture and convert images to text.
 tags: features
-url: /features/optical-character-recognition # URL of the page
+url: /features/optical-character-recognition/
 ---
 
 # OCR (Optical Character Recognition) software

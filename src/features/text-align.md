@@ -13,7 +13,7 @@ featureTitle: Align the text
 featureDescription:
   Adjust the text alignment of any page, making it easier to read in just one click!
 tags: features
-url: /features/text-align # URL of the page
+url: /features/text-align/
 ---
 
 # Align the text of any page to your needs.

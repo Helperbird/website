@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/giveaway-rules
+url: /blog/giveaway-rules/
 blog_cat: GUEST BLOG
 blog_title: How to Avoid WFH Burnout and Maximize Productivity
 blog_snip: While working from home looks convenient, the blurred line between home and employment

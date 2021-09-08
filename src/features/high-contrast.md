@@ -16,7 +16,7 @@ featureDescription:
   High Contrast mode/ high contrast for Google chrome by Helperbird allows you to invert every color
   on the page, to be high contrast.
 tags: features
-url: /features/high-contrast # URL of the page
+url: /features/high-contrast/
 ---
 
 # High contrast

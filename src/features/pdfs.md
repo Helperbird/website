@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/pdfs.png
 featureTitle: Pdfs support
 featureDescription: Quickly annotate and highlight PDFs with Helperbird online for free.
 tags: features
-url: /features/pdfs # URL of the page
+url: /features/pdfs/
 ---
 
 # Highlight & Annotate any PDF files

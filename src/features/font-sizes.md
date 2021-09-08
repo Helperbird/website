@@ -13,7 +13,7 @@ featureTitle: Adjust font sizes
 featureDescription:
   Adjust letter and word spacing, font size and line-height according to your needs.
 tags: features
-url: /features/analyze
+url: /features/font-sizes/
 ---
 
 # Annotate Pdfs, websites and more

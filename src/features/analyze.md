@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/analyze.png
 featureTitle: Analyze text
 featureDescription: In two clicks, find the amount of letters, characters and more on any website.
 tags: features
-url: /features/analyze
+url: /features/analyze/
 ---
 
 # Analyze text and webpages quickly

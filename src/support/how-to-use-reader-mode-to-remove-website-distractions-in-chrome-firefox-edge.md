@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge
+url: /support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge/
 blog_cat: Support guide
 blog_title: How to use reader mode to remove website distractions in Chrome, Firefox & Edge
 blog_snip:

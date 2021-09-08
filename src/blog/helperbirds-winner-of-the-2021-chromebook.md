@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/helperbirds-winner-of-the-2021-chromebook
+url: /blog/helperbirds-winner-of-the-2021-chromebook/
 blog_cat: GUEST BLOG
 blog_title: Congratulations to our Winner
 blog_snip:

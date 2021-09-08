@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/three-facts-about-dyslexia
+url: /blog/three-facts-about-dyslexia/
 blog_cat: Blog
 blog_title: 3 Facts about Dyslexia and 1 Fact about Cats
 blog_snip: By Helperbird Staff

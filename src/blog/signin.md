@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/signin
+url: /blog/signin/
 blog_cat: Guide
 blog_title: How to sign into Helperbird
 blog_snip:

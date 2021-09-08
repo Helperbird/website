@@ -16,7 +16,7 @@ featureDescription:
   Change fonts and background color. Helperbird provides a way to change web page font and
   background colors.
 tags: features
-url: /features/styles # URL of the page
+url: /features/styles/
 ---
 
 # Styles & Colors

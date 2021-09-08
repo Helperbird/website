@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/print.png
 featureTitle: Printing tools
 featureDescription: Pages are optimized for the ultimate print reading experience.
 tags: features
-url: /features/printing-tool # URL of the page
+url: /features/printing-tool/
 ---
 
 # Quickly print a page with Helperbird

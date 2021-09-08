@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-annotate-any-website-or-pdf-with-a-browser-extension
+url: /support/how-to-annotate-any-website-or-pdf-with-a-browser-extension/
 blog_cat: Support guide
 blog_title: How to annotate any website or pdf with Helperbird
 blog_snip:

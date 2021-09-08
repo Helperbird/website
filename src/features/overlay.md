@@ -16,7 +16,7 @@ featureDescription:
   People who don't like bright white web pages can now change the overlay color of a web page with
   the overlay feature.
 tags: features
-url: /features/overlay # URL of the page
+url: /features/overlay/
 ---
 
 # Color overlays & tints for Google Chrome

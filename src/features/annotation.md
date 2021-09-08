@@ -16,7 +16,7 @@ featureDescription:
   Highlight or annotate web pages, documents, pdfs, ebooks and more to improve research and study.
   Leaving sticking notes that help you with your research and homework.
 tags: features
-url: /features/analyze
+url: /features/analyze/
 ---
 
 # Annotate Pdfs, websites and more

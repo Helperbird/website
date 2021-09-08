@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/top-five-features-of-helperbird-to-help-your-students-in-2021
+url: /blog/top-five-features-of-helperbird-to-help-your-students-in-2021/
 blog_cat: Blog
 blog_title: Top 5 features of Helperbird to help your students in 2021
 blog_snip:
