@@ -102,4 +102,4 @@ what dyslexia is, and with the [new technologies available](https://www.helperbi
 help them navigate through everyday life, dyslexics are very likely to succeed in their chosen
 careers.
 
-Exclusively written for helperbird.com by Jerrica Borrell
+Exclusively written for [helperbird.com](https://www.helperbird.com) by Jerrica Borrell

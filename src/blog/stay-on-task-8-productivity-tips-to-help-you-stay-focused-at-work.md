@@ -160,7 +160,7 @@ refer to the tips listed above.
 If you want to boost your productivity, all you need to do is eliminate the distractions and find
 your focus.
 
-Exclusively written for Helperbird.com by Raymond Chiu
+Exclusively written for [helperbird.com](https://www.helperbird.com)  by Raymond Chiu
 
 ## Meet Raymond Chiu
 
