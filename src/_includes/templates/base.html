@@ -16,23 +16,29 @@
 		<meta content="Helperbird" itemprop="name" />
 		<meta content="{{ description }}" itemprop="description" />
 		<meta content="/assets/images/favicon.png" itemprop="image" />
-		<meta content="summary_large_image" name="twitter:card" />
-		<meta content="{{ title }}" name="twitter:title" />
-		<meta content="{{ description }}" name="twitter:description" />
-		<meta content="@helperbird_" name="twitter:site" />
-		<meta content="RobertJGabriel" name="twitter:creator" />
-		<meta content="{{ twitterSocial }}" name="twitter:image:src" />
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@helperbird_">
+		<meta name="twitter:creator" content="@robertjgabriel">
+		<meta name="twitter:title" content="{{ title }} | Helperbird.com " >
+		<meta name="twitter:description" content="{{ description }}">
+		<meta name="twitter:image" content="https://www.helperbird.com/{{twitterSocial}}">
+
+
+	
 		<meta
 			content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}"
 			name="twitter:player"
-		/>
-		<meta content="{{ title }}" name="og:title" />
-		<meta content="{{ description }}" name="og:description" />
-		<meta content="{{ facebookSocial }}" name="og:image" />
-		<meta content="https://www.helperbird.com{{ url }}" name="og:url" />
+		></meta>
+
 		<meta content="Helperbird" name="og:site_name" />
+		<meta content="{{ title }} | Helperbird.com " name="og:title" />
+		<meta content="{{ description }}" name="og:description" />
 		<meta content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}" name="og:video" />
 		<meta content="website" name="og:type" />
+		<meta content="{{ facebookSocial }}" name="og:image" />
+
+		
 		<link href="/assets/images/site/favicon.png" rel="shortcut icon" />
 		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
 		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
