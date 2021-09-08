@@ -58,4 +58,4 @@ SA. He conducts presentations for agency professionals and the families they sup
 
 [Vist website](https://www.sprialisconsulting.com/about.html)
 
-[Pricing](/pricing?p=sc)
+[Pricing](/pricing)

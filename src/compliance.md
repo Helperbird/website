@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /compliance
+url: /compliance/
 blog_cat: Helperbird
 blog_title: Learn more about the history of Helperbird and our core values.
 blog_snip: ''
