@@ -26,7 +26,7 @@ are various ways of addressing the issue, thanks to Helperbird.
   class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 " style="color: white;" 
   href="/pricing"> Try Helperbird for Free </a>
 
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/auto-scroll/auto-scroll.png)
+![Helperbird support feature](/assets/images/new/adjust-letters-and-words/adjust-letters-and-words-helperbird.png)
 
 ## Intro
 
