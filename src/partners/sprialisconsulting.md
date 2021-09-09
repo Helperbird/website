@@ -1,13 +1,13 @@
 ---
 layout: templates/blog_post.liquid
-title: Best Careers for People with Dyslexia 2021 | Helperbird
+title: Jim Sprialis of Sprialis consulting | Helperbird Partner | Helperbird
 description:
-  Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
-  have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood
-  condition. But with the advances in neuroscience, we now know that dyslexia is a cognitive
-  learning disability that affects one’s ability to read, write, and spell—and it has nothing to do
-  with how intelligent a person is. People with dyslexia can be as smart and as capable as their
-  neurotypical peers.
+  Jim Sprialis is a leading influence in the promotion and use of inclusive and assistive technologies
+  in South Australia’s education and training arena. He has been an educator for 28 years where the
+  focus of his innovative teaching and leadership career has been in empowering students with
+  disability and learning difficulties to better connect and participate with the use of appropriate
+  technologies. His universal design approach to technology and learning addresses the diverse
+  abilities and needs of all learners.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
