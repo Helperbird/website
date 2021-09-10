@@ -54,7 +54,7 @@ Spanish is coming soon.
 
 ## Immersive reader on Google docs and every website
 
-[Immersive Reader](features/immersive-reader-for-chrome 'More information on Helperbirds immersive reader features')
+[Immersive Reader](/features/immersive-reader-for-chrome 'More information on Helperbirds immersive reader features')
 is a free tool that implements proven techniques to improve reading and writing for people,
 regardless of their age or ability. Immersive Reader can improve reading comprehension and increase
 fluency for English language learners.
