@@ -1,10 +1,11 @@
 ---
 layout: templates/features.html
-title: "Reader mode: Remove clutter & ad free web pages | Helperbird extension for Chrome, Firefox & Edge"
+title:
+  'Reader mode: Remove clutter & ad free web pages | Helperbird extension for Chrome, Firefox & Edge'
 description:
-  Turns any webpage into easy-to-read text. 
-  Reader Mode that removes ads and distractions from any webpage with
-  complete customization. View for clutter-free web pages. Only with Helperbird for Google Chrome, Firefox & Edge extension.
+  Turns any webpage into easy-to-read text. Reader Mode that removes ads and distractions from any
+  webpage with complete customization. View for clutter-free web pages. Only with Helperbird for
+  Google Chrome, Firefox & Edge extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-		<title>{{ title }}</title>
+		<title> {{ title }} {{ page.fileSlug | safe }} - Helperbird.com</title>
 		{% bundledCss %}
 
-		<link href="https://www.helperbird.com{{url}}" rel="canonical" />
-		<meta content="{{ description }}" name="description" />
+		<link href="https://www.helperbird.com{{url}}{{ page.fileSlug | safe }}/" rel="canonical" />
+		<meta content="{{ description }} {{ page.fileSlug | safe }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -17,27 +17,25 @@
 		<meta content="{{ description }}" itemprop="description" />
 		<meta content="/assets/images/favicon.png" itemprop="image" />
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@helperbird_">
-		<meta name="twitter:creator" content="@robertjgabriel">
-		<meta name="twitter:title" content="{{ title }} | Helperbird.com " >
-		<meta name="twitter:description" content="{{ description }}">
-		<meta name="twitter:image" content="https://www.helperbird.com/{{twitterSocial}}">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@helperbird_" />
+		<meta name="twitter:creator" content="@robertjgabriel" />
+		<meta name="twitter:title" content="{{ title }} | Helperbird.com " />
+		<meta name="twitter:description" content="{{ description }}" />
+		<meta name="twitter:image" content="https://www.helperbird.com/{{twitterSocial}}" />
 
-
-	
 		<meta
-			content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}"
+			content="https://www.youtube.com/watch?v=PfILiWebkuc"
 			name="twitter:player"
-		></meta>
+		/>
 
 		<meta content="Helperbird" name="og:site_name" />
 		<meta content="{{ title }} | Helperbird.com " name="og:title" />
 		<meta content="{{ description }}" name="og:description" />
-		<meta content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}" name="og:video" />
+		<meta content="https://www.youtube.com/watch?v=PfILiWebkuc" name="og:video" />
 		<meta content="website" name="og:type" />
 		<meta content="{{ facebookSocial }}" name="og:image" />
-		<meta content="https://www.helperbird.com{{url}}" name="og:url" />
+		<meta content="https://www.helperbird.com{{url}}{{ page.fileSlug | safe }}/" name="og:url" />
 		<link href="/assets/images/site/favicon.png" rel="shortcut icon" />
 		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
 		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
@@ -208,6 +206,9 @@
 		<meta content="#ffffff" name="theme-color" />
 	</head>
 	<body class="bg-white">
+
+
+
 		<header class="relative bg-gray-50 shadow-lg" id="nav">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6">
 				<div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
@@ -295,17 +296,7 @@
 								</svg>
 							</button>
 							<div
-								class="
-									hidden
-									absolute
-									z-10
-									top-full
-									inset-x-0
-									transform
-									shadow-lg
-									bg-white
-									md:block
-								"
+								class="hidden absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
 								style="display: none !important"
 								v-bind:style="showFeatures === true ?'display:block !important;' : 'display: none !important;'"
 							>
@@ -831,17 +822,7 @@
 								</svg>
 							</button>
 							<div
-								class="
-									hidden
-									absolute
-									z-10
-									top-full
-									inset-x-0
-									transform
-									shadow-lg
-									bg-white
-									md:block
-								"
+								class="hidden absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
 								v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'"
 							>
 								<div
@@ -1176,6 +1157,7 @@
 						</button>
 					</div>
 				</div>
+
 				<!-- This example requires Tailwind CSS v2.0+-->
 				<div
 					class="fixed z-10 inset-0 overflow-y-auto hidden"
@@ -1194,17 +1176,15 @@
 							sm:block sm:p-0
 						"
 					>
-						<div aria-hidden="true" class="fixed inset-0 transition-opacity">
+						<div class="fixed inset-0 transition-opacity" aria-hidden="true">
 							<div class="absolute inset-0 bg-gray-500 opacity-75"></div>
 						</div>
 						<!-- This element is to trick the browser into centering the modal contents.--><span
-							aria-hidden="true"
 							class="hidden sm:inline-block sm:align-middle sm:h-screen"
+							aria-hidden="true"
 							>&ZeroWidthSpace;</span
 						>
 						<div
-							aria-labelledby="modal-headline"
-							aria-modal="true"
 							class="
 								inline-block
 								align-bottom
@@ -1217,6 +1197,8 @@
 								sm:my-8 sm:align-middle sm:max-w-lg sm:w-full
 							"
 							role="dialog"
+							aria-modal="true"
+							aria-labelledby="modal-headline"
 						>
 							<div class="w-auto">
 								<button
@@ -1233,22 +1215,22 @@
 										text-black
 										float-right
 									"
-									role="button"
-									@click="handleModal"
 									style="float: right !important"
+									@click="handleModal"
+									role="button"
 								>
 									<svg
-										fill="none"
-										height="24px"
-										stroke="#000"
-										viewbox="0 0 24 24"
 										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewbox="0 0 24 24"
+										stroke="#000"
+										height="24px"
 									>
 										<path
-											d="M6 18L18 6M6 6l12 12"
 											stroke-linecap="round"
 											stroke-linejoin="round"
 											stroke-width="2"
+											d="M6 18L18 6M6 6l12 12"
 										></path>
 									</svg>
 								</button>
@@ -1264,13 +1246,14 @@
 								>
 									<div>
 										<img
-											alt="Firefox logo"
 											class="items-center justify-center block mx-auto"
-											height="70px"
+											alt="Firefox logo"
 											loading="lazy"
 											src="/assets/images/home/chrome.png"
 											width="70px"
-										/><a
+											height="70px"
+										/>
+										<a
 											class="
 												mt-6
 												w-full
@@ -1280,26 +1263,27 @@
 												px-8
 												py-3
 												border
-												text-base
-												font-medium
 												rounded-md
-												text-indigo-600
-												hover:bg-gray-50
+												shadow-sm
+												text-sm
+												font-medium
+												btn btn-accent
 											"
 											href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
 											rel="noopener"
 											target="_blank"
-											><span>Chrome</span></a
 										>
+											<span>Chrome</span>
+										</a>
 									</div>
 									<div>
 										<img
-											alt="Firefox logo"
 											class="items-center justify-center block mx-auto"
-											height="70px"
+											alt="Firefox logo"
 											loading="lazy"
 											src="/assets/images/home/firefox.png"
 											width="70px"
+											height="70px"
 										/><a
 											class="
 												mt-6
@@ -1310,11 +1294,11 @@
 												px-8
 												py-3
 												border
-												text-base
-												font-medium
 												rounded-md
-												text-indigo-600
-												hover:bg-gray-50
+												shadow-sm
+												text-sm
+												font-medium
+												btn btn-accent
 											"
 											href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
 											rel="noreferrer"
@@ -1324,12 +1308,12 @@
 									</div>
 									<div>
 										<img
-											alt="Firefox logo"
 											class="items-center justify-center block mx-auto"
-											height="70px"
+											alt="Firefox logo"
 											loading="lazy"
 											src="/assets/images/home/edge.png"
 											width="70px"
+											height="70px"
 										/><a
 											class="
 												mt-6
@@ -1340,16 +1324,77 @@
 												px-8
 												py-3
 												border
-												text-base
-												font-medium
 												rounded-md
-												text-indigo-600
-												hover:bg-gray-50
+												shadow-sm
+												text-sm
+												font-medium
+												btn btn-accent
 											"
 											href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
 											rel="noreferrer"
 											target="_blank"
 											><span>Edge</span></a
+										>
+									</div>
+
+									<div>
+										<img
+											class="items-center justify-center block mx-auto"
+											alt="Firefox logo"
+											loading="lazy"
+											src="/assets/images/home/docs.png"
+											width="70px"
+											height="70px"
+										/><a
+											class="
+												mt-6
+												w-full
+												flex
+												items-center
+												justify-center
+												px-8
+												py-3
+												border
+												rounded-md
+												shadow-sm
+												text-sm
+												font-medium
+												btn btn-accent
+											"
+											href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+											rel="noreferrer"
+											target="_blank"
+											><span> Docs</span></a
+										>
+									</div>
+									<div>
+										<img
+											class="items-center justify-center block mx-auto"
+											alt="Firefox logo"
+											loading="lazy"
+											src="/assets/images/home/slides.png"
+											width="70px"
+											height="70px"
+										/><a
+											class="
+												mt-6
+												w-full
+												flex
+												items-center
+												justify-center
+												px-8
+												py-3
+												border
+												rounded-md
+												shadow-sm
+												text-sm
+												font-medium
+												btn btn-accent
+											"
+											href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+											rel="noreferrer"
+											target="_blank"
+											><span> Slides</span></a
 										>
 									</div>
 								</div>
@@ -1369,7 +1414,7 @@
 						bg-gray-50
 						divide-y-2 divide-gray-50
 					"
-					style="display: none !important"
+					v-bind:style="showMenu  === true  ?'display:block !important;' : 'display: none !important;'"
 				>
 					<div class="pt-5 pb-6 px-5">
 						<div class="flex items-center justify-between">

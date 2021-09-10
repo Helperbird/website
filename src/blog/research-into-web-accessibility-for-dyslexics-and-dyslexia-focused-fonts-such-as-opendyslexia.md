@@ -1,7 +1,12 @@
 ---
 layout: templates/blog_post.liquid
-title: Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic | Helperbird
-description: There are few published papers about usability testing with dyslexia focused fonts, but there is a considerable collection of knowledge on dyslexia as well as many suggestions for authoring dyslexia friendly interfaces.
+title:
+  Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic |
+  Helperbird
+description:
+  There are few published papers about usability testing with dyslexia focused fonts, but there is a
+  considerable collection of knowledge on dyslexia as well as many suggestions for authoring
+  dyslexia friendly interfaces.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

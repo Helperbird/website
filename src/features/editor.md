@@ -2,7 +2,8 @@
 layout: templates/features.html
 title: Full document editor for Google Chrome, Firefox, Edge and Safari | Helperbird
 description:
-  View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and Slides aswell.
+  View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
+  Slides aswell.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

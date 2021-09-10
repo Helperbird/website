@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const htmlmin = require('html-minifier');
-const pluginPWA = require("eleventy-plugin-pwa");
+const pluginPWA = require('eleventy-plugin-pwa');
 const manifest = {
 	'main.js': '/assets/js/main.bundle.js',
 	'main.css': '/assets/js/main.css'
 };
-
 
 const format = require('date-fns/format');
 
@@ -15,17 +14,18 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/assets/videos');
 	eleventyConfig.addPassthroughCopy('./src/assets/setup');
 
-
-
 	eleventyConfig.addPlugin(pluginPWA, {
-		swDest: "./docs/service-worker.js",
-		globDirectory: "./docs"
-	  });
+		swDest: './docs/service-worker.js',
+		globDirectory: './docs'
+	});
 
 	// add `date` filter
 	eleventyConfig.addFilter('date', function (date, dateFormat) {
 		return format(date, dateFormat);
 	});
+
+
+
 
 	let markdownIt = require('markdown-it');
 	let options = {

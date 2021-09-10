@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: "Adjust Letters and Words on any page"
+title: 'Adjust Letters and Words on any page'
 description: Adjust letter and word spacing, font size and line-height according to your needs.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for

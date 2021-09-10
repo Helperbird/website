@@ -7,7 +7,7 @@ function load() {
 			let source = `https://img.youtube.com/vi/${youtubeLazyLoad[i].dataset.embed}/sddefault.jpg`;
 			const image = new Image();
 			image.src = source;
-			image.class ="w-full";
+			image.class = 'w-full';
 			image.alt = 'Helperbird support feature';
 			image.addEventListener(
 				'load',

@@ -1,6 +1,7 @@
 ---
 layout: templates/features.html
-title: Reading guide helps you to read long texts on web pages | Helperbird for Chrome, Firefox & Edge
+title:
+  Reading guide helps you to read long texts on web pages | Helperbird for Chrome, Firefox & Edge
 description: Reading ruler, useful when you are reading long texts on the web.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for

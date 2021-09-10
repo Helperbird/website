@@ -1,7 +1,8 @@
 ---
 layout: templates/features.html
 title: Translate any website or word! | Helperbird
-description: Helperbird gives free translation support to any website or text, though out your browsing.
+description:
+  Helperbird gives free translation support to any website or text, though out your browsing.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

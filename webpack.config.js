@@ -8,10 +8,7 @@ module.exports = {
 	mode: 'production',
 	context: __dirname + '/src/',
 	entry: ['./assets/js/index.js', './assets/css/styles.css'],
-	plugins: [new MiniCssExtractPlugin({ ignoreOrder: false }), new HTMLInlineCSSWebpackPlugin(),
-	
-	
-	],
+	plugins: [new MiniCssExtractPlugin({ ignoreOrder: false }), new HTMLInlineCSSWebpackPlugin()],
 	resolve: {
 		alias: {
 			vue: 'vue/dist/vue.min.js'

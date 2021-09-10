@@ -2,12 +2,12 @@
 layout: templates/blog_post.liquid
 title: Jim Sprialis of Sprialis consulting | Helperbird Partner | Helperbird
 description:
-  Jim Sprialis is a leading influence in the promotion and use of inclusive and assistive technologies
-  in South Australia’s education and training arena. He has been an educator for 28 years where the
-  focus of his innovative teaching and leadership career has been in empowering students with
-  disability and learning difficulties to better connect and participate with the use of appropriate
-  technologies. His universal design approach to technology and learning addresses the diverse
-  abilities and needs of all learners.
+  Jim Sprialis is a leading influence in the promotion and use of inclusive and assistive
+  technologies in South Australia’s education and training arena. He has been an educator for 28
+  years where the focus of his innovative teaching and leadership career has been in empowering
+  students with disability and learning difficulties to better connect and participate with the use
+  of appropriate technologies. His universal design approach to technology and learning addresses
+  the diverse abilities and needs of all learners.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

@@ -1,8 +1,7 @@
 ---
 layout: templates/features.html
 title: Mute all videos and audio from auto running | Helperbird
-description:
-  Mute all videos and audio from playing on any website with Helperbird in two clicks.
+description: Mute all videos and audio from playing on any website with Helperbird in two clicks.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
