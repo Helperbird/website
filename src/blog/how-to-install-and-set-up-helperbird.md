@@ -17,7 +17,7 @@ blog_snip: Your step by step guide on how to install and set up Helperbird.
 
 Your step by step guide on how to install and set up Helperbird.
 
-- First you need to visit Helperbird.com
+- First you need to visit [Helperbird.com](https://www.helperbird.com)
 
 ![Step one of how to install Helperbird on G Suite](/assets/images/blog/setup/setup_1.png)
 
