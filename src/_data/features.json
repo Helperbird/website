@@ -3,171 +3,171 @@
 		{
 			"title": "Reader Mode",
 			"description": "Reader Mode removes ads and distractions from any webpage with complete customization.",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 
 		{
 			"title": "Dyslexia Fonts",
 			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
-			"link": "/features/specialised-dyslexic-fonts"
+			"link": "/features/specialised-dyslexic-fonts/"
 		},
 
 		{
 			"title": "Dyslexia Ruler",
 			"description": "Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content. It can be any colour to improve the accessibility of the text your reading. ",
-			"link": "/features/ruler"
+			"link": "/features/ruler/"
 		},
 
 		{
 			"title": "Highlighter",
 			"description": "Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. ",
-			"link": "/features/highlight-paragraph"
+			"link": "/features/highlight-paragraph/"
 		},
 
 		{
 			"title": "Styles & Themes",
 			"description": "Change background, highlight & font colors to help with focus and improve reading.",
-			"link": "/features/styles"
+			"link": "/features/styles/"
 		},
 
 		{
 			"title": "Overlays",
 			"description": "A colour overlay is available to help those with Irlen Syndrome or those who dislike a web page's base colour but don't want to change it entirely.",
-			"link": "/features/overlay"
+			"link": "/features/overlay/"
 		},
 
 		{
 			"title": "Color blindness",
 			"description": "Color blindness features including Emphasize Links and stroke text",
-			"link": "/features/color-blindness"
+			"link": "/features/color-blindness/"
 		},
 
 		{
 			"title": "Dictionary",
 			"description": "Quickly look up word definitions with audio pronunciation as you browse the web, including synonyms, Etymology and related words.",
-			"link": "/features/dictionary"
+			"link": "/features/dictionary/"
 		},
 
 		{
 			"title": "Privacy",
 			"description": "We never sell, store, or consume any user data. We do not store data or any other user-related content.",
-			"link": "/features/privacy"
+			"link": "/features/privacy/"
 		},
 		{
 			"title": "Text to Speech",
 			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and pdfs with natural sounding voices.",
-			"link": "/features/text-to-speech"
+			"link": "/features/text-to-speech/"
 		},
 
 		{
 			"title": "Dictation",
 			"description": "Type text using your voice. Speak using your voice, and it will be typed into a notepad where you can edit it.",
-			"link": "/features/speech-to-text"
+			"link": "/features/speech-to-text/"
 		},
 
 		{
 			"title": "Notes",
 			"description": "Save and manage snippets of text, images, websites and videos using the notes feature.",
-			"link": "/features/notes"
+			"link": "/features/notes/"
 		},
 
 		{
 			"title": "Cognitive Load",
 			"description": "Using granular colours that underline text, users can find reading more comfortable and fun.",
-			"link": "/features/cognitive-load"
+			"link": "/features/cognitive-load/"
 		},
 
 		{
 			"title": "Translate any page",
 			"description": "Translate any website or any snippet of text with Helperbird. Over 100 languages, all with one click.",
-			"link": "/features/google-translate"
+			"link": "/features/google-translate/"
 		},
 
 		{
 			"title": "Screenshot",
 			"description": "Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.",
-			"link": "/features/screenshot"
+			"link": "/features/screenshot/"
 		},
 
 		{
 			"title": "Page & text magnifier",
 			"description": "Page & text magnifier allows you to manage zoom options more precisely.",
-			"link": "/features/zoom"
+			"link": "/features/zoom/"
 		},
 
 		{
 			"title": "Cursor control",
 			"description": "Make your mouse pointer more visible. Customize mouse cursor with sizes.",
-			"link": "/features/high-contrast"
+			"link": "/features/high-contrast/"
 		},
 
 		{
 			"title": "Immersive Reader",
 			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
-			"link": "/features/immersive-reader-for-chrome"
+			"link": "/features/immersive-reader-for-chrome/"
 		},
 
 		{
 			"title": "Adjust letters and words",
 			"description": "Adjust letter and word spacing, font size and line-height according to your needs.",
-			"link": "/features/adjust-letters-and-words"
+			"link": "/features/adjust-letters-and-words/"
 		},
 
 		{
 			"title": "Full document editor",
 			"description": "Create, edit and delete documents in a full editor. Export and import to Google docs, Markdown and more.",
-			"link": "/features/notes"
+			"link": "/features/notes/"
 		},
 
 		{
 			"title": "PDF support",
 			"description": "Use immersive reader, text to speech and more on PDF files.",
-			"link": "/features/shortcuts"
+			"link": "/features/shortcuts/"
 		},
 
 		{
 			"title": "Google docs support",
-			"description": "Change fonts, immersive reader, text to speech and more on any Google docs file."
+			"description": "Change fonts, immersive reader, text to speech and more on any Google docs file./"
 		},
 
 		{
 			"title": "Extract text from images. (OCR)",
 			"description": "A powerful optical character recognition (OCR) extension to capture and convert images, videos, Pdf's  to text.",
-			"link": "/features/optical-character-recognition"
+			"link": "/features/optical-character-recognition/"
 		},
 
 		{
 			"title": " Read it later",
 			"description": "Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.",
-			"link": "/features/bookmarks"
+			"link": "/features/bookmarks/"
 		},
 
 		{
 			"title": "Annotate web pages",
 			"description": "Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and study.",
-			"link": "/features/annotation"
+			"link": "/features/annotation/"
 		},
 
 		{
 			"title": " Analyze",
 			"description": "Quickly find the number of characters, letters and breakdowns of all sentences on a webpage.",
-			"link": "/features/analyze"
+			"link": "/features/analyze/"
 		},
 
 		{
 			"title": "Reading guide",
 			"description": "Reading ruler, useful when you are reading long texts on the web.",
-			"link": "/features/shortcuts"
+			"link": "/features/shortcuts/"
 		},
 		{
 			"title": "Line Focus",
 			"description": "Quickly find the number of characters, letters and breakdowns of all sentences on a webpage.",
-			"link": "/features/shortcuts"
+			"link": "/features/shortcuts/"
 		},
 		{
 			"title": " Shortcuts",
 			"description": "Access Helperbird features with keyboard shortcuts.",
-			"link": "/features/shortcuts"
+			"link": "/features/shortcuts/"
 		}
 	],
 
@@ -175,30 +175,30 @@
 		{
 			"title": "Works on any website",
 			"description": "Accessibility Checker is an extension so it works on any website and even works offline! You don't need to add any script or change your code.          ",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 		{
 			"title": "How to fix it",
 			"description": "When you click on the issue, we tell you now how to fix the issue.",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 
 		{
 			"title": "Turn it on and off anytime",
 			"description": "You control it. Turn it on/off anytime. Works on development, or production website.",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 
 		{
 			"title": "Change the colors",
 			"description": "Change the color of the highlighter to any color you wish.",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 
 		{
 			"title": "Filter issues ",
 			"description": "Click on the issue and see the toaster or check the console for all issues.",
-			"link": "/features/reader-mode-for-chrome-and-firefox"
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		}
 	],
 
@@ -206,108 +206,108 @@
 		{
 			"title": "Dyslexia Fonts",
 			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
-			"link": "/features/specialised-dyslexic-fonts"
+			"link": "/features/specialised-dyslexic-fonts/"
 		},
 
 		{
 			"title": "Dyslexia Ruler",
 			"description": "Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content. It can be any colour to improve the accessibility of the text your reading. ",
-			"link": "/features/ruler"
+			"link": "/features/ruler/"
 		},
 
 		{
 			"title": "Highlighter",
 			"description": "Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. ",
-			"link": "/features/highlight-paragraph"
+			"link": "/features/highlight-paragraph/"
 		},
 
 		{
 			"title": "Styles & Themes",
 			"description": "Change background, highlight & font colors to help with focus and improve reading.",
-			"link": "/features/styles"
+			"link": "/features/styles/"
 		},
 
 		{
 			"title": "Overlays",
 			"description": "A colour overlay is available to help those with Irlen Syndrome or those who dislike a web page's base colour but don't want to change it entirely.",
-			"link": "/features/overlay"
+			"link": "/features/overlay/"
 		},
 
 		{
 			"title": "Color blindness",
 			"description": "Color blindness features including Emphasize Links and stroke text",
-			"link": "/features/color-blindness"
+			"link": "/features/color-blindness/"
 		},
 
 		{
 			"title": "Dictionary",
 			"description": "Quickly look up word definitions with audio pronunciation as you browse the web, including synonyms, Etymology and related words.",
-			"link": "/features/dictionary"
+			"link": "/features/dictionary/"
 		},
 
 		{
 			"title": "Privacy",
 			"description": "We never sell, store, or consume any user data. We do not store data or any other user-related content.",
-			"link": "/features/privacy"
+			"link": "/features/privacy/"
 		},
 		{
 			"title": "Text to Speech",
 			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and pdfs with natural sounding voices.",
-			"link": "/features/text-to-speech"
+			"link": "/features/text-to-speech/"
 		},
 
 		{
 			"title": "Dictation",
 			"description": "Type text using your voice. Speak using your voice, and it will be typed into a notepad where you can edit it.",
-			"link": "/features/speech-to-text"
+			"link": "/features/speech-to-text/"
 		},
 
 		{
 			"title": "Notes",
 			"description": "Save and manage snippets of text, images, websites and videos using the notes feature.",
-			"link": "/features/notes"
+			"link": "/features/notes/"
 		},
 
 		{
 			"title": "Cognitive Load",
 			"description": "Using granular colours that underline text, users can find reading more comfortable and fun.",
-			"link": "/features/cognitive-load"
+			"link": "/features/cognitive-load/"
 		},
 
 		{
 			"title": "Translate any page",
 			"description": "Translate any website or any snippet of text with Helperbird. Over 100 languages, all with one click.",
-			"link": "/features/google-translate"
+			"link": "/features/google-translate/"
 		},
 
 		{
 			"title": "Screenshot",
 			"description": "Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.",
-			"link": "/features/screenshot"
+			"link": "/features/screenshot/"
 		},
 
 		{
 			"title": "Page & text magnifier",
 			"description": "Page & text magnifier allows you to manage zoom options more precisely.",
-			"link": "/features/zoom"
+			"link": "/features/zoom/"
 		},
 
 		{
 			"title": "Cursor control",
 			"description": "Make your mouse pointer more visible. Customize mouse cursor with sizes.",
-			"link": "/features/high-contrast"
+			"link": "/features/high-contrast/"
 		},
 
 		{
 			"title": "Immersive Reader",
 			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
-			"link": "/features/immersive-reader-for-chrome"
+			"link": "/features/immersive-reader-for-chrome/"
 		},
 
 		{
 			"title": "Adjust letters and words",
 			"description": "Adjust letter and word spacing, font size and line-height according to your needs.",
-			"link": "/features/adjust-letters-and-words"
+			"link": "/features/adjust-letters-and-words/"
 		}
 	]
 }
