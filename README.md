@@ -1,6 +1,6 @@
 
 
-# Helperbird website
+# Helperbird website [![Build and Deploy](https://github.com/Helperbird/website/actions/workflows/build.yml/badge.svg)](https://github.com/Helperbird/website/actions/workflows/build.yml)
 
 
 ## Getting started
