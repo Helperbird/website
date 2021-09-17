@@ -30,9 +30,9 @@ customization. View clutter-free web pages
   class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 " style="color: white;" 
   href="/pricing/"> Try Helperbird for Free </a>
 
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
+![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-three.png)
 
-## Intro
+## About the Reader Mode feature.
 
 Helperbird gives you a Reader Mode that removes ads and distractions from any webpage with complete
 customization.
@@ -42,6 +42,17 @@ changes the pages text size, contrast and layout for better readability.
 
 Reader Mode, along with Helperbirds other options are easily customizable to fit your reading
 preferences.
+
+
+
+###  Screenshots of Reader Mode
+
+![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-feature.png)
+
+![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-two.png)
+
+![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-three.png)
+
 
 ## How it helps
 
