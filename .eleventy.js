@@ -24,9 +24,6 @@ module.exports = function (eleventyConfig) {
 		return format(date, dateFormat);
 	});
 
-
-
-
 	let markdownIt = require('markdown-it');
 	let options = {
 		html: true,

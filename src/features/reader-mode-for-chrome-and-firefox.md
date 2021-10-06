@@ -43,16 +43,13 @@ changes the pages text size, contrast and layout for better readability.
 Reader Mode, along with Helperbirds other options are easily customizable to fit your reading
 preferences.
 
-
-
-###  Screenshots of Reader Mode
+### Screenshots of Reader Mode
 
 ![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-feature.png)
 
 ![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-two.png)
 
 ![Helperbirds Reader Mode feature before use.](/assets/images/demos/readermode/helperbird-readermode-three.png)
-
 
 ## How it helps
 
