@@ -1851,19 +1851,19 @@
 		  
 
 
-						  {%- for guide in collections.guideFeatures -%}
+						  {%- for features in collections.guideFeaturesMain -%}
   
 		
 							<li>
 								<a
-								href="{{ guide.url }}"
+								href="{{ features.url }}"
 								aria-current="page"
 								class=""
 								>
 				
 				
 							 
-						  {{ guide.data.featureTitle }}
+						  {{ features.data.featureTitle }}
 					
 							
 							</a>
