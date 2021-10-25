@@ -1,4 +1,53 @@
 {
+	"popular": [
+		{
+			"title": "Reader Mode",
+
+			"description": "Reader Mode removes ads and distractions from any webpage with complete customization.",
+			"link": "/features/reader-mode-for-chrome-and-firefox/"
+		},
+
+		{
+			"title": "Cognitive Load",
+			"description": "Using granular colours that underline text, users can find reading more comfortable and fun.",
+			"link": "/features/cognitive-load/"
+		},
+
+		{
+			"title": "Annotate web pages",
+			"description": "Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and study.",
+			"link": "/features/annotation/"
+		},
+
+		{
+			"title": "PDF support",
+			"description": "Use immersive reader, text to speech and more on PDF files.",
+			"link": "/features/shortcuts/"
+		},
+
+		{
+			"title": "Dyslexia Fonts",
+			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
+			"link": "/features/specialised-dyslexic-fonts/"
+		},
+
+		{
+			"title": "Dyslexia Ruler",
+			"description": "Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content. It can be any colour to improve the accessibility of the text your reading. ",
+			"link": "/features/ruler/"
+		},
+		{
+			"title": "Immersive Reader",
+			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
+			"link": "/features/immersive-reader-for-chrome/"
+		},
+
+		{
+			"title": "Highlighter",
+			"description": "Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. ",
+			"link": "/features/highlight-paragraph/"
+		}
+	],
 	"features": [
 		{
 			"title": "Reader Mode",

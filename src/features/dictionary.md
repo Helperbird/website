@@ -21,7 +21,7 @@ url: /features/dictionary/
 
 With one right click of a mouse, users can discover what any English word means. Including in search
 results are synonyms and related words. <a 
-  class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 " style="color: white;" 
+  class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 " style="color: white;" 
   href="/pricing/"> Try Helperbird for Free </a>
 
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/dictionary/dictionary.png)

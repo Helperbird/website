@@ -207,7 +207,7 @@
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
 	<body class="bg-white">
-		<header class="relative bg-gray-50 shadow-lg" id="nav">
+		<header class="relative" id="nav">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6">
 				<div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 					<div class="flex justify-start lg:w-0 lg:flex-1">
@@ -232,7 +232,7 @@
 								justify-center
 								text-gray-400
 								hover:text-gray-500 hover:bg-gray-100
-								focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500
+								focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500
 							"
 							type="button"
 						>
@@ -266,7 +266,7 @@
 								@click="handleFeatures"
 								class="
 									group
-									bg-gray-50
+						
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -274,7 +274,7 @@
 									text-base
 									font-medium
 									hover:text-gray-900
-									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500
 								"
 								type="button"
 							>
@@ -662,7 +662,7 @@
 													>
 												</li>
 											</ul>
-											<div class="max-w-7xl mx-auto space-y-6 -m-3 p-3 sm:flex sm:space-y-0">
+											<div class="max-w-4xl mx-auto space-y-6 -m-3 p-3 sm:flex sm:space-y-0">
 												<div class="flow-root">
 													<a
 														class="
@@ -680,8 +680,8 @@
 															font-medium
 															rounded-md
 															text-white
-															bg-indigo-600
-															hover:bg-indigo-700
+															bg-pink-600
+															hover:bg-pink-700
 														"
 														href="/features/"
 														><span class="ml-3">See all features</span></a
@@ -779,8 +779,8 @@
 									text-xs
 									font-medium
 									leading-5
-									bg-indigo-100
-									text-indigo-800
+									bg-pink-100
+									text-pink-800
 									py-0.5
 								"
 								>Sale</span
@@ -791,8 +791,7 @@
 							<button
 								@click="handleCommon"
 								class="
-									group
-									bg-gray-50
+					
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -800,7 +799,7 @@
 									text-base
 									font-medium
 									hover:text-gray-900
-									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500
 								"
 								type="button"
 							>
@@ -819,151 +818,68 @@
 									></path>
 								</svg>
 							</button>
-							<div
-								class="hidden absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
-								v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'"
-							>
-								<div
-									class="
-										max-w-7xl
-										mx-auto
-										grid
-										gap-y-6
-										px-4
-										py-6
-										sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8
-										lg:grid-cols-4 lg:px-8 lg:py-12
-										xl:py-16
-									"
-								>
-									<a
-										class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50"
-										href="/compare/snap-and-read-alternative"
-									>
-										<div class="flex md:h-full lg:flex-col">
-											<div class="flex-shrink-0">
-												<span
-													class="
-														inline-flex
-														items-center
-														justify-center
-														h-10
-														w-10
-														rounded-md
-														bg-indigo-500
-														text-white
-														sm:h-12 sm:w-12
-													"
-													><img
-														class="h-6 w-6"
+
+
+
+					<div v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'" class="hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+      <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+        <a href="/compare/snap-and-read-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+          <!-- Heroicon name: outline/chart-bar -->
+      
+
+		  <img
+														class="flex-shrink-0 h-6 w-6"
 														src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe"
-												/></span>
-											</div>
-											<div
-												class="
-													ml-4
-													md:flex-1 md:flex md:flex-col md:justify-between
-													lg:ml-0 lg:mt-4
-												"
-											>
-												<div>
-													<p class="text-base font-medium text-gray-900">Snap &amp; Read</p>
-													<p class="mt-1 text-sm text-gray-500">
-														See how Helperbird compares to Snap &amp; Read.
-													</p>
-												</div>
-												<p class="mt-2 text-sm font-medium text-indigo-600 lg:mt-4">
-													Learn more <span aria-hidden="true">→</span>
-												</p>
-											</div>
-										</div></a
-									>
-									<a
-										class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50"
-										href="/compare/immersive-reader-by-microsoft-alternative"
-									>
-										<div class="flex md:h-full lg:flex-col">
-											<div class="flex-shrink-0">
-												<span
-													class="
-														inline-flex
-														items-center
-														justify-center
-														h-10
-														w-10
-														rounded-md
-														bg-indigo-500
-														text-white
-														sm:h-12 sm:w-12
-													"
-													><img
-														class="h-6 w-6"
-														src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
-												/></span>
-											</div>
-											<div
-												class="
-													ml-4
-													md:flex-1 md:flex md:flex-col md:justify-between
-													lg:ml-0 lg:mt-4
-												"
-											>
-												<div>
-													<p class="text-base font-medium text-gray-900">Immersive reader</p>
-													<p class="mt-1 text-sm text-gray-500">
-														See how Helperbird compares to Immersive reader.
-													</p>
-												</div>
-												<p class="mt-2 text-sm font-medium text-indigo-600 lg:mt-4">
-													Learn more <span aria-hidden="true">→</span>
-												</p>
-											</div>
-										</div></a
-									>
-									<a
-										class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50"
-										href="/compare/read-and-write-alternative"
-									>
-										<div class="flex md:h-full lg:flex-col">
-											<div class="flex-shrink-0">
-												<span
-													class="
-														inline-flex
-														items-center
-														justify-center
-														h-10
-														w-10
-														rounded-md
-														bg-indigo-500
-														text-white
-														sm:h-12 sm:w-12
-													"
-													><img
-														class="h-6 w-6"
-														src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
-												/></span>
-											</div>
-											<div
-												class="
-													ml-4
-													md:flex-1 md:flex md:flex-col md:justify-between
-													lg:ml-0 lg:mt-4
-												"
-											>
-												<div>
-													<p class="text-base font-medium text-gray-900">Read &amp; Write</p>
-													<p class="mt-1 text-sm text-gray-500">
-														See how Helperbird compares to Read &amp; Write.
-													</p>
-												</div>
-												<p class="mt-2 text-sm font-medium text-indigo-600 lg:mt-4">
-													Learn more <span aria-hidden="true">→</span>
-												</p>
-											</div>
-										</div></a
-									>
-								</div>
-							</div>
+												/>
+          <div class="ml-4">
+            <p class="text-base font-medium text-gray-900">
+				Snap &amp; Read
+            </p>
+            <p class="mt-1 text-sm text-gray-500">
+				See how Helperbird compares to Snap &amp; Read.
+            </p>
+          </div>
+        </a>
+
+        <a href="/compare/immersive-reader-by-microsoft-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+          <!-- Heroicon name: outline/cursor-click -->
+		  <img
+		  class="flex-shrink-0 h-6 w-6"
+		  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
+  />
+          <div class="ml-4">
+            <p class="text-base font-medium text-gray-900">
+				Immersive reader
+            </p>
+            <p class="mt-1 text-sm text-gray-500">
+				See how Helperbird compares to Immersive reader.
+            </p>
+          </div>
+        </a>
+
+        <a href="/compare/read-and-write-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+          <!-- Heroicon name: outline/shield-check -->
+          <img
+		  class="flex-shrink-0 h-6 w-6"
+		  src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
+  />
+          <div class="ml-4">
+            <p class="text-base font-medium text-gray-900">
+				Read &amp; Write
+            </p>
+            <p class="mt-1 text-sm text-gray-500">
+				See how Helperbird compares to Read &amp; Write.
+            </p>
+          </div>
+        </a>
+
+
+
+      </div>
+  
+    </div>
+  </div>
 						</div>
 						<div class="relative">
 							<button
@@ -978,7 +894,7 @@
 									text-base
 									font-medium
 									hover:text-gray-900
-									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+									focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500
 								"
 								type="button"
 							>
@@ -1019,7 +935,7 @@
 											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
 											href="/tutorials/"
 											><svg
-												class="flex-shrink-0 h-6 w-6 text-indigo-600"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
 												stroke="currentColor"
 												viewbox="0 0 24 24"
@@ -1037,9 +953,9 @@
 											</div></a
 										><a
 											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-											href="/partners/"
+											href="/help/"
 											><svg
-												class="flex-shrink-0 h-6 w-6 text-indigo-600"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
 												stroke="currentColor"
 												viewbox="0 0 24 24"
@@ -1053,7 +969,7 @@
 												></path>
 											</svg>
 											<div class="ml-4">
-												<p class="text-base font-medium text-gray-900">Partners</p>
+												<p class="text-base font-medium text-gray-900">Help guides</p>
 											</div></a
 										><a
 											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
@@ -1061,7 +977,7 @@
 											target="_blank"
 											rel="noreferrer"
 											><svg
-												class="flex-shrink-0 h-6 w-6 text-indigo-600"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
 												stroke="currentColor"
 												viewbox="0 0 24 24"
@@ -1083,7 +999,7 @@
 											target="_blank"
 											rel="noreferrer"
 											><svg
-												class="flex-shrink-0 h-6 w-6 text-indigo-600"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
 												stroke="currentColor"
 												viewbox="0 0 24 24"
@@ -1109,7 +1025,7 @@
 											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
 											href="/support/"
 											><svg
-												class="flex-shrink-0 h-6 w-6 text-indigo-600"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
 												stroke="currentColor"
 												viewbox="0 0 24 24"
@@ -1148,8 +1064,8 @@
 								text-base
 								font-medium
 								text-white
-								bg-indigo-600
-								hover:bg-indigo-700
+								bg-pink-600
+								hover:bg-pink-700
 							"
 							role="button"
 						>
@@ -1263,13 +1179,10 @@
 												px-8
 												py-3
 												border
-												text-base
-												font-medium
 												rounded-md
 												shadow-sm
 												text-sm
 												font-medium
-												bg-red-400
 												btn btn-accent
 											"
 											href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
@@ -1422,7 +1335,7 @@
 						bg-gray-50
 						divide-y-2 divide-gray-50
 					"
-					style="display: none !important"
+					v-bind:style="showMenu  === true  ?'display:block !important;' : 'display: none !important;'"
 				>
 					<div class="pt-5 pb-6 px-5">
 						<div class="flex items-center justify-between">
@@ -1446,7 +1359,7 @@
 										justify-center
 										text-gray-400
 										hover:text-gray-500 hover:bg-gray-100
-										focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500
+										focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500
 									"
 									type="button"
 								>
@@ -1474,7 +1387,7 @@
 								<a class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" href="/about/"
 									><svg
 										aria-hidden="true"
-										class="flex-shrink-0 h-6 w-6 text-indigo-600"
+										class="flex-shrink-0 h-6 w-6 text-pink-600"
 										fill="none"
 										stroke="currentColor"
 										viewbox="0 0 24 24"
@@ -1490,7 +1403,7 @@
 								><a class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" href="/features/"
 									><svg
 										aria-hidden="true"
-										class="flex-shrink-0 h-6 w-6 text-indigo-600"
+										class="flex-shrink-0 h-6 w-6 text-pink-600"
 										fill="none"
 										stroke="currentColor"
 										viewbox="0 0 24 24"
@@ -1506,7 +1419,7 @@
 								><a class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" href="/pricing/"
 									><svg
 										aria-hidden="true"
-										class="flex-shrink-0 h-6 w-6 text-indigo-600"
+										class="flex-shrink-0 h-6 w-6 text-pink-600"
 										fill="none"
 										stroke="currentColor"
 										viewbox="0 0 24 24"
@@ -1529,8 +1442,8 @@
 											text-xs
 											font-medium
 											leading-5
-											bg-indigo-100
-											text-indigo-800
+											bg-pink-100
+											text-pink-800
 											py-0.5
 										"
 										>Sale</span
@@ -1538,7 +1451,7 @@
 								><a class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" href="/support/"
 									><svg
 										aria-hidden="true"
-										class="flex-shrink-0 h-6 w-6 text-indigo-600"
+										class="flex-shrink-0 h-6 w-6 text-pink-600"
 										fill="none"
 										stroke="currentColor"
 										viewbox="0 0 24 24"
@@ -1554,7 +1467,7 @@
 								><a class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" href="/support/"
 									><svg
 										aria-hidden="true"
-										class="flex-shrink-0 h-6 w-6 text-indigo-600"
+										class="flex-shrink-0 h-6 w-6 text-pink-600"
 										fill="none"
 										stroke="currentColor"
 										viewbox="0 0 24 24"
@@ -1605,8 +1518,8 @@
 									text-base
 									font-medium
 									text-white
-									bg-indigo-600
-									hover:bg-indigo-700
+									bg-pink-600
+									hover:bg-pink-700
 								"
 							>
 								Try it Free
@@ -1715,7 +1628,7 @@
 											text-base
 											font-medium
 											rounded-md
-											text-indigo-600
+											text-pink-600
 											hover:bg-gray-50
 										"
 										href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
@@ -1746,7 +1659,7 @@
 											text-base
 											font-medium
 											rounded-md
-											text-indigo-600
+											text-pink-600
 											hover:bg-gray-50
 										"
 										href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
@@ -1777,7 +1690,7 @@
 											text-base
 											font-medium
 											rounded-md
-											text-indigo-600
+											text-pink-600
 											hover:bg-gray-50
 										"
 										href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
@@ -1796,96 +1709,8 @@
 
 		<main>
 			<div class="relative py-16 bg-white overflow-hidden">
-				<div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-					<div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
-						<svg
-							class="absolute top-12 left-full transform translate-x-32"
-							width="404"
-							height="384"
-							fill="none"
-							viewBox="0 0 404 384"
-						>
-							<defs>
-								<pattern
-									id="74b3fd99-0a6f-4271-bef2-e80eeafdf357"
-									x="0"
-									y="0"
-									width="20"
-									height="20"
-									patternUnits="userSpaceOnUse"
-								>
-									<rect
-										x="0"
-										y="0"
-										width="4"
-										height="4"
-										class="text-gray-200"
-										fill="currentColor"
-									/>
-								</pattern>
-							</defs>
-							<rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
-						</svg>
-						<svg
-							class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
-							width="404"
-							height="384"
-							fill="none"
-							viewBox="0 0 404 384"
-						>
-							<defs>
-								<pattern
-									id="f210dbf6-a58d-4871-961e-36d5016a0f49"
-									x="0"
-									y="0"
-									width="20"
-									height="20"
-									patternUnits="userSpaceOnUse"
-								>
-									<rect
-										x="0"
-										y="0"
-										width="4"
-										height="4"
-										class="text-gray-200"
-										fill="currentColor"
-									/>
-								</pattern>
-							</defs>
-							<rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
-						</svg>
-						<svg
-							class="absolute bottom-12 left-full transform translate-x-32"
-							width="404"
-							height="384"
-							fill="none"
-							viewBox="0 0 404 384"
-						>
-							<defs>
-								<pattern
-									id="d3eb07ae-5182-43e6-857d-35c643af9034"
-									x="0"
-									y="0"
-									width="20"
-									height="20"
-									patternUnits="userSpaceOnUse"
-								>
-									<rect
-										x="0"
-										y="0"
-										width="4"
-										height="4"
-										class="text-gray-200"
-										fill="currentColor"
-									/>
-								</pattern>
-							</defs>
-							<rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
-						</svg>
-					</div>
-				</div>
 				<div class="relative px-4 sm:px-6 lg:px-8">
-					<div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+					<div class="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto">
 						{{ content | safe }}
 					</div>
 				</div>

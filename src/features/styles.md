@@ -25,7 +25,7 @@ Background and font colors help people with dyslexia focus and improve reading. 
 included in Helperbird.
 
 <a 
-  class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 " style="color: white;" 
+  class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 " style="color: white;" 
   href="/pricing/"> Try Helperbird for Free </a>
 
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/styles/styles.png)
