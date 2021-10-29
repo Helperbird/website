@@ -111,10 +111,10 @@ url: /pricing/
 					</div>
 
 					<div class="relative self-center mt-6">
-						<h4 class="mb-2 text-lg text-white">Student offer</h4>
+						<h4 class="mb-2 text-lg ">Student offer</h4>
 						<a class="btn btn-accent btn-sm" :href="priceDetails.studentLink">
-							<span v-html="priceDetails.currency">$</span
-							><span v-html="priceDetails.student">40</span> yearly
+							<span v-html="priceDetails.currency">$ </span
+							> <span> </span><span v-html="priceDetails.student">40</span> yearly
 						</a>
 					</div>
 				</div>
@@ -2440,33 +2440,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -2475,33 +2453,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -2510,33 +2466,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -2564,33 +2498,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -2599,33 +2511,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -2634,33 +2524,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -2687,33 +2555,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -2722,33 +2568,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -2757,33 +2581,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -2811,33 +2613,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -2846,33 +2626,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -2881,33 +2639,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -2935,33 +2671,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -2970,33 +2684,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -3005,33 +2697,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -3059,33 +2729,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -3094,33 +2742,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -3129,33 +2755,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -3183,33 +2787,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -3218,33 +2800,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -3253,33 +2813,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -3307,33 +2845,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -3342,33 +2858,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -3377,33 +2871,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -3431,33 +2903,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.free == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.free == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %}
@@ -3466,33 +2916,11 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.pro == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.free }}</span>
 
 							{% endif %} {% if feature.pro == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.pro }}</span>
 
 							{% endif %}
@@ -3501,33 +2929,14 @@ url: /pricing/
 						<td class="py-5 px-6">
 							<!-- Heroicon name: solid/check -->
 							{% if feature.unlimited == true %}
-							<svg
-								class="h-5 w-5 text-green-500"
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								aria-hidden="true"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-								/>
-							</svg>
+<svg fill="none" stroke="green" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
-							{% endif %} {% if feature.unlimited == false %}
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								
-								class="flex-shrink-0 h-5 w-5 text-red-500"
-							>
-								<path d="M0 0h24v24H0z" fill="none" />
-								<path
-									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								/>
-							</svg>
+							{% endif %} 
+							
+							
+							{% if feature.unlimited == false %}
+<svg fill="none" stroke="red" viewBox="0 0 24 24" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 							<span class="sr-only">{{ feature.unlimited }}</span>
 
 							{% endif %}
@@ -3751,7 +3160,7 @@ url: /pricing/
 							<svg
 								class="h-6 w-6 text-white"
 								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
+								fill="#fff"
 								viewBox="0 0 24 24"
 								
 								aria-hidden="true"
