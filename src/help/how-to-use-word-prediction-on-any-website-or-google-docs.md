@@ -37,6 +37,13 @@ Currently, Helperbird is only available for English but we are working on suppor
 - When you hover over the word, it will be spoken out loud.
 - Thats it!
 
+## How to change word prediction toolbar
+- Open Helperbird on Chrome, Firefox or Edge
+- Scroll to the **Word Prediction** card.
+- Toggle the **Word Prediction** postion to **bottom** or **top**.
+- Thats it!
+
+
 ## Supported languages
 
 - English
