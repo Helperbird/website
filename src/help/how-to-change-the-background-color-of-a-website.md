@@ -10,7 +10,7 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Background color
-featureDescription: ow to change the color of the background of a website on Safrai, Chrome, Firefox or Edge.
+featureDescription: How to change the color of the background of a website on Safrai, Chrome, Firefox or Edge.
 tags: guideFeaturesMain
 url: /help/how-to-change-the-background-color-of-a-website/
 ---
