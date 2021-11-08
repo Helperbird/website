@@ -1,0 +1,32 @@
+---
+layout: templates/help.html
+title: How to count the amount of words and characters in a sentence - Helperbird for Chrome, Firefox and Edge
+description: Learn how to count the amount of words and characters in a sentence in Chrome, Firefox and Edge.
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/alt-highlighter.png
+facebookSocial: assets/images/graph/alt-highlighter.png
+featureTitle: Analyze
+featureDescription: Learn how to count the amount of words and characters in a sentence
+tags: guideFeaturesMain
+url: /help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
+---
+
+
+
+
+
+
+## How to count the amount of words and characters in a sentence
+- You first need to highlight the text you want to analyze.
+- Open Helperbird on Chrome, Firefox or Edge
+- Scroll to the **Analyze** card.
+- Click the **analyze text**.
+- It will now tell you the amount of words and characters in the highlighted text.
+- Thats it.
+
+
+
