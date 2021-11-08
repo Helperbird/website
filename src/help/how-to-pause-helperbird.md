@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: How pause Helperbird
+featureTitle: How to pause Helperbird
 featureDescription: Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
 tags: guideFeatures
 url: /help/how-to-pause-helperbird/
