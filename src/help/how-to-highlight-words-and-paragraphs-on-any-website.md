@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Word Prediction
+featureTitle: Highlighter
 featureDescription: Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser extension.
 tags: guideFeaturesMain
 url: /help/how-to-highlight-words-and-paragraphs-on-any-website/
