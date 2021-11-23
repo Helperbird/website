@@ -10,13 +10,14 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Font color
-featureDescription: How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
+featureDescription:
+  How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
 tags: guideFeaturesMain
 url: /help/how-to-change-the-font-color-of-a-website/
 ---
 
-
 # How to change the font color of a website.
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Font color** card.
 - Or you can search it too.

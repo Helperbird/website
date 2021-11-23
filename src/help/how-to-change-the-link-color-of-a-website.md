@@ -10,18 +10,19 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Link color
-featureDescription: How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
+featureDescription:
+  How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
 tags: guideFeaturesMain
 url: /help/how-to-change-the-link-color-of-a-website/
 ---
 
-
 # How to change the link color of a website.
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Link color** card.
 - Or you can search it too.
 - Once you see the card.
 - Toggle the on/off switch to **On**.
 - Pick your color you want.
-- The website will change to link  you picked.
+- The website will change to link you picked.
 - Thats it.

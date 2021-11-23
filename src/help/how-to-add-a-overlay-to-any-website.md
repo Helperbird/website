@@ -15,11 +15,9 @@ tags: guideFeaturesMain
 url: /help/how-to-add-a-overlay-to-any-website/
 ---
 
-
 # What is a Overlay/Tint?
+
 A overlay/tint is a transparent overlay that is placed on top of the website or pdf.
-
-
 
 ## How to use a Overlay/Tint
 
@@ -29,7 +27,7 @@ A overlay/tint is a transparent overlay that is placed on top of the website or 
 - A overlay, will now appear on the page.
 - Thats it.
 
-
 ## Features
+
 - Overlay/Tint color
 - Overlay/Tint opacity

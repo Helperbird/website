@@ -15,8 +15,6 @@ tags: guideFeaturesMain
 url: /help/how-to-set-the-column-width-on-any-page/
 ---
 
-
-
 ## How to set column widths
 
 - Open Helperbird on Chrome, Firefox or Edge
@@ -24,6 +22,6 @@ url: /help/how-to-set-the-column-width-on-any-page/
 - Toggle the on/off switch to **On**.
 - Thats it.
 
-
 ## Features
+
 - Column widths.

@@ -266,7 +266,6 @@
 								@click="handleFeatures"
 								class="
 									group
-						
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -791,7 +790,6 @@
 							<button
 								@click="handleCommon"
 								class="
-					
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -819,67 +817,108 @@
 								</svg>
 							</button>
 
+							<div
+								v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'"
+								class="
+									hidden
+									absolute
+									z-10
+									left-1/2
+									transform
+									-translate-x-1/2
+									mt-3
+									px-2
+									w-screen
+									max-w-md
+									sm:px-0
+								"
+							>
+								<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+									<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+										<a
+											href="/compare/snap-and-read-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/chart-bar -->
 
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Snap &amp; Read</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Snap &amp; Read.
+												</p>
+											</div>
+										</a>
 
-					<div v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'" class="hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
-    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-      <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-        <a href="/compare/snap-and-read-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/chart-bar -->
-      
+										<a
+											href="/compare/immersive-reader-by-microsoft-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/cursor-click -->
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Immersive reader</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Immersive reader.
+												</p>
+											</div>
+										</a>
 
-		  <img
-														class="flex-shrink-0 h-6 w-6"
-														src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe"
-												/>
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Snap &amp; Read
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Snap &amp; Read.
-            </p>
-          </div>
-        </a>
-
-        <a href="/compare/immersive-reader-by-microsoft-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/cursor-click -->
-		  <img
-		  class="flex-shrink-0 h-6 w-6"
-		  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
-  />
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Immersive reader
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Immersive reader.
-            </p>
-          </div>
-        </a>
-
-        <a href="/compare/read-and-write-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/shield-check -->
-          <img
-		  class="flex-shrink-0 h-6 w-6"
-		  src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
-  />
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Read &amp; Write
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Read &amp; Write.
-            </p>
-          </div>
-        </a>
-
-
-
-      </div>
-
-    </div>
-  </div>
+										<a
+											href="/compare/read-and-write-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/shield-check -->
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Read &amp; Write</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Read &amp; Write.
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="relative">
 							<button
@@ -951,9 +990,7 @@
 											<div class="ml-4">
 												<p class="text-base font-medium text-gray-900">Video tutorials</p>
 											</div></a
-										><a
-											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-											href="/help/"
+										><a class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50" href="/help/"
 											><svg
 												class="flex-shrink-0 h-6 w-6 text-pink-600"
 												fill="none"
@@ -1707,275 +1744,174 @@
 			</div>
 		</header>
 
-
-
-
-		
-
-
 		<div>
 			<div id="__layout">
-			  <div>
-				<div class="drawer drawer-mobile">
-				  <input id="main-menu" type="checkbox" class="drawer-toggle" />
-				  <main
-					class="
-					  flex-grow
-					  block
-					  overflow-x-hidden
-					  bg-base-100
-					  text-base-content
-					  drawer-content
-					"
-				  >
-					<div
-					  id="nav"
-					  class="
-						inset-x-0
-						top-0
-						z-50
-						w-full
-						transition
-						duration-600
-						ease-in-out
-						border-b border-base-600
-						bg-base-100
-						text-base-content
-						sticky
-					  "
-					>
-					  <div class="mx-auto space-x-1 navbar max-w-none">
-						<div class="flex-none">
-						  <label
-							for="main-menu"
-							class="btn btn-square btn-ghost drawer-button lg:hidden"
-							><svg
-							  xmlns="http://www.w3.org/2000/svg"
-							  fill="none"
-							  viewBox="0 0 24 24"
-							  class="inline-block w-6 h-6 stroke-current"
+				<div>
+					<div class="drawer drawer-mobile">
+						<input id="main-menu" type="checkbox" class="drawer-toggle" />
+						<main
+							class="flex-grow block overflow-x-hidden bg-base-100 text-base-content drawer-content"
+						>
+							<div
+								id="nav"
+								class="
+									inset-x-0
+									top-0
+									z-50
+									w-full
+									transition
+									duration-600
+									ease-in-out
+									border-b border-base-600
+									bg-base-100
+									text-base-content
+									sticky
+								"
 							>
-							  <path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M4 6h16M4 12h16M4 18h16"
-							  ></path></svg
-						  ></label>
+								<div class="mx-auto space-x-1 navbar max-w-none">
+									<div class="flex-none">
+										<label for="main-menu" class="btn btn-square btn-ghost drawer-button lg:hidden"
+											><svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="none"
+												viewBox="0 0 24 24"
+												class="inline-block w-6 h-6 stroke-current"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M4 6h16M4 12h16M4 18h16"
+												></path></svg
+										></label>
+									</div>
+
+									<div class="flex-1"></div>
+								</div>
+							</div>
+							<style>
+								#help-information h1,
+								h2,
+								h3,
+								h4,
+								h5,
+								h6 {
+									font-size: revert;
+									font-weight: revert;
+								}
+
+								#help-information h2 {
+									margin: 2rem 0rem;
+								}
+
+								#help-information ul > li > a {
+									color: blue;
+								}
+								#help-information ul {
+									list-style: decimal;
+									padding: 1rem 2rem 3rem 2rem;
+								}
+								#help-information li {
+									list-style: decimal;
+
+									margin: 1.5rem 0rem;
+
+									padding: 0;
+								}
+							</style>
+							<div class="p-4 lg:p-10">
+								<div id="help-information">{{ content | safe }}</div>
+							</div>
+						</main>
+						<div class="drawer-side">
+							<label for="main-menu" class="drawer-overlay"></label>
+							<aside
+								class="
+									flex flex-col
+									justify-between
+									border-r border-base-600
+									bg-base-100
+									text-base-content
+									w-80
+								"
+							>
+								<div>
+									<ul class="menu flex flex-col p-4 pt-2 compact">
+										<li class="mt-4 menu-title"><span> Getting started </span></li>
+
+										{%- for guide in collections.guideFeatures -%}
+
+										<li>
+											<a href="{{ guide.url }}" aria-current="page" class="">
+												{{ guide.data.featureTitle }}
+											</a>
+										</li>
+
+										{%- endfor -%}
+									</ul>
+									<ul class="menu flex flex-col p-4 pt-2 compact">
+										<li class="mt-4 menu-title"><span> Features </span></li>
+
+										{%- for features in collections.guideFeaturesMain -%}
+
+										<li>
+											<a href="{{ features.url }}" aria-current="page" class="">
+												{{ features.data.featureTitle }}
+											</a>
+										</li>
+
+										{%- endfor -%}
+									</ul>
+
+									<ul class="menu flex flex-col p-4 pt-2 compact">
+										<li class="mt-4 menu-title"><span> Integrations </span></li>
+
+										{%- for integration in collections.guideIntegrations -%}
+
+										<li>
+											<a href="{{ integration.url }}" aria-current="page" class="">
+												{{ integration.data.featureTitle }}
+											</a>
+										</li>
+
+										{%- endfor -%}
+									</ul>
+
+									<ul class="menu flex flex-col p-4 pt-2 compact">
+										<li class="mt-4 menu-title"><span> Apps </span></li>
+
+										{%- for apps in collections.guideApps -%}
+
+										<li>
+											<a href="{{ apps.url }}" aria-current="page" class="">
+												{{ apps.data.featureTitle }}
+											</a>
+										</li>
+
+										{%- endfor -%}
+									</ul>
+
+									<ul class="menu flex flex-col p-4 pt-2 compact">
+										<li class="mt-4 menu-title"><span> Account </span></li>
+
+										{%- for account in collections.guideAccounts -%}
+
+										<li>
+											<a href="{{ account.url }}" aria-current="page" class="">
+												{{ account.data.featureTitle }}
+											</a>
+										</li>
+
+										{%- endfor -%}
+									</ul>
+								</div>
+							</aside>
 						</div>
-
-
-						<div class="flex-1">
-						  </div>
-			   
-					  </div>
 					</div>
-					<style>
-
-						#help-information h1, h2, h3, h4, h5, h6 {
-							font-size: revert;
-							font-weight: revert;
-					
-
-						}
-
-						#help-information h2{
-							margin: 2rem 0rem;
-						}
-
-						#help-information  ul > li >  a{
-							color: blue;
-						}
-						#help-information  ul{
-							list-style: decimal;
-							padding: 1rem 2rem 3rem 2rem;
-						}
-						#help-information  li {
-						    list-style: decimal;
-							
-							margin: 1.5rem 0rem;
-							
-							padding: 0;
-						}
-
-					</style>
-					<div class="p-4 lg:p-10">
-		
-						<div id="help-information">{{ content | safe }}</div>
-					
-			
-					</div>
-				  </main>
-				  <div class="drawer-side">
-					<label for="main-menu" class="drawer-overlay"></label>
-					<aside
-					  class="
-						flex flex-col
-						justify-between
-						border-r border-base-600
-						bg-base-100
-						text-base-content
-						w-80
-					  "
-					>
-					  <div>
-						<ul class="menu flex flex-col p-4 pt-2 compact">
-							<li class="mt-4 menu-title"><span> Getting started </span></li>
-			
-  
-  
-							{%- for guide in collections.guideFeatures -%}
-	
-		  
-							  <li>
-								  <a
-								  href="{{ guide.url }}"
-								  aria-current="page"
-								  class=""
-								  >
-				  
-				  
-							   
-							{{ guide.data.featureTitle }}
-					  
-							  
-							  </a>
-							  </li>
-				  
-							{%- endfor -%}
-  
-					  
-						  </ul>
-						<ul class="menu flex flex-col p-4 pt-2 compact">
-						  <li class="mt-4 menu-title"><span> Features </span></li>
-		  
-
-
-						  {%- for features in collections.guideFeaturesMain -%}
-  
-		
-							<li>
-								<a
-								href="{{ features.url }}"
-								aria-current="page"
-								class=""
-								>
-				
-				
-							 
-						  {{ features.data.featureTitle }}
-					
-							
-							</a>
-							</li>
-				
-						  {%- endfor -%}
-
-					
-						</ul>
-
-
-
-						<ul class="menu flex flex-col p-4 pt-2 compact">
-							<li class="mt-4 menu-title"><span> Integrations </span></li>
-			
-  
-  
-							{%- for integration in collections.guideIntegrations -%}
-	
-		  
-							  <li>
-								  <a
-								  href="{{ integration.url }}"
-								  aria-current="page"
-								  class=""
-								  >
-				  
-				  
-							   
-							{{ integration.data.featureTitle }}
-					  
-							  
-							  </a>
-							  </li>
-				  
-							{%- endfor -%}
-  
-					  
-						  </ul>
-  
-
-
-						  <ul class="menu flex flex-col p-4 pt-2 compact">
-							<li class="mt-4 menu-title"><span> Apps </span></li>
-			
-  
-  
-							{%- for apps in collections.guideApps -%}
-	
-		  
-							  <li>
-								  <a
-								  href="{{ apps.url }}"
-								  aria-current="page"
-								  class=""
-								  >
-				  
-				  
-							   
-							{{ apps.data.featureTitle }}
-					  
-							  
-							  </a>
-							  </li>
-				  
-							{%- endfor -%}
-  
-					  
-						  </ul>
-  
-						<ul class="menu flex flex-col p-4 pt-2 compact">
-							<li class="mt-4 menu-title"><span> Account </span></li>
-			
-  
-  
-							{%- for account in collections.guideAccounts -%}
-	
-		  
-							  <li>
-								  <a
-								  href="{{ account.url }}"
-								  aria-current="page"
-								  class=""
-								  >
-				  
-				  
-							   
-							{{ account.data.featureTitle }}
-					  
-							  
-							  </a>
-							  </li>
-				  
-							{%- endfor -%}
-  
-					  
-						  </ul>
-
-				
-					  </div>
-					</aside>
-				  </div>
 				</div>
-			  </div>
 			</div>
-		  </div>
-		  
+		</div>
 
-
-
-
-		
 		{% include footer.html %} {% bundledJs %}
 	</body>
 </html>

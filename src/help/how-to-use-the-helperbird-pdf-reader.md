@@ -15,10 +15,10 @@ tags: guideApps
 url: /help/how-to-use-the-helperbird-pdf-reader/
 ---
 
-
 # How to use Helperbirds PDF support
 
 ## How access/turn on the pdf reader
+
 - First you need to download Helperbird.
 - Then you need to install it.
 - Once you have that, left click the Helperbird icon.
@@ -27,23 +27,20 @@ url: /help/how-to-use-the-helperbird-pdf-reader/
 - Click on it.
 - Then choose PDF reader.
 
-
 ## How to load my PDF
+
 - Once you have the PDF reader open.
 - On the top right, is a file icon (It also has a tool tip saying open file).
 - Click on it.
 - Choose your pdf files.
 - It will take a moment or two.
 - The PDF is now ready.
-
 
 ## How to use Immersive reader on Pdfs
+
 - Once you have the PDF reader open.
 - On the top right, is a file icon (It also has a tool tip saying open file).
 - Click on it.
 - Choose your pdf files.
 - It will take a moment or two.
 - The PDF is now ready.
-
-
-

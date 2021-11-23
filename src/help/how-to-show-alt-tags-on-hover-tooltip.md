@@ -15,11 +15,6 @@ tags: guideFeaturesMain
 url: /help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 
-
-
-
-
-
 ## How to use the tooltip alt feautes
 
 - Open Helperbird on Chrome, Firefox or Edge
@@ -27,6 +22,3 @@ url: /help/how-to-show-alt-tags-on-hover-tooltip/
 - Toggle the on/off switch to **On**.
 - Now every image and links will show the alt text on hover.
 - Thats it.
-
-
-

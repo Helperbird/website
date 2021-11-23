@@ -15,8 +15,8 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-line-height-on-any-website/
 ---
 
-
 # How to change the line height on any website
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Text Adjustments** card.
 - You will see a **Line height** option.
@@ -24,4 +24,3 @@ url: /help/how-to-change-the-line-height-on-any-website/
 - Pick the amount of spacing you want inbetween sentences.
 - The website will change to your line height settings.
 - Thats it.
-

@@ -10,13 +10,14 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Animations
-featureDescription: Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
+featureDescription:
+  Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 tags: guideFeaturesMain
 url: /help/how-to-stop-animations-on-any-website/
 ---
 
-
 # How to stop animations on any website or app
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Animations** card.
 - Toggle the on/off switch to **On**.

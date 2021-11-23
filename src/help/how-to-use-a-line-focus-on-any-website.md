@@ -15,11 +15,10 @@ tags: guideFeaturesMain
 url: /help/how-to-use-a-line-focus-on-any-website/
 ---
 
-
 # What is a line focus?
-A line focus is a transparent ruler that can be used to help you read text. Helperbird allows you to use it on every website you visit.
 
-
+A line focus is a transparent ruler that can be used to help you read text. Helperbird allows you to
+use it on every website you visit.
 
 ## How to use a line focus
 
@@ -29,8 +28,8 @@ A line focus is a transparent ruler that can be used to help you read text. Help
 - A ruler, will now appear on the page.
 - Thats it.
 
-
 ## Features
+
 - Line focus color
 - Line focus size
 - Line focus opacity

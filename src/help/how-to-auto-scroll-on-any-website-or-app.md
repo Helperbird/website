@@ -15,11 +15,6 @@ tags: guideFeaturesMain
 url: /help/how-to-auto-scroll-on-any-website-or-app/
 ---
 
-
-
-
-
-
 ## How to auto scroll on any website or app
 
 - Open Helperbird on Chrome, Firefox or Edge
@@ -27,6 +22,3 @@ url: /help/how-to-auto-scroll-on-any-website-or-app/
 - Toggle the on/off switch to **On**.
 - You can also set the speed of the auto scroll, from super slow to super fast.
 - Thats it.
-
-
-

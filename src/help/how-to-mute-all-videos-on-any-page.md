@@ -15,10 +15,9 @@ tags: guideFeaturesMain
 url: /help/how-to-mute-all-videos-on-any-page/
 ---
 
-
 # What is Mute videos?
-The Mute videos feature adds a gradient of colors to the text on any website, pdf or app.
 
+The Mute videos feature adds a gradient of colors to the text on any website, pdf or app.
 
 ## How to Mute videos
 
@@ -26,4 +25,3 @@ The Mute videos feature adds a gradient of colors to the text on any website, pd
 - Scroll to the **Mute** card.
 - Toggle the on/off switch to **On**.
 - Thats it.
-

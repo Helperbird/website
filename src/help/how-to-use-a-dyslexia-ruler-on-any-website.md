@@ -15,11 +15,10 @@ tags: guideFeaturesMain
 url: /help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---
 
-
 # What is a dyslexia ruler?
-A dyslexia ruler is a transparent ruler that can be used to help you read text. Helperbird allows you to use it on every website you visit.
 
-
+A dyslexia ruler is a transparent ruler that can be used to help you read text. Helperbird allows
+you to use it on every website you visit.
 
 ## How to use a dyslexia ruler
 
@@ -29,8 +28,8 @@ A dyslexia ruler is a transparent ruler that can be used to help you read text. 
 - A ruler, will now appear on the page.
 - Thats it.
 
-
 ## Features
+
 - Follow cursor
 - Ruler color
 - Ruler size

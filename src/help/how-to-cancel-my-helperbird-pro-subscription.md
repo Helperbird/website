@@ -15,16 +15,18 @@ tags: guideAccounts
 url: /help/how-to-cancel-my-helperbird-pro-subscription/
 ---
 
-
 # How to cancel my Helperbird Pro subscription
 
 ## Important
-To access and manage your subscription. You need to be logged in with the same email you signed up to Helperbird Pro with on your browser.
 
+To access and manage your subscription. You need to be logged in with the same email you signed up
+to Helperbird Pro with on your browser.
 
 ## How to manage
+
 - First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to Helperbird Pro with on your browser.
+- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
+  Helperbird Pro with on your browser.
 - Click the Helperbird icon.
 - A popup will appear.
 - Click the settings cog.
@@ -32,4 +34,3 @@ To access and manage your subscription. You need to be logged in with the same e
 - Scroll down to the subscriptions section.
 - Click the manage subscription button.
 - You can now cancel your subscription.
-

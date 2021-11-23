@@ -15,14 +15,11 @@ tags: guideFeaturesMain
 url: /help/how-to-adjust-zoom-magnifying-for-any-website/
 ---
 
-
 # How to change the zoom or magnifying settings on any website
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Magnifier** card.
 - Toggle the on/off switch to **On**.
 - Pick how you much you want to zoom in or out.
 - The website will change to your zoom or magnifying settings.
 - Thats it.
-
-
-

@@ -15,15 +15,9 @@ tags: guideFeaturesMain
 url: /help/how-to-hide-images-and-gifs-on-every-website/
 ---
 
-
-
-
-
-
 ## How to hide all images
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Hide all images** card.
 - Toggle the on/off switch to **On**, to the option you want to hide.
 - Thats it.
-

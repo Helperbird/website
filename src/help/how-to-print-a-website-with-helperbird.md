@@ -15,11 +15,6 @@ tags: guideFeaturesMain
 url: /help/how-to-print-a-website-with-helperbird/
 ---
 
-
-
-
-
-
 ## How to print a website with Helperbird
 
 - Open Helperbird on Chrome, Firefox or Edge
@@ -27,6 +22,3 @@ url: /help/how-to-print-a-website-with-helperbird/
 - Click the **Print** button.
 - It will now open the print dialog.
 - Thats it.
-
-
-

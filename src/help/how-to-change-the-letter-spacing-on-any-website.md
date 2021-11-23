@@ -15,8 +15,8 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-letter-spacing-on-any-website/
 ---
 
-
 # How to change the letter spacing on any website
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Text Adjustments** card.
 - You will see a **Letter spacing** option.
@@ -24,4 +24,3 @@ url: /help/how-to-change-the-letter-spacing-on-any-website/
 - Pick the amount of spacing you want inbetween letters.
 - The website will change to your letter spacing settings.
 - Thats it.
-

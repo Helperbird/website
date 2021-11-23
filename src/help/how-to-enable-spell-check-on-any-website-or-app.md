@@ -1,4 +1,3 @@
-
 ---
 layout: templates/help.html
 title: How to enable spell check on any website or app - Helperbird
@@ -16,19 +15,16 @@ tags: guideFeaturesMain
 url: /help/how-to-enable-spell-check-on-any-website-or-app/
 ---
 
-
 ## How to enable spell checker
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Spell check** card.
 - Toggle the on/off switch to **On**.
-- Now every website will have the browser spell checker enabled, this is based on the Google Search spell checker.
+- Now every website will have the browser spell checker enabled, this is based on the Google Search
+  spell checker.
 - Thats it.
 
 ## Upcoming update
-- We will be switching the engine to the [Google Cloud Spelling Engine](https://cloud.google.com/docs/text-to-speech/).
 
-
-
-
-
+- We will be switching the engine to the
+  [Google Cloud Spelling Engine](https://cloud.google.com/docs/text-to-speech/).

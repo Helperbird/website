@@ -15,10 +15,9 @@ tags: guideFeaturesMain
 url: /help/how-to-add-a-cognitive-load-to-text-on-any-website/
 ---
 
-
 # What is cognitive load?
-The cognitive load feature adds a gradient of colors to the text on any website, pdf or app.
 
+The cognitive load feature adds a gradient of colors to the text on any website, pdf or app.
 
 ## How to use cognitive load
 
@@ -27,6 +26,6 @@ The cognitive load feature adds a gradient of colors to the text on any website,
 - Toggle the on/off switch to **On**.
 - Thats it.
 
-
 ## Features
+
 - Cognitive Load theme

@@ -10,11 +10,11 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Pin a Chrome extension
-featureDescription: Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
+featureDescription:
+  Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
 tags: guideFeatures
 url: /help/how-to-pin-a-chrome-extension/
 ---
-
 
 # Discover how to pin a Chrome extension
 
@@ -22,4 +22,4 @@ url: /help/how-to-pin-a-chrome-extension/
 - A new extension, will be installed in a menu under the puzzle piece icon.
 - Click the puzzle piece icon to show all extensions.
 - Then next to the extension, you want to pin. Click the pin icon.
-- Now the extension will be pinned to the toolbar. 
+- Now the extension will be pinned to the toolbar.

@@ -15,11 +15,6 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 ---
 
-
-
-
-
-
 ## How to change the cursor size
 
 - Open Helperbird on Chrome, Firefox or Edge
@@ -29,9 +24,8 @@ url: /help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 - Thats it.
 
 ## Supported sizes
+
 - Extra large
 - Large
 - Medium
 - Small
-
-

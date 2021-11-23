@@ -15,22 +15,24 @@ tags: guideFeaturesMain
 url: /help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
-
-
-
-
-
 ## Helperbird quick action menu
-Helperbirds quick action menu is a new feature that allows quick access to the most important and popular accessibility, dyslexia, and productivity features.
+
+Helperbirds quick action menu is a new feature that allows quick access to the most important and
+popular accessibility, dyslexia, and productivity features.
 
 ## What features are included?
-- **Reader Mode**: Helperbird automatically removes the distracting elements and ads from the web page and shows the content in a more immersive way.
-- **Immerse Reader**: Immersive reader mode is a new feature that allows you to read the web page in a more immersive way.
+
+- **Reader Mode**: Helperbird automatically removes the distracting elements and ads from the web
+  page and shows the content in a more immersive way.
+- **Immerse Reader**: Immersive reader mode is a new feature that allows you to read the web page in
+  a more immersive way.
 - **Annotate**: Helperbird automatically annotates the web page with the text you type.
-- **OCR (Optical Character Recognition)**: Extract text from images and PDF files or website pages in seconds.
+- **OCR (Optical Character Recognition)**: Extract text from images and PDF files or website pages
+  in seconds.
 - **Screenshot page**: Helperbird automatically takes a screenshot of the web page.
-- **Speech to text**: Add a speech to text button to your website or app. So you can speak into inputs.
+- **Speech to text**: Add a speech to text button to your website or app. So you can speak into
+  inputs.
 - **Translate**: Helperbird automatically translates the website your visiting.
 - **Summarize**: Helperbird automatically summarizes the web page in bullet points.
-- **Highlight menu**: A highlight menu, which adds a tooltip to the quick action menu on selected text.
-
+- **Highlight menu**: A highlight menu, which adds a tooltip to the quick action menu on selected
+  text.

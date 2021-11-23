@@ -266,7 +266,6 @@
 								@click="handleFeatures"
 								class="
 									group
-						
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -791,7 +790,6 @@
 							<button
 								@click="handleCommon"
 								class="
-					
 									rounded-md
 									text-gray-500
 									inline-flex
@@ -819,67 +817,108 @@
 								</svg>
 							</button>
 
+							<div
+								v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'"
+								class="
+									hidden
+									absolute
+									z-10
+									left-1/2
+									transform
+									-translate-x-1/2
+									mt-3
+									px-2
+									w-screen
+									max-w-md
+									sm:px-0
+								"
+							>
+								<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+									<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+										<a
+											href="/compare/snap-and-read-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/chart-bar -->
 
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Snap &amp; Read</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Snap &amp; Read.
+												</p>
+											</div>
+										</a>
 
-					<div v-bind:style="showCompare === true ?'display:block !important;' : 'display: none !important;'" class="hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
-    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-      <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-        <a href="/compare/snap-and-read-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/chart-bar -->
-      
+										<a
+											href="/compare/immersive-reader-by-microsoft-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/cursor-click -->
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Immersive reader</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Immersive reader.
+												</p>
+											</div>
+										</a>
 
-		  <img
-														class="flex-shrink-0 h-6 w-6"
-														src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-app/snapandread-product-image.png?itok=dwFNPMNe"
-												/>
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Snap &amp; Read
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Snap &amp; Read.
-            </p>
-          </div>
-        </a>
-
-        <a href="/compare/immersive-reader-by-microsoft-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/cursor-click -->
-		  <img
-		  class="flex-shrink-0 h-6 w-6"
-		  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/480px-Microsoft_logo.svg.png"
-  />
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Immersive reader
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Immersive reader.
-            </p>
-          </div>
-        </a>
-
-        <a href="/compare/read-and-write-alternative" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-          <!-- Heroicon name: outline/shield-check -->
-          <img
-		  class="flex-shrink-0 h-6 w-6"
-		  src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
-  />
-          <div class="ml-4">
-            <p class="text-base font-medium text-gray-900">
-				Read &amp; Write
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-				See how Helperbird compares to Read &amp; Write.
-            </p>
-          </div>
-        </a>
-
-
-
-      </div>
-
-    </div>
-  </div>
+										<a
+											href="/compare/read-and-write-alternative"
+											class="
+												-m-3
+												p-3
+												flex
+												items-start
+												rounded-lg
+												hover:bg-gray-50
+												transition
+												ease-in-out
+												duration-150
+											"
+										>
+											<!-- Heroicon name: outline/shield-check -->
+											<img
+												class="flex-shrink-0 h-6 w-6"
+												src="https://cdn3.volusion.com/uwksd.uykdw/v/vspfiles/photos/TXTRWG11-2.jpg?v-cache=1495772427"
+											/>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">Read &amp; Write</p>
+												<p class="mt-1 text-sm text-gray-500">
+													See how Helperbird compares to Read &amp; Write.
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="relative">
 							<button
@@ -951,16 +990,22 @@
 											<div class="ml-4">
 												<p class="text-base font-medium text-gray-900">Video tutorials</p>
 											</div></a
-										><a
-											class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-											href="/help/"
+										><a class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50" href="/help/">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke="currentColor"
 											>
-											
-											
-											<svg xmlns="http://www.w3.org/2000/svg" 	class="flex-shrink-0 h-6 w-6 text-pink-600"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-											  </svg>
-										
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+												/>
+											</svg>
+
 											<div class="ml-4">
 												<p class="text-base font-medium text-gray-900">Help guides</p>
 											</div></a
@@ -969,12 +1014,23 @@
 											href="/testimonials/"
 											target="_blank"
 											rel="noreferrer"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												height="24px"
+												viewBox="0 0 24 24"
+												width="24px"
+												fill="#000000"
+												class="flex-shrink-0 h-6 w-6 text-pink-600"
 											>
-
-
-
-											<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" 	class="flex-shrink-0 h-6 w-6 text-pink-600"
-									><path d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z" fill="none"/><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z"/></svg>
+												<path
+													d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z"
+													fill="none"
+												/>
+												<path
+													d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z"
+												/>
+											</svg>
 
 											<div class="ml-4">
 												<p class="text-base font-medium text-gray-900">Testimonials</p>

@@ -15,10 +15,9 @@ tags: guideFeaturesMain
 url: /help/how-to-set-the-paragraph-width-on-any-page/
 ---
 
-
 # What is set paragraph widths?
-The set paragraph widths feature adds a gradient of colors to the text on any website, pdf or app.
 
+The set paragraph widths feature adds a gradient of colors to the text on any website, pdf or app.
 
 ## How to set paragraph widths
 
@@ -27,6 +26,6 @@ The set paragraph widths feature adds a gradient of colors to the text on any we
 - Toggle the on/off switch to **On**.
 - Thats it.
 
-
 ## Features
+
 - Paragraph widths width.

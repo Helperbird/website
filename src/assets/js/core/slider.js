@@ -6,17 +6,15 @@ async function start() {
 	if (reviewExists > 0) {
 		tns({
 			container: '.owl-carousel-loader',
-			autoWidth: false,
-			items: 2,
+			items: 9,
+			slideBy: 'page',
 			controls: false,
-			slideBy: 1,
-			controls: false,
+			arrowKeys: true,
 			autoplay: true,
 			autoHeight: false,
-			gutter: 10,
 			mouseDrag: true,
 			swipeAngle: false,
-			speed: 1000
+			speed: 2000,
 		});
 	}
 }

@@ -15,15 +15,15 @@ tags: guideFeatures
 url: /help/how-to-login-to-helperbird/
 ---
 
-
 # How to pause Helperbird
-One of the most important features of Helperbird is the ability to pause and resume Helperbird.
-So you can focus on your work and turn on the features later.
+
+One of the most important features of Helperbird is the ability to pause and resume Helperbird. So
+you can focus on your work and turn on the features later.
 
 ## Steps to turn pause Helperbird
 
 - Click on the Helperbird icon in the top right corner of the browser.
 - A popup will appear.
 - Click on the **Pause** toggle button.
-- This will now pause Helperbirds features. 
+- This will now pause Helperbirds features.
 - You can resume Helperbird later by clicking on the **Pause** toggle button again.

@@ -15,8 +15,8 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-text-alignment-on-any-website/
 ---
 
-
 # How to change the text alignment on any website
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Text Adjustments** card.
 - You will see a **Text alignment** option.
@@ -25,8 +25,8 @@ url: /help/how-to-change-the-text-alignment-on-any-website/
 - The website will change to your text alignment settings.
 - Thats it.
 
-
 # Alignment options
+
 - Left
 - Center
 - Right

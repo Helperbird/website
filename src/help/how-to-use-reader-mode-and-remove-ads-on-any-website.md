@@ -15,10 +15,10 @@ tags: guideFeaturesMain
 url: /help/how-to-use-reader-mode-and-remove-ads-on-any-website/
 ---
 
-
 # How to use Reader Mode or **View in Reader Mode** on any website
-There are three ways to use Reader Mode on any websitein Helperbird. Making it easier for you to decided how you want to use it.
 
+There are three ways to use Reader Mode on any websitein Helperbird. Making it easier for you to
+decided how you want to use it.
 
 ## Method 1: Highlight menu
 
@@ -29,8 +29,8 @@ There are three ways to use Reader Mode on any websitein Helperbird. Making it e
 - It will start to load Reader Mode, with the text you selected.
 - Thats it.
 
-
 ## Method 2: Reader Mode button
+
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Reader Mode** card.
 - Click on the **View in Reader Mode** button.
@@ -38,7 +38,8 @@ There are three ways to use Reader Mode on any websitein Helperbird. Making it e
 - There is also a Reader Mode button in the quick action section too.
 - Thats it.
 
-
 ## What is Reader Mode?
-Reader Mode turns webpages into easy-to-read text. We’ve designed this longform experience so you can read all the latest content seamlessly, and enjoy your websites with less noise, no ads or distactions.
 
+Reader Mode turns webpages into easy-to-read text. We’ve designed this longform experience so you
+can read all the latest content seamlessly, and enjoy your websites with less noise, no ads or
+distactions.
