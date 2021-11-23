@@ -55,7 +55,7 @@
 		"prettier": "^2.1.2",
 		"rimraf": "^3.0.2",
 		"tailwindcss": "^2.2.8",
-		"tiny-slider": "^2.9.3",
+		"tiny-slider": "^2.9.4",
 		"webpack": "^5.51.1",
 		"webpack-cli": "^4.8.0",
 		"workbox-webpack-plugin": "^4.3.1"

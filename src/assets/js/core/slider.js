@@ -6,11 +6,12 @@ async function start() {
 	if (reviewExists > 0) {
 		tns({
 			container: '.owl-carousel-loader',
-			items: 9,
+			items: 3,
+			center: true,
 			slideBy: 'page',
 			controls: false,
 			arrowKeys: true,
-			autoplay: true,
+			autoplay: true, 
 			autoHeight: false,
 			mouseDrag: true,
 			swipeAngle: false,
