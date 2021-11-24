@@ -1,6 +1,41 @@
 {
 	"articles": [
 		{
+			"data": "September 21 2021",
+			"title": "The 5 Must-Have Accessibility Tools for Content Creators in 2021",
+			"website": "Kapwing.com",
+			"link": "https://www.kapwing.com/resources/the-5-must-have-accessibility-tools-for-content-creators-in-2021/"
+			
+		},
+		{
+			"data": "Jul 21 2021",
+			"title": "A Powerful Accessibility and Dyslexia Tool to Use with Your Students",
+			"website": "Educators Technology",
+			"link": "https://www.educatorstechnology.com/2021/07/a-powerful-accessibility-and-dyslexia.html"
+			
+		},
+		{
+			"data": "Mar 17 2021",
+			"title": "We are stopping youngsters from achieving their true potential’ – IT entrepreneur on how dyslexia went undiagnosed for years",
+			"website": "Independent.ie",
+			"link": "https://www.independent.ie/irish-news/we-are-stopping-youngsters-from-achieving-their-true-potential-it-entrepreneur-on-how-dyslexia-went-undiagnosed-for-years-40208347.html"
+			
+		},
+		{
+			"data": "Apr 27, 2021",
+			"title": "Immersive Reader in Google Docs with Helperbird",
+			"website": "GKTechies",
+			"link": "https://www.youtube.com/watch?v=5e8IiRAzrzE"
+			
+		},
+
+		{
+			"data": "Nov 24, 2021",
+			"title": "Accessibility in E-Learning: Considerations in Your Courses",
+			"website": "Artisanelearning.com",
+			"link": "https://artisanelearning.com/accessibility-in-e-learning/?utm_source=rss&utm_medium=rss&utm_campaign=accessibility-in-e-learning"
+		},
+		{
 			"data": "Mar 10, 2020",
 			"title": "Helperbird partners with Microsoft",
 			"website": "Microsoft.com",
