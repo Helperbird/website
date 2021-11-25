@@ -9,8 +9,8 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: PDF support
-featureDescription: Learn how to use text to speech on pdfs, also immerive reader.
+featureTitle: Dictionary 
+featureDescription: Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 tags: guideApps
 url: /help/how-to-use-dictionary-app-in-helperbird/
 ---
