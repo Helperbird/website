@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to use Reader mode on any website, pdf or app - Helperbird
-description: Learn how easy it is to use Reader mode on any website, pdf or app.
+title: How to use Reader mode in any browser - Helperbird.com
+description: Discover how to use Reader mode on any browser for websites, PDFS and apps. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge. 
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,20 +10,20 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Reader mode
-featureDescription: Learn how easy it is to use Reader mode on any website, pdf or app.
+featureDescription: Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge.
 tags: guideFeaturesMain
 url: /help/how-to-use-reader-mode-and-remove-ads-on-any-website/
 ---
 
-# How to use Reader Mode or **View in Reader Mode** on any website
+# How to use Reader Mode or **View in Reader Mode** in any browser
 
-There are three ways to use Reader Mode on any websitein Helperbird. Making it easier for you to
+There are three ways to use Reader Mode in any browserin Helperbird. Making it easier for you to
 decided how you want to use it.
 
 ## Method 1: Highlight menu
 
 - You will need to have the **Highlight menu** feature enabled.
-- On any website, app or pdf. Highlight the text you want to use in Reader Mode.
+- in any browser, app or pdf. Highlight the text you want to use in Reader Mode.
 - A highlight menu will appear.
 - Click on the **Reader Mode** option, it has a book icon.
 - It will start to load Reader Mode, with the text you selected.
