@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to use text to speech on pdfs  - Helperbird
-description: Learn how to use text to speech on pdfs, also immerive reader.
+title: PDF support with text to speech  - Helperbird
+description: Discover Helperbirds pdf support and how to use the text to speech, immersive reader and much more.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,9 +15,9 @@ tags: guideApps
 url: /help/how-to-use-the-helperbird-pdf-reader/
 ---
 
-# How to use Helperbirds PDF support
+# Helperbirds' PDF support
 
-## How access/turn on the pdf reader
+## How access/turn on the pdf 
 
 - First you need to download Helperbird.
 - Then you need to install it.
