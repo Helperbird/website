@@ -1,7 +1,8 @@
 ---
 layout: templates/help.html
 title: Define any word or sentence in Helperbirds dictionary app - Helperbird
-description: Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
+description:
+  Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,8 +10,9 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Dictionary 
-featureDescription: Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
+featureTitle: Dictionary
+featureDescription:
+  Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 tags: guideApps
 url: /help/how-to-use-dictionary-app-in-helperbird/
 ---
@@ -33,7 +35,7 @@ url: /help/how-to-use-dictionary-app-in-helperbird/
 - If you have the highlight menu option enabled, click the seach icon.
 - It will than open a new tab and show the definition of the word or sentence.
 
-## How to highlight a words, method 
+## How to highlight a words, method
 
 - Select or highlight any word or sentence.
 - Right click and choose the choose Helperbird.

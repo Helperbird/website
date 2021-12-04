@@ -1,7 +1,8 @@
 ---
 layout: templates/features.html
 title:
-  'Reader mode: Remove clutter & ad free web pages in any browser | Helperbird extension for Chrome, Firefox & Edge'
+  'Reader mode: Remove clutter & ad free web pages in any browser | Helperbird extension for Chrome,
+  Firefox & Edge'
 description:
   Turns any webpage into easy-to-read text. Reader Mode that removes ads and distractions from any
   webpage with complete customization. View for clutter-free web pages. Only with Helperbird for

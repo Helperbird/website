@@ -1,7 +1,9 @@
 ---
 layout: templates/help.html
 title: How to use Reader mode in any browser - Helperbird.com
-description: Discover how to use Reader mode on any browser for websites, PDFS and apps. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge. 
+description:
+  Discover how to use Reader mode on any browser for websites, PDFS and apps. Including Google
+  Chrome, Firefox, Safari, Opera, and Microsoft Edge.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,7 +12,9 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Reader mode
-featureDescription: Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge.
+featureDescription:
+  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera,
+  and Microsoft Edge.
 tags: guideFeaturesMain
 url: /help/how-to-use-reader-mode-and-remove-ads-on-any-website/
 ---

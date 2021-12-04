@@ -11,11 +11,11 @@ async function start() {
 			slideBy: 'page',
 			controls: false,
 			arrowKeys: true,
-			autoplay: true, 
+			autoplay: true,
 			autoHeight: false,
 			mouseDrag: true,
 			swipeAngle: false,
-			speed: 2000,
+			speed: 2000
 		});
 	}
 }
