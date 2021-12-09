@@ -1,5 +1,5 @@
 ---
-layout: templates/support_post.html
+layout: templates/base.html
 title: Helperbird iPad app (Coming soon)- Helperbird
 description: Helperbird`s iPad app is coming soon. Sign up today to get alerted when it drops.
 keywords:
@@ -15,17 +15,154 @@ blog_title: Helperbird's iPad is coming
 blog_snip: Sign up below to get added to the wait list to get first access.
 ---
 
-<div class="mt-12">
-	<iframe
-		alt="Main menu"
-		frameborder="0"
-		height="1006"
-		inheight="0"
-		marginwidth="0"
-		loading="lazy"
-		src="https://docs.google.com/forms/d/e/1FAIpQLScMQkOOD26Ce_3sCU1zOowMoBwKGrmEbGhuDd6K-SGvLW0Zng/viewform?embedded=true"
-		title="Helperbird feedback fourm "
-		width="100%"
-		>Loading...</iframe
-	>
+
+
+
+
+
+<div class="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+	<div class="mx-auto max-w-7xl lg:px-8">
+	<div class="lg:grid lg:grid-cols-2 lg:gap-8">
+		<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+		<div class="lg:py-24">
+		
+			<h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+			<span class="block">Helperbird for iPad</span>
+			<span class="pb-3 block bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent sm:pb-5">Coming soon</span>
+			</h1>
+			<p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
+		Helperbird for iPad (Well iOs) is coming within the next few weeks. Bringing all  the great features of our extesnion to iOs. Sign up below to get early access.
+			</p>
+			<div class="mt-10 sm:mt-12">
+			<form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
+				<div class="sm:flex">
+			
+		
+					<a  href="https://docs.google.com/forms/d/e/1FAIpQLScMQkOOD26Ce_3sCU1zOowMoBwKGrmEbGhuDd6K-SGvLW0Zng/viewform?embedded=true" target="_blank" class=" btn btn-accent">Early access</a>
+
+				</div>
+			</form>
+			</div>
+		</div>
+		</div>
+		<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+		<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+	
+			<div class="mockup-phone border-primary float-right">
+				<div class="camera"></div> 
+				<div class="display">
+				  <div class="artboard phone-1 artboard-demo">
+					<img  src="/assets/images/updates/80-0-0/iphone_7686.png" alt="">
+				</div>
+				</div>
+			  </div>
+		</div>
+		</div>
+	</div>
+	</div>
 </div>
+
+<!-- Feature section with screenshot -->
+<div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
+	<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
+	<div>
+		<h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Helperbird</h2>
+		<p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+			On iPad, iPhone and Safari
+		</p>
+		<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+			Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs and documents more accessible and productive to your needs. All on iOs.
+
+		</p>
+	</div>
+	<div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
+		<img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="/assets/images/updates/80-0-0/ipad_0027.png" alt="">
+	
+	
+	</div>
+	</div>
+</div>
+
+<!-- Feature section with grid -->
+<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+	<h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">All the features you ❤️.</h2>
+	<p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+		Features for reading, writing and more
+	</p>
+	<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+		With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs and documents more accessible and productive to your needs. It’s designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle.	</p>
+		<a  href="/features/" target="_blank" class=" btn btn-accent mt-8">See all features</a>
+
+
+	<div class="mt-12">
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+			{%- for feature in features.features limit:6 -%}
+			<div class="pt-6">
+			<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+			<div class="-mt-6">
+				<div>
+				<span class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-md shadow-lg">
+	
+					  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					  </svg>
+				</span>
+				</div>
+				<h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{{feature.title}}</h3>
+				<p class="mt-5 text-base text-gray-500">
+					{{feature.description}}				</p>
+			</div>
+			</div>
+		</div>
+
+		{%- endfor -%}
+	
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- Testimonial section -->
+<div class="pb-16 bg-gradient-to-r from-purple-600 to-pink-600 lg:pb-0 lg:z-10 lg:relative">
+	<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+	<div class="relative lg:-my-8">
+		<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
+		<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+		<div class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+			<img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="">
+		</div>
+		</div>
+	</div>
+	<div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
+		<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
+		<blockquote>
+			<div>
+			<svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+				<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+			</svg>
+			<p class="mt-6 text-2xl font-medium text-white">
+				This extension has been an absolute lifesaver. I have that fantastic combo of ADHD and Dyslexia while trying to go through college. I have difficulty keeping letters in order, seeing the gaps between words, and with ADHD on top, I lose focus A LOT. 
+
+				The immersive reader has been my new best friend. It drowns out the rest of the content on the page, changes the font to something I can read, and highlights the word as it reads to me. My eyes are forced to keep going in the right direction. I can slow down and pay attention to what I'm reading. I don't even have to go back and read the same paragraph 5 times to understand it! 
+				
+				The screen overlay has been outstanding for eye strain and being able to distinguish between words and spaces. The custom font and spacing for research articles have been an enormous advantage! I can actually read the research papers now and not have this daunting 2 column fine print page to squint over.
+				
+				 All around, this has been the best purchase I've ever had. I use this every day, with every assignment. I don't even struggle with story-based questions anymore. The immersive reader helps me read, listen, and understand the question all at once. I am still exploring what I can use this with and how it can make my academic career, and I keep getting impressed with every new way I find to use it. 
+				
+				Seriously, try it out. You won't regret it at all. Even if you don't have dyslexia or ADHD, just try it out. You might find that it helps you understand the content you're trying to learn even better!
+			</p>
+			</div>
+			<footer class="mt-6">
+			<p class="text-base font-medium text-white">Mason Hunter</p>
+			<p class="text-base font-medium text-cyan-100">College student</p>
+			</footer>
+		</blockquote>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+{% include common/cta_one_support.html %} 
+

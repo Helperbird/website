@@ -73,7 +73,7 @@ url: /features/
 
 
 
-<div class="relative bg-gray-50 pt-16 pb-16 overflow-hidden mt-16">
+<div class="relative bg-gray-50 pt-16 pb-16 overflow-hidden">
 	<div class="relative">
 		<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
 			<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -262,35 +262,41 @@ url: /features/
 
 
 
-
-
-
-
-  <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-pink-700">
-	<div class="max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-	  <h2 class="text-3xl font-extrabold text-white tracking-tight">
-		Features at a glance
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+	  <h2 class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+		Award winning features
 	  </h2>
-	  <p class="mt-4 max-w-3xl text-lg text-pink-200">
-		Some of Helperbirds popular features at glance. We have over 39 features. Helperbird is more than just a accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are more productive and better organized thanks to our accessibility features. They’re far more efficient than before. Here’s how Helperbird makes it happen.
-	  </p>
-	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-		{%- for feature in collections.features -%}
-  
-		<div>
-		  <div>
-		
+	  <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+		Some of Helperbirds popular features at glance. We have over 39 features. Helperbird is more than just a accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are more productive and better organized thanks to our accessibility features. They’re far more efficient than before. Here’s how Helperbird makes it happen.	  </p>
+	  <div class="mt-12">
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+		  
+			{%- for feature in collections.features -%}
+		<div class="pt-6">
+			<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+			  <div class="-mt-6">
+				<div>
+				  <span class="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
+					<!-- Heroicon name: outline/cloud-upload -->
+				
+					<svg class=" h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					  </svg>
+				  </span>
+				</div>
+				<h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">{{ feature.data.featureTitle }}</h3>
+				<p class="mt-5 text-base text-gray-500">
+					{{ feature.data.featureDescription }}
+				</p>
+				<a class="btn btn-secondary btn-sm block mt-4" href="{{ feature.url }}" title="More information on feature {{ feature.data.featureTitle  }}">Learn more</a> 
+
+			  </div>
+			</div>
 		  </div>
-		  <div class="mt-6">
-			<h3 class="text-lg font-medium text-white">{{ feature.data.featureTitle }}</h3>
-			<p class="mt-2 text-base text-pink-200 mb-8">
-        {{ feature.data.featureDescription }}
-			</p>
-			<a class="btn btn-secondary" href="{{ feature.url }}" title="More information on feature {{ feature.data.featureTitle  }}">Learn more</a> 
-		  </div>
+  		{%- endfor -%}
 		</div>
-		{%- endfor -%}
 	  </div>
 	</div>
   </div>

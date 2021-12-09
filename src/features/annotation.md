@@ -19,16 +19,33 @@ tags: features
 url: /features/annotation/
 ---
 
-# Annotate Pdfs, websites and more
 
-Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and
+<div class="bg-white ">
+	<div class="relative overflow-hidden">
+		<div class="relative pb-12 sm:pb-12">
+			<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
+				<div class="text-center">
+					<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block">Annotate Pdfs, websites and more</span> </h1>
+					<p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and
 study.
+</p>
+				</div>
+			</div>
+		</div>
+		<div class="relative">
+			<div class="max-w-3xl mx-auto px-4 sm:px-6">
+				<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
+			</div>
+		</div>
+	</div>
 
-<a 
-  class="px-8 py-3 border  text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 " style="color: white;" 
-  href="/pricing/"> Try Helperbird for Free </a>
+</div>
 
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/analyze/analyze.png)
+<div class="relative py-16 bg-white overflow-hidden">
+  <div class="relative px-4 sm:px-6 lg:px-8">
+    <div class="mt-6 prose prose-pink prose-lg mx-auto">
+
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
 
 ## Intro
 
@@ -44,7 +61,8 @@ page. Save, comment on everything you read online with Helperbird.
 
 ## How to
 
-![Helperbird support feature](https://youtu.be/u67t7Ap61Nc)
+
+![Helperbird support feature](https://www.helperbird.com/assets/images/new/analyze/analyze.png)
 
 ## Features
 
@@ -55,3 +73,11 @@ page. Save, comment on everything you read online with Helperbird.
 - All notes are safe and synced across all your devices.
 - Change background color and font color of annotates.
 - Change size of the annotations and location.
+
+
+
+
+
+    </div>
+  </div>
+</div>

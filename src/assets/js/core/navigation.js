@@ -7,6 +7,7 @@ function load() {
 		el: '#nav',
 		data: {
 			openFeatures: false,
+
 			openProducts: false,
 			openCompare: false,
 			openSupport: false,

@@ -1,0 +1,239 @@
+	<!-- This example requires Tailwind CSS v2.0+-->
+	<div
+		class="fixed z-10 inset-0 overflow-y-auto hidden"
+		v-bind:style="showModal ?'display:block !important;' : 'display: none !important;'"
+	>
+		<div
+			class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0"
+		>
+			<div class="fixed inset-0 transition-opacity" aria-hidden="true">
+				<div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+			</div>
+			<!-- This element is to trick the browser into centering the modal contents.--><span
+				class="hidden sm:inline-block sm:align-middle sm:h-screen"
+				aria-hidden="true"
+				>&ZeroWidthSpace;</span
+			>
+			<div
+				class="
+					inline-block
+					align-bottom
+					bg-gray-50
+					rounded-lg
+					overflow-hidden
+					shadow-xl
+					transform
+					transition-all
+					sm:my-8 sm:align-middle sm:max-w-lg sm:w-full
+				"
+				role="dialog"
+				aria-modal="true"
+				aria-labelledby="modal-headline"
+			>
+				<div class="w-auto">
+					<button
+						class="
+							float-right
+							block
+							px-4
+							py-2
+							border border-transparent
+							rounded-md
+							shadow-sm
+							text-base
+							font-medium
+							text-black
+							float-right
+						"
+						style="float: right !important"
+						@click="handleModal"
+						role="button"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewbox="0 0 24 24"
+							stroke="#000"
+							height="24px"
+						>
+							<path d="M0 0h24v24H0z" fill="none" />
+							<path
+								d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+							/>
+						</svg>
+					</button>
+				</div>
+				<div class="bg-gray-50 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+					<div
+						class="
+							grid grid-cols-3
+							gap-x-6 gap-y-12
+							sm:grid-cols-3
+							lg:mt-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16
+						"
+					>
+						<div>
+							<img
+								class="items-center justify-center block mx-auto"
+								alt="Firefox logo"
+								loading="lazy"
+								src="/assets/images/home/chrome.png"
+								width="70px"
+								height="70px"
+							/>
+							<a
+								class="
+									mt-6
+									w-full
+									flex
+									items-center
+									justify-center
+									px-8
+									py-3
+									border
+									rounded-md
+									shadow-sm
+									text-sm
+									font-medium
+									btn btn-accent
+								"
+								href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
+								rel="noopener"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<span>Chrome</span>
+							</a>
+						</div>
+						<div>
+							<img
+								class="items-center justify-center block mx-auto"
+								alt="Firefox logo"
+								loading="lazy"
+								src="/assets/images/home/firefox.png"
+								width="70px"
+								height="70px"
+							/><a
+								class="
+									mt-6
+									w-full
+									flex
+									items-center
+									justify-center
+									px-8
+									py-3
+									border
+									rounded-md
+									shadow-sm
+									text-sm
+									font-medium
+									btn btn-accent
+								"
+								href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
+								rel="noreferrer"
+								target="_blank"
+								rel="noreferrer"
+								><span>Firefox</span></a
+							>
+						</div>
+						<div>
+							<img
+								class="items-center justify-center block mx-auto"
+								alt="Firefox logo"
+								loading="lazy"
+								src="/assets/images/home/edge.png"
+								width="70px"
+								height="70px"
+							/><a
+								class="
+									mt-6
+									w-full
+									flex
+									items-center
+									justify-center
+									px-8
+									py-3
+									border
+									rounded-md
+									shadow-sm
+									text-sm
+									font-medium
+									btn btn-accent
+								"
+								href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
+								rel="noreferrer"
+								target="_blank"
+								rel="noreferrer"
+								><span>Edge</span></a
+							>
+						</div>
+ 
+
+
+						<div>
+							<img
+								class="items-center justify-center block mx-auto"
+								alt="Firefox logo"
+								loading="lazy"
+								src="/assets/images/home/docs.png"
+								width="70px"
+								height="70px"
+							/><a
+								class="
+									mt-6
+									w-full
+									flex
+									items-center
+									justify-center
+									px-8
+									py-3
+									border
+									rounded-md
+									shadow-sm
+									text-sm
+									font-medium
+									btn btn-accent
+								"
+								href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+								rel="noreferrer"
+								target="_blank"
+								rel="noreferrer"
+								><span> Docs</span></a
+							>
+						</div>
+						<div>
+							<img
+								class="items-center justify-center block mx-auto"
+								alt="Firefox logo"
+								loading="lazy"
+								src="/assets/images/home/slides.png"
+								width="70px"
+								height="70px"
+							/><a
+								class="
+									mt-6
+									w-full
+									flex
+									items-center
+									justify-center
+									px-8
+									py-3
+									border
+									rounded-md
+									shadow-sm
+									text-sm
+									font-medium
+									btn btn-accent
+								"
+								href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+								rel="noreferrer"
+								target="_blank"
+								rel="noreferrer"
+								><span> Slides</span></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

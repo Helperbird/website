@@ -262,7 +262,7 @@
 			"student": true
 		},
 		{
-			"feature": "14 voices",
+			"feature": "20 natural voices",
 			"free": false,
 			"pro": true,
 			"unlimited": true,
@@ -330,7 +330,7 @@
 	"other": [
 		{
 			"feature": "Sync settings & styles",
-			"free": true,
+			"free": false,
 			"pro": true,
 			"unlimited": true,
 			"student": true
@@ -360,7 +360,7 @@
 	"apps": [
 		{
 			"feature": "Google Docs addon",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true,
 			"student": true
@@ -388,7 +388,7 @@
 		},
 		{
 			"feature": "PDF support",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true,
 			"student": true
@@ -402,7 +402,7 @@
 		},
 		{
 			"feature": "Google Slides Addon",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true,
 			"student": true
@@ -411,7 +411,13 @@
 
 	"bonus": [
 		{ "feature": "Unlmitied", "free": false, "pro": true, "unlimited": true, "student": true },
-
+		{
+			"feature": "Keyboard shortcuts",
+			"free": false,
+			"pro": true,
+			"unlimited": true,
+			"student": true
+		},
 		{
 			"feature": "Premium support",
 			"free": false,
