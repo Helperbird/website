@@ -6,7 +6,7 @@ async function load() {
 	new Vue({
 		el: '#pricing-table',
 		data: {
-			isYearly: true,
+			isYearly: false,
 			proLink: '',
 			studentLink: '',
 			unlimitedLink: '',
