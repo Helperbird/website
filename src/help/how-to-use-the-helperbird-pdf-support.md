@@ -19,7 +19,7 @@ url: /help/how-to-use-the-helperbird-pdf-reader/
 
 # Helperbirds' PDF support
 
-## How access/turn on the pdf
+## How access/turn on the pdf support
 
 - First you need to download Helperbird.
 - Then you need to install it.
