@@ -17,9 +17,9 @@ tags: guideApps
 url: /help/how-to-use-dictionary-app-in-helperbird/
 ---
 
-# Helperbirds' Define/Look up app
+# Helperbirds' Define or Look up app
 
-## How define/look up any word or sentence
+## How define or look up any word or sentence
 
 - First you need to download Helperbird.
 - Then you need to install it.
