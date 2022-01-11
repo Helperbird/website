@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const lodash = require('lodash');
 const htmlmin = require('html-minifier');
 const pluginPWA = require('eleventy-plugin-pwa');
 const manifest = {
@@ -23,6 +24,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('date', function (date, dateFormat) {
 		return format(date, dateFormat);
 	});
+
+	 // Random Filter: With the help from google search engine
+	 eleventyConfig.addFilter('shuffle', arr => lodash.shuffle(arr));
 
 	let markdownIt = require('markdown-it');
 	let options = {
@@ -51,6 +55,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addShortcode('bundledCss', function () {
 		return manifest['main.css'] ? `<link href="${manifest['main.css']}" rel="stylesheet" />` : '';
 	});
+
+
 
 	// Add a shortcode for bundled JS.
 	eleventyConfig.addShortcode('bundledJs', function () {
