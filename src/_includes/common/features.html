@@ -1,10 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-indigo-700">
+<div class="">
     <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-      <h2 class="text-4xl font-extrabold text-white tracking-tight">
+      <h2 class="text-4xl font-extrabold text-black tracking-tight">
         Features at glance
       </h2>
-      <p class="mt-4 max-w-3xl text-lg text-indigo-200">
+      <p class="mt-4 max-w-3xl text-lg text-black">
    
 
 Helperbird offers a range of powerful tools to customize the web to your needs to improve accessibility, reading, writing, studying, and productivity, including Reader Mode, Immersive Reader by Microsoft, dyslexia support, dyslexia fonts, text to speech with natural voices, OCR with text extracting, dictation, Dyslexia rulers, translations, word prediction also 28 other features.
@@ -14,39 +14,35 @@ Helperbird offers a range of powerful tools to customize the web to your needs t
         <a class="w-full sm:w-auto flex-none bg-gray-900 hover:bg-gray-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200 " href="/features/">See all features</a>
        
     </div>
-      <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-    
-  
-       
-  
-    
-  
-     
-       
-  
-        {%- for feature in features.features limit:8 -%}
+    <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+	
+      {%- for feature in features.popular  limit:5   -%}
+      <div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5 bg-secondary">
         <div>
-          <div>
-            <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-              <!-- Heroicon name: outline/heart -->
-              <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-              </svg>
-            </span>
-          </div>
-          <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">{{feature.title}}</h3>
-            <p class="mt-2 text-base text-indigo-200">
-                {{feature.description}}
-            </p>
-          </div>
+        <span class="flex items-center justify-center h-12 w-12 rounded-md">
+      
+  
+        
+         
+      
+      
+          {{  feature.icon | svgContents("text-white")  | safe }}
+        </span>
         </div>
-
-
-    {%- endfor -%}
-
-
+        <div class="mt-6">
+        <h3 class="text-xl font-medium text-white">{{ feature.title }}</h3>
+        <p class="mt-2 text-base text-white">
+          {{ feature.description }}
+        </p>
+  
+        <a class="mt-6 btn btn-primary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn more</a> 
+        </div>
       </div>
+      {%- endfor -%}
+  
+  
+    </div>
     </div>
   </div>
   

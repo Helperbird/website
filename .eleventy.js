@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const lodash = require('lodash');
 const htmlmin = require('html-minifier');
+const svgContents = require("eleventy-plugin-svg-contents");
 const pluginPWA = require('eleventy-plugin-pwa');
 const manifest = {
 	'main.js': '/assets/js/main.bundle.js',
@@ -19,11 +20,14 @@ module.exports = function (eleventyConfig) {
 		swDest: './docs/service-worker.js',
 		globDirectory: './docs'
 	});
+	eleventyConfig.addPlugin(svgContents);
 
 	// add `date` filter
 	eleventyConfig.addFilter('date', function (date, dateFormat) {
 		return format(date, dateFormat);
 	});
+
+
 
 	 // Random Filter: With the help from google search engine
 	 eleventyConfig.addFilter('shuffle', arr => lodash.shuffle(arr));

@@ -1,81 +1,39 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-    <div class="max-w-4xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-extrabold sm:text-4xl">
-      
-                Helperbird works on your favorite <span class="text-pink-600">platforms</span>. From every website you visit, to your favorite apps, Helperbird is integrated with all of them.
-            </h2>
-      
-        </div>
-        <dl class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+    <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+
+        <h2 class="text-4xl font-extrabold text-black tracking-tight">
+
+            Helperbird works on your favorite
+            <span class="text-pink-600">platforms</span>. From every website you visit, to your favorite apps, Helperbird is integrated with all of them.
+        </h2>
 
 
-            <div class="flex flex-col mt-10 sm:mt-0">
-                <dt class="order-1 mt-2 text-lg leading-6 font-medium text-pink-200">
-                    <img alt="Firefox logo" loading="lazy" src="/assets/images/home/docs.png" width="70px" height="70px" class="items-center justify-center block mx-auto"></dt>
-                    <dd class="order-2 text-2xl font-extrabold text-white mt-2">
-                        Google Docs
-                    </dd>
-                    <dd class="order-2">
-                        <a href="https://workspace.google.com/marketplace/app/helperbird/844716805038" target="_blank" class="mt-2 w-full inline-flex items-center justify-center px-5 py-3 btn btn-primary">Download for Docs</a>
-                    </dd>
+        <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 
+            {%- for app in apps.all   -%}
+                <div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5" style="background: {{ app.color }}">
+                    <div>
+                        <span class="flex items-center justify-center h-12 w-12 rounded-md">
+                            {{  app.icon | svgContents("text-white")  | safe }}
+
+                        </span>
+                    </div>
+                    <div class="mt-6">
+                        <h3 class="text-xl font-medium text-black">
+                            {{app.title}}</h3>
+                        <p class="text-base font-medium text-black mt-2">
+                            {{app.description}}</h3>
+
+                        <a href="{{app.title}}" target="_blank" class="mt-6 w-full  items-center justify-center px-5 py-3 btn btn-primary">Download</a>
+                    </div>
                 </div>
 
 
-                <div class="flex flex-col mt-10 sm:mt-0">
-                    <dt class="order-1 mt-2 text-lg leading-6 font-medium text-pink-200">
-                        <img alt="Firefox logo" loading="lazy" src="/assets/images/home/slides.png" width="70px" height="70px" class="items-center justify-center block mx-auto"></dt>
-                        <dd class="order-2 text-2xl font-extrabold text-white mt-2">
-                            Google Slides
-                        </dd>
-                        <dd class="order-2">
-                            <a href="https://workspace.google.com/marketplace/app/helperbird/844716805038" target="_blank" class="mt-2 w-full inline-flex items-center justify-center px-5 py-3 btn btn-primary">Download for Slides</a>
-                        </dd>
+            {%- endfor -%}
 
-                    </div>
+        </div>
 
 
-                    <div class="flex flex-col mt-10 sm:mt-0">
-                        <dt class="order-1 mt-2 text-lg leading-6 font-medium text-pink-200">
-                            <img alt="Firefox logo" loading="lazy" src="/assets/images/home/edge.png" width="70px" height="70px" class="items-center justify-center block mx-auto"></dt>
-                            <dd class="order-2 text-2xl font-extrabold text-white mt-2">
-                                Edge
-                            </dd>
-                            <dd class="order-2">
-                                <a href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd" target="_blank" class="mt-2 w-full inline-flex items-center justify-center px-5 py-3 btn btn-primary">Download for Edge</a>
-                            </dd>
-
-                        </div>
-
-
-                        <div class="flex flex-col mt-10 sm:mt-0">
-                            <dt class="order-1 mt-2 text-lg leading-6 font-medium text-pink-200">
-                                <img alt="Firefox logo" loading="lazy" src="/assets/images/home/firefox.png" width="70px" height="70px" class="items-center justify-center block mx-auto"></dt>
-                                <dd class="order-2 text-2xl font-extrabold text-white mt-2">
-                                    Firefox
-                                </dd>
-                                <dd class="order-2">
-                                    <a href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/" target="_blank" class="mt-2 w-full inline-flex items-center justify-center px-5 py-3 btn btn-primary">Download for Firefox</a>
-                                </dd>
-
-                            </div>
-
-
-                            <div class="flex flex-col mt-10 sm:mt-0">
-                                <dt class="order-1 mt-2 text-lg leading-6 font-medium text-pink-200">
-                                    <img alt="Firefox logo" loading="lazy" src="/assets/images/home/chrome.png" width="70px" height="70px" class="items-center justify-center block mx-auto"></dt>
-                                    <dd class="order-2 text-2xl font-extrabold text-white mt-2">
-                                        Google Chrome
-                                    </dd>
-                                    <dd class="order-2">
-                                        <a href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme" target="_blank" class="mt-2 w-full inline-flex items-center justify-center px-5 py-3 btn btn-primary">Download for Chrome</a>
-                                    </dd>
-
-                                </div>
-
-
-                            </dl>
-                        </div>
-                    </div>
+    </div>
+</div>

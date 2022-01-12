@@ -22,28 +22,74 @@ url: /reviews/
 	</div>
 </div>
 
-{%- for review in reviews.reviews -%}
-  
-<section class="py-12  md:py-20 lg:py-24">
-	<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-		<div class="relative">
-			<figure class="shadow-lg rounded-xl flex-none mx-16 p-0 md:w-xl" style="transform: rotate(1deg) translateZ(0px);">
-				<blockquote class="rounded-t-xl bg-gray-50 px-6 py-8 text-lg leading-8 font-semibold text-gray-900 md:p-10 md:text-xl md:leading-8">
-					<svg class="mb-5 fill-current text-pink-100" height="36" width="45">
-					<path d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path></svg>
-					<p>{{ review.review }}</p>
-				</blockquote>
-				<figcaption class="flex items-center space-x-4 p-6 rounded-b-xl leading-6 font-semibold text-white bg-pink-500">
-					<div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center"><img alt="{{ review.name }} review of Helperbird. " class="w-12 h-12 rounded-full bg-fuchsia-100" loading="lazy" src="{{ review.photo }}"></div>
-					<div class="flex-auto">
-                        <p>{{ review.name }}</p>
-						<br>
-						<span class="text-green-100">{{ review.title }}</span>
-					</div>
-				</figcaption>
-			</figure>
-		</div>
-	</div>
-</section>
+
+
+
+
+
+<section
+  tabindex="-1"
+  class="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5 p-8 pt-16 pb-16"
+>
+
+
+                                                                                
+
+  <div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+
+    {%- for review in reviews.reviews -%}
+
+
+    <div
+        class="text-sm leading-6 helperbird-editor medium-editor-element"
+    >
+        <figure
+        class="relative flex flex-col-reverse bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5"
+        >
+        <blockquote class="mt-6 text-gray-700 dark:text-gray-300">
+            <p
+            class=""
+
+            >
+            {{ review.review }}
+            </p>
+        </blockquote>
+        <figcaption class="flex items-center space-x-4">
+            <img
+            src="{{ review.photo }}"
+            alt=""
+            class="flex-none w-14 h-14 rounded-full object-cover"
+            loading="lazy"
+            />
+            <div class="flex-auto">
+            <div class="text-base text-gray-900 font-semibold dark:text-gray-300">
+               <span
+                    class="absolute inset-0 helperbird-editor medium-editor-element"
+                    data-medium-editor-element="true"
+                    aria-multiline="true"
+                    data-medium-editor-editor-index="1"
+                    medium-editor-index="779ccbf1-5bec-2e88-780f-dee1f4b809a1"
+                ></span
+                >{{ review.name }}
+            </div>
+            <div class="mt-0.5">{{ review.title }}</div>
+            </div>
+        </figcaption>
+        </figure>
+    </div>
+    
+
+
+
 {%- endfor -%}
+
+
+
+
+
+  </div>
+
+</section>
+
