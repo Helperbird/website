@@ -28,9 +28,8 @@ url: /features/google-translate/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block"> Translate any website or word!</span>
-          </h1>
-          <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
+            <span class="block"> Translate any website or word!</span> </h1>
+					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 			Helperbird gives free translation support to any website or text, your browsing.
           </p>
           <div class="mt-10 sm:mt-12">

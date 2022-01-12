@@ -32,9 +32,8 @@ url: /features/high-contrast/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">    High contrast</span>
-          </h1>
-          <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
+            <span class="block">    High contrast</span> </h1>
+					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 High Contrast mode by Helperbird allows you to invert every color on the page, to be high contrast.          </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -88,9 +87,7 @@ High Contrast mode by Helperbird allows you to invert every color on the page, t
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-</div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Intro
 
