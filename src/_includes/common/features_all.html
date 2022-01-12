@@ -17,10 +17,10 @@ Helperbird offers a range of powerful tools to customize the web to your needs t
     <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
 		
 	
-      {%- for feature in features.popular  limit:5   -%}
-      <div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5 bg-secondary">
+      {%- for feature in features.features    -%}
+      <div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5 ">
         <div>
-        <span class="flex items-center justify-center h-12 w-12 rounded-md text-white">
+        <span class="flex items-center justify-center h-12 w-12 rounded-md text-black">
       
   
         
@@ -31,8 +31,8 @@ Helperbird offers a range of powerful tools to customize the web to your needs t
         </span>
         </div>
         <div class="mt-6">
-        <h3 class="text-xl font-medium text-white">{{ feature.title }}</h3>
-        <p class="mt-2 text-base text-white">
+        <h3 class="text-xl font-medium text-black">{{ feature.title }}</h3>
+        <p class="mt-2 text-base text-black">
           {{ feature.description }}
         </p>
   
