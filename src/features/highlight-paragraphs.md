@@ -1,10 +1,7 @@
 ---
 layout: templates/features.html
-title: Change the highlight color on any website | Helperbird for Chrome, Firefox and Edge
-description:
-  Highlight text on a web page, pdf or more, in a variety of styles. The highlighted text can be
-  summarised, either as snippets or as full text. Only with Helperbird for Google Chrome, Firefox
-  and Edge.
+title: Correctly highlight paragraphs while reading - Chrome, Firefox, Edge, iPad, iPhone
+description: Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -32,10 +29,9 @@ url: /features/highlight-paragraphs/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">    Highlight any text you want with any color.</span> </h1>
+            <span class="block">  Correctly highlight paragraphs while reading</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at
-least 1.5 times larger than the line spacing
+Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -94,7 +90,7 @@ least 1.5 times larger than the line spacing
 ## Intro
 
 A much-requested feature is finally here. Highlight any paragraph or text on a website. Any colour
-you want. Super handy for studying and revision. Pdf support is coming next month. All highlights
+you want. Super handy for studying and revision. All highlights
 will stay on the page and will also be stored in yours notes app.
 
 </div>

@@ -1,9 +1,8 @@
 ---
 layout: templates/features.html
-title: High contrast mode on any website in Google Chrome | Helperbird
+title: Change or invert the color scheme to make webpages easier to read - Chrome, Firefox, Edge, iPad, iPhone
 description:
-  High Contrast mode/ high contrast for Google chrome by Helperbird allows you to invert every color
-  on the page, to be high contrast.
+High Contrast lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -32,9 +31,9 @@ url: /features/high-contrast/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">    High contrast</span> </h1>
+            <span class="block"> Change or invert the color scheme to make webpages </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-High Contrast mode by Helperbird allows you to invert every color on the page, to be high contrast.          </p>
+High Contrast lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.      </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
