@@ -80,35 +80,8 @@ url: /edge/
 
 
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-indigo-700">
-  <div class="max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-      <h2 class="text-3xl font-extrabold text-white tracking-tight">
-          Features at a glance
-      </h2>
-      <p class="mt-4 max-w-3xl text-lg  text-white ">
-          Some of Helperbirds popular features at glance. We have over 39 features. Helperbird is more than just a accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are more productive and better organized thanks to our accessibility features. They’re far more efficient than before. Here’s how Helperbird makes it happen.
-      </p>
-      <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-          {%- for feature in collections.features -%}
 
-              <div>
-                  <div></div>
-                  <div class="mt-6">
-                      <h3 class="text-lg font-medium text-white">{{ feature.data.featureTitle }}</h3>
-                      <p class="mt-2 text-base text-white mb-8">
-                          {{ feature.data.featureDescription }}
-                      </p>
-                      <a class="btn btn-link btn-active text-white " href="{{ feature.url }}" title="More information on feature {{ feature.data.featureTitle }}">Learn more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">  
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>                        
-                      </svg></a>
-                  </div>
-              </div>
-          {%- endfor -%}
-      </div>
-  </div>
-</div>
-
+{% include common/features_all.html %} 
 
 
 
