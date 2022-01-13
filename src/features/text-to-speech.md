@@ -1,9 +1,8 @@
 ---
 layout: templates/features.html
-title: Natural Text to Speech for Chrome Extension | Helperbird
+title: Natural Text to Speech Extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
-  Change fonts and background color. Helperbird provides a way to change web page font and
-  background colors.
+  Sit back, press play, and have your news, emails, or news read aloud to you. Helperbirds award winning text to speech extension for Chrome, Firefox, Edge, iPad, iPhone.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,

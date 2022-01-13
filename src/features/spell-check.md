@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Spelling & Grammar Checker for Google Chrome, Firefox & Edge
+title: Spelling & Grammar Checker extension - Google Chrome, Firefox, iPad, iPhone & Edge
 description: Write with confidence thanks to Helperbird, your intelligent grammar, spelling checker.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for

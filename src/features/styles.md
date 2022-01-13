@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Styles, Change fonts and background colors in Google Chrome | Helperbird
+title: Styles, Change fonts and background colors extension - Chrome, Edge, Firefox, iPad, iPhone
 description:
   Change fonts and background color. Helperbird provides a way to change web page font and
   background colors.

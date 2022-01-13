@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Take a screenshot of any page | Helperbird for Google Chrome, Firefox & Edge
+title: Take a screenshot of any page with our extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
   Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.
 keywords:
@@ -106,19 +106,7 @@ downloads folder.
 
 </div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-## Features
-
-Choose from over 20 default colors or any custom color you want.
-
-Adjust the height of the ruler to your reading line.
-
-Adjust the position of the ruler to your reading line.
-
-Follow your cursor option.
-
-</div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 

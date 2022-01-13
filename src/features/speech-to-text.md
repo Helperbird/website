@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Voice typing (speech to text) for Google Chrome, Firefox and Edge | Helperbird
+title: Voice typing (speech to text) extension -  Google Chrome, Firefox, Edge, iPad, iPhone
 description:
   Type text using your voice. Speak using your voice, and it will be typed into a notepad where you
   can edit it.

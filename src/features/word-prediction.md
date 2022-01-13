@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Word prediction on every website, even Google docs  | Helperbird
+title: Word prediction on every website, even Google docs - Chrome, Firefox, Edge, iPad, iPhone
 description:
   Helperbirds word prediction is smart & spelling aware. Helperbird Speech to text recognition
   allows you to speak it, and Helperbird will write it.

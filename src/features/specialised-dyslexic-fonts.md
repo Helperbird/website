@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Specialised Dyslexic fonts for Google Chrome, Firefox and Edge | OpenDyslexic Font
+title:  Dyslexic fonts & Font changer extension - Chrome, Firefox, Edge, iPad, iPhone 
 description:
   Change the font to any specialized web fonts for dyslexics and others. Convert the font on
   websites to use OpenDyslexic, Lexend and more.
