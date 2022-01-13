@@ -51,9 +51,11 @@ id="nav"
     </div>
 
     <div title="Compare tab" class="dropdown dropdown-end hidden sm:block">
-        <a tabindex="0" href="/pricing/" class="m-1 btn-ghost btn">
-            <span class="md:inline"> Pricing </span>
-        </a>
+        <div data-tip="Sale " class="tooltip tooltip-open tooltip-secondary tooltip-bottom">
+            <a tabindex="0" href="/pricing/" class="m-1 btn-ghost btn">
+                <span class="md:inline"> Pricing </span>
+            </a>
+        </div>
     </div>
     <div title="Compare tab" class="dropdown dropdown-end hidden sm:block">
         <button tabindex="0" class="m-1 btn-ghost btn" @click="handleCommon">

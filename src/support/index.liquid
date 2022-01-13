@@ -167,10 +167,12 @@ url: /support/
 	  </div>
 	</div>
   </div>
+
+  
 <div class="bg-gray-50">
 	<div class="relative p-16 overflow-hidden">
 		<div class="relative">
-			<div class="grid grid-cols-1 gap-8 xs:grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
+			<div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
 				{%- for video in videos.support -%}
 				<div class="card bordered text-base-content shadow-2xl bg-base-100 text-base-content">
 					<figure >
@@ -184,7 +186,7 @@ url: /support/
 						<h2 class="card-title text-base-content">{{ video.title }}</h2>
 						<p>{{ video.description }}</p>
 						<div class="justify-end card-actions">
-							<a class="btn btn-secondary" href="{{ video.link }}">More info</a>
+							<a class="btn btn-secondary btn-sm" href="{{ video.link }}">More info</a>
 						</div>
 					</div>
 				</div>{%- endfor -%}
