@@ -1,9 +1,7 @@
 ---
 layout: templates/features.html
-title: Color overlays & tints extension | Helperbird for Chrome, Firefox & Edge
-description:
-  People who don't like bright white web pages can now change the overlay color of a web page with
-  the overlay feature.
+title: Color Overlay extension - Chrome, Edge, Firefox, iPad &  iPhone
+description: Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more readable. People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -30,12 +28,11 @@ url: /features/overlay/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">    Color overlays & tints for Google Chrome</span> </h1>
+            <span class="block">    Color overlays for every browser</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
 
-People who don't like bright white web pages can now change the overlay color of a web page with the
-overlay feature.
+Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more readable. People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
 
 
  </p>
