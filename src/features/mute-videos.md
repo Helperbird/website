@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Mute all videos and audio from auto running | Helperbird
-description: Mute all videos and audio from playing on any website with Helperbird in two clicks.
+title: Mute annoying auto playing videos - Chrome, Firefox, Edge, iPad, iPhone
+description:  Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -25,12 +25,10 @@ url: /features/mute-videos/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Immersive Reader for Chrome, Edge, Firefox, and Safari</span> </h1>
+            <span class="block">Mute all annoying videos and audio</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-Immersive Reader is a free tool that implements proven techniques to improve reading and writing for
-people, regardless of their age or ability. Immersive Reader can improve reading comprehension and
-increase fluency for English language learners.
+Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -87,9 +85,7 @@ increase fluency for English language learners.
 
 ## Intro
 
-Immersive Reader is a free tool that implements proven techniques to improve reading and writing for
-people, regardless of their age or ability. Immersive Reader can improve reading comprehension and
-increase fluency for English language learners.
+Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -104,11 +100,9 @@ increase fluency for English language learners.
 
 ## Features
 
-7 colors to pick from.
-
-Works on websites and pdfs.
-
-Syncs across machines
+- Stop videos from auto playing 
+- Stop audio from auto playing
+- Mute all annoying videos and audio
 
 
 

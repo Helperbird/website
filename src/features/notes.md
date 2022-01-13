@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Your notes. Organized. Effortless in one app | Helperbird
+title: Your notes. Organized. Effortless in one app - Google Chrome, Firefox, Edge, iPad, iPhone
 description:
   Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
   projects, to-do lists—with Helperbird as your note taking app, nothing falls through the cracks.
