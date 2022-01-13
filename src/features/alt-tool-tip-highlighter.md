@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Show Alt tags on mouse over for Chrome, Firefox and Edge'
-description: Helperbird allows you to show ALT & title tags on mouse over.
+title: Display Alt and title tags on mouse hover 
+description: Discover Alt and title tags on every website with Helperbird. Through the use of tooltips, discover missing alt tags on hover and display them on mouse hover.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -29,9 +29,9 @@ url: /features/alt-tool-tip-highlighter/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Show Alt tags on mouse over</span> </h1>
+            <span class="block">Display Alt and title tags on mouse hover </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Helperbird allows you to show ALT & title tags on mouse over.
+     Discover Alt and title tags on every website with Helperbird. Through the use of tooltips, discover missing alt tags on hover and display them on mouse hover.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

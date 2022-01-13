@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: 'Adjust Letters and Words on any page'
-description: Adjust letter and word spacing, font size and line-height according to your needs.
+title: Adjust line height, letters & words spacing extension 
+description: Adjust letters and words spacing on any website or pdf to suit your needs and make reading online easier. Available on Chrome, Edge, Firefox, iPad, and iPhone.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -33,10 +33,9 @@ tags: features
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Adjust letters, word and line height</span> </h1>
+            <span class="block">Adjust line height, letters & words spacing</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-       Stop straining your eyes to see what’s on your screen. Adjust word, line and letter spacing with
-Helperbird.
+       Stop straining your eyes to see what’s on your screen. Adjust letters and words spacing on any website or pdf to suit your needs and make reading online easier with Helperbird. Available on Chrome, Edge, Firefox, iPad, and iPhone.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

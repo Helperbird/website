@@ -1,9 +1,8 @@
 ---
 layout: templates/features.html
-title: Annotate website, ebooks, pdfs on Chrome, Firefox & Edge
+title: Free Web annotation extension - Websites, eBooks, Pdfs &  apps -
 description:
-  Highlight or annotate web pages, documents, pdfs, ebooks and more to improve research and study.
-  Leaving sticking notes that help you with your research and homework.
+  Highlight or annotate web pages, documents, pdfs, ebooks & more to improve research and study. Leaving sticking notes that help you with your research and homework.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -32,10 +31,9 @@ url: /features/annotation/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Annotate Pdfs, websites and more</span> </h1>
+            <span class="block">Annotate the web, annotate everything!</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and
-study.
+          Highlight or annotate web pages documents, pdfs, ebooks & more content to improve engagement and study.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

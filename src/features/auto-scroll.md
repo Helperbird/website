@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Auto scroll any page for Chrome, Firefox and Edge | Helperbird
+title: Automatically scroll down pages in any browser - Chrome, Edge, Firefox, iPad, iPhone 
 description:
   Helperbird  allows you to easily change the auto-scroll speed and save it in three different
   modes; slow, medium and fast. A single click will stop the auto-scrolling.
@@ -35,7 +35,7 @@ url: /features/auto-scroll/
           >
             <span class="block">Simple speed-customizable auto scroll</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-           Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium and fast. A single click will stop the auto-scrolling.
+          Ever want to read through an article without even touching a mouse or keyboard? Helperbird Auto scroll feature is here help you with just that! 
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -98,6 +98,8 @@ Helperbird allows you to easily change the auto-scroll speed and save it in thre
 slow, medium and fast.
 
 A single click will stop the auto-scrolling.
+
+
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">

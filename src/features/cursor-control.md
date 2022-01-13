@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Accessibility cursor controls for Chrome | Helperbird
-description: Helperbird gives keyboard accessibility & mouse control alternatives for Google Chrome
+title: Make the mouse pointer larger or smaller -  Chrome, Firefox, Edge, iPhone, iPad 
+description: Increase the size of the pointer making  it easier to see and help you use your device more efficiently. It's particularly useful for those with a visual impairment. 
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -28,9 +28,9 @@ url: /features/cursor-control/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Accessibility cursor controls for Chrome</span> </h1>
+            <span class="block">Make the mouse pointer larger or smaller</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-       		Make your mouse pointer more visible.
+    Increase the size of the pointer making  it easier to see and help you use your device more efficiently. It's particularly useful for those with a visual impairment. 
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

@@ -1,9 +1,7 @@
 ---
 layout: templates/features.html
-title: Color blindness support for Google Chrome | Helperbird
-description:
-  Helperbird gives free color blindness support by underlining and stroking web page links. All from
-  our extension.
+title: CColor blindness support for any browser - Chrome, Firefox, Edge, iPhone, iPad 
+description: A customizable color features applied to webpages to improve color perception, for people who are partially color-blind.  By underlining and stroking web page links.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -31,9 +29,9 @@ url: /features/color-blindness/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Color blindness support</span> </h1>
+            <span class="block">Color blindness support for any browser</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-       		Fortunately, on computers we have full control over the presentation of colors, which means there are various ways of addressing the issue, thanks to Helperbird.
+       		A customizable color features applied to webpages to improve color perception, for people who are partially color-blind.  By underlining and stroking web page links.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

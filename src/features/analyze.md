@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Analyze text and webpages quickly
-description: In two clicks, find the amount of letters, characters and more on any website.
+title: Analyze text, webpages quickly and faster - Chrome, Firefox, iPad, Edge, iPhone 
+description: Two clicks, find the number of letters, characters, and more on any website. Making writing quicker and easier with our amazing browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -28,9 +28,9 @@ url: /features/analyze/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Analyze text and webpages quickly</span> </h1>
+            <span class="block">Analyze text, webpages quickly and faster</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          In two clicks, find the amount of letters, characters and more on any website.
+          Two clicks, find the number of letters, characters, and more on any website. Making writing quicker and easier with our amazing browser extension.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

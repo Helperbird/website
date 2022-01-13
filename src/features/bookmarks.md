@@ -1,8 +1,7 @@
 ---
 layout: templates/features.html
-title: 'Your Bookmarks. Organized. Effortless for Google Chrome | Helperbird'
-description:
-  'Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.'
+title: Your Bookmarks. Organized. Effortless - Google Chrome, Firefox, Edge, iPad, iPhone
+description: Helperbirds reading list features  helps with Organization your book marks , Syncing across browsers and platforms.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -30,7 +29,7 @@ url: /features/bookmarks/
           >
             <span class="block">Your Bookmarks. Organized. Effortless</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-           Helperbirds Bookmark Manager & Reader it later feature that helps with Organization, Syncing across browsers and platforms.
+           Helperbirds reading list features  helps with Organization your book marks , Syncing across browsers and platforms.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

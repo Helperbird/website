@@ -1,9 +1,8 @@
 ---
 layout: templates/features.html
-title: Make reading on-screen easier and faster | Helperbird
-description:
-  Underlining of web page text leads to improved reading focus and memory retention rate. Using
-  granular colours that underline text, users can find reading more comfortable and fun.
+title: Make reading on-screen easier and faster - Chrome, Firefox, iPad, Edge, iPhone
+description: Helperbird's cognitive load feature  adds a color gradient across the text on page. Making reading faster/easier. Over 80% of users say they find Helperbird's cognitive load feature  to be very helpful.
+
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -32,9 +31,9 @@ url: /features/cognitive-load/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Cognitive Load</span> </h1>
+            <span class="block">Make reading on-screen easier and faster</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-           Underlining of web page text leads to improved reading focus and memory retention rate. Using granular colours that underline text, users can find reading more comfortable and fun.
+          Helperbird's cognitive load feature  adds a color gradient across the text on page. Making reading faster/easier. Over 80% of users say they find Helperbird's cognitive load feature  to be very helpful.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
