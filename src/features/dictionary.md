@@ -1,8 +1,8 @@
 ---
 layout: templates/features.html
-title: English Dictionary app by Helperbird for Google Chrome | Helperbird
+title: View definitions easily as you browse the web - Chrome, Firefox, iPad, iPhone & Edge
 description:
-  Dictionary app by Helperbird allows you to easily lookup the meaning of any English word.
+  English Dictionary, quickly lookup word definitions with audio pronunciation as you browse the web.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -31,9 +31,9 @@ url: /features/dictionary/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Dictionary lookup</span> </h1>
+            <span class="block">View definitions easily as you browse the web</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-With one right click of a mouse, users can discover what any English word means. Including in search
+English Dictionary, quickly lookup word definitions with audio pronunciation as you browse the web. Including in search
 results are synonyms and related words. 
           </p>
           <div class="mt-10 sm:mt-12">

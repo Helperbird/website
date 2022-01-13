@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Full document editor for Google Chrome, Firefox, Edge and Safari | Helperbird
+title: In-browser editor with Microsoft Word, Google Docs support - Chrome, Firefox, Edge, iPad, iPhone
 description:
   View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
   Slides aswell.
@@ -31,11 +31,11 @@ url: /features/editor/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Your Bookmarks. Organized. Effortless</span> </h1>
+            <span class="block">In-browser editor with Microsoft Word, Google Docs support</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-Helperbirds Bookmark Manager & Reader it later feature that helps with Organization, Syncing across
-browsers and platforms.
+  View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
+  Slides aswell.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
