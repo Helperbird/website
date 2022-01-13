@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Annotate and highlight Pdfs | Helperbird extension
-description: Quickly annotate and highlight PDFs with Helperbird online for free.
+title: Annotate & highlight PDFs with dyslexia support | Chrome, Firefox, Edge, iPad, iPhone 
+description: Helperbird makes it easy to annotate your PDF documents with dyslexia support and send them for group review online and for studying.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -26,12 +26,13 @@ url: /features/pdfs/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Highlight & Annotate any PDF files</span> </h1>
+            <span class="block">You can annotate, highlight PDF files but you can also have dyslexia
+support and much more</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
 
 Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
-makes it easy to annotate your PDF documents and send them for group review online and for studying.
+makes it easy to annotate your PDF documents with dyslexia support and send them for group review online and for studying.
 
  </p>
           <div class="mt-10 sm:mt-12">

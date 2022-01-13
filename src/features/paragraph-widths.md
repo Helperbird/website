@@ -1,9 +1,8 @@
 ---
 layout: templates/features.html
-title: Set the width of paragraphs | Helperbird for Chrome, Firefox & Edge
+title: Set the text width extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
-  Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at
-  least 1.5 times larger than the line spacing.
+  Read your websites more relaxed with automatic columns for wide content.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -33,8 +32,7 @@ url: /features/paragraph-widths/
             <span class="block">Set the width of paragraphs</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at
-least 1.5 times larger than the line spacing
+Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns,  which are easier and more relaxed to read. 
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -94,17 +92,8 @@ least 1.5 times larger than the line spacing
 
 ## Intro
 
-People with some cognitive disabilities find it difficult to track text where the lines are close
-together. Providing extra space between lines and paragraphs allows them to better track the next
-line and to recognize when they have reached the end of a paragraph.
+Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns,  which are easier and more relaxed to read. 
 
-It is best if there are several different options, for instance, space-and-a-half and double spacing
-for line spacing. By space and a half within paragraphs we mean that top of one line is 150% further
-from the top of the line below it than would be true when the text is 'single spaced' (the default
-spacing for the font). By Paragraph spacing that is 1.5 times larger than the line spacing we mean
-that the spacing from the top of the last line of 1 paragraph is 250% farther from the Top of the
-first line of the next paragraph (i.e., that there is a blank line between the two paragraphs that
-is 150% of the single space blank line).
 
 </div>
 
