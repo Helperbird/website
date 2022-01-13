@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
 title:
-  Reading guide helps you to read long texts on web pages | Helperbird for Chrome, Firefox & Edge
+  Reading guide - Helping you to read long texts on web pages |  Chrome, Firefox, Edge, iPad &  iPhone
 description: Reading ruler, useful when you are reading long texts on the web.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
@@ -27,10 +27,9 @@ url: /features/reading-guide/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">     Reading guide helps you to read long texts on web pages.</span> </h1>
+            <span class="block">     Reading guide on any page.</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-Helperbirds spell checker is getting an updated, thanks to the Microsoft Editor API.
-
+Helperbirds reading guide extension helps you to read long texts on web pages. This tool can assist dyslexic readers to keep their place on the page they are reading.
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -88,7 +87,7 @@ Helperbirds spell checker is getting an updated, thanks to the Microsoft Editor 
 
 ## Intro
 
-Helperbirds spell checker is getting an updated, thanks to the Microsoft Editor API.
+Helperbirds reading guide extension helps you to read long texts on web pages. This tool can assist dyslexic readers to keep their place on the page they are reading.
 
 </div>
 
@@ -96,13 +95,10 @@ Helperbirds spell checker is getting an updated, thanks to the Microsoft Editor 
 
 ## How it helps
 
-Highlight current reading line
-
-Automatic jump to next/previous page
-
-Smart adjustment when page resizes
-
-Color, opacity and Shadow adjustments.
+- Highlight current reading line
+- Color settings
+- Opacity settings
+- Shadow adjustments
 
 
 </div>
