@@ -13,56 +13,101 @@ url: /edge/
 ---
 
 
+<style>
+	/*! CSS Used from: https://www.launchaco.com/static/AllTemplates.min.css */
+.font-friendly *{font-family:Montserrat,sans-serif;}
+*,:after,:before{margin:0;padding:0;box-sizing:border-box;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+img{max-width:100%;}
+.mask{overflow:hidden;position:relative;background:#fff;}
+.computer .mask{box-shadow:0 0 3px 1px rgba(0,0,0,.1);max-width:770px;max-height:520px;}
+.computer{display:inline-block;background:linear-gradient(#000 0,#000 95.5%,#2c2b2d 95.5%);border-radius:30px;position:relative;margin:75px auto 20px;border:3px solid #b1b2b5;box-shadow:-1px 1px 4px 0 rgba(0,0,0,.1),-8px 8px 24px 0 rgba(0,0,0,.1);padding:30px 20px;}
+.computer:after{content:"";position:absolute;height:20px;left:-10%;bottom:-14px;width:120%;transform-origin:0 0 0;border-radius:0 0 100% 100%;box-shadow:inset 0 18px 8px 0 #686a6e;}
+.computer-bottom{content:"";height:15px;background:linear-gradient(to right,#27282b 0,#a5a6aa 1.5%,#3f4044 3%,#8c8d91 10%,#8c8d91 90%,#3f4044 97%,#a5a6aa 98.5%,#27282b 100%);position:absolute;width:120%;left:-10%;bottom:-3px;z-index:2;}
+.computer-bottom:before{content:"";position:absolute;width:15%;left:calc(50% - 7.5%);box-shadow:inset 0 -9px 10px #0000003d,inset 10px 0 10px #0000003d,inset -10px 0 10px #0000003d;border-radius:0 0 10px 10px;height:10px;top:0;}
+.computer .mask{border-radius:2px;}
+.computer .mask:after{background-size:11%;}
+@media screen and (max-width:820px){
+.computer{padding:15px 10px 15px 10px;border-radius:10px;border:2px solid #cacccf;margin:50px auto 20px;}
+.computer:before{bottom:2px;height:5px;}
+.computer:after{height:7px;bottom:-5px;}
+}
+.mask{width:100%;overflow:hidden;border-radius:0 0 4px 4px;background:#fff;position:relative;}
+.mask__noimage{height:100%;}
+.mask-img{width:100%;display:block;z-index:2;position:relative;}
+/*! CSS Used from: https://www.launchaco.com/static/css/app.74a2c0b39740bb7417bacc343732d258.css */
+*,:after,:before{margin:0;padding:0;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;}
+::-webkit-input-placeholder{color:#061027;opacity:.44;}
+::-moz-placeholder{color:#061027;opacity:.44;}
+:-ms-input-placeholder{color:#061027;opacity:.44;}
+:-moz-placeholder{color:#061027;opacity:.44;}
+.launchaco-builder-hoverable{outline-offset:2px;}
+.launchaco-builder-hoverable:hover{opacity:1;outline:2px solid #28d3fa;}
+@media (pointer:coarse){
+.launchaco-builder-hoverable:hover{outline:none;outline-offset:0;}
+}
+#user-site .mask{text-indent:100%;white-space:nowrap;overflow:hidden;}
+.mask__noimage{height:100%;max-height:700px;background:#fff;position:relative;}
+.mask__noimage:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM4ZThlOGUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMjQgMjRIMFYwaDI0djI0eiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yMSAzSDNDMiAzIDEgNCAxIDV2MTRjMCAxLjEuOSAyIDIgMmgxOGMxIDAgMi0xIDItMlY1YzAtMS0xLTItMi0yek01IDE3bDMuNS00LjUgMi41IDMuMDFMMTQuNSAxMWw0LjUgNkg1eiIvPjwvc3ZnPg==);background-size:20%;background-position:50%;background-repeat:no-repeat;z-index:0;}
 
-<div class="bg-gray-50">
-	<div class="relative overflow-hidden">
-		<div class="relative pb-12 sm:pb-12">
-			<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
-				<div class="text-center">
-					<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-           All your productivity, research and accessibility needs, rolled up into one <span class=" text-blue-600">Edge extension</span></h1>
-					<p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs and documents more accessible and productive to your needs. It’s designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle.</p>
-					<div class="inline-flex items-center text-gray-500 divide-x mt-2 text-sm uppercase tracking-wide font-semibold sm:mt-4">
-						<div class="flex-shrink-0 flex pr-5">
-							<svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-						</div>
-						<div class="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3">
-							Rated 5 stars by over 500,000 people.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="relative">
-			<div aria-hidden="true" class="absolute inset-0 flex flex-col">
-				<div class="flex-1"></div>
-				<div class="flex-1 w-full bg-gray-800"></div>
-			</div>
-			<div class="max-w-3xl mx-auto px-4 sm:px-6">
-				<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
-			</div>
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 mt-8 grid grid-cols-3" style="margin-top: -180px;">
-				<div class="col-span-1 flex justify-center hidden sm:block">
-					<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/font.webm" type="video/webm"> <source src="/assets/videos/font.mp4" type="video/mp4"></video>
-				</div>
-				<div class="col-span-1 flex justify-center hidden sm:block"></div>
-				<div class="col-span-1 flex justify-center hidden sm:block">
-					<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/readermode.webm" type="video/webm"> <source src="/assets/videos/readermode.mp4" type="video/mp4"></video>
-				</div>
-			</div>
-			<div class="items-center max-w-lg mx-auto">
-				<a class="shadow-2xl lg:btn-md btn mt-4 flex" href="/pricing/" title="Link to Helperbirds pricing and downloads page.">Get started</a>
-			</div>
-		</div>
+</style>
+
+
+
+
+<div class="pt-10 bg-blue-600 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
+	<div class="mx-auto max-w-7xl lg:px-8 pb-16">
+	  <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+		<div
+		  class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
+		>
+		  <div class="lg:py-24">
+			<h1
+			  class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl"
+			>
+			All your productivity, research and accessibility needs, rolled up into one <span class=" text-black">Edge extension</span></h1>
+					  <p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+						With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs and documents more accessible and productive to your needs. It’s designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle.
+  
+   </p>
+   <div class="inline-flex items-center text-gray-500 divide-x mt-2 text-sm uppercase tracking-wide font-semibold sm:mt-4">
+	<div class="flex-shrink-0 flex pr-5">
+		<svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg aria-hidden="true" class="h-5 w-5 text-yellow-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
 	</div>
-	<div class="bg-gray-800">
+	<div class="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3">
+		Rated 5 stars by over 500,000 people.
+	</div>
+</div>
+			<div class="mt-10 sm:mt-12">
+			  <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
+				<div class="sm:flex">
+				  <a
+					href="/pricing"
+					target="_blank"
+					class="btn btn-accent"
+					>Try it now</a
+				  >
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+		  <div
+			class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
+		  >
+		  <div class="computer launchaco-builder-hoverable"><div class="mask mask__noimage"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIvPg==" alt="" class="mask-img"></div> <div class="computer-bottom"></div></div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="">
 		<div class="max-w-7xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:px-8">
-			<h2 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">TRUSTED BY OVER 500,000 FORWARD-THINKING USERS</h2>
+			<h2 class="text-center text-white text-sm font-semibold uppercase tracking-wide">TRUSTED BY OVER 500,000 FORWARD-THINKING USERS</h2>
 			<div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
 				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img alt="Tuple" class="h-12" src="/assets/images/logo/microsoft.png"></div>
 				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img alt="Mirage" class="h-12" src="/assets/images/logo/gusto.png"></div>
@@ -72,7 +117,10 @@ url: /edge/
 			</div>
 		</div>
 	</div>
-</div>
+  </div>
+
+
+
 
 {% include common/features_list.html %} 
 
@@ -94,5 +142,5 @@ url: /edge/
 
 {% include common/metrics.html %} 
 {% include common/questions.html %} 
-{% include common/reviews_slider.html %} 
+{% include common/reviews.html %} 
 {% include common/cta_one.html %} 
