@@ -1,7 +1,7 @@
 ---
 layout: templates/features.html
-title: Change font & letter sizes in any website | Helperbird
-description: Change the size of fonts and letters on any website. To support your needs.
+title: Control the font sizes in your browser -  Chrome, Firefox, Edge, iPad, iPhone
+description: Helperbird lets you change the font text size, font type, font color and background color on a page. Sync across every browser.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/sizes.png
 facebookSocial: assets/images/graph/sizes.png
-featureTitle: Adjust font sizes
+featureTitle: Font sizes
 featureDescription:
   Adjust letter and word spacing, font size and line-height according to your needs.
 tags: features
@@ -29,9 +29,9 @@ url: /features/font-sizes/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Your Bookmarks. Organized. Effortless</span> </h1>
+            <span class="block">Change font sizes on any website</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-			Helperbirds Bookmark Manager & Reader it later feature that helps with Organization, Syncing across browsers and platforms.
+Helperbird lets you change the font text size, font type, font color and background color on a page. Sync across every browser.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

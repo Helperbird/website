@@ -1,6 +1,6 @@
 ---
 layout: templates/features.html
-title: Translate any website or word! | Helperbird
+title: View translations easily as you browse the web - Chrome, Firefox, Edge, Safari, iPad, iPhone
 description:
   Helperbird gives free translation support to any website or text, though out your browsing.
 keywords:
@@ -28,9 +28,9 @@ url: /features/google-translate/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block"> Translate any website or word!</span> </h1>
+            <span class="block">View translations easily as you browse the web </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-			Helperbird gives free translation support to any website or text, your browsing.
+			Helperbird gives free translation support to any website or text as your browsing.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">

@@ -1,9 +1,9 @@
 ---
 layout: templates/features.html
-title: Grayscale any website for Chrome, Firefox and Edge | Helperbird
+title: Add a gray scale or theme to any website - Chrome, Firefox, Edge, Safari, iPad, iPhone
 description:
   Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for
-  all sites.
+  all sites. Including several themes.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -36,10 +36,10 @@ url: /features/gray-hue-overlay/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block"> Remove colors from any website or add a hue</span> </h1>
+            <span class="block"> Remove colors from any website</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-			Removes all colour from websites, turning them gray. Can be set for specific sites and tabs, or for
-          </p>
+ Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for
+  all sites. Including several themes.          </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
@@ -96,8 +96,7 @@ url: /features/gray-hue-overlay/
 
 ## Intro
 
-This extension let's you quickly and easily remove all images. This allows for a distraction free
-website viewing experience.
+Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for all sites.
 
 </div>
 
@@ -115,10 +114,11 @@ website viewing experience.
 
 ## Features
 
-Turns your website to grey scale.
-
-Removes all colour from a page.
-
+ - Grayscale hue
+ - Increased contrast
+ - Inverted colors
+ - Inverted greyscale
+ - Yellow on Black
 
    </div>
   </div>
