@@ -1,8 +1,8 @@
 ---
 layout: templates/features.html
-title: Optical Character Recognition software | Helperbird for Chrome, Firefox & Edge
+title: (OCR) Optical Character Recognition extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
-  A powerful optical character recognition (OCR) extension to capture and convert images to text.
+  Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -31,8 +31,7 @@ url: /features/optical-character-recognition/
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
 
-A powerful optical character recognition (OCR) extension to capture and convert images to text. In
-seconds!!
+Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
 
 
  </p>
@@ -92,14 +91,7 @@ seconds!!
 
 ## Intro
 
-It uses character recognition to convert the photo of the document into a text file. In many cases,
-the digital version will maintain the “look and feel” of the original. OCR makes it possible to make
-changes to the digital text. What can be done with the digital text depends on which reading
-software youre using.
-
-OCR technology has proven immensely useful in digitising historic newspapers and texts that have now
-been converted into fully searchable formats and had made accessing those earlier texts easier and
-faster.
+Do you need to extract text from images, videos, website or PDF ? Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
 
 </div>
 
@@ -109,16 +101,11 @@ faster.
 
 ## Features
 
-View notes in the Notes taking including time and date of the saved note as well as the website from
-which it was saved from.
-
-Capture ideas and inspiration in notes, voice, and pictures.
-
-Delete and edit saved notes.
-
-Never lose track of your tasks and deadlines.
-
-Manage everything from big projects to personal moments.
+- Extract text from images
+- Extract text from videos
+- Extract text from websites
+- Extract text from PDFs
+- Extract text from PDFs with annotations
 
 </div>
 
