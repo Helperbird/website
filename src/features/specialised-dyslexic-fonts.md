@@ -19,7 +19,9 @@ tags: features
 url: /features/specialised-dyslexic-fonts/
 ---
 
-<div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
+<div
+  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden"
+>
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
       <div
@@ -29,21 +31,19 @@ url: /features/specialised-dyslexic-fonts/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">      Specialised Dyslexic Fonts
-</span> </h1>
-					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-
-Change the font to any specialized web fonts for dyslexics and others. Convert the font on websites
-to use OpenDyslexic, Lexend and more.
-
- </p>
+            <span class="block"> Specialised Dyslexic Fonts </span>
+          </h1>
+          <p
+            class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+          >
+            Change the font to any specialized web fonts for dyslexics and
+            others. Convert the font on websites to use OpenDyslexic, Lexend and
+            more.
+          </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
-                <a
-                  href="/pricing"
-                  target="_blank"
-                  class="btn btn-accent"
+                <a href="/pricing" target="_blank" class="btn btn-accent"
                   >Try it now</a
                 >
               </div>
@@ -80,6 +80,7 @@ to use OpenDyslexic, Lexend and more.
     </div>
   </div>
 </div>
+
 
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">

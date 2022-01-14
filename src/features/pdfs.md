@@ -17,7 +17,9 @@ tags: features
 url: /features/pdfs/
 ---
 
-<div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
+<div
+  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden"
+>
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
       <div
@@ -27,22 +29,23 @@ url: /features/pdfs/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">You can annotate, highlight PDF files but you can also have dyslexia
-support and much more</span> </h1>
-					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-
-Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
-makes it easy to annotate your PDF documents with dyslexia support and send them for group review
-online and for studying.
-
- </p>
+            <span class="block"
+              >You can annotate, highlight PDF files but you can also have
+              dyslexia support and much more</span
+            >
+          </h1>
+          <p
+            class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+          >
+            Highlight paragraphs. Annotate the file. Send it around. Review it
+            online. Learn how Helperbird makes it easy to annotate your PDF
+            documents with dyslexia support and send them for group review
+            online and for studying.
+          </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
-                <a
-                  href="/pricing"
-                  target="_blank"
-                  class="btn btn-accent"
+                <a href="/pricing" target="_blank" class="btn btn-accent"
                   >Try it now</a
                 >
               </div>
@@ -79,6 +82,7 @@ online and for studying.
     </div>
   </div>
 </div>
+
 
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">

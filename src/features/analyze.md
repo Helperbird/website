@@ -17,7 +17,9 @@ tags: features
 url: /features/analyze/
 ---
 
-<div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
+<div
+  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden"
+>
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
       <div
@@ -27,17 +29,19 @@ url: /features/analyze/
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Analyze text, webpages quickly and faster</span> </h1>
-					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Two clicks, find the number of letters, characters, and more on any website. Making writing quicker and easier with our amazing browser extension.
+            <span class="block">Analyze text, webpages quickly and faster</span>
+          </h1>
+          <p
+            class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+          >
+            Two clicks, find the number of letters, characters, and more on any
+            website. Making writing quicker and easier with our amazing browser
+            extension.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
-                <a
-                  href="/pricing"
-                  target="_blank"
-                  class="btn btn-accent"
+                <a href="/pricing" target="_blank" class="btn btn-accent"
                   >Try it now</a
                 >
               </div>

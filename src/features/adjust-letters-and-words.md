@@ -18,7 +18,9 @@ url: /features/adjust-letters-and-words/
 tags: features
 ---
 
-<div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
+<div
+  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden"
+>
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
       <div
@@ -28,17 +30,22 @@ tags: features
           <h1
             class="mt-4 mb-6 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
           >
-            <span class="block">Adjust line height, letters & words spacing</span> </h1>
-					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-       Stop straining your eyes to see what’s on your screen. Adjust letters and words spacing on any website or pdf to suit your needs and make reading online easier with Helperbird. Available on Chrome, Edge, Firefox, iPad, and iPhone.
+            <span class="block"
+              >Adjust line height, letters & words spacing</span
+            >
+          </h1>
+          <p
+            class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+          >
+            Stop straining your eyes to see what’s on your screen. Adjust
+            letters and words spacing on any website or pdf to suit your needs
+            and make reading online easier with Helperbird. Available on Chrome,
+            Edge, Firefox, iPad, and iPhone.
           </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
               <div class="sm:flex">
-                <a
-                  href="/pricing"
-                  target="_blank"
-                  class="btn btn-accent"
+                <a href="/pricing" target="_blank" class="btn btn-accent"
                   >Try it now</a
                 >
               </div>
