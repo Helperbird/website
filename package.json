@@ -98,12 +98,10 @@
 		"gulp": "^4.0.2",
 		"gulp-html2pug": "^3.0.3",
 		"gulp-image": "^6.1.0",
-		"gulp-imagemin": "^7.1.0",
+
 		"gulp-webp": "^4.0.1",
 		"html-minifier": "^4.0.0",
-		"imagemin": "^8.0.1",
-		"imagemin-pngquant": "^9.0.2",
-		"imagemin-webp": "^6.0.0",
+
 		"markdown-it": "^12.2.0",
 		"mini-css-extract-plugin": "^2.2.0",
 		"postcss-loader": "^4.1.0",
