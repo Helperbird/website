@@ -3,7 +3,8 @@ layout: templates/help.html
 title: What is Helperbird free? - Helperbird
 description:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -4,7 +4,8 @@ title: Annotate & highlight PDFs with dyslexia support | Chrome, Firefox, Edge, 
 description:
   Helperbird makes it easy to annotate your PDF documents with dyslexia support and send them for
   group review online and for studying.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

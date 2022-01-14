@@ -5,7 +5,8 @@ description:
   With online learning and increased online activity, it's important that every student feels
   empowered and comfortable when working online. There are hundreds of tools out there but here are
   our top 5 tools to use in 2021.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

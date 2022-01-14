@@ -4,7 +4,8 @@ title: Winner of our Chromebook | Helperbird
 description:
   In February 2021 we ran a competition to celebrate the start of the new School term, to win a
   brand new Chromebook and a year of Helperbird Pro.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

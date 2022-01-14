@@ -6,7 +6,8 @@ description:
   was struggling in school. One of my teachers told my parents that I should just drop out of school
   and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being
   diagnosed and starting to get the help I needed, I ended up winning my first technology award.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

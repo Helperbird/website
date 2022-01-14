@@ -4,7 +4,8 @@ title: How to use Word Prediction on Google Docs or any website - Helperbird
 description:
   Learn how easy it is to use Word Prediction on Google Docs or any website with Helperbirds browser
   extension.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -4,7 +4,8 @@ title: How to annotate any website with sticky notes - Helperbird
 description:
   Learn how to annotate any website with sticky notes for free with Helperbird on Chrome, Firefox,
   Edge extension.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

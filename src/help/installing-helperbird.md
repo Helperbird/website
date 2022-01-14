@@ -2,7 +2,8 @@
 layout: templates/help.html
 title: How to install Helperbird - Helperbird
 description: Discover how to install Helperbird on Google Chrome, Firefox, Safari, and Edge.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

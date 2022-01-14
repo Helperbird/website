@@ -5,7 +5,8 @@ description:
   Helperbird has over 38 amazing features to choose from to make your class more accessible and
   productive in 2021 and 2022. We thought we would highlight what has been popular in the past year
   from teachers and students around the world.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

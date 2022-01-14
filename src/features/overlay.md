@@ -5,7 +5,8 @@ description:
   Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more
   readable. People who don't like bright white web pages can now change the overlay color of a web
   page with the overlay feature.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -4,7 +4,8 @@ title: How to Avoid WFH Burnout and Maximize Productivity | Helperbird
 description:
   While working from home looks convenient, the blurred line between home and employment can lead to
   burnout. In fact, Monsters recent study revealed....
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

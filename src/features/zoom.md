@@ -2,7 +2,8 @@
 layout: templates/features.html
 title: Page & text magnifier extension - Chrome, Firefox, Edge, iPad, iPhone
 description: Page & text magnifier for Google Chrome. Increase your page and zoom on any page.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -2,7 +2,8 @@
 layout: templates/features.html
 title: Hide all Gifs, Images or flashing images -  Chrome, Firefox, Edge, iPad, iPhone
 description: Hides all images or just gifs on a website and show them again when your ready.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

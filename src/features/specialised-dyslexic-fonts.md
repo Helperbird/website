@@ -4,7 +4,8 @@ title: Dyslexic fonts & Font changer extension - Chrome, Firefox, Edge, iPad, iP
 description:
   Change the font to any specialized web fonts for dyslexics and others. Convert the font on
   websites to use OpenDyslexic, Lexend and more.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

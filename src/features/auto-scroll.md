@@ -4,7 +4,8 @@ title: Automatically scroll down pages in any browser - Chrome, Edge, Firefox, i
 description:
   Helperbird  allows you to easily change the auto-scroll speed and save it in three different
   modes; slow, medium and fast. A single click will stop the auto-scrolling.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

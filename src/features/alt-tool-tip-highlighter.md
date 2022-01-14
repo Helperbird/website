@@ -4,7 +4,8 @@ title: Display Alt and title tags on mouse hover
 description:
   Discover Alt and title tags on every website with Helperbird. Through the use of tooltips,
   discover missing alt tags on hover and display them on mouse hover.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

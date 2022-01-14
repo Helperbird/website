@@ -3,7 +3,8 @@ layout: templates/help.html
 title: How to use Text to speech with Natural voices in your browser - Helperbird
 description:
   Learn how easy it is to use Text to speech with Natural voices on any website, pdf or app.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

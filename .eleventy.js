@@ -14,7 +14,7 @@ const format = require('date-fns/format');
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/assets/images');
 	eleventyConfig.addPassthroughCopy('./src/assets/videos');
-	
+
 	eleventyConfig.addPassthroughCopy('./src/assets/setup');
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addPlugin(pluginPWA, {

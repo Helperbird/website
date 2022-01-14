@@ -98,7 +98,6 @@
 		"gulp": "^4.0.2",
 		"gulp-html2pug": "^3.0.3",
 		"gulp-image": "^6.1.0",
-
 		"gulp-imagemin": "^7.1.0",
 		"gulp-webp": "^4.0.1",
 		"html-minifier": "^4.0.0",

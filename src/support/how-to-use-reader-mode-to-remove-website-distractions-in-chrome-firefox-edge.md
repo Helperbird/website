@@ -4,7 +4,8 @@ title: How to use Reader Mode to remove website distractions in Chrome, Firefox 
 description:
   How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By
   Helperbird.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

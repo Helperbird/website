@@ -4,7 +4,8 @@ title: View definitions easily as you browse the web - Chrome, Firefox, iPad, iP
 description:
   English Dictionary, quickly lookup word definitions with audio pronunciation as you browse the
   web.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

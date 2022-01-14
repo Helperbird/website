@@ -4,7 +4,8 @@ title: Your notes. Organized. Effortless in one app - Google Chrome, Firefox, Ed
 description:
   Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
   projects, to-do lists—with Helperbird as your note taking app, nothing falls through the cracks.
-keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords:
+  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
