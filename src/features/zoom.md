@@ -2,11 +2,7 @@
 layout: templates/features.html
 title: Page & text magnifier extension - Chrome, Firefox, Edge, iPad, iPhone
 description: Page & text magnifier for Google Chrome. Increase your page and zoom on any page.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Page & text magnifier
@@ -15,10 +11,6 @@ featureDescription:
 tags: features
 url: /features/zoom/
 ---
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -85,10 +77,6 @@ Increase the text and images on any page to suit your needs. Zooming right into 
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
 Open the Helperbird extension, select the Zoom option, select the zoom percentage value, toggle
@@ -105,7 +93,6 @@ consistent zoom level.
 
 It can help to focus as it can remove the full display of cluttered web pages.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -113,7 +100,6 @@ It can help to focus as it can remove the full display of cluttered web pages.
 ## Screenshots & Videos
 
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/text-to-speech/text-to-speech.png)
-
 
 </div>
     </div>

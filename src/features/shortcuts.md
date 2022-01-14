@@ -2,11 +2,7 @@
 layout: templates/features.html
 title: Helperbird keyboard shortcuts - Chrome, Firefox, Edge, iPad, iPhone
 description: Learn about Helperbirds keyboard shortcuts and become a pro at using Helperbird
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Keyboard shortcuts
@@ -14,7 +10,6 @@ featureDescription: Learn keyboard shortcuts and become a pro at using Helperbir
 tags: features
 url: /features/shortcuts/
 ---
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -29,10 +24,6 @@ url: /features/shortcuts/
             <span class="block">     Helperbird keyboard shortcuts!
 </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-
-
-
-
 
 Learn keyboard shortcuts and become a pro at using Helperbird.
 
@@ -87,13 +78,6 @@ Learn keyboard shortcuts and become a pro at using Helperbird.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
-
 ## Intro
 
 Learn keyboard shortcuts and become a pro at using Helperbird Pro.
@@ -114,8 +98,6 @@ Now that you have it installed.
 
 Open the develop tool menu like in the photo below.
 
-
-
 This will open the a new tab.
 
 This is the extension page, now on this page, you will need to click on the left menu.
@@ -128,14 +110,13 @@ Click on the inputs and press the keys you want to trigger in Helperbird.
 
 Thats it. The one limit of Chrome, is we can only have four shortcuts.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Screenshots & Videos
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
+![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
 </div>
 

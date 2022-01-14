@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
-title: Make the mouse pointer larger or smaller -  Chrome, Firefox, Edge, iPhone, iPad 
-description: Increase the size of the pointer making  it easier to see and help you use your device more efficiently. It's particularly useful for those with a visual impairment. 
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Make the mouse pointer larger or smaller -  Chrome, Firefox, Edge, iPhone, iPad
+description:
+  Increase the size of the pointer making  it easier to see and help you use your device more
+  efficiently. It's particularly useful for those with a visual impairment.
+keywords: ''
 twitterSocial: assets/images/graph/cursor.png
 facebookSocial: assets/images/graph/cursor.png
 featureTitle: Cursor controls
@@ -15,8 +13,6 @@ featureDescription:
 tags: features
 url: /features/cursor-control/
 ---
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -76,17 +72,11 @@ url: /features/cursor-control/
   </div>
 </div>
 
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
-
-
-
 
 ## Intro
 
@@ -105,7 +95,6 @@ You can make that adjustment through Helperbirds Cursor options.
 
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -114,8 +103,6 @@ You can make that adjustment through Helperbirds Cursor options.
 
 If you have difficulty seeing or following the mouse pointer when it moves — or it changes to an
 insertion point, crosshair or other shape — you can increase its size.
-
-
 
  </div>
   </div>

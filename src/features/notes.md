@@ -4,11 +4,7 @@ title: Your notes. Organized. Effortless in one app - Google Chrome, Firefox, Ed
 description:
   Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
   projects, to-do lists—with Helperbird as your note taking app, nothing falls through the cracks.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/notes.png
 facebookSocial: assets/images/graph/notes.png
 featureTitle: Take notes anywhere. Anytime. Any website.
@@ -19,8 +15,6 @@ featureDescription:
 tags: features
 url: /features/notes/
 ---
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -37,7 +31,6 @@ url: /features/notes/
 
 Your notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
 projects, to-do lists—with Helperbird as your note taking app, nothing falls through the cracks.
-
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -90,9 +83,6 @@ projects, to-do lists—with Helperbird as your note taking app, nothing falls t
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
 ## Intro
 
 Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
@@ -122,9 +112,6 @@ Delete and edit saved notes.
 Never lose track of your tasks and deadlines.
 
 Manage everything from big projects to personal moments.
-
-
-
 
    </div>
   </div>

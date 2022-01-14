@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
 title: Control the font sizes in your browser -  Chrome, Firefox, Edge, iPad, iPhone
-description: Helperbird lets you change the font text size, font type, font color and background color on a page. Sync across every browser.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+description:
+  Helperbird lets you change the font text size, font type, font color and background color on a
+  page. Sync across every browser.
+keywords: ''
 twitterSocial: assets/images/graph/sizes.png
 facebookSocial: assets/images/graph/sizes.png
 featureTitle: Font sizes
@@ -15,9 +13,6 @@ featureDescription:
 tags: features
 url: /features/font-sizes/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -77,21 +72,15 @@ Helperbird lets you change the font text size, font type, font color and backgro
   </div>
 </div>
 
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
 ## Intro
 
 Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms..
-
 
 </div>
 
@@ -100,7 +89,6 @@ Helperbirds Bookmark Manager that helps with Organization, Syncing across browse
 ## How to
 
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
-
 
 </div>
 
@@ -112,7 +100,6 @@ Helperbirds Bookmark Manager that helps with Organization, Syncing across browse
 - Sync Searches and Bookmarks Cross Browsers.
 - Delete and edit bookmarks.
 - Manage everything from big projects to personal bookmarks.
-
 
  </div>
   </div>

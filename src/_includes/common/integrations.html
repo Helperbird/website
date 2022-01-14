@@ -1,39 +1,45 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-    <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+		<h2 class="text-4xl font-extrabold text-black tracking-tight">
+			Helperbird works on your favorite
+			<span class="text-pink-600">platforms</span>. From every website you visit, to your favorite
+			apps, Helperbird is integrated with all of them.
+		</h2>
 
-        <h2 class="text-4xl font-extrabold text-black tracking-tight">
+		<div
+			class="
+				mt-12
+				grid grid-cols-1
+				gap-x-6 gap-y-12
+				sm:grid-cols-2
+				lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16
+			"
+		>
+			{%- for app in apps.all -%}
+			<div
+				class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5"
+				style="background: {{ app.color }}"
+			>
+				<div>
+					<span class="flex items-center justify-center h-12 w-12 rounded-md">
+						{{ app.icon | svgContents | safe }}
+					</span>
+				</div>
+				<div class="mt-6">
+					<h3 class="text-xl font-medium text-black">{{app.title}}</h3>
+					<p class="text-base font-medium text-black mt-2">{{app.description}}</p>
 
-            Helperbird works on your favorite
-            <span class="text-pink-600">platforms</span>. From every website you visit, to your favorite apps, Helperbird is integrated with all of them.
-        </h2>
+					<a
+						href="{{app.title}}"
+						target="_blank"
+						class="mt-6 w-full items-center justify-center px-5 py-3 btn btn-primary"
+						>Download</a
+					>
+				</div>
+			</div>
 
-
-        <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-
-            {%- for app in apps.all   -%}
-                <div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5" style="background: {{ app.color }}">
-                    <div>
-                        <span class="flex items-center justify-center h-12 w-12 rounded-md">
-                            {{  app.icon | svgContents("text-white")  | safe }}
-
-                        </span>
-                    </div>
-                    <div class="mt-6">
-                        <h3 class="text-xl font-medium text-black">
-                            {{app.title}}</h3>
-                        <p class="text-base font-medium text-black mt-2">
-                            {{app.description}}</h3>
-
-                        <a href="{{app.title}}" target="_blank" class="mt-6 w-full  items-center justify-center px-5 py-3 btn btn-primary">Download</a>
-                    </div>
-                </div>
-
-
-            {%- endfor -%}
-
-        </div>
-
-
-    </div>
+			{%- endfor -%}
+		</div>
+	</div>
 </div>

@@ -2,12 +2,9 @@
 layout: templates/features.html
 title: Free Web annotation extension - Websites, eBooks, Pdfs &  apps -
 description:
-  Highlight or annotate web pages, documents, pdfs, ebooks & more to improve research and study. Leaving sticking notes that help you with your research and homework.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  Highlight or annotate web pages, documents, pdfs, ebooks & more to improve research and study.
+  Leaving sticking notes that help you with your research and homework.
+keywords: ''
 twitterSocial: assets/images/graph/annotate.png
 facebookSocial: assets/images/graph/annotate.png
 featureTitle: Annotate website, ebooks, pdfs on Chrome, Firefox & Edge
@@ -17,9 +14,6 @@ featureDescription:
 tags: features
 url: /features/annotation/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -79,14 +73,11 @@ url: /features/annotation/
   </div>
 </div>
 
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
 
 ## Intro
 
@@ -99,12 +90,12 @@ videos, and more.
 Writing directly on the web page you are on is the most natural way to annotate. Make any web page
 or PDF files unique with your thoughts. Your work will always be there whenever you return to the
 page. Save, comment on everything you read online with Helperbird.
+
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## How to
-
 
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
@@ -122,10 +113,7 @@ page. Save, comment on everything you read online with Helperbird.
 - Change background color and font color of annotates.
 - Change size of the annotations and location.
 
-
-
-
+      </div>
 
     </div>
   </div>
-</div>

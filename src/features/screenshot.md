@@ -3,11 +3,7 @@ layout: templates/features.html
 title: Take a screenshot of any page with our extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
   Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/screenshot.png
 facebookSocial: assets/images/graph/screenshot.png
 featureTitle: Screenshot of any page
@@ -16,9 +12,6 @@ featureDescription:
 tags: features
 url: /features/screenshot/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -33,7 +26,6 @@ url: /features/screenshot/
             <span class="block">     Full Page Screenshot Capture
 </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-
 
 Capture the full page of a website in your browser. Capture a screenshot of your current page in
 entirety and reliably—without requesting any extra permissions with Helperbird.
@@ -89,9 +81,6 @@ entirety and reliably—without requesting any extra permissions with Helperbird
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
 ## Intro
 
 From the feedback of our users who wanted an easy and quick way to capture and download a screenshot
@@ -105,8 +94,6 @@ Right-click on any web page, Helperbird, Screenshot, and the screenshot will dow
 downloads folder.
 
 </div>
-
-
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
@@ -123,7 +110,6 @@ downloads folder.
 It can remove the need for a resource heavy screen capturing software.
 
 Capture and save a web page in just a few clicks which can increase overall browsing efficiency.
-
 
 </div>
     </div>

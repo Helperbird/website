@@ -1,14 +1,10 @@
 ---
 layout: templates/features.html
-title:  Dyslexic fonts & Font changer extension - Chrome, Firefox, Edge, iPad, iPhone 
+title: Dyslexic fonts & Font changer extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
   Change the font to any specialized web fonts for dyslexics and others. Convert the font on
   websites to use OpenDyslexic, Lexend and more.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Specialised Dyslexic fonts
@@ -33,15 +29,9 @@ url: /features/specialised-dyslexic-fonts/
 </span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-
-
-
-
-
-
-
 Change the font to any specialized web fonts for dyslexics and others. Convert the font on websites
 to use OpenDyslexic, Lexend and more.
+
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -93,10 +83,6 @@ to use OpenDyslexic, Lexend and more.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
 Changing the font to your favourite on any website with Helperbird is easy. Pick your favourite font
@@ -110,7 +96,6 @@ intuitive design means it's quick and easy to change between our 14 plus fonts.
 ## How to
 
 ![Helperbird support feature](https://img.youtube.com/vi/QmFo0u4aIF4/sddefault.jpg)
-
 
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/dyslexia-font/dyslexia-font.png)
 
@@ -136,7 +121,6 @@ intuitive design means it's quick and easy to change between our 14 plus fonts.
 - Impact
 - Times
 - Lexend
-
 
 </div>
     </div>

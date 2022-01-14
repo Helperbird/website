@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
 title: Mute annoying auto playing videos - Chrome, Firefox, Edge, iPad, iPhone
-description:  Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+description:
+  Nothing is more irritating loud audio starts playing from a video that you can’t even see on the
+  website. Helperbird fixes that in two clicks.
+keywords: ''
 twitterSocial: assets/images/graph/mute.png
 facebookSocial: assets/images/graph/mute.png
 featureTitle: Mute videos and audio
@@ -28,7 +26,8 @@ url: /features/mute-videos/
             <span class="block">Mute all annoying videos and audio</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
+Nothing is more irritating loud audio starts playing from a video that you can’t even see on the
+website. Helperbird fixes that in two clicks.
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -81,16 +80,16 @@ Nothing is more irritating loud audio starts playing from a video that you can�
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
 ## Intro
 
-Nothing is more irritating loud audio starts playing from a video that you can’t even see on the website. Helperbird fixes that in two clicks.
+Nothing is more irritating loud audio starts playing from a video that you can’t even see on the
+website. Helperbird fixes that in two clicks.
+
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-## Video & Screenshots  
+## Video & Screenshots
 
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/immersive-reader-for-chrome/immersive-reader-for-chrome.png)
 
@@ -100,11 +99,9 @@ Nothing is more irritating loud audio starts playing from a video that you can�
 
 ## Features
 
-- Stop videos from auto playing 
+- Stop videos from auto playing
 - Stop audio from auto playing
 - Mute all annoying videos and audio
-
-
 
    </div>
   </div>

@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
-title: Adjust line height, letters & words spacing extension 
-description: Adjust letters and words spacing on any website or pdf to suit your needs and make reading online easier. Available on Chrome, Edge, Firefox, iPad, and iPhone.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Adjust line height, letters & words spacing extension
+description:
+  Adjust letters and words spacing on any website or pdf to suit your needs and make reading online
+  easier. Available on Chrome, Edge, Firefox, iPad, and iPhone.
+keywords: ''
 twitterSocial: assets/images/social/adjustletter.png
 facebookSocial: assets/images/graph/adjustletter.png
 featureTitle: Adjust Letters and Words
@@ -15,13 +13,6 @@ featureDescription:
 url: /features/adjust-letters-and-words/
 tags: features
 ---
-
-
-
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -81,16 +72,11 @@ tags: features
   </div>
 </div>
 
-
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
 
 ## Intro
 
@@ -99,17 +85,13 @@ Have you ever thought,“The text here sure is tricky to read. Wonder when they 
 It’s not just the need for reading glasses that can make you wish the words on your display were
 bigger. Well with Helperbirds adjust feature, you can adjust letter, word, and line-height spacing.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## How to
 
-
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
-
-
 
 </div>
 
@@ -123,8 +105,7 @@ bigger. Well with Helperbirds adjust feature, you can adjust letter, word, and l
 
 - Clutter-clearing power tools to remove distracting multimedia (images, videos, fancy backgrounds)
 
-
+      </div>
 
     </div>
   </div>
-</div>

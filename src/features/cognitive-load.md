@@ -1,13 +1,12 @@
 ---
 layout: templates/features.html
 title: Make reading on-screen easier and faster - Chrome, Firefox, iPad, Edge, iPhone
-description: Helperbird's cognitive load feature  adds a color gradient across the text on page. Making reading faster/easier. Over 80% of users say they find Helperbird's cognitive load feature  to be very helpful.
+description:
+  Helperbird's cognitive load feature  adds a color gradient across the text on page. Making reading
+  faster/easier. Over 80% of users say they find Helperbird's cognitive load feature  to be very
+  helpful.
 
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/cognitive-load.png
 facebookSocial: assets/images/graph/cognitive-load.png
 featureTitle: Cognitive Load
@@ -16,10 +15,6 @@ featureDescription:
 tags: features
 url: /features/cognitive-load/
 ---
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -79,19 +74,11 @@ url: /features/cognitive-load/
   </div>
 </div>
 
-
-
-
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
-
 
 ## Intro
 
@@ -103,6 +90,7 @@ Helperbirds cognitive load feature helps by using a simple cognitive trick. Maki
 comfortable, easier, and quicker for a lot of users.
 
 This is done by using a granular colored pattern across each sentence and text on the page.
+
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -117,12 +105,9 @@ This is done by using a granular colored pattern across each sentence and text o
 	control="control" 
 	loop="loop" 
 	muted="muted" 
-	playsinline="playsinline">
-		<source 
+	playsinline="playsinline"> <source 
 			src="/assets/videos/home.webm" 
-			type="video/webm">
-		<source src="/assets/videos/home.mp4" type="video/mp4">
-</video>
+			type="video/webm"> <source src="/assets/videos/home.mp4" type="video/mp4"> </video>
 
 </div>
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -141,7 +126,6 @@ This is done by using a granular colored pattern across each sentence and text o
 - Helps to improve reading speed.
 
 - Can improve memory retention of the information being read.
-
 
   </div>
   </div>

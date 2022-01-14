@@ -1,13 +1,10 @@
 ---
 layout: templates/features.html
 title:
-  Reading guide - Helping you to read long texts on web pages |  Chrome, Firefox, Edge, iPad &  iPhone
+  Reading guide - Helping you to read long texts on web pages |  Chrome, Firefox, Edge, iPad
+  &  iPhone
 description: Reading ruler, useful when you are reading long texts on the web.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/guide.png
 facebookSocial: assets/images/graph/guide.png
 featureTitle: Reading guide
@@ -15,7 +12,6 @@ featureDescription: Reading ruler, useful when you are reading long texts on the
 tags: features
 url: /features/reading-guide/
 ---
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -81,13 +77,10 @@ Helperbirds reading guide extension helps you to read long texts on web pages. T
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
-Helperbirds reading guide extension helps you to read long texts on web pages. This tool can assist dyslexic readers to keep their place on the page they are reading.
+Helperbirds reading guide extension helps you to read long texts on web pages. This tool can assist
+dyslexic readers to keep their place on the page they are reading.
 
 </div>
 
@@ -100,17 +93,13 @@ Helperbirds reading guide extension helps you to read long texts on web pages. T
 - Opacity settings
 - Shadow adjustments
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos & Screenshots
 
-
-
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
-
 
 </div>
 </div>

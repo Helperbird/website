@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
 title: Correctly highlight paragraphs while reading - Chrome, Firefox, Edge, iPad, iPhone
-description: Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+description:
+  Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies
+  of text, making it easier to read.
+keywords: ''
 twitterSocial: assets/images/graph/highlight.png
 facebookSocial: assets/images/graph/highlight.png
 featureTitle: Highlight paragraphs
@@ -17,7 +15,6 @@ featureDescription:
 tags: features
 url: /features/highlight-paragraphs/
 ---
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -83,15 +80,11 @@ Add a colorfull border around paragraphs while reading. Making it easier to brea
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
 A much-requested feature is finally here. Highlight any paragraph or text on a website. Any colour
-you want. Super handy for studying and revision. All highlights
-will stay on the page and will also be stored in yours notes app.
+you want. Super handy for studying and revision. All highlights will stay on the page and will also
+be stored in yours notes app.
 
 </div>
 
@@ -101,9 +94,7 @@ will stay on the page and will also be stored in yours notes app.
 
 ![Helperbird support feature](https://youtu.be/u67t7Ap61Nc)
 
-
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/invert/invert.png)
-
 
 </div>
 

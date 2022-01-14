@@ -1,14 +1,13 @@
 ---
 layout: templates/features.html
-title: Reader mode, View for clutter-free web pages with dyslexia support - Chrome, Edge, Firefox, iPad &  iPhone
+title:
+  Reader mode, View for clutter-free web pages with dyslexia support - Chrome, Edge, Firefox, iPad
+  &  iPhone
 description:
-  Turns any webpage into easy-to-read text. Helperbirds Reader Mode removes ads and distractions from any
-  webpage with complete customization with dyslexia support. View for clutter-free web pages.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  Turns any webpage into easy-to-read text. Helperbirds Reader Mode removes ads and distractions
+  from any webpage with complete customization with dyslexia support. View for clutter-free web
+  pages.
+keywords: ''
 twitterSocial: assets/images/graph/readermode.png
 facebookSocial: assets/images/graph/readermode.png
 featureTitle: Reader mode
@@ -18,9 +17,6 @@ featureDescription:
 tags: features
 url: /features/reader-mode-for-chrome-and-firefox/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -88,12 +84,6 @@ customization. View clutter-free web pages with dyslexia support and research to
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
 ## About the Reader Mode feature.
 
 Helperbird gives you a Reader Mode that removes ads and distractions from any webpage with complete
@@ -127,7 +117,6 @@ preferences.
 
 Giving you just the content you want and need. No ads, no flashing images. The content without any
 ads and distraction free.
-
 
 </div>
     </div>

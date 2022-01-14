@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
-title: Display Alt and title tags on mouse hover 
-description: Discover Alt and title tags on every website with Helperbird. Through the use of tooltips, discover missing alt tags on hover and display them on mouse hover.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Display Alt and title tags on mouse hover
+description:
+  Discover Alt and title tags on every website with Helperbird. Through the use of tooltips,
+  discover missing alt tags on hover and display them on mouse hover.
+keywords: ''
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Alt tags highlighter
@@ -14,10 +12,6 @@ featureDescription: Show Alt tags on mouse over for Chrome, Firefox and Edge
 tags: features
 url: /features/alt-tool-tip-highlighter/
 ---
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -77,32 +71,23 @@ url: /features/alt-tool-tip-highlighter/
   </div>
 </div>
 
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
 Helperbird allows you to show ALT & title tags on mouse over.
-
-
 
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## How to
-<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
+<video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
 </div>
 

@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
-title: Annotate & highlight PDFs with dyslexia support | Chrome, Firefox, Edge, iPad, iPhone 
-description: Helperbird makes it easy to annotate your PDF documents with dyslexia support and send them for group review online and for studying.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Annotate & highlight PDFs with dyslexia support | Chrome, Firefox, Edge, iPad, iPhone
+description:
+  Helperbird makes it easy to annotate your PDF documents with dyslexia support and send them for
+  group review online and for studying.
+keywords: ''
 twitterSocial: assets/images/graph/pdfs.png
 facebookSocial: assets/images/graph/pdfs.png
 featureTitle: Pdfs support
@@ -14,7 +12,6 @@ featureDescription: Quickly annotate and highlight PDFs with Helperbird online f
 tags: features
 url: /features/pdfs/
 ---
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -30,9 +27,9 @@ url: /features/pdfs/
 support and much more</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-
 Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
-makes it easy to annotate your PDF documents with dyslexia support and send them for group review online and for studying.
+makes it easy to annotate your PDF documents with dyslexia support and send them for group review
+online and for studying.
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -85,12 +82,6 @@ makes it easy to annotate your PDF documents with dyslexia support and send them
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
 ## Intro
 
 With Helperbirds PDF support. You can annotate, highlight PDF files but you can also have dyslexia
@@ -122,14 +113,13 @@ Click the highlight button.
 
 Thats it.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos & screenshots
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
+![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
    </div>
   </div>

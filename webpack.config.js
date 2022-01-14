@@ -5,7 +5,7 @@ const HTMLInlineCSSWebpackPlugin = require('html-inline-css-webpack-plugin').def
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
-	mode: 'production',
+	mode: 'development',
 	context: __dirname + '/src/',
 	entry: ['./assets/js/index.js', './assets/css/styles.css'],
 	plugins: [new MiniCssExtractPlugin({ ignoreOrder: false }), new HTMLInlineCSSWebpackPlugin()],

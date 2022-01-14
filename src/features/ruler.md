@@ -2,12 +2,9 @@
 layout: templates/features.html
 title: Dyslexia ruler extension | Chrome, Firefox, Edge, iPad & iPhone
 description:
-  Helperbirds dyslexia ruler allows users to place a transparent ruler on a web page to improve reading focus.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  Helperbirds dyslexia ruler allows users to place a transparent ruler on a web page to improve
+  reading focus.
+keywords: ''
 twitterSocial: assets/images/graph/ruler.png
 facebookSocial: assets/images/graph/ruler.png
 featureTitle: Dyslexia ruler
@@ -16,9 +13,6 @@ featureDescription:
 tags: features
 url: /features/ruler/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -33,11 +27,10 @@ url: /features/ruler/
             <span class="block">    Dyslexia Ruler</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-
-
 Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content.
 It can be any colour to improve the accessibility of the text your reading. This tool can assist
 dyslexic readers and others in keeping their place on the page being read.
+
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -89,9 +82,6 @@ dyslexic readers and others in keeping their place on the page being read.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
 ## Intro
 
 Helperbirds Dyslexia ruler is a colored transparent ruler that is placed across a web page while
@@ -116,7 +106,6 @@ your reading line. Adjust the position of the ruler to your reading line. Follow
 
 ## Screenshots & Videos
 
-
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
 </div>
@@ -130,7 +119,6 @@ Helps dyslexics and dyspraxics to keep focus while reading a web page.
 Helps people who have focus difficulties.
 
 Helps people with visual impairment conditions.
-
 
 </div>
 </div>

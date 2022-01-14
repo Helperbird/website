@@ -4,11 +4,7 @@ title: Add a gray scale or theme to any website - Chrome, Firefox, Edge, Safari,
 description:
   Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for
   all sites. Including several themes.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/grayscale.png
 facebookSocial: assets/images/graph/grayscale.png
 featureTitle: Grayscale mode
@@ -18,13 +14,6 @@ featureDescription:
 tags: features
 url: /features/gray-hue-overlay/
 ---
-
-
-
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -84,19 +73,16 @@ url: /features/gray-hue-overlay/
   </div>
 </div>
 
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
 ## Intro
 
-Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for all sites.
+Removes all color from websites, turning them gray. Can be set for specific sites and tabs, or for
+all sites.
 
 </div>
 
@@ -104,21 +90,19 @@ Removes all color from websites, turning them gray. Can be set for specific site
 
 ## How to
 
-
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
 ## Features
 
- - Grayscale hue
- - Increased contrast
- - Inverted colors
- - Inverted greyscale
- - Yellow on Black
+- Grayscale hue
+- Increased contrast
+- Inverted colors
+- Inverted greyscale
+- Yellow on Black
 
    </div>
   </div>

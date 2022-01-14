@@ -1,12 +1,10 @@
 ---
 layout: templates/features.html
-title: CColor blindness support for any browser - Chrome, Firefox, Edge, iPhone, iPad 
-description: A customizable color features applied to webpages to improve color perception, for people who are partially color-blind.  By underlining and stroking web page links.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Color blindness support for any browser - Chrome, Firefox, Edge, iPhone, iPad
+description:
+  A customizable color features applied to webpages to improve color perception, for people who are
+  partially color-blind.  By underlining and stroking web page links.
+keywords: ''
 twitterSocial: assets/images/graph/blindness.png
 facebookSocial: assets/images/graph/blindness.png
 featureTitle: Color blindness
@@ -14,10 +12,6 @@ featureDescription: Color blindness features including Emphasize Links and strok
 tags: features
 url: /features/color-blindness/
 ---
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -77,17 +71,11 @@ url: /features/color-blindness/
   </div>
 </div>
 
-
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
-
 
 ## Intro
 
@@ -105,9 +93,7 @@ Helperbird helps with color blindness by underling and stroking links.
 
 ## How to
 
-
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
-
 
 </div>
 
@@ -121,7 +107,6 @@ the page using a four different colors. Making it stand out for most color blind
 Along with Helperbirds theme and style features. We offer a stroke feature that adds a stroke effect
 around the text to help with color blindness.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
@@ -131,7 +116,6 @@ around the text to help with color blindness.
 Dyslexics find websites text easier to read with dyslexia friendly colors.
 
 Users can choose to customize their web page colors for personal preference.
-
 
  </div>
   </div>

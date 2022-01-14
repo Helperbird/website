@@ -1,14 +1,11 @@
 ---
 layout: templates/features.html
-title: In-browser editor with Microsoft Word, Google Docs support - Chrome, Firefox, Edge, iPad, iPhone
+title:
+  In-browser editor with Microsoft Word, Google Docs support - Chrome, Firefox, Edge, iPad, iPhone
 description:
   View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
   Slides aswell.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/editor.png
 facebookSocial: assets/images/graph/editor.png
 featureTitle: Full document editor
@@ -18,8 +15,6 @@ featureDescription:
 tags: features
 url: /features/editor/
 ---
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -34,55 +29,31 @@ url: /features/editor/
             <span class="block">In-browser editor with Microsoft Word, Google Docs support</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-  View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
-  Slides aswell.
-          </p>
-          <div class="mt-10 sm:mt-12">
-            <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
-              <div class="sm:flex">
-                <a
+View, Create and edit Microsoft Word, Google Docs, Markdown files with Google Docs, Sheets, and
+Slides aswell. </p> <div class="mt-10 sm:mt-12"> <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
+
+<div class="sm:flex"> <a
                   href="/pricing"
                   target="_blank"
                   class="btn btn-accent"
                   >Try it now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-        <div
+                > </div> </div> </div> </div> </div>
+<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative"> <div
           class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
-        >
-          <div class="ipadiphone">
-            <div class="ipadiphone-iphone">
-              <div class="mask mask__noimage">
-                <img
+        > <div class="ipadiphone"> <div class="ipadiphone-iphone"> <div class="mask mask__noimage">
+<img
                   alt="Screenshot of Helperbird running on iPad iOs 15"
                   src="/assets/images/products/ipad-iphone/helperbird-running-on-iphone.png"
                   class="mask-img"
-                />
-              </div>
-            </div>
-            <div class="ipadiphone-ipad launchaco-builder-hoverable">
-              <div class="mask mask__noimage">
-                <img
+                /> </div> </div> <div class="ipadiphone-ipad launchaco-builder-hoverable">
+<div class="mask mask__noimage"> <img
                   alt="Screenshot of Helperbird running on iOs 15 for iPad"
                   src="/assets/images/products/ipad-iphone/helperbirds-iphone-app-running.png"
                   class="mask-img"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                /> </div> </div> </div> </div> </div> </div>
+
   </div>
 </div>
-
-
-
 
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
@@ -90,12 +61,9 @@ url: /features/editor/
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
 ## Intro
 
 Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms..
-
 
 </div>
 
@@ -104,7 +72,6 @@ Helperbirds Bookmark Manager that helps with Organization, Syncing across browse
 ## How to
 
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
-
 
 </div>
 
@@ -116,7 +83,6 @@ Helperbirds Bookmark Manager that helps with Organization, Syncing across browse
 - Sync Searches and Bookmarks Cross Browsers.
 - Delete and edit bookmarks.
 - Manage everything from big projects to personal bookmarks.
-
 
  </div>
   </div>

@@ -2,12 +2,9 @@
 layout: templates/features.html
 title: (OCR) Optical Character Recognition extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
-  Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  Helperbirds OCR features  turns text within any image captured from your screen and copies it to
+  your clipbiard – making it easy to reuse in digital documents, emails or reports.
+keywords: ''
 twitterSocial: assets/images/graph/ocr.png
 facebookSocial: assets/images/graph/ocr.png
 featureTitle: Optical Character Recognition
@@ -30,9 +27,8 @@ url: /features/optical-character-recognition/
             <span class="block">OCR (Optical Character Recognition) software</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-
-Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
-
+Helperbirds OCR features turns text within any image captured from your screen and copies it to your
+clipbiard – making it easy to reuse in digital documents, emails or reports.
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -85,19 +81,15 @@ Helperbirds OCR features  turns text within any image captured from your screen 
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
 ## Intro
 
-Do you need to extract text from images, videos, website or PDF ? Helperbirds OCR features  turns text within any image captured from your screen and copies it to your clipbiard – making it easy to reuse in digital documents, emails or reports.
+Do you need to extract text from images, videos, website or PDF ? Helperbirds OCR features turns
+text within any image captured from your screen and copies it to your clipbiard – making it easy to
+reuse in digital documents, emails or reports.
 
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
-
 
 ## Features
 
@@ -112,9 +104,8 @@ Do you need to extract text from images, videos, website or PDF ? Helperbirds OC
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos and Screenshots
+
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/notes/notes.png)
-
-
 
    </div>
   </div>

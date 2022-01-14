@@ -42,7 +42,7 @@
 		}
 	],
 
-	"helperbird":[
+	"helperbird": [
 		{
 			"question": "What is Helperbird?",
 			"answer": "With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs and documents more accessible and productive to your needs. It’s designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle."
@@ -81,7 +81,6 @@
 			"question": "What browsers does Helperbird run on?",
 			"answer": "Currently Google Chrome, Mozilla Firefox and Edge. Coming soon on macOS Safari extension and iPad."
 		},
-
 
 		{
 			"question": "I have a suggestion!",

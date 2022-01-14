@@ -1,14 +1,10 @@
 ---
 layout: templates/features.html
-title: Automatically scroll down pages in any browser - Chrome, Edge, Firefox, iPad, iPhone 
+title: Automatically scroll down pages in any browser - Chrome, Edge, Firefox, iPad, iPhone
 description:
   Helperbird  allows you to easily change the auto-scroll speed and save it in three different
   modes; slow, medium and fast. A single click will stop the auto-scrolling.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/autoscroll.png
 facebookSocial: assets/images/graph/autoscroll.png
 featureTitle: Simple speed-customizable auto scrol for Chrome, Firefox and Edge
@@ -18,10 +14,6 @@ featureDescription:
 tags: features
 url: /features/auto-scroll/
 ---
-
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -81,16 +73,11 @@ url: /features/auto-scroll/
   </div>
 </div>
 
-
-
-
-
 <div class="relative py-16 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
-
 
 ## Intro
 
@@ -99,13 +86,11 @@ slow, medium and fast.
 
 A single click will stop the auto-scrolling.
 
-
 </div>
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## How to
-
 
 <video autoplay="autoplay" class="relative rounded-lg shadow-lg" control="control" loop="loop" muted="muted" playsinline="playsinline"><source src="/assets/videos/home.webm" type="video/webm"><source src="/assets/videos/home.mp4" type="video/mp4"></video>
 
@@ -118,7 +103,6 @@ A single click will stop the auto-scrolling.
 - Helperbird allows you to easily change the auto-scroll speed and save it in three different modes;
   slow, medium and fast.
 - A single click will stop the auto-scrolling.
-
 
   </div>
   </div>

@@ -1,42 +1,39 @@
 {
-
 	"all": [
 		{
-			"icon":"/src/_includes/svgs/g-docs.svg",
+			"icon": "/src/_includes/svgs/g-docs.svg",
 			"title": "Google Docs",
 			"color": "rgba(253,113,175,.1)",
 			"description": "Helperbird for Google Docs, brings in all our famous features plus more support.",
 			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
 		},
 		{
-			"icon":"/src/_includes/svgs/g-slides.svg",
+			"icon": "/src/_includes/svgs/g-slides.svg",
 			"title": "Google Slides",
 			"color": "rgba(255,200,0,.1)",
 			"description": "Helperbird for Google Slides, brings in all our famous features.",
 			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
 		},
 		{
-			"icon":"/src/_includes/svgs/chrome.svg",
+			"icon": "/src/_includes/svgs/chrome.svg",
 			"title": "Chrome",
 			"color": "rgba(107,201,80,.1)",
 			"description": "Over 32 features to allow you to change the web experience to your needs.",
 			"link": "https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
 		},
 		{
-			"icon":"/src/_includes/svgs/edge.svg",
+			"icon": "/src/_includes/svgs/edge.svg",
 			"title": "Edge",
 			"color": "rgba(123,104,238,.1)",
 			"description": "Helperbird built for Edge, brings in all our famous features.",
 			"link": "https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
-		}
-		,
+		},
 		{
-			"icon":"/src/_includes/svgs/firefox.svg",
+			"icon": "/src/_includes/svgs/firefox.svg",
 			"title": "Firefox",
 			"color": "rgba(73,204,249,.1)",
 			"description": "Helperbird for Firefox, brings in all our famous features plus a few Firefox exclusive features.",
 			"link": "https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
 		}
 	]
-
 }

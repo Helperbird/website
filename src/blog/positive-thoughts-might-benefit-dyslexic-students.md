@@ -3,10 +3,10 @@ layout: templates/blog_post.liquid
 title: How positive thoughts might benefit dyslexic students. | Helperbird
 description: How positive thoughts might benefit dyslexic students.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  OpenDyslexic'
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/positive-thoughts-might-benefit-dyslexic-students/

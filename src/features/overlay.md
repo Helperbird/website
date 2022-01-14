@@ -1,12 +1,11 @@
 ---
 layout: templates/features.html
 title: Color Overlay extension - Chrome, Edge, Firefox, iPad &  iPhone
-description: Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more readable. People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+description:
+  Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more
+  readable. People who don't like bright white web pages can now change the overlay color of a web
+  page with the overlay feature.
+keywords: ''
 twitterSocial: assets/images/graph/overlay.png
 facebookSocial: assets/images/graph/overlay.png
 featureTitle: Color overlays & tints
@@ -16,7 +15,6 @@ featureDescription:
 tags: features
 url: /features/overlay/
 ---
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -31,9 +29,9 @@ url: /features/overlay/
             <span class="block">    Color overlays for every browser</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-
-Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more readable. People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
-
+Color Overlay extension is a feature which puts a tint on your browser viewport to make text more
+readable. People who don't like bright white web pages can now change the overlay color of a web
+page with the overlay feature.
 
  </p>
           <div class="mt-10 sm:mt-12">
@@ -86,12 +84,6 @@ Color Overlay extension  is a feature which puts a tint on your browser viewport
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
 ## Intro
 
 Color Overlay is a filter that puts a tint on your browser viewport to make the text more readable.
@@ -111,6 +103,7 @@ color of a web page with the Helperbird’s overlay feature.
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos & Screenshots
+
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
 </div>
@@ -125,8 +118,6 @@ Pick from 24 default colors or a custom color.
 
 Shades Chrome to a soothing orange color to decrease eye-strain, eye fatigue and to appease your
 brains day/night cycle.
-
-
 
    </div>
   </div>

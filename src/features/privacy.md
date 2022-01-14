@@ -4,11 +4,7 @@ title: Privacy features of Helperbird | Helperbird
 description:
   Helperbirds privacy features don`t sell, store, or consume any user data. We do not store data or
   any other user-related content.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/privacy.png
 facebookSocial: assets/images/graph/privacy.png
 featureTitle: Privacy features
@@ -18,8 +14,6 @@ featureDescription:
 tags: features
 url: /features/privacy/
 ---
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -87,12 +81,6 @@ user-related content.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
 ## Intro
 
 Helperbird does not sell, store, or consume any user data.
@@ -125,8 +113,8 @@ to stay confident and secure about how their private information is processed on
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos & Screenshots
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
+![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
    </div>
   </div>

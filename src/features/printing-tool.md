@@ -2,11 +2,7 @@
 layout: templates/features.html
 title: Quickly print a page with Helperbird | Helperbird
 description: Pages are optimized for the ultimate print reading experience.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: ''
 twitterSocial: assets/images/graph/print.png
 facebookSocial: assets/images/graph/print.png
 featureTitle: Printing tools
@@ -14,8 +10,6 @@ featureDescription: Pages are optimized for the ultimate print reading experienc
 tags: features
 url: /features/printing-tool/
 ---
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -82,8 +76,6 @@ Pages are optimized for the ultimate print reading experience.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
 ## Intro
 
 With Helperbirds PDF support. You can annotate, highlight PDF files but you can also have dyslexia
@@ -102,8 +94,8 @@ Print button works for Windows, Mac and Linux. And also Google Chromebooks.
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos & Screenshots
-![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
+![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
 
    </div>
   </div>

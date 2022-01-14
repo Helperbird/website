@@ -1,13 +1,8 @@
 ---
 layout: templates/features.html
 title: Set the text width extension - Chrome, Firefox, Edge, iPad, iPhone
-description:
-  Read your websites more relaxed with automatic columns for wide content.
-keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+description: Read your websites more relaxed with automatic columns for wide content.
+keywords: ''
 twitterSocial: assets/images/graph/width.png
 facebookSocial: assets/images/graph/width.png
 featureTitle: Paragraphs widths
@@ -15,9 +10,6 @@ featureDescription: Set the width of paragraphs. Making it easier to focus and r
 tags: features
 url: /features/paragraph-widths/
 ---
-
-
-
 
 <div class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden">
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
@@ -32,7 +24,9 @@ url: /features/paragraph-widths/
             <span class="block">Set the width of paragraphs</span> </h1>
 					<p class="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 
-Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns,  which are easier and more relaxed to read. 
+Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks
+in websites into columns, which are easier and more relaxed to read.
+
  </p>
           <div class="mt-10 sm:mt-12">
             <div class="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -84,16 +78,10 @@ Wait no more! Here comes the Helperbird paragraph width. It automatically conver
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
-
-
-
-
-
-
 ## Intro
 
-Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns,  which are easier and more relaxed to read. 
-
+Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks
+in websites into columns, which are easier and more relaxed to read.
 
 </div>
 
@@ -108,9 +96,8 @@ Control the width of the paragraphs on a page
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
 ## Videos and Screenshots
+
 ![Helperbird support feature](https://www.helperbird.com/assets/images/new/overlay/overlay.png)
-
-
 
    </div>
   </div>

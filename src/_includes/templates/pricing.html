@@ -210,10 +210,8 @@
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
 	<body class="bg-base-300 text-base-content h-full" data-theme="helperbird">
-
-		{% include header.html %} 
+		{% include header.html %}
 		<main class="bg-white">{{ content | safe }}</main>
-		{% include footer.html %} 
-		{% bundledJs %}
+		{% include footer.html %} {% bundledJs %}
 	</body>
 </html>
