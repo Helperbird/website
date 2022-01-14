@@ -4,7 +4,10 @@ title: (OCR) Optical Character Recognition extension - Chrome, Firefox, Edge, iP
 description:
   Helperbirds OCR features  turns text within any image captured from your screen and copies it to
   your clipbiard – making it easy to reuse in digital documents, emails or reports.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/ocr.png
 facebookSocial: assets/images/graph/ocr.png
 featureTitle: Optical Character Recognition

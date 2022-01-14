@@ -2,11 +2,10 @@
 layout: templates/help.html
 title: How to print a website - Helperbird for Chrome, Firefox and Edge
 description: Learn how to print a website in Chrome, Firefox and Edge.
-keywords:
-  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic'
+  OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Print

@@ -4,7 +4,10 @@ title: Correctly highlight paragraphs while reading - Chrome, Firefox, Edge, iPa
 description:
   Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies
   of text, making it easier to read.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/highlight.png
 facebookSocial: assets/images/graph/highlight.png
 featureTitle: Highlight paragraphs

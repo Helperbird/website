@@ -4,7 +4,10 @@ title: Word prediction on every website, even Google docs - Chrome, Firefox, Edg
 description:
   Helperbirds word prediction is smart & spelling aware. Helperbird Speech to text recognition
   allows you to speak it, and Helperbird will write it.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Word prediction

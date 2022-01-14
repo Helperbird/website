@@ -4,7 +4,10 @@ title: Make the mouse pointer larger or smaller -  Chrome, Firefox, Edge, iPhone
 description:
   Increase the size of the pointer making  it easier to see and help you use your device more
   efficiently. It's particularly useful for those with a visual impairment.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/cursor.png
 facebookSocial: assets/images/graph/cursor.png
 featureTitle: Cursor controls

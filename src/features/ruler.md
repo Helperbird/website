@@ -4,7 +4,10 @@ title: Dyslexia ruler extension | Chrome, Firefox, Edge, iPad & iPhone
 description:
   Helperbirds dyslexia ruler allows users to place a transparent ruler on a web page to improve
   reading focus.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/ruler.png
 facebookSocial: assets/images/graph/ruler.png
 featureTitle: Dyslexia ruler

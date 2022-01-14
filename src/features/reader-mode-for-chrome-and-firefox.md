@@ -7,7 +7,10 @@ description:
   Turns any webpage into easy-to-read text. Helperbirds Reader Mode removes ads and distractions
   from any webpage with complete customization with dyslexia support. View for clutter-free web
   pages.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/readermode.png
 facebookSocial: assets/images/graph/readermode.png
 featureTitle: Reader mode

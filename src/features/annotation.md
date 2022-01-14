@@ -4,7 +4,10 @@ title: Free Web annotation extension - Websites, eBooks, Pdfs &  apps -
 description:
   Highlight or annotate web pages, documents, pdfs, ebooks & more to improve research and study.
   Leaving sticking notes that help you with your research and homework.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/annotate.png
 facebookSocial: assets/images/graph/annotate.png
 featureTitle: Annotate website, ebooks, pdfs on Chrome, Firefox & Edge

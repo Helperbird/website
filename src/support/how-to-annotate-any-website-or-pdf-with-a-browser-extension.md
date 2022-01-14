@@ -3,11 +3,10 @@ layout: templates/support_post.html
 title: How to annotate any website or pdf with a browser extension | Helperbird
 description:
   How to annotate any website or pdf with a Chrome, Firefox or Edge extension. By Helperbird.
-keywords:
-  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic'
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/how-to-annotate-any-website-or-pdf-with-a-browser-extension/

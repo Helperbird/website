@@ -4,7 +4,10 @@ title: Control the font sizes in your browser -  Chrome, Firefox, Edge, iPad, iP
 description:
   Helperbird lets you change the font text size, font type, font color and background color on a
   page. Sync across every browser.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/sizes.png
 facebookSocial: assets/images/graph/sizes.png
 featureTitle: Font sizes

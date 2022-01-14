@@ -4,7 +4,10 @@ title: Your Bookmarks. Organized. Effortless - Google Chrome, Firefox, Edge, iPa
 description:
   Helperbirds reading list features  helps with Organization your book marks , Syncing across
   browsers and platforms.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/bookmarks.png
 facebookSocial: assets/images/graph/bookmarks.png
 featureTitle: Read it later

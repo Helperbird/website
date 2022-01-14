@@ -4,7 +4,10 @@ title: Color blindness support for any browser - Chrome, Firefox, Edge, iPhone, 
 description:
   A customizable color features applied to webpages to improve color perception, for people who are
   partially color-blind.  By underlining and stroking web page links.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/blindness.png
 facebookSocial: assets/images/graph/blindness.png
 featureTitle: Color blindness

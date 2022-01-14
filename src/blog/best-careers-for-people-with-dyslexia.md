@@ -8,11 +8,10 @@ description:
   learning disability that affects one’s ability to read, write, and spell—and it has nothing to do
   with how intelligent a person is. People with dyslexia can be as smart and as capable as their
   neurotypical peers.
-keywords:
-  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic'
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/best-careers-for-people-with-dyslexia/

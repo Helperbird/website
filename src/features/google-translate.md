@@ -3,7 +3,10 @@ layout: templates/features.html
 title: View translations easily as you browse the web - Chrome, Firefox, Edge, Safari, iPad, iPhone
 description:
   Helperbird gives free translation support to any website or text, though out your browsing.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/translate.png
 facebookSocial: assets/images/graph/translate.png
 featureTitle: Translate

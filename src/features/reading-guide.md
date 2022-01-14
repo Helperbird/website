@@ -4,7 +4,10 @@ title:
   Reading guide - Helping you to read long texts on web pages |  Chrome, Firefox, Edge, iPad
   &  iPhone
 description: Reading ruler, useful when you are reading long texts on the web.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/guide.png
 facebookSocial: assets/images/graph/guide.png
 featureTitle: Reading guide

@@ -3,11 +3,10 @@ layout: templates/help.html
 title: What is Helperbird Pro? - Helperbird
 description:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
-keywords:
-  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic'
+  OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: What is Helperbird Pro?

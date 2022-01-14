@@ -4,7 +4,10 @@ title: Adjust line height, letters & words spacing extension
 description:
   Adjust letters and words spacing on any website or pdf to suit your needs and make reading online
   easier. Available on Chrome, Edge, Firefox, iPad, and iPhone.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/social/adjustletter.png
 facebookSocial: assets/images/graph/adjustletter.png
 featureTitle: Adjust Letters and Words

@@ -4,7 +4,10 @@ title: Natural Text to Speech Extension - Chrome, Firefox, Edge, iPad, iPhone
 description:
   Sit back, press play, and have your news, emails, or news read aloud to you. Helperbirds award
   winning text to speech extension for Chrome, Firefox, Edge, iPad, iPhone.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Natural Text to Speech

@@ -4,7 +4,10 @@ title: Analyze text, webpages quickly and faster - Chrome, Firefox, iPad, Edge, 
 description:
   Two clicks, find the number of letters, characters, and more on any website. Making writing
   quicker and easier with our amazing browser extension.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/analyze.png
 facebookSocial: assets/images/graph/analyze.png
 featureTitle: Analyze text

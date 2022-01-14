@@ -4,11 +4,10 @@ title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work| Helpe
 description:
   Focus is integral in ensuring that we get things done. But every now and then, there is something
   that is sure to take away your attention.
-keywords:
-  'Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic'
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/

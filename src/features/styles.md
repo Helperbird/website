@@ -4,7 +4,10 @@ title: Styles, Change fonts and background colors extension - Chrome, Edge, Fire
 description:
   Change fonts and background color. Helperbird provides a way to change web page font and
   background colors.
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Styles, fonts and background colors

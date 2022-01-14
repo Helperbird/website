@@ -2,7 +2,10 @@
 layout: templates/features.html
 title: Align the text of any page to your needs - Chrome, Firefox, Edge, iPad, iPhone
 description: Adjust the text alignment of any page, making it easier to read in just one click!
-keywords: ''
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 featureTitle: Align the text
