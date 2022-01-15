@@ -7,7 +7,8 @@
 			"des": "These days, working remotely is no longer uncharted territory. That's why Upwork estimated that more than 26% of the American workforce would work from home by 2021.",
 			"name": "Andrew Chu",
 			"date": "August 1th 2021",
-			"time": "11 min"
+			"time": "11 min",
+			"url": "/blog/how-to-avoid-wfh-burnout-and-maximize-productivity/"
 		},
 		{
 			"cat": "Guest blog",
@@ -16,7 +17,8 @@
 			"des": "Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.",
 			"name": "Andrew Chu",
 			"date": "June 7th 2021",
-			"time": "11 min"
+			"time": "11 min",
+			"url": "/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/"
 		},
 		{
 			"cat": "Guest blog",
@@ -25,7 +27,8 @@
 			"des": "These days, working remotely is no longer uncharted territory. That's why Upwork estimated that more than 26% of the American workforce would work from home by 2021.        ",
 			"name": "Andrew Chu",
 			"date": "June 20th 2021",
-			"time": "11 min"
+			"time": "11 min",
+			"url": "/blog/how-to-keep-wfh-employees-engaged-and-motivated/"
 		},
 		{
 			"cat": "Essay",
@@ -34,7 +37,9 @@
 			"des": "From droping out of school to starting my own company.",
 			"name": "Robert James",
 			"date": "May 6th 2021",
-			"time": "11 min"
+			"time": "11 min",
+			"url": "/blog/teacher-appreciation-week-2020-dyslexia-story/"
+
 		},
 		{
 			"cat": "Blog",
@@ -43,19 +48,12 @@
 			"des": "Helperbird has over 38 amazing features to choose from to make your class more accessible and productive in 2021 and 2022. ",
 			"name": "Robert James",
 			"date": "April 25th 2021",
-			"time": "4 min"
+			"time": "4 min",
+			"url": "/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/"
+
 		},
 
-		{
-			"cat": "Blog",
-			"title": "Chromebook winner 2021 ",
-			"img": "/assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png",
-			"des": "In February 2021 we ran a competition to celebrate the start of the new School term, to win a brand new Chromebook and a year of Helperbird Pro.",
-			"name": "Robert James",
-			"url": "/assets/images/blog/helperbirds-winner-of-the-2021-chromebook/helperbirds-winner-of-the-2021-chromebook.jpg",
-			"date": "April 11th 2021",
-			"time": "4 min"
-		},
+	
 
 		{
 			"cat": "Guest blog",
