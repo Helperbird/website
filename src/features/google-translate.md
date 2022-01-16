@@ -16,7 +16,7 @@ tags: features
 url: /features/google-translate/
 ---
 <div
-  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 lg:overflow-hidden"
+  class="pt-10 bg-gray-900 sm:pt-16 sm:pb-16 lg:pt-24 lg:pb-16 overflow-hidden"
 >
   <div class="mx-auto max-w-7xl lg:px-8 pb-16">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8">
