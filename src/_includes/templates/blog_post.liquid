@@ -1,283 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-		<title>{{ title }}</title>
-		{% bundledCss %}
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>{{ title }}</title>
+        {% bundledCss %}
 
-		<link href="https://www.helperbird.com{{url}}" rel="canonical" />
-		<meta content="{{ description }}" name="description" />
-		<meta content="{{ keywords }}" name="keywords" />
+        <link href="https://www.helperbird.com{{url}}" rel="canonical"/>
+        <meta content="{{ description }}" name="description"/>
+        <meta content="{{ keywords }}" name="keywords"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta content="/assets/images/favicon.png" name="image" />
-		<meta content="#5046e4" name="theme-color" />
-		<meta content="Helperbird" itemprop="name" />
-		<meta content="{{ description }}" itemprop="description" />
-		<meta content="/assets/images/favicon.png" itemprop="image" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta content="/assets/images/favicon.png" name="image"/>
+        <meta content="#5046e4" name="theme-color"/>
+        <meta content="Helperbird" itemprop="name"/>
+        <meta content="{{ description }}" itemprop="description"/>
+        <meta content="/assets/images/favicon.png" itemprop="image"/>
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@helperbird">
-		<meta name="twitter:creator" content="@robertjgabriel">
-		<meta name="twitter:title" content="{{ title }} | Helperbird.com " >
-		<meta name="twitter:description" content="{{ description }}">
-		<meta name="twitter:image" content="https://www.helperbird.com/{{twitterSocial}}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@helperbird">
+        <meta name="twitter:creator" content="@robertjgabriel">
+        <meta name="twitter:title" content="{{ title }} | Helperbird.com ">
+        <meta name="twitter:description" content="{{ description }}">
+        <meta name="twitter:image" content="https://www.helperbird.com/{{twitterSocial}}">
 
 
-	
-		<meta
-			content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}"
-			name="twitter:player"
-		>
+        <meta content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}" name="twitter:player">
 
-	
 
-		<meta property="og:type" content="article">
-		<meta property="og:title" content="{{ title }} | Helperbird.com " >
-		<meta property="og:url" content="https://www.helperbird.com{{url}}" >
-		<meta property="og:image" content="https://www.helperbird.com/{{twitterSocial}}">
-		<meta property="og:description"  content="{{ description }}">
-		<meta property="article:author" content="Robert James Gabriel">
-		<meta property="article:published_time" content="2021-09-14T04:00:00.000+01:00">
-		<meta property="article:section" content="Blog">
-		<meta property="article:tag" content="blog">
-		
-		<link href="/assets/images/site/favicon.png" rel="shortcut icon" />
-		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
-		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "SoftwareApplication",
-				"name": "Helperbird",
-				"operatingSystem": ["Chrome", "Windows", "MacOs"],
-				"applicationCategory": "https://schema.org/UtilitiesApplication",
-				"aggregateRating": {
-					"@type": "AggregateRating",
-					"ratingValue": "4.7",
-					"ratingCount": "92"
-				},
-				"offers": {
-					"@type": "Offer",
-					"price": "6.99",
-					"priceCurrency": "USD"
-				}
-			}
-		</script>
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "Organization",
-				"name": "Helperbird",
-				"url": "https://www.helperbird.com",
-				"sameAs": [
-					"http://www.facebook.com/helperbird",
-					"https://www.linkedin.com/company/19112429",
-					"https://twitter.com/helperbird",
-					"https://www.youtube.com/helperbird"
-				]
-			}
-		</script>
-		<script type="application/ld+json">
-			    {
-			        "@context": "https://schema.org/",
-			        "@type": "Product",
-			        "name": "Helperbird",
-			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-			        "brand": "Helperbird",
-			        "sku": "helperbird2016",
-			        "gtin": "helperbird2016",
-			        "offers": {
-			            "@type": "Offer",
-			            "url": "https://www.helperbird.com/pricing",
-			            "priceCurrency": "USD",
-			            "price": "30",
-			            "priceValidUntil": "2020-12-31",
-			            "availability": "https://schema.org/OnlineOnly",
-			            "itemCondition": "https://schema.org/NewCondition"
-			        },
-			        "aggregateRating": {
-			            "@type": "AggregateRating",
-			            "ratingValue": "5",
-			            "bestRating": "5",
-			            "worstRating": "1",
-			            "ratingCount": "2",
-			            "reviewCount": "2"
-			        },
-			        "review": [{
-			            "@type": "Review",
-			            "name": "Rebecca Meldrum",
-			            "reviewBody": "Fantastic! Great software and simple to use even for kids new to the computer. Provides the option to tailor every variable to make any page easier to read. Really excellent. Super helpful support too. Great job!",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-09-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Rebecca Meldrum"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        },{
-			            "@type": "Review",
-			            "name": "Nuria Rivera",
-			            "reviewBody": "Hi James I am very happy with this application has been very helpful for my studying I recommend this application for the people that have concentration problems like me",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-12-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Nuria Rivera"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        },{
-			            "@type": "Review",
-			            "name": "Emily Chana",
-			            "reviewBody": "It's helped me immensely with being able to focus and process words on any website
-			Was this review helpful?",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-12-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Emily Chan"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        }, {
-			            "@type": "Review",
-			            "name": "Colm Murphy",
-			            "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2020-05-13",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Colm Murphy"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "User"
-			            }
-			        }]
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="{{ title }} | Helperbird.com ">
+        <meta property="og:url" content="https://www.helperbird.com{{url}}">
+        <meta property="og:image" content="https://www.helperbird.com/{{twitterSocial}}">
+        <meta property="og:description" content="{{ description }}">
+        <meta property="article:author" content="Robert James Gabriel">
+        <meta property="article:published_time" content="2021-09-14T04:00:00.000+01:00">
+        <meta property="article:section" content="Blog">
+        <meta property="article:tag" content="blog">
 
-			    }
-		</script>
+        <link href="/assets/images/site/favicon.png" rel="shortcut icon"/>
+        <link href="touch-icon-iphone.png" rel="apple-touch-icon"/>
+        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152"/>
+        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180"/>
+        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167"/>
+        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
+        <script type="application/ld+json">
+            {
+            				"@context": "https://schema.org",
+            				"@type": "SoftwareApplication",
+            				"name": "Helperbird",
+            				"operatingSystem": ["Chrome", "Windows", "MacOs"],
+            				"applicationCategory": "https://schema.org/UtilitiesApplication",
+            				"aggregateRating": {
+            					"@type": "AggregateRating",
+            					"ratingValue": "4.7",
+            					"ratingCount": "92"
+            				},
+            				"offers": {
+            					"@type": "Offer",
+            					"price": "6.99",
+            					"priceCurrency": "USD"
+            				}
+            			}
+        </script>
+        <script type="application/ld+json">
+            {
+            				"@context": "https://schema.org",
+            				"@type": "Organization",
+            				"name": "Helperbird",
+            				"url": "https://www.helperbird.com",
+            				"sameAs": [
+            					"http://www.facebook.com/helperbird",
+            					"https://www.linkedin.com/company/19112429",
+            					"https://twitter.com/helperbird",
+            					"https://www.youtube.com/helperbird"
+            				]
+            			}
+        </script>
+        <script type="application/ld+json">
+            {
+            			        "@context": "https://schema.org/",
+            			        "@type": "Product",
+            			        "name": "Helperbird",
+            			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
+            			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
+            			        "brand": "Helperbird",
+            			        "sku": "helperbird2016",
+            			        "gtin": "helperbird2016",
+            			        "offers": {
+            			            "@type": "Offer",
+            			            "url": "https://www.helperbird.com/pricing",
+            			            "priceCurrency": "USD",
+            			            "price": "30",
+            			            "priceValidUntil": "2020-12-31",
+            			            "availability": "https://schema.org/OnlineOnly",
+            			            "itemCondition": "https://schema.org/NewCondition"
+            			        },
+            			        "aggregateRating": {
+            			            "@type": "AggregateRating",
+            			            "ratingValue": "5",
+            			            "bestRating": "5",
+            			            "worstRating": "1",
+            			            "ratingCount": "2",
+            			            "reviewCount": "2"
+            			        },
+            			        "review": [{
+            			            "@type": "Review",
+            			            "name": "Rebecca Meldrum",
+            			            "reviewBody": "Fantastic! Great software and simple to use even for kids new to the computer. Provides the option to tailor every variable to make any page easier to read. Really excellent. Super helpful support too. Great job!",
+            			            "reviewRating": {
+            			                "@type": "Rating",
+            			                "ratingValue": "5",
+            			                "bestRating": "5",
+            			                "worstRating": "1"
+            			            },
+            			            "datePublished": "2021-09-10",
+            			            "author": {
+            			                "@type": "Person",
+            			                "name": "Rebecca Meldrum"
+            			            },
+            			            "publisher": {
+            			                "@type": "Organization",
+            			                "name": "App store"
+            			            }
+            			        },{
+            			            "@type": "Review",
+            			            "name": "Nuria Rivera",
+            			            "reviewBody": "Hi James I am very happy with this application has been very helpful for my studying I recommend this application for the people that have concentration problems like me",
+            			            "reviewRating": {
+            			                "@type": "Rating",
+            			                "ratingValue": "5",
+            			                "bestRating": "5",
+            			                "worstRating": "1"
+            			            },
+            			            "datePublished": "2021-12-10",
+            			            "author": {
+            			                "@type": "Person",
+            			                "name": "Nuria Rivera"
+            			            },
+            			            "publisher": {
+            			                "@type": "Organization",
+            			                "name": "App store"
+            			            }
+            			        },{
+            			            "@type": "Review",
+            			            "name": "Emily Chana",
+            			            "reviewBody": "It's helped me immensely with being able to focus and process words on any website
+            			Was this review helpful?",
+            			            "reviewRating": {
+            			                "@type": "Rating",
+            			                "ratingValue": "5",
+            			                "bestRating": "5",
+            			                "worstRating": "1"
+            			            },
+            			            "datePublished": "2021-12-10",
+            			            "author": {
+            			                "@type": "Person",
+            			                "name": "Emily Chan"
+            			            },
+            			            "publisher": {
+            			                "@type": "Organization",
+            			                "name": "App store"
+            			            }
+            			        }, {
+            			            "@type": "Review",
+            			            "name": "Colm Murphy",
+            			            "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
+            			            "reviewRating": {
+            			                "@type": "Rating",
+            			                "ratingValue": "5",
+            			                "bestRating": "5",
+            			                "worstRating": "1"
+            			            },
+            			            "datePublished": "2020-05-13",
+            			            "author": {
+            			                "@type": "Person",
+            			                "name": "Colm Murphy"
+            			            },
+            			            "publisher": {
+            			                "@type": "Organization",
+            			                "name": "User"
+            			            }
+            			        }]
+            
+            			    }
+        </script>
 
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "BlogPosting",
-				"headline": "{{ title }}",
-				"description": "{{ description }}",
-				"image": "{{ facebookSocial }}",
-				"author": {
-					"@type": "Organization",
-					"name": "Robert James",
-					"url": "https://twitter.com/RobertJGabriel"
-				},
-				"publisher": {
-					"@type": "Organization",
-					"name": "Helperbird",
-					"logo": {
-						"@type": "ImageObject",
-						"url": "https://www.helperbird.com/assets/images/pwa/logo/full.png"
-					}
-				},
-				"datePublished": "2021-09-06"
-			}
-		</script>
+        <script type="application/ld+json">
+            {
+            				"@context": "https://schema.org",
+            				"@type": "BlogPosting",
+            				"headline": "{{ title }}",
+            				"description": "{{ description }}",
+            				"image": "{{ facebookSocial }}",
+            				"author": {
+            					"@type": "Organization",
+            					"name": "Robert James",
+            					"url": "https://twitter.com/RobertJGabriel"
+            				},
+            				"publisher": {
+            					"@type": "Organization",
+            					"name": "Helperbird",
+            					"logo": {
+            						"@type": "ImageObject",
+            						"url": "https://www.helperbird.com/assets/images/pwa/logo/full.png"
+            					}
+            				},
+            				"datePublished": "2021-09-06"
+            			}
+        </script>
 
-		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-		<link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
-		<link
-			href="assets/images/social/social/favicon-32x32.png"
-			rel="icon"
-			sizes="32x32"
-			type="image/png"
-		/>
-		<link
-			href="assets/images/social/social/favicon-16x16.png"
-			rel="icon"
-			sizes="16x16"
-			type="image/png"
-		/>
-		<link href="assets/images/social/social/site.webmanifest" rel="manifest" />
-		<link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
-		<link href="assets/images/social/social/favicon.ico" rel="shortcut icon" />
-		<meta content="#ffffff" name="msapplication-TileColor" />
-		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
+        <link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+        <link href="assets/images/social/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+        <link href="assets/images/social/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+        <link href="assets/images/social/social/site.webmanifest" rel="manifest"/>
+        <link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon"/>
+        <link href="assets/images/social/social/favicon.ico" rel="shortcut icon"/>
+        <meta content="#ffffff" name="msapplication-TileColor"/>
+        <meta content="assets/images/social/browserconfig.xml" name="msapplication-config"/>
 
-	</head>
-	<body class="bg-white">
-		{% include header.html %} 
-		<main>
-			<div class="relative py-16 bg-white overflow-hidden">
-			
+    </head>
+    <body class="bg-base-300 text-base-content h-full">
+        {% include header.html %}
+        <main>
 
-				<div class="relative px-4 sm:px-6 lg:px-8">
-					<div class="text-lg max-w-prose mx-auto">
-						<h1>
-							<span
-								class="
-									block
-									text-base text-center text-pink-600
-									font-semibold
-									tracking-wide
-									uppercase
-								"
-								>{{blog_cat}}</span
-							>
-							<span
-								class="
-									mt-2
-									block
-									text-3xl text-center
-									leading-8
-									font-extrabold
-									tracking-tight
-									text-gray-900
-									sm:text-4xl
-								"
-								>{{blog_title}}</span
-							>
-						</h1>
-						<p class="mt-8 text-xl text-gray-500 leading-8">{{blog_snip}}</p>
-					</div>
-					
-					<div class="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto">
-						{{ content | safe }}
-					</div>
-				</div>
-			</div>
-		</main>
-		{% include footer.html %} {% bundledJs %}
-	</body>
+
+            <div class="relative py-16 overflow-hidden">
+                <div class="relative px-4 sm:px-6 lg:px-8">
+                    <div class="text-lg max-w-prose mx-auto">
+
+
+                        <h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">{{blog_title}}</h2>
+                        <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+                            {{blog_snip}}</p>
+
+
+                    </div>
+
+                    <div class="text-lg max-w-prose mx-auto">
+                        <div class="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto pt-10 mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+                            {{ content | safe }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+
+        {% include footer.html %}
+        {% bundledJs %}
+    </body>
 </html>
