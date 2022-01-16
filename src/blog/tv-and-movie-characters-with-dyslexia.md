@@ -19,12 +19,6 @@ blog_snip:
 
 
 
-# Tv and movie characters with dyslexia
-
-Children and adults often look at characters in movies and TV shows to look at for inspiration and to dream. If you or our child is dyslexic, you might be surprised to see the following characters have dyslexia.
-
-![Helperbird support feature](https://img.youtube.com/vi/ylAICmLakaA/sddefault.jpg)
-
 ## CeCe Jones in Shake It Up
 
 CeCe  dream is to become  a famous dancer and nothing was going to stop her. That includes dyslexia. Actess Bella Thorne, who plays Cece can probably identify. Reading issues haven’t kept Bella Thorne from achieving her own stardom . A successful actress, singer, model, and dancer, she’s also a spokesperson for the Dyslexia Foundation.
