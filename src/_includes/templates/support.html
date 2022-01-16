@@ -84,7 +84,10 @@
 			        "name": "Helperbird",
 			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
 			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-			        "brand": "Helperbird",
+					"brand": {
+						"@type": "Brand",
+						"name": "Helperbird"
+					  },
 			        "sku": "helperbird2016",
 			        "gtin": "helperbird2016",
 			        "offers": {
@@ -104,84 +107,48 @@
 			            "ratingCount": "2",
 			            "reviewCount": "2"
 			        },
-			        "review": [{
-			            "@type": "Review",
-			            "name": "Rebecca Meldrum",
-			            "reviewBody": "Fantastic! Great software and simple to use even for kids new to the computer. Provides the option to tailor every variable to make any page easier to read. Really excellent. Super helpful support too. Great job!",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-09-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Rebecca Meldrum"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        },{
-			            "@type": "Review",
-			            "name": "Nuria Rivera",
-			            "reviewBody": "Hi James I am very happy with this application has been very helpful for my studying I recommend this application for the people that have concentration problems like me",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-12-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Nuria Rivera"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        },{
-			            "@type": "Review",
-			            "name": "Emily Chana",
-			            "reviewBody": "It's helped me immensely with being able to focus and process words on any website
-			Was this review helpful?",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2021-12-10",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Emily Chan"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "App store"
-			            }
-			        }, {
-			            "@type": "Review",
-			            "name": "Colm Murphy",
-			            "reviewBody": "This is a little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-			            "reviewRating": {
-			                "@type": "Rating",
-			                "ratingValue": "5",
-			                "bestRating": "5",
-			                "worstRating": "1"
-			            },
-			            "datePublished": "2020-05-13",
-			            "author": {
-			                "@type": "Person",
-			                "name": "Colm Murphy"
-			            },
-			            "publisher": {
-			                "@type": "Organization",
-			                "name": "User"
-			            }
-			        }]
+			        "review": [		{%- for review in reviews.reviews -%}
+					{
+						"@type": "Review",
+						"name": "{{ review.name }}",
+						"reviewBody": "   {{ review.review }}",
+						"reviewRating": {
+							"@type": "Rating",
+							"ratingValue": "5",
+							"bestRating": "5",
+							"worstRating": "1"
+						},
+						"datePublished": "2021-09-10",
+						"author": {
+							"@type": "Person",
+							"name": "{{ review.name }}"
+						},
+						"publisher": {
+							"@type": "Organization",
+							"name": "App store"
+						}
+					},
+					{%- endfor -%}
+					{
+						"@type": "Review",
+						"name": "Robert James Gabriel",
+						"reviewBody": "I know I founded it but this is amazing.",
+						"reviewRating": {
+							"@type": "Rating",
+							"ratingValue": "5",
+							"bestRating": "5",
+							"worstRating": "1"
+						},
+						"datePublished": "2021-09-10",
+						"author": {
+							"@type": "Person",
+							"name":  "Robert James Gabriel"
+						},
+						"publisher": {
+							"@type": "Organization",
+							"name": "App store"
+						}
+					}]
 
 			    }
 		</script>
