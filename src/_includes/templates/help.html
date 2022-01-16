@@ -209,17 +209,21 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
-	<body class="bg-white">
+	<body class="bg-base-300 text-base-content h-full">
 		{% include header.html %}
 
-		<div class="drawer drawer-mobile">
+		<div class="drawer drawer-mobile bg-base-300 text-base-content">
 			<input id="main-menu" type="checkbox" class="drawer-toggle" />
-			<main class="flex-grow block overflow-x-hidden bg-base-100 text-base-content drawer-content">
+			<main class="flex-grow block overflow-x-hidden bg-base-300  text-base-content drawer-content">
 				<div
 					id="nav"
-					class="inset-x-0 top-0 z-50 w-full transition duration-600 ease-in-out border-b border-base-600 bg-base-100 text-base-content sticky"
+					class="inset-x-0 top-0 z-50 w-full transition duration-600 ease-in-out border-b border-base-600 bg-base-100  text-base-content sticky"
 				>
 					<div class="mx-auto space-x-1 navbar max-w-none">
+						<div class="flex-1">
+						<h1><b>{{ title }}</b>	 </h1>
+
+						</div>
 						<div class="flex-none">
 							<label for="main-menu" class="btn btn-square btn-ghost drawer-button lg:hidden">
 								<svg
@@ -238,7 +242,7 @@
 							</label>
 						</div>
 
-						<div class="flex-1"></div>
+				
 					</div>
 				</div>
 				<style>
@@ -272,7 +276,7 @@
 					}
 				</style>
 				<div class="p-4 lg:p-10">
-					<div id="help-information">{{ content | safe }}</div>
+					<div id="help-information" class=" bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">{{ content | safe }}</div>
 				</div>
 			</main>
 			<div class="drawer-side">
