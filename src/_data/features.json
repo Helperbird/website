@@ -193,7 +193,8 @@
 		{
 			"icon": "/src/_includes/svgs/docs.svg",
 			"title": "Google docs support",
-			"description": "Change fonts, immersive reader, text to speech and more on any Google docs file./"
+			"description": "Change fonts, immersive reader, text to speech and more on any Google docs file.",
+			"link": "/products/google-addon/"
 		},
 
 		{
