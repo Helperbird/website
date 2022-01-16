@@ -171,35 +171,27 @@
 					<div>
 						<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Features</h3>
 						<ul class="mt-4 space-y-4">
-							<li>
-								<a
-									class="text-base text-gray-300 hover:text-white"
-									href="/features/specialised-dyslexic-fonts"
-									>Dyslexia support</a
-								>
-							</li>
 
-							<li>
-								<a class="text-base text-gray-300 hover:text-white" href="/features/text-to-speech/"
-									>Text to speech</a
-								>
-							</li>
-							<li>
-								<a
-									class="text-base text-gray-300 hover:text-white"
-									href="/features/immersive-reader-for-chrome"
-									>Immersive reader</a
-								>
-							</li>
+							{%- for feature in features.popular limit:5 -%}
 
-							<li>
-								<a class="text-base text-gray-300 hover:text-white" href="/features/ruler/"
-									>Dyslexia Ruler</a
-								>
-							</li>
+								<li>
+								
+
+									<a
+									class="text-base text-gray-300 hover:text-white"
+									href="{{ feature.link }}"
+									title="More information on feature {{ feature.title  }}"
+									> 
+										{{ feature.title  }}
+									</a>
+								</li>
+
+							{%- endfor -%}
+
+						
 							<li>
 								<a class="text-base text-gray-300 hover:text-white" href="/features/"
-									>All features</a
+									>See all features</a
 								>
 							</li>
 						</ul>

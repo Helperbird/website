@@ -1,37 +1,31 @@
 {
 	"popular": [
 		{
+			"icon": "/src/_includes/svgs/fonts.svg",
+			"title": "Dyslexia support",
+			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
+			"link": "/features/specialised-dyslexic-fonts/"
+		},
+		{
+			"icon": "/src/_includes/svgs/text-to-speech.svg",
+			"title": "Text to Speech",
+			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and pdfs with natural sounding voices.",
+			"link": "/features/text-to-speech/"
+		},
+
+		{
 			"icon": "/src/_includes/svgs/readermode.svg",
 			"title": "Reader Mode",
 			"description": "Reader Mode removes ads and distractions from any webpage with complete customization.",
 			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
-		{
-			"icon": "/src/_includes/svgs/load.svg",
-			"title": "Cognitive Load",
-			"description": "Using granular colours that underline text, users can find reading more comfortable and fun.",
-			"link": "/features/cognitive-load/"
-		},
 
-		{
-			"icon": "/src/_includes/svgs/notes.svg",
-			"title": "Annotate web pages",
-			"description": "Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and study.",
-			"link": "/features/annotation/"
-		},
-
+	
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"title": "PDF support",
 			"description": "Use immersive reader, text to speech and more on PDF files.",
 			"link": "/features/shortcuts/"
-		},
-
-		{
-			"icon": "/src/_includes/svgs/fonts.svg",
-			"title": "Dyslexia Fonts",
-			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
-			"link": "/features/specialised-dyslexic-fonts/"
 		},
 
 		{
@@ -45,14 +39,9 @@
 			"title": "Immersive Reader",
 			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
 			"link": "/features/immersive-reader-for-chrome/"
-		},
-
-		{
-			"icon": "/src/_includes/svgs/highlighter.svg",
-			"title": "Highlighter",
-			"description": "Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. ",
-			"link": "/features/highlight-paragraph/"
 		}
+
+	
 	],
 	"features": [
 		{
