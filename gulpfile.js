@@ -1,7 +1,8 @@
 import gulp from 'gulp';
 import image from 'gulp-image';
 
-gulp.task('image', () => {
+gulp.task('image', async  () => {
+  return new Promise(function(resolve, reject) {
   gulp.src('./src/assets/images/**/**')
   .pipe(image({
     pngquant: true,
@@ -15,6 +16,8 @@ gulp.task('image', () => {
     quiet: false // defaults to false
   }))
     .pipe(gulp.dest('./src/assets/images/'));
+      resolve();
+    });
 });
 
 gulp.task('default', gulp.series('image'));
