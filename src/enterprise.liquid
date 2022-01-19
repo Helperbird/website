@@ -180,75 +180,7 @@ url: /enterprise/
   </div>
   
 
-  <section class="testimonials bg-gray-50">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <h2
-          class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-4xl sm:tracking-tight lg:text-4xl"
-        >
-          What our Helperbird customers say
-        </h2>
-        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-          Over 500,000 use Helperbird every day. Allowing them to be more accessible and productive on
-          the web.
-        </p>
-      </div>
-    </div>
-    <div class="owl-carousel owl-carousel-loader">
-      {%- for review in reviews.reviews -%}
-      <figure class="shadow-lg rounded-xl flex-none w-80 mx-16 p-0 md:w-xl">
-        <blockquote
-          class="
-            rounded-t-xl
-            bg-white-50
-            px-6
-            py-8
-            text-lg
-            leading-8
-            font-semibold
-            text-gray-900
-            md:p-10 md:text-xl md:leading-8
-          "
-        >
-          <svg class="mb-5 fill-current text-pink-100" width="45" height="36">
-            <path
-              d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"
-            ></path>
-          </svg>
-          <p>
-          {{ review.review }}
-          </p>
-        </blockquote>
-        <figcaption
-          class="
-            flex
-            items-center
-            space-x-4
-            p-6
-            rounded-b-xl
-            leading-6
-            font-semibold
-            text-white
-            bg-pink-500
-          "
-        >
-          <div class="w-14 h-14 bg-gray-50 rounded-full flex items-center justify-center">
-            <img
-              class="w-12 h-12 rounded-full bg-fuchsia-100"
-              src="{{ review.photo }}"
-              alt="{{ review.name }}` review of Helperbird. "
-              loading="lazy"
-            />
-          </div>
-          <div class="flex-auto">
-            {{ review.name }}<br /><span class="text-green-100">{{ review.title }}</span>
-          </div>
-        </figcaption>
-      </figure>
-      {%- endfor -%}
-
-    </div>
-  </section>
+  {% include common/reviews.html %} 
 
 
   <div class="relative bg-gray-900"><div class="h-80 absolute bottom-0 xl:inset-0 xl:h-auto xl:grid xl:grid-cols-2"><div class="h-full xl:relative xl:col-start-2"><img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" loading="lazy" src="/assets/images/home/metric.jpeg" alt="People working on laptops"><div class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r" aria-hidden="true"></div></div></div><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8"><div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24"><h2 class="text-sm font-semibold tracking-wide uppercase"><span class="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">Helperbird Metrics</span></h2><p class="mt-3 text-3xl font-extrabold text-white">We help change people's lives from in the work place, school, researchers and everyone in between.</p><p class="mt-5 text-lg text-gray-300">Helperbird is built to help students, but it has grown to allow everyone to be more productive and accessible.</p><div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2"><p><span class="block text-2xl font-bold text-white">350K+</span><span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Users</span> around the world using Helperbird each month.</span></p><p><span class="block text-2xl font-bold text-white">170+</span><span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe.</span></span></p><p><span class="block text-2xl font-bold text-white">4.8+</span><span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">out of 5,</span> the average review score of Helperbird.</span></p></div></div></div></div>

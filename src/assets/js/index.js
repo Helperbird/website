@@ -2,23 +2,20 @@
 import 'core-js/stable';
 import 'notyf/notyf.min.css'; // for React and Vue
 import 'regenerator-runtime/runtime';
-import 'tailwindcss/tailwind.css';
-import 'tiny-slider/dist/tiny-slider.css';
+import 'tailwindcss/tailwind.min.css';
 import * as banner from './core/banner';
 import * as pricing_table from './core/extension-pricing';
 // Vue components
 import * as navigation from './core/navigation';
-import * as reviewSlider from './core/slider';
 import * as thirdParty from './core/third-party';
 import * as Youtube from './core/youtube';
 
+
 function load() {
 	setTimeout(() => {
-		reviewSlider.start();
+
 		Youtube.load();
-
 		// Vue components load
-
 		banner.load();
 
 		pricing_table.load();
