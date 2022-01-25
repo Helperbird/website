@@ -2,7 +2,7 @@
 import 'core-js/stable';
 import 'notyf/notyf.min.css'; // for React and Vue
 import 'regenerator-runtime/runtime';
-import 'tailwindcss/tailwind.min.css';
+import 'tailwindcss/tailwind.css';
 import * as banner from './core/banner';
 import * as pricing_table from './core/extension-pricing';
 // Vue components
