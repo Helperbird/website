@@ -1,7 +1,6 @@
 {
 	"name": "Website",
 	"version": "2.0.0",
-
 	"description": "It's (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it's still *really* small though.",
 	"scripts": {
 		"clean": "rimraf public src/css/styles.css",
@@ -53,7 +52,8 @@
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.3.6",
 		"postcss-cli": "^8.3.1",
-		"prettier": "^2.1.2",
+		"prettier": "^2.5.1",
+		"prettier-plugin-tailwindcss": "^0.1.4",
 		"rimraf": "^3.0.2",
 		"tailwindcss": "^2.2.8",
 		"tiny-slider": "^2.9.4",
@@ -106,7 +106,6 @@
 		"imagemin-pngquant": "^9.0.2",
 		"imagemin-webp": "^6.0.0",
 		"markdown-it": "^12.2.0",
-		
 		"mini-css-extract-plugin": "^2.2.0",
 		"postcss-loader": "^4.1.0",
 		"regenerator-runtime": "^0.13.9",
