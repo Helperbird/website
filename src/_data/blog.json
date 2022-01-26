@@ -1,6 +1,16 @@
 {
 	"posts": [
+		{
+			"cat": "Blog",
+			"title": "4 Ways to be More Accessible on Social Media in 2022",
+			"img": "/assets/images/blog/4-ways-to-be-more-accessible-on-social-media/4-ways-to-be-more-accessible-on-social-media.png",
+			"des": "Social media is a massive space of information sources and connections. People are often glued to their phones because they always want to get the latest trending topics. Others simply would want to be entertained by memes or discover and learn new things.",
+			"name": "Helperbird staff",
+			"date": "February 1st 2022",
+			"time": "5 min",
+			"url": "/blog/4-ways-to-be-more-accessible-on-social-media/"
 
+		},
 		{
 			"cat": "Blog",
 			"title": "6 Famous People with Dyslexia",
