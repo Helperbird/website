@@ -74,14 +74,3 @@ Screenshot of Google Meet in use.
 
 [Visit Google meet](https://www.google.com/meet)
 
-## Speechify
-
-Helperbird is your all in one extension, that gives you the features to make the web more accessible
-and productive. Providing you text to speech, OCR, dyslexia support, dictation, immersive reader,
-overlays, annotate any website,picture dictionary,Reader mode, and more.
-
-![Screenshot of Speechify in use.](/assets/images/blog/top-five/speechify.jpg)
-
-Screenshot of Speechify in use.
-
-[Visit Speechify](https://www.Speechify.com)
