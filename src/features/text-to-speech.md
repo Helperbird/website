@@ -121,6 +121,80 @@ Adjust speed.
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
+## Helperbirds text to speech voices
+
+- 🇮🇪 Moira 
+- 🇺🇸 Alex 
+- 🇮🇹 Alice 
+- 🇸🇪 Alva 
+- 🇨🇦 Amelie 
+- 🇩🇪 Anna 
+- 🇮🇱 Carmit 
+- 🇮🇩 Damayanti 
+- 🇬🇧 Daniel 
+- 🇦🇷 Diego 
+- 🇧🇪 Ellen 
+- 🇺🇸 Fiona 
+- 🇺🇸 Fred 
+- 🇷🇴 Ioana 
+- 🇵🇹 Joana 
+- 🇪🇸 Jorge 
+- 🇲🇽 Juan 
+- 🇹🇭 Kanya 
+- 🇦🇺 Karen 
+- 🇯🇵 Kyoko 
+- 🇸🇰 Laura 
+- 🇮🇳 Lekha 
+- 🇮🇹 Luca 
+- 🇧🇷 Luciana 
+- 🇸🇦 Maged 
+- 🇭🇺 Mariska 
+- 🇹🇼 Mei-Jia 
+- 🇬🇷 Melina 
+- 🇷🇺 Milena 
+- 🇪🇸 Monica 
+- 🇳🇴 Nora 
+- 🇲🇽 Paulina 
+- 🇮🇳 Rishi 
+- 🇺🇸 Samantha 
+- 🇩🇰 Sara 
+- 🇫🇮 Satu 
+- 🇭🇰 Sin-ji 
+- 🇿🇦 Tessa 
+- 🇫🇷 Thomas 
+- 🇨🇳 Ting-Ting 
+- 🇮🇳 Veena 
+- 🇺🇸 Victoria 
+- 🇳🇱 Xander 
+- 🇹🇷 Yelda 
+- 🇰🇷 Yuna 
+- 🇷🇺 Yuri 
+- 🇵🇱 Zosia 
+- 🇨🇿 Zuzana 
+- 🇩🇪 Google Deutsch 
+- 🇺🇸 Google US English 
+- 🇬🇧 Google UK English Female 
+- 🇬🇧 Google UK English Male 
+- 🇪🇸 Google español 
+- 🇺🇸 Google español de Estados Unidos 
+- 🇫🇷 Google français 
+- 🇮🇳 Google हिन्दी 
+- 🇮🇩 Google Bahasa Indonesia
+- 🇮🇹 Google italiano 
+- 🇯🇵 Google 日本語 
+- 🇰🇷 Google 한국의 
+- 🇳🇱 Google Nederlands 
+- 🇵🇱 Google polski 
+- 🇧🇷 Google português do Brasil 
+- 🇷🇺 Google русский 
+- 🇨🇳 Google普通话（中国大陆） 
+- 🇭🇰 Google粤語（香港） 
+- 🇹🇼 Google 國語（臺灣）
+
+</div>
+
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+
 ## How it helps?
 
 Many people have issues reading in a second language. Helperbird’s text to speech technology allows
@@ -135,6 +209,8 @@ Having a piece of information spoken out to you in different dialects makes web 
 accessible and improves users ability to multitask efficiently.
 
 </div>
+
+
 
 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
 
