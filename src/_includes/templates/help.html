@@ -319,6 +319,23 @@
 
 						<ul class="menu flex flex-col p-4 pt-2 compact">
 							<li class="mt-4 menu-title">
+								<span> iPad & iPhone </span>
+							</li>
+
+							{%- for account in collections.iOSHelp -%}
+
+							<li>
+								<a href="{{ account.url }}" aria-current="page" class="">
+									{{ account.data.featureTitle }}
+								</a>
+							</li>
+
+							{%- endfor -%}
+						</ul>
+
+
+						<ul class="menu flex flex-col p-4 pt-2 compact">
+							<li class="mt-4 menu-title">
 								<span> Account </span>
 							</li>
 
