@@ -1,327 +1,870 @@
 {
-	"reviews": [
-		{
-			"name": "Kelli Suding",
-			"title": "Assistive technology specialist",
-			"review": "This is my first google review ever! I have to share that the accessibility and support for independent access for students that Helperbird provides, is a game changer. It is constantly being updated with new features based on feedback and it is extremely user friendly. The ability to customize the settings allows students to have control over their own learning, aligning with Universal Design for Learning. Looking forward to sharing with students and fellow educators on a daily basis. Thanks, Helperbird team!",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GiMqVT9K85Bf8mPaMF9GIOxYfuzCo7M48-nBdP6kxY=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Pauline Olsen",
-			"title": "User",
-			"review": "Love this extension works beautifully overall. ",
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Cris Townley",
-			"title": "Parent",
-			"review": "I have been trying to find ways to make my child happy to go to school again, and someone recommended helperbird. She loves helperbird, and she is now much happier about the idea of returning to school. I think this might be a game changer, as they do so much web based schoolwork and research.  She says they really understand people with dyslexia",
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Matthew Burns",
-			"title": "Health care worker",
-			"review": "Let me tell you, I didn't know how badly I needed this until I got it. It was much like when I got glasses, I had just assumed that was how everyone saw the world...then it wasn't. Thank you Helperbird for the efforts you put forth in this lovely extension for everyone to use. The fact that you can use so much on the free just goes to show that this is something to help aid people not just some money grab. However with the pricing it still couldn't be a money grab. Thank you all again for the efforts you put forth so others can enjoy the internet more fully.",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14Gioealufqkub4v8-nBKY6soOSCnuHYAXzJzzx4A=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Denise Young",
-			"title": "Parent",
-			"review": "I am an assistive technology consultant for 30 school districts. I am adding Helperbird to the list of reading resources that I have available.",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GimmxVmdGgr8kp4ZjWRrb3RBKzE-e24NdlqJub6aY0=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
+    "reviews": [
 
-		{
-			"name": "Jim Sprialis",
-			"title": "Assistive technology specialist",
-			"review": "Have an amazing collection of assistive tools that have benefits for everyone. For me, the combination of Microsoft's Immersive Reader and Apple's reading machine voice (US Alex) makes Helperbird my first choice for processing web content.",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GgzGq40AO1sKGZ062f4AjhTf7WugrJkO_MBbVsHEw=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
 
-		{
-			"name": "Michelle Howard-Price",
-			"title": "Assistive technology specialist",
-			"review": "I purchased this for my daughter who has been having a lot of difficulty accessing the online work set remotely by her teachers during our National Lockdown because of Covid-19. Her dyslexia was really hindering her ability to complete tasks and keep up which in turn led to increased anxiety levels...a really horrid place to be in during a global pandemic! Helper bird has been a vast help and I fully recommend it and wish more schools knew about it. Thank You Helper Bird.",
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"rating": [0, 1, 2, 3, 4]
-		},
+        {
+            "name": "Mason Hunter",
+            "title": "Helperbird user",
+            "review": "This extension has been an absolute lifesaver. I have that fantastic combo of ADHD and Dyslexia while trying to go through college. I have difficulty keeping letters in order, seeing the gaps between words, and with ADHD on top, I lose focus A LOT. \u0009\u0009\u0009The immersive reader has been my new best friend. It drowns out the rest of the content on the page, changes the font to something I can read, and highlights the word as it reads to me. My eyes are forced to keep going in the right direction. I can slow down and pay attention to what I'm reading. I don't even have to go back and read the same paragraph 5 times to understand it! The screen overlay has been outstanding for eye strain and being able to distinguish between words and spaces. The custom font and spacing for research articles have been an enormous advantage! I can actually read the research papers now and not have this daunting 2 column fine print page to squint over.All around, this has been the best purchase I've ever had. I use this every day, with every assignment. I don't even struggle with story-based questions anymore. The immersive reader helps me read, listen, and understand the question all at once. I am still exploring what I can use this with and how it can make my academic career, and I keep getting impressed with every new way I find to use it. Seriously, try it out. You won't regret it at all. Even if you don't have dyslexia or ADHD, just try it out. You might find that it helps you understand the content you're trying to learn even better!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgxpbY4ygf9Sl0UT8yGPbBZHf8o1smuooehs1PTiQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "Kim Norris",
+            "title": "Helperbird user",
+            "review": "This tool helps so many of our students at school - not only those students who have dyslexia, but students and adults who have other learning differences (and those who don't!).  It helps ensure that all students have the opportunity to succeed in their learning!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgxpbY4ygf9Sl0UT8yGPbBZHf8o1smuooehs1PTiQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "Kirk Smith",
+            "title": "Helperbird user",
+            "review": "Helperbird is an excellent extension supporting a range of learning differences. Aside from providing many evidence-based dyslexia-assistive tools, the extension also functions as an easy-to-use, feature-rich web experience customization tool suitable to support a wide range of cognitive differences (i.e., color blindness and ADHD-related focus concerns, among others). Also, the developer is a very good person who supports the various learning-different communities in many ways, including by designing the free version of Helperbird to provide enough functionality to be beneficial to people who cannot afford to subscribe to the full-function version.",
+            "isIPad": true,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GiNYqduLP0NOQMo5zRy-FrCwC2tgDXXFsS0LyQrig=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
 
-		{
-			"name": "Terry Martin",
-			"title": "Assistive technology specialist",
-			"review": "I am getting such great support from Robert. I enjoy working with him. He answers my questions very quickly. Thanks so much for your great support and a great product.",
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"rating": [0, 1, 2, 3, 4]
-		},
-
-		{
-			"name": "Catherine Contillo",
-			"title": "User",
-			"review": "I found this extension on a whim to help myself. Suffering with post concussion syndrome symptoms and working remotely is really hard! This extension basically saved my job. It gave me back productivity and the ability to read the screen. This extension has so many neat features I never even knew I needed. I love this and you will too! You don't need to be dyslexic or have dyslexia for this extension to benefit you. Do yourself a giant favor and get it! I highly recommend it!",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GhyAic73JjhQT0xGJp38l7wIklg52lYRXegjCjD=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
-
-		{
-			"name": "Martin Bui",
-			"title": "User",
-			"review": "Making such an useful tool, replying to every single comment or review and giving support to people's issues as soon as possible?? Carefully, he is a hero.",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14Ghm2YPaMZuz48Lhr2s0bU-O66dOIBpQXL2oEJaENw=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
-
-		{
-			"name": "Josh Sharrad",
-			"title": "User",
-			"review": "A truly great extension! We installed this on all of our 200 Chromebooks across the 3 special schools i work in and it has greatly helped our students use technology to learn. It not only helps our dyslexic learners, but also our autistic and ADHD students by helping remove distractions and making the web a more accessible place. Support is fast and efficient, and updates are very regular with new features constantly being added!",
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14Gj-FXmbt6CIoHtVQf4hZYqi9KIEAsjmzoZ7if0l=s40-c-k",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Vladimir Ciobica",
-			"title": "Reviewer",
-			"review": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
-			"photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Taylor Kirkpatrick",
-			"title": "User",
-			"review": "Huge fan of the zoom feature. It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.",
-			"photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-
-		{
-			"name": "Sue Dowdall",
-			"title": "User",
-			"review": "Works a treat. Couldn't get dyslexie.com to work. This is brill!",
-			"photo": "https://www.helperbird.com/assets/images/people/sue.png",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GiEtCIUkvr9iqu1YMD_gqzCWH8hb5NtxlNgzzZWOPM=s40-c-k",
-			"title": "user",
-			"name": "Jay O'Bell",
-			"review": "This works and it makes everything so much easier to read! Thank you so much and i will keep posted if i do run into any issues!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "A Google User",
-			"review": "It works Amazing!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GgaKT7WZk9CtjTMY9bURAsB-2XeYefSnrcH6rdvzQ=s40-c-k",
-			"title": "user",
-			"name": "S D",
-			"review": "Works a treat. Couldn't get dyslexie.com to work.  This is brill!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14Gh942IgWp2V8Ocqh7o5Vsb4lpU4NGyv9Jjtaryfrg=s40-c-k",
-			"title": "user",
-			"name": "Colm Murphy",
-			"review": "This is a great little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "Máiréad Jones",
-			"review": "Really makes reading easier for dyslexics.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "A Google User",
-			"review": "Thank you!! Love the tint feature.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "Ana Robledo",
-			"review": "this extension seems amazing so if that doesn't bother you, I say go ahead and get it!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "Kai Tam",
-			"review": "Amazing Extensions in chrome. I Installed in my parents computer, because my dad have a poor vision, due to bad eye surgery. this extension really helps allow to have able to manipulate the font and font size for more comfortable use instead of chrome zoom feature. Because the chrome zoom feature is its overly zoom will cause the page looking super weird.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "Ciarán Hyland",
-			"review": "I have to admit, I have tried several other similar products which were awful. Helperbird is truly amazing!. The font changes, colours, overlays, notes, text to speech and I love the 50 natural languages!!",
-			"review": "100% worth updating.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " bookmouse",
-			"review": " Great features on the free side.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GjKFMm7aKAZj62Mk3Bb5Wew1rLdqnhNtUJdNW65=s40-c-k",
-			"title": "user",
-			"name": "Courtney Hood",
-			"review": "So many useful features! This app is as helpful as it's name.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "John Mc Carthy",
-			"review": "It is simply amazing, Helperbird helps you find out from everything from the Readermode feature, color changes and so much more. It has really changed my life!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " Fiona Wren",
-			"review": "Helperbird offers a wide range of customization in one easy to navigate spot. Computers and dyslexia don't always mesh, the features like ruler makes reading text heavy web pages easier. Tech support is amazingly responsive should you need any help.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GhsdKyPLk3_eZgVb2CP4pKm0cwwopfjtpkMKpo0=s40-c-k",
-			"title": "user",
-			"name": " Amelia C",
-			"review": "would it be possible to add any darker colours? Particularly dark blue as that is the colour that i write and read on and it would be extremely helpful. Not bright blue , slightly darker than that. Thankyou ! :)",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GgIxKvw7-0EquLIa5DQ8oiMGVgO-F0LoRTJpRRN=s40-c-k",
-			"title": "user",
-			"name": "Vernon Dickey",
-			"review": " love it!  I want it on Word and on all my applications now...",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " A Google User",
-			"review": "Love the new ruler. Thank you so much and cant wait for the Google docs add on.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " Jack Haverty",
-			"review": "Hugely helpful app, readings become so much easier since I installed this.Saved me so much time for a couple of bucks ",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " shivashree vysali",
-			"review": "It's a great tool! Really simple to use and works as described.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "Reviewer",
-			"name": " Taylor Kirkpatrick",
-			"review": "Huge fan of the zoom feature. It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " Guido Francis",
-			"review": "Fantastic! Helperbird is very easy to use, and yet, so powerful!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " Jen Ridge",
-			"review": "The best in its class - SUPERB - It does everything I need for my aging eyes.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GiCtqmgKsjirdo5-F61HA0AZTilMx2REf_1uaXc=s40-c-k",
-			"title": "user",
-			"name": " Walter Washburn",
-			"review": "I love and  use Helperbird for Chrome and I think it's a great tool!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GgLKElsy7FZimgEdmyrFL3aAQUm33qhrqfi2Bz9=s40-c-k",
-			"title": "user",
-			"name": " Gregory Arnold",
-			"review": "It's been a great help.  Im very happy I made the switch.",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": " Luke Pottinger",
-			"review": "I got this tool as an extension to try out first of all. I was amazed at what it can do in terms of accessibility. I have shown my friends and brother who suffer from dyslexia and they have all downloaded the extension. Great step forward from a company looking to help people!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GgLKElsy7FZimgEdmyrFL3aAQUm33qhrqfi2Bz9=s40-c-k",
-			"title": "user",
-			"name": " Brian Borland",
-			"review": "Amazing in eliminating embarrassing mistakes. Am one happy kid here!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "A Google User",
-			"review": "Wow what great tool, I love it! Keep up the excellent work. Add more fonts in the future and cant wait for the ios version!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "user",
-			"name": "A Google User",
-			"review": "Makes college so much easier !!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
-			"title": "A Google User",
-			"name": "A Google User",
-			"review": "so useful and helpful!! i can actually retain so much more info in my head now. thanks man, you are so awesome and i appreciate all the kind words. thank you. :)",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GjiSPrC6rGeYmh4qlXrml4jyflmHU7II4fXKd3Q=s40-c-k",
-			"title": "user",
-			"name": "James Connel",
-			"review": "Amazing tool, love the new overlay feature!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14GjK1vRez5m6ru2Vp5VLivSsPFOpZBCj6-AoWaBs=s40-c-k",
-			"title": "user",
-			"name": "Sandra Fox",
-			"review": "This app does wonders!!",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"photo": "https://lh3.googleusercontent.com/a-/AOh14Gi3aj2tWUjhKQnKXGJ8nMiKWoCa__PfzRkdUlNWbg=s40-c-k",
-			"title": "user",
-			"name": "Mohammad Karzai",
-			"review": "Wow i am really glad someone had this idea. We need more helper tools like this.",
-			"rating": [0, 1, 2, 3, 4]
-		}
-	]
+        {
+            "name": "Kelli Suding",
+            "title": "Assistive technology specialist",
+            "review": "This is my first google review ever! I have to share that the accessibility and support for independent access for students that Helperbird provides, is a game changer. It is constantly being updated with new features based on feedback and it is extremely user friendly. The ability to customize the settings allows students to have control over their own learning, aligning with Universal Design for Learning. Looking forward to sharing with students and fellow educators on a daily basis. Thanks, Helperbird team!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GiMqVT9K85Bf8mPaMF9GIOxYfuzCo7M48-nBdP6kxY=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Pauline Olsen",
+            "title": "User",
+            "review": "Love this extension works beautifully overall. ",
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Cris Townley",
+            "title": "Parent",
+            "review": "I have been trying to find ways to make my child happy to go to school again, and someone recommended helperbird. She loves helperbird, and she is now much happier about the idea of returning to school. I think this might be a game changer, as they do so much web based schoolwork and research.  She says they really understand people with dyslexia",
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Matthew Burns",
+            "title": "Health care worker",
+            "review": "Let me tell you, I didn't know how badly I needed this until I got it. It was much like when I got glasses, I had just assumed that was how everyone saw the world...then it wasn't. Thank you Helperbird for the efforts you put forth in this lovely extension for everyone to use. The fact that you can use so much on the free just goes to show that this is something to help aid people not just some money grab. However with the pricing it still couldn't be a money grab. Thank you all again for the efforts you put forth so others can enjoy the internet more fully.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gioealufqkub4v8-nBKY6soOSCnuHYAXzJzzx4A=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Denise Young",
+            "title": "Parent",
+            "review": "I am an assistive technology consultant for 30 school districts. I am adding Helperbird to the list of reading resources that I have available.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GimmxVmdGgr8kp4ZjWRrb3RBKzE-e24NdlqJub6aY0=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Jack Salem",
+            "title": "Helperbird user",
+            "review": "this extension is amazing and has helped improve my productivity robert has also been a very nice person to deal with when I have issues the live chat feature is amazing and quick for a response it's a really great Chrome extension that helps a lot way worth the money I pay per month and is also just great to support great people making accessibility tools",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgxpbY4ygf9Sl0UT8yGPbBZHf8o1smuooehs1PTiQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "G OA",
+            "title": "Helperbird user",
+            "review": "Awesome!  I don't suffer fatigue when I use this extension. Highly Recommended",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgxpbY4ygf9Sl0UT8yGPbBZHf8o1smuooehs1PTiQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Jim Sprialis",
+            "title": "Assistive technology specialist",
+            "review": "Have an amazing collection of assistive tools that have benefits for everyone. For me, the combination of Microsoft's Immersive Reader and Apple's reading machine voice (US Alex) makes Helperbird my first choice for processing web content.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgzGq40AO1sKGZ062f4AjhTf7WugrJkO_MBbVsHEw=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Michelle Howard-Price",
+            "title": "Assistive technology specialist",
+            "review": "I purchased this for my daughter who has been having a lot of difficulty accessing the online work set remotely by her teachers during our National Lockdown because of Covid-19. Her dyslexia was really hindering her ability to complete tasks and keep up which in turn led to increased anxiety levels...a really horrid place to be in during a global pandemic! Helper bird has been a vast help and I fully recommend it and wish more schools knew about it. Thank You Helper Bird.",
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Terry Martin",
+            "title": "Assistive technology specialist",
+            "review": "I am getting such great support from Robert. I enjoy working with him. He answers my questions very quickly. Thanks so much for your great support and a great product.",
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Catherine Contillo",
+            "title": "User",
+            "review": "I found this extension on a whim to help myself. Suffering with post concussion syndrome symptoms and working remotely is really hard! This extension basically saved my job. It gave me back productivity and the ability to read the screen. This extension has so many neat features I never even knew I needed. I love this and you will too! You don't need to be dyslexic or have dyslexia for this extension to benefit you. Do yourself a giant favor and get it! I highly recommend it!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GhyAic73JjhQT0xGJp38l7wIklg52lYRXegjCjD=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Heather Shepard",
+            "title": "Helperbird user",
+            "review": "It was helpful at all times for me! I love this tool!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GhPj4ZD9rWvVCfxt-GY0SEL_l8rSBfy8AdOuDwF9Q=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Michael Thompson",
+            "title": "Helperbird user",
+            "review": "So far ive got nothing but amazing things to say about this extension. It helps everyday life so much!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgG-wdk-nckXO6nQknEnTGQQoYhrSmKwOVLtMlXAA=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Nuria E Rivera R",
+            "title": "Helperbird user",
+            "review": "I am very happy with this application has been very helpful for my studying I recommend this application for the people that have concentration problems like me!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjkYR9PNU8nq89xDK72FUZAPh5q5kiopdXDH77kZYo=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Rebecca Meldrum",
+            "title": "High School teacher",
+            "review": "Fantastic! Great software and simple to use even for kids new to the computer. Provides the option to tailor every variable to make any page easier to read. Really excellent. Super helpful support too. Great job!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GhhNN4l8Ka5vuOEhZfam7Wyk-HPpxkvoHKfqxoeyIo=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "DD BA",
+            "title": "Helperbird User",
+            "review": "They were super fact with response time when helping me meet and deadline and very kind when corresponding. If the app is anything like their customer service then I am happy with my purchase!\u0009\u0009\u0009!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gg4sdiiv8kzwKJ_mpvxPMYKBKpnDg30-c9BDBHcQQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Emily Chan",
+            "title": "Helperbird User",
+            "review": "It's helped me immensely with being able to focus and process words on any website",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjW9NWtuAreu53MYfkyNvABAeddJULJNDcvmx20qg=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "David Linde",
+            "title": "User",
+            "review": "Insightful functionality. Well done.\u0009\u0009\u0009",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a/default-user=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Entertainment Studio",
+            "title": "User",
+            "review": "I love Helperbird!!! It's very user friendly from someone who has learning challenges because of ADHD and Dyslexia.There are so many useful features and new updates.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a/default-user=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "GK Techies",
+            "title": "User",
+            "review": "Immersive Reader from Microsoft is amazing, but my friends in Google districts were missing out until I found Helperbird. Great for proofreading! Simply highlight the text and have it read back to you, change the spacing in your view, highlight parts of speech, even translate by word or by document to have it read to you and adjust the speed! So amazing that I posted a YouTube tutorial within days of installing it. Plus, unlike many extensions, it didn't ask for obnoxious permissions like asking to delete everything in my Google Drive. #Winner #a11y",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgdwenKPC3A6W8eW57vX9zghXEbIKPyyB36ibFXLA=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Alex R",
+            "title": "User",
+            "review": "Helperbird is one of the most helpful tools I've ever used. It has so many great features that not many other apps or software have. The free version can be installed and stay forever on your browser. Other companies don't always give you access for free or give access for free forever. When you do get access to the Pro version or other paid plans, you expand your opportunity to read and stay focused better. One of the other great things about Helperbird is their support service. They have a video for every single feature that you can use. They are simple and helpful videos that make the learning process a lot easier. In addition, they have great live chat support. They are super nice and helpful. They always encourage people to give suggestions on how to improve Helperbird. Why is this important? It shows they really care about people with disabilities or people in general.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjD5lOvyrDxta9OVZ7iMDS6grOiA43nwWUpNXnhKQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "bondziotek",
+            "title": "User",
+            "review": "Just added it and it feels like my eyes are flowing through text!\u0009\u0009\u0009",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GhU6fnZPkD5KVb4qoGokx-1NeZ6mDP36TLVssW2bw=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Luke Mccarthy",
+            "title": "Teacher",
+            "review": "This chrome extension is absolutely amazing. I'm a Primary school teacher and it helps children with a broad range of needs. It's so easy to set up. I love the way it syncs across devices so set up is seamless across all the children's computers. The customizable features are a game changer for allowing children to enjoy reading and accessing the web in our school. The best application I have ever seen for school children. Looking forward to trying the iPad application soon.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a/default-user=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Spin F.",
+            "title": "User",
+            "review": "omg i can actually read now\u0009\u0009\u0009",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Ggv9msF1_vZ-ptxo0jPOWUQYT5dFqWK9l3lZCBo5A=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Mia Laudato",
+            "title": "User",
+            "review": "The free version of this is so great and helpful to a LOT of people...but the upgraded version is next level:)",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gg_eq2qVNXyfnUMvI5V_uYBQset7ahJ2IgJMMlciQ=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Melissa Motz",
+            "title": "Teacher",
+            "review": "My son has dyslexia and has been struggling with parts of distant learning over the last year. We recently discovered this software and he is loving everything about it, especially with the ease of following directions and completing his assignments! We have used several other tools but this has everything a dyslexia person needs all in one bundle! The upgrade is defiantly worth it to make our daily struggles, on the computer, run much smoother. I also greatly appreciate customer support (helpdesk). They went above and beyond to make sure we were all set up on the computer for my son to most successful.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a/default-user=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Addison Brown",
+            "title": "User",
+            "review": "I have ADHD and yesterday Helperbird and the text-to-speech function (available in free version) turned a 28-page reading assignment from a two-day task to roughly two hours, maybe three at the absolute most. It helped tremendously! And I loved that the text-to-speech has such a fluid voice compared to a lot of others I've used! Honestly, the fact that this was created by someone who knows the struggles is something I love, because then it has neurodivergency in mind. I've tried too many things in the past that were created by neurotypical folk trying to be helpful to us and I do appreciate it, but it doesn't work as well because our brains work different. Highly recommend!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a/default-user=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Martin Bui",
+            "title": "User",
+            "review": "Making such an useful tool, replying to every single comment or review and giving support to people's issues as soon as possible?? Carefully, he is a hero.",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Ghm2YPaMZuz48Lhr2s0bU-O66dOIBpQXL2oEJaENw=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Josh Sharrad",
+            "title": "User",
+            "review": "A truly great extension! We installed this on all of our 200 Chromebooks across the 3 special schools i work in and it has greatly helped our students use technology to learn. It not only helps our dyslexic learners, but also our autistic and ADHD students by helping remove distractions and making the web a more accessible place. Support is fast and efficient, and updates are very regular with new features constantly being added!",
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gj-FXmbt6CIoHtVQf4hZYqi9KIEAsjmzoZ7if0l=s40-c-k",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Vladimir Ciobica",
+            "title": "Reviewer",
+            "review": "Helperbird is a very useful and smartly designed tool that will most definitely make the browsing life of any user suffering from from dyslexia or is even remotely visually impaired a lot easier. It’s very easy to use, has the ability to synchronize settings on multiple devices, and is very efficient thanks to a useful set of straightforward customization options.",
+            "isIPad": false,
+            "photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Taylor Kirkpatrick",
+            "title": "User",
+            "review": "Huge fan of the zoom feature. It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.",
+            "isIPad": false,
+            "photo": "https://www.helperbird.com/assets/images/reviews/vladimir.jpg",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "name": "Sue Dowdall",
+            "title": "User",
+            "review": "Works a treat. Couldn't get dyslexie.com to work. This is brill!",
+            "isIPad": false,
+            "photo": "https://www.helperbird.com/assets/images/people/sue.png",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GiEtCIUkvr9iqu1YMD_gqzCWH8hb5NtxlNgzzZWOPM=s40-c-k",
+            "title": "user",
+            "name": "Jay O'Bell",
+            "review": "This works and it makes everything so much easier to read! Thank you so much and i will keep posted if i do run into any issues!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "A Google User",
+            "review": "It works Amazing!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgaKT7WZk9CtjTMY9bURAsB-2XeYefSnrcH6rdvzQ=s40-c-k",
+            "title": "user",
+            "name": "S D",
+            "review": "Works a treat. Couldn't get dyslexie.com to work.  This is brill!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gh942IgWp2V8Ocqh7o5Vsb4lpU4NGyv9Jjtaryfrg=s40-c-k",
+            "title": "user",
+            "name": "Colm Murphy",
+            "review": "This is a great little extension, lightweight and non intrusive. With dyslexia its reading that's an issue, not the underlying intelligence. An aid such as this one, can help deliver the world to some who may not otherwise have received it. Great Work.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "Máiréad Jones",
+            "review": "Really makes reading easier for dyslexics.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "A Google User",
+            "review": "Thank you!! Love the tint feature.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "Ana Robledo",
+            "review": "this extension seems amazing so if that doesn't bother you, I say go ahead and get it!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "Kai Tam",
+            "review": "Amazing Extensions in chrome. I Installed in my parents computer, because my dad have a poor vision, due to bad eye surgery. this extension really helps allow to have able to manipulate the font and font size for more comfortable use instead of chrome zoom feature. Because the chrome zoom feature is its overly zoom will cause the page looking super weird.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "Ciarán Hyland",
+            "review": "I have to admit, I have tried several other similar products which were awful. Helperbird is truly amazing!. The font changes, colours, overlays, notes, text to speech and I love the 50 natural languages!!",
+            "review": "100% worth updating.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " bookmouse",
+            "review": " Great features on the free side.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjKFMm7aKAZj62Mk3Bb5Wew1rLdqnhNtUJdNW65=s40-c-k",
+            "title": "user",
+            "name": "Courtney Hood",
+            "review": "So many useful features! This app is as helpful as it's name.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "John Mc Carthy",
+            "review": "It is simply amazing, Helperbird helps you find out from everything from the Readermode feature, color changes and so much more. It has really changed my life!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " Fiona Wren",
+            "review": "Helperbird offers a wide range of customization in one easy to navigate spot. Computers and dyslexia don't always mesh, the features like ruler makes reading text heavy web pages easier. Tech support is amazingly responsive should you need any help.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GhsdKyPLk3_eZgVb2CP4pKm0cwwopfjtpkMKpo0=s40-c-k",
+            "title": "user",
+            "name": " Amelia C",
+            "review": "would it be possible to add any darker colours? Particularly dark blue as that is the colour that i write and read on and it would be extremely helpful. Not bright blue , slightly darker than that. Thankyou ! :)",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgIxKvw7-0EquLIa5DQ8oiMGVgO-F0LoRTJpRRN=s40-c-k",
+            "title": "user",
+            "name": "Vernon Dickey",
+            "review": " love it!  I want it on Word and on all my applications now...",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " A Google User",
+            "review": "Love the new ruler. Thank you so much and cant wait for the Google docs add on.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " Jack Haverty",
+            "review": "Hugely helpful app, readings become so much easier since I installed this.Saved me so much time for a couple of bucks ",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " shivashree vysali",
+            "review": "It's a great tool! Really simple to use and works as described.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "Reviewer",
+            "name": " Taylor Kirkpatrick",
+            "review": "Huge fan of the zoom feature. It trumps the native zoom in your browser since the zoom level you set actually stays with you no matter what page you go to, which is very helpful and meshes well with the other features the app offers.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " Guido Francis",
+            "review": "Fantastic! Helperbird is very easy to use, and yet, so powerful!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " Jen Ridge",
+            "review": "The best in its class - SUPERB - It does everything I need for my aging eyes.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GiCtqmgKsjirdo5-F61HA0AZTilMx2REf_1uaXc=s40-c-k",
+            "title": "user",
+            "name": " Walter Washburn",
+            "review": "I love and  use Helperbird for Chrome and I think it's a great tool!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgLKElsy7FZimgEdmyrFL3aAQUm33qhrqfi2Bz9=s40-c-k",
+            "title": "user",
+            "name": " Gregory Arnold",
+            "review": "It's been a great help.  Im very happy I made the switch.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": " Luke Pottinger",
+            "review": "I got this tool as an extension to try out first of all. I was amazed at what it can do in terms of accessibility. I have shown my friends and brother who suffer from dyslexia and they have all downloaded the extension. Great step forward from a company looking to help people!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GgLKElsy7FZimgEdmyrFL3aAQUm33qhrqfi2Bz9=s40-c-k",
+            "title": "user",
+            "name": " Brian Borland",
+            "review": "Amazing in eliminating embarrassing mistakes. Am one happy kid here!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "A Google User",
+            "review": "Wow what great tool, I love it! Keep up the excellent work. Add more fonts in the future and cant wait for the ios version!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "user",
+            "name": "A Google User",
+            "review": "Makes college so much easier !!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+            "title": "A Google User",
+            "name": "A Google User",
+            "review": "so useful and helpful!! i can actually retain so much more info in my head now. thanks man, you are so awesome and i appreciate all the kind words. thank you. :)",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjiSPrC6rGeYmh4qlXrml4jyflmHU7II4fXKd3Q=s40-c-k",
+            "title": "user",
+            "name": "James Connel",
+            "review": "Amazing tool, love the new overlay feature!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14GjK1vRez5m6ru2Vp5VLivSsPFOpZBCj6-AoWaBs=s40-c-k",
+            "title": "user",
+            "name": "Sandra Fox",
+            "review": "This app does wonders!!",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }, {
+            "isIPad": false,
+            "photo": "https://lh3.googleusercontent.com/a-/AOh14Gi3aj2tWUjhKQnKXGJ8nMiKWoCa__PfzRkdUlNWbg=s40-c-k",
+            "title": "user",
+            "name": "Mohammad Karzai",
+            "review": "Wow i am really glad someone had this idea. We need more helper tools like this.",
+            "rating": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ]
 }
