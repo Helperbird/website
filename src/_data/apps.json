@@ -34,7 +34,7 @@
 			"color": "rgba(73,204,249,.1)",
 			"description": "Helperbird for Firefox, brings in all our famous features plus a few Firefox exclusive features.",
 			"link": "https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
-		}
+		},
 		{
 			"icon": "/src/_includes/svgs/ios.svg",
 			"title": "iPad",
