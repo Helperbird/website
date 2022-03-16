@@ -79,7 +79,7 @@ url: /features/printing-tool/
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## Intro
 
@@ -88,7 +88,7 @@ support and much more.
 
 </div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## Features
 
@@ -96,7 +96,7 @@ Print button works for Windows, Mac and Linux. And also Google Chromebooks.
 
 </div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## Videos & Screenshots
 

@@ -1,9 +1,16 @@
 import Vue from 'vue';
+import { VueTyper } from 'vue-typer';
+
 
 function load() {
 	let isThere = document.getElementById('helperbird-website');
 	console.log(isThere);
 	new Vue({
+		components: {
+			
+			VueTyper
+
+		  },
 		el: '#helperbird-website',
 		data: {
 			menus: false,

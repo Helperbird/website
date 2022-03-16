@@ -1,7 +1,7 @@
 // css
-import 'notyf/notyf.min.css'; // for React and Vue
-import 'regenerator-runtime/runtime';
+
 import 'tailwindcss/tailwind.css';
+import '../css/help.css';
 import * as app from './core/app';
 
 

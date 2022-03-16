@@ -12,17 +12,17 @@ featureTitle: Adjust Letters and Words
 url: /features/
 ---
 
+<div>
 
 
-<div class="relative pt-16 pb-16 overflow-hidden sm:pt-18 lg:pt-32">
-	<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
-		<div>
-			<h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">Helperbird features</h2>
-			<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Helperbird is more than just a accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are more productive and better organized thanks to our accessibility features.</p>
-		</div>
-	</div>
-</div>
+<div class="text-center pt-8 pb-8">
+	<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+	  <span class="block xl:inline">All the features you need to stay on top of your learning  </span>
+	  <span class="block text-pink-600 xl:inline"> on the web.</span>
+	</h1>
+	<p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">Helperbird is more than just an accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are productive and better-organized thanks to our accessibility features.</p>
 
+  </div>
 
 
 
@@ -36,7 +36,7 @@ url: /features/
 		
 	
 		{%- for feature in features.popular  limit:3   -%}
-		<div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5 bg-secondary text-white">
+		<div class="bg-white rounded-lg p-6  bg-secondary text-white">
 		  <div>
 			<span class="flex items-center justify-center h-12 w-12 rounded-md">
 		
@@ -64,11 +64,13 @@ url: /features/
 </div>
 </div>
 
+
+
 <div>
 	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
 	
 
-				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">All features</h2>
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Features to support Dyslexia</h2>
 
 
 	
@@ -76,7 +78,8 @@ url: /features/
 		
 
 		{%- for feature in features.features -%}
-		<div class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+{% if feature.group == 'dyslexia' %}
+		<div class="bg-white rounded-lg p-6 ">
 		  <div>
 			<span class="flex items-center justify-center h-12 w-12 rounded-md">
 			  {{  feature.icon | svgContents  | safe }}
@@ -91,6 +94,7 @@ url: /features/
 			<a class="mt-6 btn btn-secondary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn about {{ feature.title  }}</a> 
 		  </div>
 		</div>
+		{% endif %} 
 		{%- endfor -%}
 
   
@@ -105,12 +109,206 @@ url: /features/
 	  </div>
 	</div>
   </div>
+
+
+
+
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Customize your reading experience </h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+		{%- for feature in features.features -%}
+{% if feature.group == 'reading' %}
+		<div class="bg-white rounded-lg p-6 ">
+		  <div>
+			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			  {{  feature.icon | svgContents  | safe }}
+			</span>
+		  </div>
+		  <div class="mt-6">
+			<h3 class="text-lg font-medium text-black">{{ feature.title }}</h3>
+			<p class="mt-2 text-base text-black">
+				{{ feature.description }}
+			</p>
+
+			<a class="mt-6 btn btn-secondary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn about {{ feature.title  }}</a> 
+		  </div>
+		</div>
+		{% endif %} 
+		{%- endfor -%}
+
   
 
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Support for all formats </h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+		{%- for feature in features.features -%}
+{% if feature.group == 'learning' %}
+		<div class="bg-white rounded-lg p-6 ">
+		  <div>
+			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			  {{  feature.icon | svgContents  | safe }}
+			</span>
+		  </div>
+		  <div class="mt-6">
+			<h3 class="text-lg font-medium text-black">{{ feature.title }}</h3>
+			<p class="mt-2 text-base text-black">
+				{{ feature.description }}
+			</p>
+
+			<a class="mt-6 btn btn-secondary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn about {{ feature.title  }}</a> 
+		  </div>
+		</div>
+		{% endif %} 
+		{%- endfor -%}
+
+  
+
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Tools to bring your writing to the next level </h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+		{%- for feature in features.features -%}
+{% if feature.group == 'research' %}
+		<div class="bg-white rounded-lg p-6 ">
+		  <div>
+			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			  {{  feature.icon | svgContents  | safe }}
+			</span>
+		  </div>
+		  <div class="mt-6">
+			<h3 class="text-lg font-medium text-black">{{ feature.title }}</h3>
+			<p class="mt-2 text-base text-black">
+				{{ feature.description }}
+			</p>
+
+			<a class="mt-6 btn btn-secondary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn about {{ feature.title  }}</a> 
+		  </div>
+		</div>
+		{% endif %} 
+		{%- endfor -%}
+
+  
+
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
 
 
 
 
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Features to everything else</h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+		{%- for feature in features.features -%}
+{% if feature.group == 'other' %}
+		<div class="bg-white rounded-lg p-6 ">
+		  <div>
+			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			  {{  feature.icon | svgContents  | safe }}
+			</span>
+		  </div>
+		  <div class="mt-6">
+			<h3 class="text-lg font-medium text-black">{{ feature.title }}</h3>
+			<p class="mt-2 text-base text-black">
+				{{ feature.description }}
+			</p>
+
+			<a class="mt-6 btn btn-secondary" href="{{ feature.link }}" title="More information on feature {{ feature.title  }}">Learn about {{ feature.title  }}</a> 
+		  </div>
+		</div>
+		{% endif %} 
+		{%- endfor -%}
+
+  
+
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  {% include common/cta_one.html %} 
+</div>
 
 
 

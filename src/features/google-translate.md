@@ -83,7 +83,7 @@ url: /features/google-translate/
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="mt-6 prose prose-pink prose-lg mx-auto">
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## Intro
 
@@ -98,7 +98,7 @@ browser toolbar.
 
 </div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## How to
 
@@ -106,7 +106,7 @@ browser toolbar.
 
 </div>
 
-<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6  ">
 
 ## What langues can I use?
 
