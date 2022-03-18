@@ -29,9 +29,9 @@ url: /blog/
 			{%- for post in blog.posts  -%}
 
 
-			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-gray-50 rounded-lg p-6  ">
+			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white rounded-lg p-6  ">
 				<div class="flex-shrink-0"><img alt="Photo of Helperbirds user" class="h-48 w-full object-cover" src="{{ post.img}}"></div>
-				<div class="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
+				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 					<div class="flex-1">
 						<p class="text-sm font-medium text-pink-600"><a class="hover:underline" href="{{ post.url}}">{{ post.cat}}</a></p><a class="block mt-2" href="{{ post.url}}">
 						<p class="text-xl font-semibold text-gray-900">{{ post.title}}</p>
