@@ -173,29 +173,41 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
-	<body class="bg-white">
-		{% include header.html %}
-		<main>
-			<div class="relative py-16 bg-white overflow-hidden">
-				<div class="relative px-4 sm:px-6 lg:px-8">
-					<div class="text-lg max-w-prose mx-auto">
-						<h1>
-							<span class="block text-base text-pink-600 font-semibold tracking-wide uppercase"
-								>{{blog_cat}}</span
-							>
-							<span
-								class="mt-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-								>{{blog_title}}</span
-							>
-						</h1>
-						<p class="mt-8 text-xl   text-black  leading-8">{{blog_snip}}</p>
-					</div>
-					<div class="mt-6 prose prose-pink prose-lg   text-black  mx-auto">
-						{{ content | safe }}
-					</div>
-				</div>
-			</div>
-		</main>
-		{% include footer.html %} {% bundledJs %}
-	</body>
+    <body>
+		<div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
+        {% include header.html %}
+		<main class="max-w-7xl mx-auto ">
+			<div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
+
+
+            <div class="relative py-16 overflow-hidden max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
+ 
+                    <div class="text-lg max-w-prose mx-auto">
+
+
+                        <h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">{{blog_title}}</h2>
+                        <p class="mt-5 max-w-prose mx-auto text-xl   text-black mb-10 ">
+                            {{blog_snip}}</p>
+
+
+                    </div>
+
+                    <div class="text-lg max-w-prose mx-auto card bg-white" id="blog-post">
+                        <div class="  card-body rounded-lg p-6">
+                            {{ content | safe }}
+                        </div>
+                    </div>
+            
+            </div>
+</div>
+
+        </main>
+
+
+        {% include footer.html %}
+
+		</div>
+
+    </body>
+	{% bundledJs %}
 </html>
