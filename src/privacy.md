@@ -1,5 +1,5 @@
 ---
-layout: templates/support_post.html
+layout: templates/blog_post.liquid
 title: Privacy features of Helperbird
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences

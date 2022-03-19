@@ -1,5 +1,5 @@
 ---
-layout: templates/support_post.html
+layout: templates/blog_post.liquid
 title: Refund policy
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never
