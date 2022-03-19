@@ -1,5 +1,5 @@
 ---
-layout: templates/support_post.html
+layout: templates/base.html
 title: Contact Sales - Helperbird
 description:
   Contact a Helperbird sales representative to discuss how Helperbird can help your business.
@@ -16,17 +16,62 @@ blog_title: Contact sales
 blog_snip: 'Looking for a discount or white labeling? Please use the the form below.'
 ---
 
-<div class="mt-12">
-	<iframe
-		alt="Main menu"
-		frameborder="0"
-		height="1006"
-		inheight="0"
-		marginwidth="0"
-		loading="lazy"
-		src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSchfyeDdrm7JTBWpzGhw9wQC00iF7VRcBkhCssEp0QlV21SGQ/formResponse?embedded=true"
-		title="Helperbird feedback fourm "
-		width="100%"
-		>Loading...</iframe
-	>
+
+
+
+<div>
+
+
+
+	<div class="relative pb-12">
+	
+		<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+			<h1 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl">
+
+				Contact Helperbirds' sales team
+
+
+			</h1>
+			<p class="mt-6 max-w-3xl text-xl text-black">Looking for a discount or a large number of subcriptions ? Please use the the form below.
+
+			</p>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="card bg-white mb-8 mt-8">
+		<div class="card-body py-24 px-4 ">
+		
+		<section aria-labelledby="contact-heading" class="lg:grid lg:grid-cols-1 lg:gap-8">
+			
+			<div class="mt-8 grid grid-cols-2 gap-12">
+				<div>
+<h2 class="text-2xl font-extrabold text-warm-gray-900 sm:text-3xl" id="contact-heading">Contact our amazing sales team</h2>
+</div>
+<iframe
+alt="Main menu"
+frameborder="0"
+height="1006"
+inheight="0"
+marginwidth="0"
+loading="lazy"
+src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSchfyeDdrm7JTBWpzGhw9wQC00iF7VRcBkhCssEp0QlV21SGQ/formResponse?embedded=true"
+title="Helperbird feedback fourm "
+width="100%"
+>Loading...</iframe
+>
+			</div>
+		</section>
+		
+		</div>
+		</div>
+
+
+
+
+
+{% include common/questions.html %} 
 </div>

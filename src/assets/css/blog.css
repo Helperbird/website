@@ -31,6 +31,14 @@
     list-style: decimal !important;
     padding: 1rem 2rem 3rem !important;
 }
+
+#blog-post .card-body ol > li > a {
+    color: blue !important;
+}
+#blog-post .card-body ol {
+    list-style: decimal !important;
+    padding: 1rem 2rem 3rem !important;
+}
 #blog-post .card-body li {
     list-style: decimal !important;
 
