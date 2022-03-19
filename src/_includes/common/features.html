@@ -22,7 +22,7 @@
 			{%- for feature in features.popular limit:5 -%}
 			<div class=" bg-white   rounded-lg p-6   bg-secondary">
 				<div>
-					<span class="flex items-center justify-center h-12 w-12 rounded-md text-white">
+					<span class="flex items-center justify-center h-12 w-12 rounded-full text-white">
 						{{ feature.icon | svgContents | safe }}
 					</span>
 				</div>

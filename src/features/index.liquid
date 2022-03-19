@@ -38,7 +38,7 @@ url: /features/
 		{%- for feature in features.popular  limit:3   -%}
 		<div class="bg-white rounded-lg p-6  bg-secondary text-white">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 		
 
 			
@@ -81,7 +81,7 @@ url: /features/
 {% if feature.group == 'dyslexia' %}
 		<div class="bg-white rounded-lg p-6 ">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 			  {{  feature.icon | svgContents  | safe }}
 			</span>
 		  </div>
@@ -129,7 +129,7 @@ url: /features/
 {% if feature.group == 'reading' %}
 		<div class="bg-white rounded-lg p-6 ">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 			  {{  feature.icon | svgContents  | safe }}
 			</span>
 		  </div>
@@ -175,7 +175,7 @@ url: /features/
 {% if feature.group == 'learning' %}
 		<div class="bg-white rounded-lg p-6 ">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 			  {{  feature.icon | svgContents  | safe }}
 			</span>
 		  </div>
@@ -221,7 +221,7 @@ url: /features/
 {% if feature.group == 'research' %}
 		<div class="bg-white rounded-lg p-6 ">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 			  {{  feature.icon | svgContents  | safe }}
 			</span>
 		  </div>
@@ -269,7 +269,7 @@ url: /features/
 {% if feature.group == 'other' %}
 		<div class="bg-white rounded-lg p-6 ">
 		  <div>
-			<span class="flex items-center justify-center h-12 w-12 rounded-md">
+			<span class="flex items-center justify-center h-12 w-12 rounded-full">
 			  {{  feature.icon | svgContents  | safe }}
 			</span>
 		  </div>
