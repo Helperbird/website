@@ -1,878 +1,1126 @@
 {
+
     "snap": [
         {
             "feature": "Font changer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other":  true
         },
         {
             "feature": "Dyslexia fonts",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Magnifier",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Word spacing",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Line height",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Letter spacing",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reader mode",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Immersive Reader",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Screenshot tools",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Screenshot reader",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Printing tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Translation",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "annotation tooling",
+            "feature": "Voice typing",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": " Speak As I Type",
+            "helperbird": true,
+            "other": true
+        },
+       
+
+
+        {
+            "feature": "Voice Note            ",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Vocab List",
             "helperbird": false,
-            "other": false
+            "other": true
+        },
+        {
+            "feature": " Audio Maker",
+            "helperbird": true,
+            "other": true
+        },
+
+       
+
+        
+
+        {
+            "feature": "Annotation tools",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Analyze",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight paragraphs",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
+        },
+        {
+            "feature": "Highlighter",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "PDF editor",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "PDF reader",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dynamic Text Leveling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Volume control",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Extract text from images (OCR)",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Scan",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Emphasize Links",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Color blindess tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dyslexia ruler",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dyslexia ruler options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Overlay",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Overlay options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Adblocker",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "High contrast",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Hide images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Remove flashing images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reading mask",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Line focus",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Coginitive load",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Text to speech",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Text to speech options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
-        {
-            "feature": "Dynamic Text Leveling",
-            "helperbird": false,
-            "other": false
-        },
+ 
         {
             "feature": "14 natural voices",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Cursor options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Auto scrolling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Spell check",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Blocklist",
+            "feature": "Similar Word Checker",
             "helperbird": false,
-            "other": false
+            "other": true
+        },
+        {
+            "feature": "Word Prediction            ",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Color features",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+
+        {
+            "feature": "Highlight & Collect",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Font options",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Sync settings & styles",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Themes",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Google doc support",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Simplify/Summarize",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Word support",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Picture Dictionary",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Bibliographer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Prediction",
-            "helperbird": false,
-            "other": false
+            "feature": "Word Prediction",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dictionary app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Annotations app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Text editor app",
+            "feature": "Drawing",
             "helperbird": false,
+            "other": true
+        },
+        {
+            "feature": "Research Folder",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": " Similar Word Checker",
+            "helperbird": true,
+            "other": true
+        },
+       
+        
+        {
+            "feature": "Text editor app",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dication app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Bookmark app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "iPad app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        } ,
+        {
+            "feature": "Google Docs app",
+            "helperbird": true,
+            "other": true
         }
     ],
+ 
     "read": [
         {
             "feature": "Font changer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other":  true
         },
         {
             "feature": "Dyslexia fonts",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Magnifier",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Word spacing",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Line height",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Letter spacing",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reader mode",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Immersive Reader",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Screenshot tools",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Screenshot reader",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Printing tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Translation",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "annotation tooling",
+            "feature": "Voice typing",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": " Speak As I Type",
+            "helperbird": true,
+            "other": true
+        },
+       
+
+
+        {
+            "feature": "Voice Note            ",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Vocab List",
             "helperbird": false,
-            "other": false
+            "other": true
+        },
+        {
+            "feature": " Audio Maker",
+            "helperbird": true,
+            "other": true
+        },
+
+       
+
+        
+
+        {
+            "feature": "Annotation tools",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Analyze",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight paragraphs",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
+        },
+        {
+            "feature": "Highlighter",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "PDF editor",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "PDF reader",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dynamic Text Leveling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Volume control",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Extract text from images (OCR)",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Scan",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Emphasize Links",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Color blindess tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dyslexia ruler",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dyslexia ruler options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Overlay",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Overlay options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Adblocker",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "High contrast",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Hide images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Remove flashing images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reading mask",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Line focus",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Coginitive load",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Text to speech",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Text to speech options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
-        {
-            "feature": "Dynamic Text Leveling",
-            "helperbird": false,
-            "other": false
-        },
+ 
         {
             "feature": "14 natural voices",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Cursor options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Auto scrolling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Spell check",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Blocklist",
+            "feature": "Similar Word Checker",
             "helperbird": false,
-            "other": false
+            "other": true
+        },
+        {
+            "feature": "Word Prediction            ",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Color features",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+
+        {
+            "feature": "Highlight & Collect",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Font options",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Sync settings & styles",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Themes",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Google doc support",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Simplify/Summarize",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Word support",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Picture Dictionary",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Bibliographer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Prediction",
-            "helperbird": false,
-            "other": false
+            "feature": "Word Prediction",
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Dictionary app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Annotations app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
-            "feature": "Text editor app",
+            "feature": "Drawing",
             "helperbird": false,
+            "other": true
+        },
+        {
+            "feature": "Research Folder",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": " Similar Word Checker",
+            "helperbird": true,
+            "other": true
+        },
+       
+        
+        {
+            "feature": "Text editor app",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dication app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Bookmark app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "iPad app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
+        } ,
+        {
+            "feature": "Google Docs app",
+            "helperbird": true,
+            "other": true
         }
     ],
 
     "immersive": [
         {
             "feature": "Font changer",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other":  true
         },
         {
             "feature": "Dyslexia fonts",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Magnifier",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Word spacing",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Line height",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Letter spacing",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reader mode",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Immersive Reader",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Screenshot tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Screenshot reader",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Printing tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Translation",
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Voice typing",
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": " Speak As I Type",
+            "helperbird": true,
+            "other": false
+        },
+       
+
+
+        {
+            "feature": "Voice Note            ",
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "Vocab List",
             "helperbird": false,
             "other": false
         },
         {
-            "feature": "annotation tooling",
-            "helperbird": false,
+            "feature": " Audio Maker",
+            "helperbird": true,
+            "other": false
+        },
+
+       
+
+        
+
+        {
+            "feature": "Annotation tools",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Analyze",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight paragraphs",
-            "helperbird": false,
+            "helperbird": true,
+            "other": true
+        },
+        {
+            "feature": "Highlighter",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "PDF editor",
-            "helperbird": false,
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "PDF reader",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dynamic Text Leveling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Volume control",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Readability Analyzer",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Extract text from images (OCR)",
-            "helperbird": false,
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "Scan",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Emphasize Links",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Color blindess tools",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dyslexia ruler",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dyslexia ruler options",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Overlay",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Overlay options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Adblocker",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "High contrast",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Hide images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Remove flashing images",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Reading mask",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Line focus",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Coginitive load",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Text to speech",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Text to speech options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
-        {
-            "feature": "Dynamic Text Leveling",
-            "helperbird": false,
-            "other": false
-        },
+ 
         {
             "feature": "14 natural voices",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Cursor options",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Auto scrolling",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Spell check",
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "Similar Word Checker",
             "helperbird": false,
             "other": false
         },
         {
-            "feature": "Blocklist",
-            "helperbird": false,
+            "feature": "Word Prediction            ",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Color features",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Highlight options",
-            "helperbird": false,
+            "helperbird": true,
+            "other": false
+        },
+
+        {
+            "feature": "Highlight & Collect",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Font options",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Sync settings & styles",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Themes",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Google doc support",
-            "helperbird": false,
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "Simplify/Summarize",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Word support",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Picture Dictionary",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Bibliographer",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
-            "feature": "Prediction",
-            "helperbird": false,
+            "feature": "Word Prediction",
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dictionary app",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Annotations app",
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": "Drawing",
             "helperbird": false,
             "other": false
         },
         {
+            "feature": "Research Folder",
+            "helperbird": true,
+            "other": false
+        },
+        {
+            "feature": " Similar Word Checker",
+            "helperbird": true,
+            "other": false
+        },
+       
+        
+        {
             "feature": "Text editor app",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "Dication app",
-            "helperbird": false,
-            "other": false
+            "helperbird": true,
+            "other": true
         },
         {
             "feature": "Bookmark app",
-            "helperbird": false,
+            "helperbird": true,
             "other": false
         },
         {
             "feature": "iPad app",
-            "helperbird": false,
+            "helperbird": true,
+            "other": false
+        } ,
+        {
+            "feature": "Google Docs app",
+            "helperbird": true,
             "other": false
         }
     ]

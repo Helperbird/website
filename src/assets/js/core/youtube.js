@@ -1,4 +1,4 @@
-function load() {
+function youtube() {
     const youtubeLazyLoad = document.querySelectorAll('.youtube_lazy_load');
 
     if (youtubeLazyLoad.length > 0) {
@@ -34,6 +34,6 @@ function load() {
 }
 
 export {
-	load
+    youtube
 }; // a list of exported variables
 

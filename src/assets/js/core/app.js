@@ -1,9 +1,10 @@
 import Vue from 'vue';
-
+import { crisp, loadManager, tagManager } from './third-party';
+import { youtube } from './youtube';
 
 function load() {
 	let isThere = document.getElementById('helperbird-website');
-	console.log(isThere);
+
 	new Vue({
 		el: '#helperbird-website',
 		data: {
@@ -39,7 +40,13 @@ function load() {
 		}
 		},
 	 mounted() {
-		console.log('mounted');
+		
+		crisp();
+		tagManager();
+		loadManager();
+
+		youtube();	
+
 		},
 		methods: {
 			switchType: function () {
