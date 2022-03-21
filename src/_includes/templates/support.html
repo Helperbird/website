@@ -176,6 +176,9 @@
 	<body class="bg-white">
 		{% include header.html %}
 		<main>{{ content | safe }}</main>
-		{% include footer.html %} {% bundledJs %}
+		{% include footer.html %}
+		{% include common/pricing_banner.html %}
+		{% bundledJs %}
+		
 	</body>
 </html>

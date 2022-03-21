@@ -1,0 +1,48 @@
+#blog-post .card-body h1,
+#blog-post .card-body  h2,
+#blog-post .card-body  h3,
+#blog-post .card-body    h4,
+#blog-post .card-body    h5,
+#blog-post .card-body    h6,
+#blog-post .card-body    p {
+    font-size: revert !important;
+    font-weight: revert!important;
+}
+
+.yellowHelperbird {
+    background-color: rgb(246, 245, 231) !important;
+}
+
+#blog-post .card-body p {
+    margin: 1.5rem 0 !important;
+}
+#blog-post .card-body h2 {
+    margin: 1.5rem 0 !important;
+}
+
+#blog-post .card-body img{
+    width: 70% !important;
+}
+
+#blog-post .card-body ul > li > a {
+    color: blue !important;
+}
+#blog-post .card-body ul {
+    list-style: decimal !important;
+    padding: 1rem 2rem 3rem !important;
+}
+
+#blog-post .card-body ol > li > a {
+    color: blue !important;
+}
+#blog-post .card-body ol {
+    list-style: decimal !important;
+    padding: 1rem 2rem 3rem !important;
+}
+#blog-post .card-body li {
+    list-style: decimal !important;
+
+    margin: 1rem 0 !important;
+
+    padding: 0 !important;
+}

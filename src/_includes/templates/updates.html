@@ -171,9 +171,20 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
-	<body class="bg-base-300 text-base-content h-full" style="background-color: rgb(246, 245, 231);">
+    <body>
+		<div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
 		{% include header.html %}
-		<main>{{ content | safe }}</main>
-		{% include footer.html %} {% bundledJs %}
+		<main class="max-w-7xl mx-auto " id="blog-post">
+			<div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
+				<div class="relative py-16 overflow-hidden max-w-5xl mx-auto  px-4 sm:px-6 lg:px-8">
+				{{ content | safe }}
+			</div>
+			</div>
+		</main>
+		{% include footer.html %}
+		{% include common/pricing_banner.html %}
+		</div>
+
 	</body>
+	{% bundledJs %}
 </html>

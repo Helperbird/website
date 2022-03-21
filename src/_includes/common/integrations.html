@@ -12,11 +12,11 @@
 		>
 			{%- for app in apps.all -%}
 			<div
-				class="bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5"
+				class=" bg-white   rounded-lg p-6  "
 				style="background: {{ app.color }}"
 			>
 				<div>
-					<span class="flex items-center justify-center h-12 w-12 rounded-md">
+					<span class="flex items-center justify-center h-12 w-12 rounded-full">
 						{{ app.icon | svgContents | safe }}
 					</span>
 				</div>

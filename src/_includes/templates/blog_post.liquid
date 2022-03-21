@@ -187,36 +187,41 @@
         <meta content="assets/images/social/browserconfig.xml" name="msapplication-config"/>
 
     </head>
-    <body class="bg-base-300 text-base-content h-full">
+    <body>
+		<div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
         {% include header.html %}
-        <main>
+		<main class="max-w-7xl mx-auto ">
+			<div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
 
 
-            <div class="relative py-16 overflow-hidden">
-                <div class="relative px-4 sm:px-6 lg:px-8">
+            <div class="relative py-16 overflow-hidden max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
+ 
                     <div class="text-lg max-w-prose mx-auto">
 
 
                         <h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">{{blog_title}}</h2>
-                        <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+                        <p class="mt-5 max-w-prose mx-auto text-xl   text-black mb-10 ">
                             {{blog_snip}}</p>
 
 
                     </div>
 
-                    <div class="text-lg max-w-prose mx-auto">
-                        <div class="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto pt-10 mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 bg-gray-50 rounded-lg p-6 dark:bg-gray-800 dark:highlight-white/5">
+                    <div class="text-lg max-w-prose mx-auto card bg-white" id="blog-post">
+                        <div class="  text-black  card-body rounded-lg p-6">
                             {{ content | safe }}
                         </div>
                     </div>
-                </div>
+            
             </div>
-
+</div>
 
         </main>
 
 
         {% include footer.html %}
-        {% bundledJs %}
+
+		</div>
+
     </body>
+	{% bundledJs %}
 </html>

@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: line height
+featureTitle: Line height
 featureDescription: Learn how easy it is to change the line height on any website.
 tags: guideFeaturesMain
 url: /help/how-to-change-the-line-height-on-any-website/

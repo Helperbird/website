@@ -180,9 +180,18 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
-	<body class="bg-base-300 text-base-content h-full" data-theme="helperbird">
-		{% include header.html %}
-		<main class="bg-white">{{ content | safe }}</main>
-		{% include footer.html %} {% bundledJs %}
-	</body>
+    <body>
+        <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
+            {% include header.html %}
+            <main>
+                <div class="items-stretch bg-grey-lighter min-h-screen">
+                    {{ content | safe }}
+                </div>
+            </main>
+            {% include footer.html %}
+			{% include common/pricing_banner.html %}
+        </div>
+    </body>
+	
+    {% bundledJs %}
 </html>
