@@ -204,15 +204,15 @@
                     <aside class="flex flex-col justify-between  w-80 bg-white">
                         <div>
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     🏃 Getting started
                                     </span>
                                 </li>
 
                                 {%- for guide in collections.guideFeatures -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ guide.url }}" aria-current="page" class="">
                                             {{ guide.data.featureTitle }}
                                         </a>
@@ -221,15 +221,15 @@
                                 {%- endfor -%}
                             </ul>
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     📋 Features
                                     </span>
                                 </li>
 
                                 {%- for features in collections.guideFeaturesMain -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ features.url }}" aria-current="page" class="">
                                             {{ features.data.featureTitle }}
                                         </a>
@@ -239,15 +239,15 @@
                             </ul>
 
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     📚 Integrations
                                     </span>
                                 </li>
 
                                 {%- for integration in collections.guideIntegrations -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ integration.url }}" aria-current="page" class="">
                                             {{ integration.data.featureTitle }}
                                         </a>
@@ -257,15 +257,15 @@
                             </ul>
 
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent" >
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     💬 Apps
                                     </span>
                                 </li>
 
                                 {%- for apps in collections.guideApps -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ apps.url }}" aria-current="page" class="">
                                             {{ apps.data.featureTitle }}
                                         </a>
@@ -275,15 +275,15 @@
                             </ul>
 
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     📱 iPad & iPhone
                                     </span>
                                 </li>
 
                                 {%- for account in collections.iOSHelp -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ account.url }}" aria-current="page" class="">
                                             {{ account.data.featureTitle }}
                                         </a>
@@ -294,15 +294,15 @@
 
 
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
-                                <li class="mt-4 menu-title">
-                                   <span class="card-title font-normal">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     👤 Account
                                     </span>
                                 </li>
 
                                 {%- for account in collections.guideAccounts -%}
 
-                                    <li>
+                                    <li class="ml-4">
                                         <a href="{{ account.url }}" aria-current="page" class="">
                                             {{ account.data.featureTitle }}
                                         </a>
