@@ -15,15 +15,78 @@ tags: guideFeatures
 url: /help/how-to-login-to-helperbird/
 ---
 
-# How to pause Helperbird
+# How to login to Helperbird
 
-One of the most important features of Helperbird is the ability to pause and resume Helperbird. So
-you can focus on your work and turn on the features later.
+Helperbird has different ways to login to get access to your Pro features.
 
-## Steps to turn pause Helperbird
 
-- Click on the Helperbird icon in the top right corner of the browser.
-- A popup will appear.
-- Click on the **Pause** toggle button.
-- This will now pause Helperbirds features.
-- You can resume Helperbird later by clicking on the **Pause** toggle button again.
+## How to login into Helperbird for Chrome or Edge
+
+- First you will need to install the Helperbird extension.
+- Once that is done, open the Helperbird extension.
+- On the top right of the extension, click the **Settings** cog.
+- A drop down menu will appear.
+- Choose the login button.
+- A new tab will open.
+- It will show the account card, with a login button.
+- Click the login button.
+- Will ask you for premission for us to read your email address.
+- Once allowed, we will use that email to check if you have a Helperbird Pro subscription. If you
+  do, you will be able to access your Pro features.
+
+- You can also login using your subscription key, please go to the subscription key guide to learn how.
+
+
+## How to login into Helperbird for Firefox
+
+Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
+
+- First you will need to install the Helperbird extension.
+- Once that is done, open the Helperbird extension.
+- On the top right of the extension, click the **Settings** cog.
+- A drop down menu will appear.
+- Choose the settings button.
+- A new tab will open.
+- Scroll to the subscription key section.
+- Enter your subscription key.
+- Click the save button.
+- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If you do not have a subscription, you will get a message saying you do not have a subscription.
+
+
+## How to login into Helperbird for iPad
+
+Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
+
+- First you will need to install the Helperbird for iPad extension.
+- Once that is done.
+- Go to Settings.
+- Scroll to Safari.
+- Then tap Extensions.
+- Click on Helperbird.
+- Click on option button.
+- It will bring you the settings page.
+- Scroll to the subscription key section.
+- Enter your subscription key.
+- Click the save button.
+- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If you do not have a subscription, you will get a message saying you do not have a subscription.
+
+
+## How to login into Helperbird for iPhone 
+
+Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
+
+- First you will need to install the Helperbird for iPad extension.
+- Once that is done.
+- Go to Settings.
+- Scroll to Safari.
+- Then tap Extensions.
+- Click on Helperbird.
+- Click on option button.
+- It will bring you the settings page.
+- Scroll to the subscription key section.
+- Enter your subscription key.
+- Click the save button.
+- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If you do not have a subscription, you will get a message saying you do not have a subscription.
