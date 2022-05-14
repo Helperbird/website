@@ -1,10 +1,10 @@
-#blog-post .card-body h1,
-#blog-post .card-body  h2,
-#blog-post .card-body  h3,
-#blog-post .card-body    h4,
-#blog-post .card-body    h5,
-#blog-post .card-body    h6,
-#blog-post .card-body    p {
+#blog-post  h1,
+#blog-post   h2,
+#blog-post   h3,
+#blog-post     h4,
+#blog-post     h5,
+#blog-post     h6,
+#blog-post     p {
     font-size: revert !important;
     font-weight: revert!important;
 }
@@ -13,33 +13,33 @@
     background-color: rgb(246, 245, 231) !important;
 }
 
-#blog-post .card-body p {
+#blog-post  p {
     margin: 1.5rem 0 !important;
 }
-#blog-post .card-body h2 {
+#blog-post  h2 {
     margin: 1.5rem 0 !important;
 }
 
-#blog-post .card-body img{
+#blog-post  img{
     width: 70% !important;
 }
 
-#blog-post .card-body ul > li > a {
+#blog-post  ul > li > a {
     color: blue !important;
 }
-#blog-post .card-body ul {
+#blog-post  ul {
     list-style: decimal !important;
     padding: 1rem 2rem 3rem !important;
 }
 
-#blog-post .card-body ol > li > a {
+#blog-post  ol > li > a {
     color: blue !important;
 }
-#blog-post .card-body ol {
+#blog-post  ol {
     list-style: decimal !important;
     padding: 1rem 2rem 3rem !important;
 }
-#blog-post .card-body li {
+#blog-post  li {
     list-style: decimal !important;
 
     margin: 1rem 0 !important;
