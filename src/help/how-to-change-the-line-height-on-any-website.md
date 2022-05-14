@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Line height
 featureDescription: Learn how easy it is to change the line height on any website.
+date: 2021-01-05
 tags: guideFeaturesMain
 url: /help/how-to-change-the-line-height-on-any-website/
 ---

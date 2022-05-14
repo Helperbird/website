@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Spell Checker
 featureDescription: Learn how to auto scroll on any website or app.
+date: 2022-04-01
 tags: guideFeaturesMain
 url: /help/how-to-enable-spell-check-on-any-website-or-app/
 ---

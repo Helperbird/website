@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Google docs add-on
+featureTitle: Google Docs
 featureDescription:
   How to use the offical Helperbird Google docs add on, from installing, the features and more.
 tags: guideIntegrations

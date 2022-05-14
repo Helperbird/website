@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Color Blindness
 featureDescription: How to use Helperbird's colorblind features on any website
+date: 2018-01-03
 tags: guideFeaturesMain
 url: /help/how-to-use-helperbirds-color-blind-features-on-websites/
 ---

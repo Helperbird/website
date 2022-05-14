@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Zoom and Magnifying
 featureDescription: Learn how easy it is to change the zoom or magnifying settings on any website.
+date: 2022-12-01
 tags: guideFeaturesMain
 url: /help/how-to-adjust-zoom-magnifying-for-any-website/
 ---

@@ -15,6 +15,7 @@ featureTitle: Highlighter
 featureDescription:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser
   extension.
+date: 2020-01-05
 tags: guideFeaturesMain
 url: /help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---

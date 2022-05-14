@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Overlay
 featureDescription: Learn how to use a Overlay/Tint on any website, pdf or app.
+date: 2022-02-02
 tags: guideFeaturesMain
 url: /help/how-to-add-a-overlay-to-any-website/
 ---

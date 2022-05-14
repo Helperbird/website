@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Reading guide
 featureDescription: Learn how to use a Reading guide on any website, pdf or app.
+date: 2022-03-02
 tags: guideFeaturesMain
 url: /help/how-to-use-a-reading-guide-on-any-website/
 ---

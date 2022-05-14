@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: High contrast
 featureDescription: How to use Helperbird high contrast features on any website
+date: 2020-01-05
 tags: guideFeaturesMain
 url: /help/how-to-use-helperbirds-color-blind-features-on-websites/
 ---

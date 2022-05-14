@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Highlight paragraphs
 featureDescription: Learn how to highlight paragraphs on any website, pdf or app.
+date: 2020-01-06
 tags: guideFeaturesMain
 url: /help/how-to-highlight-paragraphs-on-any-page/
 ---

@@ -15,6 +15,7 @@ featureTitle: Annotate
 featureDescription:
   Learn how to annotate any website with sticky notes for free with Helperbird on Chrome, Firefox,
   Edge extension.
+date: 2016-01-03
 tags: guideFeaturesMain
 url: /help/how-to-annotate-any-website-with-sticky-notes/
 ---

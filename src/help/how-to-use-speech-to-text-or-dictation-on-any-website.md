@@ -14,6 +14,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Dictation
 featureDescription:
   How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
+date: 2019-01-02
 tags: guideFeaturesMain
 url: /help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---

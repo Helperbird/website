@@ -13,6 +13,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Font changer
 featureDescription:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
+date: 2020-01-01
 tags: guideFeaturesMain
 url: /help/how-to-change-the-font-on-any-page/
 ---

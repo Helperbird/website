@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Line focus
 featureDescription: Learn how to use a line focus on any website, pdf or app.
+date: 2021-01-03
 tags: guideFeaturesMain
 url: /help/how-to-use-a-line-focus-on-any-website/
 ---

@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Google slides add-on
+featureTitle: Google Slides
 featureDescription:
   How to use the offical Helperbird Google Slides add on, from installing, the features and more.
 tags: guideIntegrations

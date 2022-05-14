@@ -12,6 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Immersive reader
 featureDescription:
   Learn how easy it is to use Immersive Reader by Microsoft on any website, pdf or app.
+date: 2021-01-04
 tags: guideFeaturesMain
 url: /help/how-to-use-immersive-reader-on-any-website/
 ---

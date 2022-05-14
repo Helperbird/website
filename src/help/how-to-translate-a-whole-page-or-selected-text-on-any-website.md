@@ -13,6 +13,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Translate
 featureDescription:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.
+date: 2022-04-04
 tags: guideFeaturesMain
 url: /help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---

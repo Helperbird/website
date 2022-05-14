@@ -11,6 +11,7 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Cognitive load
 featureDescription: Learn how to use cognitive load on any website, pdf or app.
+date: 2018-01-01
 tags: guideFeaturesMain
 url: /help/how-to-add-a-cognitive-load-to-text-on-any-website/
 ---
