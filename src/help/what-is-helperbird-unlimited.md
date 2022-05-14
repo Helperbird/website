@@ -14,6 +14,7 @@ featureTitle: What is Helperbird Unlimited?
 featureDescription:
   What is Helperbird Unlimited?, discover what features are included in the paid version of
   Helperbird.
+date: 2016-01-08
 tags: guideFeatures
 url: /help/what-is-helperbird-unlimited/
 ---

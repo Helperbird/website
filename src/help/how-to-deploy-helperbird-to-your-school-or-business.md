@@ -14,6 +14,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: How to deploy Helperbird
 featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
+date: 2016-01-09
 tags: guideFeatures
 url: /help/how-to-deploy-helperbird-to-your-school-or-business/
 ---
