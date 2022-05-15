@@ -15,31 +15,60 @@ blog_title: How to install and set up Helperbird
 blog_snip: Your step by step guide on how to install and set up Helperbird.
 ---
 
+  
+
 Your step by step guide on how to install and set up Helperbird.
+
+  
 
 - First you need to visit [Helperbird.com](https://www.helperbird.com)
 
+  
+
 ![Step one of how to install Helperbird on G Suite](/assets/images/blog/setup/setup_1.png)
+
+  
 
 Step one of how to install Helperbird on G Suite
 
+  
+
 - Then click the download button on the top right of the page.
+
 - Then select the Google Chrome button.
+
+  
 
 ![Step two of how to install Helperbird on G Suite](/assets/images/blog/setup/setup_2.png)
 
+  
+
 Step two of how to install Helperbird on G Suite
+
+  
 
 - You will see the page below. Click the \`add to Chrome\` button.
 
+  
+
 ![Step three of how to install Helperbird on G Suite](/assets/images/blog/setup/setup_3.png)
+
+  
 
 Step three of how to install Helperbird on G Suite
 
+  
+
 - You will then see the below popup. Click add extension button.
+
+  
 
 ![Step four of how to install Helperbird on G Suite](/assets/images/blog/setup/setup_4.png)
 
+  
+
 Step four of how to install Helperbird on G Suite
+
+  
 
 - Woo, you have Helperbird installed.

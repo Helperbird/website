@@ -19,13 +19,14 @@ blog_snip:
   brand new Chromebook and a year of Helperbird Pro.
 ---
 
+  
+
 ## Helperbird chromebook giveaway official rules
 
-I don't know about you. We hate when companies don't show the winner receiving her prize. So we
-wrote this blog to say, Congrats to Debbie for being our winner. We love your dog.
+  
 
-We will be running more competitions throughout the year, including Helperbird Pro for free, iPads
-and more Chromebooks.
+I don't know about you. We hate when companies don't show the winner receiving her prize. So we wrote this blog to say, Congrats to Debbie for being our winner. We love your dog.
 
-Be sure to follow our Twitter, Instagram & Facebook to learn more on how you can enter and win
-future competitions.
+We will be running more competitions throughout the year, including Helperbird Pro for free, iPads and more Chromebooks.
+
+Be sure to follow our Twitter, Instagram & Facebook to learn more on how you can enter and win future competitions.

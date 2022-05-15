@@ -17,12 +17,18 @@ blog_snip:
   account.
 ---
 
+  
+
 ## When you have an account, follow these steps:
 
-- Open Chrome or Edge.
-- In the top right, click the button with your name or People People icon.
-- Click "Sign in to Chrome" or "Sign in to Edge".
-- Sign in with your Google/Microsoft Account.
-- To customize your sync settings, click More icon and then Settings and then Advanced sync
-  settings. You can choose what information to share across other devices where you're signed in to
-  Chrome or Edge.
+  
+
+Open Chrome or Edge.
+
+In the top right, click the button with your name or People People icon.
+
+Click "Sign in to Chrome" or "Sign in to Edge".
+
+Sign in with your Google/Microsoft Account.
+
+To customize your sync settings, click More icon and then Settings and then Advanced sync settings. You can choose what information to share across other devices where you're signed in to Chrome or Edge.

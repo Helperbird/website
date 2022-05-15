@@ -15,62 +15,114 @@ blog_title: How to install and set up Helperbird
 blog_snip: Your step by step guide on how to install and set up Helperbird.
 ---
 
+  
+
 Click Device management in the Google Admin Console.
+
+  
 
 ![Step one of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_1.png)
 
+  
+
 ### Step one of how to install Helperbird on G Suite
+
+  
 
 Select Chrome management.
 
+  
+
 ![Step two of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_2.png)
+
+  
 
 ### Step two of how to install Helperbird on G Suite
 
+  
+
 In Chrome Management, select User & browser settings.
+
+  
 
 ![Step three of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_3.png)
 
+  
+
 ### Step three of how to install Helperbird on G Suite
+
+  
 
 Under Organizations choose the OU (Organizational Unit) you would like to deploy extensions to.
 
 Scroll down to Apps and Extensions and locate Force-installed Apps and Extensions.
 
+  
+
 Click the Manage force-installed apps link.
+
+  
 
 ![Step four of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_4.png)
 
+  
+
 ### Step four of how to install Helperbird on G Suite
+
+  
 
 In Force-installed Apps and Extensions, click the Chrome Web Store button.
 
+  
+
 ![Step five of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_5.png)
+
+  
 
 ### Step five of how to install Helperbird on G Suite
 
-Type the extension or app name (Ie Helperbird) that you're deploying into the search box and press
-Enter. The app or extension listing will appear immediately below the search box.
+  
+
+Type the extension or app name (Ie Helperbird) that you're deploying into the search box and press Enter. The app or extension listing will appear immediately below the search box.
 
 Click on the Add link to add the app or extension to the force-install list.
 
+  
+
 ![Step six of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_6.png)
+
+  
 
 ### Step six of how to install Helperbird on G Suite
 
+  
+
 ![Step sevem of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_7.png)
+
+  
 
 ### Step seven of how to install Helperbird on G Suite
 
+  
+
 ![Step eight of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_8.png)
+
+  
 
 ### Step eight of how to install Helperbird on G Suite
 
+  
+
 Click SAVE.
+
+  
 
 ![Step nine of how to install Helperbird on G Suite](/assets/images/blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/steps_9.png)
 
+  
+
 ### Step nine of how to install Helperbird on G Suite
 
-After the force-install window has closed, click SAVE at the bottom of the page to publish the app
-or extension to all of your selected users. The app or extension will now be deployed to your users.
+  
+
+After the force-install window has closed, click SAVE at the bottom of the page to publish the app or extension to all of your selected users. The app or extension will now be deployed to your users.
