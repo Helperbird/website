@@ -7,7 +7,7 @@ keywords:
   For many years, educators have felt the pressure to make learning more than a singular experience. As technology becomes more popular, classrooms have gradually evolved away from the chalk and blackboard combination. 
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/accessibility-tips-for-epilepsy/
+url: /blog/benefits-of-ipads-in-the-classroom/
 blog_cat: Blog
 blog_title: Benefits of iPads in the Classroom 
 blog_snip: 
