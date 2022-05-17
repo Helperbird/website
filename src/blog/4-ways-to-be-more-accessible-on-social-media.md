@@ -11,7 +11,12 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/4-ways-to-be-more-accessible-on-social-media/
-blog_cat: Blog
+img: /assets/images/blog/4-ways-to-be-more-accessible-on-social-media/4-ways-to-be-more-accessible-on-social-media.png
+name: "Helperbird staff"
+date: Last Modified
+time: "5 min"
+tags: blog
+blog_cat:  Blog
 blog_title: 4 Ways to be More Accessible on Social Media in 2022
 blog_snip:
   Social media is a massive space of information sources and connections. People are often glued to their phones because they always want to get the latest trending topics. Others simply would want to be entertained by memes or discover and learn new things.

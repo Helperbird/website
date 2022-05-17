@@ -12,11 +12,21 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/helperbirds-winner-of-the-2021-chromebook/
-blog_cat: GUEST BLOG
+tags: blog
+blog_cat:  GUEST BLOG
 blog_title: Congratulations to our Winner
 blog_snip:
   In February 2021 we ran a competition to celebrate the start of the new School term, to win a
   brand new Chromebook and a year of Helperbird Pro.
+
+cat: Blog
+
+img: /assets/images/blog/giveaway/giveaway.jpeg
+des: Rules for the Helperbird giveaway official rules
+name: Robert James
+date: Last Modified
+time: 10 min
+
 ---
 
   

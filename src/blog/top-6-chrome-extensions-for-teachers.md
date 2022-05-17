@@ -10,9 +10,15 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/top-6-chrome-extensions-for-teachers/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: Top 6 Chrome Extensions for Teachers
 blog_snip: By Helperbird Staff
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
+name: June Coffeecups
+date: Last Modified
+time: 4 min
 ---
 
   

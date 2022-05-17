@@ -13,9 +13,21 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/the-5-must-have-accessibility-tools-for-students-in-2021/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: The 5 Must-Have Accessibility Tools for students in 2021
 blog_snip: By Helperbird Staff
+
+cat: Blog
+
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des: With online learning and increased online activity, it's important that every student feels
+  empowered and comfortable when working online. There are hundreds of tools out there but here are
+  our top 5 tools to use in 2021.
+name: Robert James
+date: Last Modified
+time: 4 min
+
 ---
 
   

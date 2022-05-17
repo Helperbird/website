@@ -10,9 +10,20 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/thanksgiving-message-from-helperbird/
-blog_cat: GUIDE
+tags: blog
+blog_cat:  GUIDE
 blog_title: Thanksgiving day message from Helperbird
 blog_snip: By Helperbird Staff
+cat: Essay
+
+
+des: On the day before Thanksgiving Helperbird wants to give thanks for what were most grateful for this year.
+
+name: Robert James
+
+date: Last Modified
+img: /assets/images/blog/thanksgiving/GIVE-THANKS-01.png
+time: 7 min
 ---
   
 

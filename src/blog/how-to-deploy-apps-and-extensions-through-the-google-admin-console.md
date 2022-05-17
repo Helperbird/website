@@ -10,9 +10,19 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
-blog_cat: GUIDE
+tags: blog
+blog_cat:  GUIDE
 blog_title: How to install and set up Helperbird
 blog_snip: Your step by step guide on how to install and set up Helperbird.
+
+
+
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des:   Your step by step guide on how to install and set up Helperbird.
+name: June Coffeecups
+date: Last Modified
+time: 4 min
+
 ---
 
   

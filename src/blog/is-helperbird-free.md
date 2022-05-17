@@ -1,7 +1,7 @@
 ---
 layout: templates/blog_post.liquid
-title: Is Helperbird safe? | Helperbird
-description: Is Helperbird safe to use?
+title: Is Helperbird free? | Helperbird
+description: Is Helperbird free to use?
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,9 +10,19 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/is-helperbird-free/
-blog_cat: Guide
+tags: blog
+blog_cat:  Guide
 blog_title: Is Helperbird free to use?
-blog_snip:
+blog_snip: Is Helperbird free to use?
+
+cat: Blog
+
+img: /assets/images/blog/giveaway/giveaway.jpeg
+des: Is Helperbird free to use?
+name: Robert James
+date: Last Modified
+time: 10 min
+
 ---
 
   

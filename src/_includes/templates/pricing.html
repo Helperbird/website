@@ -182,13 +182,13 @@
 	</head>
     <body>
         <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
-            {% include header.html %}
+            {% include templates/header.html %}
             <main>
                 <div class="items-stretch bg-grey-lighter min-h-screen">
                     {{ content | safe }}
                 </div>
             </main>
-            {% include footer.html %}
+            {% include templates/footer.html %}
 			{% include common/pricing_banner.html %}
         </div>
     </body>

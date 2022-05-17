@@ -10,9 +10,17 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/top-productivity-extensions-for-safari/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: Top Productivity Extensions for Safari
 blog_snip: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources. 
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources. 
+name: June Coffeecups
+date: Last Modified
+time: 4 min
+
+
 ---
 
 

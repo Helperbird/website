@@ -12,12 +12,19 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
-blog_cat: Guide
+tags: blog
+blog_cat:  Guide
 blog_title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work
 
 blog_snip:
   Focus is integral in ensuring that we get things done. But every now and then, there is something
   that is sure to take away your attention.
+
+img: /assets/images/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work.jpg
+des: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
+name: Andrew Chu
+date: Last Modified
+time: 11 min
 ---
 
   

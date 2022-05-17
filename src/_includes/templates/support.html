@@ -174,9 +174,9 @@
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
 	<body class="bg-white">
-		{% include header.html %}
+		{% include templates/header.html %}
 		<main>{{ content | safe }}</main>
-		{% include footer.html %}
+		{% include templates/footer.html %}
 		{% include common/pricing_banner.html %}
 		{% bundledJs %}
 		

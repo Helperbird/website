@@ -14,9 +14,21 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/interview-with-dyslexic-founder-of-helperbird/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: Interview with Helperbird founder & dyslexic, Robert James Gabriel
 blog_snip: By Courtney Hood
+cat: Interview
+
+
+
+des: At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
+
+name: Robert James
+
+date: Last Modified
+img: /assets/images/blog/extra/robert-gabriel.png
+time: 7 min
 ---
 
   ## What made you develop Helperbird?

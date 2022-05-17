@@ -11,10 +11,18 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/accessibility-tips-for-epilepsy/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: Accessibility tips for Epilepsy
 blog_snip:
   Web designing is reinventing and there is no better time to do it than now. Having a great and accessible friendly website will not only help people browse with ease but gives the opportunity to people with disabilities to use them more conveniently and enjoyably.
+
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des: Web designing is reinventing and there is no better time to do it than now. Having a great and accessible friendly website will not only help people browse with ease but gives the opportunity to people with disabilities to use them more conveniently and enjoyably.
+name: June Coffeecups
+date: Last Modified
+time: 4 min
+
 ---
 
  

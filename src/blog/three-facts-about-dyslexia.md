@@ -10,9 +10,22 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/three-facts-about-dyslexia/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: 3 Facts about Dyslexia and 1 Fact about Cats
 blog_snip: By Helperbird Staff
+cat: Facts
+
+
+
+des: 3 Facts about Dyslexia and 1 Fact about Cats
+
+name: Robert James
+
+date: Last Modified
+img: /assets/images/blog/extra/crash-the-cat.png
+time: 7 min
+
 ---
 
   

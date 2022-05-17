@@ -11,9 +11,17 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/top-ipad-apps-for-accessibility/
-blog_cat: Blog
+tags: blog
+blog_cat:  Blog
 blog_title: Top iPad apps for Accessibility
-blog_snip: By Helperbird Staff
+blog_snip: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
+
+img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+des: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
+name: June Coffeecups
+date: Last Modified
+time: 4 min
+
 ---
 
 The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.

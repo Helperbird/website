@@ -10,9 +10,20 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-use-immersive-reader-in-google-docs/
-blog_cat: Guide
+tags: blog
+blog_cat:  Guide
 blog_title: How to use Immersive reader on Google Docs
 blog_snip: A step by step guide.
+cat: Guide
+
+
+
+des: Discover how to use Immersive reader in Google Docs for free.
+
+name: Robert James
+img: /assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png
+date: Last Modified
+time: 10 min
 ---
 
   

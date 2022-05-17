@@ -15,10 +15,23 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/
-blog_cat: Research
+tags: blog
+blog_cat:  Research
 blog_title:
   Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexia
 blog_snip: By Robert James Gabriel
+
+cat: Research
+
+des: There are few published papers about usability testing with dyslexia focused fonts but there is a considerable collection of knowledge on dyslexia as well as many suggestions for authoring dyslexia friendly interfaces.
+
+name: Robert James
+
+date: Last Modified
+
+time: 7 min
+img: https://miro.medium.com/max/1400/0*fg-ZaVStYkFz5Azh.png
+
 ---
 
   

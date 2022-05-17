@@ -10,9 +10,19 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/giveaway-rules/
-blog_cat: GUIDE
+tags: blog
+blog_cat:  GUIDE
 blog_title: Rules for the Helperbird giveaway official rules
 blog_snip: By Helperbird Staff
+
+cat: Blog
+
+img: /assets/images/blog/giveaway/giveaway.jpeg
+des: Rules for the Helperbird giveaway official rules
+name: Robert James
+date: Last Modified
+time: 10 min
+
 ---
 
   

@@ -10,9 +10,18 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/is-helperbird-safe/
-blog_cat: Guide
-blog_title: Is Helperbird safe to use?
-blog_snip:
+tags: blog
+blog_cat:  Guide
+blog_title: Is Helperbird free to use?
+blog_snip: Is Helperbird free to use?
+
+cat: Blog
+
+img: /assets/images/blog/giveaway/giveaway.jpeg
+des: Is Helperbird free to use?
+name: Robert James
+date: Last Modified
+time: 10 min
 ---
 
 ## Is Helperbird free to use?
