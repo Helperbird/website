@@ -14,7 +14,7 @@ blog_title: Benefits of iPads in the Classroom
 blog_snip: 
   For many years, educators have felt the pressure to make learning more than a singular experience. As technology becomes more popular, classrooms have gradually evolved away from the chalk and blackboard combination. The old ways of learning are now being replaced with newer, better technology, and students are required to learn a multitude of skills in a short amount of time. Teachers and schools desire to generate social and creative learners who excel in the 21st century. In order for schools to be successful with this, we need to change the way we approach teaching. iPads in the classroom are changing the way we learn by bringing excitement, engagement, and exploration into learning experiences. And we are here to discuss them one by one.
 
-img: /assets/images/graph/twitter.png
+img:  /assets/images/blog/new-blog-2022/ipads-in-class.png
 des: For many years, educators have felt the pressure to make learning more than a singular experience. As technology becomes more popular, classrooms have gradually evolved away from the chalk and blackboard combination.
 name: June Coffeecups
 date: Created

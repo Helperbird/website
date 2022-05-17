@@ -14,7 +14,7 @@ tags: blog
 blog_cat:  Blog
 blog_title: Top 6 Chrome Extensions for Teachers
 blog_snip: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
-img: /assets/images/graph/twitter.png
+img:  /assets/images/blog/new-blog-2022/chrome-extensions-teachers.png
 des: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
 name: June Coffeecups
 date: Created

@@ -14,7 +14,7 @@ tags: blog
 blog_cat:  Blog
 blog_title: Top Productivity Extensions for Safari
 blog_snip: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources. 
-img:  /assets/images/graph/twitter.png
+img:  /assets/images/blog/new-blog-2022/safari-extensions.png
 des: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources. 
 name: June Coffeecups
 date: Created

@@ -16,7 +16,7 @@ blog_cat:  Blog
 blog_title: Top iPad apps for Accessibility
 blog_snip: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 
-img: /assets/images/graph/twitter.png
+img:  /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
 des: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 name: June Coffeecups
 date: Created
