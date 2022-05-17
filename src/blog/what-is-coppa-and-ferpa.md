@@ -15,7 +15,7 @@ blog_cat:  Blog
 blog_title: What is COPPA and FERPA?
 blog_snip: The Children's Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act (FERPA) are two similar pieces of legislation that protect the privacy of student data.
 
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des: The Children's Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act (FERPA) are two similar pieces of legislation that protect the privacy of student data.
 name: June Coffeecups
 date: Created

@@ -17,7 +17,7 @@ blog_snip: Your step by step guide on how to install and set up Helperbird.
 
 
 
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des:   Your step by step guide on how to install and set up Helperbird.
 name: June Coffeecups
 date: Created

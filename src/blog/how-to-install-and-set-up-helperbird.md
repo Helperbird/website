@@ -14,7 +14,7 @@ tags: blog
 blog_cat:  GUIDE
 blog_title: How to install and set up Helperbird
 blog_snip:  Learn how to deploy or install Helperbird in serveal computers at once.
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des:    Learn how to deploy or install Helperbird in serveal computers at once.
 name: Robert James
 date: Created

@@ -16,7 +16,7 @@ featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
 tags: guideFeatures
 url: /help/how-to-deploy-helperbird-to-your-school-or-business/
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des:  Learn how to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 name: June Coffeecups
 date: Created

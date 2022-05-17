@@ -15,7 +15,7 @@ blog_cat:  Blog
 blog_title: Top 5 Productivity Microsoft Edge Extensions
 blog_snip: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
 
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
 name: June Coffeecups
 date: Created

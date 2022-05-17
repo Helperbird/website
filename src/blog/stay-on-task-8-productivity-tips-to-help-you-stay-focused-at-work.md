@@ -20,7 +20,7 @@ blog_snip:
   Focus is integral in ensuring that we get things done. But every now and then, there is something
   that is sure to take away your attention.
 
-img: /assets/images/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work.jpg
+img: /assets/images/blog/new-blog-2022/productivity-tips.png
 des: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 name: Andrew Chu
 date: Created

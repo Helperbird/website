@@ -15,7 +15,7 @@ tags: blog
 blog_cat:  Blog
 blog_title: How to add extensions to Safari
 blog_snip: Safari is a powerful browser, and extensions are one of the many ways you can customize it for your needs. While Safari comes with a number of built-in extensions, there are much more available from the App Store.
-img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
+img: /assets/images/graph/twitter.png
 des: Safari is a powerful browser, and extensions are one of the many ways you can customize it for your needs. While Safari comes with a number of built-in extensions, there are much more available from the App Store.
 name: June Coffeecups
 date: Created
