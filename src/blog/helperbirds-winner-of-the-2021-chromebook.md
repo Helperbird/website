@@ -24,7 +24,7 @@ cat: Blog
 img: /assets/images/blog/giveaway/giveaway.jpeg
 des: Rules for the Helperbird giveaway official rules
 name: Robert James
-date: Last Modified
+date: Created
 time: 10 min
 
 ---

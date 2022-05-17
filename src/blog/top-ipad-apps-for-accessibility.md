@@ -19,7 +19,7 @@ blog_snip: The Internet is a vast resource of information. But what happens when
 img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
 des: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 name: June Coffeecups
-date: Last Modified
+date: Created
 time: 4 min
 
 ---

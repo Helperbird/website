@@ -22,7 +22,7 @@ des: Discover how to use Immersive reader in Google Docs for free.
 
 name: Robert James
 img: /assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png
-date: Last Modified
+date: Created
 time: 10 min
 ---
 

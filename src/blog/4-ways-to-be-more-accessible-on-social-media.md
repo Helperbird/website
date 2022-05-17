@@ -13,7 +13,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/4-ways-to-be-more-accessible-on-social-media/
 img: /assets/images/blog/4-ways-to-be-more-accessible-on-social-media/4-ways-to-be-more-accessible-on-social-media.png
 name: "Helperbird staff"
-date: Last Modified
+date: Created
 time: "5 min"
 tags: blog
 blog_cat:  Blog

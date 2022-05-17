@@ -21,7 +21,7 @@ cat: Essay
 img: /assets/images/blog/teacher-appreciation-week-2020-dyslexia-story/teacher-appreciation-week-2020-dyslexia-story.png
 des: From droping out of school to starting my own company.
 name: Robert James
-date: Last Modified
+date: Created
 time: 11 min
 ---
 

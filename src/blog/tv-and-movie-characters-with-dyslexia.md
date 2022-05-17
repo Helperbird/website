@@ -18,7 +18,7 @@ blog_snip:
   Children and adults often look at characters in movies and TV shows to look at for inspiration and to dream. If you or our child is dyslexic, you might be surprised to see the following characters have dyslexia.
 name: Robert James Gabriel
 img: /assets/images/blog/tv-and-movie-characters-with-dyslexia/tv-and-movie-characters-with-dyslexia.png
-date: Last Modified
+date: Created
 time: 5 min
 
 ---

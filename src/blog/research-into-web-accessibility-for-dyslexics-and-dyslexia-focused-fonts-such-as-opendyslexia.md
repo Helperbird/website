@@ -27,7 +27,7 @@ des: There are few published papers about usability testing with dyslexia focuse
 
 name: Robert James
 
-date: Last Modified
+date: Created
 
 time: 7 min
 img: https://miro.medium.com/max/1400/0*fg-ZaVStYkFz5Azh.png

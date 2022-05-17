@@ -22,7 +22,7 @@ des: How positive thoughts might benefit dyslexic students.
 
 name: Robert James
 
-date: Last Modified
+date: Created
 img: /assets/images/blog/positive/GOODDAY-01.png
 time: 7 min
 ---

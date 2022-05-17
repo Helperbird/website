@@ -17,7 +17,7 @@ blog_snip:  Learn how to deploy or install Helperbird in serveal computers at on
 img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
 des:    Learn how to deploy or install Helperbird in serveal computers at once.
 name: Robert James
-date: Last Modified
+date: Created
 time: 4 min
 ---
 

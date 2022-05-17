@@ -21,7 +21,7 @@ des: On the day before Thanksgiving Helperbird wants to give thanks for what wer
 
 name: Robert James
 
-date: Last Modified
+date: Created
 img: /assets/images/blog/thanksgiving/GIVE-THANKS-01.png
 time: 7 min
 ---

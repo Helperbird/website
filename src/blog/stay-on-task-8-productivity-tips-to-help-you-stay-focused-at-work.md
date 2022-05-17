@@ -23,7 +23,7 @@ blog_snip:
 img: /assets/images/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work.jpg
 des: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 name: Andrew Chu
-date: Last Modified
+date: Created
 time: 11 min
 ---
 

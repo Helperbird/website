@@ -18,7 +18,7 @@ blog_snip: The Children's Online Privacy Protection Act (COPPA) and Family Educa
 img: /assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png
 des: The Children's Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act (FERPA) are two similar pieces of legislation that protect the privacy of student data.
 name: June Coffeecups
-date: Last Modified
+date: Created
 time: 4 min
 
 ---

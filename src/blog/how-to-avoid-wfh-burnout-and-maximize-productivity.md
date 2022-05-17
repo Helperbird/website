@@ -27,7 +27,7 @@ blog_snip: While working from home looks convenient, the blurred line between ho
 
 img: /assets/images/blog/how-to-avoid-wfh-burnout-and-maximize-productivity/avoid-wfh-burnout-and-maximize-productivity.jpg
 name: Andrew Chu
-date: Last Modified
+date: Created
 time: 11 min
 ---
 
