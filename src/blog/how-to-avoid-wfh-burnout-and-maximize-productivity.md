@@ -25,7 +25,7 @@ blog_snip: While working from home looks convenient, the blurred line between ho
 
   Luckily, you can be proactive in beating burnout and maximizing your productivity.
 
-img: /assets/images/blog/how-to-avoid-wfh-burnout-and-maximize-productivity/avoid-wfh-burnout-and-maximize-productivity.jpg
+img: /assets/images/blog/new-blog-2022/avoid-burnout.png
 name: Andrew Chu
 date: Created
 time: 11 min

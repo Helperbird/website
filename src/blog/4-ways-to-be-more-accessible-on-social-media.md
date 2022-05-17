@@ -11,7 +11,7 @@ keywords:
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /blog/4-ways-to-be-more-accessible-on-social-media/
-img: /assets/images/blog/4-ways-to-be-more-accessible-on-social-media/4-ways-to-be-more-accessible-on-social-media.png
+img: /assets/images/blog/new-blog-2022/accessible-social-media.png
 name: "Helperbird staff"
 date: Created
 time: "5 min"

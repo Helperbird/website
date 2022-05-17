@@ -20,7 +20,7 @@ blog_snip:
   more than 26% of the American workforce would work from home by 2021.
 cat: Guest blog
 
-img: /assets/images/blog/how-to-keep-wfh-employees-engaged-and-motivated/how-to-keep-wfh-employees-engaged-and-motivated.jpg
+img: /assets/images/blog/new-blog-2022/employees-engaged.png
 des: These days, working remotely is no longer uncharted territory. That's why Upwork estimated that more than 26% of the American workforce would work from home by 2021.        
 name: Andrew Chu
 date: Created
