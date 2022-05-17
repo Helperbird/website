@@ -13,7 +13,7 @@ url: /blog/three-facts-about-dyslexia/
 tags: blog
 blog_cat:  Blog
 blog_title: 3 Facts about Dyslexia and 1 Fact about Cats
-blog_snip: By Helperbird Staff
+blog_snip: Despite popular belief, dyslexics do not see letters backwards.
 cat: Facts
 
 

@@ -13,14 +13,14 @@ url: /blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
 blog_cat:  Guide
 blog_title: TODAY WILL BE A GOOD DAY
-blog_snip: By Helperbird Staff
+blog_snip: How positive thoughts might benefit dyslexic students.
 cat: Facts
 
 
 
 des: How positive thoughts might benefit dyslexic students.
 
-name: Robert James
+name: Courtney Hood
 
 date: Created
 img: /assets/images/blog/positive/GOODDAY-01.png

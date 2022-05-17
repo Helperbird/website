@@ -13,7 +13,7 @@ url: /blog/giveaway-rules/
 tags: blog
 blog_cat:  GUIDE
 blog_title: Rules for the Helperbird giveaway official rules
-blog_snip: By Helperbird Staff
+blog_snip: Rules for the Helperbird giveaway.
 
 cat: Blog
 
