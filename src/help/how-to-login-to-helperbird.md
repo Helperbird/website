@@ -23,6 +23,8 @@ Helperbird has different ways to login to get access to your Pro features.
 
 ## How to login into Helperbird for Chrome or Edge
 
+**Note** You will need to have sync enabled. Learn how to here: [How to enable sync in Helperbird - Helperbird](/help/enable-browser-sync-chrome-and-edge/).
+
 - First you will need to install the Helperbird extension.
 - Once that is done, open the Helperbird extension.
 - On the top right of the extension, click the **Settings** cog.
