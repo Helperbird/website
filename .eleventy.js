@@ -78,7 +78,7 @@ module.exports = function (eleventyConfig) {
     return {
         markdownTemplateEngine: 'md',
         dir: {
-            input: 'src',
+            input: 'src/pages',
             output: 'docs'
         }
     };
