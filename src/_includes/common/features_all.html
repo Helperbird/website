@@ -28,8 +28,13 @@
                         <h3 class="text-xl font-medium text-black">{{ post.data.featureTitle }}</h3>
                         <p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
 
-                        <a class="mt-6 btn btn-primary" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover
-                            {{ post.data.featureTitle }}</a>
+                        <div class="items-center max-w-md ">
+
+                            <a class="mt-6 btn btn-primary mr-2" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover more</a>
+                            <a class="mt-6 btn btn-outline btn-secondary" href="{{ post.data.url }}#videos" title="More information on feature {{ post.data.featureTitle  }}">See it in action</a>
+                        </div>
+
+                       
                     </div>
                 </div>
 
