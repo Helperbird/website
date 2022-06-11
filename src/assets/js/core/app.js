@@ -1,7 +1,7 @@
+import Typewriter from 'typewriter-effect/dist/core';
 import Vue from 'vue';
 import { crisp, loadManager, tagManager } from './third-party';
 import { youtube } from './youtube';
-
 function load() {
 	let isThere = document.getElementById('helperbird-website');
 
@@ -11,7 +11,7 @@ function load() {
 			menus: false,
 			mobileMenu: false,
 			productModal: false,
-
+		writer:null,
 
 		// Pricing Table
 		isYearly: false,
@@ -46,6 +46,7 @@ function load() {
 		loadManager();
 
 		youtube();	
+		this.typer();
 
 		},
 		methods: {
@@ -55,6 +56,23 @@ function load() {
 
 			handleModal: function () {
 				this.openModal = !this.openModal;
+			},
+
+			typer(){
+				let id = 'typewriter'
+
+				let typerElement = document.getElementById(id);
+
+
+				if(typerElement){
+
+				this.writer = new Typewriter(`#${id}`, {
+					strings: ['Reader mode', 'Speed reading','Dyslexia support', 'text to speech', 'Voice typing', 'Word prediction','Text extracting','Tooltip reader'],
+					autoStart: true,
+					loop: true,
+					delay: 100
+				});
+			}
 			},
 			handleMenu(menu) {
 				console.log(menu);

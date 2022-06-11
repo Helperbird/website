@@ -251,7 +251,7 @@
 			"icon": "/src/_includes/svgs/summarize.svg",
 			"group": "reading",
 			"title": "Summarize",
-			"description": "Helperbird automatically summarizes the web page intp bullet points.",
+			"description": "Helperbird automatically summarizes the web page into bullet points.",
 			"link": "/features/summarize/"
 		}
 	]

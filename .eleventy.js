@@ -12,11 +12,8 @@ const format = require('date-fns/format');
 const moment = require('moment');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('./src/assets/images');
-    eleventyConfig.addPassthroughCopy('./src/assets/videos');
 
-
-    eleventyConfig.addPassthroughCopy('./src/assets/setup');
+    eleventyConfig.addPassthroughCopy({'src/assets/':  '/assets/'});
     eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: './docs/service-worker.js',
@@ -78,7 +75,9 @@ module.exports = function (eleventyConfig) {
     return {
         markdownTemplateEngine: 'md',
         dir: {
-            input: 'src',
+            data: "../_data",
+            includes: "../_includes",
+            input: 'src/pages/',
             output: 'docs'
         }
     };

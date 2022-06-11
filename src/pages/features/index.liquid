@@ -1,0 +1,185 @@
+---
+layout: templates/base.html
+title: Accessibility features of Helperbird - Helperbird
+description: Here at the 25 features that make Helperbird the best in class for helping everyone be more productive and make the web more accessible.
+keywords: Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/twitter.png
+facebookSocial: assets/images/graph/twitter.png
+icon: "/src/_includes/svgs/text-to-speech.svg"
+featureTitle: Adjust Letters and Words
+link: reading
+url: /features/
+---
+
+<div>
+
+
+<div class="text-center pt-8 pb-8">
+	<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+	  <span class="block xl:inline">All the features you need to stay on top of your  </span>
+	  <span class="block text-pink-600 xl:inline"> learning </span>
+	</h1>
+	<p class="mt-3 max-w-md mx-auto text-base   text-black  sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">Helperbird is more than just an accessibility tool — it’s a better way to be more productive. Users that switch to Helperbird are productive and better-organized thanks to our accessibility features.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+<div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+
+		<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Customize your reading experience
+		</h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+
+			{%- for post  in collections.reading -%}
+
+			<div class=" bg-white   rounded-lg p-6  ">
+				<div>
+					<span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
+						{{  post.data.icon | svgContents | safe }}
+					</span>
+				</div>
+				<div class="mt-6">
+					<h3 class="text-xl font-medium text-black">{{ post.data.featureTitle }}</h3>
+					<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+
+					<a class="mt-6 btn btn-secondary" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover
+						{{ post.data.featureTitle }}</a>
+				</div>
+			</div>
+
+		{%- endfor -%}
+
+				
+	  </div>
+	</div>
+  </div>
+
+
+
+
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Support for all users </h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+	
+		{%- for post  in collections.accessibility -%}
+
+		<div class=" bg-white   rounded-lg p-6  ">
+			<div>
+				<span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
+					{{  post.data.icon | svgContents | safe }}
+				</span>
+			</div>
+			<div class="mt-6">
+				<h3 class="text-xl font-medium text-black">{{ post.data.featureTitle }}</h3>
+				<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+
+				<a class="mt-6 btn btn-secondary" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover
+					{{ post.data.featureTitle }}</a>
+			</div>
+		</div>
+
+	{%- endfor -%}
+
+  
+
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+  <div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+	
+
+				<h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">Tools to bring your writing to the next level </h2>
+
+
+	
+	  <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+		
+
+		{%- for post  in collections.writing -%}
+
+		<div class=" bg-white   rounded-lg p-6  ">
+			<div>
+				<span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
+					{{  post.data.icon | svgContents | safe }}
+				</span>
+			</div>
+			<div class="mt-6">
+				<h3 class="text-xl font-medium text-black">{{ post.data.featureTitle }}</h3>
+				<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+
+				<a class="mt-6 btn btn-secondary" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover
+					{{ post.data.featureTitle }}</a>
+			</div>
+		</div>
+
+	{%- endfor -%}
+
+  
+
+  
+
+  
+	
+  
+	
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {% include common/cta_one.html %} 
+</div>
+
+
+
