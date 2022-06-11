@@ -27,6 +27,16 @@ The cognitive load feature adds a gradient of colors to the text on any website,
 - Toggle the on/off switch to **On**.
 - Thats it.
 
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/e9FEZQVcrLk"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+
 ## Features
 
 - Cognitive Load theme
