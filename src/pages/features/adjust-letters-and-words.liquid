@@ -11,17 +11,36 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/social/adjustletter.png
 facebookSocial: assets/images/graph/adjustletter.png
-icon: "/src/_includes/svgs/text-to-speech.svg"
-featureTitle: Adjust Letters and Words
+icon: "/src/_includes/svgs/fonts.svg"
+featureTitle: Letters & Words spacing
 featureDescription:
   Adjust letter and word spacing, font size and line-height according to your needs.
 link: reading
 url: /features/adjust-letters-and-words/
 group: reading
-tags: features
+tags: 
+  - features
+  - reading
 ---
 
+        {%- for post  in collections.features limit:12 -%}
 
+                                    <div class=" bg-white   rounded-lg p-6  ">
+                                        <div>
+                                            <span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
+                                                {{  post.data.icon | svgContents | safe }}
+                                            </span>
+                                        </div>
+                                        <div class="mt-6">
+                                            <h3 class="text-xl font-medium text-black">{{ post.data.featureTitle }}</h3>
+                                            <p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+
+                                            <a class="mt-6 btn btn-primary" href="{{ post.data.url }}" title="More information on feature {{ post.data.featureTitle  }}">Discover
+                                                {{ post.data.featureTitle }}</a>
+                                        </div>
+                                    </div>
+
+                                {%- endfor -%}
 
 
 
