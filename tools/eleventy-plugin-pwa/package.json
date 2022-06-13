@@ -1,0 +1,69 @@
+{
+  "_from": "eleventy-plugin-pwa@^1.0.8",
+  "_id": "eleventy-plugin-pwa@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-pz4+g5r6LMEtuZcT3luKYPJFFK6Q6kD/0DihdRtrOqvh2qJrlQ3VRpXsZNwS+LsV/Fa0nh5XJa9SViBZBsliDA==",
+  "_location": "/eleventy-plugin-pwa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "eleventy-plugin-pwa@^1.0.8",
+    "name": "eleventy-plugin-pwa",
+    "escapedName": "eleventy-plugin-pwa",
+    "rawSpec": "^1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.8"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/eleventy-plugin-pwa/-/eleventy-plugin-pwa-1.0.8.tgz",
+  "_shasum": "db473878ff53086c8da68f51b2e3517af068afc3",
+  "_spec": "eleventy-plugin-pwa@^1.0.8",
+  "_where": "/Users/robertjamesgabriel/Documents/Code/Helperbird/website",
+  "author": {
+    "name": "Nanda Oktavera",
+    "email": "codeharuka.yusa@gmail.com",
+    "url": "https://okitavera.me/"
+  },
+  "bugs": {
+    "url": "https://github.com/okitavera/eleventy-plugin-pwa/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "shimmer": "^1.2.1",
+    "workbox-build": "^4.3.0"
+  },
+  "deprecated": false,
+  "description": "An Eleventy plugin to generate service worker for PWA using Google Workbox",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.2",
+    "jest": "^24.7.1",
+    "rimraf": "^2.6.3"
+  },
+  "homepage": "https://github.com/okitavera/eleventy-plugin-pwa#readme",
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "keywords": [
+    "eleventy-plugin",
+    "eleventy",
+    "workbox",
+    "pwa"
+  ],
+  "license": "MIT",
+  "main": ".eleventy.js",
+  "name": "eleventy-plugin-pwa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okitavera/eleventy-plugin-pwa.git"
+  },
+  "scripts": {
+    "coverage": "jest && codecov",
+    "test": "jest"
+  },
+  "version": "1.0.8"
+}

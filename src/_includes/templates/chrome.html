@@ -5,6 +5,11 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <title>{{ title }}</title>
         {% bundledCss %}
+<script>
+  if ("serviceWorker" in navigator){
+    navigator.serviceWorker.register("/service-worker.js");
+}
+</script> 
 
         <link href="https://www.helperbird.com{{ url }}" rel="canonical"/>
         <meta content="{{ description }}" name="description"/>

@@ -6,6 +6,11 @@
         <title>{{ title }}
             - Helperbird</title>
         {% bundledCss %}
+<script>
+  if ("serviceWorker" in navigator){
+    navigator.serviceWorker.register("/service-worker.js");
+}
+</script> 
 
         <link href="https://www.helperbird.com{{url}}" rel="canonical"/>
         <meta content="{{ description }}" name="description"/>

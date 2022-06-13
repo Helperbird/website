@@ -1,9 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+
 const lodash = require('lodash');
 const htmlmin = require('html-minifier');
 const svgContents = require('eleventy-plugin-svg-contents');
-const pluginPWA = require('eleventy-plugin-pwa');
+const pluginPWA = require('./tools/eleventy-plugin-pwa');
+
+
 const manifest = {
     'main.js': '/assets/js/main.bundle.js',
     'main.css': '/assets/js/main.css'
@@ -15,6 +16,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({'src/assets/':  '/assets/'});
     eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
+
+
+
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: './docs/service-worker.js',
         globDirectory: './docs'
