@@ -24,6 +24,12 @@
     width: 70% !important;
 }
 
+
+#help-information .card-body .youtube_lazy_load img{
+    width: 100% !important;
+}
+
+
 #help-information .card-body ul > li > a {
     color: blue !important;
 }
