@@ -5,11 +5,11 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <title>{{ title }}</title>
         {% bundledCss %}
-<script>
-  if ("serviceWorker" in navigator){
-    navigator.serviceWorker.register("/service-worker.js");
-}
-</script> 
+        <script>
+        if ("serviceWorker" in navigator){
+            navigator.serviceWorker.register("/service-worker.js");
+        }
+        </script> 
 
         <link href="https://www.helperbird.com{{ url }}" rel="canonical"/>
         <meta content="{{ description }}" name="description"/>
@@ -175,7 +175,10 @@
             <div class="drawer drawer-mobile yellowHelperbird">
                 <input id="main-menu" type="checkbox" class="drawer-toggle"/>
                 <main class="flex-grow block overflow-x-hidden yellowHelperbird drawer-content">
-                    <div id="nav" class="inset-x-0 top-0 z-50 w-full transition duration-600 ease-in-out border-b border-base-600 bg-base-100  text-base-content sticky">
+                    <div id="nav" class="
+                        inset-x-0 top-0 z-50 w-full transition duration-600 ease-in-out border-b border-base-600 bg-base-100  text-base-content sticky
+                        lg:hidden
+                    ">
                         <div class="mx-auto space-x-1 navbar max-w-none">
                             <div class="flex-1 p-4 lg:p-10">
                                 <h1>
@@ -321,7 +324,7 @@
             </div>
 
             {% include templates/footer.html %}
-            {% include common/pricing_banner.html %}
+            
         </div>
     </body>
     {% bundledJs %}
