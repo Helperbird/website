@@ -12,7 +12,7 @@
 			<h2 class="text-4xl font-extrabold text-black sm:text-5xl sm:tracking-tight lg:text-6xl">Pricing Plans</h2>
 			<p class="mt-5 text-xl">
 				
-				Helperbird helps you to web more accessible and productive to your needs and work style.
+				Helperbird helps you make the web more accessible and productive to your needs and work style.
 				<br>
 				Pick a plan that best suits you. 
 				3 day free trial
@@ -40,17 +40,17 @@
 
 	<!-- Toggle -->
 	<div class="relative mt-12 flex justify-center sm:mt-16">
-		<div class=" p-2 rounded-lg flex bg-pink-700">
+		<div class=" p-2 rounded-lg flex bg-active">
 			<button type="button" @click="switchType"
-			class="ml-0.5 relative py-2 px-6 border border-transparent rounded-md text-sm font-medium  whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white focus:z-10"
-			v-bind:class="!isYearly ? ' bg-white text-pink-600 hover:bg-pink-100' : ' hover:bg-pink-800 text-pink-300 '">
+			class="ml-0.5 btn btn-ghost text-xs"
+			v-bind:class="!isYearly ? ' btn-active ' : ' '">
 				Monthly billing
 			</button>
 
 			<div data-tip="20% off" class="tooltip tooltip-open tooltip-secondary">
 				<button type="button" @click="switchType"
-				class="ml-0.5 relative py-2 px-6 border border-transparent rounded-md text-sm font-medium  whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white focus:z-10"
-				v-bind:class="isYearly ? ' bg-white text-pink-600 hover:bg-pink-100' : ' hover:bg-pink-800 text-pink-300 '">
+				class="ml-0.5 btn btn-ghost text-xs"
+				v-bind:class="isYearly ? ' btn-active ' : ' '">
 					Yearly billing
 				</button>
 			</div>
@@ -72,14 +72,14 @@
 	
 
 	<!-- Cards -->
-	<div class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-12 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
+	<div class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
 		<!-- Decorative background -->
 		<div aria-hidden="true"
-			class="hidden absolute top-4 bottom-6 left-8 right-8 inset-0 bg-indigo-700 rounded-tl-lg rounded-tr-lg lg:block">
+			class="hidden absolute top-4 bottom-6 left-8 right-8 inset-0 bg-transparent  lg:block">
 		</div>
 
-		<div class="relative space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3">
-			<div class="bg-indigo-700 lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+		<div class="relative lg:grid lg:grid-cols-3">
+			<div class="bg-pink-700 m-8  pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
 				<div>
 					<h3 class="text-white text-sm font-semibold uppercase tracking-wide">Helperbird Free</h3>
 					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
@@ -93,7 +93,7 @@
 							</div>
 						</div>
 						<a href="#" @click="handleModal"
-							class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Download</a>
+							class="bg-white text-pink-600 hover:bg-pink-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Download</a>
 					</div>
 
 
@@ -108,7 +108,7 @@
 							</div>
 						</div>
 						<a href="#" @click="handleModal"
-							class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
+							class="bg-white text-pink-600 hover:bg-pink-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
 							Helperbird Free</a>
 					</div>
 
@@ -121,10 +121,10 @@
 
 				<h4 class="sr-only">Features</h4>
 				<ul role="list"
-					class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
+					class="border-pink-500 divide-pink-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -135,7 +135,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -146,7 +146,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -156,7 +156,7 @@
 					</li>
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -166,7 +166,7 @@
 					</li>
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -365,7 +365,7 @@
 				</ul>
 			</div>
 
-			<div class="bg-indigo-700 lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+			<div class="bg-green-700 m-8 pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
 				<div>
 					<h3 class="text-white text-sm font-semibold uppercase tracking-wide">Schools & Business</h3>
 
@@ -385,7 +385,7 @@
 						</div>
 
 						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.monthly.unlimitedLink"
-							class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
+							class="bg-white text-green-600 hover:bg-green-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
 							Schools & Business</a>
 					</div>
 
@@ -405,14 +405,14 @@
 						</div>
 
 						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.yearly.unlimitedLink"
-							class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
+							class="bg-white text-green-600 hover:bg-green-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
 							Schools & Business</a>
 					</div>
 
 				</div>
 				<h4 class="sr-only">Features</h4>
 				<ul role="list"
-					class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
+					class="border-green-500 divide-green-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
 						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
@@ -427,7 +427,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -439,7 +439,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -451,7 +451,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -463,7 +463,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -475,7 +475,7 @@
 
 					<li class="py-3 flex items-center">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
