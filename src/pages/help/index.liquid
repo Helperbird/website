@@ -12,41 +12,100 @@ url: /help/
 ---
 
 
-<div class="mx-auto max-w-7xl card bg-base-100 text-base-conten">
-  <div class=" card-body mx-auto grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6  lg:max-w-7xl  lg:grid-cols-1">
-    <div>
-      <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Helperbird Knowledge Base</h2>
-      <p class="mt-4   text-black ">Get help with common Helperbird topics. Updated daily.     </p>
+<div class="mx-auto max-w-7xl card bg-base-100 text-base-content">
 
-      <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-        <div class="border-t border-gray-200 pt-4">
-          <dt class="font-medium text-gray-900">Getting started</dt>
-          <dd class="mt-2 text-sm   text-black ">Discover everything from installing Helperbird to Helperbird Pro.</dd>
+
+
+
+
+
+
+
+  <!-- This example requires Tailwind CSS v2.0+ -->
+  <div class="bg-white px-4 sm:px-6  lg:px-8">
+    <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
+      <div>
+        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Helperbird Knowledge Base</h2>
+        <p class="mt-3 text-xl text-gray-500 sm:mt-4">Get help with common Helperbird topics. Updated daily.  </p>
+      </div>
+      <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
+       
+
+        {%- for features in collections.guideFeaturesMain limit:3 -%}
+      
+        <div class="card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1">
+          <div class="card-body">
+          <div>
+            <a href="{{ features.url }}" class="inline-block">
+              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800"> Feature </span>
+            </a>
+          </div>
+          <a href="{{ features.url }}" class="block mt-4">
+            <p class="text-xl font-semibold text-gray-900"> {{ features.data.featureTitle }}</p>
+            <p class="mt-3 text-base text-gray-500">{{ features.data.featureDescription }}</p>
+          </a>
+          <div class="mt-6 flex items-center">
+            <div class="flex-shrink-0">
+              <a href="{{ features.url }}" title="{{ features.data.featureDescription }}">
+                <span class="sr-only">Anna Brown</span>
+                <img class="h-10 w-10 rounded-full" src="https://image.crisp.chat/avatar/operator/ff50782b-8da9-427f-b740-b4b5b1d7bd80/120/?avatar=https%3A%2F%2Fstorage.crisp.chat%2Fusers%2Favatar%2Foperator%2Fe215d4648af9c800%2Fpexels-photo-1520760_6tmyxh.jpeg" alt="">
+              </a>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm font-medium text-gray-900">
+                <a href="{{ features.url }}"> Anna Brown</a>
+              </p>
+              <div class="flex space-x-1 text-sm text-gray-500">
+                <time datetime="2020-03-16"> June 16, 2022 </time>
+                <span aria-hidden="true"> &middot; </span>
+                <span> 3 min read </span>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
 
-        <div class="border-t border-gray-200 pt-4">
-          <dt class="font-medium text-gray-900">Features</dt>
-          <dd class="mt-2 text-sm   text-black ">Step by step guides on how to use each feature.</dd>
-        </div>
-
-        <div class="border-t border-gray-200 pt-4">
-          <dt class="font-medium text-gray-900">Integrations</dt>
-          <dd class="mt-2 text-sm   text-black ">Guides and information on how to use each Helperbird add-on.</dd>
-        </div>
-
-        <div class="border-t border-gray-200 pt-4">
-          <dt class="font-medium text-gray-900">Apps</dt>
-          <dd class="mt-2 text-sm   text-black ">Discover how to use Helperbirds internal apps.</dd>
-        </div>
-
-        <div class="border-t border-gray-200 pt-4">
-          <dt class="font-medium text-gray-900">Account</dt>
-          <dd class="mt-2 text-sm   text-black ">Discover how to manage your subscription and more.</dd>
-        </div>
 
 
-      </dl>
+
+
+
+    {%- endfor -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      </div>
     </div>
-    
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
