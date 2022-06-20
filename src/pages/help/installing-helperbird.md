@@ -21,7 +21,7 @@ url: /help/installing-helperbird/
 
 - Visit the
   [Google Chrome web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
-- Once their, click the "Add to Chrome" button.
+- Once there, click the "Add to Chrome" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
 - It will be under the puzzle piece icon in the top right corner of the browser.
@@ -31,14 +31,14 @@ url: /help/installing-helperbird/
 
 - Visit the
   [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird-accessibility/).
-- Once their, click the "Install" button.
+- Once there, click the "Install" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
 
 ## Helperbird for Microsoft Edge
 
 - Visit the [Microsoft Edge web extension store](https://aka.ms/helperbird-edge).
-- Once their, click the "Install" button.
+- Once there, click the "Install" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
 - It will be under the puzzle piece icon in the top right corner of the browser.
@@ -48,7 +48,7 @@ url: /help/installing-helperbird/
 
 - Visit the
   [Google Docs web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
-- Once their, click the "Add addon" button.
+- Once there, click the "Add addon" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
