@@ -16,9 +16,8 @@ tags: guideFeatures
 url: /help/installing-helperbird/
 ---
 
-# Installing Helperbird
 
-## Google Chrome
+## Helperbird for Google Chrome
 
 - Visit the
   [Google Chrome web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
@@ -28,7 +27,7 @@ url: /help/installing-helperbird/
 - It will be under the puzzle piece icon in the top right corner of the browser.
 - Psst, we recommend pinning it to the top right corner of the browser.
 
-## Mozilla Firefox
+## Helperbird for Mozilla Firefox
 
 - Visit the
   [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird-accessibility/).
@@ -36,7 +35,7 @@ url: /help/installing-helperbird/
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
 
-## Microsoft Edge
+## Helperbird for Microsoft Edge
 
 - Visit the [Microsoft Edge web extension store](https://aka.ms/helperbird-edge).
 - Once their, click the "Install" button.
@@ -45,7 +44,7 @@ url: /help/installing-helperbird/
 - It will be under the puzzle piece icon in the top right corner of the browser.
 - Psst, we recommend pinning it to the top right corner of the Edge browser.
 
-## Google Docs addon
+## Helperbird for Google Docs
 
 - Visit the
   [Google Docs web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
@@ -55,24 +54,39 @@ url: /help/installing-helperbird/
 - Helperbird will be installed and ready to use.
 - It is under the add-on menu option on Google docs.
 
-## Google Slides addon
+## Helperbird for Google Slides
 
 - Visit the
   [Google Slides web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
-- Once their, click the "Add addon" button.
+- Once there, click the "Add addon" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
 - It is under the add-on menu option on Google docs.
 
-## Apple Safari
+## Helperbird for Safari
 
-- Coming soon.
+- Visit the
+  [Mac app store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+- Once there, click the "Install" button.
+- It will ask you for permission to install.
+- It will take a few moments to install.
+- Helperbird will be installed and ready to use.
 
-## iPad Os (iOS)
+## Helperbird for iPad
 
-- Coming soon.
+- Visit the
+  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+- Once there, click the "Install" button.
+- It will ask you for permission to install.
+- It will take a few moments to install.
+- Helperbird will be installed and ready to use.
 
-## iPhone
+## Helperbird for iPhone
 
-- Coming soon.
+- Visit the
+  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+- Once there, click the "Install" button.
+- It will ask you for permission to install.
+- It will take a few moments to install.
+- Helperbird will be installed and ready to use.
