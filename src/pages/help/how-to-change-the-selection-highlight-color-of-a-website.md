@@ -20,7 +20,7 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-selection-highlight-color-of-a-website/
 ---
 
-# How to change the highlight selection color of a website.
+## How to change the highlight selection color of a website.
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Highlight color** card.

@@ -18,7 +18,7 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 ---
 
-# How to change the font on any website or app
+## How to change the font on any website or app
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the ** Text Adjustments** card.

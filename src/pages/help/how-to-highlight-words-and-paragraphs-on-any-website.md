@@ -20,9 +20,7 @@ tags: guideFeaturesMain
 url: /help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---
 
-# How to highlight word and paragraphs on any website
 
-Discover how to use Helperbird's browser extension to highlight word and paragraphs on any website.
 
 ## How to highlight a word or sentence on any website
 

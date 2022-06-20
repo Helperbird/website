@@ -16,7 +16,7 @@ tags: guideFeaturesMain
 url: /help/how-to-use-helperbirds-color-blind-features-on-websites/
 ---
 
-# What our Helperbirds colorblind features?
+## What our Helperbirds colorblind features?
 
 At the moment, Helperbird has two colorblind features:
 

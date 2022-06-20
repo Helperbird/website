@@ -18,7 +18,7 @@ tags: guideFeaturesMain
 url: /help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---
 
-# How to translate a whole page
+## How to translate a whole page
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Translate** card.

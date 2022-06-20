@@ -15,9 +15,8 @@ tags: iOSHelp
 url: /help/how-to-download-helperbird-for-ipad/
 ---
 
-# How to download Helperbird for iPad
 
-## The steps
+## How to Download Helperbird for iPad
 - First, you need to be on your iPad.
 - Then go to the app store and search "Helperbird for Safari".
 - You will see a list of apps.

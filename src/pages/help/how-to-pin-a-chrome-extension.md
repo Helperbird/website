@@ -17,7 +17,7 @@ tags: guideFeatures
 url: /help/how-to-pin-a-chrome-extension/
 ---
 
-# Discover how to pin a Chrome extension
+## Discover how to pin a Chrome extension
 
 - After you install a Helperbird extension, you can pin it to the Chrome toolbar.
 - A new extension, will be installed in a menu under the puzzle piece icon.

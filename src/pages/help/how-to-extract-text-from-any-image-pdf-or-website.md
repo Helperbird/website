@@ -18,7 +18,7 @@ tags: guideFeaturesMain
 url: /help/how-to-extract-text-from-any-image-pdf-or-website/
 ---
 
-# How to extract text from any image pdf or website
+## How to extract text from any image pdf or website
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Click, the extract text icon button under the quick actions meny. This is the top right button.

@@ -17,7 +17,6 @@ tags: guideAccounts
 url: /help/how-to-use-my-subscription-key/
 ---
 
-# How to use my subscription key
 
 ## Where to find my subscription key
 

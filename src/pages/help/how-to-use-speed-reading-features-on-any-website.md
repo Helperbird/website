@@ -16,7 +16,7 @@ tags: guideFeaturesMain
 url: /help/how-to-use-speed-reading-features-on-any-website/
 ---
 
-## About
+## About speed reading
 
 Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
 

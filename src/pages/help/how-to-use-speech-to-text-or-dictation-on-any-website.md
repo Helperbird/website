@@ -1,9 +1,8 @@
 ---
 layout: templates/help.html
-title: How to use speech to text or dictation on any website - Helperbird
+title: How to use Voice typing or dictation on any website - Helperbird
 description:
-  How to use speech to text or dictation on any website with Helperbirds Chrome, Firefox, Edge and
-  Safari extension.
+  How to use speech to text or dictation on any website with Helperbirds Chrome, Firefox, Edge and Safari extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -11,15 +10,15 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Dictation
+featureTitle: Voice typing
 featureDescription:
-  How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
+  Learn how to use Helperbird voice typing feature on any website.
 date: 2019-01-02
 tags: guideFeaturesMain
 url: /help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
-# How to use speech to text or dictation on any website
+## How to use speech to text or dictation on any website
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Speech to text** card.

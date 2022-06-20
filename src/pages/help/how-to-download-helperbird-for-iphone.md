@@ -15,9 +15,7 @@ tags: iOSHelp
 url: /help/how-to-download-helperbird-for-iphone/
 ---
 
-# How to download Helperbird for iPhone
-
-## The steps
+## How to download Helperbird for iPhone
 - First, you need to be on your iPhone.
 - Then go to the app store and search "Helperbird for Safari".
 - You will see a list of apps.

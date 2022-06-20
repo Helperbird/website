@@ -12,15 +12,12 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Google Slides
 featureDescription:
-  How to use the offical Helperbird Google Slides add on, from installing, the features and more.
+  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
 tags: guideIntegrations
 url: /help/helperbird-for-google-slides-addon/
 ---
 
-# Helperbird for Google Slides add-on
 
-Helperbird for Google Slides add-on adds support to Google Documents. Allowing you to get even more
-out of Google Slides.
 
 ## How to install
 

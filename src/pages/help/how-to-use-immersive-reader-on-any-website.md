@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Immersive reader
+featureTitle: Immersive reader by Microsoft
 featureDescription:
   Learn how easy it is to use Immersive Reader by Microsoft on any website, pdf or app.
 date: 2021-01-04
@@ -17,7 +17,7 @@ tags: guideFeaturesMain
 url: /help/how-to-use-immersive-reader-on-any-website/
 ---
 
-# How to use Immersive reader on any website,Pdf or app
+## How to use Immersive reader on any website,Pdf or app
 
 There are three ways to use Immersive Reader by Microsoft on any website, pdf or app in Helperbird.
 Making it easier for you to decided how you want to use it.

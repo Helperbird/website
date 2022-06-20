@@ -17,7 +17,7 @@ tags: guideFeaturesMain
 url: /help/how-to-stop-animations-on-any-website/
 ---
 
-# How to stop animations on any website or app
+## How to stop animations on any website or app
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Animations** card.

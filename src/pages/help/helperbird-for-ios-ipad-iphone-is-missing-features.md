@@ -10,14 +10,11 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Unlock all features
-featureDescription:  By default, Helperbird for iPad & iPhone is missing some features. Learn how to unlock them.
+featureDescription:  It might sound odd, cause of some requests from Apple. We have to hide Helperbirds paid features if you're not signed in. So to unlock the Pro features, I will show you how to use your subscription key.
 tags: iOSHelp
 url: /help/helperbird-for-ios-ipad-iphone-is-missing-features/
 ---
 
-#  Helperbird on iPhone & iPad is missing features
-
-It might sound odd, cause of some requests from Apple. We have to hide Helperbirds paid features if you're not signed in. So to unlock the Pro features, I will show you how to use your subscription key.
 
 ## Heres how 
 - First, you need to be on your iPad or iPhone.

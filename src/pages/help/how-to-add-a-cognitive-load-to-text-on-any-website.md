@@ -10,15 +10,15 @@ keywords:
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Cognitive load
-featureDescription: Learn how to use cognitive load on any website, pdf or app.
+featureDescription: The cognitive load feature adds a gradient of colors to the text on any website, pdf or app.
 date: 2018-01-01
 tags: guideFeaturesMain
 url: /help/how-to-add-a-cognitive-load-to-text-on-any-website/
 ---
 
-# What is cognitive load?
 
-The cognitive load feature adds a gradient of colors to the text on any website, pdf or app.
+
+
 
 ## How to use cognitive load
 
@@ -26,6 +26,14 @@ The cognitive load feature adds a gradient of colors to the text on any website,
 - Scroll to the **Cognitive Load** card.
 - Toggle the on/off switch to **On**.
 - Thats it.
+
+
+## Features
+
+- Cognitive Load theme
+
+
+## Video tutorial
 
 <iframe
     width="560"
@@ -37,6 +45,4 @@ The cognitive load feature adds a gradient of colors to the text on any website,
     allowfullscreen
   ></iframe>
 
-## Features
 
-- Cognitive Load theme

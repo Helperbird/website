@@ -17,7 +17,7 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-link-color-of-a-website/
 ---
 
-# How to change the link color of a website.
+## How to change the link color of a website.
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Link color** card.

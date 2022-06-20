@@ -16,7 +16,7 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-line-height-on-any-website/
 ---
 
-# How to change the line height on any website
+## How to change the line height on any website
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Text Adjustments** card.

@@ -20,11 +20,9 @@ tags: guideFeaturesMain
 url: /help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---
 
-# How to use Word Prediction on Google Docs or any website
+## How to use Word Prediction on Google Docs or any website
 
-Discover how to use Helperbird's Word Prediction feature on Google Docs or any website. Currently,
-Helperbird is only available for English but we are working on supporting other languages, such as
-Germen, French, Spanish, and more.
+Discover how to use Helperbird's Word Prediction feature on Google Docs or any website. Currently,Helperbird is only available for English but we are working on supporting other languages, such as Germen, French, Spanish, and more.
 
 ## How to use Word Prediction
 

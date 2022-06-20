@@ -9,21 +9,16 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: How to login
+featureTitle: How to login into Helperbird
 featureDescription: Discover how to login to Helperbird to access your Pro features.
 tags: guideFeatures
 date: 2016-01-01
 url: /help/how-to-login-to-helperbird/
 ---
 
-# How to login to Helperbird
+## Helperbird for Chrome or Edge
 
-Helperbird has different ways to login to get access to your Pro features.
-
-
-## How to login into Helperbird for Chrome or Edge
-
-**Note** You will need to have sync enabled. Learn how to here: [How to enable sync in Helperbird - Helperbird](/help/enable-browser-sync-chrome-and-edge/).
+**Note** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
 
 - First you will need to install the Helperbird extension.
 - Once that is done, open the Helperbird extension.
@@ -40,7 +35,7 @@ Helperbird has different ways to login to get access to your Pro features.
 - You can also login using your subscription key, please go to the subscription key guide to learn how.
 
 
-## How to login into Helperbird for Firefox
+##  Helperbird for Firefox
 
 Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
 
@@ -57,7 +52,7 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - If you do not have a subscription, you will get a message saying you do not have a subscription.
 
 
-## How to login into Helperbird for iPad
+## Helperbird for iPad
 
 Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
 
@@ -76,7 +71,7 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - If you do not have a subscription, you will get a message saying you do not have a subscription.
 
 
-## How to login into Helperbird for iPhone 
+## Helperbird for iPhone 
 
 Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
 

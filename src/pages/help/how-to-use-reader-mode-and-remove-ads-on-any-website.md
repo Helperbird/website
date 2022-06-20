@@ -13,14 +13,13 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Reader mode
 featureDescription:
-  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera,
-  and Microsoft Edge.
+  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge.
 date: 2022-03-01
 tags: guideFeaturesMain
 url: /help/how-to-use-reader-mode-and-remove-ads-on-any-website/
 ---
 
-# How to use Reader Mode or **View in Reader Mode** in any browser
+## How to use Reader Mode or **View in Reader Mode** in any browser
 
 There are three ways to use Reader Mode in any browserin Helperbird. Making it easier for you to
 decided how you want to use it.

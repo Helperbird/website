@@ -18,7 +18,7 @@ tags: guideFeaturesMain
 url: /help/how-to-change-the-background-color-of-a-website/
 ---
 
-# How to change the background color of a website.
+## How to change the background color of a website.
 
 - Open Helperbird on Chrome, Firefox or Edge
 - Scroll to the **Background color** card.

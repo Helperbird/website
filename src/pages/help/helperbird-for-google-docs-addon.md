@@ -12,15 +12,11 @@ twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: Google Docs
 featureDescription:
-  How to use the offical Helperbird Google docs add on, from installing, the features and more.
+  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
 tags: guideIntegrations
 url: /help/helperbird-for-google-docs-addon/
 ---
 
-# Helperbird for Google Docs add-on
-
-Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more
-out of Google docs.
 
 ## How to install
 

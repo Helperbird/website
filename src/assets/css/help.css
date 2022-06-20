@@ -1,10 +1,10 @@
-#help-information .card-body h1,
-#help-information .card-body  h2,
-#help-information .card-body  h3,
-#help-information .card-body    h4,
-#help-information .card-body    h5,
-#help-information .card-body    h6,
-#help-information .card-body    p {
+#help-information .robert h1,
+#help-information .robert  h2,
+#help-information .robert  h3,
+#help-information .robert    h4,
+#help-information .robert    h5,
+#help-information .robert    h6,
+#help-information .robert    p {
     font-size: revert !important;
     font-weight: revert!important;
 }
@@ -13,31 +13,31 @@
     background-color: rgb(246, 245, 231) !important;
 }
 
-#help-information .card-body p {
+#help-information .robert p {
     margin: 1.5rem 0 !important;
 }
-#help-information .card-body h2 {
+#help-information .robert h2 {
     margin: 1.5rem 0 !important;
 }
 
-#help-information .card-body img{
+#help-information .robert img{
     width: 70% !important;
 }
 
 
-#help-information .card-body .youtube_lazy_load img{
+#help-information .robert .youtube_lazy_load img{
     width: 100% !important;
 }
 
 
-#help-information .card-body ul > li > a {
+#help-information .robert ul > li > a {
     color: blue !important;
 }
-#help-information .card-body ul {
+#help-information .robert ul {
     list-style: decimal !important;
     padding: 1rem 2rem 3rem !important;
 }
-#help-information .card-body li {
+#help-information .robert li {
     list-style: decimal !important;
 
     margin: 1rem 0 !important;

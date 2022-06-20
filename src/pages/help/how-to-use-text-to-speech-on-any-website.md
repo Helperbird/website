@@ -18,7 +18,7 @@ tags: guideFeaturesMain
 url: /help/how-to-use-text-to-speech-on-any-website/
 ---
 
-# How to use Text to speech with Natural voices in your browser
+## How to use Text to speech with Natural voices in your browser
 
 There are three ways to use Text to speech with Natural voices on any website, pdf or app in
 Helperbird. Making it easier for you to decided how you want to use it.

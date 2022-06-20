@@ -16,9 +16,7 @@ tags: guideFeaturesMain
 url: /help/how-to-highlight-paragraphs-on-any-page/
 ---
 
-# What is highlight paragraphs?
 
-The highlight paragraphs feature adds a gradient of colors to the text on any website, pdf or app.
 
 ## How to highlight paragraphs
 

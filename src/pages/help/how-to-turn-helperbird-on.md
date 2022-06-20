@@ -18,8 +18,6 @@ tags: guideFeatures
 url: /help/how-to-turn-helperbird-on/
 ---
 
-# How to switch Helperbird from off to on.
-
 ## Steps to turn Helperbird on
 
 - When Helperbirds displays the red **off** icon. That means there is no features are toggled on.

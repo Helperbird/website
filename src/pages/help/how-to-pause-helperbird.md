@@ -17,11 +17,7 @@ tags: guideFeaturesMainl
 url: /help/how-to-pause-helperbird/
 ---
 
-# How to pause Helperbird
-
-As of Helperbird version 90.0.0, you can now turn off and on Helperbird. No more pause.
-
-## Steps to turn pause Helperbird
+## Steps to pause Helperbird
 
 - Click on the Helperbird icon in the top right corner of the browser.
 - A popup will appear.

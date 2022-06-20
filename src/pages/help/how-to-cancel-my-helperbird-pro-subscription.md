@@ -9,24 +9,21 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Cancel my subscription
+featureTitle: Cancel my Helperbirdsubscription
 featureDescription: Discover how to cancel your Helperbird Pro subscription.
 tags: guideAccounts
 url: /help/how-to-cancel-my-helperbird-pro-subscription/
 ---
-
-# How to cancel my Helperbird Pro subscription
 
 ## Important
 
 To access and manage your subscription. You need to be logged in with the same email you signed up
 to Helperbird Pro with on your browser.
 
-## How to manage
+## How to manage my subscription
 
 - First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
-  Helperbird Pro with on your browser.
+- Once you have Helperbird installed, you need to be logged in with the same email you signed up to Helperbird Pro with on your browser.
 - Click the Helperbird icon.
 - A popup will appear.
 - Click the settings cog.
