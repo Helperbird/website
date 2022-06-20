@@ -3,7 +3,7 @@ layout: templates/blog_post.liquid
 title: Top Productivity Extensions for Safari  | Helperbird
 description: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources. 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

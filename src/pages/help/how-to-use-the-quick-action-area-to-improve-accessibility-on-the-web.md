@@ -3,7 +3,7 @@ layout: templates/help.html
 title: How to use Helperbirds quick action menu - Helperbird
 description: Learn how to use Helperbirds quick action menu for Chrome, Firefox, and Safari.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -31,7 +31,7 @@ popular accessibility, dyslexia, and productivity features.
 - **OCR (Optical Character Recognition)**: Extract text from images and PDF files or website pages
   in seconds.
 - **Screenshot page**: Helperbird automatically takes a screenshot of the web page.
-- **Speech to text**: Add a speech to text button to your website or app. So you can speak into
+- **Voice typing**: Add a Voice typing button to your website or app. So you can speak into
   inputs.
 - **Translate**: Helperbird automatically translates the website your visiting.
 - **Summarize**: Helperbird automatically summarizes the web page in bullet points.

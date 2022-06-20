@@ -4,7 +4,7 @@ title: 4 Ways to be More Accessible on Social Media in 2022 | Helperbird
 description:
   Social media is a massive space of information sources and connections. People are often glued to their phones because they always want to get the latest trending topics. Others simply would want to be entertained by memes or discover and learn new things.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

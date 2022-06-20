@@ -2,9 +2,9 @@
 layout: templates/help.html
 title: How to use Voice typing or dictation on any website - Helperbird
 description:
-  How to use speech to text or dictation on any website with Helperbirds Chrome, Firefox, Edge and Safari extension.
+  How to use Voice typing or dictation on any website with Helperbirds Chrome, Firefox, Edge and Safari extension.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -18,10 +18,10 @@ tags: guideFeaturesMain
 url: /help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
-## How to use speech to text or dictation on any website
+## How to use Voice typing or dictation on any website
 
 - Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Speech to text** card.
+- Scroll to the **Voice typing** card.
 - Or you can search it too.
 - Once you see the card.
 - Toggle the on/off switch to **On**.
@@ -30,7 +30,7 @@ url: /help/how-to-use-speech-to-text-or-dictation-on-any-website/
 - It will now enter the text you speak.
 - Thats it.
 
-# How to use speech to text or dictation on Google Docs
+# How to use Voice typing or dictation on Google Docs
 
 - We actually have a Google Docs addon for Helperbird. So you will need to download that first.
 - Here is the download [link](https://workspace.google.com/marketplace/app/helperbird/844716805038)

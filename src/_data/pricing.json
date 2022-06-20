@@ -237,7 +237,7 @@
             "unlimited": true,
             "student": true
         }, {
-            "feature": "Speech to text",
+            "feature": "Voice typing",
             "free": false,
             "pro": true,
             "unlimited": true,

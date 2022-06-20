@@ -4,7 +4,7 @@ title: How to use my subscription key  - Helperbird
 description:
   Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

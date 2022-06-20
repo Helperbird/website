@@ -4,7 +4,7 @@ title: Top iPad apps for Accessibility  | Helperbird
 description: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, speech to text for chrome, Text to speech for
+  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
