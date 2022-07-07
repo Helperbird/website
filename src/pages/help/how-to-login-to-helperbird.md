@@ -16,8 +16,13 @@ date: 2016-01-01
 url: /help/how-to-login-to-helperbird/
 ---
 
-## Helperbird for Chrome or Edge
+## Login to Helperbird for Chrome or Edge
 
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F4NOpAfrYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Text Tutorial
 **Note** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
 
 - First you will need to install the Helperbird extension.
