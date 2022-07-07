@@ -20,6 +20,10 @@ url: /help/how-to-cancel-my-helperbird-pro-subscription/
 To access and manage your subscription. You need to be logged in with the same email you signed up
 to Helperbird Pro with on your browser.
 
+
+## Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BEsQnmEgjmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to manage my subscription
 
 - First you need Helperbird installed.
