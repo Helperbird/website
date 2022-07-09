@@ -1,44 +1,65 @@
-
 <div class="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
-	<div class="max-w-4xl mx-auto px-2 sm:px-6 lg:px-8">
-		<div class="p-4 rounded-lg bg-pink-600 shadow-lg sm:p-3">
-			<div class="flex items-center justify-between flex-wrap">
-				<div class="w-0 flex-1 flex items-center">
-					<span class="flex p-2 rounded-lg bg-pink-800">
-						<!-- Heroicon name: outline/speakerphone -->
-						<svg
-							class="h-6 w-6 text-white"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="#fff"
-							viewBox="0 0 24 24"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
-							/>
-						</svg>
-					</span>
-					<p class="ml-3 font-medium text-white truncate">
-						<span>
-							Students get Helperbird Pro for <span v-html="priceDetails.currency">$</span
-							><span v-html="priceDetails.student">40</span> yearly
-						</span>
-					</p>
-				</div>
-				<div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href="https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss"
-						class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-pink-600 bg-white hover:bg-pink-50"
-					>
-						Buy Helperbird for Students
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="max-w-4xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="p-4 rounded-lg bg-pink-600 shadow-lg sm:p-3" style="
+		border-radius: 1.5rem;
+	">
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="w-0 flex-1 flex items-center">
+                    <span
+                        class="flex p-2 rounded-lg text-yellow-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300	" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </span>
+                    <p class="ml-3 font-medium text-white truncate">
+                        <span>
+                            <b>Flash sale:</b> 
+							Helperbird Pro for
+                            <span v-html="priceDetails.currency">$</span>
+                            <span v-html="priceDetails.student">40</span>
+                            yearly.
+                        </span>
+						<span><p class="mr-1 font-medium text-white ml-1">Finishes in </p><p id="demo" class=" font-medium text-white"></p></span>
+                    </p>
+                </div>
+                <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
+                    <a target="_blank" rel="noreferrer" href="https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-pink-600 bg-white hover:bg-pink-50">
+                        Buy Helperbird Pro
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("Jul 31, 2022 15:37:25").getTime();
+	
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+	
+	  // Get today's date and time
+	  var now = new Date().getTime();
+	
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+	
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	
+	  // Display the result in the element with id="demo"
+	  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+	
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "EXPIRED";
+	  }
+	}, 1000);
+	</script>
