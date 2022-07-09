@@ -315,6 +315,25 @@
                             <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
                                 <li class="mt-4 text-lg hover:bg-transparent">
                                    <span class="text-xl  font-bold helperbird-editor medium-editor-element">
+                                    🫶 Tips & Tricks
+                                    </span>
+                                </li>
+
+                                {%- for account in collections.tricksHelp -%}
+
+                                    <li class="ml-4">
+                                        <a href="{{ account.url }}" aria-current="page" class="">
+                                            {{ account.data.featureTitle }}
+                                        </a>
+                                    </li>
+
+                                {%- endfor -%}
+                            </ul>
+
+
+                            <ul class="menu flex flex-col p-4 pt-2  text-base-content compact ">
+                                <li class="mt-4 text-lg hover:bg-transparent">
+                                   <span class="text-xl  font-bold helperbird-editor medium-editor-element">
                                     👤 Account
                                     </span>
                                 </li>
