@@ -1,0 +1,66 @@
+---
+layout: templates/base.html
+title: Helperbird compares to other assistive technology alternatives - Helperbird.com
+description: See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.
+keywords: Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+twitterSocial: assets/images/graph/twitter.png
+facebookSocial: assets/images/graph/twitter.png
+url: /compare/
+---
+
+
+<div class="">
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+		<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Compare Helperbird to Others</h2>
+		<p class="mt-3  text-xl   text-black  sm:mt-4"> See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.</p>
+		
+		<div
+			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
+		>
+
+
+
+		
+
+
+
+
+			{%- for post  in collections.compare -%}
+
+
+			<div class="flex flex-col shadow-lg overflow-hidden bg-white rounded-lg p-6  ">
+				<div class="flex-shrink-0"><img alt="{{ post.title}}" class="h-48 w-full object-cover" src="{{'/assets/images/graph/twitter.png'}}"></div>
+				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+					<div class="flex-1">
+	<a class="block mt-2" href="{{ post.url}}">
+						<p class="text-xl font-semibold text-gray-900">{{ post.title}}</p>
+						<p class="mt-3 text-base   text-black ">{{ post.description}}</p></a>
+
+
+					</div>
+					<div class="mt-6 flex items-center">
+						<div class="flex-shrink-0">
+					
+						</div>
+						<div class="ml-3">
+
+							<div class="flex space-x-1 text-sm   text-black ">
+								<span>{{ post.date | dateDisplay}}</span>
+					
+
+							</div>
+						</div>
+					</div>
+					<a class="btn btn-secondary mt-8" href="{{ post.url}}" title="Read {{ post.title}}" >Read post</a>
+
+				</div>
+			</div>
+
+	
+			{%- endfor -%}
+		</div>
+	</div>
+</div>
