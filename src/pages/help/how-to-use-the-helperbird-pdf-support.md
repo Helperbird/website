@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 featureTitle: PDF support
 featureDescription: Learn how to use text to speech on pdfs, also immerive reader.
 tags: guideApps
-url: /help/how-to-use-the-helperbird-pdf-reader/
+url: /help/how-to-use-the-helperbird-pdf-support/
 ---
 
 
