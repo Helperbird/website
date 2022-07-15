@@ -35,7 +35,7 @@ Helperbird gives you a Reader Mode that removes ads and distractions from any we
 
 Reader Mode is a feature that strips away clutter like buttons, ads and background images, and changes the pages text size, contrast and layout for better readability.
 
-Learn more about [Reader Mode](/help/reader-mode-for-chrome-edge-and-firefox/).
+Learn more about [Reader Mode](/help/reader-mode-for-chrome-and-firefox/).
 
 
 ## Leave sticky notes on any website.
@@ -75,7 +75,7 @@ Helperbird automatically summarizes the web page into bullet points.
 
 A powerful optical character recognition (OCR) to capture and convert text from images.
 
-Learn more about [the powerful OCR too](/help/how-to-extract-text-from-images-ocr/).
+Learn more about [the powerful OCR too](/help/how-to-extract-text-from-any-image-pdf-or-website/).
 
 
 ### Discover the other 33 features in Helperbird
