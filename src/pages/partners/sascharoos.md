@@ -26,7 +26,7 @@ She has a well-established private practice, and an approach that encourages the
 
 Sascha is a member of the Dyslexia Association of Ireland, the Institute of Guidance Counsellors and the Society of Authors. She has had several articles on dyslexia published by national dyslexia associations, including Britain, Australia and Ireland, as well as a blog on study skills for dyslexic students for a leading study skills website.
 
-![Photo of Helperbirds founder Robert James dancing.](http://dyslexiasupport.ie/wp-content/uploads/2020/03/20181006_134701-703x1024.jpg)
+![Photo of Helperbirds founder Robert James dancing.](assets/images/partners/sasha.jpg)
 
 
 ## Intro
@@ -47,6 +47,6 @@ Interwoven throughout the book are stories from dyslexic individuals in their ow
 
 ## Contact information
 
-[Vist website](http://dyslexiasupport.ie/about/)
+[Vist website](https://dyslexiasupport.ie/about/)
 
 [Order book](https://www.amazon.co.uk/dp/1472140656/ref=cm_sw_r_cp_ep_dp_cYdHAbQ4ZZRQ1)
