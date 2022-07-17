@@ -35,7 +35,7 @@ Helperbird gives you a Reader Mode that removes ads and distractions from any we
 
 Reader Mode is a feature that strips away clutter like buttons, ads and background images, and changes the pages text size, contrast and layout for better readability.
 
-Learn more about [Reader Mode](/help/reader-mode-for-chrome-and-firefox/).
+Learn more about [Reader Mode](/features/reader-mode-for-chrome-and-firefox/).
 
 
 ## Leave sticky notes on any website.
