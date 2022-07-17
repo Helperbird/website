@@ -49,4 +49,3 @@ Interwoven throughout the book are stories from dyslexic individuals in their ow
 
 [Vist website](https://dyslexiasupport.ie/about/)
 
-[Order book](https://www.amazon.co.uk/dp/1472140656/ref=cm_sw_r_cp_ep_dp_cYdHAbQ4ZZRQ1)
