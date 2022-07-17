@@ -293,7 +293,7 @@ Aside from developing more user friendly fonts, true web accessibility entails a
 
 1. [K.O.Connor, “www.")typographydeconstructed.")com,"\[Online\].")\[Accessed 21 April 2016\].")](http://www.typographydeconstructed.com/ascender/  'Learn more on the topic featuring Helperbird')
 
-2. [L.R.&.R.Baeza-Yates, “Good Fonts for Dyslexia,” Web Research Group, Barcelona, Spain, 2013.")](https://www.helperbird.com/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/.")"Learn more on the topic featuring Helperbird")
+2. [L.R.&.R.Baeza-Yates, “Good Fonts for Dyslexia,” Web Research Group, Barcelona, Spain, 2013.")](https://www.helperbird.com/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/)"Learn more on the topic featuring Helperbird")
 
 3. [A.GONZALEZ, “FAQ | OpenDyslexic,” 03 June 2006.\[Online\].\[Accessed 01 April 2016\].")](https://opendyslexic.org/faq/ )
 
