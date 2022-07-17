@@ -22,7 +22,7 @@ url: /help/how-to-download-helperbird-for-ipad/
 - You will see a list of apps.
 - Click on the Helperbird for Safari app.
 - Click download.
-- You also click this [link](https://itunes.apple.com/us/app/helperbird-for-safari/id1209859096?mt=8 "Helperbird for Safari link")
+- You also click this [link](https://apps.apple.com/us/app/helperbird-for-safari/ "Helperbird for Safari link")
 
 ## Note
 - You will need iOS 15.0 or later.

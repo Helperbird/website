@@ -134,7 +134,7 @@ Computer Modern Unicode are excellent typefaces to make sure your website is dys
 
   
 
-In the second paper, masters student Renske de Leeuw (2010) compared Arial with the font Dyslexie (Dyslexie is a typeface/font designed to mitigate some of the issues that dyslexics experience when reading.It was developed by Dutch graphic designer Christian Boer while in college to help combat her own dyslexia.Rello took 21 Dutch students with dyslexia as her sample group, gave them texts to read in both fonts and monitored the differences in reading speed and accuracy the fonts produced.
+In the second paper, masters student Renske de Leeuw (2010) compared Arial with the font Dyslexie (Dyslexie is a typeface/font designed to mitigate some of the issues that dyslexics experience when reading. It was developed by Dutch graphic designer Christian Boer while in college to help combat her own dyslexia.Rello took 21 Dutch students with dyslexia as her sample group, gave them texts to read in both fonts and monitored the differences in reading speed and accuracy the fonts produced.
 
 Rello found that Dyslexie did not lead to quicker reading, however it did help some students make less dyslexia-related errors, another inserting aspect was from the questionnaires.Renske found that users wouldn’t use the font, because other people, who would have to read their work, would not like the font. This gives the impression that dyslectics are adapting to others, instead of ask for understanding of the use of an adapted font, so that a dyslectic can cope with his/her handicap. 
 
@@ -293,9 +293,9 @@ Aside from developing more user friendly fonts, true web accessibility entails a
 
 1. [K.O.Connor, “www.")typographydeconstructed.")com,"\[Online\].")\[Accessed 21 April 2016\].")](http://www.typographydeconstructed.com/ascender/  'Learn more on the topic featuring Helperbird')
 
-2. [L.R.&.R.Baeza-Yates, “Good Fonts for Dyslexia,” Web Research Group, Barcelona, Spain, 2013.")](http://robertgabriel.ninja/Research-into-Web-Accessibility-for-Dyslexics-and-Dyslexia-focused-fonts-such-asOpenDyslexia.")"Learn more on the topic featuring Helperbird")
+2. [L.R.&.R.Baeza-Yates, “Good Fonts for Dyslexia,” Web Research Group, Barcelona, Spain, 2013.")](https://www.helperbird.com/blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/.")"Learn more on the topic featuring Helperbird")
 
-3. [A.GONZALEZ, “FAQ | OpenDyslexic,” 03 June 2006.\[Online\].\[Accessed 01 April 2016\].")](http://opendyslexic.org/faq/)
+3. [A.GONZALEZ, “FAQ | OpenDyslexic,” 03 June 2006.\[Online\].\[Accessed 01 April 2016\].")](https://opendyslexic.org/faq/ )
 
 4. [A.GONZALEZ, “OpenDyslexic | About,” 01 June 2006.\[Online\].\[Accessed 12 Januray 2016\].")](http://opendyslexic.")
 
@@ -307,8 +307,8 @@ Aside from developing more user friendly fonts, true web accessibility entails a
 
 8. [D.Scotwest, “Website Accessibility For Dyslexiasw,” 2010 April 2016.\[Online\].\[Accessed 2010 April 2016\].")](http://www.")
 
-9. [Anthony, “Surprising bad practices that hurt dyslexic users,” 23 01 2011.\[Online\].\[Accessed 19 Feburay 2016\].")](http://uxmovement.com/content/6-surprising-bad-practices-that-hurt-%20dyslexic-users/  'Learn more on the topic featuring Helperbird')
+9. [Anthony, “Surprising bad practices that hurt dyslexic users,” 23 01 2011.\[Online\].\[Accessed 19 Feburay 2016\].")](https://uxmovement.com/content/6-surprising-bad-practices-that-hurt-dyslexic-users/  'Learn more on the topic featuring Helperbird')
 
 10. [W3C, “Text Customization,” 11 November 2012.\[Online\]](https://www.w3.org/WAI/RD/2012/text-customization/r11  'Learn more on the topic featuring Helperbird')
 
-11. [V.F.d.Santana, “https://pdfs)semanticscholar.org," University of Campinas , 23 June \] 2012.\[Online\] \[Accessed 23 Febuary 2016\].")](https://pdfs.semanticscholar.org/9e90/8407d98ea6a2e552691c0741800efb361df8.")
+11. [V.F.d.Santana, “https://pdfs)semanticscholar.org," University of Campinas , 23 June \] 2012.\[Online\] \[Accessed 23 Febuary 2016\].")](https://www.semanticscholar.org)
