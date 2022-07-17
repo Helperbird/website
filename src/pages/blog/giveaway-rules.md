@@ -51,7 +51,7 @@ time: 10 min
 
 - Once following or have the review written. Submit your entry on
 
-	- https://www.Helperbird.Com/giveaway
+	- https://www.helperbird.com
 
 - No substitution of prizes is permitted. Sponsor will not replace any lost or stolen prizes.
 
