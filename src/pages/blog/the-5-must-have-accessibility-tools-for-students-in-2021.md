@@ -62,7 +62,7 @@ Screenshot of Toucan in use.
 
   
 
-[Visit Kapwing](https://www.jointoucan.com)
+[Visit Kapwing](https://jointoucan.com)
 
   
 

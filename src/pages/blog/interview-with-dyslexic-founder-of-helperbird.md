@@ -17,12 +17,12 @@ url: /blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 blog_cat:  Blog
 blog_title: Interview with Helperbird founder & dyslexic, Robert James Gabriel
-blog_snip: At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
+blog_snip: At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
 cat: Interview
 
 
 
-des: At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
+des: At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
 
 name: Courtney Hood
 
@@ -35,7 +35,7 @@ time: 7 min
 
   
 
-At my first week Teamwork.com I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
+At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
 
   
 
