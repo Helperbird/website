@@ -34,6 +34,6 @@ On this page, you will see the options for the four different shortcuts. Click o
 press the keys you want to trigger in Helperbird. Thats it. The one limit of Chrome, is we can only
 have four shortcuts.
 
-![Click the first book icon in the toolbar to load immersive reader.](/assets/images/guide/shortcuts/input-the-keys-you-want-to-use)
+![Click the first book icon in the toolbar to load immersive reader.](/assets/images/guide/shortcuts/input-the-keys-you-want-to-use.png)
 
 Click the first book icon in the toolbar to load immersive reader.
