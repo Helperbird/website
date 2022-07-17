@@ -97,7 +97,7 @@ Other than that, employees stay in a company, contribute more, and become more p
 
 Whether you want to host a virtual awarding ceremony or share the news through group email, remember to give your employees a pat on the back.
 
-![Photo of a dyslexic user](/assets/images/blog/how-to-keep-wfh-employees-engaged-and-motivated/how-to-keep-wfh-employees-engaged-and-motivated.pug.jpg)
+![Photo of a dyslexic user](/assets/images/blog/how-to-keep-wfh-employees-engaged-and-motivated/how-to-keep-wfh-employees-engaged-and-motivated.jpg)
 
   
 
