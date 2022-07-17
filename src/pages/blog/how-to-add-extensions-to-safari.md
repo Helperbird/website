@@ -37,11 +37,4 @@ If you've got an iPhone or iPad and want to add extensions to Safari, you're in 
 5. Locate an extension that you want to download—you can search for specific extensions from the App Store, or just browse the available options!
 
 6. Follow the prompts from the App Store to download and install Safari extensions. And that's it! Your new extension will now be available for use on your device the next time you open Safari!
-
-### Sources:
-
-For iPad 
-[https://support.apple.com/en-ie/guide/ipad/ipada7ca2a18/ipados#:~:text=Go%20to%20Settings%20%3E%20Safari%2C%20then,then%20follow%20the%20onscreen%20instructions](https://support.apple.com/en-ie/guide/ipad/ipada7ca2a18/ipados).
-
-For iPhone
-[https://appletoolbox.com/how-to-install-safari-extensions-on-ipad-and-iphone/](https://appletoolbox.com/how-to-install-safari-extensions-on-ipad-and-iphone/)
+ 

@@ -30,7 +30,7 @@ url: /help/installing-helperbird/
 ## Helperbird for Mozilla Firefox
 
 - Visit the
-  [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird-accessibility/).
+  [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird/).
 - Once there, click the "Install" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
