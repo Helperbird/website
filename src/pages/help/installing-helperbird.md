@@ -67,7 +67,7 @@ url: /help/installing-helperbird/
 ## Helperbird for Safari
 
 - Visit the
-  [Mac app store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+  [Mac app store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053id1589138053).
 - Once there, click the "Install" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
@@ -76,7 +76,7 @@ url: /help/installing-helperbird/
 ## Helperbird for iPad
 
 - Visit the
-  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053id1589138053).
 - Once there, click the "Install" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
@@ -85,7 +85,7 @@ url: /help/installing-helperbird/
 ## Helperbird for iPhone
 
 - Visit the
-  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
+  [App store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053id1589138053).
 - Once there, click the "Install" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
