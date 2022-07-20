@@ -95,7 +95,7 @@
 		"@jlengstorf/get-share-image": "^0.8.0",
 		"@tailwindcss/aspect-ratio": "^0.2.0",
 		"@tailwindcss/typography": "^0.4.0",
-		"canvas": "^2.8.0",
+		"canvas": "^2.9.3",
 		"clean-css": "^5.1.5",
 		"core-js": "^3.16.3",
 		"css-minimizer-webpack-plugin": "^1.2.0",
