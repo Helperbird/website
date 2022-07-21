@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Use my subscription key
+cardTitle: Use my subscription key
 featureDescription:
   Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.
 tags: guideAccounts

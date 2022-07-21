@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Download for iPhone
+cardTitle: Download for iPhone
 featureDescription: Learn how to download Helperbird for iPhone. You will need iOS 15.0 or later.
 tags: iOSHelp
 url: /help/how-to-download-helperbird-for-iphone/

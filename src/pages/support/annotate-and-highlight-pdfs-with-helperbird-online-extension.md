@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 blog_cat: Support guide
-blog_title: How to annotate and highlight Pdfs online
+cardTitle:  How to annotate and highlight Pdfs online
 blog_snip:
   Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
   makes it easy to annotate your PDF documents and send them for group review online and for

@@ -17,7 +17,7 @@ date: Created
 time: "5 min"
 tags: blog
 blog_cat:  Blog
-blog_title: 4 Ways to be More Accessible on Social Media in 2022
+cardTitle: 4 Ways to be More Accessible on Social Media in 2022
 blog_snip:
   Social media is a massive space of information sources and connections. People are often glued to their phones because they always want to get the latest trending topics. Others simply would want to be entertained by memes or discover and learn new things.
 ---

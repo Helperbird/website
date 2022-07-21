@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Highlight color
+cardTitle: Highlight color
 featureDescription:
   How to change the color of the selection/highlight of a website on Safrai, Chrome, Firefox or
   Edge.

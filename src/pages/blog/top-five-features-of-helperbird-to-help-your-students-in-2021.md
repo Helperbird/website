@@ -15,7 +15,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/top-five-features-of-helperbird-to-help-your-students-in-2021/
 tags: blog
 blog_cat:  Blog
-blog_title: Top 5 features of Helperbird to help your students in 2021
+cardTitle: Top 5 features of Helperbird to help your students in 2021
 blog_snip:
   Helperbird has over 38 amazing features to choose from to make your class more accessible and
   productive in 2021 and 2022. We thought we would highlight what has been popular in the past year

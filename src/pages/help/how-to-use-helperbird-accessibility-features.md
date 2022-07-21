@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Accessibility features
+cardTitle: Accessibility features
 featureDescription:
   Learn how to use Helperbirds accessibility card features, such as spell check, Reduce motion and keyboard motion.
 date: 2016-01-01

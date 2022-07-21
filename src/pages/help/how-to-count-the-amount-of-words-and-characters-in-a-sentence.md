@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Analyze
+cardTitle: Analyze
 featureDescription: Learn how to count the amount of words and characters in a sentence
 date: 2016-01-03
 tags: guideFeaturesMain

@@ -13,7 +13,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
 blog_cat: Support guide
-blog_title: How to use Immersive reader in Google Chrome
+cardTitle:  How to use Immersive reader in Google Chrome
 blog_snip:
   How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge using Helperbird for
   free.

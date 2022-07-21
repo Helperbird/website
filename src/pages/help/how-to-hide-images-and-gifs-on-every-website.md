@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Images and GIFs
+cardTitle: Images and GIFs
 featureDescription: Learn how to remove or hide images on any website website or app.
 date: 2021-01-02
 tags: guideFeaturesMain

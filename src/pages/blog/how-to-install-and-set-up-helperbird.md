@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-install-and-set-up-helperbird/
 tags: blog
 blog_cat:  GUIDE
-blog_title: How to install and set up Helperbird
+cardTitle: How to install and set up Helperbird
 blog_snip:  Learn how to deploy or install Helperbird in serveal computers at once.
 img: /assets/images/graph/twitter.png
 des:    Learn how to deploy or install Helperbird in serveal computers at once.

@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Dyslexic Fonts
+cardTitle: Dyslexic Fonts
 featureDescription:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 date: 2019-01-01

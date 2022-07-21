@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Turn sync on and off
+cardTitle: Turn sync on and off
 featureDescription: To save your info to your Google or Microsoft Account, turn on sync. When you sync You can see and update your synced info on all your devices, like your Helperbird options and settings.
 date: 2016-01-04
 tags: guideFeatures

@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Productivity features
+cardTitle: Productivity features
 featureDescription: Discover how to manage your Helperbird Pro subscription.
 tags: tricksHelp
 url: /help/useful-features-to-increase-productivity-extension/

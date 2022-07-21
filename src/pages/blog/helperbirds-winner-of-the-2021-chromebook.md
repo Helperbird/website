@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/helperbirds-winner-of-the-2021-chromebook/
 tags: blog
 blog_cat:  GUEST BLOG
-blog_title: Congratulations to our Winner
+cardTitle: Congratulations to our Winner
 blog_snip:
   In February 2021 we ran a competition to celebrate the start of the new School term, to win a
   brand new Chromebook and a year of Helperbird Pro.

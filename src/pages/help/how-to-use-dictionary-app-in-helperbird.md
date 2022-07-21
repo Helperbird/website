@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Dictionary
+cardTitle: Dictionary
 featureDescription:
   Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 tags: guideApps

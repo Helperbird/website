@@ -13,7 +13,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/top-ipad-apps-for-accessibility/
 tags: blog
 blog_cat:  Blog
-blog_title: Top iPad apps for Accessibility
+cardTitle: Top iPad apps for Accessibility
 blog_snip: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 
 img:  /assets/images/blog/new-blog-2022/ipad-productivity-apps.png

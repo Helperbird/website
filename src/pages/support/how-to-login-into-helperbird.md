@@ -11,7 +11,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/how-to-login-into-helperbird/
 blog_cat: Support guide
-blog_title: Login to Helperbird
+cardTitle:  Login to Helperbird
 blog_snip: How to login to Helperbird
 ---
 

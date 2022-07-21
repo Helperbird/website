@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Dyslexia Ruler
+cardTitle: Dyslexia Ruler
 featureDescription: Learn how to use a dyslexia ruler on any website, pdf or app.
 date: 2019-01-03
 tags: guideFeaturesMain

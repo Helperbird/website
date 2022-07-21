@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /partners/sascharoos/
 blog_cat: Helperbird partner
-blog_title: Sascha Roos
+cardTitle:  Sascha Roos
 blog_snip: ''
 ---
 

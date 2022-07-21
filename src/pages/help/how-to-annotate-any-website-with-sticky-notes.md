@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Annotate
+cardTitle: Annotate
 featureDescription:
   There are two ways to use the sticky notes on any website, pdf or app in Helperbird. Making it easier for you to decided how you want to use it.
 date: 2016-01-03

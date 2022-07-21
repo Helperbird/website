@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Font color
+cardTitle: Font color
 featureDescription:
   How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
 date: 2020-01-02

@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /login/
 blog_cat: ''
-blog_title: Login to Helperbird
+cardTitle:  Login to Helperbird
 blog_snip: ''
 ---
 

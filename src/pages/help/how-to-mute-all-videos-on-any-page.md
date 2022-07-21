@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Mute
+cardTitle: Mute
 featureDescription: Learn how to Mute videos on any website, pdf or app.
 date: 2022-01-01
 tags: guideFeaturesMain

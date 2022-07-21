@@ -15,7 +15,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/the-5-must-have-accessibility-tools-for-students-in-2021/
 tags: blog
 blog_cat:  Blog
-blog_title: The 5 Must-Have Accessibility Tools for students in 2021
+cardTitle: The 5 Must-Have Accessibility Tools for students in 2021
 blog_snip: With online learning and increased online activity, it's important that every student feels
   empowered and comfortable when working online. There are hundreds of tools out there but here are
   our top 5 tools to use in 2021.

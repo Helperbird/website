@@ -17,7 +17,7 @@ date: Created
 time: 5 min
 tags: blog
 blog_cat:  Blog
-blog_title: 6 Famous People with Dyslexia
+cardTitle: 6 Famous People with Dyslexia
 blog_snip:
   Even though it is a challenge, a lot of dyslexics still manage to live normal lives in which most of them became successful in their own path of careers. In fact, many of them we already know but don’t have any idea they have it.
 ---

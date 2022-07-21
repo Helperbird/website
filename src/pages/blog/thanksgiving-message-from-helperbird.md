@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/thanksgiving-message-from-helperbird/
 tags: blog
 blog_cat:  GUIDE
-blog_title: Thanksgiving day message from Helperbird
+cardTitle: Thanksgiving day message from Helperbird
 blog_snip:  On the day before Thanksgiving Helperbird wants to give thanks for what were most grateful for this year.
 cat: Essay
 

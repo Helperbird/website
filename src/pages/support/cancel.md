@@ -11,7 +11,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/cancel/
 blog_cat: Support guide
-blog_title: How to cancel my Helperbird Pro subscription
+cardTitle:  How to cancel my Helperbird Pro subscription
 blog_snip: Discover how to cancel your Helperbird Pro subscription.
 ---
 

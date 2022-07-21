@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Voice typing
+cardTitle: Voice typing
 featureDescription:
   Learn how to use Helperbird voice typing feature on any website.
 date: 2019-01-02

@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Highlighter
+cardTitle: Highlighter
 featureDescription:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser
   extension.

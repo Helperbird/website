@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: OCR (Extract Text)
+cardTitle: OCR (Extract Text)
 featureDescription: Learn how to extract text from any image pdf or website with Helperbird.
 date: 2022-02-01
 tags: guideFeaturesMain

@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-use-immersive-reader-in-google-docs/
 tags: blog
 blog_cat:  Guide
-blog_title: How to use Immersive reader on Google Docs
+cardTitle: How to use Immersive reader on Google Docs
 blog_snip: A step by step guide.
 cat: Guide
 

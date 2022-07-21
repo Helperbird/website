@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Text to speech
+cardTitle: Text to speech
 featureDescription:
   Learn how easy it is to use Text to speech with Natural voices on any website, pdf or app.
 date: 2022-04-05

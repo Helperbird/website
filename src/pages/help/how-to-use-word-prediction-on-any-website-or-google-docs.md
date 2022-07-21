@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Word Prediction
+cardTitle: Word Prediction
 featureDescription:
   Learn how easy it is to use Word Prediction on Google Docs or any website with Helperbirds browser
   extension.

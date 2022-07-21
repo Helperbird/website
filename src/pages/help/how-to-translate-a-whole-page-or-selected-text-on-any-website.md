@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Translate
+cardTitle: Translate
 featureDescription:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.
 date: 2022-04-04

@@ -16,7 +16,7 @@ const createSocialImageForArticle = (input, output) =>
 
         const helperbirdLogo = './tools/images/helperbird-logo.png';
 		// get title from file data
-		const [, title] = data.match(/title:(.*)/);
+		const [, title] = data.match(/cardTitle:(.*)/);
 
 		const post = {
 			title: title,
@@ -27,9 +27,9 @@ const createSocialImageForArticle = (input, output) =>
 		const height = 627;
 		// Set the coordinates for the image position.
 		const imagePosition = {
-			w: 75,
-			h: 75,
-			x: 475,
+			w: 100,
+			h: 100,
+			x: 550,
 			y: 75
 		};
 		// Because we are putting the image near the top (y: 75)
@@ -43,12 +43,12 @@ const createSocialImageForArticle = (input, output) =>
 		const canvas = createCanvas(width, height);
 		const context = canvas.getContext('2d');
 
-		context.fillStyle = '#450a75';
+		context.fillStyle = '#f6f5e7';
 		context.fillRect(0, 0, width, height);
 
-		context.font = "bold 60pt 'PT Sans'";
+		context.font = "bold 50pt 'PT Sans'";
 		context.textAlign = 'center';
-		context.fillStyle = '#fff';
+		context.fillStyle = '#111827';
 
 		const titleText = formatTitle(post.title);
 		context.fillText(titleText[0], 600, titleY);
@@ -56,7 +56,9 @@ const createSocialImageForArticle = (input, output) =>
 			context.fillText(titleText[1], 600, titleY + titleLineHeight);
 		}
 
-		context.font = "40pt 'PT Sans'";
+		context.font = "30pt 'PT Sans'";
+		context.textAlign = 'center';
+		context.fillStyle = '#da2877';
 		context.fillText(`${post.author}`, 600, authorY);
 
 		// Load the logo file and then render it on the screen.

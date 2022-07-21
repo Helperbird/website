@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/what-is-coppa-and-ferpa/
 tags: blog
 blog_cat:  Blog
-blog_title: What is COPPA and FERPA?
+cardTitle: What is COPPA and FERPA?
 blog_snip: The Children's Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act (FERPA) are two similar pieces of legislation that protect the privacy of student data.
 
 img:  /assets/images/blog/new-blog-2022/coppa-ferpa.png

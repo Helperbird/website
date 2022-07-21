@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Manage my subscription
+cardTitle: Manage my subscription
 featureDescription: Discover how to manage your Helperbird Pro subscription.
 tags: guideAccounts
 url: /help/manage-my-helperbird-pro-subscription/

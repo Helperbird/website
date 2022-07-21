@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Link color
+cardTitle: Link color
 featureDescription:
   How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
 date: 2021-01-01

@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
 blog_cat:  TEACHER APPRECIATION WEEK.
-blog_title: How a teacher helped me achieve my full potential.
+cardTitle: How a teacher helped me achieve my full potential.
 blog_snip: From droping out of school to starting my own company.
 cat: Essay
 

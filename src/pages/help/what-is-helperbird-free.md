@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: What is Helperbird free?
+cardTitle: What is Helperbird free?
 featureDescription:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.
 date: 2016-01-06

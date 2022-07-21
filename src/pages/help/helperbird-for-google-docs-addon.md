@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Google Docs
+cardTitle: Google Docs
 featureDescription:
   Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
 tags: guideIntegrations

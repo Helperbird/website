@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Column widths
+cardTitle: Column widths
 featureDescription: Learn how to set column widths on any website, pdf or app.
 tags: guideFeaturesMain
 date: 2018-01-04

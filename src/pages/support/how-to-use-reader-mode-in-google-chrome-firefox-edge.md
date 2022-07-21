@@ -12,7 +12,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/how-to-use-reader-mode-in-google-chrome-firefox-edge/
 blog_cat: Support guide
-blog_title: How to use Reader Mode
+cardTitle:  How to use Reader Mode
 blog_snip:
   How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.
 ---

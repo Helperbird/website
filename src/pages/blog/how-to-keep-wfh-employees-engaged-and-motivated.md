@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-keep-wfh-employees-engaged-and-motivated/
 tags: blog
 blog_cat:  Guest Blog
-blog_title: How to Keep WFH Employees Engaged and Motivated
+cardTitle: How to Keep WFH Employees Engaged and Motivated
 blog_snip:
   These days, working remotely is no longer uncharted territory. That's why Upwork estimated that
   more than 26% of the American workforce would work from home by 2021.

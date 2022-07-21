@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Cursor adjustments
+cardTitle: Cursor adjustments
 featureDescription: Learn how to change cursor size on any website or app.
 tags: guideFeaturesMain
 date: 2018-01-02

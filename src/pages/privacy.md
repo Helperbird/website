@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /privacy/
 blog_cat: ''
-blog_title: Privacy policy
+cardTitle:  Privacy policy
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
 

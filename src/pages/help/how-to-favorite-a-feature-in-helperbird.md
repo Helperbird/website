@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Favorite a feature
+cardTitle: Favorite a feature
 featureDescription:
   Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.
 tags: guideFeatures

@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Tooltip
+cardTitle: Tooltip
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-04-03
 tags: guideFeaturesMain

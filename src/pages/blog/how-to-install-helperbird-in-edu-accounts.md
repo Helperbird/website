@@ -13,7 +13,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/how-to-install-helperbird-in-edu-accounts/
 tags: blog
 blog_cat:  GUIDE
-blog_title: How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
+cardTitle: How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 blog_snip: Your step by step guide on how to install and set up Helperbird.
 ---
 

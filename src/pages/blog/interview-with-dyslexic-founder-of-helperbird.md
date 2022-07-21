@@ -16,7 +16,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 blog_cat:  Blog
-blog_title: Interview with Helperbird founder & dyslexic, Robert James Gabriel
+cardTitle: Interview with Helperbird founder & dyslexic, Robert James Gabriel
 blog_snip: At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
 cat: Interview
 

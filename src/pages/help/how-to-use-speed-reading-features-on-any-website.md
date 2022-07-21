@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Speed reading
+cardTitle: Speed reading
 featureDescription: How to use Speed reading on any website
 date: 2022-04-01
 tags: guideFeaturesMain

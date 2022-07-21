@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/is-helperbird-safe/
 tags: blog
 blog_cat:  Guide
-blog_title: Is Helperbird free to use?
+cardTitle: Is Helperbird free to use?
 blog_snip: Is Helperbird free to use?
 
 cat: Blog

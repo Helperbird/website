@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: What is Helperbird Unlimited?
+cardTitle: What is Helperbird Unlimited?
 featureDescription:
   What is Helperbird Unlimited?, discover what features are included in the paid version of
   Helperbird.

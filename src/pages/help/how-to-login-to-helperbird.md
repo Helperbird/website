@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: How to login into Helperbird
+cardTitle: How to login into Helperbird
 featureDescription: Discover how to login to Helperbird to access your Pro features.
 tags: guideFeatures
 date: 2016-01-01

@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
 blog_cat:  Guide
-blog_title: TODAY WILL BE A GOOD DAY
+cardTitle: TODAY WILL BE A GOOD DAY
 blog_snip: How positive thoughts might benefit dyslexic students.
 cat: Facts
 

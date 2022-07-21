@@ -18,7 +18,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/best-careers-for-people-with-dyslexia/
 tags: blog
 blog_cat:  GUEST BLOG
-blog_title: Best Careers for People with Dyslexia
+cardTitle: Best Careers for People with Dyslexia
 blog_snip:
   Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
   have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood

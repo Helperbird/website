@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Quick Action Menu
+cardTitle: Quick Action Menu
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-02-20
 tags: guideFeaturesMain

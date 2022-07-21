@@ -1,6 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title: Refund policy
+cardTitle:  Refund policy
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never
   want our customers to feel that way, so our refund ...
@@ -13,7 +14,6 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /refund/
 blog_cat: ''
-blog_title: Fair Refund policy
 blog_snip: ''
 ---
 

@@ -12,7 +12,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /support/how-to-annotate-any-website-or-pdf-with-a-browser-extension/
 blog_cat: Support guide
-blog_title: How to annotate any website or pdf with Helperbird
+cardTitle:  How to annotate any website or pdf with Helperbird
 blog_snip:
   Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
   makes it easy to annotate your PDF documents and send them for group review online and for

@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Immersive reader by Microsoft
+cardTitle: Immersive reader by Microsoft
 featureDescription:
   Learn how easy it is to use Immersive Reader by Microsoft on any website, pdf or app.
 date: 2021-01-04

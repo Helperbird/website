@@ -17,7 +17,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: /blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/
 tags: blog
 blog_cat:  Research
-blog_title:
+cardTitle:
   Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexia
 blog_snip: There are few published papers about usability testing with dyslexia focused fonts but there is a considerable collection of knowledge on dyslexia as well as many suggestions for authoring dyslexia friendly interfaces.
 

@@ -17,7 +17,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /partners/sprialisconsulting/
 blog_cat: Helperbird partner
-blog_title: Sprialis consulting
+cardTitle:  Sprialis consulting
 blog_snip: ''
 ---
 

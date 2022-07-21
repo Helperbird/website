@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Print
+cardTitle: Print
 featureDescription: Learn how to print a website in Chrome, Firefox and Edge.
 date: 2022-02-09
 tags: guideFeaturesMain

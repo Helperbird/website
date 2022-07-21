@@ -1,6 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title: Security of Helperbird
+cardTitle:  Security statement
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds Security don`t sell, store, or
@@ -14,7 +15,6 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /security/
 blog_cat: ''
-blog_title: Security
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
 

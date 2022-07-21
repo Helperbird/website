@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/alt-highlighter.png
 facebookSocial: assets/images/graph/alt-highlighter.png
-featureTitle: Background color
+cardTitle: Background color
 featureDescription:
   How to change the color of the background of a website on Safrai, Chrome, Firefox or Edge.
 date: 2017-01-01

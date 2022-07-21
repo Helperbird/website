@@ -1,6 +1,7 @@
 ---
 layout: templates/support_post.html
 title: Terms of Service
+cardTitle:  Terms of Service
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds privacy features don`t sell,
@@ -14,7 +15,6 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: /terms-of-service/
 blog_cat: ''
-blog_title: Terms of service
 blog_snip: Learn more about the history of Helperbird and our core values.
 ---
 
