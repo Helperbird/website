@@ -13,7 +13,7 @@ cardTitle: Quick Action Menu
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-02-20
 tags: guideFeaturesMain
-url: /help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
+url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
 ## Helperbird quick action menu

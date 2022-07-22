@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /partners/sascharoos/
+url: partners/sascharoos/
 blog_cat: Helperbird partner
 cardTitle:  Sascha Roos
 blog_snip: ''

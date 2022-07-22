@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/top-productivity-extensions-for-safari/
+url: blog/top-productivity-extensions-for-safari/
 tags: blog
 blog_cat:  Blog
 cardTitle: Top Productivity Extensions for Safari

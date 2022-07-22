@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /refund/
+url: refund/
 blog_cat: ''
 blog_snip: ''
 ---

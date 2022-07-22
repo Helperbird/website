@@ -13,7 +13,7 @@ cardTitle: Cursor adjustments
 featureDescription: Learn how to change cursor size on any website or app.
 tags: guideFeaturesMain
 date: 2018-01-02
-url: /help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
+url: help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 ---
 
 ## How to change the cursor size

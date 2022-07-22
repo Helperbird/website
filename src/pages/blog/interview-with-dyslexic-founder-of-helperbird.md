@@ -13,7 +13,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/interview-with-dyslexic-founder-of-helperbird/
+url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 blog_cat:  Blog
 cardTitle: Interview with Helperbird founder & dyslexic, Robert James Gabriel

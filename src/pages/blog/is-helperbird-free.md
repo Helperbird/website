@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/is-helperbird-free/
+url: blog/is-helperbird-free/
 tags: blog
 blog_cat:  Guide
 cardTitle: Is Helperbird free to use?

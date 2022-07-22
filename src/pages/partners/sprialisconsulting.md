@@ -15,7 +15,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /partners/sprialisconsulting/
+url: partners/sprialisconsulting/
 blog_cat: Helperbird partner
 cardTitle:  Sprialis consulting
 blog_snip: ''

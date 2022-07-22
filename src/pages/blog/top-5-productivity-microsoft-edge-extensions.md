@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/top-5-productivity-microsoft-edge-extensions/
+url: blog/top-5-productivity-microsoft-edge-extensions/
 tags: blog
 blog_cat:  Blog
 cardTitle: Top 5 Productivity Microsoft Edge Extensions

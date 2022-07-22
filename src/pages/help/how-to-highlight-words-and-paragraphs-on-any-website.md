@@ -17,7 +17,7 @@ featureDescription:
   extension.
 date: 2020-01-05
 tags: guideFeaturesMain
-url: /help/how-to-highlight-words-and-paragraphs-on-any-website/
+url: help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---
 
 

@@ -15,7 +15,7 @@ featureDescription:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.
 date: 2016-01-06
 tags: guideFeatures
-url: /help/what-is-helperbird-free/
+url: help/what-is-helperbird-free/
 ---
 
 # What is included in the free version of Helperbird?

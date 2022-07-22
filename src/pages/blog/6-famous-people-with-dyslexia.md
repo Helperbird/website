@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/6-famous-people-with-dyslexia/
+url: blog/6-famous-people-with-dyslexia/
 name: Helperbird staff
 img: /assets/images/blog/6-famous-people-with-dyslexia/6-famous-people-with-dyslexia.png
 date: Created

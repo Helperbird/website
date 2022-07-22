@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/thanksgiving-message-from-helperbird/
+url: blog/thanksgiving-message-from-helperbird/
 tags: blog
 blog_cat:  GUIDE
 cardTitle: Thanksgiving day message from Helperbird

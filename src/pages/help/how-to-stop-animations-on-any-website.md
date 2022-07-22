@@ -14,7 +14,7 @@ featureDescription:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 date: 2016-01-01
 tags: guideFeaturesMain
-url: /help/how-to-stop-animations-on-any-website/
+url: help/how-to-stop-animations-on-any-website/
 ---
 
 ## How to stop animations on any website or app

@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/how-to-avoid-wfh-burnout-and-maximize-productivity/
+url: blog/how-to-avoid-wfh-burnout-and-maximize-productivity/
 tags: blog
 blog_cat:  GUEST BLOG
 cardTitle: How to Avoid WFH Burnout and Maximize Productivity

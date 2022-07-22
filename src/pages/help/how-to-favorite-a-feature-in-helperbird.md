@@ -14,7 +14,7 @@ cardTitle: Favorite a feature
 featureDescription:
   Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.
 tags: guideFeatures
-url: /help/how-to-favorite-a-feature-in-helperbird/
+url: help/how-to-favorite-a-feature-in-helperbird/
 ---
 
 ## Video Tutorial

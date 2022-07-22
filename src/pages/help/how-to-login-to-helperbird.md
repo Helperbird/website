@@ -13,7 +13,7 @@ cardTitle: How to login into Helperbird
 featureDescription: Discover how to login to Helperbird to access your Pro features.
 tags: guideFeatures
 date: 2016-01-01
-url: /help/how-to-login-to-helperbird/
+url: help/how-to-login-to-helperbird/
 ---
 
 ## Login to Helperbird for Chrome or Edge

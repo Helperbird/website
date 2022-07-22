@@ -15,7 +15,7 @@ featureDescription:
   Learn how to use Helperbird voice typing feature on any website.
 date: 2019-01-02
 tags: guideFeaturesMain
-url: /help/how-to-use-speech-to-text-or-dictation-on-any-website/
+url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
 ## How to use Voice typing or dictation on any website

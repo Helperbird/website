@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 cardTitle: Manage my subscription
 featureDescription: Discover how to manage your Helperbird Pro subscription.
 tags: guideAccounts
-url: /help/manage-my-helperbird-pro-subscription/
+url: help/manage-my-helperbird-pro-subscription/
 ---
 
 # Manage my Helperbird Pro subscription

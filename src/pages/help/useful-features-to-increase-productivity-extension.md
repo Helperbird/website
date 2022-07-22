@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 cardTitle: Productivity features
 featureDescription: Discover how to manage your Helperbird Pro subscription.
 tags: tricksHelp
-url: /help/useful-features-to-increase-productivity-extension/
+url: help/useful-features-to-increase-productivity-extension/
 ---
 
 # Popular productivity features in Helperbird

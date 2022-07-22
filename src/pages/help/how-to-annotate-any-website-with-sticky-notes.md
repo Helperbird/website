@@ -16,7 +16,8 @@ featureDescription:
   There are two ways to use the sticky notes on any website, pdf or app in Helperbird. Making it easier for you to decided how you want to use it.
 date: 2016-01-03
 tags: guideFeaturesMain
-url: /help/how-to-annotate-any-website-with-sticky-notes/
+url: help/how-to-annotate-any-website-with-sticky-notes/
+
 ---
 
 ## Video Tutorial

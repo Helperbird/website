@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 cardTitle: Unlock all features
 featureDescription:  It might sound odd, cause of some requests from Apple. We have to hide Helperbirds paid features if you're not signed in. So to unlock the Pro features, I will show you how to use your subscription key.
 tags: iOSHelp
-url: /help/helperbird-for-ios-ipad-iphone-is-missing-features/
+url: help/helperbird-for-ios-ipad-iphone-is-missing-features/
 ---
 
 

@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/tv-and-movie-characters-with-dyslexia/
+url: blog/tv-and-movie-characters-with-dyslexia/
 tags: blog
 blog_cat:  Blog
 cardTitle: Tv and movie characters with dyslexia

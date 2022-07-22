@@ -13,7 +13,7 @@ cardTitle: Tooltip
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-04-03
 tags: guideFeaturesMain
-url: /help/how-to-show-alt-tags-on-hover-tooltip/
+url: help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 
 ## How to use the tooltip alt feautes

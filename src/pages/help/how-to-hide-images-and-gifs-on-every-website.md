@@ -13,7 +13,7 @@ cardTitle: Images and GIFs
 featureDescription: Learn how to remove or hide images on any website website or app.
 date: 2021-01-02
 tags: guideFeaturesMain
-url: /help/how-to-hide-images-and-gifs-on-every-website/
+url: help/how-to-hide-images-and-gifs-on-every-website/
 ---
 
 ## How to hide all images

@@ -14,7 +14,7 @@ cardTitle: Google Docs
 featureDescription:
   Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
 tags: guideIntegrations
-url: /help/helperbird-for-google-docs-addon/
+url: help/helperbird-for-google-docs-addon/
 ---
 
 

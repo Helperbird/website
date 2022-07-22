@@ -15,7 +15,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/best-careers-for-people-with-dyslexia/
+url: blog/best-careers-for-people-with-dyslexia/
 tags: blog
 blog_cat:  GUEST BLOG
 cardTitle: Best Careers for People with Dyslexia

@@ -16,7 +16,7 @@ featureDescription:
   Helperbird.
 date: 2016-01-08
 tags: guideFeatures
-url: /help/what-is-helperbird-unlimited/
+url: help/what-is-helperbird-unlimited/
 ---
 
 # What is Helperbird Unlimited?

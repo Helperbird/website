@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/top-ipad-apps-for-accessibility/
+url: blog/top-ipad-apps-for-accessibility/
 tags: blog
 blog_cat:  Blog
 cardTitle: Top iPad apps for Accessibility

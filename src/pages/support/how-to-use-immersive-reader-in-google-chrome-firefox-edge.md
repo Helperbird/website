@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
+url: support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
 blog_cat: Support guide
 cardTitle:  How to use Immersive reader in Google Chrome
 blog_snip:

@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /privacy/
+url: privacy/
 blog_cat: ''
 cardTitle:  Privacy policy
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'

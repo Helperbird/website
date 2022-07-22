@@ -13,7 +13,7 @@ cardTitle: Installing Helperbird
 featureDescription: Discover how to install Helperbird on Google Chrome, Firefox, Safari, and Edge.
 date: 2016-01-04
 tags: guideFeatures
-url: /help/installing-helperbird/
+url: help/installing-helperbird/
 ---
 
 

@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
+url: support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 blog_cat: Support guide
 cardTitle:  How to annotate and highlight Pdfs online
 blog_snip:

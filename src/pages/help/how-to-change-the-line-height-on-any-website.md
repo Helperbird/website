@@ -13,7 +13,7 @@ cardTitle: Line height
 featureDescription: Learn how easy it is to change the line height on any website.
 date: 2021-01-05
 tags: guideFeaturesMain
-url: /help/how-to-change-the-line-height-on-any-website/
+url: help/how-to-change-the-line-height-on-any-website/
 ---
 
 ## How to change the line height on any website

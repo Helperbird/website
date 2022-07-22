@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /login/
+url: login/
 blog_cat: ''
 cardTitle:  Login to Helperbird
 blog_snip: ''

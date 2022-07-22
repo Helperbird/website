@@ -14,7 +14,7 @@ featureDescription:
   Learn how easy it is to change the font size on any website to a size that suits you.
 date: 2020-01-03
 tags: guideFeaturesMain
-url: /help/how-to-change-the-font-size-on-any-website/
+url: help/how-to-change-the-font-size-on-any-website/
 ---
 
 ## How to change the font size on any website

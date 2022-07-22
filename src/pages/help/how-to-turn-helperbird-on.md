@@ -15,7 +15,7 @@ featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
 date: 2016-01-02
 tags: guideFeatures
-url: /help/how-to-turn-helperbird-on/
+url: help/how-to-turn-helperbird-on/
 ---
 
 ## Steps to turn Helperbird on

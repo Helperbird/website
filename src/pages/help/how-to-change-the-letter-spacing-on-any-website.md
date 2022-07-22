@@ -13,7 +13,7 @@ cardTitle: Letter spacing
 featureDescription: Learn how easy it is to change the letter spacing on any website.
 date: 2021-01-07
 tags: guideFeaturesMain
-url: /help/how-to-change-the-letter-spacing-on-any-website/
+url: help/how-to-change-the-letter-spacing-on-any-website/
 ---
 
 ## How to change the letter spacing on any website

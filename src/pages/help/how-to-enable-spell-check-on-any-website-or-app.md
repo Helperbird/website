@@ -13,7 +13,7 @@ cardTitle: Spell Checker
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-04-01
 tags: guideFeaturesMain
-url: /help/how-to-enable-spell-check-on-any-website-or-app/
+url: help/how-to-enable-spell-check-on-any-website-or-app/
 ---
 
 ## How to enable spell checker

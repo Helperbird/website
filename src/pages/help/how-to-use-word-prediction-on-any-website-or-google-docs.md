@@ -17,7 +17,7 @@ featureDescription:
   extension.
 date: 2022-11-01
 tags: guideFeaturesMain
-url: /help/how-to-use-word-prediction-on-any-website-or-google-docs/
+url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---
 
 ## How to use Word Prediction on Google Docs or any website

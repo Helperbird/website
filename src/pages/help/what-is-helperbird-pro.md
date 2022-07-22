@@ -15,7 +15,7 @@ featureDescription:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
 date: 2016-01-07
 tags: guideFeatures
-url: /help/what-is-helperbird-pro/
+url: help/what-is-helperbird-pro/
 ---
 
 # What is included in the paid version of Helperbird?

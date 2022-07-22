@@ -13,7 +13,7 @@ cardTitle: Paragraph widths
 featureDescription: Learn how to set paragraph widths on any website, pdf or app.
 date: 2022-02-10
 tags: guideFeaturesMain
-url: /help/how-to-set-the-paragraph-width-on-any-page/
+url: help/how-to-set-the-paragraph-width-on-any-page/
 ---
 
 

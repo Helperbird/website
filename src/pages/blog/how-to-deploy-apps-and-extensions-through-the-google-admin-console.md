@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
+url: blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
 tags: blog
 blog_cat:  GUIDE
 cardTitle: How to install and set up Helperbird

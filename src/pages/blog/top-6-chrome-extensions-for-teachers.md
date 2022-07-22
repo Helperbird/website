@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/top-6-chrome-extensions-for-teachers/
+url: blog/top-6-chrome-extensions-for-teachers/
 tags: blog
 blog_cat:  Blog
 cardTitle: Top 6 Chrome Extensions for Teachers

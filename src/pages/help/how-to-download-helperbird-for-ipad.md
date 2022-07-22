@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 cardTitle: Download for iPad
 featureDescription: Learn how to download Helperbird for iPad. You will need iOS 15.0 or later.
 tags: iOSHelp
-url: /help/how-to-download-helperbird-for-ipad/
+url: help/how-to-download-helperbird-for-ipad/
 ---
 
 

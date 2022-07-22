@@ -13,7 +13,7 @@ cardTitle: Auto Scroll
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2016-01-04
 tags: guideFeaturesMain
-url: /help/how-to-auto-scroll-on-any-website-or-app/
+url: help/how-to-auto-scroll-on-any-website-or-app/
 ---
 
 ## How to auto scroll on any website or app

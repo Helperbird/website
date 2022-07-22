@@ -15,7 +15,7 @@ featureDescription:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 date: 2019-01-01
 tags: guideFeaturesMain
-url: /help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
+url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 ---
 
 ## How to change the font on any website or app

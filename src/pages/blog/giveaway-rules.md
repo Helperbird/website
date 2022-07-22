@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/giveaway-rules/
+url: blog/giveaway-rules/
 tags: blog
 blog_cat:  GUIDE
 cardTitle: Rules for the Helperbird giveaway official rules

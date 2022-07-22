@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/how-to-keep-wfh-employees-engaged-and-motivated/
+url: blog/how-to-keep-wfh-employees-engaged-and-motivated/
 tags: blog
 blog_cat:  Guest Blog
 cardTitle: How to Keep WFH Employees Engaged and Motivated

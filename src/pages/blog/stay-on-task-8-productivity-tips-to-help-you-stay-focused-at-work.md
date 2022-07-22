@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
+url: blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
 tags: blog
 blog_cat:  Guide
 cardTitle: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work

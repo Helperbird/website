@@ -14,7 +14,7 @@ featureDescription:
   How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
 date: 2021-01-01
 tags: guideFeaturesMain
-url: /help/how-to-change-the-link-color-of-a-website/
+url: help/how-to-change-the-link-color-of-a-website/
 ---
 
 ## How to change the link color of a website.

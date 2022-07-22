@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/alt-highlighter.png
 cardTitle: Download for iPhone
 featureDescription: Learn how to download Helperbird for iPhone. You will need iOS 15.0 or later.
 tags: iOSHelp
-url: /help/how-to-download-helperbird-for-iphone/
+url: help/how-to-download-helperbird-for-iphone/
 ---
 
 ## How to download Helperbird for iPhone

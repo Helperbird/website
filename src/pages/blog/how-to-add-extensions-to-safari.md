@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/how-to-add-extensions-to-safari/
+url: blog/how-to-add-extensions-to-safari/
 tags: blog
 blog_cat:  Blog
 cardTitle: How to add extensions to Safari

@@ -15,7 +15,7 @@ featureDescription:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.
 date: 2022-04-04
 tags: guideFeaturesMain
-url: /help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
+url: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---
 
 ## How to translate a whole page

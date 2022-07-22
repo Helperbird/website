@@ -17,7 +17,7 @@ featureDescription:
   Edge.
 date: 2020-01-04
 tags: guideFeaturesMain
-url: /help/how-to-change-the-selection-highlight-color-of-a-website/
+url: help/how-to-change-the-selection-highlight-color-of-a-website/
 ---
 
 ## How to change the highlight selection color of a website.

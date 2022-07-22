@@ -13,7 +13,7 @@ cardTitle: Column widths
 featureDescription: Learn how to set column widths on any website, pdf or app.
 tags: guideFeaturesMain
 date: 2018-01-04
-url: /help/how-to-set-the-column-width-on-any-page/
+url: help/how-to-set-the-column-width-on-any-page/
 ---
 
 ## How to set column widths

@@ -14,7 +14,7 @@ cardTitle: Dictionary
 featureDescription:
   Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 tags: guideApps
-url: /help/how-to-use-dictionary-app-in-helperbird/
+url: help/how-to-use-dictionary-app-in-helperbird/
 ---
 
 ## Video Tutorial

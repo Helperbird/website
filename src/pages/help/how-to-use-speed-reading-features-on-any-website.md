@@ -13,7 +13,7 @@ cardTitle: Speed reading
 featureDescription: How to use Speed reading on any website
 date: 2022-04-01
 tags: guideFeaturesMain
-url: /help/how-to-use-speed-reading-features-on-any-website/
+url: help/how-to-use-speed-reading-features-on-any-website/
 ---
 
 ## About speed reading

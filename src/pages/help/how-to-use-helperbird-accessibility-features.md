@@ -14,7 +14,7 @@ featureDescription:
   Learn how to use Helperbirds accessibility card features, such as spell check, Reduce motion and keyboard motion.
 date: 2016-01-01
 tags: guideCardsMain
-url: /help/how-to-use-helperbird-accessibility-features/
+url: help/how-to-use-helperbird-accessibility-features/
 ---
 
 # Accessibility card features

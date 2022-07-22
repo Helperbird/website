@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
-url: /blog/what-is-coppa-and-ferpa/
+url: blog/what-is-coppa-and-ferpa/
 tags: blog
 blog_cat:  Blog
 cardTitle: What is COPPA and FERPA?
