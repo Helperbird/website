@@ -21,7 +21,7 @@ exports.formatTitle = (title) => {
 	let output = [];
 	// If the title is 40 characters or longer, look to add ellipses at the end of
 	// the second line.
-	if (title.length >= 40) {
+	if (title.length >= 50) {
 		const firstLine = getMaxNextLine(title);
 		const secondLine = getMaxNextLine(firstLine.remainingChars);
 		output = [firstLine.line];

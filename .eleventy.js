@@ -8,16 +8,18 @@ const path = require('path');
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
-	new Promise((resolve, reject) => {
+	new Promise(async (resolve, reject) => {
 		// read data from input file
+		try {
+			
+	
 		const data = fs.readFileSync(input, {
 			encoding: 'utf-8'
 		});
 
-        const helperbirdLogo = './tools/images/helperbird-logo.png';
 		// get title from file data
 		const [, title] = data.match(/cardTitle:(.*)/);
-
+		console.log(title);
 		const post = {
 			title: title,
 			author: 'Helperbird.com'
@@ -27,14 +29,14 @@ const createSocialImageForArticle = (input, output) =>
 		const height = 627;
 		// Set the coordinates for the image position.
 		const imagePosition = {
-			w: 100,
-			h: 100,
-			x: 550,
-			y: 75
+			w: 70,
+			h: 70,
+			x: 455,
+			y: 475
 		};
 		// Because we are putting the image near the top (y: 75)
 		// move the title down.
-		const titleY = 300;
+		const titleY = 260;
 		const titleLineHeight = 100;
 		// Bring up the author's Y value as well to make it all
 		// fit together nicely.
@@ -43,12 +45,18 @@ const createSocialImageForArticle = (input, output) =>
 		const canvas = createCanvas(width, height);
 		const context = canvas.getContext('2d');
 
-		context.fillStyle = '#f6f5e7';
+		const splashSolid = await loadImage('./tools/images/splash-1.png');
+		const splashStriped = await loadImage('./tools/images/splash-2.png');
+		const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
+		
+		
+
+		context.fillStyle = '#450a75';
 		context.fillRect(0, 0, width, height);
 
 		context.font = "bold 50pt 'PT Sans'";
 		context.textAlign = 'center';
-		context.fillStyle = '#111827';
+		context.fillStyle = '#ffffff';
 
 		const titleText = formatTitle(post.title);
 		context.fillText(titleText[0], 600, titleY);
@@ -56,33 +64,38 @@ const createSocialImageForArticle = (input, output) =>
 			context.fillText(titleText[1], 600, titleY + titleLineHeight);
 		}
 
-		context.font = "30pt 'PT Sans'";
+		context.font = "25pt 'PT Sans'";
 		context.textAlign = 'center';
-		context.fillStyle = '#da2877';
-		context.fillText(`${post.author}`, 600, authorY);
+		context.fillStyle = '#ffffff';
+		context.fillText(`${post.author}`, 650, authorY);
 
-		// Load the logo file and then render it on the screen.
-		loadImage(helperbirdLogo).then((image) => {
-			console.log(image);
-			const { w, h, x, y } = imagePosition;
-			context.drawImage(image, x, y, w, h);
 
-			const outputDir = path.dirname(output);
-			if (!fs.existsSync(outputDir)) {
-				fs.mkdirSync(outputDir, { recursive: true });
-			}
+		const { w, h, x, y } = imagePosition;
+		context.drawImage(helperbirdLogo, x, y, w, h);
+		context.drawImage(splashSolid,1000,0, 403,409);
+		context.drawImage(splashSolid,200,500, 403,409);
+		context.drawImage(splashStriped,-80, 48, 348, 252);
+		context.drawImage(splashStriped,1000, 400, 348, 252);
+		context.drawImage(splashStriped,100, 600, 348, 252);
 
-			// write the output image
+		const outputDir = path.dirname(output);
+		if (!fs.existsSync(outputDir)) {
+			fs.mkdirSync(outputDir, { recursive: true });
+		}
 
-			const stream = fs.createWriteStream(output);
-			stream.on('finish', resolve);
-			stream.on('error', reject);
-			canvas
-				.createJPEGStream({
-					quailty: 1.0
-				})
-				.pipe(stream);
-		});
+		// write the output image
+
+		const stream = fs.createWriteStream(output);
+		stream.on('finish', resolve);
+		stream.on('error', reject);
+		canvas
+			.createJPEGStream({
+				quailty: 1.0
+			})
+			.pipe(stream);
+		} catch (error) {
+				console.log(error);
+		}
 	});
 
 const manifest = {
