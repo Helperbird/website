@@ -67,7 +67,7 @@ As an employer, your responsibility is to provide the right tools to your employ
 
 Doing so allows your employees to do their job correctly. As such, they become productive, which is beneficial for your business.
 
-If you are wary about the expenses, remember that you do not have to get the most expensive [productivity tool](https://www.helperbird.com/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work).
+If you are wary about the expenses, remember that you do not have to get the most expensive [productivity tool](https://www.helperbird.com/blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/).
 
 And you can start with a device that everyone in the company needs the most.
 
@@ -79,7 +79,7 @@ The great thing about letting employees work from home is that people with disab
 
   
 
-That said, consider providing an [accessibility tool](https://www.helperbird.com) for your employees with disabilities. Doing so can help them work and be productive despite their conditions.
+That said, consider providing an [accessibility tool](https://www.helperbird.com/) for your employees with disabilities. Doing so can help them work and be productive despite their conditions.
 
   
 
