@@ -1,7 +1,7 @@
 {
 	"name": "Helperbird",
 	"short_name": "Helperbird",
-	"start_url": "/support/",
+	"start_url": "/support",
 	"display": "standalone",
 	"theme_color": "#5046e4",
 	"theme-color": "#5046e4",
