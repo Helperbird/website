@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <title>{{ title }}
-            - Helperbird</title>
-        {% bundledCss %}
-<script>
-  if ("serviceWorker" in navigator){
-    navigator.serviceWorker.register("/service-worker.js");
-}
-</script> 
 
-        <link href="https://www.helperbird.com{{url}}" rel="canonical"/>
-        <meta content="{{ description }}" name="description"/>
-        <meta content="{{ keywords }}" name="keywords"/>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{ title }}
+        - Helperbird</title>
+    {% bundledCss %}
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js");
+        }
+    </script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <meta content="/assets/images/favicon.png" name="image"/>
-        <meta content="#5046e4" name="theme-color"/>
-        <meta content="Helperbird" itemprop="name"/>
-        <meta content="{{ description }}" itemprop="description"/>
-        <meta content="/assets/images/favicon.png" itemprop="image"/>
+    <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+    <meta content="{{ description }}" name="description" />
+    <meta content="{{ keywords }}" name="keywords" />
 
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="@helperbird"/>
-        <meta name="twitter:creator" content="@robertjgabriel"/>
-        <meta name="twitter:title" content="{{ title }}"/>
-        <meta name="twitter:description" content="{{ description }}"/>
-        <meta name="twitter:image" content="https://www.helperbird.com/{{ url }}/index.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta content="/assets/images/favicon.png" name="image" />
+    <meta content="#5046e4" name="theme-color" />
+    <meta content="Helperbird" itemprop="name" />
+    <meta content="{{ description }}" itemprop="description" />
+    <meta content="/assets/images/favicon.png" itemprop="image" />
 
-        <meta content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}" name="twitter:player"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@helperbird" />
+    <meta name="twitter:creator" content="@robertjgabriel" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
 
-        <meta name="og:locale" content="en_US"/>
-        <meta name="og:type" content="website"/>
-        <meta name="og:title" content="{{ title }}"/>
-        <meta name="og:description" content="{{ description }}"/>
-        <meta name="og:url" content="https://www.helperbird.com{{url}}"/>
-        <meta name="og:site_name" content="Helperbird"/>
-        <meta name="og:image" content="https://www.helperbird.com/{{ url }}/index.png"/>
-        <meta name="og:video" content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}"/>
+    <meta content="https://www.youtube.com/watch?v={{youtubeId | PfILiWebkuc }}" name="twitter:player" />
 
-        <link href="/assets/images/site/favicon.png" rel="shortcut icon"/>
-        <link href="touch-icon-iphone.png" rel="apple-touch-icon"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167"/>
-        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
-        <script type="application/ld+json">
+    <meta name="og:locale" content="en_US" />
+    <meta name="og:type" content="website" />
+    <meta name="og:title" content="{{ title }}" />
+    <meta name="og:description" content="{{ description }}" />
+    <meta name="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+    <meta name="og:site_name" content="Helperbird" />
+    <meta name="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+    <meta name="og:video" content="https://www.youtube.com/watch?v={{youtubeId | PfILiWebkuc }}" />
+
+    <link href="/assets/images/site/favicon.png" rel="shortcut icon" />
+    <link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+    <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
+    <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+    <script type="application/ld+json">
             {
                         				"@context": "https://schema.org",
                         				"@type": "SoftwareApplication",
@@ -66,7 +67,7 @@
                         				}
                         			}
         </script>
-        <script type="application/ld+json">
+    <script type="application/ld+json">
             {
                         				"@context": "https://schema.org",
                         				"@type": "Organization",
@@ -80,7 +81,7 @@
                         				]
                         			}
         </script>
-        <script type="application/ld+json">
+    <script type="application/ld+json">
             {
                         			        "@context": "https://schema.org/",
                         			        "@type": "Product",
@@ -160,218 +161,251 @@
                         			    }
         </script>
 
-        <style>
-            /*! CSS Used from: https://www.launchaco.com/static/AllTemplates.min.css */
-            .font-friendly * {
-                font-family: Montserrat, sans-serif;
-            }
-            *,:after,:before {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-smoothing: antialiased;
-                -webkit-font-smoothing: antialiased;
-                text-rendering: optimizeLegibility;
-            }
-            img {
-                max-width: 100%;
-            }
-            .mask {
-                overflow: hidden;
-                position: relative;
-                background: #fff;
-            }
+    <style>
+        /*! CSS Used from: https://www.launchaco.com/static/AllTemplates.min.css */
+        .font-friendly * {
+            font-family: Montserrat, sans-serif;
+        }
+
+        *,
+        :after,
+        :before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-smoothing: antialiased;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .mask {
+            overflow: hidden;
+            position: relative;
+            background: #fff;
+        }
+
+        .ipadiphone {
+            position: relative;
+        }
+
+        .ipadiphone-ipad .mask {
+            min-width: 720px;
+            max-width: 990px;
+            height: 520px;
+        }
+
+        .ipadiphone-ipad {
+            border-radius: 35px;
+            overflow: hidden;
+            padding: 15px 70px;
+            background: linear-gradient(#f4f4f4, #f2f2f2);
+            box-shadow: inset -7px 0 0.4px -7px #e5e5e5, inset 7px 0 0.4px -7px #eaeaea, inset 0 4px 1px -3px #ddd, inset 0 -5px 1px -4px #8a8a8a, inset 0 0 0 2px #fff, inset 0 0 0 3px rgba(0, 0, 0, 0.08), inset 1px 0 0 4px #fff, inset -1px 0 0 4px #fff, inset 2px 0 0.2px 5px rgba(0, 0, 0, 0.05), inset -2px 0 0.2px 5px rgba(0, 0, 0, 0.05), inset 12px 0 0.2px -1px #fff, inset -12px 0 0.2px -1px #fff;
+            display: inline-block;
+            position: relative;
+            left: 70px;
+        }
+
+        .ipadiphone-iphone .mask {
+            width: 210px;
+            min-height: 310px;
+            max-height: 400px;
+        }
+
+        .ipadiphone-iphone {
+            z-index: 99;
+            position: absolute;
+            display: inline-block;
+            bottom: -20px;
+            background: linear-gradient(#f4f4f4, #f2f2f2);
+            box-shadow: inset 0 0 1px 1px #dbdcdd, inset 0 0 1px 4px #efefef, inset 0 0 0 5px #fff, inset 0 0 0 6.5px #edf1f2, inset 5px 0 7px 5px #fff, inset -5px 0 7px 5px #fff;
+            border-radius: 35px;
+            padding: 50px 15px 60px;
+        }
+
+        .ipadiphone-iphone:before {
+            content: '';
+            width: 53px;
+            height: 6px;
+            border-radius: 10px;
+            position: absolute;
+            box-shadow: inset 0 4px 3px 0 #e6e6e6, inset 0 0 0 2px #ececec;
+            top: 26px;
+            left: calc(50% - 26px);
+        }
+
+        .ipadiphone-iphone:after {
+            content: '';
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: inset 0 -2px 0.2px 0 #d5d5d5, inset 0 0 0 2.5px #e8e8e8;
+            bottom: 14px;
+            left: calc(50% - 19px);
+        }
+
+        @media screen and(max-width: 820px) {
             .ipadiphone {
-                position: relative;
+                margin-top: 50px;
             }
-            .ipadiphone-ipad .mask {
-                min-width: 720px;
-                max-width: 990px;
-                height: 520px;
-            }
-            .ipadiphone-ipad {
-                border-radius: 35px;
-                overflow: hidden;
-                padding: 15px 70px;
-                background: linear-gradient(#f4f4f4, #f2f2f2);
-                box-shadow: inset -7px 0 0.4px -7px #e5e5e5, inset 7px 0 0.4px -7px #eaeaea, inset 0 4px 1px -3px #ddd, inset 0 -5px 1px -4px #8a8a8a, inset 0 0 0 2px #fff, inset 0 0 0 3px rgba(0, 0, 0, 0.08), inset 1px 0 0 4px #fff, inset -1px 0 0 4px #fff, inset 2px 0 0.2px 5px rgba(0, 0, 0, 0.05), inset -2px 0 0.2px 5px rgba(0, 0, 0, 0.05), inset 12px 0 0.2px -1px #fff, inset -12px 0 0.2px -1px #fff;
-                display: inline-block;
-                position: relative;
-                left: 70px;
-            }
-            .ipadiphone-iphone .mask {
-                width: 210px;
-                min-height: 310px;
-                max-height: 400px;
-            }
-            .ipadiphone-iphone {
-                z-index: 99;
-                position: absolute;
-                display: inline-block;
-                bottom: -20px;
-                background: linear-gradient(#f4f4f4, #f2f2f2);
-                box-shadow: inset 0 0 1px 1px #dbdcdd, inset 0 0 1px 4px #efefef, inset 0 0 0 5px #fff, inset 0 0 0 6.5px #edf1f2, inset 5px 0 7px 5px #fff, inset -5px 0 7px 5px #fff;
-                border-radius: 35px;
-                padding: 50px 15px 60px;
-            }
-            .ipadiphone-iphone:before {
-                content: '';
-                width: 53px;
-                height: 6px;
-                border-radius: 10px;
-                position: absolute;
-                box-shadow: inset 0 4px 3px 0 #e6e6e6, inset 0 0 0 2px #ececec;
-                top: 26px;
-                left: calc(50% - 26px);
-            }
-            .ipadiphone-iphone:after {
-                content: '';
-                width: 38px;
-                height: 38px;
-                border-radius: 50%;
-                position: absolute;
-                box-shadow: inset 0 -2px 0.2px 0 #d5d5d5, inset 0 0 0 2.5px #e8e8e8;
-                bottom: 14px;
-                left: calc(50% - 19px);
-            }
-            @media screen and(max-width: 820px) {
-                .ipadiphone {
-                    margin-top: 50px;
-                }
-            }
-            .mask {
-                width: 100%;
-                overflow: hidden;
-                border-radius: 0 0 4px 4px;
-                background: #fff;
-                position: relative;
-            }
-            .mask__noimage {
-                height: 100%;
-            }
-            .mask-img {
-                width: 100%;
-                display: block;
-                z-index: 2;
-                position: relative;
-            }
-            /*! CSS Used from: https://www.launchaco.com/static/css/app.74a2c0b39740bb7417bacc343732d258.css */
-            *,:after,:before {
-                margin: 0;
-                padding: 0;
-                text-rendering: optimizeLegibility;
-                -webkit-font-smoothing: antialiased;
-                box-sizing: border-box;
-                font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
-            }
-            ::-webkit-input-placeholder {
-                color: #061027;
-                opacity: 0.44;
-            }
-            ::-moz-placeholder {
-                color: #061027;
-                opacity: 0.44;
-            }
-            :-ms-input-placeholder {
-                color: #061027;
-                opacity: 0.44;
-            }
-            :-moz-placeholder {
-                color: #061027;
-                opacity: 0.44;
-            }
-            .launchaco-builder-hoverable {
-                outline-offset: 2px;
-            }
+        }
+
+        .mask {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 0 0 4px 4px;
+            background: #fff;
+            position: relative;
+        }
+
+        .mask__noimage {
+            height: 100%;
+        }
+
+        .mask-img {
+            width: 100%;
+            display: block;
+            z-index: 2;
+            position: relative;
+        }
+
+        /*! CSS Used from: https://www.launchaco.com/static/css/app.74a2c0b39740bb7417bacc343732d258.css */
+        *,
+        :after,
+        :before {
+            margin: 0;
+            padding: 0;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #061027;
+            opacity: 0.44;
+        }
+
+        ::-moz-placeholder {
+            color: #061027;
+            opacity: 0.44;
+        }
+
+        :-ms-input-placeholder {
+            color: #061027;
+            opacity: 0.44;
+        }
+
+        :-moz-placeholder {
+            color: #061027;
+            opacity: 0.44;
+        }
+
+        .launchaco-builder-hoverable {
+            outline-offset: 2px;
+        }
+
+        .launchaco-builder-hoverable:hover {
+            opacity: 1;
+            outline: 2px solid #28d3fa;
+        }
+
+        @media(pointer: coarse) {
             .launchaco-builder-hoverable:hover {
-                opacity: 1;
-                outline: 2px solid #28d3fa;
+                outline: none;
+                outline-offset: 0;
             }
-            @media(pointer: coarse) {
-                .launchaco-builder-hoverable:hover {
-                    outline: none;
-                    outline-offset: 0;
-                }
-            }
-            #user-site .mask {
-                text-indent: 100%;
-                white-space: nowrap;
-                overflow: hidden;
-            }
-            .mask__noimage {
-                height: 100%;
-                max-height: 700px;
-                background: #fff;
-                position: relative;
-            }
-            .mask__noimage:after {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM4ZThlOGUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMjQgMjRIMFYwaDI0djI0eiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yMSAzSDNDMiAzIDEgNCAxIDV2MTRjMCAxLjEuOSAyIDIgMmgxOGMxIDAgMi0xIDItMlY1YzAtMS0xLTItMi0yek01IDE3bDMuNS00LjUgMi41IDMuMDFMMTQuNSAxMWw0LjUgNkg1eiIvPjwvc3ZnPg==');
-                background-size: 20%;
-                background-position: 50%;
-                background-repeat: no-repeat;
-                z-index: 0;
-            }
-        </style>
+        }
 
-        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
-        <link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href="assets/images/social/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
-        <link href="assets/images/social/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
-        <link href="assets/images/social/social/site.webmanifest" rel="manifest"/>
-        <link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon"/>
-        <link href="assets/images/social/social/favicon.ico" rel="shortcut icon"/>
-        <meta content="#ffffff" name="msapplication-TileColor"/>
-        <meta content="assets/images/social/browserconfig.xml" name="msapplication-config"/>
-    </head>
-    <body>
-        <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
-            {% include templates/header.html %}
+        #user-site .mask {
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
 
-            <main class="max-w-7xl mx-auto ">
-                <div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
-                    <div>
-                        {{ content | safe }}
+        .mask__noimage {
+            height: 100%;
+            max-height: 700px;
+            background: #fff;
+            position: relative;
+        }
+
+        .mask__noimage:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM4ZThlOGUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMjQgMjRIMFYwaDI0djI0eiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yMSAzSDNDMiAzIDEgNCAxIDV2MTRjMCAxLjEuOSAyIDIgMmgxOGMxIDAgMi0xIDItMlY1YzAtMS0xLTItMi0yek01IDE3bDMuNS00LjUgMi41IDMuMDFMMTQuNSAxMWw0LjUgNkg1eiIvPjwvc3ZnPg==');
+            background-size: 20%;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+    </style>
+
+    <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+    <link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="assets/images/social/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+    <link href="assets/images/social/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+    <link href="assets/images/social/social/site.webmanifest" rel="manifest" />
+    <link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
+    <link href="assets/images/social/social/favicon.ico" rel="shortcut icon" />
+    <meta content="#ffffff" name="msapplication-TileColor" />
+    <meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+</head>
+
+<body>
+    <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
+        {% include templates/header.html %}
+
+        <main class="max-w-7xl mx-auto ">
+            <div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
+                <div>
+                    {{ content | safe }}
 
 
-                        <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
-                            <h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">More features</h2>
+                    <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-18 sm:pb-18 lg:max-w-7xl lg:pt-18 lg:px-8">
+                        <h2 class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight">More features</h2>
 
-                            <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
-                                {%- for post  in collections.features limit:12 -%}
+                        <div
+                            class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+                            {%- for post in collections.features limit:12 -%}
 
-                                    <div class=" bg-white   rounded-lg p-6  ">
-                                        <div>
-                                            <span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
-                                                {{  post.data.icon | svgContents | safe }}
-                                            </span>
-                                        </div>
-                                        <div class="mt-6">
-                                            <h3 class="text-xl font-medium text-black">{{ post.data.cardTitle }}</h3>
-                                            <p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+                            <div class=" bg-white   rounded-lg p-6  ">
+                                <div>
+                                    <span class="flex items-center justify-center h-12 w-12 rounded-full text-black">
+                                        {{ post.data.icon | svgContents | safe }}
+                                    </span>
+                                </div>
+                                <div class="mt-6">
+                                    <h3 class="text-xl font-medium text-black">{{ post.data.cardTitle }}</h3>
+                                    <p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
 
-                                            <a class=" decoration-pink-500 mt-6 btn btn-primary" href="{{ post.data.url }}" title="More information on feature {{ post.data.cardTitle  }}">Discover
-                                                {{ post.data.cardTitle }}</a>
-                                        </div>
-                                    </div>
-
-                                {%- endfor -%}
+                                    <a class=" decoration-pink-500 mt-6 btn btn-primary" href="{{ post.data.url }}"
+                                        title="More information on feature {{ post.data.cardTitle  }}">Discover
+                                        {{ post.data.cardTitle }}</a>
+                                </div>
                             </div>
+
+                            {%- endfor -%}
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-            </main>
-                        {% include templates/footer.html %}
-            {% include common/pricing_banner.html %}
-            
-        </div>
-    </body>
-    {% bundledJs %}
+        </main>
+        {% include templates/footer.html %}
+        {% include common/pricing_banner.html %}
+
+    </div>
+</body>
+{% bundledJs %}
+
 </html>

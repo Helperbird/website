@@ -5,13 +5,13 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <title>{{ title }}</title>
         {% bundledCss %}
-<script>
-  if ("serviceWorker" in navigator){
-    navigator.serviceWorker.register("/service-worker.js");
-}
-</script> 
+        <script>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/service-worker.js");
+            }
+        </script>
 
-        <link href="https://www.helperbird.com/products/{{ url }}" rel="canonical"/>
+        <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical"/>
         <meta content="{{ description }}" name="description"/>
         <meta content="{{ keywords }}" name="keywords"/>
 
@@ -27,18 +27,18 @@
         <meta name="twitter:creator" content="@robertjgabriel"/>
         <meta name="twitter:title" content="{{ title }}"/>
         <meta name="twitter:description" content="{{ description }}"/>
-        <meta name="twitter:image" content="https://www.helperbird.com/{{ url }}/index.png"/>
+        <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png"/>
 
-        <meta content="https://www.youtube.com/watch?v={{ youtubeId || PfILiWebkuc }}" name="twitter:player"/>
+        <meta content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}" name="twitter:player"/>
 
         <meta name="og:locale" content="en_US"/>
         <meta name="og:type" content="website"/>
         <meta name="og:title" content="{{ title }}"/>
         <meta name="og:description" content="{{ description }}"/>
-        <meta name="og:url" content="https://www.helperbird.com{{ url }}"/>
+        <meta name="og:url" content="https://www.helperbird.com{{ page.url | safe }}"/>
         <meta name="og:site_name" content="Helperbird"/>
-        <meta name="og:image" content="https://www.helperbird.com/{{ url }}/index.png"/>
-        <meta name="og:video" content="https://www.youtube.com/watch?v={{ youtubeId || PfILiWebkuc }}"/>
+        <meta name="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png"/>
+        <meta name="og:video" content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}"/>
 
         <link href="/assets/images/site/favicon.png" rel="shortcut icon"/>
         <link href="touch-icon-iphone.png" rel="apple-touch-icon"/>
@@ -48,115 +48,115 @@
         <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
         <script type="application/ld+json">
             {
-                                                				"@context": "https://schema.org",
-                                                				"@type": "SoftwareApplication",
-                                                				"name": "Helperbird",
-                                                				"operatingSystem": ["Chrome", "Windows", "MacOs"],
-                                                				"applicationCategory": "https://schema.org/UtilitiesApplication",
-                                                				"aggregateRating": {
-                                                					"@type": "AggregateRating",
-                                                					"ratingValue": "4.7",
-                                                					"ratingCount": "92"
-                                                				},
-                                                				"offers": {
-                                                					"@type": "Offer",
-                                                					"price": "6.99",
-                                                					"priceCurrency": "USD"
-                                                				}
-                                                			}
+                                                            				"@context": "https://schema.org",
+                                                            				"@type": "SoftwareApplication",
+                                                            				"name": "Helperbird",
+                                                            				"operatingSystem": ["Chrome", "Windows", "MacOs"],
+                                                            				"applicationCategory": "https://schema.org/UtilitiesApplication",
+                                                            				"aggregateRating": {
+                                                            					"@type": "AggregateRating",
+                                                            					"ratingValue": "4.7",
+                                                            					"ratingCount": "92"
+                                                            				},
+                                                            				"offers": {
+                                                            					"@type": "Offer",
+                                                            					"price": "6.99",
+                                                            					"priceCurrency": "USD"
+                                                            				}
+                                                            			}
         </script>
         <script type="application/ld+json">
             {
-                                                				"@context": "https://schema.org",
-                                                				"@type": "Organization",
-                                                				"name": "Helperbird",
-                                                				"url": "https://www.helperbird.com",
-                                                				"sameAs": [
-                                                					"http://www.facebook.com/helperbird",
-                                                					"https://www.linkedin.com/company/19112429",
-                                                					"https://twitter.com/helperbird",
-                                                					"https://www.youtube.com/helperbird"
-                                                				]
-                                                			}
+                                                            				"@context": "https://schema.org",
+                                                            				"@type": "Organization",
+                                                            				"name": "Helperbird",
+                                                            				"url": "https://www.helperbird.com",
+                                                            				"sameAs": [
+                                                            					"http://www.facebook.com/helperbird",
+                                                            					"https://www.linkedin.com/company/19112429",
+                                                            					"https://twitter.com/helperbird",
+                                                            					"https://www.youtube.com/helperbird"
+                                                            				]
+                                                            			}
         </script>
         <script type="application/ld+json">
             {
-                                                						                                                			        "@context": "https://schema.org/",
-                                                						                                                			        "@type": "Product",
-                                                						                                                			        "name": "Helperbird",
-                                                						                                                			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-                                                						                                                			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
-                                                																							"brand": {
-                                                																								"@type": "Brand",
-                                                																								"name": "Helperbird"
-                                                																							  },
-                                                						                                                			        "sku": "helperbird2016",
-                                                						                                                			        "gtin": "helperbird2016",
-                                                						                                                			        "offers": {
-                                                						                                                			            "@type": "Offer",
-                                                						                                                			            "url": "https://www.helperbird.com/pricing/",
-                                                						                                                			            "priceCurrency": "USD",
-                                                						                                                			            "price": "30",
-                                                						                                                			            "priceValidUntil": "2020-12-31",
-                                                						                                                			            "availability": "https://schema.org/OnlineOnly",
-                                                						                                                			            "itemCondition": "https://schema.org/NewCondition"
-                                                						                                                			        },
-                                                						                                                			        "aggregateRating": {
-                                                						                                                			            "@type": "AggregateRating",
-                                                						                                                			            "ratingValue": "5",
-                                                						                                                			            "bestRating": "5",
-                                                						                                                			            "worstRating": "1",
-                                                						                                                			            "ratingCount": "2",
-                                                						                                                			            "reviewCount": "2"
-                                                						                                                			        },
-                                                						                                                			        "review": [
+                                                            						                                                			        "@context": "https://schema.org/",
+                                                            						                                                			        "@type": "Product",
+                                                            						                                                			        "name": "Helperbird",
+                                                            						                                                			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
+                                                            						                                                			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, reader mode, and much more.",
+                                                            																							"brand": {
+                                                            																								"@type": "Brand",
+                                                            																								"name": "Helperbird"
+                                                            																							  },
+                                                            						                                                			        "sku": "helperbird2016",
+                                                            						                                                			        "gtin": "helperbird2016",
+                                                            						                                                			        "offers": {
+                                                            						                                                			            "@type": "Offer",
+                                                            						                                                			            "url": "https://www.helperbird.com/pricing/",
+                                                            						                                                			            "priceCurrency": "USD",
+                                                            						                                                			            "price": "30",
+                                                            						                                                			            "priceValidUntil": "2020-12-31",
+                                                            						                                                			            "availability": "https://schema.org/OnlineOnly",
+                                                            						                                                			            "itemCondition": "https://schema.org/NewCondition"
+                                                            						                                                			        },
+                                                            						                                                			        "aggregateRating": {
+                                                            						                                                			            "@type": "AggregateRating",
+                                                            						                                                			            "ratingValue": "5",
+                                                            						                                                			            "bestRating": "5",
+                                                            						                                                			            "worstRating": "1",
+                                                            						                                                			            "ratingCount": "2",
+                                                            						                                                			            "reviewCount": "2"
+                                                            						                                                			        },
+                                                            						                                                			        "review": [
             {%- for review in reviews.reviews -%}
                 {
-                                                                																								"@type": "Review",
-                                                                																								"name": "{{ review.name }}",
-                                                                																								"reviewBody": "
+                                                                                																								"@type": "Review",
+                                                                                																								"name": "{{ review.name }}",
+                                                                                																								"reviewBody": "
                 {{ review.review }}",
-                                                                																								"reviewRating": {
-                                                                																									"@type": "Rating",
-                                                                																									"ratingValue": "5",
-                                                                																									"bestRating": "5",
-                                                                																									"worstRating": "1"
-                                                                																								},
-                                                                																								"datePublished": "2021-09-10",
-                                                                																								"author": {
-                                                                																									"@type": "Person",
-                                                                																									"name": "{{ review.name }}"
-                                                                																								},
-                                                                																								"publisher": {
-                                                                																									"@type": "Organization",
-                                                                																									"name": "App store"
-                                                                																								}
-                                                                																							},
+                                                                                																								"reviewRating": {
+                                                                                																									"@type": "Rating",
+                                                                                																									"ratingValue": "5",
+                                                                                																									"bestRating": "5",
+                                                                                																									"worstRating": "1"
+                                                                                																								},
+                                                                                																								"datePublished": "2021-09-10",
+                                                                                																								"author": {
+                                                                                																									"@type": "Person",
+                                                                                																									"name": "{{ review.name }}"
+                                                                                																								},
+                                                                                																								"publisher": {
+                                                                                																									"@type": "Organization",
+                                                                                																									"name": "App store"
+                                                                                																								}
+                                                                                																							},
             {%- endfor -%}
             {
-                                                																								"@type": "Review",
-                                                																								"name": "Robert James Gabriel",
-                                                																								"reviewBody": "I know I founded it but this is amazing.",
-                                                																								"reviewRating": {
-                                                																									"@type": "Rating",
-                                                																									"ratingValue": "5",
-                                                																									"bestRating": "5",
-                                                																									"worstRating": "1"
-                                                																								},
-                                                																								"datePublished": "2021-09-10",
-                                                																								"author": {
-                                                																									"@type": "Person",
-                                                																									"name":  "Robert James Gabriel"
-                                                																								},
-                                                																								"publisher": {
-                                                																									"@type": "Organization",
-                                                																									"name": "App store"
-                                                																								}
-                                                																							}
-                                                						                                                			        
-                                                						                            ]
-                                                
-                                                						                                                			    }
+                                                            																								"@type": "Review",
+                                                            																								"name": "Robert James Gabriel",
+                                                            																								"reviewBody": "I know I founded it but this is amazing.",
+                                                            																								"reviewRating": {
+                                                            																									"@type": "Rating",
+                                                            																									"ratingValue": "5",
+                                                            																									"bestRating": "5",
+                                                            																									"worstRating": "1"
+                                                            																								},
+                                                            																								"datePublished": "2021-09-10",
+                                                            																								"author": {
+                                                            																									"@type": "Person",
+                                                            																									"name":  "Robert James Gabriel"
+                                                            																								},
+                                                            																								"publisher": {
+                                                            																									"@type": "Organization",
+                                                            																									"name": "App store"
+                                                            																								}
+                                                            																							}
+                                                            						                                                			        
+                                                            						                            ]
+                                                            
+                                                            						                                                			    }
         </script>
 
         <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
@@ -177,9 +177,9 @@
                     {{ content | safe }}
                 </div>
             </main>
-                        {% include templates/footer.html %}
+            {% include templates/footer.html %}
             {% include common/pricing_banner.html %}
-			
+
         </div>
     </body>
     {% bundledJs %}

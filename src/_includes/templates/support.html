@@ -6,7 +6,7 @@
 		<title>{{ title }}</title>
 		{% bundledCss %}
 
-		<link href="https://www.helperbird.com{{url}}" rel="canonical" />
+		<link href="https://www.helperbird.com/support/" rel="canonical" />
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
 
@@ -22,10 +22,10 @@
 		<meta name="twitter:creator" content="@robertjgabriel" />
 		<meta name="twitter:title" content="{{ title }}" />
 		<meta name="twitter:description" content="{{ description }}" />
-		<meta name="twitter:image" content="https://www.helperbird.com/{{ url }}/index.png" />
+		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
 
 		<meta
-			content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}"
+			content="https://www.youtube.com/watch?v={{youtubeId | PfILiWebkuc }}"
 			name="twitter:player"
 		/>
 
@@ -33,10 +33,10 @@
 		<meta name="og:type" content="website" />
 		<meta name="og:title" content="{{ title }}" />
 		<meta name="og:description" content="{{ description }}" />
-		<meta name="og:url" content="https://www.helperbird.com{{url}}" />
+		<meta name="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
 		<meta name="og:site_name" content="Helperbird" />
-		<meta name="og:image" content="https://www.helperbird.com/{{ url }}/index.png" />
-		<meta name="og:video" content="https://www.youtube.com/watch?v={{youtubeId || PfILiWebkuc }}" />
+		<meta name="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+		<meta name="og:video" content="https://www.youtube.com/watch?v={{youtubeId | PfILiWebkuc }}" />
 
 		<link href="/assets/images/site/favicon.png" rel="shortcut icon" />
 		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
