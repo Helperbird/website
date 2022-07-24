@@ -6,7 +6,7 @@
 		<title>{{ title }}</title>
 		{% bundledCss %}
 
-		<link href="https://www.helperbird.com/{{ page.fileSlug | safe }}" rel="canonical" />
+		<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
 
