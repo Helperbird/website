@@ -14,10 +14,10 @@ try {
 			const data = fs.readFileSync(input, {
 				encoding: 'utf-8'
 			});
-console.log(data);
+
 			// get title from file data
 			const [, title] = data.match(/cardTitle:(.*)/);
-			console.log(title);
+	
 			const post = {
 				title: title,
 				author: 'Helperbird.com'
@@ -128,7 +128,7 @@ module.exports = function (eleventyConfig) {
 
 	} catch (error) {
 		const [, title2] = data.match(/title:(.*)/);
-		console.error(title2,error);
+
 	}
 	});
 
