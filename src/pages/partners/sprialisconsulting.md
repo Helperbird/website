@@ -55,4 +55,4 @@ He conducts presentations for agency professionals and the families they support
 
 [Vist website](https://www.sprialisconsulting.com/about.html)
 
-[Pricing](/pricing)
+[Pricing](/pricing/)

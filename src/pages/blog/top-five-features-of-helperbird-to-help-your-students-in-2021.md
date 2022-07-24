@@ -40,7 +40,7 @@ time: 4 min
 
   
 
-Change the font to any specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Lexend and more. [More information](/features/specialised-dyslexic-fonts  'More information about the specialised dyslexic fonts').
+Change the font to any specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Lexend and more. [More information](/features/specialised-dyslexic-fonts/  'More information about the specialised dyslexic fonts').
 
   
 
@@ -54,7 +54,7 @@ Change the font to any specialized web fonts for dyslexics and others. Convert t
 
 Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and study.
 
-[More information](/features/annotation  'Discover more information about the annotation website').
+[More information](/features/annotation/  'Discover more information about the annotation website').
 
   
 
@@ -68,7 +68,7 @@ Highlight or annotate web pages documents, pdfs, ebooks and more content to impr
 
 Sit back, press play, and have your news, emails, or news read aloud to you.
 
-[More information](/features/text-to-speech  'Discover the text to speech features of Helperbird').
+[More information](/features/text-to-speech/  'Discover the text to speech features of Helperbird').
 
   
 
@@ -88,7 +88,7 @@ This is a new feature from us, but wow did it make a huge splash, our word predi
 
   
 
-[Immersive Reader](/features/immersive-reader-for-chrome  'More information on Helperbirds immersive reader features') is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners.
+[Immersive Reader](/features/immersive-reader-for-chrome/  'More information on Helperbirds immersive reader features') is a free tool that implements proven techniques to improve reading and writing for people, regardless of their age or ability. Immersive Reader can improve reading comprehension and increase fluency for English language learners.
 
   
 

@@ -121,7 +121,7 @@ The secret to staying focused at work is to get rid of as many distractions as p
 
   
 
-Some apps prevent you from opening other websites that have nothing to do with your work. There are also apps like [Helperbird](/pricing), which lets you view clutter-free websites (i.e., ad-free blog posts).
+Some apps prevent you from opening other websites that have nothing to do with your work. There are also apps like [Helperbird](/pricing/), which lets you view clutter-free websites (i.e., ad-free blog posts).
 
   
 
