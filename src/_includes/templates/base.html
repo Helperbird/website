@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <title>{{ title }}</title>
-        {% bundledCss %}
-        <script>
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.register("/service-worker.js");
-            }
-        </script>
 
-        <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical"/>
-        <meta content="{{ description }}" name="description"/>
-        <meta content="{{ keywords }}" name="keywords"/>
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>{{ title }}</title>
+	{% bundledCss %}
+	<script>
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register("/service-worker.js");
+		}
+	</script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <meta content="/assets/images/favicon.png" name="image"/>
-        <meta content="#5046e4" name="theme-color"/>
-        <meta content="Helperbird" itemprop="name"/>
-        <meta content="{{ description }}" itemprop="description"/>
-        <meta content="/assets/images/favicon.png" itemprop="image"/>
+	<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+	<meta content="{{ description }}" name="description" />
+	<meta content="{{ keywords }}" name="keywords" />
 
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="@helperbird"/>
-        <meta name="twitter:creator" content="@robertjgabriel"/>
-        <meta name="twitter:title" content="{{ title }}"/>
-        <meta name="twitter:description" content="{{ description }}"/>
-        
-<meta name="twitter:image:alt" content="Helperbird promo art with text saying visit Helperbird"/>
-<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta content="/assets/images/favicon.png" name="image" />
+	<meta content="#5046e4" name="theme-color" />
+	<meta content="Helperbird" itemprop="name" />
+	<meta content="{{ description }}" itemprop="description" />
+	<meta content="/assets/images/favicon.png" itemprop="image" />
 
-        <meta content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}" name="twitter:player"/>
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@helperbird" />
+	<meta name="twitter:creator" content="@robertjgabriel" />
+	<meta name="twitter:title" content="{{ title }}" />
+	<meta property="twitter:domain" content="helperbird.com" />
 
-        <meta name="og:locale" content="en_US"/>
-        <meta name="og:type" content="website"/>
-        <meta name="og:title" content="{{ title }}"/>
-        <meta name="og:description" content="{{ description }}"/>
-        <meta name="og:url" content="https://www.helperbird.com{{ page.url | safe }}"/>
-        <meta name="og:site_name" content="Helperbird"/>
-        <meta name="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png"/>
-        <meta name="og:video" content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}"/>
+	<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+	<meta name="twitter:description" content="{{ description }}" />
 
-        <link href="/assets/images/site/favicon.png" rel="shortcut icon"/>
-        <link href="touch-icon-iphone.png" rel="apple-touch-icon"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167"/>
-        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
-        <script type="application/ld+json">
+	<meta name="twitter:image:alt" content="Helperbird promo art with text saying visit Helperbird" />
+	<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+
+	<meta content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}" name="twitter:player" />
+
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="{{ title }}" />
+	<meta property="og:description" content="{{ description }}" />
+	<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+	<meta property="og:site_name" content="Helperbird" />
+	<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+	<meta property="og:video" content="https://www.youtube.com/watch?v={{ youtubeId | PfILiWebkuc }}" />
+
+	<link href="/assets/images/site/favicon.png" rel="shortcut icon" />
+	<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
+	<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+	<script type="application/ld+json">
             {
                                                             				"@context": "https://schema.org",
                                                             				"@type": "SoftwareApplication",
@@ -67,7 +71,7 @@
                                                             				}
                                                             			}
         </script>
-        <script type="application/ld+json">
+	<script type="application/ld+json">
             {
                                                             				"@context": "https://schema.org",
                                                             				"@type": "Organization",
@@ -81,7 +85,7 @@
                                                             				]
                                                             			}
         </script>
-        <script type="application/ld+json">
+	<script type="application/ld+json">
             {
                                                             						                                                			        "@context": "https://schema.org/",
                                                             						                                                			        "@type": "Product",
@@ -161,28 +165,30 @@
                                                             						                                                			    }
         </script>
 
-        <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01"/>
-        <link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href="assets/images/social/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
-        <link href="assets/images/social/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
-        <link href="assets/images/social/social/site.webmanifest" rel="manifest"/>
-        <link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon"/>
-        <link href="assets/images/social/social/favicon.ico" rel="shortcut icon"/>
-        <meta content="#ffffff" name="msapplication-TileColor"/>
-        <meta content="assets/images/social/browserconfig.xml" name="msapplication-config"/>
-    </head>
-    <body>
-        <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
-            {% include templates/header.html %}
-            <main class="max-w-7xl mx-auto ">
-                <div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
-                    {{ content | safe }}
-                </div>
-            </main>
-                        {% include templates/footer.html %}
-   
-            {% include common/pricing_banner.html %}
-        </div>
-    </body>
-    {% bundledJs %}
+	<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+	<link href="assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="assets/images/social/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+	<link href="assets/images/social/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+	<link href="assets/images/social/social/site.webmanifest" rel="manifest" />
+	<link href="assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
+	<link href="assets/images/social/social/favicon.ico" rel="shortcut icon" />
+	<meta content="#ffffff" name="msapplication-TileColor" />
+	<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+</head>
+
+<body>
+	<div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
+		{% include templates/header.html %}
+		<main class="max-w-7xl mx-auto ">
+			<div class="pt-12 pb-12 flex items-stretch bg-grey-lighter min-h-screen">
+				{{ content | safe }}
+			</div>
+		</main>
+		{% include templates/footer.html %}
+
+		{% include common/pricing_banner.html %}
+	</div>
+</body>
+{% bundledJs %}
+
 </html>
