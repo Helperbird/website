@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to turn Helperbird on - Helperbird
+title: How to turn Helperbird on
 description:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: How to turn Helperbird on
 featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.

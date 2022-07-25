@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to Mute videos on any website - Helperbird
+title: How to Mute videos on any website
 description: Learn how to a Mute videos on any website, pdf or app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Mute
 featureDescription: Learn how to Mute videos on any website, pdf or app.
 date: 2022-01-01

@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to highlight word and paragraphs on any website - Helperbird
+title: How to highlight word and paragraphs on any website
 description:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser
   extension.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Highlighter
 featureDescription:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser

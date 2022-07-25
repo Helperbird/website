@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to pause Helperbird - Helperbird
+title: How to pause Helperbird
 description:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: How to pause Helperbird
 featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.

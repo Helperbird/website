@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to change the selection/highlight color of a website - Helperbird
+title: How to change the selection/highlight color of a website
 description:
   How to change the color of the selection/highlight of a website on Safrai, Chrome, Firefox or
   Edge.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Highlight color
 featureDescription:
   How to change the color of the selection/highlight of a website on Safrai, Chrome, Firefox or

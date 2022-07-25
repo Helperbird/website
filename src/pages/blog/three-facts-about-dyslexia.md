@@ -7,8 +7,8 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/twitter.png
-facebookSocial: assets/images/graph/twitter.png
+
+
 url: blog/three-facts-about-dyslexia/
 tags: blog
 blog_cat:  Blog

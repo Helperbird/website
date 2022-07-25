@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: Define any word or sentence in Helperbirds dictionary app - Helperbird
+title: Define any word or sentence in Helperbirds dictionary app
 description:
   Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Dictionary
 featureDescription:
   Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.

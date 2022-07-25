@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Helperbird's Reading list feature - Helperbird
+title: How to use Helperbird's Reading list feature
 description:
   Helperbirds reading list extension allows you to save pages in a list to get back to later. It’s
   super easy to use, and it helps keep your tab count down.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Reading list
 featureDescription:
   Helperbirds reading list extension allows you to save pages in a list to get back to later. It’s

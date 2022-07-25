@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to annotate any website with sticky notes - Helperbird
+title: How to annotate any website with sticky notes
 description:
   Learn how to annotate any website with sticky notes for free with Helperbird on Chrome, Firefox,
   Edge extension.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Annotate
 featureDescription:
   There are two ways to use the sticky notes on any website, pdf or app in Helperbird. Making it easier for you to decided how you want to use it.

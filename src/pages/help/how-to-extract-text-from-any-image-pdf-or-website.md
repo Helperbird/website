@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to extract text from any image pdf or website - Helperbird
+title: How to extract text from any image pdf or website
 description:
   Learn how to extract text from any image pdf or website with Helperbirds chrome, firefox, and edge
   extensions.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: OCR (Extract Text)
 featureDescription: Learn how to extract text from any image pdf or website with Helperbird.
 date: 2022-02-01

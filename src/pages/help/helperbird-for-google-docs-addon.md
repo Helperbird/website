@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Helperbirds Google docs add on  - Helperbird
+title: How to use Helperbirds Google docs add on 
 description:
   How to use the offical Helperbird Google docs add on, from installing, the features and more.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Google Docs
 featureDescription:
   Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.

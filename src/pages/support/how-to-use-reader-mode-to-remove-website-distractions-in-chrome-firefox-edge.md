@@ -9,8 +9,8 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/twitter.png
-facebookSocial: assets/images/graph/twitter.png
+
+
 url: support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge/
 blog_cat: Support guide
 cardTitle:  How to use reader mode to remove website distractions in Chrome, Firefox & Edge

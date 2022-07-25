@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Text to speech with Natural voices in your browser - Helperbird
+title: How to use Text to speech with Natural voices in your browser
 description:
   Learn how easy it is to use Text to speech with Natural voices on any website, pdf or app.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Text to speech
 featureDescription:
   Learn how easy it is to use Text to speech with Natural voices on any website, pdf or app.

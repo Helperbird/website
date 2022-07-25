@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Voice typing or dictation on any website - Helperbird
+title: How to use Voice typing or dictation on any website
 description:
   How to use Voice typing or dictation on any website with Helperbirds Chrome, Firefox, Edge and Safari extension.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Voice typing
 featureDescription:
   Learn how to use Helperbird voice typing feature on any website.

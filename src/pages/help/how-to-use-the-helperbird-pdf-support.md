@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: PDF support with text to speech  - Helperbird
+title: Use text to speech on a PDF file
 description:
   Discover Helperbirds pdf support and how to use the text to speech, immersive reader and much
   more.
@@ -9,8 +9,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: PDF support
 featureDescription: Learn how to use text to speech on pdfs, also immerive reader.
 tags: guideApps

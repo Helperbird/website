@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to use Speed reading on any website - Helperbird
+title: How to use Speed reading on any website
 description: Learn how to use a Speed reading on any website, pdf or app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Speed reading
 featureDescription: The Speed reading feature adds a gradient of colors to the text on any website, pdf or app.
 date: 2018-01-01

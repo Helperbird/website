@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to use Helperbirds quick action menu - Helperbird
+title: How to use Helperbirds quick action menu
 description: Learn how to use Helperbirds quick action menu for Chrome, Firefox, and Safari.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Quick Action Menu
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2022-02-20

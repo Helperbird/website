@@ -8,8 +8,8 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/twitter.png
-facebookSocial: assets/images/graph/twitter.png
+
+
 url: blog/4-ways-to-be-more-accessible-on-social-media/
 img: /assets/images/blog/new-blog-2022/accessible-social-media.png
 name: "Helperbird staff"

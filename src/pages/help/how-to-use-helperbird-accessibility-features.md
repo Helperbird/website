@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to use Helperbirds accessibility card features - Helperbird
+title: How to use Helperbirds accessibility card features
 description: Learn how to use Helperbirds accessibility card features, such as spell check, Reduce motion and keyboard motion.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Accessibility features
 featureDescription:
   Learn how to use Helperbirds accessibility card features, such as spell check, Reduce motion and keyboard motion.

@@ -10,8 +10,8 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/twitter.png
-facebookSocial: assets/images/graph/twitter.png
+
+
 url: blog/the-5-must-have-accessibility-tools-for-students-in-2021/
 tags: blog
 blog_cat:  Blog

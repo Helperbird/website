@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to pin a Chrome extension - Helperbird
+title: How to pin a Chrome extension
 description: Discover how to pin a Chrome extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Pin a extension
 featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.

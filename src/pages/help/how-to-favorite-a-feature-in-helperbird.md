@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How favorite a feature in Helperbird - Helperbird
+title: How favorite a feature in Helperbird
 description:
   Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Favorite a feature
 featureDescription:
   Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.

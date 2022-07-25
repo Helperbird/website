@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to download Helperbird for iPad - Helperbird
+title: How to download Helperbird for iPad
 description: Learn how to download Helperbird for iPad. You will need iOS 15.0 or later.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Download for iPhone
 featureDescription: Learn how to download Helperbird for iPhone. You will need iOS 15.0 or later.
 tags: iOSHelp

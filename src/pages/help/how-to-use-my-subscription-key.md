@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use my subscription key  - Helperbird
+title: How to use my subscription key
 description:
   Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Use my subscription key
 featureDescription:
   Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.

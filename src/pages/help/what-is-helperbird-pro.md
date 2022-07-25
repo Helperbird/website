@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: What is Helperbird Pro? - Helperbird
+title: What is Helperbird Pro?
 description:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: What is Helperbird Pro?
 featureDescription:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.

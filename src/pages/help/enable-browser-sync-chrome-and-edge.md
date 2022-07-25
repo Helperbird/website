@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: Turn sync on and off in Edge or Chrome - Helperbird
+title: Turn sync on and off in Edge or Chrome
 description: To save your info to your Google or Microsoft Account, turn on sync.When you sync You can see and update your synced info on all your devices, like your Helperbird options and settings.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Turn sync on and off
 featureDescription: To save your info to your Google or Microsoft Account, turn on sync. When you sync You can see and update your synced info on all your devices, like your Helperbird options and settings.
 date: 2016-01-04

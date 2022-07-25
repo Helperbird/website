@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work
+title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at work
 description:
   Focus is integral in ensuring that we get things done. But every now and then, there is something
   that is sure to take away your attention.
@@ -9,8 +9,8 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/twitter.png
-facebookSocial: assets/images/graph/twitter.png
+
+
 url: blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
 tags: blog
 blog_cat:  Guide

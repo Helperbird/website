@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: Change the font on any website to a dyslexic font  - Helperbird
+title: Change the font on any website to a dyslexic font
 description:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Dyslexic Fonts
 featureDescription:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.

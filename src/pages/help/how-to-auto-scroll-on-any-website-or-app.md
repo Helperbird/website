@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to auto scroll on any website or app - Helperbird
+title: How to auto scroll on any website or app
 description: Learn how to auto scroll on any website or app
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Auto Scroll
 featureDescription: Learn how to auto scroll on any website or app.
 date: 2016-01-04

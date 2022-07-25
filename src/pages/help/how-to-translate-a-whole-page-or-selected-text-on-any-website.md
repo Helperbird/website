@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to translate a whole page or selected text on any website - Helperbird
+title: How to translate a whole page or selected text on any website
 description:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.
 keywords:
@@ -8,8 +8,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Translate
 featureDescription:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.

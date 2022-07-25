@@ -1,14 +1,13 @@
 ---
 layout: templates/help.html
-title: How to use Immersive reader on any website,Pdf or app - Helperbird
+title: How to use Immersive reader on any website, Pdf or app
 description: Learn how easy it is to use Immersive Reader by Microsoft on any website, pdf or app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-twitterSocial: assets/images/graph/alt-highlighter.png
-facebookSocial: assets/images/graph/alt-highlighter.png
+
 cardTitle: Immersive reader by Microsoft
 featureDescription:
   Learn how easy it is to use Immersive Reader by Microsoft on any website, pdf or app.
