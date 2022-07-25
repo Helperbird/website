@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Top 6 Chrome Extensions for Teachers  | Helperbird
+title: Top 6 Chrome Extensions for Teachers
 description: without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

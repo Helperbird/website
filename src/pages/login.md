@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How to login to Helperbird | Helperbird
+title: How to login to Helperbird
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds privacy features don`t sell,

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Is Helperbird free? | Helperbird
+title: Is Helperbird safe?
 description: Is Helperbird free to use?
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -12,8 +12,8 @@ facebookSocial: assets/images/graph/twitter.png
 url: blog/is-helperbird-safe/
 tags: blog
 blog_cat:  Guide
-cardTitle: Is Helperbird free to use?
-blog_snip: Is Helperbird free to use?
+cardTitle: Is Helperbird safe to use?
+blog_snip: Is Helperbird safe to use?
 
 cat: Blog
 

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Best Careers for People with Dyslexia 2021 | Helperbird
+title: Best Careers for People with Dyslexia 2021
 description:
   Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
   have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood
@@ -18,7 +18,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: blog/best-careers-for-people-with-dyslexia/
 tags: blog
 blog_cat:  GUEST BLOG
-cardTitle: Best Careers for People with Dyslexia
+cardTitle: Best Careers for People with Dyslexia 2021
 blog_snip:
   Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
   have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Privacy features of Helperbird
+title: Privacy statement & features
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds privacy features don`t sell,
@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: privacy/
 blog_cat: ''
-cardTitle:  Privacy policy
+cardTitle: Privacy statement & features
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
 

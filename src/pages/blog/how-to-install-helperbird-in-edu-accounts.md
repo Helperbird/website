@@ -1,7 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title:
-  How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts | Helperbird
+  How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 description: Learn how to install Helperbird in serveal computers at once. For Edu accounts.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

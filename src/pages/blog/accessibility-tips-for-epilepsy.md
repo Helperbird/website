@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Accessibility tips for Epilepsy | Helperbird
+title: Accessibility tips for Epilepsy
 description:
   Web designing is reinventing and there is no better time to do it than now. Having a great and accessible friendly website will not only help people browse with ease but gives the opportunity to people with disabilities to use them more conveniently and enjoyably.
 keywords:

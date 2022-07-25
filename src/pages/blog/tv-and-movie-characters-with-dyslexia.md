@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Tv and movie characters with dyslexia | Helperbird
+title: Tv and movie characters with dyslexia
 description:
   Children and adults often look at characters in movies and TV shows to look at for inspiration and to dream. If you or our child is dyslexic, you might be surprised to see the following characters have dyslexia.
 keywords:

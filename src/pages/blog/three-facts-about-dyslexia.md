@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: 3 Facts about Dyslexia and 1 Fact about Cats | Helperbird
+title: 3 Facts about Dyslexia and 1 Fact about Cats
 description: Despite popular belief, dyslexics do not see letters backwards.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

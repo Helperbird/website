@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Top iPad apps for Accessibility  | Helperbird
+title: Top iPad apps for Accessibility
 description: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 
 keywords:

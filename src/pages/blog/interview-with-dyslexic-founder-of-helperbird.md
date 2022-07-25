@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Interview our dyslexic founder, Robert James Gabriel | Helperbird
+title: Interview with Helperbird founder, Robert James Gabriel
 description:
   People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I
   was struggling in school. One of my teachers told my parents that I should just drop out of school
@@ -16,7 +16,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 blog_cat:  Blog
-cardTitle: Interview with Helperbird founder & dyslexic, Robert James Gabriel
+cardTitle: Interview with Helperbird founder, Robert James Gabriel
 blog_snip: At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on webpages that were hard to read.
 cat: Interview
 

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How a teacher helped me achieve my full potential - Teacher appreciation week. | Helperbird
+title: How a teacher helped me achieve my full potential - Teacher appreciation week
 description:
   How a teacher helped me achieve my full potential. From droping out of school to starting my own
   company.
@@ -14,7 +14,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
 blog_cat:  TEACHER APPRECIATION WEEK.
-cardTitle: How a teacher helped me achieve my full potential.
+cardTitle: How a teacher helped me achieve my full potential
 blog_snip: From droping out of school to starting my own company.
 cat: Essay
 

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Top 5 features of Helperbird to help your students in 2021 | Helperbird
+title: Top 5 features of Helperbird to help your students in 2021
 description:
   Helperbird has over 38 amazing features to choose from to make your class more accessible and
   productive in 2021 and 2022. We thought we would highlight what has been popular in the past year

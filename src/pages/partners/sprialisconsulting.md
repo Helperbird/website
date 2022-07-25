@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Jim Sprialis of Sprialis consulting | Helperbird Partner | Helperbird
+title: Jim Sprialis of Sprialis consulting | Helperbird Partner
 description:
   Jim Sprialis is a leading influence in the promotion and use of inclusive and assistive
   technologies in South Australia’s education and training arena. He has been an educator for 28
@@ -17,7 +17,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: partners/sprialisconsulting/
 blog_cat: Helperbird partner
-cardTitle:  Sprialis consulting
+cardTitle:  Jim Sprialis of Sprialis consulting | Helperbird Partner
 blog_snip: ''
 ---
 

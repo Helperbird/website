@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Is Helperbird free? | Helperbird
+title: Is Helperbird free?
 description: Is Helperbird free to use?
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Helperbird Chromebook giveaway | Helperbird
+title: Helperbird Chromebook giveaway
 description: Rules for the Helperbird giveaway.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How to Avoid WFH Burnout and Maximize Productivity | Helperbird
+title: How to Avoid WFH Burnout and Maximize Productivity
 description:
   While working from home looks convenient, the blurred line between home and employment can lead to
   burnout. In fact, Monsters recent study revealed....

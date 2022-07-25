@@ -1,7 +1,7 @@
 ---
 layout: templates/blog_post.liquid
-title: Refund policy
-cardTitle:  Refund policy
+title: Refund policy for Helperbird
+cardTitle:  Refund policy for Helperbird
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never
   want our customers to feel that way, so our refund ...

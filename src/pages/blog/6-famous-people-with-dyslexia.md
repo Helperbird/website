@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: 6 Famous People with Dyslexia | Helperbird
+title: 6 Famous People with Dyslexia
 description:
   Even though it is a challenge, a lot of dyslexics still manage to live normal lives in which most of them became successful in their own path of careers. In fact, many of them we already know but don’t have any idea they have it.
 keywords:

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Winner of our Chromebook | Helperbird
+title: Winner of our Chromebook 
 description:
   In February 2021 we ran a competition to celebrate the start of the new School term, to win a
   brand new Chromebook and a year of Helperbird Pro.

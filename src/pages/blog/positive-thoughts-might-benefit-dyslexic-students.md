@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How positive thoughts might benefit dyslexic students. | Helperbird
+title: How positive thoughts might benefit dyslexic students
 description: How positive thoughts might benefit dyslexic students.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -13,7 +13,7 @@ url: blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
 blog_cat:  Guide
 cardTitle: TODAY WILL BE A GOOD DAY
-blog_snip: How positive thoughts might benefit dyslexic students.
+blog_snip: How positive thoughts might benefit dyslexic students
 cat: Facts
 
 

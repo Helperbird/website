@@ -1,7 +1,7 @@
 ---
 layout: templates/blog_post.liquid
-title: Security of Helperbird
-cardTitle:  Security statement
+title: Security statement for Helperbird
+cardTitle:  Security statement for Helperbird
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds Security don`t sell, store, or

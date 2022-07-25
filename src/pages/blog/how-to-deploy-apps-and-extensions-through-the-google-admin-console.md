@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How to deploy Helperbird through the Gsuite Console | Helperbird
+title: How to deploy Helperbird through the Gsuite Console
 description: Learn how to deploy or install Helperbird in serveal computers at once.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -12,7 +12,7 @@ facebookSocial: assets/images/graph/twitter.png
 url: blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
 tags: blog
 blog_cat:  GUIDE
-cardTitle: How to install and set up Helperbird
+cardTitle: How to deploy Helperbird through the Gsuite Console
 blog_snip: Your step by step guide on how to install and set up Helperbird.
 
 

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work| Helperbird
+title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work
 description:
   Focus is integral in ensuring that we get things done. But every now and then, there is something
   that is sure to take away your attention.

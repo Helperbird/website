@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: How to Keep WFH Employees Engaged and Motivated | Helperbird
+title: How to Keep WFH Employees Engaged and Motivated
 description:
   These days, working remotely is no longer uncharted territory. That's why Upwork estimated that
   more than 26% of the American workforce would work from home by 2021.

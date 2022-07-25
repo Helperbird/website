@@ -1,8 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title:
-  Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic |
-  Helperbird
+  Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic
 description:
   There are few published papers about usability testing with dyslexia focused fonts, but there is a
   considerable collection of knowledge on dyslexia as well as many suggestions for authoring
@@ -18,7 +17,7 @@ url: blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fon
 tags: blog
 blog_cat:  Research
 cardTitle:
-  Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexia
+  Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic
 blog_snip: There are few published papers about usability testing with dyslexia focused fonts but there is a considerable collection of knowledge on dyslexia as well as many suggestions for authoring dyslexia friendly interfaces.
 
 cat: Research

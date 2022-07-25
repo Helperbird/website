@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Sascha Roos MA, HDGC | Helperbird Partner | Helperbird
+title: Sascha Roos MA, HDGC | Helperbird Partner 
 description:
   Sascha Roos is a Helperbird partner, an author and dyslexia specialist supporting people with the
   challenges of dyslexia for over 15 years. She has a well-established private practice, and an
@@ -14,7 +14,7 @@ twitterSocial: assets/images/graph/twitter.png
 facebookSocial: assets/images/graph/twitter.png
 url: partners/sascharoos/
 blog_cat: Helperbird partner
-cardTitle:  Sascha Roos
+cardTitle:  Sascha Roos MA, HDGC | Helperbird Partner 
 blog_snip: ''
 ---
 

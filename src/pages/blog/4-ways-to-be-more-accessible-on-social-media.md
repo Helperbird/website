@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: 4 Ways to be More Accessible on Social Media in 2022 | Helperbird
+title: 4 Ways to be More Accessible on Social Media in 2022
 description:
   Social media is a massive space of information sources and connections. People are often glued to their phones because they always want to get the latest trending topics. Others simply would want to be entertained by memes or discover and learn new things.
 keywords:
