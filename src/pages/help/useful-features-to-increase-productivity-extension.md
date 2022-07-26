@@ -15,6 +15,7 @@ tags: tricksHelp
 url: help/useful-features-to-increase-productivity-extension/
 ---
 
+## Popular productivity features in Helperbird
 
 Are you working more in web browsers than in desktop apps?
 

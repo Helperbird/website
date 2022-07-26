@@ -19,7 +19,7 @@ tags: guideCardsMain
 url: help/how-to-use-helperbird-accessibility-features/
 ---
 
-# Accessibility card features
+## Accessibility card features
 
 Features include spell check, Reduce motion and keyboard motion.
 

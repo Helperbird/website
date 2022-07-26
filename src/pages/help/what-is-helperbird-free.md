@@ -17,7 +17,7 @@ tags: guideFeatures
 url: help/what-is-helperbird-free/
 ---
 
-# What is included in the free version of Helperbird?
+## What is included in the free version of Helperbird?
 
 ## About
 

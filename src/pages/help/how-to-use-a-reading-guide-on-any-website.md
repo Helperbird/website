@@ -15,7 +15,7 @@ tags: guideFeaturesMain
 url: help/how-to-use-a-reading-guide-on-any-website/
 ---
 
-# What is a Reading guide?
+## What is a Reading guide?
 
 A Reading guide is a transparent ruler that can be used to help you read text. Helperbird allows you
 to use it on every website you visit.

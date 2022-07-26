@@ -17,7 +17,7 @@ tags: guideFeaturesMain
 url: help/how-to-use-helperbirds-high-contrast-features/
 ---
 
-# What is high contrast?
+## What is high contrast?
 
 A high contrast theme or high contrast mode uses a limited color palette with contrasting colors to
 make an interface easier to use. This is different than using an inverted display, though often

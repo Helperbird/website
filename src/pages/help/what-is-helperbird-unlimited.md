@@ -18,7 +18,7 @@ tags: guideFeatures
 url: help/what-is-helperbird-unlimited/
 ---
 
-# What is Helperbird Unlimited?
+## What is Helperbird Unlimited?
 
 Helperbird Unlimited is a paid version of Helperbird. It is a complete, all-in-one, but this plan is
 built for schools, districts and businesses.

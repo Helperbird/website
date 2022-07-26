@@ -14,7 +14,7 @@ tags: guideAccounts
 url: help/manage-my-helperbird-pro-subscription/
 ---
 
-# Manage my Helperbird Pro subscription
+## Manage my Helperbird Pro subscription
 
 ## Important
 

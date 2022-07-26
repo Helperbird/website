@@ -17,7 +17,7 @@ tags: guideFeatures
 url: help/what-is-helperbird-pro/
 ---
 
-# What is included in the paid version of Helperbird?
+## What is included in the paid version of Helperbird?
 
 ## What is Helperbird Pro?
 
