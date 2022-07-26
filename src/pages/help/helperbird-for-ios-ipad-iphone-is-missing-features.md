@@ -39,5 +39,4 @@ url: help/helperbird-for-ios-ipad-iphone-is-missing-features/
 ## Note
 
 - You will need iOS 15.0 or later.
-- You need to have a
-  [Helperbird Pro subscription](/pricing/ 'Helperbird for Safari link')
+- You need to have a [Helperbird Pro subscription](/pricing/ 'Helperbird for Safari link')
