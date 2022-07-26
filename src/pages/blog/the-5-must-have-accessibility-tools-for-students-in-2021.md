@@ -75,7 +75,7 @@ overlays, annotate any website,picture dictionary,Reader mode, and more.
 
 Screenshot of Helperbird in use.
 
-[Visit Helperbird](https://www.helperbird.com/pricing)
+[Visit Helperbird](/pricing/)
 
 ## Google Meet
 

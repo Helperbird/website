@@ -100,7 +100,7 @@ talents.
 Designing outdoor spaces requires a lot of visual-spatial thinking and material reasoning skills
 (the ability to mentally visualize a 3D perspective of physical objects and spaces); these are
 abilities that are often innate in dyslexics. This
-[big-picture thinking](https://www.helperbird.com/blog/three-facts-about-dyslexia) allows them to
+[big-picture thinking](/blog/three-facts-about-dyslexia/) allows them to
 thrive in this challenging field. A career in landscape architecture requires a lot of investment
 since it requires a bachelor’s degree before one can take the Landscape Architecture Registration
 Examination, to obtain a license.
@@ -115,8 +115,8 @@ boundaries of extremely structured fields. This allows them to come up with mult
 alternatives to each architectural problem.
 
 Gone are the days when people with dyslexia lag behind their peers. With a better understanding of
-what dyslexia is, and with the [new technologies available](https://www.helperbird.com/chrome) to
+what dyslexia is, and with the [new technologies available](/chrome/) to
 help them navigate through everyday life, dyslexics are very likely to succeed in their chosen
 careers.
 
-Exclusively written for [helperbird.com](https://www.helperbird.com) by Jerrica Borrell
+Exclusively written for [helperbird.com](https://www.helperbird.com/) by Jerrica Borrell
