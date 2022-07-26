@@ -20,7 +20,6 @@ url: help/how-to-use-dictionary-app-in-helperbird/
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I9roND7OdUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## How define any word or sentence
 
 - First you need to download Helperbird.

@@ -10,7 +10,7 @@ const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
 	new Promise(async (resolve, reject) => {
 		// read data from input file
-try {
+		try {
 			const data = fs.readFileSync(input, {
 				encoding: 'utf-8'
 			});
@@ -88,11 +88,10 @@ try {
 					quailty: 1.0
 				})
 				.pipe(stream);
-	
-			}catch(e){
-				console.error(this.inputPath,e);
-				console.error(e);
-			}
+		} catch (e) {
+			console.error(this.inputPath, e);
+			console.error(e);
+		}
 	});
 
 const manifest = {
@@ -107,13 +106,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addTransform('social-image', async function (content) {
-
 		// only handle blog posts
 		if (this.inputPath.endsWith('.njk')) return content;
 
 		try {
-	
-		
 			await createSocialImageForArticle(
 				// our input article
 				this.inputPath,
@@ -121,15 +117,12 @@ module.exports = function (eleventyConfig) {
 				// the output image name
 				this.outputPath.replace('.html', '.png')
 			);
-	
 
-		// return normal content
-		return content;
-
-	} catch (error) {
-		const [, title2] = data.match(/title:(.*)/);
-
-	}
+			// return normal content
+			return content;
+		} catch (error) {
+			const [, title2] = data.match(/title:(.*)/);
+		}
 	});
 
 	eleventyConfig.addPlugin(pluginPWA, {

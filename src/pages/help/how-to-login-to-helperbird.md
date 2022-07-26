@@ -22,6 +22,7 @@ url: help/how-to-login-to-helperbird/
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F4NOpAfrYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Text Tutorial
+
 **Note** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
 
 - First you will need to install the Helperbird extension.
@@ -36,10 +37,10 @@ url: help/how-to-login-to-helperbird/
 - Once allowed, we will use that email to check if you have a Helperbird Pro subscription. If you
   do, you will be able to access your Pro features.
 
-- You can also login using your subscription key, please go to the subscription key guide to learn how.
+- You can also login using your subscription key, please go to the subscription key guide to learn
+  how.
 
-
-##  Helperbird for Firefox
+## Helperbird for Firefox
 
 Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
 
@@ -52,9 +53,9 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - Scroll to the subscription key section.
 - Enter your subscription key.
 - Click the save button.
-- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If a subscription is found, you will get confetti and a message saying you a subscription was
+  found.
 - If you do not have a subscription, you will get a message saying you do not have a subscription.
-
 
 ## Helperbird for iPad
 
@@ -71,11 +72,11 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - Scroll to the subscription key section.
 - Enter your subscription key.
 - Click the save button.
-- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If a subscription is found, you will get confetti and a message saying you a subscription was
+  found.
 - If you do not have a subscription, you will get a message saying you do not have a subscription.
 
-
-## Helperbird for iPhone 
+## Helperbird for iPhone
 
 Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscription Key to login.
 
@@ -90,5 +91,6 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - Scroll to the subscription key section.
 - Enter your subscription key.
 - Click the save button.
-- If a subscription is found, you will get confetti and a message saying you a subscription was found.  
+- If a subscription is found, you will get confetti and a message saying you a subscription was
+  found.
 - If you do not have a subscription, you will get a message saying you do not have a subscription.

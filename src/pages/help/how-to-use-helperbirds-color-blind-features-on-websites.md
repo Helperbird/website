@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Helperbird's colorblind features on any website 
+title: How to use Helperbird's colorblind features on any website
 description: Learn how use Helperbird's colorblind features on any website or app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

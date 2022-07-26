@@ -10,10 +10,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge/
 blog_cat: Support guide
-cardTitle:  How to use reader mode to remove website distractions in Chrome, Firefox & Edge
+cardTitle: How to use reader mode to remove website distractions in Chrome, Firefox & Edge
 blog_snip:
   How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By
   Helperbird.

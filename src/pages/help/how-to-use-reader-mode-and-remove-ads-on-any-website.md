@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Reader mode in any browser 
+title: How to use Reader mode in any browser
 description:
   Discover how to use Reader mode on any browser for websites, PDFS and apps. Including Google
   Chrome, Firefox, Safari, Opera, and Microsoft Edge.
@@ -12,7 +12,8 @@ keywords:
 
 cardTitle: Reader mode
 featureDescription:
-  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera, and Microsoft Edge.
+  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera,
+  and Microsoft Edge.
 date: 2022-03-01
 tags: guideFeaturesMain
 url: help/how-to-use-reader-mode-and-remove-ads-on-any-website/

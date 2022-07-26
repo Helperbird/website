@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-login-into-helperbird/
 blog_cat: Support guide
-cardTitle:  Login to Helperbird
+cardTitle: Login to Helperbird
 blog_snip: How to login to Helperbird
 ---
 

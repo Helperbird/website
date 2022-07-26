@@ -1,7 +1,6 @@
 ---
 layout: templates/help.html
-title:
-  How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
+title: How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 description:
   Learn how to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 keywords:
@@ -16,7 +15,7 @@ featureDescription:
 tags: guideFeatures
 url: help/how-to-deploy-helperbird-to-your-school-or-business/
 img: /assets/images/graph/twitter.png
-des:  Learn how to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
+des: Learn how to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 name: June Coffeecups
 date: Created
 time: 4 min

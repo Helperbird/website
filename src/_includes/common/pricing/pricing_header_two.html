@@ -1,32 +1,33 @@
-<div class="relative ">
+<div class="relative">
 	<!-- Overlapping background -->
-	<div aria-hidden="true" class="hidden absolute bg-gray-50 w-full h-6 bottom-0 lg:block"
-		style="background-color: rgb(246, 245, 231);"></div>
-
-
-
+	<div
+		aria-hidden="true"
+		class="absolute bottom-0 hidden h-6 w-full bg-gray-50 lg:block"
+		style="background-color: rgb(246, 245, 231)"
+	></div>
 
 	<div class="">
-		<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
-		  <div class="max-w-xl">
-			<h1 class="text-4xl font-extrabold text-black sm:text-5xl sm:tracking-tight lg:text-6xl">Pricing Plans</h1>
-			<p class="mt-5 text-xl">
-				
-				Helperbird helps you make the web more accessible and productive to your needs and work style.
-				<br>
-				Pick a plan that best suits you. 
-				3 day free trial
+		<div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:flex lg:justify-between lg:px-8">
+			<div class="max-w-xl">
+				<h1 class="text-4xl font-extrabold text-black sm:text-5xl sm:tracking-tight lg:text-6xl">
+					Pricing Plans
+				</h1>
+				<p class="mt-5 text-xl">
+					Helperbird helps you make the web more accessible and productive to your needs and work
+					style.
+					<br />
+					Pick a plan that best suits you. 3 day free trial
+				</p>
+			</div>
 
-			</p>
-		  </div>
-
-
-			
-			<div class="mt-10 w-full max-w-xs ">
-
-				<div class="mt-1.5 relative">
-					<select id="currency" name="currency" v-model="currency"
-						class="select select-primary  select-sm w-full max-w-xs">
+			<div class="mt-10 w-full max-w-xs">
+				<div class="relative mt-1.5">
+					<select
+						id="currency"
+						name="currency"
+						v-model="currency"
+						class="select select-primary select-sm w-full max-w-xs"
+					>
 						<option class="bg-gray-900" value="aud">Australia (AUD) 🇦🇺</option>
 						<option class="bg-gray-900" value="usd" selected="selected">
 							United States (USD) 🇺🇸
@@ -38,457 +39,646 @@
 					</select>
 				</div>
 
+				<!-- Toggle -->
+				<div class="relative mt-12 flex justify-center sm:mt-16">
+					<div class="bg-active flex rounded-lg p-2">
+						<button
+							type="button"
+							@click="switchType"
+							class="btn btn-ghost ml-0.5 text-xs"
+							v-bind:class="!isYearly ? ' btn-active ' : ' '"
+						>
+							Monthly billing
+						</button>
 
-	<!-- Toggle -->
-	<div class="relative mt-12 flex justify-center sm:mt-16">
-		<div class=" p-2 rounded-lg flex bg-active">
-			<button type="button" @click="switchType"
-			class="ml-0.5 btn btn-ghost text-xs"
-			v-bind:class="!isYearly ? ' btn-active ' : ' '">
-				Monthly billing
-			</button>
-
-			<div data-tip="20% off" class="tooltip tooltip-open tooltip-secondary">
-				<button type="button" @click="switchType"
-				class="ml-0.5 btn btn-ghost text-xs"
-				v-bind:class="isYearly ? ' btn-active ' : ' '">
-					Yearly billing
-				</button>
+						<div data-tip="20% off" class="tooltip tooltip-open tooltip-secondary">
+							<button
+								type="button"
+								@click="switchType"
+								class="btn btn-ghost ml-0.5 text-xs"
+								v-bind:class="isYearly ? ' btn-active ' : ' '"
+							>
+								Yearly billing
+							</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-			</div>
-
-		</div>
-	  </div>
-
-
-
-
 	<h2 class="sr-only">Plans</h2>
 
-
-
-	
-
 	<!-- Cards -->
-	<div class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
+	<div
+		class="relative mx-auto mt-8 max-w-2xl px-4 pb-8 sm:mt-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0"
+	>
 		<!-- Decorative background -->
-		<div aria-hidden="true"
-			class="hidden absolute top-4 bottom-6 left-8 right-8 inset-0 bg-transparent  lg:block">
-		</div>
+		<div
+			aria-hidden="true"
+			class="absolute inset-0 top-4 bottom-6 left-8 right-8 hidden bg-transparent lg:block"
+		></div>
 
 		<div class="relative lg:grid lg:grid-cols-3">
-			<div class="bg-pink-700 m-8  pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+			<div class="m-8 rounded-lg bg-pink-700 px-6 pt-6 pb-3 lg:px-8 lg:pt-12">
 				<div>
-					<h3 class="text-white text-sm font-semibold uppercase tracking-wide">Helperbird Free</h3>
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
-						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'">
+					<h3 class="text-sm font-semibold uppercase tracking-wide text-white">Helperbird Free</h3>
+					<div
+						class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-white text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span>0</p>
+							<p class="text-4xl font-extrabold tracking-tight text-white">
+								<span v-html="priceDetails.currency">$</span>0
+							</p>
 							<div class="ml-4">
-								<p class="text-white text-sm">/ monthly</p>
-
+								<p class="text-sm text-white">/ monthly</p>
 							</div>
 						</div>
-						<a href="#" @click="handleModal"
-							class="bg-white text-pink-600 hover:bg-pink-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Download</a>
+						<a
+							href="#"
+							@click="handleModal"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-white py-2 px-8 text-center text-sm font-medium text-pink-600 shadow-sm hover:bg-pink-50 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Download</a
+						>
 					</div>
 
-
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start hidden"
-						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'">
+					<div
+						class="flex hidden flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-white text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span>0</p>
+							<p class="text-4xl font-extrabold tracking-tight text-white">
+								<span v-html="priceDetails.currency">$</span>0
+							</p>
 							<div class="ml-4">
-								<p class="text-white text-sm">/ yearly</p>
-
+								<p class="text-sm text-white">/ yearly</p>
 							</div>
 						</div>
-						<a href="#" @click="handleModal"
-							class="bg-white text-pink-600 hover:bg-pink-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
-							Helperbird Free</a>
+						<a
+							href="#"
+							@click="handleModal"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-white py-2 px-8 text-center text-sm font-medium text-pink-600 shadow-sm hover:bg-pink-50 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Buy Helperbird Free</a
+						>
 					</div>
-
 				</div>
 
-
-
-
-
-
 				<h4 class="sr-only">Features</h4>
-				<ul role="list"
-					class="border-pink-500 divide-pink-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
-					<li class="py-3 flex items-center">
+				<ul
+					role="list"
+					class="mt-7 divide-y divide-pink-500 divide-opacity-75 border-t border-pink-500 lg:border-t-0"
+				>
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-pink-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Basic accessibility features</span>
+						<span class="ml-3 text-sm font-medium text-white">Basic accessibility features</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-pink-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Basic Text to speech features</span>
+						<span class="ml-3 text-sm font-medium text-white">Basic Text to speech features</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-pink-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Specialized fonts (Dyslexia)</span>
+						<span class="ml-3 text-sm font-medium text-white">Specialized fonts (Dyslexia)</span>
 					</li>
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-pink-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium"> Color blindness features</span>
+						<span class="ml-3 text-sm font-medium text-white"> Color blindness features</span>
 					</li>
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-pink-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-pink-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Immersive reader by Microsoft</span>
+						<span class="ml-3 text-sm font-medium text-white">Immersive reader by Microsoft</span>
 					</li>
 				</ul>
 			</div>
 
-			<div class="bg-white ring-2 ring-indigo-700 shadow-md pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+			<div
+				class="rounded-lg bg-white px-6 pt-6 pb-3 shadow-md ring-2 ring-indigo-700 lg:px-8 lg:pt-12"
+			>
 				<div>
-					<h3 class="text-indigo-600 text-sm font-semibold uppercase tracking-wide">Helperbird Pro</h3>
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
-						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'">
+					<h3 class="text-sm font-semibold uppercase tracking-wide text-indigo-600">
+						Helperbird Pro
+					</h3>
+					<div
+						class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-indigo-600 text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span><span
-									v-html="priceDetails.monthly.pro">6.99</span></p>
+							<p class="text-4xl font-extrabold tracking-tight text-indigo-600">
+								<span v-html="priceDetails.currency">$</span
+								><span v-html="priceDetails.monthly.pro">6.99</span>
+							</p>
 							<div class="ml-4">
-								<p class="text-gray-700 text-lg"> / monthly</p>
-
+								<p class="text-lg text-gray-700">/ monthly</p>
 							</div>
 						</div>
-						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.monthly.proLink"
-							class="bg-indigo-600 text-white hover:bg-indigo-700 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
-							Helperbird Pro</a>
+						<a
+							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+							:href="priceDetails.monthly.proLink"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-indigo-600 py-2 px-8 text-center text-sm font-medium text-white shadow-sm hover:bg-indigo-700 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Buy Helperbird Pro</a
+						>
 					</div>
 
-
-
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start hidden"
-						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'">
+					<div
+						class="flex hidden flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-indigo-600 text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span><span
-									v-html="priceDetails.yearly.pro">6.99</span></p>
+							<p class="text-4xl font-extrabold tracking-tight text-indigo-600">
+								<span v-html="priceDetails.currency">$</span
+								><span v-html="priceDetails.yearly.pro">6.99</span>
+							</p>
 							<div class="ml-4">
-								<p class="text-gray-700 text-lg"> / yearly</p>
-
+								<p class="text-lg text-gray-700">/ yearly</p>
 							</div>
 						</div>
-						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.yearly.proLink"
-							class="bg-indigo-600 text-white hover:bg-indigo-700 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
-							Helperbird Pro</a>
+						<a
+							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+							:href="priceDetails.yearly.proLink"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-indigo-600 py-2 px-8 text-center text-sm font-medium text-white shadow-sm hover:bg-indigo-700 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Buy Helperbird Pro</a
+						>
 					</div>
-
 				</div>
 				<h4 class="sr-only">Features</h4>
-				<ul role="list" class="border-gray-200 divide-gray-200 mt-7 border-t divide-y lg:border-t-0">
-					<li class="py-3 flex items-center">
+				<ul
+					role="list"
+					class="mt-7 divide-y divide-gray-200 border-t border-gray-200 lg:border-t-0"
+				>
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Advanced features</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Advanced features</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Advance Text to speech features</span>
+						<span class="ml-3 text-sm font-medium text-gray-600"
+							>Advance Text to speech features</span
+						>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Annotation tools</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Annotation tools</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Writing tools (Word prediction)</span>
+						<span class="ml-3 text-sm font-medium text-gray-600"
+							>Writing tools (Word prediction)</span
+						>
 					</li>
 
-
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Reading tools (Reader Mode)</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Reading tools (Reader Mode)</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Research tools</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Research tools</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Advanced dyslexia support</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Advanced dyslexia support</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Translation tools</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Translation tools</span>
 					</li>
 
-
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Advance OCR tools</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Advance OCR tools</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Advance reading tools</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Advance reading tools</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Natural voices</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Natural voices</span>
 					</li>
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">30 other features</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">30 other features</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-gray-600 ml-3 text-sm font-medium">Premium support (24/7)</span>
+						<span class="ml-3 text-sm font-medium text-gray-600">Premium support (24/7)</span>
 					</li>
-
-
 				</ul>
 			</div>
 
-			<div class="bg-green-700 m-8 pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+			<div class="m-8 rounded-lg bg-green-700 px-6 pt-6 pb-3 lg:px-8 lg:pt-12">
 				<div>
-					<h3 class="text-white text-sm font-semibold uppercase tracking-wide">Schools & Business</h3>
+					<h3 class="text-sm font-semibold uppercase tracking-wide text-white">
+						Schools & Business
+					</h3>
 
-
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
-						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'">
-
-
+					<div
+						class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-white text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span><span
-									v-html="priceDetails.monthly.unlimited">99.99</span></p>
+							<p class="text-4xl font-extrabold tracking-tight text-white">
+								<span v-html="priceDetails.currency">$</span
+								><span v-html="priceDetails.monthly.unlimited">99.99</span>
+							</p>
 							<div class="ml-4">
-								<p class="text-white text-lg">/ monthly</p>
-
+								<p class="text-lg text-white">/ monthly</p>
 							</div>
 						</div>
 
-						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.monthly.unlimitedLink"
-							class="bg-white text-green-600 hover:bg-green-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
-							Schools & Business</a>
+						<a
+							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+							:href="priceDetails.monthly.unlimitedLink"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-white py-2 px-8 text-center text-sm font-medium text-green-600 shadow-sm hover:bg-green-50 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Buy Schools & Business</a
+						>
 					</div>
 
-
-					<div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start hidden"
-						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'">
-
-
+					<div
+						class="flex hidden flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
+						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
+					>
 						<div class="mt-3 flex items-center">
-							<p class="text-white text-4xl font-extrabold tracking-tight"> <span
-									v-html="priceDetails.currency">$</span><span
-									v-html="priceDetails.yearly.unlimited">1,200</span></p>
+							<p class="text-4xl font-extrabold tracking-tight text-white">
+								<span v-html="priceDetails.currency">$</span
+								><span v-html="priceDetails.yearly.unlimited">1,200</span>
+							</p>
 							<div class="ml-4">
-								<p class="text-white text-lg">/ yearly</p>
-
+								<p class="text-lg text-white">/ yearly</p>
 							</div>
 						</div>
 
-						<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ" :href="priceDetails.yearly.unlimitedLink"
-							class="bg-white text-green-600 hover:bg-green-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy
-							Schools & Business</a>
+						<a
+							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+							:href="priceDetails.yearly.unlimitedLink"
+							class="mt-6 inline-block w-full rounded-md border border-transparent bg-white py-2 px-8 text-center text-sm font-medium text-green-600 shadow-sm hover:bg-green-50 sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+							>Buy Schools & Business</a
+						>
 					</div>
-
 				</div>
 				<h4 class="sr-only">Features</h4>
-				<ul role="list"
-					class="border-green-500 divide-green-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
-					<li class="py-3 flex items-center">
+				<ul
+					role="list"
+					class="mt-7 divide-y divide-green-500 divide-opacity-75 border-t border-green-500 lg:border-t-0"
+				>
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-indigo-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">All features</span>
+						<span class="ml-3 text-sm font-medium text-white">All features</span>
 					</li>
 
-
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-green-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Unlimited users (per school/business)</span>
+						<span class="ml-3 text-sm font-medium text-white"
+							>Unlimited users (per school/business)</span
+						>
 					</li>
 
-
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-green-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Personal success manager</span>
+						<span class="ml-3 text-sm font-medium text-white">Personal success manager</span>
 					</li>
 
-
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-green-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Admin panel
+						<span class="ml-3 text-sm font-medium text-white">Admin panel </span>
+					</li>
+
+					<li class="flex items-center py-3">
+						<!-- Heroicon name: solid/check -->
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-green-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span class="ml-3 text-sm font-medium text-white"
+							>Exam mode
+							<div class="badge badge-accent ml-8">Coming soon</div>
 						</span>
 					</li>
 
-					<li class="py-3 flex items-center">
+					<li class="flex items-center py-3">
 						<!-- Heroicon name: solid/check -->
-						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
+						<svg
+							class="h-5 w-5 flex-shrink-0 text-green-200"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
 								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
+								clip-rule="evenodd"
+							/>
 						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Exam mode <div class="ml-8 badge badge-accent">Coming soon</div>
-						</span>
+						<span class="ml-3 text-sm font-medium text-white">Premium support (24/7) </span>
 					</li>
-
-					<li class="py-3 flex items-center">
-						<!-- Heroicon name: solid/check -->
-						<svg class="text-green-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd"
-								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-								clip-rule="evenodd" />
-						</svg>
-						<span class="text-white ml-3 text-sm font-medium">Premium support (24/7)
-						</span>
-					</li>
-
-
-
-
 				</ul>
 			</div>
 		</div>

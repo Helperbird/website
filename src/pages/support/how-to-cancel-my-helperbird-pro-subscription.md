@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-cancel-my-helperbird-pro-subscription/
 blog_cat: Support guide
-cardTitle:  How to cancel my Helperbird Pro subscription
+cardTitle: How to cancel my Helperbird Pro subscription
 blog_snip: Discover how to cancel your Helperbird Pro subscription.
 ---
 

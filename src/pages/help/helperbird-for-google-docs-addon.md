@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Helperbirds Google docs add on 
+title: How to use Helperbirds Google docs add on
 description:
   How to use the offical Helperbird Google docs add on, from installing, the features and more.
 keywords:
@@ -11,11 +11,11 @@ keywords:
 
 cardTitle: Google Docs
 featureDescription:
-  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
+  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more
+  out of Google docs.
 tags: guideIntegrations
 url: help/helperbird-for-google-docs-addon/
 ---
-
 
 ## How to install
 

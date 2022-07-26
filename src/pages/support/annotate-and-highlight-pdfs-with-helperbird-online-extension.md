@@ -11,10 +11,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 blog_cat: Support guide
-cardTitle:  How to annotate and highlight Pdfs online
+cardTitle: How to annotate and highlight Pdfs online
 blog_snip:
   Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
   makes it easy to annotate your PDF documents and send them for group review online and for

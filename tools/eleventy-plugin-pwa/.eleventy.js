@@ -7,8 +7,8 @@ module.exports = {
       console.log("Reason: " + reason);
     });
     function postBuild() {
-      shimmer.wrap(Eleventy.prototype, "logFinished", function(orig) {
-        return function() {
+      shimmer.wrap(Eleventy.prototype, "logFinished", function (orig) {
+        return function () {
           const swBuild = require("./src/builder");
           swBuild(options, cfg.dir.output).then((res) => console.log(res));
           return orig.apply(this);

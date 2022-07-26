@@ -9,7 +9,8 @@ keywords:
   OpenDyslexic
 
 cardTitle: Overlay
-featureDescription: Learn how an overlay/tint is a transparent overlay that is placed on top of the website or pdf.
+featureDescription:
+  Learn how an overlay/tint is a transparent overlay that is placed on top of the website or pdf.
 date: 2022-02-02
 tags: guideFeaturesMain
 url: help/how-to-add-a-overlay-to-any-website/

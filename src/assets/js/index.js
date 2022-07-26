@@ -5,11 +5,7 @@ import '../css/blog.css';
 import '../css/help.css';
 import * as app from './core/app';
 
-
-
-
 app.load();
-
 
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', () => {
@@ -19,5 +15,3 @@ if ('serviceWorker' in navigator) {
 			.catch((registrationError) => {});
 	});
 }
-
-

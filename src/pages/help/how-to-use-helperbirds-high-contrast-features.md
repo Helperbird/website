@@ -1,7 +1,9 @@
 ---
 layout: templates/help.html
 title: How to use high contrast on any website
-description: Learn how use Helperbirds high contrast feature on any website or app. This includes grayscale, black on yellow and more.
+description:
+  Learn how use Helperbirds high contrast feature on any website or app. This includes grayscale,
+  black on yellow and more.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -17,7 +19,10 @@ url: help/how-to-use-helperbirds-high-contrast-features/
 
 # What is high contrast?
 
-A high contrast theme or high contrast mode uses a limited color palette with contrasting colors to make an interface easier to use. This is different than using an inverted display, though often times the high contrast mode looks similar to an inverted display because of the darker color scheme.
+A high contrast theme or high contrast mode uses a limited color palette with contrasting colors to
+make an interface easier to use. This is different than using an inverted display, though often
+times the high contrast mode looks similar to an inverted display because of the darker color
+scheme.
 
 ## How to use High contrast mode
 

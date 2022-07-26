@@ -15,7 +15,6 @@ tags: guideFeaturesMain
 url: help/how-to-set-the-paragraph-width-on-any-page/
 ---
 
-
 ## How to set paragraph widths
 
 - Open Helperbird on Chrome, Firefox or Edge

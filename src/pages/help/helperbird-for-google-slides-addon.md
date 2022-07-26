@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to use Helperbirds Google slides add-on 
+title: How to use Helperbirds Google slides add-on
 description:
   How to use the offical Helperbird Google Slides add on, from installing, the features and more.
 keywords:
@@ -11,12 +11,11 @@ keywords:
 
 cardTitle: Google Slides
 featureDescription:
-  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more out of Google docs.
+  Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more
+  out of Google docs.
 tags: guideIntegrations
 url: help/helperbird-for-google-slides-addon/
 ---
-
-
 
 ## How to install
 

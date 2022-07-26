@@ -30,8 +30,7 @@ popular accessibility, dyslexia, and productivity features.
 - **OCR (Optical Character Recognition)**: Extract text from images and PDF files or website pages
   in seconds.
 - **Screenshot page**: Helperbird automatically takes a screenshot of the web page.
-- **Voice typing**: Add a Voice typing button to your website or app. So you can speak into
-  inputs.
+- **Voice typing**: Add a Voice typing button to your website or app. So you can speak into inputs.
 - **Translate**: Helperbird automatically translates the website your visiting.
 - **Summarize**: Helperbird automatically summarizes the web page in bullet points.
 - **Highlight menu**: A highlight menu, which adds a tooltip to the quick action menu on selected

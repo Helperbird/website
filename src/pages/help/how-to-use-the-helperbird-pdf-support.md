@@ -16,7 +16,6 @@ tags: guideApps
 url: help/how-to-use-the-helperbird-pdf-support/
 ---
 
-
 ## How access/turn on the pdf support
 
 - First you need to download Helperbird.

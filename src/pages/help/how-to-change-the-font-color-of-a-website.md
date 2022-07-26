@@ -27,7 +27,6 @@ url: help/how-to-change-the-font-color-of-a-website/
 - The website will change to font you picked.
 - Thats it.
 
-
 ## Video tutorial
 
 <iframe 

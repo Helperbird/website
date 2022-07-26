@@ -27,7 +27,6 @@ url: help/how-to-change-the-link-color-of-a-website/
 - The website will change to link you picked.
 - Thats it.
 
-
 ## Video tutorial
 
 <iframe 

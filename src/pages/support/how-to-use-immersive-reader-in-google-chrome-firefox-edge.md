@@ -10,10 +10,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
 blog_cat: Support guide
-cardTitle:  How to use Immersive reader in Google Chrome
+cardTitle: How to use Immersive reader in Google Chrome
 blog_snip:
   How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge using Helperbird for
   free.

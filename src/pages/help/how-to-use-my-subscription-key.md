@@ -16,7 +16,6 @@ tags: guideAccounts
 url: help/how-to-use-my-subscription-key/
 ---
 
-
 ## Where to find my subscription key
 
 - Your subscription key, would be found in the second email you receive from Helperbird.

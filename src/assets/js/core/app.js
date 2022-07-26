@@ -11,43 +11,41 @@ function load() {
 			menus: false,
 			mobileMenu: false,
 			productModal: false,
-		writer:null,
+			writer: null,
 
-		// Pricing Table
-		isYearly: false,
-		proLink: '',
-		studentLink: '',
-		unlimitedLink: '',
-		openModal: false,
-		currency: 'usd',
+			// Pricing Table
+			isYearly: false,
+			proLink: '',
+			studentLink: '',
+			unlimitedLink: '',
+			openModal: false,
+			currency: 'usd',
 
-		price: {
-			monthly: {
-				pro: '6.99',
-				proLink: '',
-				unlimited: '99.99',
-				unlimitedLink: ''
-			},
-			yearly: {
-				pro: '60.00',
-				proLink: '',
-				unlimited: '1,200',
-				unlimitedLink: ''
-			},
-			student: '40',
-			currency: '$',
-			studentLink: ''
-		}
+			price: {
+				monthly: {
+					pro: '6.99',
+					proLink: '',
+					unlimited: '99.99',
+					unlimitedLink: ''
+				},
+				yearly: {
+					pro: '60.00',
+					proLink: '',
+					unlimited: '1,200',
+					unlimitedLink: ''
+				},
+				student: '40',
+				currency: '$',
+				studentLink: ''
+			}
 		},
-	 mounted() {
-		
-		crisp();
-		tagManager();
-		loadManager();
+		mounted() {
+			crisp();
+			tagManager();
+			loadManager();
 
-		youtube();	
-		this.typer();
-
+			youtube();
+			this.typer();
 		},
 		methods: {
 			switchType: function () {
@@ -58,21 +56,28 @@ function load() {
 				this.openModal = !this.openModal;
 			},
 
-			typer(){
-				let id = 'typewriter'
+			typer() {
+				let id = 'typewriter';
 
 				let typerElement = document.getElementById(id);
 
-
-				if(typerElement){
-
-				this.writer = new Typewriter(`#${id}`, {
-					strings: ['Reader mode', 'Speed reading','Dyslexia support', 'text to speech', 'Voice typing', 'Word prediction','Text extracting','Tooltip reader'],
-					autoStart: true,
-					loop: true,
-					delay: 100
-				});
-			}
+				if (typerElement) {
+					this.writer = new Typewriter(`#${id}`, {
+						strings: [
+							'Reader mode',
+							'Speed reading',
+							'Dyslexia support',
+							'text to speech',
+							'Voice typing',
+							'Word prediction',
+							'Text extracting',
+							'Tooltip reader'
+						],
+						autoStart: true,
+						loop: true,
+						delay: 100
+					});
+				}
 			},
 			handleMenu(menu) {
 				console.log(menu);
@@ -84,15 +89,12 @@ function load() {
 			},
 
 			handleModal() {
-
 				this.productModal = !this.productModal;
 			},
 
 			handleMobileMenu() {
-
 				this.mobileMenu = !this.mobileMenu;
-			},
-
+			}
 		},
 		computed: {
 			showYearly: function () {
@@ -244,7 +246,7 @@ function load() {
 
 			showModal: function () {
 				return this.productModal;
-			},
+			}
 		}
 	});
 }

@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge/
 blog_cat: Support guide
-cardTitle:  How to set custom shortcuts in Helperbird
+cardTitle: How to set custom shortcuts in Helperbird
 blog_snip:
 ---
 

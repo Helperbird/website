@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: blog/is-helperbird-free/
 tags: blog
-blog_cat:  Guide
+blog_cat: Guide
 cardTitle: Is Helperbird free to use?
 blog_snip: Is Helperbird free to use?
 
@@ -22,13 +21,9 @@ des: Is Helperbird free to use?
 name: Robert James
 date: Created
 time: 10 min
-
 ---
-
-  
 
 ## Is Helperbird safe to use?
 
-  
-
-Yes! Helperbird is 100% safe to use. We are proud to say we don't use any tracking or marketing software and we don't use any remote third party scripts.
+Yes! Helperbird is 100% safe to use. We are proud to say we don't use any tracking or marketing
+software and we don't use any remote third party scripts.

@@ -23,7 +23,7 @@ npm i eleventy-plugin-pwa
 
 ```js
 const pluginPWA = require("eleventy-plugin-pwa");
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginPWA);
 };
 ```
@@ -52,7 +52,7 @@ For example :
 ```js
 // overwriting destination file and more
 const pluginPWA = require("eleventy-plugin-pwa");
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginPWA, {
     swDest: "./build/sw.js",
     globDirectory: "./build"

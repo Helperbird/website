@@ -9,10 +9,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-use-reader-mode-in-google-chrome-firefox-edge/
 blog_cat: Support guide
-cardTitle:  How to use Reader Mode
+cardTitle: How to use Reader Mode
 blog_snip:
   How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.
 ---

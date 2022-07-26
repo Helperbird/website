@@ -15,13 +15,15 @@ url: help/how-to-download-helperbird-for-iphone/
 ---
 
 ## How to download Helperbird for iPhone
+
 - First, you need to be on your iPhone.
 - Then go to the app store and search "Helperbird for Safari".
 - You will see a list of apps.
 - Click on the Helperbird for Safari app.
 - Click download.
-- You also click this [link](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 "Helperbird for Safari link")
+- You also click this
+  [link](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 'Helperbird for Safari link')
 
 ## Note
-- You will need iOS 15.0 or later.
 
+- You will need iOS 15.0 or later.

@@ -11,10 +11,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: login/
 blog_cat: ''
-cardTitle:  Login to Helperbird
+cardTitle: Login to Helperbird
 blog_snip: ''
 ---
 

@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: blog/is-helperbird-safe/
 tags: blog
-blog_cat:  Guide
+blog_cat: Guide
 cardTitle: Is Helperbird safe to use?
 blog_snip: Is Helperbird safe to use?
 

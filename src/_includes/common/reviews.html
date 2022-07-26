@@ -1,47 +1,45 @@
 <section
 	tabindex="-1"
-	class="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5 p-8 pt-16 pb-16"
+	class="relative mx-auto max-w-7xl p-8 px-4 pt-16 pb-16 focus:outline-none sm:px-3 md:px-5"
 >
 	<h2 class="mt-1 text-5xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl">
 		What our Helperbird customers say
 	</h2>
-	<p class="max-w-xl mt-5 text-2xl">
-		Over 1,200,000 use Helperbird every day. Allowing them to be more accessible and productive on the
-		web.
+	<p class="mt-5 max-w-xl text-2xl">
+		Over 1,200,000 use Helperbird every day. Allowing them to be more accessible and productive on
+		the web.
 	</p>
 
-	<div class="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 text-center mt-8">
-		<div class="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 text-center mt-8 mb-8">
+	<div class="mt-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
+		<div class="mt-8 mb-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
 			<a
-				class="w-full sm:w-auto flex-none text-lg leading-6 font-semibold py-3 px-6 rounded-xl shadow-2xl lg:btn-md btn mt-4 btn-secondary"
+				class="btn btn-secondary mt-4 w-full flex-none rounded-xl py-3 px-6 text-lg font-semibold leading-6 shadow-2xl sm:w-auto lg:btn-md"
 				href="/reviews/"
 				>See all reviews</a
 			>
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
+	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
 		<ul class="space-y-8">
 			{%- for review in reviews.reviews limit:3 -%}
 
-			<div class="text-sm leading-6 helperbird-editor medium-editor-element">
-				<figure
-					class="relative flex flex-col-reverse bg-white rounded-lg p-6  "
-				>
-					<blockquote class="mt-6 text-gray-700   ">
+			<div class="helperbird-editor medium-editor-element text-sm leading-6">
+				<figure class="relative flex flex-col-reverse rounded-lg bg-white p-6">
+					<blockquote class="mt-6 text-gray-700">
 						<p class="">{{ review.review }}</p>
 					</blockquote>
 					<figcaption class="flex items-center space-x-4">
 						<img
 							src="{{ review.photo }}"
 							alt="Photo of {{ review.name }}"
-							class="flex-none w-14 h-14 rounded-full object-cover"
+							class="h-14 w-14 flex-none rounded-full object-cover"
 							loading="lazy"
 						/>
 						<div class="flex-auto">
-							<div class="text-base text-gray-900 font-semibold   ">
+							<div class="text-base font-semibold text-gray-900">
 								<span
-									class="absolute inset-0 helperbird-editor medium-editor-element"
+									class="helperbird-editor medium-editor-element absolute inset-0"
 									data-medium-editor-element="true"
 									aria-multiline="true"
 									data-medium-editor-editor-index="1"
@@ -61,24 +59,22 @@
 		<ul class="space-y-8">
 			{%- for review in reviews.reviews limit:3 offset:4 -%}
 
-			<div class="text-sm leading-6 helperbird-editor medium-editor-element">
-				<figure
-					class="relative flex flex-col-reverse bg-white rounded-lg p-6  "
-				>
-					<blockquote class="mt-6 text-gray-700   ">
+			<div class="helperbird-editor medium-editor-element text-sm leading-6">
+				<figure class="relative flex flex-col-reverse rounded-lg bg-white p-6">
+					<blockquote class="mt-6 text-gray-700">
 						<p class="">{{ review.review }}</p>
 					</blockquote>
 					<figcaption class="flex items-center space-x-4">
 						<img
 							src="{{ review.photo }}"
 							alt="Photo of {{ review.name }}"
-							class="flex-none w-14 h-14 rounded-full object-cover"
+							class="h-14 w-14 flex-none rounded-full object-cover"
 							loading="lazy"
 						/>
 						<div class="flex-auto">
-							<div class="text-base text-gray-900 font-semibold   ">
+							<div class="text-base font-semibold text-gray-900">
 								<span
-									class="absolute inset-0 helperbird-editor medium-editor-element"
+									class="helperbird-editor medium-editor-element absolute inset-0"
 									data-medium-editor-element="true"
 									aria-multiline="true"
 									data-medium-editor-editor-index="1"
@@ -98,24 +94,22 @@
 		<ul class="space-y-8">
 			{%- for review in reviews.reviews limit:3 offset:8 -%}
 
-			<div class="text-sm leading-6 helperbird-editor medium-editor-element">
-				<figure
-					class="relative flex flex-col-reverse bg-white rounded-lg p-6  "
-				>
-					<blockquote class="mt-6 text-gray-700   ">
+			<div class="helperbird-editor medium-editor-element text-sm leading-6">
+				<figure class="relative flex flex-col-reverse rounded-lg bg-white p-6">
+					<blockquote class="mt-6 text-gray-700">
 						<p class="">{{ review.review }}</p>
 					</blockquote>
 					<figcaption class="flex items-center space-x-4">
 						<img
 							src="{{ review.photo }}"
 							alt="Photo of {{ review.name }}"
-							class="flex-none w-14 h-14 rounded-full object-cover"
+							class="h-14 w-14 flex-none rounded-full object-cover"
 							loading="lazy"
 						/>
 						<div class="flex-auto">
-							<div class="text-base text-gray-900 font-semibold   ">
+							<div class="text-base font-semibold text-gray-900">
 								<span
-									class="absolute inset-0 helperbird-editor medium-editor-element"
+									class="helperbird-editor medium-editor-element absolute inset-0"
 									data-medium-editor-element="true"
 									aria-multiline="true"
 									data-medium-editor-editor-index="1"

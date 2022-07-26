@@ -1,7 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title: Security statement for Helperbird
-cardTitle:  Security statement for Helperbird
+cardTitle: Security statement for Helperbird
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds Security don`t sell, store, or
@@ -12,7 +12,6 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: security/
 blog_cat: ''
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
@@ -20,7 +19,8 @@ blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 
 ## Overview
 
-We don`t track nor do we store data anywhere but locally in your machine. We don`t use Google analytics or any third-party app.
+We don`t track nor do we store data anywhere but locally in your machine. We don`t use Google
+analytics or any third-party app.
 
 User data is never used for commercial purposes. (We don\`t do tracking nor store anything).
 
@@ -32,19 +32,26 @@ There is an AWS node server.
 
 ## We Collect No Personal Information Using Our Applications
 
-We do not collect, use, save, or have access to any of your data recorded in Helperbird for Chrome,iPad, iPhone, Firefox, and Edge.
+We do not collect, use, save, or have access to any of your data recorded in Helperbird for
+Chrome,iPad, iPhone, Firefox, and Edge.
 
-Individual settings relating to the Helperbird apps are not personal and are stored only on your device.
+Individual settings relating to the Helperbird apps are not personal and are stored only on your
+device.
 
-You might also be asked to provide access to your email and access to modify the current webpage, but this is only so you can check if your account is marked as paid in Stripe and so we can make the changes you requested on the webpage.
+You might also be asked to provide access to your email and access to modify the current webpage,
+but this is only so you can check if your account is marked as paid in Stripe and so we can make the
+changes you requested on the webpage.
 
 We don’t process that information at all and have no access to it.
 
 ## Security
 
-Helperbird has security measures in place to protect the loss, misuse, and alteration of the information under our control. These measures include the use of payment servers to collect the information, and other measures as deemed reasonable and necessary.
+Helperbird has security measures in place to protect the loss, misuse, and alteration of the
+information under our control. These measures include the use of payment servers to collect the
+information, and other measures as deemed reasonable and necessary.
 
-All code for the extension is verified for Malware by the Google, Firefox,iPhone, iPad, and Microsoft team on each release.
+All code for the extension is verified for Malware by the Google, Firefox,iPhone, iPad, and
+Microsoft team on each release.
 
 All settings are stored locally.
 
@@ -58,7 +65,8 @@ All settings and information is stored locally in your browser.
 
 No information or settings are sent to a remote server.
 
-When a user is removed from your Workspace, all settings are deleted and cleared from the browser. Learn more here https://support.google.com/domains/answer/7677767?hl=en
+When a user is removed from your Workspace, all settings are deleted and cleared from the browser.
+Learn more here https://support.google.com/domains/answer/7677767?hl=en
 
 ## Processing
 
@@ -68,27 +76,34 @@ We do request your email and check it against, Stripe through our secure AWS ser
 
 ## What information about customers does Helperbird need?
 
-If you are a Helperbird Pro user, we need your email. This is just to check if you have paid your subscription.
+If you are a Helperbird Pro user, we need your email. This is just to check if you have paid your
+subscription.
 
 If you are a Helperbird free user, we collect nothing nor store anything.
 
 ## Data breach plan
 
-In case of a data breach, of any kind. That includes a breach to either our Amazon cloud account, Stripe or Webstore account. We have response steps and a plan, which will be public soon. 
-If you would like to see it earlier. Email robert.gabriel@helperbird.com
+In case of a data breach, of any kind. That includes a breach to either our Amazon cloud account,
+Stripe or Webstore account. We have response steps and a plan, which will be public soon. If you
+would like to see it earlier. Email robert.gabriel@helperbird.com
 
 ## Our Applications Comply with the Children’s Online security Protection Act (COPPA & FERPA)
 
-Our applications don’t collect personal information from anyone, including children under the age of 13.
+Our applications don’t collect personal information from anyone, including children under the age
+of 13.
 
 ## Links to other websites
 
-Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website.
+Our website may contain links to other websites of interest. However, once you have used these links
+to leave our site, you should note that we do not have any control over that other website.
 
-Therefore, we cannot be responsible for the protection and security of any information which you provide whilst visiting such sites and such sites are not governed by this security statement. 
+Therefore, we cannot be responsible for the protection and security of any information which you
+provide whilst visiting such sites and such sites are not governed by this security statement.
 
-You should exercise caution and look at the security statement applicable to the website in question.
+You should exercise caution and look at the security statement applicable to the website in
+question.
 
 ## Contact Us
 
-If you have any questions about this Security, feel free to get in touch with us at robert.gabriel@helperbird.com
+If you have any questions about this Security, feel free to get in touch with us at
+robert.gabriel@helperbird.com

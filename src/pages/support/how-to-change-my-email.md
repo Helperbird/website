@@ -8,10 +8,9 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-
 url: support/how-to-change-my-email/
 blog_cat: Support guide
-cardTitle:  How to change or update your email
+cardTitle: How to change or update your email
 blog_snip: Discover how to update or change your email for Helperbird and Helperbird Pro.
 ---
 

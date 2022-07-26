@@ -28,7 +28,6 @@ url: help/how-to-change-the-background-color-of-a-website/
 - The website will change to background you picked..
 - Thats it.
 
-
 ## Video tutorial
 
 <iframe 

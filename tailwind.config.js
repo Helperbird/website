@@ -1,14 +1,13 @@
 module.exports = {
 	enabled: true,
 
-		content: [
-			'./src/**/**/*.html',
-			'./src/**/**/*.md',
-			'./src/**/**/*.liquid',
-			'./src/**/**/*.njk',
-			'./src/assets/js/**/*.js'
-		],
-
+	content: [
+		'./src/**/**/*.html',
+		'./src/**/**/*.md',
+		'./src/**/**/*.liquid',
+		'./src/**/**/*.njk',
+		'./src/assets/js/**/*.js'
+	],
 
 	darkMode: false, // or 'media' or 'class'
 	theme: {
@@ -32,8 +31,5 @@ module.exports = {
 		themes: ['light'],
 		rtl: false
 	},
-	plugins: [
-		require('daisyui'),
-	
-	]
+	plugins: [require('daisyui')]
 };

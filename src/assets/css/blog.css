@@ -1,48 +1,48 @@
-#blog-post  h1,
-#blog-post   h2,
-#blog-post   h3,
-#blog-post     h4,
-#blog-post     h5,
-#blog-post     h6,
-#blog-post     p {
-    font-size: revert !important;
-    font-weight: revert!important;
+#blog-post h1,
+#blog-post h2,
+#blog-post h3,
+#blog-post h4,
+#blog-post h5,
+#blog-post h6,
+#blog-post p {
+	font-size: revert !important;
+	font-weight: revert !important;
 }
 
 .yellowHelperbird {
-    background-color: rgb(246, 245, 231) !important;
+	background-color: rgb(246, 245, 231) !important;
 }
 
-#blog-post  p {
-    margin: 1.5rem 0 !important;
+#blog-post p {
+	margin: 1.5rem 0 !important;
 }
-#blog-post  h2 {
-    margin: 1.5rem 0 !important;
-}
-
-#blog-post  img{
-    width: 70% !important;
+#blog-post h2 {
+	margin: 1.5rem 0 !important;
 }
 
-#blog-post  ul > li > a {
-    color: blue !important;
-}
-#blog-post  ul {
-    list-style: decimal !important;
-    padding: 1rem 2rem 3rem !important;
+#blog-post img {
+	width: 70% !important;
 }
 
-#blog-post  ol > li > a {
-    color: blue !important;
+#blog-post ul > li > a {
+	color: blue !important;
 }
-#blog-post  ol {
-    list-style: decimal !important;
-    padding: 1rem 2rem 3rem !important;
+#blog-post ul {
+	list-style: decimal !important;
+	padding: 1rem 2rem 3rem !important;
 }
-#blog-post  li {
-    list-style: decimal !important;
 
-    margin: 1rem 0 !important;
+#blog-post ol > li > a {
+	color: blue !important;
+}
+#blog-post ol {
+	list-style: decimal !important;
+	padding: 1rem 2rem 3rem !important;
+}
+#blog-post li {
+	list-style: decimal !important;
 
-    padding: 0 !important;
+	margin: 1rem 0 !important;
+
+	padding: 0 !important;
 }

@@ -23,11 +23,9 @@ url: help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 - You can also change the size from small to large with the slider.
 - Thats it.
 
-
 ## Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yEVHhmWcZzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## Supported sizes
 

@@ -1,31 +1,30 @@
-<div class="relative  mx-auto  focus:outline-none pt-16 pb-16">
-<div class="card bg-white mb-8 mt-8">
-	<div class="card-body py-24 px-4 ">
-		<div class="lg:grid lg:grid-cols-3 lg:gap-8">
-			<div>
-				<h2 class="text-3xl font-extrabold text-gray-900">Frequently asked questions</h2>
-				<p class="mt-4 text-lg   text-black ">
-					Can’t find the answer you’re looking for? Reach out to our
-					<a href="/support/" class="font-medium text-indigo-600 hover:text-indigo-500"
-						>customer support</a
-					>
-					team.
-				</p>
-			</div>
-			<div class="mt-12 lg:mt-0 lg:col-span-2">
-				<dl class="space-y-12">
-					{%- for question in questions.helperbird -%}
-					<div>
-						<dt class="text-lg leading-6 font-medium text-gray-900">{{question.question}}</dt>
-						<dd class="mt-2 text-base   text-black ">{{question.answer}}</dd>
-					</div>
-					{%- endfor -%}
+<div class="relative mx-auto pt-16 pb-16 focus:outline-none">
+	<div class="card mb-8 mt-8 bg-white">
+		<div class="card-body py-24 px-4">
+			<div class="lg:grid lg:grid-cols-3 lg:gap-8">
+				<div>
+					<h2 class="text-3xl font-extrabold text-gray-900">Frequently asked questions</h2>
+					<p class="mt-4 text-lg text-black">
+						Can’t find the answer you’re looking for? Reach out to our
+						<a href="/support/" class="font-medium text-indigo-600 hover:text-indigo-500"
+							>customer support</a
+						>
+						team.
+					</p>
+				</div>
+				<div class="mt-12 lg:col-span-2 lg:mt-0">
+					<dl class="space-y-12">
+						{%- for question in questions.helperbird -%}
+						<div>
+							<dt class="text-lg font-medium leading-6 text-gray-900">{{question.question}}</dt>
+							<dd class="mt-2 text-base text-black">{{question.answer}}</dd>
+						</div>
+						{%- endfor -%}
 
-					<!-- More questions... -->
-				</dl>
+						<!-- More questions... -->
+					</dl>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
 </div>
