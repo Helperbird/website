@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge | Helperbird
+title: How to use Immersive reader in Chrome, Firefox or Edge
 description:
   How to use Immersive reader in Google Chrome & Firefox and Microsoft Edge using Helperbird for
   free.

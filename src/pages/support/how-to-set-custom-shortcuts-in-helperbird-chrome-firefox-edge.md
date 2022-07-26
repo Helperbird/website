@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to set custom shortcuts in Helperbird | Helperbird
+title: How to set custom shortcuts in Helperbird
 description: How to set custom shortcuts in Helperbird for Chrome, Firefox or Edge extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

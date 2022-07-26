@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to cancel or pause my Helperbird Pro subscription | Helperbird
+title: How to cancel or pause my Helperbird Pro subscription
 description: Discover how to cancel or pause your Helperbird Pro subscription.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for

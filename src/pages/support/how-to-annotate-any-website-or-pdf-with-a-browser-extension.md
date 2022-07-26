@@ -1,6 +1,7 @@
 ---
 layout: templates/support_post.html
-title: How to annotate any website or pdf with a browser extension | Helperbird
+title: 
+  How to Annotate and Highlight PDFs with a browser extension
 description:
   How to annotate any website or pdf with a Chrome, Firefox or Edge extension. By Helperbird.
 keywords:

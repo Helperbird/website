@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to use Reader Mode to remove website distractions in Chrome, Firefox & Edge | Helperbird
+title: How to use Reader Mode to remove website distractions in Chrome, Firefox & Edge
 description:
   How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By
   Helperbird.

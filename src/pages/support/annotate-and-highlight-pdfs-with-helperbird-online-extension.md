@@ -1,7 +1,7 @@
 ---
 layout: templates/support_post.html
 title:
-  How to annotate and highlight Pdfs online in Chrome, Edge, iPad, iPhone and Firefox | Helperbird
+  How to Annotate and Highlight PDFs in Edge, Chrome and Firefox
 description:
   Discover to annotate, highlight pdfs and more with Helperbird for Edge, Chrome, iPad, iPhone
   online.

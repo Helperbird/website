@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to update my email for Helperbird | Helperbird
+title: How to update my email for Helperbird
 description: Discover how to update or change your email for Helperbird and Helperbird Pro.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
