@@ -10,12 +10,11 @@ keywords:
   OpenDyslexic
 
 cardTitle: Productivity features
-featureDescription: Discover how to manage your Helperbird Pro subscription.
+featureDescription: Helperbird has over 10 productivity features, discover how to use some of the popular ones.
 tags: tricksHelp
 url: help/useful-features-to-increase-productivity-extension/
 ---
 
-# Popular productivity features in Helperbird
 
 Are you working more in web browsers than in desktop apps?
 
