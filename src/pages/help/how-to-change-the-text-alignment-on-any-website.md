@@ -25,7 +25,7 @@ url: help/how-to-change-the-text-alignment-on-any-website/
 - The website will change to your text alignment settings.
 - Thats it.
 
-# Alignment options
+## Alignment options
 
 - Left
 - Center

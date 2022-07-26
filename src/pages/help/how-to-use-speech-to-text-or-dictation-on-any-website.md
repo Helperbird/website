@@ -29,7 +29,7 @@ url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 - It will now enter the text you speak.
 - Thats it.
 
-# How to use Voice typing or dictation on Google Docs
+## How to use Voice typing or dictation on Google Docs
 
 - We actually have a Google Docs addon for Helperbird. So you will need to download that first.
 - Here is the download [link](https://workspace.google.com/marketplace/app/helperbird/844716805038)
