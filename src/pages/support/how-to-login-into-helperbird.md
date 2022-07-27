@@ -1,6 +1,6 @@
 ---
 layout: templates/support_post.html
-title: How to login/sign in to Helperbird | Helperbird.com
+title: How to login to Helperbird
 description: How to login to Helperbird
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
