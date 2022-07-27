@@ -21,20 +21,20 @@ into your browser as your login. Open Helperbird. Click the settings cog on the 
 dropdown will appear, click the settings option. A new tab with the Helperbird settings page will
 open.
 
-![](/assets/images/guide/cancel/open-settings-cog-click-settings.png)
+!['Click the Helperbird settings cog, on the top right'](/assets/images/guide/cancel/open-settings-cog-click-settings.png)
 
 Scroll down to the "Subscription" card. You will then see a button called Manage. Click it.
 
-![](/assets/images/guide/cancel/click-manage.png)
+!['Helperbirds click manage button'](/assets/images/guide/cancel/click-manage.png)
 
 This will bring up the Stripe settings Click the cancel subscription button.
 
-![](/assets/images/guide/cancel/click-cancel.png)
+!['Click cancel'](/assets/images/guide/cancel/click-cancel.png)
 
 Click the confirm cancel button.
 
-![](/assets/images/guide/cancel/confirm-with-cancel-button.png)
+!['Confirm and cancel Helperbird.'](/assets/images/guide/cancel/confirm-with-cancel-button.png)
 
 Thats it, you are now cancel. You can renew at any time.
 
-![](/assets/images/guide/cancel/you-are-now-cancel.png)
+!['Successful cancel page.'](/assets/images/guide/cancel/you-are-now-cancel.png)
