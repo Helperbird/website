@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: What is Helperbird Unlimited?
 featureDescription:
   What is Helperbird Unlimited?, discover what features are included in the paid version of

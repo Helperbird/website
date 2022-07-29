@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Speed reading
 featureDescription: How to use Speed reading on any website
 date: 2022-04-01

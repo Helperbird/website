@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Images and GIFs
 featureDescription: Learn how to remove or hide images on any website website or app.
 date: 2021-01-02

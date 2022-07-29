@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Manage my subscription
 featureDescription: Discover how to manage your Helperbird Pro subscription.
 tags: guideAccounts

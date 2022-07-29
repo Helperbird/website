@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Speed reading
 featureDescription:
   The Speed reading feature adds a gradient of colors to the text on any website, pdf or app.

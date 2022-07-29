@@ -13,6 +13,7 @@ keywords:
 
 url: partners/sascharoos/
 blog_cat: Helperbird partner
+youtubeId: PfILiWebkuc
 cardTitle: Sascha Roos MA, HDGC | Helperbird Partner
 blog_snip: ''
 ---

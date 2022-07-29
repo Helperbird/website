@@ -1,6 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title: Refund policy for Helperbird
+youtubeId: PfILiWebkuc
 cardTitle: Refund policy for Helperbird
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never

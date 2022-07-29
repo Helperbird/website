@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Reader mode
 featureDescription:
   Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera,

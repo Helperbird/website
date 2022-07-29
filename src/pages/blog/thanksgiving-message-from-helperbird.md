@@ -11,6 +11,7 @@ keywords:
 url: blog/thanksgiving-message-from-helperbird/
 tags: blog
 blog_cat: GUIDE
+youtubeId: PfILiWebkuc
 cardTitle: Thanksgiving day message from Helperbird
 blog_snip:
   On the day before Thanksgiving Helperbird wants to give thanks for what were most grateful for

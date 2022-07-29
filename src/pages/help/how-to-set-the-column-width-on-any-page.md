@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Column widths
 featureDescription: Learn how to set column widths on any website, pdf or app.
 tags: guideFeaturesMain

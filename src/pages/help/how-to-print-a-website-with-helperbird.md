@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Print
 featureDescription: Learn how to print a website in Chrome, Firefox and Edge.
 date: 2022-02-09

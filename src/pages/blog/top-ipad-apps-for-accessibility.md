@@ -16,6 +16,7 @@ keywords:
 url: blog/top-ipad-apps-for-accessibility/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Top iPad apps for Accessibility
 blog_snip:
   The Internet is a vast resource of information. But what happens when you can't access that

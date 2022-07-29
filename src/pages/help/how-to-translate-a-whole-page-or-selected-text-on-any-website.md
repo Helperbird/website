@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Translate
 featureDescription:
   How to translate a whole page or selected text on any website on Safrai, Chrome, Firefox or Edge.

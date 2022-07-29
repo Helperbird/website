@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Favorite a feature
 featureDescription:
   Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.

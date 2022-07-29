@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Highlight paragraphs
 featureDescription: Learn how to highlight paragraphs on any website, pdf or app.
 date: 2020-01-06

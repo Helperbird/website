@@ -13,6 +13,7 @@ keywords:
 url: blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
 tags: blog
 blog_cat: Guide
+youtubeId: PfILiWebkuc
 cardTitle: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work
 
 blog_snip:

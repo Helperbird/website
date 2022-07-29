@@ -14,6 +14,7 @@ keywords:
 url: blog/tv-and-movie-characters-with-dyslexia/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Tv and movie characters with dyslexia
 blog_snip:
   Children and adults often look at characters in movies and TV shows to look at for inspiration and

@@ -15,6 +15,7 @@ keywords:
 url: blog/how-to-add-extensions-to-safari/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: How to add an extension to Safari
 blog_snip:
   Safari is a powerful browser, and extensions are one of the many ways you can customize it for

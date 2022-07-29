@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Cancel my Helperbird subscription
 featureDescription: Discover how to cancel your Helperbird Pro subscription.
 tags: guideAccounts

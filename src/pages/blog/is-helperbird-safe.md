@@ -11,6 +11,7 @@ keywords:
 url: blog/is-helperbird-safe/
 tags: blog
 blog_cat: Guide
+youtubeId: PfILiWebkuc
 cardTitle: Is Helperbird safe to use?
 blog_snip: Is Helperbird safe to use?
 

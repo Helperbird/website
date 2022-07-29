@@ -10,6 +10,7 @@ keywords:
 
 url: support/how-to-login-into-helperbird/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: Login to Helperbird
 blog_snip: How to login to Helperbird
 ---

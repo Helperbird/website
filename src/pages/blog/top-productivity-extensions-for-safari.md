@@ -13,6 +13,7 @@ keywords:
 url: blog/top-productivity-extensions-for-safari/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Top Productivity Extensions for Safari
 blog_snip:
   As a business owner, you already know that the key to success is efficiency. You need to be able

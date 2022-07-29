@@ -11,6 +11,7 @@ keywords:
 
 url: support/how-to-annotate-any-website-or-pdf-with-a-browser-extension/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to annotate any website or pdf with Helperbird
 blog_snip:
   Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird

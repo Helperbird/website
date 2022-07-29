@@ -1,6 +1,7 @@
 ---
 layout: templates/blog_post.liquid
 title: Security statement for Helperbird
+youtubeId: PfILiWebkuc
 cardTitle: Security statement for Helperbird
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences

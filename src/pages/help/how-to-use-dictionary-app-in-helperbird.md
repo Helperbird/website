@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Dictionary
 featureDescription:
   Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.

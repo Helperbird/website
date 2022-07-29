@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Zoom and Magnifying
 featureDescription: Learn how easy it is to change the zoom or magnifying settings on any website.
 date: 2022-12-01

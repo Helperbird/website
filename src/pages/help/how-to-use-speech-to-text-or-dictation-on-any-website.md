@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Voice typing
 featureDescription: Learn how to use Helperbird voice typing feature on any website.
 date: 2019-01-02

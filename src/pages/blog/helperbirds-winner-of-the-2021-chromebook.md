@@ -13,6 +13,7 @@ keywords:
 url: blog/helperbirds-winner-of-the-2021-chromebook/
 tags: blog
 blog_cat: GUEST BLOG
+youtubeId: PfILiWebkuc
 cardTitle: Congratulations to our Winner
 blog_snip:
   In February 2021 we ran a competition to celebrate the start of the new School term, to win a

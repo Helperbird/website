@@ -11,6 +11,7 @@ keywords:
 url: blog/is-helperbird-free/
 tags: blog
 blog_cat: Guide
+youtubeId: PfILiWebkuc
 cardTitle: Is Helperbird free to use?
 blog_snip: Is Helperbird free to use?
 

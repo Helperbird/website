@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Download for iPhone
 featureDescription: Learn how to download Helperbird for iPhone. You will need iOS 15.0 or later.
 tags: iOSHelp

@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Unlock all features
 featureDescription:
   It might sound odd, cause of some requests from Apple. We have to hide Helperbirds paid features

@@ -13,6 +13,7 @@ keywords:
 url: blog/top-6-chrome-extensions-for-teachers/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Top 6 Chrome Extensions for Teachers
 blog_snip:
   Without further ado, below, we are sharing with you six different Chrome extensions that can help

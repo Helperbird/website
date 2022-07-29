@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Annotate
 featureDescription:
   There are two ways to use the sticky notes on any website, pdf or app in Helperbird. Making it

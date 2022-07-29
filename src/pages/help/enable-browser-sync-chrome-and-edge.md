@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Turn sync on and off
 featureDescription:
   To save your info to your Google or Microsoft Account, turn on sync. When you sync You can see and

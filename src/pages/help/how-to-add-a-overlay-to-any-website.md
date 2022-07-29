@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Overlay
 featureDescription:
   Learn how an overlay/tint is a transparent overlay that is placed on top of the website or pdf.

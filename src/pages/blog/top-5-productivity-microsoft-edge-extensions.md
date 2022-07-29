@@ -14,6 +14,7 @@ keywords:
 url: blog/top-5-productivity-microsoft-edge-extensions/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Top 5 Productivity Microsoft Edge Extensions
 blog_snip:
   If you're like a lot of people, you're probably thinking about ways you can become more productive

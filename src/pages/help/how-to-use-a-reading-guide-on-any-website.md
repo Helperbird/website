@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Reading guide
 featureDescription: Learn how to use a Reading guide on any website, pdf or app.
 date: 2022-03-02

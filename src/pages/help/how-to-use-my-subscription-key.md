@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Use my subscription key
 featureDescription:
   Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.

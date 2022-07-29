@@ -11,6 +11,7 @@ keywords:
 url: blog/how-to-install-helperbird-in-edu-accounts/
 tags: blog
 blog_cat: GUIDE
+youtubeId: PfILiWebkuc
 cardTitle: How to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 blog_snip: Your step by step guide on how to install and set up Helperbird.
 ---

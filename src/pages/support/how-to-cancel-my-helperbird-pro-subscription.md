@@ -10,6 +10,7 @@ keywords:
 
 url: support/how-to-cancel-my-helperbird-pro-subscription/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to cancel my Helperbird Pro subscription
 blog_snip: Discover how to cancel your Helperbird Pro subscription.
 ---

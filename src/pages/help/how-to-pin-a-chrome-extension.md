@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Pin a extension
 featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.

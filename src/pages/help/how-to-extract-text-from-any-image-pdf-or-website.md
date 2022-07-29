@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: OCR (Extract Text)
 featureDescription: Learn how to extract text from any image pdf or website with Helperbird.
 date: 2022-02-01

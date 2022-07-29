@@ -10,6 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: PDF support
 featureDescription: Learn how to use text to speech on pdfs, also immerive reader.
 tags: guideApps

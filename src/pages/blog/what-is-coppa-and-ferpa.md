@@ -13,6 +13,7 @@ keywords:
 url: blog/what-is-coppa-and-ferpa/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: What is COPPA and FERPA?
 blog_snip:
   The Children's Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act

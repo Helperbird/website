@@ -11,6 +11,7 @@ keywords:
 url: blog/how-to-install-and-set-up-helperbird/
 tags: blog
 blog_cat: GUIDE
+youtubeId: PfILiWebkuc
 cardTitle: How to install and set up Helperbird
 blog_snip: Learn how to deploy or install Helperbird in serveal computers at once.
 img: /assets/images/graph/twitter.png

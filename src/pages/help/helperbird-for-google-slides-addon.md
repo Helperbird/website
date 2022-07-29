@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Google Slides
 featureDescription:
   Helperbird for Google Docs add-on adds support to Google Documents. Allowing you to get even more

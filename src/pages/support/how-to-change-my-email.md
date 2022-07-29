@@ -10,6 +10,7 @@ keywords:
 
 url: support/how-to-change-my-email/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to change or update your email
 blog_snip: Discover how to update or change your email for Helperbird and Helperbird Pro.
 ---

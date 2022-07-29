@@ -10,6 +10,7 @@ keywords:
 
 url: support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to set custom shortcuts in Helperbird
 blog_snip:
 ---

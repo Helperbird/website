@@ -13,6 +13,7 @@ keywords:
 url: blog/how-to-avoid-wfh-burnout-and-maximize-productivity/
 tags: blog
 blog_cat: GUEST BLOG
+youtubeId: PfILiWebkuc
 cardTitle: How to Avoid WFH Burnout and Maximize Productivity
 blog_snip: While working from home looks convenient, the blurred line between home and employment
   can lead to burnout. In fact, Monster's recent study revealed that 69% of work-from-home employees

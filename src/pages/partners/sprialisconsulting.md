@@ -16,6 +16,7 @@ keywords:
 
 url: partners/sprialisconsulting/
 blog_cat: Helperbird partner
+youtubeId: PfILiWebkuc
 cardTitle: Jim Sprialis of Sprialis consulting | Helperbird Partner
 blog_snip: ''
 ---

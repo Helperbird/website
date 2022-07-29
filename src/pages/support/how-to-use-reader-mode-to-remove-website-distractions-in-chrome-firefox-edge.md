@@ -12,6 +12,7 @@ keywords:
 
 url: support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to use reader mode to remove website distractions in Chrome, Firefox & Edge
 blog_snip:
   How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By

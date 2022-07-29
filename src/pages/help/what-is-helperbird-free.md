@@ -9,6 +9,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: What is Helperbird free?
 featureDescription:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.

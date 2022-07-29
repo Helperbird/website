@@ -8,6 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
+youtubeId: PfILiWebkuc
 cardTitle: Cursor adjustments
 featureDescription: Learn how to change cursor size on any website or app.
 tags: guideFeaturesMain

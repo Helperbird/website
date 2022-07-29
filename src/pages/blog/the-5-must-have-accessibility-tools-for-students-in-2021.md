@@ -14,6 +14,7 @@ keywords:
 url: blog/the-5-must-have-accessibility-tools-for-students-in-2021/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: The 5 Must-Have Accessibility Tools for students in 2021
 blog_snip:
   With online learning and increased online activity, it's important that every student feels

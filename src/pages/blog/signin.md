@@ -11,6 +11,7 @@ keywords:
 url: blog/signin/
 tags: blog
 blog_cat: Guide
+youtubeId: PfILiWebkuc
 cardTitle: How to sign into Helperbird
 blog_snip:
   To sign in to your browser to unlock Helperbird Pro, you'll need a Google Account or an Microsoft

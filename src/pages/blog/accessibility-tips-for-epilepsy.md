@@ -14,6 +14,7 @@ keywords:
 url: blog/accessibility-tips-for-epilepsy/
 tags: blog
 blog_cat: Blog
+youtubeId: PfILiWebkuc
 cardTitle: Accessibility tips for Epilepsy
 blog_snip:
   Web designing is reinventing and there is no better time to do it than now. Having a great and

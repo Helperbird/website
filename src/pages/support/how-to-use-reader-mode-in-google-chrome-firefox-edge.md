@@ -11,6 +11,7 @@ keywords:
 
 url: support/how-to-use-reader-mode-in-google-chrome-firefox-edge/
 blog_cat: Support guide
+youtubeId: PfILiWebkuc
 cardTitle: How to use Reader Mode
 blog_snip:
   How to use Reader Mode in Google Chrome & Firefox and Microsoft Edge using Helperbird for free.
