@@ -127,7 +127,7 @@ function load() {
 
 						break;
 					}
-					case 'usd':
+					case 'usd': {
 						this.price.yearly.pro = '60.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/4gw7t9gtK6oc98I8wJ';
 
@@ -145,7 +145,8 @@ function load() {
 
 						this.price.currency = '$';
 						break;
-					case 'cad':
+					}
+					case 'cad': {
 						this.price.yearly.pro = '75.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/eVaeVBfpGh2Q3OocNd';
 
@@ -163,7 +164,8 @@ function load() {
 
 						this.price.currency = '$';
 						break;
-					case 'euro':
+					}
+					case 'euro': {
 						this.price.yearly.pro = '60.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/8wM9Bh4L2aEsacMfZv';
 
@@ -181,7 +183,8 @@ function load() {
 
 						this.price.currency = '€';
 						break;
-					case 'gbp':
+					}
+					case 'gbp': {
 						this.price.yearly.pro = '50.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/aEU9BhfpG5k8ckU5kW';
 
@@ -199,7 +202,8 @@ function load() {
 
 						this.price.currency = '£';
 						break;
-					case 'nz':
+					}
+					case 'nz': {
 						this.price.yearly.pro = '80.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/28o7t9a5m7sg3Oo7t8';
 
@@ -217,6 +221,7 @@ function load() {
 
 						this.price.currency = '$';
 						break;
+					}
 					default:
 						this.price.yearly.pro = '60.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/4gw7t9gtK6oc98I8wJ';
