@@ -128,13 +128,7 @@
 			"description": "Save and manage snippets of text, images, websites and videos using the notes feature.",
 			"link": "/features/notes/"
 		},
-		{
-			"icon": "/src/_includes/svgs/load.svg",
-			"group": "dyslexia",
-			"title": "Cognitive Load",
-			"description": "Using granular colours that underline text, users can find reading more comfortable and fun.",
-			"link": "/features/cognitive-load/"
-		},
+	
 		{
 			"icon": "/src/_includes/svgs/translate.svg",
 			"group": "learning",
