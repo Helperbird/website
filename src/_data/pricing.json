@@ -218,13 +218,6 @@
 			"pro": true,
 			"unlimited": true,
 			"student": true
-		},
-		{
-			"feature": "Coginitive load",
-			"free": false,
-			"pro": true,
-			"unlimited": true,
-			"student": true
 		}
 	],
 	"navigation": [

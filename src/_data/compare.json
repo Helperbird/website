@@ -207,11 +207,7 @@
 			"helperbird": true,
 			"other": false
 		},
-		{
-			"feature": "Coginitive load",
-			"helperbird": true,
-			"other": false
-		},
+
 		{
 			"feature": "Text to speech",
 			"helperbird": true,
@@ -575,11 +571,7 @@
 			"helperbird": true,
 			"other": false
 		},
-		{
-			"feature": "Coginitive load",
-			"helperbird": true,
-			"other": false
-		},
+
 		{
 			"feature": "Text to speech",
 			"helperbird": true,
@@ -943,11 +935,7 @@
 			"helperbird": true,
 			"other": false
 		},
-		{
-			"feature": "Coginitive load",
-			"helperbird": true,
-			"other": false
-		},
+	
 		{
 			"feature": "Text to speech",
 			"helperbird": true,

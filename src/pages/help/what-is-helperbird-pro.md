@@ -76,7 +76,6 @@ student deal for $40.00 a year.
 - Hide images
 - Reading guide
 - Line focus
-- Coginitive load
 - Highlighter
 - Text to speech
 - Text to speech options
