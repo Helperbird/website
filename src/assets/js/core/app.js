@@ -65,12 +65,13 @@ function load() {
 					this.writer = new Typewriter(`#${id}`, {
 						strings: [
 							'Reader mode',
-							'Speed reading',
+			
 							'Dyslexia support',
-							'text to speech',
+							'Text to speech',
 							'Voice typing',
 							'Word prediction',
 							'Text extracting',
+							'Speed reading',
 							'Tooltip reader'
 						],
 						autoStart: true,
@@ -106,7 +107,7 @@ function load() {
 
 			priceDetails: function () {
 				switch (this.currency) {
-					case 'aud':
+					case 'aud': {
 						this.price.yearly.pro = '80.57';
 						this.price.yearly.proLink = 'https://buy.stripe.com/aEUaFl0uMfYM98I9AW';
 
@@ -125,6 +126,7 @@ function load() {
 						this.price.currency = '$';
 
 						break;
+					}
 					case 'usd':
 						this.price.yearly.pro = '60.00';
 						this.price.yearly.proLink = 'https://buy.stripe.com/4gw7t9gtK6oc98I8wJ';
