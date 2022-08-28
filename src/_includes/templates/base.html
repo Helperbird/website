@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-		<title>{{ title }}</title>
+		<title>{{ title }} - Helperbird</title>
 		{% bundledCss %}
 		<script>
 			if ('serviceWorker' in navigator) {
@@ -206,7 +206,7 @@
 					{{ content | safe }}
 				</div>
 			</main>
-			{% include templates/footer.html %} {% include common/pricing_banner.html %}
+			{% include templates/footer.html %} 
 		</div>
 	</body>
 	{% bundledJs %}
