@@ -36,3 +36,5 @@ Learn how to [login to Helperbird Pro.](https://helperbird.com/help/how-to-login
 - You can now edit, update or change your email.
 
 
+## Or ask support
+If you contact support, we will be more than happy to help you. You will just need to confirm a few details.
