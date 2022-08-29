@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to update my credit card
-description: Learn how to update my credit card information in Helperbird.
+title: How to change my email
+description: Learn how to change the email linked to your Helperbird acount.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,10 +9,10 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Update my credit card
-featureDescription:  Learn how to update my credit card information in Helperbird.
+cardTitle: Change my email
+featureDescription:  Learn how to change your email
 tags: guideAccounts
-url: help/how-to-update-my-credit-card/
+url: help/how-to-change-my-email/
 ---
 
 ## Important
@@ -22,7 +22,7 @@ to Helperbird Pro with on your browser.
 Learn how to [login to Helperbird Pro.](https://helperbird.com/help/how-to-login-to-helperbird/)
 
 
-## How to change my credit card information
+## How to update my email address
 
 - First you need Helperbird installed.
 - Once you have Helperbird installed, you need to be logged in with the same email you signed up to
@@ -31,6 +31,8 @@ Learn how to [login to Helperbird Pro.](https://helperbird.com/help/how-to-login
 - A popup will appear.
 - Click the settings cog.
 - It will open a new tab.
-- Scroll down to the subscriptions section.
-- Click the manage subscription button.
-- You can now edit, remove or add a new credit card information.
+- Scroll down to the account section.
+- Click the edit account button
+- You can now edit, update or change your email.
+
+
