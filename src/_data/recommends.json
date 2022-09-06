@@ -14,5 +14,13 @@
 			"url": "https://jointoucan.com/?utm_source=helperbird&utm_medium=extension&utm_campaign=beeline&utm_content=beeline",
 			"location": "Extension"
 		}
+		,
+		{
+			"title": "OpenDyslexic font",
+			"img": "/assets/images/recommends/opendyslexic.png",
+			"des": " Format pages using the OpenDyslexic font and low contrast help",
+			"url": "https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en",
+			"location": "Extension"
+		}
 	]
 }
