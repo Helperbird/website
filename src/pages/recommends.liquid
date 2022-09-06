@@ -1,0 +1,81 @@
+---
+layout: templates/base.html
+title: Recommended by Helperbird
+youtubeId: PfILiWebkuc
+cardTitle: Recommended by Helperbird
+description: Here at Helperbird, we believe in choice, some people love iPhones over Androids others love Ford over Volkswagen. That's why we have launched a new page Helperbird recommends. A page of other apps we love or recommend to help you.
+keywords: Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+
+
+url: recommends/
+---
+
+
+<div>
+
+
+	<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+	  <div class="text-center">
+		
+		<h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Helperbird recommends</h1>
+		<p class="max-w-xl mt-5 mx-auto text-xl   text-black ">Here at Helperbird, we believe in choice, some people love iPhones over Androids others love Ford over Volkswagen. That's why we have launched a new page Helperbird recommends. A page of other apps we love or recommend to help you.</p>
+	  </div>
+	</div>
+
+
+
+  
+
+
+
+
+
+<div>
+	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+		<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Helperbird recommends</h2>
+		<p class="mt-3  text-xl   text-black  sm:mt-4">Our current favioute and recommendations. <br> This page will be updated bi-weekly but has everything from edtech tools, to fun apps.
+            If you would like to recommend an app or tool, email us at support@helperbird.com</p>
+		<div
+			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
+		>
+
+
+
+		
+
+		{%- for app in recommends.apps -%}
+  
+		
+	
+		<div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white rounded-lg  card ">
+			<div class="card-body">
+				<div class="flex-shrink-0">
+					<img alt="Photo of Helperbirds user" class="h-48 w-full object-cover" src="{{ app.img }}">
+				</div>
+				<div class="flex-1 bg-white  flex flex-col justify-between">
+					<div class="flex-1">
+					
+			
+						<p class="text-xl font-semibold text-gray-900">{{ app.title}}</p>
+						<p class="mt-3 text-base   text-black ">{{ app.des}}</p></a>
+					</div>
+					<div class="mt-6 flex items-center">
+						<a class=" decoration-pink-500 w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10" href="{{ app.url }}" target="_blank" rel="noreferrer">Download today!</a>
+		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{%- endfor -%}
+
+		
+		</div>
+	</div>
+</div>
+
+
+</div>
