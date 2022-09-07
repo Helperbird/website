@@ -21,6 +21,13 @@
 			"des": " Format pages using the OpenDyslexic font and low contrast help",
 			"url": "https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en",
 			"location": "Extension"
+		},
+		{
+			"title": "EduChange.com",
+			"img": "/assets/images/recommends/educhange.png",
+			"des": " We pioneered Open Learning Architecture™ to reinvent science class for ages 13-20. Global issues & PBL power 36+ modules & competency-based assessment. 4 implementation models deliver coherent, rigorous learning for real-world STEM.",
+			"url": "https://educhange.com/",
+			"location": "Website"
 		}
 	]
 }
