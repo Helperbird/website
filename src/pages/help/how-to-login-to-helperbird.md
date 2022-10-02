@@ -18,9 +18,7 @@ url: help/how-to-login-to-helperbird/
 
 ## Login to Helperbird for Chrome or Edge
 
-### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F4NOpAfrYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Text Tutorial
 
@@ -95,3 +93,10 @@ Unlike Helperbird for Chrome or Helperbird Edge, you will need to use the Subscr
 - If a subscription is found, you will get confetti and a message saying you a subscription was
   found.
 - If you do not have a subscription, you will get a message saying you do not have a subscription.
+
+### Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+
+<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/F4NOpAfrYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

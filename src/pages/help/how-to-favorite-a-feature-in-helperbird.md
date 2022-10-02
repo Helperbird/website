@@ -16,9 +16,6 @@ tags: guideFeatures
 url: help/how-to-favorite-a-feature-in-helperbird/
 ---
 
-## Video Tutorial
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KcAxQslBjOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to favorite a feature
 
@@ -42,3 +39,12 @@ Favoriting a feature it will put it on top of the list.
 - Choose the unfavorite this feature.
 - The feature will be removed from of the list.
 - A red heart will also be removed from top right of the feature.
+
+
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+
+<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/KcAxQslBjOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

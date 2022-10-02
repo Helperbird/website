@@ -22,9 +22,7 @@ url: help/helperbird-for-ios-ipad-iphone-is-missing-features/
 ## Heres how
 
 - First, you need to be on your iPad or iPhone.
-- Have
-  [Helperbird for Sarfai](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 'Helperbird for Safari link')
-  installed.
+- Have [Helperbird for Safari](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 'Helperbird for Safari link') installed.
 - Now, go to the settings app on your iPad or iPhone.
 - Scroll until you see Safari.
 - Click on Safari.

@@ -18,8 +18,7 @@ url: help/installing-helperbird/
 
 ## Helperbird for Google Chrome
 
-- Visit the
-  [Google Chrome web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
+- Visit the [Google Chrome web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
 - Once there, click the "Add to Chrome" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
@@ -28,8 +27,7 @@ url: help/installing-helperbird/
 
 ## Helperbird for Mozilla Firefox
 
-- Visit the
-  [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird/).
+- Visit the [Mozilla Firefox web extension store](https://addons.mozilla.org/en-US/firefox/addon/helperbird/).
 - Once there, click the "Install" button.
 - It will take a few moments to install.
 - Helperbird will be installed and ready to use.
@@ -45,8 +43,7 @@ url: help/installing-helperbird/
 
 ## Helperbird for Google Docs
 
-- Visit the
-  [Google Docs web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
+- Visit the [Google Docs web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
 - Once there, click the "Add addon" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.
@@ -55,8 +52,7 @@ url: help/installing-helperbird/
 
 ## Helperbird for Google Slides
 
-- Visit the
-  [Google Slides web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
+- Visit the [Google Slides web extension store](https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme).
 - Once there, click the "Add addon" button.
 - It will ask you for permission to install.
 - It will take a few moments to install.

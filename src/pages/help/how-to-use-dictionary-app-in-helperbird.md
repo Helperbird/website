@@ -17,10 +17,6 @@ tags: guideApps
 url: help/how-to-use-dictionary-app-in-helperbird/
 ---
 
-## Video Tutorial
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I9roND7OdUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## How define any word or sentence
 
 - First you need to download Helperbird.
@@ -43,3 +39,11 @@ url: help/how-to-use-dictionary-app-in-helperbird/
 - Right click and choose the choose Helperbird.
 - Than choose Define word.
 - It will than open a new tab and show the definition of the word or sentence.
+
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+
+<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/I9roND7OdUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

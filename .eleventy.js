@@ -107,13 +107,14 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addTransform('social-image', async function (content) {
 		// only handle blog posts
-		if (this.inputPath.endsWith('.njk')) return content;
+		if (this.inputPath.endsWith('.njk')) {
+			return content;
+		}
 
 		try {
 			await createSocialImageForArticle(
 				// our input article
 				this.inputPath,
-
 				// the output image name
 				this.outputPath.replace('.html', '.png')
 			);
@@ -145,10 +146,24 @@ module.exports = function (eleventyConfig) {
 	});
 
 	let markdownIt = require('markdown-it');
+	let markdownItClass = require('@toycode/markdown-it-class');
 	let options = {
 		html: true,
 		breaks: true,
 		linkify: true
+	};
+
+	const mapping = {
+		h1: 'font-display text-3xl tracking-tight text-slate-900 dark:text-white  mb-4',
+		h2: 'dark:text-white mb-4',
+		h3: 'dark:text-white mb-4',
+		strong: 'dark:text-white',
+		bold: 'dark:text-white',
+		ul: 'list-none',
+		ol: 'list-none',
+		li: 'list-none',
+		a: ' hover:underline hover:decoration-wavy ',
+		iframe: 'w-full h-96 rounded-lg shadow-lg m-10'
 	};
 
 	eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
@@ -165,7 +180,7 @@ module.exports = function (eleventyConfig) {
 		return content;
 	});
 
-	eleventyConfig.setLibrary('md', markdownIt(options));
+	eleventyConfig.setLibrary('md', markdownIt(options).use(markdownItClass, mapping));
 	eleventyConfig.setLiquidOptions({
 		dynamicPartials: false,
 		strictFilters: false // renamed from `strict_filters` in Eleventy 1.0

@@ -20,7 +20,7 @@ function load() {
 			unlimitedLink: '',
 			openModal: false,
 			currency: 'usd',
-
+			docsMenu: false,
 			price: {
 				monthly: {
 					pro: '6.99',
