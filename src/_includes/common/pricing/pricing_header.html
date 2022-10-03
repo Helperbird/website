@@ -1,21 +1,21 @@
-<div class="bg-indigo-900">
+<div class="bg-blue-900">
 	<div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
 		<div class="px-0 sm:px-4 lg:flex lg:items-center lg:justify-between lg:px-0">
 			<div class="max-w-xl">
 				<h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
 					Simple no-tricks pricing
 				</h2>
-				<p class="mt-5 text-xl text-indigo-300">
+				<p class="mt-5 text-xl text-blue-300">
 					Everything you need, nothing you don't. Pick a plan that best suits your needs.
 				</p>
 
 				<div class="relative mt-6 flex justify-start sm:mt-6">
-					<div class="flex rounded-lg bg-indigo-700 p-0.5">
+					<div class="flex rounded-lg bg-blue-700 p-0.5">
 						<button
 							@click="switchType"
 							type="button"
-							class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-indigo-200 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
-							v-bind:class="!isYearly ? ' bg-white text-indigo-700 hover:bg-indigo-50' : ' hover:bg-indigo-800 '"
+							class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-blue-200 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-700"
+							v-bind:class="!isYearly ? ' bg-white text-blue-700 hover:bg-blue-50' : ' hover:bg-blue-800 '"
 						>
 							Monthly billing
 						</button>
@@ -24,8 +24,8 @@
 							<button
 								@click="switchType"
 								type="button"
-								class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-indigo-200 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
-								v-bind:class="isYearly ? ' bg-white text-indigo-700 hover:bg-indigo-50' : ' hover:bg-indigo-800 '"
+								class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-blue-200 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-700"
+								v-bind:class="isYearly ? ' bg-white text-blue-700 hover:bg-blue-50' : ' hover:bg-blue-800 '"
 							>
 								Yearly billing
 							</button>
@@ -34,13 +34,13 @@
 				</div>
 			</div>
 			<div class="mt-10 w-full max-w-xs lg:mt-0">
-				<label for="currency" class="block text-base font-medium text-indigo-300">Currency</label>
+				<label for="currency" class="block text-base font-medium text-blue-300">Currency</label>
 				<div class="relative mt-1.5">
 					<select
 						id="currency"
 						name="currency"
 						v-model="currency"
-						class="block w-full rounded-md border border-transparent bg-indigo-400 bg-opacity-25 bg-none text-white focus:border-white focus:ring-white"
+						class="block w-full rounded-md border border-transparent bg-blue-400 bg-opacity-25 bg-none text-white focus:border-white focus:ring-white"
 					>
 						<option class="bg-gray-900" value="aud">Australia (AUD) 🇦🇺</option>
 						<option class="bg-gray-900" value="usd" selected="selected">
