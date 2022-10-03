@@ -1,11 +1,11 @@
-<nav class="bg-gray-800" style="background-color: #102759">
+<nav class="sticky top-0 z-50"  style="background-color: rgb(246, 245, 231)">
 	<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 		<div class="relative flex h-20 items-center justify-between">
 			<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
 				<!-- Mobile menu button-->
 				<button
 					type="button"
-					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
 					aria-controls="mobile-menu"
 					aria-expanded="false"
 					@click="handleMobileMenu"
@@ -60,20 +60,20 @@
 					/></a>
 				</div>
 				<div class="hidden sm:ml-6 sm:block">
-					<div class="flex space-x-4 text-white">
-						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+					<div class="flex space-x-4 text-black">
+						<!-- Current: "bg-gray-900 text-black", Default: "text-gray-300 hover:bg-gray-700 hover:text-black" -->
 						<a
 							href="/about/"
-							class="btn btn-ghost text-base font-medium hover:bg-black"
+							class="btn btn-ghost text-base font-medium  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							aria-current="page"
 							>About</a
 						>
 
-						<a href="/features/" class="btn btn-ghost text-base font-medium hover:bg-black"
+						<a href="/features/" class="btn btn-ghost text-base font-medium  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							>Features</a
 						>
 						<div data-tip="No credit card required." class="tooltip tooltip-bottom tooltip-open tooltip-secondary" data-medium-editor-element="true" aria-multiline="true" data-medium-editor-editor-index="1" medium-editor-index="43c56b0d-dd21-af9d-a15f-19c395a076c7">
-						<a href="/pricing/" class="btn btn-ghost text-base font-medium hover:bg-black"
+						<a href="/pricing/" class="btn btn-ghost text-base font-medium  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							>Pricing</a
 						>
 						</div>
@@ -81,7 +81,7 @@
 						<div class="dropdown-end dropdown">
 							<button
 								role="button"
-								class="btn btn-ghost gap-2 text-base font-medium hover:bg-black"
+								class="btn btn-ghost gap-2 text-base font-medium  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							>
 								Compare
 
@@ -154,7 +154,7 @@ alt="Read & Writes logo with a cartoon icon"
 						<div class="dropdown-end dropdown">
 							<button
 								role="button"
-								class="btn btn-ghost gap-2 text-base font-medium hover:bg-black"
+								class="btn btn-ghost gap-2 text-base font-medium  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							>
 								Support
 								<svg
@@ -346,35 +346,35 @@ alt="Read & Writes logo with a cartoon icon"
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div class="sm:hidden" id="mobile-menu" v-if="showMobileMenu === true">
 		<div class="space-y-1 px-2 pt-2 pb-3">
-			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+			<!-- Current: "bg-gray-900 text-black", Default: "text-gray-300 hover:bg-gray-700 hover:text-black" -->
 			<a
 				href="/about/"
-				class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+				class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-black"
 				aria-current="page"
 				>About</a
 			>
 
 			<a
 				href="/features/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
 				>Features</a
 			>
 
 			<a
 				href="/pricing/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
 				>Pricing</a
 			>
 
 			<a
 				href="/compare/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
 				>Compare</a
 			>
 
 			<a
 				href="/support/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
 				>Support</a
 			>
 		</div>

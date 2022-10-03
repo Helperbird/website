@@ -1,157 +1,189 @@
-<!-- This example requires Tailwind CSS v2.0+-->
 <div
-	class="fixed inset-0 z-10 hidden overflow-y-auto"
+	class="relative z-10"
 	v-bind:style="showModal ?'display:block !important;' : 'display: none !important;'"
+	aria-labelledby="modal-title"
+	role="dialog"
+	aria-modal="true"
 >
-	<div
-		class="flex min-h-screen items-end justify-center px-4 pt-4 pb-20 text-center sm:block sm:p-0"
-	>
-		<div class="fixed inset-0 transition-opacity" aria-hidden="true">
-			<div class="0 absolute inset-0 bg-white opacity-75"></div>
-		</div>
-		<!-- This element is to trick the browser into centering the modal contents.-->
-		<span class="hidden sm:inline-block sm:h-screen sm:align-middle" aria-hidden="true"
-			>&ZeroWidthSpace;</span
-		>
-		<div
-			class="inline-block transform overflow-hidden rounded-lg bg-white align-bottom shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:align-middle"
-			role="dialog"
-			aria-modal="true"
-			aria-labelledby="modal-headline"
-		>
-			<div class="h-8 w-auto">
-				<button
-					class="btn btn-outline btn-circle m-4"
-					style="float: right !important"
-					@click="handleModal"
-					role="button"
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
+	<div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+	<div class="fixed inset-0 z-10 overflow-y-auto">
+		<div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+			<div
+				class="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
+			>
+				<div class="absolute top-0 right-0 hidden pt-4 pr-4 sm:block">
+					<button
+						type="button"
+						@click="handleModal"
+						class="btn btn-ghost  rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					</svg>
-				</button>
-			</div>
-			<div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-				<div
-					class="grid grid-cols-3 gap-x-6 gap-y-12 sm:grid-cols-3 lg:mt-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
-				>
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/chrome.png"
-							width="60px"
-							height="60px"
-						/>
-						<a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
-							rel="noopener"
-							target="_blank"
-							rel="noreferrer"
+						<span class="sr-only">Close</span>
+						<!-- Heroicon name: outline/x-mark -->
+						<svg
+							class="h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							aria-hidden="true"
 						>
-							<span>Chrome</span>
-						</a>
-					</div>
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/firefox.png"
-							width="60px"
-							height="60px"
-						/><a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
-							rel="noreferrer"
-							target="_blank"
-							rel="noreferrer"
-							><span>Firefox</span></a
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</button>
+				</div>
+				<div class="sm:flex sm:items-start">
+					<ul
+						role="list"
+						class="grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3"
+					>
+						<li
+							class="col-span-1 flex flex-col divide-y  text-center "
 						>
-					</div>
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/edge.png"
-							width="60px"
-							height="60px"
-						/><a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
-							rel="noreferrer"
-							target="_blank"
-							rel="noreferrer"
-							><span>Edge</span></a
-						>
-					</div>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/chrome.png"
+									width="100"
+									height="100"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-green-500 hover:underline hover:decoration-wavy"
+									href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>Chrome</span>
+								</a>
+							</div>
+						</li>
 
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/docs.png"
-							width="60px"
-							height="60px"
-						/><a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-							rel="noreferrer"
-							target="_blank"
-							rel="noreferrer"
-							><span> Docs</span></a
+						<li
+							class="col-span-1 flex flex-col divide-y    text-center "
 						>
-					</div>
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/slides.png"
-							width="60px"
-							height="60px"
-						/><a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-							rel="noreferrer"
-							target="_blank"
-							rel="noreferrer"
-							><span> Slides</span></a
-						>
-					</div>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/firefox.png"
+									width="60px"
+									height="60px"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-red-500 hover:underline hover:decoration-wavy"
+									href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>Firefox</span>
+								</a>
+							</div>
+						</li>
 
-					<div>
-						<img
-							class="mx-auto block items-center justify-center"
-							alt="Firefox logo"
-							loading="lazy"
-							src="/assets/images/home/safari.png"
-							width="60px"
-							height="60px"
-						/><a
-							class="btn btn-accent btn-sm btn-block mt-4"
-							href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
-							rel="noreferrer"
-							target="_blank"
-							rel="noreferrer"
-							><span> Safari/iOs </span></a
+						<li
+							class="col-span-1 flex flex-col divide-y    text-center "
 						>
-					</div>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/edge.png"
+									width="60px"
+									height="60px"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-blue-500 hover:underline hover:decoration-wavy"
+									href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>Edge</span>
+								</a>
+							</div>
+						</li>
+
+						<li
+							class="col-span-1 flex flex-col divide-y    text-center "
+						>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/docs.png"
+									width="60px"
+									height="60px"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-blue-500 hover:underline hover:decoration-wavy"
+									href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>Docs</span>
+								</a>
+							</div>
+						</li>
+
+						<li
+							class="col-span-1 flex flex-col divide-y    text-center "
+						>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/slides.png"
+									width="60px"
+									height="60px"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-yellow-500 hover:underline hover:decoration-wavy"
+									href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>Slides</span>
+								</a>
+							</div>
+						</li>
+
+						<li
+							class="col-span-1 flex flex-col divide-y    text-center "
+						>
+							<div class="flex flex-1 flex-col p-8">
+								<img
+									class="mx-auto  w-32 flex-shrink-0 rounded-full"
+									alt="Google Chrome logo"
+									loading="lazy"
+									src="/assets/images/home/safari.png"
+									width="60px"
+									height="60px"
+								/>
+								<a
+									class="btn btn-outline  btn-sm btn-block mt-8 no-underline decoration-orange-500 hover:underline hover:decoration-wavy"
+									href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
+									rel="noopener"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<span>iOs</span>
+								</a>
+							</div>
+						</li>
+
+						<!-- More people... -->
+					</ul>
 				</div>
 			</div>
 		</div>

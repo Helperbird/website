@@ -190,29 +190,29 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 	</head>
-	<body class="bg-white dark:bg-slate-900">
-		<div id="helperbird-website">
+	<body class="bg-white " theme="light">
+		<div id="helperbird-website" >
 			{% include templates/header.html %}
 
 			<div class="max-w-8xl relative mx-auto flex justify-center sm:px-2 lg:px-8 xl:px-12">
 				<div class="hidden lg:relative lg:block lg:flex-none">
-					<div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden"></div>
+					<div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 "></div>
 					<div
-						class="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block"
+						class="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800"
 					></div>
-					<div class="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 dark:block"></div>
+					<div class="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 "></div>
 					<div
 						class="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5"
 					>
 						<nav class="w-64 pr-8 text-base lg:text-sm xl:w-72 xl:pr-16">
 							<ul role="list" class="space-y-9">
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										🏃 Getting started
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for guide in collections.guideFeatures -%}
 
@@ -220,7 +220,7 @@
 											<a
 												href="{{ guide.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ guide.data.cardTitle }}
 											</a>
@@ -230,12 +230,12 @@
 									</ul>
 								</li>
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										📋 Features
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for features in collections.guideFeaturesMain -%}
 
@@ -243,7 +243,7 @@
 											<a
 												href="{{ features.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ features.data.cardTitle }}
 											</a>
@@ -253,12 +253,12 @@
 									</ul>
 								</li>
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										📚 Integrations
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for integration in collections.guideIntegrations -%}
 
@@ -266,7 +266,7 @@
 											<a
 												href="{{ integration.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ integration.data.cardTitle }}
 											</a>
@@ -276,10 +276,10 @@
 									</ul>
 								</li>
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">💬 Apps</h2>
+									<h2 class="font-display font-medium text-slate-900 ">💬 Apps</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000  mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for apps in collections.guideApps -%}
 
@@ -287,7 +287,7 @@
 											<a
 												href="{{ apps.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ apps.data.cardTitle }}
 											</a>
@@ -297,12 +297,12 @@
 									</ul>
 								</li>
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										📱 iPad & iPhone
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for account in collections.iOSHelp -%}
 
@@ -310,7 +310,7 @@
 											<a
 												href="{{ account.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block  "
 											>
 												{{ account.data.cardTitle }}
 											</a>
@@ -321,12 +321,12 @@
 								</li>
 
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										🫶 Tips & Tricks
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for account in collections.tricksHelp -%}
 
@@ -334,7 +334,7 @@
 											<a
 												href="{{ account.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ account.data.cardTitle }}
 											</a>
@@ -345,12 +345,12 @@
 								</li>
 
 								<li>
-									<h2 class="font-display font-medium text-slate-900 dark:text-white">
+									<h2 class="font-display font-medium text-slate-900 ">
 										👤 Account
 									</h2>
 									<ul
 										role="list"
-										class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 									>
 										{%- for account in collections.guideAccounts -%}
 
@@ -358,7 +358,7 @@
 											<a
 												href="{{ account.url }}"
 												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 											>
 												{{ account.data.cardTitle }}
 											</a>
@@ -402,12 +402,12 @@
 									Side Menu
 								</button>
 							</div>
-							<h1 class="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
+							<h1 class="font-display text-3xl tracking-tight text-slate-900 ">
 								{{cardTitle}}
 							</h1>
 						</header>
 						<div
-							class="prose-headings:font-display prose prose-slate max-w-none prose-headings:scroll-mt-28 prose-headings:font-normal prose-a:font-semibold prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:prose-a:[--tw-prose-underline-size:6px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg prose-lead:text-slate-500 dark:prose-invert dark:text-slate-400 dark:[--tw-prose-background:theme(colors.slate.900)] dark:prose-a:text-sky-400 dark:prose-a:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.sky.800))] dark:hover:prose-a:[--tw-prose-underline-size:6px] dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10 dark:prose-hr:border-slate-800 dark:prose-lead:text-slate-400 lg:prose-headings:scroll-mt-[8.5rem]"
+							class="prose-headings:font-display prose prose-slate max-w-none prose-headings:scroll-mt-28 prose-headings:font-normal prose-a:font-semibold prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:prose-a:[--tw-prose-underline-size:6px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg prose-lead:text-slate-500  lg:prose-headings:scroll-mt-[8.5rem]"
 						>
 							{{ content | safe }}
 						</div>
@@ -468,12 +468,12 @@
 											<nav class="flex-1 space-y-1 bg-white px-2" aria-label="Sidebar">
 												<ul role="list" class="space-y-9">
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															🏃 Getting started
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for guide in collections.guideFeatures -%}
 
@@ -481,7 +481,7 @@
 																<a
 																	href="{{ guide.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ guide.data.cardTitle }}
 																</a>
@@ -491,12 +491,12 @@
 														</ul>
 													</li>
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															📋 Features
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for features in collections.guideFeaturesMain -%}
 
@@ -504,7 +504,7 @@
 																<a
 																	href="{{ features.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ features.data.cardTitle }}
 																</a>
@@ -514,12 +514,12 @@
 														</ul>
 													</li>
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															📚 Integrations
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for integration in collections.guideIntegrations -%}
 
@@ -527,7 +527,7 @@
 																<a
 																	href="{{ integration.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ integration.data.cardTitle }}
 																</a>
@@ -537,12 +537,12 @@
 														</ul>
 													</li>
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															💬 Apps
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for apps in collections.guideApps -%}
 
@@ -550,7 +550,7 @@
 																<a
 																	href="{{ apps.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ apps.data.cardTitle }}
 																</a>
@@ -560,12 +560,12 @@
 														</ul>
 													</li>
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															📱 iPad & iPhone
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for account in collections.iOSHelp -%}
 
@@ -573,7 +573,7 @@
 																<a
 																	href="{{ account.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ account.data.cardTitle }}
 																</a>
@@ -584,12 +584,12 @@
 													</li>
 
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															🫶 Tips & Tricks
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for account in collections.tricksHelp -%}
 
@@ -597,7 +597,7 @@
 																<a
 																	href="{{ account.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ account.data.cardTitle }}
 																</a>
@@ -608,12 +608,12 @@
 													</li>
 
 													<li>
-														<h2 class="font-display font-medium text-slate-900 dark:text-white">
+														<h2 class="font-display font-medium text-slate-900 ">
 															👤 Account
 														</h2>
 														<ul
 															role="list"
-															class="border-slate-000 dark:border-slate-000 lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
 														>
 															{%- for account in collections.guideAccounts -%}
 
@@ -621,7 +621,7 @@
 																<a
 																	href="{{ account.url }}"
 																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300"
+																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
 																>
 																	{{ account.data.cardTitle }}
 																</a>
