@@ -13,6 +13,7 @@ keywords:
 
 url: blog/top-five-features-of-helperbird-to-help-your-students-in-2021/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top 5 features of Helperbird to help your students in 2021

@@ -10,6 +10,7 @@ keywords:
 
 url: blog/how-to-install-and-set-up-helperbird/
 tags: blog
+isBlog: true
 blog_cat: GUIDE
 youtubeId: PfILiWebkuc
 cardTitle: How to install and set up Helperbird

@@ -33,7 +33,7 @@ url: blog/
 			{%- for post  in collections.blog reversed -%}
 
 
-			<div class="flex flex-col shadow-lg overflow-hidden bg-white rounded-lg p-6  ">
+			<div class="flex flex-col shadow-lg overflow-hidden bg-white rounded-xl p-6  ">
 				<div class="flex-shrink-0"><img alt="{{ post.data.cardTitle}}" class="h-48 w-full object-cover" src="{{ post.data.img || '/assets/images/graph/twitter.png'}}"></div>
 				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 					<div class="flex-1">

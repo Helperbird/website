@@ -17,6 +17,7 @@ img: /assets/images/blog/6-famous-people-with-dyslexia/6-famous-people-with-dysl
 date: Created
 time: 5 min
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: 6 Famous People with Dyslexia

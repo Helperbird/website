@@ -11,6 +11,7 @@ keywords:
   OpenDyslexic
 
 url: support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to annotate and highlight Pdfs online

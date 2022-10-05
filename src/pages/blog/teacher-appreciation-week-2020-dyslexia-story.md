@@ -12,6 +12,7 @@ keywords:
 
 url: blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
+isBlog: true
 blog_cat: TEACHER APPRECIATION WEEK.
 youtubeId: PfILiWebkuc
 cardTitle: How a teacher helped me achieve my full potential

@@ -12,6 +12,7 @@ keywords:
 
 url: blog/helperbirds-winner-of-the-2021-chromebook/
 tags: blog
+isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: PfILiWebkuc
 cardTitle: Congratulations to our Winner

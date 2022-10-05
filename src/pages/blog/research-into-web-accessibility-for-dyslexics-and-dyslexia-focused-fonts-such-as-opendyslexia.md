@@ -13,6 +13,7 @@ keywords:
 
 url: blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/
 tags: blog
+isBlog: true
 blog_cat: Research
 cardTitle:
   Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic

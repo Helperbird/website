@@ -9,6 +9,7 @@ keywords:
   OpenDyslexic
 
 url: support/cancel/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to cancel my Helperbird Pro subscription

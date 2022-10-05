@@ -13,6 +13,7 @@ keywords:
 
 url: blog/accessibility-tips-for-epilepsy/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Accessibility tips for Epilepsy

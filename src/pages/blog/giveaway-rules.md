@@ -10,6 +10,7 @@ keywords:
 
 url: blog/giveaway-rules/
 tags: blog
+isBlog: true
 blog_cat: GUIDE
 youtubeId: PfILiWebkuc
 cardTitle: Rules for the Helperbird giveaway official rules

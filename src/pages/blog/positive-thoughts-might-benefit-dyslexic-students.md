@@ -10,6 +10,7 @@ keywords:
 
 url: blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
+isBlog: true
 blog_cat: Guide
 youtubeId: PfILiWebkuc
 cardTitle: TODAY WILL BE A GOOD DAY

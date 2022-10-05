@@ -14,6 +14,7 @@ keywords:
 
 url: blog/how-to-add-extensions-to-safari/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: How to add an extension to Safari

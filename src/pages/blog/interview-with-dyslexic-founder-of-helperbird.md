@@ -14,6 +14,7 @@ keywords:
 
 url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Interview with Helperbird founder, Robert James Gabriel

@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Refund policy for Helperbird
+title: Refund policy
 youtubeId: PfILiWebkuc
 cardTitle: Refund policy for Helperbird
 description:
@@ -11,8 +11,9 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
 url: refund/
+isBlog: false
 blog_cat: ''
 blog_snip: ''
 ---

@@ -12,6 +12,7 @@ keywords:
 
 url: blog/what-is-coppa-and-ferpa/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: What is COPPA and FERPA?

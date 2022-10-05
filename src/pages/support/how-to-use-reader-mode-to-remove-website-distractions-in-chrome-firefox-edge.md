@@ -11,6 +11,7 @@ keywords:
   OpenDyslexic
 
 url: support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-firefox-edge/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to use reader mode to remove website distractions in Chrome, Firefox & Edge

@@ -12,6 +12,7 @@ keywords:
 
 url: blog/top-productivity-extensions-for-safari/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top Productivity Extensions for Safari

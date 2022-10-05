@@ -9,6 +9,7 @@ keywords:
   OpenDyslexic
 
 url: partners/bonnie-shaver-troup/
+isBlog: true
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
 cardTitle: Dr Bonnie Shaver-Troup, EdD | Helperbird Partner

@@ -13,6 +13,7 @@ keywords:
 
 url: blog/top-5-productivity-microsoft-edge-extensions/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top 5 Productivity Microsoft Edge Extensions

@@ -10,7 +10,7 @@
 			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
 		>
 			{%- for app in apps.all -%}
-			<div class="rounded-lg bg-white p-6" style="background: {{ app.color }}">
+			<div class="rounded-xl bg-white p-6" style="background: {{ app.color }}">
 				<div>
 					<span class="flex h-12 w-12 items-center justify-center rounded-full">
 						{{ app.icon | svgContents | safe }}

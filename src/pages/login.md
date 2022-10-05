@@ -12,6 +12,7 @@ keywords:
   OpenDyslexic
 
 url: login/
+isBlog: true
 blog_cat: ''
 youtubeId: PfILiWebkuc
 cardTitle: Login to Helperbird

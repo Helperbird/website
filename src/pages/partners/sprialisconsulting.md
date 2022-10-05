@@ -15,6 +15,7 @@ keywords:
   OpenDyslexic
 
 url: partners/sprialisconsulting/
+isBlog: true
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
 cardTitle: Jim Sprialis of Sprialis consulting | Helperbird Partner

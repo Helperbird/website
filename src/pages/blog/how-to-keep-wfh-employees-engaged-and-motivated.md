@@ -12,6 +12,7 @@ keywords:
 
 url: blog/how-to-keep-wfh-employees-engaged-and-motivated/
 tags: blog
+isBlog: true
 blog_cat: Guest Blog
 youtubeId: PfILiWebkuc
 cardTitle: How to Keep WFH Employees Engaged and Motivated

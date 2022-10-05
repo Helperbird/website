@@ -15,6 +15,7 @@ keywords:
 
 url: blog/top-ipad-apps-for-accessibility/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top iPad apps for Accessibility

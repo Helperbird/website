@@ -16,6 +16,7 @@ keywords:
 
 url: blog/best-careers-for-people-with-dyslexia/
 tags: blog
+isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: PfILiWebkuc
 cardTitle: Best Careers for People with Dyslexia 2021

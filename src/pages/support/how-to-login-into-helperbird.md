@@ -9,6 +9,7 @@ keywords:
   OpenDyslexic
 
 url: support/how-to-login-into-helperbird/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: Login to Helperbird

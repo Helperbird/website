@@ -10,6 +10,7 @@ keywords:
 
 url: blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
 tags: blog
+isBlog: true
 blog_cat: GUIDE
 youtubeId: PfILiWebkuc
 cardTitle: How to deploy Helperbird through the Gsuite Console

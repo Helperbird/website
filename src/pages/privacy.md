@@ -1,6 +1,6 @@
 ---
 layout: templates/blog_post.liquid
-title: Privacy statement & features
+title: Privacy statement
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds privacy features don`t sell,
@@ -12,6 +12,8 @@ keywords:
   OpenDyslexic
 
 url: privacy/
+img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
+isBlog: false
 blog_cat: ''
 youtubeId: PfILiWebkuc
 cardTitle: Privacy statement & features

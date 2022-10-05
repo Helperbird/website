@@ -9,6 +9,7 @@ keywords:
   OpenDyslexic
 
 url: support/how-to-change-my-email/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to change or update your email

@@ -12,6 +12,7 @@ keywords:
 
 url: blog/benefits-of-ipads-in-the-classroom/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Benefits of iPads in the Classroom 2022

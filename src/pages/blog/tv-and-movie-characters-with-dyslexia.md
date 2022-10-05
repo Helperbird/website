@@ -13,6 +13,7 @@ keywords:
 
 url: blog/tv-and-movie-characters-with-dyslexia/
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Tv and movie characters with dyslexia

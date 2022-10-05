@@ -10,6 +10,7 @@ keywords:
   OpenDyslexic
 
 url: support/how-to-annotate-any-website-or-pdf-with-a-browser-extension/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to annotate any website or pdf with Helperbird

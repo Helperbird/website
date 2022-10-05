@@ -10,6 +10,7 @@ keywords:
 
 url: blog/thanksgiving-message-from-helperbird/
 tags: blog
+isBlog: true
 blog_cat: GUIDE
 youtubeId: PfILiWebkuc
 cardTitle: Thanksgiving day message from Helperbird

@@ -10,6 +10,7 @@ keywords:
   OpenDyslexic
 
 url: support/how-to-use-reader-mode-in-google-chrome-firefox-edge/
+isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
 cardTitle: How to use Reader Mode

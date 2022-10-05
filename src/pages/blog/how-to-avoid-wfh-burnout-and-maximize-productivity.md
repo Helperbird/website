@@ -12,6 +12,7 @@ keywords:
 
 url: blog/how-to-avoid-wfh-burnout-and-maximize-productivity/
 tags: blog
+isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: PfILiWebkuc
 cardTitle: How to Avoid WFH Burnout and Maximize Productivity

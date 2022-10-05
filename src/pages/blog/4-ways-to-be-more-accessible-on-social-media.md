@@ -17,6 +17,7 @@ name: 'Helperbird staff'
 date: Created
 time: '5 min'
 tags: blog
+isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: 4 Ways to be More Accessible on Social Media in 2022

@@ -10,6 +10,7 @@ keywords:
 
 url: blog/how-to-use-immersive-reader-in-google-docs/
 tags: blog
+isBlog: true
 blog_cat: Guide
 youtubeId: PfILiWebkuc
 cardTitle: How to use Immersive reader on Google Docs

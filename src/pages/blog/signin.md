@@ -10,6 +10,7 @@ keywords:
 
 url: blog/signin/
 tags: blog
+isBlog: true
 blog_cat: Guide
 youtubeId: PfILiWebkuc
 cardTitle: How to sign into Helperbird

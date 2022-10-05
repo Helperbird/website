@@ -1,5 +1,5 @@
 ---
-layout: templates/support_post.html
+layout: templates/blog_post.liquid
 title: Terms of Service
 youtubeId: PfILiWebkuc
 cardTitle: Terms of Service
@@ -14,6 +14,8 @@ keywords:
   OpenDyslexic
 
 url: terms-of-service/
+img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
+isBlog: false
 blog_cat: ''
 blog_snip: Learn more about the history of Helperbird and our core values.
 ---

@@ -12,6 +12,7 @@ keywords:
   OpenDyslexic
 
 url: partners/sascharoos/
+isBlog: true
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
 cardTitle: Sascha Roos MA, HDGC | Helperbird Partner
