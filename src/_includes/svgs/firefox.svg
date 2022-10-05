@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="h-10 w-10">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="h-6 w-6">
     <defs>
         <radialGradient id="a" cx="-1186.91" cy="-517.676" r="90.78" gradientTransform="translate(1258.441 534.061)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff36e"/><stop offset=".5" stop-color="#fc4055"/><stop offset="1" stop-color="#e31587"/></radialGradient>
         <radialGradient id="b" cx="-1251.812" cy="-513.921" r="53.726" gradientTransform="translate(1258.441 534.061)" gradientUnits="userSpaceOnUse"><stop offset=".001" stop-color="#c60084"/><stop offset="1" stop-color="#fc4055" stop-opacity="0"/></radialGradient>

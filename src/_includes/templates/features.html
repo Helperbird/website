@@ -415,22 +415,30 @@
 
 								<div class="rounded-lg bg-white p-6">
 									<div>
-										<span
-											class="flex h-12 w-12 items-center justify-center rounded-full text-black"
+										<div
+											class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
 										>
 											{{ post.data.icon | svgContents | safe }}
-										</span>
+										</div>
 									</div>
 									<div class="mt-6">
 										<h3 class="text-xl font-medium text-black">{{ post.data.cardTitle }}</h3>
 										<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
-
-										<a
-											class="btn btn-primary mt-6 decoration-pink-500"
-											href="{{ post.url }}"
-											title="More information on feature {{ post.data.cardTitle  }}"
-											>Discover {{ post.data.cardTitle }}</a
-										>
+					
+										<div class="max-w-md items-center">
+											<a
+												class="btn btn-link mt-6 mr-2  decoration-pink-500 underline hover:decoration-blue-500 decoration-wavy"
+												href="{{ post.url }}"
+												title="More information on feature {{ post.data.cardTitle  }}"
+												>Discover more</a
+											>
+											<a
+											class="btn btn-link mt-6 mr-2  decoration-blue-500  underline hover:decoration-pink-500 decoration-wavy"
+												href="{{ post.url }}#videos"
+												title="More information on feature {{ post.data.cardTitle  }}"
+												>See it in action</a
+											>
+										</div>
 									</div>
 								</div>
 
