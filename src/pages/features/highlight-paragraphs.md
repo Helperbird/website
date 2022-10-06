@@ -26,24 +26,7 @@ link: reading
 url: features/highlight-paragraphs/
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-        Add a colorful border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
-
-
- 
-
-
+Add a colorful border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
 
 ## Tell me more about this feature
 
@@ -51,10 +34,6 @@ url: features/highlight-paragraphs/
 A much-requested feature is finally here. Highlight any paragraph or text on a website. 
 
 Super handy for studying and revision. All highlights will stay on the page and will also be stored in your notes app.
-
-
-
-
 
 
 

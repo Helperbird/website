@@ -14,37 +14,11 @@ url: guides/
 ---
 
 
-<div class="relative bg-white overflow-hidden ">
-	<div class="prose max-w-4xl flex-grow">
+{%- for video in videos.support -%}
 
-			<h2>Tutorials & video guides on how to use Helperbird</h2>
-			<p class="mt-5">Master your workflow with the beginner's guide, tips & tricks.
-
-			</p>
-
+	<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+		<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/{{ video.id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
-</div>
 
+{%- endfor -%}
 
-
-<div class="relative p-16 overflow-hidden">
-	<div class="relative">
-		<div class="not-prose grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-2">
-			{%- for video in videos.support -%}
-				<a class=" decoration-pink-500 card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1"  href="{{ video.link }}">
-					<figure class="px-4 pt-4">
-						<div class="border-base-content bg-base-300 rounded-xl border border-opacity-5 youtube_lazy_load" data-embed="{{ video.id }}">
-							<div class="play-button"></div>
-						</div>
-						
-					</figure> 
-					<div class="card-body">
-						<h2 class="card-title"> {{ video.title }} </h2> 
-						<p class="text-xs opacity-60">{{ video.description }}</p>
-					</div> 
-				</a>
-			{%- endfor -%}
-
-		</div>
-	</div>
-</div>

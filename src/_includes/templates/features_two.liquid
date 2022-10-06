@@ -406,6 +406,7 @@
 
 				
 					<div class="sm:px-8 mt-16 mb-16 sm:mt-32 sm:mb-32">
+{% include templates/header-features.html %}
 				<div class="mx-auto max-w-7xl lg:px-8">
 					<div class="relative px-4 sm:px-8 lg:px-12">
 					<div class="mx-auto max-w-2xl lg:max-w-5xl">
@@ -465,7 +466,7 @@
 							</h2>
 
 							<div
-								class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
+								class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
 							>
 								{%- for post in collections.features limit:12 -%}
 
@@ -488,12 +489,7 @@
 												title="More information on feature {{ post.data.cardTitle  }}"
 												>Discover more</a
 											>
-											<a
-											class="btn btn-link mt-6 mr-2  decoration-blue-500  underline hover:decoration-pink-500 decoration-wavy"
-												href="{{ post.url }}#videos"
-												title="More information on feature {{ post.data.cardTitle  }}"
-												>See it in action</a
-											>
+										
 										</div>
 									</div>
 								</div>

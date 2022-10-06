@@ -155,8 +155,8 @@ module.exports = function (eleventyConfig) {
 
 	const mapping = {
 		h1: 'font-display text-3xl tracking-tight text-black  mb-4',
-		h2: 'font-display text-2xl text-black mb-4 text-extrabold',
-		h3: 'font-display text-2xl text-black mb-4 text-bold',
+		h2: 'font-display text-2xl text-black mb-6 font-extrabold',
+		h3: 'font-display text-2xl text-black mb-6 font-bold',
 		p: 'text-black mb-4 mt-4 text-lg',
 		strong: 'text-black',
 		bold: 'text-black',
