@@ -7,12 +7,12 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+img: /assets/images/partners/bonnie.jpeg
 url: partners/bonnie-shaver-troup/
-isBlog: true
+isBlog: false
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
-cardTitle: Dr Bonnie Shaver-Troup, EdD | Helperbird Partner
+cardTitle: Dr Bonnie Shaver-Troup, EdD
 blog_snip: ''
 ---
 
@@ -22,7 +22,7 @@ Founded in 2000, LEXEND came about from a desire to make reading easier for ever
 
 
 
-![Photo of Helperbirds founder Robert James dancing.](/assets/images/partners/bonnie.jpeg)
+
 
 ## Intro
 

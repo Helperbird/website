@@ -13,12 +13,12 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+img: https://www.sprialisconsulting.com/uploads/3/0/7/0/30701617/dsc-0063_orig.jpg
 url: partners/sprialisconsulting/
-isBlog: true
+isBlog: false
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
-cardTitle: Jim Sprialis of Sprialis consulting | Helperbird Partner
+cardTitle: Jim Sprialis of Sprialis consulting
 blog_snip: ''
 ---
 
@@ -34,7 +34,7 @@ and participate with the use of appropriate technologies.
 His universal design approach to technology and learning addresses the diverse abilities and needs
 of all learners.
 
-![Photo of Helperbirds founder Robert James dancing.](https://www.sprialisconsulting.com/uploads/3/0/7/0/30701617/dsc-0063_orig.jpg)
+
 
 ## History
 

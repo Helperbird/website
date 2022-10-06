@@ -10,12 +10,12 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+img: /assets/images/partners/sasha.jpeg
 url: partners/sascharoos/
-isBlog: true
+isBlog: false
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
-cardTitle: Sascha Roos MA, HDGC | Helperbird Partner
+cardTitle: Sascha Roos
 blog_snip: ''
 ---
 
@@ -32,7 +32,6 @@ the Society of Authors. She has had several articles on dyslexia published by na
 associations, including Britain, Australia and Ireland, as well as a blog on study skills for
 dyslexic students for a leading study skills website.
 
-![Photo of Helperbirds founder Robert James dancing.](/assets/images/partners/sasha.jpeg)
 
 ## Intro
 
