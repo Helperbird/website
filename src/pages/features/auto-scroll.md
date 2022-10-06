@@ -1,5 +1,5 @@
 ---
-layout: templates/features.html
+layout: templates/features_two.liquid
 title: Automatically Scroll Down Pages in any Web Browser 
 description:
   Helperbird allows you to easily change the auto-scroll speed and save it in three different
