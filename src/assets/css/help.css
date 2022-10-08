@@ -33,6 +33,31 @@
     top: 4.5rem;
 }
 
+.student_review{
+	background: linear-gradient(165deg, var(--color-orange) 0, var(--color-sunny) 100%);
+    border-radius: 0.2rem;
+    color: #fff;
+   ;
+    font-weight: 700;
+    left: 50%;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    padding: 0.45em 0.8em 0.5em 0.8em;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 2.9em;
+    transform: translateX(-50%) rotate(-1.6deg);
+    white-space: nowrap;
+
+	width: min-content;
+    background-color: #0080ff;
+    left: 5rem;
+    gap: 0;
+    padding: 0rem 0.5rem;
+    top: 4.5rem;
+}
+
 #help-information .robert h1,
 #help-information .robert h2,
 #help-information .robert h3,

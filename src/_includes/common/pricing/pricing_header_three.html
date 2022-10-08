@@ -66,7 +66,7 @@
             <span class="text-base font-medium text-gray-500">/yearly</span>
           </p>
 
-          <button @click="handleModal" role="button" class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">Download</button>
+          <button @click="handleModal" role="button" class="btn btn-primary btn-block mt-4">Download</button>
         </div>
         <div class="px-6 pt-6 pb-8">
           <h3 class="text-sm font-medium text-gray-900">What's included</h3>
@@ -119,15 +119,15 @@
         </p>
 
           <a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-          v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
-          :href="priceDetails.monthly.proLink" class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">Start Free Trial</a>
+          v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+          :href="priceDetails.monthly.proLink" class="btn btn-primary btn-block mt-4">Start Free Trial</a>
 
 
           <a
 							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-              v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'"
+              v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
 							:href="priceDetails.yearly.proLink"
-							class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900"
+							class="btn btn-primary btn-block mt-4"
 							>Start Free trial</a
 						>
 
@@ -189,15 +189,15 @@
 
         
           <a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-          v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
-          :href="priceDetails.monthly.unlimitedLink" class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">Start Free Trial</a>
+          v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+          :href="priceDetails.monthly.unlimitedLink" class="btn btn-primary btn-block mt-4">Start Free Trial</a>
 
 
           <a
 							href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-              v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'"
+              v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
 							:href="priceDetails.yearly.unlimitedLink"
-							class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900"
+							class="btn btn-primary btn-block mt-4"
 							>Start Free trial</a
 						>
         </div>
@@ -247,10 +247,14 @@
             Districts/Enterprise</h2>
           <p class="mt-4 text-sm text-gray-500">Unlimited users but with more indepth support </p>
           <p class="mt-8">
-            <span class="text-4xl font-bold tracking-tight text-gray-900"><span v-html="priceDetails.currency">$</span>48</span>
-            <span class="text-base font-medium text-gray-500">/mo</span>
+
+            <span class="text-4xl font-bold tracking-tight text-gray-900"><span v-html="priceDetails.currency">$</span>
+            <span>3000+</span></span>
+            <span class="text-base font-medium text-gray-500">/yearly</span>
+
+         
           </p>
-          <a href="/sales/" class="mt-8 block w-full rounded-md border border-gray-800 bg-gray-800 py-2 text-center text-sm font-semibold text-white hover:bg-gray-900">Contact sales</a>
+          <a href="/sales/" class="btn btn-primary btn-block mt-4">Contact sales</a>
         </div>
         <div class="px-6 pt-6 pb-8">
           <h3 class="text-sm font-medium text-gray-900">What's included</h3>
