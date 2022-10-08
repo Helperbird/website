@@ -59,8 +59,9 @@
 							alt="Helperbird logo"
 					/></a>
 
-
-					<div class="hidden alert alert-info shadow-lg origin-bottom -rotate-12 top-11 left-0 lg:flex alert_review">
+					<div
+						class="alert_review alert alert-info top-11 left-0 hidden origin-bottom -rotate-12 shadow-lg lg:flex"
+					>
 						<div class="flex flex-shrink-0 pr-5">
 							<svg
 								aria-hidden="true"
@@ -118,27 +119,27 @@
 								></path>
 							</svg>
 						</div>
-						<div
-							class=" min-w-0 flex-1 py-1  text-sm sm:py-3"
-					
-						>
-							"Game-changing!"
-						</div>
-					  </div>
+						<div class="min-w-0 flex-1 py-1 text-sm sm:py-3">"Game-changing!"</div>
+					</div>
 
-
-					  <div class="hidden alert alert-info shadow-lg origin-bottom -rotate-12 top-14 left-0 lg:flex student_review mt-8">
+					<div
+						class="student_review alert alert-info top-14 left-0 mt-14 hidden origin-bottom -rotate-12 shadow-lg lg:flex"
+					>
 						<div class="flex flex-shrink-0 pr-5">
-						<div class="min-w-0 flex-1 py-1  text-sm sm:py-3">
-						
-							Students get Helperbird Pro for <a href="https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss" target="_blank"	:href="priceDetails.studentLink" class="text-base text-white  decoration-pink-500 underline hover:decoration-blue-500 decoration-wavy" title=""><span v-html="priceDetails.currency">$</span> 
-								<span v-html="priceDetails.student">40</span>/yearly</a>
-</div>
-
+							<div class="min-w-0 flex-1 py-1 text-sm sm:py-3">
+								Students get Helperbird Pro for
+								<a
+									href="https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss"
+									target="_blank"
+									:href="priceDetails.studentLink"
+									class="text-base text-white underline decoration-pink-500 decoration-wavy hover:decoration-green-500"
+									title=""
+									><span v-html="priceDetails.currency">$</span>
+									<span v-html="priceDetails.student">40</span>/yearly</a
+								>
+							</div>
 						</div>
-					  </div>
-
-
+					</div>
 				</div>
 				<div class="hidden sm:ml-6 sm:block">
 					<div class="flex space-x-4 text-black">
@@ -155,13 +156,12 @@
 							class="btn btn-ghost text-base font-medium no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
 							>Features</a
 						>
-						
-							<a
-								href="/pricing/"
-								class="btn btn-ghost text-base font-medium no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
-								>Pricing</a
-							>
-			
+
+						<a
+							href="/pricing/"
+							class="btn btn-ghost text-base font-medium no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+							>Pricing</a
+						>
 
 						<div class="dropdown-end dropdown">
 							<button
@@ -418,12 +418,12 @@
 			</div>
 
 			<div
-				class=" flex absolute inset-y-0 right-0  items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+				class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
 			>
 				<a
 					href="https://billing.stripe.com/p/login/5kA4j00Mz33p0lqaEE"
 					target="_blank"
-					class="hidden sm:flex btn-base btn btn-ghost mr-4"
+					class="btn-base btn btn-ghost mr-4 hidden sm:flex"
 				>
 					<span class="sr-only">Login</span>
 					Login
