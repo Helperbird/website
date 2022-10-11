@@ -133,7 +133,7 @@ v-if="showMobileMenu === true"><path d="M0 0h24v24H0z" fill="none"/><path d="M19
 				</div>
 				<div class="hidden sm:ml-6 sm:block">
 					<div class="flex space-x-4 text-black">
-						<!-- Current: "bg-gray-900 text-black", Default: "text-gray-300 hover:bg-gray-700 hover:text-black" -->
+						<!-- Current: " bg-black text-black", Default: " text-black" -->
 						<a
 							href="/about/"
 							class="btn btn-ghost text-base font-medium no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
@@ -457,36 +457,36 @@ v-if="showMobileMenu === true"><path d="M0 0h24v24H0z" fill="none"/><path d="M19
 
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div class="sm:hidden" id="mobile-menu" v-if="showMobileMenu === true">
-		<div class="space-y-1 px-2 pt-2 pb-3">
-			<!-- Current: "bg-gray-900 text-black", Default: "text-gray-300 hover:bg-gray-700 hover:text-black" -->
+		<div class="space-y-1 px-2 pt-2 pb-3 card bg-white">
+
 			<a
 				href="/about/"
-				class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-black"
+				class="block rounded-md px-3 py-2 text-base font-medium bg-white text-black hover:text-white hover:bg-black"
 				aria-current="page"
 				>About</a
 			>
 
 			<a
 				href="/features/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
+				class="block rounded-md px-3 py-2 text-base font-medium bg-white text-black hover:text-white hover:bg-black"
 				>Features</a
 			>
 
 			<a
 				href="/pricing/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
+				class="block rounded-md px-3 py-2 text-base font-medium  bg-white text-black hover:text-white hover:bg-black"
 				>Pricing</a
 			>
 
 			<a
 				href="/compare/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
+				class="block rounded-md px-3 py-2 text-base font-medium  bg-white text-black hover:text-white hover:bg-black"
 				>Compare</a
 			>
 
 			<a
 				href="/support/"
-				class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-black"
+				class="block rounded-md px-3 py-2 text-base font-medium  bg-white text-black hover:text-white hover:bg-black"
 				>Support</a
 			>
 		</div>
