@@ -66,4 +66,4 @@ tool that allows users to read text in a more immersive way. Included in Helperb
 ## Is Immersive Reader in Helperbird free?
 
 Yes and it will always will be. We might however add a limit on the free version of Helperbird, due
-to the costs of hosting immerive reader.
+to the costs of hosting Immersive Reader.

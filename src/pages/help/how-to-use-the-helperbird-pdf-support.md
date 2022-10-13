@@ -12,7 +12,7 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: PDF support
-featureDescription: Learn how to use text to speech on pdfs, also immerive reader.
+featureDescription: Learn how to use text to speech on pdfs, also Immersive Reader.
 tags: guideApps
 url: help/how-to-use-the-helperbird-pdf-support/
 ---
