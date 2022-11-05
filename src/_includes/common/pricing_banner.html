@@ -1,9 +1,9 @@
 <div class="fixed inset-x-0 bottom-0 pb-2 sm:pb-5">
 	<div class="mx-auto max-w-4xl px-2 sm:px-6 lg:px-8">
-		<div class="rounded-xl bg-blue-600 p-4 shadow-lg sm:p-3" style="border-radius: 1.5rem">
+		<div class="rounded-lg bg-blue-600 p-4 shadow-lg sm:p-3" style="border-radius: 1.5rem">
 			<div class="flex flex-wrap items-center justify-between">
 				<div class="flex w-0 flex-1 items-center">
-					<span class="flex rounded-xl p-2 text-yellow-600">
+					<span class="flex rounded-lg p-2 text-yellow-600">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6 text-yellow-300"
@@ -17,27 +17,63 @@
 					</span>
 					<p class="ml-3 truncate font-medium text-white">
 						<span>
-						
+							<b
+								>Flash sale ends in
+								<p id="demo" class="ml-2 font-medium text-white"></p
+							></b>
 
-			
+							<div class="divider text-white lg:divider-horizontal">|</div>
 
 							<p class="ml-2 font-medium text-white">
-								Helperbird's new website is coming October 14th!
+								Helperbird Pro for
+								<span v-html="priceDetails.currency">$</span>
+								<span v-html="priceDetails.student">40</span>
+								yearly.
 							</p>
 						</span>
 					</p>
 				</div>
-				<div class="order-3 mt-2  sm:mt-0 sm:w-auto">
+				<div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
 					<a
 						target="_blank"
 						rel="noreferrer"
 						href="https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss"
 						class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-pink-600 shadow-sm hover:bg-pink-50"
 					>
-						Start Free trial
+						Buy
 					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date('Jul 31, 2022 15:37:25').getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function () {
+		// Get today's date and time
+		var now = new Date().getTime();
+
+		// Find the distance between now and the count down date
+		var distance = countDownDate - now;
+
+		// Time calculations for days, hours, minutes and seconds
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		// Display the result in the element with id="demo"
+		document.getElementById('demo').innerHTML =
+			days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
+
+		// If the count down is finished, write some text
+		if (distance < 0) {
+			clearInterval(x);
+			document.getElementById('demo').innerHTML = 'EXPIRED';
+		}
+	}, 1000);
+</script>
