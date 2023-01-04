@@ -20,8 +20,8 @@
 			</svg>
 			</span>
 			<p class="ml-3 truncate font-medium text-white">
-			  <span class="md:hidden">Black Friday Sale!</span>
-			  <span class="hidden md:inline"> <b>Black friday sale:</b> Helperbird Pro for $30, ends in <span id="demo" ></span> </span>
+			  <span class="md:hidden">Announcement </span>
+			  <span class="hidden md:inline"> <b>New update:</b> Read all the lastest updates and improvements coming to Helperbird. </span>
 			</p>
 		  </div>
 		  <div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
@@ -29,12 +29,12 @@
 
 
 			<a
-						target="_blank"
-						rel="noreferrer"
-						href="https://buy.stripe.com/aEUbJp2CUh2QbgQdRH"
+						
+					title="More information about the newest Helperbird Pro Plan"
+						href="/updates/102-5-1/"
 						class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50"
 					>
-						Buy Helperbird Pro for $30
+						Read announcement
 					</a>
 		  </div>
 	
@@ -52,33 +52,3 @@
 
 
 
-
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date('Nov 30, 2022 15:37:25').getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function () {
-		// Get today's date and time
-		var now = new Date().getTime();
-
-		// Find the distance between now and the count down date
-		var distance = countDownDate - now;
-
-		// Time calculations for days, hours, minutes and seconds
-		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-		// Display the result in the element with id="demo"
-		document.getElementById('demo').innerHTML =
-			days + 'days and ' + hours + ' hours ';
-
-		// If the count down is finished, write some text
-		if (distance < 0) {
-			clearInterval(x);
-			document.getElementById('demo').innerHTML = 'EXPIRED';
-		}
-	}, 1000);
-</script>
