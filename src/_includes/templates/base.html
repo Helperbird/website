@@ -37,10 +37,7 @@
 		/>
 		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
 
-		<meta
-			content="https://www.youtube.com/watch?v={{ youtubeId}}"
-			name="twitter:player"
-		/>
+		<meta content="https://www.youtube.com/watch?v={{ youtubeId}}" name="twitter:player" />
 
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
@@ -49,10 +46,7 @@
 		<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
 		<meta property="og:site_name" content="Helperbird" />
 		<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
-		<meta
-			property="og:video"
-			content="https://www.youtube.com/watch?v={{ youtubeId}}"
-		/>
+		<meta property="og:video" content="https://www.youtube.com/watch?v={{ youtubeId}}" />
 
 		<link href="/assets/images/social/favicon.png" rel="shortcut icon" />
 		<link href="/assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" />
@@ -196,6 +190,11 @@
 		<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="/assets/images/social/browserconfig.xml" name="msapplication-config" />
+		<style>
+			.header_background {
+				background-color: rgb(246, 245, 231);
+			}
+		</style>
 	</head>
 
 	<body>
@@ -206,7 +205,7 @@
 					{{ content | safe }}
 				</div>
 			</main>
-			{% include templates/footer.html %} 
+			{% include templates/footer.html %}
 		</div>
 	</body>
 	{% bundledJs %}
