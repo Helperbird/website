@@ -68,7 +68,7 @@ function load() {
 							"Accessibility",
 							"Productivity",
 							"Reading support",
-							"Adapting the web",
+							"Aweb",
 							"Dyslexia support",
 							"Text to speech",
 							"Voice typing",

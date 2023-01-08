@@ -2,55 +2,53 @@
 	"helperbird": [
 		{
 			"question": "What is Helperbird?",
-			"answer": "With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs, and documents more accessible and productive to your needs. It is designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle. "
+			"answer": "With a delightfully intuitive and easy-to-use design, Helperbird is your all-in-one extension that provides personalized support to make web pages, PDFs, and documents more accessible and productive to your needs. <br><br>It is designed to help everyone with the web in a way that suits their abilities learning styles and lifestyle. "
 		},
 		{
 			"question": "Do you offer discounts?",
-			"answer": "Yes. When you pay for a year upfront, you will get two months free. We also offer discounts for students. "
-		},
-		{
-			"question": "How do I login",
-			"answer": "We use the email your logged into Google Chrome or your browser. Suppose you need to update your email. Just contact us."
+			"answer": "Yes, we do offer discounts! If you pay for a yearly subscription, you will get two months for free.<br><br> Let us know if you have any other questions about pricing or discounts."
 		},
 		{
 			"question": "Do you accept purchase orders?",
-			"answer": "Yes, we do. You can either contact support or visit our purchase orders page."
+			"answer": "Yes, we do accept purchase orders. If you would like to place an order using a purchase order, please contact our sales team to discuss the details.<br><br> They will be able to provide you with the necessary information and help you complete the process. We look forward to working with you!"
 		},
 		{
 			"question": "Do I need a student email for the student pricing?",
-			"answer": "Yes, we are doing the honour system here. We will follow up to ask for confirmation you are a student."
+			"answer": "No, you do not need a student email to take advantage of our student pricing. We operate on an honor system, so you can simply certify that you are a student when you sign up for the discounted rate.<br><br> This means that as long as you are a student at the time of your subscription, you are eligible to receive the student pricing, regardless of the email address you use to sign up.<br><br> We trust that our users will be honest about their student status and respect this discount."
 		},
 		{
 			"question": "Is Helperbird Free?",
-			"answer": "Yes. We give you the basic features for free. Those features will always be free. We have a Pro version, which helps support the development of Helperbird and the costs with the Pro features. We keep our prices as low as possible, which lower than others. If you have any questions I would love to answer them."
+			"answer": "Yes. We give you the basic features for free. Those features will always be free. We have a Pro version, which helps support the development and costs with the Pro features.<br><br> We keep our prices as low as possible, much lower than others."
 		},
-
 		{
-			"question": "Can we cancel at any time?",
-			"answer": "There's no minimum contract for Helperbird — cancel at any time without penalty or hassle.. To cancel, open up the app, go to the subscription option, and click cancel."
+			"question": "Can I cancel Helperbird at any time?",
+			"answer": "There's no minimum contract for Helperbird.<br><br> You can cancel at any time without penalty or hassle."
 		},
 		{
 			"question": "Why are we charging for this?",
-			"answer": "The $6.99 per month is to support the cost of the development of new and upcoming features. We also do a yearly subscription for $60.00 as this is a one-person team."
+			"answer": "Helperbird charges for its service in order to cover the costs of developing and maintaining the product. This includes expenses such as programming and design work, server costs, and customer support.<br><br>While we do offer a free version of Helperbird, it includes only a subset of the features and functionality available in the paid version. <br><br> We believe that the value and convenience of Helperbird are well worth the cost, and we hope that you will find it to be a valuable tool for your productivity and learning needs."
 		},
-
 		{
 			"question": "What browsers does Helperbird run on?",
-			"answer": "Currently Google Chrome, Mozilla Firefox and Edge. Coming soon on macOS Safari extension and iPad."
+			"answer":"Helperbird currently runs on <a target='_blank' class='font-bold underline decoration-wavy  decoration-yellow-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme' title='Helperbird for Google Chrome'>Google Chrome</a>, <a target='_blank' class='font-bold underline decoration-wavy  decoration-red-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //addons.mozilla.org/en-CA/firefox/addon/helperbird/' title='Helperbird for Mozilla Firefox'>Mozilla Firefox</a>, <a target='_blank' class='font-bold underline decoration-wavy  decoration-green-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd' title='Helperbird for Microsoft Edge'>Microsoft Edge</a>,<a target='_blank' class='font-bold underline decoration-wavy  decoration-blue-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //apps.apple.com/us/app/helperbird-for-safari/id1589138053' title='Helperbird for iPad'>iPad</a>, <a target='_blank' class='font-bold underline decoration-wavy  decoration-green-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //apps.apple.com/us/app/helperbird-for-safari/id1589138053' title='Helperbird for iPhone'>iPhone</a>, <a target='_blank' class='font-bold underline decoration-wavy  decoration-orange-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //apps.apple.com/us/app/helperbird-for-safari/id1589138053' title='Helperbird for Safari'>Safari</a> and <a target='_blank' class='font-bold underline decoration-wavy  decoration-yellow-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy' href='https: //workspace.google.com/marketplace/app/helperbird/844716805038' title='Helperbird for iPhone'>Google Docs & Slides</a>",
+			"answer2": "Helperbird runs on Google Chrome, Mozilla Firefox, Microsoft Edge, iPad, iPhone and Safari."
 		},
-
 		{
-			"question": "I have a suggestion!",
-			"answer": "Excellent I would love to hear about it! Email robert.gabriel@helperbird.com with your suggestion."
+			"question": "Do you accept suggestions?",
+			"answer": "Yes, we love suggestions! Please let us know if you have any ideas for improving our product. Please email <a href='mailto:robert.gabriel@helperbird.com' title='Email your suggestion' class='font-bold underline decoration-wavy  decoration-blue-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy'>robert.gabriel@helperbird.com</a> with your suggestion."
 		},
-
 		{
-			"question": "Does Helperbird and OpenDyslexic work on Google Docs?",
-			"answer": "Yes! Google Docs currently doesn't support some fonts like OpenDyslexic. So we built CSS and support for these fonts."
+			"question": "Why do some Helperbird features not work on Google Docs?",
+			"answer": "Helperbird's features may not work on Google Docs due to a change in the way that Google Docs renders text using Canvas, a bitmap graphics API, rather than HTML.",
+			"answer2": "Helperbird's custom fonts may not work on Google Docs due to a change in the way that Google Docs renders text. Google Docs used to use HTML (Hypertext Markup Language) to render text and other content within the document. However, they have recently switched to using a rendering engine called Canvas, which is a bitmap graphics API that is used to draw text and other elements onto a canvas element in an HTML document.<br>Since Canvas is a bitmap graphics API, it does not support the use of custom fonts in the same way that HTML does. As a result, Helperbird's custom fonts may not be compatible with Google Docs when using the Canvas rendering engine."
+		},
+		{
+			"question": "How do I login to Helperbird?",
+			"answer": "Helperbird uses the email that your logged into your browser with. To learn how to login or use your subscription key, follow the link below.<br><br> <a href='https://www.helperbird.com/help/how-to-login-to-helperbird/' title='How to login to Helperbird' class='font-bold underline decoration-wavy  decoration-blue-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy'>How to login to Helperbird</a>"
 		},
 		{
 			"question": "What if I have more questions?",
-			"answer": "We'd be happy to answer them."
+			"answer": "If you have more questions or need further assistance, please don't hesitate to reach out to our customer support team. They are always happy to help and will do their best to answer any questions you may have. You can contact them through our website or by emailing <a href='mailto:robert.gabriel@helperbird.com' title='Email your suggestion' class='font-bold decoration-wavy underline  decoration-blue-500 hover:decoration-pink-500 hover:underline hover:decoration-wavy'>support@helperbird.com</a>.<br><br> We look forward to assisting you!"
 		}
 	]
 }

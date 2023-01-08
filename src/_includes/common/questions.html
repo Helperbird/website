@@ -11,7 +11,7 @@
 		Reach out to our
 		<a
 			href="/support/"
-			class="hover:decoration-wavy0 font-medium text-blue-600 no-underline decoration-blue-500 hover:underline"
+			class="hover:decoration-wavy decoration-wavy font-medium text-blue-600 no-underline decoration-blue-500  hover:decoration-pink-500"
 			>customer support</a
 		>
 		team.
@@ -23,7 +23,7 @@
 		>
 			{%- for question in questions.helperbird -%}
 			<div class="rounded-xl bg-white p-6">
-				<dt class="text-lg font-medium leading-6 text-black">{{question.question}}</dt>
+				<dt class="text-lg font-medium font-bold leading-6 text-black">{{question.question}}</dt>
 				<dd class="mt-2 text-base text-black">{{question.answer}}</dd>
 			</div>
 
