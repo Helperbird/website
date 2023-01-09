@@ -4,42 +4,42 @@
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia support",
-			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
+			"description": "Empowering individuals to read with ease, by providing the option to switch between 15+ customizable fonts, including OpenDyslexic, Lexend, on any web page.",
 			"link": "/features/specialised-dyslexic-fonts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
 			"title": "Text to Speech",
-			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and pdfs with natural sounding voices.",
+			"description": "Helperbird reads web pages, ebooks, and PDFs aloud with natural voices and offers 20 voice options.",
 			"link": "/features/text-to-speech/"
 		},
 		{
 			"icon": "/src/_includes/svgs/readermode.svg",
 			"group": "reading",
 			"title": "Reader Mode",
-			"description": "Reader Mode removes ads and distractions from any webpage with complete customization.",
+			"description": "Helperbirds' Reader Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
 			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"group": "learning",
 			"title": "PDF support",
-			"description": "Use immersive reader, text to speech and more on PDF files.",
+			"description": "Transform your PDF reading experience with Helperbird's accessibility features, including immersive reader support.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Ruler",
-			"description": "Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content. It can be any colour to improve the accessibility of the text your reading. ",
+			"description": "Improve your reading experience with Helperbird's dyslexia ruler, featuring line focus and reading guide support for enhanced focus and understanding.",
 			"link": "/features/ruler/"
 		},
 		{
 			"icon": "/src/_includes/svgs/immersive.svg",
 			"group": "dyslexia",
 			"title": "Immersive Reader",
-			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
+			"description": "Experience the power of enhanced reading comprehension with Immersive Reader by Microsoft in Helperbird, available for use on Google Docs and PDFs.",
 			"link": "/features/immersive-reader-for-chrome/"
 		}
 	],
@@ -48,21 +48,21 @@
 			"icon": "/src/_includes/svgs/readermode.svg",
 			"group": "reading",
 			"title": "Reader Mode",
-			"description": "Reader Mode removes ads and distractions from any webpage with complete customization.",
+			"description": "Helperbirds' Reader Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
 			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Fonts",
-			"description": "Change the font of the page. Apply OpenDyslexic and 15 plus different fonts to any web page.",
+			"description": "Empowering individuals to read with ease, by providing the option to switch between 15+ customizable fonts, including OpenDyslexic, Lexend, on any web page.",
 			"link": "/features/specialised-dyslexic-fonts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Ruler",
-			"description": "Our Dyslexia ruler helps to follow the text on the screen easier and block out distracting content. It can be any colour to improve the accessibility of the text your reading. ",
+			"description": "Improve your reading experience with Helperbird's dyslexia ruler, featuring line focus and reading guide support for enhanced focus and understanding.",
 			"link": "/features/ruler/"
 		},
 		{

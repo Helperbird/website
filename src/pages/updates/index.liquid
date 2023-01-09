@@ -30,7 +30,7 @@ url: updates/
 			{%- for update in collections.updates reversed -%}
 
 		
-			<div class="flex flex-col rounded-xl shadow-lg overflow-hidden bg-white rounded-xl p-6  ">
+			<div class="flex flex-col shadow-lg overflow-hidden  border-2 border-stone-600 bg-white p-8 rounded-3xl  ">
 
 				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 					<div class="flex-1">
@@ -40,9 +40,9 @@ url: updates/
 					</div>
 					<div class="mt-6 flex items-center">
 					
-						<div>
+						<div>s
 							<p class="text-sm font-medium text-gray-900 ">
-								<a class="btn-base btn btn-outline border-stone-600 border-2 mt-8    text-base  underline decoration-wavy decoration-blue-500 hover:underline hover:decoration-wavy hover:decoration-pink-500  btn-sm" href="{{ update.url}}" title="Latest release notes for Helperbird {{ update.fileSlug }}">Read update notes</a>
+								<a class="btn-base btn btn-outline mr-4 hidden sm:flex border-stone-600 border-2" href="{{ update.url}}" title="Latest release notes for Helperbird {{ update.fileSlug }}">Read changelog</a>
 							</p>
 						
 						</div>
