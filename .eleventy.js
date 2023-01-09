@@ -160,7 +160,7 @@ module.exports = function (eleventyConfig) {
 		p: 'text-black mb-4 mt-4 text-lg',
 		strong: 'text-black text-base text-lg',
 		bold: 'text-black',
-		ul: 'list-none mt-4 space-y-2 border-l border-slate-200 pl-6',
+		ul: 'list-none mt-4 space-y-2 border-l border-slate-200 pl-6 text-base',
 		ol: 'list-none',
 		li: 'list-none',
 		a: ' hover:underline hover:decoration-wavy decoration-blue-500 hover:decoration-pink-500',
