@@ -194,453 +194,186 @@
 		<div id="helperbird-website" >
 			{% include templates/header.html %}
 
-			<div class="max-w-8xl relative mx-auto flex justify-center sm:px-2 lg:px-8 xl:px-12">
-				<div class="hidden lg:relative lg:block lg:flex-none">
-					<div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 "></div>
-					<div
-						class="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800"
-					></div>
-					<div class="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 "></div>
-					<div
-						class="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5"
+
+	
+
+
+
+
+
+
+
+
+
+
+
+			<div
+			class="relative mx-auto w-full max-w-container px-4 pt-12 sm:px-6 sm:pt-16 lg:flex lg:px-8 lg:pt-20"
+		  >
+			<div class="mx-auto max-w-[40rem] lg:mx-0 lg:max-w-none lg:flex-none">
+			  <ul
+				role="list"
+				class="space-y-10 text-sm leading-6 text-slate-700 lg:sticky lg:top-0 lg:-mt-16 lg:h-screen lg:w-72 lg:overflow-y-auto lg:py-16 lg:pr-8 lg:[mask-image:linear-gradient(to_bottom,transparent,white_4rem,white)]"
+			  >
+				<li>
+				  <h2 class="font-semibold text-slate-900 text-lg">
+					🏁 Getting started
+				  </h2>
+				  <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6">
+				
+					{%- for guide in collections.guideFeatures -%}
+
+					<li >
+						<a
+							href="{{ guide.url }}"
+							aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+					
+						>
+							{{ guide.data.cardTitle }}
+						</a>
+					</li>
+
+					{%- endfor -%}
+				
+				  </ul>
+				</li>
+
+				<li>
+					<h2 class="font-semibold text-slate-900 text-lg">
+					  🏃 Features
+					</h2>
+					<ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6">
+						{%- for features in collections.guideFeaturesMain -%}
+
+						<li>
+							<a
+								href="{{ features.url }}"
+								aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+								
+							>
+								{{ features.data.cardTitle }}
+							</a>
+						</li>
+
+						{%- endfor -%}
+					
+				  
+					</ul>
+				  </li>
+
+			
+				  <li>
+					<h2 class="font-display font-medium text-slate-900 ">
+						💬 Apps
+					</h2>
+					<ul
+						role="list"
+						class="mt-4 space-y-2 border-l border-slate-200 pl-6"
 					>
-						<nav class="w-64 pr-8 text-base lg:text-sm xl:w-72 xl:pr-16">
-							<ul role="list" class="space-y-9">
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										🏃 Getting started
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for guide in collections.guideFeatures -%}
+						
 
-										<li class="relative">
-											<a
-												href="{{ guide.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-											>
-												{{ guide.data.cardTitle }}
-											</a>
-										</li>
+						{%- for apps in collections.guideApps -%}
 
-										{%- endfor -%}
-									</ul>
-								</li>
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										📋 Features
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for features in collections.guideFeaturesMain -%}
-
-										<li class="relative">
-											<a
-												href="{{ features.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-											>
-												{{ features.data.cardTitle }}
-											</a>
-										</li>
-
-										{%- endfor -%}
-									</ul>
-								</li>
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										📚 Integrations
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for integration in collections.guideIntegrations -%}
-
-										<li class="relative">
-											<a
-												href="{{ integration.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-											>
-												{{ integration.data.cardTitle }}
-											</a>
-										</li>
-
-										{%- endfor -%}
-									</ul>
-								</li>
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">💬 Apps</h2>
-									<ul
-										role="list"
-										class="border-slate-000  mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for apps in collections.guideApps -%}
-
-										<li class="relative">
+										<li>
 											<a
 												href="{{ apps.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
+												aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+												
 											>
 												{{ apps.data.cardTitle }}
 											</a>
 										</li>
 
 										{%- endfor -%}
-									</ul>
-								</li>
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										📱 iPad & iPhone
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for account in collections.iOSHelp -%}
+					</ul>
+				</li>
+				<li>
+					<h2 class="font-display font-medium text-slate-900 ">
+						📱 iPad & iPhone
+					</h2>
+					<ul
+						role="list"
+						class="mt-4 space-y-2 border-l border-slate-200 pl-6"
+					>
+						
 
-										<li class="relative">
-											<a
-												href="{{ account.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block  "
-											>
-												{{ account.data.cardTitle }}
-											</a>
-										</li>
+					{%- for account in collections.iOSHelp -%}
 
-										{%- endfor -%}
-									</ul>
-								</li>
-
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										🫶 Tips & Tricks
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for account in collections.tricksHelp -%}
-
-										<li class="relative">
-											<a
-												href="{{ account.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-											>
-												{{ account.data.cardTitle }}
-											</a>
-										</li>
-
-										{%- endfor -%}
-									</ul>
-								</li>
-
-								<li>
-									<h2 class="font-display font-medium text-slate-900 ">
-										👤 Account
-									</h2>
-									<ul
-										role="list"
-										class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-									>
-										{%- for account in collections.guideAccounts -%}
-
-										<li class="relative">
-											<a
-												href="{{ account.url }}"
-												aria-current="page"
-												class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-											>
-												{{ account.data.cardTitle }}
-											</a>
-										</li>
-
-										{%- endfor -%}
-									</ul>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-				<div class="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
-					<article>
-						<header class="mb-9 space-y-1">
-							<div class="flex">
-								<p class="font-display text-sm font-medium text-sky-500 flex-1">Helperbird guide</p>
-
-								<button
-									type="button"
-									@click="docsMenu = true"
-									class="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 md:hidden flex-0"
-								>
-									<span class="sr-only">Close panel</span>
-									<svg
-										class="mr-2 h-6 w-6"
-										xmlns="http://www.w3.org/2000/svg"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-										aria-hidden="true"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M4 6h16M4 12h16M4 18h16"
-										/>
-									</svg>
-
-									Side Menu
-								</button>
-							</div>
-							<h1 class="font-display text-3xl tracking-tight text-slate-900 ">
-								{{cardTitle}}
-							</h1>
-						</header>
-						<div
-							class="prose-headings:font-display prose prose-slate max-w-none prose-headings:scroll-mt-28 prose-headings:font-normal prose-a:font-semibold prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:prose-a:[--tw-prose-underline-size:6px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg prose-lead:text-slate-500  lg:prose-headings:scroll-mt-[8.5rem]"
+					<li class="relative">
+						<a
+							href="{{ account.url }}"
+							aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+						
 						>
-							{{ content | safe }}
-						</div>
-					</article>
-				</div>
-			</div>
+							{{ account.data.cardTitle }}
+						</a>
+					</li>
 
+					{%- endfor -%}
+					</ul>
+				</li>
+
+
+				<li>
+					<h2 class="font-semibold text-slate-900 text-lg">
+						📚 Tips & Tricks	
+					</h2>
+					<ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6">
+						{%- for account in collections.tricksHelp -%}
+
+						<li class="relative">
+							<a
+								href="{{ account.url }}"
+								aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+
+							>
+								{{ account.data.cardTitle }}
+							</a>
+						</li>
+
+						{%- endfor -%}
+					
+				  
+					</ul>
+				  </li>
+
+
+				<li>
+					<h2 class="font-semibold text-slate-900 text-lg">
+						👤 My Account
+					</h2>
+					<ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6">
+						{%- for account in collections.guideAccounts -%}
+
+						<li class="relative">
+							<a
+								href="{{ account.url }}"
+								aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy"
+							
+							>
+								{{ account.data.cardTitle }}
+							</a>
+						</li>
+
+						{%- endfor -%}
+					
+				  
+					</ul>
+				  </li>
+			  </ul>
+			</div>
 			<div
-				class="relative z-10"
-				aria-labelledby="slide-over-title"
-				role="dialog"
-				aria-modal="true"
-				v-if="docsMenu === true"
+			  class="mx-auto mt-20 min-w-0 max-w-[40rem] lg:mt-0 lg:mr-0 lg:ml-16 lg:max-w-[50rem] lg:flex-auto prose-sm prose prose-slate prose-a:font-semibold prose-a:text-sky-500 hover:prose-a:text-sky-600"
 			>
-				<!-- Background backdrop, show/hide based on slide-over state. -->
-				<div class="fixed inset-0"></div>
-
-				<div class="fixed inset-0 overflow-hidden">
-					<div class="absolute inset-0 overflow-hidden">
-						<div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
-							<div class="pointer-events-auto w-screen max-w-md">
-								<div class="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-									<div class="px-4 sm:px-6">
-										<div class="flex items-start justify-between">
-											<h2 class="text-lg font-medium text-gray-900" id="slide-over-title">
-												Helperbird
-											</h2>
-											<div class="ml-3 flex h-7 items-center">
-												<button
-													type="button"
-													@click="docsMenu = false"
-													class="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-												>
-													<span class="sr-only">Close panel</span>
-													
-													<svg
-														class="h-6 w-6"
-														xmlns="http://www.w3.org/2000/svg"
-														fill="none"
-														viewBox="0 0 24 24"
-														stroke-width="1.5"
-														stroke="currentColor"
-														aria-hidden="true"
-													>
-														<path
-															stroke-linecap="round"
-															stroke-linejoin="round"
-															d="M6 18L18 6M6 6l12 12"
-														/>
-													</svg>
-												</button>
-											</div>
-										</div>
-									</div>
-									<div class="relative mt-6 flex-1 px-4 sm:px-6">
-										<!-- Replace with your content -->
-										<div class="absolute inset-0 px-4 sm:px-6">
-											<nav class="flex-1 space-y-1 bg-white px-2" aria-label="Sidebar">
-												<ul role="list" class="space-y-9">
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															🏃 Getting started
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for guide in collections.guideFeatures -%}
-
-															<li class="relative">
-																<a
-																	href="{{ guide.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ guide.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															📋 Features
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for features in collections.guideFeaturesMain -%}
-
-															<li class="relative">
-																<a
-																	href="{{ features.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ features.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															📚 Integrations
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for integration in collections.guideIntegrations -%}
-
-															<li class="relative">
-																<a
-																	href="{{ integration.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ integration.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															💬 Apps
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for apps in collections.guideApps -%}
-
-															<li class="relative">
-																<a
-																	href="{{ apps.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ apps.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															📱 iPad & iPhone
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for account in collections.iOSHelp -%}
-
-															<li class="relative">
-																<a
-																	href="{{ account.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ account.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															🫶 Tips & Tricks
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for account in collections.tricksHelp -%}
-
-															<li class="relative">
-																<a
-																	href="{{ account.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ account.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-
-													<li>
-														<h2 class="font-display font-medium text-slate-900 ">
-															👤 Account
-														</h2>
-														<ul
-															role="list"
-															class="border-slate-000  lg:border-slate-000 mt-2 space-y-2 lg:mt-4 lg:space-y-4"
-														>
-															{%- for account in collections.guideAccounts -%}
-
-															<li class="relative">
-																<a
-																	href="{{ account.url }}"
-																	aria-current="page"
-																	class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block "
-																>
-																	{{ account.data.cardTitle }}
-																</a>
-															</li>
-
-															{%- endfor -%}
-														</ul>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<!-- /End replace -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<h1 class="font-display text-3xl tracking-tight text-slate-900 mb-8">
+				{{cardTitle}}
+			</h1>
+			{{ content | safe }}
 			</div>
+		  </div>
+		  
+
+
 
 			{% include templates/footer.html %}
 		</div>
