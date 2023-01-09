@@ -1,28 +1,24 @@
-<div>
-	<div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:px-8">
-		<div class="sm:align-center sm:flex sm:flex-col">
-			<h1 class="text-5xl font-bold tracking-tight text-gray-900 sm:text-center">
-				<span class="relative whitespace-nowrap"><svg aria-hidden="true" viewBox="0 0 281 40"
-						class="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" preserveAspectRatio="none">
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M240.172 22.994c-8.007 1.246-15.477 2.23-31.26 4.114-18.506 2.21-26.323 2.977-34.487 3.386-2.971.149-3.727.324-6.566 1.523-15.124 6.388-43.775 9.404-69.425 7.31-26.207-2.14-50.986-7.103-78-15.624C10.912 20.7.988 16.143.734 14.657c-.066-.381.043-.344 1.324.456 10.423 6.506 49.649 16.322 77.8 19.468 23.708 2.65 38.249 2.95 55.821 1.156 9.407-.962 24.451-3.773 25.101-4.692.074-.104.053-.155-.058-.135-1.062.195-13.863-.271-18.848-.687-16.681-1.389-28.722-4.345-38.142-9.364-15.294-8.15-7.298-19.232 14.802-20.514 16.095-.934 32.793 1.517 47.423 6.96 13.524 5.033 17.942 12.326 11.463 18.922l-.859.874.697-.006c2.681-.026 15.304-1.302 29.208-2.953 25.845-3.07 35.659-4.519 54.027-7.978 9.863-1.858 11.021-2.048 13.055-2.145a61.901 61.901 0 0 0 4.506-.417c1.891-.259 2.151-.267 1.543-.047-.402.145-2.33.913-4.285 1.707-4.635 1.882-5.202 2.07-8.736 2.903-3.414.805-19.773 3.797-26.404 4.829Zm40.321-9.93c.1-.066.231-.085.29-.041.059.043-.024.096-.183.119-.177.024-.219-.007-.107-.079ZM172.299 26.22c9.364-6.058 5.161-12.039-12.304-17.51-11.656-3.653-23.145-5.47-35.243-5.576-22.552-.198-33.577 7.462-21.321 14.814 12.012 7.205 32.994 10.557 61.531 9.831 4.563-.116 5.372-.288 7.337-1.559Z">
-						</path>
-					</svg><span class="relative">Simple pricing,</span></span>
-				<!-- -->for everyone.
-			</h1>
 
-			<p class="mt-5 text-xl text-gray-500 sm:text-center">
-				Whether you’re one person trying to write the next novel or a business trying to support all
-				your employees, we’ve got a plan for you.
-			</p>
-
-			<p class="mt-5 text-xl text-gray-500 sm:text-center">
-				All plans include 3 day free trial.
-			</p>
+	<div class="mx-auto max-w-2xl py-6 px-6 sm:py-12 lg:max-w-7xl lg:px-8 bg-indigo-900 rounded-3xl">
+		<div class="bg-indigo-900 sm:px-4 lg:flex lg:items-center lg:justify-between lg:px-0">
+			<div class="max-w-xl">
+				<h2 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+					Pricing Plans
+				</h2>
+				<p class="mt-5 text-xl text-indigo-300">
+					Start building for free, then add a site plan to go live. Account plans unlock additional
+					features.
+				</p>
+			</div>
 
 			<div class="mx-auto mt-10 w-full max-w-xs">
 				<div class="relative mt-1.5">
-					<select id="currency" name="currency" v-model="currency" class="select select-sm w-full max-w-xs">
+					<select
+						id="currency"
+						name="currency"
+						v-model="currency"
+						class="select select-sm w-full max-w-xs"
+					>
 						<option class="bg-gray-900" value="aud">Australia (AUD) 🇦🇺</option>
 						<option class="bg-gray-900" value="usd" selected="selected">
 							United States (USD) 🇺🇸
@@ -35,14 +31,20 @@
 				</div>
 
 				<div class="relative mt-6 flex self-center rounded-lg bg-gray-100 p-0.5 sm:mt-8">
-					<button type="button" @click="switchType"
-						v-bind:class="!isYearly ? ' border-gray-200 bg-white text-gray-900 shadow-sm ' : ' '"
-						class="relative w-1/2 whitespace-nowrap rounded-md border border-transparent py-2 text-sm font-medium text-gray-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:w-auto sm:px-8">
+					<button
+						type="button"
+						@click="switchType"
+						v-bind:class="!isYearly ? '  bg-white text-gray-900 shadow-sm ' : ' '"
+						class="relative w-1/2 whitespace-nowrap rounded-md border border-transparent py-2 text-sm font-medium text-gray-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:w-auto sm:px-8"
+					>
 						Monthly billing
 					</button>
-					<button type="button" @click="switchType"
-						v-bind:class="isYearly ? '  border-gray-200 bg-white text-gray-900 shadow-sm  ' : ' '"
-						class="relative ml-0.5 w-1/2 whitespace-nowrap rounded-md border border-transparent py-2 text-sm font-medium text-gray-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:w-auto sm:px-8">
+					<button
+						type="button"
+						@click="switchType"
+						v-bind:class="isYearly ? '   bg-white text-gray-900 shadow-sm  ' : ' '"
+						class="relative ml-0.5 w-1/2 whitespace-nowrap rounded-md border border-transparent py-2 text-sm font-medium text-gray-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:w-auto sm:px-8"
+					>
 						Yearly billing
 					</button>
 				</div>
@@ -50,24 +52,34 @@
 		</div>
 
 		<div
-			class="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
-			<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 bg-white shadow-sm">
+			class="mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3"
+		>
+			<div
+				class="divide-y divide-gray-200 rounded-lg border-2 border-2 border-stone-400 border-stone-400 bg-white shadow-sm"
+			>
 				<div class="p-6">
 					<h2 class="text-lg font-medium leading-6 text-gray-900">
 						<span class="mr-2">🦉</span>
 						Free
 					</h2>
 					<p class="mt-4 text-sm text-gray-500">All the basics for Helperbird features.</p>
-					<p class="mt-8 hidden"
-						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>0.00</span>
+					<p
+						class="mt-8 hidden"
+						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>0.00</span
+						>
 						<span class="text-base font-medium text-gray-500">/monthly</span>
 					</p>
 
-					<p class="mt-8" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>0.00</span>
+					<p
+						class="mt-8"
+						v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>0.00</span
+						>
 						<span class="text-base font-medium text-gray-500">/yearly</span>
 					</p>
 
@@ -80,53 +92,88 @@
 					<ul role="list" class="mt-6 space-y-4">
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Basic accessibility features.</span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Basic Text to speech features. </span>
 						</li>
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Specialized fonts (Dyslexia) </span>
 						</li>
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Color blindness features </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Immersive reader by Microsoft </span>
 						</li>
@@ -134,181 +181,286 @@
 				</div>
 			</div>
 
-			<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 bg-white shadow-sm">
+			<div class="divide-y divide-gray-200 rounded-lg border-2 border-stone-400 bg-white shadow-sm">
 				<div class="p-6">
 					<h2 class="text-lg font-medium leading-6 text-gray-900">
 						<span class="mr-2">💎 </span>
 						Pro
+						<div class="badge badge-error ml-4 bg-rose-500 border-stone-600 border-2">20% off Yealy</div>
 					</h2>
+
 					<p class="mt-4 text-sm text-gray-500">
 						Access to all the Helperbird features and support.
 					</p>
-					<p class="mt-8"
-						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>
+					<p
+						class="mt-8"
+						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>
 							<span v-html="priceDetails.monthly.pro">6.99</span>
 						</span>
 						<span class="text-base font-medium text-gray-500">/monthly</span>
 					</p>
 
-					<p class="mt-8 hidden"
-						v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>
+					<p
+						class="mt-8 hidden"
+						v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>
 							<span v-html="priceDetails.yearly.pro">60.00</span>
 						</span>
 						<span class="text-base font-medium text-gray-500">/yearly</span>
 					</p>
 
-					<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+					<a
+						href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
 						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-						:href="priceDetails.monthly.proLink" class="btn btn-primary btn-block mt-4">Start Free Trial</a>
+						:href="priceDetails.monthly.proLink"
+						class="btn btn-primary btn-block mt-4"
+						>Start Free Trial</a
+					>
 
-					<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+					<a
+						href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
 						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
-						:href="priceDetails.yearly.proLink" class="btn btn-primary btn-block mt-4">Start Free trial</a>
+						:href="priceDetails.yearly.proLink"
+						class="btn btn-primary btn-block mt-4"
+						>Start Free trial</a
+					>
 				</div>
 				<div class="px-6 pt-6 pb-8">
 					<h3 class="text-sm font-medium text-gray-900">What's included</h3>
 					<ul role="list" class="mt-6 space-y-4">
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Advanced features </span>
 						</li>
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Advance Text to speech features </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Annotation tools </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Writing tools (Word prediction) </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Reading tools (Reader Mode) </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Research tools </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Advanced dyslexia support </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Translation tools </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Advance OCR tools </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Advance reading tools </span>
 						</li>
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Natural voices </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">30 other features </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Premium support </span>
 						</li>
@@ -316,120 +468,169 @@
 				</div>
 			</div>
 
-			<div class="divide-y divide-gray-200 rounded-lg border border-gray-200 bg-white shadow-sm">
+			<div class="divide-y divide-gray-200 rounded-lg border-2 border-stone-400 bg-white shadow-sm">
 				<div class="p-6">
 					<h2 class="text-lg font-medium leading-6 text-gray-900">
 						<span class="mr-2">🏠</span>
 						Pro Unlimited
 					</h2>
-					<p class="mt-4 text-sm text-gray-500">
-						Unlimited users in a school or business.
-					</p>
-					<p class="mt-8"
-						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>
-							<span v-html="priceDetails.monthly.unlimited">99.99</span></span>
+					<p class="mt-4 text-sm text-gray-500">Unlimited users in a school or business.</p>
+					<p
+						class="mt-8"
+						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>
+							<span v-html="priceDetails.monthly.unlimited">99.99</span></span
+						>
 						<span class="text-base font-medium text-gray-500">/monthly</span>
 					</p>
 
-					<p class="mt-8" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
-						<span class="text-4xl font-bold tracking-tight text-gray-900"><span
-								v-html="priceDetails.currency">$</span>
-							<span v-html="priceDetails.yearly.unlimited">1,200</span></span>
+					<p
+						class="mt-8"
+						v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'"
+					>
+						<span class="text-4xl font-bold tracking-tight text-gray-900"
+							><span v-html="priceDetails.currency">$</span>
+							<span v-html="priceDetails.yearly.unlimited">1,200</span></span
+						>
 						<span class="text-base font-medium text-gray-500">/yearly</span>
 					</p>
 
-					<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+					<a
+						href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
 						v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-						:href="priceDetails.monthly.unlimitedLink" class="btn btn-primary btn-block mt-4">Start Free
-						Trial</a>
+						:href="priceDetails.monthly.unlimitedLink"
+						class="btn btn-primary btn-block mt-4"
+						>Start Free Trial</a
+					>
 
-					<a href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+					<a
+						href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
 						v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
-						:href="priceDetails.yearly.unlimitedLink" class="btn btn-primary btn-block mt-4">Start Free
-						trial</a>
+						:href="priceDetails.yearly.unlimitedLink"
+						class="btn btn-primary btn-block mt-4"
+						>Start Free trial</a
+					>
 				</div>
 				<div class="px-6 pt-6 pb-8">
 					<h3 class="text-sm font-medium text-gray-900">What's included</h3>
 					<ul role="list" class="mt-6 space-y-4">
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="text-sm text-gray-500">All features
-							</span>
+							<span class="text-sm text-gray-500">All features </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="text-sm text-gray-500">Unlimited users (per school/business)
-							</span>
+							<span class="text-sm text-gray-500">Unlimited users (per school/business) </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
 							<span class="text-sm text-gray-500">Personal success manager. </span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="text-sm text-gray-500">Admin panel <div class="badge badge-accent ml-2">Coming
-									soon</div>
+							<span class="text-sm text-gray-500"
+								>Admin panel
+								<div class="badge badge-accent ml-2">Coming soon</div>
 							</span>
 						</li>
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="text-sm text-gray-500">Exam mode<div class="badge badge-accent ml-2">Coming
-									soon</div>
-
+							<span class="text-sm text-gray-500"
+								>Exam mode
+								<div class="badge badge-accent ml-2">Coming soon</div>
 							</span>
 						</li>
 
 						<li class="flex space-x-3">
 							<!-- Heroicon name: mini/check -->
-							<svg class="h-5 w-5 flex-shrink-0 text-green-500" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd"
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-green-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
 									d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-									clip-rule="evenodd" />
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="text-sm text-gray-500">Premium support
-
-							</span>
+							<span class="text-sm text-gray-500">Premium support </span>
 						</li>
 					</ul>
 				</div>
 			</div>
-
 		</div>
 	</div>
-</div>
+
