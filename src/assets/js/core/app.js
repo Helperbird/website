@@ -14,7 +14,7 @@ function load() {
 			writer: null,
 
 			// Pricing Table
-			isYearly: false,
+			isYearly: true,
 			proLink: "",
 			studentLink: "",
 			unlimitedLink: "",
@@ -155,7 +155,7 @@ function load() {
 						this.price.monthly.unlimitedLink =
 							"https://buy.stripe.com/dR6cNt4L2dQEfx69AE";
 
-						this.price.student = "40";
+						this.price.student = "40.00";
 						this.price.studentLink =
 							"https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss";
 
@@ -203,7 +203,7 @@ function load() {
 						this.price.monthly.unlimitedLink =
 							"https://buy.stripe.com/8wM3cTcdubIwgBacNk";
 
-						this.price.student = "40";
+						this.price.student = "40.00";
 						this.price.studentLink =
 							"https://buy.stripe.com/eVa5l16Ta8wk2KkcNh";
 
@@ -227,7 +227,7 @@ function load() {
 						this.price.monthly.unlimitedLink =
 							"https://buy.stripe.com/aEU6p5elC4g470A6p1";
 
-						this.price.student = "40";
+						this.price.student = "40.00";
 						this.price.studentLink =
 							"https://buy.stripe.com/14keVBfpGdQEacM7t2";
 
@@ -275,7 +275,7 @@ function load() {
 						this.price.monthly.unlimitedLink =
 							"https://buy.stripe.com/dR6cNt4L2dQEfx69AE";
 
-						this.price.student = "40";
+						this.price.student = "40.00";
 						this.price.studentLink =
 							"https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss";
 
