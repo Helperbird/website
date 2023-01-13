@@ -8,7 +8,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Analyze text, webpages quickly and faster
+featurePageTitle: Easily count letters and characters on any website with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/graph.svg"
 youtubeId: PfILiWebkuc
