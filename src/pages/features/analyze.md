@@ -53,7 +53,7 @@ Overall, Helperbird's feature can be a useful tool for writers, editors, and con
 
 
 ## Is this a Free Helperbird feature?
-This is a premium feature. You can try it for free for 7 days. After that, you can choose to continue using it for $4.99/month or $49.99/year.
+This is a premium feature. You can try it for free for 3 days. After that, you can choose to continue using it for [$4.99/month or $49.99/year](/pricing/).
 
 
 
