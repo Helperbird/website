@@ -1,21 +1,21 @@
 ---
 layout: templates/features_two.liquid
-title: Web site & PDF annotation extension
+title:  Annotate and Highlight Websites & PDFs - Highlight, Annotate, Organize, and Share
 description:
-  Highlight or annotate web pages, documents, pdfs, ebooks & more to improve research and study.
-  Leaving sticking notes that help you with your research and homework. Available for Chrome, Firefox, Edge, and Safari.
+  Revolutionize your research and work process with Helperbird Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes, organize them, save on the cloud and export in different file formats. Also, find your notes easily with our powerful search feature.
+
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-featurePageTitle: Annotate the web, annotate everything!
+featurePageTitle: Annotate and Highlight Websites, PDFs, and Ebooks
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/notes.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Annotations
+cardTitle: Annotations & Sticky Notes
 featureDescription:
-  Highlight or annotate web pages, documents, pdfs, ebooks and more to improve research and study.
+  Revolutionize your research and work process with our Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes.
 date: 2016-01-02
 group: reading
 tags: 
@@ -26,59 +26,57 @@ url: features/annotation/
 ---
 
 
-Highlight or annotate web pages documents, pdfs, ebooks & more content to improve engagement and study.
+## Summary
+
+Helperbird's sticky note and annotation feature allows users to easily highlight, annotate and comment on any website or PDF. 
+
+It also allows users to choose from different colors and sizes for their sticky notes, organize them into different categories, save them on the cloud, and export them in different file formats. 
+
+Additionally, users can search through the notes by keywords. 
+
+This feature provides a powerful and flexible tool to enhance browsing experience and improve productivity.
 
 
-## Tell me more about this feature
+## Benefits
 
-Highlight or annotate text directly on web pages. They will show up when you revisit the web page and saved it for you in Helperbird.
+There are several benefits of leaving sticky notes on websites and PDFs with Helperbird's sticky note and annotation feature, including:
 
-Helperbird helps you annotate, collect web content like articles, PDF reports, Youtube videos, and more.
+### Easily highlight important information
+It allows you to easily highlight, annotate, and comment on important information or passages on any website or PDF, making it easier to organize and review your research or work.
 
-Writing directly on the web page you are on is the most natural way to annotate. Make any web page or PDF files unique with your thoughts. 
+### Improve your memory retention
+You can choose from a variety of colors and sizes for your sticky notes, making it easy to create a visual system for categorizing different types of information.
 
-Your work will always be there whenever you return to the
-page. Save, comment on everything you read online with Helperbird.
+### Save your notes on the cloud
+It allows you to save your notes and annotations on the cloud, so you can access them from any device or location.
+
+### Improve your productivity
+It also helps in increasing productivity as you can jot down your thoughts and ideas in real-time as you are browsing.
+
+It can help you to improve your memory retention by visualizing the information you are reading.
+
+### Track your progress
+It can help you to keep track of your progress and return to specific web pages or PDFs with ease by adding notes to them.
+
+
+
+
 
 
 
 ## Features
 
+Overall, Helperbird's sticky note and annotation feature provides a powerful and flexible tool for users to enhance their browsing experience and improve productivity.
 
-Annotate any website, pdf or file.
-
-Simple easy to use UI.
-
-A dashboard to manage all your notes.
-
-Export your notes as Evernote, Word or HTML files.
-
-All notes are safe and synced across all your devices.
-
-Change background color and font color of annotates.
-
-Change size of the annotations and location.
+- The ability to highlight and annotate text on any website or PDF
+- The ability to add notes and comments to specific sections of a website or PDF
+- The ability to choose from different colors and sizes for sticky notes
+- The ability to organize notes into different categories or groups
+- The ability to save notes and annotations on the cloud, so they can be accessed from any device or location
+- The ability to export notes and annotations in different file formats for backup or sharing purposes.
+- The ability to search through the notes by keywords.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Is this a Free Helperbird feature?
+This is a premium feature. You can try it for free for 3 days. After that, you can choose to continue using it for [$4.99/month or $49.99/year](/pricing/).

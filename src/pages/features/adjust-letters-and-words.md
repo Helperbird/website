@@ -1,6 +1,6 @@
 ---
 layout: templates/features_two.liquid
-title: Easily adjust line, letter and word spacing - Helperbird
+title: Easily adjust line, letter and word spacing
 description:
   Easily adjust line, letter and word spacing on any website or PDF to improve readability and customize your online reading experience. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
 keywords:

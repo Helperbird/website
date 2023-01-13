@@ -1,6 +1,6 @@
 ---
 layout: templates/features_two.liquid
-title: Show image & link descriptions on mouse over! - Helperbird
+title: Show image & link descriptions on mouse over!
 description:
   Show image & link descriptions on mouse over with Helperbird on any website or PDF. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
 keywords:
