@@ -1,21 +1,20 @@
 ---
 layout: templates/features_two.liquid
-title: Show image & link descriptions on mouse over
+title: Show image & link descriptions on mouse over! - Helperbird
 description:
-  Discover Alt and title tags on every website with Helperbird. Through the use of tooltips,
-  discover missing alt tags on hover and display them on mouse hover.
+  Show image & link descriptions on mouse over with Helperbird on any website or PDF. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Show image & link descriptions on mouse over
+featurePageTitle: Show image & link descriptions on mouse over!
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Image & Alt descriptions
-featureDescription: Show Alt & Image descriptions on mouse over.
+cardTitle: Show Alt & Image descriptions
+featureDescription: Simplify your web browsing with Helperbird's Alt & title description feature. Providing additional information about the content. 
 group: reading
 tags: 
   - features
@@ -25,28 +24,47 @@ link: reading
 url: features/alt-tool-tip-highlighter/
 ---
 
+## Summary
+
+Alt tags, provide a brief description of the content of an image or a link. When users hover over an image or link, the alt tag appears as a tooltip, providing additional information about the content. 
+
+This can be particularly useful for users who are visually impaired and use screen readers to navigate websites. 
+
+These users rely on alt tags to understand the content of images and links, since they cannot see the images themselves. 
+
+Additionally, alt tags can improve the accessibility and usability of a website for all users by providing more context and information about the content they are interacting with.
+
+## Benefits
 
 
+Being able to see image titles and link alt tags can also improve the user experience in several ways:
 
+### Image titles
+Image titles can provide additional information about an image, such as its source, copyright information, or a caption.
 
-Discover Alt and title tags on every website with Helperbird. Through the use of tooltips, discover missing alt tags on hover and display them on mouse hover.
+### Link alt tags
+Link alt tags can provide more context about the link's destination, making it easier for users to decide whether to click on it.
 
+### Cognitive or Visual impairments
 
+Being able to see image titles and link alt tags on hover can help users with cognitive or visual impairments to better understand and navigate the website.
 
-## Tell me more about this feature
-
-Helperbird allows you to show ALT & title tags on mouse over.</p>
-
-
-
-
+Image titles and link alt tags can also give users a better sense of what to expect when they click on a link or image, which can improve the overall usability of a website.
 
 
 ## Features
 
-Show alt tags on hover.
+- Show alt tags on images on mouse over.
+- Show title tags on links on mouse over.
 
-Show title tags on hover.
+
+## Is this a Free Helperbird feature?
+
+It is! This feature is available to all Helperbird users, regardless of whether they have a paid subscription or not.
+
+
+
+
 
 
 
