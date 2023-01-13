@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-	<head>
-		<meta charset="utf-8" />
-		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-		<title>{{ title }} - Helperbird</title>
-		{% bundledCss %}
-		<script>
-			if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.register('/service-worker.js');
-			}
-		</script>
 
-		<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
-		<meta content="{{ description }}" name="description" />
-		<meta content="{{ keywords }}" name="keywords" />
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>{{ title }} - Helperbird</title>
+	{% bundledCss %}
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js');
+		}
+	</script>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta content="/assets/images/favicon.png" name="image" />
-		<meta content="#5046e4" name="theme-color" />
-		<meta content="Helperbird" itemprop="name" />
-		<meta content="{{ description }}" itemprop="description" />
-		<meta content="/assets/images/favicon.png" itemprop="image" />
+	<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+	<meta content="{{ description }}" name="description" />
+	<meta content="{{ keywords }}" name="keywords" />
 
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@helperbird" />
-		<meta name="twitter:creator" content="@robertjgabriel" />
-		<meta name="twitter:title" content="{{ title }} - Helperbird" />
-		<meta property="twitter:domain" content="helperbird.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta content="/assets/images/favicon.png" name="image" />
+	<meta content="#5046e4" name="theme-color" />
+	<meta content="Helperbird" itemprop="name" />
+	<meta content="{{ description }}" itemprop="description" />
+	<meta content="/assets/images/favicon.png" itemprop="image" />
 
-		<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
-		<meta name="twitter:description" content="{{ description }}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@helperbird" />
+	<meta name="twitter:creator" content="@robertjgabriel" />
+	<meta name="twitter:title" content="{{ title }} - Helperbird" />
+	<meta property="twitter:domain" content="helperbird.com" />
 
-		<meta
-			name="twitter:image:alt"
-			content="Helperbird promo art with text saying visit Helperbird"
-		/>
-		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+	<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+	<meta name="twitter:description" content="{{ description }}" />
 
-		<meta
-			content="https://www.youtube.com/watch?v={{youtubeId}}"
-			name="twitter:player"
-		/>
+	<meta name="twitter:image:alt" content="Helperbird promo art with text saying visit Helperbird" />
+	<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
 
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="{{ title }} - Helperbird" />
-		<meta property="og:description" content="{{ description }}" />
-		<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
-		<meta property="og:site_name" content="Helperbird" />
-		<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
-		<meta
-			property="og:video"
-			content="https://www.youtube.com/watch?v={{youtubeId}}"
-		/>
+	<meta content="https://www.youtube.com/watch?v={{youtubeId}}" name="twitter:player" />
 
-		<link href="/assets/images/social/favicon.png" rel="shortcut icon" />
-		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
-		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-		<script type="application/ld+json">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="{{ title }} - Helperbird" />
+	<meta property="og:description" content="{{ description }}" />
+	<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+	<meta property="og:site_name" content="Helperbird" />
+	<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+	<meta property="og:video" content="https://www.youtube.com/watch?v={{youtubeId}}" />
+
+	<link href="/assets/images/social/favicon.png" rel="shortcut icon" />
+	<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
+	<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+	<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "SoftwareApplication",
@@ -79,7 +71,7 @@
 				}
 			}
 		</script>
-		<script type="application/ld+json">
+	<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "Organization",
@@ -93,7 +85,7 @@
 				]
 			}
 		</script>
-		<script type="application/ld+json">
+	<script type="application/ld+json">
 			{
 			            			        "@context": "https://schema.org/",
 			            			        "@type": "Product",
@@ -172,336 +164,152 @@
 
 			            			    }
 		</script>
+	<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+	<link href="/assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="/assets/images/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+	<link href="/assets/images/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+	<link href="/assets/images/social/site.webmanifest" rel="manifest" />
+	<link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
+	<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
+	<meta content="#ffffff" name="msapplication-TileColor" />
+	<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+</head>
 
-		<style>
-			/*! CSS Used from: https://www.launchaco.com/static/AllTemplates.min.css */
-			.font-friendly * {
-				font-family: Montserrat, sans-serif;
-			}
-
-			*,
-			:after,
-			:before {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-				font-smoothing: antialiased;
-				-webkit-font-smoothing: antialiased;
-				text-rendering: optimizeLegibility;
-			}
-
-			img {
-				max-width: 100%;
-			}
-
-			.mask {
-				overflow: hidden;
-				position: relative;
-				background: #fff;
-			}
-
-			.ipadiphone {
-				position: relative;
-			}
-
-			.ipadiphone-ipad .mask {
-				min-width: 720px;
-				max-width: 990px;
-				height: 520px;
-			}
-
-			.ipadiphone-ipad {
-				border-radius: 35px;
-				overflow: hidden;
-				padding: 15px 70px;
-				background: linear-gradient(#f4f4f4, #f2f2f2);
-				box-shadow: inset -7px 0 0.4px -7px #e5e5e5, inset 7px 0 0.4px -7px #eaeaea,
-					inset 0 4px 1px -3px #ddd, inset 0 -5px 1px -4px #8a8a8a, inset 0 0 0 2px #fff,
-					inset 0 0 0 3px rgba(0, 0, 0, 0.08), inset 1px 0 0 4px #fff, inset -1px 0 0 4px #fff,
-					inset 2px 0 0.2px 5px rgba(0, 0, 0, 0.05), inset -2px 0 0.2px 5px rgba(0, 0, 0, 0.05),
-					inset 12px 0 0.2px -1px #fff, inset -12px 0 0.2px -1px #fff;
-				display: inline-block;
-				position: relative;
-				left: 70px;
-			}
-
-			.ipadiphone-iphone .mask {
-				width: 210px;
-				min-height: 310px;
-				max-height: 400px;
-			}
-
-			.ipadiphone-iphone {
-				z-index: 99;
-				position: absolute;
-				display: inline-block;
-				bottom: -20px;
-				background: linear-gradient(#f4f4f4, #f2f2f2);
-				box-shadow: inset 0 0 1px 1px #dbdcdd, inset 0 0 1px 4px #efefef, inset 0 0 0 5px #fff,
-					inset 0 0 0 6.5px #edf1f2, inset 5px 0 7px 5px #fff, inset -5px 0 7px 5px #fff;
-				border-radius: 35px;
-				padding: 50px 15px 60px;
-			}
-
-			.ipadiphone-iphone:before {
-				content: '';
-				width: 53px;
-				height: 6px;
-				border-radius: 10px;
-				position: absolute;
-				box-shadow: inset 0 4px 3px 0 #e6e6e6, inset 0 0 0 2px #ececec;
-				top: 26px;
-				left: calc(50% - 26px);
-			}
-
-			.ipadiphone-iphone:after {
-				content: '';
-				width: 38px;
-				height: 38px;
-				border-radius: 50%;
-				position: absolute;
-				box-shadow: inset 0 -2px 0.2px 0 #d5d5d5, inset 0 0 0 2.5px #e8e8e8;
-				bottom: 14px;
-				left: calc(50% - 19px);
-			}
-
-			@media screen and(max-width: 820px) {
-				.ipadiphone {
-					margin-top: 50px;
-				}
-			}
-
-			.mask {
-				width: 100%;
-				overflow: hidden;
-				border-radius: 0 0 4px 4px;
-				background: #fff;
-				position: relative;
-			}
-
-			.mask__noimage {
-				height: 100%;
-			}
-
-			.mask-img {
-				width: 100%;
-				display: block;
-				z-index: 2;
-				position: relative;
-			}
-
-			/*! CSS Used from: https://www.launchaco.com/static/css/app.74a2c0b39740bb7417bacc343732d258.css */
-			*,
-			:after,
-			:before {
-				margin: 0;
-				padding: 0;
-				text-rendering: optimizeLegibility;
-				-webkit-font-smoothing: antialiased;
-				box-sizing: border-box;
-				font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue,
-					sans-serif;
-			}
-
-			::-webkit-input-placeholder {
-				color: #061027;
-				opacity: 0.44;
-			}
-
-			::-moz-placeholder {
-				color: #061027;
-				opacity: 0.44;
-			}
-
-			:-ms-input-placeholder {
-				color: #061027;
-				opacity: 0.44;
-			}
-
-			:-moz-placeholder {
-				color: #061027;
-				opacity: 0.44;
-			}
-
-			.launchaco-builder-hoverable {
-				outline-offset: 2px;
-			}
-
-			.launchaco-builder-hoverable:hover {
-				opacity: 1;
-				outline: 2px solid #28d3fa;
-			}
-
-			@media (pointer: coarse) {
-				.launchaco-builder-hoverable:hover {
-					outline: none;
-					outline-offset: 0;
-				}
-			}
-
-			#user-site .mask {
-				text-indent: 100%;
-				white-space: nowrap;
-				overflow: hidden;
-			}
-
-			.mask__noimage {
-				height: 100%;
-				max-height: 700px;
-				background: #fff;
-				position: relative;
-			}
-
-			.mask__noimage:after {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM4ZThlOGUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMjQgMjRIMFYwaDI0djI0eiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yMSAzSDNDMiAzIDEgNCAxIDV2MTRjMCAxLjEuOSAyIDIgMmgxOGMxIDAgMi0xIDItMlY1YzAtMS0xLTItMi0yek01IDE3bDMuNS00LjUgMi41IDMuMDFMMTQuNSAxMWw0LjUgNkg1eiIvPjwvc3ZnPg==');
-				background-size: 20%;
-				background-position: 50%;
-				background-repeat: no-repeat;
-				z-index: 0;
-			}
-		</style>
-
-		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-		<link
-			href="/assets/images/social/apple-touch-icon.png"
-			rel="apple-touch-icon"
-			sizes="180x180"
-		/>
-		<link
-			href="/assets/images/social/favicon-32x32.png"
-			rel="icon"
-			sizes="32x32"
-			type="image/png"
-		/>
-		<link
-			href="/assets/images/social/favicon-16x16.png"
-			rel="icon"
-			sizes="16x16"
-			type="image/png"
-		/>
-		<link href="/assets/images/social/site.webmanifest" rel="manifest" />
-		<link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
-		<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
-		<meta content="#ffffff" name="msapplication-TileColor" />
-		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
-	</head>
-
-	<body>
-		<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
-			{% include templates/header.html %}
-
-			<main class="mx-auto max-w-7xl">
+<body>
+	<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
+		{% include templates/header.html %}
 
 
+		<main class="mx-auto max-w-7xl my-8 mb-10">
+			<div class="sm:px-8 mt-9">
+			
+				<div class="relative px-4 sm:px-8 lg:px-12">
+				  <div class="mx-auto max-w-2xl lg:max-w-5xl">
+					<div class="max-w-2xl">
+					  <h1
+						class="text-5xl font-bold tracking-tight text-black "
+					  >
+					  {{
+						featurePageTitle }}
+					  </h1>
+					  <p class="mt-6 text-lg text-black">
+						{{featureDescription}}
+					  </p>
+					  <div class="mt-6 flex gap-6">
+						<button
+						role="button"
+						class="group btn btn-secondary inline-flex items-center justify-center border-2 border-stone-600 py-2 px-4"
+						@click="handleModal"
+					>
+						Download Now</button
+					><a
+						class="btn-base group btn btn-ghost inline-flex items-center justify-center  border-2  border-stone-600 py-2 px-4"
+						href="/features/"
+						><span>All features</span></a
+					>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
+			</div>
+		
+			<div class="sm:px-8 mt-24 md:mt-28">
+	
+				<div class="relative px-4 sm:px-8 lg:px-12">
+				  <div class="mx-auto max-w-2xl lg:max-w-5xl">
+					<div
+					  class="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2"
+					>
+					  <div class="flex flex-col gap-16">
+						<article class="mt-6 space-y-7 text-base text-black">
+						
+								{{ content | safe }}
+						
+						</article>
+	
+					  </div>
+					  <div class="space-y-10 lg:pl-16 xl:pl-24">
+						<div  class="rounded-2xl  card bg-white border-stone-600 border-2 p-6">
+						<div class="max-w-xs px-2.5 lg:max-w-none">
 
 
+						<div class="aspect-w-16 aspect-h-9">
+							<iframe class="aspect-square  rounded-2xl bg-zinc-100 shadow-lg" width="560"
+								height="315" src="https://www.youtube.com/embed/{{img}}"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
 
-
-
-				
-					<div class="sm:px-8 mt-16 mb-16 sm:mt-32 sm:mb-32">
-{% include templates/header-features.html %}
-				<div class="mx-auto max-w-7xl lg:px-8">
-					<div class="relative px-4 sm:px-8 lg:px-12">
-					<div class="mx-auto max-w-2xl lg:max-w-5xl">
-						<div
-						class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12"
-						>
-						<div class="lg:pl-20">
-							<div class="max-w-xs px-2.5 lg:max-w-none">
-							
-
-<div class="aspect-w-16 aspect-h-9">
-<iframe
-			class="aspect-square  rounded-2xl bg-zinc-100 shadow-lg"
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/{{img}}"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
 </div>
 
 
-			
-
-							</div>
-						</div>
-						<div class="lg:order-first lg:row-span-2">
-							<h1
-							class="text-4xl font-bold tracking-tight text-black sm:text-5xl"
-							>
-							{{
-								featurePageTitle }}
-							</h1>
-							<div
-							class="mt-6 space-y-7 text-base text-black"
-							>
-						{{ content | safe }}
-							</div>
-						</div>
-		
-							<div class="lg:pl-20">
-					
-							</div>
-				
-						</div>
 					</div>
-					</div>
-				</div>
-			</div>
-					<div
-							class="sm:pt-18 sm:pb-18 lg:pt-18 mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:max-w-7xl lg:px-8"
+						<div
+						  class="rounded-2xl  card bg-white border-stone-600 border-2 p-6"
 						>
-							<h2 class="mt-2 text-4xl font-extrabold tracking-tight text-gray-900">
+
+
+						
+							<h2 class="mt-2 text-2xl font-extrabold tracking-tight text-gray-900">
 								More features
 							</h2>
-
+			
 							<div
-								class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
-							>
-								{%- for post in collections.features limit:12 -%}
-
-							
-							
-
-
-					<div class="card border-stone-600 border-2  bg-white rounded-3xl">
-					
-					<div class="card-body">
-							<div
-								class=" btn btn-circle btn-error no-animation text-white"
-							>
-								{{ post.data.icon | svgContents | safe }}
-							</div>
-						
-							<h3 class="text-xl font-medium text-black mb-2">{{ post.data.cardTitle }}</h3>
-							<p class="mt-2 text-base text-black mb-10">{{ post.data.featureDescription }}</p>
-							<div class="card-actions justify-end">
-								<a class="btn-base btn btn-outline  border-stone-600 border-2"
-									href="{{ post.url }}"
-									title="More information on feature {{ post.data.cardTitle  }}">
-									Discover more
-								</a>
-							</div>
-					</div>
-				</div>
-
-
+								class="mt-4 grid grid-cols-1 gap-x-6 gap-y-12 ">
+								{%- for post in collections.features limit:2 -%}
+			
+			
+			
+			
+			
+								<div class="card border-stone-600 border-2  bg-white rounded-3xl">
+			
+									<div class="card-body">
+										<div class=" btn btn-circle btn-error no-animation text-white">
+											{{ post.data.icon | svgContents | safe }}
+										</div>
+			
+										<h3 class="text-xl font-medium text-black mb-2">{{ post.data.cardTitle }}</h3>
+										<p class="mt-2 text-base text-black mb-10">{{ post.data.featureDescription }}</p>
+										<div class="card-actions justify-end">
+											<a class="btn-base btn  border-stone-600 border-2" href="{{ post.url }}"
+												title="More information on feature {{ post.data.cardTitle  }}">
+												Discover more
+											</a>
+										</div>
+									</div>
+								</div>
+			
+			
 								{%- endfor -%}
+
+								<a href="/features" class="btn-base btn   border-stone-600 border-2 btn-wide" title="More information on feature {{ post.data.cardTitle  }}">
+									See all features
+									</a>
 							</div>
+				
+
+
+
+
+					
 						</div>
-			</main>
-			{% include templates/footer.html %} 
-		</div>
-	</body>
-	{% bundledJs %}
+					  </div>
+					</div>
+				  </div>
+				</div>
+		
+			</div>
+		  </main>
+		  
+
+
+	
+		{% include templates/footer.html %}
+	</div>
+</body>
+{% bundledJs %}
+
 </html>
