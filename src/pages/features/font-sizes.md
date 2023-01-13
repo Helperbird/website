@@ -1,22 +1,21 @@
 ---
 layout: templates/features_two.liquid
-title: Control the font sizes in your browser -  Chrome, Edge & Safari
+title:  Easily increase or decrease the font size on any website
 description:
-  Helperbird lets you change the font text size, font type, font color and background color on a
-  page. Sync across every browser.
+  Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Change font sizes on any website 
+featurePageTitle:  Increase or decrease font sizes
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Font sizes
+cardTitle: Increase or decrease font sizes
 featureDescription:
-  Change the font sizes of any website or document.
+  Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience.
 group: reading
 tags: 
   - features
@@ -25,24 +24,36 @@ link: reading
 url: features/font-sizes/
 ---
 
-Helperbird lets you change the font text size, font type, font color, and background color on a page. Sync across every browser.
+## Summary
+Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
+
+This feature is perfect for users who have difficulty reading small text, users with visual difficulties, or users who prefer larger text. 
+
+With this feature, users can adjust the font size to their preference, making it more comfortable and efficient to read the content of the website.
 
 
-##  Tell me more about this feature
+## Benefits
 
-Helperbirds' font size feature allows you to adjust the headers and paragraphs font sizes. Making it easier to adjust the web to your needs.
+### Reading experience
+It allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience.
+
+### Accessibility
+It is perfect for users who have difficulty reading small text, users with visual difficulties, or users who prefer larger text.
+
+### Eliminate the need to zoom
+It eliminates the need to zoom in or out on the browser, saving time and increasing efficiency.
+
+### Reduce eye strain
+It can help to reduce eye strain and fatigue by making text more legible and comfortable to read.
 
 
 
-
-
-##  Features
-    
-Change header font sizes.
-
-Change paragraph font sizes.
+## Features 
+- Change header font sizes.
+- Change paragraph font sizes.
   
-
+## Is this a Free Helperbird feature?
+It is a free feature.
 
 
 
