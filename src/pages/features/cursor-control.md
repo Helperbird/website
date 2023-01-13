@@ -62,41 +62,6 @@ It is a paid feature. You can get it for free by upgrading to the Helperbird Pro
 
 
 
-        
-
-
-
-## Tell me more about this feature
-
-Ever think, is there’s a way to drastically increase the size of the cursor pointer?
-
-If you move your mouse, and can’t find the pointer, it’s time to change the way that the pointer
-looks and behaves.
-
-You can make that adjustment through Helperbirds Cursor options.
-
-
-## Features
-
-Decrease cursor size.
-
-Increase cursor size.
-      
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
