@@ -1,8 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Immersive reader browser extension - Chrome, Firefox, iPad, Edge, iPhone
+title: Use Microsoft's Immersive Reader on any website or pdf with Helperbirds extension
 description:
-  Helperbird proudly brings Immersive Reader by Microsoft to every website, through our award-winning browser extension. Available for Chrome, Edge & Safari.
+  Helperbird's Immersive Reader feature allows users to use Microsoft's Immersive Reader on any website or pdf to enhance reading comprehension and accessibility. Available for Chrome, Edge & Safari.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -27,30 +27,54 @@ url: features/immersive-reader-for-chrome/
 ---
 
 
+## Summary
 Helperbird proudly brings Immersive Reader by Microsoft to every website, through our award-winning browser extension. Available for Chrome, Edge & Safari.
 
 
 
-## Tell me more about this feature
 
-Immersive Reader is a free tool that implements proven techniques to improve reading and writing for
-people, regardless of their age or ability. 
+## Benefits
 
-        
-Immersive Reader can improve reading comprehension and increase fluency for English language learners.
+The benefits of using Microsoft's Immersive Reader include:
 
+### Improving reading comprehension
+Immersive Reader provides tools such as text-to-speech, syllable and phonetic breakdown, and translations which can help users to better understand and engage with the text.
 
+### Enhancing accessibility 
+The tool provides options for users with visual or reading difficulties, such as larger text, different font styles, and high contrast mode, which can make the text more legible and easier to read.
 
+### Improving reading fluency
+The tool provides features such as line focus, which can help users to better track the text, and text-to-speech, which can help users to improve their reading fluency.
 
+### Enhancing reading engagement
+Immersive Reader provides tools such as background themes, which can make the reading experience more visually appealing, and word-by-word highlighting, which can help users to better engage with the text.
+
+### Supporting multiple languages
+The tool provides translations, text-to-speech, and phonetic breakdown for multiple languages, making it easier for users to understand and engage with text in different languages.
+
+### Enhancing productivity
+By providing tools to improve reading comprehension, fluency and engagement, immersive reader can help users to save time and increase productivity when reading and understanding text.
 
 ## Features
 
-Change font size, text spacing, and background colour. 
-Split up words into syllables. 
-Highlight verbs, nouns, adjectives and sub-clauses.
-Text to speech.
-Works on websites and pdfs.
-Syncs across machines.
+- Text-to-speech
+- Syllable and phonetic breakdown
+- Translations
+- Larger text 
+- Different font styles
+- High contrast mode
+- Line focus
+- Background themes
+- Word-by-word highlighting
+- Pronunciation
+- Picture dictionary
+- Translations
+
+## Is this a Free Helperbird feature?
+Yes but their is limited functionality. To unlock all features, you can upgrade to a paid plan.
+
+
+
 
 
 
