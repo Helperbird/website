@@ -27,11 +27,15 @@ url: features/reader-mode-for-chrome-and-firefox/
 
 ## Summary
 
-Reader View, also known as Reader Mode, is a feature that simplifies the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
+Helperbird's Reader View is an innovative feature that transforms any webpage into a personalized reading experience, simplifies the layout of a webpage and removes distractions such as ads.
 
-It allows users to customize the font size, type, background color, line spacing, and margins for better reading experience. 
+With the ability to remove ads and distractions, users can customize font size, background color and contrast, line spacing, and margins to suit their individual reading needs. 
 
-Additionally, Reader View includes features such as text-to-speech, annotation tools, dyslexia support, and the ability to save and share the page. 
+The feature also includes text-to-speech, annotation tools, dyslexia support, and the ability to save, share and export the page. 
+
+It is perfect for research, studying, and reading online articles without getting distracted.
+
+With Helperbird's Reader View, you can easily control the layout of the content and focus on the information that matters to you.
 
 It aims to provide a clutter-free reading experience and enhance the productivity and accessibility of the users.
 
