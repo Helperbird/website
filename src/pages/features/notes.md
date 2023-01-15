@@ -1,24 +1,20 @@
 ---
 layout: templates/features_two.liquid
 title: Keep all your sticky notes, highlights and extracted text sorted and easily accessible
-description:
-  Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web pages,
-  projects, to-do lists—with Helperbird as your note taking app, nothing falls through the cracks.
+description: Organize and access your notes, highlights and extracted text from any device with Helperbird's Web-based Note Organizer feature
+
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Your notes. Organized. Effortless.
+featurePageTitle: Notes organizer
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/text-to-speech.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Take notes anywhere. Anytime. Any website.
-featureDescription:
-  Take notes anywhere. Find information faster. Share ideas with anyone. Meeting notes, web
-  pages,projects, to-do lists—with Helperbird as your note taking app, nothing falls through the
-  cracks.
+cardTitle: Notes organizer
+featureDescription: Organize and access your notes, highlights and extracted text from any device with Helperbird's Web-based Note Organizer feature
 group: reading
 tags: 
   - features
@@ -76,7 +72,6 @@ Improving productivity by having all the necessary information in one place and 
 - View your sticky notes.
 - Edit, delete and organize your notes.
 
-      
 
 ## Is this a Free Helperbird feature?
 It is not a free feature. It is part of Helperbird Pro.
