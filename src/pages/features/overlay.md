@@ -10,13 +10,13 @@ keywords:
   OpenDyslexic
 
 
-featurePageTitle: Color overlays for every browser
+featurePageTitle: Ease your eyes with a customizable overlay/tint
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/overlay.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Overlays & tints
 featureDescription:
-  People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
+  Adjust the brightness, contrast and color of any website to your preference. 
 group: reading
 tags: 
   - features
@@ -28,6 +28,12 @@ url: features/overlay/
 
 
 ## Summary
+
+Easily customize the appearance of any website with Helperbird's overlay/tint feature. 
+
+Adjust brightness, contrast and color to improve readability and reduce eye strain. 
+
+Perfect for those with visual impairments or for night time reading. Try it now with our easy-to-use browser extension.
 
 
 
