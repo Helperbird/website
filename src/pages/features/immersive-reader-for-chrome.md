@@ -30,9 +30,6 @@ url: features/immersive-reader-for-chrome/
 ## Summary
 Helperbird proudly brings Immersive Reader by Microsoft to every website, through our award-winning browser extension. Available for Chrome, Edge & Safari.
 
-
-
-
 ## Benefits
 
 The benefits of using Microsoft's Immersive Reader include:
