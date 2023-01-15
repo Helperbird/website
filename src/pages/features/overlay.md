@@ -1,10 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Color Overlay extension - Chrome, Edge, Firefox, iPad &  iPhone
+title: Ease your eyes with a customizable overlay/tint extension
 description:
-  Color Overlay extension  is a feature which puts a tint on your browser viewport to make text more
-  readable. People who don't like bright white web pages can now change the overlay color of a web
-  page with the overlay feature.
+  Adjust the brightness, contrast and color of any website to your preference. Reduce glare and bright light, ease eye strain and fatigue, and customize your browsing experience. Available now as an easy to use tint/overlay extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -29,20 +27,49 @@ url: features/overlay/
 ---
 
 
+## Summary
 
 
 
+## Benefits
+
+The benefits of an overlay/tint on a website are:
+
+### Reducing glare and bright light
+Improving the readability of text by reducing glare and bright light on the screen.
+
+### Help with light sensitivity or color blindness
+Helping users with visual impairments, such as those with light sensitivity or color blindness.
+
+### Decreasing eye strain
+Decreasing eye strain and fatigue while reading
+
+### Customize the appearance
+It allows users to customize the appearance of a website to their preference.
+
+### Improve focus and concentration
+It allows for better focus and concentration on the text.
+
+### Dark mode
+It can also be used to darken a website for night time reading
+
+### Change the color scheme
+It can be used to change the color scheme of a website to match personal preference.
 
 
+### Features
 
+- Apply a overlay to any website you visit.
+- Pick from 24 default colors or a custom color.
+- Choose the opacity of the overlay or tint.
+- Available for Chrome, Edge, Firefox, iPad &  iPhone.
 
-
-Helperbirds Overlay feature, puts a tint on your browser viewport to make text more readable. People who don't like bright white web pages can now change the overlay color of a web page with the overlay feature.
       
+## Is this a Pro feature?
+It is a Pro feature. You can get a free trial of Helperbird Pro by clicking the button below.
 
 
-
-## Tell me more about this feature
+## Tell me abit more about this feature
       
       
 Helperbirds' Overlay feature is a filter which puts a tint on your browser viewport to make text more readable. Color and opacity are fully configurable. 
@@ -54,30 +81,5 @@ The colored overlay can improve the reading abilities of such users by reducing 
 Bright web pages are a known issue on the web which affects peoples ability to read and focus.
 
 Users with Irlen syndrome or people who dont like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.
-
-
-## Features
-
-
-       
-Apply a overlay to any website you visit.
-
-Pick from 24 default colors or a custom color.
-
-Shades Chrome to a soothing orange color to decrease eye-strain, eye fatigue and to appease your brains day/night cycle.
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
 
 
