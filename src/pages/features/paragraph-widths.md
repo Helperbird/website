@@ -1,18 +1,18 @@
 ---
 layout: templates/features_two.liquid
-title: Set the text width extension - Chrome, Edge & Safari
-description: Read your websites more relaxed with automatic columns for wide content.
+title: Adjust Paragraph Width for Better Reading
+description: Enhance your reading experience with Helperbird's paragraph width setting feature. Easily adjust the width of paragraphs on pdfs and websites to fit your screen and personal preference. Improve readability and reduce eye strain with our user-friendly browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Set the width of paragraphs
+featurePageTitle: Adjust Paragraph Width for Better Reading
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/widths.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Paragraphs widths
+cardTitle: Set the width of paragraphs
 featureDescription: Set the width of paragraphs. Making it easier to focus and read.
 group: reading
 tags: 
@@ -22,7 +22,18 @@ link: reading
 url: features/paragraph-widths/
 ---
 
+## Summary
+Enhance your reading experience with Helperbird's paragraph width setting feature. 
 
+Easily adjust the width of paragraphs on pdfs and websites to fit your screen and personal preference. 
+
+Improve readability and reduce eye strain with our user-friendly browser extension.
+
+## Benefits
+
+## Features
+
+## Is this a Helperbird Pro feature?
 
 
 
