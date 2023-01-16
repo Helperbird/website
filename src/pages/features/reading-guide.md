@@ -1,21 +1,19 @@
 ---
 layout: templates/features_two.liquid
-title:
-  Reading guide - Helping you to read long texts on web pages |  Chrome, Firefox, Edge, iPad
-  &  iPhone
-description: Reading ruler, useful when you are reading long texts on the web.
+title: Effortlessly focus on text while reading with Helperbird's reading guide
+description: Improve your reading speed and comprehension with our innovative reading ruler. Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Reading guide
+featurePageTitle: Effortlessly focus on text while reading with Helperbird's reading guide
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/ruler.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Reading guide
-featureDescription: Reading ruler, useful when you are reading long texts on the web.
+featureDescription: Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.
 group: reading
 tags: 
   - features
@@ -24,18 +22,39 @@ link: reading
 url: features/reading-guide/
 ---
 
-Helperbirds reading guide feature helps you to read long texts on web pages. This tool can assist dyslexic readers to keep their place on the page they are reading.
+## Summary
 
+Improve your reading speed and comprehension with our innovative reading ruler. 
+Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more. 
 
-## Tell me more about this feature
+Perfect for students, researchers, and anyone looking to enhance their reading experience.
 
-Helperbirds reading guide feature helps you to read long texts on web pages. This tool can assist dyslexic readers to keep their place on the page they are reading.
+## Benefits
+
+The benefits of using a reading ruler include:
+
+### Improving reading fluency
+Improving reading fluency and speed by guiding the eye along the text
+
+### Reducing eye strain
+Reducing eye strain and fatigue
+
+### Enhance foucs
+Enhancing focus and concentration on the text
+
+### Help with dyslexia
+Helping with dyslexia and other reading-related difficulties by providing a visual cue for tracking the text
 
 
 ## Features
-       
-Highlight current reading line.
-Color settings.
-Opacity settings.
-Shadow adjustments.
-      
+
+- Adjust the width of the ruler.
+- Change the color of the ruler.
+- Adjust the transparency of the ruler.
+- Lock the ruler in place.
+
+
+## Is this a Helperbird Pro feature?
+Yes and no, the basic version of this feature is available for free.
+
+
