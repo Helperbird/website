@@ -1,9 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Styles, Change fonts and background colors extension - Chrome, Edge, Firefox, iPad, iPhone
+title: Customizable Link, Visited Links, Background, and Font colors on any website 
 description:
-  Change fonts and background color. Helperbird provides a way to change web page font and
-  background colors.
+  Look no further than our customizable link, visited links, background, and font color options. Make any website work for you.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,10 +14,9 @@ featurePageTitle: Styles & Colors
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/styles.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Fonts and background colors
+cardTitle: Customize Fonts, Background, and Link Colors
 featureDescription:
-  Change fonts and background color. Helperbird provides a way to change web page font and
-  background colors.
+  Look no further than our customizable link, visited links, background, and font color options. Make any website work for you.
 group: reading
 tags: 
   - features
@@ -27,21 +25,33 @@ link: reading
 url: features/styles/
 ---
 
-
+## Summary
 Changing the background, link, and font colors of content and websites can help individuals improve their reading. All suggested dyslexia-proven colors are included in Helperbird.
   
+## Benefits
 
-## Tell me more about this feature
+There are several benefits to being able to change the font, link, highlight and background color of a website, including:
 
-Not all websites are designed brilliantly. That's why Helperbirds style options make it the perfect solution to change the background, font, and link colors on any website. Improving dyslexia focus and improving reading.
+### Improved accessibility
+By allowing users to adjust the colors of a website, it can be made more accessible to people with visual impairments.
 
+### Enhanced user experience
+Customizable colors can help create a more visually appealing and engaging website, improving the overall user experience.
+
+### Improved readability
+Different colors can be used to improve the readability of text, making it easier for users to scan and comprehend content.
 
 ## Features
 
-Change the font color to any color you want.
-Change the background color of any page.
-Change the color of any link, to highlight them.
-Pick and choose the highlight color you want.
+- Change the font color to any color you want.
+- Change the background color of any page.
+- Change the color of any link, to highlight them.
+- Pick and choose the highlight color you want.
+- Pick the visited link color.
+- Pick the link color.
+
+## Is this a paid feature?
+Yes, its included with your Helperbird Pro subscription.
       
 
 
