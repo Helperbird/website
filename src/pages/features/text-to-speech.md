@@ -26,27 +26,37 @@ link: reading
 url: features/text-to-speech/
 ---
 
+## Summary
+
 
 
 Sit back, press play, and have your news, emails, or news read aloud to you.
 
-## Tell me more about this feature
+Get the best text to speech extension for Chrome, Firefox, Edge or iPad to enhance your online reading experience. 
 
-Not sure how to pronounce a word? Highlight the word, and Helperbird will pronounce it out loud with the customizable text to speech options.
+Our extension uses advanced TTS technology to convert any web page to speech. Easy to use and customize, it's the perfect tool for anyone looking to improve their reading experience online. Try it now for free!
 
-  
-Having a section of text like a paragraph spoken out to you in different dialects makes web pages
-more accessible.
+
+## Benefits
+
+- Improves reading speed and comprehension.
+- Convenient for people with visual impairments or reading difficulties.
+- Allows for multitasking while still being able to consume written content
+- Can help users save time by listening to articles instead of reading them
+- Can help with language learning by listening to written text in foreign languages.
 
 ## Features
 
-Advanced text to speech reader with a human-like voice.
-Ultimate language and voice choice.
-Supports web pages, documents and pdfs. Listen to your content from any device.
-Over 40 different natual human voices.
-Adjust pitch.
-Adjust volume.
-Adjust speed.
+
+- Advanced text to speech reader with a human-like voice.
+- Over 10 different natual human voices.
+- 30+ voices to choose from.
+- Supports 109 languages.
+- Adjust pitch.
+- Adjust volume.
+- Adjust speed.
+- Supports web pages, documents and pdfs. Listen to your content from any device.
+- Pick a highlight color.
 
 ## How it helps?
       
@@ -61,7 +71,7 @@ Provides a method for people to get information access without having to scroll 
 Having a piece of information spoken out to you in different dialects makes web pages more
 accessible and improves users ability to multitask efficiently.
 
-##  Text to speech voices
+## List of voices
 
 - 🇮🇪 Moira 
 - 🇺🇸 Alex 
@@ -130,3 +140,7 @@ accessible and improves users ability to multitask efficiently.
 - 🇨🇳 Google普通话（中国大陆） 
 - 🇭🇰 Google粤語（香港） 
 - 🇹🇼 Google 國語（臺灣
+
+
+## Is it free?
+Yes but some features within the text to speech are only available to premium users.
