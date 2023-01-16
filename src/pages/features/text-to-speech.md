@@ -1,9 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Natural text to speech browser extension
+title: Text to Speech with natural voices - Extension for Chrome, Edge, Firefox or iPad 
 description:
-  Sit back, press play, and have your news, emails, or news read aloud to you. Helperbirds award
-  winning text to speech extension for Chrome, Firefox, Edge & Safari.
+  Get the best text to speech extension for Chrome, Firefox, Edge or iPad to enhance your online reading experience. Our extension uses advanced TTS technology to convert any web page to speech. Easy to use and customize, it's the perfect tool for anyone looking to improve their reading experience online. Try it now for free!
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -64,70 +63,70 @@ accessible and improves users ability to multitask efficiently.
 
 ##  Text to speech voices
 
-🇮🇪 Moira 
-🇺🇸 Alex 
-🇮🇹 Alice 
-🇸🇪 Alva 
-🇨🇦 Amelie 
-🇩🇪 Anna 
-🇮🇱 Carmit 
-🇮🇩 Damayanti 
-🇬🇧 Daniel 
-🇦🇷 Diego 
-🇧🇪 Ellen 
-🇺🇸 Fiona 
-🇺🇸 Fred 
-🇷🇴 Ioana 
-🇵🇹 Joana 
-🇪🇸 Jorge 
-🇲🇽 Juan 
-🇹🇭 Kanya 
-🇦🇺 Karen 
-🇯🇵 Kyoko 
-🇸🇰 Laura 
-🇮🇳 Lekha 
-🇮🇹 Luca 
-🇧🇷 Luciana 
-🇸🇦 Maged 
-🇭🇺 Mariska 
-🇹🇼 Mei-Jia 
-🇬🇷 Melina 
-🇷🇺 Milena 
-🇪🇸 Monica 
-🇳🇴 Nora 
-🇲🇽 Paulina 
-🇮🇳 Rishi 
-🇺🇸 Samantha 
-🇩🇰 Sara 
-🇫🇮 Satu 
-🇭🇰 Sin-ji 
-🇿🇦 Tessa 
-🇫🇷 Thomas 
-🇨🇳 Ting-Ting 
-🇮🇳 Veena 
-🇺🇸 Victoria 
-🇳🇱 Xander 
-🇹🇷 Yelda 
-🇰🇷 Yuna 
-🇷🇺 Yuri 
-🇵🇱 Zosia 
-🇨🇿 Zuzana 
-🇩🇪 Google Deutsch 
-🇺🇸 Google US English 
-🇬🇧 Google UK English Female 
-🇬🇧 Google UK English Male 
-🇪🇸 Google español 
-🇺🇸 Google español de Estados Unidos 
-🇫🇷 Google français 
-🇮🇳 Google हिन्दी 
-🇮🇩 Google Bahasa Indonesia
-🇮🇹 Google italiano 
-🇯🇵 Google 日本語 
-🇰🇷 Google 한국의 
-🇳🇱 Google Nederlands 
-🇵🇱 Google polski 
-🇧🇷 Google português do Brasil 
-🇷🇺 Google русский 
-🇨🇳 Google普通话（中国大陆） 
-🇭🇰 Google粤語（香港） 
-🇹🇼 Google 國語（臺灣
+- 🇮🇪 Moira 
+- 🇺🇸 Alex 
+- 🇮🇹 Alice 
+- 🇸🇪 Alva 
+- 🇨🇦 Amelie 
+- 🇩🇪 Anna 
+- 🇮🇱 Carmit 
+- 🇮🇩 Damayanti 
+- 🇬🇧 Daniel 
+- 🇦🇷 Diego 
+- 🇧🇪 Ellen 
+- 🇺🇸 Fiona 
+- 🇺🇸 Fred 
+- 🇷🇴 Ioana 
+- 🇵🇹 Joana 
+- 🇪🇸 Jorge 
+- 🇲🇽 Juan 
+- 🇹🇭 Kanya 
+- 🇦🇺 Karen 
+- 🇯🇵 Kyoko 
+- 🇸🇰 Laura 
+- 🇮🇳 Lekha 
+- 🇮🇹 Luca 
+- 🇧🇷 Luciana 
+- 🇸🇦 Maged 
+- 🇭🇺 Mariska 
+- 🇹🇼 Mei-Jia 
+- 🇬🇷 Melina 
+- 🇷🇺 Milena 
+- 🇪🇸 Monica 
+- 🇳🇴 Nora 
+- 🇲🇽 Paulina 
+- 🇮🇳 Rishi 
+- 🇺🇸 Samantha 
+- 🇩🇰 Sara 
+- 🇫🇮 Satu 
+- 🇭🇰 Sin-ji 
+- 🇿🇦 Tessa 
+- 🇫🇷 Thomas 
+- 🇨🇳 Ting-Ting 
+- 🇮🇳 Veena 
+- 🇺🇸 Victoria 
+- 🇳🇱 Xander 
+- 🇹🇷 Yelda 
+- 🇰🇷 Yuna 
+- 🇷🇺 Yuri 
+- 🇵🇱 Zosia 
+- 🇨🇿 Zuzana 
+- 🇩🇪 Google Deutsch 
+- 🇺🇸 Google US English 
+- 🇬🇧 Google UK English Female 
+- 🇬🇧 Google UK English Male 
+- 🇪🇸 Google español 
+- 🇺🇸 Google español de Estados Unidos 
+- 🇫🇷 Google français 
+- 🇮🇳 Google हिन्दी 
+- 🇮🇩 Google Bahasa Indonesia
+- 🇮🇹 Google italiano 
+- 🇯🇵 Google 日本語 
+- 🇰🇷 Google 한국의 
+- 🇳🇱 Google Nederlands 
+- 🇵🇱 Google polski 
+- 🇧🇷 Google português do Brasil 
+- 🇷🇺 Google русский 
+- 🇨🇳 Google普通话（中国大陆） 
+- 🇭🇰 Google粤語（香港） 
+- 🇹🇼 Google 國語（臺灣
