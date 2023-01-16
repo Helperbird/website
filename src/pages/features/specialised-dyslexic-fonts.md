@@ -1,9 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Dyslexic fonts & specialised fonts extension 
+title: Easily Change Fonts on Any Website with Our Dyslexic Friendly and Specialized Font Options
 description:
-  Change the font to any specialized web fonts for dyslexics and others. Convert the font on
-  websites to use OpenDyslexic, Lexend and more, with Helperbird for Chrome, Firefox, Edge & iOS.
+  Easily change the font on any website or pdf with Helperbirds extension to dyslexia-friendly fonts (Lexend, OpenDyslexic) or one of 18 specialized font options. Perfect for those with dyslexia or individuals looking for a unique reading experience.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -11,14 +10,13 @@ keywords:
   OpenDyslexic
 
 
-featurePageTitle: Over 18 specialized fonts with dyslexia support
+featurePageTitle: Easily Change Fonts on Any Website with Our Dyslexic Friendly and Specialized Font Options
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Specialised fonts
 featureDescription:
-  Change the font on any website to specialized fonts for dyslexics and others. Convert the font on
-  websites to use OpenDyslexic, Lexend and more.
+  Easily change the font on any website or pdf with Helperbirds extension to dyslexia-friendly fonts (Lexend, OpenDyslexic) or one of 18 specialized font options. Perfect for those with dyslexia or individuals looking for a unique reading experience.
 group: reading
 tags: 
   - features
@@ -28,34 +26,48 @@ url: features/specialised-dyslexic-fonts/
 ---
 
 
+## Summary
 
-Change the font to any specialized web fonts for dyslexics and others. Convert the font on websites to use OpenDyslexic, Lexend, and more.
+Easily change the font on any website or pdf with Helperbirds extension to dyslexia-friendly fonts (Lexend, OpenDyslexic) or one of 18 specialized font options. Perfect for those with dyslexia or individuals looking for a unique reading experience.
+
+## Benefits
+
+Dyslexic fonts, such as Lexend and Open Dyslexic, are designed to make text easier to read for individuals with dyslexia. 
+
+These fonts use specific design features, such as increased letter spacing and heavier strokes, to help reduce the confusion caused by letters that appear similar, such as "b" and "d".
+
+By allowing users to change the font on a website, it can help improve the reading experience for those with dyslexia and without. It can also help with reading fluency, and reduce the amount of time and effort required to read and comprehend text.
+
+Additionally, being able to change to specialized fonts can also help personalize the user's reading experience and make it more enjoyable, and it can also help with readability and visual appeal.
+
+## What fonts are included in Helperbird?
+
+- Arial 
+- Cosmic Sans 
+- OpenDyslexic 
+- Tahoma 
+- Lexend Mega
+- Lexend Deca
+- Lexend Giga
+- Lexend Tera
+- Lexend Peta
+- Lexend Exa
+- Lexend Zetta
+- Verdana 
+- Gothic 
+- Lexend 
+- Trebuchet 
+- Bookman 
+- Courier 
+- Georgia 
+- Gothic 
+- Helvetica 
+- Impact 
+- Times 
 
 
-## Tell me more about this feature
-  
-One of the most popular Helperbirds features is the ability to change the font on any website.
-Users can pick from over 18 fonts and never worry about changing them again. Your chosen font will automatically be set on every site. Never worry about changing it again. From OpenDyslexic, Arial, Comic Sans, and more.
-
-
-## What fonts are included?
-
-Arial 
-Cosmic Sans 
-OpenDyslexic 
-Tahoma 
-Verdana 
-Gothic 
-Lexend 
-Trebuchet 
-Bookman 
-Courier 
-Georgia 
-Gothic 
-Helvetica 
-Impact 
-Times 
-Lexend 
+## Is it free?
+Yes, it is a free feature.
 
 
 
