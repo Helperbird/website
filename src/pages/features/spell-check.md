@@ -1,7 +1,7 @@
 ---
 layout: templates/features_two.liquid
-title: Spelling & Grammar Checker extension - Google Chrome, Firefox, iPad, iPhone & Edge
-description: Write with confidence thanks to Helperbird, your intelligent grammar, spelling checker.
+title: Simple Online Spell Checker - Chrome, Edge, Firefox and iPad Extension
+description: Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPad extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence. Perfect for students, professionals, and anyone looking to improve their written communication. Try it now and see the difference it can make in your writing.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,13 +9,13 @@ keywords:
   OpenDyslexic
 
 
-featurePageTitle: Spelling & Grammar Checker for Google Chrome, Firefox & Edge
+featurePageTitle: Simple Online Spell Checker - Chrome, Edge, Firefox and iPad Extension
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/spellcheck.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Spelling & Grammar Checker
 featureDescription:
-  Write with confidence thanks to Helperbird, your intelligent grammar, spelling checker.
+  Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPad extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence.
 group: reading
 tags: 
   - features
@@ -24,22 +24,36 @@ link: reading
 url: features/spell-check/
 ---
 
-Write with confidence thanks to Helperbird, your intelligent grammar, spelling checker.
-  
+## Summary 
+
+Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPa extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence. 
+
+Perfect for students, professionals, and anyone looking to improve their written communication. Try it now and see the difference it can make in your writing.
 
 
-## Tell me more about this feature
+## Coming soon
 
 Helperbirds spell checker is getting an updated, thanks to the Microsoft Editor API.
 
 
+## Benefits
+
+Improving the accuracy and credibility of your written communication, whether it's an email, a report, or a blog post.
+
+Saving time by catching spelling and grammar errors quickly and easily, allowing you to focus on the content of your writing rather than getting bogged down in proofreading.
+
+Increasing productivity by streamlining the editing process and making it easier to create high-quality, error-free documents.
+
+
+
 ## Features
 
-Helperbirds spell checker will provides grammar, spelling across multiple sites so you can confidently write clear, concise posts and emails.
+- Helperbirds spell checker will provides grammar, spelling across multiple sites so you can confidently write clear, concise posts and emails.
+- Will be powered by the Microsoft Editor API.
+- Chat to us to know any more information.
 
-Will be powered by the Microsoft Editor API.
-
-Chat to us to know any more information.
+## Is this a free feature?
+No, it is a premium feature.
       
 
 
