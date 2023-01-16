@@ -1,9 +1,8 @@
 ---
 layout: templates/features_two.liquid
-title: Word prediction on every website, even Google docs - Chrome, Edge & Safari
+title: Word Prediction Extension for every website and Google Docs - Enhance Your Writing Experience
 description:
-  Helperbirds word prediction is smart & spelling aware. Helperbird Voice typing recognition
-  allows you to speak it, and Helperbird will write it.
+  Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve your productivity and accuracy with advanced AI-powered suggestions and autocomplete features. 
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -11,13 +10,13 @@ keywords:
   OpenDyslexic
 
 
-featurePageTitle:  Word prediction on every website, even Google docs
+featurePageTitle: Word Prediction Extension for every website and Google Docs - Enhance Your Writing Experience
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/word-prediction.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Word prediction
 featureDescription:
-  Helperbirds word prediction is smart & spelling aware. Supporting on every website, even Google docs.
+  Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve your productivity and accuracy with advanced AI-powered suggestions and autocomplete features. 
 group: reading
 tags: 
   - features
@@ -27,31 +26,41 @@ url: features/word-prediction/
 ---
 
 
-
+## Summary
 
 English, German, Spanish and French word prediction at your finger tips on every website as you type. That's right even Google Docs.
+
+Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. 
+
+Improve your productivity and accuracy with advanced AI-powered suggestions and autocomplete features. 
+
+Our extension is easy to install and use, and is designed to adapt to your writing style for a seamless experience. 
+
+Say goodbye to typos and repetitive words, and hello to efficient and effective writing. Try our word prediction extension today and experience the difference it can make.
+
+
+
     
     
+## Benefits
 
+- Improves productivity by reducing the time spent on typing and editing.
+- Enhances accuracy by providing advanced AI-powered suggestions and autocomplete features.
+- Adapts to your writing style for a seamless experience.
+- Reduces typos and repetitive words.
+- Makes your writing more efficient and effective.
+- Easy to install and use on Google Docs and any website.
 
-
-## Tell me more about this feature
-
-      
-
-Helperbirds word prediction is smart & spelling aware. 
-Helperbird shows up to eight suggestions as you type. Support is on every website and Google Docs. You can also have it   
-
-
-This was a feature we have been working on for the past few months and we are proud to say it works really well. 
-Helperbirds word prediction (English for the moment) works on every website and even Google docs. It's light and doesn't slow down your browser and makes it easier to discover words as
-you type.
 
 ## Features
 
-Adds word prediction to all inputs on a website.
+- Word prediction on Google Docs and any website.
+- Advanced AI-powered suggestions and autocomplete features.
+- Adapts to your writing style for a seamless experience.
+- Reduces typos and repetitive words.
+- Currently supports for **English**, **Germen**, **French** & **Spanish**.
 
-Adds word prediction to Google docs.
-  
-Currently supports for English, Germen, French & Spanish.
+
+## Is this a free feature?
+We offer a free trial for 7 days. After that, you can choose to continue with a paid subscription or cancel your subscription.
     
