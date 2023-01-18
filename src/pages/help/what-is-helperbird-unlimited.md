@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: What is Helperbird Unlimited?
+title: What is Helperbird Pro Unlimited?
 description:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
 keywords:
@@ -10,23 +10,23 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: What is Helperbird Unlimited?
+cardTitle: What is Helperbird Pro Unlimited?
 featureDescription:
-  What is Helperbird Unlimited?, discover what features are included in the paid version of
+  What is Helperbird Pro Unlimited?, discover what features are included in the paid version of
   Helperbird.
 date: 2016-01-08
 tags: guideFeatures
 url: help/what-is-helperbird-unlimited/
 ---
 
-## What is Helperbird Unlimited?
+## What is Helperbird Pro Unlimited?
 
-Helperbird Unlimited is a paid version of Helperbird. It is a complete, all-in-one, but this plan is
+Helperbird Pro Unlimited is a paid version of Helperbird. It is a complete, all-in-one, but this plan is
 built for schools, districts and businesses.
 
 Discover the differences here.
 
-## Helperbird Unlimited for Schools & Businesses
+## Helperbird Pro Unlimited  
 
 It includes all the features of Helperbird Pro but most importantly, it includes: unlmited users.
 Meaning everyone on the domain can use the Helperbird Pro features for the price of $1,200 a year or
