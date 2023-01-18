@@ -1,9 +1,9 @@
 ---
 layout: templates/base.html
-title: Get Helperbird Pro for free - Helperbird Trainers
+title: 'Get Helperbird Pro for Free: Become a Helperbird Trainer'
 youtubeId: PfILiWebkuc
 cardTitle: Helperbird Trainers
-description: Helperbird support is here to help. Learn more about popular topics and find resources that will help you with all of your Helperbird products.
+description: Get expert assistance with all of your Helperbird products. Explore our comprehensive resources on popular topics and find solutions to any issues with the help of our dedicated Helperbird support team.
 keywords: Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
@@ -77,11 +77,10 @@ url: partners/
 									</p>
 								</dt>
 								<dd class="mt-2  text-base   text-black ">
-									This is just so we can verify your email address and make sure you are a teacher or
-									work as a trainer.
+									We are checking your email address to confirm that you are a teacher or trainer.
 									<br>
 									<br>
-									This, will also be the email that Helperbird Pro account is set up with.
+									We will also use this email to set up your Helperbird Pro account.
 								</dd>
 							</div>
 							<div class="relative my-10">
@@ -91,13 +90,10 @@ url: partners/
 									</p>
 								</dt>
 								<dd class="mt-2  text-base   text-black ">
-									Incase you dont have a work email, you will also need to send a link to your
-									Twitter, Social website or Linkedin page. This is just to confirm that you are a
-									trainer or teacher.
+									If you do not have a work email, please provide a link to your Twitter, professional website or LinkedIn page as verification that you are a trainer or teacher.
 									<br>
 									<br>
-									We wish, we didn't have to do this but incase some people chance their arm, we need
-									to make sure you are a trainer or teacher.
+									We understand that this may be an inconvenience, but in order to prevent fraud, we need to verify that you are a trainer or teacher.
 								</dd>
 							</div>
 							<div class="relative my-10">
@@ -108,12 +104,10 @@ url: partners/
 									</p>
 								</dt>
 								<dd class="mt-2  text-base   text-black ">
-									At the bottom we have a list of Helperbird Trainers, if you are approved you can be
-									requested to be added.
+									At the bottom of the page, you'll find a list of approved Helperbird Trainers. If you meet the requirements, you can submit a request to be added to the list.
 									<br>
 									<br>
-									This can be useful if you want users to contact you or follow you on social media
-									and be a Helperbird expert.
+									Including your contact information and social media links in your Helperbird Trainer profile can be beneficial if you wish to be contacted by users or attract followers interested in your expertise as a Helperbird expert.
 								</dd>
 							</div>
 						</dl>
@@ -142,28 +136,34 @@ url: partners/
 				{%- for friend in partners.friends -%}
 
 
-				<div class="flex flex-col  shadow-lg overflow-hidden bg-white rounded-xl  card ">
+					<div class="card border-stone-600 border-2  bg-white rounded-3xl">
+
 					<div class="card-body">
-						<div class="flex-shrink-0">
-							<img alt="Photo of Helperbirds user" class="h-48 w-full object-cover"
-								src="{{ friend.img }}">
-						</div>
-						<div class="flex-1 bg-white  flex flex-col justify-between">
-							<div class="flex-1">
-
-
-								<p class="text-xl font-semibold text-gray-900">{{ friend.title }}</p>
-								<p class="mt-3 text-base   text-black ">{{ friend.des }}</p>
-								</a>
-							</div>
-							<div class="mt-6 flex items-center">
-								<a class="btn-base btn btn-secondary  border-stone-600 border-2 btn-wide w-full"
-									href="{{ friend.url }}" rel="noreferrer">Learn more</a>
-
-							</div>
-						</div>
+		  
+					<div class="flex-shrink-0">
+						<img alt="Photo of Helperbirds user" class="h-48 w-full object-cover"
+							src="{{ friend.img }}">
 					</div>
-				</div>
+		  
+					  <h3 class="text-xl font-medium text-black mb-2">{{ friend.title }}</h3>
+					  <p class="mt-2 text-base text-black font-semibold mb-10">
+						{{ friend.des }}
+					  </p>
+					  <div class="card-actions justify-end">
+						<a
+						  class="btn-base btn btn-outline  border-stone-600 border-2"
+						  href="{{ friend.url }}"
+						  target="_blank"
+						  rel="noreferrer"
+						  title="Learn more about  {{friend.title }}">
+						  Learn more
+						</a>
+					  </div>
+					</div>
+				  </div>
+
+
+
 
 				{%- endfor -%}
 
