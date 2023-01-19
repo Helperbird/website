@@ -2,7 +2,7 @@
 layout: templates/help.html
 title: How to use my subscription key
 description:
-  Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.
+  Learn how to find and enter your subscription key in Helperbird, to unlocked Helperbird Pro.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -12,7 +12,7 @@ keywords:
 youtubeId: PfILiWebkuc
 cardTitle: Use my subscription key
 featureDescription:
-  Learn how to find and enter your subscripiton key in Helperbird, to unlocked Helperbird Pro.
+  Learn how to find and enter your subscription key in Helperbird, to unlocked Helperbird Pro.
 tags: guideAccounts
 url: help/how-to-use-my-subscription-key/
 ---
@@ -23,7 +23,7 @@ url: help/how-to-use-my-subscription-key/
 - This will be after you have signed up for Helperbird Pro.
 - Psst you can always talk to our support staff and we will help you.
 
-## How to enter my subscripiton key
+## How to enter my subscription key
 
 - You first need to download Helperbird onto your browser.
 - Then left click and open the Helperbird extension.
