@@ -32,29 +32,35 @@
 		>
 			{%- for post in collections.features limit:7 -%}
 
-			<div class="rounded-xl bg-white p-6">
-				<div>
-					<div
-						class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
-					>
-						{{ post.data.icon | svgContents | safe }}
-					</div>
-				</div>
-				<div class="mt-6">
-					<h3 class="text-xl font-medium text-black">{{ post.data.cardTitle }}</h3>
-					<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
+		
 
-					<div class="max-w-md items-center">
-						<a
-							class="btn btn-link  mt-8    text-base  underline decoration-wavy decoration-blue-500 hover:underline hover:decoration-wavy hover:decoration-pink-500  btn-sm"
-							href="{{ post.url }}"
-							title="More information on feature {{ post.data.cardTitle  }}"
-							>Discover more</a
+			<div class="card border-stone-600 border-2  bg-white rounded-3xl">
+
+				<div class="card-body">
+					<div>
+						<div
+							class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
 						>
-					
+							{{ post.data.icon | svgContents | safe }}
+						</div>
 					</div>
+	  
+				  <h3 class="text-xl font-medium text-black mb-2">{{ post.data.cardTitle }}</h3>
+				  <p class="mt-2 text-base text-text font-semibold mb-10">
+					{{ post.data.featureDescription }}
+				  </p>
+				  <div class="card-actions justify-end">
+					<a
+					  class="btn-base btn btn-outline  border-stone-600 border-2"
+					  href="{{ post.url }}"
+					  target="_blank"
+					  rel="noreferrer"
+					  title="More information on feature {{post.data.cardTitle }}">
+					  Discover more
+					</a>
+				  </div>
 				</div>
-			</div>
+			  </div>
 
 			{%- endfor -%}
 		</div>
