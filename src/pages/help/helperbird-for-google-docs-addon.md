@@ -18,23 +18,32 @@ tags: guideIntegrations
 url: help/helperbird-for-google-docs-addon/
 ---
 
-## How to install
 
-- Open a document or spreadsheet in the Google Docs or Slides app.
-- Tap More.
-- Tap Add-ons.
-- Tap Get add-ons.
-- Search "Helperbird".
-- Tap Install.
-- It will take a few seconds to install.
-- It will be under the add-on file tab.
+## How to add the Helperbird add-on to Google Docs or Slides:
 
-## How to acccess the add-on?
+**Step 1:** Open a Google Docs or Slides document.
 
-- After you have it installed.
-- Open a document or spreadsheet in the Google Docs or Slides app.
-- Click the add-on menu icon.
-- You will see the Helperbird option.
+**Step 2:** Click on the "Add-ons" menu in the top toolbar.
+
+Step 3:** Select "Get add-ons" from the drop-down menu.
+
+**Step 4:** Search for "Helperbird" in the G Suite Marketplace.
+
+**Step 5:** Click on the "Helperbird" add-on listing.
+
+**Step 6:** Click on the "Install" button to install the add-on.
+
+**Step 7:** A pop-up window will appear asking for permission to install the add-on. Click on "Allow" to continue.
+
+**Step 8:** The Helperbird add-on will now be installed and available to use in the "Add-ons" menu.
+
+**Step 9:** To use the add-on, select "Helperbird" from the "Add-ons" menu, and follow the prompts to customize your settings and start using the features.
+
+**Step 10:** (Optional) To manage or remove the add-on, go to the "Add-ons" menu and select "Manage add-ons". You will be able to see the add-ons that are installed and have the option to remove them.
+
+### Please note
+It may require additional steps such as signing in to your account or admin approval.
+
 
 ## What features are included?
 
