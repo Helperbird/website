@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Download for iPhone
+cardTitle: Helperbird for iPhone
 featureDescription: This step-by-step guide covers everything you need to know to install and use the app on your iPhone, including searching for the app in the App Store, signing in or creating an account, and customizing your settings.
 tags: iOSHelp
 url: help/how-to-download-helperbird-for-iphone/
