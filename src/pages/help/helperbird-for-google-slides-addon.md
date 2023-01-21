@@ -9,7 +9,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Google Slides
+cardTitle: Google Slides add-on
 featureDescription:
   Helperbird for Google Slides add-on adds support to Google Documents. Allowing you to get even more
   out of Google Slides.
