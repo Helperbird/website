@@ -38,8 +38,6 @@ url: help/how-to-change-my-email/
 **Step 9:** You have now updated your email address.
 
 
-
-
 ## Video Tutorial
 
 - Coming soon.
