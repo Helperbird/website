@@ -19,23 +19,24 @@ tags: iOSHelp
 url: help/helperbird-for-ios-ipad-iphone-is-missing-features/
 ---
 
-## Heres how
 
-- First, you need to be on your iPad or iPhone.
-- Have [Helperbird for Safari](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 'Helperbird for Safari link') installed.
-- Now, go to the settings app on your iPad or iPhone.
-- Scroll until you see Safari.
-- Click on Safari.
-- Go to extensions.
-- Click on Helperbird.
-- Then, it will open a new window with the Helperbird settings.
-- Scroll to the subscription key card.
-- Enter your subscription key.
-- Click save.
-- You should see a confetti animation.
-- If you need any help, please contact us. We will be delighted to help.
+## How to activate your subscription key
 
-## Note
+**Step 1:** First, [log in to your Helperbird account](/help/how-to-login-to-helperbird// 'Helperbird for Safari link').
 
-- You will need iOS 15.0 or later.
-- You need to have a [Helperbird Pro subscription](/pricing/ 'Helperbird for Safari link')
+**Step 2:** Next, navigate to the "Settings" page.
+
+**Step 3:** On the "Settings" page, you will see an option to enter a subscription key. 
+
+**Step 4:** In the text box, enter your subscription key.
+
+**Step 5:** Once you have entered your key, click on the "Save" button.
+
+**Step 6:** Your subscription should now be activated and you will have access to the full range of features offered by Helperbird.
+
+**Step 7:** Enjoy Helperbird Pro! and the confetti.
+
+## Need more help?
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
