@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
 title: How to cancel my Helperbird Pro subscription
-description: Learn how to cancel your Helperbird Pro subscription at any time.
+description: Learn how to cancel your Helperbird Pro subscription and manage your subscription.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,25 +15,26 @@ tags: guideAccounts
 url: help/how-to-cancel-my-helperbird-pro-subscription/
 ---
 
-## Important
-
-To access and manage your subscription. You need to be logged in with the same email you signed up
-to Helperbird Pro with on your browser.
 
 
+## How to cancel my Helperbird Pro subscription
 
-## How to manage my subscription
+**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
 
-- First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
-  Helperbird Pro with on your browser.
-- Click the Helperbird icon.
-- A popup will appear.
-- Click the settings cog.
-- It will open a new tab.
-- Scroll down to the subscriptions section.
-- Click the manage subscription button.
-- You can now cancel your subscription.
+**Step 2:** Click on the "Login" button in the top right corner.
+
+**Step 3:** Enter your email.
+
+**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+
+**Step 5:** Enter the code in the box and click "Verify".
+
+**Step 6:** You will be redirected to the Helperbird dashboard.
+
+**Step 7:** Click on the "Cancel plan" button.
+
+**Step 8:** Your subscription will be canceled at the end of the current billing cycle.
+
 
 
 ## Video Tutorial
@@ -42,3 +43,10 @@ to Helperbird Pro with on your browser.
 
 <iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/BEsQnmEgjmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+

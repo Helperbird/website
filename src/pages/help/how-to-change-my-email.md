@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to change my email
-description: Learn how to change the email linked to your Helperbird acount.
+title: How to change the email on my Helperbird account
+description: Learn how to change the email in your Helperbird account.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,31 +10,41 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Change my email
-featureDescription:  Learn how to change your email
+featureDescription: Learn how to change the email in your Helperbird account.
 tags: guideAccounts
 url: help/how-to-change-my-email/
 ---
 
-## Important
-
-To access and manage your subscription. You need to be logged in with the same email you signed up
-to Helperbird Pro with on your browser.
-Learn how to [login to Helperbird Pro.](https://helperbird.com/help/how-to-login-to-helperbird/)
 
 
-## How to update my email address
+## How to change the email on my Helperbird account
 
-- First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
-  Helperbird Pro with on your browser.
-- Click the Helperbird icon.
-- A popup will appear.
-- Click the settings cog.
-- It will open a new tab.
-- Scroll down to the account section.
-- Click the edit account button
-- You can now edit, update or change your email.
+**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+
+**Step 2:** Click on the "Login" button in the top right corner.
+
+**Step 3:** Enter your email.
+
+**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+
+**Step 5:** Enter the code in the box and click "Verify".
+
+**Step 6:** You will be redirected to the Helperbird dashboard.
+
+**Step 7:** Click on the "Update information" button.
+
+**Step 8:** Enter your new email address and click "Save".
+
+**Step 9:** You have now updated your email address.
 
 
-## Or ask support
-If you contact support, we will be more than happy to help you. You will just need to confirm a few details.
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
