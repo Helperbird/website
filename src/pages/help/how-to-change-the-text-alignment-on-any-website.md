@@ -16,15 +16,24 @@ tags: guideFeaturesMain
 url: help/how-to-change-the-text-alignment-on-any-website/
 ---
 
-## How to change the text alignment on any website
+## How to change the text alignment on a website
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text Adjustments** card.
-- You will see a **Text alignment** option.
-- Toggle the on/off switch to **On**.
-- Pick how you want to align the text.
-- The website will change to your text alignment settings.
-- Thats it.
+**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text adjustment** card.
+
+**Step 4:** Within the **Text adjustment** card, you will see the **text alignment** option and a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** The text alignment will change to the postion you picked below it
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
+
+
 
 ## Alignment options
 
@@ -34,3 +43,18 @@ url: help/how-to-change-the-text-alignment-on-any-website/
 - Justify
 - Justify-all
 - Unjustify
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+

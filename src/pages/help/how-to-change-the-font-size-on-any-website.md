@@ -7,7 +7,6 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: PfILiWebkuc
 cardTitle: Font sizes
 featureDescription:
