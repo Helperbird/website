@@ -40,15 +40,6 @@ You can also use the auto-scroll feature in combination with other features such
 
 
 
-## How to auto scroll on any website or app
-
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Auto scroll** card.
-- Toggle the on/off switch to **On**.
-- You can also set the speed of the auto scroll, from super slow to super fast.
-- Thats it.
-
-
 
 ## Video tutorial
 
