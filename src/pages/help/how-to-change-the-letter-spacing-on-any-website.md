@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: How to change the letter spacing on any website
+title: How to change the letter spacing on a website
 description: Learn how easy it is to change the letter spacing on any website.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -16,12 +16,35 @@ tags: guideFeaturesMain
 url: help/how-to-change-the-letter-spacing-on-any-website/
 ---
 
-## How to change the letter spacing on any website
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text Adjustments** card.
-- You will see a **Letter spacing** option.
-- Toggle the on/off switch to **On**.
-- Pick the amount of spacing you want inbetween letters.
-- The website will change to your letter spacing settings.
-- Thats it.
+
+## How to change the Letter spacing on a website
+
+**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text adjustment** card.
+
+**Step 4:** Within the **Text adjustment** card, you will see the **Letter spacing** option and a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** The Letter spacing will change to the size you picked below it
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
+**Step 8 (Optional)** To change the Letter spacing just slide the slider to the size you want.
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
