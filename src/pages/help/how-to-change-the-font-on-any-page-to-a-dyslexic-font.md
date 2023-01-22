@@ -1,6 +1,6 @@
 ---
 layout: templates/help.html
-title: Change the font on any website to a dyslexic font
+title: How to change the font on any website to a dyslexic font
 description:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
 keywords:
@@ -18,14 +18,24 @@ tags: guideFeaturesMain
 url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 ---
 
-## How to change the font on any website or app
+## Change the font on any website to a dyslexic font
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the ** Text Adjustments** card.
-- Toggle the on/off switch to **On**.
-- Pick your font.
-- The website will change to your font.
-- Thats it.
+**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text adjustment** card.
+
+**Step 4:** Within the **Text adjustment** card, you will see the **Font** option and a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** The Font will change to the font you picked below it
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
+**Step 8 (Optional)** To change the font, just pick another font from the list.
+
 
 ## Dyslexia fonts
 
@@ -51,3 +61,18 @@ url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 - Impact
 - Times
 - Lexend
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
+
