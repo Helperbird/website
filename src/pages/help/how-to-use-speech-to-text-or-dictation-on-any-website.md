@@ -17,22 +17,33 @@ tags: guideFeaturesMain
 url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
-## How to use Voice typing or dictation on any website
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Voice typing** card.
-- Or you can search it too.
-- Once you see the card.
-- Toggle the on/off switch to **On**.
-- The website will now display a mic icon button, next to all inputs on the page.
-- Click on the mic icon button.
-- It will now enter the text you speak.
-- Thats it.
+## How to use Voice typing or dictation on a website
 
-## How to use Voice typing or dictation on Google Docs
+**Step 1:** Open a webpage that you would like to use the sticky note feature on.
 
-- We actually have a Google Docs addon for Helperbird. So you will need to download that first.
-- Here is the download [link](https://workspace.google.com/marketplace/app/helperbird/844716805038)
-- Once you have it installed and opened in your Google Docs file.
-- Then click the Mic button and start speaking.
-- Click again to stop speaking.
+**Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
+
+**Step 3:** Click the **Voice typing** button from the quick action menu.
+
+**Step 4:** It show voice typing bar along the bottom of the screen.
+
+**Step 5:** Click on the mic icon button, and start speaking.
+
+**Step 6:** Click again to stop speaking.
+
+**Step 7:** Click the **Copy** button to copy the text to your clipboard.
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
