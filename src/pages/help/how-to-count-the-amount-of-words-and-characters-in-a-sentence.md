@@ -10,18 +10,35 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Analyze
+cardTitle: Analyze text
 featureDescription: Learn how to count the amount of words and characters in a sentence
 date: 2016-01-03
 tags: guideFeaturesMain
 url: help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
 ---
 
+## Requirement 
+
+You will need the highlight menu turned on to access this feature. Learn how to turn it on by following this [help guide.](/how-to-turn-on-the-highlight-menu-in-helperbird)
+
+
 ## How to count the amount of words and characters in a sentence
 
-- You first need to highlight the text you want to analyze.
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Analyze** card.
-- Click the **analyze text**.
-- It will now tell you the amount of words and characters in the highlighted text.
-- Thats it.
+**Step 1** Ensure you have the Highlight menu turned on.
+
+**Step 2** On any website, highlight the text you want to analyze. As if you were going to copy it.
+
+**Step 3:** The Highlight menu will appear.
+
+**Step 4:** Click the **Analyze** button.
+
+**Step 5** A popup will appear showing the amount of words and characters in the highlighted text.
+
+
+## Video Tutorial
+
+- Coming soon.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
