@@ -1,8 +1,7 @@
 ---
 layout: templates/help.html
 title: How to turn Helperbird on
-description:
-  Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
+description: Discover how to switch Helperbird from off to on in the Helperbird extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -11,17 +10,37 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: How to turn Helperbird on
-featureDescription:
-  Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
+featureDescription: Discover how to switch Helperbird from off to on in the Helperbird extension.
 date: 2016-01-02
 tags: guideFeatures
 url: help/how-to-turn-helperbird-on/
 ---
 
-## Steps to turn Helperbird on
+## How to turn Helperbird on
 
-- When Helperbirds displays the red **off** icon. That means there is no features are toggled on.
-- When Helperbird is off, click the **Helperbird** button in the top right corner of the screen.
-- A pop-up window will appear. Now just toggle any feature you want to turn on.
-- It will turn the Helperbird icon from **off** to **on**.
-- Psst we recommend turning on the highlight menu feature.
+### Note 
+When Helperbirds displays the red **off** icon. That means Helperbird is off.
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Across from the **Quick Actions** card, you will see the **Helperbird is off** toggle button.
+
+**Step 4:** Click the toggle button to turn Helperbird on.
+
+**Step 5:** Now all Helperbird features will be active.
+
+**Step 6 (Optional)** To turn off Helperbird, click the toggle button again. It will now say **Helperbird is off**.
+
+**Step 7 (Optional)** When Helperbird is off, you can resume Helperbird later by clicking the toggle button again. 
+
+
+## Video Tutorial
+
+- Coming soon.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
