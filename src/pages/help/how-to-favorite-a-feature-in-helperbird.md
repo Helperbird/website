@@ -22,9 +22,9 @@ A favorite feature is a feature that you can access first in the list. By favori
 
 ## How favorite a feature in Helperbird
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to the feature you want to favorite.
 

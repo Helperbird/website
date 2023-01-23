@@ -19,9 +19,9 @@ url: help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 
 ## How to Adjusting your cursor size
 
-**Step 1** Open the extension by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open the extension by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open as a card that is always open and ready to use.
+**Step 2:** The extension will open as a card that is always open and ready to use.
 
 **Step 3** Locate the "Cursor Size" card in the list of options available.
 

@@ -22,9 +22,9 @@ url: help/how-to-extract-text-from-any-image-pdf-or-website/
 
 ## How to extract text from any image, video, pdf or website
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** In the **Quick actions** menu, click the **Extract text** button. This is the third button from the left. It is green
 
@@ -43,9 +43,9 @@ url: help/how-to-extract-text-from-any-image-pdf-or-website/
 
 ## How to save your extracted text to your notes.
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to  **Extract text** card
 
@@ -57,9 +57,9 @@ url: help/how-to-extract-text-from-any-image-pdf-or-website/
 
 ## How to read the extracted text out loud.
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to  **Extract text** card
 

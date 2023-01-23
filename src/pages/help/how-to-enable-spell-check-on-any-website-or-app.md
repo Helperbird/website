@@ -20,9 +20,9 @@ url: help/how-to-enable-spell-check-on-any-website-or-app/
 
 ## How to turn on Helperbirds spell checker feature
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to the **Spell check** card.
 

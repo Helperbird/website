@@ -24,9 +24,9 @@ You will need the highlight menu turned on to access this feature. Learn how to 
 
 ## How to count the amount of words and characters in a sentence
 
-**Step 1** Ensure you have the Highlight menu turned on.
+**Step 1:** Ensure you have the Highlight menu turned on.
 
-**Step 2** On any website, highlight the text you want to analyze. As if you were going to copy it.
+**Step 2:** On any website, highlight the text you want to analyze. As if you were going to copy it.
 
 **Step 3:** The Highlight menu will appear.
 

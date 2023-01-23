@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to Mute videos on any website
-description: Learn how to a Mute videos on any website, pdf or app.
+title: How to automatically mute videos on a website
+description: Learn how to a mute videos on any website with Helperbirds browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -16,13 +16,29 @@ tags: guideFeaturesMain
 url: help/how-to-mute-all-videos-on-any-page/
 ---
 
-## What is Mute videos?
+## How to automatically mute videos on a website
 
-The Mute videos feature adds controls to mute videos.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## How to Mute videos
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Mute** card.
-- Toggle the on/off switch to **On**.
-- Thats it.
+**Step 3:** Scroll to the **Videos** card.
+
+**Step 4:** Within the **Videos** card, you will see the **Volume** option and a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** Now all videos on the page will be muted.
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+

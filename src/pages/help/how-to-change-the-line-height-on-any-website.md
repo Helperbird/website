@@ -19,9 +19,9 @@ url: help/how-to-change-the-line-height-on-any-website/
 
 ## How to change the Line height on a website
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to the **Text adjustment** card.
 

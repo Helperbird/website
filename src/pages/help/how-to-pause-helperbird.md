@@ -17,10 +17,31 @@ tags: guideFeaturesMainl
 url: help/how-to-pause-helperbird/
 ---
 
-## Steps to pause Helperbird
+## How to pause Helperbird
 
-- Click on the Helperbird icon in the top right corner of the browser.
-- A popup will appear.
-- Click on the **Helperbird on** toggle button.
-- This will now turn off Helperbirds features.
-- You can resume Helperbird later by clicking on the **Helperbird on** toggle button again.
+### Note
+Turning off Helperbird will not delete any of your settings or data. You can resume Helperbird at any time by turning it back on.
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Across from the **Quick Actions** card, you will see the **Helperbird is off** toggle button.
+
+**Step 4:** Click the toggle button to turn Helperbird on.
+
+**Step 5:** Now all Helperbird features will be active.
+
+**Step 6 (Optional)** To turn off Helperbird, click the toggle button again. It will now say **Helperbird is off**.
+
+**Step 7 (Optional)** When Helperbird is off, you can resume Helperbird later by clicking the toggle button again. 
+
+
+## Video Tutorial
+
+- Coming soon.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+

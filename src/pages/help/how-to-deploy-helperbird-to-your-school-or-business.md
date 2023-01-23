@@ -25,11 +25,11 @@ time: 4 min
 Your step by step guide on how to install and set up Helperbird.
 
 
-**Step 1** Click Device management in the Google Admin Console.
+**Step 1:** Click Device management in the Google Admin Console.
 
 
 
-**Step 2** Select Chrome management.
+**Step 2:** Select Chrome management.
 
 ![Step two of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_2.png)
 

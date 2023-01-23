@@ -19,9 +19,9 @@ url: help/how-to-hide-images-and-gifs-on-every-website/
 
 ## How to hide images and GIFs on every website
 
-**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2** The extension will open. Showing the quick actions and other features.
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
 **Step 3:** Scroll to the **Images** card.
 
