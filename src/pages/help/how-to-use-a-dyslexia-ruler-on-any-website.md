@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to use a dyslexia ruler on any website
-description: Learn how to use a dyslexia ruler on any website, pdf or app.
+title: How to use a dyslexia ruler on a website or pdf
+description: Learn how to use a dyslexia ruler on a website or pdf with the Helperbird browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,30 +10,75 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Dyslexia Ruler
-featureDescription: Learn how to use a dyslexia ruler on any website, pdf or app.
+featureDescription: Learn how to use a dyslexia ruler on a website or pdf with the Helperbird browser extension.
 date: 2019-01-03
 tags: guideFeaturesMain
 url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---
 
-## What is a dyslexia ruler?
+## How to turn on the Dyslexia ruler
 
-A dyslexia ruler is a transparent ruler that can be used to help you read text. Helperbird allows
-you to use it on every website you visit.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## How to use a dyslexia ruler
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Dyslexia ruler** card.
-- Toggle the on/off switch to **On**.
-- A ruler, will now appear on the page.
-- Thats it.
+**Step 3:** Scroll until you find the **Ruler** card.
 
-## Features
+**Step 4:** There is many different options, from styles, colors, and transparency.
 
-- Follow cursor
-- Ruler color
-- Ruler size
-- Ruler position
-- Ruler opacity
-- Ruler Width
+**Step 5:** Toggle the on/off switch to **On**.
+
+**Step 6:** A ruler, will now appear on the page.
+
+**Step 7 (Optional):** Change the options to your liking.
+
+
+
+
+## Ruler features
+
+### Follow cursor
+
+Follow cursor is a feature that allows the ruler to follow your cursor as you move it across the page. This feature is turned off by default.
+
+### Ruler color
+
+Ruler color is a feature that allows you to change the color of the ruler. The default color is black.
+
+### Ruler size
+
+Ruler size is a feature that allows you to change the size of the ruler. The default size is 100px.
+
+### Ruler position
+
+Ruler position is a feature that allows you to change the position of the ruler. The default position is top.
+
+### Ruler opacity
+
+Ruler opacity is a feature that allows you to change the opacity of the ruler. The default opacity is 100%.
+
+### Ruler Width
+
+Ruler Width is a feature that allows you to change the width of the ruler. The default width is 1px.
+
+### Ruler Styles
+
+- Dyslexia Ruler
+- Line focus
+- Reading guide
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to use a line focus on any website
-description: Learn how to use a line focus on any website, pdf or app.
+title: How to use a Line focus ruler on any website
+description:  Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,7 +10,7 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Line focus
-featureDescription: Learn how to use a line focus on any website, pdf or app.
+featureDescription: Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.
 date: 2021-01-03
 tags: guideFeaturesMain
 url: help/how-to-use-a-line-focus-on-any-website/
@@ -21,17 +21,71 @@ url: help/how-to-use-a-line-focus-on-any-website/
 A line focus is a transparent ruler that can be used to help you read text. Helperbird allows you to
 use it on every website you visit.
 
-## How to use a line focus
+## How to turn on the Line focus
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Line focus** card.
-- Toggle the on/off switch to **On**.
-- A ruler, will now appear on the page.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## Features
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
-- Line focus color
-- Line focus size
-- Line focus opacity
-- Line focus Width
+**Step 3:** Scroll until you find the **Ruler** card.
+
+**Step 4:** Under the **Ruler** card, there is a **Style** feature.
+
+**Step 5:** Change the **Style** to **Line focus**.
+
+**Step 5:** Toggle the on/off switch to **On**.
+
+**Step 6:** The line focus, will now appear on the page.
+
+**Step 7 (Optional):** To turn off the line focus, toggle the on/off switch to **Off**.
+
+
+
+
+## Ruler features
+
+### Follow cursor
+
+Follow cursor is a feature that allows the ruler to follow your cursor as you move it across the page. This feature is turned off by default.
+
+### Ruler color
+
+Ruler color is a feature that allows you to change the color of the ruler. The default color is black.
+
+### Ruler size
+
+Ruler size is a feature that allows you to change the size of the ruler. The default size is 100px.
+
+### Ruler position
+
+Ruler position is a feature that allows you to change the position of the ruler. The default position is top.
+
+### Ruler opacity
+
+Ruler opacity is a feature that allows you to change the opacity of the ruler. The default opacity is 100%.
+
+### Ruler Width
+
+Ruler Width is a feature that allows you to change the width of the ruler. The default width is 1px.
+
+### Ruler Styles
+
+- Dyslexia Ruler
+- Line focus
+- Reading guide
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
+
+
