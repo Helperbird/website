@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to set column widths on any website
-description: Learn how to a set column widths on any website, pdf or app.
+title: How to set columns in a paragraph on a website
+description: Learn how to set columns in a paragraph on a website
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,20 +9,37 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Column widths
-featureDescription: Learn how to set column widths on any website, pdf or app.
+cardTitle: Columns
+featureDescription: Learn how to set columns in a paragraph on a website
 tags: guideFeaturesMain
 date: 2018-01-04
 url: help/how-to-set-the-column-width-on-any-page/
 ---
 
-## How to set column widths
+## How to print a website with Helperbird
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Column** card.
-- Toggle the on/off switch to **On**.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## Features
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
-- Column widths.
+**Step 3:** Scroll to the **Paragraph** card.
+
+**Step 4:** Within the **Paragraph** card, you will see the **Paragraph Columns** option.
+
+**Step 5** Toggle the on/off switch to **On**.
+
+**Step 6** The columns will be set in the paragraph, you can now read the paragraph in columns.
+
+**Step 7 (Optional)** To set columns in another paragraph, repeat steps 1-6.
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
