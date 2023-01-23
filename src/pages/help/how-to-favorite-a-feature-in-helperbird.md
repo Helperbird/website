@@ -1,8 +1,7 @@
 ---
 layout: templates/help.html
 title: How favorite a feature in Helperbird
-description: Discover how to favorite a feature in Helperbird on Chrome, Firefox, Edge extension.
-keywords:
+description: Discover how to favorite a feature in Helperbird. Making it appear first in the list.
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
@@ -17,34 +16,40 @@ url: help/how-to-favorite-a-feature-in-helperbird/
 ---
 
 
-## How to favorite a feature
+## What is a favorite feature
 
-Favoriting a feature means that you will be able to access that feature first in the list. By
-Favoriting a feature it will put it on top of the list.
+A favorite feature is a feature that you can access first in the list. By favoriting a feature it will put it on top of the list.
 
-## How to favorite a feature
+## How favorite a feature in Helperbird
 
-- Scroll to the feature you want to favorite.
-- You will see three dots on the top right.
-- A drop down menu will appear.
-- Choose the favorite this feature.
-- The feature will be added to the top of the list.
-- A red heart will appear on the top right of the feature.
+**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## How to unfavorite a feature
+**Step 2** The extension will open. Showing the quick actions and other features.
 
-- Scroll to the feature you want to unfavorite.
-- You will see three dots on the top right.
-- A drop down menu will appear.
-- Choose the unfavorite this feature.
-- The feature will be removed from of the list.
-- A red heart will also be removed from top right of the feature.
+**Step 3:** Scroll to the feature you want to favorite.
+
+**Step 4:** You will see three dots on the top right.
+
+**Step 5:** Click the three dots to open a drop down menu.
+
+**Step 6:** Choose the favorite this feature.
+
+**Step 7:** The feature will be added to the top of the list.
+
+**Step 8:** A red heart will appear on the top right of the feature.
+
+**Step 9 (Optional):** To unfavorite a feature, follow the steps above but choose the unfavorite this feature.
+
 
 
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
+- Coming soon.
 
-<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/KcAxQslBjOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
