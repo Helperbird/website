@@ -26,24 +26,49 @@ Features include spell check, Reduce motion and keyboard motion.
 
 ## How to use the reduce motion feature
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Accessibility** card.
-- Toggle the reduce motion on/off switch to **On**.
-- Still will stop all css animations on the page from running.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Accessibility** card.
+
+**Step 4:** Within the **Accessibility** card, you will see the **Reduce Motion** option.
+
+**Step 5** Toggle the **Reduce Motion** option to **On**.
+
+**Step 6** Every website you visit will now have reduced motion.
+
+**Step 7 (Optional)** To disable reduced motion, repeat steps 1-6.
+
 
 ## How to use the Spell check feature
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Accessibility** card.
-- Toggle the Spell check on/off switch to **On**.
-- All inputs will now have spell checked enabled.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Spell check** card.
+
+**Step 4:** Within the Spell check card, you will see a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** The Spell check feature will now be turned on and will be active on all inputs.
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
 
 ## How to turn on Keyboard shortcuts
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Accessibility** card.
-- Toggle the Keyboard shortcuts on/off switch to **On**.
-- All shortcuts will now work on any website.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Accessibility** card.
+
+**Step 4:** Within the **Accessibility** card, you will see the **Keyboard shortcuts** option.
+
+**Step 5** Toggle the **Keyboard shortcuts** option to **On**.
+
+**Step 6** Every website you visit will now have support for Helperbirds Keyboard shortcuts
+
