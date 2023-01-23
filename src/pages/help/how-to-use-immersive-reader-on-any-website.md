@@ -17,12 +17,12 @@ tags: guideFeaturesMain
 url: help/how-to-use-immersive-reader-on-any-website/
 ---
 
-## How to use Immersive reader on any website,Pdf or app
+## How to use Immersive reader on a website or PDF
 
 There are three ways to use Immersive Reader by Microsoft on websites or PDFs with Helperbird.
 
 
-## Highlight menu
+## Using the Highlight menu
 
 **Step 1:** You will need to have the **Highlight menu** feature enabled.
 
@@ -30,12 +30,12 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 **Step 3:** A highlight menu will appear.
 
-**Step 4:** Click on the **Immersive** option, it has a book icon.
+**Step 4:** Click on the **Immersive** option, it is an book icon.
 
 **Step 5:** It will start to load immersive reader, with the text you selected.
 
 
-## Right click
+## Using the right context menu (Right click)
 
 **Step 1:** Highlight the text you want to use in Immersive reader.
 
@@ -47,28 +47,31 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 **Step 5:** It will start to load immersive reader, with the text you selected.
 
-## Immersive Reader button
+## Using the Immersive Reader button
 
 **Step 1:** Open a webpage that you would like to use the sticky note feature on.
 
 **Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
 
-**Step 3:** Select the "mmersive reader" button from the quick action menu.
+**Step 3:** Select the **Immersive reader button** from the quick action menu.
 
-**Step 4:** It will start to load immersive reader, with the text from the website
+**Step 4:** It will start to load Immersive reader, with the text from the website
 
 
 ## Using Immersive reader on PDFs
 
-**Step 1:** Open Helperbird on Chrome, Firefox or Edge.
+**Step 1:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
 
-**Step 2:** Open the pdf app, and load your PDF.
 
-**Step 3:** Highlight/select the text you want to use in Immersive reader.
+**Step 2:** Open the the PDF reader app. Which is located as the pink button in the quick access menu.
 
-**Step 4:** Click on the **Immersive** option, it has a book icon.
+**Step 3:** Load the PDF you want to use. Click the load PDF button, and select the PDF you want to use.
 
-**Step 5:** It will start to load immersive reader, with the text you selected.
+**Step 4:** Highlight/select the text you want to use in **Immersive reader**.
+
+**Step 5:** Click on the **Immersive** option, it has a book icon.
+
+**Step 6:** It will start to load immersive reader, with the text you selected.
 
 
 
