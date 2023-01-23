@@ -23,7 +23,7 @@ url: help/how-to-annotate-any-website-with-sticky-notes/
 
 **Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
 
-**Step 3:** Select the "Create a note" option from the menu.
+**Step 3:** Select the "Create a note" option from the quick action menu.
 
 **Step 4:** A small sticky note window will appear on the webpage.
 

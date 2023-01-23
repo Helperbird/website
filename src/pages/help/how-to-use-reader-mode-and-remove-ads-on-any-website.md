@@ -1,9 +1,7 @@
 ---
 layout: templates/help.html
-title: How to use Reader mode in any browser
-description:
-  Discover how to use Reader mode on any browser for websites, PDFS and apps. Including Google
-  Chrome, Firefox, Safari, Opera, and Microsoft Edge.
+title: How to use Reader mode on an website or PDF
+description: Discover how to use Reader mode in any browser for websites or PDF's using the Helperbird browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -12,39 +10,74 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Reader mode
-featureDescription:
-  Discover how to use Reader mode on any browser. Including Google Chrome, Firefox, Safari, Opera,
-  and Microsoft Edge.
+featureDescription: Discover how to use Reader mode in any browser for websites or PDF's using the Helperbird browser extension.
 date: 2022-03-01
 tags: guideFeaturesMain
 url: help/how-to-use-reader-mode-and-remove-ads-on-any-website/
 ---
 
-## How to use Reader Mode or **View in Reader Mode** in any browser
 
-There are three ways to use Reader Mode in any browserin Helperbird. Making it easier for you to
-decided how you want to use it.
 
-## Method 1: Highlight menu
+## How to use Reader mode on an website or PDF
 
-- You will need to have the **Highlight menu** feature enabled.
-- in any browser, app or pdf. Highlight the text you want to use in Reader Mode.
-- A highlight menu will appear.
-- Click on the **Reader Mode** option, it has a book icon.
-- It will start to load Reader Mode, with the text you selected.
-- Thats it.
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
-## Method 2: Reader Mode button
+**Step 2:** The extension will open. Showing the quick actions and other features.
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Reader Mode** card.
-- Click on the **View in Reader Mode** button.
-- It will start to load Reader Mode, with the text you of the website.
-- There is also a Reader Mode button in the quick action section too.
-- Thats it.
+**Step 3:** In the **Quick actions** menu, click the **Reader Mode** button. This is the first button from the left. It is black.
+
+**Step 4:** It will then load the Reader Mode feature into the current tab.
+
+**Step 5:** It will remove ads and distractions, leaving the page in a nice clean format.
+
+**Step 6:** You can close the Reader Mode by clicking the **Close Reader Mode** button.
+
+
+## Using Reader mode though the Highlight menu
+
+**Step 1:** You will need to have the **Highlight menu** feature enabled.
+
+**Step 2:** Highlight the text you want to use in Reader Mode.
+
+**Step 3:** A highlight menu will appear.
+
+**Step 4:** Click on the **Reader Mode** option, it is an book icon.
+
+**Step 5:** It will start to load Reader Mode with the text you selected.
+
+
+## Using Reader mode though the context menu (Right click)
+
+**Step 1:** Highlight the text you want to use in Reader Mode.
+
+**Step 2:** Right click, and you will a context menu.
+
+**Step 3:** Go to the **Helperbird** option.
+
+**Step 4:** Then click **Reader Mode** option.
+
+**Step 5:** It will start to load Reader Mode, with the text you selected.
+
+
 
 ## What is Reader Mode?
 
 Reader Mode turns webpages into easy-to-read text. We’ve designed this longform experience so you
 can read all the latest content seamlessly, and enjoy your websites with less noise, no ads or
 distactions.
+
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
