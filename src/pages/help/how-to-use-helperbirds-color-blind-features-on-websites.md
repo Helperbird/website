@@ -18,14 +18,6 @@ url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 
 
 
-## What our Helperbirds colorblind features?
-
-At the moment, Helperbird has two colorblind features:
-
-- **Emphasize links** - Helperbird will highlight links in the text that are pointing to websites
-  that are not accessible for colorblind people.
-- **Text stroke** - Helperbird will draw a stroke around the text that is not readable for
-  colorblind people.
 
 ## How to use Emphasize Links feature
 
@@ -59,6 +51,17 @@ At the moment, Helperbird has two colorblind features:
 **Step 6** All text on a website will have the border/stroke around it with the color you picke.
 
 **Step 7 (Optional)** To disable Text Strok, repeat steps 1-6.
+
+
+## What our Helperbirds colorblind features?
+
+At the moment, Helperbird has two colorblind features:
+
+**Emphasize links**
+Helperbird will highlight links in the text that are pointing to websites that are not accessible for colorblind people.
+
+**Text stroke**
+Helperbird will draw a stroke around the text that is not readable for colorblind people.
 
 
 ## Video Tutorial
