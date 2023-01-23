@@ -1,9 +1,8 @@
 ---
 layout: templates/help.html
-title: How to use Voice typing or dictation on any website
+title: How to use Voice typing or dictation on a website
 description:
-  How to use Voice typing or dictation on any website with Helperbirds Chrome, Firefox, Edge and
-  Safari extension.
+  How to use Voice typing or dictation on a website with Helperbirds browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -12,7 +11,7 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Voice typing
-featureDescription: Learn how to use Helperbird voice typing feature on any website.
+featureDescription: How to use Voice typing or dictation on a website with Helperbirds browser extension.
 date: 2019-01-02
 tags: guideFeaturesMain
 url: help/how-to-use-speech-to-text-or-dictation-on-any-website/

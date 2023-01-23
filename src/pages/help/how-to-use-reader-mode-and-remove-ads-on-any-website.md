@@ -67,8 +67,6 @@ can read all the latest content seamlessly, and enjoy your websites with less no
 distactions.
 
 
-
-
 ## Video Tutorial
 
 - Coming soon.
