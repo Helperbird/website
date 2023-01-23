@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
 title: How to update my credit card
-description: Learn how to update my credit card information in Helperbird.
+description: Learn how to update my credit card information in the Helperbird browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,28 +9,39 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Update my credit card
-featureDescription:  Learn how to update my credit card information in Helperbird.
+cardTitle: Update credit card
+featureDescription:  Learn how to update my credit card information in the Helperbird browser extension.
 tags: guideAccounts
 url: help/how-to-update-my-credit-card/
 ---
 
-## Important
 
-To access and manage your subscription. You need to be logged in with the same email you signed up
-to Helperbird Pro with on your browser.
-Learn how to [login to Helperbird Pro.](https://helperbird.com/help/how-to-login-to-helperbird/)
+## How to update my credit card information in the Helperbird
+
+**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+
+**Step 2:** Click on the "Login" button in the top right corner.
+
+**Step 3:** Enter your email.
+
+**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+
+**Step 5:** Enter the code in the box and click "Verify".
+
+**Step 6:** You will be redirected to the Helperbird dashboard.
+
+**Step 7:** Click on the **Add payment method** button.
+
+**Step 8:** Enter your new credit card information and click **Save**.
+
+**Step 9:** You have now updated your credit card information.
 
 
-## How to change my credit card information
+## Video Tutorial
 
-- First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
-  Helperbird Pro with on your browser.
-- Click the Helperbird icon.
-- A popup will appear.
-- Click the settings cog.
-- It will open a new tab.
-- Scroll down to the subscriptions section.
-- Click the manage subscription button.
-- You can now edit, remove or add a new credit card information.
+- Coming soon.
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
