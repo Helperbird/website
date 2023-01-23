@@ -65,4 +65,4 @@ Your step by step guide on how to install and set up Helperbird.
 
 ![Step nine of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_9.png)
 
-**Step 11** After the force-install window has closed, click SAVE at the top right of the page to publish the  app or extension to all of your selected users. The app or extension will now be deployed to your  users.
+**Step 11** After the force-install window has closed, click SAVE at the top right of the page to publish the  app or extension to all of your selected users. The app or extension will now be deployed to your users.

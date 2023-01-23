@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
-title: How to enable spell check on any website or app
-description: Learn how to enable spell check on any website or app.
+title: How to enable spell check on any website
+description: How to enable spell check on a website using Helperbirds extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -9,23 +9,36 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Spell Checker
-featureDescription: Learn how to auto scroll on any website or app.
+cardTitle: Spell Check
+featureDescription: How to enable spell check on a website using Helperbirds extension.
 date: 2022-04-01
 tags: guideFeaturesMain
 url: help/how-to-enable-spell-check-on-any-website-or-app/
 ---
 
-## How to enable spell checker
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Spell check** card.
-- Toggle the on/off switch to **On**.
-- Now every website will have the browser spell checker enabled, this is based on the Google Search
-  spell checker.
-- Thats it.
 
-## Upcoming update
+## How to turn on Helperbirds spell checker feature
 
-- We will be switching the engine to the
-  [Google Cloud Spelling Engine](https://cloud.google.com/docs/text-to-speech/).
+**Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Spell check** card.
+
+**Step 4:** Within the Spell check card, you will see a toggle switch labeled **Off**.
+
+**Step 5** Click the toggle switch to turn the feature on.
+
+**Step 6** The Spell check feature will now be turned on and will be active on all inputs.
+
+**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+
+
+## Video Tutorial
+
+- Coming soon.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
