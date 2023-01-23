@@ -19,7 +19,8 @@ url: help/how-to-extract-text-from-any-image-pdf-or-website/
 
 
 
-## How to turn on Helperbirds spell checker feature
+
+## How to extract text from any image, video, pdf or website
 
 **Step 1** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
