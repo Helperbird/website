@@ -1,8 +1,7 @@
 ---
 layout: templates/help.html
-title: Define any word or sentence in Helperbirds dictionary app
-description:
-  Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
+title: How to use the Dictionary app in Helperbird
+description: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -11,39 +10,44 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Dictionary
-featureDescription:
-  Helperbird allows you to define any word or sentence in seconds with Helperbirds dictionary app.
+featureDescription: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
 tags: guideApps
 url: help/how-to-use-dictionary-app-in-helperbird/
 ---
 
-## How define any word or sentence
 
-- First you need to download Helperbird.
-- Then you need to install it.
-- Once you have that, left click the Helperbird icon.
-- A popup window will appear.
-- Next to the search icon on the top right is a bunch of squares icon.
-- Click on it.
-- Then choose Dictionary.
+## Requirements
+You will need to have the Highlight menu turned on in Helperbird. You can learn how to turn on the Highlight menu in Helperbird [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
 
-## How to highlight a words
 
-- Select or highlight any word or sentence.
-- If you have the highlight menu option enabled, click the seach icon.
-- It will than open a new tab and show the definition of the word or sentence.
+## How to use the Dictionary app in Helperbird
 
-## How to highlight a words, method
+**Step 1:** Highlight text on a page, select the text you want to highlight. 
 
-- Select or highlight any word or sentence.
-- Right click and choose the choose Helperbird.
-- Than choose Define word.
-- It will than open a new tab and show the definition of the word or sentence.
+**Step 2:** A menu will appear.
+
+**Step 3:** Select the dictionary button.
+
+**Step 4:** A new tab will open with the definition of the word or sentence.
+
+**Step 5:** You can also use the dictionary app by clicking on the Helperbird icon in the top right corner of your browser window.
+
+**Step 6:** A menu will appear.
+
+**Step 7:** Scroll until you see the Helperbird apps. Choose the Dictionary app button.
+
+
 
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
+- Coming soon.
 
-<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/I9roND7OdUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
