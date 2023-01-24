@@ -393,4 +393,4 @@ focus fonts try to fix some of their problems and improve web accessibility in g
 
 10. [W3C, “Text Customization,” 11 November 2012.\[Online\]](https://www.w3.org/WAI/RD/2012/text-customization/r11 'Learn more on the topic featuring Helperbird')
 
-11. [V.F.d.Santana, “https://pdfs)semanticscholar.org," University of Campinas , 23 June \] 2012.\[Online\] \[Accessed 23 Febuary 2016\].")](https://www.semanticscholar.org)
+11. [V.F.d.Santana, “https://PDFs)semanticscholar.org," University of Campinas , 23 June \] 2012.\[Online\] \[Accessed 23 Febuary 2016\].")](https://www.semanticscholar.org)

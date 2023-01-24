@@ -19,14 +19,7 @@ url: help/how-to-use-text-to-speech-on-any-website/
 ---
 
 
-
-
-
-
-
 ## How to use text to speech on any website or PDF
-
-## Requirements
 
 You will need to have the Highlight menu turned on in Helperbird. You can learn how to turn on the Highlight menu in Helperbird [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
 

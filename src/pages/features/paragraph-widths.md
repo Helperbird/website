@@ -1,7 +1,7 @@
 ---
 layout: templates/features_two.liquid
 title: Adjust Paragraph Width for Better Reading
-description: Enhance your reading experience with Helperbird's paragraph width setting feature. Easily adjust the width of paragraphs on pdfs and websites to fit your screen and personal preference. Improve readability and reduce eye strain with our user-friendly browser extension.
+description: Enhance your reading experience with Helperbird's paragraph width setting feature. Easily adjust the width of paragraphs on PDFs and websites to fit your screen and personal preference. Improve readability and reduce eye strain with our user-friendly browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -25,7 +25,7 @@ url: features/paragraph-widths/
 ## Summary
 Enhance your reading experience with Helperbird's paragraph width setting feature. 
 
-Easily adjust the width of paragraphs on pdfs and websites to fit your screen and personal preference. 
+Easily adjust the width of paragraphs on PDFs and websites to fit your screen and personal preference. 
 
 Improve readability and reduce eye strain with our user-friendly browser extension.
 
@@ -34,7 +34,7 @@ Improve readability and reduce eye strain with our user-friendly browser extensi
 The benefits of Helperbird's paragraph width setting feature are:
 
 ### Adjust the width of paragraphs
-It allows users to adjust the width of paragraphs on pdfs and websites to fit their screen and personal preference.
+It allows users to adjust the width of paragraphs on PDFs and websites to fit their screen and personal preference.
 
 ### Improve readability
 It improves readability by making text more legible and comfortable to read.
@@ -43,7 +43,7 @@ It improves readability by making text more legible and comfortable to read.
 It reduces eye strain and fatigue by allowing users to adjust the width of text to their preference.
 
 ## Features
-- Adjust the width of paragraphs on pdfs and websites.
+- Adjust the width of paragraphs on PDFs and websites.
 - Set the width of paragraphs to fit your screen.
 - Pick the color of the paragraph background.
 - Pick the color of the paragraph text.

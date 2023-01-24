@@ -1,14 +1,14 @@
 ---
 layout: templates/features_two.liquid
-title: Translate words, websites, and pdfs with ease with Helperbird 
-description: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and pdfs with ease
+title: Translate words, websites, and PDFs with ease with Helperbird 
+description: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and pdfs with ease
+featurePageTitle: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/translate.svg"
 youtubeId: PfILiWebkuc
@@ -25,7 +25,7 @@ url: features/google-translate/
 
 
 ## Summary
-Helperbird's Translation feature allows users to easily translate words, websites, and pdfs in any language, making it easy to understand content in other languages. 
+Helperbird's Translation feature allows users to easily translate words, websites, and PDFs in any language, making it easy to understand content in other languages. 
 
 Powered by Google Translate, users can trust the translations to be accurate and reliable. 
 
@@ -35,8 +35,8 @@ dsThis feature eliminates the need to switch to a separate translation applicati
 
 There are several benefits of Helperbird's Translation feature, including:
 
-### Easily translate words, websites, and pdfs
-It allows users to easily translate words, websites, and pdfs in any language, making it easy to understand content in other languages.
+### Easily translate words, websites, and PDFs
+It allows users to easily translate words, websites, and PDFs in any language, making it easy to understand content in other languages.
 
 
 ### Powered by Google Translate

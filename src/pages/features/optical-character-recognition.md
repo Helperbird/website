@@ -1,6 +1,6 @@
 ---
 layout: templates/features_two.liquid
-title: Extract text from images, videos, and pdfs with Helperbirds' OCR feature
+title: Extract text from images, videos, and PDFs with Helperbirds' OCR feature
 description:
   Helperbirds OCR features turn text within any image captured from your screen and copy it to your clipboard – making it easy to reuse in digital documents, emails, or reports.
 keywords:
@@ -15,7 +15,7 @@ icon: "/src/_includes/svgs/ocr.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Extract text (OCR)
 featureDescription:
-  Are extract text (OCR) feature allows you to capture and convert text from images, videos and pdfs.
+  Are extract text (OCR) feature allows you to capture and convert text from images, videos and PDFs.
 group: reading
 tags: 
   - features
@@ -32,13 +32,13 @@ url: features/optical-character-recognition/
 
 ## Summary
 
-Helperbird's Extract text feature (OCR) is a tool that allows users to easily digitize text from images, videos and pdfs. 
+Helperbird's Extract text feature (OCR) is a tool that allows users to easily digitize text from images, videos and PDFs. 
 
-With this feature, users can convert scanned documents or images into editable text, and easily extract information from images, videos and pdfs for research or archiving purposes. 
+With this feature, users can convert scanned documents or images into editable text, and easily extract information from images, videos and PDFs for research or archiving purposes. 
 
-It eliminates the need to manually type out text from images and pdfs, making the process of digitizing documents faster and more efficient. 
+It eliminates the need to manually type out text from images and PDFs, making the process of digitizing documents faster and more efficient. 
 
-Additionally, this feature facilitates text search, editing, and storage in a computer, improving accessibility to text in images and pdfs, and enhancing productivity.
+Additionally, this feature facilitates text search, editing, and storage in a computer, improving accessibility to text in images and PDFs, and enhancing productivity.
 
 ## Features
 
@@ -46,10 +46,10 @@ The OCR feature in Helperbird can be used to:
 
 - Convert scanned documents or images into editable text.
 - Digitize books, newspapers, magazines, and other printed materials.
-- Automate the process of digitizing and indexing text in images and pdfs.
-- Extract information from images, videos and pdfs for research, archiving or indexing purposes.
-- Improve accessibility to text in images and pdfs.
-- Read out loud text in images and pdfs.
+- Automate the process of digitizing and indexing text in images and PDFs.
+- Extract information from images, videos and PDFs for research, archiving or indexing purposes.
+- Improve accessibility to text in images and PDFs.
+- Read out loud text in images and PDFs.
 
 ## What is OCR?
 

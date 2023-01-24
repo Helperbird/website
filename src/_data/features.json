@@ -111,7 +111,7 @@
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
 			"title": "Text to Speech",
-			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and pdfs with natural sounding voices.",
+			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and PDFs with natural sounding voices.",
 			"link": "/features/text-to-speech/"
 		},
 		{
@@ -161,7 +161,7 @@
 			"icon": "/src/_includes/svgs/immersive.svg",
 			"group": "dyslexia",
 			"title": "Immersive Reader",
-			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, Pdfs & ebooks.",
+			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, PDFs & ebooks.",
 			"link": "/features/immersive-reader-for-chrome/"
 		},
 		{
@@ -196,7 +196,7 @@
 			"icon": "/src/_includes/svgs/ocr.svg",
 			"group": "research",
 			"title": "Extract text from images. (OCR)",
-			"description": "A powerful optical character recognition (OCR) extension to capture and convert images, videos, Pdf's  to text.",
+			"description": "A powerful optical character recognition (OCR) extension to capture and convert images, videos, PDFs  to text.",
 			"link": "/features/optical-character-recognition/"
 		},
 		{
@@ -210,7 +210,7 @@
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
 			"title": "Annotate web pages",
-			"description": "Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and study.",
+			"description": "Highlight or annotate web pages documents, PDFs, ebooks and more content to improve engagement and study.",
 			"link": "/features/annotation/"
 		},
 		{

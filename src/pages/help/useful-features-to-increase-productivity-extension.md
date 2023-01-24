@@ -63,7 +63,7 @@ To discover how to use Helperbird’s text reading feature, visit the
 ## Read websites,emails & files with natural voices.
 
 Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages,
-ebooks and pdfs with natural sounding voices.
+ebooks and PDFs with natural sounding voices.
 
 To discover how to use Helperbird’s text reading feature, visit the
 [Voice Reading](/help/how-to-use-text-to-speech-on-any-website/) section.

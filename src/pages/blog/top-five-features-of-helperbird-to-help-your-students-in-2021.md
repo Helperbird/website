@@ -44,7 +44,7 @@ to use OpenDyslexic, Lexend and more.
 
 ## Annotations and notes on any website
 
-Highlight or annotate web pages documents, pdfs, ebooks and more content to improve engagement and
+Highlight or annotate web pages documents, PDFs, ebooks and more content to improve engagement and
 study.
 
 [More information](/features/annotation/ 'Discover more information about the annotation website').

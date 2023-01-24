@@ -2,7 +2,7 @@
 layout: templates/support_post.html
 title: How to Annotate and Highlight PDFs in Edge, Chrome and Firefox
 description:
-  Discover to annotate, highlight pdfs and more with Helperbird for Edge, Chrome, iPad, iPhone
+  Discover to annotate, highlight PDFs and more with Helperbird for Edge, Chrome, iPad, iPhone
   online.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -10,11 +10,11 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-url: support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
+url: support/annotate-and-highlight-PDFs-with-helperbird-online-extension/
 isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
-cardTitle: How to annotate and highlight Pdfs online
+cardTitle: How to annotate and highlight PDFs online
 blog_snip:
   Highlight paragraphs. Annotate the file. Send it around. Review it online. Learn how Helperbird
   makes it easy to annotate your PDF documents and send them for group review online and for

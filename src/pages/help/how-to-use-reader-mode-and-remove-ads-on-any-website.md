@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
 title: How to use Reader mode on an website or PDF
-description: Discover how to use Reader mode in any browser for websites or PDF's using the Helperbird browser extension.
+description: Discover how to use Reader mode in any browser for websites or PDFs using the Helperbird browser extension.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -10,7 +10,7 @@ keywords:
 
 youtubeId: PfILiWebkuc
 cardTitle: Reader mode
-featureDescription: Discover how to use Reader mode in any browser for websites or PDF's using the Helperbird browser extension.
+featureDescription: Discover how to use Reader mode in any browser for websites or PDFs using the Helperbird browser extension.
 date: 2022-03-01
 tags: guideFeaturesMain
 url: help/how-to-use-reader-mode-and-remove-ads-on-any-website/
