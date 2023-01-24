@@ -75,3 +75,16 @@ url: help/how-to-use-the-helperbird-pdf-support/
 **Step 4:** The Immersive reader will open.
 
 **Step 5:** You can now access the amazing Immersive reader by Microsoft features.  
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
