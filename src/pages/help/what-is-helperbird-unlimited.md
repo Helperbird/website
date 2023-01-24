@@ -21,15 +21,14 @@ url: help/what-is-helperbird-unlimited/
 
 ## What is Helperbird Pro Unlimited?
 
-Helperbird Pro Unlimited is a paid version of Helperbird. It is a complete, all-in-one, but this plan is
-built for schools, districts and businesses.
+Helperbird Pro Unlimited is a paid version of Helperbird. It is a complete, all-in-one, but this plan is built for schools, districts and businesses.
 
 Discover the differences here.
 
 ## Helperbird Pro Unlimited  
 
 It includes all the features of Helperbird Pro but most importantly, it includes: unlmited users.
-Meaning everyone on the domain can use the Helperbird Pro features for the price of $1,200 a year or
+Meaning everyone on the domain can use the Helperbird Pro features for the price of $1,500 a year or
 $99.99 a month. This is pre school or business.
 
 ## What do you mean by domain?
@@ -41,3 +40,15 @@ domain can't.
 
 We offer discounts for serveral Helperbird for schools or businesses. Just contact us and we can
 help you.
+
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.

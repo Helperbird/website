@@ -32,7 +32,7 @@ function load() {
 				yearly: {
 					pro: "60.00",
 					proLink: "",
-					unlimited: "1,200",
+					unlimited: "1,500",
 					unlimitedLink: "",
 				},
 				student: "40",
@@ -143,7 +143,7 @@ function load() {
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/4gw7t9gtK6oc98I8wJ?prefilled_promo_code=2023sale";
 
-						this.price.yearly.unlimited = "1,200";
+						this.price.yearly.unlimited = "1,500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/3cs8xda5m4g44Ss9AU?prefilled_promo_code=2023sale";
 
@@ -215,7 +215,7 @@ function load() {
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/aEU9BhfpG5k8ckU5kW?prefilled_promo_code=2023sale";
 
-						this.price.yearly.unlimited = "1,200";
+						this.price.yearly.unlimited = "1,500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/5kA00H7XebIw84E7t6?prefilled_promo_code=2023sale";
 
@@ -263,7 +263,7 @@ function load() {
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/4gw7t9gtK6oc98I8wJ?prefilled_promo_code=2023sale";
 
-						this.price.yearly.unlimited = "1,200";
+						this.price.yearly.unlimited = "1,500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/3cs8xda5m4g44Ss9AU?prefilled_promo_code=2023sale";
 

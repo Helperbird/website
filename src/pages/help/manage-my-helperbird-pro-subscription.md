@@ -1,7 +1,7 @@
 ---
 layout: templates/help.html
 title: How to manage my Helperbird Pro subscription
-description: Discover how to manage your Helperbird Pro subscription.
+description: Discover how to manage your Helperbird Pro subscription, from cancel or update your subscription.
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,22 +15,51 @@ tags: guideAccounts
 url: help/manage-my-helperbird-pro-subscription/
 ---
 
-## Manage my Helperbird Pro subscription
+## How to manage my Helperbird Pro subscription
 
-## Important
+**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
 
-To access and manage your subscription. You need to be logged in with the same email you signed up
-to Helperbird Pro with on your browser.
+**Step 2:** Click on the "Login" button in the top right corner.
 
-## How to manage
+**Step 3:** Enter your email.
 
-- First you need Helperbird installed.
-- Once you have Helperbird installed, you need to be logged in with the same email you signed up to
-  Helperbird Pro with on your browser.
-- Click the Helperbird icon.
-- A popup will appear.
-- Click the settings cog.
-- It will open a new tab.
-- Scroll down to the subscriptions section.
-- Click the manage subscription button.
-- You can now cancel, extend or change your subscription.
+**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+
+**Step 5:** Enter the code in the box and click "Verify".
+
+**Step 6:** You will be redirected to the Helperbird dashboard.
+
+**Step 7:** You will see your subscription details on the right side of the screen. There is two buttons, to cancel or update your subscription.
+
+
+
+## How to cancel my Helperbird Pro subscription
+
+Firstly we are sad to see you go but here is how to cancel your subscription.
+
+**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+
+**Step 2:** Click on the "Login" button in the top right corner.
+
+**Step 3:** Enter your email.
+
+**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+
+**Step 5:** Enter the code in the box and click "Verify".
+
+**Step 6:** You will be redirected to the Helperbird dashboard.
+
+**Step 7:** You will see your subscription details on the right side of the screen.
+
+**Step 8:** Click on the **Cancel subscription** button.
+
+**Step 9:** Thats it. Your subscription has now been cancelled.
+
+## Video Tutorial
+
+- Coming soon.
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.

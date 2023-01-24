@@ -218,3 +218,16 @@ You will need to have the Highlight menu turned on in Helperbird. You can learn 
 - Google  普通话（中国大陆）
 - Google  粤語（香港）
 - Google 國語（臺灣)
+
+
+
+## Video Tutorial
+
+- Coming soon.
+
+
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
