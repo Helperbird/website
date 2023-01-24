@@ -1,8 +1,8 @@
 ---
 layout: templates/help.html
-title: How to use Text to speech with Natural voices in your browser
+title: How to use text to speech on any website or PDF
 description:
-  Learn how easy it is to use Text to speech with Natural voices on any website, pdf or app.
+  Learn how easy it is to use text to speech on any website or PDF
 keywords:
   Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -18,70 +18,143 @@ tags: guideFeaturesMain
 url: help/how-to-use-text-to-speech-on-any-website/
 ---
 
-## How to use Text to speech with Natural voices in your browser
 
-There are three ways to use Text to speech with Natural voices on any website, pdf or app in
-Helperbird. Making it easier for you to decided how you want to use it.
 
-## Method 1: Highlight menu
 
-- You will need to have the **Highlight menu** feature enabled.
-- On any website, app or pdf. Highlight the text you want to use the text to speech.
-- A highlight menu will appear.
-- Click on the **Play** option.
-- It will start to speak, with the text you selected.
-- Thats it.
 
-## Method 2: Right click
 
-- On any website, app or pdf. Highlight the text you want to use the text to speech.
-- Right click, and you will a context menu.
-- Go to the **Helperbird** option.
-- Then click **Play** option.
-- It will start to speak, with the text you selected.
-- Thats it.
 
-## Method 3: Text to speech player
+## How to use text to speech on any website or PDF
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text to Speech** card.
-- You can enter text or highlight text on the pag.e
-- Click on the **Play** button.
-- It will start to read the text in the input.
-- Thats it.
-- pssst, if you use the player. It will highlight the text as it reads to you.
+## Requirements
 
-## How to change my text to speech voice
+You will need to have the Highlight menu turned on in Helperbird. You can learn how to turn on the Highlight menu in Helperbird [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text to Speech options** card.
-- Change the voice.
-- Thats it.
 
-## How to change my text to speech speed
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text to Speech options** card.
-- Change the speed, to the option you want.
-- Thats it.
+### Using Helperbird's Highlight Menu
 
-## How to change my text to speech pitch
+**Step 1:** You will need to have the **Highlight menu** feature enabled.
 
-- Open Helperbird on Chrome, Firefox or Edge
-- Scroll to the **Text to Speech options** card.
-- Change the pitch, to the option you want.
-- Thats it.
+**Step 2:** Select the text you want to have read out loud. As if you where to copy and paste it.
 
-## Text to speech options
+**Step 3:** The Highlight menu will appear.
 
-- Play
-- Pause
-- Stop
-- Change speed
-- Change voice
-- Change pitch
-- Change volume
-- Highlight color
+**Step 4:** Click on the **Play** button.
+
+**Step 5:** It will start to read the selected text.
+
+
+
+### Using the context menu (Right click menu)
+
+**Step 1:** Select the text you want to have read out loud. As if you where to copy and paste it.
+
+**Step 2:** Right click on your mouse or track pad.
+
+**Step 3:** A menu will appear, Go to the **Helperbird** option.
+
+**Step 4:** Click the **Play** button.
+
+**Step 5:** It will start to read the selected text.
+
+
+
+### Using Helperbird Text to speech player
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4(a):** You can either click play. This will get all the text on the page.
+
+**Step 4(b):** Or you can select/highlight the text you want to play.
+
+**Step 5:** Click play.
+
+**Step 6** It will start to read the text out loud.
+
+
+## How to change the voice in the text to speech
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4:** You will see a section called "Voice".
+
+**Step 5:** Click on the voice you want to use.
+
+**Step 6:** We will now use that voice for all text to speech.
+
+
+
+## How to change the speed of the text to speech
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4:** Within the Text to speech card, You will see a section called "Speed".
+
+**Step 5:** Slide the speed slider to the speed you want to use.
+
+**Step 6:** We will now use that speed for all text to speech.
+
+
+
+## How to change the volume of the text to speech
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4:** Within the Text to speech card, You will see a section called "volume".
+
+**Step 5:** Slide the volume slider to the volume you want to use.
+
+**Step 6:** We will now use that volume for all text to speech.
+
+
+
+## How to change the pitch of the text to speech
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4:** Within the Text to speech card, You will see a section called "Volume".
+
+**Step 5:** Slide the Volume slider to the volume you want to use.
+
+**Step 6:** We will now use that volume for all text to speech.
+
+
+
+## How to change the highlight color for the text to speech
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** Scroll to the **Text to Speech** card.
+
+**Step 4:** Within the Text to speech card, You will see a section called "Color".
+
+**Step 5:** Choose the color you want to use.
+
+**Step 6:** We will now use that color to highlight the text while it is being read out loud. In the text to speech player.
+
 
 ## Voice options
 
