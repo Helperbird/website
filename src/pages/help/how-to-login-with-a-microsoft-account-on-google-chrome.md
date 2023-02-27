@@ -23,7 +23,8 @@ url: help/how-to-login-with-a-microsoft-account-on-google-chrome/
 
 ### Heads up
 
-Due to Browser extensions moving to (https://developer.chrome.com/docs/extensions/mv3/intro/)[Manifest V3 ], we are unable to support automatic login with Microsoft accounts on Google Chrome. ** You can use the subscription key method**
+Due to Browser extensions moving to [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/), we are unable to support automatic login with Microsoft accounts on Google Chrome.
+
 
 We are working on a solution and will update this article when we have more information.
 
@@ -32,8 +33,6 @@ We are working on a solution and will update this article when we have more info
 
 
 ### Requirements
-Unlike Helperbird for Chrome or Helperbird for Edge, you will need to use the Subscription Key to login.
-[You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
 
 **Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
