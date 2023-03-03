@@ -4,7 +4,7 @@ title:  Easily increase or decrease the font size on any website
 description:
   Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

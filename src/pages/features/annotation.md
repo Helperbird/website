@@ -5,7 +5,7 @@ description:
   Revolutionize your research and work process with Helperbird Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes, organize them, save on the cloud and export in different file formats. Also, find your notes easily with our powerful search feature.
 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

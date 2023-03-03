@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Translate words, websites, and PDFs with ease with Helperbird 
 description: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

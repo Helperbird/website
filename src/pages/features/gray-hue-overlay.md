@@ -4,7 +4,7 @@ title: Easily reduce eye strain with Helperbird's Gray Filter feature
 description:
   Easily reduce eye strain with Helperbird's Gray Filter feature - Add a gray overlay to any website to reduce glare and eye strain.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

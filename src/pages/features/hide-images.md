@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Hide all Gifs, Images, or flashing images on webpages for a distraction-free browsing
 description: Hides all images or just gifs on a website and show them again when your ready with Helperbirds media fitler.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -5,7 +5,7 @@ title:
 description:
   Helperbird's Note-taking feature allows users to easily take and organize notes while browsing the web. With this feature, users can quickly jot down important information, ideas, or thoughts. The notes can be exported and shared with other platforms, including Google Docs, making it easy to access them from anywhere. This feature is perfect for students, researchers, and anyone looking to stay organized and keep track of important information.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

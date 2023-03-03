@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Simple Online Spell Checker - Chrome, Edge, Firefox and iPad Extension
 description: Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPad extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence. Perfect for students, professionals, and anyone looking to improve their written communication. Try it now and see the difference it can make in your writing.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

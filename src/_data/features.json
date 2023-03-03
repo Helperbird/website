@@ -17,8 +17,8 @@
 		{
 			"icon": "/src/_includes/svgs/readermode.svg",
 			"group": "reading",
-			"title": "Reader Mode",
-			"description": "Helperbirds' Reader Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
+			"title": "Reading Mode",
+			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
 			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 		{
@@ -47,8 +47,8 @@
 		{
 			"icon": "/src/_includes/svgs/readermode.svg",
 			"group": "reading",
-			"title": "Reader Mode",
-			"description": "Helperbirds' Reader Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
+			"title": "Reading Mode",
+			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
 			"link": "/features/reader-mode-for-chrome-and-firefox/"
 		},
 		{

@@ -4,7 +4,7 @@ title: The One-Click Screenshot extension for Any Webpage
 description:
   Screenshot by Helperbird allows you to capture the entire webpage or specific section with just one click, and save it to your device for easy access and reference. Screenshot by Helperbird is the fastest and most efficient way to capture webpages, making it perfect for research, personal use, or business.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

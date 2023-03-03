@@ -3,7 +3,7 @@ layout: templates/blog_post.liquid
 title: Dr Bonnie Shaver-Troup, EdD | Helperbird Partner
 description: Founded in 2000, LEXEND came about from a desire to make reading easier for everyone. As an Educational Therapist, Bonnie Shaver-Troup, EdD, observed that reading issues masked the individual’s true capability and intelligence. 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

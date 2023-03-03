@@ -4,7 +4,7 @@ title: "Accurate Speech to Text: The Ultimate Voice Typing Extension for Chrome,
 description:
   Experience fast and accurate speech to text conversion with our voice typing extension for Chrome, Firefox, Edge or iOs. Say goodbye to tedious typing and hello to efficient communication. Try it now for free!
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

@@ -3,7 +3,7 @@ layout: templates/help.html
 title: What is Helperbirds quick action menu?
 description: Discover and learn how to use the quick action menu in Helperbird.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -32,11 +32,11 @@ popular accessibility, dyslexia, and productivity features.
 
 ## What features are included?
 
-### Reader Mode
+### Reading Mode
 Helperbird automatically removes the distracting elements and ads from the web page and shows the content in a more immersive way.
 
 ### Immerse Reader
-Immersive reader mode is a new feature that allows you to read the web page in a more immersive way.
+Immersive Reading Mode is a new feature that allows you to read the web page in a more immersive way.
 
 ### Annotate 
 Helperbird automatically annotates the web page with the text you type.

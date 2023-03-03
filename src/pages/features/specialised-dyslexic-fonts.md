@@ -4,7 +4,7 @@ title: Easily Change Fonts on Any Website with Our Dyslexic Friendly and Special
 description:
   Easily change the font on any website or pdf with Helperbirds extension to dyslexia-friendly fonts (Lexend, OpenDyslexic) or one of 18 specialized font options. Perfect for those with dyslexia or individuals looking for a unique reading experience.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

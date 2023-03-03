@@ -4,7 +4,7 @@ title: Color blindness support on any website - Chrome, Firefox, Edge, iPhone, i
 description:
   Improve color perception for people who are partially color-blind with underlining and stroking of web page links.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

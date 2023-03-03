@@ -1,19 +1,19 @@
 ---
 layout: templates/features_two.liquid
-title: View clutter-free web pages with productivity tools, using Helperbirds' Reader mode.
+title: View clutter-free web pages with productivity tools, using Helperbirds' Reading Mode.
 description:
-  Helperbirds Reader Mode, is a feature that simplifies the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
+  Helperbirds Reading Mode, is a feature that simplifies the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-featurePageTitle: View clutter-free web pages with productivity tools, using Helperbirds' Reader mode.
+featurePageTitle: View clutter-free web pages with productivity tools, using Helperbirds' Reading Mode.
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/readermode.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Reader mode
+cardTitle: Reading Mode
 featureDescription:
   Simplify the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
 group: reading
@@ -41,7 +41,7 @@ It aims to provide a clutter-free reading experience and enhance the productivit
 
 ## Benefits
 
-The benefits of Helperbird's Reader Mode are:
+The benefits of Helperbird's Reading Mode are:
 
 ### Simlifies web pages
 It simplifies web pages by removing ads and distractions, making them easier to read.
@@ -86,7 +86,7 @@ It can be used on multiple platforms including Chrome, Firefox, Edge and iOS bro
 
 ## Is this a free feature?
 
-Helperbird's Reader mode features strips away clutter like buttons, ads, background images, and videos while also letting you customize the layout and theme to fit your reading preferences.
+Helperbird's Reading Mode features strips away clutter like buttons, ads, background images, and videos while also letting you customize the layout and theme to fit your reading preferences.
 
 
        

@@ -3,7 +3,7 @@ layout: templates/help.html
 title: How to Install and Use the Helperbird Add-on for Google Docs
 description: Learn how to easily install and use the Helperbird add-on for Google Docs  with this detailed step-by-step guide. Our guide covers everything you need to know to get started, from searching for the add-on in the G Suite Marketplace, to customizing your settings and using the features. 
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

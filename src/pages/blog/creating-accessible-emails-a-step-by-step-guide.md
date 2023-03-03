@@ -3,7 +3,7 @@ layout: templates/blog_post.liquid
 title: An 8-Step Guide to Creating Accessible Emails for Those with Dyslexia
 description: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

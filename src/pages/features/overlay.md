@@ -4,7 +4,7 @@ title: Ease your eyes with a customizable overlay/tint extension
 description:
   Adjust the brightness, contrast and color of any website to your preference. Reduce glare and bright light, ease eye strain and fatigue, and customize your browsing experience. Available now as an easy to use tint/overlay extension.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

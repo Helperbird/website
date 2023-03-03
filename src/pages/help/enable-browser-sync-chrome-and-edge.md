@@ -3,7 +3,7 @@ layout: templates/help.html
 title: How to Enable and Disable Sync in Chrome and Edge
 description: Learn how to easily turn on and off sync in Chrome and Edge with this detailed step-by-step guide. Follow the instructions to link your Google account and synchronize your data, or disconnect and remove synced data from your browser.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

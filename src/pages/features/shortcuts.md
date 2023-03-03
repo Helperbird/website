@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Helperbird keyboard shortcuts feature
 description: Learn about Helperbirds keyboard shortcuts and become a pro at using Helperbird
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -134,7 +134,7 @@ Mac
 
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Use Reader Mode</div>
+<div class="text-sm text-base-content">Use Reading Mode</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
 <div class="text-sm text-base-content">

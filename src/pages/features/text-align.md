@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Align any Website's Text with Ease. The one extension you need.
 description: Your easy-to-use text alignment extension. Perfectly align any website's text for improved readability. Try it now!
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

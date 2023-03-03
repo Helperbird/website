@@ -4,7 +4,7 @@ title: Easily adjust line, letter and word spacing
 description:
   Easily adjust line, letter and word spacing on any website or PDF to improve readability and customize your online reading experience. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

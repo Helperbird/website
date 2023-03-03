@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Effortlessly focus on text while reading with Helperbird's reading guide
 description: Improve your reading speed and comprehension with our innovative reading ruler. Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

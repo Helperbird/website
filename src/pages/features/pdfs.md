@@ -3,7 +3,7 @@ layout: templates/features_two.liquid
 title: Effortlessly annotate and highlight PDFs with Helperbird's Dyslexia-Friendly PDF reader
 description: Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. Easily annotate, highlight and add sticky notes to your PDFs, all while receiving dyslexia support. With the added benefit of text-to-speech, immersive reader and a highlighter feature, reading and studying PDFs has never been easier. Try it now with our easy-to-use browser extension
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

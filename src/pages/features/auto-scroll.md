@@ -5,7 +5,7 @@ description:
   Helperbird allows you to easily change the auto-scroll speed and save it in three different
   modes; slow, medium and fast. A single click will stop the auto-scrolling. Available in Chrome, Firefox, Edge and Safari.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

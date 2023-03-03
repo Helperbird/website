@@ -1,11 +1,11 @@
 ---
 layout: templates/support_post.html
-title: How to use Reader Mode to remove website distractions in Chrome, Firefox & Edge
+title: How to use Reading Mode to remove website distractions in Chrome, Firefox & Edge
 description:
-  How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By
+  How to use  Reading Mode to remove website distractions in Chrome, Firefox & Edge extension. By
   Helperbird.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -14,9 +14,9 @@ url: support/how-to-use-reader-mode-to-remove-website-distractions-in-chrome-fir
 isBlog: true
 blog_cat: Support guide
 youtubeId: PfILiWebkuc
-cardTitle: How to use reader mode to remove website distractions in Chrome, Firefox & Edge
+cardTitle: How to use Reading Mode to remove website distractions in Chrome, Firefox & Edge
 blog_snip:
-  How to use  Reader Mode to remove website distractions in Chrome, Firefox & Edge extension. By
+  How to use  Reading Mode to remove website distractions in Chrome, Firefox & Edge extension. By
   Helperbird.
 ---
 
@@ -34,14 +34,14 @@ Once it is open, open Helperbird.
 
 ![Step one of how to use immersive reader in Google docs](/assets/images/guide/readermode/open-the-helperbird-extension.png)
 
-Either scroll until you see the Reader mode option. You can also search for it using the search bar
+Either scroll until you see the Reading Mode option. You can also search for it using the search bar
 feature.
 
 ![Highlight the text you want to use in Immersive reader.](/assets/images/guide/readermode/turn-it-on.png)
 
 Highlight the text you want to use in Immersive reader.
 
-Click the switch from Off to On. This will enable and turn on Reader mode on any website you visit
+Click the switch from Off to On. This will enable and turn on Reading Mode on any website you visit
 on Google Chrome, Firefox or Edge.
 
 You can also change the theme from light to dark.

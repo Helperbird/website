@@ -4,7 +4,7 @@ title: Text to Speech with natural voices - Extension for Chrome, Edge, Firefox 
 description:
   Get the best text to speech extension for Chrome, Firefox, Edge or iPad to enhance your online reading experience. Our extension uses advanced TTS technology to convert any web page to speech. Easy to use and customize, it's the perfect tool for anyone looking to improve their reading experience online. Try it now for free!
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

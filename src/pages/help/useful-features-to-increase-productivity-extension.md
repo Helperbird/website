@@ -4,7 +4,7 @@ title: Top 10 productivity features in Helperbird
 description:
   Helperbird has over 10 productivity features, discover how to use some of the popular ones.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -33,15 +33,15 @@ Helperbird to help you get the most out of your browsing experience.
 
 Let’s get started!
 
-## Reader Mode for Chrome, Edge and Firefox
+## Reading Mode for Chrome, Edge and Firefox
 
-Helperbird gives you a Reader Mode that removes ads and distractions from any webpage with complete
+Helperbird gives you a Reading Mode that removes ads and distractions from any webpage with complete
 customization.
 
-Reader Mode is a feature that strips away clutter like buttons, ads and background images, and
+Reading Mode is a feature that strips away clutter like buttons, ads and background images, and
 changes the pages text size, contrast and layout for better readability.
 
-Learn more about [Reader Mode](/features/reader-mode-for-chrome-and-firefox/).
+Learn more about [Reading Mode](/features/reader-mode-for-chrome-and-firefox/).
 
 ## Leave sticky notes on any website.
 

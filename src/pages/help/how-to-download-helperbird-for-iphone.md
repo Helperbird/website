@@ -3,7 +3,7 @@ layout: templates/help.html
 title: How to download Helperbird for iPhone
 description: This step-by-step guide covers everything you need to know to install and use the app on your iPhone, including searching for the app in the App Store, signing in or creating an account, and customizing your settings.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic

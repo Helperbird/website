@@ -6,7 +6,7 @@ description:
   empowered and comfortable when working online. There are hundreds of tools out there but here are
   our top 5 tools to use in 2021.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
@@ -71,7 +71,7 @@ Screenshot of Kapwing in use.
 
 Helperbird is your all in one extension, that gives you the features to make the web more accessible
 and productive. Providing you text to speech, OCR, dyslexia support, dictation, immersive reader,
-overlays, annotate any website,picture dictionary,Reader mode, and more.
+overlays, annotate any website,picture dictionary,Reading Mode, and more.
 
 ![Screenshot of Helperbird in use.](/assets/images/blog/top-five/helperbird.jpg)
 

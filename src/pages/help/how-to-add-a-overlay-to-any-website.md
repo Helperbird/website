@@ -3,7 +3,7 @@ layout: templates/help.html
 title: How to use an Overlay on any website - Helperbird guides
 description: Learn how to use the powerful overlay feature of the Helperbird browser extension.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 
 youtubeId: PfILiWebkuc
 cardTitle: Overlays

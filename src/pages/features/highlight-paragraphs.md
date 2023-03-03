@@ -4,7 +4,7 @@ title:  Add custom borders to paragraphs for a visually appealing and easy-to-re
 description:
   Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
 keywords:
-  Dyslexia software, Reader Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
