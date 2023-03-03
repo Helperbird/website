@@ -1,4 +1,4 @@
-const getMaxNextLine = (input, maxChars = 20) => {
+const getMaxNextLine = (input, maxChars = 40) => {
 	// Split the string into an array of words.
 	const allWords = input.split(' ');
 	// Find the index in the words array at which we should stop or we will exceed
@@ -21,7 +21,7 @@ exports.formatTitle = (title) => {
 	let output = [];
 	// If the title is 40 characters or longer, look to add ellipses at the end of
 	// the second line.
-	if (title.length >= 50) {
+	if (title.length >= 100) {
 		const firstLine = getMaxNextLine(title);
 		const secondLine = getMaxNextLine(firstLine.remainingChars);
 		output = [firstLine.line];
@@ -32,7 +32,7 @@ exports.formatTitle = (title) => {
 	// If 20 characters or longer, add the entire second line, using a max of half
 	// the characters, making the first line always slightly shorter than the
 	// second.
-	else if (title.length >= 20) {
+	else if (title.length >= 40) {
 		const firstLine = getMaxNextLine(title, title.length / 2);
 		output = [firstLine.line, firstLine.remainingChars];
 	}

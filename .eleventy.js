@@ -63,7 +63,11 @@ const createSocialImageForArticle = (input, output) =>
 				context.font = "20pt 'PT Sans'";
 				context.textAlign = 'left';
 				context.fillStyle = '#ffffff';
+				if (titleText[1]) {
 				context.fillText(`${post.author} - ${post.tagline}`, 485, titleY + titleLineHeight + 45);
+				}else{
+					context.fillText(`${post.author} - ${post.tagline}`, 485, titleY + titleLineHeight);
+				}
 		//		context.font = "15pt 'PT Sans'";
 		//	context.textAlign = 'left';
 		//		context.fillStyle = '#ffffff';
