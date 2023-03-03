@@ -8,90 +8,90 @@ const path = require('path');
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
-	new Promise(async (resolve, reject) => {
-		// read data from input file
-		try {
-			const data = fs.readFileSync(input, {
-				encoding: 'utf-8'
-			});
+	new Promise((resolve, reject) => {
+		(async () => {
+			// read data from input file
+			try {
+				const data = fs.readFileSync(input, {
+					encoding: 'utf-8'
+				});
 
-			// get title from file data
-			const [, title] = data.match(/cardTitle:(.*)/);
+				// get title from file data
+				const [, title] = data.match(/cardTitle:(.*)/);
+				console.log(title);
+				const post = {
+					title: title,
+					author: 'Helperbird',
+					tagline: 'Your Accessibility Assistant'
+				};
 
-			const post = {
-				title: title,
-				author: 'Helperbird.com'
-			};
+				const width = 1200;
+				const height = 627;
+				// Set the coordinates for the image position.
+				const imagePosition = {
+					w: 100,
+					h: 100,
+					x: 360,
+					y: 260
+				};
+				// Because we are putting the image near the top (y: 75)
+				// move the title down.
+				const titleY = 300;
+				const titleLineHeight = 50;
+				// Bring up the author's Y value as well to make it all
+				// fit together nicely.
+				const authorY = 510;
 
-			const width = 1200;
-			const height = 627;
-			// Set the coordinates for the image position.
-			const imagePosition = {
-				w: 70,
-				h: 70,
-				x: 455,
-				y: 475
-			};
-			// Because we are putting the image near the top (y: 75)
-			// move the title down.
-			const titleY = 260;
-			const titleLineHeight = 100;
-			// Bring up the author's Y value as well to make it all
-			// fit together nicely.
-			const authorY = 525;
+				const canvas = createCanvas(width, height);
+				const context = canvas.getContext('2d');
 
-			const canvas = createCanvas(width, height);
-			const context = canvas.getContext('2d');
+				const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
 
-			const splashSolid = await loadImage('./tools/images/splash-1.png');
-			const splashStriped = await loadImage('./tools/images/splash-2.png');
-			const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
+				context.fillStyle = '#450a75';
+				context.fillRect(0, 0, width, height);
 
-			context.fillStyle = '#450a75';
-			context.fillRect(0, 0, width, height);
+				context.font = "bold 30pt 'PT Sans'";
+				context.textAlign = 'left';
+				context.fillStyle = '#ffffff';
 
-			context.font = "bold 50pt 'PT Sans'";
-			context.textAlign = 'center';
-			context.fillStyle = '#ffffff';
+				const titleText = formatTitle(post.title);
+				context.fillText(titleText[0], 470, titleY);
+				if (titleText[1]) {
+					context.fillText(titleText[1], 485, titleY + titleLineHeight);
+				}
 
-			const titleText = formatTitle(post.title);
-			context.fillText(titleText[0], 600, titleY);
-			if (titleText[1]) {
-				context.fillText(titleText[1], 600, titleY + titleLineHeight);
+				context.font = "20pt 'PT Sans'";
+				context.textAlign = 'left';
+				context.fillStyle = '#ffffff';
+				context.fillText(`${post.author} - ${post.tagline}`, 485, titleY + titleLineHeight + 45);
+		//		context.font = "15pt 'PT Sans'";
+		//	context.textAlign = 'left';
+		//		context.fillStyle = '#ffffff';
+		//		context.fillText(`${post.tagline}`, 570, 530 + 35);
+
+				const { w, h, x, y } = imagePosition;
+				context.drawImage(helperbirdLogo, x, y, w, h);
+
+				const outputDir = path.dirname(output);
+				if (!fs.existsSync(outputDir)) {
+					fs.mkdirSync(outputDir, { recursive: true });
+				}
+
+				// write the output image
+
+				const stream = fs.createWriteStream(output);
+				stream.on('finish', resolve);
+				stream.on('error', reject);
+				canvas
+					.createPNGStream({
+						quailty: 1.0
+					})
+					.pipe(stream);
+			} catch (e) {
+				console.error(this.inputPath, e);
+				console.error(e);
 			}
-
-			context.font = "25pt 'PT Sans'";
-			context.textAlign = 'center';
-			context.fillStyle = '#ffffff';
-			context.fillText(`${post.author}`, 650, authorY);
-
-			const { w, h, x, y } = imagePosition;
-			context.drawImage(helperbirdLogo, x, y, w, h);
-			context.drawImage(splashSolid, 1000, 0, 403, 409);
-			context.drawImage(splashSolid, 200, 500, 403, 409);
-			context.drawImage(splashStriped, -80, 48, 348, 252);
-			context.drawImage(splashStriped, 1000, 400, 348, 252);
-			context.drawImage(splashStriped, 100, 600, 348, 252);
-
-			const outputDir = path.dirname(output);
-			if (!fs.existsSync(outputDir)) {
-				fs.mkdirSync(outputDir, { recursive: true });
-			}
-
-			// write the output image
-
-			const stream = fs.createWriteStream(output);
-			stream.on('finish', resolve);
-			stream.on('error', reject);
-			canvas
-				.createPNGStream({
-					quailty: 1.0
-				})
-				.pipe(stream);
-		} catch (e) {
-			console.error(this.inputPath, e);
-			console.error(e);
-		}
+		})();
 	});
 
 const manifest = {
