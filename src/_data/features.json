@@ -15,11 +15,11 @@
 			"link": "/features/text-to-speech/"
 		},
 		{
-			"icon": "/src/_includes/svgs/readermode.svg",
+			"icon": "/src/_includes/svgs/reading-mode.svg",
 			"group": "reading",
 			"title": "Reading Mode",
 			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
-			"link": "/features/reader-mode-for-chrome-and-firefox/"
+			"link": "/features/reading-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
@@ -45,11 +45,11 @@
 	],
 	"features": [
 		{
-			"icon": "/src/_includes/svgs/readermode.svg",
+			"icon": "/src/_includes/svgs/reading-mode.svg",
 			"group": "reading",
 			"title": "Reading Mode",
 			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
-			"link": "/features/reader-mode-for-chrome-and-firefox/"
+			"link": "/features/reading-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",

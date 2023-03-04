@@ -13,7 +13,7 @@ cardTitle: Reading Mode
 featureDescription: Discover how to use Reading Mode in any browser for websites or PDFs using the Helperbird browser extension.
 date: 2022-03-01
 tags: guideFeaturesMain
-url: help/how-to-use-reader-mode-and-remove-ads-on-any-website/
+url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 ---
 
 
