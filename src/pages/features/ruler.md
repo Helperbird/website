@@ -10,7 +10,7 @@ keywords:
   OpenDyslexic
 
 featurePageTitle: Dyslexia Ruler
-img: i1EeaekPHIo
+img: 950R2dDH4lw
 icon: "/src/_includes/svgs/ruler.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Dyslexia ruler
@@ -39,6 +39,11 @@ Helperbirds' Dyslexia ruler helps you to follow the text on the screen easier an
 
 This tool is popular with dyslexic readers and others in keeping their place on the page while reading.
   
+
+
+
+
+
 ## Benefits
 
 A dyslexia ruler can provide several benefits for individuals with dyslexia, including:

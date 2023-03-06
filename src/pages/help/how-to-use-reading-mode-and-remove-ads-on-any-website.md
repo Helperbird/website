@@ -32,6 +32,29 @@ url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 
 **Step 6:** You can close the Reading Mode by clicking the **Close Reading Mode** button.
 
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## How to use Reading mode on a PDF
+
+**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+
+**Step 2:** The extension will open. Showing the quick actions and other features.
+
+**Step 3:** In the **Quick actions** menu, click the **Reading Mode** button. This is the first button from the left. It is black.
+
+**Step 4:** It will then load the Reading Mode feature into the current tab.
+
+**Step 5:** It will remove ads and distractions, leaving the page in a nice clean format.
+
+**Step 6:** You can close the Reading Mode by clicking the **Close Reading Mode** button.
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Using Reading Mode though the Highlight menu
 
@@ -46,17 +69,6 @@ url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 **Step 5:** It will start to load Reading Mode with the text you selected.
 
 
-## Using Reading Mode though the context menu (Right click)
-
-**Step 1:** Highlight the text you want to use in Reading Mode.
-
-**Step 2:** Right click, and you will a context menu.
-
-**Step 3:** Go to the **Helperbird** option.
-
-**Step 4:** Then click **Reading Mode** option.
-
-**Step 5:** It will start to load Reading Mode, with the text you selected.
 
 
 
@@ -69,7 +81,7 @@ distactions.
 
 ## Video Tutorial
 
-- Coming soon.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

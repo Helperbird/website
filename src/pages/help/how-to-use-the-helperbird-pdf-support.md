@@ -34,6 +34,12 @@ url: help/how-to-use-the-helperbird-pdf-support/
 **Step 6:** You can now load your PDFs.
 
 
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## How to load a PDF in Helperbirds PDF reader.
 
 **Step 1:** Follow the steps above to open the PDF reader.
@@ -47,6 +53,11 @@ url: help/how-to-use-the-helperbird-pdf-support/
 **Step 5:** It will take a moment or two.
 
 **Step 6:** The PDF is now ready.
+
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## How to use text to speech on PDFs
@@ -63,6 +74,9 @@ url: help/how-to-use-the-helperbird-pdf-support/
 
 **Optional:** You can stop the text to speech by clicking the stop button.
 
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## How to use Immersive reader by Microsoft on PDFs
 
@@ -78,9 +92,9 @@ url: help/how-to-use-the-helperbird-pdf-support/
 
 
 
-## Video Tutorial
+### Video Tutorial
 
-- Coming soon.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
