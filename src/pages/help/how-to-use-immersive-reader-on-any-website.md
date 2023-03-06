@@ -22,6 +22,20 @@ url: help/how-to-use-immersive-reader-on-any-website/
 There are three ways to use Immersive Reader by Microsoft on websites or PDFs with Helperbird.
 
 
+## Using the Immersive Reader button
+
+**Step 1:** Open a webpage that you would like to use the sticky note feature on.
+
+**Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
+
+**Step 3:** Select the **Immersive reader button** from the quick action menu.
+
+**Step 4:** It will start to load Immersive reader, with the text from the website
+
+### Video Tutorial
+
+<iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Using the Highlight menu
 
 **Step 1:** You will need to have the **Highlight menu** feature enabled.
@@ -34,28 +48,9 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 **Step 5:** It will start to load immersive reader, with the text you selected.
 
+### Video Tutorial
 
-## Using the right context menu (Right click)
-
-**Step 1:** Highlight the text you want to use in Immersive reader.
-
-**Step 2:** Right click, and you will a context menu.
-
-**Step 3:** Go to the **Helperbird** option.
-
-**Step 4:** Then click **Immersive** option.
-
-**Step 5:** It will start to load immersive reader, with the text you selected.
-
-## Using the Immersive Reader button
-
-**Step 1:** Open a webpage that you would like to use the sticky note feature on.
-
-**Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
-
-**Step 3:** Select the **Immersive reader button** from the quick action menu.
-
-**Step 4:** It will start to load Immersive reader, with the text from the website
+<iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/7rbdH9MIWMM?start=251" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Using Immersive reader on PDFs
@@ -74,11 +69,9 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 **Step 6:** It will start to load immersive reader, with the text you selected.
 
 
+### Video Tutorial
 
-
-## Video Tutorial
-
-- Coming soon.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7rbdH9MIWMM?start=251" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

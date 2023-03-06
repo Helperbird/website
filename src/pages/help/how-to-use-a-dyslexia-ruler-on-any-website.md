@@ -35,6 +35,15 @@ url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 
 
 
+
+
+## Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/950R2dDH4lw"
+id="video"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## Ruler features
 
 ### Follow cursor
@@ -66,11 +75,6 @@ Ruler Width is a feature that allows you to change the width of the ruler. The d
 - Dyslexia Ruler
 - Line focus
 - Reading guide
-
-
-## Video Tutorial
-
-- Coming soon.
 
 
 
