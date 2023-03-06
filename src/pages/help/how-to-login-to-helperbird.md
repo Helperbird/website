@@ -17,12 +17,20 @@ url: help/how-to-login-to-helperbird/
 ---
 
 
+## Something to note
+
+If you wish to sign in with a **Microsoft account on Google Chrome**, you will need to use the subscription key to login.
+
+If you wish to sign in with a **Google account on Microsoft Edge**, you will need to use the subscription key to login.
+
+
 
 ## How to login to Helperbird with your email
 
-### Requirements
-Only supported on **Chrome** and **Edge.**
-[You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
+Only supported on **Chrome** and **Edge.** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
+
+
+## Steps
 
 **Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
@@ -48,13 +56,18 @@ Only supported on **Chrome** and **Edge.**
 
 
 
+## Video Tutorial
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## How to login to Helperbird with a subscription key
 
 
 ### Requirements
 Unlike Helperbird for Chrome or Helperbird for Edge, you will need to use the Subscription Key to login.
-[You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
 
 **Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
 
@@ -83,10 +96,7 @@ Unlike Helperbird for Chrome or Helperbird for Edge, you will need to use the Su
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
-
-<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/F4NOpAfrYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/27jqq08vvxI?start=186" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
