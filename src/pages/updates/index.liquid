@@ -14,48 +14,66 @@ url: updates/
 ---
 
 
-
-
 <div>
-	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-		<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Latest updates</h1>
-		<p class="mt-3  text-xl   text-black  sm:mt-4">See changes and improvements from current and past versions of Helperbird.</p>
-		
-		<div
-			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
-		>
+  <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+    <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Latest updates</h1>
+    <p class="mt-3  text-xl   text-black  sm:mt-4">See changes and improvements from current and past versions of Helperbird.</p>
+
+    <div class="mt-12 max-w-4xl  mx-auto">
 
 
-
-			{%- for update in collections.updates reversed -%}
-
-		
-			<div class="flex flex-col shadow-lg overflow-hidden  border-2 border-stone-600 bg-white p-8 rounded-3xl  ">
-
-				<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-					<div class="flex-1">
-						<p class="text-sm font-medium text-pink-600"><a class=" decoration-pink-500 hover:underline" href="{{ update.url }}">Updates</a></p><a class=" decoration-pink-500 block mt-2" href="{{ update.url }}">
-						<p class="text-xl font-semibold text-gray-900">			  {{ update.data.title }} {{ update.fileSlug }}</p>
-						<p class="mt-3 text-base   text-black ">	Latest changes, fixes and new improvements for Helperbird {{ update.fileSlug }}. </p></a>
-					</div>
-					<div class="mt-6 flex items-center">
-					
-						<div>s
-							<p class="text-sm font-medium text-gray-900 ">
-								<a class="btn-base btn btn-outline mr-4 hidden sm:flex border-stone-600 border-2" href="{{ update.url}}" title="Latest release notes for Helperbird {{ update.fileSlug }}">Read changelog</a>
-							</p>
-						
-						</div>
-					</div>
-				</div>
-			</div>
-
-		
-			{%- endfor -%}
+      {%- for update in updates.new -%}
 
 
-		</div>
-	</div>
+        <div class="flex flex-col shadow-lg overflow-hidden  border-2 border-stone-600 bg-white p-8 rounded-3xl mt-8  ">
+
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+
+              <div class="mb-8">
+                <h2 class="text-2xl font-semibold text-gray-900">
+                  Helperbird {{ update.version }}
+                </h2>
+
+              </div>
+              <div class="mb-3 mt-8">
+
+                <h3 class="text-xl font-bold mb-4">
+                  Changes</h3>
+
+                {%- for change in update.changes -%}
+                  <p class="mt-3 text-base   text-black ">
+                    <div class="badge badge-secondary badge-outline mr-2">New</div>
+                    {{ change }}
+                  </p>
+
+                {%- endfor -%}
+
+              </div>
+              <div class="mb-3 mt-8">
+
+                <h3 class="text-xl font-bold mt-4">
+                  Fixes
+                </h3>
+
+                {%- for change in update.fixes -%}
+                  <p class="mt-3 text-base   text-black ">
+                    <div class="badge badge-primary badge-outline mr-2">Fix</div>
+                    {{ change }}
+                  </p>
+
+                {%- endfor -%}
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      {%- endfor -%}
+
+
+    </div>
+  </div>
 </div>
-
-

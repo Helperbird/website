@@ -1,4 +1,23 @@
 {
+
+
+	"new":[
+		{
+			"version": "102.7.8",
+			"date": "March 16th 2023",
+			"changes":[
+				"Portuguese (Brazil) language.",
+				"Portuguese (Portuguese) language",
+				"Added Bold font support.",
+				"Smoother and quicker loading"
+			],
+			"fixes":[
+				"Over 20 very minor bug fixes and improvements.",
+				"Defaults to Lexend to the font."
+			]
+		}
+	],
+
 	"posts": [
 		{
 			"cat": "Updates",
