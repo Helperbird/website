@@ -13,7 +13,8 @@
 				"You can now translate Reading Mode pages",
 				"Highlight menu tool is now supported in the PDF reader.",
 				"OCR/Extract text closes when you turn it on.",
-				"OCR reads text out loud by default."
+				"OCR reads text out loud by default.",
+				"Helperbird shows the welcome screen when you install it."
 			],
 			"fixes":[
 				"Over 20 very minor bug fixes and improvements.",
