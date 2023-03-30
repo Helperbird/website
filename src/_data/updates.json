@@ -2,7 +2,26 @@
 
 
 	"new":[
+		
 		{
+			"version": "102.7.9",
+			"date": "March 29th 2023",
+			"changes":[
+				"Sticky notes now have a new look.",
+				"Sticky notes are keyboard accessible.",
+				"Sticky notes can now read out loud.",
+				"You can now translate Reading Mode pages",
+				"Highlight menu tool is now supported in the PDF reader.",
+				"OCR/Extract text closes when you turn it on.",
+				"OCR reads text out loud by default."
+			],
+			"fixes":[
+				"Over 20 very minor bug fixes and improvements.",
+				"Defaults to Lexend to the font."
+			]
+		}
+		
+		,{
 			"version": "102.7.8",
 			"date": "March 16th 2023",
 			"changes":[
