@@ -15,57 +15,58 @@ url: blog/
 
 
 <div>
-	<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-		<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">From the blog</h1>
-		<p class="mt-3  text-xl   text-black  sm:mt-4">Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.</p>
-		
-		<div
-			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
-		>
+
+  <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
 
-
-		
-
-
+      <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">From the blog</h1>
+      <p class="mt-3  text-xl   text-black  sm:mt-4">Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.</p>
 
 
-			{%- for post  in collections.blog reversed -%}
+      <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+
+        {%- for post in collections.blog reversed -%}
+          <article class="flex flex-col items-start justify-between card bg-white border-stone-600 border-2">
+            <div class="card-body">
+              <div class="relative w-full">
+                <img
+                  src="{{ post.data.img || '/assets/images/graph/twitter.png'}}"
+                  alt="{{ post.data.cardTitle}}"
+                  class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+
+              </div>
+              <div class="max-w-xl">
+                <div class="mt-8 flex items-center gap-x-4 text-xs">
+                  <time datetime="2020-03-16" class="font-bold text-black">{{ post.data.time }}</time>
+                  <span class="font-medium badge badge-secondary">{{ post.data.blog_cat }}</span>
+                </div>
+                <div class="group relative">
+                  <h3 class="mt-3 text-xl font-bold text-black">
 
 
-				<div class="card border-stone-600 border-2  bg-white rounded-3xl">
+                    {{ post.data.cardTitle }}
 
-				<div class="card-body">
-	  
-				<div class="flex-shrink-0">
-					<img alt="{{ post.data.cardTitle}}" class="h-48 w-full object-cover"
-					src="{{ post.data.img || '/assets/images/graph/twitter.png'}}">
-				</div>
-	  
-				  <h3 class="text-xl font-medium text-black mb-2">{{ post.data.cardTitle}}</h3>
-				  <p class="text-sm font-medium text-pink-600"><a class=" decoration-pink-500 hover:underline" href="{{ post.url}}">{{ post.data.blog_cat}}</a></p><a class=" decoration-pink-500 block mt-2" href="{{ post.url}}">
-				  <p class="mt-2 text-base text-black font-semibold mb-10">
-					{{ post.data.blog_snip}}
-				  </p>
-				  <div class="card-actions justify-end">
-					<a
-					  class="btn-base btn btn-outline  border-stone-600 border-2"
-					  href="{{ post.url}}" 
-					  target="_blank"
-					  rel="noreferrer"
-					  title="Read {{ post.data.cardTitle}}">
-					  Read more
-					</a>
-				  </div>
-				</div>
-			  </div>
+                  </h3>
+                  <p class="mt-5  text-base text-black mb-5">{{ post.data.blog_snip }}</p>
+                </div>
+                <div class="card-actions justify-end">
+                  <a
+                    class="btn-base btn btn-outline  border-stone-600 border-2"
+                    href="{{ post.url}}"
+                    rel="noreferrer"
+                    title="Read {{ post.data.cardTitle}}">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
 
 
-
-
-
-	
-			{%- endfor -%}
-		</div>
-	</div>
 </div>

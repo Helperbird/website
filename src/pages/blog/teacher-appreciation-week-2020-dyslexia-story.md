@@ -13,7 +13,7 @@ keywords:
 url: blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
 isBlog: true
-blog_cat: TEACHER APPRECIATION WEEK.
+blog_cat: APPRECIATION.
 youtubeId: PfILiWebkuc
 cardTitle: How a teacher helped me achieve my full potential
 blog_snip: From droping out of school to starting my own company.
