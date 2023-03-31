@@ -4,6 +4,7 @@ const svgContents = require('eleventy-plugin-svg-contents');
 const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
 const path = require('path');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
@@ -107,6 +108,7 @@ const moment = require('moment');
 const { tr } = require('date-fns/locale');
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPlugin(UpgradeHelper);
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addTransform('social-image', async function (content) {

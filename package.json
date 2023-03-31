@@ -7,6 +7,7 @@
 		"dev": "   webpack  && eleventy --serve",
 		"start": " eleventy --serve",
 		"format": "prettier  --write .",
+		"css": "NODE_ENV=production  webpack --mode production ",
 		"build": " NODE_ENV=production  webpack --mode production && eleventy"
 	},
 	"repository": {
@@ -30,7 +31,7 @@
 		"babel-preset-jest": "^21.2.0"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^1.0.2",
+		"@11ty/eleventy": "^2.0.1",
 		"@babel/core": "^7.21.0",
 		"@babel/plugin-proposal-optional-chaining": "^7.21.0",
 		"@babel/preset-env": "^7.20.2",
@@ -91,6 +92,7 @@
 		}
 	},
 	"dependencies": {
+		"@11ty/eleventy-upgrade-help": "^2.0.5",
 		"@fullhuman/postcss-purgecss": "^4.0.0",
 		"@jlengstorf/get-share-image": "^0.8.0",
 		"@tailwindcss/typography": "^0.5.9",
