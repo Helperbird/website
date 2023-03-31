@@ -57,6 +57,7 @@ module.exports = {
 	plugins: [
 		require('daisyui'),
 		require('@tailwindcss/aspect-ratio'),
-		require('@tailwindcss/typography')
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/line-clamp')
 	]
 };
