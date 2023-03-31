@@ -27,6 +27,9 @@ date: Created
 time: 5 min
 ---
 
+
+
+
 ## CeCe Jones in Shake It Up
 
 CeCe dream is to become a famous dancer and nothing was going to stop her. That includes dyslexia.

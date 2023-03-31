@@ -153,12 +153,12 @@ module.exports = function (eleventyConfig) {
 	let markdownItClass = require('@toycode/markdown-it-class');
 	let options = {
 		html: true,
-		breaks: true,
+		breaks: false,
 		linkify: true
 	};
 
 	const mapping = {
-		h1: 'font-display text-3xl tracking-tight text-black  mb-4',
+		h1: 'font-display text-3xl tracking-tight text-black  mb-8 font-bold',
 		h2: 'font-display text-2xl text-black mb-6 font-extrabold',
 		h3: 'font-display text-xl text-black mb-6 font-bold',
 		p: 'text-black mb-4 mt-4 text-lg',
@@ -167,6 +167,7 @@ module.exports = function (eleventyConfig) {
 		ul: 'list-none mt-4 space-y-2 border-l border-slate-200 pl-6 text-base',
 		ol: 'list-none',
 		li: 'list-none',
+		img:'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
 		a: 'underline decoration-wavy hover:underline hover:decoration-wavy decoration-blue-500 hover:decoration-pink-500',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};
