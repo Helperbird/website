@@ -16,280 +16,247 @@ url: welcome/
 
 <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 
-<script> 
+<script>
 
-	window.onload = function () {
-		const jsConfetti = new JSConfetti()
-		jsConfetti.addConfetti({emojis: ['👋']});
-	}
+  window.onload = function() {
+    const jsConfetti = new JSConfetti()
+    jsConfetti.addConfetti({emojis: ['👋']});
+  }
 </script>
 <div class="max-w-4xl mx-auto">
-    <div class="mt-10">
-      <h1
-        class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center"
-      >
-        <span class="block">Welcome to Helperbird</span>
-      </h1>
-      <p
-        class="mt-3 max-w-md mx-auto text-base text-black sm:text-lg md:mt-5 md:text-xl md:max-w-3xl text-center"
-      >
-        Welcome to Helperbird, we know your going to ❤️ it but first we recommend
-        watching the video below.
-      </p>
-  
-      <div>
-        <svg
-          xmlns="http://www.w3.org/svg/2000"
-          viewBox="-10 -30 200 200"
-          style="
-            width: 200px;
-            margin: auto;
-            fill: red;
-            color: red;
-            transform: rotate(89deg);
-          "
-        >
-          <defs>
-            <filter
-              id="chalk"
-              height="2"
-              width="1.6"
-              color-interpolation-filters="sRGB"
-              y="-0.5"
-              x="-0.3"
-              filterUnits="objectBoundingBox"
-            >
-              <feTurbulence
-                baseFrequency="0.9"
-                seed="115"
-                result="result1"
-                numOctaves="2"
-                type="turbulence"
-              />
-              <feDisplacementMap
-                scale="3"
-                yChannelSelector="G"
-                in2="result1"
-                xChannelSelector="R"
-                in="SourceGraphic"
-              />
-            </filter>
-          </defs>
-          <path
-            filter="url(#chalk)"
-            d="M 20,40 q 70,-10 100,50 m 5,5 l 2,-18 m -3,19 l -20, -5"
-            fill="none"
-            stroke="red"
-            stroke-width="3.5"
-            stroke-linecap="round"
-          />
-        </svg>
-      </div>
+  <div class="mt-10">
+    <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
+      <span class="block">Welcome to Helperbird</span>
+    </h1>
+    <p class="mt-3 max-w-md mx-auto text-base text-black sm:text-lg md:mt-5 md:text-xl md:max-w-3xl text-center">
+      Welcome to Helperbird, we know you're going to ❤️ it but first we recommend
+      watching the video below.
+    </p>
+
+    <div>
+      <svg
+        xmlns="http://www.w3.org/svg/2000"
+        viewBox="-10 -30 200 200"
+        style="
+                      width: 200px;
+                      margin: auto;
+                      fill: red;
+                      color: red;
+                      transform: rotate(89deg);
+                    ">
+        <defs>
+          <filter
+            id="chalk"
+            height="2"
+            width="1.6"
+            color-interpolation-filters="sRGB"
+            y="-0.5"
+            x="-0.3"
+            filterUnits="objectBoundingBox">
+            <feTurbulence
+              baseFrequency="0.9"
+              seed="115"
+              result="result1"
+              numOctaves="2"
+              type="turbulence" />
+            <feDisplacementMap
+              scale="3"
+              yChannelSelector="G"
+              in2="result1"
+              xChannelSelector="R"
+              in="SourceGraphic" />
+          </filter>
+        </defs>
+        <path
+          filter="url(#chalk)"
+          d="M 20,40 q 70,-10 100,50 m 5,5 l 2,-18 m -3,19 l -20, -5"
+          fill="none"
+          stroke="red"
+          stroke-width="3.5"
+          stroke-linecap="round" />
+      </svg>
     </div>
-  
-    <div class="card bg-white w-max mx-auto mb-10">
-      <div class="card-body">
-        <iframe
-          width="600"
-          height="400"
-          class="mx-auto"
-          src="https://www.youtube.com/embed/i1EeaekPHIo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+  </div>
+
+  <div class="card bg-white w-max mx-auto mb-10">
+    <div class="card-body">
+      <iframe
+        width="600"
+        height="400"
+        class="mx-auto"
+        src="https://www.youtube.com/embed/i1EeaekPHIo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
+  </div>
 
 
+  <div class="bg-white card max-w-4xl mx-auto mt-16">
+    <div class="py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+        <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Useful tips to get started
+        </h2>
+        <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+          <div class="pt-6">
+            <dt class="text-lg">
+              <!-- Expand/collapse question button -->
+              <button
+                type="button"
+                class="text-left w-full flex justify-between items-start text-gray-400"
+                aria-controls="faq-0"
+                aria-expanded="false">
+                <span class="font-medium text-gray-900">Sign in to Helperbird
 
-    <div class="bg-white card max-w-4xl mx-auto mt-16">
-        <div class="py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-          <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
-            <h2
-              class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl"
-            >
-             Useful tips to get started
-            </h2>
-            <dl class="mt-6 space-y-6 divide-y divide-gray-200">
-              <div class="pt-6">
-                <dt class="text-lg">
-                  <!-- Expand/collapse question button -->
-                  <button
-                    type="button"
-                    class="text-left w-full flex justify-between items-start text-gray-400"
-                    aria-controls="faq-0"
-                    aria-expanded="false"
-                  >
-                    <span class="font-medium text-gray-900"
-                      >Sign in to Helperbird
-
-                    </span>
-                    <span class="ml-6 h-7 flex items-center">
-                      <svg
-                        class="rotate-0 h-6 w-6 transform"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                    </span>
-                  </button>
-                </dt>
-                <dd class="mt-2 pr-12" id="faq-0">
-                  <p class="text-base text-gray-500">
-                    While this is optional, we recommend everyone to sign into Helperbird. This allows you access to Helperbird Pro but also saves your settings across browsers.
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12" id="faq-0">
+              <p class="text-base text-gray-500">
+                While this is optional, we recommend everyone to sign into Helperbird. This allows you access to Helperbird Pro but also saves your settings across browsers.
 
 
-                  </p>
-                </dd>
-              </div>
-  
-              <div class="pt-6">
-                  <dt class="text-lg">
-                    <!-- Expand/collapse question button -->
-                    <button
-                      type="button"
-                      class="text-left w-full flex justify-between items-start text-gray-400"
-                      aria-controls="faq-0"
-                      aria-expanded="false"
-                    >
-                      <span class="font-medium text-gray-900"
-                        >Discover our help guides
-
-  
-                      </span>
-                      <span class="ml-6 h-7 flex items-center">
-                        <svg
-                          class="rotate-0 h-6 w-6 transform"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </dt>
-                  <dd class="mt-2 pr-12" id="faq-0">
-                    <p class="text-base text-gray-500">
-                        We are proud to have built Helperbird to be easy to use.
-                        We recommend everyone to have a look at help guides. To discover hidden tips and guides on how to use Helperbird.
-  
-  
-                    </p>
-                  </dd>
-                </div>
-  
-                <div class="pt-6">
-                  <dt class="text-lg">
-                    <!-- Expand/collapse question button -->
-                    <button
-                      type="button"
-                      class="text-left w-full flex justify-between items-start text-gray-400"
-                      aria-controls="faq-0"
-                      aria-expanded="false"
-                    >
-                      <span class="font-medium text-gray-900"
-                        >Turn on the highlight menu
-
-  
-  
-                      </span>
-                      <span class="ml-6 h-7 flex items-center">
-                        <svg
-                          class="rotate-0 h-6 w-6 transform"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </dt>
-                  <dd class="mt-2 pr-12" id="faq-0">
-                    <p class="text-base text-gray-500">
-                        We recommend everyone to turn on the highlight menu option. It allows you to highlight text and get quick access to our features.
-  
-  
-                    </p>
-                  </dd>
-                </div>
-  
-  
-                <div class="pt-6">
-                  <dt class="text-lg">
-                    <!-- Expand/collapse question button -->
-                    <button
-                      type="button"
-                      class="text-left w-full flex justify-between items-start text-gray-400"
-                      aria-controls="faq-0"
-                      aria-expanded="false"
-                    >
-                      <span class="font-medium text-gray-900"
-                        >Discover Helperbird Pro
-
-  
-                      </span>
-                      <span class="ml-6 h-7 flex items-center">
-                        <svg
-                          class="rotate-0 h-6 w-6 transform"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </dt>
-                  <dd class="mt-2 pr-12" id="faq-0">
-                    <p class="text-base text-gray-500">
-                        Helperbird Pro gives you access to all our features from $40 a year. Get access to features, like the OCR, text to speech, and much, much more.
-  
-  
-                    </p>
-                  </dd>
-                </div>
-  
-            </dl>
+              </p>
+            </dd>
           </div>
-        </div>
+
+          <div class="pt-6">
+            <dt class="text-lg">
+              <!-- Expand/collapse question button -->
+              <button
+                type="button"
+                class="text-left w-full flex justify-between items-start text-gray-400"
+                aria-controls="faq-0"
+                aria-expanded="false">
+                <span class="font-medium text-gray-900">Discover our help guides
+
+
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12" id="faq-0">
+              <p class="text-base text-gray-500">
+                We are proud to have built Helperbird to be easy to use.
+                We recommend everyone to have a look at help guides. To discover hidden tips and guides on how to use Helperbird.
+
+
+              </p>
+            </dd>
+          </div>
+
+          <div class="pt-6">
+            <dt class="text-lg">
+              <!-- Expand/collapse question button -->
+              <button
+                type="button"
+                class="text-left w-full flex justify-between items-start text-gray-400"
+                aria-controls="faq-0"
+                aria-expanded="false">
+                <span class="font-medium text-gray-900">Turn on the highlight menu
+
+
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12" id="faq-0">
+              <p class="text-base text-gray-500">
+                We recommend everyone to turn on the highlight menu option. It allows you to highlight text and get quick access to our features.
+
+
+              </p>
+            </dd>
+          </div>
+
+
+          <div class="pt-6">
+            <dt class="text-lg">
+              <!-- Expand/collapse question button -->
+              <button
+                type="button"
+                class="text-left w-full flex justify-between items-start text-gray-400"
+                aria-controls="faq-0"
+                aria-expanded="false">
+                <span class="font-medium text-gray-900">Discover Helperbird Pro
+
+
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="rotate-0 h-6 w-6 transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7" />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="mt-2 pr-12" id="faq-0">
+              <p class="text-base text-gray-500">
+                Helperbird Pro gives you access to all our features from $40 a year. Get access to features, like the OCR, text to speech, and much, much more.
+
+
+              </p>
+            </dd>
+          </div>
+
+        </dl>
       </div>
-
-
+    </div>
+  </div>
 
 
 </div>
-  
