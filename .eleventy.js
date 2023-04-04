@@ -19,7 +19,7 @@ const createSocialImageForArticle = (input, output) =>
 
 				// get title from file data
 				const [, title] = data.match(/cardTitle:(.*)/);
-				console.log(title);
+		
 				const post = {
 					title: title,
 					author: 'Helperbird',

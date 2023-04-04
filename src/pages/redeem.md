@@ -1,8 +1,8 @@
 ---
-layout: templates/basic_two_layout.liquid
-title: Redeem a Helperbird voucher
+layout: templates/single_layout.liquid
+title: Redeem a Helperbird Pro voucher
 youtubeId: PfILiWebkuc
-cardTitle:  Redeem a Helperbird Pro voucher.
+cardTitle:  Redeem a Helperbird Pro voucher
 description: Have a voucher or coupon code? Redeem it here for Helperbird Pro.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,9 +14,10 @@ url: redeem/
 
 
 
+
 **Step 1:** Copy the voucher code from your email or that you received.
 
-**Step 2:** Follow the link here for a [special signup page](https://buy.stripe.com/bIY6p5cdu3c05WwdRK).
+**Step 2:** Follow the link here for a **[special signup page](https://buy.stripe.com/bIY6p5cdu3c05WwdRK).**
 
 **Step 3:** Paste your voucher code into the **Add promotion code** field.
 
