@@ -60,7 +60,7 @@ Only supported on **Chrome** and **Edge.** [You will need to have sync enabled.]
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" id="videos" src="https://www.youtube.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## How to login to Helperbird with a subscription key
