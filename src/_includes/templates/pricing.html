@@ -191,15 +191,27 @@
 		<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+		<style>
+			.header_background {
+				background-color: rgb(246, 245, 231);
+			}
+
+			.helperbird-background-color{
+			background-color: rgb(246, 245, 231) !important;
+			}
+
+		</style>
 	</head>
 
-	<body>
-		<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
+	<body  class="helperbird-background-color">
+		
+			<div id="helperbird-website">
 			{% include templates/header.html %}
-			<main>
-				<div class="bg-grey-lighter min-h-screen items-stretch">{{ content | safe }}</div>
+			<main class="mx-auto max-w-7xl pt-12 pb-12">
+				{{ content | safe }}
 			</main>
 			{% include templates/footer.html %} 
+
 		</div>
 	</body>
 

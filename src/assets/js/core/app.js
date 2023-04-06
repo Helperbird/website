@@ -14,7 +14,7 @@ function load() {
 			writer: null,
 
 			// Pricing Table
-			isYearly: true,
+			isYearly: false,
 			proLink: "",
 			studentLink: "",
 			unlimitedLink: "",
