@@ -1,5 +1,5 @@
 ---
-new: false
+new: true
 layout: templates/single_page.liquid
 title: Security statement for Helperbird
 youtubeId: PfILiWebkuc
