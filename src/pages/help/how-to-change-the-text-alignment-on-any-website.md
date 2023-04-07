@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the text alignment on any website
 description: Learn how easy it is to change the text alignment on any website.

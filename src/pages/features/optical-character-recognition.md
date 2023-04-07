@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Extract text from images, videos, and PDFs with Helperbirds' OCR feature
 description:

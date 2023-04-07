@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Use Microsoft's Immersive Reader on any website or pdf with Helperbirds extension
 description:

@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Text to Speech with natural voices - Extension for Chrome, Edge, Firefox or iPad 
 description:

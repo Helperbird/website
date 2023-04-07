@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: Research into Web Accessibility for Dyslexics and Dyslexia-focused fonts such as OpenDyslexic
 description:

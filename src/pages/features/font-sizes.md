@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title:  Easily increase or decrease the font size on any website
 description:

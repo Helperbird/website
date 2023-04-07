@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: Video guides & tutorials 
 youtubeId: PfILiWebkuc
@@ -16,9 +17,15 @@ url: guides/
 
 {%- for video in videos.support -%}
 
-	<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-		<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/{{ video.id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
+  <div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube-nocookie.com/embed/{{ video.id }}"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
 
 {%- endfor -%}
-

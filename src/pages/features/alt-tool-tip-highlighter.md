@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Show image & link descriptions on mouse over!
 description:

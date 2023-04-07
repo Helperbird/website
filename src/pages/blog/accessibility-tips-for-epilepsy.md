@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: Accessibility tips for Epilepsy
 description:

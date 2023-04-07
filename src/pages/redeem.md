@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/single_layout.liquid
 title: Redeem a Helperbird Pro voucher
 youtubeId: PfILiWebkuc

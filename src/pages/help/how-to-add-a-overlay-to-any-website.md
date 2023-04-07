@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use an Overlay on any website - Helperbird guides
 description: Learn how to use the powerful overlay feature of the Helperbird browser extension.

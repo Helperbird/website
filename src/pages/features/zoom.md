@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Page & text magnifier extension - Chrome, Edge & Safari
 description: Page & text magnifier for Google Chrome. Increase your page and zoom on any page.

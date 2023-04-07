@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to login to Helperbird
 description: Discover how to login to Helperbird to access your Pro features.

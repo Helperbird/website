@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/support_post.html
 title: How to use Immersive reader in Chrome, Firefox or Edge
 description:

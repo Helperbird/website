@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Helperbird keyboard shortcuts feature
 description: Learn about Helperbirds keyboard shortcuts and become a pro at using Helperbird

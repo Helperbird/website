@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to set columns in a paragraph on a website
 description: Learn how to set columns in a paragraph on a website

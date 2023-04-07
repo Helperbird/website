@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to pin a Chrome or Edge extension
 description: Discover how to pin a Chrome or Edge extension

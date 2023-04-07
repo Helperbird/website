@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use reduce motion on a website
 description: Learn how to reduce motion on a website with the Helperbird browser extension.

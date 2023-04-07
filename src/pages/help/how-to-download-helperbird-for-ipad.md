@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to download Helperbird for iPad
 description: This step-by-step guide covers everything you need to know to install and use the app on your iPad, including searching for the app in the App Store, signing in or creating an account, and customizing your settings.

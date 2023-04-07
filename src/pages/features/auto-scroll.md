@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Customizable Auto Scroll - Set Your Own Speed and Effortlessly Scroll Through Websites
 description:

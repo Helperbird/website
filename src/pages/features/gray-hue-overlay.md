@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Easily reduce eye strain with Helperbird's Gray Filter feature
 description:

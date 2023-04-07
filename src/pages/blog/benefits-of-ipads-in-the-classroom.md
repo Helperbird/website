@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: Benefits of iPads in the Classroom 2022
 description:

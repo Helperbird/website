@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to turn Helperbird on
 description: Discover how to switch Helperbird from off to on in the Helperbird extension.

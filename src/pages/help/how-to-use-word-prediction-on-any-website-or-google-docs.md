@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use Word Prediction on Google Docs or any website
 description:

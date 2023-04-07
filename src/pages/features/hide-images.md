@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Hide all Gifs, Images, or flashing images on webpages for a distraction-free browsing
 description: Hides all images or just gifs on a website and show them again when your ready with Helperbirds media fitler.

@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/support_post.html
 title: How to Annotate and Highlight PDFs in Edge, Chrome and Firefox
 description:

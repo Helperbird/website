@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to enable spell check on any website
 description: How to enable spell check on a website using Helperbirds extension.

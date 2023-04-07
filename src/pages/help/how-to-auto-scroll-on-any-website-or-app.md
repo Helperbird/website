@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to auto scroll on any website
 description: Learn how to use the auto scroll feature of the Helperbird browser extension.

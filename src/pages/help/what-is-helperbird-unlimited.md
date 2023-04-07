@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: What is Helperbird Pro Unlimited?
 description:

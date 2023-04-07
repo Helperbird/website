@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the link  color of a website
 description: How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.

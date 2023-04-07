@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use text to speech on any website or PDF
 description:

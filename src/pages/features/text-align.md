@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Align any Website's Text with Ease. The one extension you need.
 description: Your easy-to-use text alignment extension. Perfectly align any website's text for improved readability. Try it now!

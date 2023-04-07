@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the font color on a website
 description:

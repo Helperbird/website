@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the line height on a website
 description: Learn how easy it is to change the line height on a website with the Helperbird extension.

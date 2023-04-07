@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to Install and Use the Helperbird Add-on for Google Slides
 description: Learn how to easily install and use the Helperbird add-on for Google Slides  with this detailed step-by-step guide. Our guide covers everything you need to know to get started, from searching for the add-on in the G Suite Marketplace, to customizing your settings and using the features. 

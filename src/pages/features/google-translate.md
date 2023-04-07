@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Translate words, websites, and PDFs with ease with Helperbird 
 description: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease

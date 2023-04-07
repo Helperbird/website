@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: Thanksgiving day message from Helperbird
 description: A thanksgiving day message from Helperbird.

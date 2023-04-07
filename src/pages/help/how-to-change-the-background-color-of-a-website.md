@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the background color on a website
 description:

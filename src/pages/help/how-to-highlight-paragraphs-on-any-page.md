@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to add a border to paragraphs on a website
 description: Learn how to add a border to paragraphs on a website

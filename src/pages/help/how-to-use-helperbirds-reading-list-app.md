@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use Helperbird's Reading list
 description:

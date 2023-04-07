@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to count the amount of words and characters in a sentence
 description:

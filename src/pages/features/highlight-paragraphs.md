@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title:  Add custom borders to paragraphs for a visually appealing and easy-to-read experience
 description:

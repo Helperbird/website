@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: How a teacher helped me achieve my full potential - Teacher appreciation week
 description:

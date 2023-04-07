@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: "Accurate Speech to Text: The Ultimate Voice Typing Extension for Chrome, Firefox, Edge or iOs"
 description:

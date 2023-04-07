@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to use a Line focus ruler on any website
 description:  Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.

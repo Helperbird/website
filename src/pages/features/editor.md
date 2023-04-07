@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title:
   Effortlessly take and organize note - Export and share your notes with other platforms

@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: How to use Immersive reader on Google Docs
 description: Discover how to use Immersive reader in Google Docs for free.

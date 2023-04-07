@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title:  Annotate and Highlight Websites & PDFs - Highlight, Annotate, Organize, and Share
 description:

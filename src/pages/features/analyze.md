@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Character and letter count feature, optimize your writing 
 description: Easily count letters and characters on any website with Helperbird's browser extension. Two clicks for efficient writing.

@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: How positive thoughts might benefit dyslexic students
 description: How positive thoughts might benefit dyslexic students.

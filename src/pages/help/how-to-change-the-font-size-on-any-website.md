@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/help.html
 title: How to change the font size on any website
 description: Learn how easy it is to change the font size on any website to a size that suits you.

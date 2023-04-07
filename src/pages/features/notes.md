@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: Keep all your sticky notes, highlights and extracted text sorted and easily accessible
 description: Organize and access your notes, highlights and extracted text from any device with Helperbird's Web-based Note Organizer feature

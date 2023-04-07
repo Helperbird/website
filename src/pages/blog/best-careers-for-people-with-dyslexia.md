@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/blog_post.liquid
 title: Best Careers for People with Dyslexia 2021
 description:

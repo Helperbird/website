@@ -1,4 +1,5 @@
 ---
+new: false
 layout: templates/features_two.liquid
 title: View clutter-free web pages with productivity tools, using Helperbirds' Reading Mode.
 description:
