@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/single_page.liquid
 title: Terms of Service
 youtubeId: PfILiWebkuc
 cardTitle: Terms of Service

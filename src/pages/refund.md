@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/single_page.liquid
 title: Refund policy
 youtubeId: PfILiWebkuc
 cardTitle: Refund policy for Helperbird

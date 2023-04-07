@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/single_page.liquid
 title: Privacy statement
 description:
   At Helperbird, we build privacy into every product we make, so you can enjoy great experiences

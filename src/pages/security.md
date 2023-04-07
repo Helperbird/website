@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/single_page.liquid
 title: Security statement for Helperbird
 youtubeId: PfILiWebkuc
 cardTitle: Security statement for Helperbird
