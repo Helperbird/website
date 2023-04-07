@@ -1,6 +1,6 @@
 ---
 new: true
-layout: templates/single_page.liquid
+layout: templates/single_page.html
 title: FERPA and COPPA Compliance Statement
 
 description:
