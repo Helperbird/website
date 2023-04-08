@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to use my Helperbird subscription key
 description:

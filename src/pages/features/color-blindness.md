@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Color blindness support on any website - Chrome, Firefox, Edge, iPhone, iPad
 description:

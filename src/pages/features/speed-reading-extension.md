@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Speed Reading Extension - Improve Your Reading Speed and Efficiency
 description: Unlock your reading potential with our powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.

@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Word Prediction Extension for every website and Google Docs - Enhance Your Writing Experience
 description:

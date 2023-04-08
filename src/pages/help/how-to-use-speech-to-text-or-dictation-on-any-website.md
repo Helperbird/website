@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to use Voice typing or dictation on a website
 description:

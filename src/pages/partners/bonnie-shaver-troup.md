@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: Dr Bonnie Shaver-Troup, EdD | Helperbird Partner
 description: Founded in 2000, LEXEND came about from a desire to make reading easier for everyone. As an Educational Therapist, Bonnie Shaver-Troup, EdD, observed that reading issues masked the individual’s true capability and intelligence. 

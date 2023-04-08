@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Easily adjust line, letter and word spacing
 description:

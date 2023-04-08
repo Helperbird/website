@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: Top 6 Chrome Extensions for Teachers
 description:

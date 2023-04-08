@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: What is COPPA and FERPA?
 description:

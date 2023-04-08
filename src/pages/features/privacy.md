@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Privacy features of Helperbird
 description:

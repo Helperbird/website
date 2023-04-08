@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to use magnify or zoom on any website
 description: Learn how to use the powerful magnify or zoom feature of the Helperbird browser extension.

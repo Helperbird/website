@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Dyslexia Ruler on any website or pdf with customisable options.
 description:

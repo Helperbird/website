@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: How to Avoid WFH Burnout and Maximize Productivity
 description:

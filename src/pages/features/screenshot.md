@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: The One-Click Screenshot extension for Any Webpage
 description:

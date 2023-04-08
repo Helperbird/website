@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: How to Keep WFH Employees Engaged and Motivated
 description:

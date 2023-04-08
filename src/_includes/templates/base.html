@@ -194,12 +194,22 @@
 			.header_background {
 				background-color: rgb(246, 245, 231);
 			}
-		</style>
+			.arrow-spin {
+    width: 200px;
+    margin: auto;
+    fill: red;
+    color: red;
+    transform: rotate(89deg);
+  }
+</style>
+
 	</head>
 
 	<body>
 		<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
-			{% include templates/header.html %}
+			{% if header == true %}
+				{% include templates/header.html %}
+			{% endif %}
 			<main class="mx-auto max-w-7xl">
 				<div class="bg-grey-lighter flex min-h-screen items-stretch pt-12 pb-12">
 					{{ content | safe }}

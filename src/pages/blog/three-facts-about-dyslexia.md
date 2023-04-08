@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: 3 Facts about Dyslexia and 1 Fact about Cats
 description: Despite popular belief, dyslexics do not see letters backwards.

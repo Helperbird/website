@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to manage my Helperbird Pro subscription
 description: Discover how to manage your Helperbird Pro subscription, from cancel or update your subscription.

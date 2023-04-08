@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: The 5 Must-Have Accessibility Tools for students in 2021
 description:

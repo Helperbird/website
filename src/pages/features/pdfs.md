@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Effortlessly annotate and highlight PDFs with Helperbird's Dyslexia-Friendly PDF reader
 description: Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. Easily annotate, highlight and add sticky notes to your PDFs, all while receiving dyslexia support. With the added benefit of text-to-speech, immersive reader and a highlighter feature, reading and studying PDFs has never been easier. Try it now with our easy-to-use browser extension

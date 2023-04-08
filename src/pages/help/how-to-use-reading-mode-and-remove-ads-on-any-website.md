@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to use Reading Mode on an website or PDF
 description: Discover how to use Reading Mode in any browser for websites or PDFs using the Helperbird browser extension.

@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How favorite a feature in Helperbird
 description: Discover how to favorite a feature in Helperbird. Making it appear first in the list.

@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Effortlessly focus on text while reading with Helperbird's reading guide
 description: Improve your reading speed and comprehension with our innovative reading ruler. Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.

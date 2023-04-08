@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to login to Helperbird
 description: How to login to Helperbird

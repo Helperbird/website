@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to Annotate and Highlight PDFs with a browser extension
 description:

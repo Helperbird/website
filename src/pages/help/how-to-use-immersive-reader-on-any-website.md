@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to use Immersive Reader by Microsoft on websites and PDFs
 description: Learn how easy it is to use Immersive Reader by Microsoft on websites and PDFs

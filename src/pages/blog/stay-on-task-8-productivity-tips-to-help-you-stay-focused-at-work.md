@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at work
 description:

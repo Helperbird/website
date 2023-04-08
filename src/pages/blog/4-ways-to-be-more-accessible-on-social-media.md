@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: 4 Ways to be More Accessible on Social Media in 2022
 description:

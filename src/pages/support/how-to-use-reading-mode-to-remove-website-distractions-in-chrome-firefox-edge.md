@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to use Reading Mode to remove website distractions in Chrome, Firefox & Edge
 description:

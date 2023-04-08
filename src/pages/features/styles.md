@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Customizable Link, Visited Links, Background, and Font colors on any website 
 description:

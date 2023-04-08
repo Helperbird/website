@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/blog_post.liquid
 title: How to deploy Helperbird through the Gsuite Console
 description: Learn how to deploy or install Helperbird in serveal computers at once.

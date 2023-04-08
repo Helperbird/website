@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Easily Change Fonts on Any Website with Our Dyslexic Friendly and Specialized Font Options
 description:

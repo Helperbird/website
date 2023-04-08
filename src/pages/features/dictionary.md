@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Research, define, and understand any English word with ease
 description: Unlock the full meaning of words with Helperbird's Dictionary feature - Research, define, and understand any English word with ease

@@ -199,12 +199,23 @@
 			background-color: rgb(246, 245, 231) !important;
 			}
 
-		</style>
+
+  .arrow-spin {
+    width: 200px;
+    margin: auto;
+    fill: red;
+    color: red;
+    transform: rotate(89deg);
+  }
+</style>
+
 	</head>
 
 	<body  class="helperbird-background-color">
 	<div id="helperbird-website">
-			{% include templates/header.html %}
+			{% if header == true %}
+				{% include templates/header.html %}
+			{% endif %}
 			<main class="mx-auto max-w-7xl pt-12 pb-12">
 				
 					{{ content | safe }}

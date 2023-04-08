@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: Top 10 productivity features in Helperbird
 description:

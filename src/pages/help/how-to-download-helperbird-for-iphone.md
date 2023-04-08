@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to download Helperbird for iPhone
 description: This step-by-step guide covers everything you need to know to install and use the app on your iPhone, including searching for the app in the App Store, signing in or creating an account, and customizing your settings.

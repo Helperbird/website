@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Simple Online Spell Checker - Chrome, Edge, Firefox and iPad Extension
 description: Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPad extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence. Perfect for students, professionals, and anyone looking to improve their written communication. Try it now and see the difference it can make in your writing.

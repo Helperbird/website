@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Ease your eyes with a customizable overlay/tint extension
 description:

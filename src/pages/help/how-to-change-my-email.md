@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to change the email on my Helperbird account
 description: Learn how to change the email in your Helperbird account.

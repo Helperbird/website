@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Quickly and accurately summarize pages and articles in a click
 description:

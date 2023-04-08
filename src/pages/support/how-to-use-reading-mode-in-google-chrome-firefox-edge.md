@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to use Reading Mode in Chrome, Firefox or Edge
 description:

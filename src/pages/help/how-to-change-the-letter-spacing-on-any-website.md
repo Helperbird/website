@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to change the letter spacing on a website
 description: Learn how easy it is to change the letter spacing on any website.

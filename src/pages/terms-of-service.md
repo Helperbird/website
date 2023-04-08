@@ -1,5 +1,6 @@
 ---
 new: true
+header: true
 layout: templates/single_page.liquid
 title: Terms of Service
 youtubeId: PfILiWebkuc

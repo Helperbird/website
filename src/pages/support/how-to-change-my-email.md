@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to update my email for Helperbird
 description: Discover how to update or change your email for Helperbird and Helperbird Pro.

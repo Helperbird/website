@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title:
   Improve visibility and accessibility with Helperbird's High Contrast Mode feature

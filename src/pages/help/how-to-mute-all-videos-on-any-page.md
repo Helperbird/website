@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: How to automatically mute videos on a website
 description: Learn how to a mute videos on any website with Helperbirds browser extension.

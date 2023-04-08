@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/support_post.html
 title: How to set custom shortcuts in Helperbird
 description: How to set custom shortcuts in Helperbird for Chrome, Firefox or Edge extension.

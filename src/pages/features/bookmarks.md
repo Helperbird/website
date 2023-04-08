@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/features_two.liquid
 title: Bookmark and Save Your Favorite Websites with Helperbird's Read it Later App - Never Forget a Must-Read Article Again
 description:

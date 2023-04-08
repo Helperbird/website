@@ -1,5 +1,6 @@
 ---
 new: false
+header: true
 layout: templates/help.html
 title: Helperbird for iPad & iPhone is missing features
 description:
