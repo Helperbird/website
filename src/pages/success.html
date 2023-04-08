@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/base.html
+layout: templates/base_new.html
 title: Thank you for purchasing Helperbird
 youtubeId: PfILiWebkuc
 cardTitle: Thank you
@@ -16,6 +16,10 @@ keywords:
 url: success/
 ---
 
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 
 <script>
@@ -26,27 +30,79 @@ url: success/
 	};
 </script>
 
-<div class="mx-auto max-w-4xl">
-	<div class="relative overflow-hidden">
-		<div class="relative">
-			<div class="mt-16 px-4 sm:mt-24 sm:px-6">
-				<div class="text-center">
-					<h1
-						class="text-center text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"
-					>
-						<span class="block">Helperbird Pro </span>
-						<span class="block text-blue-600"> purchase confirmed </span>
-					</h1>
-					<p
-						class="mx-auto mt-3 max-w-md text-base text-black sm:text-lg md:mt-5 md:max-w-3xl md:text-xl"
-					>
-						Thank you for your purchase and also supporting Helperbird. Discover everything you need
-						below on how to get started.
-					</p>
-				</div>
-			</div>
+
+
+
+<div class="px-6 py-24 sm:py-16 lg:px-8 mb-4">
+	<div class="mx-auto max-w-3xl text-center">
+  
+	  <h2 class="text-4xl font-bold tracking-tight text-black sm:text-6xl">
+	Purchase confirmed
+
+
+	  </h2>
+  
+	  <p class="mt-6 text-2xl leading-8 text-black">
+		Thank you for your purchase and for supporting Helperbird. We will send you an email shortly with more information. In the meantime, please watch the video below to learn more about Helperbird Pro.	  </p>
+  
+  
+	 
+  
+  
+	  <div>
+		<svg
+		  xmlns="http://www.w3.org/svg/2000"
+		  viewBox="-10 -30 200 200"
+		  class="arrow-spin">
+		  <defs>
+			<filter
+			  id="chalk"
+			  height="2"
+			  width="1.6"
+			  color-interpolation-filters="sRGB"
+			  y="-0.5"
+			  x="-0.3"
+			  filterUnits="objectBoundingBox">
+			  <feTurbulence
+				baseFrequency="0.9"
+				seed="115"
+				result="result1"
+				numOctaves="2"
+				type="turbulence" />
+			  <feDisplacementMap
+				scale="3"
+				yChannelSelector="G"
+				in2="result1"
+				xChannelSelector="R"
+				in="SourceGraphic" />
+			</filter>
+		  </defs>
+		  <path
+			filter="url(#chalk)"
+			d="M 20,40 q 70,-10 100,50 m 5,5 l 2,-18 m -3,19 l -20, -5"
+			fill="none"
+			stroke="red"
+			stroke-width="3.5"
+			stroke-linecap="round" />
+		</svg>
+	  </div>
+  
+  
+	  <div class="card bg-white w-max mx-auto mb-10 border-stone-600 border-2 ">
+		<div class="card-body">
+		  <iframe
+			width="600"
+			height="400"
+			class="mx-auto"
+			src="https://www.youtube.com/embed/27jqq08vvxI"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
 		</div>
+	  </div>
+  
 	</div>
-
-
-</div>
+  </div>
+  
+  
