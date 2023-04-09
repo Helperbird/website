@@ -1,7 +1,7 @@
 ---
-new: false
+new: true
 header: true
-layout: templates/base.html
+layout: templates/base_new.html
 title: Contact Sales - Helperbird
 youtubeId: PfILiWebkuc
 cardTitle: Contact Sales
@@ -19,28 +19,37 @@ blog_cat: ''
 blog_snip: 'Looking for a discount or white labeling? Please use the the form below.'
 ---
 
-<div>
-	<div class="relative pb-12">
-		<div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-			<h1 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl">
-				Contact Helperbirds' sales team
-			</h1>
-			<p class="mt-6 max-w-3xl text-xl text-black">
-				Looking for a discount or a large number of subcriptions ? Please use the the form below.
-			</p>
-		</div>
-	</div>
 
-	<div class="card mb-8 mt-8 bg-white">
-		<div class="card-body py-24 px-4">
-			<section aria-labelledby="contact-heading" class="lg:grid lg:grid-cols-1 lg:gap-8">
-				<div class="mt-8 grid grid-cols-2 gap-12">
-					<div>
-						<h2 class="text-warm-gray-900 text-2xl font-extrabold sm:text-3xl" id="contact-heading">
-							Contact our amazing sales team
-						</h2>
-					</div>
-					<iframe
+<main class="isolate">
+
+	<div class="px-6 py-24 sm:py-16 lg:px-8 mb-4">
+		<div class="mx-auto max-w-3xl text-center">
+		  <h2 class="text-4xl font-bold tracking-tight text-black sm:text-6xl">Contact our sales team
+		</h2>
+		  <p class="mt-6 text-2xl leading-8 text-black">
+
+			Are you interested in a discount, need a quote or purchasing a large number of subscriptions? Please use the form below to contact us.
+		  </p>
+
+		  <div class="mt-10 flex items-center justify-center gap-x-6">
+			<a
+			  href="#contact"
+			  title="Contact sales team."
+			  class="btn btn-secondary border-stone-600 border-2">Contact sales</a>
+			<a
+			  href="/compare/"
+			  title="Link to Helperbird compare pages."
+			  class="btn-base btn-outline btn border-2 border-stone-600">Compare Helperbird</a>
+		  </div>
+		</div>
+	  </div>
+	  
+
+	<div class="card bg-white border-stone-600 border-2 mb-8 mt-8 rounded-sm mx-auto max-w-3xl rounded-xl" id="contact">
+
+		<div class="card-body rounded-xl">
+
+			<iframe
 						alt="Main menu"
 						frameborder="0"
 						height="1006"
@@ -52,10 +61,23 @@ blog_snip: 'Looking for a discount or white labeling? Please use the the form be
 						width="100%"
 						>Loading...</iframe
 					>
-				</div>
-			</section>
+
 		</div>
+
+
 	</div>
 
+
+
+
+
+
 	{% include common/questions.html %}
-</div>
+
+
+
+</main>
+
+
+
+
