@@ -1,6 +1,32 @@
 {
 	"reviews": [
 		{
+			"name": "Alvaro Delic",
+			"title": "User",
+			"review": "I'm using this software for work because it helps me get my job done faster than when i was typing everything out by hand! It's very accurate so there aren't many issues with accuracy but if they do happen then we've communicated about them immediately (within hours). Sometimes some of our documents are not saved correctly which can lead us into trouble at times as well; however nothing too major has come up during these two years since purchasing this program from helper bird!! If looking solely towards price or cost effectiveness look elsewhere.  Our main goal within office automation/efficiency comes first here where helping others complete their jobs quicker without having anyone else involved makes things fly along smoothly especially now-a days thanks COVID 19 pandemic - people need help getting information quickly & efficiently while working remotely due to quarantine restrictions etc.. This does just what its intended doing perfectly.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/640f12ab224c3e8747991a89d0434075_23725be129.jpeg.webp",
+			"rating": [0, 1, 2, 3, 4 ]
+		},
+		{
+			"name": "Walter Martin",
+			"title": "User",
+			"review": "The best feature of helper bird for me personally was its ability to read out loud my articles from different websites like BBC news or other such sites which I can't view normally due to some disability (visual impairment). It also has many options so it's not only limited towards reading but there are plenty additional functions as well! Sometimes when i open up an article with helpeer birds voiceover option then sometimes if try again after sometime nothing happens even though everything seems fine initially? That would be really frustrating especially because most times we rely heavily on these types of tools while trying access information online through our phones etc. So this could definitely help people who have difficulty accessing certain content using their devices/phones.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/3b012db6867d9d1347d2dbc6132c5473_aaa9e1ff67.jpeg.webp",
+			"rating": [0, 1, 2, 3, 4 ]
+		},
+	
+		{
+			"name": "Daniel Ton",
+			"title": "User",
+			"review": "I like how easy it's made my life! There are so many options for this app - just about everything under the sun (aside from an option with no descriptions). You can read news articles or books without having them open up another application/tab; there isn't much of anything bad here as far as functionality goes but maybe some people would prefer if they could have different font sizes? It helps me out by reading things aloud when needed throughout work hours instead of going back into Word every time something needs help being spoken over loud enough where others around aren’t bothered / annoyed at hearing what was said.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/28aaaf44c21fb715c68bf5faf16a5124_82e179897c.jpeg.webp",
+			"rating": [0, 1, 2, 3]
+		},
+
+		{
 			"name": "Noopur A.",
 			"title": "Director Product",
 			"review": "You can bookmark the websites or pages for future reading. Font Sizes can be increased or decreased to our own satisfaction. You can translate the page or website using Google Translator.            ",

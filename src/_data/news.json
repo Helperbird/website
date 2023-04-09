@@ -1,5 +1,31 @@
 {
 	"articles": [
+
+		{
+			"link":"https://ingeniumcanada.org/channel/articles/the-dyslexic-view-working-from-home-during-covid-19",
+			"title":"The Dyslexic View: Working from Home During COVID-19",
+			"website":"Ingenium Canada",
+			"data":"Feb 22, 2021"
+		},
+		{
+			"title": "Positive Things That Happened In Montclair Schools: Year In Review",
+			"link": "https://patch.com/new-jersey/montclair/positive-things-happened-montclair-schools-year-review",
+			"website": "Patch.com",
+			"data": "July 08, 2022"
+		},
+		{
+			"link":"https://www.teachersfirst.com/single.cfm?id=19253",
+			"title":"Helperbird: Immersive Reader for Google Docs",
+			"website":"TeachersFirst",
+			"data":"July 08, 2022"
+
+		},
+		{
+			"title": "Positive Things That Happened In Montclair Schools: Year In Review",
+			"link": "https://patch.com/new-jersey/montclair/positive-things-happened-montclair-schools-year-review",
+			"website": "Patch.com",
+			"data": "July 08, 2022"
+		},
 		{
 			"data": "September 21 2021",
 			"title": "The 5 Must-Have Accessibility Tools for Content Creators in 2021",
