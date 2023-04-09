@@ -1,62 +1,128 @@
 {
-	"support": [
+	"new": [
+		{
+			"description": "In this tutorial, we show you how to customize your Helperbird experience by adding the features you use most often. Get ready to boost your productivity and accessibility on the web.",
+			"link": "",
+			"title": "Adding features to the Quick Actions Area",
+			"id": "2X-yKtL7frw"
+		},
+		{
+			"description": "With a reading guide, line focus, and dyslexia ruler, this extension makes reading easier and more accessible. Our tutorial shows you how to get started with this powerful tool.",
+			"link": "",
+			"title": "How to use the Dyslexia Ruler ( Reading Guide, Line Focus) in Helperbird",
+			"id": "950R2dDH4lw"
+		},
+		{
+			"description": "This tutorial explains both options, so you can choose the one that works best for you. Whether you're using Helperbird for personal or professional use, our login process is simple and secure.",
+			"link": "",
+			"title": "How to Login to Helperbird",
+			"id": "27jqq08vvxI"
+		},
+		{
+			"description": "In this tutorial, we walk you through how to use our PDF Reader and support feature. With Helperbird, you can personalize your reading experience, adjust settings to fit your needs, and more.",
+			"link": "",
+			"title": "How to use the PDF Reader & support in Helperbird",
+			"id": "Y8X5bE70nrU"
+		},
+		{
+			"description": "With Helperbird's Reading Mode feature, you can remove clutter and distractions from any website or document. Our step-by-step tutorial shows you how to use this powerful feature.",
+			"link": "",
+			"title": "How to use the Reading Mode",
+			"id": "lpG_pCyXznY"
+		},
+		{
+			"description": "This step-by-step tutorial shows you how to download and install the extension on your device. Whether you're using Chrome, Edge, Firefox, iPadOS, iOS, or Safari, we've got you covered.",
+			"link": "",
+			"title": "How to download Helperbird",
+			"id": "ZtOXUQ81I8s"
+		},
+		{
+			"description": "In this tutorial, we show you how to get started with this powerful feature and take your web reading experience to the next level.",
+			"link": "",
+			"title": "Use Immersive reader on any website",
+			"id": "7rbdH9MIWMM"
+		},
+		{
+			"description": "If you've made changes to Helperbird and want to start fresh, or if you're having issues with the extension and want to troubleshoot, resetting the settings is the way to go.",
+			"link": "",
+			"title": "How To Reset Settings",
+			"id": "btTiIxREAl0"
+		},
+		{
+			"description": "Fortunately, Helperbird makes it easy to search for the features you want. We will guide you step-by-step through the process of using the search function in Helperbird, so you can quickly find and access the features you need.",
+			"link": "",
+			"title": "How To Search For Features",
+			"id": "gvix0ht_x98"
+		}
+	],
+	"basics": [
 		{
 			"description": "Learn how to use Helperbirds high contrast themes and how to apply them.",
 			"link": "",
+			"new": false,
 			"title": "Enable high contrast mode",
 			"id": "9aD6bdWIhGs"
 		},
 		{
 			"description": "With Helperbird, you can hide all images on website. Do you know how to do it?",
 			"link": "",
+			"new": false,
 			"title": "Hide images on any website",
 			"id": "N3JjS-ReVeE"
 		},
 		{
 			"description": "Adjust words, line heights, and font sizes to make your website more readable.",
 			"link": "",
+			"new": false,
 			"title": "Adjust line, word, and letter spacing on websites",
 			"id": "QmFo0u4aIF4"
 		},
 		{
 			"description": "Apply a grey scale filter to your website to make it more readable.",
 			"link": "",
+			"new": false,
 			"title": "Make any website greyscale",
 			"id": "jFdlR85Tzrg"
 		},
 		{
 			"description": "Change the font sizes of your website to make it more readable. Including Titles and paragraphs.",
 			"link": "",
+			"new": false,
 			"title": "How to change font size on any website",
 			"id": "O6iawJul2Qs"
 		},
 		{
 			"description": "Annotate every website, PDFs and more with Helperbirds sticky notes. What how to use them.",
 			"link": "",
+			"new": false,
 			"title": "How to add sticky notes/annotate to any website",
 			"id": "u67t7Ap61Nc"
 		},
 		{
 			"description": "Some times, you want to reset everything back to the default settings. Do you know how to do it?",
 			"link": "",
+			"new": false,
 			"title": "How to reset Helperbird",
 			"id": "xLvsfJ0SlDA"
 		},
 		{
 			"description": "Change the background of any page to any color you want to make it more readable.",
 			"link": "",
+			"new": false,
 			"title": "How to change the background color on websites",
 			"id": "cZlv24sycH0"
 		},
 		{
 			"description": "Helperbird has amazing color blind features. Do you know how to use them?",
 			"link": "",
+			"new": false,
 			"title": "How to use color blindness features in Helperbird",
 			"id": "TIW1DiUMVUI"
 		},
 		{
 			"description": "Change the cursor to any several different sizes, match it to your needs.",
 			"link": "",
+			"new": false,
 			"title": "How to change cursor size on websites ",
 			"id": "I4zrlJAESws"
 		},
@@ -64,24 +130,28 @@
 		{
 			"description": "Helperbirds dyslexia ruler and several settings make it easy to read and write on websites.",
 			"link": "",
+			"new": false,
 			"title": "How to add a dyslexia ruler to any website",
 			"id": "egjET6tZFqM"
 		},
 		{
 			"description": "Discover how to favorite different Helperbird settings.",
 			"link": "",
+			"new": false,
 			"title": "How to Add Favorite Settings in Helperbird",
 			"id": "xLhMXKd4B5A"
 		},
 		{
 			"description": "Change the color of all texts on PDFs, websites and more.",
 			"link": "",
+			"new": false,
 			"title": "How to change the font color on any website ",
 			"id": "jH38cY5T1ik"
 		},
 		{
 			"description": "Change the font of all texts on PDFs, websites and more. From dyslexia fonts to more easier to read fonts.",
 			"link": "",
+			"new": false,
 			"title": "How to change fonts on any website ",
 			"id": "ylAICmLakaA"
 		},
@@ -89,36 +159,42 @@
 		{
 			"description": "Learn how to add a greyscale filter to any website.",
 			"link": "",
+			"new": false,
 			"title": "Make any website greyscale",
 			"id": "jFdlR85Tzrg"
 		},
 		{
 			"description": "",
 			"link": "",
+			"new": false,
 			"title": "How to change the color of highlighted text on the web",
 			"id": "M7hVrdOheP0"
 		},
 		{
 			"description": "Learn how to add a highlighted box around every paragraph, breaking them up to make it easier to read.",
 			"link": "",
+			"new": false,
 			"title": "How to add a highlighted box to paragraphs on a website ",
 			"id": "Ru0mD7ymbXc"
 		},
 		{
 			"description": "Change the link colors to make them stand out on any website.",
 			"link": "",
+			"new": false,
 			"title": "How to change text link colors on websites ",
 			"id": "oeOeA1QFQXk"
 		},
 		{
 			"description": "Search for features in Helperbird.",
 			"link": "",
+			"new": false,
 			"title": "How to Search in Helperbird",
 			"id": "ocIkxqb6rbA"
 		},
 		{
 			"description": "Learn how to manage your Helperbird subscription, from upgrading to cancelling.",
 			"link": "",
+			"new": false,
 			"title": "How to manage your Helperbird settings and subscription",
 			"id": "acgp8tkAVOI"
 		}

@@ -1,11 +1,11 @@
 ---
 new: false
 header: true
-layout: templates/help.html
-title: Helperbird tutorials for Chrome, Edge & Firefox
+layout: templates/base_new.html
+title: Helperbird tutorials 
 youtubeId: PfILiWebkuc
 cardTitle:  Helperbird tutorials
-description: Learn how Helperbird works with documentation, suggested ways to use Helperbird, and videos to help your students and yourself get the most out of Helperbird.
+description: If you want to learn the best way to use Helperbir, look no further. These short videos will have you mastering all of Helperbird reading, writing and learning tools in no time.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
@@ -16,46 +16,132 @@ url: tutorials/
 ---
 
 
-<div class="relative bg-white pt-16 pb-16  overflow-hidden sm:pt-24 lg:pt-32">
-  <div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
-    <div>
-      <h2 class="mt-2 text-5xl font-extrabold text-gray-900 tracking-tight">Tutorials on how to use Helperbird</h2>
-      <p class="mt-5 max-w-prose mx-auto text-xl   text-black ">Master your workflow with the beginner's guide, tips & tricks.</p>
+<main class="isolate">
+
+  <div class="px-6 py-24 sm:py-16 lg:px-8 mb-4">
+    <div class="mx-auto max-w-3xl text-center">
+      <h1 class="text-4xl font-bold tracking-tight text-black sm:text-6xl">
+        Helperbird tutorials
+      </h1>
+      <p class="mt-6 text-2xl leading-8 text-black">
+        These short videos will make you a Helperbird master in no time.
+      </p>
+
+      <p class="mt-6 text-2xl leading-8 text-black font-bold">
+        Remember to check out our
+        <a href="https://www.youtube.com/@helperbird" class="text-blue-600">YouTube channel</a>
+        for more videos.
+      </p>
+
+
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="#newVideos"
+          title="Link to the help guides."
+          class="btn btn-secondary border-stone-600 border-2">New videos</a>
+        <a
+          href="#basicVideos"
+          title="Link to the help guides."
+          class="btn-base btn-outline btn border-2 border-stone-600">Old videos</a>
+      </div>
     </div>
   </div>
-</div>
 
 
-<div class="relative p-16 overflow-hidden">
-  <div class="relative">
-    <div class="grid grid-cols-1 gap-8 xs:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
-      {%- for video in videos.support -%}
+  <div class="px-6 py-12 sm:py-16 lg:px-8" id="newVideos">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl font-bold tracking-tight text-black sm:text-4xl">
+        New Helperbird videos
+      </h2>
+
+    </div>
+  </div>
 
 
-        <div class="card bordered text-base-content shadow-2xl bg-base-100 text-base-content">
-          <figure class="">
-            <blockquote class="rounded-t-xl bg-white text-lg leading-8 f">
-              <div class="w-full rounded-xl youtube_lazy_load" data-embed="{{ video.id }}">
-                <div class="play-button"></div>
-              </div>
-            </blockquote>
-
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-base-content">
-              {{ video.title }}
-            </h2>
+  <div class="grid grid-cols-1 gap-8 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" id="basicVideos">
+    {%- for video in videos.new -%}
 
 
-            <p>{{ video.description }}</p>
-            <div class="justify-end card-actions">
-              <a class=" decoration-pink-500 btn btn-secondary" href="{{ video.link }}">More info</a>
-            </div>
-          </div>
+      <div class="card rounded-md hover:border-stone-600 hover:border-2 hover:border p-2 border-2">
+        <figure class="rounded-md">
+
+          <iframe
+            width="560"
+            height="230"
+            class="rounded-md"
+            src="https://www.youtube.com/embed/{{ video.id }}&autoplay=1"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;border-radius:1rem !important;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/{{ video.id }}?autoplay=1><img src=https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg alt='Enable high contrast mode'><span>▶</span></a>"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="{{ video.title }}}"></iframe>
+
+        </figure>
+        <div class="card-body">
+          <a
+            class=" text-2xl font-semibold text-center"
+            href="{{ video.link }}"
+            title="{{ video.title }}">
+            {{ video.title }}
+
+          </a>
+          <p class="text-lg text-center">{{ video.description }}</p>
+
         </div>
-      {%- endfor -%}
+      </div>
 
-    </div>
+
+    {%- endfor -%}
 
   </div>
-</div>
+
+
+  <div class="px-6 py-12 sm:py-16 lg:px-8" id="basicVideos">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl font-bold tracking-tight text-black sm:text-4xl">
+        Helperbird basics
+      </h2>
+
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-1 gap-8 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" id="basicVideos">
+    {%- for video in videos.basics -%}
+
+
+      <div class="card rounded-md hover:border-stone-600 hover:border-2 hover:border p-2 border-2">
+        <figure class="rounded-md">
+
+          <iframe
+            width="560"
+            height="230"
+            class="rounded-md"
+            src="https://www.youtube.com/embed/{{ video.id }}&autoplay=1"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;border-radius:1rem !important;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/{{ video.id }}?autoplay=1><img src=https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg alt='Enable high contrast mode'><span>▶</span></a>"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="{{ video.title }}}"></iframe>
+
+        </figure>
+        <div class="card-body">
+          <a
+            class=" text-2xl font-semibold text-center"
+            href="{{ video.link }}"
+            title="{{ video.title }}">
+            {{ video.title }}
+
+          </a>
+          <p class="text-lg text-center">{{ video.description }}</p>
+
+        </div>
+      </div>
+
+
+    {%- endfor -%}
+
+  </div>
+
+
+</main>
