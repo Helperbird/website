@@ -169,7 +169,7 @@ module.exports = function (eleventyConfig) {
 		ol: 'list-none',
 		li: 'list-none',
 		img:'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
-		a: 'underline decoration-wavy hover:underline hover:decoration-wavy decoration-blue-500 hover:decoration-pink-500',
+		a: 'text-blue-600 underline hover:decoration-wavy hover:underline',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};
 

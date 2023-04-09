@@ -4,7 +4,7 @@ header: true
 layout: templates/single_page.liquid
 title: Security statement for Helperbird
 youtubeId: PfILiWebkuc
-cardTitle: Security statement for Helperbird
+cardTitle: Security of Helperbird
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences
   that keep your personal information safe and secure. Helperbirds Security don`t sell, store, or
@@ -20,6 +20,7 @@ isBlog: true
 blog_cat: ''
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
+
 
 ## Overview
 
