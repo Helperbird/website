@@ -2,6 +2,7 @@
 	"apps": [
 		{
 			"title": "Beeline Reader",
+			"ideal": "Reading",
 			"img": "/assets/images/recommends/beeline.jpeg",
 			"des": " Beeline uses an amazing  eye-guiding color gradient — to pull your eyes through long blocks of text. This helps you read more effectively and maintain your focus better.",
 			"url": "https://www.beelinereader.com/?utm_source=helperbird&utm_medium=extension&utm_campaign=beeline&utm_content=beeline",
@@ -9,6 +10,7 @@
 		},
 		{
 			"title": "Toucan - Language Learning",
+			"ideal": "Learning",
 			"img": "/assets/images/recommends/toucan.png",
 			"des": " Learn a new language just by browsing the internet.",
 			"url": "https://jointoucan.com/?utm_source=helperbird&utm_medium=extension&utm_campaign=beeline&utm_content=beeline",
@@ -17,6 +19,7 @@
 		,
 		{
 			"title": "OpenDyslexic font",
+			"ideal": "Dyslexia",
 			"img": "/assets/images/recommends/opendyslexic.png",
 			"des": " Format pages using the OpenDyslexic font and low contrast help",
 			"url": "https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en",
@@ -24,13 +27,14 @@
 		},
 		{
 			"title": "EduChange.com",
+			"ideal": "Learning",
 			"img": "/assets/images/recommends/educhange.png",
 			"des": " We pioneered Open Learning Architecture™ to reinvent science class for ages 13-20. Global issues & PBL power 36+ modules & competency-based assessment. 4 implementation models deliver coherent, rigorous learning for real-world STEM.",
 			"url": "https://educhange.com/",
 			"location": "Website"
 		},
 		{
-			"title": "Lexend Deca",
+			"title": "Lexend Deca",	"ideal": "Reading",
 			"img": "/assets/images/recommends/lexend.png",
 			"des": "These changes led to the development of seven specially-designed fonts, which create an immediate improvement in reading performance.This is where Lexend was formed.",
 			"url": "https://www.lexend.com/",
