@@ -1,6 +1,26 @@
 {
 	"articles": [
 
+		{"link":"https://itigic.com/must-have-chrome-extensions-to-improve-accessibility/",
+		"title":"Must-Have Chrome Extensions to Improve Accessibility",
+		"website":"ITIGIC",
+		"data": "March 1st 2022"
+	
+	},
+		{
+			"link":"https://prowritingaid.com/best-chrome-extensions",
+			"title":"The 10 Best Chrome Extensions for Writers",
+			"website":"ProWritingAid",
+			"data":"Mar 10, 2020"
+						
+					},
+		{
+"link":"https://prowritingaid.com/best-chrome-extensions",
+"title":"The 10 Best Chrome Extensions for Writers",
+"website":"ProWritingAid",
+"data":"Mar 10, 2020"
+
+		},
 		{
 			"link":"https://ingeniumcanada.org/channel/articles/the-dyslexic-view-working-from-home-during-covid-19",
 			"title":"The Dyslexic View: Working from Home During COVID-19",
