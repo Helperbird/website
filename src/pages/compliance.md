@@ -17,12 +17,16 @@ url: compliance/
 isBlog: true
 blog_cat: Helperbird
 youtubeId: PfILiWebkuc
-cardTitle: Learn more about the history of Helperbird and our core values.
-blog_snip: ''
+cardTitle: Compliance at Helperbird
+blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
 
 
+## Family Educational Rights and Privacy Act (FERPA).
 Helperbird is committed to protecting the privacy and security of our users, including students and children under 13 years of age. Our app, Helperbird, is a browser extension that does not collect any personal information or education records from users. We do not access, use, or disclose any education records, as defined by the Family Educational Rights and Privacy Act (FERPA).
+
+
+## Children's Online Privacy Protection Act (COPPA) 
 
 We also comply with the Children's Online Privacy Protection Act (COPPA) and do not knowingly collect or store any personal information from children under the age of 13. We do not require any personal information to use our app, and we do not use cookies, third-party tracking, or any other tracking technologies to collect or store user information.
 
