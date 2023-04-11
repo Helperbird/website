@@ -1,95 +1,6 @@
 {
 	"reviews": [
-		{
-			"name": "Alvaro Delic",
-			"title": "User",
-			"review": "I'm using this software for work because it helps me get my job done faster than when i was typing everything out by hand! It's very accurate so there aren't many issues with accuracy but if they do happen then we've communicated about them immediately (within hours). Sometimes some of our documents are not saved correctly which can lead us into trouble at times as well; however nothing too major has come up during these two years since purchasing this program from helper bird!! If looking solely towards price or cost effectiveness look elsewhere.  Our main goal within office automation/efficiency comes first here where helping others complete their jobs quicker without having anyone else involved makes things fly along smoothly especially now-a days thanks COVID 19 pandemic - people need help getting information quickly & efficiently while working remotely due to quarantine restrictions etc.. This does just what its intended doing perfectly.",
-			"isIPad": true,
-			"photo": "https://images.revain.org/blob/640f12ab224c3e8747991a89d0434075_23725be129.jpeg.webp",
-			"rating": [0, 1, 2, 3, 4 ]
-		},
-		{
-			"name": "Walter Martin",
-			"title": "User",
-			"review": "The best feature of helper bird for me personally was its ability to read out loud my articles from different websites like BBC news or other such sites which I can't view normally due to some disability (visual impairment). It also has many options so it's not only limited towards reading but there are plenty additional functions as well! Sometimes when i open up an article with helpeer birds voiceover option then sometimes if try again after sometime nothing happens even though everything seems fine initially? That would be really frustrating especially because most times we rely heavily on these types of tools while trying access information online through our phones etc. So this could definitely help people who have difficulty accessing certain content using their devices/phones.",
-			"isIPad": true,
-			"photo": "https://images.revain.org/blob/3b012db6867d9d1347d2dbc6132c5473_aaa9e1ff67.jpeg.webp",
-			"rating": [0, 1, 2, 3, 4 ]
-		},
 	
-		{
-			"name": "Daniel Ton",
-			"title": "User",
-			"review": "I like how easy it's made my life! There are so many options for this app - just about everything under the sun (aside from an option with no descriptions). You can read news articles or books without having them open up another application/tab; there isn't much of anything bad here as far as functionality goes but maybe some people would prefer if they could have different font sizes? It helps me out by reading things aloud when needed throughout work hours instead of going back into Word every time something needs help being spoken over loud enough where others around aren’t bothered / annoyed at hearing what was said.",
-			"isIPad": true,
-			"photo": "https://images.revain.org/blob/28aaaf44c21fb715c68bf5faf16a5124_82e179897c.jpeg.webp",
-			"rating": [0, 1, 2, 3]
-		},
-
-		{
-			"name": "Noopur A.",
-			"title": "Director Product",
-			"review": "You can bookmark the websites or pages for future reading. Font Sizes can be increased or decreased to our own satisfaction. You can translate the page or website using Google Translator.            ",
-			"isIPad": true,
-			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Daniel C.",
-			"title": "Account Executive",
-			"review": "I really liked the ease of setting up and also accessing the tool while you are on chrome. I had no trouble, and within a week found myself using it without even noticing.",
-			"isIPad": true,
-			"photo": "https://images.g2crowd.com/uploads/avatar/image/138742/thumb_square_5ad3a64866463a4601adc58f4696f337.jpeg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Jared B.",
-			"title": "Marketing Director            ",
-			"review": "Helperbird helps enhance my studying and research efforts by allowing me to add sticky notes and highlight important stuff on websites, or e-books. I can also easily remember to read articles later.",
-			"isIPad": true,
-			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Harmony M.",
-			"title": "Program Manager",
-			"review": "It's easy to use with every webpage since it's just an extension. You can access lots of different functions to declutter a page (show only the relevant text and not ads, for example). You can add post it notes to annotate, and it has things like text-to-speech.            ",
-			"isIPad": true,
-			"photo": "https://images.g2crowd.com/uploads/avatar/image/1710777/thumb_square_2efba33977a0d13590f0a1419dd94efb.jpeg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Ajay G.",
-			"title": "Problem Trainer ",
-			"review": "I like the ease of use it. It feels me alot while surfing the web. I appreciate the developers for this wonderful app. Promotes easy readability. ",
-			"isIPad": true,
-			"photo": "https://images.g2crowd.com/uploads/avatar/image/1809683/thumb_square_1f75ce7658a15edf64f4f2d523f98da2.jpeg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Sandeep K.",
-			"title": "Domain Trainer ",
-			"review": "Best website reading enhancer   ",
-			"isIPad": true,
-			"photo": "https://images.g2crowd.com/uploads/avatar/image/1774716/thumb_square_65e304a2e34d8ad7186c270d12f6dfde.jpeg",
-			"rating": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "Mohammad F.",
-			"title": "IT intern",
-			"review": "It an extension that makes reading easy while surfing the internet.            ",
-			"isIPad": true,
-			"photo": "https://images.g2crowd.com/uploads/avatar/image/1809697/thumb_square_2e47e16bb01dd2ab4131dbfae1d97091.jpeg",
-			"rating": [0, 1, 2, 3]
-		},
-		{
-			"name": "g2.com review",
-			"title": "Verified User in Information Technology and Services            ",
-			"review": "Incredible Tool, and Simple to Use!",
-			"isIPad": true,
-			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
-			"rating": [0, 1, 2, 3, 4]
-		},
 
 		{
 			"name": "g2.com review",
@@ -661,6 +572,96 @@
 			"title": "user",
 			"name": "Mohammad Karzai",
 			"review": "Wow i am really glad someone had this idea. We need more helper tools like this.",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Alvaro Delic",
+			"title": "User",
+			"review": "I'm using this software for work because it helps me get my job done faster than when i was typing everything out by hand! It's very accurate so there aren't many issues with accuracy but if they do happen then we've communicated about them immediately (within hours). Sometimes some of our documents are not saved correctly which can lead us into trouble at times as well; however nothing too major has come up during these two years since purchasing this program from helper bird!! If looking solely towards price or cost effectiveness look elsewhere.  Our main goal within office automation/efficiency comes first here where helping others complete their jobs quicker without having anyone else involved makes things fly along smoothly especially now-a days thanks COVID 19 pandemic - people need help getting information quickly & efficiently while working remotely due to quarantine restrictions etc.. This does just what its intended doing perfectly.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/640f12ab224c3e8747991a89d0434075_23725be129.jpeg.webp",
+			"rating": [0, 1, 2, 3, 4 ]
+		},
+		{
+			"name": "Walter Martin",
+			"title": "User",
+			"review": "The best feature of helper bird for me personally was its ability to read out loud my articles from different websites like BBC news or other such sites which I can't view normally due to some disability (visual impairment). It also has many options so it's not only limited towards reading but there are plenty additional functions as well! Sometimes when i open up an article with helpeer birds voiceover option then sometimes if try again after sometime nothing happens even though everything seems fine initially? That would be really frustrating especially because most times we rely heavily on these types of tools while trying access information online through our phones etc. So this could definitely help people who have difficulty accessing certain content using their devices/phones.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/3b012db6867d9d1347d2dbc6132c5473_aaa9e1ff67.jpeg.webp",
+			"rating": [0, 1, 2, 3, 4 ]
+		},
+	
+		{
+			"name": "Daniel Ton",
+			"title": "User",
+			"review": "I like how easy it's made my life! There are so many options for this app - just about everything under the sun (aside from an option with no descriptions). You can read news articles or books without having them open up another application/tab; there isn't much of anything bad here as far as functionality goes but maybe some people would prefer if they could have different font sizes? It helps me out by reading things aloud when needed throughout work hours instead of going back into Word every time something needs help being spoken over loud enough where others around aren’t bothered / annoyed at hearing what was said.",
+			"isIPad": true,
+			"photo": "https://images.revain.org/blob/28aaaf44c21fb715c68bf5faf16a5124_82e179897c.jpeg.webp",
+			"rating": [0, 1, 2, 3]
+		},
+
+		{
+			"name": "Noopur A.",
+			"title": "Director Product",
+			"review": "You can bookmark the websites or pages for future reading. Font Sizes can be increased or decreased to our own satisfaction. You can translate the page or website using Google Translator.            ",
+			"isIPad": true,
+			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Daniel C.",
+			"title": "Account Executive",
+			"review": "I really liked the ease of setting up and also accessing the tool while you are on chrome. I had no trouble, and within a week found myself using it without even noticing.",
+			"isIPad": true,
+			"photo": "https://images.g2crowd.com/uploads/avatar/image/138742/thumb_square_5ad3a64866463a4601adc58f4696f337.jpeg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Jared B.",
+			"title": "Marketing Director            ",
+			"review": "Helperbird helps enhance my studying and research efforts by allowing me to add sticky notes and highlight important stuff on websites, or e-books. I can also easily remember to read articles later.",
+			"isIPad": true,
+			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Harmony M.",
+			"title": "Program Manager",
+			"review": "It's easy to use with every webpage since it's just an extension. You can access lots of different functions to declutter a page (show only the relevant text and not ads, for example). You can add post it notes to annotate, and it has things like text-to-speech.            ",
+			"isIPad": true,
+			"photo": "https://images.g2crowd.com/uploads/avatar/image/1710777/thumb_square_2efba33977a0d13590f0a1419dd94efb.jpeg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Ajay G.",
+			"title": "Problem Trainer ",
+			"review": "I like the ease of use it. It feels me alot while surfing the web. I appreciate the developers for this wonderful app. Promotes easy readability. ",
+			"isIPad": true,
+			"photo": "https://images.g2crowd.com/uploads/avatar/image/1809683/thumb_square_1f75ce7658a15edf64f4f2d523f98da2.jpeg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Sandeep K.",
+			"title": "Domain Trainer ",
+			"review": "Best website reading enhancer   ",
+			"isIPad": true,
+			"photo": "https://images.g2crowd.com/uploads/avatar/image/1774716/thumb_square_65e304a2e34d8ad7186c270d12f6dfde.jpeg",
+			"rating": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "Mohammad F.",
+			"title": "IT intern",
+			"review": "It an extension that makes reading easy while surfing the internet.            ",
+			"isIPad": true,
+			"photo": "https://images.g2crowd.com/uploads/avatar/image/1809697/thumb_square_2e47e16bb01dd2ab4131dbfae1d97091.jpeg",
+			"rating": [0, 1, 2, 3]
+		},
+		{
+			"name": "g2.com review",
+			"title": "Verified User in Information Technology and Services            ",
+			"review": "Incredible Tool, and Simple to Use!",
+			"isIPad": true,
+			"photo": "https://www.g2.com/assets/icons/anonymous-avatar-rorange-fd9203f82b4bce0d014644f4c61011fb28de19a479b95c263fb9561b90995bc9.svg",
 			"rating": [0, 1, 2, 3, 4]
 		}
 	]
