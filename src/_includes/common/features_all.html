@@ -1,59 +1,54 @@
-<div>
-	<div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
-		<h2
-			class="mt-1 text-5xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
-		>
-			Features at glance
+
+<div class=" py-24 sm:py-32">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+	  <div class="">
+
+		<h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Features at a glance
 		</h2>
-		<p class="mt-5 max-w-5xl text-2xl">
-			Helperbird offers a range of power tools to customize the web to your needs to improve your
-			accessibility, reading, writing, studying, and productivity needs.
-		</p>
+		<p class="mt-4 text-xl text-black ">
+			Helperbird offers a range of power tools to customize the web to your needs to improve your accessibility, reading, writing, and productivity needs.
+</p>
+<p class="mt-4 text-xl text-black ">
+			Game-changing features such as Reading Mode, Immersive Reader, dyslexia support, text-to-speech with natural voices, text extracting, word prediction, voice typing, and 28 other features to transform your web experience.
 
-		<p class="mt-5 max-w-5xl text-2xl">
-			Game-changing features like Reading Mode, Immersive Reader by Microsoft, Dyslexia support
-			(Fonts, rulers, overlays), text to speech with natural voices, text extracting, translations,
-			word prediction, voice typing, and 28 other features.
-		</p>
 
+		</p>
 		<div class="mt-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
-			<a
-				class="btn-base btn btn-outline border-stone-600 border-2 inline-flex w-full flex-none rounded-md px-4 py-2 text-base font-medium underline decoration-wavy decoration-blue-500 hover:underline hover:decoration-wavy hover:decoration-pink-500 sm:w-auto"
-				href="/features/"
-				>See all features</a
-			>
+		<a class="btn btn-primary mt-8 mb-8" href="/features/">See all features</a>
 		</div>
-
-		<div
-			class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
-		>
+	  </div>
+	  <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
+		<div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
 			{%- for post in collections.features -%}
+		  <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+			<div class="rounded-2xl bg-white border-2 border-stone-600 p-8 text-sm leading-6">
+				<div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 mb-4">{{ post.data.icon | svgContents | safe }}</div>
+				<h3 class="text-xl font-bold text-black mb-4 ">
+					
+					
+					{{ post.data.cardTitle }}</h3>
 
-			<div class="rounded-xl bg-white p-6">
-				<div>
-					<div
-						class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
-					>
-						{{ post.data.icon | svgContents | safe }}
-					</div>
-				</div>
-				<div class="mt-6">
-					<h3 class="text-xl font-medium text-black">{{ post.data.cardTitle }}</h3>
-					<p class="mt-2 text-base text-black">{{ post.data.featureDescription }}</p>
-
-					<div class="max-w-md items-center">
-						<a
-							class="btn btn-link  mt-8    text-base  underline decoration-wavy decoration-blue-500 hover:underline hover:decoration-wavy hover:decoration-pink-500  btn-sm"
+				<p class="text-black text-base mt-6 line-clamp-3">{{ post.data.featureDescription }}</p>
+	
+			  <div class="mt-6 flex items-center gap-x-4">
+			
+				<a
+							class="btn btn-outline btn-secondary  mt-8    text-base btn-sm "
 							href="{{ post.url }}"
 							title="More information on feature {{ post.data.cardTitle  }}"
 							>Discover more</a
 						>
 					
-					</div>
-				</div>
 			</div>
+			</div>
+		  </div>
+		  {%- endfor -%}
+  
 
-			{%- endfor -%}
 		</div>
+	  </div>
 	</div>
-</div>
+  </div>
+  
+
+
