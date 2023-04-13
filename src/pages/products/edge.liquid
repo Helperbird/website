@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/edge.html
+layout: templates/base_new.html
 title: Dyslexia, Text to speech & Accessibility extension for Edge
 youtubeId: PfILiWebkuc
 cardTitle:  Helperbird for Edge
@@ -16,13 +16,12 @@ url: products/edge/
 redirect_from: /edge/
 ---
 
-<div>
-  {% include common/hero-edge.html %}
-  {% include common/features_list.html %}
-  {% include common/features_all.html %}
-  {% include common/compare_to_others.html %}
-  {% include common/metrics.html %}
-  {% include common/questions.html %}
-  {% include common/reviews.html %}
-  {% include common/cta.html %}
-</div>
+
+{% include common/hero-edge.html %}
+{% include common/features_list.html %}
+{% include common/features_all.html %}
+{% include common/compare_to_others.html %}
+
+{% include common/questions.html %}
+{% include common/reviews.html %}
+{% include common/cta.html %}

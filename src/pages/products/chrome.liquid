@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/chrome.html
+layout: templates/base_new.html
 title: Enhance your browsing experience with Helperbird for Chrome - an accessibility extension designed to support individuals with dyslexia.
 youtubeId: PfILiWebkuc
 cardTitle:  Helperbird for Chrome
@@ -15,13 +15,11 @@ url: products/chrome/
 redirect_from: /chrome/
 ---
 
-<div>
-  {% include common/hero-chrome.html %}
-  {% include common/features_list.html %}
-  {% include common/features_all.html %}
-  {% include common/compare_to_others.html %}
-  {% include common/metrics.html %}
-  {% include common/questions.html %}
-  {% include common/reviews.html %}
-  {% include common/cta.html %}
-</div>
+{% include common/hero-chrome.html %}
+{% include common/features_list.html %}
+{% include common/features_all.html %}
+{% include common/compare_to_others.html %}
+
+{% include common/questions.html %}
+{% include common/reviews.html %}
+{% include common/cta.html %}
