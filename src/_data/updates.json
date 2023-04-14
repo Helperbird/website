@@ -2,7 +2,18 @@
 
 
 	"new":[
-		
+		{
+			"version": "102.8.0",
+			"date": "April 12th 2023",
+			"changes":[
+				"Sticky notes now play the current text.",
+				"Sticky notes prefill is now the placeholder text.",
+				"Drag and drop support for PDF's in the PDF reader."
+			],
+			"fixes":[
+				"The new Google Docs is supported."
+			]
+		},	
 		{
 			"version": "102.7.9",
 			"date": "March 29th 2023",
