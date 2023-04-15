@@ -8,10 +8,12 @@
 			"changes":[
 				"Sticky notes now play the current text.",
 				"Sticky notes prefill is now the placeholder text.",
-				"Drag and drop support for PDF's in the PDF reader."
+				"Drag and drop support for PDF's in the PDF reader.",
+				"Links to change the sound settings."
 			],
 			"fixes":[
-				"The new Google Docs is supported."
+				"The new Google Docs is supported.",
+				"Student mode is now supported."
 			]
 		},	
 		{
