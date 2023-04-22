@@ -1,17 +1,18 @@
+
 <div class="flex flex-col max-w-4xl mx-auto">
     <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-            <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-xl">
-                <table class="w-full divide-y divide-gray-200">
+            <div class="shadow overflow-hidden border-b border-stone-600 border-2 sm:rounded-xl">
+                <table class="w-full divide-y divide-stone-600">
                     <thead class="bg-white">
                         <tr>
                             <th
                                 class="
                                     px-6
                                     py-3
-                                    text-left text-xs
-                                    font-medium
-                                      text-black 
+                                    text-left text-lg
+                                    font-black
+                                    text-black 
                                     uppercase
                                     tracking-wider
                                 "
@@ -23,7 +24,7 @@
                                 class="
                                     px-6
                                     py-3
-                                    text-left text-xs
+                                    text-left text-lg
                                     font-medium
                                       text-black 
                                     uppercase
@@ -42,7 +43,7 @@
                                 class="
                                     px-6
                                     py-3
-                                    text-left text-xs
+                                    text-left text-lg
                                     font-medium
                                       text-black 
                                     uppercase
@@ -51,16 +52,16 @@
                                 scope="col"
                             >
                                 <img
-                                    alt="Helperbird Logo"
-                                    loading="lazy"
-                                    src="/assets/images/compare/menu/snap-and-read.png"
+                                alt="Helperbird Logo"
+                                loading="lazy"
+                                src="/assets/images/compare/menu/snap-and-read.png"
 alt="Snap and reads logo, which looks like a compass"
                                     width="60px"
                                 />
                             </th>
                         </tr>
                     </thead>
-                    <tbody class="bg-white divide-y divide-gray-200">
+                    <tbody class="bg-white divide-y divide-stone-600">
 
 
                         {%- for list in compare.snap -%}
@@ -68,10 +69,10 @@ alt="Snap and reads logo, which looks like a compass"
 
                         <tr>
                             <td class="px-6 py-4 whitespace-nowrap">
-                                <div class="text-gray-900">{{ list.feature }}</div>
+                                <div class="text-black font-bold text-lg">{{ list.feature }}</div>
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-center">
-                                <div class="text-gray-900 text-center">
+                                <div class="text-black  text-center">
 
                                     {% if list.helperbird == true %}
 
@@ -112,7 +113,7 @@ alt="Snap and reads logo, which looks like a compass"
                                 </div>
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-center">
-                                <div class="text-gray-900 text-center">
+                                <div class="text-black  text-center">
                                     {% if list.other == true %}
 
                                     <svg
@@ -162,3 +163,5 @@ alt="Snap and reads logo, which looks like a compass"
         </div>
     </div>
 </div>
+
+

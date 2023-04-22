@@ -1,3 +1,164 @@
-<h2>
-Compare table is currently being updated. Please check back later.
-    </h2>
+<div class="flex flex-col max-w-4xl mx-auto">
+    <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+            <div class="shadow overflow-hidden border-b border-stone-600 border-2 sm:rounded-xl">
+                <table class="w-full divide-y divide-stone-600">
+                    <thead class="bg-white">
+                        <tr>
+                            <th
+                                class="
+                                    px-6
+                                    py-3
+                                    text-left text-lg
+                                    font-black
+                                    text-black 
+                                    uppercase
+                                    tracking-wider
+                                "
+                                scope="col"
+                            >
+                                Features
+                            </th>
+                            <th
+                                class="
+                                    px-6
+                                    py-3
+                                    text-left text-lg
+                                    font-medium
+                                      text-black 
+                                    uppercase
+                                    tracking-wider
+                                "
+                                scope="col"
+                            >
+                                <img
+                                    alt="Helperbird Logo"
+                                    loading="lazy"
+                                    src="/assets/images/pwa/logo/full.png"
+                                    width="60px"
+                                />
+                            </th>
+                            <th
+                                class="
+                                    px-6
+                                    py-3
+                                    text-left text-lg
+                                    font-medium
+                                      text-black 
+                                    uppercase
+                                    tracking-wider
+                                "
+                                scope="col"
+                            >
+                                <img
+                                    alt="Helperbird Logo"
+                                    loading="lazy"
+                                    src="/assets/images/compare/menu/read-and-write.png"
+alt="Microsoft windows logo, with four different colors"
+                                    width="60px"
+                                />
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-stone-600">
+
+
+                        {%- for list in compare.read -%}
+
+
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-black font-bold text-lg">{{ list.feature }}</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-center">
+                                <div class="text-black  text-center">
+
+                                    {% if list.helperbird == true %}
+
+                                        <svg
+                                            fill="none"
+                                            stroke="green"
+                                            viewbox="0 0 24 24"
+                                            width="30px"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            ></path>
+                                        </svg>
+
+                                    {% endif %}
+
+                                    {% if list.helperbird == false %}
+                                        <svg
+                                            fill="none"
+                                            stroke="red"
+                                            viewbox="0 0 24 24"
+                                            width="30px"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M6 18L18 6M6 6l12 12"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            ></path>
+                                        </svg>
+
+                                    {% endif %}
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-center">
+                                <div class="text-black  text-center">
+                                    {% if list.other == true %}
+
+                                    <svg
+                                        fill="none"
+                                        stroke="green"
+                                        viewbox="0 0 24 24"
+                                        width="30px"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                        ></path>
+                                    </svg>
+
+                                {% endif %}
+
+                                {% if list.other == false %}
+                                    <svg
+                                        fill="none"
+                                        stroke="red"
+                                        viewbox="0 0 24 24"
+                                        width="30px"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M6 18L18 6M6 6l12 12"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                        ></path>
+                                    </svg>
+
+                                {% endif %}
+                                </div>
+                            </td>
+                        </tr>
+
+                        {%- endfor -%}
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
