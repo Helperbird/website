@@ -1,5 +1,5 @@
 ---
-new: false
+new: true
 header: true
 layout: templates/user_profile.liquid
 title: Dr Bonnie Shaver-Troup, EdD | Helperbird Partner

@@ -1,5 +1,5 @@
 ---
-new: false
+new: true
 header: true
 layout: templates/user_profile.liquid
 title: Jim Sprialis of Sprialis consulting | Helperbird Partner

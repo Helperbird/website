@@ -1,5 +1,5 @@
 ---
-new: false
+new: true
 header: true
 layout: templates/user_profile.liquid
 title: Sascha Roos MA, HDGC | Helperbird Partner
