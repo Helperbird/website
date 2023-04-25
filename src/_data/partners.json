@@ -5,14 +5,16 @@
 			"img": "/assets/images/partners/jim.jpeg",
 			"des": "Sprialis Consulting offers expert advice, presentations, professional development programs and training and support in a broad portfolio of inclusive technology solutions.",
 			"url": "/partners/sprialisconsulting/",
-			"location": "Australia"
+			"location": "Australia",
+			"website": "https://www.sprialisconsulting.com/"
 		},
 		{
 			"title": "Sascha Roos MA, HDGC",
 			"img": "/assets/images/partners/sasha.jpeg",
 			"des": "An author and dyslexia specialist supporting people with the challenges of dyslexia for over 15 years. She has a well-established private practice, and an approach that encourages the strengths and abilities of the dyslexic individual.                ",
 			"url": "/partners/sascharoos/",
-			"location": "Ireland"
+			"location": "Ireland",
+			"website": "http://dyslexiasupport.ie/about/"
 		}
 		,
 		{
@@ -20,7 +22,8 @@
 			"img": "/assets/images/partners/bonnie.jpeg",
 			"des": "In 2017 Bonnie began working with Google to design an online variable-font solution that would ultimately give the reader complete control over their own reading experience and improve retention and comprehension.",
 			"url": "/partners/bonnie-shaver-troup/",
-			"location": "United States"
+			"location": "United States",
+			"website": "https://www.lexend.com"
 		}
 	]
 }

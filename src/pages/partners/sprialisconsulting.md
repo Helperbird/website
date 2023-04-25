@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/user_profile.liquid
 title: Jim Sprialis of Sprialis consulting | Helperbird Partner
 description:
   Jim Sprialis is a leading influence in the promotion and use of inclusive and assistive
@@ -22,6 +22,7 @@ blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
 cardTitle: Jim Sprialis of Sprialis consulting
 blog_snip: ''
+website: https://www.sprialisconsulting.com/
 ---
 
 ## About
