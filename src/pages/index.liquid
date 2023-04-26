@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/base.html
+layout: templates/base_new.html
 title: Your reading, writing & accessibility assistant
 youtubeId: PfILiWebkuc
 cardTitle:  Your Reading, Writing & Accessbility assistant
@@ -16,13 +16,12 @@ url:
 ---
 
 
-<div>
-  {% include common/hero-home-five.html %}
-  {% include common/features_list.html %}
-  {% include common/features_all.html %}
+
+{% include common/hero-home.html %}
+{% include common/features_list.html %}
+{% include common/features_all.html %}
 
 
-  {% include common/questions.html %}
-  {% include common/reviews.html %}
-  {% include common/cta.html %}
-</div>
+{% include common/questions.html %}
+{% include common/reviews.html %}
+{% include common/cta.html %}
