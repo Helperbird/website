@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="light scroll-smooth" theme="light">
+<html lang="en" class="h-full bg-white scroll-smooth" theme="light">
     <head>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -181,140 +181,281 @@
         </style>
 
     </head>
-    <body class="bg-white " theme="light">
+    <body class="bg-white h-full" theme="light">
         <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
             {% include templates/header.html %}
 
+            <main class="mx-auto max-w-7xl my-8 py-8">
 
-            <div class="relative mx-auto max-w-7xl px-4  sm:px-6 lg:flex lg:px-8 pt-20 pb-20" style="background-color: rgb(246, 245, 231);">
-                <div class="mx-auto max-w-[40rem] lg:mx-0 lg:max-w-none lg:flex-none ">
-                    <ul role="list" class="text-sm leading-6 text-slate-700 lg:sticky  lg:h-screen lg:w-72 lg:overflow-y-auto card bg-white p-8 border-2 border-stone-600">
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-semibold text-slate-900 text-lg">
-                                🏁 Getting started
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
 
-                                {%- for guide in collections.guideFeatures -%}
+                <div class="drawer drawer-mobile gap-x-8">
+                    <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content flex flex-col mx-auto ">
 
+    <div class="sticky top-0 z-40 flex items-center gap-x-6  px-4 py-4 shadow-sm sm:px-6 lg:hidden" >
+                            <label  for="my-drawer-2" type="button" class="btn btn-square">
+                                <svg
+                                class="block h-8 w-8"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                                v-if="showMobileMenu === false"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                />
+                            </svg>
+                            </label>
+                            <div class="flex-1 text-xl font-bold leading-6 text-black"> Help guides</div>
+                        
+                          </div>
+                        <article class="card space-y-7 text-base text-black  bg-white border-stone-600 border-2">
+                            <div class="card-body">
+                             
+          
+
+                     
+        
+        <!--- full content  -->
+        {{ content | safe }}
+                            </div>
+                          </article>
+                    
+                    </div> 
+                    <div class="drawer-side">
+                        <label for="my-drawer-2" class="drawer-overlay"></label> 
+
+                            <!-- Sidebar component, swap this element with another sidebar if you like -->
+                        <div class="flex-grow flex-col gap-y-5 overflow-y-auto bg-indigo-600 px-6 py-6 card">
+<div class="flex">
+
+    <div class="flex-1">
+                                <div class="flex h-16 shrink-0 items-center">
+                                    <img class="h-8 w-auto" src="/assets/images/pwa/logo/full.png" alt="Helperbird">
+                                </div>
+                            </div>
+                            <div class="flex-0">
+                                <label  for="my-drawer-2" type="button" class="btn btn-circle lg:hidden">
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="block h-8 w-8"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                 
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                    />
+                                </svg>
+                                </label>
+                            </div>
+                            </div>
+
+
+                                <nav class="flex flex-1 flex-col">
+                                <ul role="list" class="flex flex-1 flex-col gap-y-7">
                                     <li>
-                                        <a href="{{ guide.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ guide.data.cardTitle }}
-                                        </a>
+                                    <ul role="list" class="-mx-2 space-y-1">
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-bold text-white 900 text-lg">
+                                                🏁 Getting started
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                        
+                                                {%- for guide in collections.guideFeatures -%}
+
+                                            
+                        
+                                                    {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                    {% if  guide.url == page.url %}
+                                                    
+                                                        {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                    {% endif %}
+                                    
+                                                
+
+
+                                                <li>
+                                                    <a href="{{ guide.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                        {{ guide.data.cardTitle }}
+                                                    </a>
+                                                </li>
+
+                                            {%- endfor -%}
+                        
+                                            </ul>
+                                        </li>
+                        
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-bold text-white 900 text-lg">
+                                                🏃 Features
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                                                {%- for features in collections.guideFeaturesMain -%}
+
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  features.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                                    <li>
+                                                        <a href="{{ features.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ features.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                        
+                        
+                                            </ul>
+                                        </li>
+                        
+                        
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-display font-bold text-white 900 text-lg">
+                                                💬 Apps
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                        
+                        
+                                                {%- for apps in collections.guideApps -%}
+                                    
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  apps.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                
+                                            
+
+
+                                            <li>
+                                                        <a href="{{ apps.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ apps.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                                            </ul>
+                                        </li>
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-display font-bold text-white 900 text-lg">
+                                                📱 iPad & iPhone
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                        
+                        
+                                                {%- for account in collections.iOSHelp -%}
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  account.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                
+                                            
+
+
+                                            <li>
+                                                        <a href="{{ account.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ account.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                                            </ul>
+                                        </li>
+                        
+                        
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-bold text-white 900 text-lg">
+                                                📚 Tips & Tricks
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                                                {%- for account in collections.tricksHelp -%}
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  account.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                
+                                            
+
+
+                                            <li>
+                                                        <a href="{{ account.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ account.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                        
+                        
+                                            </ul>
+                                        </li>
+                        
+                        
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-bold text-white 900 text-lg">
+                                                👤 My Account
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                                                {%- for account in collections.guideAccounts -%}
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  account.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                
+                                            
+
+
+                                            <li>
+                                                        <a href="{{ account.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ account.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                        
+                        
+                                            </ul>
+                                        </li>
+                                    </ul>
                                     </li>
-
-                                {%- endfor -%}
-
-                            </ul>
-                        </li>
-
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-semibold text-slate-900 text-lg">
-                                🏃 Features
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
-                                {%- for features in collections.guideFeaturesMain -%}
-
-                                    <li>
-                                        <a href="{{ features.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ features.data.cardTitle }}
-                                        </a>
-                                    </li>
-
-                                {%- endfor -%}
+                            
+                                
+                                </ul>
+                                </nav>
+                        </div>
+                                    
+                    </div>
+                  </div>
 
 
-                            </ul>
-                        </li>
 
 
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-display font-medium text-slate-900 text-lg">
-                                💬 Apps
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
+        
+        
+              </main>
 
 
-                                {%- for apps in collections.guideApps -%}
 
-                                    <li>
-                                        <a href="{{ apps.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ apps.data.cardTitle }}
-                                        </a>
-                                    </li>
-
-                                {%- endfor -%}
-                            </ul>
-                        </li>
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-display font-medium text-slate-900 text-lg">
-                                📱 iPad & iPhone
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
+  
 
 
-                                {%- for account in collections.iOSHelp -%}
-
-                                    <li class="relative">
-                                        <a href="{{ account.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ account.data.cardTitle }}
-                                        </a>
-                                    </li>
-
-                                {%- endfor -%}
-                            </ul>
-                        </li>
 
 
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-semibold text-slate-900 text-lg">
-                                📚 Tips & Tricks
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
-                                {%- for account in collections.tricksHelp -%}
-
-                                    <li class="relative">
-                                        <a href="{{ account.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ account.data.cardTitle }}
-                                        </a>
-                                    </li>
-
-                                {%- endfor -%}
-
-
-                            </ul>
-                        </li>
-
-
-                        <li class="mt-4 mb-4">
-                            <h2 class="font-semibold text-slate-900 text-lg">
-                                👤 My Account
-                            </h2>
-                            <ul role="list" class="mt-4 space-y-2 border-l border-slate-200 pl-6 text-sm">
-                                {%- for account in collections.guideAccounts -%}
-
-                                    <li class="relative">
-                                        <a href="{{ account.url }}" aria-current="page" class="link-hover link link-primary  no-underline decoration-pink-500 hover:underline hover:decoration-wavy">
-                                            {{ account.data.cardTitle }}
-                                        </a>
-                                    </li>
-
-                                {%- endfor -%}
-
-
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="mx-auto min-w-0 max-w-[40rem] lg:mr-0 lg:ml-8 lg:max-w-[50rem] lg:flex-auto prose prose-slate card bg-white p-8
-				border-2 border-stone-600">
-                    <h1 class="font-display text-3xl tracking-tight text-slate-900 mb-8">
-                        <span class="text-xl text-pink-600 block mb-2"> Helperbird help guide</span>
-                        {{ cardTitle }}
-                    </h1>
-                    {{ content | safe }}
-                </div>
-            </div>
 
 
             {% include templates/footer.html %}

@@ -8,7 +8,12 @@ module.exports = {
 		'./src/**/**/*.njk',
 		'./src/assets/js/**/*.js'
 	],
+	variants: {
+		extend: {
+		  backgroundColor: ['active']
 
+		}
+	},
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		fontSize: {
