@@ -15,6 +15,7 @@ cardTitle: Change my email
 featureDescription: Learn how to change the email in your Helperbird account.
 tags: guideAccounts
 url: help/how-to-change-my-email/
+redirect_from: /support/how-to-change-my-email/
 ---
 
 

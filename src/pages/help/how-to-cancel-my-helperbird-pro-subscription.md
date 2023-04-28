@@ -15,6 +15,7 @@ cardTitle: Cancel my Helperbird subscription
 featureDescription: Discover how to cancel your Helperbird Pro subscription.
 tags: guideAccounts
 url: help/how-to-cancel-my-helperbird-pro-subscription/
+redirect_from: [/support/cancel/,/support/how-to-cancel-my-helperbird-pro-subscription/]
 ---
 
 

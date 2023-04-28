@@ -16,6 +16,7 @@ featureDescription: Learn how to use the annotate/ sticky notes feature of the H
 date: 2016-01-03
 tags: guideFeaturesMain
 url: help/how-to-annotate-any-website-with-sticky-notes/
+redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 ---
 
 

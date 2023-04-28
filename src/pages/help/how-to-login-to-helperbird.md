@@ -16,7 +16,7 @@ featureDescription: Discover how to login to Helperbird to access your Pro featu
 tags: guideFeatures
 date: 2016-01-01
 url: help/how-to-login-to-helperbird/
-redirect_from: /login/
+redirect_from: [/login/,/support/how-to-login-into-helperbird/]
 ---
 
 
