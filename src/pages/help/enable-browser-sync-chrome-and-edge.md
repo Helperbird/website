@@ -18,6 +18,8 @@ tags: guideFeatures
 url: help/enable-browser-sync-chrome-and-edge/
 ---
 
+
+
 ## Why Helperbird uses sync
 Helperbird uses the built in sync feature to get access to your email your signed into the browser with.
 
