@@ -191,29 +191,36 @@
 		<meta content="#ffffff" name="msapplication-TileColor" />
 		<meta content="/assets/images/social/browserconfig.xml" name="msapplication-config" />
 		<style>
+
+
 			.header_background {
 				background-color: rgb(246, 245, 231);
 			}
+
+			.helperbird-background-color{
+				background-color: rgb(246, 245, 231) !important;
+			}
+
 			.arrow-spin {
-    width: 200px;
-    margin: auto;
-    fill: red;
-    color: red;
-    transform: rotate(89deg);
-  }
+				width: 200px;
+				margin: auto;
+				fill: red;
+				color: red;
+				transform: rotate(89deg);
+			}
 </style>
 
 	</head>
 
-	<body>
-		<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
+	<body  class="helperbird-background-color">
+	<div id="helperbird-website">
 			{% if header == true %}
 				{% include templates/header.html %}
 			{% endif %}
-			<main class="mx-auto max-w-7xl">
-				<div class="bg-grey-lighter flex min-h-screen items-stretch pt-12 pb-12">
+			<main class="mx-auto max-w-7xl pt-12 pb-12">
+				
 					{{ content | safe }}
-				</div>
+		
 			</main>
 			{% include templates/footer.html %}
 		</div>
