@@ -23,6 +23,7 @@ tags:
   - accessibility
 link: reading
 url: features/shortcuts/
+redirect_from: [/support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefox-edge/]
 ---
 
 

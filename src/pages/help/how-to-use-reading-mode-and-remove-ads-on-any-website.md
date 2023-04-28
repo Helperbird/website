@@ -16,6 +16,7 @@ featureDescription: Discover how to use Reading Mode in any browser for websites
 date: 2022-03-01
 tags: guideFeaturesMain
 url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
+redirect_from: [/support/how-to-use-reading-mode-in-google-chrome-firefox-edge/,/support/how-to-use-reading-mode-to-remove-website-distractions-in-chrome-firefox-edge/]
 ---
 
 

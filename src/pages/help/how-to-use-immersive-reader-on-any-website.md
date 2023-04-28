@@ -17,6 +17,7 @@ featureDescription:
 date: 2021-01-04
 tags: guideFeaturesMain
 url: help/how-to-use-immersive-reader-on-any-website/
+redirect_from: /support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
 ---
 
 ## How to use Immersive reader on a website or PDF
