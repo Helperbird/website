@@ -3,6 +3,24 @@
 
 	"new":[
 		{
+  "version": "104.0.1",
+  "date": "May 17th 2023",
+  "changes": [
+    "Improved Navigation: The bottom navigation has been divided into Writing, Reading, and Accessibility categories for easier access to specific features.",
+    "Enhanced Math Support: Helperbird now includes Maths Solving Support and Immersive Reader Support for Maths, providing assistance and an immersive reading experience for mathematical content.",
+    "Expanded File Format Support: Helperbird now supports Epub files, allowing users to access and read electronic books in that format. Additionally, offline support is now available, enabling users to utilize Helperbird even without an internet connection.",
+    "Enhanced PDF Tools: The PDF reader in Helperbird now offers new tools such as next page and back options, improving the overall reading experience for PDF documents.",
+    "Improved User Interface: Helperbird has undergone UI improvements to provide a smoother and more user-friendly experience, making it easier for new users to get accustomed to the tool.",
+    "Faster Search: Helperbird now includes a fast search feature, enabling users to quickly find specific functionalities or settings within the tool.",
+    "Optimized Resource Usage: Helperbird has been optimized to reduce its resource consumption, resulting in improved performance and a more efficient user experience."
+  ],
+  "fixes": [
+    "Over 30 Major Fixes and Improvements: Version 104.0.1 includes a significant number of bug fixes and overall enhancements, addressing reported issues and refining the functionality of Helperbird.",
+    "UI Fixes: The user interface has undergone fixes and improvements to enhance its usability and visual appeal.",
+    "New Notification Bell: A new notification bell feature has been added to Helperbird, providing users with easy access to important notifications and updates."
+  ]
+},
+		{
 			"version": "102.8.0",
 			"date": "April 12th 2023",
 			"changes":[
