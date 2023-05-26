@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 
 url: blog/importance-dyslexia-friendly-design-websites-apps/
-img: /assets/images/blog/new-blog-2022/accessible-social-media.png
+img: /assets/images/blog/new-blog-2022/importance-dyslexia-friendly-design-websites-apps.png
 name: 'Helperbird staff'
 date: Created
 time: '5 min'
