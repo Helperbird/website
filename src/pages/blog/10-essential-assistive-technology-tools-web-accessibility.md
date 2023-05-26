@@ -11,7 +11,7 @@ keywords:
   OpenDyslexic
 
 url: blog/10-essential-assistive-technology-tools-web-accessibility/
-img: /assets/images/blog/new-blog-2022/accessible-social-media.png
+img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
 name: 'Helperbird staff'
 date: Created
 time: '5 min'
