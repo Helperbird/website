@@ -2,6 +2,21 @@
 
 
 	"new":[
+		
+		{
+  "version": "104.0.2",
+  "date": "May 30th 2023",
+  "changes": [
+    "Font Preview: In this update, users are now able to preview fonts before selecting them. This feature helps to ensure the chosen font is to the user's liking and suitability.",
+    "Quick Actions Translation: We've made improvements to the Quick Actions area. Users can now conveniently perform translations without any issues, making multilingual accessibility more efficient.",
+    "Added More Color Options: We've expanded the color options available across all features. With over 15 colors to choose from, users can now personalize their Helperbird experience to suit their preferences.",
+    "Replaced Selects With Buttons: To provide a more user-friendly and intuitive interface, all select options have been replaced with buttons."
+  ],
+  "fixes": [
+    "Fixed Translation in Quick Actions: The issue with translation through the quick actions area has been addressed and resolved, making the tool more reliable and easy to use.",
+    "Minor Fixes and Improvements: This version includes a range of small fixes and improvements that enhance the overall user experience and functionality of Helperbird."
+  ]
+},
 		{
   "version": "104.0.1",
   "date": "May 17th 2023",
