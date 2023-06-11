@@ -23,7 +23,7 @@ url: pricing/
 
   <div class="mx-auto max-w-4xl text-center header__helperbird_single__tagline">
 
-  <a class="font-bold tracking-tight text-white text-xl" :href="priceDetails.studentLink" target="_blank">Students click here to get Helperbird for <span>$40</span> a year</a>
+  <a class="font-bold tracking-tight text-white text-xl" :href="priceDetails.studentLink + '?prefilled_promo_code=helperbird33'" target="_blank">Students click here to get Helperbird for <span>$40</span> a year</a>
 </div>
 
   <p class="mt-10 text-2xl leading-8 text-black mx-auto text-center">
@@ -230,7 +230,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.monthly.pro">6.99</span>
+          <span v-html="priceDetails.monthly.pro - (priceDetails.monthly.pro / 3)">4.84</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
@@ -241,7 +241,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.yearly.pro">6.99</span>
+          <span v-html="priceDetails.yearly.pro - (priceDetails.yearly.pro / 3)">40.00</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
@@ -250,7 +250,7 @@ url: pricing/
       <a
         href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
         v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
-        :href="priceDetails.yearly.proLink"
+        :href="priceDetails.yearly.proLink + '?prefilled_promo_code=helperbird33'"
         class="mt-6 btn-wide  btn-base btn btn-primary hidden">
         <span class="sr-only">Try for free</span>
         Start Free trial
@@ -260,7 +260,7 @@ url: pricing/
       <a
         href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
         v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-        :href="priceDetails.monthly.proLink"
+        :href="priceDetails.monthly.proLink + '?prefilled_promo_code=helperbird33'"
         class="mt-6 btn-wide  btn-base btn btn-primary">
         <span class="sr-only">Try for free</span>
         Start Free trial
@@ -510,7 +510,7 @@ url: pricing/
       <a
         href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
         v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-        :href="priceDetails.monthly.unlimitedLink"
+        :href="priceDetails.monthly.unlimitedLink "
         class="btn btn-primary btn-wide mt-6 ">Start Free Trial</a>
 
       <a
