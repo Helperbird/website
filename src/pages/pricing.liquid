@@ -41,7 +41,7 @@ url: pricing/
       <button
         class="cursor-pointer rounded-full px-2.5 py-1"
         type="button"
-        @click="switchType"
+        @click="isYearly = !isYearly"
         v-bind:class="!isYearly ? 'bg-indigo-600 text-white' : 'text-black-500'">
 
         <span>Monthly</span>
@@ -52,7 +52,7 @@ url: pricing/
       <button
         class="cursor-pointer rounded-full px-2.5 py-1"
         type="button"
-        @click="switchType"
+        @click="isYearly = !isYearly"
         v-bind:class="isYearly ? 'bg-indigo-600 text-white' : 'text-black-500'">
 
         <span>Annually</span>
