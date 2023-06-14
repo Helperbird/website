@@ -263,7 +263,7 @@
                                     <li>
                                     <ul role="list" class="-mx-2 space-y-1">
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 🏁 Getting started
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
@@ -293,7 +293,7 @@
                                         </li>
                         
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 🏃 Features
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
@@ -317,9 +317,37 @@
                                             </ul>
                                         </li>
                         
+                                        <li class="mt-4 mb-4">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
+                                                💬 Admin tools
+                                            </h2>
+                                            <ul role="list" class="mt-4 space-y-2    text-base">
+                        
+                        
+                                                {%- for apps in collections.adminTools -%}
+                                    
+                        
+                                                {% assign custom_classes = 'text-indigo-200 hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% if  apps.url == page.url %}
+                                                
+                                                    {% assign custom_classes = 'text-white bg-indigo-700 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold ' %}
+                                                {% endif %}
+                                
+                                            
+
+
+                                            <li>
+                                                        <a href="{{ apps.url }}" aria-current="page" class="{{ custom_classes }}">
+                                                            {{ apps.data.cardTitle }}
+                                                        </a>
+                                                    </li>
+                        
+                                                {%- endfor -%}
+                                            </ul>
+                                        </li>
                         
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-display font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 💬 Apps
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
@@ -347,7 +375,7 @@
                                             </ul>
                                         </li>
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-display font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 📱 iPad & iPhone
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
@@ -376,7 +404,7 @@
                         
                         
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 📚 Tips & Tricks
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
@@ -405,7 +433,7 @@
                         
                         
                                         <li class="mt-4 mb-4">
-                                            <h2 class="font-bold text-white 900 text-lg">
+                                            <h2 class="font-display font-bold text-white 900 text-lg mt-8">
                                                 👤 My Account
                                             </h2>
                                             <ul role="list" class="mt-4 space-y-2    text-base">
