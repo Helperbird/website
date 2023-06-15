@@ -26,7 +26,7 @@ url: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 1. In the Admin console Home page, go to Devices > Chrome > Apps & Extensions.
 
 ## Step 3: Allow the Helperbird Extension
-1. In the "Users & Browsers" section, select the organizational unit you want to configure.
-2. Click on the + button (Yellow circle at the bottom right).
-3. In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme` which is the ID of the Helperbird extension.
-4. Click Save.
+- In the "Users & Browsers" section, select the organizational unit you want to configure.
+- Click on the + button (Yellow circle at the bottom right).
+- In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme` which is the ID of the Helperbird extension.
+- Click Save.

@@ -25,8 +25,8 @@ url: help/pinning-helperbird-for-all-users/
 Navigate from your G Suite Admin console Home page to Devices > Chrome > Apps & Extensions.
 
 ## Step 2: Pin Helperbird for All Users
-1. Select the organizational unit you want to configure.
-2. Next to "Apps & Extensions", click on the + button (Yellow circle at the bottom right).
-3. In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme`.
-4. In the "Pin to taskbar" drop-down list, select Pin.
-5. Click Save.
+- Select the organizational unit you want to configure.
+- Next to "Apps & Extensions", click on the + button (Yellow circle at the bottom right).
+- In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme`.
+- In the "Pin to taskbar" drop-down list, select Pin.
+- Click Save.

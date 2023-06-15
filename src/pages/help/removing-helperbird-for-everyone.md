@@ -25,7 +25,7 @@ url: help/removing-helperbird-for-everyone/
 Access your G Suite Admin console Home page and navigate to Devices > Chrome > Apps & Extensions.
 
 ## Step 2: Remove Helperbird for Everyone
-1. Select the organizational unit you want to configure.
-2. Find the Helperbird extension (ID: `ahmapmilbkfamljbpgphfndeemhnajme`) in the list of Apps & Extensions.
-3. Click on the Trash bin icon next to it.
-4. Confirm the deletion by clicking Remove.
+- Select the organizational unit you want to configure.
+- Find the Helperbird extension (ID: `ahmapmilbkfamljbpgphfndeemhnajme`) in the list of Apps & Extensions.
+- Click on the Trash bin icon next to it.
+- Confirm the deletion by clicking Remove.

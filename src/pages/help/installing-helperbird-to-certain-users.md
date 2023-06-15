@@ -23,8 +23,8 @@ url: help/installing-helperbird-to-certain-users/
 From your G Suite Admin console Home page, go to Devices > Chrome > Apps & Extensions.
 
 ## Step 2: Install Helperbird to Specific Users
-1. Select the organizational unit you want to configure.
-2. Click on the + button (Yellow circle at the bottom right).
-3. In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme`.
-4. In the "Installation policy" drop-down list, select Allow install.
-5. Click Save.
+- Select the organizational unit you want to configure.
+- Click on the + button (Yellow circle at the bottom right).
+- In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme`.
+- In the "Installation policy" drop-down list, select Allow install.
+- Click Save.
