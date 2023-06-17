@@ -2,7 +2,35 @@
 
 
 	"new":[
-		
+		{
+			"version": "104.0.5",
+			"date": "June 17th 2023",
+			"changes": [
+			  "Drag and Drop Format: The new update provides a drag and drop format to offer more convenience and enhance the user experience. Users can now easily drag and drop elements, making navigation within the platform more intuitive.",
+			  "Open PDF Toggle: The newly introduced toggle feature now allows users to open PDFs directly in the PDF reader, simplifying document handling and increasing user efficiency.",
+			  "Ruler Settings: A newly introduced feature allows users to change the color of the ruler based on their selected settings, adding a personalized touch to their Helperbird experience.",
+			  "Reading Mode Enhancements: We've solved an overflow issue on titles in Reading mode, offering a smoother, distraction-free reading experience for users.",
+			  "PDF Reader Update: A fix has been implemented to handle file overflows in the PDF reader, ensuring a seamless document viewing experience.",
+			  "Color Preservations in Shadow DOM: We've addressed an issue where colors were being lost in the Shadow DOM, ensuring consistent and accurate color representation across all components.",
+			  "Speed Reading Feature: The color initiation issue in the Speed Reading feature has been resolved. Furthermore, the entire Speed Reading feature has been rebuilt to enhance functionality and provide a smoother user experience.",
+			  "UI Improvements: A design update has removed the grey bar around the toolbar to provide a cleaner, more streamlined interface. Additionally, the footer positioning has been optimized for better layout balance.",
+			  "Accessibility Audit: We've performed an accessibility audit to ensure the platform is user-friendly and compliant with accessibility standards, making Helperbird more inclusive for all users.",
+			  "Text-to-Speech (TTS) and Word Prediction Updates: The TTS feature now has improved voice update responsiveness. We've addressed an issue with color highlighting on change. Moreover, the Word Prediction feature has been refined for better performance. We've resolved the issue where the word prediction was adding a word three times in Google Docs.",
+			  "iPad Compatibility: The issue where the dictionary feature was not functioning on iPad has been addressed and resolved. Now all iOS users can leverage the full functionality of Helperbird.",
+			  "Z-Index Updates: We've addressed z-index issues on sliders and badges, ensuring a more smooth and consistent user interface.",
+			  "Sticky Notes Customization: Users can now customize sticky notes, adding another layer of personalization to their Helperbird experience.",
+			  "Configuration Settings: All color choices have now been moved to a centralized configuration setting, enabling easier and more intuitive color customization."
+			],
+			"fixes": [
+			  "Fixed a variety of bugs including a major one that prevented the customization of sticky notes. A bug related to the speed reading feature overflow has been resolved, allowing users to read at high speed without any visual overflow issues.",
+			  "Resolved a glitch where text-to-speech wasn't automatically updating voices, ensuring users always have access to the most current and natural-sounding voices.",
+			  "Addressed a bug that affected dictionary function on iPads, ensuring consistent functionality across devices.",
+			  "Fixed z-index issues on sliders and badges, resulting in a smoother, more visually consistent user experience.",
+			  "Rectified a bug where text-to-speech color highlighting didn't function upon change, enhancing readability and user interaction.",
+			  "Fixed an issue with the word prediction feature in Google Docs where it added a word three times, ensuring accurate and efficient predictive text."
+			]
+		  }
+		  
 		{
   "version": "104.0.2",
   "date": "May 30th 2023",
