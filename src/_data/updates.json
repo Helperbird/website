@@ -1,86 +1,81 @@
 {
-
-
-	"new":[
+	"new": [
 		{
 			"version": "104.0.5",
 			"date": "June 17th 2023",
 			"changes": [
-			  "Drag and Drop Format: The new update provides a drag and drop format to offer more convenience and enhance the user experience. Users can now easily drag and drop elements, making navigation within the platform more intuitive.",
-			  "Open PDF Toggle: The newly introduced toggle feature now allows users to open PDFs directly in the PDF reader, simplifying document handling and increasing user efficiency.",
-			  "Ruler Settings: A newly introduced feature allows users to change the color of the ruler based on their selected settings, adding a personalized touch to their Helperbird experience.",
-			  "Reading Mode Enhancements: We've solved an overflow issue on titles in Reading mode, offering a smoother, distraction-free reading experience for users.",
-			  "PDF Reader Update: A fix has been implemented to handle file overflows in the PDF reader, ensuring a seamless document viewing experience.",
-			  "Color Preservations in Shadow DOM: We've addressed an issue where colors were being lost in the Shadow DOM, ensuring consistent and accurate color representation across all components.",
-			  "Speed Reading Feature: The color initiation issue in the Speed Reading feature has been resolved. Furthermore, the entire Speed Reading feature has been rebuilt to enhance functionality and provide a smoother user experience.",
-			  "UI Improvements: A design update has removed the grey bar around the toolbar to provide a cleaner, more streamlined interface. Additionally, the footer positioning has been optimized for better layout balance.",
-			  "Accessibility Audit: We've performed an accessibility audit to ensure the platform is user-friendly and compliant with accessibility standards, making Helperbird more inclusive for all users.",
-			  "Text-to-Speech (TTS) and Word Prediction Updates: The TTS feature now has improved voice update responsiveness. We've addressed an issue with color highlighting on change. Moreover, the Word Prediction feature has been refined for better performance. We've resolved the issue where the word prediction was adding a word three times in Google Docs.",
-			  "iPad Compatibility: The issue where the dictionary feature was not functioning on iPad has been addressed and resolved. Now all iOS users can leverage the full functionality of Helperbird.",
-			  "Z-Index Updates: We've addressed z-index issues on sliders and badges, ensuring a more smooth and consistent user interface.",
-			  "Sticky Notes Customization: Users can now customize sticky notes, adding another layer of personalization to their Helperbird experience.",
-			  "Configuration Settings: All color choices have now been moved to a centralized configuration setting, enabling easier and more intuitive color customization."
+				"Drag and Drop Format: The new update provides a drag and drop format to offer more convenience and enhance the user experience. Users can now easily drag and drop elements, making navigation within the platform more intuitive.",
+				"Open PDF Toggle: The newly introduced toggle feature now allows users to open PDFs directly in the PDF reader, simplifying document handling and increasing user efficiency.",
+				"Ruler Settings: A newly introduced feature allows users to change the color of the ruler based on their selected settings, adding a personalized touch to their Helperbird experience.",
+				"Reading Mode Enhancements: We've solved an overflow issue on titles in Reading mode, offering a smoother, distraction-free reading experience for users.",
+				"PDF Reader Update: A fix has been implemented to handle file overflows in the PDF reader, ensuring a seamless document viewing experience.",
+				"Color Preservations in Shadow DOM: We've addressed an issue where colors were being lost in the Shadow DOM, ensuring consistent and accurate color representation across all components.",
+				"Speed Reading Feature: The color initiation issue in the Speed Reading feature has been resolved. Furthermore, the entire Speed Reading feature has been rebuilt to enhance functionality and provide a smoother user experience.",
+				"UI Improvements: A design update has removed the grey bar around the toolbar to provide a cleaner, more streamlined interface. Additionally, the footer positioning has been optimized for better layout balance.",
+				"Accessibility Audit: We've performed an accessibility audit to ensure the platform is user-friendly and compliant with accessibility standards, making Helperbird more inclusive for all users.",
+				"Text-to-Speech (TTS) and Word Prediction Updates: The TTS feature now has improved voice update responsiveness. We've addressed an issue with color highlighting on change. Moreover, the Word Prediction feature has been refined for better performance. We've resolved the issue where the word prediction was adding a word three times in Google Docs.",
+				"iPad Compatibility: The issue where the dictionary feature was not functioning on iPad has been addressed and resolved. Now all iOS users can leverage the full functionality of Helperbird.",
+				"Z-Index Updates: We've addressed z-index issues on sliders and badges, ensuring a more smooth and consistent user interface.",
+				"Sticky Notes Customization: Users can now customize sticky notes, adding another layer of personalization to their Helperbird experience.",
+				"Configuration Settings: All color choices have now been moved to a centralized configuration setting, enabling easier and more intuitive color customization."
 			],
 			"fixes": [
-			  "Fixed a variety of bugs including a major one that prevented the customization of sticky notes. A bug related to the speed reading feature overflow has been resolved, allowing users to read at high speed without any visual overflow issues.",
-			  "Resolved a glitch where text-to-speech wasn't automatically updating voices, ensuring users always have access to the most current and natural-sounding voices.",
-			  "Addressed a bug that affected dictionary function on iPads, ensuring consistent functionality across devices.",
-			  "Fixed z-index issues on sliders and badges, resulting in a smoother, more visually consistent user experience.",
-			  "Rectified a bug where text-to-speech color highlighting didn't function upon change, enhancing readability and user interaction.",
-			  "Fixed an issue with the word prediction feature in Google Docs where it added a word three times, ensuring accurate and efficient predictive text."
+				"Fixed a variety of bugs including a major one that prevented the customization of sticky notes. A bug related to the speed reading feature overflow has been resolved, allowing users to read at high speed without any visual overflow issues.",
+				"Resolved a glitch where text-to-speech wasn't automatically updating voices, ensuring users always have access to the most current and natural-sounding voices.",
+				"Addressed a bug that affected dictionary function on iPads, ensuring consistent functionality across devices.",
+				"Fixed z-index issues on sliders and badges, resulting in a smoother, more visually consistent user experience.",
+				"Rectified a bug where text-to-speech color highlighting didn't function upon change, enhancing readability and user interaction.",
+				"Fixed an issue with the word prediction feature in Google Docs where it added a word three times, ensuring accurate and efficient predictive text."
 			]
-		  }
-		  
+		},
+
 		{
-  "version": "104.0.2",
-  "date": "May 30th 2023",
-  "changes": [
-    "Font Preview: In this update, users are now able to preview fonts before selecting them. This feature helps to ensure the chosen font is to the user's liking and suitability.",
-    "Quick Actions Translation: We've made improvements to the Quick Actions area. Users can now conveniently perform translations without any issues, making multilingual accessibility more efficient.",
-    "Added More Color Options: We've expanded the color options available across all features. With over 15 colors to choose from, users can now personalize their Helperbird experience to suit their preferences.",
-    "Replaced Selects With Buttons: To provide a more user-friendly and intuitive interface, all select options have been replaced with buttons."
-  ],
-  "fixes": [
-    "Fixed Translation in Quick Actions: The issue with translation through the quick actions area has been addressed and resolved, making the tool more reliable and easy to use.",
-    "Minor Fixes and Improvements: This version includes a range of small fixes and improvements that enhance the overall user experience and functionality of Helperbird."
-  ]
-},
+			"version": "104.0.2",
+			"date": "May 30th 2023",
+			"changes": [
+				"Font Preview: In this update, users are now able to preview fonts before selecting them. This feature helps to ensure the chosen font is to the user's liking and suitability.",
+				"Quick Actions Translation: We've made improvements to the Quick Actions area. Users can now conveniently perform translations without any issues, making multilingual accessibility more efficient.",
+				"Added More Color Options: We've expanded the color options available across all features. With over 15 colors to choose from, users can now personalize their Helperbird experience to suit their preferences.",
+				"Replaced Selects With Buttons: To provide a more user-friendly and intuitive interface, all select options have been replaced with buttons."
+			],
+			"fixes": [
+				"Fixed Translation in Quick Actions: The issue with translation through the quick actions area has been addressed and resolved, making the tool more reliable and easy to use.",
+				"Minor Fixes and Improvements: This version includes a range of small fixes and improvements that enhance the overall user experience and functionality of Helperbird."
+			]
+		},
 		{
-  "version": "104.0.1",
-  "date": "May 17th 2023",
-  "changes": [
-    "Improved Navigation: The bottom navigation has been divided into Writing, Reading, and Accessibility categories for easier access to specific features.",
-    "Enhanced Math Support: Helperbird now includes Maths Solving Support and Immersive Reader Support for Maths, providing assistance and an immersive reading experience for mathematical content.",
-    "Expanded File Format Support: Helperbird now supports Epub files, allowing users to access and read electronic books in that format. Additionally, offline support is now available, enabling users to utilize Helperbird even without an internet connection.",
-    "Enhanced PDF Tools: The PDF reader in Helperbird now offers new tools such as next page and back options, improving the overall reading experience for PDF documents.",
-    "Improved User Interface: Helperbird has undergone UI improvements to provide a smoother and more user-friendly experience, making it easier for new users to get accustomed to the tool.",
-    "Faster Search: Helperbird now includes a fast search feature, enabling users to quickly find specific functionalities or settings within the tool.",
-    "Optimized Resource Usage: Helperbird has been optimized to reduce its resource consumption, resulting in improved performance and a more efficient user experience."
-  ],
-  "fixes": [
-    "Over 30 Major Fixes and Improvements: Version 104.0.1 includes a significant number of bug fixes and overall enhancements, addressing reported issues and refining the functionality of Helperbird.",
-    "UI Fixes: The user interface has undergone fixes and improvements to enhance its usability and visual appeal.",
-    "New Notification Bell: A new notification bell feature has been added to Helperbird, providing users with easy access to important notifications and updates."
-  ]
-},
+			"version": "104.0.1",
+			"date": "May 17th 2023",
+			"changes": [
+				"Improved Navigation: The bottom navigation has been divided into Writing, Reading, and Accessibility categories for easier access to specific features.",
+				"Enhanced Math Support: Helperbird now includes Maths Solving Support and Immersive Reader Support for Maths, providing assistance and an immersive reading experience for mathematical content.",
+				"Expanded File Format Support: Helperbird now supports Epub files, allowing users to access and read electronic books in that format. Additionally, offline support is now available, enabling users to utilize Helperbird even without an internet connection.",
+				"Enhanced PDF Tools: The PDF reader in Helperbird now offers new tools such as next page and back options, improving the overall reading experience for PDF documents.",
+				"Improved User Interface: Helperbird has undergone UI improvements to provide a smoother and more user-friendly experience, making it easier for new users to get accustomed to the tool.",
+				"Faster Search: Helperbird now includes a fast search feature, enabling users to quickly find specific functionalities or settings within the tool.",
+				"Optimized Resource Usage: Helperbird has been optimized to reduce its resource consumption, resulting in improved performance and a more efficient user experience."
+			],
+			"fixes": [
+				"Over 30 Major Fixes and Improvements: Version 104.0.1 includes a significant number of bug fixes and overall enhancements, addressing reported issues and refining the functionality of Helperbird.",
+				"UI Fixes: The user interface has undergone fixes and improvements to enhance its usability and visual appeal.",
+				"New Notification Bell: A new notification bell feature has been added to Helperbird, providing users with easy access to important notifications and updates."
+			]
+		},
 		{
 			"version": "102.8.0",
 			"date": "April 12th 2023",
-			"changes":[
+			"changes": [
 				"Sticky notes now play the current text.",
 				"Sticky notes prefill is now the placeholder text.",
 				"Drag and drop support for PDF's in the PDF reader.",
 				"Links to change the sound settings."
 			],
-			"fixes":[
-				"The new Google Docs is supported.",
-				"Student mode is now supported."
-			]
-		},	
+			"fixes": ["The new Google Docs is supported.", "Student mode is now supported."]
+		},
 		{
 			"version": "102.7.9",
 			"date": "March 29th 2023",
-			"changes":[
+			"changes": [
 				"Sticky notes now have a new look.",
 				"Sticky notes are keyboard accessible.",
 				"Sticky notes can now read out loud.",
@@ -90,26 +85,20 @@
 				"OCR reads text out loud by default.",
 				"Helperbird shows the welcome screen when you install it."
 			],
-			"fixes":[
-				"Over 20 very minor bug fixes and improvements.",
-				"Defaults to Lexend to the font."
-			]
-		}
-		
-		,{
+			"fixes": ["Over 20 very minor bug fixes and improvements.", "Defaults to Lexend to the font."]
+		},
+
+		{
 			"version": "102.7.8",
 			"date": "March 16th 2023",
-			"changes":[
+			"changes": [
 				"Portuguese (Brazil) language.",
 				"Portuguese (Portuguese) language",
 				"Portuguese support for word prediction.",
 				"Added Bold font support.",
 				"Smoother and quicker loading"
 			],
-			"fixes":[
-				"Over 20 very minor bug fixes and improvements.",
-				"Defaults to Lexend to the font."
-			]
+			"fixes": ["Over 20 very minor bug fixes and improvements.", "Defaults to Lexend to the font."]
 		}
 	],
 
