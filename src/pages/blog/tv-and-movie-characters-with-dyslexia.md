@@ -2,27 +2,16 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Tv and movie characters with dyslexia
-description:
-  Children and adults often look at characters in movies and TV shows to look at for inspiration and
-  to dream. If you or our child is dyslexic, you might be surprised to see the following characters
-  have dyslexia.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: TV and Movie Characters with Dyslexia
+description: Discover inspiring TV and movie characters with dyslexia that can provide inspiration and representation for children and adults with dyslexia.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/tv-and-movie-characters-with-dyslexia/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: Tv and movie characters with dyslexia
-blog_snip:
-  Children and adults often look at characters in movies and TV shows to look at for inspiration and
-  to dream. If you or our child is dyslexic, you might be surprised to see the following characters
-  have dyslexia.
+cardTitle: TV and Movie Characters with Dyslexia
+blog_snip: Children and adults often look at characters in movies and TV shows for inspiration and to dream. If you or your child is dyslexic, you might be surprised to see the following characters who have dyslexia.
 name: Robert James Gabriel
 img: /assets/images/blog/new-blog-2022/film-tv-characters.png
 date: Created

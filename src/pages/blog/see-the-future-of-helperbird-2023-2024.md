@@ -3,31 +3,25 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: Introducing the Next Big Release of Helperbird
-description: We're excited to announce the next big release of Helperbird, set to launch on June 4th. This release includes a host of new features and improvements, such as bottom navigation split into Writing, Reading, and Accessibility, maths solving support, Epub support, and offline support. Plus, there's a new onboarding UI for easier use, over 30 major fixes and improvements, and all features work in PDFs. Try out Helperbird and see how it can transform the way you browse the web.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Get ready for the exciting next big release of Helperbird, launching on June 4th! Discover the host of new features and improvements, including split bottom navigation for Writing, Reading, and Accessibility, maths solving support, Epub support, offline functionality, a new user-friendly onboarding UI, over 30 major fixes and improvements, and full feature compatibility with PDFs. Experience the transformative power of Helperbird in revolutionizing your web browsing experience.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/see-the-future-of-helperbird-2023-2024/
 tags: blog
 isBlog: true
 blog_cat: Announcement
 youtubeId: PfILiWebkuc
 cardTitle: Introducing the Next Big Release of Helperbird
-blog_snip: We're excited to announce the next big release of Helperbird, set to launch on June 4th. This release includes a host of new features and improvements, such as bottom navigation split into Writing, Reading, and Accessibility, maths solving support, Epub support, and offline support. Plus, there's a new onboarding UI for easier use, over 30 major fixes and improvements, and all features work in PDFs. Try out Helperbird and see how it can transform the way you browse the web.
-
+blog_snip: Get ready for the exciting next big release of Helperbird, launching on June 4th! Discover the host of new features and improvements, including split bottom navigation for Writing, Reading, and Accessibility, maths solving support, Epub support, offline functionality, a new user-friendly onboarding UI, over 30 major fixes and improvements, and full feature compatibility with PDFs. Experience the transformative power of Helperbird in revolutionizing your web browsing experience.
 cat: Announcement
 
-des: We're excited to announce the next big release of Helperbird, set to launch on June 4th. This release includes a host of new features and improvements, such as bottom navigation split into Writing, Reading, and Accessibility, maths solving support, Epub support, and offline support. Plus, there's a new onboarding UI for easier use, over 30 major fixes and improvements, and all features work in PDFs. Try out Helperbird and see how it can transform the way you browse the web.
+des: Get ready for the exciting next big release of Helperbird, launching on June 4th! Discover the host of new features and improvements, including split bottom navigation for Writing, Reading, and Accessibility, maths solving support, Epub support, offline functionality, a new user-friendly onboarding UI, over 30 major fixes and improvements, and full feature compatibility with PDFs. Experience the transformative power of Helperbird in revolutionizing your web browsing experience.
 
 name: Robert James Gabriel
-
 date: Created
 img: /assets/images/graph/twitter.png
 time: 3 min
 ---
+
 
 We're excited to announce the next big release of [Helperbird](https://www.helperbird.com/), the popular accessibility extension that helps users customize their browsing experience to meet their unique needs. This release, set to launch on June 4th, includes a host of new features and improvements that make Helperbird even more versatile and user-friendly than ever before. Let's take a closer look at what's in store.
 

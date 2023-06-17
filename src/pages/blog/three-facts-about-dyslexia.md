@@ -3,13 +3,8 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: 3 Facts about Dyslexia and 1 Fact about Cats
-description: Despite popular belief, dyslexics do not see letters backwards.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Discover three facts about dyslexia and one interesting fact about cats.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/three-facts-about-dyslexia/
 tags: blog
 isBlog: true
@@ -18,11 +13,8 @@ youtubeId: PfILiWebkuc
 cardTitle: 3 Facts about Dyslexia and 1 Fact about Cats
 blog_snip: Despite popular belief, dyslexics do not see letters backwards.
 cat: Facts
-
-des: 3 Facts about Dyslexia and 1 Fact about Cats
-
+des: Discover three facts about dyslexia and one interesting fact about cats.
 name: Robert James
-
 date: Created
 img: /assets/images/blog/extra/crash-the-cat.png
 time: 7 min

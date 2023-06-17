@@ -3,32 +3,22 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: Top Productivity Extensions for Safari
-description:
-  As a business owner, you already know that the key to success is efficiency. You need to be able
-  to get the job done quickly and accurately, in order to maximize your time and resources.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Discover the top productivity extensions for Safari that can help business owners maximize efficiency, save time, and streamline their tasks.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/top-productivity-extensions-for-safari/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top Productivity Extensions for Safari
-blog_snip:
-  As a business owner, you already know that the key to success is efficiency. You need to be able
-  to get the job done quickly and accurately, in order to maximize your time and resources.
+blog_snip: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources.
 img: /assets/images/blog/new-blog-2022/safari-extensions.png
-des:
-  As a business owner, you already know that the key to success is efficiency. You need to be able
-  to get the job done quickly and accurately, in order to maximize your time and resources.
+des: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources.
 name: June Coffeecups
 date: Created
 time: 4 min
 ---
+
 
 As a business owner, you already know that the key to success is efficiency. You need to be able to
 get the job done quickly and accurately, in order to maximize your time and resources. So it makes

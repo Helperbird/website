@@ -3,35 +3,20 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: How to Avoid WFH Burnout and Maximize Productivity
-description:
-  While working from home looks convenient, the blurred line between home and employment can lead to
-  burnout. In fact, Monsters recent study revealed....
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Learn effective strategies to avoid work-from-home burnout and maximize productivity. Discover practical tips to establish work-life balance, set boundaries, and prioritize self-care for a healthier and more fulfilling remote work experience.
+keywords: Avoid work-from-home burnout, maximize productivity, work-from-home tips, establish work-life balance, set boundaries, prioritize self-care, remote work strategies
 url: blog/how-to-avoid-wfh-burnout-and-maximize-productivity/
 tags: blog
 isBlog: true
-blog_cat: GUEST BLOG
+blog_cat: Guest
 youtubeId: PfILiWebkuc
 cardTitle: How to Avoid WFH Burnout and Maximize Productivity
-blog_snip: While working from home looks convenient, the blurred line between home and employment
-  can lead to burnout. In fact, Monster's recent study revealed that 69% of work-from-home employees
-  are experiencing symptoms of burnout.
-
-  While working from home looks convenient, the blurred line between home and employment can lead to
-  burnout. In fact, Monster's recent study revealed that 69% of work-from-home employees are
-  experiencing symptoms of burnout.
-
-  Luckily, you can be proactive in beating burnout and maximizing your productivity.
-
+blog_snip: While working from home looks convenient, the blurred line between home and employment can lead to burnout. Discover effective strategies to avoid work-from-home burnout and maximize productivity in this comprehensive guide.
 img: /assets/images/blog/new-blog-2022/avoid-burnout.png
+des: While working from home looks convenient, the blurred line between home and employment can lead to burnout. In fact, recent studies have shown that a significant number of remote employees are experiencing symptoms of burnout. In this blog post, we will explore practical strategies to avoid work-from-home burnout and maximize productivity.
 name: Andrew Chu
 date: Created
-time: 11 min
+time: 11 min read
 ---
 
 ## Build a Comfortable Workspace

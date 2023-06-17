@@ -2,30 +2,24 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: How to use Immersive reader on Google Docs
-description: Discover how to use Immersive reader in Google Docs for free.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: How to Use Immersive Reader in Google Docs, Step-by-Step Guide
+description: Learn how to use Immersive Reader in Google Docs for free. Follow our step-by-step guide to enable and utilize this powerful dyslexia software tool.
+keywords: Immersive Reader, Google Docs, dyslexia software, step-by-step guide, accessibility software, Helperbird, dyslexia fonts, dyslexia software, reading mode, text reader, voice typing
 url: blog/how-to-use-immersive-reader-in-google-docs/
 tags: blog
 isBlog: true
 blog_cat: Guide
 youtubeId: PfILiWebkuc
-cardTitle: How to use Immersive reader on Google Docs
-blog_snip: A step by step guide.
+cardTitle: How to Use Immersive Reader in Google Docs, Step-by-Step Guide
+blog_snip: Learn how to use Immersive Reader in Google Docs for free. Follow our step-by-step guide to enable and utilize this powerful dyslexia software tool.
 cat: Guide
-
-des: Discover how to use Immersive reader in Google Docs for free.
-
+des: Discover how to use Immersive Reader in Google Docs for free.
 name: Robert James
 img: /assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png
 date: Created
 time: 10 min
 ---
+
 
 ### You can use Immersive reader in Google docs using Helperbird.
 

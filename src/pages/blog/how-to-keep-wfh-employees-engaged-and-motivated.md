@@ -2,35 +2,24 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: How to Keep WFH Employees Engaged and Motivated
-description:
-  These days, working remotely is no longer uncharted territory. That's why Upwork estimated that
-  more than 26% of the American workforce would work from home by 2021.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: Engaging and Motivating WFH Employees, Strategies for Success
+description: Discover effective strategies for keeping remote employees engaged and motivated. In an era where remote work is becoming increasingly common, Upwork estimates that over 26% of the American workforce will be working from home by 2021.
+keywords: WFH employees, remote work engagement, motivation strategies, working from home, American workforce, Upwork
 url: blog/how-to-keep-wfh-employees-engaged-and-motivated/
 tags: blog
 isBlog: true
 blog_cat: Guest Blog
 youtubeId: PfILiWebkuc
-cardTitle: How to Keep WFH Employees Engaged and Motivated
-blog_snip:
-  These days, working remotely is no longer uncharted territory. That's why Upwork estimated that
-  more than 26% of the American workforce would work from home by 2021.
+cardTitle: Engaging and Motivating WFH Employees, Strategies for Success
+blog_snip: Discover effective strategies for keeping remote employees engaged and motivated. In an era where remote work is becoming increasingly common, Upwork estimates that over 26% of the American workforce will be working from home by 2021.
 cat: Guest blog
-
 img: /assets/images/blog/new-blog-2022/employees-engaged.png
-des:
-  These days, working remotely is no longer uncharted territory. That's why Upwork estimated that
-  more than 26% of the American workforce would work from home by 2021.
+des: These days, working remotely is no longer uncharted territory. That's why Upwork estimates that more than 26% of the American workforce would work from home by 2021.
 name: Andrew Chu
 date: Created
 time: 11 min
 ---
+
 
 These days, working remotely is no longer uncharted territory. That's why Upwork estimated that more
 than [26% of the American workforce](https://www.apollotechnical.com/statistics-on-remote-workers/)

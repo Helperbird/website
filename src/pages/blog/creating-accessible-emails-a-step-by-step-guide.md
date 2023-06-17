@@ -3,29 +3,21 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: An 8-Step Guide to Creating Accessible Emails for Those with Dyslexia
-description: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Learn how to create accessible emails for individuals with dyslexia with this comprehensive 8-step guide. Understand the unique challenges dyslexic people face and discover practical techniques to make your email content more dyslexia-friendly.
+keywords: creating accessible emails, dyslexia-friendly emails, dyslexia and email design, accessible email layout, dyslexia email techniques, email accessibility tips
 url: blog/creating-accessible-emails-a-step-by-step-guide/
 tags: blog
 isBlog: true
 blog_cat: Guest
 youtubeId: PfILiWebkuc
 cardTitle: Guide to Creating Accessible Emails for Those with Dyslexia
-blog_snip:
-  When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
-
+blog_snip: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
 img: /assets/images/blog/new-blog-2022/an-8-step-guide-to-creating-accessible-emails-for-those-with-dyslexia.png
 des: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
 name: Hannah Walters
 date: Created
-time: 4 min
+time: 4 min read
 ---
-
 
 
 When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.

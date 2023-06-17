@@ -2,31 +2,20 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: 4 Ways to be More Accessible on Social Media in 2022
-description:
-  Social media is a massive space of information sources and connections. People are often glued to
-  their phones because they always want to get the latest trending topics. Others simply would want
-  to be entertained by memes or discover and learn new things.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-url: blog/4-ways-to-be-more-accessible-on-social-media/
+title: 4 Ways to Make Social Media More Accessible in 2022
+description: Learn how to improve accessibility on social media platforms to ensure inclusivity and enhance user experience for individuals with disabilities.
+keywords: social media accessibility, image descriptions, video captions, camel case hashtags, emojis, inclusivity, disabilities, accessibility tools
+url: blog/4-ways-to-make-social-media-more-accessible/
 img: /assets/images/blog/new-blog-2022/accessible-social-media.png
-name: 'Helperbird staff'
+name: Helperbird Staff
 date: Created
-time: '5 min'
+time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: 4 Ways to be More Accessible on Social Media in 2022
-blog_snip:
-  Social media is a massive space of information sources and connections. People are often glued to
-  their phones because they always want to get the latest trending topics. Others simply would want
-  to be entertained by memes or discover and learn new things.
+cardTitle: 4 Ways to Make Social Media More Accessible in 2022
+blog_snip: Social media is a massive space of information sources and connections. Learn how to improve accessibility on social media platforms to ensure inclusivity and enhance user experience for individuals with disabilities.
 ---
 
 Social media is a massive space of information sources and connections. People are often glued to

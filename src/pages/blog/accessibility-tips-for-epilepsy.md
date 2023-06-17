@@ -2,37 +2,22 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Accessibility tips for Epilepsy
-description:
-  Web designing is reinventing and there is no better time to do it than now. Having a great and
-  accessible friendly website will not only help people browse with ease but gives the opportunity
-  to people with disabilities to use them more conveniently and enjoyably.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-url: blog/accessibility-tips-for-epilepsy/
+title: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
+description: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
+keywords: assistive technology, web accessibility, dyslexia software, Reading Mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
+url: blog/10-essential-assistive-technology-tools-web-accessibility/
+img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
+name: Helperbird Staff
+date: Created
+time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: Accessibility tips for Epilepsy
-blog_snip:
-  Web designing is reinventing and there is no better time to do it than now. Having a great and
-  accessible friendly website will not only help people browse with ease but gives the opportunity
-  to people with disabilities to use them more conveniently and enjoyably.
-
-img: /assets/images/graph/twitter.png
-des:
-  Web designing is reinventing and there is no better time to do it than now. Having a great and
-  accessible friendly website will not only help people browse with ease but gives the opportunity
-  to people with disabilities to use them more conveniently and enjoyably.
-name: June Coffeecups
-date: Created
-time: 4 min
+cardTitle: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
+blog_snip: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
 ---
+
 
 One of those challenging disability conditions is epilepsy. Epilepsy is one of humanity's oldest
 recognized diseases, which affects roughly 50 million people worldwide (diagnosed in nearly 1

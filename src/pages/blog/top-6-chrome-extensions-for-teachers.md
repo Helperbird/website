@@ -3,32 +3,22 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: Top 6 Chrome Extensions for Teachers
-description:
-  without further ado, below, we are sharing with you six different Chrome extensions that can help
-  any teacher be more efficient and even save them some time in the long run.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Discover the top 6 Chrome extensions that can help teachers be more efficient and save time.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/top-6-chrome-extensions-for-teachers/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top 6 Chrome Extensions for Teachers
-blog_snip:
-  Without further ado, below, we are sharing with you six different Chrome extensions that can help
-  any teacher be more efficient and even save them some time in the long run.
+blog_snip: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
 img: /assets/images/blog/new-blog-2022/chrome-extensions-teachers.png
-des:
-  Without further ado, below, we are sharing with you six different Chrome extensions that can help
-  any teacher be more efficient and even save them some time in the long run.
+des: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
 name: June Coffeecups
 date: Created
 time: 4 min
 ---
+
 
 What do you need to be a successful teacher? Knowledge and experience? Of course. A good memory?
 Sure is impressive! Nice handwriting? Not necessarily but nice to have. However, as more teachers

@@ -3,40 +3,22 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: Top iPad apps for Accessibility
-description:
-  The Internet is a vast resource of information. But what happens when you can't access that
-  information? There are many websites and applications available to help assist those with
-  disabilities—especially those with visual and hearing impairments—access the information they
-  need.
-
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Explore the top iPad apps that assist individuals with disabilities, particularly those with visual and hearing impairments, in accessing information and resources.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/top-ipad-apps-for-accessibility/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top iPad apps for Accessibility
-blog_snip:
-  The Internet is a vast resource of information. But what happens when you can't access that
-  information? There are many websites and applications available to help assist those with
-  disabilities—especially those with visual and hearing impairments—access the information they
-  need.
-
+blog_snip: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
-des:
-  The Internet is a vast resource of information. But what happens when you can't access that
-  information? There are many websites and applications available to help assist those with
-  disabilities—especially those with visual and hearing impairments—access the information they
-  need.
+des: The Internet is a vast resource of information. But what happens when you can't access that information? There are many websites and applications available to help assist those with disabilities—especially those with visual and hearing impairments—access the information they need.
 name: June Coffeecups
 date: Created
 time: 4 min
 ---
+
 
 The Internet is a vast resource of information. But what happens when you can't access that
 information? There are many websites and applications available to help assist those with

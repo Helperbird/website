@@ -2,25 +2,20 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
-description: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, can empower individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-url: blog/10-essential-assistive-technology-tools-web-accessibility/
-img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
-name: 'Helperbird staff'
+title: 6 Famous People with Dyslexia
+description: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
+keywords: dyslexia, famous people with dyslexia, dyslexia software, reading mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
+url: blog/6-famous-people-with-dyslexia/
+name: Helperbird Staff
+img: /assets/images/blog/6-famous-people-with-dyslexia/6-famous-people-with-dyslexia.png
 date: Created
-time: '5 min'
+time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
-blog_snip: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, can empower individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
+cardTitle: 6 Famous People with Dyslexia
+blog_snip: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
 ---
 
 

@@ -2,31 +2,24 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: How a teacher helped me achieve my full potential - Teacher appreciation week
-description:
-  How a teacher helped me achieve my full potential. From droping out of school to starting my own
-  company.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: How a Teacher Helped Me Achieve My Full Potential - Teacher Appreciation Week
+description: Discover the inspiring story of how a teacher helped me overcome challenges, achieve my full potential, and start my own company. Celebrate Teacher Appreciation Week with this heartfelt account.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
 isBlog: true
-blog_cat: APPRECIATION.
+blog_cat: Appreciation
 youtubeId: PfILiWebkuc
-cardTitle: How a teacher helped me achieve my full potential
-blog_snip: From droping out of school to starting my own company.
+cardTitle: How a Teacher Helped Me Achieve My Full Potential
+blog_snip: From dropping out of school to starting my own company, this is the inspiring story of how a teacher played a crucial role in helping me overcome challenges and reach my full potential.
 cat: Essay
-
 img: /assets/images/blog/teacher-appreciation-week-2020-dyslexia-story/teacher-appreciation-week-2020-dyslexia-story.png
-des: From droping out of school to starting my own company.
+des: From dropping out of school to starting my own company, this is the inspiring story of how a teacher played a crucial role in helping me overcome challenges and reach my full potential.
 name: Robert James
 date: Created
 time: 11 min
 ---
+
 
 For anyone who stumbled across this blog post, my name is Robert James. I'm the founder of
 Helperbird. I also have dyslexia. It was one of the reasons I started Helperbird in 2015.

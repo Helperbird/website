@@ -2,46 +2,21 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Best Careers for People with Dyslexia 2021
-description:
-  Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
-  have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood
-  condition. But with the advances in neuroscience, we now know that dyslexia is a cognitive
-  learning disability that affects one’s ability to read, write, and spell—and it has nothing to do
-  with how intelligent a person is. People with dyslexia can be as smart and as capable as their
-  neurotypical peers.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: Best Careers for People with Dyslexia
+description: Discover the best career paths for people with dyslexia and explore how their unique strengths and abilities can excel in various fields. Overcome the misconceptions surrounding dyslexia and embrace the potential for success in fulfilling careers.
+keywords: best careers for people with dyslexia, dyslexia strengths, dyslexia abilities, dyslexia and career choices, dyslexia in the workplace, dyslexia success stories, dyslexia misconceptions
 url: blog/best-careers-for-people-with-dyslexia/
 tags: blog
 isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: PfILiWebkuc
-cardTitle: Best Careers for People with Dyslexia 2021
-blog_snip:
-  Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they
-  have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood
-  condition.
-
-cat: Guest blog
-
-img: /assets/images/blog/best-careers-for-people-with-dyslexia/dyslexic-girl.jpg
-des:
-  Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years they
-  have been inappropriately labeled “dumb” or “lazy” because it was a heavily misunderstood
-  condition. But with the advances in neuroscience we now know that dyslexia is a cognitive learning
-  disability that affects one’s ability to read write and spell—and it has nothing to do with how
-  intelligent a person is. People with dyslexia can be as smart and as capable as their neurotypical
-  peers. Dyslexia isn’t a career sentence or a limitation. In fact there are several career paths
-  that people with dyslexia may excel in.
+cardTitle: Best Careers for People with Dyslexia
+blog_snip: Around 5 to 15 percent of Americans across all demographics have dyslexia. For several years, they have been inappropriately labeled "dumb" or "lazy" because it was a heavily misunderstood condition. But with the advances in neuroscience, we now know that dyslexia is a cognitive learning disability that affects one's ability to read, write, and spell—and it has nothing to do with how intelligent a person is. People with dyslexia can be as smart and as capable as their neurotypical peers. Dyslexia isn't a career sentence or a limitation. In fact, there are several career paths that people with dyslexia may excel in.
 name: Jerrica Borrell
 date: Created
-time: 10 min
+time: 10 min read
 ---
+
 
 Dyslexia isn’t a career sentence or a limitation. In fact, there are several career paths that
 people with dyslexia may excel in.

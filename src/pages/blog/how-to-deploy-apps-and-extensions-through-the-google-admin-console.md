@@ -2,28 +2,23 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: How to deploy Helperbird through the Gsuite Console
-description: Learn how to deploy or install Helperbird in serveal computers at once.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-url: blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/
+title: How to Deploy Helperbird through the G Suite Console
+description: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
+keywords: Deploy Helperbird, G Suite Console, install Helperbird, streamline installation process, accessibility software deployment, multiple computers, step-by-step guide
+url: blog/how-to-deploy-helperbird-through-gsuite-console/
 tags: blog
 isBlog: true
-blog_cat: GUIDE
+blog_cat: Guide
 youtubeId: PfILiWebkuc
-cardTitle: How to deploy Helperbird through the Gsuite Console
-blog_snip: Your step by step guide on how to install and set up Helperbird.
-
+cardTitle: How to Deploy Helperbird through the G Suite Console
+blog_snip: Streamline the deployment process of Helperbird across multiple computers using the G Suite Console. This step-by-step guide will walk you through the installation and setup process, ensuring accessibility for all users.
 img: /assets/images/graph/twitter.png
-des: Your step by step guide on how to install and set up Helperbird.
+des: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
 name: June Coffeecups
 date: Created
-time: 4 min
+time: 4 min read
 ---
+
 
 Click Device management in the Google Admin Console.
 

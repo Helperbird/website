@@ -3,36 +3,23 @@ new: false
 header: true
 layout: templates/blog_post.liquid
 title: Top 5 features of Helperbird to help your students in 2021
-description:
-  Helperbird has over 38 amazing features to choose from to make your class more accessible and
-  productive in 2021 and 2022. We thought we would highlight what has been popular in the past year
-  from teachers and students around the world.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Discover the top 5 features of Helperbird that can make your class more accessible and productive in 2021 and 2022.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/top-five-features-of-helperbird-to-help-your-students-in-2021/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
 cardTitle: Top 5 features of Helperbird to help your students in 2021
-blog_snip:
-  Helperbird has over 38 amazing features to choose from to make your class more accessible and
-  productive in 2021 and 2022. We thought we would highlight what has been popular in the past year
-  from teachers and students around the world.
+blog_snip: Helperbird has over 38 amazing features to choose from to make your class more accessible and productive in 2021 and 2022. We thought we would highlight what has been popular in the past year from teachers and students around the world.
 cat: Blog
-
 img: /assets/images/graph/twitter.png
-des:
-  Helperbird has over 38 amazing features to choose from to make your class more accessible and
-  productive in 2021 and 2022.
+des: Helperbird has over 38 amazing features to choose from to make your class more accessible and productive in 2021 and 2022.
 name: Robert James
 date: Created
 time: 4 min
 ---
+
 
 ![Banner of the Helperbird logo and title of the blog](/assets/images/blog/top-five-features-of-helperbird-to-help-your-students-in-2021/top-five-features-of-helperbird-to-help-your-students-in-2021.png)
 

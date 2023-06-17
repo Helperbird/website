@@ -2,31 +2,18 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Stay on Task, 8 Productivity Tips to Help You Stay Focused at work
-description:
-  Focus is integral in ensuring that we get things done. But every now and then, there is something
-  that is sure to take away your attention.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title:  8 Productivity Tips to Help You Stay Focused at Work
+description: Discover 8 effective productivity tips to help you stay focused at work and improve your efficiency. Learn how to overcome distractions and maintain your concentration to get things done.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
 tags: blog
 isBlog: true
 blog_cat: Guide
 youtubeId: PfILiWebkuc
-cardTitle: Stay on Task, 8 Productivity Tips to Help You Stay Focused at Work
-
-blog_snip:
-  Focus is integral in ensuring that we get things done. But every now and then, there is something
-  that is sure to take away your attention.
-
+cardTitle:  Productivity Tips to Help You Stay Focused at Work
+blog_snip: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 img: /assets/images/blog/new-blog-2022/productivity-tips.png
-des:
-  Focus is integral in ensuring that we get things done. But every now and then, there is something
-  that is sure to take away your attention.
+des: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 name: Andrew Chu
 date: Created
 time: 11 min

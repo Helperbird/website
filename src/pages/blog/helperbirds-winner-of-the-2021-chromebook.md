@@ -2,33 +2,22 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Winner of our Chromebook
-description:
-  In February 2021 we ran a competition to celebrate the start of the new School term, to win a
-  brand new Chromebook and a year of Helperbird Pro.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: Winner of Our Chromebook Giveaway
+description: Discover the winner of our Chromebook giveaway, where participants had the chance to win a brand new Chromebook and a year of Helperbird Pro. Learn more about the competition and celebrate with us.
+keywords: Chromebook giveaway winner, Helperbird giveaway, competition winner announcement, celebrate the winner, Chromebook and Helperbird Pro prize, giveaway celebration
 url: blog/helperbirds-winner-of-the-2021-chromebook/
 tags: blog
 isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: PfILiWebkuc
-cardTitle: Congratulations to our Winner
-blog_snip:
-  In February 2021 we ran a competition to celebrate the start of the new School term, to win a
-  brand new Chromebook and a year of Helperbird Pro.
-
+cardTitle: Congratulations to Our Winner
+blog_snip: In February 2021, we ran a competition to celebrate the start of the new school term, giving participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's time to announce the lucky winner and celebrate their success.
 cat: Blog
-
 img: /assets/images/blog/giveaway/giveaway.jpeg
-des: Rules for the Helperbird giveaway official rules
+des: In February 2021, we ran a competition to celebrate the start of the new school term, giving participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's time to announce the lucky winner and celebrate their success.
 name: Robert James
 date: Created
-time: 10 min
+time: 10 min read
 ---
 
 ## Helperbird chromebook giveaway official rules

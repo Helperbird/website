@@ -2,37 +2,21 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: Interview with Helperbird founder, Robert James Gabriel
-description:
-  People suspected I was dyslexic when I was around 8, but I was officially diagnosed at 15 when I
-  was struggling in school. One of my teachers told my parents that I should just drop out of school
-  and my Mom pursued getting me tested to help find a solution for me. Only 8 months after being
-  diagnosed and starting to get the help I needed, I ended up winning my first technology award.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: Interview with Helperbird Founder, Robert James Gabriel
+description: Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal experience with dyslexia inspired the creation of Helperbird.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: Interview with Helperbird founder, Robert James Gabriel
-blog_snip:
-  At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple
-  extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on
-  webpages that were hard to read.
+cardTitle: Interview with Helperbird Founder, Robert James Gabriel
+blog_snip: Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal experience with dyslexia inspired the creation of Helperbird.
 cat: Interview
 
-des:
-  At my first week Teamwork, I was encourage to build anything I wanted. I decided to make a simple
-  extension for the font OpenDyslexic to help Dyslexic readers like myself have a font option on
-  webpages that were hard to read.
+des: At my first week at Teamwork, I was encouraged to build anything I wanted. I decided to create a simple extension for the font OpenDyslexic to help dyslexic readers like myself have a font option on webpages that were hard to read.
 
 name: Courtney Hood
-
 date: Created
 img: /assets/images/blog/extra/robert-gabriel.png
 time: 7 min
