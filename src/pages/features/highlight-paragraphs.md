@@ -9,7 +9,7 @@ featurePageTitle: Add Custom Borders to Paragraphs for a Visually Appealing and 
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/border.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Custom Borders | Helperbird Features
+cardTitle: Custom Borders
 featureDescription: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience. Enhance readability with Helperbird's Custom Borders feature.
 group: reading
 tags: 

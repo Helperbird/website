@@ -9,7 +9,7 @@ featurePageTitle: Improve Visibility and Accessibility with Helperbird's High Co
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
 youtubeId: PfILiWebkuc
-cardTitle: High Contrast Mode | Helperbird Features
+cardTitle: High Contrast Mode
 featureDescription: Helperbird's High Contrast feature allows you to browse the web with a variety of high-contrast color filters designed to make it easier to read text. Enhance visibility and accessibility with Helperbird's High Contrast Mode.
 group: reading
 tags: 

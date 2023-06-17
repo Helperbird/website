@@ -9,7 +9,7 @@ featurePageTitle: Reduce Eye Strain with Helperbird's Gray Filter Feature
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Reduce Eye Strain | Helperbird Features
+cardTitle: Reduce Eye Strain
 featureDescription: Easily reduce eye strain with Helperbird's Gray Filter feature. Add a gray overlay to any website to reduce glare and eye strain, providing a more comfortable reading experience and reducing visual fatigue.
 group: reading
 tags: 

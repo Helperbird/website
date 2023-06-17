@@ -9,7 +9,7 @@ featurePageTitle: Hide Images or GIFs for Distraction-Free Browsing with Helperb
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/images.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Hide Images or GIFs | Helperbird Features
+cardTitle: Hide Images or GIFs
 featureDescription: Hide all images or just GIFs on webpages using Helperbird's Media Filter feature. Enjoy a distraction-free browsing experience by temporarily hiding visual elements and easily showing them again when needed.
 group: reading
 tags: 
