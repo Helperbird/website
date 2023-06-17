@@ -2,24 +2,18 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Dyslexia Ruler on any website or pdf with customisable options.
-description:
-  Helperbirds' Dyslexia ruler helps you to follow and focus the text on the screen easier and block out distracting content.  You can set the color to match your preference and improve your reading.
+title: Dyslexia Ruler - Improve Text Focus and Readability | Helperbird
+description: Helperbird's Dyslexia Ruler helps you follow and focus on text effortlessly, enhancing readability and blocking out distractions on any website or PDF. Customize the ruler color to match your preference for an optimized reading experience.
 keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Dyslexia Ruler
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Dyslexia Ruler - Improve Text Focus and Readability | Helperbird
 img: 950R2dDH4lw
 icon: "/src/_includes/svgs/ruler.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Dyslexia ruler
-featureDescription:
-  Helperbirds' Dyslexia ruler helps you to follow and focus the text on the screen easier and block out distracting content.
+cardTitle: Dyslexia Ruler
+featureDescription: Helperbird's Dyslexia Ruler helps you effortlessly follow and focus on text, eliminating distractions and improving readability on any website or PDF.
 group: reading
-tags: 
+tags:
   - features
   - reading
 link: reading

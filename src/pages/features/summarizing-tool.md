@@ -2,29 +2,24 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Quickly and accurately summarize pages and articles in a click
-description:
-  Quickly and accurately summarize pages and articles into bullet points with Helperbird browser extension. Summarize by Helperbird is the fastest and most efficient way to summarize webpages, making it perfect for research, personal use, or business.
+title: Quickly and Accurately Summarize Pages and Articles in a Click
+description: Use Helperbird's browser extension to quickly and accurately summarize web pages and articles into bullet points. Simplify your research, personal use, or business tasks with Helperbird's efficient summarization tool.
 keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Quickly and accurately summarize pages and articles in a click
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Quickly and Accurately Summarize Pages and Articles in a Click
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/summarize.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Summarize pages
-featureDescription:
-  Helperbird automatically summarizes the web page into bullet points.
+cardTitle: Summarize Pages
+featureDescription: Helperbird's browser extension automatically summarizes web pages and articles into bullet points, simplifying your reading and research tasks.
 group: reading
-tags: 
+tags:
   - features
   - writing
   - reading
 link: reading
 url: features/summarizing-tool/
+
 ---
 
 ## Summary

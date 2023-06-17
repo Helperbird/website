@@ -2,21 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Bookmark and Save Your Favorite Websites with Helperbird's Read it Later App - Never Forget a Must-Read Article Again
-description:
-  Bookmark and Save Your Favorite Websites with Helperbird's Read it Later App - Never Forget a Must-Read Article Again. Available in Chrome, Firefox, Edge and Safari.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: Bookmark and Save Your Favorite Websites
+description: Bookmark and save your favorite websites with Helperbird's Read it Later app. Never forget a must-read article again. Available in Chrome, Firefox, Edge, and Safari.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Bookmark and Save Your Favorite Websites
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/time.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Reading list
-featureDescription: Bookmark and Save Your Favorite Websites with Helperbird's Read it Later App. Never Forget a Must-Read Article Again.
+cardTitle: Bookmark and Save Your Favorite Websites
+featureDescription: Bookmark and save your favorite websites with Helperbird's Read it Later app. Never forget a must-read article again.
 group: reading
 tags: 
   - features
@@ -24,6 +18,7 @@ tags:
 link: reading
 url: features/bookmarks/
 ---
+
 
 ## Summary
 Helperbird's reading list feature allows users to save and organize articles, websites, and other content for later reading. 

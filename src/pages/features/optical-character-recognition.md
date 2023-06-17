@@ -2,22 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Extract text from images, videos, and PDFs with Helperbirds' OCR feature
-description:
-  Helperbirds OCR features turn text within any image captured from your screen and copy it to your clipboard – making it easy to reuse in digital documents, emails, or reports.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Extract text (OCR)
+title: Extract Text from Images, Videos, and PDFs with Helperbird's OCR Feature
+description: Helperbird's OCR feature allows you to extract text from images, videos, and PDFs. Capture and convert text for reuse in digital documents, emails, or reports. Enhance your productivity with this powerful optical character recognition tool.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Extract Text from Images, Videos, and PDFs with Helperbird's OCR Feature
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/ocr.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Extract text (OCR)
-featureDescription:
-  Are extract text (OCR) feature allows you to capture and convert text from images, videos and PDFs.
+cardTitle: Extract Text (OCR)
+featureDescription: Helperbird's OCR feature allows you to capture and convert text from images, videos, and PDFs. Enhance your productivity by extracting and reusing text in digital documents, emails, or reports.
 group: reading
 tags: 
   - features
@@ -26,7 +19,6 @@ tags:
 link: reading
 url: features/optical-character-recognition/
 ---
-
 
 
 

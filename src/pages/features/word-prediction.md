@@ -2,29 +2,23 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Word Prediction Extension for every website and Google Docs - Enhance Your Writing Experience
-description:
-  Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve your productivity and accuracy with advanced AI-powered suggestions and autocomplete features. 
+title: Word Prediction Extension for Every Website and Google Docs | Enhance Your Writing Experience
+description: Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve productivity and accuracy with advanced AI-powered suggestions and autocomplete features. Try it now!
 keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-
-featurePageTitle: Word Prediction Extension for every website and Google Docs - Enhance Your Writing Experience
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Word Prediction Extension for Every Website and Google Docs - Enhance Your Writing Experience
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/word-prediction.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Word prediction
-featureDescription:
-  Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve your productivity and accuracy with advanced AI-powered suggestions and autocomplete features. 
+cardTitle: Word Prediction
+featureDescription: Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve productivity and accuracy with advanced AI-powered suggestions and autocomplete features.
 group: reading
-tags: 
+tags:
   - features
   - writing
 link: reading
 url: features/word-prediction/
+
 ---
 
 

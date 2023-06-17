@@ -2,20 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Translate words, websites, and PDFs with ease with Helperbird 
-description: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Effortlessly understand any language with Helperbird's Translation- Powered by Google Translate, translate words, websites, and PDFs with ease
+title: Translate Words, Websites, and PDFs with Ease
+description: Effortlessly understand any language with Helperbird's Translation feature powered by Google Translate. Translate words, websites, and PDFs with ease using Helperbird's free translation support.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Effortlessly Understand Any Language with Helperbird's Translation Feature
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/translate.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Translate
-featureDescription: Helperbird gives free translation support to any website or pdf. Select a sentence or a word, right-click, Helperbird, Google translate, and pick the language in which you would like the phrase to be translated.
+cardTitle: Translate Words, Websites, and PDFs with Ease
+featureDescription: Helperbird gives free translation support to any website or PDF. Select a sentence or a word, right-click, choose Helperbird, Google Translate, and select the desired language for translation. Effortlessly understand any language with Helperbird's Translation feature.
 group: reading
 tags: 
   - features

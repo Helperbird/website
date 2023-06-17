@@ -2,24 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Privacy features of Helperbird
-description:
-  Helperbirds privacy features don`t sell, store, or consume any user data. We do not store data or
-  any other user-related content.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic, come back rob
-
-featurePageTitle: Privacy features
+title: Privacy Features 
+description: Helperbird's privacy features ensure that no user data is sold, stored, or consumed. We prioritize user privacy and do not store any data or user-related content.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Privacy Features
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/blindness.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Privacy features
-featureDescription:
-  Helperbirds don`t sell, store, or consume any user data. We do not store data or
-  any other user-related content.
+cardTitle: Privacy Features
+featureDescription: Helperbird's privacy features ensure that no user data is sold, stored, or consumed. We prioritize user privacy and do not store any data or user-related content.
 group: reading
 tags: 
   - features

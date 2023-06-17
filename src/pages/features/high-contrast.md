@@ -2,24 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title:
-  Improve visibility and accessibility with Helperbird's High Contrast Mode feature
-description:
-  Helperbird's High Contrast feature lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-
-featurePageTitle:  High Contrast themes
+title: Improve Visibility and Accessibility with Helperbird's High Contrast Mode
+description: Helperbird's High Contrast feature allows you to browse the web with a variety of high-contrast color filters, making it easier to read text and enhancing visibility and accessibility.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Improve Visibility and Accessibility with Helperbird's High Contrast Mode
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
 youtubeId: PfILiWebkuc
-cardTitle: High Contrast themes
-featureDescription:
-  Helperbird's High Contrast feature lets you browse the web with your choice of several high-contrast color filters designed to make it easier to read text.
+cardTitle: High Contrast Mode | Helperbird Features
+featureDescription: Helperbird's High Contrast feature allows you to browse the web with a variety of high-contrast color filters designed to make it easier to read text. Enhance visibility and accessibility with Helperbird's High Contrast Mode.
 group: reading
 tags: 
   - features
@@ -28,6 +19,7 @@ tags:
 link: reading
 url: features/high-contrast/
 ---
+
 
 
 ## Summary

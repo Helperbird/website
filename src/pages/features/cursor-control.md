@@ -2,22 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Customize your cursor size with Helperbird
-description:
-  Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs. Download today on Chrome, Edge, Firefox, iPhone, iPad.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle:  Customize your cursor size with Helperbird
+title: Customize Your Cursor Size with Helperbird
+description: Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs. Download today on Chrome, Edge, Firefox, iPhone, and iPad.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Customize Your Cursor Size with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Cursor size
-featureDescription:
-  Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
+cardTitle: Customize Your Cursor Size with Helperbird
+featureDescription: Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
 group: reading
 tags: 
   - features
@@ -25,6 +18,7 @@ tags:
 link: reading
 url: features/cursor-control/
 ---
+
 
 
 

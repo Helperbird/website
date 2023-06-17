@@ -2,20 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Hide all Gifs, Images, or flashing images on webpages for a distraction-free browsing
-description: Hides all images or just gifs on a website and show them again when your ready with Helperbirds media fitler.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Hide all Gifs or Images
+title: Hide Images or GIFs for Distraction-Free Browsing with Helperbird
+description: Hide all images or just GIFs on webpages with Helperbird's Media Filter feature. Enjoy distraction-free browsing by temporarily hiding visual elements and showing them again when you're ready.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Hide Images or GIFs for Distraction-Free Browsing with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/images.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Hide all Gifs or Images
-featureDescription: Hides all images or just gifs on a website and show them again when your ready.
+cardTitle: Hide Images or GIFs | Helperbird Features
+featureDescription: Hide all images or just GIFs on webpages using Helperbird's Media Filter feature. Enjoy a distraction-free browsing experience by temporarily hiding visual elements and easily showing them again when needed.
 group: reading
 tags: 
   - features
@@ -24,6 +19,7 @@ tags:
 link: reading
 url: features/hide-images/
 ---
+
 
 ## Summary
 

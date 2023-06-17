@@ -2,26 +2,23 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Speed Reading Extension - Improve Your Reading Speed and Efficiency
-description: Unlock your reading potential with our powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
+title: Speed Reading Extension - Improve Your Reading Speed and Efficiency | Helperbird
+description: Unlock your reading potential with Helperbird's powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
 keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Improve Your Reading Speed and Efficiency
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Improve Your Reading Speed and Efficiency with Speed Reading Extension
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/speed.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Speed reading
-featureDescription: Unlock your reading potential with our powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
+cardTitle: Speed Reading
+featureDescription: Unlock your reading potential with Helperbird's powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
 group: reading
-tags: 
+tags:
   - features
   - reading
 link: reading
 url: features/speed-reading-extension/
+
 ---
 
 

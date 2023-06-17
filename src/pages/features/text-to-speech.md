@@ -2,30 +2,23 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Text to Speech with natural voices - Extension for Chrome, Edge, Firefox or iPad 
-description:
-  Get the best text to speech extension for Chrome, Firefox, Edge or iPad to enhance your online reading experience. Our extension uses advanced TTS technology to convert any web page to speech. Easy to use and customize, it's the perfect tool for anyone looking to improve their reading experience online. Try it now for free!
+title: Text to Speech with Natural Voices | Helperbird Extension
+description: Enhance your online reading experience with the best text to speech extension for Chrome, Firefox, Edge, or iPad. Convert any web page to speech using advanced TTS technology. Easy to use and customize, it's the perfect tool for improving your online reading experience. Try it now for free!
 keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-
-featurePageTitle:   Listen to any part of a Webpages and Google Docs
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Listen to Any Part of a Webpage or Google Docs
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/text-to-speech.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Natural Text to Speech
-featureDescription:
-  Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages,
-  ebooks and PDFs with natural sounding voices.
+featureDescription: Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks, and PDFs with natural-sounding voices.
 group: reading
-tags: 
-    - features
-    - reading
+tags:
+  - features
+  - reading
 link: reading
 url: features/text-to-speech/
+
 ---
 
 ## Summary

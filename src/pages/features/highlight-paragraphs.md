@@ -2,22 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title:  Add custom borders to paragraphs for a visually appealing and easy-to-read experience
-description:
-  Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Add custom borders to paragraphs for a visually appealing and easy-to-read experience
+title: Add Custom Borders to Paragraphs for a Visually Appealing and Easy-to-Read Experience
+description: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Add Custom Borders to Paragraphs for a Visually Appealing and Easy-to-Read Experience
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/border.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Customize borders
-featureDescription:
-  Add a colorfull border around paragraphs while reading. Making it easier to break up long bodies of text, making it easier to read.
+cardTitle: Custom Borders | Helperbird Features
+featureDescription: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience. Enhance readability with Helperbird's Custom Borders feature.
 group: reading
 tags: 
   - features
@@ -26,6 +19,7 @@ tags:
 link: reading
 url: features/highlight-paragraphs/
 ---
+
 
 ## Summary
 

@@ -2,25 +2,18 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title:  Annotate and Highlight Websites & PDFs - Highlight, Annotate, Organize, and Share
-description:
-  Revolutionize your research and work process with Helperbird Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes, organize them, save on the cloud and export in different file formats. Also, find your notes easily with our powerful search feature.
-
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Annotate and Highlight Websites, PDFs, and Ebooks
+description: Revolutionize your research and work process with Helperbird's Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes, organize them, save on the cloud and export in different file formats. Also, find your notes easily with our powerful search feature.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Annotate and Highlight Websites, PDFs, and Ebooks
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/notes.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Annotations & Sticky Notes
-featureDescription:
-  Revolutionize your research and work process with our Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes.
+featureDescription: Revolutionize your research and work process with Helperbird's Sticky Note and Annotation feature. Easily highlight, annotate, and comment on any website or PDF, choose from various colors and sizes. Organize your annotations, save them on the cloud, and export in different file formats. Find your notes easily with our powerful search feature.
 date: 2016-01-02
 group: reading
-tags: 
+tags:
   - features
   - writing
 link: reading

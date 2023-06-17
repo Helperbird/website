@@ -2,22 +2,16 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: View clutter-free web pages with productivity tools, using Helperbirds' Reading Mode.
-description:
-  Helperbirds Reading Mode, is a feature that simplifies the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+title: Reading Mode for Chrome and Firefox | Simplify Web Pages and Enhance Accessibility
 
-featurePageTitle: View clutter-free web pages with productivity tools, using Helperbirds' Reading Mode.
+description: Helperbird's Reading Mode simplifies the layout of web pages and removes distractions like ads and multimedia elements. Enjoy a clutter-free reading experience with enhanced accessibility and productivity tools.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: View clutter-free web pages with productivity tools, using Helperbird's Reading Mode
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/reading-mode.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Reading Mode
-featureDescription:
-  Simplify the layout of a webpage and removes distractions such as ads and multimedia elements. Which providing a clutter-free reading experience with accessibility and productivity tools.
+featureDescription: Simplify the layout of web pages and remove distractions like ads and multimedia elements. Enjoy a clutter-free reading experience with enhanced accessibility and productivity tools.
 group: reading
 tags: 
   - features

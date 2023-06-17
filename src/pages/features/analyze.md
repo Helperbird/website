@@ -2,27 +2,23 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Character and letter count feature, optimize your writing 
+title: Character and Letter Count Feature
 description: Easily count letters and characters on any website with Helperbird's browser extension. Two clicks for efficient writing.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Easily count letters and characters on any website with Helperbird
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Easily Count Letters and Characters on Any Website with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/graph.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Count letters and characters
-featureDescription: Easily count letters and characters on any website with Helperbird's browser extension. Two clicks for efficient writing.
+cardTitle: Count Letters and Characters
+featureDescription: Easily count letters and characters on any website with Helperbird's browser extension. Improve your writing efficiency with just two clicks.
 group: reading
-tags: 
+tags:
   - features
   - writing
 link: reading
 url: features/analyze/
 ---
+
 
 
 ## Summary

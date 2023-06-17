@@ -2,26 +2,19 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Easily adjust line, letter and word spacing
-description:
-  Easily adjust line, letter and word spacing on any website or PDF to improve readability and customize your online reading experience. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Easily adjust line, letter and word spacing
+title: Easily Adjust Line, Letter, and Word Spacing
+description: Easily adjust line, letter, and word spacing on any website or PDF to improve readability and customize your online reading experience with Helperbird. Available as an extension on Chrome, Edge, Firefox, iPad, and iPhone.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Easily Adjust Line, Letter, and Word Spacing
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Line, letter and word spacing
-featureDescription:
-  Easily adjust line, letter and word spacing on any website or PDF to improve readability and customize your online reading experience. 
+cardTitle: Line, Letter, and Word Spacing
+featureDescription: Easily adjust line, letter, and word spacing on any website or PDF to improve readability and customize your online reading experience with Helperbird.
 link: reading
 url: features/adjust-letters-and-words/
 group: reading
-tags: 
+tags:
   - features
   - reading
 ---

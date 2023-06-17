@@ -2,22 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title:  Easily increase or decrease the font size on any website
-description:
-  Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle:  Increase or decrease font sizes
+title: Customize Font Sizes 
+description: Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. Improve readability with customizable font sizes using Helperbird.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Customize Font Sizes with Helperbird's Font Size Feature
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Increase or decrease font sizes
-featureDescription:
-  Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience.
+cardTitle: Customize Font Sizes
+featureDescription: Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. Improve readability and enhance your online reading with customizable font sizes using Helperbird.
 group: reading
 tags: 
   - features

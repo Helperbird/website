@@ -2,22 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Mute annoying auto-playing videos with ease 
-description:
-  Nothing is more irritating loud audio starts playing from a video that you can’t even see on the
-  website. Helperbird fixes that in two clicks.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Silence distractions, Mute annoying auto-playing videos with ease
+title: Mute Annoying Auto-playing Videos with Ease 
+description: Silence distractions and mute annoying auto-playing videos with ease using Helperbird's video mute feature. Enjoy a more peaceful browsing experience. Available for Chrome, Edge, Firefox, iPad, and iPhone.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Silence Distractions, Mute Annoying Auto-playing Videos with Ease 
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/mute.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Mute videos and audio
-featureDescription: Silence distractions, Mute annoying auto-playing videos with ease.
+cardTitle: Mute Videos and Audio 
+featureDescription: Silence distractions and mute annoying auto-playing videos with ease using Helperbird's video mute feature. Enjoy a more peaceful browsing experience on any website. Available for Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
 tags: 
   - features

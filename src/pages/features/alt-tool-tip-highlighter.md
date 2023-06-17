@@ -2,23 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Show image & link descriptions on mouse over!
-description:
-  Show image & link descriptions on mouse over with Helperbird on any website or PDF. Available on Chrome, Edge, Firefox, iPad, and iPhone as an extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Show image & link descriptions on mouse over!
+title: Show Image & Link Descriptions on Mouse Over
+description: Show image & link descriptions on mouse over with Helperbird on any website or PDF. Available as an extension on Chrome, Edge, Firefox, iPad, and iPhone.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Show Image & Link Descriptions on Mouse Over!
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Show Alt & Image descriptions
-featureDescription: Simplify your web browsing with Helperbird's Alt & title description feature. Providing additional information about the content. 
+cardTitle: Show Alt & Image Descriptions
+featureDescription: Simplify your web browsing with Helperbird's Alt & title description feature. Get additional information about the content by hovering over images and links.
 group: reading
-tags: 
+tags:
   - features
   - accessibility
   - reading

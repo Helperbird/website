@@ -2,23 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Customizable Auto Scroll - Set Your Own Speed and Effortlessly Scroll Through Websites
-description:
-  Helperbird allows you to easily change the auto-scroll speed and save it in three different
-  modes; slow, medium and fast. A single click will stop the auto-scrolling. Available in Chrome, Firefox, Edge and Safari.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-featurePageTitle: Customizable Auto Scroll 
+title: Customizable Auto Scroll
+description: Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium, and fast. Effortlessly scroll through websites with your preferred speed. Available in Chrome, Firefox, Edge, and Safari.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Customizable Auto Scroll
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/scroll.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Customizable Auto Scroll 
-featureDescription:
-  Customizable Auto Scroll with Helperbird - Set Your Own Speed and Effortlessly Scroll Through Websites
+cardTitle: Customizable Auto Scroll
+featureDescription: Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium, and fast. Effortlessly scroll through websites with your preferred speed. Available in Chrome, Firefox, Edge, and Safari.
 group: reading
 tags: 
   - features
@@ -27,7 +19,6 @@ tags:
 link: reading
 url: features/auto-scroll/
 ---
-
 
 
 

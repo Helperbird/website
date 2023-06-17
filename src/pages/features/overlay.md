@@ -2,23 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Ease your eyes with a customizable overlay/tint extension
-description:
-  Adjust the brightness, contrast and color of any website to your preference. Reduce glare and bright light, ease eye strain and fatigue, and customize your browsing experience. Available now as an easy to use tint/overlay extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-
-featurePageTitle: Ease your eyes with a customizable overlay/tint
+title: Customizable Overlay and Tint Extension
+description: Adjust the brightness, contrast, and color of any website to your preference with Helperbird's customizable overlay and tint extension. Reduce glare, eye strain, and fatigue, and personalize your browsing experience for enhanced readability and comfort.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+featurePageTitle: Customizable Overlay and Tint Extension
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/overlay.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Overlays & tints
-featureDescription:
-  Adjust the brightness, contrast and color of any website to your preference. 
+cardTitle: Overlays & Tints
+featureDescription: Adjust the brightness, contrast, and color of any website to your preference with Helperbird's customizable overlay and tint extension. Reduce glare, eye strain, and fatigue, and personalize your browsing experience for enhanced readability and comfort.
 group: reading
 tags: 
   - features
@@ -27,7 +19,6 @@ tags:
 link: reading
 url: features/overlay/
 ---
-
 
 ## Summary
 
