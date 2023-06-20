@@ -1,5 +1,51 @@
 <!-- Put this part before </body> tag -->
 <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+<section class="modal modal-bottom sm:modal-middle" aria-labelledby="dialogLabel" role="dialog">
+  <div class="modal-box">
+    <button class="absolute top-0 right-0 hidden pt-4 pr-4 sm:block" id="my-modal-6" aria-label="Close modal">
+      <span class="sr-only">Close</span>
+      <svg
+          class="h-6 w-6"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          aria-hidden="true"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+    </button>
+    <div class="sm:flex sm:items-start mt-12">
+      <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
+        <li class="col-span-1 flex flex-col divide-y text-center">
+          <div class="flex flex-1 flex-col p-4">
+            <img
+              class="mx-auto"
+              alt="Download Helperbird for Google Chrome"
+              loading="lazy"
+              src="/assets/images/home/chrome.png"
+              width="66"
+              height="66"
+            />
+            <a
+              class="btn-secondary btn-block btn-sm btn mt-8"
+              href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span>Download for Chrome</span>
+            </a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal-6" class="modal-toggle" />
 <div class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <div class="absolute top-0 right-0 hidden pt-4 pr-4 sm:block">
@@ -24,11 +70,11 @@
     </div>
     <div class="sm:flex sm:items-start mt-12">
       <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
-        <li class="col-span-1 flex flex-col divide-y text-center">
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Google Chrome logo"
+              alt="Download Helperbird for Google Chrome"
               loading="lazy"
               src="/assets/images/home/chrome.png"
               width="66"
@@ -37,20 +83,19 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download</span>
+              <span>Download for Chrome</span>
             </a>
           </div>
         </li>
-
-        <li class="col-span-1 flex flex-col divide-y text-center">
+      
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Safari icon"
+              alt="Download Helperbird for Safari"
               loading="lazy"
               src="/assets/images/home/safari.png"
               width="66"
@@ -59,20 +104,19 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download</span>
+              <span>Download for Safari</span>
             </a>
           </div>
         </li>
-
-        <li class="col-span-1 flex flex-col divide-y text-center">
+      
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Micrsoft Edge logo"
+              alt="Download Helperbird for Microsoft Edge"
               loading="lazy"
               src="/assets/images/home/edge.png"
               width="66"
@@ -81,20 +125,19 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download </span>
+              <span>Download for Edge</span>
             </a>
           </div>
         </li>
-
-        <li class="col-span-1 flex flex-col divide-y text-center">
+      
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Google Docs icon"
+              alt="Download Helperbird for Google Docs"
               loading="lazy"
               src="/assets/images/home/docs.png"
               width="66"
@@ -103,20 +146,19 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download </span>
+              <span>Download for Docs</span>
             </a>
           </div>
         </li>
-
-        <li class="col-span-1 flex flex-col divide-y text-center">
+      
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Google Slides logo"
+              alt="Download Helperbird for Google Slides"
               loading="lazy"
               src="/assets/images/home/slides.png"
               width="66"
@@ -125,20 +167,19 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download </span>
+              <span>Download for Slides</span>
             </a>
           </div>
         </li>
-
-        <li class="col-span-1 flex flex-col divide-y text-center">
+      
+        <li class="col-span-1 flex flex-col divide-y text-center" role="listitem">
           <div class="flex flex-1 flex-col p-4">
             <img
               class="mx-auto"
-              alt="Firefox logo"
+              alt="Download Helperbird for Firefox"
               loading="lazy"
               src="/assets/images/home/firefox.png"
               width="66"
@@ -147,15 +188,15 @@
             <a
               class="btn-secondary btn-block btn-sm btn mt-8"
               href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
-              rel="noreferrer"
             >
-              <span> Download </span>
+              <span>Download for Firefox</span>
             </a>
           </div>
         </li>
       </ul>
+      
     </div>
   </div>
 </div>
