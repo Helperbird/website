@@ -1,69 +1,58 @@
 {
 	"text": [
 		{
-			"feature": "Specialized fonts",
+			"feature": "Customizable Fonts",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Dyslexia fonts",
+			"feature": "Dyslexia-Friendly Fonts",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
-
 		{
-			"feature": "Magnifier",
+			"feature": "Zoom and Magnification",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
-
 		{
-			"feature": "Word spacing",
+			"feature": "Adjustable Word Spacing",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Line height",
+			"feature": "Customizable Line Spacing",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Letter spacing",
+			"feature": "Adjustable Letter Spacing",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Font size",
+			"feature": "Flexible Font Sizing",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Paragraph width",
+			"feature": "Customizable Paragraph Width",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Text align",
+			"feature": "Alignment Options",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
 	"content": [
@@ -71,88 +60,73 @@
 			"feature": "Reading Mode",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
-
 		{
 			"feature": "Immersive Reader by Microsoft",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
-
 		{
 			"feature": "Picture Dictionary",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
-
 		{
 			"feature": "Screenshot tools",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Printing tools",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Translation",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Annotations",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Summarize page",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Text analyze",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Highlight paragraphs",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Volume control",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Extract text from images (OCR)",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
 	"display": [
@@ -160,266 +134,265 @@
 			"feature": "Emphasize Links",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Color blindess tools",
+			"feature": "Color Blindness Tools",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Dyslexia ruler",
+			"feature": "Dyslexia Ruler",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Reading guide",
+			"feature": "Reading Guide",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Overlay",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "High contrast",
+			"feature": "High Contrast",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Hide images",
+			"feature": "Hide Images",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
+		},
+
+		{
+			"feature": "Line Focus",
+			"free": false,
+			"pro": true,
+			"unlimited": true
 		},
 		{
-			"feature": "Reading guide",
+			"feature": "Edit website",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Line focus",
+			"feature": "Reduce motion",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Auto scroll",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
 	"navigation": [
 		{
-			"feature": " Highlighter",
+			"feature": "Highlighter",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Text to speech",
+			"feature": "Web search",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Text to speech options",
-			"free": false,
+			"feature": "Text-to-Speech",
+			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "20 natural voices",
+			"feature": "Text-to-Speech Options",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Voice typing",
+			"feature": "20 Natural Voices",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Word prediction",
+			"feature": "Voice Typing",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Cursor options",
+			"feature": "Word Prediction",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Auto scrolling",
+			"feature": "Cursor Options",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
+		},
+		{
+			"feature": "Auto Scrolling",
+			"free": false,
+			"pro": true,
+			"unlimited": true
 		}
 	],
 	"color": [
 		{
-			"feature": "Highlight colors",
+			"feature": "Highlight Colors",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Font colors",
+			"feature": "Font Colors",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Background colors",
+			"feature": "Background Colors",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Link colors",
+			"feature": "Link Colors",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
 	"other": [
 		{
-			"feature": "Sync settings & styles",
+			"feature": "Sync Settings & Styles",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Themes",
+			"feature": "Google Docs Support",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Google Docs support",
+			"feature": "Word Support",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
-		},
-		{
-			"feature": "Word support",
-			"free": true,
-			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
 	"apps": [
 		{
-			"feature": "Google Docs addon",
+			"feature": "Google Docs Add-on",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Dictionary app",
+			"feature": "Dictionary App",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Annotations / Sticky notes",
+			"feature": "Annotations / Sticky Notes",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
 			"feature": "Document Editor",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "PDF support",
+			"feature": "PDF Support",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Reading list",
+			"feature": "Reading List",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Google Slides Addon",
+			"feature": "Google Slides Add-on",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		}
 	],
-
 	"bonus": [
 		{
-			"feature": "Unlmitied",
+			"feature": "Unlimited Usage",
 			"free": false,
-			"pro": true,
-			"unlimited": true,
-			"student": true
+			"pro": false,
+			"unlimited": true
 		},
 		{
-			"feature": "Keyboard shortcuts",
+			"feature": "Keyboard Shortcuts",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "Premium support",
+			"feature": "Premium Support",
 			"free": false,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
 		},
 		{
-			"feature": "iPad & iPhone app",
+			"feature": "iPad & iPhone App",
 			"free": true,
 			"pro": true,
-			"unlimited": true,
-			"student": true
+			"unlimited": true
+		},
+		{
+			"feature": "Exam Mode",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "Analytics dashboard",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "Exam Mode",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "Analytics dashboard",
+			"free": false,
+			"pro": false,
+			"unlimited": true
 		}
 	],
-
 	"soon": []
 }
