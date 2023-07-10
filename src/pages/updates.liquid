@@ -44,77 +44,73 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
 
 
     <div class="mt-12 mx-auto">
-
-
       {%- for update in updates.new -%}
-
-
-        <div class="flex flex-col shadow-lg overflow-hidden  border-2 border-stone-600 bg-white p-8 rounded-3xl mt-8  ">
-
+        <div class="flex flex-col shadow-lg overflow-hidden border-2 border-stone-600 bg-white p-8 rounded-3xl mt-8">
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
-
               <div class="mb-8">
                 <h2 class="text-2xl font-semibold text-gray-900">
                   Helperbird {{ update.version }}
                 </h2>
-
               </div>
               <div class="mb-3 mt-8">
-
                 <h3 class="text-xl font-bold mb-4">
-                  Changes</h3>
-
+                  Changes
+                </h3>
                 {%- for change in update.changes -%}
-                  <p class="mt-3 text-base   text-black ">
+                  <p class="mt-3 text-base text-black">
                     <div class="badge badge-secondary badge-outline mr-2">New</div>
-                    {{ change }}
+                    <strong>{{ change.title }}</strong>
+                    <br>
+                    <div style="
+                                                                                            margin-left: 3.4rem;
+                                                                                        ">
+                      {{ change.description }}
+                    </div>
                   </p>
-
                 {%- endfor -%}
-
               </div>
               <div class="mb-3 mt-8">
-
                 <h3 class="text-xl font-bold mt-4">
                   Fixes
                 </h3>
-
-                {%- for change in update.fixes -%}
-                  <p class="mt-3 text-base   text-black ">
+                {%- for fix in update.fixes -%}
+                  <p class="mt-3 text-base text-black">
                     <div class="badge badge-primary badge-outline mr-2">Fix</div>
-                    {{ change }}
+                    <strong>{{ fix.title }}</strong><br>
+                    <br>
+                    <div style="
+                                                                                            margin-left: 3.4rem;
+                                                                                        ">
+                      {{ fix.description }}
+                    </div>
                   </p>
-
                 {%- endfor -%}
               </div>
               {%- if update.upcoming -%}
                 <div class="mb-3 mt-8">
-
                   <h3 class="text-xl font-bold mt-4">
                     Upcoming
                   </h3>
-
                   {%- for upcoming in update.upcoming -%}
-                    <p class="mt-3 text-base   text-black ">
+                    <p class="mt-3 text-base text-black">
                       <div class="badge badge-warning badge-outline mr-2">Upcoming</div>
-                      {{ upcoming }}
+                      <strong>{{ upcoming.title }}</strong>
+                      <br>
+                      <div style="
+                                                                                                margin-left: 3.4rem;
+                                                                                            ">
+                        {{ upcoming.description }}
+                      </div>
                     </p>
-
                   {%- endfor -%}
-
                 </div>
               {%- endif -%}
-
             </div>
-
           </div>
         </div>
-
-
       {%- endfor -%}
-
-
     </div>
+
   </div>
 </div>
