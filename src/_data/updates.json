@@ -1,6 +1,29 @@
 {
 	"new": [
 		{
+			"version": "104.1.0",
+			"date": "July 10th 2023",
+			"changes": [
+				"Quick Actions Personalization: Users can now remove all default quick actions and set their own features, adding another layer of personalization to the Helperbird experience.",
+				"Improved Voice Typing: We've upgraded the voice typing feature. It now supports multiple languages and comes with an improved user interface.",
+				"Enhanced Quick Actions Flexibility: Users can now add all apps to the quick actions and remove all default apps, providing more control and customization options.",
+				"Optimized Dimensions for iOS Devices: A default height and width have been set for optimal usage on iPad and iPhone devices.",
+				"Word Prediction: Word prediction now leverages web components for improved performance.",
+				"Citation Support: Dragging notes into the editor now automatically adds a link to the original file, making referencing easier.",
+				"Note Titles: Users can now add titles to their notes for better organization.",
+				"Text to Speech Enhancement: Text to Speech is now faster, providing an even smoother user experience.",
+				"New App Icons: We've introduced new icons for several apps, adding a fresh look and feel to the platform.",
+				"Web Search: Users can now quickly search the web directly from Helperbird.",
+				"Comprehensive Editor Statistics: The editor now includes a word count feature, which provides details such as word count, character count, reading time, speech time, writing time, average word length, average sentence length, paragraph count, and more."
+			],
+			"fixes": [
+				"Firefox Compatibility: We've updated Helperbird to be compatible with the latest versions of Firefox, addressing previous compatibility issues."
+			],
+			"upcoming": [
+				"In our next release, look forward to support for Enterprise Analytics, eBook compatibility, a comprehensive accessibility audit to further enhance user experience and inclusivity, and a redesigned Google Docs add-on."
+			]
+		},
+		{
 			"version": "104.0.5",
 			"date": "June 17th 2023",
 			"changes": [
