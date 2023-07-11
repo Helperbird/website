@@ -5,9 +5,9 @@ layout: templates/blog_post.liquid
 title: 10 Essential assistive technology tools for web accessibility
 description: In today's digital age, web accessibility is of paramount importance. It ensures that individuals with disabilities can navigate websites and online content with ease, providing equal access to information and services. 
 keywords: dyslexia, famous people with dyslexia, dyslexia software, reading mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
-url: blog/6-famous-people-with-dyslexia/
+url: blog/10-essential-assistive-technology-tools-web-accessibility/
 name: Helperbird Staff
-img: /assets/images/blog/6-famous-people-with-dyslexia/6-famous-people-with-dyslexia.png
+img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
 date: Created
 time: 5 min read
 tags: blog
