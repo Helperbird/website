@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/blog_post.liquid
-title: 6 Famous People with Dyslexia
-description: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
+title: 10 Essential assistive technology tools for web accessibility
+description: In today's digital age, web accessibility is of paramount importance. It ensures that individuals with disabilities can navigate websites and online content with ease, providing equal access to information and services. 
 keywords: dyslexia, famous people with dyslexia, dyslexia software, reading mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
 url: blog/6-famous-people-with-dyslexia/
 name: Helperbird Staff
@@ -14,8 +14,8 @@ tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: PfILiWebkuc
-cardTitle: 6 Famous People with Dyslexia
-blog_snip: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
+cardTitle: 10 Essential assistive technology tools for web accessibility
+blog_snip: In today's digital age, web accessibility is of paramount importance. It ensures that individuals with disabilities can navigate websites and online content with ease, providing equal access to information and services. 
 ---
 
 
