@@ -56,6 +56,11 @@
 		"eslint-plugin-prettier": "^3.4.1",
 		"eslint-plugin-vue": "^9.9.0",
 		"eslint-plugin-vuejs-accessibility": "^0.5.1",
+		"gulp": "^4.0.2",
+		"gulp-html2pug": "^3.0.3",
+		"gulp-image": "^6.2.1 ",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-webp": "^4.0.1",
 		"html-inline-css-webpack-plugin": "^1.11.1",
 		"html-webpack-plugin": "^5.3.2",
 		"notyf": "^3.4.0",
@@ -71,12 +76,7 @@
 		"tiny-slider": "^2.9.4",
 		"webpack": "^5.79.0",
 		"webpack-cli": "^4.10.0",
-		"workbox-webpack-plugin": "^4.3.1",
-		"gulp": "^4.0.2",
-		"gulp-html2pug": "^3.0.3",
-		"gulp-image": "^6.2.1 ",
-		"gulp-imagemin": "^7.1.0",
-		"gulp-webp": "^4.0.1"
+		"workbox-webpack-plugin": "^7.0.0"
 	},
 	"eslintConfig": {
 		"root": true,
@@ -113,7 +113,6 @@
 		"css-minimizer-webpack-plugin": "^1.2.0",
 		"eleventy-plugin-pwa": "^1.0.8",
 		"eleventy-plugin-svg-contents": "^0.7.0",
-		
 		"html-minifier": "^4.0.0",
 		"imagemin": "^8.0.1",
 		"imagemin-pngquant": "^9.0.2",
