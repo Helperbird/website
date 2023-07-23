@@ -108,23 +108,23 @@ function load() {
 				return this.isYearly;
 			},
 			monthlyProPricing(){
-var result = this.priceDetails.monthly.pro - (priceDetails.monthly.pro / 3);
+var result = this.priceDetails.monthly.pro - (this.priceDetails.monthly.pro / 3);
 var resultWithOneDecimal = result.toFixed(1);
 				return resultWithOneDecimal;
 			},
 					yearlyProPricing(){
-var result = this.priceDetails.yearly.pro - (priceDetails.yearly.pro / 3);
+var result = this.priceDetails.yearly.pro - (this.priceDetails.yearly.pro / 3);
 var resultWithOneDecimal = result.toFixed(1);
 				return resultWithOneDecimal;
 			},
 
 				yearlyUnlimitedPricing(){
-var result = this.priceDetails.yearly.unlimited - (priceDetails.yearly.unlimited / 3);
+var result = this.priceDetails.yearly.unlimited - (this.priceDetails.yearly.unlimited / 3);
 var resultWithOneDecimal = result.toFixed(1);
 				return resultWithOneDecimal;
 			},
 				monthlyUnlimitedPricing(){
-var result = this.priceDetails.monthly.unlimited - (priceDetails.monthly.unlimited / 3);
+var result = this.priceDetails.monthly.unlimited - (this.priceDetails.monthly.unlimited / 3);
 var resultWithOneDecimal = result.toFixed(1);
 				return resultWithOneDecimal;
 			},
