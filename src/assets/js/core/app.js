@@ -139,7 +139,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/aEUaFl0uMfYM98I9AW";
 
-						this.price.yearly.unlimited = "1,600";
+						this.price.yearly.unlimited = "1600";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/bIYbJp0uMaEs0CcaF2";
 
@@ -164,7 +164,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/4gw7t9gtK6oc98I8wJ";
 
-						this.price.yearly.unlimited = "1,500";
+						this.price.yearly.unlimited = "1500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/3cs8xda5m4g44Ss9AU";
 
@@ -188,7 +188,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/eVaeVBfpGh2Q3OocNd";
 
-						this.price.yearly.unlimited = "1,500";
+						this.price.yearly.unlimited = "1500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/28o8xdcdu6ocacM7sW";
 
@@ -236,7 +236,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/aEU9BhfpG5k8ckU5kW";
 
-						this.price.yearly.unlimited = "1,500";
+						this.price.yearly.unlimited = "1500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/5kA00H7XebIw84E7t6";
 
@@ -260,7 +260,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/28o7t9a5m7sg3Oo7t8";
 
-						this.price.yearly.unlimited = "1,700";
+						this.price.yearly.unlimited = "1700";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/9AQ7t9a5m27W84E6p7";
 
@@ -284,7 +284,7 @@ var resultWithOneDecimal = result.toFixed(1);
 						this.price.yearly.proLink =
 							"https://buy.stripe.com/4gw7t9gtK6oc98I8wJ";
 
-						this.price.yearly.unlimited = "1,500";
+						this.price.yearly.unlimited = "1500";
 						this.price.yearly.unlimitedLink =
 							"https://buy.stripe.com/3cs8xda5m4g44Ss9AU";
 
