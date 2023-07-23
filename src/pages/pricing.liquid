@@ -230,7 +230,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.monthly.pro - (priceDetails.monthly.pro / 3)">4.84</span>
+          <span v-html="monthlyUnlimitedPricing">4.84</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
@@ -241,7 +241,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.yearly.pro - (priceDetails.yearly.pro / 3)">40.00</span>
+          <span v-html="yearlyProPricing">40.00</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
@@ -490,7 +490,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.monthly.unlimited">99.99</span>
+          <span v-html="monthlyUnlimitedPricing">99.99</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
@@ -501,7 +501,7 @@ url: pricing/
         <!-- Price, update based on frequency toggle state -->
         <span class="text-4xl font-bold tracking-tight text-black 900">
           <span v-html="priceDetails.currency">$</span>
-          <span v-html="priceDetails.yearly.unlimited">1,500</span>
+          <span v-html="yearlyUnlimitedPricing">1,500</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
