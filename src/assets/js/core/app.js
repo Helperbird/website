@@ -32,7 +32,7 @@ function load() {
 				yearly: {
 					pro: "60.00",
 					proLink: "",
-					unlimited: "1,500",
+					unlimited: "1500",
 					unlimitedLink: "",
 				},
 				student: "40",
