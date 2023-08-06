@@ -26,18 +26,18 @@ blog_snip: We want to make sure you are fully satisfied with your purchase of He
 
 ## Full Refunds:
 
-- If you were charged for your next billing cycle but intended to cancel your subscription, please contact us immediately for a full refund.
+- If you were inadvertently billed for the next cycle but had plans to end your subscription and reach out within 3 working days, we'll happily process a full refund.
 
-- If you forgot to cancel your account during the 3-day trial and notify us within 7 days of your subscription, we will issue a full refund.
+- If you overlooked canceling after your 3-day trial and let us know within a week of your subscription's start, we’ll ensure you receive a full refund.
 
 ## Partial Refunds or Credits:
 
-- If we experience extended downtime, meaning multiple hours in a day or multiple days in a month, or if you had to contact our customer service team for technical support, we may offer a partial refund or credit to your account.
+- Should there be significant interruptions in our service, such as several hours of downtime in a day or multiple days within a month, we might extend a partial refund or credit to your account.
 
-- If it takes us multiple days to respond to your inquiry, we may offer a partial credit to your account.
+- Delays in our response time? If we don’t get back to you in a timely manner, we may provide a partial credit to your account.
 
 ## Case-by-Case Basis:
 
-We understand that every situation is unique, and we want to make sure we work with you to find the best solution. Please don't hesitate to contact us with any questions or concerns, and we'll do our best to ensure your satisfaction.
+Every Helperbird user has their unique story, and we are here to listen. If you have any questions or feel your situation doesn’t fit into the categories above, reach out. We're committed to working with you and ensuring you're happy with our service.
 
-To request a refund or credit, please contact our customer service team at support@helperbird.com.
+To request any form of refund or credit, or just to share your thoughts, reach us at support@helperbird.com.
