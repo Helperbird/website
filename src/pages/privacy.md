@@ -46,7 +46,7 @@ At Helperbird, your privacy isn't just a priority—it's a commitment. We value 
 
 ## Processing
 
-- **Stripe for Payments:** We use Stripe for processing payments. To verify if you've paid for our services, we need to know your email address via our secure AWS server.
+- **Stripe for Payments:** We utilize Stripe for processing payments. To verify if you've paid for our services, we interact with Stripe via our secure AWS server. It's paramount to understand that while we use AWS to facilitate this interaction, we do not store any of your information on it. Strict security practices are in place to ensure the utmost protection during this process.
 
 - **Clean Slate Policy:** When a user departs from your Workspace, we ensure their settings are cleared from the browser. For more insight on this, delve [here](https://support.google.com/domains/answer/7677767?hl=en).
 
