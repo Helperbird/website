@@ -32,16 +32,18 @@ By accessing the Helperbird browser extension and website, you consent to our us
 
 All intellectual property rights pertaining to the materials on Helperbird are the exclusive property of Helperbird and/or its licensors. These rights are reserved. You are permitted to use Helperbird strictly for personal, non-commercial purposes, adhering to these terms.
 
-### Licensing Terms**
+### Licensing Terms
 
 **Helperbird Pro**
 
 The "Individual (Helperbird Pro)" license is associated exclusively with a singular email address.
 
 **Helperbird Pro Unlimited**
+
 The "Helperbird Pro Unlimited" license permits an unrestricted number of users within your specified domain or school.
 
 **Helperbird Pro Unlimited+** 
+
 The "Helperbird Pro Unlimited+" license is designed for unlimited schools within a district and for unlimited sub-businesses within an enterprise.
 
 Unauthorized dissemination of your subscription key, especially outside your domain, will initially result in a warning. Repeated violations will lead to the termination of your subscription without entitlement to a refund.
@@ -54,6 +56,7 @@ Helperbird reserves the right to amend, introduce, or withdraw any feature or fu
 - Selling, renting, or sublicensing material from Helperbird.
 - Duplicating, replicating, or copying any material from Helperbird.
 - Redistributing Helperbird content, unless specifically designated for such distribution.
+
 
 
 ## Links on Our Website
@@ -76,7 +79,7 @@ Your suggestions for improving Helperbird are highly valued. However, the final 
 
 These terms and conditions are interpreted in accordance with the laws of Ireland. Any disputes emerging from these terms will be exclusively resolved in the courts of Ireland.
 
-### Contact Us
+## Contact Us
 
 For detailed inquiries or clarifications regarding these terms or any facet of Helperbird, kindly connect with us at support@helperbird.com.
 
