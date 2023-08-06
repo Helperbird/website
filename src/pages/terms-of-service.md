@@ -26,40 +26,57 @@ blog_snip: Learn more about the history of Helperbird and our core values.
 
 ## Cookies
 
-We employ the use of cookies. By using the Helperbird browser extension and website, you consent to the use of cookies in accordance with Helperbird's Privacy Policy.
+By accessing the Helperbird browser extension and website, you consent to our use of cookies in accordance with the Helperbird Privacy Policy, available at [helperbird.com/privacy](https://www.helperbird.com/privacy/)
 
 ## License
 
-Helperbird and/or its licensors own all intellectual property rights for all materials on Helperbird. All intellectual property rights are reserved. You may view and use Helperbird for personal and non-commercial purposes, subject to the restrictions set forth in these terms and conditions.
+All intellectual property rights pertaining to the materials on Helperbird are the exclusive property of Helperbird and/or its licensors. These rights are reserved. You are permitted to use Helperbird strictly for personal, non-commercial purposes, adhering to these terms.
 
-Helperbird reserves the right to add, remove, or modify any features or functionalities of the browser extension or website at any time without prior notice to users.
+### Licensing Terms**
 
-You must not:
+**Helperbird Pro**
 
-- Republish, sell, rent, or sub-license any material from Helperbird
-- Reproduce, duplicate, or copy any material from Helperbird
-- Redistribute content from Helperbird (unless the content is specifically made for redistribution)
+The "Individual (Helperbird Pro)" license is associated exclusively with a singular email address.
 
-## Removal of Links from Our Website
+**Helperbird Pro Unlimited**
+The "Helperbird Pro Unlimited" license permits an unrestricted number of users within your specified domain or school.
 
-If you find any link on our website or any linked website objectionable for any reason, you may contact us at support@helperbird.com. We will consider requests to remove links but have no obligation to do so or to respond directly to you.
+**Helperbird Pro Unlimited+** 
+The "Helperbird Pro Unlimited+" license is designed for unlimited schools within a district and for unlimited sub-businesses within an enterprise.
 
-## Accuracy and Availability of Information
+Unauthorized dissemination of your subscription key, especially outside your domain, will initially result in a warning. Repeated violations will lead to the termination of your subscription without entitlement to a refund.
 
-While we strive to ensure that the information on Helperbird's website and browser extension is accurate, we do not warrant its completeness or accuracy. We do not guarantee that Helperbird will be available at all times or that the materials on Helperbird are up to date.
+Helperbird reserves the right to amend, introduce, or withdraw any feature or functionality without any prior notice.
+
+
+### Prohibited actions encompass
+
+- Selling, renting, or sublicensing material from Helperbird.
+- Duplicating, replicating, or copying any material from Helperbird.
+- Redistributing Helperbird content, unless specifically designated for such distribution.
+
+
+## Links on Our Website
+
+If you find any link on our website objectionable for any reason, we encourage you to contact [support@helperbird.com](mailto://support@helperbird.com). Although we will review all requests, we maintain the discretion to act upon them or not, and we are not obligated to provide individualized responses.
+
+## Information Accuracy and Availability
+
+While Helperbird exercises due diligence to maintain the accuracy of information across all its platforms, absolute completeness or currentness is not guaranteed. We aim for, but cannot promise, continuous and uninterrupted availability of Helperbird.
 
 ## Limitation of Liability
 
-Helperbird and its affiliates, officers, directors, employees, agents, and licensors will not be liable for any damages, including but not limited to, direct, indirect, incidental, punitive, and consequential damages arising from your use of Helperbird or inability to use Helperbird.
+Neither Helperbird, its affiliates, nor any associated entities shall bear responsibility for any direct or indirect damages ensuing from your use or inability to utilize Helperbird services.
 
-## Requests
+## Requests and Suggestions
 
-We welcome requests and suggestions to improve Helperbird. However, we reserve the right to decide whether or not to implement these requests or suggestions. Additionally, if we receive any requests from authorized entities, we may comply with such requests without prior notice or liability to you, such as copyright infringement claims.
+Your suggestions for improving Helperbird are highly valued. However, the final decision to incorporate these lies solely with us. We reserve the right to address any formal requests, including but not limited to copyright issues, without prior notification.
 
 ## Governing Law and Jurisdiction
 
-These terms and conditions will be governed by and construed in accordance with the laws of Ireland. Any disputes arising under or in connection with these terms and conditions will be subject to the exclusive jurisdiction of the courts of Ireland.
+These terms and conditions are interpreted in accordance with the laws of Ireland. Any disputes emerging from these terms will be exclusively resolved in the courts of Ireland.
 
 ### Contact Us
 
-If you have any questions or concerns about these terms and conditions or the use of Helperbird, please contact us at support@helperbird.com.
+For detailed inquiries or clarifications regarding these terms or any facet of Helperbird, kindly connect with us at support@helperbird.com.
+

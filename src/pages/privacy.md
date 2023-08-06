@@ -61,6 +61,10 @@ Therefore, we cannot be responsible for the protection and security of any infor
 You should exercise caution and look at the security statement applicable to the website in
 question.
 
+##  GDPR, Brexit, and Data Rights
+
+**Committed to Compliance:** In alignment with GDPR regulations and post-Brexit data protection standards, Helperbird remains vigilant in upholding the highest data protection measures. It's essential to note that Helperbird does not store or collect any data, with the sole exception of payment information in Stripe, which is used exclusively for transactional purposes. Your rights, including the right to data deletion, access, and rectification, are paramount to us, and are fully respected even with this limited data interaction.
+
 ## Data Breach Plan
 
 Data breaches are the last thing we want, but we’re prepared for the worst. If such an event were to occur, we've got an action plan ready to deploy. Keen on learning more? It'll be public soon. If patience isn’t your virtue, drop a line at robert.gabriel@helperbird.com.
