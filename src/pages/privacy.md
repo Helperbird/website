@@ -26,34 +26,35 @@ blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 
 ## Overview
 
-Helperbird respects your privacy and is committed to protecting your personal data. This privacy policy outlines how we collect, use, store, and protect your data when you use our applications or visit our website.
+At Helperbird, your privacy isn't just a priority—it's a commitment. We value and protect your personal data. Here's a rundown of our practices when you use our applications or visit our website:
 
-We do not track, use, or store any personal data on our servers or third-party servers. All data is stored locally on your device for settings and educational purposes.
 
-We do request access to know your email to check if you have paid for our services via Stripe. We do not store your email  outside of Stripe and do not use it for any other purpose.
+- **No Peeking!** We don’t track, use, or store any personal data on our servers or any third-party ones. Everything is stored locally on your device for settings and educational reasons.
+  
+- **Just Checking!** We request to know your email solely to verify if you've purchased our services through Stripe. Rest assured, it doesn’t get stored anywhere outside of Stripe.
 
-Our applications do not collect, use, or save any of your personal data. Individual settings are stored only on your device and are not considered personal information.
+- **All About You:** Our applications are designed with user privacy in mind. They don’t gather, utilize, or save any of your personal data. Your individual settings remain on your device, and we consider that your private space.
 
-Helperbird has security measures in place to protect your data from loss, misuse, or alteration. Our payment servers collect payment information, and our code is regularly verified for malware by Google, Firefox, and Microsoft teams. All of our employee accounts have two-step verification.
+- **Fort Knox Standards:** We've taken rigorous measures to safeguard your data from mishaps. Our payment gateways are secure, and trusted entities like Google, Firefox, and Microsoft regularly scrutinize our code for malware. Plus, all our employees are equipped with two-step verification for enhanced security.
 
-We comply with the Children’s Online Security Protection Act (COPPA & FERPA) and do not collect personal data from anyone, including children under the age of 13.
+- **Kids are Special:** In line with the Children’s Online Security Protection Act (COPPA & FERPA), we don't collect data from anyone, especially children under the age of 13.
 
-You might also be asked to provide access to your email and access to modify the current webpage, but this is only so you can check if your account is marked as paid in Stripe and so we can make the changes you requested on the webpage.
+- **Permission, Always:** Occasionally, we might ask for your email and permission to modify the current webpage. This is strictly to verify your paid status in Stripe and to apply the modifications you desire on the webpage.
 
-We don\`t track nor do we store data anywhere but locally in your machine. We don\`t use Google analytics or any third-party app.
+- **Analytics? Nope:** Your trust is paramount. We don't engage with Google Analytics or any third-party apps. All your data stays local to your device.
+
 
 ## Processing
 
-We use Stripe for payment processing and request access to your email to check if you have paid for our services. This is done though our secure AWS server.
+- **Stripe for Payments:** We use Stripe for processing payments. To verify if you've paid for our services, we need to know your email address via our secure AWS server.
 
-When a user is removed from your Workspace, all settings are deleted and cleared from the browser.
+- **Clean Slate Policy:** When a user departs from your Workspace, we ensure their settings are cleared from the browser. For more insight on this, delve [here](https://support.google.com/domains/answer/7677767?hl=en).
 
-Learn more here
-[https://support.google.com/domains/answer/7677767?hl=en](https://support.google.com/domains/answer/7677767?hl=en)
 
 ## Links to Other Websites
 
-Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website.
+Our digital trails might guide you to other exciting corners of the web. However, once you venture out of our domain, remember we can't steer those ships. Their protective measures and policies might not echo ours. Always take a minute to appraise their security protocols. Safe browsing!
+
 
 Therefore, we cannot be responsible for the protection and security of any information which you provide whilst visiting such sites and such sites are not governed by this security statement.
 
@@ -62,11 +63,12 @@ question.
 
 ## Data Breach Plan
 
-In case of a data breach, we have a response plan in place that will be made public soon. If you would like to see it earlier, please email robert.gabriel@helperbird.com.
+Data breaches are the last thing we want, but we’re prepared for the worst. If such an event were to occur, we've got an action plan ready to deploy. Keen on learning more? It'll be public soon. If patience isn’t your virtue, drop a line at robert.gabriel@helperbird.com.
 
-All packages and server is updated every two weeks and regular checks.
+For the tech aficionados, we regularly update and inspect our packages and servers every two weeks.
 
 ## Contact Us
 
-If you have any questions about our privacy policy or how we handle your data, please email [robert.gabriel@helperbird.com](mailto:robert.gabriel@helperbird.com)
+Queries, feedback, or a simple hello — we're here for all of it. Drop us an email at [robert.gabriel@helperbird.com](mailto:robert.gabriel@helperbird.com).
+
 
