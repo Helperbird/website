@@ -10,6 +10,7 @@
 		"css": "NODE_ENV=production  webpack --mode production ",
 		"build": " NODE_ENV=production  webpack --mode production && eleventy",
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
+		"cms": "npx decap-server",
 		"a11y": "eslint src/**/*.html --ignore-path .gitignore --fix  && eslint src/**/*.liquid --ignore-path .gitignore --fix  && eslint src/**/*.js --ignore-path .gitignore --fix "
 	},
 	"repository": {
@@ -111,6 +112,8 @@
 		"clean-css": "^5.3.2",
 		"core-js": "^3.29.0",
 		"css-minimizer-webpack-plugin": "^1.2.0",
+		"decap-cms": "^3.0.7",
+		"decap-cms-app": "^3.0.7",
 		"eleventy-plugin-pwa": "^1.0.8",
 		"eleventy-plugin-svg-contents": "^0.7.0",
 		"html-minifier": "^4.0.0",

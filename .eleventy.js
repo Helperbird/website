@@ -5,7 +5,6 @@ const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
 const path = require('path');
 
-
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
@@ -108,6 +107,7 @@ const moment = require('moment');
 const { tr } = require('date-fns/locale');
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy({ 'src/pages/admin/': '/admin/' });
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addTransform('social-image', async function (content) {
@@ -130,6 +130,8 @@ module.exports = function (eleventyConfig) {
 			const [, title2] = data.match(/title:(.*)/);
 		}
 	});
+
+
 
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',
