@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the word spacing on any website
 description: Learn how easy it is to change the word spacing on any website.
 keywords:

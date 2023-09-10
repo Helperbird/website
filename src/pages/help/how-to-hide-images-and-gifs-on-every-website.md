@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to remove or hide images on a website
 description: Learn how to remove or hide images on any website or app using the Helperbird extension.
 keywords:

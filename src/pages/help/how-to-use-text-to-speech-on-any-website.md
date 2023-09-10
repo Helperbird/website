@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use text to speech on any website or PDF
 description:
   Learn how easy it is to use text to speech on any website or PDF

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to add Color blindness support to websites
 description: Learn how to add Color blindness support to websites with Helperbirds browser extension.
 keywords:

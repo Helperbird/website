@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title:  Pinning Helperbird for All Users
 
 description:  Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.

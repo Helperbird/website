@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to extract text from any image, video, pdf or website
 description:
   Learn how to extract text from any image, video pdf or website with Helperbirds OCR feature extension.

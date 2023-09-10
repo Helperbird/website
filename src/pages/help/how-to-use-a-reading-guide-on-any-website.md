@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use a Reading guide ruler on any website
 description: Learn how to use a Reading guide ruler on a website or pdf with the Helperbird browser extension.
 keywords:

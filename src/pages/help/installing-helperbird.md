@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to install Helperbird on Chrome, Firefox, Safari, and Edge
 description: Discover how to install Helperbird on Google Chrome, Firefox, Safari, and Edge.
 keywords:

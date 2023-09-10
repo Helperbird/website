@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: What is Helperbirds quick action menu?
 description: Discover and learn how to use the quick action menu in Helperbird.
 keywords:

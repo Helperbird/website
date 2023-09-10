@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to update my credit card
 description: Learn how to update my credit card information in the Helperbird browser extension.
 keywords:

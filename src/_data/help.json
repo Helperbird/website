@@ -1,0 +1,48 @@
+{
+	"home": [
+		{
+            "title": "Account & Billing",
+			"description": "Manage your Helperbird account and billing effortlessly with our step-by-step guide for clear and hassle-free navigation",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		},
+        {
+			"title": "Writing features",
+			"description": "Enhance your writing skills with ease using Helperbird's writing features.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		},
+        {
+			"title": "Reading features",
+			"description": "Unlock the power of Helperbird's reading features with our straightforward guide to enhance your reading experience.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		},
+        {
+			"title": "Accessibility features",
+			"description": "Explore the accessibility features of Helperbird in an easy-to-understand guide for a more inclusive online experience.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		},
+        {
+			"title": "Admin tools",
+			"description": "Effortlessly manage and optimize Helperbird with our user-friendly guide to admin tools.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		}
+        ,
+        {
+			"title": "Staying in touch",
+			"description": "Discover effective ways to stay connected and informed with Helperbird.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		}
+        ,
+        {
+			"title": "FAQ",
+			"description": "Get quick answers to your Helperbird questions in plain language with our FAQ guide.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		}
+
+        ,
+        {
+			"title": "Trouble shooting",
+			"description": "Fix common Helperbird problems easily with our straightforward troubleshooting guide.",
+			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+		}
+    ]
+}

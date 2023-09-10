@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Family Sharing Guide,Installing and Managing the Helperbird App on iOS
 description:
   Discover our comprehensive guide on how to install and manage the Helperbird application on iOS using Family Sharing. Follow our easy steps to ensure safe and efficient use of this powerful accessibility tool while maintaining parental controls.

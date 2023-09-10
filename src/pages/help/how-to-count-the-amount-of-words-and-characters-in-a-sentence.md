@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to count the amount of words and characters in a sentence
 description:
   Learn how to count the amount of words and characters in a sentence in Chrome, Firefox and Edge.

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to apply a high contrast theme on a website
 description:
   Learn how use Helperbirds high contrast feature on any website or app. This includes grayscale,

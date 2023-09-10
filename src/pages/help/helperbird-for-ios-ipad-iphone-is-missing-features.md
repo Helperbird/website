@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Helperbird for iPad & iPhone is missing features
 description:
   By default, Helperbird for iPad & iPhone is missing some features. Learn how to unlock them.

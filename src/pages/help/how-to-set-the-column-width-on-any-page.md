@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to set columns in a paragraph on a website
 description: Learn how to set columns in a paragraph on a website
 keywords:

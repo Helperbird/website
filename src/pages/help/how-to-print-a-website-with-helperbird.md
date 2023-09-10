@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to quickly print a website
 description: Learn how to quickly print a website with the Helperbird browser extension.
 keywords:

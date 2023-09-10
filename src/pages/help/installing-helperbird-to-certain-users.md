@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Installing Helperbird to Certain Users
 
 description: Discover how to provide specific users with access to the Helperbird extension. This guide details the process for selective Helperbird installation.

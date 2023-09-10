@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: What is Helperbird free?
 description:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.

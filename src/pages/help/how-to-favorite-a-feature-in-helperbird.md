@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How favorite a feature in Helperbird
 description: Discover how to favorite a feature in Helperbird. Making it appear first in the list.
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for

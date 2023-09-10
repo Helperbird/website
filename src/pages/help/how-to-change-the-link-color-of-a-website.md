@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the link  color of a website
 description: How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
 keywords:

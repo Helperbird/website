@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the font size on any website
 description: Learn how easy it is to change the font size on any website to a size that suits you.
 keywords:

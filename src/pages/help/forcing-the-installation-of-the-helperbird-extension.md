@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Forcing the Installation of the Helperbird Extension
 
 description: Find out how to force install the Helperbird extension across your G Suite organization. This guide provides detailed instructions for ensuring all users have access to Helperbird.

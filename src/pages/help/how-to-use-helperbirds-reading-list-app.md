@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use Helperbird's Reading list
 description:
   Helperbirds reading list extension allows you to save pages in a list to get back to later. It’s

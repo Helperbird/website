@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Installing Helperbird Extension through the G Suite Admin Panel
 
 description: Learn how to allow the Helperbird extension in your G Suite Admin Panel. This guide walks you through the necessary steps to permit Helperbird's usage within your organization.

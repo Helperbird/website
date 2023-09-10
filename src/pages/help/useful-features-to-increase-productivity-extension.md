@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: Top 10 productivity features in Helperbird
 description:
   Helperbird has over 10 productivity features, discover how to use some of the popular ones.

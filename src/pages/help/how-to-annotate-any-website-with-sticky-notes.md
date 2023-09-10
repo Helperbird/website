@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to annotate any website or pdf with sticky notes
 description: Learn how to use the annotate/ sticky notes feature of the Helperbird browser extension.
 keywords:

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the font on any website to a dyslexic font
 description:
   Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.

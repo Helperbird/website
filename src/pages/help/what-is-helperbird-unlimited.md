@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: What is Helperbird Pro Unlimited?
 description:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.

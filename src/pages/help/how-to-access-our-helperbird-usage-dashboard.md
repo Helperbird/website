@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to Access the Usage Dashboard on Helperbird
 description: The Usage Dashboard is an exclusive feature available for Helperbird Pro Unlimited users. This dashboard provides you with detailed usage statistics, including the number of users over the past 12 months, last 60 days, uninstalls, and, if permitted, the emails of users. The dashboard is continuously updated with every new update we implement.
 

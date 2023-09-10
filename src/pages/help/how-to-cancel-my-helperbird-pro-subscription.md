@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to cancel my Helperbird Pro subscription
 description: Learn how to cancel your Helperbird Pro subscription and manage your subscription.
 keywords:

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the text alignment on any website
 description: Learn how easy it is to change the text alignment on any website.
 keywords:

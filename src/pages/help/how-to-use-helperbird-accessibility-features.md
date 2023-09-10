@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use Helperbirds accessibility card features
 description:
   Learn how to use Helperbirds accessibility card features, such as spell check, Reduce motion and

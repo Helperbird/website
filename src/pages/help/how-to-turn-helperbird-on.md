@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to turn Helperbird on
 description: Discover how to switch Helperbird from off to on in the Helperbird extension.
 keywords:

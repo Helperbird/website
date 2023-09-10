@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to Adjusting your cursor size
 description: Learn how to change the cursor size in Chrome, Firefox and Edge.
 keywords:

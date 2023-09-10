@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to turn on the Highlight menu in Helperbird
 description:
   Learn how to turn on the Highlight menu in Helperbirds browser extension.

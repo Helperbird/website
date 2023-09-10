@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use my Helperbird subscription key
 description:
   Learn how to find and enter your Helperbird  subscription key in Helperbird, to unlocked Helperbird Pro.

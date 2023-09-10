@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to add a border to paragraphs on a website
 description: Learn how to add a border to paragraphs on a website
 keywords:

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to access PDF support in Helperbird
 description:
   Discover Helperbirds pdf support and how to use the text to speech, immersive reader and much

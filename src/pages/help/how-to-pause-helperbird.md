@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to pause Helperbird
 description:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.

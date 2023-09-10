@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to change the background color on a website
 description:
   How to change the color of the background on a website using Helperbirds extension.

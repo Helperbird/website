@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to set the width of paragrahs on a website
 description: Learn how to a set paragraph widths on any website, pdf or app.
 keywords:

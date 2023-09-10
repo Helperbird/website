@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to Enable and Disable Sync in Chrome and Edge
 description: Learn how to easily turn on and off sync in Chrome and Edge with this detailed step-by-step guide. Follow the instructions to link your Google account and synchronize your data, or disconnect and remove synced data from your browser.
 keywords:

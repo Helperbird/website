@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title:   Removing Helperbird for Everyone
 
 description:  Understand how to remove the Helperbird extension for all users. This guide will help you to successfully uninstall Helperbird across your organization.

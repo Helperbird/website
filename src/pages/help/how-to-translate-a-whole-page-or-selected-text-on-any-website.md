@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to translate a website or selected text
 description: How to translate a website or selected text with the Helperbird browser extension.
 keywords:

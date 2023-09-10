@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to show alt and title tags on hover
 description: Learn how to show alt and title tags on hover with the Helperbird extension.
 keywords:

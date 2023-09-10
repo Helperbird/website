@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/help.html
+layout: templates/new/help/post.html
 title: How to use the Dictionary app in Helperbird
 description: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
 keywords:
