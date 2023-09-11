@@ -3,46 +3,46 @@
 		{
             "title": "Account & Billing",
 			"description": "Manage your Helperbird account and billing effortlessly with our step-by-step guide for clear and hassle-free navigation",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/how-to-turn-helperbird-on/"
 		},
         {
 			"title": "Writing features",
 			"description": "Enhance your writing skills with ease using Helperbird's writing features.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/how-to-change-the-selection-highlight-color-of-a-website/"
 		},
         {
 			"title": "Reading features",
 			"description": "Unlock the power of Helperbird's reading features with our straightforward guide to enhance your reading experience.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/how-to-change-the-font-on-any-page/"
 		},
         {
 			"title": "Accessibility features",
 			"description": "Explore the accessibility features of Helperbird in an easy-to-understand guide for a more inclusive online experience.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/how-to-use-dictionary-app-in-helperbird/"
 		},
         {
 			"title": "Admin tools",
 			"description": "Effortlessly manage and optimize Helperbird with our user-friendly guide to admin tools.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/forcing-the-installation-of-the-helperbird-extension/"
 		}
         ,
         {
 			"title": "Staying in touch",
 			"description": "Discover effective ways to stay connected and informed with Helperbird.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/support/"
 		}
         ,
         {
 			"title": "FAQ",
 			"description": "Get quick answers to your Helperbird questions in plain language with our FAQ guide.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/family-sharing-helperbird-installation-guide/"
 		}
 
         ,
         {
 			"title": "Trouble shooting",
 			"description": "Fix common Helperbird problems easily with our straightforward troubleshooting guide.",
-			"link": "https://workspace.google.com/marketplace/app/helperbird/844716805038"
+			"link": "/help/useful-features-to-increase-productivity-extension/"
 		}
     ]
 }
