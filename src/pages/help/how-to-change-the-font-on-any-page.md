@@ -1,54 +1,74 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the font on any website
-description:
-  Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Change the Font on Any Website
+description: Customize your browsing experience by effortlessly changing the
+  font on any website with Helperbird's easy-to-use extension. Follow our
+  step-by-step guide to learn how.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-change-the-font-on-any-page/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-01
 youtubeId: PfILiWebkuc
 cardTitle: Fonts
-featureDescription:
-  Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
-date: 2020-01-01
-tags: guideFeaturesMain
-url: help/how-to-change-the-font-on-any-page/
+featureDescription: Customize your browsing experience by effortlessly changing
+  the font on any website with Helperbird's easy-to-use extension. Follow our
+  step-by-step guide to learn how.
+header: true
 ---
+## Introduction
 
-## Change the font on any website
+Want to customize your reading experience by changing the font on websites you visit? This guide will walk you through the easy process of changing fonts using Helperbird.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Prerequisites
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+- An active Helperbird account.
+- Helperbird browser extension installed.
 
-**Step 3:** Scroll to the **Text adjustment** card.
+## Steps to Change the Font on Any Website
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Font** option and a toggle switch labeled **Off**.
+### Step 1: Open the Helperbird Extension
 
-**Step 5** Click the toggle switch to turn the feature on.
+Click on the Helperbird icon located in the top-right corner of your browser window to open the extension.
 
-**Step 6** The Font will change to the font you picked below it
+### Step 2: Navigate to Quick Actions
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+The extension will display a variety of quick actions and other features upon opening.
 
-**Step 8 (Optional)** To change the font, just pick another font from the list.
+### Step 3: Locate the 'Text Adjustment' Card
 
+Scroll through the Helperbird extension until you find the **Text Adjustment** card.
 
-## Dyslexia fonts
+### Step 4: Identify the 'Font' Option
 
-- OpenDyslexic
-- Lexend
-- Comic Sans
+In the Text Adjustment card, you will find the **Font** option accompanied by a toggle switch labeled **Off**.
 
-## What fonts can I use?
+### Step 5: Enable the Feature
+
+Activate the font-changing feature by clicking on the toggle switch. It will turn to **On**.
+
+### Step 6: Select Your Preferred Font
+
+The font of the web page you are on will change to the one you select from the list below the toggle switch.
+
+### Step 7 (Optional): Disable the Feature
+
+If you want to revert to the original font, simply click the toggle switch again to turn it **Off**.
+
+### Step 8 (Optional): Change to a Different Font
+
+To switch to a different font, pick another one from the list available.
+
+## Available Font Choices
 
 - Arial
-- Cosmic Sans
+- Comic Sans
 - OpenDyslexic
 - Tahoma
 - Verdana
@@ -58,23 +78,14 @@ url: help/how-to-change-the-font-on-any-page/
 - Bookman
 - Courier
 - Georgia
-- Gothic
 - Helvetica
 - Impact
 - Times
-- Lexend
-
 
 ## Video Tutorial
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
-
-
-
+If you face any challenges while using this feature, our Helperbird support team is always here to assist you.

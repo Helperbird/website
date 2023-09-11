@@ -52,7 +52,6 @@ collections:
       - {label: "Url", name: "url", widget: "string"}
       - {label: "Blogger", name: "name", widget: "string", default: "Helperbird Staff"}
       - {label: "Tags", name: "tags", widget: "string", default: "blog"}
-      - {label: "Social Image", name: "img", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Youtube video ID", name: "youtubeId", widget: "string", default: 'PfILiWebkuc'}
       - {label: "Card Title ", name: "cardTitle", widget: "string", default: 'Helperbird blog '}

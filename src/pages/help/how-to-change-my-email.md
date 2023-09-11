@@ -1,21 +1,27 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the email on my Helperbird account
-description: Learn how to change the email in your Helperbird account.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to update the email on my Helperbird account
+description: Follow this step-by-step guide to easily change the email address
+  associated with your Helperbird account. From login to verification, we've got
+  you covered.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
-youtubeId: PfILiWebkuc
-cardTitle: Change my email
-featureDescription: Learn how to change the email in your Helperbird account.
-tags: guideAccounts
 url: help/how-to-change-my-email/
+name: "Helperbird Staff "
+tags: guideAccounts
+img: assets/images2/uploads/add-a-heading.png
+cardTitle: Update Email
+featureDescription: Follow this step-by-step guide to easily change the email
+  address associated with your Helperbird account. From login to verification,
+  we've got you covered.
 redirect_from: /support/how-to-change-my-email/
+header: true
+date: 2023-09-10T22:13:27.697Z
+youtubeId: PfILiWebkuc
 ---
 
 
@@ -49,3 +55,4 @@ redirect_from: /support/how-to-change-my-email/
 ## Need more help?
 
 If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+

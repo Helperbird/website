@@ -1,49 +1,69 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the link  color of a website
-description: How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Customize Link Colors on Any Website
+description: Learn how to modify both regular and visited link colors across
+  websites with Helperbird, making your web navigation more intuitive and
+  visually appealing.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-change-the-link-color-of-a-website/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2021-01-01
 youtubeId: PfILiWebkuc
 cardTitle: Link color
-featureDescription:
-  How to change the color of the link of a website on Safrai, Chrome, Firefox or Edge.
-date: 2021-01-01
-tags: guideFeaturesMain
-url: help/how-to-change-the-link-color-of-a-website/
+featureDescription: Learn how to modify both regular and visited link colors
+  across websites with Helperbird, making your web navigation more intuitive and
+  visually appealing.
+header: true
 ---
+## Introduction
 
-## How to change the Link color of a website.
+Need to personalize the link colors on websites? This guide will take you through the steps to change both regular and visited link colors using Helperbird.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Prerequisites
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+- An active Helperbird extension installed on your browser.
 
-**Step 3:** Scroll to the **Styles & Colors** card.
+## Steps to Change the Link Color on Any Website
 
-**Step 4:** Within the Styles & Colors card, you will see the **Link color** option and a toggle switch labeled **Off**.
+### Step 1: Open Helperbird Extension
 
-**Step 5** Click the toggle switch to turn the feature on.
+Click on the Helperbird icon located in the top-right corner of your browser window to open the extension.
 
-**Step 6** The Link color will change to the color you picked.
+### Step 2: Access the Features
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+The Helperbird extension window will open, displaying quick actions and various features.
 
+### Step 3: Navigate to 'Styles & Colors' Card
 
+Scroll down until you find the **Styles & Colors** card in the extension window.
+
+### Step 4: Locate 'Link Color' Option
+
+Within the **Styles & Colors** card, you'll see an option labeled **Link Color** accompanied by a toggle switch set to **Off**.
+
+### Step 5: Enable the Feature
+
+Click the toggle switch next to **Link Color** to turn the feature on.
+
+### Step 6: Choose Your Color
+
+Your link color will automatically change to the color you've selected.
+
+### Step 7: Optional - Disable the Feature
+
+To disable this feature, simply click the toggle switch again to turn it off.
 
 ## Video Tutorial
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
+If you encounter any issues while using this feature, feel free to contact the Helperbird support team for further assistance.

@@ -161,17 +161,17 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'font-display text-3xl tracking-tight text-black  mb-8 font-bold',
-		h2: 'font-display text-2xl text-black mb-6 font-extrabold',
-		h3: 'font-display text-xl text-black mb-6 font-bold',
-		p: 'text-black mb-4 mt-4 text-lg',
+		h1: 'leading-relaxed font-display text-3xl   text-black  mb-2 font-bold',
+		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-8 font-extrabold',
+		h3: 'leading-relaxed font-display text-xl text-black mb-2 font-bold',
+		p: 'text-black mb-4 text-lg font-display ',
 		strong: 'text-black text-base text-lg',
 		bold: 'text-black',
-		ul: 'list-none mt-4 space-y-2 border-l border-slate-200 pl-6 text-base',
-		ol: 'list-none',
-		li: 'list-none',
+		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 ',
+		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
+		li: 'leading-relaxed mb-4 text-lg font-display ',
 		img:'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
-		a: 'text-blue-600 underline hover:decoration-wavy hover:underline',
+		a: 'leading-relaxed font-sans text-lg link link-hover text-blue-500 hover:text-blue-700',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};
 

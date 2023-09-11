@@ -55,10 +55,10 @@ Mac
 <tbody class="divide-y divide-gray-200">
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Use OCR</div>
+<div class="leading-relaxed font-sans  text-sm text-base-content">Use OCR</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">
+<div class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">alt</kbd> +
 
 <kbd class="kbd">shift</kbd>
@@ -68,7 +68,7 @@ Mac
 </td>
 
 <td class="px-6 py-4 whitespace-nowrap">
-<span class="text-sm text-base-content">
+<span class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">⌥</kbd>
 
 +
@@ -79,10 +79,10 @@ Mac
 
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Use Immersive Reader</div>
+<div class="leading-relaxed font-sans  text-sm text-base-content">Use Immersive Reader</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">
+<div class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">alt</kbd>
 +
 
@@ -94,7 +94,7 @@ Mac
 </td>
 
 <td class="px-6 py-4 whitespace-nowrap">
-<span class="text-sm text-base-content">
+<span class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">⌥</kbd>
 
 +
@@ -106,10 +106,10 @@ Mac
 
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Annotate website</div>
+<div class="leading-relaxed font-sans  text-sm text-base-content">Annotate website</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">
+<div class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">alt</kbd>
 +
 
@@ -121,7 +121,7 @@ Mac
 </td>
 
 <td class="px-6 py-4 whitespace-nowrap">
-<span class="text-sm text-base-content">
+<span class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">⌥</kbd>
 
 +
@@ -132,10 +132,10 @@ Mac
 
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Use Reading Mode</div>
+<div class="leading-relaxed font-sans  text-sm text-base-content">Use Reading Mode</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">
+<div class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">alt</kbd>
 +
 <kbd class="kbd">shift</kbd>
@@ -145,7 +145,7 @@ Mac
 </td>
 
 <td class="px-6 py-4 whitespace-nowrap">
-<span class="text-sm text-base-content">
+<span class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">⌥</kbd>
 
 +
@@ -156,10 +156,10 @@ Mac
 
 <tr>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">Pause Helperbird</div>
+<div class="leading-relaxed font-sans  text-sm text-base-content">Pause Helperbird</div>
 </td>
 <td class="px-6 py-4 whitespace-nowrap">
-<div class="text-sm text-base-content">
+<div class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">alt</kbd>
 +
 <kbd class="kbd">shift</kbd>
@@ -169,7 +169,7 @@ Mac
 </td>
 
 <td class="px-6 py-4 whitespace-nowrap">
-<span class="text-sm text-base-content">
+<span class="leading-relaxed font-sans  text-sm text-base-content">
 <kbd class="kbd">⌥</kbd>
 
 +

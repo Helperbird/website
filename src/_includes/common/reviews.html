@@ -1,6 +1,6 @@
 <section tabindex="-1" class="relative mx-auto max-w-7xl p-8 px-4 pt-16 pb-16 focus:outline-none sm:px-3 md:px-5">
-    <h2 class="mt-1 text-5xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl" tabindex="0">What our Helperbird customers say</h2>
-    <p class="mt-5 max-w-xl text-2xl">Over 1,000,000 use Helperbird every day.<br>Allowing them to make the web more accessible and be more productive on the web.</p>
+    <h2 class="leading-relaxed font-sans  mt-1 text-5xl font-extrabold text-gray-900 sm:text-5xl sm:  lg:text-5xl" tabindex="0">What our Helperbird customers say</h2>
+    <p class="leading-relaxed font-sans  mt-5 max-w-xl text-2xl">Over 1,000,000 use Helperbird every day.<br>Allowing them to make the web more accessible and be more productive on the web.</p>
     <div class="mt-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
         <div class="mt-8 mb-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
             <a class="btn-base btn-outline btn mr-4 hidden border-2 border-stone-600 sm:flex" href="/reviews/">See all reviews</a>
@@ -10,14 +10,14 @@
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 -%}
             <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
-                <blockquote class="text-gray-900">
+                <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-x-4">
                     <img class="h-10 w-10 rounded-full bg-gray-50" alt="Photo of Helperbird Pro user {{ review.name }}" src="{{ review.photo }}">
                     <div>
                         <div class="font-semibold">{{ review.name }}</div>
-                        <div class="text-gray-600">{{ review.title }}</div>
+                        <div class="leading-relaxed font-sans  text-gray-600">{{ review.title }}</div>
                     </div>
                 </figcaption>
             </figure>
@@ -26,14 +26,14 @@
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 offset:4 -%}
             <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
-                <blockquote class="text-gray-900">
+                <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-x-4">
                     <img class="h-10 w-10 rounded-full bg-gray-50" alt="Photo of Helperbird Pro user {{ review.name }}" src="{{ review.photo }}">
                     <div>
                         <div class="font-semibold">{{ review.name }}</div>
-                        <div class="text-gray-600">{{ review.title }}</div>
+                        <div class="leading-relaxed font-sans  text-gray-600">{{ review.title }}</div>
                     </div>
                 </figcaption>
             </figure>
@@ -42,14 +42,14 @@
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 offset:8 -%}
             <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
-                <blockquote class="text-gray-900">
+                <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
                 <figcaption class="mt-6 flex items-center gap-x-4">
                     <img class="h-10 w-10 rounded-full bg-gray-50" alt="Photo of Helperbird Pro user {{ review.name }}" src="{{ review.photo }}">
                     <div>
                         <div class="font-semibold">{{ review.name }}</div>
-                        <div class="text-gray-600">{{ review.title }}</div>
+                        <div class="leading-relaxed font-sans  text-gray-600">{{ review.title }}</div>
                     </div>
                 </figcaption>
             </figure>

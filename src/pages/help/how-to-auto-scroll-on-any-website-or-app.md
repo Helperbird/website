@@ -1,21 +1,26 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to auto scroll on any website
-description: Learn how to use the auto scroll feature of the Helperbird browser extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Use Auto-Scroll on Websites
+description: Discover the step-by-step guide to effortlessly enable and
+  customize the auto-scroll functionality using the Helperbird browser
+  extension.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-auto-scroll-on-any-website-or-app/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2016-01-04
 youtubeId: PfILiWebkuc
 cardTitle: Auto Scrolling
-featureDescription: Learn how to use the auto scroll feature of the Helperbird browser extension.
-date: 2016-01-04
-tags: guideFeaturesMain
-url: help/how-to-auto-scroll-on-any-website-or-app/
+featureDescription: Discover the step-by-step guide to effortlessly enable and
+  customize the auto-scroll functionality using the Helperbird browser
+  extension.
+header: true
 ---
 
 
@@ -39,8 +44,6 @@ url: help/how-to-auto-scroll-on-any-website-or-app/
 ### Note
 
 You can also use the auto-scroll feature in combination with other features such as the Zoom and Sticky Note features for a better reading and research experience.
-
-
 
 
 ## Video tutorial

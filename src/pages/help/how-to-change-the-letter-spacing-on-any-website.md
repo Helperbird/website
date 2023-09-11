@@ -1,52 +1,74 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the letter spacing on a website
-description: Learn how easy it is to change the letter spacing on any website.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Adjust Letter Spacing on Any Website
+description: Easily enhance readability by customizing the spacing between
+  letters on any website. Follow our step-by-step guide to adjust letter spacing
+  with Helperbird.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-change-the-letter-spacing-on-any-website/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2021-01-07
 youtubeId: PfILiWebkuc
 cardTitle: Letter spacing
-featureDescription: Learn how easy it is to change the letter spacing on any website.
-date: 2021-01-07
-tags: guideFeaturesMain
-url: help/how-to-change-the-letter-spacing-on-any-website/
+featureDescription: Easily enhance readability by customizing the spacing
+  between letters on any website. Follow our step-by-step guide to adjust letter
+  spacing with Helperbird.
+header: true
 ---
+## Introduction
 
+Struggling with the readability of text on websites? This guide shows you how to adjust the letter spacing on any website using Helperbird, enhancing your browsing experience.
 
+## Prerequisites
 
-## How to change the Letter spacing on a website
+- An active Helperbird account.
+- The Helperbird extension installed on your browser.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Steps to Adjust Letter Spacing on Any Website
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Step 1: Open Helperbird
 
-**Step 3:** Scroll to the **Text adjustment** card.
+Click the Helperbird icon located in the top-right corner of your browser window.
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Letter spacing** option and a toggle switch labeled **Off**.
+### Step 2: Access Features
 
-**Step 5** Click the toggle switch to turn the feature on.
+The Helperbird extension will open, displaying a variety of quick actions and other features.
 
-**Step 6** The Letter spacing will change to the size you picked below it
+### Step 3: Locate Text Adjustment Card
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+Scroll down to find the "Text adjustment" card within the extension interface.
 
-**Step 8 (Optional)** To change the Letter spacing just slide the slider to the size you want.
+### Step 4: Find the Toggle
 
+Inside the "Text adjustment" card, locate the "Letter spacing" option and the accompanying toggle switch marked "Off."
+
+### Step 5: Activate Feature
+
+Click the toggle switch to enable the letter spacing adjustment feature.
+
+### Step 6: Adjust Spacing
+
+The spacing between letters will automatically change based on your selection in the dropdown menu or slider below the toggle.
+
+### Step 7: Deactivate Feature (Optional)
+
+If you wish to revert to the default letter spacing, click the toggle switch again to turn off the feature.
+
+### Step 8: Further Adjustment (Optional)
+
+To fine-tune the letter spacing, use the slider to set it to your preferred size.
 
 ## Video Tutorial
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
-
+If you encounter any issues while adjusting the letter spacing, our Helperbird support team is always ready to assist you. Contact us for further assistance.

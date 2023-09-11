@@ -1,45 +1,72 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the font size on any website
-description: Learn how easy it is to change the font size on any website to a size that suits you.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Adjust Font Size on Any Website
+description: Learn how easy it is to change the font size on any website to a
+  size that suits you.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-youtubeId: PfILiWebkuc
-cardTitle: Font sizes
-featureDescription:
-  Learn how easy it is to change the font size on any website to a size that suits you.
-date: 2020-01-03
-tags: guideFeaturesMain
 url: help/how-to-change-the-font-size-on-any-website/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-03
+youtubeId: PfILiWebkuc
+cardTitle: Font size
+featureDescription: Learn the simple steps to customize and adjust the font size
+  on any website to suit your reading preferences using the Helperbird
+  extension.
+header: true
 ---
+## Introduction
 
+Struggling to read text on websites? This guide will walk you through the simple steps to adjust the font size on any website using Helperbird.
 
+## Prerequisites
 
-## How to change the font size on a website
+- An active Helperbird account.
+- The Helperbird extension installed on your browser.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Steps to Change the Font Size on a Website
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Step 1: Open Helperbird
 
-**Step 3:** Scroll to the **Text adjustment** card.
+Click the Helperbird icon in the top-right corner of your browser window to open the extension.
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Font size** option and a toggle switch labeled **Off**.
+### Step 2: Access Quick Actions and Features
 
-**Step 5** Click the toggle switch to turn the feature on.
+The Helperbird extension will open, displaying quick actions and various features.
 
-**Step 6** The text/font size will change to the size you picked below it
+### Step 3: Locate the Text Adjustment Card
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+Scroll until you find the **Text adjustment** card within the extension.
 
-**Step 8 (Optional)** To change the font size, just slide the slider to the size you want.
+### Step 4: Identify the Font Size Option
 
+Within the Text Adjustment card, you'll see the **Font Size** option accompanied by a toggle switch labeled **Off**.
 
-## What are headers?
+### Step 5: Enable the Font Size Feature
+
+Click the toggle switch to turn on the font size adjustment feature.
+
+### Step 6: Choose Font Size
+
+The text/font size on the website will change to the size you pick.
+
+### Step 7 (Optional): Disable the Feature
+
+To turn off the font size feature, simply click the toggle switch again.
+
+### Step 8 (Optional): Adjust the Size
+
+To further adjust the font size, use the slider to find the size that suits you best.
+
+## Supported Text Elements
+
+### Headers
 
 - H1
 - H2
@@ -48,7 +75,7 @@ url: help/how-to-change-the-font-size-on-any-website/
 - H5
 - H6
 
-## What are paragraphs?
+### Paragraphs and Links
 
 - p
 - li
@@ -60,10 +87,6 @@ url: help/how-to-change-the-font-size-on-any-website/
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
-
+If you encounter any issues while using this feature, our support team is ready to assist. Please contact us for further assistance.

@@ -1,64 +1,57 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to use magnify or zoom on any website
-description: Learn how to use the powerful magnify or zoom feature of the Helperbird browser extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-youtubeId: PfILiWebkuc
-cardTitle: Zoom and Magnifying
-featureDescription: Learn how to use the powerful magnify or zoom feature of the Helperbird browser extension.
-date: 2022-12-01
-tags: guideFeaturesMain
+title: How to Use the Magnify and Zoom Features in Helperbird
+description: Master the art of magnifying and zooming on any webpage with
+  Helperbird's comprehensive guide. Discover how to make text and images more
+  accessible and easier to read
+keywords: Helperbird, magnify, zoom, website, browser extension, text, images, feature
 url: help/how-to-adjust-zoom-magnifying-for-any-website/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-12-01
+youtubeId: PfILiWebkuc
+cardTitle: Magnifying
+featureDescription: Master the art of magnifying and zooming on any webpage with
+  Helperbird's comprehensive guide. Discover how to make text and images more
+  accessible and easier to read
+header: true
 ---
+## Introduction
 
-## How to turn on the zoom or magnifying feature
+This guide will teach you how to enable and customize the zoom or magnifying feature in Helperbird. Follow the step-by-step instructions to master the art of zooming and magnifying on any webpage.
 
-**Step 1:** Install the Helperbird browser extension on your browser.
+## Prerequisites
 
-**Step 2:** Open a webpage that you would like to use the zoom/magnifying feature on.
+- You must have the Helperbird browser extension installed.
+- You should be on a webpage where you want to use the zoom/magnifying feature.
 
-**Step 3:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
+## How to Turn On the Zoom or Magnifying Feature
 
-**Step 4:** Scroll to the "Zoom" card.
+1. Open a webpage that you'd like to magnify or zoom.
+2. Click on the Helperbird icon in your browser's toolbar to open the menu.
+3. Scroll down to the "Zoom" card.
+4. Inside the "Zoom" menu, you will find a toggle switch labeled "On."
+5. Click the toggle switch to enable the zoom/magnifying feature.
+6. Customize your zoom/magnifying settings, such as zoom level, if desired.
 
-**Step 5:** Within the "Zoom" menu, you will see a toggle switch labeled "On."
+## How to Turn Off the Zoom or Magnifying Feature
 
-**Step 6:** Click the toggle switch to turn on the zoom/magnifying feature.
+1. Open a webpage where you are currently using the zoom/magnifying feature.
+2. Click on the Helperbird icon in your browser's toolbar to open the menu.
+3. Scroll down to the "Zoom" card.
+4. Inside the "Zoom" menu, you will find a toggle switch labeled "On."
+5. Click the toggle switch to disable the zoom/magnifying feature.
 
-**Step 7:**  You can customize the zoom/magnifying settings, such as the zoom level.
+## Additional Notes
 
-## How to turn off the zoom or magnifying feature
+- The zoom feature can also be applied to images and videos. Simply click on them and adjust the level of zoom to your preference.
 
-**Step 1:** Install the Helperbird browser extension on your browser.
-
-**Step 2:** Open a webpage that you would like to use the zoom/magnifying feature on.
-
-**Step 3:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
-
-**Step 4:** Scroll to the "Zoom" card.
-
-**Step 5:** Within the "Zoom" menu, you will see a toggle switch labeled "On."
-
-**Step 6:** Click the toggle switch to turn off the zoom/magnifying feature.
-
-## Note
-
-You can also use the zoom feature on images and videos, by clicking on them and adjust the level of zoom as per your preference.
-
-
-## Video tutorial
+## Video Tutorial
 
 - Coming soon
 
+## Need Additional Help?
 
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
+If you encounter any issues or have further questions, don't hesitate to contact the Helperbird support team for assistance. You can reach out to them [here](/support).

@@ -1,55 +1,80 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the font on any website to a dyslexic font
-description:
-  Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Change Webpage Fonts to Dyslexic-Friendly Options
+description: Learn how to easily switch to dyslexic-friendly fonts on any
+  website using the Helperbird browser extension. Make web browsing more
+  accessible with just a few clicks.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
+name: Helpebird STAFF
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2019-01-01
 youtubeId: PfILiWebkuc
 cardTitle: Dyslexic Fonts
-featureDescription:
-  Learn how easy it is to change the font on any website to a dyslexic font with Helperbird.
-date: 2019-01-01
-tags: guideFeaturesMain
-url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
+featureDescription: Learn how to easily switch to dyslexic-friendly fonts on any
+  website using the Helperbird browser extension. Make web browsing more
+  accessible with just a few clicks.
+header: true
 ---
+## Introduction
 
-## Change the font on any website to a dyslexic font
+Struggling with reading text online? Helperbird can change the font on any website to one that's dyslexic-friendly. This guide will show you how to activate this feature.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Prerequisites
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+- An active Helperbird account.
+- Helperbird browser extension installed.
 
-**Step 3:** Scroll to the **Text adjustment** card.
+## Steps to Change the Font to a Dyslexic-Friendly Option
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Font** option and a toggle switch labeled **Off**.
+### Step 1: Open Helperbird Extension
 
-**Step 5** Click the toggle switch to turn the feature on.
+Click on the Helperbird icon located in the top-right corner of your browser window.
 
-**Step 6** The Font will change to the font you picked below it
+### Step 2: Access Quick Actions
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+The Helperbird extension will open, displaying quick actions and other features.
 
-**Step 8 (Optional)** To change the font, just pick another font from the list.
+### Step 3: Locate the Text Adjustment Card
 
+Scroll down to find the **Text Adjustment** card within the extension.
 
-## Dyslexia fonts
+### Step 4: Identify the Font Option
+
+Within the Text Adjustment card, look for the **Font** option accompanied by a toggle switch labeled **Off**.
+
+### Step 5: Activate the Feature
+
+Click on the toggle switch to turn the feature on.
+
+### Step 6: Select a Dyslexic-Friendly Font
+
+The font on the website will change to the one you selected from the list provided below the toggle.
+
+### Step 7 (Optional): Deactivate the Feature
+
+To turn off the feature, simply click the toggle switch again.
+
+### Step 8 (Optional): Change the Font
+
+If you wish to use a different dyslexic-friendly font, select one from the list provided.
+
+## Available Dyslexic-Friendly Fonts
 
 - OpenDyslexic
 - Lexend
 - Comic Sans
 
-## What fonts can I use?
+## Additional Font Options
 
 - Arial
-- Cosmic Sans
-- OpenDyslexic
+- Comic Sans
 - Tahoma
 - Verdana
 - Gothic
@@ -58,23 +83,14 @@ url: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 - Bookman
 - Courier
 - Georgia
-- Gothic
 - Helvetica
 - Impact
 - Times
-- Lexend
-
 
 ## Video Tutorial
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
-
-
-
+If you encounter any issues while using this feature, our Helperbird support team is available for assistance.

@@ -18,20 +18,20 @@ url: pricing/
 <div class="mx-auto mt-11 max-w-7xl px-6 sm:mt-12 lg:px-8">
   <div class="mx-auto max-w-4xl text-center header__helperbird_single__tagline">
 
-    <h1 class="font-bold tracking-tight text-white text-xl md:text-6xl">Pricing plans for everyone</h1>
+    <h1 class="leading-relaxed font-sans  font-bold   text-white text-xl md:text-6xl">Pricing plans for everyone</h1>
   </div>
 
   <div class="mx-auto max-w-4xl text-center header__helperbird_single__tagline">
 
-  <a class="font-bold tracking-tight text-white text-xl" :href="priceDetails.studentLink + '?prefilled_promo_code=helperbird33'" target="_blank">Students click here to get Helperbird for <span>$40</span> a year</a>
+  <a class="font-bold   text-white text-xl" :href="priceDetails.studentLink + '?prefilled_promo_code=helperbird33'" target="_blank">Students click here to get Helperbird for <span>$40</span> a year</a>
 </div>
 
-  <p class="mt-10 text-2xl leading-8 text-black mx-auto text-center">
+  <p class="leading-relaxed font-sans  mt-10 text-2xl leading-8 text-black mx-auto text-center">
     Two simple plans, each with a 3-day free trial.
 
     <br/>
     Need a district or enteprise quote or have
-    <a href="/contact" class="text-blue-600 underline  decoration-blue-500 hover:underline hover:decoration-blue-500 hover:decoration-wavy">questions?</a>
+    <a href="/contact" class="leading-relaxed font-sans  text-blue-600 underline  decoration-blue-500 hover:underline hover:decoration-blue-500 hover:decoration-wavy">questions?</a>
   </p>
 
   <div class="mt-12 flex justify-center">
@@ -88,31 +88,31 @@ url: pricing/
   <div class="rounded-xl   card border-stone-600 border-2 bg-white">
     <div class="card-body block">
       <div class="flex items-center justify-between gap-x-4">
-        <h3 class="text-xl font-bold leading-8 text-black 900">🦉 Free
+        <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-xl font-bold leading-8 text-black 900">🦉 Free
         </h3>
       </div>
-      <p class="mt-4 text-base leading-6 text-black 600">Our free features.</p>
+      <p class="leading-relaxed font-sans  mt-4 text-base leading-6 text-black 600">Our free features.</p>
 
 
-      <p class="mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           0.00
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/monthly</span>
       </p>
 
 
-      <p class="mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           0.00
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/yearly</span>
       </p>
 
 
@@ -121,7 +121,7 @@ url: pricing/
         Get the app
       </label>
 
-      <h3 class="text-base font-bold text-black mt-8 mb-2">What's included</h3>
+      <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-base font-bold text-black mt-8 mb-2">What's included</h3>
       <ul role="list" class="space-y-3 text-base leading-6 text-black 600 xl:mt-10">
         <li class="flex space-x-3">
           <!-- Heroicon name: mini/check -->
@@ -136,7 +136,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Basic accessibility features.</span>
+          <span class="leading-relaxed font-sans  text-base text-black">Basic accessibility features.</span>
         </li>
 
         <li class="flex space-x-3">
@@ -152,7 +152,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Basic Text to speech features.
+          <span class="leading-relaxed font-sans  text-base text-black">Basic Text to speech features.
           </span>
         </li>
         <li class="flex space-x-3">
@@ -168,7 +168,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Specialized fonts
+          <span class="leading-relaxed font-sans  text-base text-black">Specialized fonts
           </span>
         </li>
         <li class="flex space-x-3">
@@ -184,7 +184,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Color blindness features
+          <span class="leading-relaxed font-sans  text-base text-black">Color blindness features
           </span>
         </li>
 
@@ -201,7 +201,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Immersive reader by Microsoft
+          <span class="leading-relaxed font-sans  text-base text-black">Immersive reader by Microsoft
           </span>
         </li>
       </ul>
@@ -212,7 +212,7 @@ url: pricing/
   <div class="rounded-xl   card border-stone-600 border-2 bg-white">
     <div class="card-body block">
       <div class="flex items-center justify-between gap-x-4">
-        <h3 class="text-lg font-bold leading-8 text-indigo-600">
+        <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-lg font-bold leading-8 text-indigo-600">
           <span class="mr-2">💎
           </span>
           Pro
@@ -223,28 +223,28 @@ url: pricing/
 
 
       </div>
-      <p class="mt-4 text-base leading-6 text-black 600">Best for individuals.</p>
+      <p class="leading-relaxed font-sans  mt-4 text-base leading-6 text-black 600">Best for individuals.</p>
 
       </p>
-      <p class="mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           <span v-html="monthlyProPricing">4.84</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/monthly</span>
       </p>
 
 
-      <p class="mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           <span v-html="yearlyProPricing">40.00</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/yearly</span>
       </p>
 
       <a
@@ -267,7 +267,7 @@ url: pricing/
       </a>
 
 
-      <h3 class="text-base font-bold text-black mt-8 mb-2">What's included</h3>
+      <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-base font-bold text-black mt-8 mb-2">What's included</h3>
 
       <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-black 600 xl:mt-10">
         <li class="flex gap-x-3">
@@ -283,7 +283,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Advanced features
+          <span class="leading-relaxed font-sans  text-base text-black">Advanced features
           </span>
         </li>
         <li class="flex space-x-3">
@@ -299,24 +299,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Advance Speech features
-          </span>
-        </li>
-
-        <li class="flex space-x-3">
-          <!-- Heroicon name: mini/check -->
-          <svg
-            class="h-5 w-5 flex-shrink-0 text-green-500"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true">
-            <path
-              fill-rule="evenodd"
-              d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-              clip-rule="evenodd" />
-          </svg>
-          <span class="text-base text-black">Annotation tools
+          <span class="leading-relaxed font-sans  text-base text-black">Advance Speech features
           </span>
         </li>
 
@@ -333,7 +316,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Writing tools
+          <span class="leading-relaxed font-sans  text-base text-black">Annotation tools
           </span>
         </li>
 
@@ -350,7 +333,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Reading tools
+          <span class="leading-relaxed font-sans  text-base text-black">Writing tools
           </span>
         </li>
 
@@ -367,7 +350,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Research tools
+          <span class="leading-relaxed font-sans  text-base text-black">Reading tools
           </span>
         </li>
 
@@ -384,7 +367,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Advanced dyslexia support
+          <span class="leading-relaxed font-sans  text-base text-black">Research tools
           </span>
         </li>
 
@@ -401,7 +384,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Translation tools
+          <span class="leading-relaxed font-sans  text-base text-black">Advanced dyslexia support
           </span>
         </li>
 
@@ -418,7 +401,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Advance OCR tools
+          <span class="leading-relaxed font-sans  text-base text-black">Translation tools
           </span>
         </li>
 
@@ -435,7 +418,24 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Advance reading tools
+          <span class="leading-relaxed font-sans  text-base text-black">Advance OCR tools
+          </span>
+        </li>
+
+        <li class="flex space-x-3">
+          <!-- Heroicon name: mini/check -->
+          <svg
+            class="h-5 w-5 flex-shrink-0 text-green-500"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true">
+            <path
+              fill-rule="evenodd"
+              d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="leading-relaxed font-sans  text-base text-black">Advance reading tools
           </span>
         </li>
         <li class="flex space-x-3">
@@ -451,7 +451,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Natural voices
+          <span class="leading-relaxed font-sans  text-base text-black">Natural voices
           </span>
         </li>
 
@@ -469,7 +469,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Premium support
+          <span class="leading-relaxed font-sans  text-base text-black">Premium support
           </span>
         </li>
       </ul>
@@ -479,32 +479,32 @@ url: pricing/
   <div class="rounded-xl   card border-stone-600 border-2 bg-white">
     <div class="card-body block">
       <div class="flex items-center justify-between gap-x-4">
-        <h3 class="text-lg font-bold leading-8 text-black 900">
+        <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-lg font-bold leading-8 text-black 900">
           <span class="mr-2">🏠</span>
           Pro Unlimited</h3>
       </div>
-      <p class="mt-4 text-base leading-6 text-black 600">Best for schools & businesses.</p>
+      <p class="leading-relaxed font-sans  mt-4 text-base leading-6 text-black 600">Best for schools & businesses.</p>
 
 
-      <p class="mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1" v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           <span v-html="priceDetails.monthly.unlimited">99.99</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/monthly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/monthly</span>
       </p>
 
 
-      <p class="mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
+      <p class="leading-relaxed font-sans  mt-6 flex items-baseline gap-x-1 hidden" v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
         <!-- Price, update based on frequency toggle state -->
-        <span class="text-4xl font-bold tracking-tight text-black 900">
+        <span class="leading-relaxed font-sans  text-4xl font-bold   text-black 900">
           <span v-html="priceDetails.currency">$</span>
           <span v-html="priceDetails.yearly.unlimited">1500</span>
         </span>
         <!-- Payment frequency, update based on frequency toggle state -->
-        <span class="text-sm font-bold leading-6 text-black 600">/yearly</span>
+        <span class="leading-relaxed font-sans  text-sm font-bold leading-6 text-black 600">/yearly</span>
       </p>
 
       <a
@@ -520,7 +520,7 @@ url: pricing/
         class="btn btn-primary btn-wide mt-6 hidden ">Start Free trial</a>
 
 
-      <h3 class="text-base font-bold text-black mt-8 mb-2">What's included</h3>
+      <h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-base font-bold text-black mt-8 mb-2">What's included</h3>
 
       <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-black 600 xl:mt-10">
         <li class="flex space-x-3">
@@ -536,7 +536,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">All features
+          <span class="leading-relaxed font-sans  text-base text-black">All features
           </span>
         </li>
 
@@ -553,7 +553,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Unlimited users (per school/business)
+          <span class="leading-relaxed font-sans  text-base text-black">Unlimited users (per school/business)
           </span>
         </li>
 
@@ -570,7 +570,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Personal success manager.
+          <span class="leading-relaxed font-sans  text-base text-black">Personal success manager.
           </span>
         </li>
 
@@ -587,7 +587,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Admin panel
+          <span class="leading-relaxed font-sans  text-base text-black">Admin panel
             <div class="badge badge-accent ml-2 font-bold">Coming soon</div>
           </span>
         </li>
@@ -605,7 +605,7 @@ url: pricing/
               d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
               clip-rule="evenodd" />
           </svg>
-          <span class="text-base text-black">Premium support
+          <span class="leading-relaxed font-sans  text-base text-black">Premium support
           </span>
         </li>
       </ul>

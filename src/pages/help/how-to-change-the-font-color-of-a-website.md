@@ -1,50 +1,69 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to change the font color on a website
-description:
-  How to change the color of the font on a website using Helperbirds extension.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: Change Text Color on Any Website
+description: Learn how to effortlessly modify text colors on any website for a
+  personalized browsing experience using Helperbird's text color adjustment
+  feature.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-change-the-font-color-of-a-website/
+name: Helperbird Staff
+tags: guideFeaturesMain
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-02
 youtubeId: PfILiWebkuc
 cardTitle: Font color
-featureDescription:
-  How to change the color of the font of a website on Safrai, Chrome, Firefox or Edge.
-date: 2020-01-02
-tags: guideFeaturesMain
-url: help/how-to-change-the-font-color-of-a-website/
+featureDescription: Learn how to effortlessly modify text colors on any website
+  for a personalized browsing experience using Helperbird's text color
+  adjustment feature.
+header: true
 ---
+## Introduction
 
-## How to change the Font color of a website.
+Interested in customizing the appearance of websites you visit? Helperbird provides an easy solution to change the font color. This guide will show you how to do just that.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## Prerequisites
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+- An installed Helperbird extension on your browser.
 
-**Step 3:** Scroll to the **Styles & Colors** card.
+## Steps to Change the Font Color on a Website
 
-**Step 4:** Within the Styles & Colors card, you will see the **Font color** option and a toggle switch labeled **Off**.
+### Step 1: Open Helperbird Extension
 
-**Step 5** Click the toggle switch to turn the feature on.
+Click on the Helperbird icon located in the top-right corner of your browser window.
 
-**Step 6** The Font color will change to the color you picked.
+### Step 2: Access the Extension Menu
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+The Helperbird extension will open, displaying quick actions and other features.
 
+### Step 3: Navigate to Styles & Colors
 
+Scroll down until you find the **Styles & Colors** card.
+
+### Step 4: Locate the Font Color Option
+
+Inside the Styles & Colors card, you'll notice a **Font Color** option and a toggle switch labeled **Off**.
+
+### Step 5: Enable the Feature
+
+Click on the toggle switch to activate the feature.
+
+### Step 6: Select Your Preferred Color
+
+Once the feature is enabled, the font color on the webpage will change to your selected color.
+
+### Step 7: Deactivate the Feature (Optional)
+
+If you wish to revert back to the original font color, click on the toggle switch again to disable the feature.
 
 ## Video Tutorial
 
 - Coming soon.
 
+## Need Additional Help?
 
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
+If you encounter any difficulties or have further questions, our support team is ready to assist. Please don't hesitate to contact us.

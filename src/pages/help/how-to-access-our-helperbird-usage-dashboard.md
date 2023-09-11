@@ -1,44 +1,51 @@
 ---
 new: false
-header: true
 layout: templates/new/help/post.html
-title: How to Access the Usage Dashboard on Helperbird
-description: The Usage Dashboard is an exclusive feature available for Helperbird Pro Unlimited users. This dashboard provides you with detailed usage statistics, including the number of users over the past 12 months, last 60 days, uninstalls, and, if permitted, the emails of users. The dashboard is continuously updated with every new update we implement.
-
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+title: How to Access Your Helperbird Pro Unlimited Usage Dashboard
+description: Unlock deep insights into your Helperbird usage with our Pro
+  Unlimited Dashboard. Get real-time statistics on user activity, uninstalls,
+  and more—spanning the last year down to the past 60 days. Plus, with
+  continuous updates, you'll always have the most current data at your
+  fingertips.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
+  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
+  fonts, accessibility software, dyslexia software, Helperbird for Edge,
+  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
+url: help/how-to-access-usage-dashboard/
+name: Helperbird Staff
+tags: adminTools
+img: assets/images2/uploads/add-a-heading.png
+date: 2023-09-10T19:06:16.157Z
 youtubeId: PfILiWebkuc
 cardTitle: Usage Dashboard
-featureDescription: The Usage Dashboard is an exclusive feature available for Helperbird Pro Unlimited users. This dashboard provides you with detailed usage statistics, including the number of users over the past 12 months, last 60 days, uninstalls, and, if permitted, the emails of users. The dashboard is continuously updated with every new update we implement.
-
-tags: adminTools
-url: help/how-to-access-usage-dashboard/
+featureDescription: Unlock deep insights into your Helperbird usage with our Pro
+  Unlimited Dashboard. Get real-time statistics on user activity, uninstalls,
+  and more—spanning the last year down to the past 60 days. Plus, with
+  continuous updates, you'll always have the most current data at your
+  fingertips.
+header: true
 ---
+# How to Access Your Helperbird Pro Unlimited Usage Dashboard
 
+## Introduction
+This guide is designed to help Helperbird Pro Unlimited subscribers unlock deep insights into their usage. Offered exclusively to Pro Unlimited users, this dashboard is sent by a Helperbird team member and provides a rich array of real-time statistics including user activity, uninstalls, and more.
 
-
-The Usage Dashboard is an exclusive feature available for Helperbird Pro Unlimited users. This dashboard provides you with detailed usage statistics, including the number of users over the past 12 months, last 60 days, uninstalls, and, if permitted, the emails of users. The dashboard is continuously updated with every new update we implement.
-
-Follow the steps below to access your Usage Dashboard:
+## Prerequisites
+- An active Helperbird Pro Unlimited subscription
+- Email access, as the dashboard link will be sent to you via email
 
 ## Step 1: Log In
-First, ensure you are logged in to your Helperbird Pro Unlimited account. If you're not already logged in, click [here](https://www.helperbird.com/login) to log in.
+First, ensure you're logged into your Helperbird Pro Unlimited account. If you're not already logged in, you can do so [here](https://www.helperbird.com/login).
 
-## Step 2: Go to the Dashboard
-Once logged in, navigate to the Usage Dashboard. You can access it from your account menu or directly via this [link](https://www.helperbird.com/dashboard).
+## Step 2: Receive Dashboard Link
+You will receive a link to your Usage Dashboard from a Helperbird team member via email.
 
 ## Step 3: View Your Statistics
-Now, you can view your usage statistics. This information is updated frequently, ensuring that you always have access to the most recent data.
+Click on the link to access your dashboard. Here, you'll find detailed usage statistics that are updated continuously.
 
 ## Need Further Assistance?
-If you encounter any problems or need further assistance, feel free to contact our Support Team. They can provide you with a link to the dashboard or help you troubleshoot any issues. You can reach out to them [here](https://www.helperbird.com/contact).
+If you encounter any issues or require additional help, please don't hesitate to contact our Support Team [here](https://www.helperbird.com/support).
 
----
-
-Remember, the Usage Dashboard is a powerful tool that helps you keep track of your Helperbird usage. Make sure to check it regularly to stay informed about your statistics!
-
-I hope this guide helps you navigate and utilize the Usage Dashboard feature effectively. Stay tuned for more guides on how to use Helperbird's other features!
+## Video Tutorial
+Coming soon.
