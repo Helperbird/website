@@ -2,9 +2,9 @@
 new: false
 layout: templates/new/help/post.html
 title: How to Customize Text Highlight Color in your browser
-description: '"Easily change the text highlight color across various web
+description: Easily change the text highlight color across various web
   browsers like Safari, Chrome, Firefox, or Edge using the Helperbird extension.
-  Follow our guide to learn how.'
+  Follow our guide to learn how.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
   fonts, accessibility software, dyslexia software, Helperbird for Edge,
@@ -22,6 +22,7 @@ featureDescription: '"Easily change the text highlight color across various web
   Follow our guide to learn how.'
 header: true
 ---
+
 ## Introduction
 
 Want to customize the highlight color on a website for better visibility or personal preference? This guide will walk you through the steps to change the highlight color using Helperbird.
