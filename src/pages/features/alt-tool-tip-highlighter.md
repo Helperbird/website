@@ -10,9 +10,9 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Show Alt & Image Descriptions
-featureDescription: Simplify your web browsing with Helperbird's Alt & title description feature. Get additional information about the content by hovering over images and links.
+featureDescription: Streamline your web browsing by showing image and link descriptions on mouse over with Helperbird on any website or PDF. Gain quick insights into content by hovering over images and links.
 group: reading
-color: blue
+color: yellow
 tags:
   - features
   - accessibility

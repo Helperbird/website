@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Character and Letter Count Feature
-description: Easily count letters and characters on any website with Helperbird's browser extension. Two clicks for efficient writing.
+title: Advange Text Statistics
+description: Easily track various text metrics on any website or PDF with Helperbird's extension. With just two clicks, get a comprehensive analysis including unique word count, shortest words, estimated reading time, and more.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Easily Count Letters and Characters on Any Website with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/graph.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Count Letters and Characters
-featureDescription: Easily count letters and characters on any website with Helperbird's browser extension. Improve your writing efficiency with just two clicks.
+cardTitle: Text Statistics
+featureDescription: Easily track various text metrics on any website or PDF with Helperbird's extension. With just two clicks, get a comprehensive analysis including unique word count, shortest words, estimated reading time, and more.
 group: reading
-color: blue
+color: purple
 tags:
   - features
   - writing

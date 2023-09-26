@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Customize Your Cursor Size with Helperbird
-description: Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs. Download today on Chrome, Edge, Firefox, iPhone, and iPad.
+title: Customize Your Cursor Size
+description: Effortlessly adapt your cursor size to suit your needs with Helperbird's Cursor Size feature. Ideal for users with visual or dexterity challenges, as well as those who prefer a personalized browsing experience Download today on Chrome, Edge, Firefox, iPhone, and iPad.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Customize Your Cursor Size with Helperbird
+featurePageTitle: Customize Your Cursor Size
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Customize Your Cursor Size with Helperbird
-featureDescription: Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
+cardTitle: Customize Your Cursor Size
+featureDescription: Effortlessly adapt your cursor size to suit your needs with Helperbird's Cursor Size feature. Ideal for users with visual or dexterity challenges, as well as those who prefer a personalized browsing experience.
 group: reading
-color: blue
+color: gray
 tags: 
   - features
   - accessibility

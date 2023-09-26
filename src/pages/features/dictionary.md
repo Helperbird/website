@@ -2,15 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: English Dictionary | Research, Define, and Understand Words with Helperbird
-description: Unlock the full meaning of words with Helperbird's Dictionary feature. Research, define, and understand any English word with ease. Improve your reading comprehension with our powerful dictionary tool.
+title: English Dictionary | Research, Define, and Understand Words
+description: Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up, define, and grasp the meaning of any English word to enrich your reading experience.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: English Dictionary
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/dictionary.svg"
 youtubeId: PfILiWebkuc
 cardTitle: English Dictionary
-featureDescription: Unlock the full meaning of words with Helperbird's Dictionary feature. Research, define, and understand any English word with ease. Improve your reading comprehension with our powerful dictionary tool.
+featureDescription: Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up, define, and grasp the meaning of any English word to enrich your reading experience.
 group: reading
 color: blue
 tags: 

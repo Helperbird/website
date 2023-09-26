@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Color Blindness Support on Any Website 
-description: Improve color perception for people who are partially color-blind with underlining and stroking of web page links. Available on Chrome, Firefox, Edge, iPhone, and iPad.
+title: Color Blindness Support
+description: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 icon: "/src/_includes/svgs/blindness.svg"
 youtubeId: PfILiWebkuc
 img: i1EeaekPHIo
-cardTitle: Color Blindness Support on Any Website
-featureDescription: Improve color perception for people who are partially color-blind with underlining and stroking of web page links.
-featurePageTitle: Color Blindness Support on Any Website
+cardTitle: Color Blindness Support
+featureDescription: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
+featurePageTitle: Color Blindness Support
 group: reading
-color: blue
+color: teal
 tags: 
   - features
   - accessibility

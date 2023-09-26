@@ -3,16 +3,16 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: In-Browser Document Editor | Take and Organize Notes with Helperbird
-description: Helperbird's Note-taking feature allows users to effortlessly take and organize notes while browsing the web. Export and share your notes with other platforms, including Google Docs. Perfect for students, researchers, and anyone looking to stay organized and keep track of important information.
+description: Manage your documents effortlessly with Helperbird's In Browser Document Editor. Create, edit, and organize text files right within your browser, then export or import to Google Docs, Markdown, and more for ultimate convenience in note-taking and file management.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: In-Browser Document Editor with Microsoft Word and Google Docs Support
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/editor.svg"
 youtubeId: PfILiWebkuc
-cardTitle: In-Browser Document Editor
-featureDescription: Create, edit, and organize documents in a full editor with Helperbird's in-browser document editor feature. Export and import your documents to Google Docs, Markdown, and more. Stay organized and efficient in your note-taking and document management.
+cardTitle: Document Editor
+featureDescription: Manage your documents effortlessly with Helperbird's In Browser Document Editor. Create, edit, and organize text files right within your browser, then export or import to Google Docs, Markdown, and more for ultimate convenience in note-taking and file management.
 group: reading
-color: blue
+color: cyan
 tags: 
   - features
   - writing

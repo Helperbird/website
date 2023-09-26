@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Customizable Auto Scroll
-description: Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium, and fast. Effortlessly scroll through websites with your preferred speed. Available in Chrome, Firefox, Edge, and Safari.
+title: Personalize Your Scrolling Experience Across Browsers
+description: Personalize your browsing experience with Helperbird's Customizable Auto Scroll feature. Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your own pace. Available across Chrome, Firefox, Edge, and Safari.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Customizable Auto Scroll
+featurePageTitle: Auto Scroll
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/scroll.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Customizable Auto Scroll
-featureDescription: Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium, and fast. Effortlessly scroll through websites with your preferred speed. Available in Chrome, Firefox, Edge, and Safari.
+cardTitle:  Auto Scroll
+featureDescription: Personalize your browsing experience with Helperbird's Customizable Auto Scroll feature. Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your own pace. Available across Chrome, Firefox, Edge, and Safari.
 group: reading
-color: blue
+color: orange
 tags: 
   - features
   - accessibility
