@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Show Alt & Image Descriptions
 featureDescription: Simplify your web browsing with Helperbird's Alt & title description feature. Get additional information about the content by hovering over images and links.
 group: reading
+color: blue
 tags:
   - features
   - accessibility

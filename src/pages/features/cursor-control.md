@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Customize Your Cursor Size with Helperbird
 featureDescription: Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

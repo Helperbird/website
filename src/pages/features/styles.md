@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Customize Fonts, Background, and Link Colors
 featureDescription: Customize the link, visited links, background, and font colors on any website with Helperbird's easy-to-use color options. Make any website work for you by personalizing its appearance.
 group: reading
+color: blue
 tags:
   - features
   - reading

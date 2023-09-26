@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Summarize Pages
 featureDescription: Helperbird's browser extension automatically summarizes web pages and articles into bullet points, simplifying your reading and research tasks.
 group: reading
+color: blue
 tags:
   - features
   - writing

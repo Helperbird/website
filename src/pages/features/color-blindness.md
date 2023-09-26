@@ -12,6 +12,7 @@ cardTitle: Color Blindness Support on Any Website
 featureDescription: Improve color perception for people who are partially color-blind with underlining and stroking of web page links.
 featurePageTitle: Color Blindness Support on Any Website
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

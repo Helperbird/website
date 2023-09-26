@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Custom Borders
 featureDescription: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience. Enhance readability with Helperbird's Custom Borders feature.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

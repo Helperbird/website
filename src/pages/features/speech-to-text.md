@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Voice Typing
 featureDescription: Experience fast and accurate speech to text conversion with Helperbird's voice typing extension for Chrome, Firefox, Edge, or iOS. Say goodbye to tedious typing and hello to efficient communication. Try it now for free!
 group: reading
+color: blue
 tags:
   - features
   - writing

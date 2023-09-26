@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: In-Browser Document Editor
 featureDescription: Create, edit, and organize documents in a full editor with Helperbird's in-browser document editor feature. Export and import your documents to Google Docs, Markdown, and more. Stay organized and efficient in your note-taking and document management.
 group: reading
+color: blue
 tags: 
   - features
   - writing

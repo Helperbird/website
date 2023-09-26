@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Text Alignment
 featureDescription: Improve readability with Helperbird's easy-to-use text alignment extension. Perfectly align the text on any website for enhanced readability and a better reading experience. Try it now!
 group: reading
+color: blue
 tags:
   - features
   - reading

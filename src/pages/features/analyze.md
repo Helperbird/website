@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Count Letters and Characters
 featureDescription: Easily count letters and characters on any website with Helperbird's browser extension. Improve your writing efficiency with just two clicks.
 group: reading
+color: blue
 tags:
   - features
   - writing

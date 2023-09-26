@@ -14,6 +14,7 @@ featureDescription: Easily adjust line, letter, and word spacing on any website 
 link: reading
 url: features/adjust-letters-and-words/
 group: reading
+color: blue
 tags:
   - features
   - reading

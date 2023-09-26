@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Specialized Fonts
 featureDescription: Easily change the font on any website or PDF with Helperbird's extension to dyslexia-friendly fonts like Lexend and OpenDyslexic, or choose from 18 specialized font options. Perfect for individuals with dyslexia or those seeking a unique reading experience.
 group: reading
+color: blue
 tags:
   - features
   - reading

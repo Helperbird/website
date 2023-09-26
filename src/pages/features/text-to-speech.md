@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Natural Text to Speech
 featureDescription: Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks, and PDFs with natural-sounding voices.
 group: reading
+color: blue
 tags:
   - features
   - reading

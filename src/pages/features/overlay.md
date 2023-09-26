@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Overlays & Tints
 featureDescription: Adjust the brightness, contrast, and color of any website to your preference with Helperbird's customizable overlay and tint extension. Reduce glare, eye strain, and fatigue, and personalize your browsing experience for enhanced readability and comfort.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

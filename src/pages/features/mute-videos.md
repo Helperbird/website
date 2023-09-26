@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Mute Videos and Audio 
 featureDescription: Silence distractions and mute annoying auto-playing videos with ease using Helperbird's video mute feature. Enjoy a more peaceful browsing experience on any website. Available for Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

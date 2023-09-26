@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Quick Print Feature
 featureDescription: Helperbird's Quick Print Feature makes printing web pages a breeze. With just a click, you can easily print any webpage in its entirety or just the selected content. Say goodbye to the hassle of printing web pages and hello to a more streamlined and efficient process with Helperbird.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

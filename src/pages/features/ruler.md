@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Dyslexia Ruler
 featureDescription: Helperbird's Dyslexia Ruler helps you effortlessly follow and focus on text, eliminating distractions and improving readability on any website or PDF.
 group: reading
+color: blue
 tags:
   - features
   - reading

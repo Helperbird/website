@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Reading Guide
 featureDescription: Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.
 group: reading
+color: blue
 tags: 
   - features
   - reading

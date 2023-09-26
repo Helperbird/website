@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Screenshot Tool
 featureDescription: Capture the entire webpage or specific sections with just one click using Screenshot by Helperbird. Save screenshots to your device for easy access and reference.
 group: reading
+color: blue
 tags:
   - features
   - accessibility

@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Translate Words, Websites, and PDFs with Ease
 featureDescription: Helperbird gives free translation support to any website or PDF. Select a sentence or a word, right-click, choose Helperbird, Google Translate, and select the desired language for translation. Effortlessly understand any language with Helperbird's Translation feature.
 group: reading
+color: blue
 tags: 
   - features
   - reading

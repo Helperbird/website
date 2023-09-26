@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Privacy Features
 featureDescription: Helperbird's privacy features ensure that no user data is sold, stored, or consumed. We prioritize user privacy and do not store any data or user-related content.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Keyboard Shortcuts
 featureDescription: Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance your accessibility experience with quick and efficient shortcuts.
 group: reading
+color: blue
 tags:
   - features
   - accessibility

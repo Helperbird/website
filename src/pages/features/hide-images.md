@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Hide Images or GIFs
 featureDescription: Hide all images or just GIFs on webpages using Helperbird's Media Filter feature. Enjoy a distraction-free browsing experience by temporarily hiding visual elements and easily showing them again when needed.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

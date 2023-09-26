@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Set the Width of Paragraphs
 featureDescription: Set the width of paragraphs to improve focus and readability. Customize the width to match your preferences and reduce eye strain while reading websites and PDFs with Helperbird's user-friendly browser extension.
 group: reading
+color: blue
 tags: 
   - features
   - reading

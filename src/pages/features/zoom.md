@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Page & Text Magnifier
 featureDescription: Enhance your reading experience with the page & text magnifier extension for Google Chrome, Edge, and Safari. Increase the zoom level on any page for improved visibility.
 group: reading
+color: blue
 tags:
   - features
   - accessibility

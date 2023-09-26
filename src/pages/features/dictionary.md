@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: English Dictionary
 featureDescription: Unlock the full meaning of words with Helperbird's Dictionary feature. Research, define, and understand any English word with ease. Improve your reading comprehension with our powerful dictionary tool.
 group: reading
+color: blue
 tags: 
   - features
   - reading

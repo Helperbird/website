@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Spelling & Grammar Checker
 featureDescription: Improve your writing with Helperbird's easy-to-use online spell checker. Available as a Chrome, Edge, and iPad extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence.
 group: reading
+color: blue
 tags:
   - features
   - writing

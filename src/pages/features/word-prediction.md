@@ -13,6 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Word Prediction
 featureDescription: Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve productivity and accuracy with advanced AI-powered suggestions and autocomplete features.
 group: reading
+color: blue
 tags:
   - features
   - writing

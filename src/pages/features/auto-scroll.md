@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Customizable Auto Scroll
 featureDescription: Helperbird allows you to easily change the auto-scroll speed and save it in three different modes; slow, medium, and fast. Effortlessly scroll through websites with your preferred speed. Available in Chrome, Firefox, Edge, and Safari.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

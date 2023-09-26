@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Extract Text (OCR)
 featureDescription: Helperbird's OCR feature allows you to capture and convert text from images, videos, and PDFs. Enhance your productivity by extracting and reusing text in digital documents, emails, or reports.
 group: reading
+color: blue
 tags: 
   - features
   - accessibility

@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Customize Font Sizes
 featureDescription: Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. Improve readability and enhance your online reading with customizable font sizes using Helperbird.
 group: reading
+color: blue
 tags: 
   - features
   - reading

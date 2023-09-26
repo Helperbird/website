@@ -12,6 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Notes Organizer
 featureDescription: Keep all your sticky notes, highlights, and extracted text sorted and easily accessible with Helperbird's Web-based Note Organizer feature. Stay organized and access your notes from any device.
 group: reading
+color: blue
 tags: 
   - features
   - writing

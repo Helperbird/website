@@ -11,8 +11,11 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/reading-mode.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Reading Mode
-featureDescription: Simplify the layout of web pages and remove distractions like ads and multimedia elements. Enjoy a clutter-free reading experience with enhanced accessibility and productivity tools.
+featureDescription: Simplify web page layouts by removing ads and other distractions. Enjoy a focused reading experience with added accessibility and productivity tools.
+
+
 group: reading
+color: blue
 tags: 
   - features
   - reading
