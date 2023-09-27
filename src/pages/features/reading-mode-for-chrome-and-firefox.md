@@ -3,19 +3,18 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Reading Mode for Chrome and Firefox | Simplify Web Pages and Enhance Accessibility
-
-description: Helperbird's Reading Mode simplifies the layout of web pages and removes distractions like ads and multimedia elements. Enjoy a clutter-free reading experience with enhanced accessibility and productivity tools.
+description: Experience a cleaner, more focused reading environment with Helperbird's Reading Mode. This feature eliminates ads and other distractions, providing you with a simplified web page layout. Take advantage of added accessibility and productivity tools, including summarization capabilities, to elevate your reading journey.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: View clutter-free web pages with productivity tools, using Helperbird's Reading Mode
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/reading-mode.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Reading Mode
-featureDescription: Simplify web page layouts by removing ads and other distractions. Enjoy a focused reading experience with added accessibility and productivity tools.
+featureDescription: Experience a cleaner, more focused reading environment with Helperbird's Reading Mode. This feature eliminates ads and other distractions, providing you with a simplified web page layout. Take advantage of added accessibility and productivity tools, including summarization capabilities, to elevate your reading journey.
 
 
 group: reading
-color: blue
+color: purple
 tags: 
   - features
   - reading

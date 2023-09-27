@@ -2,7 +2,7 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Customizable Link, Visited Links, Background, and Font Colors on Any Website
+title: Color Customization - Link, Background, and Fonts -
 description: Customize the link, visited links, background, and font colors on any website with Helperbird's easy-to-use color options. Make any website work for you by personalizing its appearance.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
@@ -10,8 +10,8 @@ featurePageTitle: Styles & Colors
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/styles.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Customize Fonts, Background, and Link Colors
-featureDescription: Customize the link, visited links, background, and font colors on any website with Helperbird's easy-to-use color options. Make any website work for you by personalizing its appearance.
+cardTitle: Color Customization
+featureDescription: Adjust font, background, and link colors to enhance your online experience and make websites work for you.
 group: reading
 color: blue
 tags:

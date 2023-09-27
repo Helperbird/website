@@ -1,7 +1,7 @@
 ---
 new: false
 layout: templates/new/help/post.html
-title: How to Install and Use the Helperbird Add-on for Google Docs
+title: How use the Helperbird Add-on for Google Docs
 description: Discover how to enhance your Google Docs experience with
   Helperbird's accessibility features. This step-by-step guide walks you through
   installation and usage, making document editing more accessible than ever.
@@ -22,10 +22,6 @@ featureDescription: Discover how to enhance your Google Docs experience with
   installation and usage, making document editing more accessible than ever.
 header: true
 ---
-Certainly! Below is your content reformatted and expanded according to the "gold standard" layout:
-
-```markdown
-# How to Install and Use the Helperbird Add-on for Google Docs
 
 ## Introduction
 This comprehensive guide provides step-by-step instructions for installing and using the Helperbird Add-on in Google Docs. Experience a more accessible and enhanced document editing workflow with Helperbird's built-in features.
@@ -33,6 +29,16 @@ This comprehensive guide provides step-by-step instructions for installing and u
 ## Prerequisites
 - A Google Account is required to access Google Docs.
 - Make sure you are logged into your Google Account before proceeding.
+
+
+
+## Video Tutorial
+
+
+
+<iframe width="560" height="315" id="videos" src="https://www.youtube.com/embed/hUBfceYUm3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 ## Step 1: Open a Google Docs Document
 1. Open a new or existing Google Docs document in your browser.
@@ -69,14 +75,5 @@ This comprehensive guide provides step-by-step instructions for installing and u
 ## Please Note
 Additional steps such as signing into your Helperbird account or obtaining admin approval may be required to use certain features.
 
-## Features Included
-- Dyslexia font support
-- Text to speech
-- Voice typing
-- Immersive reader
 
-## Conclusion
-You have successfully installed and learned how to use the Helperbird Add-on for Google Docs, enhancing your document editing experience with invaluable accessibility features.
-```
 
-Feel free to adjust as needed!

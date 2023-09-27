@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Word Prediction Extension for Every Website and Google Docs | Enhance Your Writing Experience
-description: Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve productivity and accuracy with advanced AI-powered suggestions and autocomplete features. Try it now!
+title: Word Prediction Extension for Every Website and Google Docs
+description: Maximize your writing skills with Helperbird's word prediction extension, available on Google Docs and across the web. Boost your productivity and type more accurately with our cutting-edge, AI-driven autocomplete and suggestions. Experience it today!
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Word Prediction Extension for Every Website and Google Docs - Enhance Your Writing Experience
@@ -11,9 +11,9 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/word-prediction.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Word Prediction
-featureDescription: Unlock the full potential of your writing with our word prediction extension for Google Docs and any website. Improve productivity and accuracy with advanced AI-powered suggestions and autocomplete features.
+featureDescription: Maximize your writing skills with Helperbird's word prediction extension, available on Google Docs and across the web. Boost your productivity and type more accurately with our cutting-edge, AI-driven autocomplete and suggestions.
 group: reading
-color: blue
+color: green
 tags:
   - features
   - writing

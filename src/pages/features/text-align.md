@@ -3,7 +3,7 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Align Any Website's Text with Ease | Helperbird
-description: Improve readability with Helperbird's easy-to-use text alignment extension. Perfectly align the text on any website for enhanced readability and a better reading experience. Try it now!
+description: Align text to your preference on any website with Helperbird's Text Alignment feature. Improve your reading experience and readability by easily customizing the alignment. Try it today!
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Align Any Website's Text with Ease. The One Extension You Need.
@@ -11,9 +11,9 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/align.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Text Alignment
-featureDescription: Improve readability with Helperbird's easy-to-use text alignment extension. Perfectly align the text on any website for enhanced readability and a better reading experience. Try it now!
+featureDescription: Align text to your preference on any website with Helperbird's Text Alignment feature. Improve your reading experience and readability by easily customizing the alignment.
 group: reading
-color: blue
+color: green
 tags:
   - features
   - reading

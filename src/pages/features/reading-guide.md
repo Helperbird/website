@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Reading Guide software
-description: Improve your reading speed and comprehension with Helperbird's innovative reading ruler. Our reading guide helps eliminate distractions and enables you to focus on the text effortlessly, enhancing your understanding and reading experience.
+title: Reading Guide for Focused Engagement
+description: Elevate your reading experience with Helperbird's Reading Guide, designed to direct your eye flow and keep you engaged with the text. Say goodbye to distractions and hello to a new level of focus and comprehension.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Effortlessly focus on text while reading with Helperbird's reading guide
+featurePageTitle: Reading Guide for Focused Engagement
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/ruler.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Reading Guide
-featureDescription: Designed to help guide your eye and eliminate distractions, our reading ruler makes it easy to focus on the text and understand more.
+featureDescription: Elevate your reading experience with Helperbird's Reading Guide, designed to direct your eye flow and keep you engaged with the text. Say goodbye to distractions and hello to a new level of focus and comprehension.
 group: reading
-color: blue
+color: yellow
 tags: 
   - features
   - reading

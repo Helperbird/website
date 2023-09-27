@@ -3,16 +3,16 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Effortlessly Annotate and Highlight PDFs | Dyslexia-Friendly PDF Reader
-description: Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. Easily annotate, highlight, and add sticky notes to your PDFs, all while receiving dyslexia support. With the added benefit of text-to-speech, Immersive Reader, and a highlighter feature, reading and studying PDFs has never been easier. Try it now with our easy-to-use browser extension.
+description: Elevate your PDF interactions with Helperbird's Dyslexia-Friendly PDF Reader. Not only can you annotate, highlight, and add sticky notes, but you also gain the advantage of dyslexia support features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and studying PDFs becomes a seamless experience. Try it now with our easy-to-use browser extension.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Effortlessly Annotate and Highlight PDFs with Helperbird's Dyslexia-Friendly PDF Reader
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/pdf.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Dyslexia-Friendly PDF Reader
-featureDescription: Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. Easily annotate, highlight, and add sticky notes to your PDFs, all while receiving dyslexia support. With the added benefit of text-to-speech, Immersive Reader, and a highlighter feature, reading and studying PDFs has never been easier. Try it now with our easy-to-use browser extension.
+featureDescription: Elevate your PDF interactions with Helperbird's Dyslexia-Friendly PDF Reader. Not only can you annotate, highlight, and add sticky notes, but you also gain the advantage of dyslexia support features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and studying PDFs becomes a seamless experience.
 group: reading
-color: blue
+color: red
 tags: 
   - features
   - accessibility

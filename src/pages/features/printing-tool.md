@@ -2,15 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Effortlessly Print Web Pages | Quick Print Feature
-description: Helperbird's Quick Print Feature makes printing web pages a breeze. With just a click, you can easily print any webpage in its entirety or just the selected content. Say goodbye to the hassle of printing web pages and hello to a more streamlined and efficient process with Helperbird.
+title: One-Click Quick Print
+description: Transform your printing experience with Helperbird's One-Click Quick Print feature. With a single click, effortlessly print an entire webpage or only your selected content. Eliminate the complexities and frustrations often associated with printing web pages.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Effortlessly Print Web Pages with Helperbird's Quick Print Feature
+featurePageTitle: One-Click Quick Print
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/print.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Quick Print Feature
-featureDescription: Helperbird's Quick Print Feature makes printing web pages a breeze. With just a click, you can easily print any webpage in its entirety or just the selected content. Say goodbye to the hassle of printing web pages and hello to a more streamlined and efficient process with Helperbird.
+cardTitle: Quick Print 
+featureDescription: Transform your printing experience with Helperbird's One-Click Quick Print feature. With a single click, effortlessly print an entire webpage or only your selected content. Eliminate the complexities and frustrations often associated with printing web pages.
 group: reading
 color: blue
 tags: 

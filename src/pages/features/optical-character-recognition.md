@@ -3,16 +3,16 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Extract Text from Images, Videos, and PDFs with Helperbird's OCR Feature
-description: Helperbird's OCR feature allows you to extract text from images, videos, and PDFs. Capture and convert text for reuse in digital documents, emails, or reports. Enhance your productivity with this powerful optical character recognition tool.
+description: HCapture and convert printed or handwritten text into editable, searchable text with Helperbird's OCR Tool. Take your productivity to the next level by easily extracting information from documents, images, or even screenshots. Compatible with multiple devices and platforms.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Extract Text from Images, Videos, and PDFs with Helperbird's OCR Feature
+featurePageTitle: Capture and Convert Text Seamlessly with Helperbird's OCR Tool
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/ocr.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Extract Text (OCR)
-featureDescription: Helperbird's OCR feature allows you to capture and convert text from images, videos, and PDFs. Enhance your productivity by extracting and reusing text in digital documents, emails, or reports.
+cardTitle: OCR Tool for Text Extraction
+featureDescription: Capture and convert printed or handwritten text into editable, searchable text with Helperbird's OCR Tool. Take your productivity to the next level by easily extracting information from documents, images, or even screenshots. Compatible with multiple devices and platforms.
 group: reading
-color: blue
+color: purple
 tags: 
   - features
   - accessibility

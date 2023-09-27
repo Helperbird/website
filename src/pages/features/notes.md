@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Organize and Access Your Notes with Helperbird's Web-based Note Organizer
-description: Keep all your sticky notes, highlights, and extracted text sorted and easily accessible with Helperbird's Web-based Note Organizer feature. Stay organized and access your notes from any device.
+title: Organize Your Notes with Helperbird's Note Organizer
+description: Effortlessly keep track of your sticky notes, highlights, and extracted text with Helperbird's Web-Based Note Organizer. Maintain organization and access your notes from any device for a seamless experience.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Organize and Access Your Notes with Helperbird's Web-based Note Organizer
+featurePageTitle: Organize and Access Your Notes with Helperbird's Note Organizer
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/text-to-speech.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Notes Organizer
-featureDescription: Keep all your sticky notes, highlights, and extracted text sorted and easily accessible with Helperbird's Web-based Note Organizer feature. Stay organized and access your notes from any device.
+cardTitle: Note Organizer
+featureDescription: Effortlessly keep track of your sticky notes, highlights, and extracted text with Helperbird's Web-Based Note Organizer. Maintain organization and access your notes from any device for a seamless experience.
 group: reading
-color: blue
+color: green
 tags: 
   - features
   - writing

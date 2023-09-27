@@ -2,7 +2,7 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Quickly and Accurately Summarize Pages and Articles in a Click
+title: Accurately Summarize Pages and Articles in a Click
 description: Use Helperbird's browser extension to quickly and accurately summarize web pages and articles into bullet points. Simplify your research, personal use, or business tasks with Helperbird's efficient summarization tool.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
@@ -11,9 +11,9 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/summarize.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Summarize Pages
-featureDescription: Helperbird's browser extension automatically summarizes web pages and articles into bullet points, simplifying your reading and research tasks.
+featureDescription: Effortlessly summarize web pages and articles using Helperbird's browser extension. With our Auto-Summary feature, you'll get key information distilled into easy-to-read bullet points, simplifying your research and reading tasks.
 group: reading
-color: blue
+color: teal
 tags:
   - features
   - writing

@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Page & Text Magnifier Extension - Chrome, Edge & Safari 
-description: Enhance your reading experience with the page & text magnifier extension for Google Chrome, Edge, and Safari. Increase the zoom level on any page for improved visibility. Try it now!
+title: Page & Text Magnifier Extension
+description: Amplify your online reading experience with Helperbird's Page & Text Magnifier, available for Chrome, Edge, and Safari. Effortlessly zoom in on text and entire pages for superior readability and visibility.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Page & Text Magnifier Extension - Chrome, Edge & Safari
@@ -11,7 +11,7 @@ img: i1EeaekPHIo
 icon: "/src/_includes/svgs/dictionary.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Page & Text Magnifier
-featureDescription: Enhance your reading experience with the page & text magnifier extension for Google Chrome, Edge, and Safari. Increase the zoom level on any page for improved visibility.
+featureDescription: Amplify your online reading experience with Helperbird's Page & Text Magnifier. Effortlessly zoom in on text and entire pages for superior readability and visibility.
 group: reading
 color: blue
 tags:

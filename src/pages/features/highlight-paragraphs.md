@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Add Custom Borders to Paragraphs for a Visually Appealing and Easy-to-Read Experience
-description: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience.
+title: Customize Your Paragraphs
+description: Elevate your reading experience by adding colorful borders around paragraphs with Helperbird's Customize Your Paragraphs feature. Break up long text sections to make reading easier and more visually appealing.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Add Custom Borders to Paragraphs for a Visually Appealing and Easy-to-Read Experience
+featurePageTitle: Customize Your Paragraphs
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/border.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Custom Borders
-featureDescription: Add colorful borders around paragraphs while reading to break up long bodies of text, making it easier to read and creating a visually appealing experience. Enhance readability with Helperbird's Custom Borders feature.
+cardTitle: Customize Paragraphs
+featureDescription: Elevate your reading experience by adding colorful borders around paragraphs with Helperbird's Customize Your Paragraphs feature. Break up long text sections to make reading easier and more visually appealing.
 group: reading
-color: blue
+color: orange
 tags: 
   - features
   - accessibility

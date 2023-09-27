@@ -3,16 +3,16 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Customizable Overlay and Tint Extension
-description: Adjust the brightness, contrast, and color of any website to your preference with Helperbird's customizable overlay and tint extension. Reduce glare, eye strain, and fatigue, and personalize your browsing experience for enhanced readability and comfort.
+description: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Customizable Overlay and Tint Extension
+featurePageTitle: Enhance Your Visual Comfort with Customizable Overlays & Tints from Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/overlay.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Overlays & Tints
-featureDescription: Adjust the brightness, contrast, and color of any website to your preference with Helperbird's customizable overlay and tint extension. Reduce glare, eye strain, and fatigue, and personalize your browsing experience for enhanced readability and comfort.
+featureDescription: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
 group: reading
-color: blue
+color: yellow
 tags: 
   - features
   - accessibility

@@ -2,18 +2,18 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Helperbird Keyboard Shortcuts Feature | Enhance Accessibility
+title: Helperbird Keyboard Shortcuts
 description: Learn about Helperbird's keyboard shortcuts and become a pro at using Helperbird. Discover how to navigate Helperbird with ease and enhance your accessibility experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Helperbird Keyboard Shortcuts | Enhance Accessibility
+featurePageTitle: Helperbird Keyboard Shortcuts
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/shortcuts.svg"
 youtubeId: PfILiWebkuc
 cardTitle: Keyboard Shortcuts
 featureDescription: Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance your accessibility experience with quick and efficient shortcuts.
 group: reading
-color: blue
+color: yellow
 tags:
   - features
   - accessibility

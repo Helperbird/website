@@ -2,17 +2,17 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Reduce Eye Strain with Helperbird's Gray Filter Feature
-description: Easily reduce eye strain with Helperbird's Gray Filter feature. Add a gray overlay to any website to reduce glare and eye strain for a more comfortable reading experience.
+title: Minimize Eye Strain and Enhance Reading Comfort with Helperbird's Grayscale Feature
+description: Minimize eye strain and improve comfort using Helperbird's Grayscale feature. Apply a gray overlay to any website to lessen glare, making your reading experience more enjoyable while reducing visual fatigue.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Reduce Eye Strain with Helperbird's Gray Filter Feature
+featurePageTitle: Grayscale
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
 youtubeId: PfILiWebkuc
-cardTitle: Reduce Eye Strain
-featureDescription: Easily reduce eye strain with Helperbird's Gray Filter feature. Add a gray overlay to any website to reduce glare and eye strain, providing a more comfortable reading experience and reducing visual fatigue.
+cardTitle: Grayscale
+featureDescription: Minimize eye strain and improve comfort using Helperbird's Grayscale feature. Apply a gray overlay to any website to lessen glare, making your reading experience more enjoyable while reducing visual fatigue.
 group: reading
-color: blue
+color: pink
 tags: 
   - features
   - accessibility
