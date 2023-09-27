@@ -18,26 +18,33 @@
 	  <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
 		<div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
 			{%- for post in collections.features -%}
-		  <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-			<div class="rounded-2xl bg-white border-2 border-stone-600 p-8 text-sm leading-6">
-				<div class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 mb-4" aria-hidden="true">{{ post.data.icon | svgContents | safe }}</div>
-				<h3 class="leading-relaxed font-sans  leading-relaxed font-sans  text-xl font-bold text-black mb-4 ">
-					{{ post.data.cardTitle }}</h3>
-
-				<p class="leading-relaxed font-sans  leading-relaxed font-sans  text-black text-base mt-6 line-clamp-3">{{ post.data.featureDescription }}</p>
-	
-			  <div class="mt-6 flex items-center gap-x-4">
-				<a
-					class="btn btn-outline btn-secondary mt-8 text-base btn-sm"
-					href="{{ post.url }}"
-					aria-label="More information on feature {{ post.data.cardTitle }}"
-					>Discover more</a
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<div class="rounded-xl  bg-white p-8 shadow-md">
+					<div
+						class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white"
+						aria-hidden="true"
 					>
-					
+						{{ post.data.icon | svgContents | safe }}
+					</div>
+					<h3 class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+						{{ post.data.cardTitle }}
+					</h3>
+
+					<p class=" line-clamp-3 font-sans text-base leading-relaxed my-4 text-black">
+						{{ post.data.featureDescription }}
+					</p>
+
+					<div class="mt-4 flex items-center gap-x-4">
+						<a
+							class="btn-base btn btn-secondary shadow-md"
+							href="{{ post.url }}"
+							aria-label="More information on feature {{ post.data.cardTitle }}"
+							>Discover more</a
+						>
+					</div>
+				</div>
 			</div>
-			</div>
-		  </div>
-		  {%- endfor -%}
+			{%- endfor -%}
   
 
 		</div>
