@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Control Video and Audio
 featureDescription: Silence distractions and take control of playback speeds with Helperbird's Mute Videos and Audio feature. Mute annoying auto-playing videos and adjust their speed for a tailored browsing experience. Available on Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
-color: gray
+color:  pink
 tags: 
   - features
   - accessibility
