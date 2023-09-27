@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Document Editor
 featureDescription: Manage your documents effortlessly with Helperbird's In Browser Document Editor. Create, edit, and organize text files right within your browser, then export or import to Google Docs, Markdown, and more for ultimate convenience in note-taking and file management.
 group: reading
-color: cyan
+color: green
 tags: 
   - features
   - writing
