@@ -13,7 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Summarize Pages
 featureDescription: Effortlessly summarize web pages and articles using Helperbird's browser extension. With our Auto-Summary feature, you'll get key information distilled into easy-to-read bullet points, simplifying your research and reading tasks.
 group: reading
-color: teal
+color: orange
 tags:
   - features
   - writing

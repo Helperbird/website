@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Text Statistics
 featureDescription: Easily track various text metrics on any website or PDF with Helperbird's extension. With just two clicks, get a comprehensive analysis including unique word count, shortest words, estimated reading time, and more.
 group: reading
-color: purple
+color:  indigo
 tags:
   - features
   - writing

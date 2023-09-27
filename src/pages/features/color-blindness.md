@@ -12,7 +12,7 @@ cardTitle: Color Blindness Support
 featureDescription: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
 featurePageTitle: Color Blindness Support
 group: reading
-color: teal
+color: pink
 tags: 
   - features
   - accessibility

@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Bookmark and Save Your Favorite Websites
 featureDescription: Never lose track of important articles with Helperbird's Read it Later feature. Bookmark and save your favorite websites effortlessly, ensuring you can return to must-read content whenever you like.
 group: reading
-color: red
+color: blue
 tags: 
   - features
   - reading

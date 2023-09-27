@@ -14,7 +14,7 @@ featureDescription: Experience a cleaner, more focused reading environment with 
 
 
 group: reading
-color: purple
+color:  indigo
 tags: 
   - features
   - reading

@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: High Contrast Mode
 featureDescription: Improve readability and web accessibility with Helperbird's High Contrast Mode. Choose from a range of high-contrast color filters designed to make text more visible and your online experience more user-friendly.
 group: reading
-color: stone
+color: green
 tags: 
   - features
   - accessibility

@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Customizable Paragraph Width
 featureDescription: Adjust the width of paragraphs for better focus and readability with Helperbird's Customizable Paragraph Width feature. Tailor the text layout to your preferences, reducing eye strain during extended reading sessions on websites and PDFs.
 group: reading
-color: teal
+color: orange
 tags: 
   - features
   - reading

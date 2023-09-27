@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: OCR Tool for Text Extraction
 featureDescription: Capture and convert printed or handwritten text into editable, searchable text with Helperbird's OCR Tool. Take your productivity to the next level by easily extracting information from documents, images, or even screenshots. Compatible with multiple devices and platforms.
 group: reading
-color: purple
+color:  indigo
 tags: 
   - features
   - accessibility

@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Dyslexia-Friendly PDF Reader
 featureDescription: Elevate your PDF interactions with Helperbird's Dyslexia-Friendly PDF Reader. Not only can you annotate, highlight, and add sticky notes, but you also gain the advantage of dyslexia support features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and studying PDFs becomes a seamless experience.
 group: reading
-color: red
+color: pink
 tags: 
   - features
   - accessibility
