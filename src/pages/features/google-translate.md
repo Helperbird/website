@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Easy Translation Support
 featureDescription: Break language barriers effortlessly with Helperbird's Translation feature. Select text on any website or PDF, right-click to choose Helperbird's Google Translate option, and instantly translate into your desired language.
 group: reading
-color: yellow
+color: blue
 tags: 
   - features
   - reading

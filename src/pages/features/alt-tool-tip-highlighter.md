@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Show Alt & Image Descriptions
 featureDescription: Streamline your web browsing by showing image and link descriptions on mouse over with Helperbird on any website or PDF. Gain quick insights into content by hovering over images and links.
 group: reading
-color: yellow
+color: blue
 tags:
   - features
   - accessibility

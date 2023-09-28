@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Reading Guide
 featureDescription: Elevate your reading experience with Helperbird's Reading Guide, designed to direct your eye flow and keep you engaged with the text. Say goodbye to distractions and hello to a new level of focus and comprehension.
 group: reading
-color: yellow
+color: blue
 tags: 
   - features
   - reading

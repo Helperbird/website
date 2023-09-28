@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Overlays & Tints
 featureDescription: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
 group: reading
-color: yellow
+color: blue
 tags: 
   - features
   - accessibility

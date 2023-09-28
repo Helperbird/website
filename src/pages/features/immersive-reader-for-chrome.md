@@ -12,7 +12,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Immersive Reader
 featureDescription: Unlock enhanced reading comprehension across all platforms with Helperbird's Immersive Reader feature. Use Microsoft's Immersive Reader on any website or PDF to elevate reading fluency and understanding. Compatible with Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
-color: yellow
+color: blue
 tags: 
   - features
   - accessibility

@@ -13,7 +13,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Speed Reading
 featureDescription: Unlock your reading potential with Helperbird's powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
 group: reading
-color: yellow
+color: blue
 tags:
   - features
   - reading
