@@ -193,9 +193,9 @@ background-color:rgb(246, 245, 231);
   <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
     {% include templates/header.html %}
 
-    <main class="mx-auto max-w-7xl my-8 px-6">
+    <main class="mx-auto max-w-full my-8 ">
 
-      <div class="drawer drawer-mobile gap-x-8 h-max">
+      <div class="drawer drawer-mobile grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 h-max">
         <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col mx-auto ">
 
@@ -230,9 +230,9 @@ background-color:rgb(246, 245, 231);
             <nav class="flex flex-1 flex-col">
               <ul role="list" class="flex flex-1 flex-col gap-y-7">
           
-                    <li class="mt-4 mb-4">
+                    <li class=" mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏁 Getting started</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for guide in collections.guideFeatures -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -251,7 +251,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏃 Features</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for features in collections.guideFeaturesMain -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -267,7 +267,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Admin tools</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for apps in collections.adminTools -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -283,7 +283,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Apps</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for apps in collections.guideApps -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -299,7 +299,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📱 iPad & iPhone</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for account in collections.iOSHelp -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -315,7 +315,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📚 Tips & Tricks</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for account in collections.tricksHelp -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}
@@ -331,7 +331,7 @@ background-color:rgb(246, 245, 231);
                     </li>
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">👤 My Account</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base ml-8">
+                      <ul role="list" class="mt-8 space-y-4 text-base">
                         {%- for account in collections.guideAccounts -%}
                         {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
 {% assign aria_current = 'false' %}

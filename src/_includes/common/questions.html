@@ -1,23 +1,33 @@
-<section tabindex="-1" class="relative mx-auto max-w-7xl p-8 px-4 pt-16 pb-16 focus:outline-none sm:px-3 md:px-5">
-    <div class="bg-white border-stone-600 border-2 rounded-xl">
-        <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-                <div class="lg:col-span-5">
-                    <h2 class="leading-relaxed font-sans  leading-relaxed font-sans  text-3xl font-bold leading-10   text-black" tabindex="0">Frequently asked questions</h2>
-                    <p class="leading-relaxed font-sans  mt-8 text-lg leading-7 text-black">Can’t find the answer you’re looking for?</p>
-                    <p class="leading-relaxed font-sans  mt-2 text-lg leading-7 text-black">Reach out to our <a href="/support/" title="Customer support" class="leading-relaxed font-sans  text-blue-600 underline hover:decoration-wavy hover:underline">customer support</a> team.</p>
-                </div>
-                <div class="mt-10 lg:col-span-7 lg:mt-0">
-                    <dl class="space-y-10">
-                        {%- for question in questions.helperbird -%}
-                        <div>
-                            <dt class="leading-relaxed font-sans  text-xl font-bold leading-7 text-black" tabindex="0">{{question.question}}</dt>
-                            <dd class="mt-2 text-lg leading-7 text-black" tabindex="0">{{question.answer}}</dd>
-                        </div>
-                        {%- endfor -%}
-                    </dl>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="rounded-xl bg-white shadow-md">
+	<div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+		<div class="lg:grid lg:grid-cols-12 lg:gap-8">
+			<div class="lg:col-span-5">
+				<h2 class="font-sans  text-3xl font-bold leading-relaxed text-black">
+					Frequently asked questions
+				</h2>
+				<p class="mt-4 font-sans text-lg leading-relaxed text-black">
+					Can’t find the answer you’re looking for? Reach out to our
+					<a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500"
+						>customer support</a
+					>
+					team.
+				</p>
+			</div>
+			<div class="mt-10 lg:col-span-7 lg:mt-0">
+				<dl class="space-y-10">
+					{%- for question in questions.helperbird -%}
+
+					<div class="mb-10">
+						<dt class="font-sans text-lg font-bold leading-relaxed text-black">
+							{{question.question}}
+						</dt>
+						<dd class="mt-4 font-sans text-base leading-relaxed my-4 text-black">{{question.answer}}</dd>
+					</div>
+					{%- endfor -%}
+
+				
+				</dl>
+			</div>
+		</div>
+	</div>
 </section>
