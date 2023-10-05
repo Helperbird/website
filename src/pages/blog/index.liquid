@@ -11,60 +11,143 @@ url: blog/
 ---
 
 
-<div>
 
-  <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-
-
-      <h1 class="leading-relaxed font-sans  leading-relaxed font-sans  text-3xl   font-extrabold text-gray-900 sm:text-4xl">From the blog</h1>
-      <p class="leading-relaxed font-sans  mt-3  text-xl   text-black  sm:mt-4">Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.</p>
-
-
-      <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-
-        {%- for post in collections.blog -%}
-          <article class="flex flex-col items-start justify-between card bg-white border-stone-600 border-2">
-            <div class="card-body">
-              <div class="relative w-full">
-                <img
-                  src="{{ post.data.img }}"
-                  alt="{{ post.data.cardTitle }}"
-                  class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-
-
-              </div>
-              <div class="max-w-xl">
-                <div class="mt-8 flex items-center gap-x-4 text-xs">
-
-                  <span class="font-medium badge badge-secondary">{{ post.data.blog_cat }}</span>
-                </div>
-                <div class="group relative">
-                  <h3 class="leading-relaxed font-sans  mt-3 text-xl font-bold text-black line-clamp-1">
-
-
-                    {{ post.data.cardTitle }}
-
-                  </h3>
-                  <p class="leading-relaxed font-sans  mt-5  text-base text-black mb-5 line-clamp-3">{{ post.data.blog_snip }}</p>
-                </div>
-                <div class="card-actions justify-end">
-                  <a
-                    class="btn-base btn btn-outline  border-stone-600 border-2"
-                    href="{{ post.url}}"
-                    rel="noreferrer"
-                    title="Read {{ post.data.cardTitle}}">
-                    Read more
-                  </a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-        {%- endfor -%}
-      </div>
-    </div>
+<div class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center">
+    <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">From the blog</h2>
+    <p class="leading-relaxed font-sans mt-6 text-xl  text-black">Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.</p>
   </div>
+</div>
+
+
+
+<div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 mt-16 mb-16 ">
+
+  {%- for post in collections.blog -%}
+
+    <article class="flex flex-col items-start justify-between card bg-white rounded-xl shadow-md">
+      <div class="card-body">
+        <div class="relative w-full">
+          <img
+            src="{{ post.data.img }}"
+            alt="{{ post.data.cardTitle }}"
+            class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+          <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+        </div>
+        <div class="max-w-xl">
+          <div class="mt-8 flex items-center gap-x-4 text-xs">
+
+            <a
+              href="{{ post.url}}"
+              alt="{{ post.data.cardTitle }}"
+              class="relative z-10 badge badge-secondary">{{ post.data.blog_cat }}</a>
+          </div>
+          <div class="group relative">
+            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+              <a
+                href="{{ post.url}}"
+                alt="{{ post.data.cardTitle }}"
+                class="link link-hover text-blue-500 hover:text-blue-700">
+                <span class="absolute inset-0"></span>
+                {{ post.data.cardTitle }}
+              </a>
+            </h3>
+            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.data.blog_snip }}</p>
+          </div>
+          <div class="card-actions justify-end mt-8">
+            <a
+              href="{{ post.url}}"
+              alt="{{ post.data.cardTitle }}"
+              title="Account &amp; Billing"
+              class="link link-hover text-blue-500 hover:text-blue-700">Read blog</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+  {%- endfor -%}
+
 
 
 </div>
+
+
+
+<section class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8 mt-16 mb-16 ">
+  <figure class="mx-auto max-w-2xl">
+    <p class="sr-only">5 out of 5 stars</p>
+    <div class="flex gap-x-1 text-blue-600">
+      <svg
+        class="h-5 w-5 flex-none"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true">
+        <path
+          fill-rule="evenodd"
+          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+          clip-rule="evenodd" />
+      </svg>
+      <svg
+        class="h-5 w-5 flex-none"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true">
+        <path
+          fill-rule="evenodd"
+          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+          clip-rule="evenodd" />
+      </svg>
+      <svg
+        class="h-5 w-5 flex-none"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true">
+        <path
+          fill-rule="evenodd"
+          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+          clip-rule="evenodd" />
+      </svg>
+      <svg
+        class="h-5 w-5 flex-none"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true">
+        <path
+          fill-rule="evenodd"
+          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+          clip-rule="evenodd" />
+      </svg>
+      <svg
+        class="h-5 w-5 flex-none"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true">
+        <path
+          fill-rule="evenodd"
+          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+          clip-rule="evenodd" />
+      </svg>
+    </div>
+    <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">
+      <p>“After using Helperbird I can't say enough positive things about it. This extension has
+        truly transformed my online reading experience. Whether it's adjusting font sizes,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                reducing eye strain with the gray filter, or using the dyslexia-friendly fonts,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Helperbird offers a range of features that cater to individual preferences and needs.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The customizable color options and text alignment have also been incredibly helpful for
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                personalizing my browsing. And the speed reading feature? It's a game-changer! Overall,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Helperbird is a versatile, user-friendly tool that enhances accessibility and makes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                online reading a breeze. Highly recommended!”</p>
+    </blockquote>
+    <figcaption class="mt-10 flex items-center gap-x-6">
+      <img
+        class="h-12 w-12 rounded-full bg-gray-50"
+        src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48"
+        alt="Charlie Nishelle Calkins">
+      <div class="text-sm leading-6">
+        <div class="font-semibold">Charlie Nishelle Calkins</div>
+        <div class=" mt-2 text-black">Helperbird Pro user</div>
+      </div>
+    </figcaption>
+  </figure>
+</section>
