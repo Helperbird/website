@@ -109,6 +109,7 @@ const { tr } = require('date-fns/locale');
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/pages/admin/': '/admin/' });
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
+	eleventyConfig.setWatchThrottleWaitTime(3000); // in milliseconds
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addTransform('social-image', async function (content) {
 		// only handle blog posts

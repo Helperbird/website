@@ -52,7 +52,7 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
         <div class="bg-white rounded-xl shadow-md max-w-none mb-4  leading-6 prose-sm prose prose-slate prose-a:font-semibold prose-a:text-sky-500 hover:prose-a:text-sky-600 helperbird-editor helperbird-editor-highlighter-marker medium-editor-element p-8">
 
 
-          <div class="mb-4 mt-8">
+          <div class="mb-4">
             <h3 class="leading-relaxed font-sans    text-xl font-bold mb-4">
               Changes
             </h3>
@@ -61,8 +61,10 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
                 <div class="badge badge-secondary badge-outline mr-2">New</div>
                 <strong>{{ change.title }}</strong>
                 <br>
-                <div style="margin-left: 3.4rem;">
-                  {{ change.description }}
+                <div style="margin-left: 3.4rem;" class="mt-4">
+                  <p class="leading-relaxed font-sanstext-lg">
+                    {{ change.description }}
+                  </p>
                 </div>
               </p>
             {%- endfor -%}
@@ -76,10 +78,10 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
                 <div class="badge badge-primary badge-outline mr-2">Fix</div>
                 <strong>{{ fix.title }}</strong><br>
                 <br>
-                <div style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              margin-left: 3.4rem;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
-                  {{ fix.description }}
+                <div style="margin-left: 3.4rem;" class="mt-4">
+                  <p class="leading-relaxed font-sanstext-lg">
+                    {{ fix.description }}
+                  </p>
                 </div>
               </p>
             {%- endfor -%}
@@ -94,10 +96,10 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
                   <div class="badge badge-warning badge-outline mr-2">Upcoming</div>
                   <strong>{{ upcoming.title }}</strong>
                   <br>
-                  <div style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                margin-left: 3.4rem;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ">
-                    {{ upcoming.description }}
+                  <div style="margin-left: 3.4rem;" class="mt-4">
+                    <p class="leading-relaxed font-sanstext-lg">
+                      {{ upcoming.description }}
+                    </p>
                   </div>
                 </p>
               {%- endfor -%}
