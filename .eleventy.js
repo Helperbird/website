@@ -165,7 +165,7 @@ module.exports = function (eleventyConfig) {
 		h1: 'leading-relaxed font-display text-3xl   text-black  mb-2 font-bold',
 		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-8 font-extrabold',
 		h3: 'leading-relaxed font-display text-xl text-black mb-2 font-bold',
-		p: 'text-black mb-4 text-lg font-display ',
+		p: 'leading-relaxed font-display text-black mb-4 text-lg font-display ',
 		strong: 'text-black text-base text-lg',
 		bold: 'text-black',
 		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 ',
