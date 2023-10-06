@@ -1,363 +1,535 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-white scroll-smooth" theme="light">
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>{{ title }} - Helperbird</title>
-  {% bundledCss %}
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js');
-    }
-  </script>
+<html lang="en" class="h-full scroll-smooth bg-white" theme="light">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>{{ title }} - Helperbird</title>
+		{% bundledCss %}
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js');
+			}
+		</script>
 
-  <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
-  <meta content="{{ description }}" name="description" />
-  <meta content="{{ keywords }}" name="keywords" />
+		<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+		<meta content="{{ description }}" name="description" />
+		<meta content="{{ keywords }}" name="keywords" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta content="/assets/images/favicon.png" name="image" />
-  <meta content="#5046e4" name="theme-color" />
-  <meta content="Helperbird" itemprop="name" />
-  <meta content="{{ description }}" itemprop="description" />
-  <meta content="/assets/images/favicon.png" itemprop="image" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta content="/assets/images/favicon.png" name="image" />
+		<meta content="#5046e4" name="theme-color" />
+		<meta content="Helperbird" itemprop="name" />
+		<meta content="{{ description }}" itemprop="description" />
+		<meta content="/assets/images/favicon.png" itemprop="image" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@helperbird" />
-  <meta name="twitter:creator" content="@robertjgabriel" />
-  <meta name="twitter:title" content="{{ title }} - Helperbird" />
-  <meta property="twitter:domain" content="helperbird.com" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@helperbird" />
+		<meta name="twitter:creator" content="@robertjgabriel" />
+		<meta name="twitter:title" content="{{ title }} - Helperbird" />
+		<meta property="twitter:domain" content="helperbird.com" />
 
-  <meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
-  <meta name="twitter:description" content="{{ description }}" />
+		<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+		<meta name="twitter:description" content="{{ description }}" />
 
-  <meta name="twitter:image:alt" content="Helperbird promo art with text saying {{title}}" />
-  <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+		<meta name="twitter:image:alt" content="Helperbird promo art with text saying {{title}}" />
+		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
 
-  <meta content="https://www.youtube.com/watch?v={{ youtubeId }}" name="twitter:player" />
+		<meta content="https://www.youtube.com/watch?v={{ youtubeId }}" name="twitter:player" />
 
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ title }} - Helperbird" />
-  <meta property="og:description" content="{{ description }}" />
-  <meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
-  <meta property="og:site_name" content="Helperbird" />
-  <meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
-  <meta property="og:video" content="https://www.youtube.com/watch?v={{ youtubeId }}" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ title }} - Helperbird" />
+		<meta property="og:description" content="{{ description }}" />
+		<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+		<meta property="og:site_name" content="Helperbird" />
+		<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+		<meta property="og:video" content="https://www.youtube.com/watch?v={{ youtubeId }}" />
 
-  <link href="/assets/images/social/favicon.png" rel="shortcut icon" />
-  <link href="touch-icon-iphone.png" rel="apple-touch-icon" />
-  <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
-  <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
-  <link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
-  <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Helperbird",
-      "operatingSystem": ["Chrome", "Windows", "MacOs"],
-      "applicationCategory": "https://schema.org/UtilitiesApplication",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "ratingCount": "92"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "6.99",
-        "priceCurrency": "USD"
-      }
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Helperbird",
-      "url": "https://www.helperbird.com",
-      "sameAs": [
-        "http://www.facebook.com/helperbird",
-        "https://www.linkedin.com/company/19112429",
-        "https://twitter.com/helperbird",
-        "https://www.youtube.com/helperbird"
-      ]
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Helperbird",
-      "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-      "description": "Helperbird is your all-in-one extension that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, Reading Mode, and much more.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Helperbird"
-      },
-      "sku": "helperbird2016",
-      "gtin": "helperbird2016",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.helperbird.com/pricing/",
-        "priceCurrency": "USD",
-        "price": "40",
-        "priceValidUntil": "2022-12-31",
-        "availability": "https://schema.org/OnlineOnly",
-        "itemCondition": "https://schema.org/NewCondition"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingCount": "2",
-        "reviewCount": "2"
-      },
-      "review": [
-        {%- for review in reviews.reviews -%}
-        {
-          "@type": "Review",
-          "name": "{{ review.name }}",
-          "reviewBody": "{{ review.review }}",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-09-10",
-          "author": {
-            "@type": "Person",
-            "name": "{{ review.name }}"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "App store"
-          }
-        },
-        {%- endfor -%}
-        {
-          "@type": "Review",
-          "name": "Robert James Gabriel",
-          "reviewBody": "I know I founded it but this is amazing.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-09-10",
-          "author": {
-            "@type": "Person",
-            "name": "Robert James Gabriel"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "App store"
-          }
-        }
-      ]
-    }
-  </script>
+		<link href="/assets/images/social/favicon.png" rel="shortcut icon" />
+		<link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
+		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
+		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
+		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "SoftwareApplication",
+				"name": "Helperbird",
+				"operatingSystem": ["Chrome", "Windows", "MacOs"],
+				"applicationCategory": "https://schema.org/UtilitiesApplication",
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "4.7",
+					"ratingCount": "92"
+				},
+				"offers": {
+					"@type": "Offer",
+					"price": "6.99",
+					"priceCurrency": "USD"
+				}
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Helperbird",
+				"url": "https://www.helperbird.com",
+				"sameAs": [
+					"http://www.facebook.com/helperbird",
+					"https://www.linkedin.com/company/19112429",
+					"https://twitter.com/helperbird",
+					"https://www.youtube.com/helperbird"
+				]
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org/",
+			  "@type": "Product",
+			  "name": "Helperbird",
+			  "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
+			  "description": "Helperbird is your all-in-one extension that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, Reading Mode, and much more.",
+			  "brand": {
+			    "@type": "Brand",
+			    "name": "Helperbird"
+			  },
+			  "sku": "helperbird2016",
+			  "gtin": "helperbird2016",
+			  "offers": {
+			    "@type": "Offer",
+			    "url": "https://www.helperbird.com/pricing/",
+			    "priceCurrency": "USD",
+			    "price": "40",
+			    "priceValidUntil": "2022-12-31",
+			    "availability": "https://schema.org/OnlineOnly",
+			    "itemCondition": "https://schema.org/NewCondition"
+			  },
+			  "aggregateRating": {
+			    "@type": "AggregateRating",
+			    "ratingValue": "5",
+			    "bestRating": "5",
+			    "worstRating": "1",
+			    "ratingCount": "2",
+			    "reviewCount": "2"
+			  },
+			  "review": [
+			    {%- for review in reviews.reviews -%}
+			    {
+			      "@type": "Review",
+			      "name": "{{ review.name }}",
+			      "reviewBody": "{{ review.review }}",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "ratingValue": "5",
+			        "bestRating": "5",
+			        "worstRating": "1"
+			      },
+			      "datePublished": "2021-09-10",
+			      "author": {
+			        "@type": "Person",
+			        "name": "{{ review.name }}"
+			      },
+			      "publisher": {
+			        "@type": "Organization",
+			        "name": "App store"
+			      }
+			    },
+			    {%- endfor -%}
+			    {
+			      "@type": "Review",
+			      "name": "Robert James Gabriel",
+			      "reviewBody": "I know I founded it but this is amazing.",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "ratingValue": "5",
+			        "bestRating": "5",
+			        "worstRating": "1"
+			      },
+			      "datePublished": "2021-09-10",
+			      "author": {
+			        "@type": "Person",
+			        "name": "Robert James Gabriel"
+			      },
+			      "publisher": {
+			        "@type": "Organization",
+			        "name": "App store"
+			      }
+			    }
+			  ]
+			}
+		</script>
 
-  <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-  <link href="/assets/images/social/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
-  <link href="/assets/images/social/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
-  <link href="/assets/images/social/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
-  <link href="/assets/images/social/site.webmanifest" rel="manifest" />
-  <link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
-  <link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
-  <meta content="#ffffff" name="msapplication-TileColor" />
-  <meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+		<link
+			href="/assets/images/social/apple-touch-icon.png"
+			rel="apple-touch-icon"
+			sizes="180x180"
+		/>
+		<link
+			href="/assets/images/social/favicon-32x32.png"
+			rel="icon"
+			sizes="32x32"
+			type="image/png"
+		/>
+		<link
+			href="/assets/images/social/favicon-16x16.png"
+			rel="icon"
+			sizes="16x16"
+			type="image/png"
+		/>
+		<link href="/assets/images/social/site.webmanifest" rel="manifest" />
+		<link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
+		<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
+		<meta content="#ffffff" name="msapplication-TileColor" />
+		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 
-  <style>
-    .list-none {
-      list-style: none !important;
-    }
-  </style>
+		<style>
+			.list-none {
+				list-style: none !important;
+			}
+		</style>
 
-<style>
+		<style>
+			.helperbird-yellow {
+				background-color: rgb(246, 245, 231);
+			}
+			.list-decimal-important {
+				list-style: none !important;
+			}
+		</style>
+	</head>
 
-.helperbird-yellow{
-background-color:rgb(246, 245, 231);
-}
-.list-decimal-important {
-    list-style: none !important;
-}
-</style>
-
-</head>
-
-<body class="bg-white h-full" theme="light">
-  <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
-    {% include templates/header.html %}
-
-    <main class="mx-auto max-w-full my-8 ">
-
-      <div class="drawer drawer-mobile grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 h-max">
-        <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col mx-auto ">
-
-          <div class="z-40 flex items-center gap-x-6 py-4  mb-8 lg:hidden">
-            <label for="my-drawer-2" type="button" class="btn btn-ghost btn-sm">
-              <svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" v-if="showMobileMenu === false">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </label>
-            <div class="flex-1 text-xl font-bold leading-6 text-black">Helperbird Help guides</div>
-          </div>
-
-          <article class="card space-y-7 text-base text-black bg-white shadow-md">
-            <div class="card-body" style="
-           word-break: break-word;
-        ">
-              <h1 class="leading-relaxed font-sans text-center font-display text-3xl   text-black mb-4 font-bold  sm:text-left">{{ title }}</h1>
-              <hr class="h-px mb-8 bg-gray-200 border-0 dark:bg-gray-700">
-              <!-- Full content -->
-              {{ content | safe }}
-            </div>
-          </article>
-
-        </div>
-        <div class="drawer-side">
-          <label for="my-drawer-2" class="drawer-overlay shadow-none"></label>
-
-          <!-- Sidebar component, swap this element with another sidebar if you like -->
-          <div class="flex-grow flex-col gap-y-5 overflow-y-auto helperbird-yellow  card">
-         
-
-            <nav class="flex flex-1 flex-col">
-              <ul role="list" class="flex flex-1 flex-col gap-y-7">
-          
-                    <li class=" mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏁 Getting started</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for guide in collections.guideFeatures -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if guide.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
+	<body class="h-full bg-white" theme="light">
+		<div id="helperbird-website" style="background-color: rgb(246, 245, 231)">
+			{% include templates/header.html %}
 
 
 
-                        <li>
-                          <a href="{{ guide.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">{{ guide.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏃 Features</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for features in collections.guideFeaturesMain -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if features.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ features.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ features.data.cardTitle }}">{{ features.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Admin tools</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for apps in collections.adminTools -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if apps.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ apps.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ apps.data.cardTitle }}">{{ apps.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Apps</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for apps in collections.guideApps -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if apps.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ apps.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ apps.data.cardTitle }}">{{ apps.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📱 iPad & iPhone</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for account in collections.iOSHelp -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if account.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📚 Tips & Tricks</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for account in collections.tricksHelp -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if account.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-                    <li class="mt-4 mb-4">
-                      <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">👤 My Account</h2>
-                      <ul role="list" class="mt-8 space-y-4 text-base">
-                        {%- for account in collections.guideAccounts -%}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
-{% assign aria_current = 'false' %}
-                        {% if account.url == page.url %}
-                        {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
-{% assign aria_current = 'page' %}
-                        {% endif %}
-                        <li>
-                          <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
-                        </li>
-                        {%- endfor -%}
-                      </ul>
-                    </li>
-           
-              </ul>
-            </nav>
-          </div>
 
-        </div>
+
+
+
+
+ 
+
+    <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12">
+      <div class="flex items-baseline justify-between border-b border-stone-600 pb-6 pt-12 ">
+        <label for="my-drawer-2" type="button" class="btn btn-ghost btn-base lg:hidden">
+          <svg
+            class="block h-8 w-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            aria-hidden="true"
+            v-if="showMobileMenu === false"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </label>
+        <h1 class="flex-1 text-4xl font-bold tracking-tight text-black ">
+          Helperbird Help guides
+        </h1>
       </div>
 
+  
+
+   
+
+
+      <section aria-labelledby="products-heading" class="pb-24 pt-6 ">
+
+
+        <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4 drawer drawer-mobile h-full" style="height: 100%;">
+          <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+
+
+          <!-- Product grid -->
+          <div class=" drawer-content grid grid-cols-1 gap-x-6 gap-y-10 md:col-span-3 lg:col-span-3">
+            
+
+            <article class="card space-y-7 bg-white text-base text-black shadow-md">
+							<div class="card-body" style="word-break: break-word">
+								<h1
+									class="font-display mb-4 text-center font-sans text-3xl font-bold leading-relaxed text-black sm:text-left"
+								>
+									{{ title }}
+								</h1>
+								<hr class="mb-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+								<!-- Full content -->
+								{{ content | safe }}
+							</div>
+						</article>
+
+
+          </div>
+
+
+
+
+                    <!-- Filters -->
+                    <div class="drawer-side">
+                      <label for="my-drawer-2" class="drawer-overlay"></label>
+                    <div class="block">
+                
+                      <ul role="list" class="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-black p-8 lg:px-0 bg-white  lg:bg-transparent ">
+                        <li class=" mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl">🏁 Getting started</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for guide in collections.guideFeatures -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if guide.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ guide.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">{{ guide.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏃 Features</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for features in collections.guideFeaturesMain -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if features.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ features.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ features.data.cardTitle }}">{{ features.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Admin tools</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for apps in collections.adminTools -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if apps.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ apps.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ apps.data.cardTitle }}">{{ apps.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">💬 Apps</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for apps in collections.guideApps -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if apps.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ apps.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ apps.data.cardTitle }}">{{ apps.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📱 iPad & iPhone</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for account in collections.iOSHelp -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if account.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">📚 Tips & Tricks</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for account in collections.tricksHelp -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if account.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                        <li class="mt-4 mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">👤 My Account</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for account in collections.guideAccounts -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if account.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+                      </ul>
+          
+                
+                   
+                    </div>
+                    </div>
+
+
+
+
+
+        </div>
+      </section>
+ 
+
+      <section class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8 mt-16 mb-16">
+        <figure class="mx-auto max-w-2xl">
+          <p class="sr-only">5 out of 5 stars</p>
+          <div class="flex gap-x-1 text-blue-600 text-{{color}}-600">
+            <svg
+              class="h-5 w-5 flex-none"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg
+              class="h-5 w-5 flex-none"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg
+              class="h-5 w-5 flex-none"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg
+              class="h-5 w-5 flex-none"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+            <svg
+              class="h-5 w-5 flex-none"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-black  sm:text-2xl sm:leading-9">
+            <p>“After using Helperbird I can't say enough positive things about it. This extension has
+              truly transformed my online reading experience. Whether it's adjusting font sizes,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      reducing eye strain with the gray filter, or using the dyslexia-friendly fonts,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Helperbird offers a range of features that cater to individual preferences and needs.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      The customizable color options and text alignment have also been incredibly helpful for
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      personalizing my browsing. And the speed reading feature? It's a game-changer! Overall,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Helperbird is a versatile, user-friendly tool that enhances accessibility and makes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      online reading a breeze. Highly recommended!”</p>
+          </blockquote>
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img
+              class="h-12 w-12 rounded-full bg-gray-50"
+              src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48"
+              alt="Charlie Nishelle Calkins">
+            <div class="text-sm leading-6">
+              <div class="font-semibold">Charlie Nishelle Calkins</div>
+              <div class=" mt-2 text-black">Helperbird Pro user</div>
+            </div>
+          </figcaption>
+        </figure>
+      </section>
+
+
+
+      {% include templates/new/cta/download.html %}
     </main>
 
-    {% include templates/footer.html %}
-  </div>
-</body>
 
-{% bundledJs %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+			{% include templates/footer.html %}
+		</div>
+	</body>
+
+	{% bundledJs %}
 </html>
