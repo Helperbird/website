@@ -1,9 +1,9 @@
 {
 	"friends": [
 		{
-			"title": "Sprialis consulting",
+			"title": "Sprialis Consulting",
 			"img": "/assets/images/partners/jim.jpeg",
-			"des": "Sprialis Consulting offers expert advice, presentations, professional development programs and training and support in a broad portfolio of inclusive technology solutions.",
+			"des": "Sprialis Consulting, directed by Jim Sprialis, offers a wealth of expertise through advice, presentations, professional development programs, and training in a broad spectrum of inclusive technology solutions. Their approach emphasizes computer and mobile technology solutions tailored to accommodate diverse learning preferences and abilities of all individuals. With a specialized knowledge base around disability and learning difficulties such as dyslexia, Sprialis Consulting is committed to promoting inclusive technologies and universal design approaches that can benefit everyone. Their services extend to schooling, further education, and workplace settings, aiming to enhance productivity, lifelong learning, and overall well-being through robust inclusive technologies",
 			"url": "/partners/sprialisconsulting/",
 			"location": "Australia",
 			"website": "https://www.sprialisconsulting.com/"
@@ -11,19 +11,58 @@
 		{
 			"title": "Sascha Roos MA, HDGC",
 			"img": "/assets/images/partners/sasha.jpeg",
-			"des": "An author and dyslexia specialist supporting people with the challenges of dyslexia for over 15 years. She has a well-established private practice, and an approach that encourages the strengths and abilities of the dyslexic individual.                ",
+			"des": "Sascha Roos MA, HDGC, a celebrated author and dyslexia specialist from Ireland, has been devoted to supporting individuals facing the challenges of dyslexia for over 15 years. With a thriving private practice, Sascha employs an empathetic approach that acknowledges and encourages the unique strengths and abilities of dyslexic individuals. Her collaborative spirit, extensive experience, and passionate advocacy for dyslexic individuals make her a valued partner in Helperbird's mission to foster a more accessible and supportive digital environment.",
 			"url": "/partners/sascharoos/",
 			"location": "Ireland",
 			"website": "http://dyslexiasupport.ie/about/"
 		}
-		,
+,		
+{
+    "title": "Dr Bonnie Shaver-Troup, EdD",
+    "img": "/assets/images/partners/bonnie.jpeg",
+    "des": "Dr. Bonnie Shaver-Troup, EdD, has dedicated over two decades to enhancing reading proficiency through typographic innovations. Beginning her journey as an educational therapist in 1999, she noticed that conventional fonts often hindered reading performance. Her insights led to the formation of Lexend in 2000, a range of specially-designed fonts to improve reading. Collaborating with Google, she developed a variable font solution, significantly boosting reading proficiency by tailoring font characteristics to individual needs, aligning with Helperbird’s mission to personalize digital interactions.",
+    "url": "/partners/bonnie-shaver-troup/",
+    "location": "United States",
+    "website": "https://www.lexend.com"
+},
+		
 		{
-			"title": "Dr Bonnie Shaver-Troup, EdD",
-			"img": "/assets/images/partners/bonnie.jpeg",
-			"des": "In 2017 Bonnie began working with Google to design an online variable-font solution that would ultimately give the reader complete control over their own reading experience and improve retention and comprehension.",
-			"url": "/partners/bonnie-shaver-troup/",
-			"location": "United States",
-			"website": "https://www.lexend.com"
+			"title": "Irene Hughes",
+			"img": "/assets/images/partners/irene.png",
+			"des": "Irene Hughes, with a rich history in Special Education and Occupational Therapy, now extends her expertise as a self-employed coach & consultant in assistive technology, augmentative communication, and universal design for instruction. Her dedication to promoting equity, independence, and self-determination resonates with Helperbird's mission, forming a partnership aimed at empowering individuals, particularly students with diverse abilities.",
+			"url": "/partners/irene-hughes",
+			"location": "Vancouver, WA",
+			"website": "https://www.ihugheseducator.com"
+		}
+		,
+		
+		{
+			"title": "Nova Proton",
+			"img": "/assets/images/partners/nova.jpeg",
+			"des": "Based in Wiltshire, TheProton is devoted to inclusivity and diversity, providing IT support and maintenance for various home and business sites. Their expertise spans from Windows and Mac OS to Linux, with a strong emphasis on supporting neurodiversity and LGBT communities. TheProton's dedication aligns with Helperbird's mission, making this partnership a stride towards a more inclusive digital world",
+			"url": "/partners/nova-proton",
+			"location": "United Kingdom",
+			"website": "https://www.theproton.space"
+		},
+	
+		
+		{
+			"title": "Paul Spencer",
+			"img": "/assets/images/pwa/logo/full.png",
+			"des": "Paul Spencer, a visionary from California, leads Claim3D, a venture dedicated to developing 3D technology solutions. With a knack for innovation, Paul's endeavors resonate with Helperbird's mission of accessibility. This collaboration seeks to explore new dimensions in creating a more accessible digital environment.",
+			"url": "/partners/paul-spencer",
+			"location": "California",
+			"website": "https://www.claim3d.com"
+		},
+	
+		
+		{
+			"title": "Adriana Garcia",
+			"img": "/assets/images/partners/adriana-garcia.jpg",
+			"des": "Adriana Garcia, an influential educator from Sugar Land, TX, drives innovative educational programs at Fort Bend ISD. Her passion for inclusive education aligns with Helperbird's mission, forming a partnership focused on enhancing digital accessibility and creating equitable learning environments.",
+			"url": "/partners/adriana-garcia",
+			"location": "Sugar Land, Tx",
+			"website": "https://www.fortbendisd.com/"
 		}
 	]
 }

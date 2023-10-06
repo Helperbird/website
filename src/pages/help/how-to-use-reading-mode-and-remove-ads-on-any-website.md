@@ -37,8 +37,10 @@ redirect_from: [/support/how-to-use-reading-mode-in-google-chrome-firefox-edge/,
 
 ### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## How to use Reading mode on a PDF
 
@@ -56,7 +58,10 @@ redirect_from: [/support/how-to-use-reading-mode-in-google-chrome-firefox-edge/,
 
 ### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ## Using Reading Mode though the Highlight menu
@@ -84,8 +89,9 @@ distactions.
 
 ## Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/lpG_pCyXznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ## Need more help?

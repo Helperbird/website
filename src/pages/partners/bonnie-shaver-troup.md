@@ -19,20 +19,22 @@ blog_snip: ''
 website: https://www.lexend.com/
 ---
 
+
+
 ## About
+Dr. Bonnie Shaver-Troup, EdD, has been a trailblazer in enhancing reading proficiency through typographic innovations since 1999. The creator of Lexend fonts, she has collaborated with Google to develop a variable font solution, tailoring font characteristics to individual needs and boosting reading proficiency.
 
-Founded in 2000, LEXEND came about from a desire to make reading easier for everyone. As an Educational Therapist, Bonnie Shaver-Troup, EdD, observed that reading issues masked the individual’s true capability and intelligence. She theorized that these issues were a sensitivity to typographical factors and began manipulating multiple text factors to find a match between text format and an individual’s optimized visual processing capabilities.
+## Specialties
+- Typographic Innovations
+- Educational Therapy
+- Font Design for Reading Enhancement
 
+## Titles
+- EdD in Educational Therapy
+- Creator of Lexend Fonts
 
-
-
-
-## Intro
-
-After careful research and years of testing LEXEND beta fonts, Bonnie was able to determine that while traditional approaches to reading issues focused on cognitive-based solutions, perception-based solutions were faster and more efficient in helping improve reading performance and cognition.
-
-In 2017 Bonnie began working with Google to design an online variable-font solution that would ultimately give the reader complete control over their own reading experience and improve retention and comprehension.
-
-What began as a seed in the home office of an educational therapist has become a world-class reading solution available to English-language readers across the world.
-
+## Contact
+- Email: contact@lexend.com
+- Phone: (555) 555-5555
+- Website: [https://www.lexend.com](https://www.lexend.com)
 

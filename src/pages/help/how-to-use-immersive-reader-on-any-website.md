@@ -37,7 +37,9 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 ### Video Tutorial
 
-<iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Using the Highlight menu
 
@@ -53,7 +55,10 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 ### Video Tutorial
 
-<iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/7rbdH9MIWMM?start=251" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ## Using Immersive reader on PDFs
@@ -74,7 +79,9 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 ### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7rbdH9MIWMM?start=251" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 

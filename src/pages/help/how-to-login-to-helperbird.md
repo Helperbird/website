@@ -61,9 +61,10 @@ Only supported on **Chrome** and **Edge.** [You will need to have sync enabled.]
 
 ## Video Tutorial
 
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-
-<iframe width="560" height="315" id="videos" src="https://www.youtube.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## How to login to Helperbird with a subscription key
@@ -99,9 +100,9 @@ Unlike Helperbird for Chrome or Helperbird for Edge, you will need to use the Su
 
 ## Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/27jqq08vvxI?start=186" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ## Need more help?

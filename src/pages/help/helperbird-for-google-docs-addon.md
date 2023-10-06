@@ -35,8 +35,11 @@ This comprehensive guide provides step-by-step instructions for installing and u
 ## Video Tutorial
 
 
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube.com/embed/hUBfceYUm3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" id="videos" src="https://www.youtube.com/embed/hUBfceYUm3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 

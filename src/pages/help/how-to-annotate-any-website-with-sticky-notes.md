@@ -68,9 +68,12 @@ Your notes are automatically saved and can be accessed later by clicking the "No
 - Sticky notes can be organized by grouping them under different categories.
 
 ## Video Tutorial
+
 <div class="aspect-w-16 aspect-h-9">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jX3vbq5GD5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/jX3vbq5GD5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+
 
 ## Need Additional Help?
 If you encounter any difficulties or have further questions, please [contact Helperbird Support](/support) for personalized assistance.

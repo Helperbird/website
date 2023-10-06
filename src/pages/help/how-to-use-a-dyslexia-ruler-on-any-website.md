@@ -41,7 +41,11 @@ url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 
 ### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/950R2dDH4lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="aspect-w-16 aspect-h-9">
+<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/950R2dDH4lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 
 ## Ruler features
 
