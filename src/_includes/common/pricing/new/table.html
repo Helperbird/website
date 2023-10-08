@@ -1,5 +1,5 @@
 
-<div class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
+<div class="rounded-xl  px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">Compare Helperbird plans</h2>
       <p class="leading-relaxed font-sans mt-6 text-xl  text-black">Compare Helperbird plans, if you need more help just reach out to our support staff.</p>
@@ -22,7 +22,7 @@
 					Access to all core features.
 				</p>
 			</div>
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Text features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -36,7 +36,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Content features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -99,7 +99,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -148,7 +148,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -162,7 +162,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -212,7 +212,7 @@
 			</div>
 
 			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">
-				Navigation features
+				Writing tools
 			</h4>
 
 			<div class="relative mt-6">
@@ -227,7 +227,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -276,7 +276,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Color features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -290,7 +290,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -353,7 +353,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -416,7 +416,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
 								<svg
@@ -477,7 +477,7 @@
 					All of Helperbird Pro features.
 				</p>
 			</div>
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Text features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -491,7 +491,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -538,7 +538,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Content features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -552,7 +552,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -601,7 +601,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -615,7 +615,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -665,7 +665,7 @@
 			</div>
 
 			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">
-				Navigation features
+				Writing tools
 			</h4>
 
 			<div class="relative mt-6">
@@ -680,7 +680,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -729,7 +729,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Color features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -743,7 +743,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -806,7 +806,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -869,7 +869,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
 								<svg
@@ -930,7 +930,7 @@
 					Unlimited users per school/business
 				</p>
 			</div>
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Text features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -944,7 +944,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -993,7 +993,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Content features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -1007,7 +1007,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1056,7 +1056,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -1070,7 +1070,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1120,7 +1120,7 @@
 			</div>
 
 			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">
-				Navigation features
+				Writing tools
 			</h4>
 
 			<div class="relative mt-6">
@@ -1135,7 +1135,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1184,7 +1184,7 @@
 				</div>
 			</div>
 
-			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Color features</h4>
+			<h4 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -1198,7 +1198,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1261,7 +1261,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1324,7 +1324,7 @@
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base font-bold text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
 								<svg
@@ -1383,7 +1383,7 @@
 		<div class="flex w-full items-stretch">
 			<div class="-mt-px flex w-1/4 items-end py-6 pr-4">
 				<h3 class="mt-auto font-sans text-lg font-bold leading-relaxed text-black">
-					Text features
+					Reading options
 				</h3>
 			</div>
 
@@ -1469,7 +1469,7 @@
 					{%- for feature in pricing.text -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1608,7 +1608,7 @@
 			</div>
 		</div>
 
-		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Content features</h3>
+		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Reading Tools</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -1652,7 +1652,7 @@
 					{%- for feature in pricing.content -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1791,7 +1791,7 @@
 			</div>
 		</div>
 
-		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display features</h3>
+		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Display options</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -1835,7 +1835,7 @@
 					{%- for feature in pricing.display -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1975,7 +1975,7 @@
 		</div>
 
 		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">
-			Navigation features
+			Writing tools
 		</h3>
 
 		<div class="relative mt-6">
@@ -2020,7 +2020,7 @@
 					{%- for feature in pricing.navigation -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -2159,7 +2159,7 @@
 			</div>
 		</div>
 
-		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Color features</h3>
+		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Styles & Colors</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -2203,7 +2203,7 @@
 					{%- for feature in pricing.color -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -2342,7 +2342,7 @@
 			</div>
 		</div>
 
-		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Others features</h3>
+		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Bonus features</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -2386,7 +2386,7 @@
 					{%- for feature in pricing.other -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -2525,7 +2525,7 @@
 			</div>
 		</div>
 
-		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Apps</h3>
+		<h3 class="mt-10 font-sans text-lg font-bold leading-relaxed text-black">Helperbird Apps</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -2569,7 +2569,7 @@
 					{%- for feature in pricing.apps -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-bold text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
 							{{ feature.feature }}
 						</th>
 
