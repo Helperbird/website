@@ -12,16 +12,13 @@ url: compare/
 ---
 
 
-<div class="px-6 py-24 sm:py-16 lg:px-8 mb-4">
-  <div class="mx-auto max-w-3xl text-center">
-    <h2 class="leading-relaxed font-sans  leading-relaxed font-sans  text-4xl font-bold   text-black sm:text-6xl">
-      Compare Helperbird to Others
-    </h2>
-    <p class="leading-relaxed font-sans  mt-6 text-2xl leading-8 text-black">
-      See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.
-    </p>
+<div class=" px-6 py-26 lg:px-8 my-16">
+  <div class="mx-auto max-w-2xl text-center">
+    <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">How does Helperbird compare with others?</h2>
+    <p class="leading-relaxed font-sans mt-6 text-xl text-black"> See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.</p>
   </div>
 </div>
+
 
 
 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -30,7 +27,7 @@ url: compare/
   {%- for post in collections.compare -%}
 
 
-    <div class="flex flex-col shadow-lg overflow-hidden card bg-white rounded-xl p-6 border-2 border-stone-600 ">
+    <div class="flex flex-col  overflow-hidden card bg-white rounded-xl p-6 shadow-md ">
       <div class="flex-shrink-0"><img
           alt="{{post.data.cardTitle}}"
           class="h-48 w-full object-cover"
@@ -38,7 +35,7 @@ url: compare/
       <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">
           <a class=" decoration-pink-500 block mt-2" href="{{post.url}}">
-            <p class="leading-relaxed font-sans  leading-relaxed font-sans  text-xl font-semibold text-gray-900">{{ post.data.cardTitle }}</p>
+            <p class=" leading-relaxed font-sans  text-xl font-semibold text-gray-900">{{ post.data.cardTitle }}</p>
             <p class="leading-relaxed font-sans  mt-3 text-base   text-black ">{{ post.data.description }}</p>
           </a>
 
@@ -46,7 +43,7 @@ url: compare/
         </div>
         <div class="mt-6 flex items-center"></div>
         <a
-          class=" decoration-pink-500 btn btn-secondary mt-8"
+          class=" btn btn-secondary mt-8 shadow-md"
           href="{{post.url}}"
           title="Read {{post.data.cardTitle}}">{{ post.data.cardTitle }}</a>
 
