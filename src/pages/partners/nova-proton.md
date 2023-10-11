@@ -2,19 +2,19 @@
 new: true
 header: true
 layout: templates/user_profile.liquid
-title: Nova Proton | Helperbird Partner
+title: NovaProton | Helperbird Partner
 description: Based in Wiltshire, TheProton is devoted to inclusivity and diversity, providing IT support and maintenance for various home and business sites. Their expertise spans from Windows and Mac OS to Linux, with a strong emphasis on supporting neurodiversity and LGBT communities. TheProton's dedication aligns with Helperbird's mission, making this partnership a stride towards a more inclusive digital world
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-img: /assets/images/partners/nova.png
+img: /assets/images/partners/nova.jpeg
 url: partners/nova-proton/
 isBlog: false
 blog_cat: Helperbird partner
 youtubeId: PfILiWebkuc
-cardTitle: Nova Proton
+cardTitle: NovaProton
 blog_snip: ''
 website: https://www.theproton.space
 ---
