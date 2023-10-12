@@ -66,6 +66,7 @@ function load() {
 					this.writer = new Typewriter(`#${id}`, {
 						strings: [
 							'Accessibility',
+							'Pdf Reader',
 							'Productivity',
 							'Reading support',
 							'Adapting the web',
