@@ -1,5 +1,58 @@
 {
 	"new": [
+
+
+		{
+			"version": "105.0.0",
+			"date": "Upcoming Release Date",
+			"changes": [
+			  {
+				"title": "Redesigned Settings Page",
+				"description": "We've revamped the settings page for a more intuitive user experience."
+			  },
+			  {
+				"title": "Improved Dyslexia Rulers",
+				"description": "The dyslexia rulers are now less buggy, making reading easier for users with dyslexia."
+			  },
+			  {
+				"title": "PDF Reader Enhancements",
+				"description": "Added 4 new features to the PDF reader, including OCR and page support. You can now open PDFs with a single click, no download required."
+			  },
+			  {
+				"title": "New Summarize Engine",
+				"description": "Our new summarization engine helps you get the gist of long articles and documents quickly."
+			  },
+			  {
+				"title": "Side Panel UI for Edge and Firefox",
+				"description": "We've extended the side panel UI to Microsoft Edge and Firefox for a consistent user experience across browsers."
+			  }
+			],
+			"fixes": [
+				{
+					"title": "Addressed a bug that affected dictionary function on iPads, ensuring consistent functionality across devices.",
+					"description": ""
+				},
+				{
+					"title": "Fixed z-index issues on sliders and badges, resulting in a smoother, more visually consistent user experience.",
+					"description": ""
+				},
+				{
+					"title": "Rectified a bug where text-to-speech color highlighting didn't function upon change, enhancing readability and user interaction.",
+					"description": ""
+				},
+				{
+					"title": "Fixed an issue with the word prediction feature in Google Docs where it added a word three times, ensuring accurate and efficient predictive text.",
+					"description": ""
+				}
+			],
+			"upcoming": [
+			  {
+				"title": "Upcoming Features",
+				"description": "In our next release, look forward to a new Reading Mode and an upgraded voice typing engine."
+			  }
+			]
+		  }
+,		  
 		{
 			"version": "104.1.0",
 			"date": "July 10th, 2023",
