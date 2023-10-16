@@ -9,7 +9,7 @@
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 -%}
-            <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
+            <figure class="rounded-2xl bg-white p-6 shadow-lg shadow-md">
                 <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
@@ -25,7 +25,7 @@
         </div>
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 offset:4 -%}
-            <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
+            <figure class="rounded-2xl bg-white p-6 shadow-lg shadow-md">
                 <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
@@ -41,7 +41,7 @@
         </div>
         <div class="space-y-8">
             {%- for review in reviews.reviews limit:2 offset:8 -%}
-            <figure class="rounded-2xl bg-white p-6 shadow-lg border-stone-600 border-2">
+            <figure class="rounded-2xl bg-white p-6 shadow-lg shadow-md">
                 <blockquote class="leading-relaxed font-sans  text-gray-900">
                     <p>“{{ review.review }}”</p>
                 </blockquote>
