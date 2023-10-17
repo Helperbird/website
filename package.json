@@ -11,7 +11,7 @@
 		"build": " NODE_ENV=production  webpack --mode production && eleventy",
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
 		"cms": "npx decap-server",
-		"optimizeImages": "gulp optimizeImages --gulpfile tools/gulp/images.cjs",
+		"images": "gulp optimizeImages --gulpfile tools/gulp/images.cjs",
 		"alts": "node alt.js",
 		"link": "node link.js",
 		"a11y": "eslint src/**/*.html --ignore-path .gitignore --fix  && eslint src/**/*.liquid --ignore-path .gitignore --fix  && eslint src/**/*.js --ignore-path .gitignore --fix "
