@@ -1,8 +1,6 @@
 {
 	"name": "Website",
 	"version": "2.0.0",
-
-	"type": "module",
 	"description": "It's (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it's still *really* small though.",
 	"scripts": {
 		"clean": "rimraf public src/css/styles.css",
@@ -13,7 +11,8 @@
 		"build": " NODE_ENV=production  webpack --mode production && eleventy",
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
 		"cms": "npx decap-server",
-		"images": "node tools/images.js",
+		"optimizeImages": "gulp optimizeImages --gulpfile tools/gulp/images.cjs",
+		"optimizeVideos": "gulp optimizeVideos --gulpfile video.cjs",
 		"a11y": "eslint src/**/*.html --ignore-path .gitignore --fix  && eslint src/**/*.liquid --ignore-path .gitignore --fix  && eslint src/**/*.js --ignore-path .gitignore --fix "
 	},
 	"repository": {
@@ -61,6 +60,7 @@
 		"eslint-plugin-vue": "^9.9.0",
 		"eslint-plugin-vuejs-accessibility": "^0.5.1",
 		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
 		"gulp-html2pug": "^3.0.3",
 		"gulp-image": "^6.2.1 ",
 		"gulp-imagemin": "^7.1.0",
