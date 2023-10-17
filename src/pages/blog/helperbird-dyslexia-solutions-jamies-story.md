@@ -25,7 +25,6 @@ tags:
 
 ## Protecting Our Users, Respecting Their Stories
 
-Dear Helperbird Community,
 
 As we share the inspiring stories of our users, we prioritize their privacy and well-being. In line with this commitment, we've made the decision to change the name of the user in the following use case to protect their identity. While the essence of the story remains true, we believe in safeguarding the personal details of those who share their experiences with us.
 
