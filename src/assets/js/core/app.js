@@ -41,31 +41,36 @@ const load = () => {
 			},
 			initializeTypewriters() {
 				this.initializeTypewriter('typewriter', [
-					'Accessibility',
-					'Pdf Reader',
-					'Productivity',
-					'Reading support',
-					'Adapting the web',
-					'Dyslexia support',
-					'Text to speech',
-					'Voice typing',
-					'Word prediction',
-					"Reading Mode",
-					'Text extracting',
-					'Reading',
-					'Writing',
-					'Note taking',
-					'Speed reading',
-					'Tooltip reader',
-					'Color contrast adjuster', // added
-					'Magnifier tool', // added
-
-					'Screen reader friendly', // added
-					'Keyboard navigation', // added
-					'Customizable fonts', // added
-					'High contrast mode', // added
-					'Alt text support', // added
-					'Language translation' // added
+					'Accessibility Tools',
+					'PDF Reader',
+					'Productivity Tools',
+					'Reading Support',
+					'Adapting the Web',
+					'Dyslexia Support',
+					'Text to Speech',
+					'Voice Typing',
+					'Word Prediction',
+					'Reading Mode',
+					'Text Extracting',
+					'Reading tools',
+					'Writing tools',
+					'Note Taking',
+					'Text to Speech',
+					'Speed Reading',
+					'Tooltip Reader',
+					'Color Contrast Adjuster',
+					'Magnifier Tool',
+					'Dyslexic Font',
+					'Screen Reader Friendly',
+					'Keyboard Navigation',
+					'Customizable Fonts',
+					'High Contrast Mode',
+					'Alt Text Support',
+					'Language Translation',
+					'Overlay Mode.',
+					'Grammar Checker',
+					'Simplified View',
+					'Visual Highlighter'
 				]);
 				this.initializeTypewriter('typewriterProducts', [
 					'Google Chrome',
@@ -86,7 +91,7 @@ const load = () => {
 						strings,
 						autoStart: true,
 						loop: true,
-						delay: 200
+						delay: 'natural'
 					});
 				}
 			},
