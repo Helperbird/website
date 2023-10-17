@@ -12,7 +12,7 @@
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
 		"cms": "npx decap-server",
 		"optimizeImages": "gulp optimizeImages --gulpfile tools/gulp/images.cjs",
-		"optimizeVideos": "gulp optimizeVideos --gulpfile video.cjs",
+	
 		"a11y": "eslint src/**/*.html --ignore-path .gitignore --fix  && eslint src/**/*.liquid --ignore-path .gitignore --fix  && eslint src/**/*.js --ignore-path .gitignore --fix "
 	},
 	"repository": {
