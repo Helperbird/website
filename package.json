@@ -1,6 +1,8 @@
 {
 	"name": "Website",
 	"version": "2.0.0",
+
+	"type": "module",
 	"description": "It's (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it's still *really* small though.",
 	"scripts": {
 		"clean": "rimraf public src/css/styles.css",
@@ -11,6 +13,7 @@
 		"build": " NODE_ENV=production  webpack --mode production && eleventy",
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
 		"cms": "npx decap-server",
+		"images": "node tools/images.js",
 		"a11y": "eslint src/**/*.html --ignore-path .gitignore --fix  && eslint src/**/*.liquid --ignore-path .gitignore --fix  && eslint src/**/*.js --ignore-path .gitignore --fix "
 	},
 	"repository": {
@@ -118,7 +121,9 @@
 		"eleventy-plugin-svg-contents": "^0.7.0",
 		"html-minifier": "^4.0.0",
 		"imagemin": "^8.0.1",
+		"imagemin-jpegtran": "^7.0.0",
 		"imagemin-pngquant": "^9.0.2",
+		"imagemin-svgo": "^10.0.1",
 		"imagemin-webp": "^6.1.0",
 		"markdown-it": "^12.2.0",
 		"mini-css-extract-plugin": "^2.7.2",
