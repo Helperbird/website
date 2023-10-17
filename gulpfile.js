@@ -1,6 +1,9 @@
 import gulp from 'gulp';
 import image from 'gulp-image';
 
+
+
+
 gulp.task('image', async () => {
 	return new Promise(function (resolve, reject) {
 		gulp
