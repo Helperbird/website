@@ -24,20 +24,51 @@ function tagManager() {
 		{ once: true };
 }
 
+// Function to retrieve URL parameters
+function getURLParameters(url) {
+	var params = {};
+	var parser = document.createElement('a');
+	parser.href = url;
+	var query = parser.search.substring(1);
+	var vars = query.split('&');
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split('=');
+		params[pair[0]] = decodeURIComponent(pair[1]);
+	}
+	return params;
+}
+
+function gtag() {
+	window.dataLayer.push(arguments);
+	dataLayer.push(arguments);
+}
+
+// Function to send event to Google Analytics
+function sendEvent(eventName, eventCategory, eventLabel) {
+	if (eventLabel && eventLabel.trim() !== '') {
+		gtag('event', eventName, {
+			event_category: eventCategory,
+			event_label: eventLabel
+		});
+	}
+}
+
 function loadManager() {
 	setTimeout(() => {
-
 		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			window.dataLayer.push(arguments);
-			dataLayer.push(arguments);
 
-		}
 		gtag('js', new Date());
 		gtag('config', 'AW-856875991');
 		gtag('config', 'UA-39444052-20');
 
 		gtag('config', 'G-S5QCGL0CN9');
+
+		// Get parameters from the current URL
+		var params = getURLParameters(window.location.href);
+
+		// Call function to send events
+		sendEvent('domain_event', 'URL Parameters', params.domain);
+		sendEvent('enterprise_event', 'URL Parameters - ' + params.domain, params.enterprise);
 	}, 1000),
 		{ once: true };
 }
