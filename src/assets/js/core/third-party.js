@@ -26,15 +26,19 @@ function tagManager() {
 
 function loadManager() {
 	setTimeout(() => {
-		window.dataLayer = window.dataLayer || [];
 
+		window.dataLayer = window.dataLayer || [];
 		function gtag() {
+			window.dataLayer.push(arguments);
 			dataLayer.push(arguments);
+
 		}
 		gtag('js', new Date());
 		gtag('config', 'AW-856875991');
 		gtag('config', 'UA-39444052-20');
-	}, 2000),
+
+		gtag('config', 'G-S5QCGL0CN9');
+	}, 1000),
 		{ once: true };
 }
 
