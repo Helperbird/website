@@ -68,8 +68,8 @@ function loadManager() {
 		var params = getURLParameters(window.location.href);
 		console.log(params);
 		// Call function to send events
-		sendEvent('domain_event', 'URL Parameters', params.domain);
-		sendEvent('enterprise_event', 'URL Parameters - ' + params.domain, params.enterprise);
+		sendEvent('domain_event', 'Update or Welcome', params.domain);
+		sendEvent('enterprise_event', params.domain, params.enterprise);
 	}, 1000),
 		{ once: true };
 }
