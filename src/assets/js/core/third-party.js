@@ -60,7 +60,7 @@ function loadManager() {
 
 		gtag('js', new Date());
 		gtag('config', 'AW-856875991');
-		gtag('config', 'UA-39444052-20');
+
 
 		gtag('config', 'G-S5QCGL0CN9');
 
