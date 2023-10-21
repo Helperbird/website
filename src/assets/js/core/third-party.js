@@ -45,6 +45,7 @@ function gtag() {
 
 // Function to send event to Google Analytics
 function sendEvent(eventName, eventCategory, eventLabel) {
+	console.log(eventName, eventCategory, eventLabel);
 	if (eventLabel && eventLabel.trim() !== '') {
 		gtag('event', eventName, {
 			event_category: eventCategory,
@@ -65,7 +66,7 @@ function loadManager() {
 
 		// Get parameters from the current URL
 		var params = getURLParameters(window.location.href);
-
+		console.log(params);
 		// Call function to send events
 		sendEvent('domain_event', 'URL Parameters', params.domain);
 		sendEvent('enterprise_event', 'URL Parameters - ' + params.domain, params.enterprise);
