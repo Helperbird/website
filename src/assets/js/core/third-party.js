@@ -45,7 +45,6 @@ function gtag() {
 
 // Function to send event to Google Analytics
 function sendEvent(eventName, eventCategory, eventLabel) {
-	console.log(eventName, eventCategory, eventLabel);
 	if (eventLabel && eventLabel.trim() !== '') {
 		gtag('event', eventName, {
 			event_category: eventCategory,
@@ -61,12 +60,11 @@ function loadManager() {
 		gtag('js', new Date());
 		gtag('config', 'AW-856875991');
 
-
 		gtag('config', 'G-S5QCGL0CN9');
 
 		// Get parameters from the current URL
 		var params = getURLParameters(window.location.href);
-		console.log(params);
+
 		// Call function to send events
 		sendEvent('domain_event', 'Update or Welcome', params.domain);
 		sendEvent('enterprise_event', params.domain, params.enterprise);
