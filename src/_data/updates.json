@@ -1,7 +1,88 @@
 {
 	"new": [
 
-
+		{
+			"version": "105.0.1",
+			"date": "Upcoming Release Date",
+			"changes": [
+			  {
+				"title": "New Reading Mode Design",
+				"description": "We've updated the Reading Mode to be more responsive, now fully supporting smaller screens."
+			  },
+			  {
+				"title": "Follow Mouse Feature for Dyslexia Ruler",
+				"description": "The dyslexia ruler now includes a 'follow mouse' feature, offering an enhanced user experience."
+			  },
+			  {
+				"title": "Restored 'Add to Reading List' Functionality",
+				"description": "Due to popular demand, the 'Add to Reading List' feature has been reinstated."
+			  },
+			  {
+				"title": "Sync Toggle",
+				"description": "You now have the option to turn syncing on or off."
+			  },
+			  {
+				"title": "In-app Update Notifications",
+				"description": "Updates will no longer display on a separate page, streamlining the update process."
+			  },
+			  {
+				"title": "Redesigned Settings Page",
+				"description": "The settings page has been redesigned for improved usability."
+			  },
+			  {
+				"title": "Import Helperbird Settings",
+				"description": "You can now import your Helperbird settings for easier setup on new devices."
+			  },
+			  {
+				"title": "Export Helperbird Notes and Settings",
+				"description": "We've added the ability to export both Helperbird notes and settings."
+			  },
+			  {
+				"title": "Shorter Codes for Districts",
+				"description": "District codes have been shortened for easier access."
+			  },
+			  {
+				"title": "Extended Immersive Reader Limit",
+				"description": "Immersive Reader on Helperbird Free now supports up to 1800 characters."
+			  },
+			  {
+				"title": "Immersive Reader for PDFs",
+				"description": "Immersive Reader is now compatible with PDF files."
+			  },
+			  {
+				"title": "Coupon Prompt",
+				"description": "Show a Helperbird prompt and receive a special coupon."
+			  },
+			  {
+				"title": "Extended Reworder Limit",
+				"description": "The Reworder feature now supports up to 1000 characters."
+			  },
+			  {
+				"title": "Fixed Trial Year Display",
+				"description": "Resolved an issue where the trial period incorrectly displayed as starting in 1970."
+			  },
+			  {
+				"title": "Added Reading Mode Themes",
+				"description": "New themes are now available in Reading Mode."
+			  },
+			  {
+				"title": "Custom Fonts in Reading Mode",
+				"description": "Reading Mode now supports custom fonts for a more personalized reading experience."
+			  },
+			  {
+				"title": "Microsoft Word Support",
+				"description": "Helperbird is now compatible with Microsoft Word."
+			  }
+			],
+			"fixes": [],
+			"upcoming": [
+			  {
+				"title": "Upcoming Features",
+				"description": "Stay tuned for more exciting updates in our next release."
+			  }
+			]
+		  },
+		  
 		{
 			"version": "105.0.0",
 			"date": "Upcoming Release Date",
