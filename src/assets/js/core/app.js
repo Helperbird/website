@@ -201,19 +201,19 @@ const getPriceForCurrency = (currency) => {
 
 		cad: {
 			yearly: {
-				pro: '75.00',
-				proLink: 'https://buy.stripe.com/eVaeVBfpGh2Q3OocNd',
-				unlimited: '1500',
-				unlimitedLink: 'https://buy.stripe.com/28o8xdcdu6ocacM7sW'
+				pro: '80.00',
+				proLink: 'https://buy.stripe.com/cN25mjbakcXa1iM4gu',
+				unlimited: '1800',
+				unlimitedLink: 'https://buy.stripe.com/9AQ8yv5Q06yM9PifZe'
 			},
 			monthly: {
-				pro: '8.75',
-				proLink: 'https://buy.stripe.com/bIY4gXb9qcMAet28wY',
-				unlimited: '125',
-				unlimitedLink: 'https://buy.stripe.com/9AQeVB4L2bIwacM7sV'
+				pro: '9.00',
+				proLink: 'https://buy.stripe.com/eVacOL0vGg9m6D64gv',
+				unlimited: '180',
+				unlimitedLink: 'https://buy.stripe.com/5kAg0Xemw0ao7Ha14l'
 			},
-			student: '50.00',
-			studentLink: 'https://buy.stripe.com/3cscNt3GY9AogBa4gG',
+			student: '80.00',
+			studentLink: 'https://buy.stripe.com/cN25mjbakcXa1iM4gu',
 			currency: '$'
 		},
 		euro: {
