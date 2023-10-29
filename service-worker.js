@@ -1316,7 +1316,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/core/app.js",
-    "revision": "54b62100a147ec463f6240f62a67b815"
+    "revision": "061113baa2708ac973203ad943d0fed0"
   },
   {
     "url": "assets/js/core/google-events.js",
@@ -1336,7 +1336,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.bundle.js",
-    "revision": "f02c1e2610a7872b3549e1850015a00b"
+    "revision": "c99e02527e4cf8e0e00c4b4a16f6eb3c"
   },
   {
     "url": "assets/js/main.css",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/optical-character-recognition/index.html",
-    "revision": "d4dd17af1069470faa7cc35b9fc0bec5"
+    "revision": "296ae574dddd00962d5c1ecc4e92462e"
   },
   {
     "url": "features/optical-character-recognition/index.png",

@@ -135,7 +135,7 @@ const load = () => {
 };
 
 const calculateDiscountedPrice = (originalPrice) => {
-	const result = parseFloat(originalPrice) - parseFloat(originalPrice) / 3;
+	const result = parseFloat(originalPrice) - parseFloat(originalPrice) / 5;
 	return result.toFixed(2);
 };
 

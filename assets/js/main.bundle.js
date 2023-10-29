@@ -302,7 +302,7 @@ var load = function load() {
   });
 };
 var calculateDiscountedPrice = function calculateDiscountedPrice(originalPrice) {
-  var result = parseFloat(originalPrice) - parseFloat(originalPrice) / 3;
+  var result = parseFloat(originalPrice) - parseFloat(originalPrice) / 5;
   return result.toFixed(2);
 };
 var getDefaultPrice = function getDefaultPrice() {
