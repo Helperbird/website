@@ -10,7 +10,7 @@ featurePageTitle: Dyslexia-Friendly Reading Ruler for Web and PDF
 
 img: 950R2dDH4lw
 icon: "/src/_includes/svgs/ruler.svg"
-youtubeId: PfILiWebkuc
+youtubeId: ZI7yqBKd91E
 cardTitle: Dyslexia Ruler
 featureDescription: Take control of your reading experience on both web pages and PDFs with Helperbird's Dyslexia-Friendly Reading Ruler. Specifically designed to support dyslexic users, this feature enhances focus and comprehension by dynamically highlighting text as you read.
 group: reading
