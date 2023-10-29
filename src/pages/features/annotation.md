@@ -6,9 +6,9 @@ title: Easily Annotate and Highlight Web Pages & PDFs
 description: Transform your research and workflow with Helperbird's Annotations & Sticky Notes feature. Effortlessly highlight, annotate, and leave comments on any website or PDF. Choose from a variety of colors and sizes, and organize your notes seamlessly. Save to the cloud and export in multiple formats, all while using our robust search functionality.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Annotate and Highlight Websites, PDFs, and Ebooks
-img: i1EeaekPHIo
+img: X69hPUcBqME
 icon: "/src/_includes/svgs/notes.svg"
-youtubeId: PfILiWebkuc
+youtubeId: X69hPUcBqME
 cardTitle: Annotations & Sticky Notes
 featureDescription: Transform your research and workflow with Helperbird's Annotations & Sticky Notes feature. Effortlessly highlight, annotate, and leave comments on any website or PDF. Choose from a variety of colors and sizes, and organize your notes seamlessly. Save to the cloud and export in multiple formats, all while using our robust search functionality.
 date: 2016-01-02

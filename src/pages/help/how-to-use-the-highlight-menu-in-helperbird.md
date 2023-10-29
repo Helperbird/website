@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: U3h8al49y2U
 cardTitle: Highlight Menu
 featureDescription:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser
