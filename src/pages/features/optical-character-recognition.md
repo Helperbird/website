@@ -59,7 +59,7 @@ It reads the text from an image or a pdf document and converts it into editable 
 This technology is widely used to automate the process of digitizing books, newspapers, magazines, and other printed materials, making them accessible in digital format.
 
 ## Is this a Free Helperbird feature?
-This feature is not free. You can get it for 6.99$ per month or 40.00$ per year with Helperbird Pro.
+This feature is not free. You can get it for 6.99$ per month or 60.00$ per year with Helperbird Pro.
 
 
 
