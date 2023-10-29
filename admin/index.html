@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Content Manager</title></head><body><script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script><script>var PostPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        var bg = this.props.getAsset(image);
+    
+        // Simplified rendering, mimicking your HTML structure
+        return h('div', { id: "helperbird-website", style: "background-color: rgb(246, 245, 231);" },
+  
+          // Main area
+          h('main', { "class": "mx-auto max-w-7xl" },
+            h('div', { "class": "sm:px-8 mt-16 mb-16 sm:mt-32 sm:mb-32" },
+              h('div', { "class": "mx-auto max-w-7xl lg:px-8" },
+                h('div', { "class": "relative px-4 sm:px-8 lg:px-12" },
+                  
+                  // Your content here, perhaps inside an 'article' tag
+                  h('article', { "class": "space-y-7 text-base text-black card bg-white shadow-md" },
+                    h('div', { "class": "card-body" },
+                      h('p', { "class": "line-clamp-3 text-black mb-4 mt-4 text-lg" }, entry.getIn(['data', 'blog_snip'])),
+                      
+                      // Assuming `widgetFor('body')` holds the main content
+                      h('div', {}, this.props.widgetFor('body'))
+                    )
+                  )
+                )
+              )
+            )
+          )
+        );
+      }
+    });
+
+
+      CMS.registerPreviewStyle("./style.css");
+
+			CMS.registerPreviewTemplate('blog', PostPreview);</script></body></html>
