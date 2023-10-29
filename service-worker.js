@@ -1720,7 +1720,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "df2f697d804b2aa6bd7c5a601d1ec8f5"
+    "revision": "9477d3b2827b06b1323d2023a1aaedb6"
   },
   {
     "url": "extension/index.png",
@@ -2037,6 +2037,14 @@ self.__precacheManifest = [
   {
     "url": "features/text-to-speech/index.png",
     "revision": "2b7c05c32ceb56e58c27a1894649e57b"
+  },
+  {
+    "url": "features/web-highlighter-and-pdfs/index.html",
+    "revision": "df390f453bff4b11710b94e1db607397"
+  },
+  {
+    "url": "features/web-highlighter-and-pdfs/index.png",
+    "revision": "52a7d0a00f9e29ef47f0aa1e9b9e458a"
   },
   {
     "url": "features/word-prediction/index.html",
@@ -2744,7 +2752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f962dc0e565442c44262f825fee977bf"
+    "revision": "1efd193d280c000fc8b39f0ba4849099"
   },
   {
     "url": "index.png",
@@ -2852,7 +2860,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "16890c341f00e713ac6dbcea51976fa2"
+    "revision": "c597e8f0bd402a5f6d2ea28d27a7c1fa"
   },
   {
     "url": "products/chrome/index.png",
@@ -2860,7 +2868,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "f41c74d5250f228c29ddecf56caaa973"
+    "revision": "e8e4a7297585463e7d8ceba80bc0aa47"
   },
   {
     "url": "products/edge/index.png",
@@ -2868,7 +2876,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "72fbe2822fe909ed30492fc6e355da72"
+    "revision": "e533294e6f87ef36055349b1db5f4b2a"
   },
   {
     "url": "products/firefox/index.png",
@@ -2884,7 +2892,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "099906e02af83671dbc54116690af2e1"
+    "revision": "c9fc82a1e7452265093329d3f8800d7d"
   },
   {
     "url": "products/ipad/index.png",
@@ -2940,7 +2948,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "bfe7ca53381bab865e25dbe769636f3e"
+    "revision": "efcda37e2976f45d62b4fe2abf8368a0"
   },
   {
     "url": "sitemap/index.png",
