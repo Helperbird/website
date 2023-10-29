@@ -165,7 +165,7 @@ const getPriceForCurrency = (currency) => {
 			yearly: {
 				pro: '100.00',
 				proLink: 'https://buy.stripe.com/00g7urceof5i6D6fZ8',
-				unlimited: '1800',
+				unlimited: '1800.00',
 				unlimitedLink: 'https://buy.stripe.com/5kAbKHbak4qE7Ha28j'
 			},
 			monthly: {
@@ -184,7 +184,7 @@ const getPriceForCurrency = (currency) => {
 				pro: '60.00',
 				proLink: 'https://buy.stripe.com/7sI8yvceo0ao5z25kq', //Done
 
-				unlimited: '1500',
+				unlimited: '1500.00',
 				unlimitedLink: 'https://buy.stripe.com/5kA7urceo6yM3qU5ks' // done
 			},
 			monthly: {
