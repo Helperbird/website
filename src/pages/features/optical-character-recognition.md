@@ -2,15 +2,26 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Extract Text from Images, Videos, and PDFs with Helperbird's OCR Feature
-description: HCapture and convert printed or handwritten text into editable, searchable text with Helperbird's OCR Tool. Take your productivity to the next level by easily extracting information from documents, images, or even screenshots. Compatible with multiple devices and platforms.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+title: OCR / Screenshot Reader
+description: Capture, read, and save text from images or screenshots effortlessly with Helperbird's OCR/Screenshot Reader. This versatile tool offers text-to-speech, saving to keyboard, and note-taking functionalities.
+keywords:
+  - OCR
+  - Screenshot Reader
+  - Text Extraction
+  - Text-to-Speech
+  - Note-taking
+  - Helperbird for Edge
+  - Helperbird for Firefox
+  - Helperbird for Chrome
+  - Text to speech for Chrome
+  - Voice typing for Chrome
+  - Accessibility software
 featurePageTitle: Capture and Convert Text Seamlessly with Helperbird's OCR Tool
 img: l_gDeSqvIqk
 icon: "/src/_includes/svgs/ocr.svg"
 youtubeId: l_gDeSqvIqk
-cardTitle: OCR Tool for Text Extraction
-featureDescription: Capture and convert printed or handwritten text into editable, searchable text with Helperbird's OCR Tool. Take your productivity to the next level by easily extracting information from documents, images, or even screenshots. Compatible with multiple devices and platforms.
+cardTitle:  OCR / Screenshot Reader
+featureDescription: Capture, read, and save text from images or screenshots effortlessly with Helperbird's OCR/Screenshot Reader. This versatile tool offers text-to-speech, saving to keyboard, and note-taking functionalities.
 group: reading
 color:  indigo
 tags: 
@@ -25,7 +36,6 @@ url: features/optical-character-recognition/
 
 
 
-## Summary
 
 Helperbird's Extract text feature (OCR) is a tool that allows users to easily digitize text from images, videos and PDFs. 
 
@@ -35,16 +45,23 @@ It eliminates the need to manually type out text from images and PDFs, making th
 
 Additionally, this feature facilitates text search, editing, and storage in a computer, improving accessibility to text in images and PDFs, and enhancing productivity.
 
+
+## Benefits
+
+The OCR/Screenshot Reader offers a plethora of benefits, such as:
+
+- Simplifying the process of text extraction from images or screenshots.
+- Reading extracted text aloud for auditory learners or those with reading difficulties.
+- Offering a quick and efficient way to save important text to your keyboard or as a note.
+- Enhancing productivity by allowing for quick reference and retrieval of saved text.
+
 ## Features
 
-The OCR feature in Helperbird can be used to:
-
-- Convert scanned documents or images into editable text.
-- Digitize books, newspapers, magazines, and other printed materials.
-- Automate the process of digitizing and indexing text in images and PDFs.
-- Extract information from images, videos and PDFs for research, archiving or indexing purposes.
-- Improve accessibility to text in images and PDFs.
-- Read out loud text in images and PDFs.
+- Capture text from various image formats, including screenshots and PDFs.
+- Utilize the text-to-speech function to have the captured text read aloud.
+- Save the captured text to your keyboard for easy input in other applications.
+- Option to save the captured text to a note for future reference or sharing.
+  
 
 ## What is OCR?
 
