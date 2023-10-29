@@ -182,20 +182,20 @@ const getPriceForCurrency = (currency) => {
 		usd: {
 			yearly: {
 				pro: '60.00',
-				proLink: 'https://buy.stripe.com/4gw7t9gtK6oc98I8wJ',
+				proLink: 'https://buy.stripe.com/7sI8yvceo0ao5z25kq', //Done
 
 				unlimited: '1500',
-				unlimitedLink: 'https://buy.stripe.com/3cs8xda5m4g44Ss9AU'
+				unlimitedLink: 'https://buy.stripe.com/5kA7urceo6yM3qU5ks' // done
 			},
 			monthly: {
 				pro: '6.99',
-				proLink: 'https://buy.stripe.com/9AQ14Ldhy13S4Ss5kw',
+				proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX', //done 
 
-				unlimited: '99.99',
-				unlimitedLink: 'https://buy.stripe.com/dR6cNt4L2dQEfx69AE'
+				unlimited: '129.99',
+				unlimitedLink: 'https://buy.stripe.com/6oEg0X2DO5uId1u004' //done
 			},
 			student: '40.00',
-			studentLink: 'https://buy.stripe.com/14k5l16Ta9Ao1Gg7ss',
+			studentLink: 'https://buy.stripe.com/7sI8yvceo0ao5z25kq', // Done
 			currency: '$'
 		},
 
