@@ -253,18 +253,18 @@ const getPriceForCurrency = (currency) => {
 		nz: {
 			yearly: {
 				pro: '80.00',
-				proLink: 'https://buy.stripe.com/28o7t9a5m7sg3Oo7t8',
-				unlimited: '1700',
-				unlimitedLink: 'https://buy.stripe.com/9AQ7t9a5m27W84E6p7'
+				proLink: 'https://buy.stripe.com/aEU5mjguE8GUe5y4gI',
+				unlimited: '2000',
+				unlimitedLink: 'https://buy.stripe.com/cN2dSP3HS9KYf9CcNc'
 			},
 			monthly: {
-				pro: '8.50',
-				proLink: 'https://buy.stripe.com/7sI6p591ifYM4SseVB',
-				unlimited: '145.00',
-				unlimitedLink: 'https://buy.stripe.com/6oE28P1yQeUI84EcNu'
+				pro: '9.00',
+				proLink: 'https://buy.stripe.com/6oEeWTfqA6yM9Pi28B',
+				unlimited: '180.00',
+				unlimitedLink: 'https://buy.stripe.com/6oE7uremwcXa5z26oP'
 			},
-			student: '50.00',
-			studentLink: 'https://buy.stripe.com/cN2cNtgtKdQEbgQ3cR',
+			student: '80.00',
+			studentLink: 'https://buy.stripe.com/aEU5mjguE8GUe5y4gI',
 			currency: '$'
 		}
 	};
