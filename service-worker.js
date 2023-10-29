@@ -1752,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/annotation/index.html",
-    "revision": "ab58cd86152eaa68ae5158b992ba4f24"
+    "revision": "2cffb4b517d2aeb73d0054bb9af6eca4"
   },
   {
     "url": "features/annotation/index.png",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/optical-character-recognition/index.html",
-    "revision": "6dd1eb3f5d8ea13bf326a264f55e456c"
+    "revision": "4f980bdedd39e4beb48c1ff67e61bfc8"
   },
   {
     "url": "features/optical-character-recognition/index.png",
@@ -2616,7 +2616,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-highlight-menu-in-helperbird/index.html",
-    "revision": "46f6525dd239e1382d72d8876e61fe01"
+    "revision": "c8996c93940e978f65e978e833f139aa"
   },
   {
     "url": "help/how-to-use-the-highlight-menu-in-helperbird/index.png",
@@ -2876,7 +2876,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "d7f4d1dbfcf91a8fed0716d636208881"
+    "revision": "44e83e53f3e150810338a2bf3592d301"
   },
   {
     "url": "products/google-addon/index.png",
