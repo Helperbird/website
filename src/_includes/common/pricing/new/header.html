@@ -427,7 +427,7 @@
 						<!-- Price, update based on frequency toggle state -->
 						<span class="text-4xl font-bold tracking-tight text-black">
 							<span v-html="priceDetails.currency">$</span>
-							<span v-html="priceDetails.monthly.unlimited">129.99</span>
+							<span v-html="monthlyUnlimitedPricing">129.99</span>
 						</span>
 						<!-- Payment frequency, update based on frequency toggle state -->
 						<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
@@ -437,7 +437,7 @@
 						<!-- Price, update based on frequency toggle state -->
 						<span class="text-4xl font-bold tracking-tight text-black">
 							<span v-html="priceDetails.currency">$</span>
-							<span v-html="priceDetails.yearly.unlimited">1500</span>
+							<span v-html="yearlyUnlimitedPricing">1500</span>
 						</span>
 						<!-- Payment frequency, update based on frequency toggle state -->
 						<span class="text-sm font-semibold leading-6 text-gray-600">/yearly</span>
