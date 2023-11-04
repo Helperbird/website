@@ -41,12 +41,10 @@ url: sitemap/
 
           <div>
 
-            <a href="{{ item.url }}" class="leading-relaxed font-sans  text-blue-600 hover:decoration-wavy hover:underline text-xl font-bold">
-
-              {{ item.data.title }}
-
-
-            </a>
+          <a href="{{ item.url }}" class="leading-relaxed font-sans text-blue-600 hover:decoration-wavy hover:underline text-xl font-bold" title="{{ item.data.title }}">
+            {{ item.data.title }}
+          </a>
+          
 
 
             <p class="leading-relaxed font-sans  mt-5  text-base text-black mb-5 line-clamp-3">

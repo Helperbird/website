@@ -4,20 +4,31 @@ const cheerio = require('cheerio');
 
 const directory = './src/pages/';
 
-fs.readdirSync(directory).forEach((filename) => {
-	if (filename.endsWith('.html')) {
+const processFilesInDirectory = (directory) => {
+	fs.readdirSync(directory).forEach((filename) => {
 		const filepath = path.join(directory, filename);
-		const htmlContent = fs.readFileSync(filepath, 'utf-8');
+		const stats = fs.statSync(filepath);
 
-		const $ = cheerio.load(htmlContent);
+		// If it is a directory, recursively go through it
+		if (stats.isDirectory()) {
+			return processFilesInDirectory(filepath);
+		}
 
-		const imgTags = $('img');
+		// Otherwise, if it's a file ending in .vue, process it
+		if (filename.endsWith('.liquid') || filename.endsWith('.html')) {
+			const htmlContent = fs.readFileSync(filepath, 'utf-8');
+			const $ = cheerio.load(htmlContent);
+			const imgTags = $('img');
 
-		imgTags.each((i, imgTag) => {
-			const alt = $(imgTag).attr('alt');
-			if (!alt) {
-				console.log(`${filename}: Missing alt tag in image ${i + 1}: ${$(imgTag).toString()}`);
-			}
-		});
-	}
-});
+			imgTags.each((i, imgTag) => {
+				const alt = $(imgTag).attr('alt');
+
+				if (!alt) {
+					console.log(`${filename}: Missing alt tag in image ${i + 1}: ${$(imgTag).toString()}`);
+				}
+			});
+		}
+	});
+};
+
+processFilesInDirectory(directory);
