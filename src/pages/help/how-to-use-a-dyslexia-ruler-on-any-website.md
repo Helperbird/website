@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 header: true
 layout: templates/new/help/post.html
 title: How to use a dyslexia ruler on a website or pdf
@@ -18,72 +19,55 @@ tags: guideFeaturesMain
 url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---
 
-## How to use Dyslexia ruler
+## Key Points
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+- Use the Dyslexia Ruler to improve reading on web pages and PDFs.
+- Adjust settings like color, size, and position to suit your needs.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+## Using the Dyslexia Ruler
 
-**Step 3:** Scroll until you find the **Ruler** card.
+### Steps
 
-**Step 4:** There is many different options, from styles, colors, and transparency.
+1. **Open Helperbird**: Click the Helperbird icon in your browser's top right corner.
+2. **Extension Interface**: View quick actions and features when the extension opens.
+3. **Find Dyslexia support**: Scroll or search for the reading tools card.
+4. **Customize Settings**: Choose from various styles, colors, and transparency options.
+5. **Activate Ruler**: Switch the on/off toggle to 'On'.
+6. **Ruler on Page**: The ruler appears on your page.
+7. **Adjust Settings (Optional)**: Modify the ruler settings as needed.
 
-**Step 5:** Toggle the on/off switch to **On**.
+### Ruler Customization Options
 
-**Step 6:** A ruler, will now appear on the page.
-
-**Step 7 (Optional):** Change the options to your liking.
-
-
-
+- **Follow Cursor**: Allows the ruler to track your cursor movement. Default: Off.
+- **Color**: Change the ruler's color. Default: Black.
+- **Size**: Adjust the ruler's size. Default: 100px.
+- **Position**: Set the ruler's position on the screen. Default: Top.
+- **Opacity**: Modify the ruler's transparency. Default: 100%.
+- **Width**: Change the ruler's width. Default: 1px.
+- **Styles**: Choose from Dyslexia Ruler, Line Focus, or Reading Guide.
 
 
 
 ### Video Tutorial
 
-
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/950R2dDH4lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div
+class="mt-12 mb-12  bg-stone-600 rounded-2xl  aspect-w-16 aspect-h-9"
+>
+<iframe   
+id="videos" 
+class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+src="https://www.youtube-nocookie.com/embed/ZI7yqBKd91E" 
+title="YouTube video player" 
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe>
 </div>
 
 
-## Ruler features
+## Need Help?
 
-### Follow cursor
-
-Follow cursor is a feature that allows the ruler to follow your cursor as you move it across the page. This feature is turned off by default.
-
-### Ruler color
-
-Ruler color is a feature that allows you to change the color of the ruler. The default color is black.
-
-### Ruler size
-
-Ruler size is a feature that allows you to change the size of the ruler. The default size is 100px.
-
-### Ruler position
-
-Ruler position is a feature that allows you to change the position of the ruler. The default position is top.
-
-### Ruler opacity
-
-Ruler opacity is a feature that allows you to change the opacity of the ruler. The default opacity is 100%.
-
-### Ruler Width
-
-Ruler Width is a feature that allows you to change the width of the ruler. The default width is 1px.
-
-### Ruler Styles
-
-- Dyslexia Ruler
-- Line focus
-- Reading guide
-
-
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+Contact the Helperbird support team for assistance with the Dyslexia Ruler&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;.
 
 
 
