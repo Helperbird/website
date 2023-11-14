@@ -197,7 +197,7 @@ background-color:rgb(246, 245, 231);
         <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col mx-auto ">
 
-          <div class="z-40 flex items-center gap-x-6 px-4 py-4 shadow-sm sm:px-6 lg:hidden">
+          <div class="z-40 flex items-center gap-x-6 px-4 py-4 sm:px-6 lg:hidden">
             <label for="my-drawer-2" type="button" class="btn btn-square">
               <svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" v-if="showMobileMenu === false">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -242,6 +242,7 @@ background-color:rgb(246, 245, 231);
 
                         <li>
                           <a href="{{ guide.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">{{ guide.data.cardTitle }}</a>
+                        
                         </li>
                         {%- endfor -%}
                       </ul>

@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 header: true
 layout: templates/new/help/post.html
 title: How to login to Helperbird
@@ -20,88 +21,83 @@ redirect_from: [/login/,/support/how-to-login-into-helperbird/]
 ---
 
 
-## Something to note
+## Important Notes
 
-If you wish to sign in with a **Microsoft account on Google Chrome**, you will need to use the subscription key to login.
+For Microsoft accounts on Google Chrome: [Use the subscription key to log in.](/help/how-to-use-my-subscription-key/)
 
-If you wish to sign in with a **Google account on Microsoft Edge**, you will need to use the subscription key to login.
-
-
-
-## How to login to Helperbird with your email
-
-Only supported on **Chrome** and **Edge.** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/).
+For Google accounts on Microsoft Edge: [Use the subscription key to log in.](/help/how-to-use-my-subscription-key/)
 
 
-## Steps
+## Email Login
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**This way is only supported on Chrome and Edge.** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/)
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
 
-**Step 3:** Click the settings cog in the top right corner of the extension.
+### Steps
 
-**Step 4:** A drop down menu will appear.
-
-**Step 5:** Click the login button.
-
-**Step 6:** A new tab will open.
-
-**Step 7:** It will show the account card, with a login button.
-
-**Step 8:** Click the login button.
-
-**Step 9:** Will ask you for premission for us to read your email address.
-
-**Step 10:** Once allowed, we will use that email to check if you have a Helperbird Pro subscription. If you do, you will be able to access your Pro features.
-
-**Step 11:** You can also login using your subscription key, please go to the subscription key guide to learn how.
+1. Open Helperbird by clicking the icon in the top right of your browser.
+2. Click the settings cog in the top right of the extension.
+3. From the dropdown menu, click 'Login'.
+4. In the new tab, click the login button on the account card.
+5. Grant permission to read your email address.
+6. Your email is checked for a Helperbird Pro subscription. 
+8. Access Pro features if you have a subscription.
+9. Alternatively, log in using your [subscription key](/help/how-to-use-my-subscription-key/).
 
 
 
-## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+### Video Tutorial
+
+<div
+class="mt-12 mb-12  bg-stone-600 rounded-2xl  aspect-w-16 aspect-h-9"
+>
+<iframe   
+id="videos" 
+class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" 
+title="YouTube video player" 
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe>
 </div>
 
 
 
-## How to login to Helperbird with a subscription key
+## Subscription Key Login 
+
+This method is supported in Helperbird for Chrome, Edge, Firefox, iPhone & iPad.
+
+[Learn more about subscription keys](/help/how-to-use-my-subscription-key/)
+
+### Steps
+
+1. Open Helperbird by clicking the icon in the top right of your browser.
+2. Click the settings cog in the top right of the extension.
+3. From the dropdown menu, click 'Login'.
+4. In the new tab, scroll to the subscription section.
+5. Enter your subscription key.
+6. Click 'Save'.  
+7. If a subscription is found, you'll see confetti and a confirmation message.
 
 
-### Requirements
-Unlike Helperbird for Chrome or Helperbird for Edge, you will need to use the Subscription Key to login.
-
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
-
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Click the settings cog in the top right corner of the extension.
-
-**Step 4:** A drop down menu will appear.
-
-**Step 5:** Click the login button.
-
-**Step 6:** A new tab will open.
-
-**Step 7:** Scroll to the subscription section.
-
-**Step 8:** Enter your subscription key.
-
-**Step 9:** Click the save button.
-
-**Step 10:** If a subscription is found, you will get confetti and a message saying you a subscription was found.
-
-**Step 11:** If you do not have a subscription, you will get a message saying you do not have a subscription.
-
-**Step 12:** You can also login using your email, please go to the email login guide to learn how.
 
 
-## Video Tutorial
+### Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div
+class="mt-12 mb-12  bg-stone-600 rounded-2xl  aspect-w-16 aspect-h-9"
+>
+<iframe   
+id="videos" 
+class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" 
+title="YouTube video player" 
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe>
 </div>
 
 

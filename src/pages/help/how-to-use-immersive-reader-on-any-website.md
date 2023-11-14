@@ -37,7 +37,7 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 ### Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -56,7 +56,7 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 ### Video Tutorial
 
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -79,7 +79,7 @@ There are three ways to use Immersive Reader by Microsoft on websites or PDFs wi
 
 ### Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/7rbdH9MIWMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 

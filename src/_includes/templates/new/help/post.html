@@ -186,18 +186,14 @@
 		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
 
 		<style>
-			.list-none {
-				list-style: none !important;
-			}
+
 		</style>
 
 		<style>
 			.helperbird-yellow {
 				background-color: rgb(246, 245, 231);
 			}
-			.list-decimal-important {
-				list-style: none !important;
-			}
+
 		</style>
 	</head>
 
@@ -215,7 +211,7 @@
  
 
     <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12">
-      <div class="flex items-baseline justify-between border-b shadow-md  pb-6 pt-12 ">
+      <div class="flex items-baseline justify-between border-b   pb-6 pt-12 ">
         <label for="my-drawer-2" type="button" class="btn btn-ghost btn-base lg:hidden">
           <svg
             class="block h-8 w-8"
@@ -292,6 +288,10 @@
                             {% endif %}
                             <li>
                               <a href="{{ guide.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">{{ guide.data.cardTitle }}</a>
+                         
+                              {% if guide.data.updated == true %}
+                                <div class="badge badge-primary">New</div>
+                              {% endif %}
                             </li>
                             {%- endfor -%}
                           </ul>

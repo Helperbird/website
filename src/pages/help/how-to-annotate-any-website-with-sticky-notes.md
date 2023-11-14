@@ -69,7 +69,7 @@ Your notes are automatically saved and can be accessed later by clicking the "No
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/jX3vbq5GD5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 

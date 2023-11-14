@@ -40,7 +40,7 @@ url: help/how-to-use-the-helperbird-pdf-support/
 ### Video Tutorial
 
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -64,7 +64,7 @@ url: help/how-to-use-the-helperbird-pdf-support/
 
 
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -87,7 +87,7 @@ url: help/how-to-use-the-helperbird-pdf-support/
 ### Video Tutorial
 
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -109,7 +109,7 @@ url: help/how-to-use-the-helperbird-pdf-support/
 ### Video Tutorial
 
 
-<div class="aspect-w-16 aspect-h-9">
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe   id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
