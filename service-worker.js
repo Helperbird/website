@@ -2488,7 +2488,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.html",
-    "revision": "635059dfc93fb3da3719997beca21a4f"
+    "revision": "30001e5138c5284f95d517d553499196"
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.png",
