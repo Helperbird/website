@@ -2932,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.html",
-    "revision": "8f37fc17c9fec397cdb049209c2ac04c"
+    "revision": "05634adf261d4f07eff421529027281d"
   },
   {
     "url": "redeem/index.png",
