@@ -21,7 +21,7 @@ redirect_from: [/login/,/support/how-to-login-into-helperbird/]
 ---
 
 
-## Important Notes
+## Key points
 
 For Microsoft accounts on Google Chrome: [Use the subscription key to log in.](/help/how-to-use-my-subscription-key/)
 

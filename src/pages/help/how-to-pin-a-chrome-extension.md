@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to pin a Chrome or Edge extension
 description: Discover how to pin a Chrome or Edge extension
@@ -20,32 +21,22 @@ url: help/how-to-pin-a-chrome-extension/
 ---
 
 
-## How to pin a Chrome or Edge extension
+## Key Points
 
-Open Google Chrome or Microsoft Edge and navigate to the extension you wish to pin.
-Click on the three dots in the top right corner of the extension box.
-Select "Pin" from the drop-down menu.
-The extension will now be pinned to the top of your browser and will remain there until you choose to unpin it.
-Note: If you are using Microsoft Edge (chromium) the steps are the same, but the icon will be three dots vertical instead of horizontal.
-
+- Pinning an extension makes it easily accessible.
+- This guide applies to Google Chrome and Microsoft Edge browsers.
+- Note: In Microsoft Edge (Chromium), the menu icon is three vertical dots.
 
 ## How to pin a Chrome or Edge extension
 
-**Step 1:** Open Google Chrome or Microsoft Edge and navigate to the extension you wish to pin.
+### Steps
 
-**Step 2:** Click on the three dots in the top right corner of the extension box.
+1. **Open Browser**: Launch Google Chrome or Microsoft Edge.
+2. **Navigate to Extension**: Go to the extension you want to pin.
+3. **Extension Menu**: Click the three dots (horizontal in Chrome, vertical in Edge) at the top right of the extension box.
+4. **Pin Extension**: Choose "Pin" from the drop-down menu.
+5. **Extension Pinned**: The extension will now stay at the top of your browser. To unpin, repeat these steps and choose "Unpin".
 
-**Step 3:** Select "Pin" from the drop-down menu.
+## Need Help?
 
-**Step 4:** The extension will now be pinned to the top of your browser and will remain there until you choose to unpin it.
-
-**Note:** If you are using Microsoft Edge (chromium) the steps are the same, but the icon will be three dots vertical instead of horizontal.
-
-## Video Tutorial
-
-- Coming soon.
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
-
+Contact Helperbird support for any assistance.
