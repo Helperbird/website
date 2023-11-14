@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{ title }} - Helperbird</title>
+    {% bundledCss %}
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      }
+    </script>
+
+    <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+    <meta content="{{ description }}" name="description" />
+    <meta content="{{ keywords }}" name="keywords" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta content="/assets/images/favicon.png" name="image" />
+    <meta content="#5046e4" name="theme-color" />
+    <meta content="Helperbird" itemprop="name" />
+    <meta content="{{ description }}" itemprop="description" />
+    <meta content="/assets/images/favicon.png" itemprop="image" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@helperbird">
+    <meta name="twitter:creator" content="@robertjgabriel">
+    <meta name="twitter:title" content="{{ title }} - Helperbird">
+    <meta property="twitter:domain" content="helperbird.com" />
+
+    <meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+    <meta name="twitter:description" content="{{ description }}">
+
+    <meta name="twitter:image:alt" content="Helperbird promo art with text saying visit Helperbird" />
+    <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+
+
+    <meta content="https://www.youtube.com/watch?v={{ youtubeId}}" name="twitter:player">
+
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ title }} - Helperbird">
+    <meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}">
+    <meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+    <meta property="og:description" content="{{ description }}">
+    <meta property="article:author" content="Robert James Gabriel">
+    <meta property="article:published_time" content="2021-09-14T04:00:00.000+01:00">
+    <meta property="article:section" content="Blog">
+    <meta property="article:tag" content="blog">
+
+    <link href="/assets/images/social/favicon.png" rel="shortcut icon" />
+    <link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+    <link
+      href="/assets/images/favicon.png"
+      rel="apple-touch-icon"
+      sizes="152x152" />
+    <link
+      href="/assets/images/favicon.png"
+      rel="apple-touch-icon"
+      sizes="180x180" />
+    <link
+      href="/assets/images/favicon.png"
+      rel="apple-touch-icon"
+      sizes="167x167" />
+    <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+    <script type="application/ld+json">
+      {
+      "@context": "https://schema.org",
+                                                                                                                                                                                            				"@type": "SoftwareApplication",
+                                                                                                                                                                                            				"name": "Helperbird",
+                                                                                                                                                                                            				"operatingSystem": ["Chrome", "Windows", "MacOs"],
+                                                                                                                                                                                            				"applicationCategory": "https://schema.org/UtilitiesApplication",
+                                                                                                                                                                                            				"aggregateRating": {
+                                                                                                                                                                                            					"@type": "AggregateRating",
+                                                                                                                                                                                            					"ratingValue": "4.7",
+                                                                                                                                                                                            					"ratingCount": "92"
+                                                                                                                                                                                            				},
+                                                                                                                                                                                            				"offers": {
+                                                                                                                                                                                            					"@type": "Offer",
+                                                                                                                                                                                            					"price": "6.99",
+                                                                                                                                                                                            					"priceCurrency": "USD"
+                                                                                                                                                                                            				}
+                                                                                                                                                                                            			}
+    </script>
+    <script type="application/ld+json">
+      {
+      "@context": "https://schema.org",
+                                                                                                                                                                                            				"@type": "Organization",
+                                                                                                                                                                                            				"name": "Helperbird",
+                                                                                                                                                                                            				"url": "https://www.helperbird.com",
+                                                                                                                                                                                            				"sameAs": [
+                                                                                                                                                                                            					"http://www.facebook.com/helperbird",
+                                                                                                                                                                                            					"https://www.linkedin.com/company/19112429",
+                                                                                                                                                                                            					"https://twitter.com/helperbird",
+                                                                                                                                                                                            					"https://www.youtube.com/helperbird"
+                                                                                                                                                                                            				]
+                                                                                                                                                                                            			}
+    </script>
+    <script type="application/ld+json">
+      {
+      "@context": "https://schema.org/",
+                                                                                                                                                                                            			        "@type": "Product",
+                                                                                                                                                                                            			        "name": "Helperbird",
+                                                                                                                                                                                            			        "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
+                                                                                                                                                                                            			        "description": "Helperbird is your all in one extension, that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, Reading Mode, and much more.",
+                                                                                                                                                                                            			        "brand": "Helperbird",
+                                                                                                                                                                                            			        "sku": "helperbird2016",
+                                                                                                                                                                                            			        "gtin": "helperbird2016",
+                                                                                                                                                                                            			        "offers": {
+                                                                                                                                                                                            			            "@type": "Offer",
+                                                                                                                                                                                            			            "url": "https://www.helperbird.com/pricing/",
+                                                                                                                                                                                            			            "priceCurrency": "USD",
+                                                                                                                                                                                            			            "price": "30",
+                                                                                                                                                                                            			            "priceValidUntil": "2020-12-31",
+                                                                                                                                                                                            			            "availability": "https://schema.org/OnlineOnly",
+                                                                                                                                                                                            			            "itemCondition": "https://schema.org/NewCondition"
+                                                                                                                                                                                            			        },
+                                                                                                                                                                                            			        "aggregateRating": {
+                                                                                                                                                                                            			            "@type": "AggregateRating",
+                                                                                                                                                                                            			            "ratingValue": "5",
+                                                                                                                                                                                            			            "bestRating": "5",
+                                                                                                                                                                                            			            "worstRating": "1",
+                                                                                                                                                                                            			            "ratingCount": "2",
+                                                                                                                                                                                            			            "reviewCount": "2"
+                                                                                                                                                                                            			        },
+                                                                                                                                                                                            			        "review": [
+      {%- for review in reviews.reviews -%}
+        {
+        "@type": "Review",
+                                                                                                                                                                                                                        						            "name": "{{ review.name }}",
+        "reviewBody": "
+        {{ review.review }}",
+        "reviewRating": {
+                                                                                                                                                                                                                        						                "@type": "Rating",
+                                                                                                                                                                                                                        						                "ratingValue": "5",
+                                                                                                                                                                                                                        						                "bestRating": "5",
+                                                                                                                                                                                                                        						                "worstRating": "1"
+                                                                                                                                                                                                                        						            },
+                                                                                                                                                                                                                        						            "datePublished": "2021-09-10",
+                                                                                                                                                                                                                        						            "author": {
+                                                                                                                                                                                                                        						                "@type": "Person",
+                                                                                                                                                                                                                        						                "name": "{{ review.name }}"
+        },
+                                                                                                                                                                                                                        						            "publisher": {
+                                                                                                                                                                                                                        						                "@type": "Organization",
+                                                                                                                                                                                                                        						                "name": "App store"
+                                                                                                                                                                                                                        						            }
+                                                                                                                                                                                                                        						        },
+      {%- endfor -%}
+      {
+      "@type": "Review",
+                                                                                                                                                                                						            "name": "Robert James Gabriel",
+                                                                                                                                                                                						            "reviewBody": "I know I founded it but this is amazing.",
+                                                                                                                                                                                						            "reviewRating": {
+                                                                                                                                                                                						                "@type": "Rating",
+                                                                                                                                                                                						                "ratingValue": "5",
+                                                                                                                                                                                						                "bestRating": "5",
+                                                                                                                                                                                						                "worstRating": "1"
+                                                                                                                                                                                						            },
+                                                                                                                                                                                						            "datePublished": "2021-09-10",
+                                                                                                                                                                                						            "author": {
+                                                                                                                                                                                						                "@type": "Person",
+                                                                                                                                                                                						                "name":  "Robert James Gabriel"
+                                                                                                                                                                                						            },
+                                                                                                                                                                                						            "publisher": {
+                                                                                                                                                                                						                "@type": "Organization",
+                                                                                                                                                                                						                "name": "App store"
+                                                                                                                                                                                						            }
+                                                                                                                                                                                						        }
+                                                                                                                                                                                            			        ]
+                                                                                                                                                                                            
+                                                                                                                                                                                            			    }
+    </script>
+
+    <script type="application/ld+json">
+      {
+      "@context": "https://schema.org",
+                                                                                                                                                                                            				"@type": "BlogPosting",
+                                                                                                                                                                                            				"headline": "{{ title }}",
+      "description": "{{ description }}",
+      "author": {
+                                                                                                                                                                                            					"@type": "Organization",
+                                                                                                                                                                                            					"name": "Robert James",
+                                                                                                                                                                                            					"url": "https://twitter.com/RobertJGabriel"
+                                                                                                                                                                                            				},
+                                                                                                                                                                                            				"publisher": {
+                                                                                                                                                                                            					"@type": "Organization",
+                                                                                                                                                                                            					"name": "Helperbird",
+                                                                                                                                                                                            					"logo": {
+                                                                                                                                                                                            						"@type": "ImageObject",
+                                                                                                                                                                                            						"url": "https://www.helperbird.com/assets/images/pwa/logo/full.png"
+                                                                                                                                                                                            					}
+                                                                                                                                                                                            				},
+                                                                                                                                                                                            				"datePublished": "2021-09-06"
+                                                                                                                                                                                            			}
+    </script>
+
+    <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+    <link
+      href="/assets/images/social/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180" />
+    <link
+      href="/assets/images/social/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png" />
+    <link
+      href="/assets/images/social/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png" />
+    <link href="/assets/images/social/site.webmanifest" rel="manifest" />
+    <link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
+    <link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
+    <meta content="#ffffff" name="msapplication-TileColor" />
+    <meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+
+  <style>
+
+.helperbird-yellow{
+background-color:rgb(246, 245, 231);
+}
+
+</style>
+
+</head>
+
+  <body>
+    <div id="helperbird-website" style="background-color: rgb(246, 245, 231);">
+
+
+      <main style="background-color: #f6f5e7;">
+        <div class=" mb-32">
+          <div class="mx-auto max-w-7xl lg:px-8 pt-10">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl ">
+                <div class=" text-base leading-7 text-black">
+                  <a href="/" title="Visit Helperbird Homepage">
+                    <span class="sr-only">Helperbird owl logo</span>
+                    <img
+                      src="/assets/images/pwa/logo/full.png"
+       
+                      alt="The Helperbird logo, depicting a stylized owl with large, round yellow eyes and a beige face. The owl has brown accents for its feathers and horns, and a distinct pattern on its forehead resembling a crown. Set against a green background with a subtle striped pattern."
+
+                      class="mx-auto"
+                      style="height: 100px;">
+                  </a>
+
+
+                  <!-- Load Stripe.js on your website. -->
+                  <script src="https://js.stripe.com/v3"></script>
+
+                  <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                  <button
+                    class="mx-auto btn-base btn btn-secondary shadow-md"
+                    id="checkout-button-price_1NkFCiKX4IrJ0p1ayC0znLVL"
+                    role="link"
+                    type="button"
+                    style="
+    margin: auto;
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+"
+                  >
+                 Click here to {{ cardTitle }}
+                  </button>
+
+                  <div id="error-message"></div>
+
+                  <script>
+                    (function () {
+                      var stripe = Stripe(
+                        "pk_live_51MUyeaKX4IrJ0p1anp8zMgcPXdUDx0thTr9Y6ITn2EmLJt6uy0mVuYSNCo56Ss6jJ43n5DMo6AW7LBoyzeDGWFQR00dDaEzgnH",
+                      );
+
+                      var checkoutButton = document.getElementById(
+                        "checkout-button-price_1NkFCiKX4IrJ0p1ayC0znLVL",
+                      );
+                      checkoutButton.addEventListener("click", function () {
+                        /*
+                        * When the customer clicks on the button, redirect
+                        * them to Checkout.
+                        */
+                        stripe
+                          .redirectToCheckout({
+                            lineItems: [{ price: "price_1NkFCiKX4IrJ0p1ayC0znLVL", quantity: 1 }],
+                            subscription_data: {
+                              trial_settings: {
+                                end_behavior: {
+                                  missing_payment_method: "cancel",
+                                },
+                              },
+                              trial_period_days: 30,
+                            },
+                            mode: "subscription",
+                            /*
+                            * Do not rely on the redirect to the successUrl for fulfilling
+                            * purchases, customers may not always reach the success_url after
+                            * a successful payment.
+                            * Instead use one of the strategies described in
+                            * https://stripe.com/docs/payments/checkout/fulfill-orders
+                            */
+                            successUrl: "https://www.helperbird.com/success",
+                            cancelUrl: "https://www.helperbird.com/canceled",
+                          })
+                          .then(function (result) {
+                            if (result.error) {
+                              /*
+                              * If `redirectToCheckout` fails due to a browser or network
+                              * error, display the localized error message to your customer.
+                              */
+                              var displayError = document.getElementById("error-message");
+                              displayError.textContent = result.error.message;
+                            }
+                          });
+                      });
+                    })();
+                  </script>
+
+
+
+                  
+
+
+                  <article class="space-y-7 text-base text-black card bg-white shadow-md">
+                    <div class="card-body">
+
+                      {{ content | safe }}
+
+                    </div>
+                  </article>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        {% include templates/footer.html %}
+
+
+      </div>
+
+    </body>
+    {% bundledJs %}
+  </body>
+</html>
