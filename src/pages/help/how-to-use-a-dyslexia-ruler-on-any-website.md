@@ -67,7 +67,7 @@ allowfullscreen>
 
 ## Need Help?
 
-Contact the Helperbird support team for assistance with the Dyslexia Ruler&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;.
+Contact the Helperbird support team for assistance with the Dyslexia Ruler.
 
 
 
