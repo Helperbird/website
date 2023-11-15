@@ -24,6 +24,18 @@ function tagManager() {
 		{ once: true };
 }
 
+function loadStripe() {
+	setTimeout(() => {
+		let d = document;
+		let s = d.createElement('script');
+		s.src = 'https://js.stripe.com/v3';
+		s.async = 1;
+		d.getElementsByTagName('head')[0].appendChild(s);
+	}, 2000),
+		{ once: true };
+}
+
+
 // Function to retrieve URL parameters
 function getURLParameters(url) {
 	var params = {};
@@ -72,4 +84,4 @@ function loadManager() {
 		{ once: true };
 }
 
-export { crisp, tagManager, loadManager }; // a list of exported variables
+export { crisp, tagManager, loadManager,loadStripe }; // a list of exported variables
