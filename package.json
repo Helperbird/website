@@ -132,6 +132,7 @@
 		"postcss-loader": "^4.1.0",
 		"regenerator-runtime": "^0.13.11",
 		"shimmer": "^1.2.1",
+		"stripe": "^14.4.0",
 		"typewriter-effect": "^2.19.0",
 		"vue": "^2.7.14",
 		"vue-typer": "^1.2.0"

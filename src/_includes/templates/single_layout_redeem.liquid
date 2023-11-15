@@ -249,13 +249,10 @@ background-color:rgb(246, 245, 231);
                   </a>
 
 
-                  <!-- Load Stripe.js on your website. -->
-                  <script src="https://js.stripe.com/v3"></script>
-
-                  <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+           
                   <button
                     class="mx-auto btn-base btn btn-secondary shadow-md"
-                    id="checkout-button-price_1NkFCiKX4IrJ0p1ayC0znLVL"
+                    id="checkout-button" @click="handleCheckout"
                     role="link"
                     type="button"
                     style="
@@ -270,55 +267,7 @@ background-color:rgb(246, 245, 231);
 
                   <div id="error-message"></div>
 
-                  <script>
-                    (function () {
-                      var stripe = Stripe(
-                        "pk_live_51MUyeaKX4IrJ0p1anp8zMgcPXdUDx0thTr9Y6ITn2EmLJt6uy0mVuYSNCo56Ss6jJ43n5DMo6AW7LBoyzeDGWFQR00dDaEzgnH",
-                      );
-
-                      var checkoutButton = document.getElementById(
-                        "checkout-button-price_1NkFCiKX4IrJ0p1ayC0znLVL",
-                      );
-                      checkoutButton.addEventListener("click", function () {
-                        /*
-                        * When the customer clicks on the button, redirect
-                        * them to Checkout.
-                        */
-                        stripe
-                          .redirectToCheckout({
-                            lineItems: [{ price: "price_1NkFCiKX4IrJ0p1ayC0znLVL", quantity: 1 }],
-                            subscription_data: {
-                              trial_settings: {
-                                end_behavior: {
-                                  missing_payment_method: "cancel",
-                                },
-                              },
-                              trial_period_days: 30,
-                            },
-                            mode: "subscription",
-                            /*
-                            * Do not rely on the redirect to the successUrl for fulfilling
-                            * purchases, customers may not always reach the success_url after
-                            * a successful payment.
-                            * Instead use one of the strategies described in
-                            * https://stripe.com/docs/payments/checkout/fulfill-orders
-                            */
-                            successUrl: "https://www.helperbird.com/success",
-                            cancelUrl: "https://www.helperbird.com/canceled",
-                          })
-                          .then(function (result) {
-                            if (result.error) {
-                              /*
-                              * If `redirectToCheckout` fails due to a browser or network
-                              * error, display the localized error message to your customer.
-                              */
-                              var displayError = document.getElementById("error-message");
-                              displayError.textContent = result.error.message;
-                            }
-                          });
-                      });
-                    })();
-                  </script>
+ 
 
 
 
