@@ -11,7 +11,6 @@ const load = () => {
 	new Vue({
 		el: '#helperbird-website',
 		data: {
-			stripe: null,
 			menus: false,
 			mobileMenu: false,
 			productModal: false,

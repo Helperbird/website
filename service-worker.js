@@ -1316,7 +1316,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/core/app.js",
-    "revision": "47d8c9a8f8f6046776db8b976c6acbba"
+    "revision": "efc515865c33e26776e9f70b111113ef"
   },
   {
     "url": "assets/js/core/google-events.js",
@@ -1336,7 +1336,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.bundle.js",
-    "revision": "bb6fcd4d2b909552d2c5b1a5007ab956"
+    "revision": "27578fe3b571cee42bab8dee0c3dbdb7"
   },
   {
     "url": "assets/js/main.css",

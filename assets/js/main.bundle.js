@@ -231,7 +231,6 @@ var load = function load() {
   new (vue_min_default())({
     el: '#helperbird-website',
     data: {
-      stripe: null,
       menus: false,
       mobileMenu: false,
       productModal: false,
