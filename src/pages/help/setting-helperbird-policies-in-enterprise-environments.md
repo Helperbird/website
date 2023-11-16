@@ -24,101 +24,169 @@ url: help/setting-helperbird-policies-in-enterprise-environments/
 
 ## Key Points
 
-- You will need to be Helperbird 116.0.0
-- Learn how to add subscription key to all users.
+**Version Requirement**: Ensure you have Helperbird version 116.0.0.
+
+**Enterprise Feature**: Learn how to add a subscription key for all users.
 
 ## Overview
-In enterprise settings, administrators can control and manage Helperbird extension settings using a managed schema. The schema enables the configuration of properties such as subscription key (`subKey`), exam mode (`isExamMode`), and admin control (`isAdminControl`)
 
-
+In enterprise settings, administrators can manage Helperbird extension settings using a managed schema. This allows for configuration of properties such as the subscription key (`subKey`), exam mode (`isExamMode`), and admin control (`isAdminControl`).
 
 ### Windows Configuration
 
-1. **Access Group Policy Editor** 
-   - Search for `gpedit.msc` in the Start menu.
-   - Open the Group Policy Editor.
+**Step 1**: Access Group Policy Editor
+   - Search for `gpedit.msc` in the Start menu and open the Group Policy Editor.
 
-2. **Navigate to Chrome Policies** 
+**Step 2**: Navigate to Chrome Policies
    - Go to `User Configuration` -> `Administrative Templates` -> `Google` -> `Google Chrome` -> `Extensions`.
 
-3. **Configure Helperbird Extension Policy** 
-   - Find `Configure extension installation policy`.
-   - Right-click and select `Edit`.
+**Step 3**: Configure Helperbird Extension Policy
+   - Find `Configure extension installation policy`, right-click, and select `Edit`.
    - Add Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
-4. **Apply Managed Schema Settings**
-   - Use the `Additional Policies for Chrome` section.
-   - Input the specific JSON configuration for Helperbird's settings.
+**Step 4**: Apply Managed Schema Settings
+   - Use the `Additional Policies for Chrome` section to input the JSON configuration for Helperbird's settings.
 
-5. **Deploy Policy** 
-   - Ensure that the policy is refreshed across the network to apply these settings to all relevant users.
+**Step 5**: Deploy Policy
+   - Refresh the policy across the network to apply these settings to all users.
 
 ### ChromeOS Configuration
 
-1. **Open Google Admin Console** 
-   - Access the console at `admin.google.com`.
-   - Navigate to `Devices` -> `Chrome` -> `Settings` -> `Users & Browsers`.
+**Step 1**: Open Google Admin Console
+   - Access at `admin.google.com` and navigate to `Devices` -> `Chrome` -> `Settings` -> `Users & Browsers`.
 
-2. **Select the Appropriate Organizational Unit (OU)** 
-   - Choose the OU where you want to apply the Helperbird settings.
+**Step 2**: Select Organizational Unit (OU)
+   - Choose the OU where Helperbird settings are to be applied.
 
-3. **Manage Extension Settings** 
-   - Scroll down to the `Extensions` section.
-   - Locate and select `Managed Extensions`.
+**Step 3**: Manage Extension Settings
+   - In the `Extensions` section, select `Managed Extensions`.
    - Add Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
-4. **Input JSON Configuration for Helperbird** 
-   - In the `ExtensionSettings` section, paste the JSON configuration for Helperbird.
-   - This configures settings like `subKey`, `isExamMode`, and `isAdminControl`.
+**Step 4**: Input JSON Configuration for Helperbird
+   - In `ExtensionSettings`, paste the JSON configuration for Helperbird.
 
-5. **Save and Deploy the Configuration** 
-   - Apply the settings, ensuring they propagate to all users under the selected OU.
+**Step 5**: Save and Deploy Configuration
+   - Apply the settings to propagate them to all users under the selected OU.
 
 ### MacOS Configuration
 
-1. **Use a Managed Preferences Tool** 
-   - Access Apple's Profile Manager or a third-party Mobile Device Management (MDM) solution.
+**Step 1**: Use Managed Preferences Tool
+   - Use Apple's Profile Manager or a third-party Mobile Device Management (MDM) solution.
 
-2. **Create a Configuration Profile for Chrome Extensions** 
-   - Navigate to the extensions settings in the profile creation section.
+**Step 2**: Create Configuration Profile for Chrome Extensions
+   - Go to the extensions settings in the profile creation section.
 
-3. **Include Helperbird Extension** 
+**Step 3**: Include Helperbird Extension
    - Add Helperbird’s extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
-4. **Apply JSON Configuration** 
-   - Input the specific JSON settings for the Helperbird extension.
-   - Configure the `subKey`, `isExamMode`, and `isAdminControl` as per requirement.
+**Step 4**: Apply JSON Configuration
+   - Input specific JSON settings for Helperbird extension.
 
-5. **Deploy the Configuration Profile** 
-   - Distribute the profile to relevant MacOS devices in your network.
-   - Ensure the policy applies correctly to all targeted devices.
+**Step 5**: Deploy Configuration Profile
+   - Distribute the profile to MacOS devices in your network and ensure policy application.
 
 
 ### Understanding Helperbird Policy Settings
 
-The managed schema for Helperbird includes three key settings that administrators can configure for enterprise environments. These settings are:
+The managed schema for Helperbird includes three key settings that administrators can configure for enterprise environments:
 
 #### `subKey` (Subscription Key)
-- **Description** The `subKey` represents the subscription key associated with your Helperbird Pro account.
-- **Type** String.
-- **Purpose** This key is used to authenticate and activate the Helperbird Pro features across the enterprise. It ensures that all users within the organization have access to the Pro version of Helperbird without needing individual subscriptions.
-- **Usage** Enter the Pro subscription key provided by Helperbird. This key will be applied to all instances of Helperbird across the organization.
+
+**Description**: The `subKey` represents the subscription key associated with your Helperbird Pro account.
+**Type**: String.
+**Purpose**: Authenticates and activates Helperbird Pro features across the enterprise. Ensures all users within the organization have access to Pro version without individual subscriptions.
+**Usage**: Enter the Pro subscription key provided by Helperbird. Applied to all instances of Helperbird across the organization.
 
 #### `isExamMode` (Exam Mode)
-- **Description** The `isExamMode` setting enables or disables a specific mode designed for exam conditions.
-- **Type** Boolean (True/False).
-- **Purpose** When enabled, it restricts certain features of Helperbird to comply with exam standards, ensuring students are not accessing tools or features that are not permitted during examinations.
-- **Usage** Set to `true` to activate exam mode, and `false` to deactivate it. This setting can be particularly useful in educational institutions during test periods.
+
+**Description**: Enables or disables a mode designed for exam conditions.
+**Type**: Boolean (True/False).
+**Purpose**: Restricts certain features of Helperbird to comply with exam standards. Ensures students do not access tools/features not permitted during exams.
+**Usage**: Set to `true` to activate exam mode, `false` to deactivate. Useful in educational institutions during test periods.
 
 #### `isAdminControl` (Admin Control)
-- **Description** The `isAdminControl` setting indicates whether the Helperbird settings are under administrative control.
-- **Type** Boolean (True/False).
-- **Purpose** When enabled, it ensures that only administrators can alter Helperbird settings, preventing end-users from making unauthorized changes.
-- **Usage** Set to `true` to enforce administrative control over the Helperbird settings. This is particularly useful in maintaining uniformity and compliance in how Helperbird is used within the organization.
 
-Each of these settings can be configured in the JSON schema that is applied to the Helperbird extension through your enterprise management console or tool.
+**Description**: Indicates whether Helperbird settings are under administrative control.
+**Type**: Boolean (True/False).
+**Purpose**: Ensures only administrators can alter Helperbird settings, preventing unauthorized changes by end-users.
+**Usage**: Set to `true` for administrative control over settings. Useful for maintaining uniformity and compliance in Helperbird usage within the organization.
+
+These settings are configured in the JSON schema applied to the Helperbird extension through enterprise management consoles or tools.
 
 
+## Examples
+
+### Windows Policy (Group Policy) Example
+
+In this Windows Group Policy example, replace "Your_Pro_Subscription_Key_Here" with your actual Helperbird Pro subscription key. The isExamMode and isAdminControl are set to true, indicating they are active. Adjust these settings as needed.
+
+```js
+
+   {
+      "ExtensionSettings": {
+         "ahmapmilbkfamljbpgphfndeemhnajme": {
+               "subKey": "Your_Pro_Subscription_Key_Here",
+               "isExamMode": true,
+               "isAdminControl": true
+         }
+      }
+   }
+
+```
+
+### MacOS Plist Example
+
+For the MacOS plist example, you should again replace "Your_Pro_Subscription_Key_Here" with your actual subscription key. The boolean values for isExamMode and isAdminControl are set to <true/>, indicating they are enabled. Modify these as required for your environment.
+
+```bash
+
+   <dict>
+      <key>ExtensionSettings</key>
+      <dict>
+         <key>ahmapmilbkfamljbpgphfndeemhnajme</key>
+         <dict>
+               <key>subKey</key>
+               <string>Your_Pro_Subscription_Key_Here</string>
+               <key>isExamMode</key>
+               <true/>
+               <key>isAdminControl</key>
+               <true/>
+         </dict>
+      </dict>
+   </dict>
+
+```
+
+### ChromeOS Configuration Example
+
+
+- The "ahmapmilbkfamljbpgphfndeemhnajme" is the extension ID for Helperbird.
+
+- The "subKey" field should be replaced with your actual Helperbird Pro subscription key.
+
+- The "isExamMode" and "isAdminControl" are set to true, indicating that these features are enabled. You can set these to false if you want to disable them.
+
+- This JSON configuration can be used in the Google Admin Console to apply these settings to the Helperbird extension for ChromeOS devices within your organization. Adjust the values as needed for your specific setup.
+
+```js
+{
+  "ExtensionSettings": {
+    "ahmapmilbkfamljbpgphfndeemhnajme": {
+      "Policy": {
+        "subKey": {
+          "Value": "Your_Pro_Subscription_Key_Here"
+        },
+        "isExamMode": {
+          "Value": true
+        },
+        "isAdminControl": {
+          "Value": true
+        }
+      }
+    }
+  }
+}
+```
 
 ## Need Help?
 
