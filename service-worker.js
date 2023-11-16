@@ -2696,7 +2696,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird/index.html",
-    "revision": "bb611e81efa6449639c43f56df57dcdf"
+    "revision": "3125aeabe85b31a52422eed88ab6f744"
   },
   {
     "url": "help/installing-helperbird/index.png",
@@ -2728,7 +2728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.html",
-    "revision": "c9b4da206d40ef99ab5fe32d0ba4af52"
+    "revision": "f7ee5344366f42fbad8fa5f736b55feb"
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.png",
