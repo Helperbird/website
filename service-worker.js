@@ -2192,7 +2192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-cancel-my-helperbird-pro-subscription/index.html",
-    "revision": "e7cb772a4c73cc2bec71d383dde6e786"
+    "revision": "f6b9f4119933485255153c9ef2d8d4a6"
   },
   {
     "url": "help/how-to-cancel-my-helperbird-pro-subscription/index.png",
@@ -2200,7 +2200,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-my-email/index.html",
-    "revision": "5b42ea71736fcf304327092aa05f0e8c"
+    "revision": "d4a096c856611f298ebbc5665dd6bc7a"
   },
   {
     "url": "help/how-to-change-my-email/index.png",
@@ -2360,7 +2360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-favorite-a-feature-in-helperbird/index.html",
-    "revision": "7252f7cc2c8b586bd6073bc4fa7cc347"
+    "revision": "52b5ff2dd61612c0695677310f03ad73"
   },
   {
     "url": "help/how-to-favorite-a-feature-in-helperbird/index.png",
@@ -2392,7 +2392,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-login-to-helperbird/index.html",
-    "revision": "333efd890b43f1fe37a15b23f2b0927c"
+    "revision": "cf7e81a3c60352535e122a3e14f61140"
   },
   {
     "url": "help/how-to-login-to-helperbird/index.png",
@@ -2416,7 +2416,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-pin-a-chrome-extension/index.html",
-    "revision": "6ec75c4976beadea3703e99e3324c807"
+    "revision": "2780d15badcd5cec6a2cfeab64e40126"
   },
   {
     "url": "help/how-to-pin-a-chrome-extension/index.png",
@@ -2472,7 +2472,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-turn-helperbird-on/index.html",
-    "revision": "2afa66cbc1a3ac82cedb88ef756bcc66"
+    "revision": "5a5e1c9fc4cf65d63bd14078d4c6f0b0"
   },
   {
     "url": "help/how-to-turn-helperbird-on/index.png",
@@ -2480,7 +2480,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-update-my-credit-card/index.html",
-    "revision": "ce9092d9e2ef0bf9720cf2aaaa27ab3b"
+    "revision": "ab9c0346e52c695c5bb4752c19732bbe"
   },
   {
     "url": "help/how-to-update-my-credit-card/index.png",
@@ -2488,7 +2488,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.html",
-    "revision": "bf76ab480415911d883dd0cb33c80a2c"
+    "revision": "c66b2a5ef66f40b6b5556262ea69b883"
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.png",
@@ -2600,7 +2600,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-my-subscription-key/index.html",
-    "revision": "c18091a7da19e554d5ddae70974d29dc"
+    "revision": "e4596538efad612d85fa5e25b35772a4"
   },
   {
     "url": "help/how-to-use-my-subscription-key/index.png",
@@ -2704,7 +2704,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/manage-my-helperbird-pro-subscription/index.html",
-    "revision": "fce38867781b226d3804e411dca34c80"
+    "revision": "42613e169e8e91e322a660592c865fd2"
   },
   {
     "url": "help/manage-my-helperbird-pro-subscription/index.png",
@@ -2932,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.html",
-    "revision": "6a42671c1c9947b6601f720b2dff2aa5"
+    "revision": "d70c481b0d6341993304b0049fadf112"
   },
   {
     "url": "redeem/index.png",
