@@ -23,20 +23,47 @@ url: help/how-to-pin-a-chrome-extension/
 
 ## Key Points
 
-- Pinning an extension makes it easily accessible.
-- This guide applies to Google Chrome and Microsoft Edge browsers.
-- Note: In Microsoft Edge (Chromium), the menu icon is three vertical dots.
+Pinning an extension like Helperbird in your browser ensures quick and easy access.
 
-## How to pin a Chrome or Edge extension
+This guide covers Safari, Google Chrome, Microsoft Edge, and Firefox browsers.
 
-### Steps
+**Note:** Menu icons vary across browsers: a puzzle piece in Safari, three horizontal dots in Chrome, three vertical dots in Edge, and a hamburger menu in Firefox.
 
-1. **Open Browser**: Launch Google Chrome or Microsoft Edge.
-2. **Navigate to Extension**: Go to the extension you want to pin.
-3. **Extension Menu**: Click the three dots (horizontal in Chrome, vertical in Edge) at the top right of the extension box.
-4. **Pin Extension**: Choose "Pin" from the drop-down menu.
-5. **Extension Pinned**: The extension will now stay at the top of your browser. To unpin, repeat these steps and choose "Unpin".
+## How to Pin the Helperbird Extension
 
-## Need Help?
+### Safari
 
-Contact Helperbird support for any assistance.
+1. **Open Safari**: Launch the Safari browser.
+2. **Access Extensions**: Click on 'Safari' in the menu bar, then choose 'Preferences' > 'Extensions'.
+3. **Identify Helperbird**: Find Helperbird in the list.
+4. **Pin Helperbird**: Check the box next to Helperbird to enable it in the toolbar.
+5. **Helperbird Pinned**: Helperbird will now appear in the Safari toolbar.
+
+### Google Chrome
+
+1. **Open Chrome**: Start Google Chrome.
+2. **Navigate to Extensions**: Click the puzzle icon at the top right.
+3. **Find Helperbird**: Locate Helperbird in the list.
+4. **Pin Helperbird**: Click the pin icon next to Helperbird.
+5. **Helperbird Pinned**: The Helperbird icon will now stay visible in the Chrome toolbar.
+
+### Microsoft Edge
+
+1. **Open Edge**: Launch Microsoft Edge.
+2. **Access Extensions**: Click the three vertical dots at the top right and select 'Extensions'.
+3. **Choose Helperbird**: Find Helperbird in the list.
+4. **Pin Helperbird**: Click the three vertical dots next to Helperbird and choose "Show in toolbar".
+5. **Helperbird Pinned**: The Helperbird icon will be pinned to the Edge toolbar.
+
+### Firefox
+
+1. **Open Firefox**: Start the Firefox browser.
+2. **Extension Menu**: Click the hamburger menu in the top right corner.
+3. **Select 'Add-ons'**: Choose 'Add-ons and Themes'.
+4. **Locate Helperbird**: In the 'Extensions' tab, find Helperbird.
+5. **Pin Helperbird**: Click the three-dot menu next to Helperbird and select 'Pin to Overflow Menu'.
+6. **Helperbird Pinned**: Helperbird will be accessible from the Firefox toolbar.
+
+## Need More Help?
+
+Should you face any issues or have questions about pinning Helperbird, don't hesitate to contact Helperbird support for further assistance.
