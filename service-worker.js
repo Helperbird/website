@@ -2696,7 +2696,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird/index.html",
-    "revision": "4db6559013ffe6e385c6e221709ada86"
+    "revision": "44270d271a0ea70178b24d9032ea0f82"
   },
   {
     "url": "help/installing-helperbird/index.png",
@@ -2972,7 +2972,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "6be77efe4f4489847c6b193ead7fee37"
+    "revision": "7451c26c9f298acf1f5790306fb89bc8"
   },
   {
     "url": "sitemap/index.png",
