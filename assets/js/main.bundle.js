@@ -246,7 +246,6 @@ var load = function load() {
       price: getDefaultPrice()
     },
     mounted: function mounted() {
-      loadStripe();
       crisp();
       tagManager();
       loadManager();
@@ -254,30 +253,6 @@ var load = function load() {
       this.initializeTypewriters();
     },
     methods: {
-      handleCheckout: function handleCheckout() {
-        this.stripe.redirectToCheckout({
-          lineItems: [{
-            price: 'price_1NkFCiKX4IrJ0p1ayC0znLVL',
-            quantity: 1
-          }],
-          subscription_data: {
-            trial_settings: {
-              end_behavior: {
-                missing_payment_method: 'cancel'
-              }
-            },
-            trial_period_days: 30
-          },
-          mode: 'subscription',
-          successUrl: 'https://www.helperbird.com/success',
-          cancelUrl: 'https://www.helperbird.com/canceled'
-        }).then(function (result) {
-          if (result.error) {
-            var displayError = document.getElementById('error-message');
-            displayError.textContent = result.error.message;
-          }
-        });
-      },
       switchType: function switchType() {
         this.isYearly = !this.isYearly;
       },
@@ -285,7 +260,6 @@ var load = function load() {
         this.openModal = !this.openModal;
       },
       initializeTypewriters: function initializeTypewriters() {
-        this.stripe = new window.Stripe('pk_live_51MUyeaKX4IrJ0p1anp8zMgcPXdUDx0thTr9Y6ITn2EmLJt6uy0mVuYSNCo56Ss6jJ43n5DMo6AW7LBoyzeDGWFQR00dDaEzgnH');
         this.initializeTypewriter('typewriter', ['Accessibility Tools', 'PDF Reader', 'Productivity Tools', 'Reading Support', 'Adapting the Web', 'Dyslexia Support', 'Text to Speech', 'Voice Typing', 'Word Prediction', 'Reading Mode', 'Text Extracting', 'Reading tools', 'Writing tools', 'Note Taking', 'Text to Speech', 'Speed Reading', 'Tooltip Reader', 'Color Contrast Adjuster', 'Magnifier Tool', 'Dyslexic Font', 'Screen Reader Friendly', 'Keyboard Navigation', 'Customizable Fonts', 'High Contrast Mode', 'Alt Text Support', 'Language Translation', 'Overlay Mode.', 'Grammar Checker', 'Simplified View', 'Visual Highlighter']);
         this.initializeTypewriter('typewriterProducts', ['Google Chrome', 'Mozilla Firefox', 'Micosoft Edge', 'Google Docs', 'Google Slides', 'iPad', 'iOs', 'iPhone', 'Safari']);
       },
@@ -393,7 +367,7 @@ var getPriceForCurrency = function getPriceForCurrency(currency) {
       monthly: {
         pro: '6.99',
         proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX',
-        //done
+        //done 
 
         unlimited: '129.99',
         unlimitedLink: 'https://buy.stripe.com/6oEg0X2DO5uId1u004' //done

@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect/dist/core';
 import Vue from 'vue';
-import { crisp, loadManager, tagManager, loadStripe } from './third-party';
+import { crisp, loadManager, tagManager } from './third-party';
 import { youtube } from './youtube';
 
 const load = () => {
@@ -26,7 +26,6 @@ const load = () => {
 			price: getDefaultPrice()
 		},
 		mounted() {
-			loadStripe();
 			crisp();
 			tagManager();
 			loadManager();
@@ -34,29 +33,6 @@ const load = () => {
 			this.initializeTypewriters();
 		},
 		methods: {
-			handleCheckout() {
-				this.stripe
-					.redirectToCheckout({
-						lineItems: [{ price: 'price_1NkFCiKX4IrJ0p1ayC0znLVL', quantity: 1 }],
-						subscription_data: {
-							trial_settings: {
-								end_behavior: {
-									missing_payment_method: 'cancel'
-								}
-							},
-							trial_period_days: 30
-						},
-						mode: 'subscription',
-						successUrl: 'https://www.helperbird.com/success',
-						cancelUrl: 'https://www.helperbird.com/canceled'
-					})
-					.then((result) => {
-						if (result.error) {
-							let displayError = document.getElementById('error-message');
-							displayError.textContent = result.error.message;
-						}
-					});
-			},
 			switchType() {
 				this.isYearly = !this.isYearly;
 			},
@@ -64,9 +40,6 @@ const load = () => {
 				this.openModal = !this.openModal;
 			},
 			initializeTypewriters() {
-				this.stripe = new window.Stripe(
-					'pk_live_51MUyeaKX4IrJ0p1anp8zMgcPXdUDx0thTr9Y6ITn2EmLJt6uy0mVuYSNCo56Ss6jJ43n5DMo6AW7LBoyzeDGWFQR00dDaEzgnH'
-				);
 				this.initializeTypewriter('typewriter', [
 					'Accessibility Tools',
 					'PDF Reader',
@@ -216,7 +189,7 @@ const getPriceForCurrency = (currency) => {
 			},
 			monthly: {
 				pro: '6.99',
-				proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX', //done
+				proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX', //done 
 
 				unlimited: '129.99',
 				unlimitedLink: 'https://buy.stripe.com/6oEg0X2DO5uId1u004' //done

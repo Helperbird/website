@@ -1316,7 +1316,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/core/app.js",
-    "revision": "efc515865c33e26776e9f70b111113ef"
+    "revision": "7bbd00b5848311a34ce3e9c33e7c2b3b"
   },
   {
     "url": "assets/js/core/google-events.js",
@@ -1324,7 +1324,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/core/third-party.js",
-    "revision": "41709378ac2ee90ce983985474f3fab8"
+    "revision": "8bd06322ac8e6817f3d53366d564bf0b"
   },
   {
     "url": "assets/js/core/youtube.js",
@@ -1336,7 +1336,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.bundle.js",
-    "revision": "27578fe3b571cee42bab8dee0c3dbdb7"
+    "revision": "f267fa80c095966ef741a8506f8b9b92"
   },
   {
     "url": "assets/js/main.css",
@@ -2932,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.html",
-    "revision": "24160bc4acf92cbcd41a690bab96f196"
+    "revision": "6a42671c1c9947b6601f720b2dff2aa5"
   },
   {
     "url": "redeem/index.png",
