@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title:  Master Helperbird's Reading Tools and Features
 
@@ -20,8 +21,6 @@ tags: guideFeatures
 url: help/how-to-use-helperbird-reading-tools-and-features/
 ---
 
-# Explore Helperbird's Reading Tools and Features
-
 Delve into the robust range of reading tools and features provided by Helperbird to enhance your online reading experience, especially designed with dyslexia-friendly options. Whether you're looking to better focus with a reading guide, enjoy hands-free reading with auto-scroll, or engage in an immersive reading environment, Helperbird facilitates an accessible and enjoyable experience. The guides listed below offer step-by-step instructions on how to utilize these tools on any website, aiding you in customizing your reading journey to meet your individual needs.
 
 
@@ -30,13 +29,22 @@ Delve into the robust range of reading tools and features provided by Helperbird
 
 
 
-- [How to turn on the Highlight menu in Helperbird](https://www.helperbird.com/help/how-to-turn-on-the-highlight-menu-in-helperbird)
-- [Reading Mode for Chrome, Edge and Firefox](https://www.helperbird.com/help/top-10-productivity-features-in-helperbird) (under Top 10 productivity features in Helperbird)
-- [How to use a Reading guide ruler on any website](https://www.helperbird.com/help/how-to-use-a-reading-guide-ruler-on-any-website)
-- [How to use Reading Mode on an website or PDF](https://www.helperbird.com/help/how-to-use-reading-mode-on-an-website-or-pdf)
-- [How to use Immersive reader by Microsoft on PDFs](https://www.helperbird.com/help/how-to-access-pdf-support-in-helperbird) (under How to access PDF support in Helperbird)
-- [How to Enable and Customize the Overlay/Tint Feature](https://www.helperbird.com/help/how-to-enable-and-customize-the-overlay-tint-feature-in)
-- [How to use a Line focus ruler on any website](https://www.helperbird.com/help/how-to-use-a-line-focus-ruler-on-any-website)
-- [How to use a dyslexia ruler on a website or pdf](https://www.helperbird.com/help/how-to-use-a-dyslexia-ruler-on-a-website-or-pdf)
-- [How to Use Auto-Scroll on Websites](https://www.helperbird.com/help/how-to-use-auto-scroll-on-websites)
+
+[How to turn on the Highlight menu in Helperbird](https://www.helperbird.com/help/how-to-turn-on-the-highlight-menu-in-helperbird)
+
+[Reading Mode for Chrome, Edge and Firefox](https://www.helperbird.com/help/top-10-productivity-features-in-helperbird) (under Top 10 productivity features in Helperbird)
+
+[How to use a Reading guide ruler on any website](https://www.helperbird.com/help/how-to-use-a-reading-guide-ruler-on-any-website)
+
+[How to use Reading Mode on an website or PDF](https://www.helperbird.com/help/how-to-use-reading-mode-on-an-website-or-pdf)
+
+[How to use Immersive reader by Microsoft on PDFs](https://www.helperbird.com/help/how-to-access-pdf-support-in-helperbird) (under How to access PDF support in Helperbird)
+
+[How to Enable and Customize the Overlay/Tint Feature](https://www.helperbird.com/help/how-to-enable-and-customize-the-overlay-tint-feature-in)
+
+[How to use a Line focus ruler on any website](https://www.helperbird.com/help/how-to-use-a-line-focus-ruler-on-any-website)
+
+[How to use a dyslexia ruler on a website or pdf](https://www.helperbird.com/help/how-to-use-a-dyslexia-ruler-on-a-website-or-pdf)
+
+[How to Use Auto-Scroll on Websites](https://www.helperbird.com/help/how-to-use-auto-scroll-on-websites)
 
