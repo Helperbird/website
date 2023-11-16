@@ -44,20 +44,33 @@ Locating your Helperbird Pro subscription key is simple:
 
 Follow these steps to enter your Helperbird subscription key and activate your Pro features.
 
+
 ### Steps to Enter Subscription Key
 
-1. **Open Helperbird**: Click the Helperbird icon in your browser's top right corner.
-2. **View Extension**: The Helperbird extension will open, displaying quick actions and other features.
-3. **Access Settings**: Click the settings cog in the top right corner of the extension.
-4. **Drop Down Menu**: A menu will appear.
-5. **Initiate Login**: Click the login button.
-6. **New Tab Opens**: A new tab for login will open.
-7. **Go to Subscription Section**: Scroll to the subscription section.
-8. **Enter Key**: Input your subscription key.
-9. **Save Key**: Click the save button.
-10. **Subscription Confirmation**: If a valid subscription is found, you'll see confetti and a confirmation message.
-11. **No Subscription Alert**: If no subscription is detected, a message will inform you.
-12. **Alternative Login Option**: You can also log in using your email. Refer to the email login guide for more details.
+**Step 1**: Open Helperbird: Click the Helperbird icon in your browser's top right corner.
+
+**Step 2**: View Extension: The Helperbird extension will open, displaying quick actions and other features.
+
+**Step 3**: Access Settings: Click the settings cog in the top right corner of the extension.
+
+**Step 4**: Drop Down Menu: A menu will appear.
+
+**Step 5**: Initiate Login: Click the login button.
+
+**Step 6**: New Tab Opens: A new tab for login will open.
+
+**Step 7**: Go to Subscription Section: Scroll to the subscription section.
+
+**Step 8**: Enter Key: Input your subscription key.
+
+**Step 9**: Save Key: Click the save button.
+
+**Step 10**: Subscription Confirmation: If a valid subscription is found, you'll see confetti and a confirmation message.
+
+**Step 11**: No Subscription Alert: If no subscription is detected, a message will inform you.
+
+**Step 12**: Alternative Login Option: You can also log in using your email. Refer to the email login guide for more details.
+
 
 ## Need More Help?
 

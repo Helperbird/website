@@ -17,7 +17,7 @@ url: redeem/
 
 
 **Step 1:** Copy the voucher code from your email or that you received.
-**Step 2:** Follow the link here for a **[special signup page](https://buy.stripe.com/bIY6p5cdu3c05WwdRK).**
+**Step 2:** Follow the link here for a **[special signup page](https://payments.coffeeandfun.com/b/8wM01ZbakbT6e5y5kO).**
 **Step 3:** Paste your voucher code into the **Add promotion code** field.
 **Step 4:**  The price will change to $0.00.
 **Step 5:**  Enter your email address and click **Start Trial**.

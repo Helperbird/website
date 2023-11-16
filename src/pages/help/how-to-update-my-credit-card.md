@@ -24,15 +24,24 @@ Updating your credit card information for Helperbird subscriptions is straightfo
 
 ### Steps to Update Credit Card Information
 
-1. **Visit Helperbird Manage Page**: Go to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
-2. **Enter Your Email**: Input the email associated with your Helperbird account.
-3. **Receive Verification Code**: Check your email for a verification code, valid for 10 minutes.
-4. **Verify Code**: Enter the received code in the provided box and click "Verify".
-5. **Access Dashboard**: You'll be redirected to the Helperbird dashboard.
-6. **Add Payment Method**: Click on the "Add payment method" button.
-7. **Enter Credit Card Details**: Fill in your new credit card information.
-8. **Save New Information**: Click "Save" to update your payment details.
-9. **Confirmation**: Your credit card information is now updated in the Helperbird system.
+**Step 1**: Visit Helperbird Manage Page: Go to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+
+**Step 2**: Enter Your Email: Input the email associated with your Helperbird account.
+
+**Step 3**: Receive Verification Code: Check your email for a verification code, valid for 10 minutes.
+
+**Step 4**: Verify Code: Enter the received code in the provided box and click "Verify".
+
+**Step 5**: Access Dashboard: You'll be redirected to the Helperbird dashboard.
+
+**Step 6**: Add Payment Method: Click on the "Add payment method" button.
+
+**Step 7**: Enter Credit Card Details: Fill in your new credit card information.
+
+**Step 8**: Save New Information: Click "Save" to update your payment details.
+
+**Step 9**: Confirmation: Your credit card information is now updated in the Helperbird system.
+
 
 ### Need More Help?
 

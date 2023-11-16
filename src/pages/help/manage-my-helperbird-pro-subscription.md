@@ -38,23 +38,35 @@ Manage your Helperbird Pro subscription efficiently by accessing your account on
 
 ### Steps to Manage Subscription
 
-1. **Access Manage Page**: Visit the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
-2. **Login**: Click "Login" and enter your email.
-3. **Email Verification**: Check your email for a verification code.
-4. **Enter Code**: Submit the code on the manage page.
-5. **Dashboard Access**: You'll be directed to the Helperbird dashboard.
-6. **Manage Subscription**: Subscription details and management options are available on the dashboard.
+**Step 1**: Access Manage Page: Visit the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+
+**Step 2**: Login: Click "Login" and enter your email.
+
+**Step 3**: Email Verification: Check your email for a verification code.
+
+**Step 4**: Enter Code: Submit the code on the manage page.
+
+**Step 5**: Dashboard Access: You'll be directed to the Helperbird dashboard.
+
+**Step 6**: Manage Subscription: Subscription details and management options are available on the dashboard.
+
 
 ## How to Cancel My Helperbird Pro Subscription
 
 ### Steps to Cancel Subscription
 
-1. **Go to Manage Page**: Navigate to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
-2. **Login Procedure**: Click "Login" and provide your email.
-3. **Receive and Enter Code**: Obtain the code from your email and enter it.
-4. **Dashboard Redirection**: You'll be taken to the Helperbird dashboard.
-5. **Cancel Subscription**: Find the "Cancel subscription" button in your subscription details.
-6. **Confirm Cancellation**: Click to confirm and complete the cancellation process.
+**Step 1**: Go to Manage Page: Navigate to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+
+**Step 2**: Login Procedure: Click "Login" and provide your email.
+
+**Step 3**: Receive and Enter Code: Obtain the code from your email and enter it.
+
+**Step 4**: Dashboard Redirection: You'll be taken to the Helperbird dashboard.
+
+**Step 5**: Cancel Subscription: Find the "Cancel subscription" button in your subscription details.
+
+**Step 6**: Confirm Cancellation: Click to confirm and complete the cancellation process.
+
 
 
 ## Need More Help?

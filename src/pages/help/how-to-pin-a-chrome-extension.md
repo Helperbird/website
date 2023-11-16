@@ -41,28 +41,44 @@ This guide covers Safari, Google Chrome, Microsoft Edge, and Firefox browsers.
 
 ### Google Chrome
 
-1. **Open Chrome**: Start Google Chrome.
-2. **Navigate to Extensions**: Click the puzzle icon at the top right.
-3. **Find Helperbird**: Locate Helperbird in the list.
-4. **Pin Helperbird**: Click the pin icon next to Helperbird.
-5. **Helperbird Pinned**: The Helperbird icon will now stay visible in the Chrome toolbar.
+**Step 1**: Open Chrome: Start Google Chrome.
+
+**Step 2**: Navigate to Extensions: Click the puzzle icon at the top right.
+
+**Step 3**: Find Helperbird: Locate Helperbird in the list.
+
+**Step 4**: Pin Helperbird: Click the pin icon next to Helperbird.
+
+**Step 5**: Helperbird Pinned: The Helperbird icon will now stay visible in the Chrome toolbar.
+
 
 ### Microsoft Edge
 
-1. **Open Edge**: Launch Microsoft Edge.
-2. **Access Extensions**: Click the three vertical dots at the top right and select 'Extensions'.
-3. **Choose Helperbird**: Find Helperbird in the list.
-4. **Pin Helperbird**: Click the three vertical dots next to Helperbird and choose "Show in toolbar".
-5. **Helperbird Pinned**: The Helperbird icon will be pinned to the Edge toolbar.
+**Step 1**: Open Edge: Launch Microsoft Edge.
+
+**Step 2**: Access Extensions: Click the three vertical dots at the top right and select 'Extensions'.
+
+**Step 3**: Choose Helperbird: Find Helperbird in the list.
+
+**Step 4**: Pin Helperbird: Click the three vertical dots next to Helperbird and choose "Show in toolbar".
+
+**Step 5**: Helperbird Pinned: The Helperbird icon will be pinned to the Edge toolbar.
+
 
 ### Firefox
 
-1. **Open Firefox**: Start the Firefox browser.
-2. **Extension Menu**: Click the hamburger menu in the top right corner.
-3. **Select 'Add-ons'**: Choose 'Add-ons and Themes'.
-4. **Locate Helperbird**: In the 'Extensions' tab, find Helperbird.
-5. **Pin Helperbird**: Click the three-dot menu next to Helperbird and select 'Pin to Overflow Menu'.
-6. **Helperbird Pinned**: Helperbird will be accessible from the Firefox toolbar.
+**Step 1**: Open Firefox: Start the Firefox browser.
+
+**Step 2**: Extension Menu: Click the hamburger menu in the top right corner.
+
+**Step 3**: Select 'Add-ons': Choose 'Add-ons and Themes'.
+
+**Step 4**: Locate Helperbird: In the 'Extensions' tab, find Helperbird.
+
+**Step 5**: Pin Helperbird: Click the three-dot menu next to Helperbird and select 'Pin to Overflow Menu'.
+
+**Step 6**: Helperbird Pinned: Helperbird will be accessible from the Firefox toolbar.
+
 
 ## Need More Help?
 

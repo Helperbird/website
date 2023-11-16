@@ -28,23 +28,46 @@ url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 
 ### Steps
 
-1. **Open Helperbird**: Click the Helperbird icon in your browser's top right corner.
-2. **Extension Interface**: View quick actions and features when the extension opens.
-3. **Find Dyslexia support**: Scroll or search for the reading tools card.
-4. **Customize Settings**: Choose from various styles, colors, and transparency options.
-5. **Activate Ruler**: Switch the on/off toggle to 'On'.
-6. **Ruler on Page**: The ruler appears on your page.
-7. **Adjust Settings (Optional)**: Modify the ruler settings as needed.
+**Step 1**: Open Helperbird: Click the Helperbird icon in your browser's top right corner.
+
+**Step 2**: Find Dyslexia Support: Scroll or search for the 'Reading Tools' card, within which is a section called 'Dyslexia Ruler'.
+
+**Step 3**: Activate Ruler: Switch the on/off toggle to 'On'.
+
+**Step 4**: Ruler on Page: The ruler will now appear on your page.
+
+**Step 5**: Customize Features: To customize, click the settings button located under the toggle button.
+
+**Step 6**: Customize Options: A modal will appear with options to choose from various styles, colors, and transparency settings.
 
 ### Ruler Customization Options
 
-- **Follow Cursor**: Allows the ruler to track your cursor movement. Default: Off.
-- **Color**: Change the ruler's color. Default: Black.
-- **Size**: Adjust the ruler's size. Default: 100px.
-- **Position**: Set the ruler's position on the screen. Default: Top.
-- **Opacity**: Modify the ruler's transparency. Default: 100%.
-- **Width**: Change the ruler's width. Default: 1px.
-- **Styles**: Choose from Dyslexia Ruler, Line Focus, or Reading Guide.
+**Follow Cursor**: 
+  - *Function*: Allows the ruler to track your cursor movement.
+  - *Default Setting*: Off.
+
+**Color**: 
+  - *Function*: Change the ruler's color.
+  - *Default Setting*: Black.
+
+**Size**: 
+  - *Function*: Adjust the ruler's size.
+  - *Default Setting*: 100px.
+
+**Position**: 
+  - *Function*: Set the ruler's position on the screen.
+  - *Default Setting*: Top.
+
+**Opacity**: 
+  - *Function*: Modify the ruler's transparency.
+  - *Default Setting*: 100%.
+
+**Width**: 
+  - *Function*: Change the ruler's width.
+  - *Default Setting*: 1px.
+
+**Styles**: 
+  - *Options*: Choose from Dyslexia Ruler, Line Focus, or Reading Guide.
 
 
 

@@ -332,6 +332,9 @@
                             {% endif %}
                             <li>
                               <a href="{{ features.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ features.data.cardTitle }}">{{ features.data.cardTitle }}</a>
+                              {% if guide.data.updated == true %}
+                                <div class="badge badge-primary">New</div>
+                              {% endif %}
                             </li>
                             {%- endfor -%}
                           </ul>
@@ -412,6 +415,10 @@
                             {% endif %}
                             <li>
                               <a href="{{ account.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ account.data.cardTitle }}">{{ account.data.cardTitle }}</a>
+                           
+                              {% if guide.data.updated == true %}
+                              <div class="badge badge-primary">New</div>
+                            {% endif %}
                             </li>
                             {%- endfor -%}
                           </ul>

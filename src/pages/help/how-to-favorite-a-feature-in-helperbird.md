@@ -29,12 +29,18 @@ This guide explains how to customize your quick actions area in Helperbird.
 
 ### Adding a Feature to Quick Actions
 
-1. **Open Helperbird**: Click the Helperbird icon in your browser.
-2. **Locate Quick Actions Area**: This is at the top of the Helperbird interface, where your frequently used features are saved.
-3. **Add to Quick Actions**: Click the grey plus button in the quick actions area.
-4. **Choose a Feature**: A modal will display all available features, each with a heart icon next to it.
-5. **Select Favorite**: Click the heart icon next to a feature to add it to your quick actions. A solid heart indicates the feature is selected; an outlined heart means it's not.
-6. **Confirm Selection**: Close the modal. The chosen feature will now be visible in the quick actions area.
+**Step 1**: Open Helperbird: Click the Helperbird icon in your browser.
+
+**Step 2**: Locate Quick Actions Area: This is at the top of the Helperbird interface, where your frequently used features are saved.
+
+**Step 3**: Add to Quick Actions: Click the grey plus button in the quick actions area.
+
+**Step 4**: Choose a Feature: A modal will display all available features, each with a heart icon next to it.
+
+**Step 5**: Select Favorite: Click the heart icon next to a feature to add it to your quick actions. A solid heart indicates the feature is selected; an outlined heart means it's not.
+
+**Step 6**: Confirm Selection: Close the modal. The chosen feature will now be visible in the quick actions area.
+
 
 ### Understanding Favorite Features
 

@@ -35,15 +35,21 @@ For Google accounts on Microsoft Edge: [Use the subscription key to log in.](/he
 
 ### Steps
 
-1. Open Helperbird by clicking the icon in the top right of your browser.
-2. Click the settings cog in the top right of the extension.
-3. From the dropdown menu, click 'Login'.
-4. In the new tab, click the login button on the account card.
-5. Grant permission to read your email address.
-6. Your email is checked for a Helperbird Pro subscription. 
-8. Access Pro features if you have a subscription.
-9. Alternatively, log in using your [subscription key](/help/how-to-use-my-subscription-key/).
+**Step 1**: Open Helperbird by clicking the icon in the top right of your browser.
 
+**Step 2**: Click the settings cog in the top right of the extension.
+
+**Step 3**: From the dropdown menu, click 'Login'.
+
+**Step 4**: In the new tab, click the login button on the account card.
+
+**Step 5**: Grant permission to read your email address.
+
+**Step 6**: Your email is checked for a Helperbird Pro subscription.
+
+**Step 8**: Access Pro features if you have a subscription.
+
+**Step 9**: Alternatively, log in using your [subscription key](/help/how-to-use-my-subscription-key/).
 
 
 
@@ -73,13 +79,19 @@ This method is supported in Helperbird for Chrome, Edge, Firefox, iPhone & iPad.
 
 ### Steps
 
-1. Open Helperbird by clicking the icon in the top right of your browser.
-2. Click the settings cog in the top right of the extension.
-3. From the dropdown menu, click 'Login'.
-4. In the new tab, scroll to the subscription section.
-5. Enter your subscription key.
-6. Click 'Save'.  
-7. If a subscription is found, you'll see confetti and a confirmation message.
+**Step 1**: Open Helperbird by clicking the icon in the top right of your browser.
+
+**Step 2**: Click the settings cog in the top right of the extension.
+
+**Step 3**: From the dropdown menu, click 'Login'.
+
+**Step 4**: In the new tab, scroll to the subscription section.
+
+**Step 5**: Enter your subscription key.
+
+**Step 6**: Click 'Save'.
+
+**Step 7**: If a subscription is found, you'll see confetti and a confirmation message.
 
 
 

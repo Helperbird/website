@@ -30,13 +30,20 @@ This guide is applicable for Chrome, Edge, Firefox, and other supported browsers
 
 ### Steps
 
-1. **Open Helperbird**: Click its icon at the top right of your browser.
-2. **See Helperbird**: The extension shows quick actions and features.
-3. **Find Toggle**: Look for the 'Helperbird is off' toggle near Quick Actions.
-4. **Turn On Helperbird**: Click the toggle to activate it.
-5. **Features Active**: All features you set before are running again.
-6. **Turn Off (Optional)**: Click the toggle again to deactivate.
-7. **Restart (Optional)**: Click the toggle any time to turn Helperbird back on.
+**Step 1**: Open Helperbird: Click its icon at the top right of your browser.
+
+**Step 2**: See Helperbird: The extension shows quick actions and features.
+
+**Step 3**: Find Toggle: Look for the 'Helperbird is off' toggle near Quick Actions.
+
+**Step 4**: Turn On Helperbird: Click the toggle to activate it.
+
+**Step 5**: Features Active: All features you set before are running again.
+
+**Step 6**: Turn Off (Optional): Click the toggle again to deactivate.
+
+**Step 7**: Restart (Optional): Click the toggle any time to turn Helperbird back on.
+
 
 
 ## Need more help?
