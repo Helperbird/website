@@ -110,6 +110,7 @@
 		"@11ty/eleventy-upgrade-help": "^2.0.5",
 		"@fullhuman/postcss-purgecss": "^4.0.0",
 		"@jlengstorf/get-share-image": "^0.8.0",
+		"@stripe/stripe-js": "^2.1.11",
 		"@tailwindcss/typography": "^0.5.9",
 		"@toycode/markdown-it-class": "^1.2.4",
 		"canvas": "^2.11.0",

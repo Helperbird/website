@@ -35,7 +35,6 @@ function loadStripe() {
 		{ once: true };
 }
 
-
 // Function to retrieve URL parameters
 function getURLParameters(url) {
 	var params = {};
@@ -84,4 +83,4 @@ function loadManager() {
 		{ once: true };
 }
 
-export { crisp, tagManager, loadManager,loadStripe }; // a list of exported variables
+export { crisp, tagManager, loadManager, loadStripe }; // a list of exported variables
