@@ -16,11 +16,9 @@ youtubeId: PfILiWebkuc
 cardTitle: Color options
 featureDescription: Explore the various reading tools offered by Helperbird to enhance your browsing experience.
 date: 2016-01-04
-tags: guideFeatures
+tags: guideOverViewFeatures
 url: help/how-to-use-helperbirds-style-features/
 ---
-
-# How to Use Helperbird's Color Customization Features
 
 
 Discover a more colorful browsing experience with Helperbird's color customization features. Whether you wish to change the text color for better visibility, adjust link colors to differentiate them, or alter the background color for a more comfortable reading environment, Helperbird has got you covered. The guides listed below provide step-by-step instructions on how to tailor the color settings on any website to your preference, ensuring a user-friendly and visually appealing browsing experience.

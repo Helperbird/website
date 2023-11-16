@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to cancel my Helperbird Pro subscription
 description: Learn the quick and easy steps to cancel your Helperbird Pro
@@ -23,59 +24,27 @@ header: true
 date: 2023-09-10T22:07:10.397Z
 youtubeId: PfILiWebkuc
 ---
-## Introduction
+
+## Overview
 
 If you've decided that Helperbird Pro is not the right fit for you, we're here to help. This guide will walk you through each step of canceling your Helperbird Pro subscription.
 
 ## Prerequisites
 
-- An active Helperbird Pro subscription.
-- Access to the email account associated with your Helperbird Pro subscription.
+An active Helperbird Pro subscription.
+
+Access to the email account associated with your Helperbird Pro subscription.
 
 ## Steps to Cancel Your Helperbird Pro Subscription
 
-### Step 1: Visit the Helperbird Website
-
-Navigate to any page on the [Helperbird website](https://helperbird.com/pro).
-
-### Step 2: Log In to Your Account
-
-Click on the "Login" button located in the top-right corner of the website.
-
-### Step 3: Enter Your Email
-
-Fill in the email address associated with your Helperbird Pro account.
-
-### Step 4: Verify Email with Code
-
-A code will be sent to your email address. Note that this code is valid for 10 minutes.
-
-### Step 5: Enter Verification Code
-
-Input the code you received via email in the designated box and click "Verify."
-
-### Step 6: Access the Dashboard
-
-After verification, you will be automatically redirected to the Helperbird dashboard.
-
-### Step 7: Cancel the Subscription
-
-Find and click on the "Cancel plan" button within the dashboard.
-
-### Step 8: Confirm Cancellation
-
-Your subscription will be canceled at the end of the current billing cycle.
-
-## Video Tutorial
-
-
-
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe   id="videos" src="https://www.youtube-nocookie.com/embed/BEsQnmEgjmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
+1. **Visit Helperbird Manage Page**: Go to [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+2. **Enter Your Email**: Input the email associated with your Helperbird Pro account.
+3. **Verify Email**: A verification code will be sent to your email, valid for 10 minutes.
+4. **Enter Verification Code**: Submit the received code and click "Verify".
+5. **Access Dashboard**: You'll be redirected to the Helperbird dashboard.
+6. **Cancel Subscription**: Locate and click on the "Cancel plan" button.
+7. **Confirm Cancellation**: Your subscription will be canceled at the end of your current billing cycle.
 
 ## Need Additional Help?
 
-Encountering issues? Our support team is here to help. Feel free to contact us [here](https://www.helperbird.com/support).
-
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).

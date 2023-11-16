@@ -1,9 +1,10 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to manage my Helperbird Pro subscription
-description: Discover how to manage your Helperbird Pro subscription, from cancel or update your subscription.
+description: Manage your Helperbird Pro subscription efficiently by accessing your account on the Helperbird Manage Page. This guide provides straightforward steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -17,51 +18,45 @@ tags: guideAccounts
 url: help/manage-my-helperbird-pro-subscription/
 ---
 
-## How to manage my Helperbird Pro subscription
+## Key Points
 
-**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+**Subscription Management**: Easily manage your Helperbird Pro subscription via the Helperbird Manage Page.
 
-**Step 2:** Click on the "Login" button in the top right corner.
+**Secure Login Process**: Enter your email and use the verification code sent to you for secure access.
 
-**Step 3:** Enter your email.
+**Easy Dashboard Navigation**: Once logged in, the dashboard provides clear options to manage your subscription.
 
-**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
+**Cancellation Steps**: Follow simple steps to cancel your Helperbird Pro subscription if needed.
 
-**Step 5:** Enter the code in the box and click "Verify".
+**Support Available**: Helperbird support team is ready to assist with any issues or questions.
 
-**Step 6:** You will be redirected to the Helperbird dashboard.
+## Overview
 
-**Step 7:** You will see your subscription details on the right side of the screen. There is two buttons, to cancel or update your subscription.
+Manage your Helperbird Pro subscription efficiently by accessing your account on the Helperbird Manage Page. This guide provides straightforward steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
 
+## How to Manage My Helperbird Pro Subscription
 
+### Steps to Manage Subscription
 
-## How to cancel my Helperbird Pro subscription
+1. **Access Manage Page**: Visit the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+2. **Login**: Click "Login" and enter your email.
+3. **Email Verification**: Check your email for a verification code.
+4. **Enter Code**: Submit the code on the manage page.
+5. **Dashboard Access**: You'll be directed to the Helperbird dashboard.
+6. **Manage Subscription**: Subscription details and management options are available on the dashboard.
 
-Firstly we are sad to see you go but here is how to cancel your subscription.
+## How to Cancel My Helperbird Pro Subscription
 
-**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+### Steps to Cancel Subscription
 
-**Step 2:** Click on the "Login" button in the top right corner.
-
-**Step 3:** Enter your email.
-
-**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
-
-**Step 5:** Enter the code in the box and click "Verify".
-
-**Step 6:** You will be redirected to the Helperbird dashboard.
-
-**Step 7:** You will see your subscription details on the right side of the screen.
-
-**Step 8:** Click on the **Cancel subscription** button.
-
-**Step 9:** Thats it. Your subscription has now been cancelled.
-
-## Video Tutorial
-
-- Coming soon.
+1. **Go to Manage Page**: Navigate to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+2. **Login Procedure**: Click "Login" and provide your email.
+3. **Receive and Enter Code**: Obtain the code from your email and enter it.
+4. **Dashboard Redirection**: You'll be taken to the Helperbird dashboard.
+5. **Cancel Subscription**: Find the "Cancel subscription" button in your subscription details.
+6. **Confirm Cancellation**: Click to confirm and complete the cancellation process.
 
 
-## Need more help?
+## Need More Help?
 
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+For any difficulties or inquiries during the process, the Helperbird support team is available for assistance.

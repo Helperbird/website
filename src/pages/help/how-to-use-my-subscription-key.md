@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use my Helperbird subscription key
 description:
@@ -19,45 +20,45 @@ tags: guideAccounts
 url: help/how-to-use-my-subscription-key/
 ---
 
-## Where to find my Helperbird Subscription key
+## Key Points
 
-Your Helperbird Pro subscription key can be located in the second email you receive after signing up. If you need assistance, please don't hesitate to contact our support team for help.
+**Locating Subscription Key**: Your Helperbird Pro subscription key is sent in the second email after you sign up.
 
-## How to enter my Helperbird Subscription key
+**Entering Subscription Key**: To activate your Helperbird Pro features, enter your subscription key in the Helperbird extension settings.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step-by-Step Guide**: Follow the detailed steps provided to successfully enter your subscription key.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Alternative Login Options**: If you prefer, you can also log in using your email address, as outlined in our email login guide.
 
-**Step 3:** Click the settings cog in the top right corner of the extension.
-
-**Step 4:** A drop down menu will appear.
-
-**Step 5:** Click the login button.
-
-**Step 6:** A new tab will open.
-
-**Step 7:** Scroll to the subscription section.
-
-**Step 8:** Enter your subscription key.
-
-**Step 9:** Click the save button.
-
-**Step 10:** If a subscription is found, you will get confetti and a message saying you a subscription was found.
-
-**Step 11:** If you do not have a subscription, you will get a message saying you do not have a subscription.
-
-**Step 12:** You can also login using your email, please go to the email login guide to learn how.
+**Support Available**: Our Helperbird support team is ready to assist if you encounter any issues or have questions during the process.
 
 
-## Video Tutorial
+## Where to Find My Helperbird Subscription Key
 
-- Coming soon.
+Locating your Helperbird Pro subscription key is simple:
 
+- **Check Your Email**: After signing up for Helperbird Pro, your subscription key will be in the second email you receive.
+- **Need Assistance?**: If you have trouble finding your key or have any questions, our support team is ready to help.
 
+## How to Enter My Helperbird Subscription Key
 
-## Need more help?
+Follow these steps to enter your Helperbird subscription key and activate your Pro features.
 
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+### Steps to Enter Subscription Key
 
+1. **Open Helperbird**: Click the Helperbird icon in your browser's top right corner.
+2. **View Extension**: The Helperbird extension will open, displaying quick actions and other features.
+3. **Access Settings**: Click the settings cog in the top right corner of the extension.
+4. **Drop Down Menu**: A menu will appear.
+5. **Initiate Login**: Click the login button.
+6. **New Tab Opens**: A new tab for login will open.
+7. **Go to Subscription Section**: Scroll to the subscription section.
+8. **Enter Key**: Input your subscription key.
+9. **Save Key**: Click the save button.
+10. **Subscription Confirmation**: If a valid subscription is found, you'll see confetti and a confirmation message.
+11. **No Subscription Alert**: If no subscription is detected, a message will inform you.
+12. **Alternative Login Option**: You can also log in using your email. Refer to the email login guide for more details.
 
+## Need More Help?
+
+If you encounter any difficulties during the activation process or have further inquiries, please don't hesitate to reach out to the Helperbird support team for personalized assistance.

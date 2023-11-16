@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to update the email on my Helperbird account
 description: Follow this step-by-step guide to easily change the email address
@@ -24,27 +25,23 @@ date: 2023-09-10T22:13:27.697Z
 youtubeId: PfILiWebkuc
 ---
 
+## Overview
+
+Changing your email on your Helperbird account is a straightforward process. This guide provides step-by-step instructions from logging in to updating your email information, ensuring a smooth update experience.
 
 
-## How to change the email on my Helperbird account
+## How to Change the Email on My Helperbird Account
 
-**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+### Steps to Change Email
 
-**Step 2:** Click on the "Login" button in the top right corner.
-
-**Step 3:** Enter your email.
-
-**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
-
-**Step 5:** Enter the code in the box and click "Verify".
-
-**Step 6:** You will be redirected to the Helperbird dashboard.
-
-**Step 7:** Click on the "Update information" button.
-
-**Step 8:** Enter your new email address and click "Save".
-
-**Step 9:** You have now updated your email address.
+1. **Visit Manage Page**: Go to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+2. **Login**: Click the "Login" button and enter your current email.
+3. **Verification Code**: Check your email for a verification code, valid for 10 minutes.
+4. **Verify**: Enter the code in the box and click "Verify".
+5. **Access Dashboard**: You'll be redirected to the Helperbird dashboard.
+6. **Update Information**: Click on "Update information".
+7. **Enter New Email**: Input your new email address and click "Save".
+8. **Email Updated**: Your email address is now updated in the Helperbird system.
 
 
 ## Video Tutorial

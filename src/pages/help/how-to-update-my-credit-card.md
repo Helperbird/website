@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to update my credit card
 description: Learn how to update my credit card information in the Helperbird browser extension.
@@ -17,33 +18,22 @@ tags: guideAccounts
 url: help/how-to-update-my-credit-card/
 ---
 
+## How to Update Your Credit Card Information in Helperbird
 
-## How to update my credit card information in the Helperbird
+Updating your credit card information for Helperbird subscriptions is straightforward. Follow these steps to ensure your payment details are current.
 
-**Step 1:** Visit any page on the [Helperbird](https://helperbird.com/pro) website.
+### Steps to Update Credit Card Information
 
-**Step 2:** Click on the "Login" button in the top right corner.
+1. **Visit Helperbird Manage Page**: Go to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII).
+2. **Enter Your Email**: Input the email associated with your Helperbird account.
+3. **Receive Verification Code**: Check your email for a verification code, valid for 10 minutes.
+4. **Verify Code**: Enter the received code in the provided box and click "Verify".
+5. **Access Dashboard**: You'll be redirected to the Helperbird dashboard.
+6. **Add Payment Method**: Click on the "Add payment method" button.
+7. **Enter Credit Card Details**: Fill in your new credit card information.
+8. **Save New Information**: Click "Save" to update your payment details.
+9. **Confirmation**: Your credit card information is now updated in the Helperbird system.
 
-**Step 3:** Enter your email.
+### Need More Help?
 
-**Step 4:** We will send a code to your email. This code is valid for 10 minutes.
-
-**Step 5:** Enter the code in the box and click "Verify".
-
-**Step 6:** You will be redirected to the Helperbird dashboard.
-
-**Step 7:** Click on the **Add payment method** button.
-
-**Step 8:** Enter your new credit card information and click **Save**.
-
-**Step 9:** You have now updated your credit card information.
-
-
-## Video Tutorial
-
-- Coming soon.
-
-
-## Need more help?
-
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+If you encounter any issues during this process or require additional assistance, please don't hesitate to reach out to the Helperbird support team.
