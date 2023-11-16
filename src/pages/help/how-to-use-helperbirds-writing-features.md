@@ -15,7 +15,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Writing options
 featureDescription: Explore the various reading tools offered by Helperbird to enhance your browsing experience.
 date: 2016-01-04
-tags: guideFeatures
+tags: guideOverViewFeatures
 url: help/how-to-use-helperbirds-writing-features/
 ---
 

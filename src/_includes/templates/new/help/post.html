@@ -296,6 +296,30 @@
                             {%- endfor -%}
                           </ul>
                         </li>
+
+                        <li class=" mb-4">
+                          <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl">🤳 Feature overview</h2>
+                          <ul role="list" class="mt-8 space-y-4 text-base">
+                            {%- for guide in collections.guideOverViewFeatures -%}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 ' %}
+          {% assign aria_current = 'false' %}
+                            {% if guide.url == page.url %}
+                            {% assign custom_classes = 'text-base md:text-lg link link-hover text-blue-700 font-bold underline' %}
+          {% assign aria_current = 'page' %}
+                            {% endif %}
+                            <li>
+                              <a href="{{ guide.url }}"  class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">{{ guide.data.cardTitle }}</a>
+                         
+                              {% if guide.data.updated == true %}
+                                <div class="badge badge-primary">New</div>
+                              {% endif %}
+                            </li>
+                            {%- endfor -%}
+                          </ul>
+                        </li>
+
+                        
+
                         <li class="mt-4 mb-4">
                           <h2 class="leading-relaxed font-sans  font-display font-bold text-black text-2xl mt-8">🏃 Features</h2>
                           <ul role="list" class="mt-8 space-y-4 text-base">

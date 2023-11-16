@@ -17,7 +17,7 @@ youtubeId: PfILiWebkuc
 cardTitle: Reading tools
 featureDescription: Explore the various reading tools offered by Helperbird to enhance your browsing experience.
 date: 2016-01-04
-tags: guideFeatures
+tags: guideOverViewFeatures
 url: help/how-to-use-helperbird-reading-tools-and-features/
 ---
 
