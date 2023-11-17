@@ -35,54 +35,69 @@ In enterprise settings, administrators can manage Helperbird extension settings 
 ### Windows Configuration
 
 **Step 1**: Access Group Policy Editor
+
    - Search for `gpedit.msc` in the Start menu and open the Group Policy Editor.
 
 **Step 2**: Navigate to Chrome Policies
+
    - Go to `User Configuration` -> `Administrative Templates` -> `Google` -> `Google Chrome` -> `Extensions`.
 
 **Step 3**: Configure Helperbird Extension Policy
+
    - Find `Configure extension installation policy`, right-click, and select `Edit`.
    - Add Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
 **Step 4**: Apply Managed Schema Settings
+
    - Use the `Additional Policies for Chrome` section to input the JSON configuration for Helperbird's settings.
 
 **Step 5**: Deploy Policy
+
    - Refresh the policy across the network to apply these settings to all users.
 
 ### ChromeOS Configuration
 
 **Step 1**: Open Google Admin Console
+
    - Access at `admin.google.com` and navigate to `Devices` -> `Chrome` -> `Settings` -> `Users & Browsers`.
 
 **Step 2**: Select Organizational Unit (OU)
+
    - Choose the OU where Helperbird settings are to be applied.
 
 **Step 3**: Manage Extension Settings
+
    - In the `Extensions` section, select `Managed Extensions`.
    - Add Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
 **Step 4**: Input JSON Configuration for Helperbird
+
    - In `ExtensionSettings`, paste the JSON configuration for Helperbird.
 
 **Step 5**: Save and Deploy Configuration
+
    - Apply the settings to propagate them to all users under the selected OU.
 
 ### MacOS Configuration
 
 **Step 1**: Use Managed Preferences Tool
+
    - Use Apple's Profile Manager or a third-party Mobile Device Management (MDM) solution.
 
 **Step 2**: Create Configuration Profile for Chrome Extensions
+
    - Go to the extensions settings in the profile creation section.
 
 **Step 3**: Include Helperbird Extension
+
    - Add Helperbird’s extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
 **Step 4**: Apply JSON Configuration
+
    - Input specific JSON settings for Helperbird extension.
 
 **Step 5**: Deploy Configuration Profile
+
    - Distribute the profile to MacOS devices in your network and ensure policy application.
 
 
