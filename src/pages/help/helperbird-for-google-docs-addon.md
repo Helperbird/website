@@ -62,7 +62,11 @@ Make sure you are logged into your Google Account before proceeding.
 **Step 7**: Use Helperbird: The add-on will be available in the "Add-ons" menu.
 
 ## Please Note
+
 Additional steps such as signing into your Helperbird account or obtaining admin approval may be required to use certain features.
 
 
 
+## Contact Us
+
+If you have any questions or encounter any issues, please feel free to contact our support staff for assistance.

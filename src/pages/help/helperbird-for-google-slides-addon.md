@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Install and Use the Helperbird Add-on for Google Slides
 description: Discover how to enhance your Google Slides experience with
@@ -22,55 +23,30 @@ featureDescription: Discover how to enhance your Google Slides experience with
   installation and usage, making document editing more accessible than ever.
 header: true
 ---
-# How to Install and Use the Helperbird Add-on for Google Slides
 
-## Introduction
-This step-by-step guide is designed to help you install and use the Helperbird Add-on within Google Slides. Make your presentations more accessible and engaging with Helperbird's suite of features.
 
-## Prerequisites
-- You need a Google Account to use Google Slides.
-- Make sure to sign in to your Google Account before starting the installation.
 
-## Step 1: Open a Google Slides Presentation
-1. Open an existing Google Slides presentation or create a new one in your browser.
+## How to Add the Helperbird Add-on to Google Slides
 
-## Step 2: Access the Add-ons Menu
-1. Click on the "Add-ons" option located in the top toolbar of Google Slides.
+**Step 1**: Open Google Slides: Start a Google Slides presentation.
 
-## Step 3: Get Helperbird Add-on
-1. From the "Add-ons" dropdown menu, choose "Get add-ons."
+**Step 2**: Add-ons Menu: Click "Add-ons" in the top toolbar.
 
-## Step 4: Search for Helperbird
-1. Enter "Helperbird" into the search bar of the G Suite Marketplace and hit Enter.
+**Step 3**: Get Add-ons: Select "Get add-ons".
 
-## Step 5: Choose the Helperbird Add-on
-1. Select the Helperbird Add-on listing to get more details.
+**Step 4**: Find Helperbird: Search for Helperbird in the G Suite Marketplace.
 
-## Step 6: Install the Helperbird Add-on
-1. Click the "Install" button to start the installation process.
+**Step 5**: Install Helperbird: Click "Install" on the Helperbird listing.
 
-## Step 7: Grant Permissions
-1. A pop-up window will appear asking for permissions to install the add-on. Click "Allow" to continue.
+**Step 6**: Confirm Installation: Allow permissions in the pop-up window.
 
-## Step 8: Complete Installation
-1. After permissions are granted, the Helperbird Add-on will be installed and accessible via the "Add-ons" menu.
-
-## Step 9: Using Helperbird Features
-1. To utilize the Helperbird Add-on, navigate to "Add-ons" > "Helperbird."
-2. Follow the prompts to tailor your settings and activate the features you wish to use.
-
-## Step 10: Manage or Remove Add-on (Optional)
-1. To manage or uninstall the add-on, go to the "Add-ons" menu and select "Manage add-ons."
-2. You will see a list of installed add-ons, and you can choose to remove them if needed.
+**Step 7**: Use Helperbird: The add-on will be available in the "Add-ons" menu.
 
 ## Please Note
-You may need to sign in to your Helperbird account or gain admin approval for full functionality.
 
-## Features Included
-- Dyslexia font support
-- Text to speech
-- Voice typing
-- Immersive reader
+Additional steps such as signing into your Helperbird account or obtaining admin approval may be required to use certain features in Google Slides.
 
-## Conclusion
-Congratulations, you have successfully installed and are now equipped to use the Helperbird Add-on in Google Slides, making your presentations more accessible and interactive.
+
+## Contact Us
+
+If you have any questions or encounter any issues, please feel free to contact our support staff for assistance.
