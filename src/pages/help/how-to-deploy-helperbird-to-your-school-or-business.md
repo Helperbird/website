@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to deploy Helperbird through the Google Admin Console for EDU accounts
 description:
@@ -24,47 +25,71 @@ date: Created
 time: 4 min
 ---
 
-Your step by step guide on how to install and set up Helperbird.
+
+## Introduction
+
+This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite. Follow these steps to ensure that Helperbird is available to all users within your organization.
+
+## Prerequisites
+
+Administrator access to Google Admin Console (for G Suite/Google Chrome) or Microsoft 365 Admin Center (for Microsoft Edge).
+
+Helperbird's extension ID for Chrome : `ahmapmilbkfamljbpgphfndeemhnajme`.
+
+Helperbird's extension ID for Chrome : `bkibfggdahioahpokehoiimdmdjefjmd`.
+
+## Steps
+
+### Deploying on Google Chrome (G Suite)
+
+**Step 1**: Log into Google Admin Console
+Access your G Suite Admin Console at [admin.google.com](https://admin.google.com/).
+
+**Step 2**: Access Chrome Management
+Navigate to `Devices > Chrome > Apps & Extensions`.
+
+**Step 3**: Select Organizational Unit
+Choose the Organizational Unit to which you want to deploy Helperbird.
+
+**Step 4**: Add Helperbird Extension
+Click the `+` icon and select `Add from Chrome Web Store`. Enter Helperbird’s extension ID.
+
+**Step 5**: Configure Deployment Settings
+Set the installation policy to `Force Install` or another preferred setting.
+
+**Step 6**: Save and Deploy
+Click `Save` to apply the settings.
 
 
-**Step 1:** Click Device management in the Google Admin Console.
+### Deploying on Microsoft Edge (Microsoft 365)
+
+**Step 1**: Log into Microsoft 365 Admin Center
+Visit the Microsoft 365 Admin Center and log in.
+
+**Step 2**: Access Edge Management
+Navigate to `Settings > Services & Add-ins > Microsoft Edge Management`.
+
+**Step 3**: Add Helperbird Extension
+Under `Manage Extensions`, add Helperbird’s extension ID and specify deployment options.
+
+**Step 4**: Save Changes
+Ensure to save the configuration changes.
 
 
+## Verification
 
-**Step 2:** Select Chrome management.
+For Chrome: Verify the deployment by logging into a user account within the Organizational Unit and checking if the Helperbird extension is installed and functioning.
 
-![Step two of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_2.png)
+For Edge: Verify by accessing Microsoft Edge in a user account and checking for the presence of Helperbird.
 
-**Step 3** In Chrome Management, select User & browser settings.
+## Conclusion
 
-![Step three of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_3.png)
+By following these steps, you have successfully deployed the Helperbird extension across your organization, providing accessibility features to all users on the specified platforms.
 
-**Step 4** Under Organizations choose the OU (Organizational Unit) you would like to deploy extensions to.
+## Need Further Assistance?
 
-**Step 5** Scroll down to Apps and Extensions and locate Force-installed Apps and Extensions.
+For any issues or queries regarding deployment, please contact our Support Team [here](https://www.helperbird.com/support).
 
-**Step 6** Click the Manage force-installed apps link.
+## Video Tutorial
 
-![Step four of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_4.png)
-
-**Step 7** In Force-installed Apps and Extensions, click the add by ID button.
-
-**Step 8** The id for Helperbird is ahmapmilbkfamljbpgphfndeemhnajme
-
-![Step five of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_5.png)
-
-**Step 9** Click on the Add link to add the app or extension to the force-install list.
-
-![Step six of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_6.png)
-
-
-![Step sevem of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_7.png)
-
-
-![Step eight of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_8.png)
-
-**Step 10** Click SAVE.
-
-![Step nine of how to install Helperbird on G Suite](/assets/images/blog/how-to-install-helperbird-in-edu-accounts/steps_9.png)
-
-**Step 11** After the force-install window has closed, click SAVE at the top right of the page to publish the  app or extension to all of your selected users. The app or extension will now be deployed to your users.
+Coming soon.
