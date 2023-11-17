@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 header: true
 layout: templates/new/help/post.html
 title: How to use Helperbird's Reading list
@@ -22,47 +23,43 @@ url: help/how-to-use-helperbirds-reading-list-app/
 ---
 
 
+## How to Open Helperbird's Reading List
 
-## How to use Helperbird's Reading list
+This guide provides the steps to access your reading list in Helperbird.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Open Helperbird by clicking the Helperbird icon in the top right corner of your browser window.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: The extension will display quick actions and other features.
 
-**Step 3:** Scroll to the **Helperbird Apps** card.
+**Step 3**: Scroll to the quick actions area card.
 
-**Step 4:** Within the **Helperbird Apps** card, you will see the **Reading list** button.
+**Step 4**: Locate the **Reading list** button, which is yellow.
 
-**Step 5** Click on the **Reading list** button.
+**Step 5**: Click on the **Reading list** button.
 
-**Step 6** The reading list will open in a new tab.
-
-
-## How to add a website to my reading list
-
-**Step 1:** Open the website you want to add to your reading list.
-
-**Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
-
-**Step 3:** Select the **Reading list button** from the quick action menu.
-
-**Step 4:** It will then add the current website to your reading list.
-
-
-## How to remove a website from my reading list
-
-**Step 1:** Open the reading list.
-
-**Step 2:** Click on the **Remove** button next to the website you want to remove.
-
-**Step 3:** It will then remove the website from your reading list.
+**Step 6**: The reading list will open in a new tab.
 
 
 
+## How to Add a Website to Your Reading List
 
-## Video Tutorial
+**Step 1**: Open the website you wish to add to your reading list.
 
-- Coming soon.
+**Step 2**: Click the Helperbird icon in your browser's toolbar to open the extension menu.
+
+**Step 3**: Select **Add to Reading list** from the quick action menu.
+
+**Step 4**: The current website will be added to your reading list.
+
+
+
+## How to Remove a Website from Your Reading List
+
+**Step 1**: Open the reading list.
+
+**Step 2**: Click the **Remove** button next to the website you want to remove.
+
+**Step 3**: The website will be removed from your reading list.
 
 
 
