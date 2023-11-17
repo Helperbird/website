@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: Installing Helperbird to Certain Users
 
@@ -25,8 +26,10 @@ url: help/installing-helperbird-to-certain-users/
 This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
 
 ### Prerequisites
-- Administrator access to Google Admin Console (for G Suite) or Microsoft 365 Admin Center.
-- Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
+
+Administrator access to Google Admin Console (for G Suite) or Microsoft 365 Admin Center.
+
+Helperbird's extension ID: `ahmapmilbkfamljbpgphfndeemhnajme`.
 
 ### Installing Helperbird in G Suite
 
@@ -69,10 +72,13 @@ This guide details the process for administrators to install the Helperbird exte
 - Inform the selected users that Helperbird from the Chrome Web Store is installed.
 
 ### Verification
+
 After setting up, verify by checking a user's browser within the specified OU or group to ensure that Helperbird is available for installation.
 
 ### Need Further Assistance?
+
 If you encounter any issues during the setup, please reach out to our Support Team [here](https://www.helperbird.com/support).
 
 ### Conclusion
+
 You have now successfully set up Helperbird for selective installation within your organization using G Suite and Microsoft 365.

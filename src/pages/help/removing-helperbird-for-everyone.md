@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title:   Removing Helperbird for Everyone
 
@@ -12,7 +13,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle:   Removing Helperbird for Everyone
+cardTitle:   Removing Helperbird
 featureDescription: Understand how to remove the Helperbird extension for all users. This guide will help you to successfully uninstall Helperbird across your organization.
 
 
@@ -21,11 +22,19 @@ tags: adminTools
 url: help/removing-helperbird-for-everyone/
 ---
 
-## Step 1: Access Chrome Management
-Access your G Suite Admin console Home page and navigate to Devices > Chrome > Apps & Extensions.
+## Steps for Removing Helperbird for Everyone in G Suite
 
-## Step 2: Remove Helperbird for Everyone
-- Select the organizational unit you want to configure.
-- Find the Helperbird extension (ID: `ahmapmilbkfamljbpgphfndeemhnajme`) in the list of Apps & Extensions.
-- Click on the Trash bin icon next to it.
-- Confirm the deletion by clicking Remove.
+
+**Step 1**: Access Chrome Management
+
+Access your G Suite Admin console Home page and navigate to `Devices > Chrome > Apps & Extensions`.
+
+**Step 2**: Remove Helperbird for Everyone
+
+**Step 2.1**: Select the organizational unit you wish to configure.
+
+**Step 2.2**: Find the Helperbird extension (ID: `ahmapmilbkfamljbpgphfndeemhnajme`) in the list of Apps & Extensions.
+
+**Step 2.3**: Click on the Trash bin icon next to the Helperbird extension.
+
+**Step 2.4**: Confirm the deletion by clicking `Remove`.

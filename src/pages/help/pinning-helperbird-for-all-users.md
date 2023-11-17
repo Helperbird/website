@@ -1,8 +1,9 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
-title:  Pinning Helperbird for All Users
+title:  Pinning Helperbird extension for All Users
 
 description:  Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.
 keywords:
@@ -12,7 +13,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle:  Pinning Helperbird for All Users
+cardTitle:  Pinning Helperbird
 featureDescription: Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.
 
 
@@ -21,12 +22,27 @@ tags: adminTools
 url: help/pinning-helperbird-for-all-users/
 ---
 
-## Step 1: Access Chrome Management
-Navigate from your G Suite Admin console Home page to Devices > Chrome > Apps & Extensions.
+## Steps for Pinning Helperbird for All Users in G Suite
 
-## Step 2: Pin Helperbird for All Users
-- Select the organizational unit you want to configure.
-- Next to "Apps & Extensions", click on the + button (Yellow circle at the bottom right).
-- In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme`.
-- In the "Pin to taskbar" drop-down list, select Pin.
-- Click Save.
+**Step 1**: Access Chrome Management
+
+Navigate from your G Suite Admin console Home page to `Devices > Chrome > Apps & Extensions`.
+
+**Step 2**: Pin Helperbird for All Users
+
+**Step 2.1**: Select the organizational unit you wish to configure.
+
+**Step 2.2**: Click on the `+` button (Yellow circle at the bottom right) next to "Apps & Extensions".
+
+**Step 2.3**: In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme` (Helperbird's extension ID).
+
+**Step 2.4**: In the "Pin to taskbar" drop-down list, select `Pin`.
+
+**Step 2.5**: Click `Save` to apply your changes.
+
+## Need more help?
+
+If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
+
