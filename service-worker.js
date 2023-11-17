@@ -2320,7 +2320,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-deploy-helperbird-to-your-school-or-business/index.html",
-    "revision": "0d838e44de4a5859a838767a08edf52b"
+    "revision": "6908b5890addbe638b1e740a624f3ba5"
   },
   {
     "url": "help/how-to-deploy-helperbird-to-your-school-or-business/index.png",
