@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use the Dictionary app in Helperbird
 description: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
@@ -18,27 +19,39 @@ url: help/how-to-use-dictionary-app-in-helperbird/
 ---
 
 
-## Requirements
-You will need to have the Highlight menu turned on in Helperbird. You can learn how to turn on the Highlight menu in Helperbird [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
+## How to Use the Dictionary App in Helperbird Through Highlight Menu
+
+### Requirements
+- Ensure the Highlight menu is enabled in Helperbird. Learn how to enable it [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
+
+### Steps
+
+**Step 1**: Highlight Text: On any page, select the text you want to look up.
+
+**Step 2**: Access Menu: A menu will appear after you highlight the text.
+
+**Step 3**: Select Dictionary: Click on the dictionary button in the menu.
+
+**Step 4**: View Definition: A new tab will open providing the definition of the highlighted word or sentence.
 
 
-## How to use the Dictionary app in Helperbird
+## How to Access the Dictionary App Directly in Helperbird
 
-**Step 1:** Highlight text on a page, select the text you want to highlight. 
+### Steps
 
-**Step 2:** A menu will appear.
+**Step 1**:  Click on the Helperbird icon in the top right corner of your browser window.
 
-**Step 3:** Select the dictionary button.
+**Step 2**: Helperbird will appear upon clicking the icon.
 
-**Step 4:** A new tab will open with the definition of the word or sentence.
+**Step 3**: In the Quick actions area, you will see a green button with a book icon. Click it.
 
-**Step 5:** You can also use the dictionary app by clicking on the Helperbird icon in the top right corner of your browser window.
+**Step 4**:  Enter any word in the Dictionary app to get its definition.
 
-**Step 6:** A menu will appear.
+### Please Note
 
-**Step 7:** Scroll until you see the Helperbird apps. Choose the Dictionary app button.
+**Language Support**: Currently supports English, with more languages coming in 2023.
 
-
+**Multiple Access Methods**: The Dictionary can be accessed either through the Highlight menu or directly via the Helperbird menu.
 
 
 ## Video Tutorial
