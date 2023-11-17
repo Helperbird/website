@@ -2680,7 +2680,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird-extension-through-the-g-suite-admin-panel/index.html",
-    "revision": "84fd75b07cdda8e1cabeecc33a43bc09"
+    "revision": "34289ef431ec45d74f964f2615639bf2"
   },
   {
     "url": "help/installing-helperbird-extension-through-the-g-suite-admin-panel/index.png",
@@ -2688,7 +2688,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird-to-certain-users/index.html",
-    "revision": "61f78ef6a3c7a4c645e92dc558067e23"
+    "revision": "43c730f05fd01a0dbc302164012fe546"
   },
   {
     "url": "help/installing-helperbird-to-certain-users/index.png",
