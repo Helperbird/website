@@ -2104,7 +2104,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.html",
-    "revision": "b65a042d6f5bd7c96ca5c9859cac3fda"
+    "revision": "48f0fb66b87521f43f2f89a4ad698666"
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.png",
@@ -2120,7 +2120,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/forcing-the-installation-of-the-helperbird-extension/index.html",
-    "revision": "6d6fac24f34d06925ebf81b1e6ce1248"
+    "revision": "f58146c4495ae90cc311ff9e904be48a"
   },
   {
     "url": "help/forcing-the-installation-of-the-helperbird-extension/index.png",
@@ -2152,7 +2152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-access-our-helperbird-usage-dashboard/index.html",
-    "revision": "6e8be2f7dce6e8134e986ecb804156a3"
+    "revision": "3cc582bb5755590bfab3de816147fb4c"
   },
   {
     "url": "help/how-to-access-our-helperbird-usage-dashboard/index.png",
