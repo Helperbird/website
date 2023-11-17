@@ -13,7 +13,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Installing Helperbird to Certain Users
+cardTitle: Installing to Certain Users
 featureDescription: Discover how to provide specific users with access to the Helperbird extension. This guide details the process for selective Helperbird installation.
 date: 2016-01-04
 tags: adminTools

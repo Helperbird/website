@@ -18,7 +18,7 @@ tags: adminTools
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: PfILiWebkuc
-cardTitle: Enable and Disable Sync in Chrome and Edge
+cardTitle: Enable Sync
 featureDescription: Learn how to easily turn on and off sync in Chrome and Edge
   with this detailed step-by-step guide. Follow the instructions to link your
   Google account and synchronize your data, or disconnect and remove synced data
