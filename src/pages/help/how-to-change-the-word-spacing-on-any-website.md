@@ -34,9 +34,9 @@ The Word Prediction feature in Helperbird can aid your writing by suggesting wor
 
 ### Changing Languages for Word Prediction
 
-**Step 4**: With Word Prediction turned on, you'll notice a 'Languages' section appear.
+**Step 1**: With Word Prediction turned on, you'll notice a 'Languages' section appear.
 
-**Step 5**: Click on your language of choice from the displayed options to set it for word prediction.
+**Step 2**: Click on your language of choice from the displayed options to set it for word prediction.
 
 The languages available for Word Prediction typically include, but may not be limited to:
 
@@ -46,7 +46,7 @@ The languages available for Word Prediction typically include, but may not be li
 - Spanish
 - Portuguese
 
-**Step 6**: After selecting a language, the Word Prediction tool will start suggesting words based on that language's lexicon as you type.
+**Step 3**: After selecting a language, the Word Prediction tool will start suggesting words based on that language's lexicon as you type.
 
 With Word Prediction active, you'll find writing in your selected language smoother and faster, with intelligent suggestions that can help with spelling, grammar, and speed.
 
