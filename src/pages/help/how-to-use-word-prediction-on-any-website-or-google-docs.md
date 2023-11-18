@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use Word Prediction on Google Docs or any website
 description:
@@ -23,48 +24,35 @@ url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---
 
 
-## How to use Word Prediction on Google Docs or any website
+## How to Use Word Prediction in Helperbird
 
-**Step 1:** Open a webpage that you would like to use the sticky note feature on.
+The Word Prediction feature in Helperbird can aid your writing by suggesting words as you type, enhancing your efficiency across various websites, including Word Online and Google Docs.
 
-**Step 2:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
+### Turning On Word Prediction
 
-**Step 3:** Click the **Word Prediction** button from the quick action menu.
+**Step 1**: Click the Helperbird icon to open the extension menu.
 
-**Step 4:** Now when you type, Helperbird will predict the next word. Through the toolbar, you can also change the language, and turn on or off the word prediction.
+**Step 2**: Use the search bar at the top to find the 'Word Prediction' feature.
 
-**Step 5:** When a new set of words are predicted, click the word to insert it into the input.
+**Step 3**: Toggle the 'Word Prediction' switch to the 'on' position to enable this feature.
 
-**Step 6:** Click the close button to close the word prediction.
+### Changing Languages for Word Prediction
 
+**Step 1**: With Word Prediction turned on, you'll notice a 'Languages' section appear.
 
+**Step 2**: Click on your language of choice from the displayed options to set it for word prediction.
 
+The languages available for Word Prediction typically include, but may not be limited to:
 
-## How to use the read out loud in the word prediction feature
+- English
+- French
+- German
+- Spanish
+- Portuguese
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 3**: After selecting a language, the Word Prediction tool will start suggesting words based on that language's lexicon as you type.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll until you find the **Word Prediction** card.
-
-**Step 4:** Toggle the **Read out loud** option to **On**.
-
-**Step 5:** When you hover over the word, it will be spoken out loud.
-
-**Step 6:** Thats it!
-
-
-
-
-
-## Supported languages
-
-### English
-### French
-### Spanish
-### German
-
+With Word Prediction active, you'll find writing in your selected language smoother and faster, with intelligent suggestions that can help with spelling, grammar, and speed.
 
 ## Video Tutorial
 
@@ -73,3 +61,5 @@ url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ## Need more help?
 
 If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+
+
