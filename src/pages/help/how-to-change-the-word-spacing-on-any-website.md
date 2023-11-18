@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to change the word spacing on any website
 description: Learn how easy it is to change the word spacing on any website.
@@ -19,27 +20,35 @@ url: help/how-to-change-the-word-spacing-on-any-website/
 ---
 
 
+## How to Use Word Prediction in Helperbird
 
+The Word Prediction feature in Helperbird can aid your writing by suggesting words as you type, enhancing your efficiency across various websites, including Word Online and Google Docs.
 
+### Turning On Word Prediction
 
-## How to change the Word spacing on a website
+**Step 1**: Click the Helperbird icon to open the extension menu.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 2**: Use the search bar at the top to find the 'Word Prediction' feature.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 3**: Toggle the 'Word Prediction' switch to the 'on' position to enable this feature.
 
-**Step 3:** Scroll to the **Text adjustment** card.
+### Changing Languages for Word Prediction
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Word spacing** option and a toggle switch labeled **Off**.
+**Step 1**: With Word Prediction turned on, you'll notice a 'Languages' section appear.
 
-**Step 5** Click the toggle switch to turn the feature on.
+**Step 2**: Click on your language of choice from the displayed options to set it for word prediction.
 
-**Step 6** The Word spacing will change to the size you picked below it
+The languages available for Word Prediction typically include, but may not be limited to:
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+- English
+- French
+- German
+- Spanish
+- Portuguese
 
-**Step 8 (Optional)** To change the Word spacing just slide the slider to the size you want.
+**Step 3**: After selecting a language, the Word Prediction tool will start suggesting words based on that language's lexicon as you type.
 
+With Word Prediction active, you'll find writing in your selected language smoother and faster, with intelligent suggestions that can help with spelling, grammar, and speed.
 
 ## Video Tutorial
 
