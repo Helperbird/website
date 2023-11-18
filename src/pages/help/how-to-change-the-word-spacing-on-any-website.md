@@ -20,35 +20,28 @@ url: help/how-to-change-the-word-spacing-on-any-website/
 ---
 
 
-## How to Use Word Prediction in Helperbird
+## Turning On Word Spacing in Helperbird
 
-The Word Prediction feature in Helperbird can aid your writing by suggesting words as you type, enhancing your efficiency across various websites, including Word Online and Google Docs.
+**Step 1**: Activate the Helperbird extension by clicking the icon in your browser's toolbar.
 
-### Turning On Word Prediction
+**Step 2**: Use the search function at the top of the Helperbird menu to locate the 'Word Spacing' feature.
 
-**Step 1**: Click the Helperbird icon to open the extension menu.
+**Step 3**: Click on the toggle next to 'Word Spacing' to turn the feature on.
 
-**Step 2**: Use the search bar at the top to find the 'Word Prediction' feature.
+## Adjusting Word Spacing in Helperbird
 
-**Step 3**: Toggle the 'Word Prediction' switch to the 'on' position to enable this feature.
+**Step 4**: After enabling Word Spacing, you'll see a slider under the toggle switch.
 
-### Changing Languages for Word Prediction
+**Step 5**: Adjust the slider to increase or decrease the space between words:
 
-**Step 1**: With Word Prediction turned on, you'll notice a 'Languages' section appear.
+**Slide to the left**: Decrease the spacing for tighter text.
 
-**Step 2**: Click on your language of choice from the displayed options to set it for word prediction.
+**Slide to the right**: Increase the spacing for a more open text layout.
 
-The languages available for Word Prediction typically include, but may not be limited to:
+**Step 6**: Settle on the spacing that best suits your readability preference; the page will update automatically with your changes.
 
-- English
-- French
-- German
-- Spanish
-- Portuguese
+Enjoy a more comfortable reading experience with your tailored word spacing settings.
 
-**Step 3**: After selecting a language, the Word Prediction tool will start suggesting words based on that language's lexicon as you type.
-
-With Word Prediction active, you'll find writing in your selected language smoother and faster, with intelligent suggestions that can help with spelling, grammar, and speed.
 
 ## Video Tutorial
 
