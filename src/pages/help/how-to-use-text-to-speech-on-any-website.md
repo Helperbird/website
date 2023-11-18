@@ -187,7 +187,7 @@ Personalizing your Text-to-Speech experience in Helperbird is simple. Here's how
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
