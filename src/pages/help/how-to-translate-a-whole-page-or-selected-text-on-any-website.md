@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to translate a website or selected text
 description: How to translate a website or selected text with the Helperbird browser extension.
@@ -19,39 +20,53 @@ url: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---
 
 
+## How to Translate an Entire Webpage in Helperbird
+
+Helperbird's translation feature can instantly translate entire webpages into your preferred language. Here's how to do it:
+
+### Translating the Whole Page
+
+**Step 1**: Click the Helperbird icon in your browser's toolbar to bring up the extension's menu.
+
+**Step 2**: Use the search bar within the extension to look for the "Translate" feature.
+
+**Step 3**: Upon finding the "Translate" feature, a list of languages will be displayed.
+
+**Step 4**: Select your desired language by clicking on the corresponding flag icon.
+
+**Step 5**: Once the language is selected, click the 'TRANSLATE WEBSITE' button located at the bottom of the language list.
+
+**Step 6**: A new tab will open, and the content will be translated into the selected language.
 
 
-## How to translate a whole page
+## How to Translate Selected Text in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+Helperbird’s highlight menu translation feature allows you to translate specific sections of text on a webpage. Here’s how you can do it:
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 1**: Click the Helperbird icon in your browser’s toolbar to open the extension.
 
-**Step 3:** Scroll to the **Translate** card.
+**Step 2**: Ensure the 'Translate' feature is enabled in the Helperbird settings.
 
-**Step 4:** Within the **Translate** card, you will see the **Translate** option.
+**Step 3**: On the webpage, highlight the text you want to translate.
 
-**Step 5** Choose the language you want to translate to.
+**Step 4**: After highlighting, a Helperbird quick action menu will appear above or near the selected text.
 
-**Step 6** Click the **Translate** button.
+**Step 5**: In the highlight menu, click the 'Translate' button.
 
-**Step 7** The page will now be translated to the language you chose.
+**Step 6**: The highlighted text will be translated into the default language set in your Helperbird settings.
 
 
-## How to translate selected text on any website
+## To change the language for translation:
 
-### Requirements:
-You will need to have the **Highlight menu** feature enabled. Learn how to enable it [here](https://helperbird.com/help/how-to-enable-the-highlight-menu/).
 
-**Step 1:** Select the text you want to translate.
+**Step 1**: Click the Helperbird icon in your browser’s toolbar to open the extension.
 
-**Step 2:** A menu will appear.
+**Step 2**: Use the search bar within the extension to look for the "Translate" feature.
 
-**Step 3:** Within the menu, you will see the **Translate** button.
+**Step 3**: Upon finding the "Translate" feature, a list of languages will be displayed.
 
-**Step 4** Click the **Translate** button.
+**Step 4**: Select your desired language by clicking on the corresponding flag icon.
 
-**Step 5** The text will now be translated to the language you chose.
 
 
 ## Some things to note
