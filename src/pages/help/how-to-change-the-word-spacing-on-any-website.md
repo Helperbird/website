@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to change the word spacing on any website
 description: Learn how easy it is to change the word spacing on any website.
@@ -19,26 +20,28 @@ url: help/how-to-change-the-word-spacing-on-any-website/
 ---
 
 
+## Turning On Word Spacing in Helperbird
+
+**Step 1**: Activate the Helperbird extension by clicking the icon in your browser's toolbar.
+
+**Step 2**: Use the search function at the top of the Helperbird menu to locate the 'Word Spacing' feature.
+
+**Step 3**: Click on the toggle next to 'Word Spacing' to turn the feature on.
 
 
+## Adjusting Word Spacing in Helperbird
 
-## How to change the Word spacing on a website
+**Step 4**: After enabling Word Spacing, you'll see a slider under the toggle switch.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 5**: Adjust the slider to increase or decrease the space between words:
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Slide to the left**: Decrease the spacing for tighter text.
 
-**Step 3:** Scroll to the **Text adjustment** card.
+**Slide to the right**: Increase the spacing for a more open text layout.
 
-**Step 4:** Within the **Text adjustment** card, you will see the **Word spacing** option and a toggle switch labeled **Off**.
+**Step 6**: Settle on the spacing that best suits your readability preference; the page will update automatically with your changes.
 
-**Step 5** Click the toggle switch to turn the feature on.
-
-**Step 6** The Word spacing will change to the size you picked below it
-
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
-
-**Step 8 (Optional)** To change the Word spacing just slide the slider to the size you want.
+Enjoy a more comfortable reading experience with your tailored word spacing settings.
 
 
 ## Video Tutorial
