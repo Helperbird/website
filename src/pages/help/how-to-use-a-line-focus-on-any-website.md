@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use a Line focus ruler on any website
 description:  Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.
@@ -18,68 +19,63 @@ tags: guideFeaturesMain
 url: help/how-to-use-a-line-focus-on-any-website/
 ---
 
-## What is a line focus?
 
-A line focus is a transparent ruler that can be used to help you read text. Helperbird allows you to
-use it on every website you visit.
+## Using the Line Focus Feature in Helperbird
 
-## How to turn on the Line focus
+The Line Focus feature in Helperbird enhances reading focus by highlighting the line you're reading while dimming the rest of the page. It's an excellent tool for individuals with dyslexia or anyone looking to concentrate better on the text.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Open the Helperbird extension menu by clicking its icon in your browser's toolbar.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: In the menu, use the search function to find the 'Line Focus' feature.
 
-**Step 3:** Scroll until you find the **Ruler** card.
+**Step 3**: Enable Line Focus by toggling the switch to the 'On' position.
 
-**Step 4:** Under the **Ruler** card, there is a **Style** feature.
+**Step 4**: A transparent line aligned with your mouse cursor will appear, allowing you to focus on the current line while the rest of the page is shaded.
 
-**Step 5:** Change the **Style** to **Line focus**.
+## Customizing the Height of the Line Focus
 
-**Step 5:** Toggle the on/off switch to **On**.
+**Step 1**: Make sure Line Focus is active and open its settings by clicking 'Settings'.
 
-**Step 6:** The line focus, will now appear on the page.
+**Step 2**: Locate the 'Height' slider in the settings panel.
 
-**Step 7 (Optional):** To turn off the line focus, toggle the on/off switch to **Off**.
+**Step 3**: Adjust the slider to modify the height of the transparent focus line to your preference.
+
+## Customizing the Width of the Line Focus
+
+**Step 1**: With Line Focus turned on, access the 'Settings' panel.
+
+**Step 2**: Find the 'Width' slider.
+
+**Step 3**: Move the slider to determine the width of the focus line, tailoring it to the size of the text you're reading.
+
+## Changing the Color of the Line Focus Overlay
+
+**Step 1**: Ensure Line Focus is turned on and go into its settings.
+
+**Step 2**: In the 'Color' options, click on one of the colored circles.
+
+**Step 3**: Choose a color for the overlay that comfortably contrasts with the text and background for optimal focus.
+
+
+## Controlling the Brightness of the Line Focus Tint/Overlay
+
+Adjusting the brightness of the Line Focus tint or overlay can make reading more comfortable, especially in various lighting conditions or for extended periods.
+
+**Step 1**: Activate the Line Focus by following the initial steps to enable the feature.
+
+**Step 2**: Once Line Focus is enabled, open the 'Settings' for more customization options.
+
+**Step 3**: Look for the 'Brightness' slider within the settings.
+
+**Step 4**: Slide to the left to decrease the brightness and make the overlay darker, or slide to the right to increase the brightness for a lighter overlay.
 
 
 
-
-## Ruler features
-
-### Follow cursor
-
-Follow cursor is a feature that allows the ruler to follow your cursor as you move it across the page. This feature is turned off by default.
-
-### Ruler color
-
-Ruler color is a feature that allows you to change the color of the ruler. The default color is black.
-
-### Ruler size
-
-Ruler size is a feature that allows you to change the size of the ruler. The default size is 100px.
-
-### Ruler position
-
-Ruler position is a feature that allows you to change the position of the ruler. The default position is top.
-
-### Ruler opacity
-
-Ruler opacity is a feature that allows you to change the opacity of the ruler. The default opacity is 100%.
-
-### Ruler Width
-
-Ruler Width is a feature that allows you to change the width of the ruler. The default width is 1px.
-
-### Ruler Styles
-
-- Dyslexia Ruler
-- Line focus
-- Reading guide
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
