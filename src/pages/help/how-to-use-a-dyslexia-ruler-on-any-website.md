@@ -2,7 +2,6 @@
 new: false
 updated: true
 header: true
-updated: true
 layout: templates/new/help/post.html
 title: How to use a Dyslexia ruler on a website or pdf
 description: Learn how to use a dyslexia ruler on a website or pdf with the Helperbird browser extension.
