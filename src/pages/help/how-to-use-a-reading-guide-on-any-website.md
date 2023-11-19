@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use a Reading guide ruler on any website
 description: Learn how to use a Reading guide ruler on a website or pdf with the Helperbird browser extension.
@@ -18,64 +19,47 @@ tags: guideFeaturesMain
 url: help/how-to-use-a-reading-guide-on-any-website/
 ---
 
-## What is a Reading guide?
+## Using the Reading Guide Feature in Helperbird
 
-A Reading guide is a transparent ruler that can be used to help you read text. Helperbird allows you
-to use it on every website you visit.
+The Reading Guide feature in Helperbird helps you focus on the text you're reading by providing a solid bar that follows your cursor. This can be particularly helpful for users with dyslexia or anyone who wants to improve their focus while reading online content.
 
+**Step 1**: Click on the Helperbird extension icon to open the menu.
 
-## How to turn on the Reading guide ruler
+**Step 2**: Utilize the search bar at the top of the menu to find the 'Reading Guide' option quickly.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 3**: Toggle the switch next to 'Reading Guide' to turn it on.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll until you find the **Ruler** card.
-
-**Step 4:** Under the **Ruler** card, there is a **Style** feature.
-
-**Step 5:** Change the **Style** to **Reading guide**.
-
-**Step 5:** Toggle the on/off switch to **On**.
-
-**Step 6:** The Reading guide, will now appear on the page.
-
-**Step 7 (Optional):** To turn off the line focus, toggle the on/off switch to **Off**.
+**Step 4**: Once activated, a solid bar appears on the screen that tracks with your cursor, helping to guide your eyes through the text. 
 
 
 
 
-## Ruler features
+## Customizing the Height of the Reading Guide
 
-### Follow cursor
+**Step 1**: Activate the Reading Guide by toggling it on.
 
-Follow cursor is a feature that allows the ruler to follow your cursor as you move it across the page. This feature is turned off by default.
+**Step 2**: Click on the 'Settings' button within the Reading Guide section.
 
-### Ruler color
+**Step 3**: Find the 'Height' slider in the settings modal that appears.
 
-Ruler color is a feature that allows you to change the color of the ruler. The default color is black.
+**Step 4**: Drag the slider left or right to decrease or increase the height of the guide bar, respectively.
 
-### Ruler size
+## Customizing the Width of the Reading Guide
 
-Ruler size is a feature that allows you to change the size of the ruler. The default size is 100px.
+**Step 1**: With the Reading Guide active, open the 'Settings' modal.
 
-### Ruler position
+**Step 2**: Look for the 'Width' slider.
 
-Ruler position is a feature that allows you to change the position of the ruler. The default position is top.
+**Step 3**: Adjust the slider to set how wide you want the guide bar to extend across your screen.
 
-### Ruler opacity
+## Changing the Color of the Reading Guide
 
-Ruler opacity is a feature that allows you to change the opacity of the ruler. The default opacity is 100%.
+**Step 1**: Ensure the Reading Guide feature is enabled and open its settings.
 
-### Ruler Width
+**Step 2**: Scroll to the 'Color' section.
 
-Ruler Width is a feature that allows you to change the width of the ruler. The default width is 1px.
+**Step 3**: Select your preferred color by clicking on one of the color circles to change the guide bar's color.
 
-### Ruler Styles
-
-- Dyslexia Ruler
-- Line focus
-- Reading guide
 
 
 ## Video Tutorial

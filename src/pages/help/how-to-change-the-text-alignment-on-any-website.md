@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to change the text alignment on any website
 description: Learn how easy it is to change the text alignment on any website.
@@ -18,23 +19,19 @@ tags: guideFeaturesMain
 url: help/how-to-change-the-text-alignment-on-any-website/
 ---
 
-## How to change the text alignment on a website
+## Adjusting Text Alignment with Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+If you're looking to customize how text is presented on your screen, Helperbird offers a text alignment feature that lets you choose the layout that's most comfortable for you. You can align text to the left, center, right, or fully justify it. Here’s how to set it up:
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 1**: Open the Helperbird extension by clicking its icon in your browser's toolbar.
 
-**Step 3:** Scroll to the **Text adjustment** card.
+**Step 2**: In the Helperbird menu, use the search bar to look for the 'Text Alignment' feature.
 
-**Step 4:** Within the **Text adjustment** card, you will see the **text alignment** option and a toggle switch labeled **Off**.
+**Step 3**: Toggle the 'Text Alignment' switch to 'On' to view the alignment options.
 
-**Step 5** Click the toggle switch to turn the feature on.
+**Step 4**: With the options now visible, select your desired alignment: left, center, right, or justify.
 
-**Step 6** The text alignment will change to the postion you picked below it
-
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
-
-
+**Step 5**: Watch as the text on the page adjusts to your chosen alignment in real-time.
 
 
 ## Alignment options
@@ -43,14 +40,13 @@ url: help/how-to-change-the-text-alignment-on-any-website/
 - Center
 - Right
 - Justify
-- Justify-all
 - Unjustify
 
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

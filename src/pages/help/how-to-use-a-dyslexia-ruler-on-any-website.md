@@ -2,8 +2,9 @@
 new: false
 updated: true
 header: true
+updated: true
 layout: templates/new/help/post.html
-title: How to use a dyslexia ruler on a website or pdf
+title: How to use a Dyslexia ruler on a website or pdf
 description: Learn how to use a dyslexia ruler on a website or pdf with the Helperbird browser extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -19,55 +20,57 @@ tags: guideFeaturesMain
 url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---
 
-## Key Points
+## Using the Dyslexia Ruler Feature in Helperbird
 
-- Use the Dyslexia Ruler to improve reading on web pages and PDFs.
-- Adjust settings like color, size, and position to suit your needs.
+The Dyslexia Ruler feature in Helperbird is designed to aid reading by providing a semi-transparent ruler that follows your cursor. It's especially useful for individuals with dyslexia or anyone who needs help tracking lines while reading.
 
-## Using the Dyslexia Ruler
+**Step 1**: Click on the Helperbird extension icon to open the menu.
 
-### Steps
+**Step 2**: Use the search feature to quickly find the 'Dyslexia Ruler' option.
 
-**Step 1**: Open Helperbird: Click the Helperbird icon in your browser's top right corner.
+**Step 3**: Toggle on the Dyslexia Ruler. A semi-transparent bar will appear on your screen, highlighting the line you're reading.
 
-**Step 2**: Find Dyslexia Support: Scroll or search for the 'Reading Tools' card, within which is a section called 'Dyslexia Ruler'.
+**Step 4**: Move your cursor to have the Dyslexia Ruler follow along, helping to maintain your place in the text.
 
-**Step 3**: Activate Ruler: Switch the on/off toggle to 'On'.
+## Customizing the Dyslexia Ruler's Height
 
-**Step 4**: Ruler on Page: The ruler will now appear on your page.
+**Step 1**: With the Dyslexia Ruler active, go into 'Settings'.
 
-**Step 5**: Customize Features: To customize, click the settings button located under the toggle button.
+**Step 2**: Adjust the 'Height' slider to change how tall the ruler appears on your page.
 
-**Step 6**: Customize Options: A modal will appear with options to choose from various styles, colors, and transparency settings.
+## Adjusting the Dyslexia Ruler's Width
 
-### Ruler Customization Options
+**Step 1**: Access the 'Settings' while the Dyslexia Ruler is turned on.
 
-**Follow Cursor**: 
-  - *Function*: Allows the ruler to track your cursor movement.
-  - *Default Setting*: Off.
+**Step 2**: Use the 'Width' slider to set the desired width of the ruler, making it span across the text appropriately.
 
-**Color**: 
-  - *Function*: Change the ruler's color.
-  - *Default Setting*: Black.
+## Changing the Dyslexia Ruler's Color
 
-**Size**: 
-  - *Function*: Adjust the ruler's size.
-  - *Default Setting*: 100px.
+**Step 1**: Ensure the Dyslexia Ruler is enabled and open 'Settings'.
 
-**Position**: 
-  - *Function*: Set the ruler's position on the screen.
-  - *Default Setting*: Top.
+**Step 2**: Select a new color by clicking on one of the color choices to change the ruler's appearance.
 
-**Opacity**: 
-  - *Function*: Modify the ruler's transparency.
-  - *Default Setting*: 100%.
+## Modifying the Brightness of the Dyslexia Ruler
 
-**Width**: 
-  - *Function*: Change the ruler's width.
-  - *Default Setting*: 1px.
+For reading comfort under different lighting conditions or to reduce eye strain:
 
-**Styles**: 
-  - *Options*: Choose from Dyslexia Ruler, Line Focus, or Reading Guide.
+**Step 1**: Activate the Dyslexia Ruler and open 'Settings'.
+
+**Step 2**: Find the 'Brightness' slider and adjust it to increase or decrease the transparency of the ruler, ensuring the text stands out for easier reading.
+
+
+## Toggling the Cursor Follow Feature for the Dyslexia Ruler
+
+The Dyslexia Ruler can be set to either follow your cursor automatically or stay stationary. Here's how to control this setting:
+
+**Step 1**: Activate the Dyslexia Ruler by clicking on the Helperbird extension icon and turning it on.
+
+**Step 2**: Go to 'Settings' within the Dyslexia Ruler options.
+
+**Step 3**: Look for the 'Follow Cursor' toggle within the settings panel.
+
+**Step 4**: Click the toggle to set the ruler to either follow your cursor as you move it (toggle on) or stay fixed at its current position on the screen (toggle off).
+
 
 
 
