@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to enable spell check on any website
 description: How to enable spell check on a website using Helperbirds extension.
@@ -19,22 +20,19 @@ url: help/how-to-enable-spell-check-on-any-website-or-app/
 ---
 
 
+## Using Spell Check in Helperbird
 
-## How to turn on Helperbirds spell checker feature
+Helperbird incorporates your browser's built-in spell check to help you write error-free. Here's how to activate it:
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Click on the Helperbird extension icon to access the main menu.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: Use the search feature to quickly find the 'Spell check' option.
 
-**Step 3:** Scroll to the **Spell check** card.
+**Step 3**: Toggle the switch on to activate the spell check feature. 
 
-**Step 4:** Within the Spell check card, you will see a toggle switch labeled **Off**.
+**Note**: The spell check functionality is based on the browser's native engine, ensuring seamless integration and familiar use. 
 
-**Step 5** Click the toggle switch to turn the feature on.
-
-**Step 6** The Spell check feature will now be turned on and will be active on all inputs.
-
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+Stay tuned for upcoming updates in 2023, where Helperbird plans to enhance this feature for an even more robust spelling assistance tool.
 
 
 ## Video Tutorial
