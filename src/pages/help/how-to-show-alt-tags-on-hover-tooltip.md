@@ -1,8 +1,9 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
-title: How to show alt and title tags on hover
+title: How to Display Alt Text and Title Tags for Images and Links
 description: Learn how to show alt and title tags on hover with the Helperbird extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -18,26 +19,26 @@ tags: guideFeaturesMain
 url: help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 
-## How to set the width of paragrahs on a website
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+## How to Display Alt Text and Title Tags for Images and Links with Helperbird
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+Helperbird enhances web accessibility by allowing you to view alt text for images and title tags for links with a simple hover. This feature aids users who utilize screen readers and those who need additional context for images and links they encounter. Here’s how to activate and use this helpful tool:
 
-**Step 3:** Scroll to the **Images** card.
+**Step 1**: Click the Helperbird icon on your browser's toolbar to open the extension.
 
-**Step 4:** Within the **Images** card, you will see the **Images descriptions** option.
+**Step 2**: Use the search bar within the Helperbird menu to find the 'Show Alt' feature.
 
-**Step 5** Toggle the on/off switch to **On**.
+**Step 3**: Once you've located 'Show Alt', toggle the feature on.
 
-**Step 6** Now when you hover over an image or a link, the alt and title tags will be shown.
+**Step 4**: Move your mouse over any image or link on the webpage.
 
-**Step 7 (Optional)** To turn off the feature, repeat steps 1-6.
+**Step 5**: A popup will appear displaying the alt text if you’re hovering over an image, or the title tag if it’s a link.
+
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
