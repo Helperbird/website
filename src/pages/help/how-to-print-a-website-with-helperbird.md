@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to quickly print a website
 description: Learn how to quickly print a website with the Helperbird browser extension.
@@ -17,26 +18,25 @@ tags: guideFeaturesMain
 url: help/how-to-print-a-website-with-helperbird/
 ---
 
-## How to print a website with Helperbird
+## Printing a Webpage with Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+The print feature in Helperbird allows you to easily print the content of the current webpage, which can be especially useful for saving information or for those who prefer reading physical copies.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 1**: Access Helperbird's Menu by clicking on the Helperbird icon in your browser toolbar.
 
-**Step 3:** Scroll to the **Accessibility** card.
+**Step 2**: Find the Print Feature by using the search bar within the Helperbird menu.
 
-**Step 4:** Within the **Accessibility** card, you will see the **Print** option.
+**Step 3**: Activate the Print option by clicking on the 'Print' button in the accessibility section.
 
-**Step 5** Click the **Print** button.
+**Step 4**: The print dialog for your operating system will appear, allowing you to adjust settings and print the page.
 
-**Step 6** The website will be printed.
+**Step 5**: Select your printer and preferences, then click the 'Print' button in your print dialog to start printing the webpage.
 
-**Step 7 (Optional)** To print another website, repeat steps 1-6.
-
+**Step 6**: Collect your printed document from the printer.
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
