@@ -1,8 +1,9 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
-title: How to automatically mute videos on a website
+title: Using Video Playback Controls in Helperbird
 description: Learn how to a mute videos on any website with Helperbirds browser extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -11,34 +12,49 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Mute
+cardTitle: Videos
 featureDescription: Learn how to Mute videos on any website, pdf or app.
 date: 2022-01-01
 tags: guideFeaturesMain
 url: help/how-to-mute-all-videos-on-any-page/
 ---
 
-## How to automatically mute videos on a website
+## Using Video Playback Controls in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+Enhance your video watching experience on any webpage by controlling playback speed and volume directly through Helperbird.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Toggling Video Playback Controls On
 
-**Step 3:** Scroll to the **Videos** card.
+**Step 1**: Click the Helperbird icon in your browser to open the extension menu.
 
-**Step 4:** Within the **Videos** card, you will see the **Volume** option and a toggle switch labeled **Off**.
+**Step 2**: Use the search feature or scroll to locate 'Media options'.
 
-**Step 5** Click the toggle switch to turn the feature on.
+**Step 3**: Find 'Video playback' and toggle the switch to the 'On' position.
 
-**Step 6** Now all videos on the page will be muted.
+### Changing Video Speed
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+**Step 1**: With Video Playback toggled on, locate the 'Speed' slider.
 
+**Step 2**: Click and drag the slider to adjust the speed of the video playback. Slide left for slower speeds, or right for faster speeds.
+
+### Adjusting Video Volume
+
+**Step 1**: In the Video Playback section, find the 'Volume' slider.
+
+**Step 2**: Click and drag the slider to increase or decrease the video's volume to your comfort.
+
+### Showing Default Video Controls
+
+**Step 1**: If you prefer using the native video controls, you can toggle them on.
+
+**Step 2**: Below the 'Speed' and 'Volume' sliders, locate 'Show controls'.
+
+**Step 3**: Toggle this switch to show or hide the default video controls on the player.
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 ## Need more help?
 
