@@ -1,6 +1,7 @@
 ---
 new: false
 updated: true
+updated: true
 layout: templates/new/help/post.html
 title: How to Adjust Letter Spacing on Any Website
 description: Easily enhance readability by customizing the spacing between

@@ -1,7 +1,8 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
-title: "How to Easily Adjust Line Height on Any Website "
+title: How to Adjust the Line Height on Any Website
 description: Follow our step-by-step guide to effortlessly adjust the line
   height on webpages, enhancing readability and improving your browsing
   experience with Helperbird.
@@ -22,48 +23,28 @@ featureDescription: Follow our step-by-step guide to effortlessly adjust the
   experience with Helperbird.
 header: true
 ---
-## Introduction
 
-Having difficulty reading text on webpages due to cramped lines? This guide will walk you through how to effortlessly change the line height on any website using Helperbird.
 
-## Prerequisites
+## Adjusting Line Height with Helperbird
 
-- An active Helperbird account.
-- The Helperbird extension installed on your browser.
+Enhance your reading experience by controlling the line height, which can help reduce visual stress and improve clarity, especially for those with dyslexia or visual impairments.
 
-## Steps to Change the Line Height on Any Website
+### Turning on Line Height Adjustment
 
-### Step 1: Open Helperbird
+**Step 1**: Click on the Helperbird icon in your browser's extension area to open the toolbar.
 
-Click the Helperbird icon located in the top-right corner of your browser window.
+**Step 2**: Use the search bar within the Helperbird toolbar to find the 'Line Height' feature quickly.
 
-### Step 2: Access Features
+**Step 3**: From the search results, activate the 'Line Height' feature by toggling the switch to the on position.
 
-The Helperbird extension will open, showcasing a range of quick actions and additional features.
+### Customizing the Line Height
 
-### Step 3: Locate Text Adjustment Card
+**Step 4**: After enabling 'Line Height', a slider labeled 'Height' will appear.
 
-Scroll through the Helperbird extension until you find the "Text adjustment" card.
+**Step 5**: Drag the 'Height' slider left or right to decrease or increase the distance between lines of text.
 
-### Step 4: Find the Line Height Option
+**Step 6**: Adjust the slider incrementally to find the perfect line height for your comfort and readability.
 
-Within the "Text adjustment" card, you'll see the "Line height" option along with a toggle switch labeled "Off."
-
-### Step 5: Enable Line Height Feature
-
-Click the toggle switch to enable the line height adjustment feature.
-
-### Step 6: Make Your Adjustment
-
-The line height on the webpage will automatically adjust according to the setting you've chosen from the dropdown menu or slider below the toggle.
-
-### Step 7: Deactivate Feature (Optional)
-
-If you want to revert to the website's default line height, simply click the toggle switch again to deactivate the feature.
-
-### Step 8: Further Customization (Optional)
-
-For further fine-tuning, adjust the slider to set the line height to your specific preference.
 
 ## Video Tutorial
 
