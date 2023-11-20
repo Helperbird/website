@@ -39,174 +39,342 @@ To streamline your workflow, Helperbird offers a shortcut feature that allows yo
 ## Helperbird Shortcuts
 
 
-#### Word Prediction
-- Windows: Alt + Shift + W
-- Mac: ⌥ + W
+### Word Prediction
+
+#### Windows
+Alt + Shift + W
+
+#### Mac
+⌥ + W
 
 #### Voice Typing
-- Windows: Alt + Shift + V
-- Mac: ⌥ + V
+
+#### Windows
+Alt + Shift + V
+
+#### Mac
+⌥ + V
 
 #### Sticky Note
-- Windows: Alt + Shift + S
-- Mac: ⌥ + S
+
+#### Windows 
+Alt + Shift + S
+
+#### Mac
+⌥ + S
 
 #### Highlighter Marker
-- Windows: Alt + Shift + H
-- Mac: ⌥ + H
+
+#### Windows
+Alt + Shift + H
+
+#### Mac
+⌥ + H
 
 #### Summarize Page
-- Windows: Alt + Shift + P
-- Mac: ⌥ + P
 
-#### Reading Mode Tool
-- Windows: Alt + Shift + R + M
-- Mac: ⌥ + R + M
+#### Windows 
+Alt +  Shift + P
+
+#### Mac 
+⌥ + P
+
+#### Reading Mode 
+
+#### Windows 
+Alt +  Shift + R + M
+
+#### Mac 
+⌥ + R + M
 
 #### Overlay Tint
-- Windows: Alt + Shift + O
-- Mac: ⌥ + O
+
+#### Windows 
+Alt +  Shift + O
+
+#### Mac 
+⌥ + O
 
 #### Immersive Reader
-- Windows: Alt + Shift + I
-- Mac: ⌥ + I
+
+#### Windows 
+Alt +  Shift + I
+
+#### Mac 
+⌥ + I
 
 #### Extract Text
-- Windows: Alt + Shift + E
-- Mac: ⌥ + E
+
+#### Windows 
+Alt +  Shift + E
+
+#### Mac 
+⌥ + E
 
 #### Dyslexia Rulers
-- Windows: Alt + Shift + D
-- Mac: ⌥ + D
+
+#### Windows 
+Alt +  Shift + D
+
+#### Mac 
+⌥ + D
 
 #### Auto Scroll
-- Windows: Alt + Shift + A + S
-- Mac: ⌥ + A + S
+
+#### Windows 
+Alt +  Shift + A + S
+
+#### Mac 
+⌥ + A + S
 
 #### Text Color
-- Windows: Alt + Shift + T
-- Mac: ⌥ + T
+
+
+#### Windows 
+Alt +  Shift + T
+
+#### Mac 
+⌥ + T
 
 #### Link Color
-- Windows: Alt + Shift + L
-- Mac: ⌥ + L
+
+#### Windows 
+Alt +  Shift + L
+
+#### Mac 
+⌥ + L
 
 #### Card Color
-- Windows: Alt + Shift + C
-- Mac: ⌥ + C
+
+#### Windows 
+Alt +  Shift + C
+
+#### Mac 
+⌥ + C
 
 #### Background Color
-- Windows: Alt + Shift + B
-- Mac: ⌥ + B
+
+#### Windows 
+Alt +  Shift + B
+
+#### Mac 
+⌥ + B
 
 #### Paragraph Width
-- Windows: Alt + Shift + X
-- Mac: ⌥ + X
+
+#### Windows 
+Alt +  Shift + X
+
+#### Mac 
+⌥ + X
 
 #### Paragraph Columns
-- Windows: Alt + Shift + Y
-- Mac: ⌥ + Y
+
+#### Windows 
+Alt +  Shift + Y
+
+#### Mac 
+⌥ + Y
 
 #### Paragraph Borders
-- Windows: Alt + Shift + Z
-- Mac: ⌥ + Z
+
+#### Windows 
+Alt +  Shift + Z
+
+#### Mac 
+⌥ + Z
 
 #### Paragraph Background
-- Windows: Alt + Shift + G
-- Mac: ⌥ + G
+
+#### Windows 
+Alt +  Shift + G
+
+#### Mac 
+⌥ + G
 
 #### Word Spacing
-- Windows: Alt + Shift + F
-- Mac: ⌥ + F
+
+#### Windows 
+Alt +  Shift + F
+
+#### Mac 
+⌥ + F
 
 #### Text Size
-- Windows: Alt + Shift + U
-- Mac: ⌥ + U
+
+#### Windows 
+Alt +  Shift + U
+
+#### Mac 
+⌥ + U
 
 #### Text Alignment
-- Windows: Alt + Shift + J
-- Mac: ⌥ + J
+
+#### Windows 
+Alt +  Shift + J
+
+#### Mac 
+⌥ + J
 
 #### Line Height
-- Windows: Alt + Shift + K
-- Mac: ⌥ + K
+
+#### Windows 
+Alt +  Shift + K
+
+#### Mac 
+⌥ + K
 
 #### Letter Spacing
-- Windows: Alt + Shift + Q
-- Mac: ⌥ + Q
+
+#### Windows 
+Alt +  Shift + Q
+
+#### Mac 
+⌥ + Q
 
 #### Custom Font
-- Windows: Alt + Shift + N
-- Mac: ⌥ + N
+
+#### Windows 
+Alt +  Shift + N
+
+#### Mac 
+⌥ + N
 
 #### Zoom Control
-- Windows: Alt + Shift + 1
-- Mac: ⌥ + 1
+
+#### Windows 
+Alt +  Shift + 1
+
+#### Mac 
+⌥ + 1
 
 #### Show Alt
-- Windows: Alt + Shift + 2
-- Mac: ⌥ + 2
+
+#### Windows 
+Alt +  Shift + 2
+
+#### Mac 
+⌥ + 2
 
 #### Hide Images
-- Windows: Alt + Shift + 3
-- Mac: ⌥ + 3
+
+#### Windows 
+Alt +  Shift + 3
+
+#### Mac 
+⌥ + 3
 
 #### Hide Gifs
-- Windows: Alt + Shift + 4
-- Mac: ⌥ + 4
+
+#### Windows 
+Alt +  Shift + 4
+
+#### Mac 
+⌥ + 4
 
 #### Text Stroke
-- Windows: Alt + Shift + 5
-- Mac: ⌥ + 5
+
+#### Windows 
+Alt +  Shift + 5
+
+#### Mac 
+⌥ + 5
 
 #### Saturation Control
-- Windows: Alt + Shift + 6
-- Mac: ⌥ + 6
+
+#### Windows 
+Alt +  Shift + 6
+
+#### Mac 
+⌥ + 6
 
 #### High Contrast
-- Windows: Alt + Shift + 7
-- Mac: ⌥ + 7
+
+#### Windows 
+Alt +  Shift + 7
+
+#### Mac 
+⌥ + 7
 
 #### Emphasize Links
-- Windows: Alt + Shift + 8
-- Mac: ⌥ + 8
+
+#### Windows 
+Alt +  Shift + 8
+
+#### Mac 
+⌥ + 8
 
 #### Cursor Size
-- Windows: Alt + Shift + 9
-- Mac: ⌥ + 9
+
+#### Windows 
+Alt +  Shift + 9
+
+#### Mac 
+⌥ + 9
 
 #### Spell Check
-- Windows: Alt + Shift + 0
-- Mac: ⌥ + 0
+
+#### Windows 
+Alt +  Shift + 0
+
+#### Mac 
+⌥ + 0
 
 #### Reduce Motion
-- Windows: Alt + Shift + M
-- Mac: ⌥ + M
+
+#### Windows 
+Alt +  Shift + M
+
+#### Mac 
+⌥ + M
 
 #### Print Tool
-- Windows: Alt + Shift + P
-- Mac: ⌥ + P
+
+#### Windows 
+Alt +  Shift + P
+
+#### Mac 
+⌥ + P
 
 #### Edit Website
-- Windows: Alt + Shift + E
-- Mac: ⌥ + E
+
+#### Windows 
+Alt +  Shift + E
+
+#### Mac 
+⌥ + E
 
 #### Translate Options
-- Windows: Alt + Shift + T
-- Mac: ⌥ + T
+
+#### Windows 
+Alt +  Shift + T
+
+#### Mac 
+⌥ + T
 
 #### Screenshot Options
-- Windows: Alt + Shift + S
-- Mac: ⌥ + S
+
+#### Windows 
+Alt +  Shift + S
+
+#### Mac 
+⌥ + S
 
 #### Video Playback
-- Windows: Alt + Shift + V + T
-- Mac: ⌥ + V + T
+
+#### Windows 
+Alt +  Shift + V + T
+
+#### Mac 
+⌥ + V + T
 
 #### Helperbird On/Off
-- Windows: Alt + Shift + H + O
-- Mac: ⌥ + H + O
 
+#### Windows 
+Alt +  Shift + H + O
+
+#### Mac 
+⌥ + H + O
 
 
 ## Video Tutorial
