@@ -1,8 +1,8 @@
 ---
 new: false
 layout: templates/new/help/post.html
-title: How to Enable and Customize the Overlay/Tint Feature in Helperbird on Any
-  Website
+updated: true
+title: How to use the Overlay/Tint Feature in Helperbird
 description: Unlock the full potential of Helperbird's overlay/tint feature.
   This guide walks you through how to enable, customize, and effectively use the
   overlay to improve your browsing experience.
@@ -20,30 +20,41 @@ featureDescription: Learn how to use the powerful overlay feature of the
   Helperbird browser extension
 header: true
 ---
-## Introduction
-Learn how to use the powerful overlay feature of the Helperbird browser extension to adjust website appearances to your comfort.
 
-## Prerequisites
-- A Helperbird subscription
-- A web browser (Chrome, Firefox, or Edge)
+## Using the Overlay & Tints Feature in Helperbird
 
-## How to Turn On the Overlay Feature
+Helperbird's Overlay & Tints feature can make reading on your screen easier on the eyes, especially for individuals with dyslexia or Irlen Syndrome. It allows you to apply a color filter to your screen for better visual comfort.
 
-1. Open Helperbird on Chrome, Firefox, or Edge.
-2. Scroll down to the "Overlay" card.
-3. Within the "Overlay" menu, you will see a toggle switch labeled "On."
-4. Click the toggle switch to turn on the overlay feature.
-5. Customize the overlay settings as desired, such as the color and brightness.
+### Activating Overlay & Tints
 
-## How to Turn Off the Overlay Feature
+**Step 1**: Click on the Helperbird icon in your browser to open the extension menu.
 
-1. Open Helperbird on Chrome, Firefox, or Edge.
-2. Scroll down to the "Overlay" card.
-3. Within the "Overlay" menu, you will see a toggle switch labeled "On."
-4. Click the toggle switch to turn off the overlay feature.
+**Step 2**: Use the search function at the top of the menu to quickly locate 'Overlay & Tints'.
+
+**Step 3**: Toggle the switch next to 'Overlay & Tints' to turn the feature on.
+
+**Step 4**: The screen will now have a color overlay, which can reduce glare and improve readability.
+
+### Customizing the Color of the Overlay
+
+**Step 1**: With the 'Overlay & Tints' feature active, you will see a palette of colors.
+
+**Step 2**: Select a color that you find soothing and that improves the text's readability for you.
+
+**Step 3**: Click on your chosen color circle to apply it as the overlay color on your screen.
+
+### Adjusting the Brightness of the Overlay
+
+**Step 1**: Look for the 'Brightness' slider that appears under the color palette.
+
+**Step 2**: Drag the slider to the left to decrease the brightness, adding a darker shade to your overlay, or to the right to increase the brightness for a lighter shade.
+
+**Step 3**: Adjust the brightness to a level that feels comfortable for your eyes and enhances your focus.
+
 
 ## Video Tutorial
-- Coming soon
+
+Coming soon
 
 ## Need Additional Help?
 If you encounter any issues with the overlay feature, please [contact the Helperbird support team](/support) for assistance.
