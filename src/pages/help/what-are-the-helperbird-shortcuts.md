@@ -20,6 +20,24 @@ tags: guideFeaturesMain
 url: help/how-to-extract-text-from-any-image-pdf-or-website/
 ---
 
+## Enabling Shortcut Toggle in Helperbird
+
+To streamline your workflow, Helperbird offers a shortcut feature that allows you to quickly activate various tools with simple keyboard combinations. Here’s how to enable this time-saving function:
+
+**Step 1**: Click on the Helperbird icon in your browser to open the extension.
+
+**Step 2**: In the Helperbird panel, scroll down to the 'Accessibility' options.
+
+**Step 3**: Look for the 'Shortcuts' option with a toggle switch beside it.
+
+**Step 4**: Click on the toggle to turn on the shortcuts. It will change color indicating that it's active.
+
+**Step 5**: With the toggle on, you can now use the predefined keyboard shortcuts to operate Helperbird's features more efficiently.
+
+
+
+## Helperbird Shortcuts
+
 
 #### Word Prediction
 - Windows: Alt + Shift + W
