@@ -25,16 +25,21 @@ Quick Actions provide swift access to your most-used features in Helperbird, rig
 
 ### Accessing Quick Actions
 
-- **Step 1**: Open Helperbird by clicking the icon in your browser's toolbar.
-- **Step 2**: Upon opening, Quick Actions are immediately visible at the top, represented by vibrant icons.
-- **Step 3**: Simply click any icon to instantly activate that feature.
+**Step 1**: Open Helperbird by clicking the icon in your browser's toolbar.
+
+**Step 2**: Upon opening, Quick Actions are immediately visible at the top, represented by vibrant icons.
+
+**Step 3**: Simply click any icon to instantly activate that feature.
 
 ### Customizing Quick Actions
 
-- **Step 1**: Click the grey plus (+) button within the Quick Actions area to customize.
-- **Step 2**: A modal will show all available features. Each has a heart icon beside it.
-- **Step 3**: Click the heart icon to add a feature to Quick Actions. A filled heart means it's selected; an outlined heart means it's not.
-- **Step 4**: Close the modal to finalize your Quick Actions setup.
+**Step 1**: Click the grey plus (+) button within the Quick Actions area to customize.
+
+**Step 2**: A modal will show all available features. Each has a heart icon beside it.
+
+**Step 3**: Click the heart icon to add a feature to Quick Actions. A filled heart means it's selected; an outlined heart means it's not.
+
+**Step 4**: Close the modal to finalize your Quick Actions setup.
 
 Customize Quick Actions for one-click access to your essential Helperbird tools.
 
