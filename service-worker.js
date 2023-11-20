@@ -2752,7 +2752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.html",
-    "revision": "fadfe22964e076a9f0b1d98858311b48"
+    "revision": "dd9f1937c66a31ab271dd7039c838cb3"
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.png",
