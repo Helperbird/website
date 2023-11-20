@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to extract text from any image, video, pdf or website
 description:
@@ -22,53 +23,35 @@ url: help/how-to-extract-text-from-any-image-pdf-or-website/
 
 
 
-## How to extract text from any image, video, pdf or website
+## Using the Extract Text (OCR) Feature in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+Helperbird's OCR feature allows you to extract text from images, PDFs, and web pages into selectable and readable text.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Steps to Extract Text
 
-**Step 3:** In the **Quick actions** menu, click the **Extract text** button. This is the third button from the left. It is green
+**Step 1**: Open Helperbird by clicking the icon in your browser.
 
-**Step 4:** It will then load the OCR feature into the current tab.
+**Step 2**: Use the search bar to find the 'Extract Text' feature.
 
-**Step 5:** You then, need to select and drag where you want to extract text from.
+**Step 3**: Click 'Start' to initiate the OCR process.
 
-**Step 6:** It will then start extacting the text. It might take a few seconds.
+**Step 4**: Drag to select the area on the page you wish to extract text from. Helperbird will then process the text.
 
-**Step 7:** It will then save the extacted text to your clipboard.
+### Reading Extracted Text
 
-**Step 8:** If you want to save the text to your notes, toggle **Save to your notes** to on.
+After text has been extracted, you have the option to have it read aloud immediately.
 
+**Step 1**: Toggle 'Read extracted' on if you wish for the text to be read aloud after extraction.
 
+**Step 2**: Once extraction is complete, if 'Read extracted' is toggled on, the text will be read aloud to you.
 
+### Saving Extracted Text
 
-## How to save your extracted text to your notes.
+The extracted text will automatically be saved to your clipboard.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Ensure 'Save extracted' is toggled on to save the text.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll to  **Extract text** card
-
-**Step 4:** Toggle **Save to your notes** to on.
-
-**Step 5:** It will now save the extracted text to your notes.
-
-
-
-## How to read the extracted text out loud.
-
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
-
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll to  **Extract text** card
-
-**Step 4:** Toggle **Read out Loud** to on.
-
-**Step 5:** It will now  read the extracted text out loud
-
+**Step 2**: After extraction, the text will be saved to your clipboard for easy pasting and use elsewhere.
 
 
 ## Video Tutorial
