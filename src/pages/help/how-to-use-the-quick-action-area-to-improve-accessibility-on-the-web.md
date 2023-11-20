@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: What is Helperbirds quick action menu?
 description: Discover and learn how to use the quick action menu in Helperbird.
@@ -18,57 +19,29 @@ tags: guideFeaturesMain
 url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
-## Helperbird quick action menu
+## Quick Actions in Helperbird
 
-Helperbirds quick action menu is a new feature that allows quick access to the most important and
-popular accessibility, dyslexia, and productivity features.
+Quick Actions provide swift access to your most-used features in Helperbird, right from the top of the interface.
 
+### Accessing Quick Actions
 
-## How to access the quick action menu
+- **Step 1**: Open Helperbird by clicking the icon in your browser's toolbar.
+- **Step 2**: Upon opening, Quick Actions are immediately visible at the top, represented by vibrant icons.
+- **Step 3**: Simply click any icon to instantly activate that feature.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+### Customizing Quick Actions
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+- **Step 1**: Click the grey plus (+) button within the Quick Actions area to customize.
+- **Step 2**: A modal will show all available features. Each has a heart icon beside it.
+- **Step 3**: Click the heart icon to add a feature to Quick Actions. A filled heart means it's selected; an outlined heart means it's not.
+- **Step 4**: Close the modal to finalize your Quick Actions setup.
 
-**Step 3:** You will see the quick action menu.
-
-## What features are included?
-
-### Reading Mode
-Helperbird automatically removes the distracting elements and ads from the web page and shows the content in a more immersive way.
-
-### Immerse Reader
-Immersive Reading Mode is a new feature that allows you to read the web page in a more immersive way.
-
-### Annotate 
-Helperbird automatically annotates the web page with the text you type.
-
-### Extract text (OCR) 
-Extract text from images and PDF files or website pages in seconds.
-
-### Screenshot page
-
-Helperbird automatically takes a screenshot of the web page.
-
-### Voice typing
-Add a Voice typing button to your website or app. So you can speak into inputs.
-
-### Translate 
-Helperbird automatically translates the website your visiting.
-
-### Summarize
-
-Helperbird automatically summarizes the web page in bullet points.
-
-### Highlight menu*
-
-A highlight menu, which adds a tooltip to the quick action menu on selected text.
-
+Customize Quick Actions for one-click access to your essential Helperbird tools.
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

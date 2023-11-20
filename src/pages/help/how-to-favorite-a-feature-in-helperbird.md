@@ -27,7 +27,7 @@ This guide explains how to customize your quick actions area in Helperbird.
 
 ## How to Customize Quick Actions in Helperbird
 
-### Adding a Feature to Quick Actions
+### Adding a feature to the Quick Actions
 
 **Step 1**: Open Helperbird: Click the Helperbird icon in your browser.
 
