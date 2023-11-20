@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Adjust Letter Spacing on Any Website
 description: Easily enhance readability by customizing the spacing between
@@ -22,48 +23,28 @@ featureDescription: Easily enhance readability by customizing the spacing
   spacing with Helperbird.
 header: true
 ---
-## Introduction
 
-Struggling with the readability of text on websites? This guide shows you how to adjust the letter spacing on any website using Helperbird, enhancing your browsing experience.
 
-## Prerequisites
+## Adjusting Letter Spacing with Helperbird
 
-- An active Helperbird account.
-- The Helperbird extension installed on your browser.
+The Letter Spacing feature in Helperbird allows you to adjust the spacing between letters, which can help improve readability for many users, including those with dyslexia.
 
-## Steps to Adjust Letter Spacing on Any Website
+### Enabling Letter Spacing
 
-### Step 1: Open Helperbird
+**Step 1**: Click the Helperbird icon in your browser's extension area to open the Helperbird options.
 
-Click the Helperbird icon located in the top-right corner of your browser window.
+**Step 2**: In the Helperbird menu, use the search bar to find 'Letter spacing' quickly.
 
-### Step 2: Access Features
+**Step 3**: Toggle the 'Letter spacing' switch to the 'On' position to activate the feature.
 
-The Helperbird extension will open, displaying a variety of quick actions and other features.
+### Adjusting the Spacing
 
-### Step 3: Locate Text Adjustment Card
+**Step 1**: Once Letter Spacing is enabled, a slider labeled 'Spacing' appears below the toggle switch.
 
-Scroll down to find the "Text adjustment" card within the extension interface.
+**Step 2**: Click and drag the slider to adjust the spacing between letters. Moving the slider to the right increases spacing, while moving it to the left decreases it.
 
-### Step 4: Find the Toggle
+**Step 3**: Adjust the slider until you reach a comfortable letter spacing that makes reading easier for you.
 
-Inside the "Text adjustment" card, locate the "Letter spacing" option and the accompanying toggle switch marked "Off."
-
-### Step 5: Activate Feature
-
-Click the toggle switch to enable the letter spacing adjustment feature.
-
-### Step 6: Adjust Spacing
-
-The spacing between letters will automatically change based on your selection in the dropdown menu or slider below the toggle.
-
-### Step 7: Deactivate Feature (Optional)
-
-If you wish to revert to the default letter spacing, click the toggle switch again to turn off the feature.
-
-### Step 8: Further Adjustment (Optional)
-
-To fine-tune the letter spacing, use the slider to set it to your preferred size.
 
 ## Video Tutorial
 
