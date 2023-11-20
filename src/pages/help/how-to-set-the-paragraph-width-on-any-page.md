@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to set the width of paragrahs on a website
 description: Learn how to a set paragraph widths on any website, pdf or app.
@@ -19,26 +20,23 @@ url: help/how-to-set-the-paragraph-width-on-any-page/
 ---
 
 
-## How to set the width of paragrahs on a website
+## Adjusting Paragraph Width in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+With Helperbird, customizing the width of paragraphs on a webpage is straightforward, enhancing your reading experience.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 1**: Open Helperbird by clicking the Helperbird icon in your browser's toolbar.
 
-**Step 3:** Scroll to the **Paragraph** card.
+**Step 2**: Use the search feature in the Helperbird menu to quickly find the 'Paragraph Width' option.
 
-**Step 4:** Within the **Paragraph** card, you will see the **Paragraph width** option.
+**Step 3**: Activate the 'Width' feature by toggling the switch to the 'On' position.
 
-**Step 5** Toggle the on/off switch to **On**.
+**Step 4**: Adjust the width by using the slider that appears. Slide left to decrease the width or right to increase it, according to your reading preference.
 
-**Step 6** The columns will be set in the paragraph, you can now read the paragraph in columns.
-
-**Step 7 (Optional)** To set columns in another paragraph, repeat steps 1-6.
-
+**Step 5**: Enjoy your tailored reading space, with paragraphs set to your comfortable width.
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
