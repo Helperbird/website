@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to apply a high contrast theme on a website
 description:
@@ -21,41 +22,40 @@ url: help/how-to-use-helperbirds-high-contrast-features/
 ---
 
 
-## How to apply a high contrast theme on a website
+## Activating High Contrast Modes
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Click on the Helperbird extension icon in your browser to open the Helperbird menu.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: Use the search bar to find 'High contrast' or scroll down to the 'Display options' section.
 
-**Step 3:** Scroll to the **High contrast** card.
+**Step 3**: Toggle the 'High contrast' switch to the 'On' position to activate the feature.
 
-**Step 4:** Within the **High contrast** card, you will see the **On/off** toggle.
+## Setting High Contrast Styles
 
-**Step 5** Toggle the ***On/off** option to **On**.
+### For Increased Contrast
+**Step 1**: With 'High contrast' activated, click on the 'Increased contrast' option to enhance the contrast on the page.
 
-**Step 6** A theme of high contrast will now to be applied to the website.
+### For Greyscale
+**Step 1**: Click on the 'Greyscale' option to change all page colors to shades of grey, reducing visual stress and distraction.
 
-**Step 7 (Optional)** To disable High contrast, repeat steps 1-6.
+### For Inverted Colors
+**Step 1**: Select the 'Inverted colors' option to invert the colors on the page, which can help reduce glare and improve readability for some users.
 
+### For Inverted Greyscale
+**Step 1**: Choose the 'Inverted greyscale' to invert the greyscale colors, offering a high-contrast visual that some users may find easier to read.
+
+### For Yellow on Black
+**Step 1**: Click on the 'Yellow on black' option for a specific high-contrast theme with yellow text on a black background, often preferred by users with certain types of visual impairment.
+
+After selecting any of the above options, the web page will immediately reflect the new high contrast style, helping to improve visibility and reduce eye strain.
 
 
 
 ## What is high contrast?
 
-A high contrast theme or high contrast mode uses a limited color palette with contrasting colors to
-make an interface easier to use. This is different than using an inverted display, though often
-times the high contrast mode looks similar to an inverted display because of the darker color
-scheme.
+A high contrast theme or high contrast mode uses a limited color palette with contrasting colors to make an interface easier to use. 
 
-
-
-## Themes
-
-Inverted colors
-Grey scale
-Increased contrast
-Yellow and black
-Increased grey scale
+This is different than using an inverted display, though often times the high contrast mode looks similar to an inverted display because of the darker color scheme.
 
 
 ## Video Tutorial
