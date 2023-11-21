@@ -12,7 +12,7 @@ keywords:
   OpenDyslexic
 
 youtubeId: PfILiWebkuc
-cardTitle: Highlight paragraphs
+cardTitle: Paragraph borders
 featureDescription: Learn how to add a border to paragraphs on a website.
 date: 2020-01-06
 tags: guideFeaturesMain
