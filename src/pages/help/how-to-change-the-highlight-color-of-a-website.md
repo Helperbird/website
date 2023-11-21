@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Customize Text Highlight Color in your browser
 description: Easily change the text highlight color across various web
@@ -23,43 +24,26 @@ featureDescription: '"Easily change the text highlight color across various web
 header: true
 ---
 
-## Introduction
+## Customizing Text Highlight Color in Helperbird
 
-Want to customize the highlight color on a website for better visibility or personal preference? This guide will walk you through the steps to change the highlight color using Helperbird.
+Changing the highlight color in Helperbird can make it easier to spot selected text, which can be helpful for reading and editing purposes. 
 
-## Prerequisites
+### Activating the Highlight Color Feature
 
-- Helperbird extension installed on your browser.
-  
-## Steps to Change the Highlight Color on a Website
+**Step 1**: Open the Helperbird extension by clicking on its icon in your browser's toolbar.
 
-### Step 1: Open Helperbird Extension
+**Step 2**: Look for the 'Styles & Colors' dropdown menu and click to expand it if it's not already open.
 
-Click the Helperbird icon located in the top-right corner of your browser window to open the extension.
+**Step 3**: Find the 'Highlight color' option and toggle the switch to the right to turn it on.
 
-### Step 2: Access Features
+### Changing the Highlight Color
 
-The Helperbird extension will display quick actions and various features available to you.
+**Step 1**: With the 'Highlight color' feature activated, you'll see a range of color options below the toggle switch.
 
-### Step 3: Navigate to Styles & Colors Card
+**Step 2**: Click on the color circle that represents the color you want to use for text highlights.
 
-Scroll through the options until you find the **Styles & Colors** card.
+As soon as you select a color, any text you highlight on the webpage will display with the chosen highlight color.
 
-### Step 4: Locate Highlight Color Option
-
-Within the **Styles & Colors** card, find the **Highlight color** option accompanied by a toggle switch marked as **Off**.
-
-### Step 5: Enable the Feature
-
-Click the toggle switch to turn on the highlight color feature.
-
-### Step 6: Choose Your Color
-
-The highlight color will automatically change to the selected color.
-
-### Step 7: Deactivate Feature (Optional)
-
-To turn off this feature, simply click the toggle switch again to return it to the **Off** position.
 
 ## Video Tutorial
 

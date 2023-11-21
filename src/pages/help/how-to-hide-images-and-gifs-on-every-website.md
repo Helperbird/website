@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to remove or hide images on a website
 description: Learn how to remove or hide images on any website or app using the Helperbird extension.
@@ -18,28 +19,34 @@ tags: guideFeaturesMain
 url: help/how-to-hide-images-and-gifs-on-every-website/
 ---
 
+## Hiding GIFs in Helperbird
 
-## How to hide images and GIFs on every website
+The 'Hide GIFs' feature in Helperbird allows you to prevent animated GIFs from playing on web pages, which can be helpful for reducing distractions or for users who are sensitive to motion on the screen.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Click on the Helperbird extension icon to open the menu.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: Use the search bar at the top of the menu to search for 'Hide GIFs'.
 
-**Step 3:** Scroll to the **Images** card.
+**Step 3**: Toggle the switch next to 'Hide GIFs' to turn the feature on.
 
-**Step 4:** Within the **Images** card, you will see the **Hide all images** option and a toggle switch labeled **Off**.
+**Step 4**: Once activated, all animated GIFs on the current web page will be hidden, helping to reduce distractions.
 
-**Step 5** Click the toggle switch to turn the feature on.
+## Hiding Images in Helperbird
 
-**Step 6** All images on the page will be hidden.
+The 'Hide Images' feature in Helperbird allows you to hide all images on web pages, which can be useful for increasing loading speeds on slower connections or for users who prefer to focus on text content.
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+**Step 1**: Open the Helperbird extension menu by clicking its icon.
 
+**Step 2**: In the search bar within the menu, type 'Hide Images'.
+
+**Step 3**: Find the toggle for 'Hide Images' and switch it on.
+
+**Step 4**: The page will refresh with all images hidden, leaving only the text for a simplified browsing experience.
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

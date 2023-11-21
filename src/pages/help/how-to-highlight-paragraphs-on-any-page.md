@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 header: true
 layout: templates/new/help/post.html
 title: How to add a border to paragraphs on a website
@@ -18,21 +19,25 @@ tags: guideFeaturesMain
 url: help/how-to-highlight-paragraphs-on-any-page/
 ---
 
-## How to add a border to paragraphs on a website
+## Adding a Border Color to Paragraphs in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+With Helperbird, you can add a colorful border around paragraphs to enhance the visual layout of text on a webpage. This can be particularly useful for distinguishing sections or for visual emphasis.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Activating the Paragraph Border Feature
 
-**Step 3:** Scroll to the **Paragraghs** card.
+**Step 1**: Click the Helperbird icon in your browser to open the extension menu.
 
-**Step 4:** Within the **Paragraghs** card, you will see the **On** option and a toggle switch labeled **Off**.
+**Step 2**: Use the search function at the top of the menu to locate the 'Paragraph options'.
 
-**Step 5** Click the toggle switch to turn the feature on.
+**Step 3**: In the 'Paragraph options' section, find the 'Border' toggle and switch it on.
 
-**Step 6** Now all paragraphs on the page will be highlighted with the color you selected.
+### Customizing the Border Color
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+**Step 1**: With the 'Border' feature active, a selection of color options will appear below the toggle.
+
+**Step 2**: Choose your desired border color by clicking on one of the color circles.
+
+Your paragraphs will now be outlined with the border color you selected, making them stand out on the page.
 
 
 

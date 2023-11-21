@@ -1,6 +1,7 @@
 ---
 new: false
 layout: templates/new/help/post.html
+updated: true
 title: How to Customize Link Colors on Any Website
 description: Learn how to modify both regular and visited link colors across
   websites with Helperbird, making your web navigation more intuitive and
@@ -22,43 +23,30 @@ featureDescription: Learn how to modify both regular and visited link colors
   visually appealing.
 header: true
 ---
-## Introduction
 
-Need to personalize the link colors on websites? This guide will take you through the steps to change both regular and visited link colors using Helperbird.
+## Customizing Link Colors in Helperbird
 
-## Prerequisites
+Helperbird allows you to change the color of links on web pages, enhancing visibility for those with visual impairments or personal color preferences. You can set different colors for unvisited and visited links.
 
-- An active Helperbird extension installed on your browser.
+### Changing the Color of Unvisited Links
 
-## Steps to Change the Link Color on Any Website
+**Step 1**: Click the Helperbird icon to open the extension menu.
 
-### Step 1: Open Helperbird Extension
+**Step 2**: Use the search function to locate 'Link color'.
 
-Click on the Helperbird icon located in the top-right corner of your browser window to open the extension.
+**Step 3**: Toggle the 'Links' switch on to activate the link color customization feature.
 
-### Step 2: Access the Features
+**Step 4**: Below the toggle, you'll see a palette of colors. Click on the color circle you want to apply to unvisited links.
 
-The Helperbird extension window will open, displaying quick actions and various features.
+### Changing the Color of Visited Links
 
-### Step 3: Navigate to 'Styles & Colors' Card
+**Step 1**: With the 'Link color' feature active, scroll down to the 'Visited' section.
 
-Scroll down until you find the **Styles & Colors** card in the extension window.
+**Step 2**: Similar to unvisited links, select a color from the palette for visited links.
 
-### Step 4: Locate 'Link Color' Option
+**Step 3**: The color you click will immediately apply to all visited links on the current web page.
 
-Within the **Styles & Colors** card, you'll see an option labeled **Link Color** accompanied by a toggle switch set to **Off**.
 
-### Step 5: Enable the Feature
-
-Click the toggle switch next to **Link Color** to turn the feature on.
-
-### Step 6: Choose Your Color
-
-Your link color will automatically change to the color you've selected.
-
-### Step 7: Optional - Disable the Feature
-
-To disable this feature, simply click the toggle switch again to turn it off.
 
 ## Video Tutorial
 
