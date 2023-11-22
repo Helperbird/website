@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to use the Highlighter feature in Helperbird
 description:
@@ -20,70 +21,57 @@ url: help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---
 
 
-## What is the Helperbird Highlighter feature?
+## Using the Highlighter Feature in Helperbird
 
-The Helperbird Highlighter feature is a feature that allows you to highlight any word or paragraph on any website to a color you choose. You can also use the Highlighter feature to read the highlighted text aloud, translate the text, and more.
+The Highlighter feature in Helperbird enables users to highlight text on web pages, providing a digital experience akin to using a highlighter on paper. To activate and use this feature, follow the steps below:
 
+### Activating the Highlight Menu
 
-## Requirements
+**Step 1**: Click on the Helperbird icon in your browser to open the extension.
 
-You will need to have the Highlight menu turned on in Helperbird. You can learn how to turn on the Highlight menu in Helperbird [here](/help/how-to-use-the-highlight-menu-in-helperbird/).
+**Step 2**: Find the Highlight menu in the Quick Actions area. If it's not there, use the search feature to locate it.
 
+**Step 3**: Make sure the first icon in the Quick Actions area, which represents the Highlight menu, is turned on.
 
-## How to use the Highlighter feature in Helperbird
+### Turning On the Highlighter
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+**Step 1**: Use the search function within the Helperbird menu to find the 'Highlighter' option.
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 2**: Toggle the Highlighter feature to the 'On' position by clicking on the switch.
 
-**Step 3:** In the **Highlighter** card. You will see the **Show highlights on page** option and a toggle switch labeled **Off**.
+### Choosing a Highlight Color
 
-**Step 4:** Once you have turned on the **Show highlights on page** option, you will see the highlights you have made on the page. You can also turn off the **Show highlights on page** option to hide the highlights you have made on the page.
+**Step 1**: With the Highlighter turned on, select a color from the color palette in the Helperbird menu.
 
-**Step 5:** To highlight text on a page, select the text you want to highlight. A menu will appear.
+### Highlighting Text on the Page
 
-**Step 6:** Select the highlight button.
+**Step 1**: Use your cursor to select the text you wish to highlight on the web page.
 
-**Step 7:** The text you selected will now be highlighted with the color you selected.
+**Step 2**: Click the highlight button that appears near the selected text to apply the color you've chosen.
 
-**Step 8:** When you visit the page again, the highlights you made will still be there.
-
-
-
-
-## Remove or delete a highlight
-
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
-
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll until you find the **Helperbird Apps** card.
-
-**Step 4:** Click on the red **Notes** app.
-
-**Step 5:** The **Notes** app will open.
-
-**Step 6:** Find the highlight you want to remove.
-
-**Step 7:** Click on the **Delete** button.
-
-**Step 8:** The highlight will now be removed.
+Your selected text will now be highlighted, enhancing your ability to track key information and navigate through content effectively.
 
 
 
-## Set or change the highlight color
+## Viewing and Managing Highlighted Text in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+To view and manage your highlighted text within Helperbird, follow these steps:
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+### Accessing Highlighted text
 
-**Step 3:** In the **Highlighter** card. You will see the **Color** option.
+**Step 1**: Click on the Helperbird icon in your browser to open the extension.
 
-**Step 4:** Click on the color you want to use for the highlights.
+**Step 2**: In the Helperbird menu, click on the 'Open Notes' button in the Quick Actions area.
 
-**Step 5:** The color you selected will now be the color used for the highlights.
+### Managing Your Highlights
 
+**Step 1**: A display of your highlighted texts on note cards will appear.
 
+**Step 2**: To visit the source page of a specific highlight, click on the respective note card.
+
+**Step 3**: If you wish to delete a highlight, simply click on the `X` icon on the top right corner of the note card.
+
+These steps will allow you to easily navigate through your highlights and keep them organized.
 
 
 ## Video Tutorial
