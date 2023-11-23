@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Change the Font on Any Website
 description: Customize your browsing experience by effortlessly changing the
@@ -22,48 +23,29 @@ featureDescription: Customize your browsing experience by effortlessly changing
   step-by-step guide to learn how.
 header: true
 ---
-## Introduction
 
-Want to customize your reading experience by changing the font on websites you visit? This guide will walk you through the easy process of changing fonts using Helperbird.
+## Using the Font Changer Feature in Helperbird
 
-## Prerequisites
 
-- An active Helperbird account.
-- Helperbird browser extension installed.
+The Font Changer feature in Helperbird allows you to customize the font style on web pages, which can be particularly helpful for enhancing readability or for users with dyslexia.
 
-## Steps to Change the Font on Any Website
+### Enabling the Font Changer
 
-### Step 1: Open the Helperbird Extension
+**Step 1**: Click on the Helperbird icon in your browser to open the extension menu.
 
-Click on the Helperbird icon located in the top-right corner of your browser window to open the extension.
+**Step 2**: Use the search function at the top of the menu to quickly find the "Font" option.
 
-### Step 2: Navigate to Quick Actions
+**Step 3**: Locate the "Font" toggle and turn it on by clicking it.
 
-The extension will display a variety of quick actions and other features upon opening.
+### Changing the Font
 
-### Step 3: Locate the 'Text Adjustment' Card
+**Step 4**: After enabling the Font option, you'll see a selection of fonts displayed.
 
-Scroll through the Helperbird extension until you find the **Text Adjustment** card.
+**Step 5**: Scroll through the available fonts and click on the one you prefer to apply it to the webpage.
 
-### Step 4: Identify the 'Font' Option
+**Step 6**: The page will automatically update with your selected font, changing the text to the font style you chose.
 
-In the Text Adjustment card, you will find the **Font** option accompanied by a toggle switch labeled **Off**.
 
-### Step 5: Enable the Feature
-
-Activate the font-changing feature by clicking on the toggle switch. It will turn to **On**.
-
-### Step 6: Select Your Preferred Font
-
-The font of the web page you are on will change to the one you select from the list below the toggle switch.
-
-### Step 7 (Optional): Disable the Feature
-
-If you want to revert to the original font, simply click the toggle switch again to turn it **Off**.
-
-### Step 8 (Optional): Change to a Different Font
-
-To switch to a different font, pick another one from the list available.
 
 ## Available Font Choices
 

@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Change Webpage Fonts to Dyslexic-Friendly Options
 description: Learn how to easily switch to dyslexic-friendly fonts on any
@@ -22,48 +23,27 @@ featureDescription: Learn how to easily switch to dyslexic-friendly fonts on any
   accessible with just a few clicks.
 header: true
 ---
-## Introduction
 
-Struggling with reading text online? Helperbird can change the font on any website to one that's dyslexic-friendly. This guide will show you how to activate this feature.
+## Using the Font Changer Feature in Helperbird for Dyslexia-Friendly Fonts
 
-## Prerequisites
 
-- An active Helperbird account.
-- Helperbird browser extension installed.
+Helperbird’s Font Changer feature can make reading easier for users with dyslexia by allowing the choice of dyslexia-friendly fonts such as Lexend or OpenDyslexic.
 
-## Steps to Change the Font to a Dyslexic-Friendly Option
+### Enabling the Font Changer
 
-### Step 1: Open Helperbird Extension
+**Step 1**: Click on the Helperbird icon in your browser to bring up the extension’s menu.
 
-Click on the Helperbird icon located in the top-right corner of your browser window.
+**Step 2**: Use the search feature within the menu to look for the "Font" option.
 
-### Step 2: Access Quick Actions
+**Step 3**: Find the toggle switch for "Font" and activate it by clicking on it.
 
-The Helperbird extension will open, displaying quick actions and other features.
+### Selecting a Dyslexic-Friendly Font
 
-### Step 3: Locate the Text Adjustment Card
+**Step 4**: With the Font feature enabled, a variety of font choices will appear.
 
-Scroll down to find the **Text Adjustment** card within the extension.
+**Step 5**: Browse through the fonts and select a dyslexic-friendly font such as Lexend or OpenDyslexic by clicking on it.
 
-### Step 4: Identify the Font Option
-
-Within the Text Adjustment card, look for the **Font** option accompanied by a toggle switch labeled **Off**.
-
-### Step 5: Activate the Feature
-
-Click on the toggle switch to turn the feature on.
-
-### Step 6: Select a Dyslexic-Friendly Font
-
-The font on the website will change to the one you selected from the list provided below the toggle.
-
-### Step 7 (Optional): Deactivate the Feature
-
-To turn off the feature, simply click the toggle switch again.
-
-### Step 8 (Optional): Change the Font
-
-If you wish to use a different dyslexic-friendly font, select one from the list provided.
+**Step 6**: The web page’s text will immediately update to display the selected font, enhancing readability for dyslexic users.
 
 ## Available Dyslexic-Friendly Fonts
 
