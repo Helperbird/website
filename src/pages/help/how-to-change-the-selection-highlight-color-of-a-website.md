@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to change the selection/highlight color of a website
 description:
@@ -23,28 +24,33 @@ url: help/how-to-change-the-selection-highlight-color-of-a-website/
 ---
 
 
+## Using the Highlight Color Feature in Helperbird
 
-## How to change the Highlight color of a website.
+The Highlight Color feature allows you to change the color of text you highlight on web pages. This can be useful for studying, annotating, or simply marking important sections of text.
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+### Turning On Highlight Color
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+**Step 1**: Click the Helperbird icon in your browser to open the extension menu.
 
-**Step 3:** Scroll to the **Styles & Colors** card.
+**Step 2**: Use the search bar at the top of the menu to search for "Highlight Color".
 
-**Step 4:** Within the Styles & Colors card, you will see the **Highlight color** option and a toggle switch labeled **Off**.
+**Step 3**: Find the "Highlight Color" toggle and switch it to the "On" position.
 
-**Step 5** Click the toggle switch to turn the feature on.
+### Changing the Highlight Color
 
-**Step 6** The Highlight color will change to the color you picked.
+**Step 4**: Once the Highlight Color feature is turned on, a palette of colors will appear below the toggle.
 
-**Step 7 (Optional)** To turn off the feature, click the toggle switch again.
+**Step 5**: Click on the color you wish to use for highlighting text. The selected color will be highlighted with a check mark.
+
+**Step 6**: To test it out, simply highlight some text on the webpage. The selected color will now be used to highlight the text.
+
+Remember to save your preferred settings if the extension allows it, so your highlight color remains consistent across browsing sessions.
 
 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

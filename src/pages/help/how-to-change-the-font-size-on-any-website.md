@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Adjust Font Size on Any Website
 description: Learn how easy it is to change the font size on any website to a
@@ -20,49 +21,34 @@ featureDescription: Learn the simple steps to customize and adjust the font size
   on any website to suit your reading preferences using the Helperbird
   extension.
 header: true
+updated: true
 ---
-## Introduction
 
-Struggling to read text on websites? This guide will walk you through the simple steps to adjust the font size on any website using Helperbird.
 
-## Prerequisites
+## Using the Text Size Feature in Helperbird
 
-- An active Helperbird account.
-- The Helperbird extension installed on your browser.
+The Text Size feature in Helperbird allows you to adjust the size of text on web pages for better readability.
 
-## Steps to Change the Font Size on a Website
+### Turning On Text Size
 
-### Step 1: Open Helperbird
+**Step 1**: Click the Helperbird icon in your browser's toolbar to open the extension menu.
 
-Click the Helperbird icon in the top-right corner of your browser window to open the extension.
+**Step 2**: Use the search bar at the top of the menu to search for "Text Size".
 
-### Step 2: Access Quick Actions and Features
+**Step 3**: Locate the "Text Size" option within the menu.
 
-The Helperbird extension will open, displaying quick actions and various features.
+**Step 4**: Toggle the switch next to "Text Size" to the "On" position to activate the feature.
 
-### Step 3: Locate the Text Adjustment Card
+### Changing the Text Size
 
-Scroll until you find the **Text adjustment** card within the extension.
+**Step 1**: With the Text Size feature activated, you'll see a slider appear under the "Size" section.
 
-### Step 4: Identify the Font Size Option
+**Step 2**: Click and drag the slider to the left to decrease text size, or to the right to increase text size.
 
-Within the Text Adjustment card, you'll see the **Font Size** option accompanied by a toggle switch labeled **Off**.
+**Step 3**: Release the slider to set the text to your desired size. The change should take effect immediately on the page.
 
-### Step 5: Enable the Font Size Feature
+Make sure to test the text size on various websites to find the most comfortable setting for your reading preference.
 
-Click the toggle switch to turn on the font size adjustment feature.
-
-### Step 6: Choose Font Size
-
-The text/font size on the website will change to the size you pick.
-
-### Step 7 (Optional): Disable the Feature
-
-To turn off the font size feature, simply click the toggle switch again.
-
-### Step 8 (Optional): Adjust the Size
-
-To further adjust the font size, use the slider to find the size that suits you best.
 
 ## Supported Text Elements
 
@@ -85,7 +71,7 @@ To further adjust the font size, use the slider to find the size that suits you 
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 ## Need Additional Help?
 

@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: Change Text Color on Any Website
 description: Learn how to effortlessly modify text colors on any website for a
@@ -22,43 +23,31 @@ featureDescription: Learn how to effortlessly modify text colors on any website
   adjustment feature.
 header: true
 ---
-## Introduction
 
-Interested in customizing the appearance of websites you visit? Helperbird provides an easy solution to change the font color. This guide will show you how to do just that.
 
-## Prerequisites
 
-- An installed Helperbird extension on your browser.
+## Using the Font Color Feature in Helperbird
 
-## Steps to Change the Font Color on a Website
+The Font Color feature allows you to change the color of the text you read on website. 
 
-### Step 1: Open Helperbird Extension
+### Turning On Font Color
 
-Click on the Helperbird icon located in the top-right corner of your browser window.
+**Step 1**: Click the Helperbird icon in your browser to open the extension menu.
 
-### Step 2: Access the Extension Menu
+**Step 2**: Use the search bar at the top of the menu to search for "Font Color".
 
-The Helperbird extension will open, displaying quick actions and other features.
+**Step 3**: Find the "Font Color" toggle and switch it to the "On" position.
 
-### Step 3: Navigate to Styles & Colors
+### Changing the Highlight Color
 
-Scroll down until you find the **Styles & Colors** card.
+**Step 1**: Once the Font Color feature is turned on, a palette of colors will appear below the toggle.
 
-### Step 4: Locate the Font Color Option
+**Step 2**: Click on the color you wish to use for the text. 
 
-Inside the Styles & Colors card, you'll notice a **Font Color** option and a toggle switch labeled **Off**.
 
-### Step 5: Enable the Feature
 
-Click on the toggle switch to activate the feature.
 
-### Step 6: Select Your Preferred Color
 
-Once the feature is enabled, the font color on the webpage will change to your selected color.
-
-### Step 7: Deactivate the Feature (Optional)
-
-If you wish to revert back to the original font color, click on the toggle switch again to disable the feature.
 
 ## Video Tutorial
 
