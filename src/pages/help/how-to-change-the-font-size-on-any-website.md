@@ -1,6 +1,5 @@
 ---
 new: false
-updated: true
 layout: templates/new/help/post.html
 title: How to Adjust Font Size on Any Website
 description: Learn how easy it is to change the font size on any website to a
