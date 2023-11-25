@@ -1,8 +1,9 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
-title: How to add Color blindness support to websites
+title: How to use Color blindness features of Helperbird
 description: Learn how to add Color blindness support to websites with Helperbirds browser extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -21,49 +22,30 @@ url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 
 
 
-## How to use Emphasize Links feature
+## Emphasize Links Feature in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+### Turning On Emphasize Links
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll to the **Color Blindness** card.
-
-**Step 4:** Within the **Color Blindness** card, you will see the **Emphasize Links** option.
-
-**Step 5** Toggle the **Emphasize Links** option to **On**.
-
-**Step 6** Every website you visit will have four colors under each link.
-
-**Step 7 (Optional)** To disable Emphasize Links, repeat steps 1-6.
+1. Click the **Helperbird** icon in your browser to open the extension menu.
+2. Use the search bar and type `"Emphasize Links"`.
+3. Locate the `"Emphasize Links"` toggle and switch it to the **On** position.
+4. Links will now be more distinct on web pages, aiding those with color blindness.
 
 
-## How to use Text Stroke feature
+## Text Stroke Feature in Helperbird
 
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
+### Turning On Text Stroke
 
-**Step 2:** The extension will open. Showing the quick actions and other features.
+1. Open the **Helperbird** menu by clicking its icon.
+2. Search for `"Text Stroke"` in the search bar.
+3. Click the toggle next to `"Text Stroke"` to activate the feature.
 
-**Step 3:** Scroll to the **Color Blindness** card.
+### Changing the Text Stroke Color
 
-**Step 4:** Within the **Color Blindness** card, you will see the **Text Stroke** option.
+1. With **Text Stroke** active, you'll see a selection of colors.
+2. Click on your preferred color to set the stroke around the text.
+3. Your selected color will now outline text on the webpage.
 
-**Step 5** Toggle the **Text Stroke** option to **On**.
-
-**Step 6** All text on a website will have the border/stroke around it with the color you picke.
-
-**Step 7 (Optional)** To disable Text Strok, repeat steps 1-6.
-
-
-## What our Helperbirds colorblind features?
-
-At the moment, Helperbird has two colorblind features:
-
-**Emphasize links**
-Helperbird will highlight links in the text that are pointing to websites that are not accessible for colorblind people.
-
-**Text stroke**
-Helperbird will draw a stroke around the text that is not readable for colorblind people.
 
 
 ## Video Tutorial
