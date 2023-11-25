@@ -23,32 +23,27 @@ featureDescription: Discover the step-by-step guide to effortlessly enable and
 header: true
 ---
 
+## Using the Auto Scroll Feature in Helperbird
 
+The Auto Scroll feature in Helperbird provides a hands-free reading experience by automatically scrolling the page at a comfortable speed. 
 
-**Step 1:** Install the Helperbird browser extension on your browser.
+### Enabling Auto Scroll
 
-**Step 2:** Open a webpage that you would like to use the auto scroll feature on.
+1. Click on the **Helperbird** extension icon to open the menu.
+2. Use the search bar within the menu to find the "Auto Scroll" option.
+3. Click the Start button to start the auto scroll feature.
 
-**Step 3:** Click on the Helperbird icon in the browser's toolbar to open the extension's menu.
+### Adjusting Scroll Speed
 
-**Step 4:** Select the "Auto Scroll" option from the quick action area.
+1. Once Auto Scroll is enabled, you will see a "Scroll Speed" slider appear.
+2. Drag the slider to adjust the speed to your preference. You can choose from slow, normal, or fast speeds.
+3. After setting your desired speed, click the **Start** button to begin auto-scrolling.
 
-**Step 5:** Click on the "Auto Scroll" button to begin the auto-scroll.
-
-**Step 6:** Use the slider to adjust the speed of the auto-scroll.
-
-**Step 7:** To stop the auto-scroll, click on the "Stop" button or scroll to the bottom of the page.
-
-**Step 8:** You can also use the keyboard shortcut "Alt+A" to start and stop the auto-scroll feature.
-
-### Note
-
-You can also use the auto-scroll feature in combination with other features such as the Zoom and Sticky Note features for a better reading and research experience.
 
 
 ## Video tutorial
 
-- Coming soon
+Coming soon
 
 
 ## Need more help?
