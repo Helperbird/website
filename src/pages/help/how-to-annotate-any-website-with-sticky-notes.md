@@ -18,50 +18,67 @@ featureDescription: Discover how to annotate websites and PDFs with Helperbird's
 redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 header: true
 date: 2016-01-03
+updated: true
 youtubeId: PfILiWebkuc
 ---
-## Introduction
-This comprehensive guide walks you through how to create, customize, and delete sticky notes on websites or PDFs using Helperbird's Sticky Notes feature.
 
-## Prerequisites
-- Installed Helperbird browser extension
-- Active internet connection
 
-## Creating a Sticky Note
+## Creating a Sticky Note in Helperbird
 
-### Step 1: Open Target Page
-Open the webpage or PDF where you want to place a sticky note.
+To create a digital sticky note on any webpage for quick reminders or notes, follow these steps:
 
-### Step 2: Access Helperbird Menu
-Click the Helperbird icon in the browser's toolbar to open the extension menu.
+**Step 1**: Click on the Helperbird icon to open the extension menu.
 
-### Step 3: Initiate Note Creation
-Select the "Create a Note" option from the quick action menu.
+**Step 2**: Scroll to the 'Writing Tools' section.
 
-### Step 4: Note Appears
-A small sticky note window will appear on your screen. 
+**Step 3**: Click on the 'CREATE' button next to 'Sticky note'.
 
-### Step 5: Write Your Note
-Enter your note into the text field provided.
+**Step 4**: A new sticky note will appear on the page where you can type your note.
 
-## Customizing a Sticky Note
 
-### Step 6: Change Note Color
-Click on the color palette icon to change the color of your sticky note.
+## Using Text to Speech on a Sticky Note in Helperbird
 
-### Step 7: Move Your Note
-Drag your sticky note to a preferred location on the page by clicking and holding.
+To have the text on your sticky note read aloud, do the following:
 
-## Deleting a Sticky Note
+**Step 1**: Open the sticky note by clicking on it.
 
-### Step 8: Remove Note
-Click the trash can icon to delete the sticky note.
+**Step 2**: Click on the 'Play' button at the top of the sticky note to start the text-to-speech function.
 
-### Step 9: Close Note Window
-Click the "x" button in the top-right corner of the sticky note window to close it.
+**Step 3**: Listen as the Helperbird reads the header and the text of your note.
 
-### Step 10: Retrieve Saved Notes
-Your notes are automatically saved and can be accessed later by clicking the "Notes" button in the Helperbird menu.
+
+## Viewing All Sticky Notes in Helperbird
+
+To view all your sticky notes at once:
+
+**Step 1**: Click on the Helperbird icon to open the extension menu.
+
+**Step 2**: Click on the 'View All Notes' option within the sticky note feature.
+
+**Step 3**: A list or panel showing all your sticky notes will appear.
+
+
+## Changing Sticky Note Background and Text Color in Helperbird
+
+To personalize your sticky notes:
+
+**Step 1**: Click on the sticky note to select it.
+
+**Step 2**: Choose the 'Color' option to change the background color of your note.
+
+**Step 3**: To change the text color, click on the 'Text Color' option and select your desired color.
+
+## Deleting a Sticky Note in Helperbird
+
+To remove a sticky note that you no longer need:
+
+**Step 1**: Open the sticky note you wish to delete.
+
+**Step 2**: Click on the 'Delete' button, usually represented by a trash can icon, at the top of the sticky note.
+
+**Step 3**: Confirm the deletion if prompted to remove the note permanently.
+
+
 
 ## Additional Information
 - Multiple sticky notes can be added to a single webpage or PDF.
