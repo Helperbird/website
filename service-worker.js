@@ -2456,7 +2456,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-stop-animations-on-any-website/index.html",
-    "revision": "8bcc4fbf54bd47a9de755750407b29a2"
+    "revision": "3626acf1e66cab9f282d33ab6c7dda58"
   },
   {
     "url": "help/how-to-stop-animations-on-any-website/index.png",
