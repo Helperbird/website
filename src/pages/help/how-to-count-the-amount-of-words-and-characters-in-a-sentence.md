@@ -1,6 +1,7 @@
 ---
 new: false
 header: true
+updated: true
 layout: templates/new/help/post.html
 title: How to count the amount of words and characters in a sentence
 description:
@@ -19,22 +20,31 @@ tags: guideFeaturesMain
 url: help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
 ---
 
-## Requirement 
+## How to Open the Helperbird Editor
 
-You will need the highlight menu turned on to access this feature. Learn how to turn it on by following this [help guide.](/how-to-turn-on-the-highlight-menu-in-helperbird)
+The Helperbird Editor allows you to efficiently edit and work with text on the web. Here’s how you can open the Helperbird Editor from the Helperbird extension:
+
+**Step 1**: Locate and click on the Helperbird icon in your browser’s extension area, typically found in the top right corner of your browser window.
+
+**Step 2**: The Helperbird interface will open, showing you the Quick Actions panel with various feature icons.
+
+**Step 3**: Look for the icon labeled "Open Editor" which is depicted with a pencil symbol, as seen in your provided screenshot. Click on the "Open Editor" icon.
+
+**Step 4**: Once clicked, the Helperbird Editor will open, allowing you to start editing text as desired.
 
 
-## How to count the amount of words and characters in a sentence
 
-**Step 1:** Ensure you have the Highlight menu turned on.
+## How to Access Text Analytics in Helperbird Editor
 
-**Step 2:** On any website, highlight the text you want to analyze. As if you were going to copy it.
+Get ready to dive into the insightful world of text analytics within your Helperbird Editor. Here's how to open this feature and start exploring your document's data:
 
-**Step 3:** The Highlight menu will appear.
+**Step 1**: With your document open in the Helperbird Editor, locate the "Text Analytics" button. It's usually marked with a distinctive icon and is found on the top toolbar of the editor.
 
-**Step 4:** Click the **Analyze** button.
+**Step 2**: Click on the "Text Analytics" button to reveal a detailed breakdown of your document's statistics.
 
-**Step 5** A popup will appear showing the amount of words and characters in the highlighted text.
+**Step 3**: Take in the comprehensive data displayed. You'll see metrics like word count, character count, sentence structure, readability scores, and more, all designed to give you a deeper understanding of your writing.
+
+**Step 4**: Use these analytics to refine your work, target specific areas for improvement, or simply get a snapshot of your writing style.
 
 
 ## Video Tutorial
