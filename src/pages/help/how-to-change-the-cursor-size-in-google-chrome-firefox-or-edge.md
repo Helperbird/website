@@ -25,17 +25,6 @@ header: true
 ---
 
 
-## Introduction
-
-Easily change the cursor size on any website to improve visibility and navigation. Learn how to utilize Helperbird's cursor adjustment feature for a tailored browsing experience.
-
-## Prerequisites
-
-- Helperbird extension installed on your browser
-- Basic understanding of using browser extensions
-
----
-
 ## Adjusting Cursor Size in Helperbird
 
 The Cursor Size feature in Helperbird allows you to change the cursor size on web pages, making it easier to track on the screen. 
