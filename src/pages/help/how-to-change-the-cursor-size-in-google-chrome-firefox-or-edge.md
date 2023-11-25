@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Adjust Cursor Size in Your Browser
 description: Easily change the cursor size on any website to improve visibility
@@ -35,41 +36,22 @@ Easily change the cursor size on any website to improve visibility and navigatio
 
 ---
 
-## How to Turn On the Cursor Size Adjustment Feature
+## Adjusting Cursor Size in Helperbird
 
-### Step 1: Open the Helperbird Extension
+The Cursor Size feature in Helperbird allows you to change the cursor size on web pages, making it easier to track on the screen. 
 
-Click the Helperbird icon in the top right corner of your browser window to open the extension.
+### Turning On Cursor Size
 
-### Step 2: Locate the Cursor Size Card
+1. Click the **Helperbird** icon in your browser to open the extension menu.
+2. Use the search bar at the top of the menu to search for "Cursor Size".
+3. Locate the "Cursor Size" toggle and switch it to the **On** position.
 
-Scroll through the list of options until you find the "Cursor Size" card.
+### Changing the Cursor Size
 
-### Step 3: Turn the Feature On
+1. With the Cursor Size feature turned on, you will see a slider for size adjustment.
+2. Slide to select your preferred cursor size: small, medium, large, or extra large.
+3. The cursor size will adjust in real-time as you move the slider, allowing you to pick the size that best suits your visibility needs.
 
-Click the toggle switch next to "Cursor Size" to turn the feature on.
-
-### Step 4: Adjust Cursor Size
-
-A slider will appear. Drag it to the right to increase the cursor size or to the left to decrease it. The changes will apply automatically.
-
----
-
-## How to Turn Off the Cursor Size Adjustment Feature
-
-### Step 1: Open the Helperbird Extension
-
-Click the Helperbird icon in the top right corner of your browser window.
-
-### Step 2: Locate the Cursor Size Card
-
-Find the "Cursor Size" card in the list of options.
-
-### Step 3: Turn the Feature Off
-
-Click the toggle switch next to "Cursor Size" to turn the feature off.
-
----
 
 ## Supported Sizes
 
@@ -78,13 +60,13 @@ Click the toggle switch next to "Cursor Size" to turn the feature off.
 - Medium
 - Small
 
----
+
 
 ## Video Tutorial
 
-- Coming soon
+Coming soon.
 
----
+
 
 ## Need More Help?
 
