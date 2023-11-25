@@ -20,31 +20,28 @@ url: help/how-to-stop-animations-on-any-website/
 ---
 
 
-
-## How to use reduce motion on a website
-
-**Step 1:** Open Helperbird, this is done by clicking the Helperbird icon in the top right corner of your browser window.
-
-**Step 2:** The extension will open. Showing the quick actions and other features.
-
-**Step 3:** Scroll to the **Accessibility** card.
-
-**Step 4:** Within the **Accessibility** card, you will see the **Reduce Motion** option.
-
-**Step 5** Toggle the **Reduce Motion** option to **On**.
-
-**Step 6** Every website you visit will now have reduced motion.
-
-**Step 7 (Optional)** To disable reduced motion, repeat steps 1-6.
-
-
 ## What is reduced motion?
 
 If Reduce Motion is enabled in your accessibility preferences, the animations are toned down to a simple dissolve without vestibular motion triggers.
 
+### How to Enable Reduce Motion in Helperbird
+
+**Step 1**: Click on the Helperbird extension icon in your browser's toolbar to open the menu.
+
+**Step 2**: Scroll to or search for the 'Reduce Motion' section within the menu.
+
+**Step 3**: Locate the 'Reduce Motion' option.
+
+**Step 4**: Toggle the switch next to 'Reduce Motion' to the 'On' position to activate the feature.
+
+**Step 5**: The page content will now have less motion for a more comfortable viewing experience.
+
+
+
+
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 
