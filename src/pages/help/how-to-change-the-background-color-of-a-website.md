@@ -1,5 +1,6 @@
 ---
 new: false
+updated: true
 layout: templates/new/help/post.html
 title: How to Change the Background Color of Any Website
 description: Discover how to effortlessly change the background color of any
@@ -22,33 +23,28 @@ featureDescription: Discover how to effortlessly change the background color of
   simple guide to learn how.
 header: true
 ---
-## How to Change the Background Color of a Website
 
-### Introduction
-This guide will show you how to effortlessly alter the background color of any website using the Helperbird extension. This is especially useful for improving readability or setting the mood while browsing.
 
-### Prerequisites
-- Helperbird extension installed on your browser
-- An active internet connection
+## Changing Background Color in Helperbird
 
-### Activating the Background Color Feature
+Helperbird's Background Color feature enables you to change the background color of web pages for a more comfortable reading experience, which can reduce eye strain and improve focus.
 
-**Step 1:** Open the Helperbird extension by clicking the icon in the top-right corner of your browser.
+### Activating Background Color
 
-**Step 2:** The Helperbird menu will appear, displaying quick actions and various features.
+1. Click on the **Helperbird** extension icon to open the menu.
+2. Use the search function to find the "Background Color" feature quickly.
+3. Toggle the switch next to "Background Color" to the **On** position.
 
-**Step 3:** Scroll down to find the "Styles & Colors" card.
+### Choosing a Background Color
 
-**Step 4:** Within the "Styles & Colors" card, locate the "Background color" option. You'll see a toggle switch labeled "Off" beside it.
+1. Once the Background Color is activated, a selection of colors will be displayed.
+2. Click on your desired color to change the background color of the page.
+3. The page's background should change to the color you selected immediately.
 
-**Step 5:** Click the toggle switch to activate the feature. Your chosen background color will be applied immediately.
 
-### Deactivating the Background Color Feature
 
-**Step 6 (Optional):** To turn off the feature, simply click the toggle switch again.
+## Video Tutorial
+Coming soon.
 
-### Video Tutorial
-- Coming soon.
-
-### Need More Help?
+## Need More Help?
 Should you encounter any issues while following this guide, please reach out to the Helperbird support team for assistance.
