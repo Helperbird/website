@@ -492,6 +492,20 @@
     </url>
   
     <url>
+      <loc>https://www.helperbird.com/help/helperbird-for-powerpoint-online/</loc>
+      <lastmod>2023-09-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.helperbird.com/help/helperbird-for-word-online/</loc>
+      <lastmod>2023-09-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://www.helperbird.com/help/helperbird-for-google-slides-addon/</loc>
       <lastmod>2023-09-10</lastmod>
       <changefreq>monthly</changefreq>
