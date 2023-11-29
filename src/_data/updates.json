@@ -43,6 +43,10 @@
     {
       "title": "Bug Fix: Text-to-Speech Player",
       "description": "We've fixed a bug where the Text-to-Speech player would occasionally not stop or work on iOS and Chrome."
+    },
+	      {
+      "title": "Enhanced PII Removal for Immersive Reader",
+      "description": "We've improved our PII (Personally Identifiable Information) removal function. We now remove sensitive information locally, adding an extra layer of protection for Immersive Reader users."
     }
   ],
   "upcoming": [
