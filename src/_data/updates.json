@@ -1,6 +1,69 @@
 {
 	"new": [
-
+{
+  "version": "116.0.0",
+  "date": "Upcoming Release Date November 29th", 
+  "changes": [
+    {
+      "title": "PowerPoint Support for Online",
+      "description": "We've added support for PowerPoint online, enhancing your productivity."
+    },
+    {
+      "title": "Dyslexia Features in Their Own Cards",
+      "description": "Dyslexia features now have dedicated cards for improved accessibility."
+    },
+    {
+      "title": "UI Tweaks for a Cleaner Look",
+      "description": "We've made UI tweaks to provide a cleaner and more intuitive experience."
+    },
+    {
+      "title": "Summarize Mode Integrated",
+      "description": "The Summarize mode is now seamlessly integrated into the app for your convenience."
+    },
+    {
+      "title": "Paragraph Features in Their Own Card",
+      "description": "Paragraph-related features now have their dedicated card for easy access."
+    },
+    {
+      "title": "Enhanced Volume Booster",
+      "description": "Our volume booster is now available and works with both videos and audio."
+    },
+    {
+      "title": "Automatic PDF Opening in Google Classroom",
+      "description": "Google Classroom now allows automatic opening of PDFs for a smoother workflow."
+    },
+    {
+      "title": "Touch Support for Sliders",
+      "description": "Sliders across the app now fully support touch interactions."
+    },
+    {
+      "title": "Improved Accessibility for Sliders",
+      "description": "Sliders now have better text and translations, enhancing their accessibility."
+    },
+    {
+      "title": "Bug Fix: Text-to-Speech Player",
+      "description": "We've fixed a bug where the Text-to-Speech player would occasionally not stop or work on iOS and Chrome."
+    },
+	      {
+      "title": "Enhanced PII Removal for Immersive Reader",
+      "description": "We've improved our PII (Personally Identifiable Information) removal function. We now remove sensitive information locally, adding an extra layer of protection for Immersive Reader users."
+    }
+  ],
+  "upcoming": [
+    {
+      "title": "Coming Soon: Google Docs and Slides Add-on",
+      "description": "Stay tuned for our upcoming release where the Google Docs and Slides addon will be bundled and available for use."
+    },
+    {
+      "title": "Coming Soon: Helperbird for Android",
+      "description": "We're excited to announce that Helperbird will soon be available for Android users, expanding our reach to a wider audience."
+    },
+    {
+      "title": "Coming Soon: Helperbird for Firefox on Android",
+      "description": "Get ready for the Helperbird experience on Firefox for Android. Coming soon to enhance your browsing on mobile devices."
+    }
+  ]
+},
 		{
 			"version": "105.0.1",
 			"date": "Upcoming Release Date",
