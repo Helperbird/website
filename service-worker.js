@@ -1460,11 +1460,11 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.html",
-    "revision": "40fe8589d98413b809c3eb1910fe1f95"
+    "revision": "d6a0258c8bc8f829f1e2733b462d1846"
   },
   {
     "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.png",
-    "revision": "89905a590be06b7e6d7d3e17bdfaf4f7"
+    "revision": "9a7d6cfb1230467eee2a0fb1ed833380"
   },
   {
     "url": "blog/how-to-add-extensions-to-safari/index.html",
@@ -1516,7 +1516,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "9f778b14f255ce848bdf9a4454cbd461"
+    "revision": "e44dfa6ca3d0c753fe3d9a3f8c21338b"
   },
   {
     "url": "blog/index.png",
@@ -3148,7 +3148,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.html",
-    "revision": "6d6690b3f76330b80cc93b0b60a1e1f7"
+    "revision": "cbc3836b21663e11ef1c494d42ba6dc9"
   },
   {
     "url": "usecases/index.png",
