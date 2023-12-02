@@ -25,7 +25,7 @@ tags:
 
 We change the names in our stories to keep our users safe. Even though the names are different, the stories are real. We respect the privacy of everyone who shares their story with us.
 
-## rory’s Easier Days with Helperbird’s PDF Reader
+## Rory’s Easier Days with Helperbird’s PDF Reader
 
 ### The Problem:
 
