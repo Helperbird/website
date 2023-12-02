@@ -111,6 +111,10 @@ self.__precacheManifest = [
     "revision": "1ce11bf8c75498807ba2ebd53f914308"
   },
   {
+    "url": "assets/images/blog/helping-students-thrive-with-helperbirds-accessibility-tools/helperbird-tools.png",
+    "revision": "cd4d927dbd3e60baf3cc9df0c87ae6aa"
+  },
+  {
     "url": "assets/images/blog/how-to-avoid-wfh-burnout-and-maximize-productivity/avoid-wfh-burnout-and-maximize-productivity.jpg",
     "revision": "a2fbe5a246e9607f0d1e2c8baa9a8dd4"
   },
