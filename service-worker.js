@@ -1440,7 +1440,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helperbird-pdf-reader-rorys-story/index.html",
-    "revision": "7afda45ca979f6b43a3ec6972905f97a"
+    "revision": "1b493d39d7e0b14f3aacd5b9cf146381"
   },
   {
     "url": "blog/helperbird-pdf-reader-rorys-story/index.png",
@@ -1453,6 +1453,14 @@ self.__precacheManifest = [
   {
     "url": "blog/helperbirds-winner-of-the-2021-chromebook/index.png",
     "revision": "3a60f6dcb9aa18cf58ba36a788b408e3"
+  },
+  {
+    "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.html",
+    "revision": "40fe8589d98413b809c3eb1910fe1f95"
+  },
+  {
+    "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.png",
+    "revision": "89905a590be06b7e6d7d3e17bdfaf4f7"
   },
   {
     "url": "blog/how-to-add-extensions-to-safari/index.html",
@@ -1504,7 +1512,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "d4031a3af3f5f96501ede61612530965"
+    "revision": "9f778b14f255ce848bdf9a4454cbd461"
   },
   {
     "url": "blog/index.png",
@@ -3020,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "7d9590b4f5a1913f525af4ae6fd4cf4c"
+    "revision": "9e7c3a84c7dbefc0f78b8e8c12cdbe28"
   },
   {
     "url": "sitemap/index.png",
@@ -3136,7 +3144,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.html",
-    "revision": "0804242ce18faef01071e20728e8953e"
+    "revision": "6d6690b3f76330b80cc93b0b60a1e1f7"
   },
   {
     "url": "usecases/index.png",
