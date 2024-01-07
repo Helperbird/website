@@ -71,6 +71,29 @@ Data breaches are the last thing we want, but we’re prepared for the worst. If
 
 For the tech aficionados, we regularly update and inspect our packages and servers every two weeks.
 
+
+## Privacy Policy: Helperbird Google Add-on
+
+### Permissions Overview
+
+#### Google Docs and Slides
+
+Helperbird's integration with Google Docs and Slides is designed to enhance your experience by enabling features such as text reading, font customization, and language translation. We request the necessary `/auth/documents.currentonly` and `/auth/presentations.currentonly` authorizations for these functionalities. Rest assured, we do not track or store any user data in the process.
+
+#### Google Drive
+
+To seamlessly send requested PDFs to the Helperbird browser extension for an improved reading experience, we ask for `/auth/drive.readonly` authorization. It's important to note that Helperbird respects your privacy and does not store or track any information obtained through this authorization.
+
+### Data Security and Compliance
+
+Helperbird is committed to the security and privacy of your data. Our use and transfer of information received from Google APIs are strictly limited to our browser extension. We adhere to Google API Services User Data Policy, ensuring responsible data handling and compliance with industry standards.
+
+### No Tracking or Storage
+
+Your privacy matters. Helperbird does not track, store, or retain any data from your interactions with Google Docs, Google Slides, or Google Drive. The information accessed is solely used to enhance your Helperbird experience.
+
+
+
 ## Contact Us
 
 Queries, feedback, or a simple hello — we're here for all of it. Drop us an email at [robert.gabriel@helperbird.com](mailto:robert.gabriel@helperbird.com).
