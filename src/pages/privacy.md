@@ -86,7 +86,7 @@ To seamlessly send requested PDFs to the Helperbird browser extension for an imp
 
 ### Data Security and Compliance
 
-Helperbird is committed to the security and privacy of your data. Our use and transfer of information received from Google APIs are strictly limited to our browser extension. We adhere to Google API Services User Data Policy, ensuring responsible data handling and compliance with industry standards.
+Helperbird is committed to the security and privacy of your data. Our use and transfer of information received from Google APIs are strictly limited to our browser extension. We adhere to [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), ensuring responsible data handling and compliance with industry standards.
 
 ### No Tracking or Storage
 
