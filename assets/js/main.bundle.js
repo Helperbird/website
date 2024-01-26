@@ -295,10 +295,10 @@ var load = function load() {
         return calculateDiscountedPrice(this.priceDetails.yearly.pro);
       },
       yearlyUnlimitedPricing: function yearlyUnlimitedPricing() {
-        return calculateDiscountedPrice(this.priceDetails.yearly.unlimited);
+        return this.priceDetails.yearly.unlimited;
       },
       monthlyUnlimitedPricing: function monthlyUnlimitedPricing() {
-        return calculateDiscountedPrice(this.priceDetails.monthly.unlimited);
+        return this.priceDetails.monthly.unlimited;
       },
       showModal: function showModal() {
         return this.openModal;

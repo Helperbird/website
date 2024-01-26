@@ -116,10 +116,10 @@ const load = () => {
 				return calculateDiscountedPrice(this.priceDetails.yearly.pro);
 			},
 			yearlyUnlimitedPricing() {
-				return calculateDiscountedPrice(this.priceDetails.yearly.unlimited);
+				return this.priceDetails.yearly.unlimited;
 			},
 			monthlyUnlimitedPricing() {
-				return calculateDiscountedPrice(this.priceDetails.monthly.unlimited);
+				return this.priceDetails.monthly.unlimited;
 			},
 			showModal() {
 				return this.openModal;
