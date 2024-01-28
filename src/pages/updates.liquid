@@ -14,86 +14,52 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
 ---
 
 
-
-<div class="bg-black  rounded-2xl shadow-md px-6 py-24 lg:px-8">
+<div class="bg-black rounded-2xl shadow-md px-6 py-24 lg:px-8">
   <div class="mx-auto max-w-3xl text-center">
-    <h2 class=" leading-relaxed font-sans text-3xl font-bold text-white sm:text-5xl">What’s new in Helperbird</h2>
-    <p class=" leading-relaxed font-sans mt-4 text-base sm:text-xl text-white">Stay up-to-date with the latest Helperbird developments right here.</p>
+    <h1 class="leading-relaxed font-sans text-3xl font-bold text-white sm:text-5xl">What’s new in Helperbird</h1>
+    <p class="leading-relaxed font-sans mt-4 text-base sm:text-xl text-white">Stay up-to-date with the latest Helperbird developments right here.</p>
   </div>
 </div>
 
-
-
-<div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 sm:pt-16 sm:pb-20  lg:pt-18 lg:px-8">
-
-
+<div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 sm:pt-16 sm:pb-20 lg:pt-18 lg:px-8">
   {%- for update in updates.new -%}
-    <section
-      id="{{update.version}}"
-      aria-labelledby="{{update.version}}-heading"
-      class="md:flex">
-      <h2 id="{{ update.version }}-heading" class="leading-relaxed font-sans    pl-7 text-xl  text-black md:w-1/4 md:pl-0 md:pr-12 md:text-right font-bold">
-      <a href="#{{update.version}}" title="Read more about Helperbird version {{ update.version }} updates and features">Helperbird {{ update.version }}</a>
-
+    <section id="{{ update.version }}" aria-labelledby="{{ update.version }}-heading" class="md:flex">
+      <h2 id="{{ update.version }}-heading" class="leading-relaxed font-sans pl-7 text-xl text-black md:w-1/4 md:pl-0 md:pr-12 md:text-right font-bold">
+        <a href="#{{ update.version }}" title="Learn more about Helperbird version {{ update.version }} updates and features">Helperbird {{ update.version }}</a>
       </h2>
       <div class="relative pl-7 pt-2 md:w-3/4 md:pl-12 md:pt-0 pb-16">
         <div class="absolute bottom-0 left-0 w-px bg-stone-500 -top-3 md:top-2.5"></div>
         <div class="absolute -left-1 -top-[1.0625rem] h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-stone-500 bg-white md:top-[0.4375rem]"></div>
-        <div class="bg-white rounded-xl shadow-md max-w-none mb-4  p-8">
-
-
+        <div class="bg-white rounded-xl shadow-md max-w-none mb-4 p-8">
           <div class="mb-4">
-            <h3 class="leading-relaxed font-sans text-lg sm:text-xl font-bold mb-6">
-              Changes
-            </h3>
+            <h3 class="leading-relaxed font-sans text-lg sm:text-2xl font-bold mb-8">Changes</h3>
             {%- for change in update.changes -%}
-              <h4 class=" leading-relaxed font-sans mt-3 text-lg text-black">
-                <div class="badge badge-secondary badge-outline mr-2">New</div>
+              <div class="leading-relaxed font-sans mt-3 text-lg text-black">
+                <span class="badge badge-secondary badge-outline mr-2">New</span>
                 <span class="font-semibold">{{ change.title }}</span>
-              </h4>
-        
-                <div class=" ml-16 mt-2 mb-8 ">
-                  <p class="leading-relaxed font-sans text-base">
-                    {{ change.description }}
-                  </p>
-                </div>
-              
+                <p class="ml-16 mt-2 mb-8 text-base">{{ change.description }}</p>
+              </div>
             {%- endfor -%}
           </div>
           <div class="mb-3 mt-8">
-            <h3 class="leading-relaxed font-sans   text-xl font-bold mt-4">
-              Fixes
-            </h3>
+            <h3 class="leading-relaxed font-sans text-2xl font-bold mb-8">Fixes</h3>
             {%- for fix in update.fixes -%}
-              <h4 class=" leading-relaxed font-sans mt-3 text-lg text-black">
-                <div class="badge badge-primary badge-outline mr-2">Fix</div>
+              <div class="leading-relaxed font-sans mt-3 text-lg text-black">
+                <span class="badge badge-primary badge-outline mr-2">Fix</span>
                 <span class="font-semibold">{{ fix.title }}</span>
-                </h4>
-           
-                <div class=" ml-16 mt-2 mb-8">
-                  <p class="leading-relaxed font-sans text-lg">
-                    {{ fix.description }}
-                  </p>
-                </div>
-          
+                <p class="ml-16 mt-2 mb-8 text-lg">{{ fix.description }}</p>
+              </div>
             {%- endfor -%}
           </div>
           {%- if update.upcoming -%}
             <div class="mb-3 mt-8">
-              <h3 class="leading-relaxed font-sans   text-xl font-bold mt-4">
-                Upcoming
-              </h3>
+              <h3 class="leading-relaxed font-sans text-2xl font-bold mb-8">Upcoming</h3>
               {%- for upcoming in update.upcoming -%}
-                <h4 class="leading-relaxed font-sans  mt-3 text-xl text-black">
-                  <div class="badge badge-warning badge-outline mr-2">Upcoming</div>
+                <div class="leading-relaxed font-sans mt-3 text-xl text-black">
+                  <span class="badge badge-warning badge-outline mr-2">Upcoming</span>
                   <span class="font-semibold">{{ upcoming.title }}</span>
-                  </h4>
-                  <div class=" ml-24 mt-2 mb-8">
-                    <p class="leading-relaxed font-sans text-lg">
-                      {{ upcoming.description }}
-                    </p>
-                  </div>
-        
+                  <p class="ml-24 mt-2 mb-8 text-lg">{{ upcoming.description }}</p>
+                </div>
               {%- endfor -%}
             </div>
           {%- endif -%}
@@ -101,7 +67,4 @@ redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/
       </div>
     </section>
   {%- endfor -%}
-
-
-
 </div>
