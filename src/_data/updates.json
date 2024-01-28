@@ -6,16 +6,17 @@
 			"version": "107.0.3",
 			"date": "January 28th 2024",
 			"changes": [
+			
 				{
-					"title": "Highlight menu bug",
-					"description": "We've squashed a pesky bug! Now, the highlight menu won't interfere with your Immersive Reader experience, making your reading smoother than ever."
-				},
-				{
-					"title": "Immersive Reader's limit increased",
+					"title": "Increased Limit for Free Users in Immersive Reader",
 					"description": "Big news for our free users! The Immersive Reader's character limit has been bumped up to a generous 2400. More reading, more learning!"
 				},
 				{
-					"title": "Text/screenshot reader Multilingual Support",
+					"title": "Spanish Support Now in Text/Screenshot Reader",
+					"description": "Our text/screenshot reader is going global! Embrace the diversity with our new Spanish and Arabic language support."
+				},
+				{
+					"title": "Arabic Support Now in Text/Screenshot Reader",
 					"description": "Our text/screenshot reader is going global! Embrace the diversity with our new Spanish and Arabic language support."
 				},
 				{
@@ -23,33 +24,39 @@
 					"description": "Personalize your web experience with our new alt text options. Image descriptions and link alt texts are now separate, giving you the choice to see what matters most to you."
 				},
 				{
-					"title": "Reading Mode Reimagined",
+					"title": "Introducing a Sleeker, More Focused Reading Mode",
 					"description": "Dive into a cleaner and more intuitive Reading Mode. We've streamlined the look for a distraction-free reading experience that you'll love."
 				},
 				{
-					"title": "Maths Reader Beta: A Game-Changer",
+					"title": "Math Learning with Our Maths Reader Beta",
 					"description": "Introducing the Maths Reader Beta! Snap a math problem and watch it come to life in the Immersive Reader. Perfect for learning or quick help with homework. Your feedback can shape its future!"
 				},
 				{
-					"title": "Text/screenshot reader - Translate support",
+					"title": "Text/Screenshot Reader Now with Translations",
 					"description": "Your translation tasks just got easier! Our enhanced text/screenshot tool now comes with a built-in translator. Instantly translate text for a seamless multilingual experience."
 				},
 				{
-					"title": "Text/screenshot reader - Immersive Reader",
+					"title": "Immersive Reader  in Text/Screenshot Tool",
 					"description": "We've integrated the Immersive Reader directly into our text/screenshot tool. Now, opening and reading your screenshots is more straightforward and efficient than ever!"
 				},
 				{
-					"title": "Effortless Navigation with Our New Search Bar",
+					"title": "New, Streamlined Search Bar",
 					"description": "Looking for something? Find it in a flash with our sleek new search bar. A smoother, more intuitive Helperbird is just a search away."
 				},
 				{
-					"title": "Welcome to the Dark Side",
+					"title": "Dark Mode Arrives",
 					"description": "It's here! Dark Mode arrives in Helperbird, bringing with it a stylish and eye-friendly interface. Perfect for those late-night study sessions or early morning browsing."
+				}
+			],
+			"fixes":[
+				{
+					"title": "Highlight menu bug",
+					"description": "We've squashed a pesky bug! Now, the highlight menu won't interfere with your Immersive Reader experience, making your reading smoother than ever."
 				}
 			],
 			"upcoming": [
 				{
-					"title": "Revamping Your Web Experience",
+					"title": "Revamping our Website",
 					"description": "Get ready to be wowed! A brand new Helperbird website is on its way, promising a cleaner and more user-friendly interface. Stay tuned for an online experience like never before!"
 				}
 			]

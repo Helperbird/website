@@ -7,6 +7,7 @@ const WorkboxPlugin = require('workbox-webpack-plugin');
 module.exports = {
 	mode: 'development',
 	context: __dirname + '/src/',
+	devtool: 'eval-source-map', // Faster source maps for development
 	entry: ['./assets/js/index.js', './assets/css/styles.css'],
 	plugins: [new MiniCssExtractPlugin({ ignoreOrder: false }), new HTMLInlineCSSWebpackPlugin()],
 	resolve: {
@@ -14,6 +15,9 @@ module.exports = {
 			vue: 'vue/dist/vue.min.js'
 		}
 	},
+	cache: {
+		type: 'filesystem', // Enable filesystem caching
+	  },
 	module: {
 		rules: [
 			{
@@ -27,8 +31,10 @@ module.exports = {
 					{
 						loader: 'babel-loader',
 						options: {
-							presets: ['@babel/preset-env']
-						}
+							presets: ['@babel/preset-env'],
+							cacheDirectory: true // Enable caching in babel-loader
+						},
+						
 					}
 				]
 			},
@@ -73,7 +79,6 @@ module.exports = {
 	optimization: {
 		minimize: true,
 		minimizer: [
-			// `...`,
 			new CssMinimizerPlugin()
 		]
 	},

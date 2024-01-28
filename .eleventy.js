@@ -1,6 +1,6 @@
 const lodash = require('lodash');
 const htmlmin = require('html-minifier');
-const svgContents = require('eleventy-plugin-svg-contents');
+//const svgContents = require('eleventy-plugin-svg-contents');
 const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
 const path = require('path');
@@ -10,37 +10,31 @@ const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
 	new Promise((resolve, reject) => {
 		(async () => {
+			// Check if the output image already exists
+			if (fs.existsSync(output)) {
+				// If it exists, resolve the promise and return early
+				resolve();
+				return;
+			}
+
 			// read data from input file
 			try {
-				const data = fs.readFileSync(input, {
-					encoding: 'utf-8'
-				});
-
+				const data = fs.readFileSync(input, { encoding: 'utf-8' });
 				// get title from file data
 				const [, title] = data.match(/cardTitle:(.*)/);
-		
+
 				const post = {
-					title: title,
+					title: title.trim(),
 					author: 'Helperbird',
 					tagline: 'Your Accessibility Assistant'
 				};
 
 				const width = 1200;
 				const height = 627;
-				// Set the coordinates for the image position.
-				const imagePosition = {
-					w: 100,
-					h: 100,
-					x: 360,
-					y: 260
-				};
-				// Because we are putting the image near the top (y: 75)
-				// move the title down.
+				const imagePosition = { w: 100, h: 100, x: 360, y: 260 };
 				const titleY = 300;
 				const titleLineHeight = 50;
-				// Bring up the author's Y value as well to make it all
-				// fit together nicely.
-				const authorY = 510;
+				const authorY = titleText[1] ? 510 : 465; // Adjusted author's Y position
 
 				const canvas = createCanvas(width, height);
 				const context = canvas.getContext('2d');
@@ -61,17 +55,7 @@ const createSocialImageForArticle = (input, output) =>
 				}
 
 				context.font = "20pt 'PT Sans'";
-				context.textAlign = 'left';
-				context.fillStyle = '#ffffff';
-				if (titleText[1]) {
-				context.fillText(`${post.author} - ${post.tagline}`, 485, titleY + titleLineHeight + 45);
-				}else{
-					context.fillText(`${post.author} - ${post.tagline}`, 485, titleY + titleLineHeight);
-				}
-		//		context.font = "15pt 'PT Sans'";
-		//	context.textAlign = 'left';
-		//		context.fillStyle = '#ffffff';
-		//		context.fillText(`${post.tagline}`, 570, 530 + 35);
+				context.fillText(`${post.author} - ${post.tagline}`, 485, authorY);
 
 				const { w, h, x, y } = imagePosition;
 				context.drawImage(helperbirdLogo, x, y, w, h);
@@ -82,18 +66,13 @@ const createSocialImageForArticle = (input, output) =>
 				}
 
 				// write the output image
-
 				const stream = fs.createWriteStream(output);
 				stream.on('finish', resolve);
 				stream.on('error', reject);
-				canvas
-					.createPNGStream({
-						quailty: 1.0
-					})
-					.pipe(stream);
+				canvas.createPNGStream({ quality: 1.0 }).pipe(stream);
 			} catch (e) {
-				console.error(this.inputPath, e);
-				console.error(e);
+				console.error(input, e);
+				reject(e); // Reject the promise in case of an error
 			}
 		})();
 	});
@@ -132,13 +111,11 @@ module.exports = function (eleventyConfig) {
 		}
 	});
 
-
-
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',
 		globDirectory: './docs'
 	});
-	eleventyConfig.addPlugin(svgContents);
+	//eleventyConfig.addPlugin(svgContents);
 
 	// add `date` filter
 	eleventyConfig.addFilter('date', function (date, dateFormat) {
@@ -171,22 +148,19 @@ module.exports = function (eleventyConfig) {
 		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 ',
 		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
 		li: 'leading-relaxed mb-4 mt-4 text-lg font-display ',
-		img:'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
+		img: 'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
 		a: 'leading-relaxed font-sans text-lg link link-hover text-blue-500 hover:text-blue-700',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};
 
 	eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
-		// Eleventy 1.0+: use this.inputPath and this.outputPath instead
-		if (outputPath && outputPath.endsWith('.html')) {
-			let minified = htmlmin.minify(content, {
+		if (process.env.ELEVENTY_ENV === 'production' && outputPath.endsWith('.html')) {
+			return htmlmin.minify(content, {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true
 			});
-			return minified;
 		}
-
 		return content;
 	});
 
