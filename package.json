@@ -9,7 +9,7 @@
 		"start": " ELEVENTY_ENV=development eleventy --serve",
 		"format": "prettier  --write .",
 		"css": "NODE_ENV=production  webpack --mode production ",
-		"build": " NODE_ENV=production  webpack --mode production && ELEVENTY_ENV=production eleventy",
+		"build": " NODE_ENV=production webpack --mode production",
 		"lint": "eslint --ignore-path .gitignore --fix --ext .js,.vue .",
 		"alts": "node alt.js",
 		"link": "node link.js",
