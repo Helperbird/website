@@ -34,8 +34,7 @@ const createSocialImageForArticle = (input, output) =>
 				const imagePosition = { w: 100, h: 100, x: 360, y: 260 };
 				const titleY = 300;
 				const titleLineHeight = 50;
-				const authorY = titleText[1] ? 510 : 465; // Adjusted author's Y position
-
+			
 				const canvas = createCanvas(width, height);
 				const context = canvas.getContext('2d');
 
@@ -53,6 +52,7 @@ const createSocialImageForArticle = (input, output) =>
 				if (titleText[1]) {
 					context.fillText(titleText[1], 485, titleY + titleLineHeight);
 				}
+				const authorY = titleText[1] ? 510 : 465; // Adjusted author's Y position
 
 				context.font = "20pt 'PT Sans'";
 				context.fillText(`${post.author} - ${post.tagline}`, 485, authorY);
