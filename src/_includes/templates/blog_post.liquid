@@ -242,36 +242,74 @@
     <div id="helperbird-website">
       {% include templates/header.html %}
 
-      <main class="mx-auto max-w-7xl pt-12 pb-12" id="content">
+      <main class="mx-auto max-w-7xl pt-12 pb-12 px-6 " id="content">
 
 
-        <div class=" px-6 py-12 lg:px-8 mb-12">
-          <div class="mx-auto max-w-2xl text-center">
-            <h1 class="text-4xl font-bold tracking-tight text-black sm:text-6xl">
-              {{ cardTitle }}
-            </h1>
-            <p class="mt-6 text-xl leading-8 text-gray-600">{{ description }}</p>
-          </div>
-        </div>
+       
+          <div class="mx-auto max-w-3xl">
 
 
-        <div class=" px-6 py-32 lg:px-8">
-          <div class="mx-auto max-w-3xl text-base">
+            <article>
 
-
-            <article class="text-black card bg-white shadow-md rounded-xl">
-              <div class="card-body">
+            <header class="flex flex-col">
+              <div class="flex gap-4">
+                <a
+                  href="/blog/"
+                  type="button"
+                  aria-label="Go back to articles"
+                  class="btn btn-circle btn-sm btn-secondary"
+                  ><svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    aria-hidden="true"
+                    stroke="currentColor"
+                    class="h-6 w-6"
+                  >
+                    <path
+                      d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <h1 class="mt-6 text-2xl font-bold tracking-tight text-black sm:text-4xl">
+                {{ cardTitle }}
+              </h1>
+              <div class="divider"></div>
             
+              <div class="flex">
+                <div class="flex-1  gap-4">
+           
+                    <div class="badge badge-primary  badge-outline">{{name}}</div>
+      
+                    <span class="badge badge-primary  badge-outline">{{time}}</span>
+                 
+                </div>
+                <div class="flex-0">
+                  <time datetime="2022-09-02" class="items-center text-base">
+                    <span class="badge badge-primary badge-outline">{{date}}</span>
+                  </time>
+                </div>
+              </div>
+            </header>
+            
+            
+              
+              <div class="mt-10 ">
+            
+              <img src="{{img}}" class="aspect-square rounded-xl  mb-10" title="{{name}}"/>
+              
   
-
 
                 {{ content | safe }}
               </div>
+
+
+
+
             </article>
-
-
-
-          </div>
         </div>
 
 

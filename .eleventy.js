@@ -1,6 +1,6 @@
 const lodash = require('lodash');
 const htmlmin = require('html-minifier');
-//const svgContents = require('eleventy-plugin-svg-contents');
+const svgContents = require('eleventy-plugin-svg-contents');
 const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
 const path = require('path');
@@ -115,7 +115,7 @@ module.exports = function (eleventyConfig) {
 		swDest: './docs/service-worker.js',
 		globDirectory: './docs'
 	});
-	//eleventyConfig.addPlugin(svgContents);
+eleventyConfig.addPlugin(svgContents);
 
 	// add `date` filter
 	eleventyConfig.addFilter('date', function (date, dateFormat) {
@@ -138,17 +138,18 @@ module.exports = function (eleventyConfig) {
 		linkify: true
 	};
 
+	
 	const mapping = {
 		h1: 'leading-relaxed font-display text-3xl   text-black  mb-2 font-bold',
-		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-8 font-extrabold',
-		h3: 'leading-relaxed font-display text-xl text-black mb-2 font-bold mt-8',
-		p: 'leading-relaxed font-display text-black mb-4 text-lg font-display ',
+		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-10 font-extrabold',
+		h3: 'leading-relaxed font-display text-xl text-black mb-2 font-bold mt-10',
+		p: 'leading-relaxed font-display text-black my-6 mb-6 mt-6 text-lg font-display ',
 		strong: 'text-black text-base text-lg',
 		bold: 'text-black',
-		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 ',
+		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ',
 		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
 		li: 'leading-relaxed mb-4 mt-4 text-lg font-display ',
-		img: 'aspect-square rounded-2xl bg-zinc-100 shadow-lg',
+		img: 'aspect-square rounded-2xl  mb-8',
 		a: 'leading-relaxed font-sans text-lg link link-hover text-blue-500 hover:text-blue-700',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};
