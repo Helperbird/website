@@ -12,58 +12,50 @@ url: blog/
 
 
 
-<div class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
-  <div class="mx-auto max-w-2xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">Helperbird  Customer Stories &amp; Case Studies </h2>
-    <p class="leading-relaxed font-sans mt-6 text-xl  text-black">Read from our customers on how Helperbird is changing their life.</p>
-  </div>
+<div class="mx-auto max-w-3xl mb-8 mt-8">
+
+<div class="px-6 py-16 lg:px-8 mb-4">
+
+    <h2 class="leading-relaxed font-sans text-center   text-3xl font-bold   text-black sm:text-5xl">Helperbird  Customer Stories &amp; Case Studies 
+    </h2>
+    <p class="leading-relaxed font-sans text-center    mt-6 text-xl  text-black sm:text-2xl">
+
+    Read from our customers on how Helperbird is changing their life.
+
+    </p>
+
+</div>
+
 </div>
 
 
 
-<div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 mt-16 mb-16 ">
+
+
+
+
+<div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none md:grid-cols-3 lg:grid-cols-4 mt-16 mb-16 ">
 
   {%- for post in collections.usecase -%}
 
-    <article class="flex flex-col items-start justify-between card bg-white rounded-xl shadow-md">
-      <div class="card-body">
-        <div class="relative w-full">
-          <img
-            src="{{ post.data.img }}"
-            alt="{{ post.data.cardTitle }}"
-            class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-          <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-        </div>
-        <div class="max-w-xl">
-          <div class="mt-8 flex items-center gap-x-4 text-xs">
-
-            <a
-              href="{{ post.url}}"
-              title="{{ post.data.cardTitle }}"
-              class="relative z-10 badge badge-secondary">{{ post.data.blog_cat }}</a>
-          </div>
-          <div class="group relative">
-            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-              <a
-                href="{{ post.url}}"
-                title="{{ post.data.cardTitle }}"
-                class="link link-hover text-blue-500 hover:text-blue-700">
-                <span class="absolute inset-0"></span>
-                {{ post.data.cardTitle }}
-              </a>
-            </h3>
-            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.data.blog_snip }}</p>
-          </div>
-          <div class="card-actions justify-end mt-8">
-            <a
-              href="{{ post.url}}"
-              title="{{ post.data.cardTitle }}"
-              title="Account &amp; Billing"
-              class="link link-hover text-blue-500 hover:text-blue-700">Read use case</a>
-          </div>
-        </div>
+    <div class="card bg-white rounded-xl overflow-hidden flex flex-col">
+      <figure class="p-4">
+          <img src="{{ post.data.img }}" alt="{{ post.data.cardTitle }}"
+               class="aspect-[16/9] w-full rounded-xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
+      </figure>
+      <div class="card-body tw-p-4 flex flex-col flex-grow">
+          <h3 class="card-title font-bold">{{ post.data.cardTitle }}</h3>
+          <div class="badge badge-secondary">{{ post.data.blog_cat }}</div>
+          <p class="my-6 text-base text-black overflow-hidden line-clamp-3 mb-4 mt-4">{{ post.data.blog_snip }}</p>
+    
+              <div class="card-actions justify-end mt-4">
+                  <a href="{{ post.url }}" title="{{ post.data.cardTitle }}"
+                  class="link link-hover text-blue-500 hover:text-blue-700">Read use case</a>
+              </div>
+   
       </div>
-    </article>
+  </div>
+    
 
 
   {%- endfor -%}
@@ -71,6 +63,10 @@ url: blog/
 
 
 </div>
+
+
+
+
 
 
 
