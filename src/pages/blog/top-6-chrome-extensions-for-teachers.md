@@ -15,7 +15,7 @@ blog_snip: Without further ado, below, we are sharing with you six different Chr
 img: /assets/images/blog/new-blog-2022/chrome-extensions-teachers.png
 des: Without further ado, below, we are sharing with you six different Chrome extensions that can help any teacher be more efficient and even save them some time in the long run.
 name: June Coffeecups
-date: Created
+date: 2023-10-22T00:00:00.000Z
 time: 4 min
 ---
 

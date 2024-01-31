@@ -17,7 +17,7 @@ cat: Interview
 des: At my first week at Teamwork, I was encouraged to build anything I wanted. I decided to create a simple extension for the font OpenDyslexic to help dyslexic readers like myself have a font option on webpages that were hard to read.
 
 name: Courtney Hood
-date: Created
+date: 2023-10-07T00:00:00.000Z
 img: /assets/images/blog/extra/robert-gabriel.png
 time: 7 min
 ---

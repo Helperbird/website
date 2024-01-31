@@ -16,7 +16,7 @@ cat: Guest blog
 img: /assets/images/blog/new-blog-2022/employees-engaged.png
 des: These days, working remotely is no longer uncharted territory. That's why Upwork estimates that more than 26% of the American workforce would work from home by 2021.
 name: Andrew Chu
-date: Created
+date: 2023-03-17T00:00:00.000Z
 time: 11 min
 ---
 

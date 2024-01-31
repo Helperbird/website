@@ -8,7 +8,7 @@ keywords: dyslexia, famous people with dyslexia, dyslexia software, reading mode
 url: blog/6-famous-people-with-dyslexia/
 name: Helperbird Staff
 img: /assets/images/blog/6-famous-people-with-dyslexia/6-famous-people-with-dyslexia.png
-date: Created
+date: 2020-03-16T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true

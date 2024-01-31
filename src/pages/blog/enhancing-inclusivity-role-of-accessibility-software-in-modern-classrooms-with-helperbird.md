@@ -8,7 +8,7 @@ keywords: social media accessibility, image descriptions, video captions, camel 
 url: blog/enhancing-inclusivity-role-of-accessibility-software-in-modern-classrooms-with-helperbird/
 img: /assets/images/blog/new-blog-2022/enhancing-inclusivity-role-of-accessibility-software-in-modern-classrooms-with-helperbird.png
 name: Helperbird Staff
-date: Created
+date: 2021-05-27T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true

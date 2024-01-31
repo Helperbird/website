@@ -3,8 +3,10 @@ const htmlmin = require('html-minifier');
 const svgContents = require('eleventy-plugin-svg-contents');
 const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
-const path = require('path');
 
+const path = require('path');
+const { format, parseISO } = require('date-fns');
+const moment = require('moment');
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
 const createSocialImageForArticle = (input, output) =>
@@ -34,7 +36,7 @@ const createSocialImageForArticle = (input, output) =>
 				const imagePosition = { w: 100, h: 100, x: 360, y: 260 };
 				const titleY = 300;
 				const titleLineHeight = 50;
-			
+
 				const canvas = createCanvas(width, height);
 				const context = canvas.getContext('2d');
 
@@ -81,9 +83,6 @@ const manifest = {
 	'main.js': '/assets/js/main.bundle.js',
 	'main.css': '/assets/js/main.css'
 };
-const format = require('date-fns/format');
-const moment = require('moment');
-const { tr } = require('date-fns/locale');
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/pages/admin/': '/admin/' });
@@ -115,19 +114,27 @@ module.exports = function (eleventyConfig) {
 		swDest: './docs/service-worker.js',
 		globDirectory: './docs'
 	});
-eleventyConfig.addPlugin(svgContents);
+	eleventyConfig.addPlugin(svgContents);
 
 	// add `date` filter
-	eleventyConfig.addFilter('date', function (date, dateFormat) {
-		return format(date, dateFormat);
+	eleventyConfig.addFilter('date', function (date2, dateFormat) {
+		return format(date2, dateFormat);
 	});
 
 	// Random Filter: With the help from google search engine
 	eleventyConfig.addFilter('shuffle', (arr) => lodash.shuffle(arr));
 
-	eleventyConfig.addFilter('dateDisplay', function (input) {
-		let xx = moment(input).format('MMMM Do YYYY');
-		return xx;
+	eleventyConfig.addFilter('formatDateWithOrdinal', function (dateString) {
+		console.log(dateString);
+		try {
+			const date2 = moment(dateString);
+			const formattedDate = date2.format('MMMM Do, YYYY');
+
+			return formattedDate;
+		} catch (error) {
+			console.error('Error formatting date:', error);
+			return dateString; // Fallback to returning the original string
+		}
 	});
 
 	let markdownIt = require('markdown-it');
@@ -138,7 +145,6 @@ eleventyConfig.addPlugin(svgContents);
 		linkify: true
 	};
 
-	
 	const mapping = {
 		h1: 'leading-relaxed font-display text-3xl   text-black  mb-2 font-bold',
 		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-10 font-extrabold',

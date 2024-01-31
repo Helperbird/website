@@ -16,7 +16,7 @@ cat: Research
 des: Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for designing dyslexia-friendly interfaces.
 
 name: Robert James
-date: Created
+date: 2020-02-09T00:00:00.000Z
 time: 7 min
 img: https://miro.medium.com/max/1400/0*fg-ZaVStYkFz5Azh.png
 ---

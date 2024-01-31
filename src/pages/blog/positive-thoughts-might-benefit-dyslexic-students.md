@@ -17,7 +17,7 @@ cat: Facts
 des: Explore the potential benefits of positive thinking for dyslexic students and how it can contribute to their overall well-being and academic success.
 
 name: Courtney Hood
-date: Created
+date: 2023-12-15T00:00:00.000Z
 img: /assets/images/blog/positive/GOODDAY-01.png
 time: 7 min
 ---

@@ -15,7 +15,7 @@ blog_snip: On the day before Thanksgiving, Helperbird wants to express gratitude
 cat: Essay
 des: On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most grateful for this year.
 name: Robert James
-date: Created
+date: 2022-05-11T00:00:00.000Z
 img: /assets/images/blog/thanksgiving/GIVE-THANKS-01.png
 time: 7 min
 ---

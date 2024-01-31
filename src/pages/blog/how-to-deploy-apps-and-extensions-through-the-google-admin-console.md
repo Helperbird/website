@@ -15,7 +15,7 @@ blog_snip: Streamline the deployment process of Helperbird across multiple compu
 img: /assets/images/graph/twitter.png
 des: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
 name: June Coffeecups
-date: Created
+date: 2023-01-09T00:00:00.000Z
 time: 4 min read
 ---
 

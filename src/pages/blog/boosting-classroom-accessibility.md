@@ -8,7 +8,7 @@ keywords: social media accessibility, image descriptions, video captions, camel 
 url: blog/boosting-classroom-accessibility/
 img: /assets/images/blog/new-blog-2022/boosting-classroom-accessibility.png
 name: Helperbird Staff
-date: Created
+date: 2021-01-11T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true

@@ -16,7 +16,7 @@ cat: Essay
 img: /assets/images/blog/teacher-appreciation-week-2020-dyslexia-story/teacher-appreciation-week-2020-dyslexia-story.png
 des: From dropping out of school to starting my own company, this is the inspiring story of how a teacher played a crucial role in helping me overcome challenges and reach my full potential.
 name: Robert James
-date: Created
+date: 2022-07-19T00:00:00.000Z
 time: 11 min
 ---
 

@@ -21,7 +21,7 @@ url: help/how-to-deploy-helperbird-to-your-school-or-business/
 img: /assets/images/graph/twitter.png
 des: Learn how to deploy Helperbird for Chrome through the Google Admin Console for EDU accounts
 name: June Coffeecups
-date: Created
+date: 2020-09-18T00:00:00.000Z
 time: 4 min
 ---
 

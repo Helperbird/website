@@ -15,7 +15,7 @@ blog_snip: This article outlines seven essential steps for educators to create e
 img: /assets/images/blog/7-steps-to-create-personalised-learning-plans-for-students/7-steps-to-create-personalised-learning-plans-for-students.jpeg
 des: Explore the importance of personalised learning in education and the seven steps to implement it effectively in classrooms.
 name: Indiana Lee
-date: Created
+date: 2024-01-31T00:00:00.000Z
 time: 5 mins
 ---
 

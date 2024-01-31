@@ -8,7 +8,7 @@ keywords: social media accessibility, image descriptions, video captions, camel 
 url: blog/fostering-inclusivity-at-work/
 img: /assets/images/blog/new-blog-2022/fostering-inclusivity-at-work.png
 name: Helperbird Staff
-date: Created
+date: 2021-08-02T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true

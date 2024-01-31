@@ -14,7 +14,7 @@ cardTitle: "Making PDFs Easier with Helperbird's PDF Reader"
 blog_snip: "Discover how rory, a hardworking professional, used Helperbird's PDF Reader to make dealing with PDF documents simpler and faster."
 name: Robert James Gabriel
 img: /assets/images/blog/helperbird-pdf-reader-rorys-story/pdf-reader.png
-date: Created
+date: 2022-02-05T00:00:00.000Z
 time: 5 min
 tags:
   - usecase

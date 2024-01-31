@@ -14,7 +14,7 @@ cardTitle: Empowering Students with Helperbird’s Reword Function
 blog_snip: "Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient and effective campaign management."
 name: Robert James Gabriel
 img: /assets/images/blog/reword-function-student-success-story/reword-helperbird.png
-date: Created
+date: 2020-04-16T00:00:00.000Z
 time: 5 min
 tags:
   - usecase

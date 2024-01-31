@@ -15,7 +15,7 @@ blog_snip: Safari is a powerful browser, and extensions are one of the many ways
 img: /assets/images/blog/new-blog-2022/safari-extensions.png
 des: Safari is a powerful browser, and extensions are one of the many ways you can customize it for your needs. While Safari comes with a number of built-in extensions, the App Store offers a wide variety of additional extensions to enhance your browsing experience.
 name: June Coffeecups
-date: Created
+date: 2022-08-30T00:00:00.000Z
 time: 4 min read
 ---
 

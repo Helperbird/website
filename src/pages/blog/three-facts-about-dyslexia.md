@@ -15,7 +15,7 @@ blog_snip: Despite popular belief, dyslexics do not see letters backwards.
 cat: Facts
 des: Discover three facts about dyslexia and one interesting fact about cats.
 name: Robert James
-date: Created
+date: 2021-12-28T00:00:00.000Z
 img: /assets/images/blog/extra/crash-the-cat.png
 time: 7 min
 ---

@@ -16,7 +16,7 @@ cat: Blog
 img: /assets/images/blog/giveaway/giveaway.jpeg
 des: In February 2021, we ran a competition to celebrate the start of the new school term, giving participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's time to announce the lucky winner and celebrate their success.
 name: Robert James
-date: Created
+date: 2022-04-14T00:00:00.000Z
 time: 10 min read
 ---
 

@@ -15,7 +15,7 @@ blog_snip: Focus is integral in ensuring that we get things done. But every now 
 img: /assets/images/blog/new-blog-2022/productivity-tips.png
 des: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 name: Andrew Chu
-date: Created
+date: 2022-09-27T00:00:00.000Z
 time: 11 min
 ---
 

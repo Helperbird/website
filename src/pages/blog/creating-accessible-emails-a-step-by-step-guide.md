@@ -15,7 +15,7 @@ blog_snip: When it comes to dyslexia, emails can be a real challenge. From getti
 img: /assets/images/blog/new-blog-2022/an-8-step-guide-to-creating-accessible-emails-for-those-with-dyslexia.png
 des: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
 name: Hannah Walters
-date: Created
+date: 2021-03-20T00:00:00.000Z
 time: 4 min read
 ---
 

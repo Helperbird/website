@@ -15,7 +15,7 @@ blog_snip: If you're like a lot of people, you're probably thinking about ways y
 img: /assets/images/blog/new-blog-2022/productivity-microsoft-edge.png
 des: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
 name: June Coffeecups
-date: Created
+date: 2021-08-10T00:00:00.000Z
 time: 4 min
 ---
 

@@ -14,7 +14,7 @@ cardTitle: Benefits of iPads in the Classroom
 blog_snip: For many years, educators have felt the pressure to make learning more than a singular experience. As technology becomes more popular, classrooms have gradually evolved away from the chalk and blackboard combination.
 img: /assets/images/blog/new-blog-2022/ipads-in-class.png
 name: June Coffeecups
-date: Created
+date: 2020-09-19T00:00:00.000Z
 time: 4 min read
 ---
 

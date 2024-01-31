@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 url: blog/importance-dyslexia-friendly-design-websites-apps/
 img: /assets/images/blog/new-blog-2022/importance-dyslexia-friendly-design-websites-apps.png
 name: 'Helperbird staff'
-date: Created
+date: 2023-07-31T00:00:00.000Z
 time: '5 min'
 tags: blog
 isBlog: true

@@ -15,7 +15,7 @@ blog_snip: As a business owner, you already know that the key to success is effi
 img: /assets/images/blog/new-blog-2022/safari-extensions.png
 des: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources.
 name: June Coffeecups
-date: Created
+date: 2023-08-10T00:00:00.000Z
 time: 4 min
 ---
 

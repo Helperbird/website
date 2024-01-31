@@ -15,7 +15,7 @@ blog_snip: While working from home looks convenient, the blurred line between ho
 img: /assets/images/blog/new-blog-2022/avoid-burnout.png
 des: While working from home looks convenient, the blurred line between home and employment can lead to burnout. In fact, recent studies have shown that a significant number of remote employees are experiencing symptoms of burnout. In this blog post, we will explore practical strategies to avoid work-from-home burnout and maximize productivity.
 name: Andrew Chu
-date: Created
+date: 2022-11-05T00:00:00.000Z
 time: 11 min read
 ---
 

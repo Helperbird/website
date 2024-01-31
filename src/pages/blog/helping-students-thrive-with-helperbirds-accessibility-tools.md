@@ -14,7 +14,7 @@ cardTitle: Empowering Diverse Learners - Patricia's Story with Helperbird
 blog_snip: Patricia Ferris, an experienced teacher, transforms her classroom with Helperbird's accessibility tools, fostering independence and confidence among her students with diverse needs.
 name: Robert James Gabriel
 img: /assets/images/blog/helping-students-thrive-with-helperbirds-accessibility-tools/helperbird-tools.png
-date: Created
+date: 2022-06-23T00:00:00.000Z
 time: 6 min
 tags:
   - usecase

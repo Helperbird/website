@@ -8,7 +8,7 @@ keywords: assistive technology, web accessibility, dyslexia software, Reading Mo
 url: blog/10-essential-assistive-technology-tools-web-accessibility/
 img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
 name: Helperbird Staff
-date: Created
+date: 2020-05-28T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true
