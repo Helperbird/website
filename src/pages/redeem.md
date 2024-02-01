@@ -16,14 +16,26 @@ url: redeem/
 
 
 
-**Step 1:** Copy the voucher code from your email or that you received.
+Welcome to Helperbird! Redeeming your voucher is quick and easy. Just follow these steps to activate your Helperbird Pro features.
 
-**Step 2:** Follow the link here for a **[special signup page](https://payments.coffeeandfun.com/b/8wM01ZbakbT6e5y5kO).**
+## Easy Steps to Unlock Pro Features
 
-**Step 3:** Paste your voucher code into the **Add promotion code** field.
+1. **Enter Code**: Copy your unique voucher code, which you should have received via email or from one of our partners.
 
-**Step 4:**  The price will change to $0.00.
+2. **Access Signup**: Click on [this link](https://payments.coffeeandfun.com/b/8wM01ZbakbT6e5y5kO) to go to our special signup page designed just for voucher redemption.
 
-**Step 5:**  Enter your email address and click **Start Trial**.
+3. **Apply Code**: On the signup page, look for the 'Add promotion code' field. Paste your voucher code here.
 
-**Step 6:**  You will receive an email with your account being upgraded to Helperbird Pro.
+4. **Price Update**: After the code is entered, you'll notice the price will update to $0.00, meaning the voucher is applied.
+
+5. **Finalize**: Provide your email address in the space given and hit the 'Start Trial' button to complete the process.
+
+6. **Confirmation**: Check your email. You should receive a message confirming that your account is now enjoying Helperbird Pro benefits.
+
+
+## All Set!
+
+You're all set to explore the full capabilities of Helperbird Pro. If you have any questions or need assistance, our support team is here to help.
+
+Enjoy your enhanced browsing experience with Helperbird Pro!
+
