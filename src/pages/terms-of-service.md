@@ -113,7 +113,7 @@ That said, it's important to remember that we have the final say in whether to t
 
 
 
-### Disclaimer of Warranties
+## Disclaimer of Warranties
 Helperbird is provided “as is,” without any guarantees. We pour our hearts into making it reliable and useful, but we can’t promise it will be perfect for your needs. There might be times when it’s not available, or when features don’t work as expected. We’re always on the job to fix issues, but we can’t legally promise that everything will always work flawlessly. Please do report any bugs to [support](/support/).
 
 
@@ -139,10 +139,10 @@ We're committed to continuous improvement and value your input in this journey.
 
 
 
-### Changes to Terms of Service
+## Changes to Terms of Service
 The digital world moves fast, and so do we. We might need to change these terms from time to time to keep up. When we do, we’ll update them here, and we’ll do our best to let you know — but it's also a good idea for you to check back in now and then.
 
-### Indemnification Clause
+## Indemnification Clause
 By using Helperbird, you agree to indemnify us against certain types of legal claims. This means if your actions cause legal issues for us, you’d help cover the costs. It’s a standard clause, but an important one.
 
 
