@@ -3112,7 +3112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.html",
-    "revision": "fb8fe4c65fd717262dcc44cec7702548"
+    "revision": "4ffbf8b0626f40ee08155968f74ffd21"
   },
   {
     "url": "terms-of-service/index.png",
