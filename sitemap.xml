@@ -247,6 +247,13 @@
     </url>
   
     <url>
+      <loc>http://localhost:3000/help/feature-not-supported-on-page/</loc>
+      <lastmod>2020-01-04</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:3000/help/how-to-change-the-selection-highlight-color-of-a-website/</loc>
       <lastmod>2020-01-04</lastmod>
       <changefreq>monthly</changefreq>
