@@ -27,7 +27,7 @@ At Helperbird, we take privacy and security seriously — not just as a policy, 
 ## Family Educational Rights and Privacy Act (FERPA)
 Our browser extension, designed to enhance the browsing experience, stands firm in its commitment to not collect any personal information or education records. In strict compliance with FERPA:
 
-- We do not access, use, or disclose any education records.
+- **We do not access, use, or disclose any education records.**
 - Our tools are crafted to ensure that student privacy is respected and protected at all times, and we do not knowingly collect or store any personal information from our users in this context.
 
 ## Children's Online Privacy Protection Act (COPPA)

@@ -18,7 +18,7 @@ keywords:
 url: security/
 isBlog: true
 blog_cat: ''
-blog_snip: 'Helperbird will never sell, store, or consume any user data.'
+blog_snip: Helperbird security promises and details..
 ---
 
 
