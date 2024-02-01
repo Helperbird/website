@@ -1692,7 +1692,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.html",
-    "revision": "86d7129f75b9a56f9a20c310508d8c01"
+    "revision": "4cbd382699c11991467c48e76bd33d45"
   },
   {
     "url": "compliance/index.png",
@@ -2948,7 +2948,7 @@ self.__precacheManifest = [
   },
   {
     "url": "privacy/index.html",
-    "revision": "b3c30ae52e239cd54c62e469b9b4950f"
+    "revision": "8ae15241e8802a0a8497ccac6f9fdd1d"
   },
   {
     "url": "privacy/index.png",
@@ -3112,7 +3112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.html",
-    "revision": "4ffbf8b0626f40ee08155968f74ffd21"
+    "revision": "650a4d580362b204a2304d488abd715f"
   },
   {
     "url": "terms-of-service/index.png",
