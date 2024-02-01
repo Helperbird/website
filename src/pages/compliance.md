@@ -52,7 +52,14 @@ After signing up, users of the Helperbird extension are given the option to allo
 For users preferring to maintain their privacy, we offer a subscription key method as an alternative. This option provides access to Pro features without the need to disclose an email address, aligning with our commitment to privacy and user choice.
 
 ## Continuous Compliance and Improvement
-We are continuously working to ensure our services comply with the latest standards, conducting regular reviews and updates to our practices. This commitment to ongoing improvement helps us stay in line with compliance laws and maintain the highest levels of privacy and security for our users.
+We are continuously working to ensure our services comply with the latest standards, conducting regular reviews and updates to our practices. This commitment to ongoing improvement helps us stay in line with compliance laws and maintain the highest levels of privacy and security for our users. 
+
+
+## Verifiable Parental Consent
+
+To comply with online safety regulations for children under 13, we require schools or teachers to obtain parental consent before allowing a student under 13 to allow Helperbird to know their email. This step is necessary for us to verify whether the student has access to Helperbird Pro or is included in a Helperbird Pro Unlimited subscription. It's important to clarify that **we're asking for the student's email, not for personal information, solely to check their subscription status.**
+
+We prioritize privacy, which is why our **free version doesn't require users to log in or provide an email**. For those who opt for Helperbird Pro, **we offer a subscription key as an alternative**. This method allows access to Pro features while maintaining email privacy, ensuring users can enjoy our services without sharing more information than they're comfortable with.
 
 ## Have Questions or Concerns?
 Your trust and safety are paramount to us. For any inquiries or feedback regarding our privacy practices or how we comply with FERPA and COPPA, please reach out to us at [support@helperbird.com](/support/). We're here to ensure your experience with Helperbird is secure, private, and enriching for all.

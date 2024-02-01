@@ -157,6 +157,7 @@ module.exports = function (eleventyConfig) {
 		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
 		li: 'leading-relaxed mb-4 mt-4 text-lg font-display ',
 		img: 'aspect-square rounded-2xl  mb-8',
+		hr: 'divider divider-neutral',
 		a: 'leading-relaxed font-sans text-lg link link-hover text-blue-500 hover:text-blue-700',
 		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
 	};

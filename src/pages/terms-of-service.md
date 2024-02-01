@@ -19,7 +19,7 @@ url: terms-of-service/
 img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
 isBlog: false
 blog_cat: ''
-blog_snip: Learn more about the history of Helperbird and our core values.
+blog_snip: Read our simple Terms of Service to see how we work together to make the web accessible for everyone.
 ---
 
 
