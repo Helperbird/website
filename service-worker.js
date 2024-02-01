@@ -3004,7 +3004,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.html",
-    "revision": "e67402b85157d9e3048b664cf006a59d"
+    "revision": "6fc3a63b57f4e1b8673265b50864fc04"
   },
   {
     "url": "redeem/index.png",
