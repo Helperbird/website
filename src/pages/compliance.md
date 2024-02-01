@@ -22,16 +22,40 @@ blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---
 
 
-## Family Educational Rights and Privacy Act (FERPA).
-Helperbird is committed to protecting the privacy and security of our users, including students and children under 13 years of age. Our app, Helperbird, is a browser extension that does not collect any personal information or education records from users. We do not access, use, or disclose any education records, as defined by the Family Educational Rights and Privacy Act (FERPA).
+At Helperbird, we take privacy and security seriously — not just as a policy, but as a promise to all our users. Our dedication is especially profound when it comes to protecting the rights and safety of students and children under the age of 13. In alignment with our terms of service, we rigorously adhere to the Family Educational Rights and Privacy Act (FERPA) and the Children's Online Privacy Protection Act (COPPA), ensuring a secure and compliant environment for every user.
 
+## Family Educational Rights and Privacy Act (FERPA)
+Our browser extension, designed to enhance the browsing experience, stands firm in its commitment to not collect any personal information or education records. In strict compliance with FERPA:
 
-## Children's Online Privacy Protection Act (COPPA) 
+- We do not access, use, or disclose any education records.
+- Our tools are crafted to ensure that student privacy is respected and protected at all times, and we do not knowingly collect or store any personal information from our users in this context.
 
-We also comply with the Children's Online Privacy Protection Act (COPPA) and do not knowingly collect or store any personal information from children under the age of 13. We do not require any personal information to use our app, and we do not use cookies, third-party tracking, or any other tracking technologies to collect or store user information.
+## Children's Online Privacy Protection Act (COPPA)
+In line with COPPA, Helperbird adopts a zero-tolerance policy towards collecting personal information from children under the age of 13. Our approach is designed to guarantee a safe, enriching online experience without compromising privacy:
 
-Our app is designed to provide users with customizable features to enhance their browsing experience, including color contrast, font size, dyslexia support, and more. We do not sell or share any user information with third parties, and we implement appropriate security measures to protect the privacy and security of user information.
+- **No Personal Information Required**: Our app functions without needing any personal details from our users, ensuring children can safely enhance their browsing without risk.
+- **No Cookies or Tracking**: We stand against the use of cookies, third-party tracking, and any other technologies that could compromise user privacy, and we do not knowingly collect or store any personal information through these means.
 
-If you have any questions or concerns about our privacy practices, please contact us at support@helperbird.com.
+## Ensuring Privacy for All Ages
+Understanding the importance of accessibility and privacy for users of all ages, Helperbird is committed to the principles set by COPPA and FERPA. We strive to create a safe and accessible online environment for everyone, including the most vulnerable users:
 
-Note: We do not use third-party tracking or software.
+### For Basic Features
+We offer our services without requiring a login, ensuring that these tools are readily accessible to all users. This approach allows us to not knowingly collect or store any personal information, ensuring ease of access while maintaining strict privacy.
+
+### For Helperbird Pro 
+Those interested in Helperbird Pro can sign up at [Helperbird.com/pricing/](/pricing/). The signup process is conducted through our secure payment processor, Stripe, to guarantee a safe and compliant experience. For users under 13, additional steps, including the requirement for parental or guardian consent, are in place to ensure safety and compliance with legal standards.
+
+### In-App (Extension) Verification
+After signing up, users of the Helperbird extension are given the option to allow email verification associated with their browser profile. This process is crucial for accessing Pro features but is designed with privacy at its core. We do not engage in tracking or storing personal information, underscoring our commitment to not knowingly collect or store any personal data.
+
+### Subscription Key Method
+For users preferring to maintain their privacy, we offer a subscription key method as an alternative. This option provides access to Pro features without the need to disclose an email address, aligning with our commitment to privacy and user choice.
+
+## Continuous Compliance and Improvement
+We are continuously working to ensure our services comply with the latest standards, conducting regular reviews and updates to our practices. This commitment to ongoing improvement helps us stay in line with compliance laws and maintain the highest levels of privacy and security for our users.
+
+## Have Questions or Concerns?
+Your trust and safety are paramount to us. For any inquiries or feedback regarding our privacy practices or how we comply with FERPA and COPPA, please reach out to us at [support@helperbird.com](/support/). We're here to ensure your experience with Helperbird is secure, private, and enriching for all.
+
+Note: Helperbird does not use third-party tracking or software.
+
