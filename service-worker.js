@@ -1632,7 +1632,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-productivity-extensions-for-safari/index.html",
-    "revision": "e9eb6e02e3644ab6b7c94dbd4f9a117b"
+    "revision": "101fa20853b238758b364cb6dc212576"
   },
   {
     "url": "blog/top-productivity-extensions-for-safari/index.png",
@@ -1692,7 +1692,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.html",
-    "revision": "51b41ed432885bd55af38da10cdfdfda"
+    "revision": "592045502defc1730f3bb015bc27eda1"
   },
   {
     "url": "compliance/index.png",
@@ -2112,7 +2112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.html",
-    "revision": "5d69f3bfdfa373824856ca05ed6064c9"
+    "revision": "36001090490b6770d4b58f6e81c8b2e4"
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.png",
@@ -2776,7 +2776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.html",
-    "revision": "7ece6caf5ceea88b3ff774ef59183fe3"
+    "revision": "4e693ba40902ba02f682840c2da3b929"
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.png",
@@ -2800,7 +2800,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.html",
-    "revision": "77d16dbef069e0d9920512189fd88807"
+    "revision": "a82e85096780f7d38f57a06ac4957fc9"
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.png",
@@ -2940,7 +2940,7 @@ self.__precacheManifest = [
   },
   {
     "url": "privacy/index.html",
-    "revision": "3398be86748216c83b6c226551888795"
+    "revision": "b3c30ae52e239cd54c62e469b9b4950f"
   },
   {
     "url": "privacy/index.png",
@@ -3012,7 +3012,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "3b969e8a1046b7601eec9ea5a7b95605"
+    "revision": "a6b01a5c7944eaf8d51e031b05fdc28c"
   },
   {
     "url": "reviews/index.png",
@@ -3104,7 +3104,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.html",
-    "revision": "e0acad76726c5cd749650d22793ce8a5"
+    "revision": "fb8fe4c65fd717262dcc44cec7702548"
   },
   {
     "url": "terms-of-service/index.png",
