@@ -9,7 +9,7 @@ url: blog/how-to-use-immersive-reader-in-google-docs/
 tags: blog
 isBlog: true
 blog_cat: Guide
-youtubeId: PfILiWebkuc
+youtubeId: pFF3t3i-7Ik
 cardTitle: How to Use Immersive Reader in Google Docs, Step-by-Step Guide
 blog_snip: Learn how to use Immersive Reader in Google Docs for free. Follow our step-by-step guide to enable and utilize this powerful dyslexia software tool.
 cat: Guide

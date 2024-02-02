@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Immersive Reader for Chrome, Edge, Firefox, iPad & iPhone
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/immersive.svg"
-youtubeId: PfILiWebkuc
+youtubeId: pFF3t3i-7Ik
 cardTitle: Immersive Reader
 featureDescription: Unlock enhanced reading comprehension across all platforms with Helperbird's Immersive Reader feature. Use Microsoft's Immersive Reader on any website or PDF to elevate reading fluency and understanding. Compatible with Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
