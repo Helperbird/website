@@ -248,9 +248,11 @@ No Cookies or Tracking in App: Helperbird prioritizes user privacy by not employ
 **YouTube Videos in Privacy-Enhanced Mode:** To further safeguard privacy, all YouTube videos embedded on our site are in privacy-enhanced mode. This prevents the tracking of viewing behavior.
 
 ### Contacting Us for Privacy Concerns
+
 **Reach Out with Questions:** Users with privacy-related inquiries are encouraged to contact us directly at [support@helperbird.com](/support/). We're here to address your concerns and provide clarity on our practices.
 
 ### Updates to Our Privacy Policy
+
 **Staying Informed:** Changes to our Privacy Policy will be communicated through various channels to ensure our users are always informed. 
 
 Look out for updates via:

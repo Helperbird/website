@@ -18,60 +18,101 @@ keywords:
 url: security/
 isBlog: true
 blog_cat: ''
-blog_snip: Helperbird security promises and details..
+blog_snip: Helperbird security promises and details.
 ---
 
 
 ## Overview
 
-At Helperbird, we take the privacy and security of our users very seriously. We do not track, collect or store any personal data, and we don't use any third-party apps or Google Analytics.
+Your safety and privacy are super important to us. Plus, we want to make sure you have a great time using our app. Here's how we keep things secure and private, in a way that's easy for everyone to understand.
 
-All data stored locally is for the sole purpose of customizing your experience and providing educational resources.
 
-We require your email address to verify your payment status through Stripe. However, we do not process or store this information.
+## Email and Payments
 
-Our AWS node server provides additional security measures.
+When you decide to use Helperbird Pro, we usually need your email. This helps us check if your payment or school status is good to go with Stripe. But guess what? If you’re not keen on sharing your email, there’s another way! You can use a [subscription key](https://www.helperbird.com/help/how-to-use-my-subscription-key/) instead. 
 
-## Personal Data Collection
+We respect your choice, so it's totally up to you. And just so you know, we don't keep or process your email info ourselves. It's just a step for when you’re getting started with Helperbird Pro.
 
-We do not collect, use, save, or have access to any of your data recorded in Helperbird for Chrome, Firefox, Edge, iPad, or iPhone.
 
-Individual settings relating to the Helperbird apps are not personal and are stored only on your device.
+---
 
-You may be prompted to grant access to your email and modify the current webpage. This is only to check your payment status and implement changes you requested. We do not process or have access to this information.
 
-## Security Measures
+## Enhanced Performance and Security
+**Why AWS CloudFront?** We’ve chosen AWS CloudFront because it’s more than just a fast content delivery network. It’s a secure pathway that ensures your data travels safely across the internet. This technology protects against network and application-level attacks, meaning your information is guarded as it reaches you, no matter where you are in the world.
 
-Helperbird has taken extensive measures to protect your data from loss, misuse, and alteration. These measures include the use of secure payment servers and other reasonable and necessary steps.
+**Global Reach, Local Speed**: AWS CloudFront delivers your data from the nearest location to ensure speed without compromising security. This means faster app performance and robust protection against intrusion, ensuring a seamless and safe experience.
 
-All Helperbird employee accounts have two-step verification, and our code is regularly reviewed and verified for malware by Google, Firefox, iPhone, iPad, and Microsoft.
+---
 
-All packages and servers are updated biweekly, and we perform regular security checks.
+## Employee Security Measures
 
-## Data Storage
+### Dual-Layer Protection
+Our team employs two-step verification, an essential security layer that requires not just a password but also a second form of identification. This could be a code sent to a phone or a fingerprint. It’s like having two locks on your door; even if someone gets past the first, the second one keeps your data secure.
 
-All Helperbird settings and information are stored locally in your browser, and we do not send any information to a remote server.
+### Continuous Security Training
+Our employees undergo regular security training to stay ahead of the latest threats. This proactive approach means we’re not just reacting to threats; we’re preventing them, ensuring our team is a strong line of defense for your data.
 
-If you remove a user from your Workspace, all settings are deleted and cleared from the browser.
+---
 
-## Processing
+## Advanced Secure Coding Practices
 
-We use Stripe to process payments, and we only require your email address to verify your subscription status. We do not process or store this information.
+### Building a Fortified App
+Our commitment to security extends to the very core of our app. By employing secure coding practices, we ensure that every line of code is scrutinized for vulnerabilities. Our developers are trained in the latest security techniques, ensuring they build with defense in mind.
 
-## Data Breach Plan
+### Regular Security Audits 
+We don’t just build and forget; we continuously review and improve our code. Regular security audits allow us to identify and fix potential vulnerabilities, ensuring the app remains a fortress against cyber threats.
 
-In the event of a data breach, we have response steps and a plan, which we will make public soon. If you would like to view it earlier, please contact robert.gabriel@helperbird.com.
+### Staying Ahead of the Curve
+The digital landscape is always changing, and so are the tactics of those looking to exploit it. That’s why we commit to ongoing education and updates in our security practices. By staying informed about the latest security trends and adapting our strategies accordingly, we ensure that our app and your data stay safe.
+
+---
+
+## Privacy by Design
+
+### No Storage of Personal Info (Except for Stripe Payments)
+We really care about keeping your personal details private. So, we only ask for the information we absolutely need. When it comes to paying for Helperbird Pro, we use Stripe - a payment service we trust to handle your payment details safely and efficiently. Apart from what's needed for Stripe, we don't keep any of your personal info.
+
+### Helping Protect Privacy for Everyone
+Through our open-source project, we contribute to privacy enhancement by developing tools that remove Personally Identifiable Information (PII) from datasets. This effort underlines our dedication to both user privacy and the broader community's security.
+
+---
+
+## Ongoing Vigilance
+
+### Regular Updates and Reviews
+We maintain the security and performance of our app with regular updates and code reviews. This proactive approach allows us to address vulnerabilities swiftly, ensuring ongoing security for our users.
+
+### Data Breach Plan
+Our comprehensive data breach plan outlines immediate actions to protect your information, demonstrating our commitment to your security even in the face of potential threats.
+
+---
 
 ## Compliance with COPPA & FERPA
 
-Helperbird applications do not collect personal information from anyone, including children under the age of 13, and are compliant with the Children’s Online Privacy Protection Act (COPPA) and Family Educational Rights and Privacy Act (FERPA).
+We ensure that Helperbird applications are safe for all users, including children. Compliant with the [Children’s Online Privacy Protection Act (COPPA)](/compliance/) and the Family Educational Rights and Privacy Act (FERPA), we do not collect personal information from anyone, especially children under the age of 13. Our commitment to these standards underscores our dedication to user privacy and security across all age groups. [You can read more on our statementhere](/compliance/)
+
+
+--- 
 
 ## Links to Other Websites
+Please be aware that our website may feature links to external websites. While we aim to link only to sites that share our high standards for [privacy](/privacy/) and [security](/security/), once you navigate away from our site, we cannot be responsible for the protection and privacy of any information you provide to other sites. 
 
-Our website may contain links to other websites, but once you leave our site, we are not responsible for the protection and security of any information you provide to other sites.
+We encourage you to exercise caution and review the privacy statements of websites you visit to ensure your information is secure.
 
-Please exercise caution and review the security statements of any website you visit.
 
-## Contact Us
+---
 
-If you have any questions or concerns about this security statement, please contact us at robert.gabriel@helperbird.com.
+
+## Our Promise to You
+At Helperbird, our mission is to safeguard your data, protect your privacy, and provide a secure yet enjoyable experience with our app. 
+
+We achieve this by implementing advanced security measures, strictly following privacy laws, and promoting an open, transparent culture. If you ever come across a security issue, please don't hesitate to let us know. 
+
+You can reach out to us via live chat, email, or phone. Your input is invaluable as it helps us maintain the safety and integrity of our services. As your trusted partner in the digital world, we're here to ensure your journey with us is safe and secure.
+
+
+----
+
+
+## Questions? Concerns?
+Your security and [privacy](/privacy/) are paramount to us. Should you have any questions or concerns, please reach out to us at [robert.gabriel@helperbird.com](mailto://robert.gabriel@helperbird.com). We're committed to providing you with the support you need.
