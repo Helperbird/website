@@ -192,15 +192,19 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/images/blog/how-to-use-immersive-reader-in-google-docs/highlight-the-text-in-google-docs-to-use-immersive-reader.png",
-    "revision": "d4feea127680ec3423e8d96eb214ca5b"
+    "revision": "d702e9b1c4509d622a884e3305c87318"
   },
   {
     "url": "assets/images/blog/how-to-use-immersive-reader-in-google-docs/how-to-turn-on-helperbirds-google-toolbar.png",
-    "revision": "1b402b9cdb3bed51128abb621566f7d7"
+    "revision": "8f54bc47a1c4ffae61de3ce4612413dd"
   },
   {
     "url": "assets/images/blog/how-to-use-immersive-reader-in-google-docs/immersive-reader-loading-in-google-docs.png",
-    "revision": "0f9bf5412758d71f41c9b963c6bfe639"
+    "revision": "12e0962df1aa1ed8944b61f2feeb90a0"
+  },
+  {
+    "url": "assets/images/blog/how-to-use-immersive-reader-in-google-docs/Screenshot 2024-02-01 at 11.52.18 PM.png",
+    "revision": "12e0962df1aa1ed8944b61f2feeb90a0"
   },
   {
     "url": "assets/images/blog/immersive-reader-marketing-alexs-story/immersive-reader.png",
@@ -1508,7 +1512,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.html",
-    "revision": "09ef0dfb42f6a3a03f5f367e6fed51e3"
+    "revision": "5ccf533ed50a0994b17df6cf708fbb80"
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.png",
@@ -1524,7 +1528,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "0ea700a3ea950bf7ad5ea7cc44713c8d"
+    "revision": "2ebe49bcd392f3ad419d611144f47e5f"
   },
   {
     "url": "blog/index.png",
@@ -3056,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "181b51f31c6e41668ec25890b51db481"
+    "revision": "c501fcf328e0a47ee2a9d517aa0cf639"
   },
   {
     "url": "sitemap/index.png",
