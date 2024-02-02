@@ -1524,7 +1524,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "d6b5c074946b7ad454c5f9e19200d10b"
+    "revision": "6738ea20de9bca86ca7df8ccef051e09"
   },
   {
     "url": "blog/index.png",
