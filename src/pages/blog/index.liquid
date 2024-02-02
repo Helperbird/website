@@ -32,8 +32,11 @@ url: blog/
 
 
 <div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none md:grid-cols-3 lg:grid-cols-4 mt-16 mb-16 ">
+  {% assign sortedBlogPosts = collections.blog | sort: 'date' | reverse %}
 
-  {%- for post in collections.blog -%}
+
+    {% for post in sortedBlogPosts %}
+
 
     <div class="card bg-white rounded-xl overflow-hidden flex flex-col">
       <figure class="p-4">
@@ -43,6 +46,7 @@ url: blog/
       <div class="card-body tw-p-4 flex flex-col flex-grow">
           <h3 class="card-title font-bold">{{ post.data.cardTitle }}</h3>
           <div class="badge badge-secondary">{{ post.data.blog_cat }}</div>
+          <div class="badge badge-primary">{{post.data.date | formatDateWithOrdinal }}</div>
           <p class="my-6 text-base text-black overflow-hidden line-clamp-3 mb-4 mt-4">{{ post.data.blog_snip }}</p>
     
               <div class="card-actions justify-end mt-4">
