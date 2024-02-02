@@ -87,6 +87,10 @@ self.__precacheManifest = [
     "revision": "40adf89bfd7961eab055fa60e45dffa8"
   },
   {
+    "url": "assets/images/blog/headsup/immersive-reader-too.png",
+    "revision": "1f49694a1a572adf6d0bf6a184d7bfb0"
+  },
+  {
     "url": "assets/images/blog/helperbird-dyslexia-solutions-jamies-story/helperbird-ruler.png",
     "revision": "6f0c61d8c02ae8fa1524fb1581ab842b"
   },
@@ -1423,6 +1427,14 @@ self.__precacheManifest = [
     "revision": "3a55e0a35d3efcfe157510a0db9204b6"
   },
   {
+    "url": "blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/index.html",
+    "revision": "3b05c5606d2749d7e4ac96bbd968d17f"
+  },
+  {
+    "url": "blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/index.png",
+    "revision": "cf0431ff27105717a9479a773e4b30fd"
+  },
+  {
     "url": "blog/helperbird-dyslexia-solutions-jamies-story/index.html",
     "revision": "96b3590954146687034d240864dee5d8"
   },
@@ -1512,7 +1524,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "c712abaace10dafa35324eff271a5464"
+    "revision": "d6b5c074946b7ad454c5f9e19200d10b"
   },
   {
     "url": "blog/index.png",
@@ -3044,7 +3056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "e9cb6d83404b974cea74da1fef3a6291"
+    "revision": "42c417dd72eb844f8730dfea95850b9c"
   },
   {
     "url": "sitemap/index.png",

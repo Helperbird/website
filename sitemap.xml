@@ -828,6 +828,13 @@
     </url>
   
     <url>
+      <loc>http://localhost:3000/blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/</loc>
+      <lastmod>2024-02-02</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:3000/404.html</loc>
       <lastmod>2024-02-02</lastmod>
       <changefreq>monthly</changefreq>
