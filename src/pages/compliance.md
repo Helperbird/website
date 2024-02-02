@@ -27,14 +27,21 @@ At Helperbird, we take privacy and security seriously — not just as a policy, 
 ## Family Educational Rights and Privacy Act (FERPA)
 Our browser extension, designed to enhance the browsing experience, stands firm in its commitment to not collect any personal information or education records. In strict compliance with FERPA:
 
-- **We do not access, use, or disclose any education records.**
-- Our tools are crafted to ensure that student privacy is respected and protected at all times, and we do not knowingly collect or store any personal information from our users in this context.
+### We do not access, use, or disclose any education records.
+Our tools are crafted to ensure that student privacy is respected and protected at all times, and we do not knowingly collect or store any personal information from our users in this context.
+
+---
 
 ## Children's Online Privacy Protection Act (COPPA)
 In line with COPPA, Helperbird adopts a zero-tolerance policy towards collecting personal information from children under the age of 13. Our approach is designed to guarantee a safe, enriching online experience without compromising privacy:
 
-- **No Personal Information Required**: Our app functions without needing any personal details from our users, ensuring children can safely enhance their browsing without risk.
-- **No Cookies or Tracking**: We stand against the use of cookies, third-party tracking, and any other technologies that could compromise user privacy, and we do not knowingly collect or store any personal information through these means.
+### No Personal Information Required 
+Our app functions without needing any personal details from our users, ensuring children can safely enhance their browsing without risk.
+
+### No Cookies or Tracking
+We stand against the use of cookies, third-party tracking, and any other technologies that could compromise user privacy, and we do not knowingly collect or store any personal information through these means.
+
+---
 
 ## Ensuring Privacy for All Ages
 Understanding the importance of accessibility and privacy for users of all ages, Helperbird is committed to the principles set by COPPA and FERPA. We strive to create a safe and accessible online environment for everyone, including the most vulnerable users:
@@ -54,6 +61,7 @@ For users preferring to maintain their privacy, we offer a subscription key meth
 ## Continuous Compliance and Improvement
 We are continuously working to ensure our services comply with the latest standards, conducting regular reviews and updates to our practices. This commitment to ongoing improvement helps us stay in line with compliance laws and maintain the highest levels of privacy and security for our users. 
 
+---
 
 ## Verifiable Parental Consent
 
