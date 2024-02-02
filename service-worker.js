@@ -1692,7 +1692,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.html",
-    "revision": "4cbd382699c11991467c48e76bd33d45"
+    "revision": "b60426cc8234fdc3ab57f909c4ea0cfc"
   },
   {
     "url": "compliance/index.png",
