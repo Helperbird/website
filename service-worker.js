@@ -1512,7 +1512,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.html",
-    "revision": "5ccf533ed50a0994b17df6cf708fbb80"
+    "revision": "bef360fe8ab3b226357f5c6fa6b70049"
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.png",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/immersive-reader-for-chrome/index.html",
-    "revision": "9928b75256f41f17265912478d124529"
+    "revision": "f47014a86afa16d00d3feb145c77d68d"
   },
   {
     "url": "features/immersive-reader-for-chrome/index.png",
