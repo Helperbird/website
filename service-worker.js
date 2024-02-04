@@ -1752,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/adjust-letters-and-words/index.html",
-    "revision": "612d8487208eec40f5ce62110426e145"
+    "revision": "f45ee716015592182677d188fd565c4d"
   },
   {
     "url": "features/adjust-letters-and-words/index.png",
@@ -1760,7 +1760,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/alt-tool-tip-highlighter/index.html",
-    "revision": "d9fcf08542735d039407d8826b954302"
+    "revision": "3a8809df9eafae00b9be9ddbb2e13082"
   },
   {
     "url": "features/alt-tool-tip-highlighter/index.png",
@@ -1768,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/analyze/index.html",
-    "revision": "410287ef620627676a894496ceb6224a"
+    "revision": "bed67e4aab192e5953e81b850e961751"
   },
   {
     "url": "features/analyze/index.png",
@@ -1776,7 +1776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/annotation/index.html",
-    "revision": "ab06cc0b4ff576702a07f12484000cb4"
+    "revision": "6301aa1481bbd32627949e17020627ab"
   },
   {
     "url": "features/annotation/index.png",
@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/auto-scroll/index.html",
-    "revision": "878c23de421087857a434728d5a62a9b"
+    "revision": "1270cb8ad0ed5460f0ac63362efcc89b"
   },
   {
     "url": "features/auto-scroll/index.png",
@@ -1792,7 +1792,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/bookmarks/index.html",
-    "revision": "bfa333b75a0ef9ca335c8a0df24dc468"
+    "revision": "050a126e80411af6c4c54cd1dd6ace71"
   },
   {
     "url": "features/bookmarks/index.png",
@@ -1800,7 +1800,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/color-blindness/index.html",
-    "revision": "7bc0f18a464105c7b849722b49cf0fcd"
+    "revision": "acbe075052abd37deaecfab674818bf3"
   },
   {
     "url": "features/color-blindness/index.png",
@@ -1808,7 +1808,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/cursor-control/index.html",
-    "revision": "2e75e1a4a72f4d5ca6054db3c5ee0401"
+    "revision": "b205cbda22258688bd69f680cc9e9e03"
   },
   {
     "url": "features/cursor-control/index.png",
@@ -1816,7 +1816,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/dictionary/index.html",
-    "revision": "a0d1e82cece1f640f833ce18fdedf049"
+    "revision": "07a8dc4c5d90c3611a4940456f6ed1f5"
   },
   {
     "url": "features/dictionary/index.png",
@@ -1824,7 +1824,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/editor/index.html",
-    "revision": "5a93a07285d5725f1c35ad61e9aa1b80"
+    "revision": "954f800a9949a4023b8822f9043e057a"
   },
   {
     "url": "features/editor/index.png",
@@ -1832,7 +1832,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/font-sizes/index.html",
-    "revision": "62a6679c416d25383d0efbc6577a3a9c"
+    "revision": "9ddcf61efd21719d92a109d8324320c0"
   },
   {
     "url": "features/font-sizes/index.png",
@@ -1840,7 +1840,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/google-translate/index.html",
-    "revision": "6c65980bde34adb1468faded8160f9c9"
+    "revision": "68e4685547fa4fa8ec78f8fc9923f504"
   },
   {
     "url": "features/google-translate/index.png",
@@ -1848,7 +1848,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/gray-hue-overlay/index.html",
-    "revision": "a7f596959f81992fbc2469ec4021fc01"
+    "revision": "0c079c5d9120887cdfd1c706324ca57c"
   },
   {
     "url": "features/gray-hue-overlay/index.png",
@@ -1856,7 +1856,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/hide-images/index.html",
-    "revision": "ee1e34244701fa25c11c0bd3ba2b40ec"
+    "revision": "f2b8d65e4af2e55277a43364ce719332"
   },
   {
     "url": "features/hide-images/index.png",
@@ -1864,7 +1864,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/high-contrast/index.html",
-    "revision": "86df9a1fa3d9b5d06176279a2581edee"
+    "revision": "d86de61e32ef8c3230fbd09af408fc99"
   },
   {
     "url": "features/high-contrast/index.png",
@@ -1872,7 +1872,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-menu/index.html",
-    "revision": "6d5117b39261cf78884fa9da188f624d"
+    "revision": "355dcbec93621a79f4e08d61f906d5f4"
   },
   {
     "url": "features/highlight-menu/index.png",
@@ -1880,7 +1880,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-paragraphs/index.html",
-    "revision": "f414e9b8abe4c65a72cb5ded750a9197"
+    "revision": "7531678629e0f99422a25095ae4e0183"
   },
   {
     "url": "features/highlight-paragraphs/index.png",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/immersive-reader-for-chrome/index.html",
-    "revision": "f47014a86afa16d00d3feb145c77d68d"
+    "revision": "08036a32a55ad5497a0b31c398039656"
   },
   {
     "url": "features/immersive-reader-for-chrome/index.png",
@@ -1904,7 +1904,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/mute-videos/index.html",
-    "revision": "8d215d3a49f5f1b8308005071d2d8589"
+    "revision": "37f7727bc44c59831c130ddf5db93f6c"
   },
   {
     "url": "features/mute-videos/index.png",
@@ -1912,7 +1912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/notes/index.html",
-    "revision": "bb15361f047700e89fd6c39c4c784b3a"
+    "revision": "c4a34df7ebc3bb0bbc317aa9ba8bbbe1"
   },
   {
     "url": "features/notes/index.png",
@@ -1920,7 +1920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/optical-character-recognition/index.html",
-    "revision": "44d0ba6f77968d2a79ba1e1c505b1f86"
+    "revision": "837b65e28c55a8baa2aedbaaa492facd"
   },
   {
     "url": "features/optical-character-recognition/index.png",
@@ -1928,7 +1928,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/overlay/index.html",
-    "revision": "cfd5c953da49c0999106cc831757525b"
+    "revision": "59564a1f52171dcf69a5d306c6cfb3e2"
   },
   {
     "url": "features/overlay/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/paragraph-widths/index.html",
-    "revision": "9531a5bf15963cdfc9178e01965c5258"
+    "revision": "d32b7f1dcb3fefa1cfb15cfc75633f27"
   },
   {
     "url": "features/paragraph-widths/index.png",
@@ -1944,7 +1944,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/pdfs/index.html",
-    "revision": "b184711a10a5091c00849aefaca03064"
+    "revision": "0412ec48f52ce0a8f15780a2bdadd0fe"
   },
   {
     "url": "features/pdfs/index.png",
@@ -1952,7 +1952,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/printing-tool/index.html",
-    "revision": "303e04321f752f72de5b5dc657542f32"
+    "revision": "5599a28ddf5bd5c09b56d1602c7e602d"
   },
   {
     "url": "features/printing-tool/index.png",
@@ -1960,7 +1960,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/privacy/index.html",
-    "revision": "9f67d50d6001720795d2ce6550534e6d"
+    "revision": "6d913425986a8f484953efcb5bc94eab"
   },
   {
     "url": "features/privacy/index.png",
@@ -1968,7 +1968,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reading-guide/index.html",
-    "revision": "a96411c96d7a25c84e0e74784dcbdf09"
+    "revision": "9d0b39a2b81bbb60b0416d3423c5c849"
   },
   {
     "url": "features/reading-guide/index.png",
@@ -1976,7 +1976,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reading-mode-for-chrome-and-firefox/index.html",
-    "revision": "aadd99a7f983c64e5a9175a2adeb0642"
+    "revision": "35f335264d1ac4649f37da2dbb3c5dcd"
   },
   {
     "url": "features/reading-mode-for-chrome-and-firefox/index.png",
@@ -1984,7 +1984,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reword-and-simplify-websites/index.html",
-    "revision": "c971e074ed44fe3dc136381c14e1b962"
+    "revision": "f3c745bc05d166d7e16bf57f877f3882"
   },
   {
     "url": "features/reword-and-simplify-websites/index.png",
@@ -1992,7 +1992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/ruler/index.html",
-    "revision": "512a14438089ce4a8eb46098fe3bb8ca"
+    "revision": "5866e241627f88addeab42d31f1fe47e"
   },
   {
     "url": "features/ruler/index.png",
@@ -2000,7 +2000,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/screenshot/index.html",
-    "revision": "43cbd408993ced30f52838b9668834c2"
+    "revision": "800824959a3556c3e5209242ef4b918f"
   },
   {
     "url": "features/screenshot/index.png",
@@ -2008,7 +2008,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/shortcuts/index.html",
-    "revision": "24a23d0bd05b78fac4e65ee464b0e400"
+    "revision": "e9e6badc838291f2c4a103a190ee8f99"
   },
   {
     "url": "features/shortcuts/index.png",
@@ -2016,7 +2016,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.html",
-    "revision": "605a493ffa1573fe6fee469e087cd4be"
+    "revision": "53ab602cad5653f947b41b1037aeaba1"
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.png",
@@ -2024,7 +2024,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speech-to-text/index.html",
-    "revision": "1073fd670255b486095da2847f278883"
+    "revision": "508c892a59ae14f842ec1ecdb4ad40cf"
   },
   {
     "url": "features/speech-to-text/index.png",
@@ -2032,7 +2032,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speed-reading-extension/index.html",
-    "revision": "716bc435c2c170e1355ac86a94ed8748"
+    "revision": "ff778c4d6d28cd82a6b4ecceeb381491"
   },
   {
     "url": "features/speed-reading-extension/index.png",
@@ -2040,7 +2040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/spell-check/index.html",
-    "revision": "b17d7c3b5fcc5ff45b9ffec1ea6a74e6"
+    "revision": "7928b4b3fa96247d933a1c84aba32c5d"
   },
   {
     "url": "features/spell-check/index.png",
@@ -2048,7 +2048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/styles/index.html",
-    "revision": "868e6a10ec6625ed1613bde75fa5d197"
+    "revision": "425760b2977798962674bb01138b70db"
   },
   {
     "url": "features/styles/index.png",
@@ -2056,7 +2056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/summarizing-tool/index.html",
-    "revision": "5de8c1bf1aa8fc0c3a06b46202f51e16"
+    "revision": "14c33f2faf14d611c965002f8131f3f1"
   },
   {
     "url": "features/summarizing-tool/index.png",
@@ -2064,7 +2064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/text-align/index.html",
-    "revision": "6d6f1eb425587b3f92ecd78bb250fa5f"
+    "revision": "c3a8f4f4e702c6c1ca558a8309338a67"
   },
   {
     "url": "features/text-align/index.png",
@@ -2072,7 +2072,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/text-to-speech/index.html",
-    "revision": "253694b28889a13069bc1ac1bcc268f7"
+    "revision": "ab6421c636291652956536cefdae3508"
   },
   {
     "url": "features/text-to-speech/index.png",
@@ -2080,7 +2080,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/web-highlighter-and-pdfs/index.html",
-    "revision": "677c0a8c3ac479b866e64a6d44dbfbf8"
+    "revision": "58bda17e8ef178e3aa8746ec5fdf846b"
   },
   {
     "url": "features/web-highlighter-and-pdfs/index.png",
@@ -2088,7 +2088,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/word-prediction/index.html",
-    "revision": "1416ebd3bf43861aa41c8d4c598da221"
+    "revision": "410e8cb725ffcdaa040665472b96c296"
   },
   {
     "url": "features/word-prediction/index.png",
@@ -2096,7 +2096,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/zoom/index.html",
-    "revision": "bfd8ed03eaed6498f50b4cd04c1d2fff"
+    "revision": "03f1738598bc4c1f382a5331ad7460d1"
   },
   {
     "url": "features/zoom/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "c501fcf328e0a47ee2a9d517aa0cf639"
+    "revision": "6fa858c681b100fa0c9d1ffa16bb52da"
   },
   {
     "url": "sitemap/index.png",
