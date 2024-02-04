@@ -2,7 +2,7 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Use Immersive Reader by Microsoft on any Website or PDF
+title: Immersive Reader by Microsoft extension on any Website or PDF
 description: Unlock enhanced reading comprehension across all platforms with Helperbird's Immersive Reader feature. Use Microsoft's Immersive Reader on any website or PDF to elevate reading fluency and understanding. Compatible with Chrome, Edge, Firefox, iPad, and iPhone.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Immersive Reader for Chrome, Edge, Firefox, iPad & iPhone
