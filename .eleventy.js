@@ -146,13 +146,13 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl   text-black  mb-2 font-bold',
-		h2: 'leading-relaxed font-display text-2xl text-black mb-4 mt-10 font-extrabold',
-		h3: 'leading-relaxed font-display text-xl text-black mb-2 font-bold mt-10',
-		h4: 'leading-relaxed font-display text-xl text-black  font-semibold mt-5',
-		p: 'leading-relaxed font-display text-black my-6 mb-6 mt-6 text-lg font-display ',
-		strong: 'text-black text-base text-lg',
-		bold: 'text-black',
+		h1: 'leading-relaxed font-display text-3xl    mb-2 font-bold',
+		h2: 'leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold',
+		h3: 'leading-relaxed font-display text-xl   mb-2 font-bold mt-10',
+		h4: 'leading-relaxed font-display text-xl  font-semibold mt-5',
+		p: 'leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ',
+		strong: '  text-base text-lg',
+		bold: ' ',
 		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ',
 		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
 		li: 'leading-relaxed mb-4 mt-4 text-lg font-display ',
