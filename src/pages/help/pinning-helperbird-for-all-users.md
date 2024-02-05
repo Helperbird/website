@@ -12,7 +12,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:  Pinning Helperbird
 featureDescription: Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.
 

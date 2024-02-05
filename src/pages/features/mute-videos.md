@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Silence Distractions, Mute Annoying Auto-playing Videos with Ease 
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/mute.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Control Video and Audio
 featureDescription: Silence distractions and take control of playback speeds with Helperbird's Mute Videos and Audio feature. Mute annoying auto-playing videos and adjust their speed for a tailored browsing experience. Available on Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading

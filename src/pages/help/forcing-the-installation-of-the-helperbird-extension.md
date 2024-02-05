@@ -15,7 +15,7 @@ name: "Robert James Gabriel "
 tags: adminTools
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:36:26.826Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Installing through G Suite
 featureDescription: Learn how to force install the Helperbird extension across
   your G Suite organization. Get step-by-step instructions to ensure universal

@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Editor
 featureDescription: Discover how to use the Helperbird Editor app to create, edit and delete documents. Export them to Markdown, Word, Google Docs and more.
 tags: guideApps

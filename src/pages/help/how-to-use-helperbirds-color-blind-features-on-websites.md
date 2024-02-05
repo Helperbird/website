@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Color Blindness
 featureDescription: Learn how to add Color blindness support to websites with Helperbirds browser extension.
 date: 2018-01-03

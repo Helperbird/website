@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Speed reading
 featureDescription: Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
 date: 2022-04-01

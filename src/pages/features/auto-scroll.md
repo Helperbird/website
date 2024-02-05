@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Auto Scroll
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/scroll.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:  Auto Scroll
 featureDescription: Personalize your browsing experience with Helperbird's Customizable Auto Scroll feature. Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your own pace. Available across Chrome, Firefox, Edge, and Safari.
 group: reading

@@ -12,7 +12,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How to deploy Helperbird
 featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.

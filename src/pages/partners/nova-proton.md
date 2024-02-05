@@ -13,7 +13,7 @@ img: /assets/images/partners/nova.jpeg
 url: partners/nova-proton/
 isBlog: false
 blog_cat: Helperbird partner
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: NovaProton
 blog_snip: ''
 website: https://www.theproton.space

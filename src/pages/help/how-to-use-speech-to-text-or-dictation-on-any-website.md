@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Voice typing
 featureDescription: How to use Voice typing or dictation on a website with Helperbirds browser extension.
 date: 2019-01-02

@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: What is Helperbird Pro?
 featureDescription:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.

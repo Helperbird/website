@@ -9,7 +9,7 @@ url: blog/thanksgiving-message-from-helperbird/
 tags: blog
 isBlog: true
 blog_cat: Guide
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Thanksgiving Day Message from Helperbird
 blog_snip: On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most grateful for this year.
 cat: Essay

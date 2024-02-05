@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Enhance Your Visual Comfort with Customizable Overlays & Tints from Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/overlay.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Overlays & Tints
 featureDescription: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
 group: reading

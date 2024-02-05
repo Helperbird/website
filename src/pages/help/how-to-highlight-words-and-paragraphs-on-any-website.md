@@ -12,7 +12,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Highlighter
 featureDescription: Learn how to usethe Highlighter feature in Helperbird. Highlight any word or paragraph on any website.
 date: 2020-01-05

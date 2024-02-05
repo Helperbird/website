@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Privacy Features
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/blindness.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Robust Privacy Safeguards
 featureDescription: Place your trust in Helperbird's Robust Privacy Safeguards. We're committed to protecting your data and ensure it's neither sold, stored, nor misused. Your privacy is our priority, and we don't store any user-related content.
 group: reading

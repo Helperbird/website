@@ -9,7 +9,7 @@ url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Interview with Helperbird Founder, Robert James Gabriel
 blog_snip: Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal experience with dyslexia inspired the creation of Helperbird.
 cat: Interview

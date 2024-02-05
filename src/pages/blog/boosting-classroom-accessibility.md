@@ -13,7 +13,7 @@ time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Boosting Classroom Accessibility - Discover the Magic of Helperbird
 blog_snip: Education is the cornerstone of every individual's personal and professional development, and it's crucial that everyone, regardless of their abilities or disabilities, have equal access to learning opportunities. However, for many students with special needs, traditional classrooms might not offer the most conducive learning environment. Luckily, in the digital age, technology has taken significant strides towards promoting inclusivity and equal learning opportunities. At the forefront of this transformation is Helperbird, a suite of tools designed to make education more accessible.
 

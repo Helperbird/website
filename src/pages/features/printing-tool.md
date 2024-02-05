@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: One-Click Quick Print
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/print.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Quick Print 
 featureDescription: Transform your printing experience with Helperbird's One-Click Quick Print feature. With a single click, effortlessly print an entire webpage or only your selected content. Eliminate the complexities and frustrations often associated with printing web pages.
 group: reading

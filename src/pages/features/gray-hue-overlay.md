@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Grayscale
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Grayscale
 featureDescription: Minimize eye strain and improve comfort using Helperbird's Grayscale feature. Apply a gray overlay to any website to lessen glare, making your reading experience more enjoyable while reducing visual fatigue.
 group: reading

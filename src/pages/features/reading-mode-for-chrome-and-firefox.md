@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: View clutter-free web pages with productivity tools, using Helperbird's Reading Mode
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/reading-mode.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Reading Mode
 featureDescription: Experience a cleaner, more focused reading environment with Helperbird's Reading Mode. This feature eliminates ads and other distractions, providing you with a simplified web page layout. Take advantage of added accessibility and productivity tools, including summarization capabilities, to elevate your reading journey.
 

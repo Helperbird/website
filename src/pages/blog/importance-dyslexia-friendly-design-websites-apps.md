@@ -13,7 +13,7 @@ time: '5 min'
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Creating an Inclusive Online Experience, The Importance of Dyslexia-Friendly Design
 blog_snip: Discover why dyslexia-friendly design is crucial for websites and apps. Learn how Helperbird empowers individuals with dyslexia through customizable typography, color contrast adjustments, and dyslexia-friendly tools.
 ---

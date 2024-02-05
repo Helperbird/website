@@ -10,7 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Reading Mode
 featureDescription: Discover how to use Reading Mode in any browser for websites or PDFs using the Helperbird browser extension.
 date: 2022-03-01

@@ -9,7 +9,7 @@ url: blog/creating-accessible-emails-a-step-by-step-guide/
 tags: blog
 isBlog: true
 blog_cat: Guest
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Guide to Creating Accessible Emails for Those with Dyslexia
 blog_snip: When it comes to dyslexia, emails can be a real challenge. From getting the layout just right to knowing how to make the content dyslexia-friendly, it’s important to understand how dyslexic people interact with emails differently.
 img: /assets/images/blog/new-blog-2022/an-8-step-guide-to-creating-accessible-emails-for-those-with-dyslexia.png

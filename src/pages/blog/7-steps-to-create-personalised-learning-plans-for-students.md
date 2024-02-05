@@ -9,7 +9,7 @@ url: blog/7-steps-to-create-personalised-learning-plans-for-students/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: 7 Steps to Create Personalised Learning Plans for Students
 blog_snip: This article outlines seven essential steps for educators to create effective and personalized learning plans, tailored to meet the diverse needs and potential of each student.
 img: /assets/images/blog/7-steps-to-create-personalised-learning-plans-for-students/7-steps-to-create-personalised-learning-plans-for-students.jpeg

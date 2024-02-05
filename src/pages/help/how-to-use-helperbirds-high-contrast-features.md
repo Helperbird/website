@@ -13,7 +13,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: High contrast
 featureDescription: How to use Helperbird high contrast features on any website
 date: 2020-01-05

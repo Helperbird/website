@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Dyslexia Ruler
 featureDescription: Learn how to use a dyslexia ruler on a website or pdf with the Helperbird browser extension.
 date: 2019-01-03

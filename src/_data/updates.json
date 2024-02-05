@@ -1,12 +1,53 @@
 {
 	"new": [
+		{
+			"version": "107.1.0",
+			"date": "February 6th, 2024",
+			"changes": [
+				{
+					"title": "Maths Reader Update: No More Confusion 🤔",
+					"description": "When maths puzzles stump our Maths Reader Beta, it now clearly says 'No Maths Found.' No more guessing games!"
+				},
+				{
+					"title": "Tab Through Image Descriptions 🖼️➡️",
+					"description": "Good news! You can now use the tab key to move through image descriptions easily. It's web surfing made simpler."
+				},
+				{
+					"title": "PDF Fonts: Your Style, Your Choice 📚✍️",
+					"description": "Make PDFs yours by choosing fonts like Lexend and Open Dyslexic. Reading comfort just got a personal touch!"
+				},
+				{
+					"title": "PDFs in Google Drive & Classroom: Open Seamlessly 📂🎓",
+					"description": "Now, Helperbird PDF reader works directly with Google Drive and Classroom. Access and read PDFs without a hitch!"
+				},
+				{
+					"title": "Sliders That Keep Up with You 🎚️💨",
+					"description": "Our sliders now move as fast as you do, updating instantly for a smooth and responsive experience."
+				},
 
+				{
+					"title": "Speed Reading, Now With 100% Less HTML 📖✔️",
+					"description": "Enjoy speed reading without the surprise of HTML snippets. Just pure, focused reading."
+				}
+			],
+			"fixes": [
+				{
+					"title": "No More Random Sticky Notes on Refresh 🚫📝",
+					"description": "We've cleaned up the clutter! Refreshing your tabs no longer brings up unexpected sticky notes."
+				}
+			],
+			"upcoming": [
+				{
+					"title": "Connect With Us: Reddit, Twitter, & YouTube 🌐💬",
+					"description": "Join our Reddit community, follow us on Twitter, and watch our latest YouTube videos for fun, tips, and updates. Let's engage!"
+				}
+			]
+		},
 
 		{
 			"version": "107.0.3",
 			"date": "January 28th 2024",
 			"changes": [
-			
 				{
 					"title": "Increased Limit for Free Users in Immersive Reader",
 					"description": "Big news for our free users! The Immersive Reader's character limit has been bumped up to a generous 2400. More reading, more learning!"
@@ -48,7 +89,7 @@
 					"description": "It's here! Dark Mode arrives in Helperbird, bringing with it a stylish and eye-friendly interface. Perfect for those late-night study sessions or early morning browsing."
 				}
 			],
-			"fixes":[
+			"fixes": [
 				{
 					"title": "Highlight menu bug",
 					"description": "We've squashed a pesky bug! Now, the highlight menu won't interfere with your Immersive Reader experience, making your reading smoother than ever."
@@ -60,73 +101,71 @@
 					"description": "Get ready to be wowed! A brand new Helperbird website is on its way, promising a cleaner and more user-friendly interface. Stay tuned for an online experience like never before!"
 				}
 			]
-		}
-,		
-{
-    "version": "107.0.0",
-    "date": "Janurary 16th 2024",
-    "changes": [
-        {
-            "title": "PDF Reader Just Got an Upgrade!",
-            "description": "Exciting news! Our PDF reader now opens directly from Google Drive and Classroom, and guess what? It supports all the amazing Helperbird features!"
-        },
-        {
-            "title": "Light as a Feather!",
-            "description": "We've worked some magic to make Helperbird super light on your computer. Now saving a whopping 60% on RAM!"
-        },
-        {
-            "title": "Reading Mode Redesigned!",
-            "description": "Our Reading Mode has a fresh new look, and it's better than ever! Nearly all Helperbird features work seamlessly within it."
-        },
-        {
-            "title": "Voice Typing Smooth as Silk",
-            "description": "We've given voice typing a makeover, making it smoother and more intuitive. Speak away effortlessly!"
-        },
-        {
-            "title": "Sticky Notes, Now Stickier and Prettier!",
-            "description": "Our sticky notes have been revamped with better icons and a fresh design. Get ready to stick your thoughts everywhere!"
-        },
-        {
-            "title": "Real-Time App Updates",
-            "description": "We're now updating in real-time! Features not supported in docs or PDFs will be smartly disabled. Keeping things neat and tidy!"
-        },
-        {
-            "title": "Smoother Keyboard Navigation",
-            "description": "We've updated our keyboard navigation to be smoother and more intuitive. Navigate with ease!"
-        },
-        {
-            "title": "Alt Tags Updated App-Wide",
-            "description": "We've refreshed alt tags across the app for a more accessible experience."
-        },
-        {
-            "title": "Immersive Reader at Lightning Speed",
-            "description": "Hold onto your hats! Our Immersive Reader is now faster and remembers your settings!"
-        },
-        {
-            "title": "Modals for Filters and Configuration",
-            "description": "Introducing modals for filters and configuration in the Helperbird apps. Configuring just got a whole lot cooler!"
-        },
-        {
-            "title": "Document Editor Reimagined",
-            "description": "Our document editor has a brand-new look! Enjoy enhanced writing breakdowns, exporting options, and more."
-        }
-    ],
-    "upcoming": [
-        {
-            "title": "Night Owls Rejoice with Dark Mode!",
-            "description": "Get ready for a sleeker, easier-on-the-eyes experience with our upcoming Dark Mode!"
-        },
-        {
-            "title": "Immersive Reader in the OCR Tool",
-            "description": "We're bringing the power of Immersive Reader to our OCR tool. Stay tuned!"
-        },
-        {
-            "title": "Maths Support in Immersive Reader",
-            "description": "Maths is getting friendlier with upcoming support in our Immersive Reader. Math lovers, this one's for you!"
-        }
-    ]
-},
-
+		},
+		{
+			"version": "107.0.0",
+			"date": "Janurary 16th 2024",
+			"changes": [
+				{
+					"title": "PDF Reader Just Got an Upgrade!",
+					"description": "Exciting news! Our PDF reader now opens directly from Google Drive and Classroom, and guess what? It supports all the amazing Helperbird features!"
+				},
+				{
+					"title": "Light as a Feather!",
+					"description": "We've worked some magic to make Helperbird super light on your computer. Now saving a whopping 60% on RAM!"
+				},
+				{
+					"title": "Reading Mode Redesigned!",
+					"description": "Our Reading Mode has a fresh new look, and it's better than ever! Nearly all Helperbird features work seamlessly within it."
+				},
+				{
+					"title": "Voice Typing Smooth as Silk",
+					"description": "We've given voice typing a makeover, making it smoother and more intuitive. Speak away effortlessly!"
+				},
+				{
+					"title": "Sticky Notes, Now Stickier and Prettier!",
+					"description": "Our sticky notes have been revamped with better icons and a fresh design. Get ready to stick your thoughts everywhere!"
+				},
+				{
+					"title": "Real-Time App Updates",
+					"description": "We're now updating in real-time! Features not supported in docs or PDFs will be smartly disabled. Keeping things neat and tidy!"
+				},
+				{
+					"title": "Smoother Keyboard Navigation",
+					"description": "We've updated our keyboard navigation to be smoother and more intuitive. Navigate with ease!"
+				},
+				{
+					"title": "Alt Tags Updated App-Wide",
+					"description": "We've refreshed alt tags across the app for a more accessible experience."
+				},
+				{
+					"title": "Immersive Reader at Lightning Speed",
+					"description": "Hold onto your hats! Our Immersive Reader is now faster and remembers your settings!"
+				},
+				{
+					"title": "Modals for Filters and Configuration",
+					"description": "Introducing modals for filters and configuration in the Helperbird apps. Configuring just got a whole lot cooler!"
+				},
+				{
+					"title": "Document Editor Reimagined",
+					"description": "Our document editor has a brand-new look! Enjoy enhanced writing breakdowns, exporting options, and more."
+				}
+			],
+			"upcoming": [
+				{
+					"title": "Night Owls Rejoice with Dark Mode!",
+					"description": "Get ready for a sleeker, easier-on-the-eyes experience with our upcoming Dark Mode!"
+				},
+				{
+					"title": "Immersive Reader in the OCR Tool",
+					"description": "We're bringing the power of Immersive Reader to our OCR tool. Stay tuned!"
+				},
+				{
+					"title": "Maths Support in Immersive Reader",
+					"description": "Maths is getting friendlier with upcoming support in our Immersive Reader. Math lovers, this one's for you!"
+				}
+			]
+		},
 
 		{
 			"version": "116.0.0",

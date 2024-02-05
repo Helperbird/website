@@ -9,7 +9,7 @@ name: Helperbird Staff
 tags: guideFeaturesMain
 img: assets/images2/uploads/volume-booster-feature.png
 date: 2023-12-02
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Volume Booster
 featureDescription: Discover how to easily increase the volume on any website with Helperbird's Volume Booster feature. Our guide will show you how to turn on the feature and adjust the volume to your preference, ensuring you never miss a beat.
 header: true

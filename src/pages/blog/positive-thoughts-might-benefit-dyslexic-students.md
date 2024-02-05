@@ -9,7 +9,7 @@ url: blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
 isBlog: true
 blog_cat: Guide
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How Positive Thoughts Might Benefit Dyslexic Students
 blog_snip: Explore the potential benefits of positive thinking for dyslexic students and how it can contribute to their overall well-being and academic success.
 cat: Facts

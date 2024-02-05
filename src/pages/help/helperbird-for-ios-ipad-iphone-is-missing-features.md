@@ -16,7 +16,7 @@ name: Helperbird Staff
 tags: iOSHelp
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:51:29.485Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Unlock all features
 featureDescription: Out of the box, Helperbird on iPad & iPhone comes with a
   limited feature set. Explore our guide to unlock the full array of

@@ -17,7 +17,7 @@ url: privacy/
 img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
 isBlog: false
 blog_cat: ''
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Privacy of Helperbird
 blog_snip: Helperbird will never sell or consume any user data.
 ---

@@ -3,7 +3,7 @@ new: true
 header: true
 layout: templates/single_page.liquid
 title: Refund policy
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Refund policy for Helperbird
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never

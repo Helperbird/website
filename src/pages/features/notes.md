@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Organize and Access Your Notes with Helperbird's Note Organizer
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/text-to-speech.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Note Organizer
 featureDescription: Effortlessly keep track of your sticky notes, highlights, and extracted text with Helperbird's Web-Based Note Organizer. Maintain organization and access your notes from any device for a seamless experience.
 group: reading

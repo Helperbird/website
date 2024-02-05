@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: In-Browser Document Editor with Microsoft Word and Google Docs Support
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/editor.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Document Editor
 featureDescription: Manage your documents effortlessly with Helperbird's In Browser Document Editor. Create, edit, and organize text files right within your browser, then export or import to Google Docs, Markdown, and more for ultimate convenience in note-taking and file management.
 group: reading

@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Show Image & Link Descriptions on Mouse Over!
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Show Alt & Image Descriptions
 featureDescription: Streamline your web browsing by showing image and link descriptions on mouse over with Helperbird on any website or PDF. Gain quick insights into content by hovering over images and links.
 group: reading

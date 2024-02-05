@@ -14,7 +14,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Setting Policies
 featureDescription: In enterprise environments, administrators can control Helperbird settings across Windows, ChromeOS, and MacOS platforms using a managed schema.
 date: 2016-01-04

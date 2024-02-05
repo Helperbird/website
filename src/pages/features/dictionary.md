@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: English Dictionary
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/dictionary.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: English Dictionary
 featureDescription: Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up, define, and grasp the meaning of any English word to enrich your reading experience.
 group: reading

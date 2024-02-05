@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Hide Images or GIFs
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/images.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Hide Images and GIFs
 featureDescription: Experience a distraction-free browsing environment with Helperbird's Media Filter feature. Temporarily hide all images or just GIFs on webpages, and easily restore them when you're ready to view.
 group: reading

@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Installing Helperbird
 featureDescription: Discover how to install Helperbird on Google Chrome, Firefox, Safari, and Edge.
 date: 2016-01-04

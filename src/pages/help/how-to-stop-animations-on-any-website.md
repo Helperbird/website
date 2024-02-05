@@ -10,7 +10,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Reduce motion
 featureDescription:
   Learn how to reduce motion on a website with the Helperbird browser extension.

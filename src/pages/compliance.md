@@ -16,7 +16,7 @@ keywords:
 url: compliance/
 isBlog: true
 blog_cat: Helperbird
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Compliance at Helperbird
 blog_snip: 'Helperbird will never sell, store, or consume any user data.'
 ---

@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: One-Click Screenshot Extension for Any Webpage or PDF
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/screenshot.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Screenshot Tool
 featureDescription: Effortlessly capture screenshots of entire webpages or select specific areas with Helperbird's Screenshot Tool. Save your captures directly to your device for quick access and future reference.
 group: reading

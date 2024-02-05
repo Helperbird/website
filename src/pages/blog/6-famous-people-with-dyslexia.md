@@ -13,7 +13,7 @@ time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: 6 Famous People with Dyslexia
 blog_snip: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
 ---

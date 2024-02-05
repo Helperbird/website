@@ -12,7 +12,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:   Removing Helperbird
 featureDescription: Understand how to remove the Helperbird extension for all users. This guide will help you to successfully uninstall Helperbird across your organization.
 

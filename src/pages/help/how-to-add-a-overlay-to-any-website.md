@@ -14,7 +14,7 @@ name: Helperbird Staff
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-02-02
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Overlay & Tints
 featureDescription: Learn how to use the powerful overlay feature of the
   Helperbird browser extension

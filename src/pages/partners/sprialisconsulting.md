@@ -19,7 +19,7 @@ img: https://www.sprialisconsulting.com/uploads/3/0/7/0/30701617/dsc-0063_orig.j
 url: partners/sprialisconsulting/
 isBlog: false
 blog_cat: Helperbird partner
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Jim Sprialis of Sprialis consulting
 blog_snip: ''
 website: https://www.sprialisconsulting.com/

@@ -9,7 +9,7 @@ url: blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Heads Up, Helperbird's Got Immersive Reader Too!
 blog_snip: Facing issues with your current Immersive Reader extension? Discover Helperbird, a robust, free alternative that works seamlessly across Chrome, Edge, Firefox, and iOS. Don’t let broken extensions slow you down—upgrade your reading experience with Helperbird today.
 img: /assets/images/blog/headsup/immersive-reader-too.png

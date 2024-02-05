@@ -9,7 +9,7 @@ url: blog/teacher-appreciation-week-2020-dyslexia-story/
 tags: blog
 isBlog: true
 blog_cat: Appreciation
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How a Teacher Helped Me Achieve My Full Potential
 blog_snip: From dropping out of school to starting my own company, this is the inspiring story of how a teacher played a crucial role in helping me overcome challenges and reach my full potential.
 cat: Essay

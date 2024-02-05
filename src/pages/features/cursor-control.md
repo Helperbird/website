@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Customize Your Cursor Size
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Customize Your Cursor Size
 featureDescription: Effortlessly adapt your cursor size to suit your needs with Helperbird's Cursor Size feature. Ideal for users with visual or dexterity challenges, as well as those who prefer a personalized browsing experience.
 group: reading

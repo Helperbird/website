@@ -22,7 +22,7 @@ featureDescription: Follow this step-by-step guide to easily change the email
 redirect_from: /support/how-to-change-my-email/
 header: true
 date: 2023-09-10T22:13:27.697Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 ---
 
 ## Overview

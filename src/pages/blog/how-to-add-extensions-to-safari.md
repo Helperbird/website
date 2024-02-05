@@ -9,7 +9,7 @@ url: blog/how-to-add-extensions-to-safari/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How to Add an Extension to Safari
 blog_snip: Safari is a powerful browser, and extensions are one of the many ways you can customize it for your needs. Discover how to add extensions to Safari and explore the wide range of options available from the App Store to enhance your browsing experience.
 img: /assets/images/blog/new-blog-2022/safari-extensions.png

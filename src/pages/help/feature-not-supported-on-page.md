@@ -9,7 +9,7 @@ keywords:
   Helperbird, Accessibility Extension, Unsupported Features,Google Docs Accessibility,Web Extension Compatibility,Accessibility Tools,Helperbird Updates,Canvas Limitations, User Experience Accessibility,Helperbird Compatibility,Extension Feature Support
 
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Feature not supported
 featureDescription: Encounter a 'Feature Not Supported' message on Helperbird? Learn why some enhancements, like font changes, aren't currently available on certain platforms, including Google Docs, and how we're evolving to bring you universal accessibility. 
 date: 2020-01-04

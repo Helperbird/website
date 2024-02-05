@@ -13,7 +13,7 @@ img: /assets/images/pwa/logo/full.png
 url: partners/paul-spencer/
 isBlog: false
 blog_cat: Helperbird partner
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Paul Spencer
 blog_snip: ''
 website: https://www.claim3d.com

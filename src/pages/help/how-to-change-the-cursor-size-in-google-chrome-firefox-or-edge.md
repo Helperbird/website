@@ -16,7 +16,7 @@ name: Helperbird Staff
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2018-01-02
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Cursor size
 featureDescription: Easily change the cursor size on any website to improve
   visibility and navigation. Learn how to utilize Helperbird's cursor adjustment

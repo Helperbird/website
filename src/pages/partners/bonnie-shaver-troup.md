@@ -13,7 +13,7 @@ img: /assets/images/partners/bonnie.jpeg
 url: partners/bonnie-shaver-troup/
 isBlog: false
 blog_cat: Helperbird partner
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Dr Bonnie Shaver-Troup, EdD
 blog_snip: ''
 website: https://www.lexend.com/

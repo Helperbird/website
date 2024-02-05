@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Page & Text Magnifier Extension - Chrome, Edge & Safari
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/dictionary.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Page & Text Magnifier
 featureDescription: Amplify your online reading experience with Helperbird's Page & Text Magnifier. Effortlessly zoom in on text and entire pages for superior readability and visibility.
 group: reading

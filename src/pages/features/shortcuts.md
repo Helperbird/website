@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Helperbird Keyboard Shortcuts
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/shortcuts.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Keyboard Shortcuts
 featureDescription: Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance your accessibility experience with quick and efficient shortcuts.
 group: reading

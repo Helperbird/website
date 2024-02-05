@@ -6,7 +6,7 @@ title: Color Blindness Support
 description: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 icon: "/src/_includes/svgs/blindness.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 img: i1EeaekPHIo
 cardTitle: Color Blindness Support
 featureDescription: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.

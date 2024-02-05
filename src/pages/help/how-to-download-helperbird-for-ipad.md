@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Helperbird for iPad
 featureDescription: This step-by-step guide covers everything you need to know to install and use the app on your iPad, including searching for the app in the App Store, signing in or creating an account, and customizing your settings.
 tags: iOSHelp

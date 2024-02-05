@@ -14,7 +14,7 @@ img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.p
 name: Helperbird Staff
 tags: blog
 date: 2023-09-07T05:00:00.000Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: 10 Essential assistive technology tools for web accessibility
 blog_snip: In today's digital age, web accessibility is of paramount importance.
   It ensures that individuals with disabilities can navigate websites and online

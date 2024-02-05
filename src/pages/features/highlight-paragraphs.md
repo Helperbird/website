@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Customize Your Paragraphs
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/border.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Customize Paragraphs
 featureDescription: Elevate your reading experience by adding colorful borders around paragraphs with Helperbird's Customize Your Paragraphs feature. Break up long text sections to make reading easier and more visually appealing.
 group: reading

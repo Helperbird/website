@@ -16,7 +16,7 @@ name: Helperbird staff
 tags: guideApps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Google Docs add-on
 featureDescription: Discover how to enhance your Google Docs experience with
   Helperbird's accessibility features. This step-by-step guide walks you through

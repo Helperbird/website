@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Improve Visibility and Accessibility with Helperbird's High Contrast Mode
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/high-contrast.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: High Contrast Mode
 featureDescription: Improve readability and web accessibility with Helperbird's High Contrast Mode. Choose from a range of high-contrast color filters designed to make text more visible and your online experience more user-friendly.
 group: reading

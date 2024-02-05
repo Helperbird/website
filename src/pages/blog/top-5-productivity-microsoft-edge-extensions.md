@@ -9,7 +9,7 @@ url: blog/top-5-productivity-microsoft-edge-extensions/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Top 5 Productivity Microsoft Edge Extensions
 blog_snip: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
 img: /assets/images/blog/new-blog-2022/productivity-microsoft-edge.png

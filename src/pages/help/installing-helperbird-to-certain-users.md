@@ -12,7 +12,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Installing to Certain Users
 featureDescription: Discover how to provide specific users with access to the Helperbird extension. This guide details the process for selective Helperbird installation.
 date: 2016-01-04

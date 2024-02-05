@@ -13,7 +13,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Reading list
 featureDescription:
   Helperbirds reading list extension allows you to save pages in a list to get back to later. It’s

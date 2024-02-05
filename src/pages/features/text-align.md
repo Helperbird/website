@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Align Any Website's Text with Ease. The One Extension You Need.
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/align.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Text Alignment
 featureDescription: Align text to your preference on any website with Helperbird's Text Alignment feature. Improve your reading experience and readability by easily customizing the alignment.
 group: reading

@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Easily Count Letters and Characters on Any Website with Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/graph.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Text Statistics
 featureDescription: Easily track various text metrics on any website or PDF with Helperbird's extension. With just two clicks, get a comprehensive analysis including unique word count, shortest words, estimated reading time, and more.
 group: reading

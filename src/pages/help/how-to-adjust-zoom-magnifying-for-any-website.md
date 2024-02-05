@@ -12,7 +12,7 @@ name: Helperbird Staff
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-12-01
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Magnifying
 featureDescription: Master the art of magnifying and zooming on any webpage with
   Helperbird's comprehensive guide. Discover how to make text and images more

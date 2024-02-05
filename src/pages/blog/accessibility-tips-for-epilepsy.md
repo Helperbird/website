@@ -13,7 +13,7 @@ time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
 blog_snip: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
 ---

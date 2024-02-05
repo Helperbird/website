@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How to turn Helperbird on
 featureDescription: Discover how to switch Helperbird from off to on in the Helperbird extension.
 date: 2016-01-02

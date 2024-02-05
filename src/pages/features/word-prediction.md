@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Word Prediction Extension for Every Website and Google Docs - Enhance Your Writing Experience
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/word-prediction.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Word Prediction
 featureDescription: Maximize your writing skills with Helperbird's word prediction extension, available on Google Docs and across the web. Boost your productivity and type more accurately with our cutting-edge, AI-driven autocomplete and suggestions.
 group: reading

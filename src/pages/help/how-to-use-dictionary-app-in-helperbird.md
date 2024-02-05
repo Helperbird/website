@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Dictionary
 featureDescription: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
 tags: guideApps

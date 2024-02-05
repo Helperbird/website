@@ -15,7 +15,7 @@ name: Helperbird Staff
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Auto Scrolling
 featureDescription: Discover the step-by-step guide to effortlessly enable and
   customize the auto-scroll functionality using the Helperbird browser

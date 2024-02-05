@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Improve Your Reading Speed and Efficiency with our speed reading
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/speed.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Speed Reading
 featureDescription: Unlock your reading potential with Helperbird's powerful speed reading extension. Improve your reading speed and efficiency with customizable settings and easy-to-use features. Try it now and experience the benefits of faster reading.
 group: reading

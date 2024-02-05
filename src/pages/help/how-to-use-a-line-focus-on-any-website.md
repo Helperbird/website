@@ -11,7 +11,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Line focus
 featureDescription: Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.
 date: 2021-01-03

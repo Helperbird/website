@@ -13,7 +13,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Word Prediction
 featureDescription:
   Learn how easy it is to use Word Prediction on Google Docs or any website with Helperbirds browser

@@ -3,7 +3,7 @@ new: true
 header: true
 layout: templates/single_page.liquid
 title: Security statement for Helperbird
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Security of Helperbird
 description:
   At Helperbird, we build security into every product we make, so you can enjoy great experiences

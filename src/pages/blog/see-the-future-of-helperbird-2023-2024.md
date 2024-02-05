@@ -9,7 +9,7 @@ url: blog/see-the-future-of-helperbird-2023-2024/
 tags: blog
 isBlog: true
 blog_cat: Announcement
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Introducing the Next Big Release of Helperbird
 blog_snip: Get ready for the exciting next big release of Helperbird, launching on June 4th! Discover the host of new features and improvements, including split bottom navigation for Writing, Reading, and Accessibility, maths solving support, Epub support, offline functionality, a new user-friendly onboarding UI, over 30 major fixes and improvements, and full feature compatibility with PDFs. Experience the transformative power of Helperbird in revolutionizing your web browsing experience.
 cat: Announcement

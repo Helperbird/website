@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: Styles & Colors
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/styles.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Color Customization
 featureDescription: Adjust font, background, and link colors to enhance your online experience and make websites work for you.
 group: reading

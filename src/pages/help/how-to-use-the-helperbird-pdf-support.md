@@ -13,7 +13,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: PDF support
 featureDescription: Learn how to use text to speech on PDFs, also Immersive Reader.
 tags: guideApps

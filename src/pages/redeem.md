@@ -3,7 +3,7 @@ new: false
 header: true
 layout: templates/single_layout.liquid
 title: Redeem a Helperbird Pro voucher
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:  Redeem a Helperbird Pro voucher
 description: Have a voucher or coupon code? Redeem it here for Helperbird Pro.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for

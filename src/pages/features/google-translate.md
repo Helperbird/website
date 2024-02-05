@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Easy Translation Support
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/translate.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Easy Translation Support
 featureDescription: Break language barriers effortlessly with Helperbird's Translation feature. Select text on any website or PDF, right-click to choose Helperbird's Google Translate option, and instantly translate into your desired language.
 group: reading

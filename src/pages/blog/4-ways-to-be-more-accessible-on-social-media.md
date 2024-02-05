@@ -12,7 +12,7 @@ name: Helperbird Staff
 tags: blog
 img: /assets/images/blog/new-blog-2022/accessible-social-media.png
 date: 2020-01-05T00:00:00.000Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: 4 Ways to Make Social Media More Accessible in 2022
 blog_snip: Social media is a massive space of information sources and
   connections. Learn how to improve accessibility on social media platforms to

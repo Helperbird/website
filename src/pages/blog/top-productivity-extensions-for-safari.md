@@ -9,7 +9,7 @@ url: blog/top-productivity-extensions-for-safari/
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Top Productivity Extensions for Safari
 blog_snip: As a business owner, you already know that the key to success is efficiency. You need to be able to get the job done quickly and accurately, in order to maximize your time and resources.
 img: /assets/images/blog/new-blog-2022/safari-extensions.png

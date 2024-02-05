@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Reading Guide for Focused Engagement
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/ruler.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Reading Guide
 featureDescription: Elevate your reading experience with Helperbird's Reading Guide, designed to direct your eye flow and keep you engaged with the text. Say goodbye to distractions and hello to a new level of focus and comprehension.
 group: reading

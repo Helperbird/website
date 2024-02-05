@@ -17,7 +17,7 @@ name: "Robert James "
 tags: adminTools
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Enable Sync
 featureDescription: Learn how to easily turn on and off sync in Chrome and Edge
   with this detailed step-by-step guide. Follow the instructions to link your

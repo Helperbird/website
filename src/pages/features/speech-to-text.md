@@ -9,7 +9,7 @@ keywords:
 featurePageTitle: The Ultimate Voice Typing Extension
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/voice-typing.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Voice Typing
 featureDescription: Experience fast, accurate speech-to-text conversion on Chrome, Firefox, Edge, and iOS with Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free today!
 group: reading

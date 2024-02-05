@@ -22,7 +22,7 @@ redirect_from:
   - /support/how-to-cancel-my-helperbird-pro-subscription/
 header: true
 date: 2023-09-10T22:07:10.397Z
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 ---
 
 ## Overview

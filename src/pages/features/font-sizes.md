@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Customizable Font Sizes
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:  Customizable Font Sizes
 featureDescription: Personalize your reading comfort with Helperbird's Font Size feature. Easily increase or decrease text size on any website to improve readability and tailor your online reading experience.
 group: reading

@@ -10,7 +10,7 @@ url: blog/helperbird-dyslexia-solutions-jamies-story/
 
 isBlog: true
 blog_cat: Usecase
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: How Helperbird Transformed a Student's Academic Experience
 blog_snip: Discover Jamie's inspirational story of overcoming reading challenges with the help of Helperbird's innovative features. Learn how the dyslexia ruler and Lexend font made a significant difference, and our commitment to protecting user identities while sharing their successes.
 name: Robert James Gabriel

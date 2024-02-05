@@ -233,13 +233,7 @@
                       Get the App
                     </label>
 
-                  <a
-                    href="https://www.youtube.com/watch?v={{youtubeId}}"
-                    target="_blank"
-                    aria-label="Watch a video on Youtube of How to use the Helperbird {{cardTitle}}"
-                    title="Watch a video on Youtube of How to use the Helperbird {{cardTitle}}"
-                    class="btn btn-secondary shadow-md">
-                    Watch it in action</a>
+                
                 </div>
 
               </div>
@@ -247,7 +241,7 @@
                 <div class="-m-2 rounded-xl bg-stone-600 p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
                   <div class="aspect-w-16 aspect-h-9">
                     <iframe
-                       src="https://www.youtube-nocookie.com/embed/pFF3t3i-7Ik"
+                       src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
                        autoplay="autoplay"
                        controls="true"
                        loop="loop"

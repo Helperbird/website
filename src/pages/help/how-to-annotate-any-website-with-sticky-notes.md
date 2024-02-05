@@ -19,7 +19,7 @@ redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-exten
 header: true
 date: 2016-01-03
 updated: true
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 ---
 
 

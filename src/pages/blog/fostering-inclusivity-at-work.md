@@ -13,7 +13,7 @@ time: 5 min read
 tags: blog
 isBlog: true
 blog_cat: Blog
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Fostering Inclusivity at Work - The Role of Helperbird in Modern Workplaces
 blog_snip: In this blog post, we explore the role of accessibility tools like Helperbird in fostering inclusivity in modern workplaces. From enhancing communication to boosting productivity and offering customizable web experiences, discover how Helperbird is revolutionizing the work environment, making it more accessible and supportive for all employees, regardless of their learning abilities or visual impairments.
 ---

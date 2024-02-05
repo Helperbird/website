@@ -9,7 +9,7 @@ url: blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/
 tags: blog
 isBlog: true
 blog_cat: Guide
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle:  Productivity Tips to Help You Stay Focused at Work
 blog_snip: Focus is integral in ensuring that we get things done. But every now and then, there is something that is sure to take away your attention.
 img: /assets/images/blog/new-blog-2022/productivity-tips.png

@@ -8,7 +8,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Ch
 featurePageTitle: Custom Paragraph Width for Better Reading
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/widths.svg"
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Customizable Paragraph Width
 featureDescription: Adjust the width of paragraphs for better focus and readability with Helperbird's Customizable Paragraph Width feature. Tailor the text layout to your preferences, reducing eye strain during extended reading sessions on websites and PDFs.
 group: reading

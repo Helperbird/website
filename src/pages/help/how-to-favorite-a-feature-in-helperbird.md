@@ -10,7 +10,7 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-youtubeId: PfILiWebkuc
+youtubeId: vwT8SAJfU3E
 cardTitle: Customize Quick actions
 featureDescription: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird.
 tags: guideFeatures
