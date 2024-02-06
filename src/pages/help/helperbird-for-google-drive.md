@@ -2,8 +2,8 @@
 new: false
 updated: true
 layout: templates/new/help/post.html
-title: Using Helperbird with Google Classroom
-description: Learn how to elevate your Google Classroom with Helperbird's accessibility tools. This guide will show you simple steps to integrate powerful features that make learning more accessible for everyone.
+title: Using Helperbird with Google Drive
+description: Learn how to elevate your Google Drive with Helperbird's accessibility tools. This guide will show you simple steps to integrate powerful features that make learning more accessible for everyone.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
   fonts, accessibility software, dyslexia software, Helperbird for Edge,
@@ -15,30 +15,31 @@ tags: guideApps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU
-cardTitle: Google Classroom
-featureDescription: Learn how to elevate your Google Classroom with Helperbird's accessibility tools. This guide will show you simple steps to integrate powerful features that make learning more accessible for everyone.
+cardTitle: Google Drive
+featureDescription: Learn how to elevate your Google Drive with Helperbird's accessibility tools. This guide will show you simple steps to integrate powerful features that make learning more accessible for everyone.
 header: true
 ---
 
+
 ## Introduction
 
-This guide shows you how to easily set up and start using the Helperbird Add-on in Drive & Classroom. 
+This guide shows you how to easily set up and start using the Helperbird Add-on for Google Drive. 
 
 
 ## Prerequisites
 
-- A Google Account is required to access Google Classroom.
+- A Google Account is required to access Google Drive.
 - You have the [Helperbird Google Workplace addon installed.](https://workspace.google.com/marketplace/app/helperbird/844716805038)
 - Make sure your using Helperbird 107 or later.
 
 
 
-## Google Classroom
+## Google Drive
 
 
 ### How to Open PDFs in Helperbird's PDF Reader
 
-**Step 1**: Go to **Google Classroom**.
+**Step 1**: Go to **Google Drive**.
 
 **Step 2**: Click on the PDF you want to read.
 
@@ -54,7 +55,7 @@ This guide shows you how to easily set up and start using the Helperbird Add-on 
 
 ### Use Right-Click to Open PDFs in Helperbird's PDF Reader
 
-**Step 1**: Navigate to **Google Classroom** and find the PDF you need.
+**Step 1**: Navigate to **Google Drive** and find the PDF you need.
 
 **Step 2**: Right-click on the PDF link or icon.
 
