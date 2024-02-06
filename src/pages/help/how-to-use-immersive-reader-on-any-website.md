@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: false
+updated: true
 layout: templates/new/help/post.html
 title: How to use Immersive Reader on Websites and PDFs
 description: Discover the simplicity of enhancing your reading on any website or PDF with Microsoft's Immersive Reader. We'll show you how to get started!
