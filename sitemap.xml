@@ -737,6 +737,13 @@
     </url>
   
     <url>
+      <loc>http://localhost:3000/help/helperbird-for-google-drive/</loc>
+      <lastmod>2023-09-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:3000/help/helperbird-for-powerpoint-online/</loc>
       <lastmod>2023-09-10</lastmod>
       <changefreq>monthly</changefreq>
