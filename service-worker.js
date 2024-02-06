@@ -2160,7 +2160,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-google-classroom/index.html",
-    "revision": "a4b7ea616444426db447be585ad4d891"
+    "revision": "e73a7522801f1a8feaffcd957e12dbd6"
   },
   {
     "url": "help/helperbird-for-google-classroom/index.png",
