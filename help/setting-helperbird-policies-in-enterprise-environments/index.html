@@ -2442,97 +2442,97 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								</h1>
 								<hr class="mb-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
 								<!-- Full content -->
-								<h2 class="leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold">Key Points</h2>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Version Requirement</strong>: Ensure you have Helperbird version 116.0.0.</p>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Enterprise Feature</strong>: Learn how to add a subscription key for all users.</p>
-<h2 class="leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold">Overview</h2>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">In enterprise settings, administrators can manage Helperbird extension settings using a managed schema. This allows for configuration of properties such as the subscription key (<code>subKey</code>), exam mode (<code>isExamMode</code>), and admin control (<code>isAdminControl</code>).</p>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">Windows Configuration</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Access Group Policy Editor</p>
+								<h2 class="leading-relaxed font-display text-2xl   mb-6 mt-10 font-extrabold">Key Points</h2>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Version Requirement</strong>: Ensure you have Helperbird version 116.0.0.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Enterprise Feature</strong>: Learn how to add a subscription key for all users.</p>
+<h2 class="leading-relaxed font-display text-2xl   mb-6 mt-10 font-extrabold">Overview</h2>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">In enterprise settings, administrators can manage Helperbird extension settings using a managed schema. This allows for configuration of properties such as the subscription key (<code>subKey</code>), exam mode (<code>isExamMode</code>), and admin control (<code>isAdminControl</code>).</p>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">Windows Configuration</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Access Group Policy Editor</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Search for <code>gpedit.msc</code> in the Start menu and open the Group Policy Editor.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Navigate to Chrome Policies</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Navigate to Chrome Policies</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Go to <code>User Configuration</code> -&gt; <code>Administrative Templates</code> -&gt; <code>Google</code> -&gt; <code>Google Chrome</code> -&gt; <code>Extensions</code>.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Configure Helperbird Extension Policy</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Configure Helperbird Extension Policy</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Find <code>Configure extension installation policy</code>, right-click, and select <code>Edit</code>.</li>
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Add Helperbird's extension ID: <code>ahmapmilbkfamljbpgphfndeemhnajme</code>.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Apply Managed Schema Settings</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Apply Managed Schema Settings</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Use the <code>Additional Policies for Chrome</code> section to input the JSON configuration for Helperbird's settings.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Deploy Policy</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Deploy Policy</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Refresh the policy across the network to apply these settings to all users.</li>
 </ul>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">ChromeOS Configuration</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Open Google Admin Console</p>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">ChromeOS Configuration</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Open Google Admin Console</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Access at <code>admin.google.com</code> and navigate to <code>Devices</code> -&gt; <code>Chrome</code> -&gt; <code>Settings</code> -&gt; <code>Users &amp; Browsers</code>.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Select Organizational Unit (OU)</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Select Organizational Unit (OU)</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Choose the OU where Helperbird settings are to be applied.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Manage Extension Settings</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Manage Extension Settings</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">In the <code>Extensions</code> section, select <code>Managed Extensions</code>.</li>
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Add Helperbird's extension ID: <code>ahmapmilbkfamljbpgphfndeemhnajme</code>.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Input JSON Configuration for Helperbird</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Input JSON Configuration for Helperbird</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">In <code>ExtensionSettings</code>, paste the JSON configuration for Helperbird.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Save and Deploy Configuration</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Save and Deploy Configuration</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Apply the settings to propagate them to all users under the selected OU.</li>
 </ul>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">MacOS Configuration</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Use Managed Preferences Tool</p>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">MacOS Configuration</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 1</strong>: Use Managed Preferences Tool</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Use Apple's Profile Manager or a third-party Mobile Device Management (MDM) solution.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Create Configuration Profile for Chrome Extensions</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 2</strong>: Create Configuration Profile for Chrome Extensions</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Go to the extensions settings in the profile creation section.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Include Helperbird Extension</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 3</strong>: Include Helperbird Extension</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Add Helperbird’s extension ID: <code>ahmapmilbkfamljbpgphfndeemhnajme</code>.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Apply JSON Configuration</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 4</strong>: Apply JSON Configuration</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Input specific JSON settings for Helperbird extension.</li>
 </ul>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Deploy Configuration Profile</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Step 5</strong>: Deploy Configuration Profile</p>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">Distribute the profile to MacOS devices in your network and ensure policy application.</li>
 </ul>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">Understanding Helperbird Policy Settings</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">The managed schema for Helperbird includes three key settings that administrators can configure for enterprise environments:</p>
-<h4 class="leading-relaxed font-display text-xl  font-semibold mt-5"><code>subKey</code> (Subscription Key)</h4>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: The <code>subKey</code> represents the subscription key associated with your Helperbird Pro account.
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">Understanding Helperbird Policy Settings</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">The managed schema for Helperbird includes three key settings that administrators can configure for enterprise environments:</p>
+<h4 class="leading-relaxed font-display text-xl  mb-4  font-semibold mt-5"><code>subKey</code> (Subscription Key)</h4>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: The <code>subKey</code> represents the subscription key associated with your Helperbird Pro account.
 <strong class="  text-base text-lg">Type</strong>: String.
 <strong class="  text-base text-lg">Purpose</strong>: Authenticates and activates Helperbird Pro features across the enterprise. Ensures all users within the organization have access to Pro version without individual subscriptions.
 <strong class="  text-base text-lg">Usage</strong>: Enter the Pro subscription key provided by Helperbird. Applied to all instances of Helperbird across the organization.</p>
-<h4 class="leading-relaxed font-display text-xl  font-semibold mt-5"><code>isExamMode</code> (Exam Mode)</h4>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: Enables or disables a mode designed for exam conditions.
+<h4 class="leading-relaxed font-display text-xl  mb-4  font-semibold mt-5"><code>isExamMode</code> (Exam Mode)</h4>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: Enables or disables a mode designed for exam conditions.
 <strong class="  text-base text-lg">Type</strong>: Boolean (True/False).
 <strong class="  text-base text-lg">Purpose</strong>: Restricts certain features of Helperbird to comply with exam standards. Ensures students do not access tools/features not permitted during exams.
 <strong class="  text-base text-lg">Usage</strong>: Set to <code>true</code> to activate exam mode, <code>false</code> to deactivate. Useful in educational institutions during test periods.</p>
-<h4 class="leading-relaxed font-display text-xl  font-semibold mt-5"><code>isAdminControl</code> (Admin Control)</h4>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: Indicates whether Helperbird settings are under administrative control.
+<h4 class="leading-relaxed font-display text-xl  mb-4  font-semibold mt-5"><code>isAdminControl</code> (Admin Control)</h4>
+<p class="leading-relaxed font-display   my-4 text-lg font-display "><strong class="  text-base text-lg">Description</strong>: Indicates whether Helperbird settings are under administrative control.
 <strong class="  text-base text-lg">Type</strong>: Boolean (True/False).
 <strong class="  text-base text-lg">Purpose</strong>: Ensures only administrators can alter Helperbird settings, preventing unauthorized changes by end-users.
 <strong class="  text-base text-lg">Usage</strong>: Set to <code>true</code> for administrative control over settings. Useful for maintaining uniformity and compliance in Helperbird usage within the organization.</p>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">These settings are configured in the JSON schema applied to the Helperbird extension through enterprise management consoles or tools.</p>
-<h2 class="leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold">Examples</h2>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">Windows Policy (Group Policy) Example</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">In this Windows Group Policy example, replace &quot;Your_Pro_Subscription_Key_Here&quot; with your actual Helperbird Pro subscription key. The isExamMode and isAdminControl are set to true, indicating they are active. Adjust these settings as needed.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">These settings are configured in the JSON schema applied to the Helperbird extension through enterprise management consoles or tools.</p>
+<h2 class="leading-relaxed font-display text-2xl   mb-6 mt-10 font-extrabold">Examples</h2>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">Windows Policy (Group Policy) Example</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">In this Windows Group Policy example, replace &quot;Your_Pro_Subscription_Key_Here&quot; with your actual Helperbird Pro subscription key. The isExamMode and isAdminControl are set to true, indicating they are active. Adjust these settings as needed.</p>
 <pre><code class="language-js">
    {
       &quot;ExtensionSettings&quot;: {
@@ -2543,9 +2543,10 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
          }
       }
    }
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "></code></pre></p>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">MacOS Plist Example</h3>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">For the MacOS plist example, you should again replace &quot;Your_Pro_Subscription_Key_Here&quot; with your actual subscription key. The boolean values for isExamMode and isAdminControl are set to <true/>, indicating they are enabled. Modify these as required for your environment.</p>
+
+</code></pre>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">MacOS Plist Example</h3>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">For the MacOS plist example, you should again replace &quot;Your_Pro_Subscription_Key_Here&quot; with your actual subscription key. The boolean values for isExamMode and isAdminControl are set to <true/>, indicating they are enabled. Modify these as required for your environment.</p>
 <pre><code class="language-bash">
    &lt;dict&gt;
       &lt;key&gt;ExtensionSettings&lt;/key&gt;
@@ -2561,20 +2562,21 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
          &lt;/dict&gt;
       &lt;/dict&gt;
    &lt;/dict&gt;
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display "></code></pre></p>
-<h3 class="leading-relaxed font-display text-xl   mb-2 font-bold mt-10">ChromeOS Configuration Example</h3>
+
+</code></pre>
+<h3 class="leading-relaxed font-display text-2xl   mb-2 font-bold mt-10">ChromeOS Configuration Example</h3>
 <ul class="leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ">
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">The &quot;ahmapmilbkfamljbpgphfndeemhnajme&quot; is the extension ID for Helperbird.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">The &quot;ahmapmilbkfamljbpgphfndeemhnajme&quot; is the extension ID for Helperbird.</p>
 </li>
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">The &quot;subKey&quot; field should be replaced with your actual Helperbird Pro subscription key.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">The &quot;subKey&quot; field should be replaced with your actual Helperbird Pro subscription key.</p>
 </li>
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">The &quot;isExamMode&quot; and &quot;isAdminControl&quot; are set to true, indicating that these features are enabled. You can set these to false if you want to disable them.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">The &quot;isExamMode&quot; and &quot;isAdminControl&quot; are set to true, indicating that these features are enabled. You can set these to false if you want to disable them.</p>
 </li>
 <li class="leading-relaxed mb-4 mt-4 text-lg font-display ">
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">This JSON configuration can be used in the Google Admin Console to apply these settings to the Helperbird extension for ChromeOS devices within your organization. Adjust the values as needed for your specific setup.</p>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">This JSON configuration can be used in the Google Admin Console to apply these settings to the Helperbird extension for ChromeOS devices within your organization. Adjust the values as needed for your specific setup.</p>
 </li>
 </ul>
 <pre><code class="language-js">{
@@ -2595,8 +2597,8 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
   }
 }
 </code></pre>
-<h2 class="leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold">Need Help?</h2>
-<p class="leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ">Contact the Helperbird support team for assistance with the Dyslexia Ruler.</p>
+<h2 class="leading-relaxed font-display text-2xl   mb-6 mt-10 font-extrabold">Need Help?</h2>
+<p class="leading-relaxed font-display   my-4 text-lg font-display ">Contact the Helperbird support team for assistance with the Dyslexia Ruler.</p>
 
 							</div>
 						</article>
@@ -2622,16 +2624,12 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-login-to-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="How to login into Helperbird">How to login into Helperbird</a>
                          
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-turn-helperbird-on/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="How to turn Helperbird on">How to turn Helperbird on</a>
                          
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2640,16 +2638,12 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-pin-a-chrome-extension/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Pin a extension">Pin a extension</a>
                          
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/installing-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Installing Helperbird">Installing Helperbird</a>
                          
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2679,16 +2673,12 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/feature-not-supported-on-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Feature not supported">Feature not supported</a>
                          
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-favorite-a-feature-in-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Customize Quick actions">Customize Quick actions</a>
                          
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li></ul>
                         </li>
@@ -2709,16 +2699,12 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-use-helperbird-reading-features/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Reading options">Reading options</a>
                          
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-helperbird-reading-tools-and-features/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Reading tools">Reading tools</a>
                          
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2753,15 +2739,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-annotate-any-website-with-sticky-notes/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Sticky notes">Sticky notes</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Analyze text">Analyze text</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2769,15 +2751,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-auto-scroll-on-any-website-or-app/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Auto Scrolling">Auto Scrolling</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-background-color-of-a-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Background color">Background color</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2785,15 +2763,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Cursor size">Cursor size</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-helperbirds-color-blind-features-on-websites/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Color Blindness">Color Blindness</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2801,15 +2775,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-set-the-column-width-on-any-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Columns">Columns</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Dyslexic Fonts">Dyslexic Fonts</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2823,15 +2793,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-a-dyslexia-ruler-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Dyslexia Ruler">Dyslexia Ruler</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-font-on-any-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Fonts">Fonts</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2839,15 +2805,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-font-color-of-a-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Font color">Font color</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-font-size-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Font size">Font size</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2855,15 +2817,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-selection-highlight-color-of-a-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Highlight color">Highlight color</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-highlight-words-and-paragraphs-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Highlighter">Highlighter</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2871,15 +2829,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-helperbirds-high-contrast-features/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="High contrast">High contrast</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-the-highlight-menu-in-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Highlight Menu">Highlight Menu</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2887,15 +2841,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-highlight-paragraphs-on-any-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Paragraph borders">Paragraph borders</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-highlight-color-of-a-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Highlight color">Highlight color</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2903,15 +2853,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-link-color-of-a-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Link color">Link color</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-hide-images-and-gifs-on-every-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Images and GIFs">Images and GIFs</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2919,15 +2865,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-a-line-focus-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Line focus">Line focus</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-immersive-reader-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Immersive Reader">Immersive Reader</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2935,15 +2877,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-line-height-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Line height">Line height</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-letter-spacing-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Letter spacing">Letter spacing</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2951,15 +2889,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-mute-all-videos-on-any-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Videos">Videos</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-extract-text-from-any-image-pdf-or-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Extract Text (OCR)">Extract Text (OCR)</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2967,15 +2901,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/what-are-the-helperbird-shortcuts/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Shortcuts">Shortcuts</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-add-a-overlay-to-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Overlay & Tints">Overlay & Tints</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -2983,23 +2913,17 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-print-a-website-with-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Print">Print</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-set-the-paragraph-width-on-any-page/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Paragraph widths">Paragraph widths</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Quick Action Menu">Quick Action Menu</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -3013,15 +2937,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-a-reading-guide-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Reading guide">Reading guide</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-enable-spell-check-on-any-website-or-app/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Spell Check">Spell Check</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -3029,15 +2949,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Speed reading">Speed reading</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-change-the-text-alignment-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Text alignment">Text alignment</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -3045,15 +2961,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-show-alt-tags-on-hover-tooltip/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Alt and title tags">Alt and title tags</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-translate-a-whole-page-or-selected-text-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Translate">Translate</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -3061,15 +2973,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-use-text-to-speech-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Text to speech">Text to speech</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-word-prediction-on-any-website-or-google-docs/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Word Prediction">Word Prediction</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li>
           
@@ -3077,23 +2985,17 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/how-to-change-the-word-spacing-on-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Word spacing">Word spacing</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-adjust-zoom-magnifying-for-any-website/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Magnifying">Magnifying</a>
                               
-                                <div class="badge badge-primary ml-1">New</div>
-                              
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-the-volume-booster-feature/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Volume Booster">Volume Booster</a>
-                              
-                                <div class="badge badge-primary ml-1">New</div>
                               
                             </li></ul>
                         </li>
@@ -3105,40 +3007,30 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/enable-browser-sync-chrome-and-edge/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Enable Sync">Enable Sync</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/installing-helperbird-extension-through-the-g-suite-admin-panel/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Installing though G Suite Admin">Installing though G Suite Admin</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/installing-helperbird-to-certain-users/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Installing to Certain Users">Installing to Certain Users</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/pinning-helperbird-for-all-users/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Pinning Helperbird">Pinning Helperbird</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/removing-helperbird-for-everyone/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Removing Helperbird">Removing Helperbird</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
@@ -3148,40 +3040,30 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/setting-helperbird-policies-in-enterprise-environments/"  class="text-base md:text-lg link link-hover text-blue-700 font-bold underline" aria-current="page" title="Setting Policies">Setting Policies</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/sync-data-locally-or-remote-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Storage">Storage</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-deploy-helperbird-to-your-school-or-business/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="How to deploy Helperbird">How to deploy Helperbird</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/forcing-the-installation-of-the-helperbird-extension/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Installing through G Suite">Installing through G Suite</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-access-our-helperbird-usage-dashboard/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Usage Dashboard">Usage Dashboard</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                            
                             </li></ul>
                         </li>
                         <li class="mt-4 mb-4">
@@ -3192,72 +3074,54 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/helperbird-for-google-classroom/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Google Classroom">Google Classroom</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/helperbird-for-google-docs-addon/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Google Docs add-on">Google Docs add-on</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/helperbird-for-powerpoint-online/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="PowerPoint Online">PowerPoint Online</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/helperbird-for-word-online/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Word Online">Word Online</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/helperbird-for-google-slides-addon/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Google Slides add-on">Google Slides add-on</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-dictionary-app-in-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Dictionary">Dictionary</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-editor-app-in-helperbird/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Editor">Editor</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-helperbirds-reading-list-app/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Reading list">Reading list</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-use-the-helperbird-pdf-support/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="PDF support">PDF support</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li></ul>
                         </li>
                         <li class="mt-4 mb-4">
@@ -3268,32 +3132,24 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                             <li>
                               <a href="/help/family-sharing-helperbird-installation-guide/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Family sharing ">Family sharing </a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/helperbird-for-ios-ipad-iphone-is-missing-features/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Unlock all features">Unlock all features</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-download-helperbird-for-ipad/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Helperbird for iPad">Helperbird for iPad</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
                             <li>
                               <a href="/help/how-to-download-helperbird-for-iphone/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Helperbird for iPhone">Helperbird for iPhone</a>
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li></ul>
                         </li>
                         <li class="mt-4 mb-4">
@@ -3315,8 +3171,6 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-cancel-my-helperbird-pro-subscription/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Cancel Helperbird Pro">Cancel Helperbird Pro</a>
                            
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
@@ -3324,8 +3178,6 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-change-my-email/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Update Email">Update Email</a>
                            
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
@@ -3333,8 +3185,6 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-update-my-credit-card/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Update credit card">Update credit card</a>
                            
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
@@ -3342,8 +3192,6 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/how-to-use-my-subscription-key/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Use my subscription key">Use my subscription key</a>
                            
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li>
           
                             
@@ -3351,8 +3199,6 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
                               <a href="/help/manage-my-helperbird-pro-subscription/"  class="text-base md:text-lg link link-hover text-blue-500 hover:text-blue-700 " aria-current="false" title="Manage my subscription">Manage my subscription</a>
                            
                               
-                              <div class="badge badge-primary ml-1">New</div>
-                                
                             </li></ul>
                         </li>
                       </ul>
