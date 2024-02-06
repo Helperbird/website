@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: What is Helperbirds quick action menu?
 description: Discover and learn how to use the quick action menu in Helperbird.
@@ -52,5 +52,5 @@ Coming soon.
 
 ## Need more help?
 
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
 

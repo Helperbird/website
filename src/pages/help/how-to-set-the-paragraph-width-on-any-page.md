@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to set the width of paragrahs on a website
 description: Learn how to a set paragraph widths on any website, pdf or app.
@@ -42,5 +42,5 @@ Coming soon.
 
 ## Need more help?
 
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
 

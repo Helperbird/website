@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Install the Helperbird Extension/iOS App with Family Sharing
 description: Learn how to effortlessly share, install, and manage the Helperbird

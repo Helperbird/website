@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to deploy Helperbird through the Google Admin Console for EDU accounts
 description:

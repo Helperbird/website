@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: Installing Helperbird to Certain Users
 

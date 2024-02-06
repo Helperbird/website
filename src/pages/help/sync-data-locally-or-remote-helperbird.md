@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: Sync or store data locally in Helperbird
 description: Learn how to easily store your Helperbird data locally or sync across browsers.

@@ -1,7 +1,7 @@
 ---
 new: false
 layout: templates/new/help/post.html
-updated: true
+updated: false
 title: How to use the Overlay/Tint Feature in Helperbird
 description: Unlock the full potential of Helperbird's overlay/tint feature.
   This guide walks you through how to enable, customize, and effectively use the

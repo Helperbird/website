@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to add a feature to the Quick Actions 
 description: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird. This detailed tutorial provides step-by-step instructions to efficiently customize your browsing experience, allowing you to swiftly access and manage your favorite Helperbird features right from the Quick Actions panel. Ideal for both new and seasoned users, our guide simplifies enhancing your productivity with Helperbird

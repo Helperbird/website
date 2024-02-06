@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Customize Text Highlight Color in your browser
 description: Easily change the text highlight color across various web

@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Change the Font on Any Website
 description: Customize your browsing experience by effortlessly changing the

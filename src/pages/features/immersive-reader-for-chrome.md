@@ -39,20 +39,3 @@ Helperbird’s proudly brings Microsoft Immersive Reader to any text on any site
 **Text Preferences:** Personalize the visual style of your text. Change colors, select fonts, and control spacing to minimize strain and maximize readability.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

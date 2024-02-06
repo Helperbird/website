@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Use Helperbird with Word Online
 description: Learn how to integrate Helperbird's powerful accessibility tools with Word Online to make document editing and reading more accessible.

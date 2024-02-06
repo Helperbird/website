@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to manage my Helperbird Pro subscription
 description: Manage your Helperbird Pro subscription efficiently by accessing your account on the Helperbird Manage Page. This guide provides straightforward steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.

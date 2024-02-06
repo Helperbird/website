@@ -1,7 +1,7 @@
 ---
 new: false
 layout: templates/new/help/post.html
-updated: true
+updated: false
 title: How to Customize Link Colors on Any Website
 description: Learn how to modify both regular and visited link colors across
   websites with Helperbird, making your web navigation more intuitive and

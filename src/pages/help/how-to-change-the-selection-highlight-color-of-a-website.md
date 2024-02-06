@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to change the selection/highlight color of a website
 description:
@@ -56,5 +56,5 @@ Coming soon.
 
 ## Need more help?
 
-If you encounter any issues with the activation process, please contact the Helperbird support team for assistance.
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
 

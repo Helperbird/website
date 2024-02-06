@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How use the Helperbird in Google Classroom
 description: Discover how to enhance your Google Classroom experience with

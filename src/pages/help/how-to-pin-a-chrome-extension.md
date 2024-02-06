@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to pin a Chrome or Edge extension
 description: Discover how to pin a Chrome or Edge extension

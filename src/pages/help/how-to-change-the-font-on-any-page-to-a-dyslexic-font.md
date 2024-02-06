@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Change Webpage Fonts to Dyslexic-Friendly Options
 description: Learn how to easily switch to dyslexic-friendly fonts on any

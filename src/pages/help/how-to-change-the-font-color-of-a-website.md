@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: Change Text Color on Any Website
 description: Learn how to effortlessly modify text colors on any website for a

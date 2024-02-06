@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Install and Use the Helperbird Add-on for Google Slides
 description: Discover how to enhance your Google Slides experience with

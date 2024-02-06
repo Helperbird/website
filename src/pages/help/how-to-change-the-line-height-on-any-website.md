@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Adjust the Line Height on Any Website
 description: Follow our step-by-step guide to effortlessly adjust the line

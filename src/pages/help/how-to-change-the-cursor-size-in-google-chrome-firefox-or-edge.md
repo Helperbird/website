@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Adjust Cursor Size in Your Browser
 description: Easily change the cursor size on any website to improve visibility

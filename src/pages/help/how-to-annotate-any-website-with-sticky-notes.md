@@ -18,7 +18,7 @@ featureDescription: Discover how to annotate websites and PDFs with Helperbird's
 redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 header: true
 date: 2016-01-03
-updated: true
+updated: false
 youtubeId: vwT8SAJfU3E
 ---
 

@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Enable and Disable Sync in Chrome and Edge
 description: Learn how to easily turn on and off sync in Chrome and Edge with

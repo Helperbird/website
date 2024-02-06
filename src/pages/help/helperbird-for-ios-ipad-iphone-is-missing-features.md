@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: Helperbird for iPad & iPhone is missing features
 description: Out of the box, Helperbird on iPad & iPhone comes with a limited

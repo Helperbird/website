@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 header: true
 layout: templates/new/help/post.html
 title: How to turn Helperbird on

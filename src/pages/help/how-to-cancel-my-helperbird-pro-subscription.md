@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to cancel my Helperbird Pro subscription
 description: Learn the quick and easy steps to cancel your Helperbird Pro

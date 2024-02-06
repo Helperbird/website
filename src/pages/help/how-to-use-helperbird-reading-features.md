@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Use Helperbird's Reading Options
 description: Explore the various reading tools offered by Helperbird to enhance your browsing experience. This page provides a list of guides to help you customize text and paragraph settings on any webpage, making reading online more accessible and enjoyable. Learn how to change fonts, adjust text alignment, modify spacing, and much more with the help of detailed instructions provided in the linked guides.

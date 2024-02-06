@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Access Your Helperbird Pro Unlimited Usage Dashboard
 description: Unlock deep insights into your Helperbird usage with our Pro

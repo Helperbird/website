@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: A Helprrbird Feature is not supported
 description: Encounter a 'Feature Not Supported' message on Helperbird? Learn why some enhancements, like font changes, aren't currently available on certain platforms, including Google Docs, and how we're evolving to bring you universal accessibility. 

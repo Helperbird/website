@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Use the Magnify feature in Helperbird
 description: Master the art of magnifying and zooming on any webpage with

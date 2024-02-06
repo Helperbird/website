@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Use Helperbird with PowerPoint Online
 description: Enhance your PowerPoint Online presentations with Helperbird's accessibility features for a more inclusive experience.

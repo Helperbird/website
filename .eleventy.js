@@ -146,11 +146,11 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl    mb-2 font-bold',
-		h2: 'leading-relaxed font-display text-2xl   mb-4 mt-10 font-extrabold',
-		h3: 'leading-relaxed font-display text-xl   mb-2 font-bold mt-10',
-		h4: 'leading-relaxed font-display text-xl  font-semibold mt-5',
-		p: 'leading-relaxed font-display   my-6 mb-6 mt-6 text-lg font-display ',
+		h1: 'leading-relaxed font-display text-3xl    mb-4 font-bold',
+		h2: 'leading-relaxed font-display text-2xl   mb-6 mt-10 font-extrabold',
+		h3: 'leading-relaxed font-display text-2xl   mb-2 font-bold mt-10',
+		h4: 'leading-relaxed font-display text-xl  mb-4  font-semibold mt-5',
+		p: 'leading-relaxed font-display   my-4 text-lg font-display ',
 		strong: '  text-base text-lg',
 		bold: ' ',
 		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ',
@@ -172,8 +172,16 @@ module.exports = function (eleventyConfig) {
 		}
 		return content;
 	});
-
 	eleventyConfig.setLibrary('md', markdownIt(options).use(markdownItClass, mapping));
+
+	eleventyConfig.addShortcode("youtubeEmbed", function(id) {
+		return `
+		<div class="mt-2 mb-8 bg-stone-600 rounded-2xl aspect-w-16 aspect-h-9">
+			<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>`;
+	  });
+
+	
 	eleventyConfig.setLiquidOptions({
 		dynamicPartials: false,
 		strictFilters: false // renamed from `strict_filters` in Eleventy 1.0
@@ -188,7 +196,7 @@ module.exports = function (eleventyConfig) {
 		return manifest['main.js'] ? `<script src="${manifest['main.js']}"></script>` : '';
 	});
 	return {
-		markdownTemplateEngine: 'md',
+		markdownTemplateEngine: 'liquid',
 		dir: {
 			data: '../_data',
 			includes: '../_includes',

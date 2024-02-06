@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 layout: templates/new/help/post.html
 title: How to Change the Background Color of Any Website
 description: Discover how to effortlessly change the background color of any

@@ -1,6 +1,6 @@
 ---
 new: false
-updated: true
+updated: false
 header: true
 layout: templates/new/help/post.html
 title: How to use a Dyslexia ruler on a website or pdf
@@ -88,6 +88,10 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen>
 </iframe>
 </div>
+
+
+
+
 
 
 ## Need Help?
