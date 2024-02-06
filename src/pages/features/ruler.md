@@ -28,11 +28,6 @@ url: features/ruler/
 
 Meet the Helperbird Dyslexia Ruler, making reading on the web easier for everyone. Customize your reading space with a simple, adjustable ruler that guides your eyes through text on any site or PDF. Enjoy less strain and more comfort with every line.
 
-
-
-## Dyslexia Ruler Customization
-Fine-tune your reading experience by adjusting the ruler's size and color to your comfort.
-
 ## Enhanced Focus
 Keep your place on the page and reduce distractions with our easy-to-use Dyslexia Ruler.
 
