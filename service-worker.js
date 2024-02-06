@@ -1992,7 +1992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/ruler/index.html",
-    "revision": "e47ddf032b85f56339a3be4226f54563"
+    "revision": "b7b7d89fb2e1e22ab8a1a5e6e38244a1"
   },
   {
     "url": "features/ruler/index.png",
