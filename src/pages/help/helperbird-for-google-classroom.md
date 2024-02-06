@@ -20,9 +20,10 @@ featureDescription: Learn how to elevate your Google Classroom with Helperbird's
 header: true
 ---
 
+
 ## Introduction
 
-This guide shows you how to easily set up and start using the Helperbird Add-on in Drive & Classroom. 
+This guide shows you how to easily set up and start using the Helperbird Add-on for Google Classroom. 
 
 
 ## Prerequisites
