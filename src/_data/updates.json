@@ -1,6 +1,49 @@
 {
 	"new": [
 		{
+			"version": "107.1.5",
+			"date": "February 22nd, 2024",
+			"changes": [
+			  {
+				"title": "Right-Click Pause: Fixed and Functional 🚫🎵",
+				"description": "Encountered a glitch with 'Stop Playing' on right-click? We've ironed out the creases. Your audio controls are now seamless."
+			  },
+			  {
+				"title": "Immersive Reader Customization: Your Read, Your Rules 📖⚙️",
+				"description": "Tailor your reading experience with customizable Immersive Reader settings. Choose your preferred voice, speed, and text size for a reading experience that's uniquely yours."
+			  },
+			  {
+				"title": "OCR Tool: Now with Translation Support 🌍✍️",
+				"description": "The OCR tool just got smarter! With translation support, accessing and understanding content in multiple languages is a breeze."
+			  },
+			  {
+				"title": "Highlighter on PDFs: Bug Squashed 🐛🖍️",
+				"description": "Frustrated with the highlighter not working on PDFs? Worry no more. We've zapped this bug for smooth, uninterrupted learning."
+			  },
+			  {
+				"title": "Summarizing Tool: Auto-Reset on New Pages 🔄📄",
+				"description": "Our summarizing tool now automatically resets with each new page you visit, ensuring a fresh start for every read."
+			  },
+			  {
+				"title": "Login & Account Redesign: Sleek and Secure 🔐💡",
+				"description": "Experience our new login and account pages, redesigned for a sleeker look and a more secure sign-in process."
+			  }
+			],
+			"fixes": [
+			  {
+				"title": "UI Clutter Cleanup: Enhanced Navigation 🧹✨",
+				"description": "We've cleaned up the UI, fixing cluttered features and buttons for a smoother navigation experience across Helperbird."
+			  }
+			],
+			"upcoming": [
+			  {
+				"title": "Bug Report Feature: Your Feedback Matters 🐞📝",
+				"description": "Stay tuned! A dedicated bug report feature is on its way, making it easier for you to share feedback and help us improve."
+			  }
+			]
+		  }
+,		  
+		{
 			"version": "107.1.0",
 			"date": "February 6th, 2024",
 			"changes": [
