@@ -1340,7 +1340,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "641d0be093924ba948d8035986de0424"
+    "revision": "05e8d2d063b958b68fbce0dabd26ebe2"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1479,6 +1479,14 @@ self.__precacheManifest = [
     "revision": "242c82899f21a8688cf7be4607e1f624"
   },
   {
+    "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
+    "revision": "42f7e51cdb05580cb995470bfa8db12c"
+  },
+  {
+    "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.png",
+    "revision": "30f35355f519ec38ce198e12e4053f9c"
+  },
+  {
     "url": "blog/how-to-add-extensions-to-safari/index.html",
     "revision": "95f283758be12f50c69de94dc3a9cc00"
   },
@@ -1528,7 +1536,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "27c4ca1149f0bb4ff3c8b43ce870c771"
+    "revision": "eb1f3e2ca94b364dfcbf3916876d0ade"
   },
   {
     "url": "blog/index.png",
@@ -3068,7 +3076,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "e737f67dc16dc9cd53c66c9c3e44aba8"
+    "revision": "11ce34dae1fd275ba7b0c7f16ea0d30a"
   },
   {
     "url": "sitemap/index.png",
