@@ -184,7 +184,7 @@ const getPriceForCurrency = (currency) => {
 				pro: '60.00',
 				proLink: 'https://buy.stripe.com/eVa163fqA8GU9Pi6ot', //Done
 
-				unlimited: '1500.00',
+				unlimited: '1500',
 				unlimitedLink: 'https://buy.stripe.com/5kA7urceo6yM3qU5ks' // done
 			},
 			monthly: {
