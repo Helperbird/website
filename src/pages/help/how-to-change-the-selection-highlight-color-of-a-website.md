@@ -19,6 +19,7 @@ featureDescription:
   How to change the color of the selection/highlight of a website on Safrai, Chrome, Firefox or
   Edge.
 date: 2020-01-04
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-change-the-selection-highlight-color-of-a-website/
 ---

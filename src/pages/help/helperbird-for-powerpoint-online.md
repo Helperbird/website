@@ -7,6 +7,7 @@ description: Enhance your PowerPoint Online presentations with Helperbird's acce
 keywords: Dyslexia tools, PowerPoint Online accessibility, Voice typing for PowerPoint, Text to speech for PowerPoint, Dyslexia fonts for PowerPoint, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Lexend for PowerPoint, OpenDyslexic for PowerPoint
 url: help/helperbird-for-powerpoint-online/
 name: Helperbird staff
+headerTags: []
 tags: guideApps
 img: assets/images2/uploads/helperbird-powerpoint-online-integration.png
 date: 2023-09-10T18:43:23.791Z

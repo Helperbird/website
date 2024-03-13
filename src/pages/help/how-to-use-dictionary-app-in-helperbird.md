@@ -14,6 +14,7 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Dictionary
 featureDescription: Discover how to use the Helperbird extension to  define any word or sentence in seconds with the dictionary app.
+headerTags: []
 tags: guideApps
 url: help/how-to-use-dictionary-app-in-helperbird/
 ---

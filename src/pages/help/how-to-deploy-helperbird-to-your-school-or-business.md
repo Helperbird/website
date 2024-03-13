@@ -16,6 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to deploy Helperbird
 featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
+headerTags: []
 tags: adminTools
 url: help/how-to-deploy-helperbird-to-your-school-or-business/
 img: /assets/images/graph/twitter.png

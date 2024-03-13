@@ -14,6 +14,7 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Columns
 featureDescription: Learn how to set columns in a paragraph on a website
+headerTags: []
 tags: guideFeaturesMain
 date: 2018-01-04
 url: help/how-to-set-the-column-width-on-any-page/

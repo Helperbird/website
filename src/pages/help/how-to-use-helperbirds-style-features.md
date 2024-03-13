@@ -16,6 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Color options
 featureDescription: Explore the various reading tools offered by Helperbird to enhance your browsing experience.
 date: 2016-01-04
+headerTags: []
 tags: guideOverViewFeatures
 url: help/how-to-use-helperbirds-style-features/
 ---

@@ -16,6 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Highlighter
 featureDescription: Learn how to usethe Highlighter feature in Helperbird. Highlight any word or paragraph on any website.
 date: 2020-01-05
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---

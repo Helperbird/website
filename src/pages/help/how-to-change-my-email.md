@@ -13,6 +13,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/how-to-change-my-email/
 name: "Helperbird Staff "
+headerTags: []
 tags: guideAccounts
 img: assets/images2/uploads/add-a-heading.png
 cardTitle: Update Email

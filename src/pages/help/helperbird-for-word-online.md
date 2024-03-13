@@ -7,6 +7,7 @@ description: Learn how to integrate Helperbird's powerful accessibility tools wi
 keywords: Dyslexia tools, Word Online accessibility, Voice typing for Word, Text to speech for Word, Dyslexia fonts for Word, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Lexend for Word, OpenDyslexic for Word
 url: help/helperbird-for-word-online/
 name: Helperbird staff
+headerTags: []
 tags: guideApps
 img: assets/images2/uploads/helperbird-word-online-integration.png
 date: 2023-09-10T18:43:23.791Z

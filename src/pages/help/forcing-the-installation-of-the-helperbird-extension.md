@@ -12,6 +12,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/forcing-the-installation-of-the-helperbird-extension/
 name: "Robert James Gabriel "
+headerTags: []
 tags: adminTools
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:36:26.826Z

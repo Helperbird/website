@@ -18,6 +18,7 @@ featureDescription: Understand how to remove the Helperbird extension for all us
 
 
 date: 2016-01-04
+headerTags: []
 tags: adminTools
 url: help/removing-helperbird-for-everyone/
 ---

@@ -15,6 +15,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Reading guide
 featureDescription: Learn how to use a Reading guide on any website, pdf or app.
 date: 2022-03-02
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-a-reading-guide-on-any-website/
 ---

@@ -13,6 +13,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Feature not supported
 featureDescription: Encounter a 'Feature Not Supported' message on Helperbird? Learn why some enhancements, like font changes, aren't currently available on certain platforms, including Google Docs, and how we're evolving to bring you universal accessibility. 
 date: 2020-01-04
+headerTags: []
 tags: guideFeatures
 url: help/feature-not-supported-on-page/
 ---

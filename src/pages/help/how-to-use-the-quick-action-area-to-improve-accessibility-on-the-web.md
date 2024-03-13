@@ -15,6 +15,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Quick Action Menu
 featureDescription: Discover and learn how to use the quick action menu in Helperbird.
 date: 2022-02-20
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---

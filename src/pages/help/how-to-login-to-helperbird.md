@@ -14,6 +14,12 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: How to login into Helperbird
 featureDescription: Discover how to login to Helperbird to access your Pro features.
+headerTags: [
+  {
+    tag: "videos",
+    title: "📹 Video Tutorial"
+  },
+]
 tags: guideFeatures
 date: 2016-01-01
 url: help/how-to-login-to-helperbird/

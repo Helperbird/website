@@ -14,6 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/enable-browser-sync-chrome-and-edge/
 name: "Robert James "
+headerTags: []
 tags: adminTools
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04

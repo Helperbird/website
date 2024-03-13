@@ -19,6 +19,7 @@ featureDescription:
   Learn how easy it is to use Word Prediction on Google Docs or any website with Helperbirds browser
   extension.
 date: 2022-11-01
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---

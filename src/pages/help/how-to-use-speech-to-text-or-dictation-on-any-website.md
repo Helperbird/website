@@ -15,6 +15,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Voice typing
 featureDescription: How to use Voice typing or dictation on a website with Helperbirds browser extension.
 date: 2019-01-02
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---

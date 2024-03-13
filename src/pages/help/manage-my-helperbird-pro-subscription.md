@@ -14,6 +14,7 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Manage my subscription
 featureDescription: Discover how to manage your Helperbird Pro subscription.
+headerTags: []
 tags: guideAccounts
 url: help/manage-my-helperbird-pro-subscription/
 ---

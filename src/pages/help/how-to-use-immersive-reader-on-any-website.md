@@ -15,6 +15,7 @@ youtubeId: pFF3t3i-7Ik
 cardTitle: Immersive Reader
 featureDescription: Discover the simplicity of enhancing your reading on any website or PDF with Microsoft's Immersive Reader. We'll show you how to get started!
 date: 2021-01-04
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-immersive-reader-on-any-website/
 redirect_from: /support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/

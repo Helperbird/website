@@ -14,6 +14,7 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Editor
 featureDescription: Discover how to use the Helperbird Editor app to create, edit and delete documents. Export them to Markdown, Word, Google Docs and more.
+headerTags: []
 tags: guideApps
 url: help/how-to-use-editor-app-in-helperbird/
 ---

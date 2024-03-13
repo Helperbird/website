@@ -13,6 +13,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/how-to-change-the-font-color-of-a-website/
 name: Helperbird Staff
+headerTags: []
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-02

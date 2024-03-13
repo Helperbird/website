@@ -14,6 +14,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Print
 featureDescription: Learn how to quickly print a website with the Helperbird browser extension.
 date: 2022-02-09
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-print-a-website-with-helperbird/
 ---

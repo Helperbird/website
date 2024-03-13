@@ -16,6 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Installing though G Suite Admin
 featureDescription: Learn how to allow the Helperbird extension in your G Suite Admin Panel. This guide walks you through the necessary steps to permit Helperbird's usage within your organization.
 date: 2016-01-04
+headerTags: []
 tags: adminTools
 url: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 ---

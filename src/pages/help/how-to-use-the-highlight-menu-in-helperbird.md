@@ -18,6 +18,7 @@ featureDescription:
   Learn how easy it is to highlight word and paragraphs on any website with Helperbirds browser
   extension.
 date: 2020-01-05
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-the-highlight-menu-in-helperbird/
 ---

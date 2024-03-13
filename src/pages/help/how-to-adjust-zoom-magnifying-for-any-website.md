@@ -9,6 +9,7 @@ description: Master the art of magnifying and zooming on any webpage with
 keywords: Helperbird, magnify, zoom, website, browser extension, text, images, feature
 url: help/how-to-adjust-zoom-magnifying-for-any-website/
 name: Helperbird Staff
+headerTags: []
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-12-01

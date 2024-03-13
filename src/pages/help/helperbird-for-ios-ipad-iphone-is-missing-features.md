@@ -13,6 +13,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/helperbird-for-ios-ipad-iphone-is-missing-features/
 name: Helperbird Staff
+headerTags: []
 tags: iOSHelp
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:51:29.485Z

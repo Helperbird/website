@@ -16,6 +16,7 @@ cardTitle: What is Helperbird Pro?
 featureDescription:
   What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
 date: 2016-01-07
+headerTags: []
 tags: guideFeatures
 url: help/what-is-helperbird-pro/
 ---

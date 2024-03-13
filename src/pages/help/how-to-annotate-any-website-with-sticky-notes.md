@@ -9,6 +9,7 @@ keywords: annotate, sticky notes, websites, PDFs, Helperbird extension, browser
   tool, web browsing experience
 url: help/how-to-annotate-any-website-with-sticky-notes/
 name: Helperbird Staff
+headerTags: []
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 cardTitle: Sticky notes

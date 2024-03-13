@@ -13,6 +13,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/how-to-change-the-letter-spacing-on-any-website/
 name: Helperbird Staff
+headerTags: []
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2021-01-07

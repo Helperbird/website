@@ -18,6 +18,7 @@ featureDescription: Learn how to pin the Helperbird extension for all users in y
 
 
 date: 2016-01-04
+headerTags: []
 tags: adminTools
 url: help/pinning-helperbird-for-all-users/
 ---

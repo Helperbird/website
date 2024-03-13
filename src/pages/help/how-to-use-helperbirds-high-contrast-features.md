@@ -17,6 +17,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: High contrast
 featureDescription: How to use Helperbird high contrast features on any website
 date: 2020-01-05
+headerTags: []
 tags: guideFeaturesMain
 url: help/how-to-use-helperbirds-high-contrast-features/
 ---

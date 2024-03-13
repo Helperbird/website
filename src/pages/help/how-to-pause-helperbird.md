@@ -15,6 +15,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to pause Helperbird
 featureDescription:
   Learn how to pause Helperbird, so you can focus on your work and turn on the features later.
+headerTags: []
 tags: guideFeaturesMainl
 url: help/how-to-pause-helperbird/
 ---

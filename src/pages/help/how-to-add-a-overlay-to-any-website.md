@@ -11,6 +11,7 @@ keywords: Helperbird, Overlay, Tint, Feature, Browser Extension, Enable,
   Adjustment, Reading Aid, Web Experience
 url: help/how-to-add-a-overlay-to-any-website/
 name: Helperbird Staff
+headerTags: []
 tags: guideFeaturesMain
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-02-02

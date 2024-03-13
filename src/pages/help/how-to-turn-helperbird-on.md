@@ -15,6 +15,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to turn Helperbird on
 featureDescription: Discover how to switch Helperbird from off to on in the Helperbird extension.
 date: 2016-01-02
+headerTags: []
 tags: guideFeatures
 url: help/how-to-turn-helperbird-on/
 ---

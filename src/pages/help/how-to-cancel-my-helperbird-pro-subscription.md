@@ -12,6 +12,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   OpenDyslexic
 url: help/how-to-cancel-my-helperbird-pro-subscription/
 name: Helperbird Staff
+headerTags: []
 tags: guideAccounts
 img: assets/images2/uploads/add-a-heading.png
 cardTitle: Cancel Helperbird Pro
