@@ -2400,53 +2400,28 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				
 
 
-<div class="rounded-xl bg-blue-600 py-24 shadow-md sm:py-32">
+<div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-32 lg:px-8">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-4xl text-center">
-			<h2
-				class="mx-auto max-w-4xl text-center font-sans text-5xl font-bold leading-relaxed tracking-tight text-white"
-			>
-				Simple pricing, no commitment
+		<div class="mx-auto max-w-3xl lg:mx-0">
+			<h2 class="mt-2 text-3xl font-bold tracking-tight text-black sm:text-6xl">
+				Pricing plans for everyone
 			</h2>
-		</div>
-
-		<p class="mx-auto mt-4 max-w-2xl text-center font-sans text-xl leading-relaxed text-white">
-			Two simple plans, each with a 3-day free trial.
-			<br />
-			Need a district or enteprise quote or have
-			<a
-				href="/contact"
-				class="link link-hover font-sans text-base font-bold leading-relaxed text-pink-500 hover:text-pink-700 md:text-lg"
-				>questions?</a
-			>
-		</p>
-
-		<div class="mt-12 flex justify-center">
-			<fieldset
-				class="grid grid-cols-2 gap-x-1 rounded-full border-2 border-white bg-white p-1 text-center text-base font-bold leading-5"
-			>
-				<legend class="sr-only">Payment frequency</legend>
-				<button
-					class="cursor-pointer rounded-full px-2.5 py-1"
-					type="button"
-					@click="isYearly = !isYearly"
-					v-bind:class="!isYearly ? 'bg-blue-600 text-white' : 'text-black-500'"
+			<p class="mt-6 text-2xl leading-8 text-black">
+				Simple plans, each with a 3-day free trial.
+				<br />
+				Looking for a custom deal or plan?,
+				<a
+					href="/contact"
+					class="link link-hover font-sans text-2xl font-bold leading-relaxed text-pink-500 hover:text-pink-700 md:text-lg"
+					>Contact us!</a
 				>
-					<span>Monthly</span>
-				</button>
-				<div class="tooltip tooltip-open" data-tip="Save 5 0%">
-					<button
-						class="cursor-pointer rounded-full px-2.5 py-1"
-						type="button"
-						@click="isYearly = !isYearly"
-						v-bind:class="isYearly ? 'bg-blue-600 text-white' : 'text-black-500'"
-					>
-						<span>Annually</span>
-					</button>
-				</div>
-			</fieldset>
+			</p>
 		</div>
-		<div class="mt-6 flex justify-center">
+	</div>
+
+	<div class="my-6 flex items-center justify-between p-4">
+		<!-- Toggle Switch for Notion AI -->
+		<div class="my-2 flex items-center">
 			<select
 				id="currency"
 				name="currency"
@@ -2461,744 +2436,576 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				<option class="bg-black" value="nz">New Zealand (NZ) 🇳🇿</option>
 			</select>
 		</div>
-
-		<div
-			class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-		>
-			<div class="rounded-2xl bg-white p-8 shadow-md ring-1 ring-gray-200 xl:p-10">
-				<div class="flex items-center justify-between gap-x-4">
-					<h3 id="tier-freelancer" class="text-xl font-semibold leading-8 text-black">
-						Helperbird
-					</h3>
+		<!-- Currency Selector -->
+		<div class="my-2 flex justify-center">
+			<fieldset
+				class="grid grid-cols-2 gap-x-1 rounded-full border-2 border-white bg-white p-1 text-center text-base font-bold leading-5"
+			>
+				<legend class="sr-only">Payment frequency</legend>
+				<button
+					class="cursor-pointer rounded-full px-2.5 py-1"
+					type="button"
+					@click="isYearly = !isYearly"
+					v-bind:class="!isYearly ? 'bg-blue-600 text-white' : 'text-black-500'"
+				>
+					<span>Monthly</span>
+				</button>
+				<div class="tooltip tooltip-open" data-tip="Save 20%">
+					<button
+						class="cursor-pointer rounded-full px-2.5 py-1"
+						type="button"
+						@click="isYearly = !isYearly"
+						v-bind:class="isYearly ? 'bg-blue-600 text-white' : 'text-black-500'"
+					>
+						<span>Annually</span>
+					</button>
 				</div>
-				<p class="mt-4 text-sm leading-6 text-gray-600">Our free features.</p>
-				<p class="mt-6 flex items-baseline gap-x-1">
-					<!-- Price, update based on frequency toggle state -->
-					<span class="text-4xl font-bold tracking-tight text-black">
-						<span v-html="priceDetails.currency">$</span>0</span
+			</fieldset>
+		</div>
+	</div>
+
+	<div
+		class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4"
+	>
+		<div class="rounded-2xl bg-white p-8 ring-1 ring-gray-200">
+			<h2 id="tier-hobby" class="text-lg font-semibold leading-8 text-black">Free</h2>
+			<p class="mt-4 text-sm leading-6 text-gray-600">Our free features</p>
+			<p class="mt-6 flex items-baseline gap-x-1">
+				<!-- Price, update based on frequency toggle state -->
+
+				<span class="text-3xl font-bold tracking-tight text-black">
+					<span v-html="priceDetails.currency">$</span>
+					0</span
+				>
+
+				<span class="text-sm font-semibold leading-6 text-gray-600">/Monthly</span>
+			</p>
+
+			<label
+				for="extension-modal-popup"
+				class="btn btn-outline btn-secondary btn-sm btn-block mt-6"
+			>
+				Get the App
+			</label>
+
+			<ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-black xl:mt-10">
+				<li class="mb-4 flex gap-x-2 text-base font-semibold">What's included</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Basic Writing tools
+				</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Basic Reading tools
+				</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Basic Accessibility tools
+				</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Basic Text to Speech
+				</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Dyslexia support
+				</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Translation tools
+				</li>
+				<li class="flex items-center gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Immersive Reader
+					<div class="badge badge-accent badge-sm">limited</div>
+				</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Monthly Updates
+				</li>
+			</ul>
+		</div>
+		<div class="rounded-2xl border-2 border-pink-500 bg-white p-8 ring-1 ring-gray-200">
+			<h2 id="tier-freelancer" class="text-lg font-semibold leading-8 text-black text-pink-600">
+				Helperbird Pro
+			</h2>
+			<p class="mt-4 text-sm leading-6 text-gray-600">
+				Best for <b class="text-pink-600">individuals.</b>
+			</p>
+			<p class="mt-6 flex items-baseline gap-x-1">
+				<span v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
+					<span class="text-3xl font-bold tracking-tight text-black">
+						<span v-html="priceDetails.currency">$</span>
+						<span v-html="monthlyProPricing">3.50</span></span
 					>
 					<!-- Payment frequency, update based on frequency toggle state -->
-					<span class="text-sm font-semibold leading-6 text-gray-600">/free</span>
-				</p>
-				<label for="extension-modal-popup" class="btn-base btn btn-outline btn-block mt-4 shadow-md">
-					Get the App
-				</label>
+					<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+				</span>
 
-				<ul role="list" class="mt-8 space-y-3 text-base leading-6 text-black xl:mt-10">
-					<li class="flex gap-x-3 text-lg font-semibold">What's included</li>
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Basic Writing tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Basic Reading tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Basic Accessibility tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Basic Research tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Basic Text to Speech tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Dyslexia support
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Translation tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Limited Immersive Reader
-					</li>
-				</ul>
-			</div>
-			<div class="rounded-2xl bg-white p-8 shadow-md ring-2 ring-blue-600 xl:p-10">
-				<div class="flex items-center justify-between gap-x-4">
-					<h3 id="tier-startup" class="text-xl font-semibold leading-8 text-blue-600">
-						Helperbird Pro
-					</h3>
-
-					<div class="badge badge-secondary">Most popular</div>
-				</div>
-				<p class="mt-4 text-sm leading-6 text-gray-600">Best for individuals.</p>
-				<p class="mt-6 flex items-baseline gap-x-1">
-					<span
-						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
+				<span v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
+					<span class="text-3xl font-bold tracking-tight text-black">
+						<span v-html="priceDetails.currency">$</span>
+						<span v-html="yearlyProPricing">30.00</span></span
 					>
-						<!-- Price, update based on frequency toggle state -->
-						<span class="text-4xl font-bold tracking-tight text-black">
-							<span v-html="priceDetails.currency">$</span>
-							<span v-html="monthlyProPricing">3.50</span>
-						</span>
-						<!-- Payment frequency, update based on frequency toggle state -->
-						<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
-					</span>
+					<!-- Payment frequency, update based on frequency toggle state -->
+					<span class="text-sm font-semibold leading-6 text-gray-600">/yearly</span>
+				</span>
+			</p>
+			<a
+				href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
+				:href="priceDetails.monthly.proLink + '?prefilled_promo_code=50cent'"
+				aria-describedby="tier-startup"
+				v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+				class="btn btn-secondary btn-sm btn-block mt-6"
+			>
+				Get Started
+			</a>
 
-					<span v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
-						<!-- Price, update based on frequency toggle state -->
-						<span class="text-4xl font-bold tracking-tight text-black">
-							<span v-html="priceDetails.currency">$</span>
-							<span v-html="yearlyProPricing">30.00</span>
-						</span>
-						<!-- Payment frequency, update based on frequency toggle state -->
-						<span class="text-sm font-semibold leading-6 text-gray-600">/yearly</span>
-					</span>
-				</p>
+			<a
+				href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
+				:href="priceDetails.yearly.proLink + '?prefilled_promo_code=50cent'"
+				v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
+				aria-describedby="tier-startup"
+				class="btn btn-secondary btn-sm btn-block mt-6"
+			>
+				Get Started
+			</a>
 
-				<a
-					href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
-					:href="priceDetails.monthly.proLink + '?prefilled_promo_code=50cent'"
-					aria-describedby="tier-startup"
-					v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-					class="btn-base btn btn-secondary btn-block mt-4 shadow-md"
-				>
-					Try it Free
-				</a>
+			<ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-black xl:mt-10">
+				<li class="mb-4 flex gap-x-2 text-base font-semibold">Everything in Free, and</li>
 
-				<a
-					href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
-					:href="priceDetails.yearly.proLink + '?prefilled_promo_code=50cent'"
-					v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
-					aria-describedby="tier-startup"
-					class="btn-base btn btn-secondary  btn-block mt-4 shadow-md"
-				>
-					Try it Free
-				</a>
-
-				<ul role="list" class="mt-8 space-y-3 text-base leading-6 text-black xl:mt-10">
-					<li class="flex gap-x-3 text-lg font-semibold">What's included</li>
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Writing tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Reading tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Accessibility tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Research tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance AI tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Text to Speech tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Dyslexia support
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Translation tools
-					</li>
-
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Unlimited Immersive Reader
-					</li>
-				</ul>
-			</div>
-			<div class="rounded-2xl bg-white p-8 shadow-md ring-1 ring-gray-200 xl:p-10">
-				<div class="flex items-center justify-between gap-x-4">
-					<h3 id="tier-enterprise" class="text-xl font-semibold leading-8 text-black">
-						Helperbird Pro Unlimited
-					</h3>
-				</div>
-				<p class="mt-4 text-sm leading-6 text-gray-600">Best for schools & businesses.</p>
-				<p class="mt-6 flex items-baseline gap-x-1">
-					<span
-						v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'"
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
 					>
-						<!-- Price, update based on frequency toggle state -->
-						<span class="text-4xl font-bold tracking-tight text-black">
-							<span v-html="priceDetails.currency">$</span>
-							<span v-html="monthlyUnlimitedPricing">129.99</span>
-						</span>
-						<!-- Payment frequency, update based on frequency toggle state -->
-						<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
-					</span>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Advanced Features
+				</li>
 
-					<span v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
-						<!-- Price, update based on frequency toggle state -->
-						<span class="text-4xl font-bold tracking-tight text-black">
-							<span v-html="priceDetails.currency">$</span>
-							<span v-html="yearlyUnlimitedPricing">1500</span>
-						</span>
-						<!-- Payment frequency, update based on frequency toggle state -->
-						<span class="text-sm font-semibold leading-6 text-gray-600">/yearly</span>
-					</span>
-				</p>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					PDF Reader
+				</li>
 
-				<a
-					href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-					:href="priceDetails.monthly.unlimitedLink "
-					aria-describedby="tier-startup"
-					v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
-					class="btn-base btn btn-secondary  btn-block mt-4 shadow-md"
-				>
-					Try it Free
-				</a>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Helperbird Apps
+				</li>
 
-				<a
-					href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-					:href="priceDetails.yearly.unlimitedLink"
-					v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
-					aria-describedby="tier-startup"
-					class="btn-base btn btn-secondary  btn-block mt-4 shadow-md"
-				>
-					Try it Free
-				</a>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					AI-Powered Reading
+				</li>
 
-				<ul role="list" class="mt-8 space-y-3 text-base leading-6 text-black xl:mt-10">
-					<li class="flex gap-x-3 text-lg font-semibold">What's included</li>
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Writing tools
-					</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					AI-Powered Summarizing
+				</li>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Reading tools
-					</li>
+				<li class="flex items-center gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Immersive Reader
+				</li>
+			</ul>
+		</div>
+		<div class="rounded-2xl bg-white p-8 ring-1 ring-gray-200">
+			<h2 id="tier-startup" class="text-lg font-semibold leading-8">Pro Unlimited</h2>
+			<p class="mt-4 text-sm leading-6 text-gray-600">Best for <b>Schools & businesses</b>.</p>
+			<p class="mt-6 flex items-baseline gap-x-1">
+				<span v-bind:style="!isYearly ?'display: block !important;' : 'display: none !important;'">
+					<!-- Price, update based on frequency toggle state -->
+					<span class="text-3xl font-bold tracking-tight text-black">
+						<span v-html="priceDetails.currency">$</span>
+						<span v-html="monthlyUnlimitedPricing">129.99</span></span
+					>
+					<!-- Payment frequency, update based on frequency toggle state -->
+					<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+				</span>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Accessibility tools
-					</li>
+				<span v-bind:style="isYearly ?'display: block !important;' : 'display: none !important;'">
+					<!-- Price, update based on frequency toggle state -->
+					<span class="text-3xl font-bold tracking-tight text-black">
+						<span v-html="priceDetails.currency">$</span>
+						<span v-html="yearlyUnlimitedPricing">1500</span></span
+					>
+					<!-- Payment frequency, update based on frequency toggle state -->
+					<span class="text-sm font-semibold leading-6 text-gray-600">/yearly</span>
+				</span>
+			</p>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Research tools
-					</li>
+			<a
+				href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+				:href="priceDetails.monthly.unlimitedLink "
+				aria-describedby="tier-startup"
+				v-bind:style="!isYearly ?'display: flex !important;' : 'display: none !important;'"
+				class="btn btn-outline btn-secondary btn-sm btn-block mt-6"
+			>
+				Get Started
+			</a>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance AI tools
-					</li>
+			<a
+				href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+				:href="priceDetails.yearly.unlimitedLink"
+				v-bind:style="isYearly ?'display: flex !important;' : 'display: none !important;'"
+				aria-describedby="tier-startup"
+				class="btn btn-outline btn-secondary btn-sm btn-block mt-6"
+			>
+				Get Started
+			</a>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Text to Speech tools
-					</li>
+			<ul role="list" class="mt-8 flex-grow space-y-3 text-sm leading-6 text-black xl:mt-10">
+				<li class="mb-4 flex gap-x-2 text-base font-semibold">Everything in Pro, and</li>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Advance Dyslexia support
-					</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Monthly trainings
+				</li>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Translation tools
-					</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Success manager
+				</li>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Unlimited Immersive Reader
-					</li>
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Weekly trainings
-					</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Usage Dashboard
+				</li>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Personal success manager
-					</li>
+				<li class="flex items-center gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Admin panel
-						<div class="badge badge-primary">Coming Soon</div>
-					</li>
+					Unlimited Users *
+				</li>
+			</ul>
 
-					<li class="flex gap-x-3">
-						<svg
-							class="h-6 w-5 flex-none text-blue-600"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-						Unlimited users
-						<div data-tip="Per School or Business" class="tooltip tooltip-error">
-							<div class="badge badge-primary badge-xs"></div>
-						</div>
-					</li>
-				</ul>
+			<div class="mt-6">
+				<!-- This is where you put the content you want at the bottom -->
+				<p class="text-sm text-gray-600">* Per School or Business</p>
 			</div>
 		</div>
+		<div class="rounded-2xl bg-white p-8 ring-1 ring-gray-200">
+			<h2 id="tier-enterprise" class="text-lg font-semibold leading-8 text-black">
+				Pro Unlimited +
+			</h2>
+			<p class="mt-4 text-sm leading-6 text-gray-600">For <b>Enterprise & Districts</b></p>
+			<p class="mt-6 flex items-baseline gap-x-1">
+				<!-- Price, update based on frequency toggle state -->
+				<span class="text-3xl font-bold tracking-tight text-black">Contact Sales</span>
+			</p>
+			<a
+				href="/sales/"
+				aria-describedby="tier-enterprise"
+				class="btn btn-outline btn-secondary btn-sm btn-block mt-6"
+				>Contact Sales</a
+			>
 
-		<div class="my-12 rounded-xl bg-white py-12 shadow-md">
-			<div class="mx-auto max-w-7xl px-6 lg:px-8">
-				<div
-					class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
-				>
-					<div class="p-8 sm:p-10 lg:flex-auto">
-						<h3 class="text-2xl font-bold tracking-tight text-gray-900">
-							Helperbird Pro Unlimited +
-						</h3>
-						<p class="mt-6 text-base leading-7 text-gray-600">
-							Tailored for boundless impact, it effortlessly adapts to the needs of an endless
-							number of schools and businesses. With full-throttle access to premium features, an
-							expansive user base, and weekly training bonanzas, it's not just a tool, but a
-							catalyst propelling organizations into a realm of inclusivity and optimal
-							functionality.
-						</p>
-						<div class="mt-10 flex items-center gap-x-4">
-							<h4 class="flex-none text-sm font-semibold leading-6 text-indigo-600">
-								What’s included
-							</h4>
-							<div class="h-px flex-auto bg-gray-100"></div>
-						</div>
-						<ul
-							role="list"
-							class="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
-						>
-							<li class="flex gap-x-3">
-								<svg
-									class="h-6 w-5 flex-none text-indigo-600"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-										clip-rule="evenodd"
-									/>
-								</svg>
-								Unlimited Schools or Businesses
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									class="h-6 w-5 flex-none text-indigo-600"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-										clip-rule="evenodd"
-									/>
-								</svg>
-								All of Helperbird's premium tools
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									class="h-6 w-5 flex-none text-indigo-600"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-										clip-rule="evenodd"
-									/>
-								</svg>
-								Weekly Trainings
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									class="h-6 w-5 flex-none text-indigo-600"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-										clip-rule="evenodd"
-									/>
-								</svg>
-								Enterprise-Ready
-							</li>
-						</ul>
-					</div>
-					<div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-						<div
-							class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16"
-						>
-							<div class="mx-auto max-w-xs px-8">
-								<p class="text-base font-semibold text-gray-600">Helperbird Pro Unlimited</p>
-								<p class="mt-6 flex items-baseline justify-center gap-x-2">
-									<span class="text-5xl font-bold tracking-tight text-gray-900">Custom</span>
-								</p>
-								<a
-									href="/sales/"
-									class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-									>Contact Sales</a
-								>
-								<p class="mt-6 text-xs leading-5 text-gray-600">
-									Transform your digital ecosystem with Helperbird Pro Unlimited+, where
-									accessibility meets limitless possibilities.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-black xl:mt-10">
+				<li class="mb-4 flex gap-x-2 text-base font-semibold">Everything in Pro Unlimited</li>
+
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Weekly trainings
+				</li>
+
+				<li class="flex items-center gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+
+					Instant Flash Cards
+					<div class="badge badge-secondary badge-sm">new</div>
+				</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+
+					Early access to features
+				</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Useage Dashboard
+				</li>
+				<li class="flex gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Unlimited Users
+				</li>
+
+				<li class="flex items-center gap-x-2">
+					<svg
+						class="h-6 w-5 flex-none text-blue-600"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+
+					Admin Panel
+					<div class="badge badge-secondary badge-sm">beta</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
 
 
-<div class="rounded-xl  px-6 py-24 sm:py-32 lg:px-8">
+<div class="rounded-xl  px-6 py-24  lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">Compare Helperbird plans</h2>
       <p class="leading-relaxed font-sans mt-6 text-xl  text-black">Compare Helperbird plans, if you need more help just reach out to our support staff.</p>
@@ -3213,7 +3020,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-transparent pt-6 sm:w-1/2">
 				<h3
-					class="leading-relaxed font-sans text-lg font-bold  text-black"
+					class="leading-relaxed font-sans text-xl font-bold  text-black"
 				>
 				Helperbird
 				</h3>
@@ -3221,7 +3028,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					Access to all core features.
 				</p>
 			</div>
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -3436,7 +3243,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading Tools</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -3715,7 +3522,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Display options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -3975,7 +3782,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
 				Writing tools
 			</h4>
 
@@ -4194,7 +4001,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -4302,7 +4109,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Other features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -4387,7 +4194,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">App features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -4563,7 +4370,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-blue-600 pt-6 sm:w-1/2">
 				<h3
-					class="leading-relaxed font-sans text-base font-bold l  text-black"
+					class="leading-relaxed font-sans text-lg font-bold l  text-black"
 				>
 					Helperbird Pro
 				</h3>
@@ -4571,7 +4378,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					All of Helperbird Pro features.
 				</p>
 			</div>
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -4580,7 +4387,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow-md ring-2 ring-blue-600 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
+					class="relative rounded-xl bg-white px-4 py-3 shadow-md border-2 border-pink-500 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
 				>
 					<dl class="divide-y divide-gray-200"><div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">Customizable Fonts</dt>
@@ -4775,11 +4582,11 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-2 ring-blue-600"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl border-2 border-pink-500"></div>
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading Tools</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -5052,7 +4859,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Display options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -5304,7 +5111,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
 				Writing tools
 			</h4>
 
@@ -5516,7 +5323,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -5621,7 +5428,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Other features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -5705,7 +5512,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">App features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -5885,7 +5692,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					Unlimited users per school/business
 				</p>
 			</div>
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -6095,7 +5902,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading Tools</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -6368,7 +6175,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Display options</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -6620,7 +6427,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
 				Writing tools
 			</h4>
 
@@ -6832,7 +6639,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -6937,7 +6744,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Other features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -7021,7 +6828,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 				</div>
 			</div>
 
-			<h4 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">App features</h4>
+			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
@@ -7219,7 +7026,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4 pr-4">
 				<div class="border-t-2 border-blue-600 py-6">
 					<p
-						class="leading-relaxed font-sans text-base font-bold l  text-green-600"
+						class="leading-relaxed font-sans text-lg font-bold l  text-pink-500"
 					>
 					Helperbird Pro
 					</p>
@@ -7282,7 +7089,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Customizable Fonts
 						</th>
 
@@ -7355,7 +7162,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Dyslexia-Friendly Fonts
 						</th>
 
@@ -7428,7 +7235,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Zoom and Magnification
 						</th>
 
@@ -7501,7 +7308,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Adjustable Word Spacing
 						</th>
 
@@ -7574,7 +7381,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Customizable Line Spacing
 						</th>
 
@@ -7646,7 +7453,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Adjustable Letter Spacing
 						</th>
 
@@ -7718,7 +7525,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Flexible Font Sizing
 						</th>
 
@@ -7790,7 +7597,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Customizable Paragraph Width
 						</th>
 
@@ -7862,7 +7669,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Alignment Options
 						</th>
 
@@ -7943,7 +7750,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -7951,7 +7758,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Reading Tools</h3>
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -7992,7 +7799,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Reading Mode
 						</th>
 
@@ -8047,7 +7854,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8065,7 +7872,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Immersive Reader by Microsoft
 						</th>
 
@@ -8120,7 +7927,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8138,7 +7945,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Picture Dictionary
 						</th>
 
@@ -8193,7 +8000,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8211,7 +8018,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Screenshot tools
 						</th>
 
@@ -8266,7 +8073,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8284,7 +8091,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Printing tools
 						</th>
 
@@ -8339,7 +8146,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8357,7 +8164,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Translation
 						</th>
 
@@ -8412,7 +8219,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8430,7 +8237,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Annotations
 						</th>
 
@@ -8484,7 +8291,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8502,7 +8309,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Summarize page
 						</th>
 
@@ -8556,7 +8363,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8574,7 +8381,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Text analyze
 						</th>
 
@@ -8628,7 +8435,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8646,7 +8453,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Highlight paragraphs
 						</th>
 
@@ -8700,7 +8507,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8718,7 +8525,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Volume control
 						</th>
 
@@ -8772,7 +8579,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8790,7 +8597,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Extract text from images (OCR)
 						</th>
 
@@ -8844,7 +8651,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 								<!-- Heroicon name: solid/check -->
 								
 								<svg
-									class="mx-auto h-5 w-5 text-green-600"
+									class="mx-auto h-5 w-5 text-pink-600"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -8871,7 +8678,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -8879,7 +8686,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Display options</h3>
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -8920,7 +8727,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Emphasize Links
 						</th>
 
@@ -8993,7 +8800,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Color Blindness Tools
 						</th>
 
@@ -9066,7 +8873,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Dyslexia Ruler
 						</th>
 
@@ -9138,7 +8945,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Reading Guide
 						</th>
 
@@ -9210,7 +9017,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Overlay
 						</th>
 
@@ -9282,7 +9089,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							High Contrast
 						</th>
 
@@ -9354,7 +9161,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Hide Images
 						</th>
 
@@ -9426,7 +9233,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Line Focus
 						</th>
 
@@ -9498,7 +9305,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Edit website
 						</th>
 
@@ -9570,7 +9377,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Reduce motion
 						</th>
 
@@ -9643,7 +9450,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Auto scroll
 						</th>
 
@@ -9724,7 +9531,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -9732,7 +9539,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
 			Writing tools
 		</h3>
 
@@ -9775,7 +9582,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Highlighter
 						</th>
 
@@ -9847,7 +9654,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Web search
 						</th>
 
@@ -9920,7 +9727,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Text-to-Speech
 						</th>
 
@@ -9993,7 +9800,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Text-to-Speech Options
 						</th>
 
@@ -10065,7 +9872,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							20 Natural Voices
 						</th>
 
@@ -10137,7 +9944,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Voice Typing
 						</th>
 
@@ -10209,7 +10016,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Word Prediction
 						</th>
 
@@ -10281,7 +10088,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Cursor Options
 						</th>
 
@@ -10353,7 +10160,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Auto Scrolling
 						</th>
 
@@ -10434,7 +10241,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -10442,7 +10249,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Styles & Colors</h3>
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -10483,7 +10290,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Highlight Colors
 						</th>
 
@@ -10556,7 +10363,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Font Colors
 						</th>
 
@@ -10628,7 +10435,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Background Colors
 						</th>
 
@@ -10700,7 +10507,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Link Colors
 						</th>
 
@@ -10781,7 +10588,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -10789,7 +10596,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Bonus features</h3>
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Bonus features</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -10830,7 +10637,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Sync Settings & Styles
 						</th>
 
@@ -10902,7 +10709,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Google Docs Support
 						</th>
 
@@ -10975,7 +10782,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Word Support
 						</th>
 
@@ -11057,7 +10864,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -11065,7 +10872,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 			</div>
 		</div>
 
-		<h3 class="mt-10 leading-relaxed font-sans mt-5 text-lg font-semibold text-black">Helperbird Apps</h3>
+		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Helperbird Apps</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
@@ -11106,7 +10913,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					</tr>
 				</thead>
 				<tbody class="divide-y divide-gray-100"><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Google Docs Add-on
 						</th>
 
@@ -11179,7 +10986,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Dictionary App
 						</th>
 
@@ -11251,7 +11058,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Annotations / Sticky Notes
 						</th>
 
@@ -11323,7 +11130,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Document Editor
 						</th>
 
@@ -11395,7 +11202,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							PDF Support
 						</th>
 
@@ -11468,7 +11275,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Reading List
 						</th>
 
@@ -11540,7 +11347,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 							</span>
 						</td>
 					</tr><tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
 							Google Slides Add-on
 						</th>
 
@@ -11622,7 +11429,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl ring-2 ring-blue-600 ring-opacity-100"></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>

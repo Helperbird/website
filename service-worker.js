@@ -1316,7 +1316,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/core/app.js",
-    "revision": "20b4fbf4fc87ad6f223828a174dca380"
+    "revision": "0d8a245814852aef549d4454bebc9c91"
   },
   {
     "url": "assets/js/core/google-events.js",
@@ -1336,11 +1336,11 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.bundle.js",
-    "revision": "bc5ff1670e6ee55f8f294feaf4a14c18"
+    "revision": "c6c05902e86194ac0d1cd3addef98979"
   },
   {
     "url": "assets/js/main.css",
-    "revision": "05e8d2d063b958b68fbce0dabd26ebe2"
+    "revision": "1467972d7f92207ae9ad331c18540f97"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -2972,7 +2972,7 @@ self.__precacheManifest = [
   },
   {
     "url": "pricing/index.html",
-    "revision": "5a0723a0c5931ba359aab3c8df0e628a"
+    "revision": "0c9354e3628b5b0a7e85d33142f5096b"
   },
   {
     "url": "pricing/index.png",
