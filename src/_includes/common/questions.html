@@ -1,33 +1,26 @@
-<section class="rounded-xl bg-white  py-24  shadow-md mt-16 mb-16">
-	<div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
-		<div class="lg:grid lg:grid-cols-12 lg:gap-8">
-			<div class="lg:col-span-5">
-				<h2 class="font-sans  text-3xl font-bold leading-relaxed text-black">
-					Frequently asked questions
-				</h2>
-				<p class="mt-4 font-sans text-lg leading-relaxed text-black">
-					Can’t find the answer you’re looking for? Reach out to our
-					<a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500"
-						>customer support</a
-					>
-					team.
-				</p>
-			</div>
-			<div class="mt-10 lg:col-span-7 lg:mt-0">
-				<dl class="space-y-10">
-					{%- for question in questions.helperbird -%}
+<section class="mb-16 mt-16 rounded-xl bg-white py-24 shadow-md">
 
-					<div class="mb-10">
-						<dt class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
-							{{question.question}}
-						</dt>
-						<dd class=" font-sans text-base leading-relaxed my-4 text-black ">{{question.answer}}</dd>
+		<div class="mx-auto max-w-4xl divide-y divide-white/10">
+			<h2 class="text-4xl font-bold tracking-tight text-black">
+				Frequently asked questions
+			</h2>
+			<p class="mt-6 font-sans text-2xl leading-relaxed text-black">
+				Can’t find the answer you’re looking for? Reach out to our
+				<a href="/support/" class="font-semibold text-indigo-600 hover:text-indigo-500"
+					>customer support</a
+				>
+				team.
+			</p>
+			<div class="mt-10 space-y-6 divide-y divide-black/10">
+				{%- for question in questions.helperbird -%}
+				<div class="space-y-10 py-6">
+					<div class="font-sans text-xl font-semibold leading-relaxed text-black">
+						{{question.question}}
 					</div>
-					{%- endfor -%}
-
-				
-				</dl>
+					<div class="my-4 font-sans text-lg leading-relaxed text-black">{{question.answer}}</div>
+				</div>
+				{%- endfor -%}
 			</div>
 		</div>
-	</div>
+
 </section>
