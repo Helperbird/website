@@ -1355,6 +1355,14 @@ self.__precacheManifest = [
     "revision": "4d74e75cb116139230da54ebf81f6bff"
   },
   {
+    "url": "blog/4-key-strategies-for-communicating-your-child-needs-to-school/index.html",
+    "revision": "d678b1739119c5fb3db394facfd31371"
+  },
+  {
+    "url": "blog/4-key-strategies-for-communicating-your-child-needs-to-school/index.png",
+    "revision": "4b91a4496f0a111e83907ffa1df1f6f2"
+  },
+  {
     "url": "blog/4-ways-to-be-more-accessible-on-social-media/index.html",
     "revision": "4a25923c177687fe1499134d11667c7e"
   },
@@ -1483,14 +1491,6 @@ self.__precacheManifest = [
     "revision": "242c82899f21a8688cf7be4607e1f624"
   },
   {
-    "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students copy/index.html",
-    "revision": "3e0e02af5fb958795f08107f1c52d204"
-  },
-  {
-    "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students copy/index.png",
-    "revision": "4b91a4496f0a111e83907ffa1df1f6f2"
-  },
-  {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
     "revision": "ff18a837618e1889e39336e4c83c584b"
   },
@@ -1548,7 +1548,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "595582ccc9dd8516a9c8b389cdc259cc"
+    "revision": "48562e2f4cd454a41828c87cc5c15d9e"
   },
   {
     "url": "blog/index.png",
@@ -3088,7 +3088,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "4bed76f69854aba10c863727a1aa45e0"
+    "revision": "11783555dd12cafc1e5ccd0ab0253068"
   },
   {
     "url": "sitemap/index.png",
