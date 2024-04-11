@@ -1,5 +1,81 @@
 {
 	"new": [
+
+
+		{
+			"version": "107.5.0",
+			"date": "2024-04-11",
+			"changes": [
+			  {
+				"title": "🔑 Keyboard Navigation Improved",
+				"description": "Enhanced keyboard support for app navigation."
+			  },
+			  {
+				"title": "🎯 Focus Issue Fixes",
+				"description": "Improved button focus for better usability."
+			  },
+			  {
+				"title": "🆕 New Default Apps",
+				"description": "Added new default applications."
+			  },
+			  {
+				"title": "🔔 Updated Notification System",
+				"description": "Notifications and updates system improved."
+			  },
+			  {
+				"title": "🗣️ Text to Speech Enhancements",
+				"description": "Text to speech now includes natural voices and word highlighting."
+			  },
+			  {
+				"title": "🚪 Modal Escape Key",
+				"description": "Added escape key functionality to exit modals."
+			  },
+			  {
+				"title": "📸 Screenshot Feature Update",
+				"description": "Moved screenshot feature for easier access."
+			  },
+			  {
+				"title": "🔢 Math Reader Update",
+				"description": "Improved Math Reader for faster equation processing."
+			  },
+			  {
+				"title": "📝 Sticky Notes Redesign",
+				"description": "Made sticky notes smaller and more compact."
+			  },
+			  {
+				"title": "📚 Reading Level Indicator",
+				"description": "Added a reading level indicator under text input fields."
+			  },
+			  {
+				"title": "⚡ Speed Reading Settings",
+				"description": "Speed reading settings now have their own separate pages."
+			  },
+			  {
+				"title": "📱 Subscription Key Fix for iPhone Users",
+				"description": "Fixed a bug affecting subscription key recognition on iPhone."
+			  },
+			  {
+				"title": "🔐 Simplified Subscription Key Usage",
+				"description": "Removed login reminders for subscription key usage."
+			  },
+			  {
+				"title": "✨ UI Improvements",
+				"description": "Updated UI for a cleaner look and feel."
+			  }
+			],
+			"upcoming": [
+			  {
+				"title": "✏️ New Highlighter Supports",
+				"description": "Enhanced highlighter functionality for improved document handling."
+			  },
+			  {
+				"title": "🎙️ Voice Typing into Inputs",
+				"description": "Added voice typing feature for text input fields."
+			  }
+			],
+			"note": "This update includes various enhancements and fixes aimed at improving user experience and application performance. Stay tuned for the upcoming features to make your experience even more seamless."
+		  }
+,		  
 		{
 			"version": "107.1.5",
 			"date": "February 22nd, 2024",
