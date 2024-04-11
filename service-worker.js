@@ -43,6 +43,14 @@ self.__precacheManifest = [
     "revision": "d73e548ec1590e13f0c4757f575ed02d"
   },
   {
+    "url": "accessibility-statement/index.html",
+    "revision": "35020faef50f235be5f499cff4d6ba8f"
+  },
+  {
+    "url": "accessibility-statement/index.png",
+    "revision": "9aee207c0305383ff538a720d05c252a"
+  },
+  {
     "url": "assets/css/blog.css",
     "revision": "ee7c1673f5dce3c32e8da8729faed551"
   },
@@ -3088,7 +3096,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "11783555dd12cafc1e5ccd0ab0253068"
+    "revision": "d663836f0706bf56d1098772b32f15ec"
   },
   {
     "url": "sitemap/index.png",
