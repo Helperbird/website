@@ -29,7 +29,6 @@ Extracurricular activities are beneficial for almost every child and teen. They 
 
 Whether your child gravitates toward sports, arts, or other special interest clubs, getting them involved in extracurricular activities can help them thrive outside of the classroom while preparing them for the “real world” from a very early age.
 
-![Low Angle Shot of Girl Playing Tennis](https://www.pexels.com/photo/low-angle-shot-of-girl-playing-tennis-8224688/)
 
 When parents and educators work together to support a student’s involvement in extracurriculars, that student is likely to reap even greater rewards.
 
