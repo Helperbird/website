@@ -1504,7 +1504,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.html",
-    "revision": "0f005314b68052f0b392b93e2211169d"
+    "revision": "5f2071181ab82c04de67539fc0f299dc"
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.png",
