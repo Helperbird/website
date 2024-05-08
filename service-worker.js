@@ -1500,7 +1500,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
-    "revision": "7b53033802524d0c97d894405a871da9"
+    "revision": "2922f3ca67a7c8049180e0c800963847"
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.png",
