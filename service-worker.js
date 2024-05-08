@@ -119,6 +119,10 @@ self.__precacheManifest = [
     "revision": "cd4d927dbd3e60baf3cc9df0c87ae6aa"
   },
   {
+    "url": "assets/images/blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/how-extracurriculars-boost-self-esteem-in-dyslexic-learners.png",
+    "revision": "61a65f28d52f19819db1985d1770f17d"
+  },
+  {
     "url": "assets/images/blog/how-to-avoid-wfh-burnout-and-maximize-productivity/avoid-wfh-burnout-and-maximize-productivity.jpg",
     "revision": "a2fbe5a246e9607f0d1e2c8baa9a8dd4"
   },
@@ -1499,6 +1503,14 @@ self.__precacheManifest = [
     "revision": "242c82899f21a8688cf7be4607e1f624"
   },
   {
+    "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.html",
+    "revision": "0f005314b68052f0b392b93e2211169d"
+  },
+  {
+    "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.png",
+    "revision": "e3e376946ca97c0cd5f97f1f6620d493"
+  },
+  {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
     "revision": "2922f3ca67a7c8049180e0c800963847"
   },
@@ -1556,7 +1568,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "16368afcbe430b4d09cd5ff68c3a8924"
+    "revision": "92fd4ecdaae05d05d675e8bee421df2f"
   },
   {
     "url": "blog/index.png",
@@ -3096,7 +3108,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "251f1cab90c6a7d6ce221dd3cf4df370"
+    "revision": "1891a0ef711bbe09f73e5f1a9001f44c"
   },
   {
     "url": "sitemap/index.png",
