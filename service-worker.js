@@ -1504,7 +1504,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.html",
-    "revision": "5f2071181ab82c04de67539fc0f299dc"
+    "revision": "ac4e5a342b20bbd6847851dd80b6c49e"
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.png",
@@ -1512,7 +1512,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
-    "revision": "2922f3ca67a7c8049180e0c800963847"
+    "revision": "c3474e8d9466cac2fc6f547dbf8d1c4e"
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.png",
