@@ -12,19 +12,14 @@ url: blog/
 
 
 <div class="mx-auto max-w-3xl mb-8 mt-8">
-
-<div class="px-6 py-16 lg:px-8 mb-4">
-
-    <h2 class="leading-relaxed font-sans text-center   text-3xl font-bold   text-black sm:text-5xl">From the blog
-    </h2>
-    <p class="leading-relaxed font-sans text-center    mt-6 text-xl  text-black sm:text-2xl">
-
-    Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.
-
-    </p>
-
-</div>
-
+  <div class="px-6 py-16 lg:px-8 mb-4">
+      <h1 class="leading-relaxed font-display text-center text-5xl mb-8 font-bold text-gray-900">
+        From the Blog
+      </h1>
+      <p class="leading-relaxed font-sans font-display  text-center    mt-4 text-xl  text-black sm:text-2xl">
+        Read our thoughts on Helperbird, Ed tech and more from the Helperbird team.
+      </p>
+  </div>
 </div>
 
 
@@ -37,25 +32,25 @@ url: blog/
 
     {% for post in sortedBlogPosts %}
 
+      
 
-    <div class="card bg-white rounded-xl overflow-hidden flex flex-col">
-      <figure class="p-4">
-          <img src="{{ post.data.img }}" alt="{{ post.data.cardTitle }}"
-               class="aspect-[16/9] w-full rounded-xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
-      </figure>
-      <div class="card-body tw-p-4 flex flex-col flex-grow">
-          <h3 class="card-title font-bold">{{ post.data.cardTitle }}</h3>
-          <div class="badge badge-secondary">{{ post.data.blog_cat }}</div>
-          <div class="badge badge-primary">{{post.data.date | formatDateWithOrdinal }}</div>
-          <p class="my-6 text-base text-black overflow-hidden line-clamp-3 mb-4 mt-4">{{ post.data.blog_snip }}</p>
+      <article class="card card-compact border-2 border-stone-500 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
+        <figure class="p-4">
+            <img src="{{ post.data.img }}" alt="{{ post.data.cardTitle }} - Image"
+                 class="aspect-[16/9] w-full rounded-xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
+        </figure>
+        <div class="card-body p-4 flex flex-col flex-grow">
+            <h3 class="card-title font-bold">{{ post.data.cardTitle }}</h3>
+            <div class="badge badge-secondary" aria-label="Blog Category">{{ post.data.blog_cat }}</div>
+            <div class="badge badge-primary" aria-label="Post Date">{{ post.data.date | formatDateWithOrdinal }}</div>
+            <p class="my-6 text-base text-black overflow-hidden line-clamp-3 mb-4 mt-4">{{ post.data.blog_snip }}</p>
     
-              <div class="card-actions justify-end mt-4">
-                  <a href="{{ post.url }}" title="{{ post.data.cardTitle }}"
-                     class="link link-hover text-blue-500 hover:text-blue-700">Read blog</a>
-              </div>
-   
-      </div>
-  </div>
+            <div class="card-actions justify-end mt-4">
+                <a href="{{ post.url }}" title="Read more about {{ post.data.cardTitle }}"
+                   class="link link-hover text-blue-500 hover:text-blue-700">Read blog</a>
+            </div>
+        </div>
+    </article>
     
 
 

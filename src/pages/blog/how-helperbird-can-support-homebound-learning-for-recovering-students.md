@@ -22,7 +22,7 @@ time: 5 mins
 
 Image Source: [pixabay.com](https://pixabay.com/photos/injury-foul-free-kick-soccer-4211129/)
 
-# Healing and Learning: How Helperbird Can Support Homebound Learning for Recovering Students
+# How Helperbird Can Support Homebound Learning for Recovering Students
 
 Injuries are never something that any parent wants their child to have to suffer through. For severe injuries, kids have to stay at home to recover. This can be especially challenging for kids. Not only do they have to deal with the pain and hassle involved in recovery, but they are also likely dealing with temporary social isolation and missing a substantial amount of school.
 
