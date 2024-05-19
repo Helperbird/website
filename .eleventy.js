@@ -146,20 +146,27 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl    mb-8 font-bold',
-		h2: 'leading-relaxed font-display text-2xl   mb-4 mt-12 font-semibold',
-		h3: 'leading-relaxed font-display text-xl   mb-2 font-semibold mt-10',
-		h4: 'leading-relaxed font-display text-lg  mb-4  font-semibold mt-5',
-		p: 'leading-relaxed font-display   my-4 text-lg font-display ',
-		strong: '  text-base text-lg',
-		bold: ' ',
-		ul: 'leading-relaxed list-decimal list-decimal-important list-inside mt-4 space-y-2  pl-6 text-lg font-display ml-6 mb-8 ',
-		ol: 'list-decimal list-decimal-important list-inside text-lg font-display ml-6',
-		li: 'leading-relaxed mb-4 mt-4 text-lg font-display ',
-		img: 'aspect-square rounded-2xl  mb-8',
-		hr: 'divider divider-neutral',
-		a: 'leading-relaxed font-sans text-lg link link-hover text-blue-500 hover:text-blue-700',
-		iframe: 'w-full h-96 rounded-xl shadow-lg m-10'
+	
+			h1: 'leading-relaxed font-display text-3xl mb-8 font-bold text-gray-900',
+			h2: 'leading-relaxed font-display text-2xl mb-6 mt-12 font-semibold text-gray-800',
+			h3: 'leading-relaxed font-display text-xl mb-4 mt-10 font-semibold text-gray-700',
+			h4: 'leading-relaxed font-display text-lg mb-4 mt-8 font-semibold text-gray-600',
+			p: 'leading-relaxed font-display mb-4 mt-4 text-lg text-gray-900',
+			strong: 'text-lg font-semibold text-gray-800',
+			bold: 'font-bold text-gray-900',
+			ul: "leading-relaxed list-disc list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-gray-900",
+			ol: "leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-gray-900",
+			li: "leading-relaxed mb-2 text-lg font-display text-gray-900 flex items-center",
+		  
+			img: 'aspect-square rounded-2xl mb-8 shadow-lg',
+			hr: 'divider divider-neutral my-10',
+			a: 'leading-relaxed font-sans text-lg text-blue-500 hover:text-blue-700 underline',
+			iframe: 'w-full h-96 rounded-xl shadow-lg my-10',
+			blockquote: 'border-l-4 border-gray-300 pl-4 italic text-gray-700 my-4',
+			code: 'bg-gray-100 text-gray-800 rounded p-2 text-sm font-mono',
+			pre: 'bg-gray-100 p-4 rounded overflow-x-auto'
+
+		  
 	};
 
 	eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
