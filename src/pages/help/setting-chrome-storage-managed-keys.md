@@ -37,40 +37,42 @@ Create a JSON file that defines the policies you want to set. Your JSON file sho
 
 ## Step 2: Upload the JSON Policy File to Google Admin Console
 
-1. **Sign in to the Google Admin console**:
-   - Go to [admin.google.com](https://admin.google.com) and sign in with your administrator account.
+**Sign in to the Google Admin console**:
+Go to [admin.google.com](https://admin.google.com) and sign in with your administrator account.
 
-2. **Navigate to Device Management**:
-   - From the Admin console Home page, go to `Devices`.
+**Navigate to Device Management**:
+From the Admin console Home page, go to `Devices`.
 
-3. **Chrome Management**:
-   - Click on `Chrome management`.
+**Chrome Management**:
+Click on `Chrome management`.
 
-4. **App Management**:
-   - Click on `Apps & extensions`.
+**App Management**:
 
-5. **Manage Policies for Extensions**:
-   - Find the extension for which you want to set the policy. If the extension is not already listed, you'll need to add it. Click on the `+` icon to add a new app or extension by ID.
+Click on **Apps & extensions**.
 
-6. **Upload Custom Policy**:
-   - Once you have located or added the extension, click on it.
-   - Navigate to the `User settings` tab.
-   - Under `Policy for extensions`, you’ll see an option to upload your custom JSON policy file.
-   - Upload the JSON file you created in Step 1.
+**Manage Policies for Extensions**:
+Find the extension for which you want to set the policy. If the extension is not already listed, you'll need to add it. Click on the `+` icon to add a new app or extension by ID.
+
+**Upload Custom Policy**:
+
+Once you have located or added the extension, click on it.
+Navigate to the **User settings** tab.
+Under **Policy for extensions**, you’ll see an option to upload your custom JSON policy file.
+Upload the JSON file you created in Step 1.
 
 
 
 ## Step 3: Apply the Policy
 
-1. **Save and Apply**:
-   - Save the changes. The policy will be applied to all users under the specified organizational unit.
+**Save and Apply**:
+Save the changes. The policy will be applied to all users under the specified organizational unit.
 
-2. **Verify Policy Application**:
-   - To verify that the policy has been applied, users can navigate to `chrome://policy` in their Chrome browser. They should see the policies listed under the `Managed Configuration` section.
+**Verify Policy Application**:
+To verify that the policy has been applied, users can navigate to **chrome://policy** in their Chrome browser. They should see the policies listed under the **Managed Configuration** section.
 
 ## Example of Applying Policies
 
-Here's an example of how your managed storage policy might be configured for an extension with ID `ahmapmilbkfamljbpgphfndeemhnajme`:
+Here's an example of how your managed storage policy might be configured for an extension with ID **ahmapmilbkfamljbpgphfndeemhnajme**:
 
 ```json
 {
@@ -85,8 +87,8 @@ Here's an example of how your managed storage policy might be configured for an 
 
 ## Additional Tips
 
-- **Organizational Units**: Ensure you are applying the policy to the correct organizational unit within your domain.
-- **Policy Propagation**: Policies can take some time to propagate across all devices. It might require users to restart their Chrome browser or device.
-- **Debugging**: Use the `chrome://policy` URL to debug and verify the policies applied to Chrome.
+**Organizational Units**: Ensure you are applying the policy to the correct organizational unit within your domain.
+**Policy Propagation**: Policies can take some time to propagate across all devices. It might require users to restart their Chrome browser or device.
+**Debugging**: Use the **chrome://policy** URL to debug and verify the policies applied to Chrome.
 
-By following these steps, you can configure `chrome.storage.managed` keys using the Google Admin Console, ensuring that your Chrome extension receives the specified managed storage settings.
+By following these steps, you can configure **chrome.storage.managed** keys using the Google Admin Console, ensuring that your Chrome extension receives the specified managed storage settings.
