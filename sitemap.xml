@@ -142,6 +142,13 @@
     </url>
   
     <url>
+      <loc>http://localhost:3000/help/setting-chrome-storage-managed-keys/</loc>
+      <lastmod>2016-01-04</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:3000/help/setting-helperbird-policies-in-enterprise-environments/</loc>
       <lastmod>2016-01-04</lastmod>
       <changefreq>monthly</changefreq>
