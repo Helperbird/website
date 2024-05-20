@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Celebrating 10 Years of Helperbird - Exciting Updates and Plans for the Future!
 description: As we gear up to celebrate our 10th anniversary, we’re thrilled to share some amazing updates and plans for Helperbird. Founded in January 2015 by Robert James Gabriel, Helperbird has always been about making the web accessible for everyone. As we approach this milestone, here’s what we’re focusing on in the next six months
 keywords: social media accessibility, image descriptions, video captions, camel case hashtags, emojis, inclusivity, disabilities, accessibility tools

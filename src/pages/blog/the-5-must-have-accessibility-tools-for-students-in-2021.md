@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: The 5 Must-Have Accessibility Tools for Students in 2021
 description: Discover the top 5 must-have accessibility tools for students in 2021 to empower and enhance their online learning experience.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

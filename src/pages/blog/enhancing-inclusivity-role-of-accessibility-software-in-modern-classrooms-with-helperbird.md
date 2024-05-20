@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Enhancing Inclusivity - Role of Accessibility Software in Modern Classrooms with Helperbird
 description: In the contemporary educational landscape, accessibility and inclusivity have taken center stage. With an increasing awareness of the varying learning needs and abilities of students, educators are looking to technology to bridge the gap. One such solution is accessibility software, designed to tailor education to each learner's needs, fostering a more inclusive environment. Among the pioneers of this endeavor is Helperbird, an all-encompassing tool designed to augment learning experiences for all students.
 keywords: social media accessibility, image descriptions, video captions, camel case hashtags, emojis, inclusivity, disabilities, accessibility tools

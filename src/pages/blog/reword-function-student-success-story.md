@@ -2,7 +2,7 @@
 new: false
 submit: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Empowering Students with Helperbird’s Reword Function
 description: Discover how a high school student overcame academic hurdles with the help of Helperbird's Reword function. Witness the transformation from avoidance to accomplishment.
 keywords: "Marketing, Immersive Reader, Read Aloud, Text Spacing, Helperbird for Chrome, productivity tools, accessibility software"

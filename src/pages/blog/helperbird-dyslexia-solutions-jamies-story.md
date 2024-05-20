@@ -2,7 +2,7 @@
 new: false
 submit: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How Helperbird Transformed a Student's Academic Experience
 description: Discover Jamie's inspirational story of overcoming reading challenges with the help of Helperbird's innovative features. Learn how the dyslexia ruler and Lexend font made a significant difference, and our commitment to protecting user identities while sharing their successes.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Winner of Our Chromebook Giveaway
 description: Discover the winner of our Chromebook giveaway, where participants had the chance to win a brand new Chromebook and a year of Helperbird Pro. Learn more about the competition and celebrate with us.
 keywords: Chromebook giveaway winner, Helperbird giveaway, competition winner announcement, celebrate the winner, Chromebook and Helperbird Pro prize, giveaway celebration

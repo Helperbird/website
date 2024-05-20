@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: 7 Steps to Create Personalised Learning Plans for Students
 description: Discover how to tailor educational experiences with our guide on creating personalised learning plans. These seven steps offer strategies for educators to meet individual student needs, enhancing learning outcomes and classroom inclusivity.
 keywords: Personalised Learning, Education Strategies, Student-Centered Learning, Classroom Innovation, Teacher Resources, Education Improvement, Customized Learning Plans

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
 description: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
 keywords: assistive technology, web accessibility, dyslexia software, Reading Mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic

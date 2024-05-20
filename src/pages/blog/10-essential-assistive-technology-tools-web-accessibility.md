@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: 10 Essential assistive technology tools for web accessibility
 description: In today's digital age, web accessibility is of paramount
   importance. It ensures that individuals with disabilities can navigate

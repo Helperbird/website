@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Best Careers for People with Dyslexia
 description: Discover the best career paths for people with dyslexia and explore how their unique strengths and abilities can excel in various fields. Overcome the misconceptions surrounding dyslexia and embrace the potential for success in fulfilling careers.
 keywords: best careers for people with dyslexia, dyslexia strengths, dyslexia abilities, dyslexia and career choices, dyslexia in the workplace, dyslexia success stories, dyslexia misconceptions

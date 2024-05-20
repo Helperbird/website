@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How Extracurriculars Boost Self-Esteem in Dyslexic Learners
 description: Extracurricular activities are beneficial for almost every child and teen. They help to teach essential life skills like time management, teamwork, and leadership. 
 keywords: Personalised Learning, Education Strategies, Student-Centered Learning, Classroom Innovation, Teacher Resources, Education Improvement, Customized Learning Plans

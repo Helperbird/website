@@ -2,7 +2,7 @@
 new: false
 submit: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: "Making PDFs Easier with Helperbird's PDF Reader"
 description: "Follow  Rory's story as he discovers Helperbird's PDF Reader. Learn how features like Text to Speech, Summarize, and more helped him handle PDF documents with ease."
 keywords: "PDF Reader, Text to Speech, Summarize, Overlays, Dyslexia Rulers, Sticky Notes, Translation Support, OCR Support, Immersive Reader, Helperbird for Chrome, document accessibility"

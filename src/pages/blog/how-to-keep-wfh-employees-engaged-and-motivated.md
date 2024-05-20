@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Engaging and Motivating WFH Employees, Strategies for Success
 description: Discover effective strategies for keeping remote employees engaged and motivated. In an era where remote work is becoming increasingly common, Upwork estimates that over 26% of the American workforce will be working from home by 2021.
 keywords: WFH employees, remote work engagement, motivation strategies, working from home, American workforce, Upwork

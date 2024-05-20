@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: 4 Ways to Make Social Media More Accessible in 2022
 description: Learn how to improve accessibility on social media platforms to
   ensure inclusivity and enhance user experience for individuals with

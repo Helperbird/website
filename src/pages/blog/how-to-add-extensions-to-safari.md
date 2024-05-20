@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How to Add Extensions to Safari
 description: Learn how to add extensions to Safari and customize your browsing experience. Discover the wide range of extensions available from the App Store to enhance Safari's functionality and meet your specific needs.
 keywords: Add extensions to Safari, Safari browser customization, Safari extensions from App Store, enhance Safari functionality, Safari customization guide

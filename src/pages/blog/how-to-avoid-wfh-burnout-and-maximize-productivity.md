@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How to Avoid WFH Burnout and Maximize Productivity
 description: Learn effective strategies to avoid work-from-home burnout and maximize productivity. Discover practical tips to establish work-life balance, set boundaries, and prioritize self-care for a healthier and more fulfilling remote work experience.
 keywords: Avoid work-from-home burnout, maximize productivity, work-from-home tips, establish work-life balance, set boundaries, prioritize self-care, remote work strategies

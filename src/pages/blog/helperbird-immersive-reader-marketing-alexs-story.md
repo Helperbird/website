@@ -2,7 +2,7 @@
 new: false
 submit: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: "Elevating Marketing Efforts with Immersive Reader in Helperbird"
 description: "Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient and effective campaign management."
 keywords: "Marketing, Immersive Reader, Read Aloud, Text Spacing, Helperbird for Chrome, productivity tools, accessibility software"

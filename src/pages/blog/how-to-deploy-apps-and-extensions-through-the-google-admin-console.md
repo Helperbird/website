@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How to Deploy Helperbird through the G Suite Console
 description: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
 keywords: Deploy Helperbird, G Suite Console, install Helperbird, streamline installation process, accessibility software deployment, multiple computers, step-by-step guide

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: 4 Key Strategies for Communicating Your Child's Needs to Schools
 description: Advocating for your child’s needs should be your top priority as a parent or caregiver. Without adequate advocacy, you may find that your kid is overlooked and is not given the support and attention that they need.
 keywords: Personalised Learning, Education Strategies, Student-Centered Learning, Classroom Innovation, Teacher Resources, Education Improvement, Customized Learning Plans

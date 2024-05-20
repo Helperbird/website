@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: An 8-Step Guide to Creating Accessible Emails for Those with Dyslexia
 description: Learn how to create accessible emails for individuals with dyslexia with this comprehensive 8-step guide. Understand the unique challenges dyslexic people face and discover practical techniques to make your email content more dyslexia-friendly.
 keywords: creating accessible emails, dyslexia-friendly emails, dyslexia and email design, accessible email layout, dyslexia email techniques, email accessibility tips

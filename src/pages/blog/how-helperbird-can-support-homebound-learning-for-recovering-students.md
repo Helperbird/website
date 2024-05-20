@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How Helperbird Can Support Homebound Learning for Recovering Students
 description: Injuries are never something that any parent wants their child to have to suffer through. For severe injuries, kids have to stay at home to recover. This can be especially challenging for kids. Not only do they have to deal with the pain and hassle involved in recovery, but they are also likely dealing with temporary social isolation and missing a substantial amount of school. 
 keywords: Personalised Learning, Education Strategies, Student-Centered Learning, Classroom Innovation, Teacher Resources, Education Improvement, Customized Learning Plans

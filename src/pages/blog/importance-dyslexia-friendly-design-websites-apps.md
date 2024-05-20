@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Creating an Inclusive Online Experience, The Importance of Dyslexia-Friendly Design
 description: Discover why dyslexia-friendly design is crucial for websites and apps. Learn how Helperbird empowers individuals with dyslexia through customizable typography, color contrast adjustments, and dyslexia-friendly tools.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Boosting Classroom Accessibility - Discover the Magic of Helperbird
 description: Education is the cornerstone of every individual's personal and professional development, and it's crucial that everyone, regardless of their abilities or disabilities, have equal access to learning opportunities. However, for many students with special needs, traditional classrooms might not offer the most conducive learning environment. Luckily, in the digital age, technology has taken significant strides towards promoting inclusivity and equal learning opportunities. At the forefront of this transformation is Helperbird, a suite of tools designed to make education more accessible.
 keywords: social media accessibility, image descriptions, video captions, camel case hashtags, emojis, inclusivity, disabilities, accessibility tools

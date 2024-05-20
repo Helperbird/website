@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How to Use Immersive Reader in Google Docs
 description: Learn how to use Immersive Reader in Google Docs for free. Follow our step-by-step guide to enable and utilize this powerful dyslexia software tool.
 keywords: Immersive Reader, Google Docs, dyslexia software, step-by-step guide, accessibility software, Helperbird, dyslexia fonts, dyslexia software, reading mode, text reader, voice typing

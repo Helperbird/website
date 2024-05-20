@@ -2,7 +2,7 @@
 new: false
 submit: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Helping Students Thrive with Helperbird's Accessibility Tools
 description: Discover how Helperbird's accessibility tools, including Read Aloud, Voice Typing, and Translate, are making learning easier and more inclusive for Patricia Ferris' students with diverse needs.
 keywords: Accessibility, Helperbird, Education, Read Aloud, Voice Typing, Translate, Inclusive Learning, Student Success

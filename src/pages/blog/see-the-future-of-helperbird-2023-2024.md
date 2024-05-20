@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Introducing the Next Big Release of Helperbird
 description: Get ready for the exciting next big release of Helperbird, launching on June 4th! Discover the host of new features and improvements, including split bottom navigation for Writing, Reading, and Accessibility, maths solving support, Epub support, offline functionality, a new user-friendly onboarding UI, over 30 major fixes and improvements, and full feature compatibility with PDFs. Experience the transformative power of Helperbird in revolutionizing your web browsing experience.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

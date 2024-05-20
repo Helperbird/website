@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: How a Teacher Helped Me Achieve My Full Potential - Teacher Appreciation Week
 description: Discover the inspiring story of how a teacher helped me overcome challenges, achieve my full potential, and start my own company. Celebrate Teacher Appreciation Week with this heartfelt account.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

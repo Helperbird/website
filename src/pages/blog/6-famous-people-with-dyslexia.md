@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: 6 Famous People with Dyslexia
 description: Discover six famous individuals who have overcome dyslexia and achieved success in their respective careers. Learn about their inspiring stories and accomplishments.
 keywords: dyslexia, famous people with dyslexia, dyslexia software, reading mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic

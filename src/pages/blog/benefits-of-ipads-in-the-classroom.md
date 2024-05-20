@@ -1,7 +1,7 @@
 ---
 new: false
 header: true
-layout: templates/blog_post.liquid
+layout: templates/blog/post.liquid
 title: Benefits of iPads in the Classroom 2023
 description: Discover the benefits of using iPads in the classroom to enhance the learning experience. Explore how technology has transformed traditional teaching methods and empowered educators to create interactive and engaging lessons.
 keywords: benefits of iPads, classroom technology, interactive learning, educational technology, iPad in education, digital learning, technology in the classroom, teaching tools
