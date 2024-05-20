@@ -2848,7 +2848,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/setting-chrome-storage-managed-keys/index.html",
-    "revision": "f6d6dc7db45ac3763ec20caddf6b9a57"
+    "revision": "68327dda5dac0ecf21c03295ae832eba"
   },
   {
     "url": "help/setting-chrome-storage-managed-keys/index.png",
