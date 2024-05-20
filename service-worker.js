@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "fda89b04dcc9875b025f71f2dabdfe56"
+    "revision": "49f892ee5d3043d3a56a9a369aca5575"
   },
   {
     "url": "about/index.png",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "accessibility-statement/index.html",
-    "revision": "e7ea762ea8990df39b6dea0510d9bae6"
+    "revision": "c05d83f4bf1d8d49dba205c04f77042f"
   },
   {
     "url": "accessibility-statement/index.png",
@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "5c169bbc4c93f3ecf8a7f434ea3f77e9"
+    "revision": "e66335f0c6736ec57d2ecf75ab663c32"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1748,7 +1748,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.html",
-    "revision": "0a7d8bf5315098ede9c13b02cc752f73"
+    "revision": "3a201d367efc58d564260ba4b49e057f"
   },
   {
     "url": "compliance/index.png",
@@ -3012,7 +3012,7 @@ self.__precacheManifest = [
   },
   {
     "url": "privacy/index.html",
-    "revision": "ee64c883e249ff93441d3747620448c9"
+    "revision": "c29837f2df20a6ca9f8721804ae2272f"
   },
   {
     "url": "privacy/index.png",
@@ -3076,7 +3076,7 @@ self.__precacheManifest = [
   },
   {
     "url": "refund/index.html",
-    "revision": "87b4c6402351a4c4d6178987e163d1be"
+    "revision": "7c9f56aae6a084743d39942c41586e96"
   },
   {
     "url": "refund/index.png",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "security/index.html",
-    "revision": "d369151b9ef08a8a562fbfa9da7ce172"
+    "revision": "347ed3f66787db5f59e784438a29af99"
   },
   {
     "url": "security/index.png",
@@ -3176,7 +3176,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.html",
-    "revision": "0a128b73091e2a12c14817e3f48919da"
+    "revision": "bc2ad904f91b23a57bb8e7b72224a357"
   },
   {
     "url": "terms-of-service/index.png",
