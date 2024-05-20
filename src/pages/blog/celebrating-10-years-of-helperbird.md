@@ -12,7 +12,7 @@ date: 2024-05-19T00:00:00.000Z
 time: 5 min read
 tags: blog
 isBlog: true
-blog_cat: Blog
+blog_cat: Update
 youtubeId: vwT8SAJfU3E
 cardTitle: Celebrating 10 Years of Helperbird - Exciting Updates and Plans for the Future!
 blog_snip: As we gear up to celebrate our 10th anniversary, we’re thrilled to share some amazing updates and plans for Helperbird. Founded in January 2015 by Robert James Gabriel, Helperbird has always been about making the web accessible for everyone. As we approach this milestone, here’s what we’re focusing on in the next six months
