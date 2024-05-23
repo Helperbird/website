@@ -1,26 +1,60 @@
-<section class="mb-16 mt-16 rounded-xl bg-white py-24 shadow-md">
 
-		<div class="mx-auto max-w-4xl divide-y divide-white/10">
-			<h2 class="text-4xl font-bold tracking-tight text-black">
-				Frequently asked questions
-			</h2>
-			<p class="mt-6 font-sans text-2xl leading-relaxed text-black">
-				Can’t find the answer you’re looking for? Reach out to our
-				<a href="/support/" class="font-semibold text-indigo-600 hover:text-indigo-500"
-					>customer support</a
-				>
-				team.
-			</p>
-			<div class="mt-10 space-y-6 divide-y divide-black/10">
-				{%- for question in questions.helperbird -%}
-				<div class="space-y-10 py-6">
-					<div class="font-sans text-xl font-semibold leading-relaxed text-black">
-						{{question.question}}
-					</div>
-					<div class="my-4 font-sans text-lg leading-relaxed text-black">{{question.answer}}</div>
-				</div>
-				{%- endfor -%}
-			</div>
+  
+
+
+<section class="rounded-xl bg-white py-24 shadow-md mt-16 mb-16">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+	  <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently Asked Questions</h2>
+	  <p class="mt-6 text-xl  text-black">
+		Can’t find the answer you’re looking for? Reach out to our 
+		<a href="/support/" class="font-bold text-blue-500 hover:text-blue-700">customer support</a> team.
+	  </p>
+	 
+	  <div class="mt-10 space-y-8 divide-y divide-stone-600">
+		{%- for question in questions.helperbird -%}
+
+		<div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+		  <h3 class="text-xl font-semibold leading-7 text-gray-900 lg:col-span-5">{{ question.question }}</h3>
+		  <dd class="mt-4 lg:col-span-7 lg:mt-0">
+			<p class="text-lg  text-black">{{ question.answer }}</p>
+		  </dd>
 		</div>
-
+  	  {%- endfor -%}
+		
+	</div>
+	</div>
 </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
