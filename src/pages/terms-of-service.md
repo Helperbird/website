@@ -5,16 +5,8 @@ layout: templates/single_page.liquid
 title: Terms of Service
 youtubeId: vwT8SAJfU3E
 cardTitle: Terms of Service
-description:
-  At Helperbird, we build privacy into every product we make, so you can enjoy great experiences
-  that keep your personal information safe and secure. Helperbirds privacy features don`t sell,
-  store, or consume any user data. We do not store data or any other user-related content.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: At Helperbird, we prioritize your privacy. Our products are designed to protect your personal information. Helperbird's privacy features ensure no user data is sold, stored, or consumed. Learn more about our commitment to keeping your data safe.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, OpenDyslexic for Chrome, OpenDyslexic
 url: terms-of-service/
 img: /assets/images/blog/new-blog-2022/ipad-productivity-apps.png
 isBlog: false

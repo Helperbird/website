@@ -167,28 +167,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="/assets/images/social/browserconfig.xml">
 
-  <!-- Accessibility fixes -->
-  <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      // Add descriptive alt text for images
-      const images = document.querySelectorAll('img');
-      images.forEach(function(img) {
-        if (!img.alt || img.alt.trim() === '') {
-          img.alt = 'Image';
-        }
-      });
-
-      // Add skip navigation link
-      const skipLink = document.createElement('a');
-      skipLink.href = '#content';
-      skipLink.textContent = 'Skip to Content';
-      skipLink.style.position = 'absolute';
-      skipLink.style.top = '-10000px';
-      skipLink.style.left = '-10000px';
-      skipLink.style.zIndex = '9999';
-      document.body.prepend(skipLink);
-    });
-  </script>
+ 
 
 <style>
 	.header_background {
@@ -197,13 +176,9 @@
 	.helperbird-background-color{
 		background-color: rgb(246, 245, 231) !important;
 	}
-
-</style>
-<style>
-
-.helperbird-yellow{
-background-color:rgb(246, 245, 231);
-}
+  .helperbird-yellow{
+    background-color:rgb(246, 245, 231);
+  }
 
 </style>
 
