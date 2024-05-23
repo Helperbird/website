@@ -4,7 +4,7 @@ header: true
 layout: templates/single_page.liquid
 title: Refund policy
 youtubeId: vwT8SAJfU3E
-cardTitle: Refund policy for Helperbird
+cardTitle: Refund policy
 description:
   Refund policies are infuriating. You feel like the company is just trying to rip you off. We never
   want our customers to feel that way, so our refund ...
