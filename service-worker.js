@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "345d75a3eea492238b41c3d9b7cd1b93"
+    "revision": "624a1a2ea8d39dc15d5c2520dbf7947c"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -3092,7 +3092,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "ad97488eadef03577092381c98f78b30"
+    "revision": "311692ea3a3eb75ea14263a6fcfe1b0b"
   },
   {
     "url": "reviews/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "c6326c955cf571d246325e95e5c8f2a8"
+    "revision": "2e77f1a1e1198e521b8971d95425d65c"
   },
   {
     "url": "sitemap/index.png",
@@ -3192,7 +3192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.html",
-    "revision": "a405bc56dfad52e4618e4be53faf8685"
+    "revision": "42c19cfd387914aa9e229e5117a91986"
   },
   {
     "url": "testimonials/index.png",
