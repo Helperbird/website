@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "a341e33d44e1d0e6db72b896b6e25b20"
+    "revision": "80207c001b34073c229d07e6781ae0fc"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "914398b2cfa623e94c884b8e2b7940fa"
+    "revision": "173e6caca0e5a836ed49cc00086dc27a"
   },
   {
     "url": "sitemap/index.png",
@@ -3200,11 +3200,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.html",
-    "revision": "67be4f6d8d8dd846727bfc53e1e4db60"
+    "revision": "6132f0246e48173df20b6c36bb170954"
   },
   {
     "url": "tutorials/index.png",
-    "revision": "7cf4e18520f3730c54c157235e668b75"
+    "revision": "41f34f3f03bf21b979ac501bc07effb8"
   },
   {
     "url": "updates/102-5-3/index.html",
