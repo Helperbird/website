@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "25fbf8c6574286f80880949585792316"
+    "revision": "a1b2993c4bfd8e02113c35399d997777"
   },
   {
     "url": "404.png",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "570320e4d800b2fa6546353abfdc8799"
+    "revision": "e037771c46cde67902a4adf395d6ee76"
   },
   {
     "url": "about/index.png",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "accessibility-statement/index.html",
-    "revision": "c05d83f4bf1d8d49dba205c04f77042f"
+    "revision": "3d04fdc0b6b3c13709fd667d0f1106a5"
   },
   {
     "url": "accessibility-statement/index.png",
@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "80207c001b34073c229d07e6781ae0fc"
+    "revision": "e79be951eb0b52d6607140fd182ad776"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1568,7 +1568,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "5069b35c19e4e495a14157d91581c46d"
+    "revision": "d403081f5cacfca3c03cced9cf543260"
   },
   {
     "url": "blog/index.png",
@@ -1716,7 +1716,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "a64a3f825ef62def7585abf314bc7a42"
+    "revision": "ff9262d870990224c79181c59e8fde26"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1724,7 +1724,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/index.html",
-    "revision": "5313e4411c230aa1658a6a002983e0d7"
+    "revision": "201bc0f897b817edb223bf8f39b05839"
   },
   {
     "url": "compare/index.png",
@@ -1732,7 +1732,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "f7e0624f91e339649dd695cc3fc6e1f2"
+    "revision": "2ff956e784bc587770a519c2ec09be00"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1740,7 +1740,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "46de507da5d7e7cbc0a4afb0c37d75dc"
+    "revision": "3acffd21c68c590f06cb340f301fab45"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1748,7 +1748,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.html",
-    "revision": "3a201d367efc58d564260ba4b49e057f"
+    "revision": "3ce6809c445bb7a189d4df6bef77ef02"
   },
   {
     "url": "compliance/index.png",
@@ -1756,7 +1756,7 @@ self.__precacheManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "49e7e904e702a3a03039ebc259ddd9ae"
+    "revision": "328ac9fd5eff8d841617e8da451f048c"
   },
   {
     "url": "contact/index.png",
@@ -1768,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.html",
-    "revision": "6d8677cad9be97f0c0c9c40c126f382b"
+    "revision": "ab95bcdfae0d9c519ec81fb35d742509"
   },
   {
     "url": "edu/index.png",
@@ -1776,7 +1776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "f94b7dfa0c676113f1d5958fb1d897f0"
+    "revision": "ba28dec5fe0ec0caebefc20586e9549b"
   },
   {
     "url": "enterprise/index.png",
@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "5ae81cdbc5f80042e243d57b85a6b278"
+    "revision": "20ed51fb735758a8f7560cca6828a538"
   },
   {
     "url": "extension/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "d155dfe6de611ef547d4c2de4c61631c"
+    "revision": "0270f17331840d8fd43a8d6795b58234"
   },
   {
     "url": "features/index.png",
@@ -2144,7 +2144,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feedback/index.html",
-    "revision": "c3fb692cb6f290414a02c97b49198ad3"
+    "revision": "eb07f76f713c7722375ab599accfebab"
   },
   {
     "url": "feedback/index.png",
@@ -2912,7 +2912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "in-the-news/index.html",
-    "revision": "cb37d99ff9b581b99df21b6a8a65d17e"
+    "revision": "d2cc47e56ff3c6ef26106c1c8896d1fa"
   },
   {
     "url": "in-the-news/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "672bbcccd497f494b4a6daac8266d9b7"
+    "revision": "d1ec658065591372872eb42fd135cfe3"
   },
   {
     "url": "index.png",
@@ -2940,7 +2940,7 @@ self.__precacheManifest = [
   },
   {
     "url": "order/index.html",
-    "revision": "a44f78bbb8240abfee75636e65e42f30"
+    "revision": "e275646994803c04934cfcee29a33abd"
   },
   {
     "url": "order/index.png",
@@ -2964,7 +2964,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/index.html",
-    "revision": "c03e69fe546adcca6690286687286965"
+    "revision": "20b4d7745490d9a119b46c497d08426d"
   },
   {
     "url": "partners/index.png",
@@ -3020,7 +3020,7 @@ self.__precacheManifest = [
   },
   {
     "url": "privacy/index.html",
-    "revision": "c29837f2df20a6ca9f8721804ae2272f"
+    "revision": "a9bada472ec8f0b93fa61c7c622e2f33"
   },
   {
     "url": "privacy/index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "5745599ec4520405cbbf17f8721bafa7"
+    "revision": "436b23fc19cd6d42f1abfd69c4a347f1"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "0c23a04ceb20797fb9db591c1e28c6dc"
+    "revision": "c4164539a4bcb4073f6c1cd40f5b4a15"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "ffa0897ec042b6e517f7cf96377420b8"
+    "revision": "3f7625815bca18bcd053a852eb152959"
   },
   {
     "url": "products/firefox/index.png",
@@ -3052,7 +3052,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "d7f2475ffb5e4e3c63e1bd6b61128aef"
+    "revision": "3a6bfebe7e1bd23ef0cf73e00bcb5f5a"
   },
   {
     "url": "products/google-addon/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "7e968355babf1c3aad545e4be94cf7fe"
+    "revision": "7cf137ed83d2c4cd787bda00676986bf"
   },
   {
     "url": "products/ipad/index.png",
@@ -3068,7 +3068,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.html",
-    "revision": "5cf99f0ef2fa00ccb116db41ab2a58e9"
+    "revision": "5e77f5bcccba4aaec400f94ca2ca41d7"
   },
   {
     "url": "recommends/index.png",
@@ -3084,7 +3084,7 @@ self.__precacheManifest = [
   },
   {
     "url": "refund/index.html",
-    "revision": "7c9f56aae6a084743d39942c41586e96"
+    "revision": "939ed453b78423ab7bd2aa03d90f05e9"
   },
   {
     "url": "refund/index.png",
@@ -3092,7 +3092,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "8cb3991ab845b1bd3df26572e1bf22ab"
+    "revision": "11e6a0e770de78fc947e1ea5b807df3c"
   },
   {
     "url": "reviews/index.png",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.html",
-    "revision": "d3607acc6f754ae9ca40537a825fa702"
+    "revision": "717491b7fbdd13e339b729f9bc70187d"
   },
   {
     "url": "sales/index.png",
@@ -3108,7 +3108,7 @@ self.__precacheManifest = [
   },
   {
     "url": "security/index.html",
-    "revision": "347ed3f66787db5f59e784438a29af99"
+    "revision": "cbcbd9a07f951a22c0b5c2db87ce78ab"
   },
   {
     "url": "security/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "173e6caca0e5a836ed49cc00086dc27a"
+    "revision": "b322bdb7de4ba0b538d2d021e3a8ab31"
   },
   {
     "url": "sitemap/index.png",
@@ -3124,7 +3124,7 @@ self.__precacheManifest = [
   },
   {
     "url": "success/index.html",
-    "revision": "03cb9460cc17e56070e81d91670488be"
+    "revision": "9343585e8e69c7fdcc99fada4e5ab4f9"
   },
   {
     "url": "success/index.png",
@@ -3168,7 +3168,7 @@ self.__precacheManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "081fcd6fb6b83ca29ec259bfb56c753a"
+    "revision": "9699e1b5323f9432a7680cedebee3e19"
   },
   {
     "url": "support/index.png",
@@ -3176,7 +3176,7 @@ self.__precacheManifest = [
   },
   {
     "url": "survey/index.html",
-    "revision": "873baba26e8abb5759b3d7eed770fe25"
+    "revision": "f1d9df2f1de4e9558f8ee2beb024cc5e"
   },
   {
     "url": "survey/index.png",
@@ -3184,7 +3184,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.html",
-    "revision": "bc2ad904f91b23a57bb8e7b72224a357"
+    "revision": "97c09d5da90cf5fcf073caa94f4723d3"
   },
   {
     "url": "terms-of-service/index.png",
@@ -3192,7 +3192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.html",
-    "revision": "d4b12c684226a579939bf875074d415c"
+    "revision": "355abf36daf0e22f6d1d5dce0813ab71"
   },
   {
     "url": "testimonials/index.png",
@@ -3200,7 +3200,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.html",
-    "revision": "6132f0246e48173df20b6c36bb170954"
+    "revision": "3d21a35977e1d225bb29d7281e24f1cd"
   },
   {
     "url": "tutorials/index.png",
@@ -3220,7 +3220,7 @@ self.__precacheManifest = [
   },
   {
     "url": "updates/index.html",
-    "revision": "476043b347fa01ec4deff972651dac82"
+    "revision": "accaae656056eebc4efc224d3a5927dd"
   },
   {
     "url": "updates/index.png",
@@ -3232,7 +3232,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.html",
-    "revision": "c31e1f719f134b9b29c36bda21e6eca6"
+    "revision": "b4470a981e03b99a95d675c61eb339b8"
   },
   {
     "url": "usecases/index.png",
@@ -3240,7 +3240,7 @@ self.__precacheManifest = [
   },
   {
     "url": "welcome/index.html",
-    "revision": "2ee3a3c8f8653d88cffc6b089000a66b"
+    "revision": "62887d1281539093ac9e3e9dcd98fcfe"
   },
   {
     "url": "welcome/index.png",

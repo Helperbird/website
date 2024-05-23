@@ -1706,28 +1706,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="/assets/images/social/browserconfig.xml">
 
-  <!-- Accessibility fixes -->
-  <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      // Add descriptive alt text for images
-      const images = document.querySelectorAll('img');
-      images.forEach(function(img) {
-        if (!img.alt || img.alt.trim() === '') {
-          img.alt = 'Image';
-        }
-      });
-
-      // Add skip navigation link
-      const skipLink = document.createElement('a');
-      skipLink.href = '#content';
-      skipLink.textContent = 'Skip to Content';
-      skipLink.style.position = 'absolute';
-      skipLink.style.top = '-10000px';
-      skipLink.style.left = '-10000px';
-      skipLink.style.zIndex = '9999';
-      document.body.prepend(skipLink);
-    });
-  </script>
+ 
 
 <style>
 	.header_background {
@@ -1736,13 +1715,9 @@
 	.helperbird-background-color{
 		background-color: rgb(246, 245, 231) !important;
 	}
-
-</style>
-<style>
-
-.helperbird-yellow{
-background-color:rgb(246, 245, 231);
-}
+  .helperbird-yellow{
+    background-color:rgb(246, 245, 231);
+  }
 
 </style>
 
@@ -7798,7 +7773,7 @@ aria-hidden="true"><g><rect fill="none" height="24" width="24"/></g><g><path d="
 
 
             <p class="leading-relaxed font-sans  mt-5  text-base text-black mb-5 line-clamp-3">
-              At Helperbird, we build privacy into every product we make, so you can enjoy great experiences that keep your personal information safe and secure. Helperbirds privacy features don`t sell, store, or consume any user data. We do not store data or any other user-related content.
+              At Helperbird, we prioritize your privacy. Our products are designed to protect your personal information. Helperbird's privacy features ensure no user data is sold, stored, or consumed. Learn more about our commitment to keeping your data safe.
             </p>
 
 
