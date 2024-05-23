@@ -1716,7 +1716,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "9cc5debb166bf6eae3e501b87bdb46ff"
+    "revision": "ae8bdf598caa2e4003c73a74a581369b"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1732,7 +1732,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "68fb1d5e785ed08c4867b319cb68cba0"
+    "revision": "cd1012a3ddcb733f064a32a7b4cf42de"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1740,7 +1740,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "3f82301e6ecdde4030311b139a7b892c"
+    "revision": "4551c12a5e531a9c0d344a68aa67b471"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1756,7 +1756,7 @@ self.__precacheManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "43822f8a5e539302f493ee865849e73e"
+    "revision": "8658e32afa36b83cf72fd0c93b63b462"
   },
   {
     "url": "contact/index.png",
@@ -1768,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.html",
-    "revision": "1112cef30c965abc54283d272ec77554"
+    "revision": "5bdf265ef997370d5faf58d314b94287"
   },
   {
     "url": "edu/index.png",
@@ -1776,7 +1776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "5a91c8b16bb142d8b3e521f569b6f504"
+    "revision": "4c26e84b3e43973087574c566fa2726b"
   },
   {
     "url": "enterprise/index.png",
@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "b4ffdcda9a6e2886c32136f1e080811d"
+    "revision": "0964c06d1b142b5b015e64d253a3c3ce"
   },
   {
     "url": "extension/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "ab02a6b1a7ce8aaceba5f26a74110a4f"
+    "revision": "a28fa8211db124a7abfab265ebc8d2f8"
   },
   {
     "url": "index.png",
@@ -3012,7 +3012,7 @@ self.__precacheManifest = [
   },
   {
     "url": "pricing/index.html",
-    "revision": "da2dfd356f4c1e2187238902916e3ab0"
+    "revision": "c797247f6ffc5a7b638d55e7db0bc5ab"
   },
   {
     "url": "pricing/index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "a4db1e933935e59f1af154a4ed96af91"
+    "revision": "06a7ef513bc59b67c34b63578a8c5003"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "d7e5e7905361fc8f3959b66147b846d0"
+    "revision": "b0f6f621eba9ed300e2af671f755ede3"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "3e9d5a83986bd7006280f574ae4a9a63"
+    "revision": "c84da7647a6d2bcef45251ff6916c8f2"
   },
   {
     "url": "products/firefox/index.png",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.html",
-    "revision": "0b4b51473ba96a465a42f225cc88d3cf"
+    "revision": "87bd366c56fb584abc3778c81deec546"
   },
   {
     "url": "sales/index.png",
@@ -3168,7 +3168,7 @@ self.__precacheManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "49c7d5addf684c8c8e083d296a4fce78"
+    "revision": "3b62a6cb1ea09bd01283df20c3bab1c7"
   },
   {
     "url": "support/index.png",
