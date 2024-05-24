@@ -202,20 +202,20 @@
 
         <div class="px-6 py-16 lg:px-8 mb-4">
                 
-          <h2 class="text-center leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">
+          <h1 class="text-center leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">
             {{ cardTitle }}
-          </h2>
+          </h1>
           <p class="text-center    mt-6 text-xl font-sans mt-6 md:text-2xl text-black">
             {{ blog_snip }}
           </p>
         </div>
   
 
-    <div class="card bg-white border-white shadow-md border-2 my-8 p-8 mx-auto max-w-4xl rounded-xl">
-      <div class="card-body">
-        {{ content | safe }}
-      </div>
-    </div>
+        <div class="card bg-white w-full mx-auto mb-10 shadow-md ">
+          <div class="card-body">
+            {{ content | safe }}
+          </div>
+        </div>
 
     </div>
   </main>
