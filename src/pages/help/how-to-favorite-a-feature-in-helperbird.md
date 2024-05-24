@@ -52,7 +52,7 @@ This guide explains how to customize your quick actions area in Helperbird.
 ### Video Tutorial
 
 <div
-class="mt-12 mb-12  bg-stone-600 rounded-2xl  aspect-w-16 aspect-h-9"
+class="mt-12 mb-12  bg-stone-400 rounded-2xl  aspect-w-16 aspect-h-9"
 >
 <iframe   
 id="videos" 
