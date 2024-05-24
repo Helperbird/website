@@ -246,10 +246,10 @@
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div class="lg:pr-8 lg:pt-4">
-                <div class="lg:max-w-lg text-white">
+                <div class="lg:max-w-lg text-black">
 
               
-                <h2 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl mb-4">{{cardTitle }} features</h2>
+                <h2 class="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl mb-4">{{cardTitle }} features</h2>
                   {{ content | safe }}
 
                 </div>
@@ -276,7 +276,7 @@
                 {%- for post in collections.features limit: 3 -%}
                   <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                     <div class="rounded-xl  bg-white p-8 shadow-md">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white" aria-hidden="true">
+                      <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-black" aria-hidden="true">
                         {{ post.data.icon | svgContents | safe }}
                       </div>
                       <h3 class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
