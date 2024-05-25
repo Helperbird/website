@@ -2048,7 +2048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/shortcuts/index.html",
-    "revision": "aaa4f9ec07cdc4f783409f84acf26824"
+    "revision": "b1be85046e0a84d1cb21e0b374d5438e"
   },
   {
     "url": "features/shortcuts/index.png",
