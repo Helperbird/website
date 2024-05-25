@@ -2,14 +2,14 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Effortlessly Annotate and Highlight PDFs | Dyslexia-Friendly PDF Reader
-description: Elevate your PDF interactions with Helperbird's Dyslexia-Friendly PDF Reader. Not only can you annotate, highlight, and add sticky notes, but you also gain the advantage of dyslexia support features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and studying PDFs becomes a seamless experience. Try it now with our easy-to-use browser extension.
+title:  Annotate and Highlight PDFs | Dyslexia-Friendly PDF Reader
+description: Easily annotate, highlight, and add sticky notes to your PDFs with Helperbird's PDF Reader. Enjoy dyslexia support features like text-to-speech and Immersive Reader to make reading and studying PDFs simpler and more accessible.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Effortlessly Annotate and Highlight PDFs with Helperbird's Dyslexia-Friendly PDF Reader
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/pdf.svg"
 youtubeId: vwT8SAJfU3E
-cardTitle: Dyslexia-Friendly PDF Reader
+cardTitle: PDF Reader
 featureDescription: Elevate your PDF interactions with Helperbird's Dyslexia-Friendly PDF Reader. Not only can you annotate, highlight, and add sticky notes, but you also gain the advantage of dyslexia support features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and studying PDFs becomes a seamless experience.
 group: reading
 color: pink
@@ -21,73 +21,62 @@ url: features/PDFs/
 ---
 
 
-## Tell Me About This feature
 
-Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. 
 
-Easily annotate, highlight and add sticky notes to your PDFs, all while receiving dyslexia support. 
 
-With the added benefit of text-to-speech, immersive reader and a highlighter feature, reading and studying PDFs has never been easier. 
+## About This Feature
 
-Try it now with our easy-to-use browser extension
-
+Helperbird's Dyslexia-Friendly PDF Reader makes reading and studying PDFs easier. You can annotate, highlight, and add sticky notes to your PDFs, and get support features like text-to-speech and Immersive Reader.
 
 ## Benefits
 
-It allows users to easily annotate and highlight PDFs, with support for users with dyslexia.
+### Easy Annotation
+Annotate and highlight PDFs easily, helping you organize and study your documents.
 
-It offers a text-to-speech feature that can help users with reading difficulties.
+### Dyslexia Support
+Get support features designed to help users with dyslexia, like text-to-speech and Immersive Reader.
 
-It has an immersive reader feature that can help improve reading comprehension and focus.
+### Text-to-Speech
+Let the PDF reader read text aloud, which can help users with reading difficulties.
 
-It allows users to add sticky notes and annotations, making it easier to organize and study PDFs.
+### Immersive Reader
+Use the Immersive Reader feature to improve reading comprehension and focus.
 
-It also has a highlighter feature which can be used to emphasize important text.
+### Add Sticky Notes
+Add sticky notes to your PDFs for better organization and study efficiency.
 
-It can help users with dyslexia to read and study PDFs more efficiently and effectively.
+### Highlight Important Text
+Use the highlighter to emphasize important text in your PDFs.
 
-It can enhance the overall user experience by making PDFs more accessible and easy to understand.
+### Accessibility
+Make PDFs more accessible and easier to understand for everyone.
 
 ## Features
+
 - Annotate PDFs
 - Highlight PDFs
 - Add sticky notes to PDFs
 - Text-to-speech
-- Immersive reader
+- Immersive Reader
 - Highlighter
 - Dyslexia support
-- Accessibility
-- Access Helperbirds software on any PDF.
+- Accessibility features
+- Use Helperbird's tools on any PDF
 
+## How to Annotate PDF Files Online
 
+1. Open Helperbird and select the PDF reader option.
+2. Click the "Open PDF" button.
+3. Click the "Annotate" button at the top.
+4. Start annotating your PDF.
 
-      
+## How to Highlight PDF Files Online
 
+1. Open Helperbird and select the PDF reader option.
+2. Click the "Open PDF" button.
+3. Click the "Highlight" button at the top.
+4. Start highlighting your PDF.
 
+## Is This a Helperbird Pro Feature?
 
-
-
-## How to annotate PDF files online
-
-- Open Helperbird and select the PDF reader option.
-- Click the open PDF button.
-- Click annotate button along the top.
-- Thats it.
-      
-
-
-
-
-
-## How to highlight PDF files online
-
-- Open Helperbird and select the PDF reader option.
-- Click the open PDF button.
-- Click annotate button along the top.
-- Thats it.
-
-
-## Is this a Helperbird Pro feature?
-
-No, this is not a Helperbird Pro feature.
-      
+No, this feature is available to all Helperbird users.
