@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "8591f2c4435709351af695e544c2752e"
+    "revision": "e6ec8f6cda122270ad2a96d43f13203f"
   },
   {
     "url": "extension/index.png",
@@ -1840,7 +1840,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/color-blindness/index.html",
-    "revision": "073be83c929f4f1e24f7e251e0d3749c"
+    "revision": "fa5d453dbcd28f3190b0c9bb73d430c4"
   },
   {
     "url": "features/color-blindness/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "34ea5e9afde863499185ba355c88a1c7"
+    "revision": "919b6d467f065948f5db72f583ff6cb1"
   },
   {
     "url": "features/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "abcda1b8be6d30e3b125ebfbe733a9d2"
+    "revision": "b404edea42b5a7e9bd5800136e3d2e4f"
   },
   {
     "url": "index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "1dbfdeb760a93ee3ac84d996bcd00395"
+    "revision": "d62fc8665d4101cf33fd155eaf381323"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "a705d87305c50a74ea3993e1e5255dfa"
+    "revision": "9c5683962a836b3ba7be568a4b7f53d8"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "a062fd78d02ed3ea714ecbe0f725e7f4"
+    "revision": "b03360700317d18845287b680ff0716b"
   },
   {
     "url": "products/firefox/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "ad2543accb1d41f76c3809a884337f14"
+    "revision": "f87f860f67201bbdaf15479a809cc3ce"
   },
   {
     "url": "products/ipad/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "fda41a8474833bb60184071c6a7d49ab"
+    "revision": "94a9a1c456aeee1a0e44b0df6ea11200"
   },
   {
     "url": "sitemap/index.png",
