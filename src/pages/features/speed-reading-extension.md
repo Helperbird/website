@@ -23,7 +23,7 @@ url: features/speed-reading-extension/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbirds speed reading feature helps users read faster and more efficiently. Helperbird aims to increase productivity by allowing users to read more material in less time and free up more time for other activities. Additionally, it can help users to better retain information by training their brain to process and understand text more quickly.
 

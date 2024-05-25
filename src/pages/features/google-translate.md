@@ -22,7 +22,7 @@ url: features/google-translate/
 
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's Translation feature allows users to easily translate words, websites, and PDFs in any language, making it easy to understand content in other languages. 
 
 Powered by Google Translate, users can trust the translations to be accurate and reliable. 

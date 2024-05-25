@@ -21,7 +21,7 @@ url: features/mute-videos/
 ---
 
 
-## Summary 
+## Tell Me About This feature 
 
 Helperbird's Auto-Play Video Mute feature allows users to easily silence distractions and improve their browsing experience by muting annoying auto-playing videos. 
 

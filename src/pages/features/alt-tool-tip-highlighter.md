@@ -21,7 +21,7 @@ link: reading
 url: features/alt-tool-tip-highlighter/
 ---
 
-## Summary
+## Tell Me About This feature
 
 Alt tags, provide a brief description of the content of an image or a link. When users hover over an image or link, the alt tag appears as a tooltip, providing additional information about the content. 
 

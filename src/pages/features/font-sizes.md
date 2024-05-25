@@ -20,7 +20,7 @@ link: reading
 url: features/font-sizes/
 ---
 
-## Summary
+## Tell Me About This feature
 Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
 
 This feature is perfect for users who have difficulty reading small text, users with visual difficulties, or users who prefer larger text. 

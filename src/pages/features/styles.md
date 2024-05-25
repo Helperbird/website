@@ -22,7 +22,7 @@ url: features/styles/
 
 ---
 
-## Summary
+## Tell Me About This feature
 Changing the background, link, and font colors of content and websites can help individuals improve their reading. All suggested dyslexia-proven colors are included in Helperbird.
   
 ## Benefits

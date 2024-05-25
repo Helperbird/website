@@ -23,7 +23,7 @@ url: features/color-blindness/
 
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's Color blindness support feature provides a way to improve color perception for people who are partially color-blind by underlining and stroking web page links. 
 
 This feature improves visibility and legibility of text and links by adding contrast, making it easier to identify and click on links, improves the distinctness of the text, improves accessibility and usability for people with color vision deficiencies, improves user experience for all users and can increase user engagement and conversion.

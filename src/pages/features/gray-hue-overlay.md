@@ -22,7 +22,7 @@ url: features/gray-hue-overlay/
 ---
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's Gray Filter feature allows users to easily add a gray overlay to any website, reducing glare and eye strain. 
 
 This feature is designed to help users to reduce eye fatigue, headaches, and migraines caused by prolonged exposure to bright screens. 

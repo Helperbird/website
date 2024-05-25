@@ -22,7 +22,7 @@ url: features/editor/
 
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's Note-taking feature allows users to easily take and organize notes while browsing the web. With this feature, users can quickly jot down important information, ideas, or thoughts. 
 
 The notes can be exported and shared with other platforms, including Google Docs, making it easy to access them from anywhere. 

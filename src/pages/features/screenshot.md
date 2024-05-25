@@ -23,7 +23,7 @@ url: features/screenshot/
 
 ---
 
-## Summary
+## Tell Me About This feature
 
 Screenshot by Helperbird allows you to capture the entire webpage or specific section with just one click, and save it to your device for easy access and reference. 
 

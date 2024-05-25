@@ -23,7 +23,7 @@ url: features/word-prediction/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 English, German, Spanish and French word prediction at your finger tips on every website as you type. That's right even Google Docs.
 

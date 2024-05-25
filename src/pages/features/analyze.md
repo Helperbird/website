@@ -22,7 +22,7 @@ url: features/analyze/
 
 
 
-## Summary
+## Tell Me About This feature
 
 Streamline your writing process with Helperbird's powerful browser extension. 
 

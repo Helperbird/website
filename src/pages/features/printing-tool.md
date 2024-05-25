@@ -21,7 +21,7 @@ url: features/printing-tool/
 ---
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's Quick Print Feature makes printing web pages a breeze. With just a click, you can easily print any webpage in its entirety or just the selected content. 
 
 This feature eliminates the need for tedious manual selection and formatting, saving you time and effort. 

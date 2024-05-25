@@ -23,7 +23,7 @@ url: features/text-align/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Adjust the text alignment of any page, making it easier to read in just one click!    
 

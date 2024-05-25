@@ -22,7 +22,7 @@ url: features/spell-check/
 
 ---
 
-## Summary 
+## Tell Me About This feature 
 
 Improve your writing with our easy-to-use online spell checker. Available as a Chrome, Edge, and iPa extension, our tool quickly and accurately checks your spelling and grammar to help you write with confidence. 
 

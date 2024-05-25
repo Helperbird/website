@@ -23,7 +23,7 @@ url: features/specialised-dyslexic-fonts/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Easily change the font on any website or pdf with Helperbirds extension to dyslexia-friendly fonts (Lexend, OpenDyslexic) or one of 18 specialized font options. Perfect for those with dyslexia or individuals looking for a unique reading experience.
 

@@ -22,7 +22,7 @@ url: features/notes/
 
 
 
-## Summary
+## Tell Me About This feature
 
 Streamline your note-taking process with Helperbird's Web-based Note Organizer - Keep all your sticky notes, highlights and extracted text sorted and easily accessible
 

@@ -23,7 +23,7 @@ url: features/auto-scroll/
 
 
 
-## Summary
+## Tell Me About This feature
 Helperbird's auto scroll feature allows users to automatically scroll through the content on a website, saving time and effort. 
 
 It improves the reading experience for users with mobility issues, can be useful for presentations, webinars and other situations, allows users to scan through a large amount of text quickly, can be used to automate certain processes, and can be used to create an engaging and interactive experience by triggering the scrolling at specific points in time or based on certain events. 

@@ -24,7 +24,7 @@ url: features/cursor-control/
 
 
 
-## Summary
+## Tell Me About This feature
 Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
 
 ## Benefits

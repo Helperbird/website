@@ -20,7 +20,7 @@ link: reading
 url: features/paragraph-widths/
 ---
 
-## Summary
+## Tell Me About This feature
 Enhance your reading experience with Helperbird's paragraph width setting feature. 
 
 Easily adjust the width of paragraphs on PDFs and websites to fit your screen and personal preference. 

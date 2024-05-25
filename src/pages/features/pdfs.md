@@ -21,7 +21,7 @@ url: features/PDFs/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Transform your PDF reading experience with Helperbird's Dyslexia-Friendly PDF reader. 
 

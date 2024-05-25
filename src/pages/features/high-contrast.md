@@ -23,7 +23,7 @@ url: features/high-contrast/
 
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbird's High Contrast Mode feature allows users to enable a high contrast mode with different themes to enhance text and images on any website, making it easier to read and understand the content of the webpage. 
 

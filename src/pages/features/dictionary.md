@@ -24,7 +24,7 @@ url: features/dictionary/
 
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbird's Dictionary feature allows users to easily research, define, and understand any English word while browsing the web. 
 

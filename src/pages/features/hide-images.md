@@ -22,7 +22,7 @@ url: features/hide-images/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbird's Filter feature allows users to easily hide all gifs, images, or flashing images on webpages, for a distraction-free browsing experience. 
 

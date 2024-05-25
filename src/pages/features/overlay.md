@@ -21,7 +21,7 @@ link: reading
 url: features/overlay/
 ---
 
-## Summary
+## Tell Me About This feature
 
 Easily customize the appearance of any website with Helperbird's overlay/tint feature. 
 

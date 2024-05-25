@@ -26,7 +26,7 @@ url: features/speech-to-text/
 
 Instead of typing, you can speak and Helperbird will turn your speech into text.
 
-## Summary
+## Tell Me About This feature
 
 Experience fast and accurate speech to text conversion with our voice typing extension for Chrome, Firefox, Edge or iOs. 
 

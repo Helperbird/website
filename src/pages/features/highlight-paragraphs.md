@@ -22,7 +22,7 @@ url: features/highlight-paragraphs/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbird's Paragraph Border feature allows users to easily add custom borders to paragraphs, which can help to visually organize their thoughts and make the content more appealing and easy to read. 
 

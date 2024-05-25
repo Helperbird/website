@@ -23,7 +23,7 @@ url: features/reading-mode-for-chrome-and-firefox/
 ---
 
 
-## Summary
+## Tell Me About This feature
 
 Helperbird's Reader View is an innovative feature that transforms any webpage into a personalized reading experience, simplifies the layout of a webpage and removes distractions such as ads.
 
