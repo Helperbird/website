@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "07e334e14a1206959c73462d7498969b"
+    "revision": "30e4650e2c389be59f0908453c4fba2e"
   },
   {
     "url": "extension/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "e8fedd83047145f92390125a474038ee"
+    "revision": "1f43442d583776a77cea3f28232a3e70"
   },
   {
     "url": "features/index.png",
@@ -2040,7 +2040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/screenshot/index.html",
-    "revision": "cddb20023be418e1053e72b9a50380be"
+    "revision": "681d32e9800d8c5a9f28831364ff247b"
   },
   {
     "url": "features/screenshot/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f493efedf179e5ef34ae8c1ee73df3d4"
+    "revision": "331846d6a5573d7fdbf65d96901a87e1"
   },
   {
     "url": "index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "b1837f098354d01ede47a61e35e0e28b"
+    "revision": "360bfb3e1221f19df85a81c09c604ed2"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "04697a725167e20bc238d2e8f0d03dad"
+    "revision": "4f5c8ca867b66aa71bc399ee5540ff42"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "eb526db80cf8d3bc13f28d07abc9f29b"
+    "revision": "e8d7cdf30e1f9201998255fa0ed22c2f"
   },
   {
     "url": "products/firefox/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "c4bbb58a46e9871d80e9af65a245d621"
+    "revision": "5f2ea3916b745a565ed78f1e7a8a2a50"
   },
   {
     "url": "products/ipad/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "2e01afd3a72195cba7e41e54d5ff68fe"
+    "revision": "105d7011ab8687f58f7bafbbb22924ce"
   },
   {
     "url": "sitemap/index.png",
