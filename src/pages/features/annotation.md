@@ -3,14 +3,14 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Easily Annotate and Highlight Web Pages & PDFs
-description: Transform your research and workflow with Helperbird's Annotations & Sticky Notes feature. Effortlessly highlight, annotate, and leave comments on any website or PDF. Choose from a variety of colors and sizes, and organize your notes seamlessly. Save to the cloud and export in multiple formats, all while using our robust search functionality.
+description: Improve your research and workflow with Helperbird's Annotations & Sticky Notes. Highlight, annotate, and leave comments on any website or PDF. Choose different colors and sizes, organize your notes, save to the cloud, and export in multiple formats. Use our robust search function to find your notes easily.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Annotate and Highlight Websites, PDFs, and Ebooks
 img: X69hPUcBqME
 icon: "/src/_includes/svgs/notes.svg"
 youtubeId: X69hPUcBqME
 cardTitle: Annotations & Sticky Notes
-featureDescription: Transform your research and workflow with Helperbird's Annotations & Sticky Notes feature. Effortlessly highlight, annotate, and leave comments on any website or PDF. Choose from a variety of colors and sizes, and organize your notes seamlessly. Save to the cloud and export in multiple formats, all while using our robust search functionality.
+featureDescription: Improve your research and workflow with Helperbird's Annotations & Sticky Notes. Highlight, annotate, and leave comments on any website or PDF. Choose different colors and sizes, organize your notes, save to the cloud, and export in multiple formats. Use our robust search function to find your notes easily.
 date: 2016-01-02
 group: reading
 color: indigo
@@ -21,58 +21,41 @@ link: reading
 url: features/annotation/
 ---
 
+## Tell Me About This Feature
 
-## Tell Me About This feature
+Helperbird's sticky note and annotation feature lets you highlight, annotate, and comment on any website or PDF.
 
-Helperbird's sticky note and annotation feature allows users to easily highlight, annotate and comment on any website or PDF. 
+You can choose different colors and sizes for your sticky notes, organize them into categories, save them to the cloud, and export them in different formats.
 
-It also allows users to choose from different colors and sizes for their sticky notes, organize them into different categories, save them on the cloud, and export them in different file formats. 
-
-Additionally, users can search through the notes by keywords. 
-
-This feature provides a powerful and flexible tool to enhance browsing experience and improve productivity.
-
+You can also search your notes by keywords, making it a powerful tool to improve your browsing experience and productivity.
 
 ## Benefits
 
-There are several benefits of leaving sticky notes on websites and PDFs with Helperbird's sticky note and annotation feature, including:
+### Highlight Important Information
+Highlight and comment on important information on any website or PDF to organize and review your research or work.
 
-### Easily highlight important information
-It allows you to easily highlight, annotate, and comment on important information or passages on any website or PDF, making it easier to organize and review your research or work.
+### Visual System for Memory
+Use different colors and sizes for sticky notes to categorize information visually, helping with memory retention.
 
-### Improve your memory retention
-You can choose from a variety of colors and sizes for your sticky notes, making it easy to create a visual system for categorizing different types of information.
+### Cloud Storage
+Save your notes to the cloud for access from any device or location.
 
-### Save your notes on the cloud
-It allows you to save your notes and annotations on the cloud, so you can access them from any device or location.
+### Boost Productivity
+Jot down thoughts and ideas in real-time while browsing to increase productivity.
 
-### Improve your productivity
-It also helps in increasing productivity as you can jot down your thoughts and ideas in real-time as you are browsing.
-
-It can help you to improve your memory retention by visualizing the information you are reading.
-
-### Track your progress
-It can help you to keep track of your progress and return to specific web pages or PDFs with ease by adding notes to them.
-
-
-
-
-
-
+### Track Your Progress
+Add notes to web pages or PDFs to keep track of your progress and easily return to specific sections.
 
 ## Features
 
-Overall, Helperbird's sticky note and annotation feature provides a powerful and flexible tool for users to enhance their browsing experience and improve productivity.
+- Highlight and annotate text on any website or PDF.
+- Add notes and comments to specific sections.
+- Choose different colors and sizes for sticky notes.
+- Organize notes into categories.
+- Save notes to the cloud for access from any device.
+- Export notes in different formats for backup or sharing.
+- Search notes by keywords.
 
-- The ability to highlight and annotate text on any website or PDF
-- The ability to add notes and comments to specific sections of a website or PDF
-- The ability to choose from different colors and sizes for sticky notes
-- The ability to organize notes into different categories or groups
-- The ability to save notes and annotations on the cloud, so they can be accessed from any device or location
-- The ability to export notes and annotations in different file formats for backup or sharing purposes.
-- The ability to search through the notes by keywords.
+## Is This a Free Helperbird Feature?
 
-
-
-## Is this a Free Helperbird feature?
-This is a premium feature. You can try it for free for 3 days. After that, you can choose to continue using it for [$4.99/month or $49.99/year](/pricing/).
+This is a premium feature. Try it for free for 3 days. After that, continue using it for [$6.99/month or $49.99/year](/pricing/).

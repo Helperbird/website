@@ -20,7 +20,7 @@ link: reading
 url: features/analyze/
 ---
 
-## About This Feature
+## Tell Me About This Feature
 
 Helperbird's Advanced Text Statistics feature lets you easily analyze text on any website or PDF. With just two clicks, you can get detailed information about the text you're reading or writing. This feature provides a comprehensive analysis, including the unique word count, shortest words, estimated reading time, and more. Whether you're a writer, editor, or just curious about your reading material, this tool can help you understand and optimize your text.
 
@@ -52,4 +52,4 @@ Overall, Helperbird's Text Statistics feature is a valuable tool for anyone look
 
 ## Is This a Free Helperbird Feature?
 
-This is a premium feature. You can try it for free for 3 days. After that, you can choose to continue using it for [$4.99/month or $49.99/year](/pricing/).
+This is a premium feature. You can try it for free for 3 days. After that, you can choose to continue using it for [$6.99/month or $49.99/year](/pricing/).
