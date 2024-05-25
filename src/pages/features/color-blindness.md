@@ -2,14 +2,14 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Color Blindness Support
-description: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
+title: Color Blindness Assistance
+description: Improve web accessibility for people with color blindness using Helperbird. Make links and text easier to see with underlines and outlines.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 icon: "/src/_includes/svgs/blindness.svg"
 youtubeId: vwT8SAJfU3E
 img: i1EeaekPHIo
 cardTitle: Color Blindness Support
-featureDescription: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from station support on any website.
+featureDescription: Enhance web accessibility for those with color vision deficiencies using Helperbird's Color Blindness Support feature. Improve link visibility with underlining and stroking, and benefit from better readability on any website.
 featurePageTitle: Color Blindness Support
 group: reading
 color: pink
@@ -20,116 +20,35 @@ link: reading
 url: features/color-blindness/
 ---
 
+## About This Feature
 
-
-
-## Tell Me About This feature
-Helperbird's Color blindness support feature provides a way to improve color perception for people who are partially color-blind by underlining and stroking web page links. 
-
-This feature improves visibility and legibility of text and links by adding contrast, making it easier to identify and click on links, improves the distinctness of the text, improves accessibility and usability for people with color vision deficiencies, improves user experience for all users and can increase user engagement and conversion.
+Helperbird's Color Blindness Support feature helps people with color vision problems see better. It underlines and outlines links on web pages to make them easier to find and click.
 
 ## Benefits
 
-### Improve the visibility and legibility of text
-It helps to improve the visibility and legibility of text and links by adding a contrast between the text and the background, making it easier to identify and click on links.
+### Better Visibility for Text and Links
+Helperbird adds lines and outlines to text and links, making them stand out more.
 
-### Make the text more distinct
-It helps to make the text more distinct, which can be especially beneficial for people with partial color blindness, who may have difficulty distinguishing between similar colors.
+### Easier to Spot Links
+Links are easier to see and click, especially for people who have trouble seeing colors.
 
-### Easier to identify the links 
-It makes it easier to identify the links on a webpage, which can be particularly helpful for people with color vision deficiencies, as they may have difficulty identifying links that are only differentiated by color.
+### Improved Accessibility
+Makes websites easier to use for people with color vision problems.
 
-### Improve accessibility
-It can help to improve the accessibility and usability of a website for people with color vision deficiencies, making it easier for them to navigate and find the information they need.
-
-It can also improve the user experience for all users by making links more distinct and visible, which can make it easier to navigate the website.
-
+### Enhanced User Experience
+Helps all users by making links more visible and easier to navigate.
 
 ## Features
 
-- Underline links and add strokes around the text to help with color blindness.
+- Underlines links to make them easier to see.
+- Adds outlines around text for better visibility.
 
-## Is this a Free Helperbird feature?
-It is a free feature.
+## Is This a Free Helperbird Feature?
 
+Yes, this feature is free for all Helperbird users.
 
+## More About This Feature
 
+Helperbird helps with common types of color blindness, like Protanopia and Deuteranopia, which affect many people. These types of color blindness can make it hard to see links that are just a different color from the text.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A customizable color features applied to webpages to improve color perception, for people who are partially color-blind. By underlining and stroking web page links.
-
-
-
-
-
-##  Tell me more about this feature
-
-Underline links and add strokes around the text to help with color blindness.
-
-The most common types of color blindness are Protanopia and Deuteranopia, which affect over 7% of the male population. 
-
-These types of color blindness can result in links being barely indistinguishable from regular text.
-
-Helperbird helps with color blindness by underling and stroking links.
-
-
-
-## Features 
-
- 
-Links should be easy to spot without relying on color. With Helperbird, underlines to every line on
-the page using a four different colors. 
-
-Making it stand out for most color blind types.
-
-Along with Helperbirds theme and style features. We offer a stroke feature that adds a stroke effect
-around the text to help with color blindness.
+With Helperbird, links are underlined and outlined in different colors. This makes them stand out, so they are easier to see and click.
