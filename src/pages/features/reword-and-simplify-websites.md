@@ -54,6 +54,3 @@ Using the Reword and Simplify feature offers many benefits:
 - Seamless integration with other Helperbird features for a better reading experience.
 - Turn the feature on or off as needed.
 
-## Is This a Free Feature?
-
-Yes and no. The basic version of the feature is free for all users. However, for more reading level options and the ability to use this feature on any website, an upgrade to the premium version is required.

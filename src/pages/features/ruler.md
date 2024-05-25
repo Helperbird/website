@@ -23,24 +23,30 @@ url: features/ruler/
 ---
 
 
+## About This Feature
+
+Helperbird's Dyslexia Reading Ruler makes reading on the web easier for everyone. It’s an adjustable ruler that guides your eyes through text on any site or PDF. This tool helps you stay focused, reduces strain, and makes reading more comfortable.
 
 
 
-Meet the Helperbird Dyslexia Ruler, making reading on the web easier for everyone. Customize your reading space with a simple, adjustable ruler that guides your eyes through text on any site or PDF. Enjoy less strain and more comfort with every line.
+## Benefits
 
-## Enhanced Focus
-Keep your place on the page and reduce distractions with our easy-to-use Dyslexia Ruler.
+### Enhanced Focus**
+Helps you keep your place and reduces distractions while reading.
 
-## Reading Ease 
-Improve fluency and comprehension while reducing eye strain with a ruler designed for better focus.
+### Reading Ease**
+Improves fluency and comprehension, making reading more comfortable and enjoyable.
+
+### Reduced Eye Strain**
+Customizable to reduce eye strain and make reading easier for longer periods.
+
+### Support for Dyslexia**
+Designed to assist users with dyslexia by highlighting text, making it easier to follow and understand.
 
 
-## Styling options
+## Features
 
-**Color Choice**: Pick from a palette of colors or create your own for a personalized touch.
+- **Color Choice**: Pick from a variety of colors or create your own for a personalized look.
+- **Adjustable Size**: Set the ruler's height to match your text line for easier reading.
+- **Stay on Track**: Lock the ruler and choose from styles like [Reading Guide](/features/reading-guides/) or [Line Focus](/features/reading-guides/).
 
-**Adjustable Size**: Set the ruler's height to match your text line for comfortable reading.
-
-**Stay on Track**: Lock the ruler and choose from styles like [Reading Guide](/features/reading-guides/) or [Line Focus](/features/reading-guides/) to suit your needs.
-
-**Free & Premium**: Access basic features for free or upgrade to premium for full functionality across all websites.
