@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "e6ec8f6cda122270ad2a96d43f13203f"
+    "revision": "d956127eed936b92f3dae8417d48357b"
   },
   {
     "url": "extension/index.png",
@@ -1848,7 +1848,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/cursor-control/index.html",
-    "revision": "d3d3521889a633f3898ac2e38bdc4542"
+    "revision": "cd3bf48f261c291c593555ad55c6be57"
   },
   {
     "url": "features/cursor-control/index.png",
@@ -1856,7 +1856,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/dictionary/index.html",
-    "revision": "b9303a80c63c0f0ec5bace295ce5aa05"
+    "revision": "5441a81dad498468369a98a4157cb28b"
   },
   {
     "url": "features/dictionary/index.png",
@@ -1864,7 +1864,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/editor/index.html",
-    "revision": "fe3ba3d676af75de25a81ce703329022"
+    "revision": "eff8f26a6fa1dde13e166cc397f44902"
   },
   {
     "url": "features/editor/index.png",
@@ -1872,7 +1872,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/font-sizes/index.html",
-    "revision": "e274c84e4714296bacd6a3a6e13c15f9"
+    "revision": "6f867a22e6c45f8f8e6193005f3bd107"
   },
   {
     "url": "features/font-sizes/index.png",
@@ -1880,7 +1880,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/google-translate/index.html",
-    "revision": "3688d64c91a3511b06bf221dca4279ee"
+    "revision": "b3bbe74ff459bfc36e21b3eb88150309"
   },
   {
     "url": "features/google-translate/index.png",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/gray-hue-overlay/index.html",
-    "revision": "a906bdbe17ab4363c741c06024e7a551"
+    "revision": "6d1b1ab247de0103cfc367d264c08993"
   },
   {
     "url": "features/gray-hue-overlay/index.png",
@@ -1896,7 +1896,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/hide-images/index.html",
-    "revision": "3c1b1de3acaf722c506dc0120cc5422d"
+    "revision": "dbf304f158f848bc869a737f441c7cb4"
   },
   {
     "url": "features/hide-images/index.png",
@@ -1904,7 +1904,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/high-contrast/index.html",
-    "revision": "48a8660d1668257bfd4611672a116519"
+    "revision": "d4f82272b5c5e0767f8963ab989a09b8"
   },
   {
     "url": "features/high-contrast/index.png",
@@ -1912,7 +1912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-menu/index.html",
-    "revision": "331429b653aa82f01f57946fe724efca"
+    "revision": "ee15a621ad45606bffce940e3faccfee"
   },
   {
     "url": "features/highlight-menu/index.png",
@@ -1920,7 +1920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-paragraphs/index.html",
-    "revision": "9d18a9c93d44fddc2f8b2f28d605e347"
+    "revision": "1c5a505b40ae45229ba7923b801ef62f"
   },
   {
     "url": "features/highlight-paragraphs/index.png",
@@ -1928,7 +1928,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/immersive-reader-for-chrome/index.html",
-    "revision": "9a76facd846d853a03ab66c661d5eae1"
+    "revision": "1b2009af374ca0c8940b8d53fbdecc32"
   },
   {
     "url": "features/immersive-reader-for-chrome/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "919b6d467f065948f5db72f583ff6cb1"
+    "revision": "93789b0316598fa3f4aad6c64db033d0"
   },
   {
     "url": "features/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b404edea42b5a7e9bd5800136e3d2e4f"
+    "revision": "e115f6dfd4f556e04186aa93ce1ef543"
   },
   {
     "url": "index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "d62fc8665d4101cf33fd155eaf381323"
+    "revision": "e42a893f88623eabe641eca4e801e8e9"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "9c5683962a836b3ba7be568a4b7f53d8"
+    "revision": "059b8b58c4c187263501dd3a1aa77faa"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "b03360700317d18845287b680ff0716b"
+    "revision": "c74a76bbbd8c55b35e92c925101c29e7"
   },
   {
     "url": "products/firefox/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "f87f860f67201bbdaf15479a809cc3ce"
+    "revision": "400fdc2013c5f724d95cfcd9bb7a3125"
   },
   {
     "url": "products/ipad/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "94a9a1c456aeee1a0e44b0df6ea11200"
+    "revision": "3874a91c7263d883283012ed4dffff3b"
   },
   {
     "url": "sitemap/index.png",
