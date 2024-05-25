@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: OCR / Screenshot Reader
-description: Capture, read, and save text from images or screenshots effortlessly with Helperbird's OCR/Screenshot Reader. This versatile tool offers text-to-speech, saving to keyboard, and note-taking functionalities.
+title:  OCR/Screenshot Reader - Extract and Read Text from Images
+description: Easily capture, read, and save text from images or screenshots with Helperbird's OCR tool. Enjoy features like text-to-speech, saving to the clipboard, note-taking, and opening in Immersive Reader.
 keywords:
   - OCR
   - Screenshot Reader
@@ -20,10 +20,10 @@ featurePageTitle: Capture and Convert Text Seamlessly with Helperbird's OCR Tool
 img: l_gDeSqvIqk
 icon: "/src/_includes/svgs/ocr.svg"
 youtubeId: l_gDeSqvIqk
-cardTitle:  OCR / Screenshot Reader
-featureDescription: Capture, read, and save text from images or screenshots effortlessly with Helperbird's OCR/Screenshot Reader. This versatile tool offers text-to-speech, saving to keyboard, and note-taking functionalities.
+cardTitle: OCR / Screenshot Reader
+featureDescription: Easily capture, read, and save text from images or screenshots with Helperbird's OCR/Screenshot Reader. Features include text-to-speech, saving to the clipboard, note-taking, and opening in Immersive Reader.
 group: reading
-color:  indigo
+color: indigo
 tags: 
   - features
   - accessibility
@@ -32,58 +32,39 @@ link: reading
 url: features/optical-character-recognition/
 ---
 
+## About This Feature
 
-
-
-
-
-Helperbird's Extract text feature (OCR) is a tool that allows users to easily digitize text from images, videos and PDFs. 
-
-With this feature, users can convert scanned documents or images into editable text, and easily extract information from images, videos and PDFs for research or archiving purposes. 
-
-It eliminates the need to manually type out text from images and PDFs, making the process of digitizing documents faster and more efficient. 
-
-Additionally, this feature facilitates text search, editing, and storage in a computer, improving accessibility to text in images and PDFs, and enhancing productivity.
-
+Helperbird's OCR (Optical Character Recognition) tool lets you capture and convert text from images, videos, and PDFs. This tool makes it easy to turn scanned documents or images into editable text.
 
 ## Benefits
 
-The OCR/Screenshot Reader offers a plethora of benefits, such as:
+### Easy Text Extraction
+Quickly capture and convert text from images or screenshots.
 
-- Simplifying the process of text extraction from images or screenshots.
-- Reading extracted text aloud for auditory learners or those with reading difficulties.
-- Offering a quick and efficient way to save important text to your keyboard or as a note.
-- Enhancing productivity by allowing for quick reference and retrieval of saved text.
+### Text-to-Speech
+Have the extracted text read aloud to help with understanding.
+
+### Save and Share
+Save the captured text to your clipboard or as a note for easy sharing.
+
+### Open in Immersive Reader
+Read the extracted text in Immersive Reader for a better reading experience.
+
+### Boost Productivity
+Easily search, edit, and store text from images to improve your workflow.
 
 ## Features
 
-- Capture text from various image formats, including screenshots and PDFs.
-- Utilize the text-to-speech function to have the captured text read aloud.
-- Save the captured text to your keyboard for easy input in other applications.
-- Option to save the captured text to a note for future reference or sharing.
-  
+- Capture text from images, screenshots, and PDFs
+- Use text-to-speech to read the captured text aloud
+- Save the captured text to your clipboard for easy use in other applications
+- Save the captured text as a note for future reference or sharing
+- Open the captured text in Immersive Reader
 
 ## What is OCR?
 
-OCR stands for Optical Character Recognition.
+OCR stands for Optical Character Recognition. It's a technology that converts text in images or scanned documents into machine-readable text. This allows you to edit, search, and store the text on a computer. OCR is commonly used to digitize books, newspapers, and other printed materials.
 
-It's a technology that uses software to recognize and convert text that appears in images or scanned documents into machine-readable text. 
+## Is This a Free Helperbird Feature?
 
-Essentially, OCR is used to digitize written or typed text into a format that can be edited, searched and stored on a computer. 
-
-It reads the text from an image or a pdf document and converts it into editable text so that it can be edited, searched, indexed, and stored in a database. 
-
-This technology is widely used to automate the process of digitizing books, newspapers, magazines, and other printed materials, making them accessible in digital format.
-
-## Is this a Free Helperbird feature?
-This feature is not free. You can get it for 6.99$ per month or 60.00$ per year with Helperbird Pro.
-
-
-
-
-
-
-
-
-
-
+No, this is a premium feature. You can get it for $6.99 per month or $60.00 per year with Helperbird Pro.

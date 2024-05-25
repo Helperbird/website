@@ -3,14 +3,14 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Customizable Overlay and Tint Extension
-description: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
+description: Make websites easier to read with Helperbird's Overlay & Tint feature. Adjust brightness, contrast, and colors to reduce glare and ease eye strain.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Enhance Your Visual Comfort with Customizable Overlays & Tints from Helperbird
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/overlay.svg"
 youtubeId: vwT8SAJfU3E
-cardTitle: Overlays & Tints
-featureDescription: Fine-tune the visual elements of any website to suit your needs with Helperbird's Customizable Overlays & Tints feature. Dial down glare, ease eye strain, and combat fatigue by adjusting brightness, contrast, and color to create a personalized browsing environment.
+cardTitle: Overlays
+featureDescription: Make websites easier to read with Helperbird's Overlay & Tint feature. Adjust brightness, contrast, and colors to reduce glare and ease eye strain.
 group: reading
 color: blue
 tags: 
@@ -21,65 +21,46 @@ link: reading
 url: features/overlay/
 ---
 
-## Tell Me About This feature
+## About This Feature
 
-Easily customize the appearance of any website with Helperbird's overlay/tint feature. 
-
-Adjust brightness, contrast and color to improve readability and reduce eye strain. 
-
-Perfect for those with visual impairments or for night time reading. Try it now with our easy-to-use browser extension.
-
-
+Helperbird's Overlay feature lets you customize how any website looks. Adjust brightness, contrast, and color to make reading easier and reduce eye strain. Perfect for people with visual impairments or for reading at night.
 
 ## Benefits
 
-The benefits of an overlay/tint on a website are:
+### Reduce Glare
+Improve text readability by reducing glare and bright light.
 
-### Reducing glare and bright light
-Improving the readability of text by reducing glare and bright light on the screen.
+### Help with Visual Impairments
+Assist users with light sensitivity or color blindness.
 
-### Help with light sensitivity or color blindness
-Helping users with visual impairments, such as those with light sensitivity or color blindness.
+### Decrease Eye Strain
+Lower eye strain and fatigue while reading.
 
-### Decreasing eye strain
-Decreasing eye strain and fatigue while reading
+### Customize Appearance
+Change the look of a website to fit your preferences.
 
-### Customize the appearance
-It allows users to customize the appearance of a website to their preference.
+### Improve Focus
+Enhance concentration on the text.
 
-### Improve focus and concentration
-It allows for better focus and concentration on the text.
+### Night Mode
+Darken a website for comfortable nighttime reading.
 
-### Dark mode
-It can also be used to darken a website for night time reading
+### Change Color Scheme
+Alter the color scheme of a website to match your taste.
 
-### Change the color scheme
-It can be used to change the color scheme of a website to match personal preference.
+## Features
 
+- Apply an overlay to any website you visit
+- Choose from 24 default colors or create a custom color
+- Adjust the opacity of the overlay or tint
+- Available on Chrome, Edge, Firefox, iPad, and iPhone
 
-### Features
+## Is This a Pro Feature?
 
-- Apply a overlay to any website you visit.
-- Pick from 24 default colors or a custom color.
-- Choose the opacity of the overlay or tint.
-- Available for Chrome, Edge, Firefox, iPad &  iPhone.
+Yes, this is a Pro feature. You can try Helperbird Pro for free by clicking the button below.
 
-      
-## Is this a Pro feature?
-It is a Pro feature. You can get a free trial of Helperbird Pro by clicking the button below.
+## More About This Feature
 
+Helperbird's Overlay feature adds a tint to your browser to make text more readable. You can fully customize the color and opacity. This feature helps people with visual distortions, such as Scotopic Sensitivity Syndrome, by making text clearer and reducing perceptual errors.
 
-## Tell me abit more about this feature
-      
-      
-Helperbirds' Overlay feature is a filter which puts a tint on your browser viewport to make text more readable. Color and opacity are fully configurable. 
-
-This Helperbird feature is used by people suffering from visual distortions reading the content on the normal background (Scotopic Sensitivity Syndrome).
-
-The colored overlay can improve the reading abilities of such users by reducing or eliminate perceptual processing errors.
-
-Bright web pages are a known issue on the web which affects peoples ability to read and focus.
-
-Users with Irlen syndrome or people who dont like bright white web pages can change the overlay color of a web page with the Helperbird’s overlay feature.
-
-
+Bright web pages can be hard to read and focus on. With Helperbird’s Overlay feature, users with Irlen Syndrome or those who prefer less bright screens can change the overlay color of a web page for a better reading experience.
