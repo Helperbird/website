@@ -2056,7 +2056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.html",
-    "revision": "d3200ebaf995d920a83341648c8e6f2f"
+    "revision": "b6831db9cc93fc5eb65485e805db497e"
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.png",
@@ -2064,7 +2064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speech-to-text/index.html",
-    "revision": "82109d912f3d75376c74f52e094ce57f"
+    "revision": "64bba0e3101a76cc9761045c29d7fe75"
   },
   {
     "url": "features/speech-to-text/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "105d7011ab8687f58f7bafbbb22924ce"
+    "revision": "dcf063613f46315b6fb84243a5a623d8"
   },
   {
     "url": "sitemap/index.png",
