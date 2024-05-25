@@ -2112,7 +2112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/text-to-speech/index.html",
-    "revision": "4c9630bea73e91b852a545cd5bd148d4"
+    "revision": "96bdf3c14ca6c5664a29e7b47b17027e"
   },
   {
     "url": "features/text-to-speech/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "edb02196eeeeb7075e262a42503a10e3"
+    "revision": "b597fb8a50fb1b796e6c419531e84c87"
   },
   {
     "url": "sitemap/index.png",
