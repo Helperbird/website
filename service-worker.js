@@ -1832,7 +1832,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/bookmarks/index.html",
-    "revision": "58503d8226ea9ed235202615941786a3"
+    "revision": "e976bf26543de85c3f01652aaab08502"
   },
   {
     "url": "features/bookmarks/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "6adf0988048f0d7f0aa61472e6ba05cf"
+    "revision": "fda41a8474833bb60184071c6a7d49ab"
   },
   {
     "url": "sitemap/index.png",
