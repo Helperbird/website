@@ -9,7 +9,7 @@ featurePageTitle: Customizable Font Sizes
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/fonts.svg"
 youtubeId: vwT8SAJfU3E
-cardTitle:  Customizable Font Sizes
+cardTitle: Customizable Font Sizes
 featureDescription: Personalize your reading comfort with Helperbird's Font Size feature. Easily increase or decrease text size on any website to improve readability and tailor your online reading experience.
 group: reading
 color: green
@@ -20,63 +20,29 @@ link: reading
 url: features/font-sizes/
 ---
 
-## Tell Me About This feature
-Helperbird's Font Size feature allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience. 
+## About This Feature
 
-This feature is perfect for users who have difficulty reading small text, users with visual difficulties, or users who prefer larger text. 
-
-With this feature, users can adjust the font size to their preference, making it more comfortable and efficient to read the content of the website.
-
+Helperbird's Font Size feature lets you easily increase or decrease the font size on any website. This makes it simple to customize your reading experience. It's perfect for people who find small text hard to read, have visual difficulties, or just prefer larger text.
 
 ## Benefits
 
-### Reading experience
-It allows users to easily increase or decrease the font size on any website, making it easy to customize their reading experience.
+### Customize Your Reading Experience
+Easily change the font size on any website to suit your reading comfort.
 
-### Accessibility
-It is perfect for users who have difficulty reading small text, users with visual difficulties, or users who prefer larger text.
+### Improve Accessibility
+Ideal for users who have trouble reading small text or have visual impairments.
 
-### Eliminate the need to zoom
-It eliminates the need to zoom in or out on the browser, saving time and increasing efficiency.
+### Save Time
+No need to zoom in or out on your browser, saving you time and making reading more efficient.
 
-### Reduce eye strain
-It can help to reduce eye strain and fatigue by making text more legible and comfortable to read.
+### Reduce Eye Strain
+Larger text can help reduce eye strain and make reading more comfortable.
 
+## Features
 
-
-## Features 
 - Change header font sizes.
 - Change paragraph font sizes.
-  
-## Is this a Free Helperbird feature?
-It is a free feature.
 
+## Is This a Free Helperbird Feature?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Yes, this feature is free for all Helperbird users.

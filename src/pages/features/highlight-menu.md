@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Highlight Menu - Your All-in-One Text Utility Tool
-description: Elevate your browsing and reading experience with Helperbird's Highlight Menu. Access text-to-speech, highlighter, web search, immersive reader, and translation functionalities, all from a single menu when you highlight text.
+title:  Highlight Menu - Simplify Your Reading Experience
+description: Make reading easier with Helperbird's Highlight Menu. Use tools like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation—all from one simple menu when you highlight text."
 keywords:
   - Highlight Menu
   - Text-to-Speech
@@ -19,7 +19,7 @@ img: U3h8al49y2U
 icon: "/src/_includes/svgs/highlight-menu.svg"
 youtubeId: U3h8al49y2U
 cardTitle: Highlight Menu
-featureDescription: Helperbird's Highlight Menu offers a convenient all-in-one text utility solution. Highlight any text and instantly access functionalities like text-to-speech, web search, immersive reader, and translation.
+featureDescription: Helperbird's Highlight Menu offers a convenient all-in-one text utility solution. Highlight any text and instantly access features like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation.
 group: reading
 color: blue
 tags:
@@ -29,28 +29,35 @@ link: reading
 url: features/highlight-menu/
 ---
 
+## About This Feature
 
-The Highlight Menu by Helperbird is a multi-functional tool that brings several utilities right to your fingertips. Whenever you highlight text, a versatile menu appears, offering quick access to features such as text-to-speech, highlighter, web search, immersive reader, and translation.
+Helperbird's Highlight Menu is a versatile tool that appears when you highlight text. It gives you instant access to features like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation.
 
-Designed for power users, researchers, students, and anyone who interacts frequently with text online, the Highlight Menu is your go-to tool for text-related tasks.
+Designed for students, researchers, and anyone who reads a lot online, the Highlight Menu makes text tasks easier.
 
 ## Benefits
 
-The Highlight Menu offers a comprehensive set of benefits:
+### Easy Access to Features
+Get quick access to many features in one menu.
 
-- Streamline text-related tasks with quick access to multiple features in one menu.
-- Enhance comprehension with text-to-speech and immersive reader options.
-- Save time on research with the web search and translation functionalities.
-- Simplify note-taking and content curation with the highlighter tool.
+### Better Understanding
+Use text-to-speech, dictionary, and immersive reader to improve comprehension.
+
+### Save Time
+Quickly search the web and translate text without leaving the page.
+
+### Simplify Note-Taking
+Highlight and save important text easily.
 
 ## Features
 
-- Instant access to text-to-speech functionalities for auditory learning or reading assistance.
-- Highlight text in your preferred color for better focus and retention.
-- Use web search to quickly find additional information or context.
-- Leverage the immersive reader to declutter and focus on the text.
-- Translate text into different languages right from the menu.
+- **Play/Stop:** Listen to highlighted text with text-to-speech.
+- **Dictionary:** Look up definitions of highlighted words.
+- **Search:** Quickly search the web for more information.
+- **Immersive Reader:** Focus on the text without distractions.
+- **Highlight:** Highlight text in different colors for better retention.
+- **Translate:** Translate highlighted text into different languages.
 
 ## Is This a Free Feature?
 
-Yes and no. Basic functionalities like highlighting and web search are free. However, to unlock the full suite of features, including text-to-speech and immersive reader, an upgrade to the premium version is required.
+Yes and no. Basic features like highlighting and web search are free. To use all features, including text-to-speech and immersive reader, you need to upgrade to the premium version.

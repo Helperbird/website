@@ -3,16 +3,16 @@ new: false
 header: true
 layout: templates/features_two.liquid
 title: Customize Your Cursor Size
-description: Effortlessly adapt your cursor size to suit your needs with Helperbird's Cursor Size feature. Ideal for users with visual or dexterity challenges, as well as those who prefer a personalized browsing experience Download today on Chrome, Edge, Firefox, iPhone, and iPad.
+description: Easily adjust your cursor size with Helperbird's Cursor Size feature. Perfect for users with visual or dexterity challenges, and for those who want a personalized browsing experience. Available on Chrome, Edge, Firefox, iPhone, and iPad.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Customize Your Cursor Size
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/cursor.svg"
 youtubeId: vwT8SAJfU3E
 cardTitle: Customize Your Cursor Size
-featureDescription: Effortlessly adapt your cursor size to suit your needs with Helperbird's Cursor Size feature. Ideal for users with visual or dexterity challenges, as well as those who prefer a personalized browsing experience.
+featureDescription: Easily adjust your cursor size with Helperbird's Cursor Size feature. Perfect for users with visual or dexterity challenges, and for those who want a personalized browsing experience.
 group: reading
-color:  pink
+color: pink
 tags: 
   - features
   - accessibility
@@ -20,56 +20,32 @@ link: reading
 url: features/cursor-control/
 ---
 
+## About This Feature
 
-
-
-
-## Tell Me About This feature
-Easily adjust your cursor size with Helperbird's cursor size feature, perfect for those with visual or dexterity difficulties, or simply for personal preference. Browse comfortably with a cursor tailored to your needs.
+Helperbird's Cursor Size feature lets you easily change the size of your cursor. It's perfect for people with visual or dexterity challenges, or for anyone who wants a more personalized browsing experience.
 
 ## Benefits
 
-###  Improve visibility and legibility
-It can improve visibility and legibility of the cursor, making it easier to locate on the screen, especially for users with visual difficulties.
+### Better Visibility
+A larger cursor is easier to see, making it perfect for users with visual difficulties.
 
-### Easier to select and click on small or hard-to-reach items
-It can make it easier to select and click on small or hard-to-reach items on the screen, particularly for users with dexterity difficulties.
+### Easier Clicking
+A larger cursor makes it easier to select and click on small or hard-to-reach items, especially for users with dexterity issues.
 
-### Reduce eye strain and fatigue
-It can help to reduce eye strain and fatigue, as the larger cursor can make it easier to locate and use the cursor.
+### Reduce Eye Strain
+A larger cursor can help reduce eye strain and fatigue by making it easier to locate and use.
 
-### Improve accuracy of cursor movement
-It can improve the accuracy of cursor movement, as a larger cursor is easier to control and less likely to slip off of the intended target.
+### Improve Accuracy
+A larger cursor is easier to control, helping to improve the accuracy of cursor movement.
 
-### Personalize browsing experience
-It can also provide a more personalized browsing experience, as users can adjust the cursor size to their preference.
-
+### Personalized Browsing
+Customize your browsing experience by choosing the cursor size that suits you best.
 
 ## Features
 
 - Change the size of the cursor pointer.
-- Pick between three sizes: small, medium, and large.
+- Choose between three sizes: small, medium, and large.
 
-## Is this a Free Helperbird feature?
-It is a paid feature. You can get it for free by upgrading to the Helperbird Pro plan.
+## Is This a Free Helperbird Feature?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+No, this is a paid feature. You can get it by upgrading to the Helperbird Pro plan.
