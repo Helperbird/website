@@ -2,16 +2,16 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Align Any Website's Text with Ease | Helperbird
-description: Align text to your preference on any website with Helperbird's Text Alignment feature. Improve your reading experience and readability by easily customizing the alignment. Try it today!
+title: Easily Align Text on Any Website | Helperbird
+description: Change the text alignment on any website with Helperbird's easy Text Alignment feature. Make reading easier by customizing the text alignment to your preference. Try it today!
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Align Any Website's Text with Ease. The One Extension You Need.
+featurePageTitle: Easily Align Text on Any Website
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/align.svg"
 youtubeId: vwT8SAJfU3E
 cardTitle: Text Alignment
-featureDescription: Align text to your preference on any website with Helperbird's Text Alignment feature. Improve your reading experience and readability by easily customizing the alignment.
+featureDescription: Change the text alignment on any website with Helperbird's Text Alignment feature. Make reading easier by customizing the text alignment to your preference.
 group: reading
 color: green
 tags:
@@ -22,67 +22,34 @@ link: reading
 url: features/text-align/
 ---
 
+## Tell Me About This Feature
 
-## Tell Me About This feature
-
-Adjust the text alignment of any page, making it easier to read in just one click!    
-
+With Helperbird's Text Alignment feature, you can easily change how text is aligned on any web page. Make reading easier with just one click!
 
 ## Benefits
 
-Being able to change the text alignment can have several benefits, including:
+### Easier to Read
+Different text alignments can help your eyes move through the content more easily.
 
-### Improved readability
-Different types of text alignment can be used to create visual hierarchy and guide the reader's eye through the content.
+### Looks Better
+Properly aligned text makes websites and documents look neat and professional.
 
-### Enhanced aesthetics
-Text alignment can be used to create a more visually pleasing and professional-looking document or website.
+### More Engaging
+When text is aligned well, it's easier for readers to scan and understand the content.
 
-### Increased engagement
-Proper text alignment can make it easier for readers to scan and understand the content, which can improve engagement and user experience.
-
-### Greater flexibility
-The ability to change text alignment gives the designer or author more control over the presentation of the content, allowing them to create a document or website that is tailored to their specific audience and purpose.
+### Flexible Options
+You can control how text looks to fit your needs, making it more user-friendly.
 
 ## Features
 
-- Align the text to the left, right, center, justify and justify the text.
-- Adjust the text alignment of any page, making it easier to read in just one click!
-- Save the text alignment to your device for easy access and reference
-    
- 
-## What is **Text Alignment**?
+- Align text to the left, right, center, or justify it.
+- Change text alignment on any page with one click.
+- Save your favorite text alignment settings for quick use.
 
-Text alignment refers to the positioning of text within a document or webpage. 
-The most common types of text alignment are left-aligned, right-aligned, centered, and justified. 
-Text alignment can have a significant impact on the readability and aesthetic appeal of a document. 
-Proper text alignment can make it easier for readers to scan and understand the content, which can improve engagement and user experience.
+## What is Text Alignment?
+
+Text alignment is about how text is positioned on a page. The most common types are left, right, center, and justified. Good text alignment makes reading easier and pages look nicer.
 
 ## Credit
-      
-Thanks to David Flair and his suggestion. 
-You can now align the text on any page to your needs and style. From left, right, center, justify and justify the text.
-      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Thanks to David Flair for suggesting this feature. Now you can easily adjust text alignment to match your style.
