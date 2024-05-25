@@ -2,15 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Robust Privacy Safeguards
-description: Place your trust in Helperbird's Robust Privacy Safeguards. We're committed to protecting your data and ensure it's neither sold, stored, nor misused. Your privacy is our priority, and we don't store any user-related content.
+title: Strong Privacy Protection
+description: Trust Helperbird's strong privacy protection. We prioritize your privacy by not storing, selling, or misusing your data. Your information is safe with us.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 featurePageTitle: Privacy Features
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/blindness.svg"
 youtubeId: vwT8SAJfU3E
-cardTitle: Robust Privacy Safeguards
-featureDescription: Place your trust in Helperbird's Robust Privacy Safeguards. We're committed to protecting your data and ensure it's neither sold, stored, nor misused. Your privacy is our priority, and we don't store any user-related content.
+cardTitle: Strong Privacy Protection
+featureDescription: Trust Helperbird's strong privacy protection. We prioritize your privacy by not storing, selling, or misusing your data. Your information is safe with us.
 group: reading
 color: green
 tags: 
@@ -20,66 +20,21 @@ link: reading
 url: features/privacy/
 ---
 
+Helperbird will never sell, store, or use any user data. We do not store data or any other user-related content.
 
-Helperbird will never sell, store, or consume any user data. We do not store data or any other user-related content.
-  
+## About This Feature
 
-## Tell me more about this feature
+Helperbird is committed to protecting your privacy. We do not sell, store, or use any user data. Your information is safe with us, and we ensure that it is never misused.
 
-Helperbird does not sell, store, or consume any user data.
-      
-We do not store data or any other user-related content.
+## Benefits
 
-We do not promote advertisements or integrate any third-party software libraries, which can lead to
-malware exploits.
+- Your data is never sold, stored, or misused.
+- We prioritize your privacy and keep your information safe.
+- No advertisements or third-party software that can lead to malware.
+- Compliance with COPPA and FERPA laws for added security.
+- Safe to use on school computers with a parental technology waiver.
 
-This level of privacy transparency allows Helperbird to be compliant with Coppa and Ferpa laws.
+## How It Helps
 
-As long as schools have technology waiver from parents, Helperbird can be installed and used on
-school computers.
-
-
-
-## How it helps
-
-Many online services sell, store, track, or promote advertisement as forms of revenue streams.
-
-Helperbird does not support this idea as we believe in everyones right to full privacy.
-
-Having not to worry about a software tracking, storing, or sharing of private user data helps users
-to stay confident and secure about how their private information is processed online.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Many online services sell, store, or track user data for revenue. Helperbird believes in protecting your privacy. By not tracking, storing, or sharing your data, we help you stay confident and secure online.
 
