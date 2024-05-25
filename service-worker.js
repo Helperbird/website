@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "d956127eed936b92f3dae8417d48357b"
+    "revision": "e67fb0a56763c70426373405ead1ba12"
   },
   {
     "url": "extension/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "93789b0316598fa3f4aad6c64db033d0"
+    "revision": "0412d06c8a162acc838e42551665ecc5"
   },
   {
     "url": "features/index.png",
@@ -1944,11 +1944,11 @@ self.__precacheManifest = [
   },
   {
     "url": "features/mute-videos/index.html",
-    "revision": "25566568c2cfc227d9816d9c720925bf"
+    "revision": "e1ec9b0e5a1f1fbab07f17a09e158fec"
   },
   {
     "url": "features/mute-videos/index.png",
-    "revision": "c3776a95616e0a3ef00d8017ba90a864"
+    "revision": "e3eb32b765f8d5f944d5fd3f77c11e0a"
   },
   {
     "url": "features/notes/index.html",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e115f6dfd4f556e04186aa93ce1ef543"
+    "revision": "5063b5db984916515d3d17ff5619fe29"
   },
   {
     "url": "index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "e42a893f88623eabe641eca4e801e8e9"
+    "revision": "be1eba21deb920d9e8e154ebbae9a93c"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "059b8b58c4c187263501dd3a1aa77faa"
+    "revision": "df9433c83af67aca01a730c14c97a7ad"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "c74a76bbbd8c55b35e92c925101c29e7"
+    "revision": "a349638854ee324f5b2b33af14641389"
   },
   {
     "url": "products/firefox/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "400fdc2013c5f724d95cfcd9bb7a3125"
+    "revision": "7abaa0f32236cafc8e49cf90a634ca6f"
   },
   {
     "url": "products/ipad/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "3874a91c7263d883283012ed4dffff3b"
+    "revision": "1104053eaa9b811a7f07fc9f6958db2e"
   },
   {
     "url": "sitemap/index.png",
