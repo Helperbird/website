@@ -2,15 +2,15 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Custom Paragraph Width for Better Reading
-description: Adjust the width of paragraphs for better focus and readability with Helperbird's Customizable Paragraph Width feature. Tailor the text layout to your preferences, reducing eye strain during extended reading sessions on websites and PDFs.
+title: Custom Paragraph Width for Comfortable Reading
+description: Easily adjust the width of paragraphs with Helperbird's feature. Improve readability and reduce eye strain on websites and PDFs by customizing text layout to your needs.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
-featurePageTitle: Custom Paragraph Width for Better Reading
+featurePageTitle: Custom Paragraph Width for Comfortable Reading
 img: i1EeaekPHIo
 icon: "/src/_includes/svgs/widths.svg"
 youtubeId: vwT8SAJfU3E
-cardTitle: Customizable Paragraph Width
-featureDescription: Adjust the width of paragraphs for better focus and readability with Helperbird's Customizable Paragraph Width feature. Tailor the text layout to your preferences, reducing eye strain during extended reading sessions on websites and PDFs.
+cardTitle: Paragraph Width
+featureDescription: Easily adjust the width of paragraphs with Helperbird's feature. Improve readability and reduce eye strain on websites and PDFs by customizing text layout to your needs.
 group: reading
 color: orange
 tags: 
@@ -20,93 +20,33 @@ link: reading
 url: features/paragraph-widths/
 ---
 
-## Tell Me About This feature
-Enhance your reading experience with Helperbird's paragraph width setting feature. 
+## About This Feature
 
-Easily adjust the width of paragraphs on PDFs and websites to fit your screen and personal preference. 
-
-Improve readability and reduce eye strain with our user-friendly browser extension.
+Helperbird's Paragraph Width feature lets you easily adjust the width of paragraphs on websites and PDFs. Make the text fit your screen and personal preferences for a better reading experience.
 
 ## Benefits
 
-The benefits of Helperbird's paragraph width setting feature are:
+### Adjust Paragraph Width
+Change the width of paragraphs to fit your screen and personal preference.
 
-### Adjust the width of paragraphs
-It allows users to adjust the width of paragraphs on PDFs and websites to fit their screen and personal preference.
+### Improve Readability
+Make text more comfortable to read by adjusting its width.
 
-### Improve readability
-It improves readability by making text more legible and comfortable to read.
-
-### Reduce eye strain
-It reduces eye strain and fatigue by allowing users to adjust the width of text to their preference.
+### Reduce Eye Strain
+Lower eye strain and fatigue by customizing text width to your liking.
 
 ## Features
-- Adjust the width of paragraphs on PDFs and websites.
-- Set the width of paragraphs to fit your screen.
-- Pick the color of the paragraph background.
-- Pick the color of the paragraph text.
-- Pick the color of the paragraph border.
 
-## Is this a Helperbird Pro feature?
+- Adjust the width of paragraphs on websites and PDFs.
+- Set the width of paragraphs to fit your screen.
+- Choose the color of the paragraph background.
+- Choose the color of the paragraph text.
+- Choose the color of the paragraph border.
+
+## Is This a Helperbird Pro Feature?
+
 Yes, this is a Helperbird Pro feature.
 
+## More About This Feature
 
-
-
-
-
-
-
-
-
-Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns, which are easier and more relaxed to read.  
-
-
-## Tell me more about this feature
-
-Wait no more! Here comes the Helperbird paragraph width. It automatically converts big text blocks in websites into columns, which are easier and more relaxed to read.
-
-
-
-
-
-
-
-## Features
-
-
-       
-Control the width of the paragraphs on a page
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Helperbird's Paragraph Width feature makes big blocks of text easier to read by converting them into narrower columns. This simple adjustment helps you read more comfortably and reduces eye strain.
