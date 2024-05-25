@@ -21,48 +21,32 @@ link: reading
 url: features/text-to-speech/
 ---
 
-## Tell Me About This Feature
+## About This Feature
 
-With Helperbird's Text to Speech feature, you can sit back, press play, and have your news, emails, or articles read aloud to you. 
+With Helperbird's Text to Speech, you can listen to your news, emails, or articles instead of reading them. Just sit back, press play, and let the words come to you.
 
-This extension is perfect for Chrome, Firefox, Edge, or iPad, making your online reading experience better. It uses advanced text-to-speech (TTS) technology to turn any web page into spoken words. It’s easy to use and customize, perfect for anyone looking to improve their reading experience. Try it now for free!
+This extension works on Chrome, Firefox, Edge, and iPad. It uses advanced text-to-speech (TTS) technology to turn any web page into spoken words. It’s easy to use and customize, making it perfect for anyone who wants to improve their reading experience. Try it for free!
 
 ## Benefits
 
-### Improve Reading Speed and Understanding
-Listen to text and grasp the content faster.
-
-### Great for Visual Impairments or Reading Difficulties 
-Helps those who have trouble reading.
-
-### Multitask Easily
-Listen to written content while doing other tasks.
-
-### Save Time
-Listen to articles instead of reading them.
-
-### Learn Languages
-Hear text in different languages to help with learning.
+- **Improve Reading Speed and Understanding**: Listening helps you grasp content faster.
+- **Great for Visual Impairments or Reading Difficulties**: Perfect for those who struggle with reading.
+- **Multitask Easily**: Listen to text while doing other tasks.
+- **Save Time**: Listen to articles instead of reading them.
+- **Learn Languages**: Hear text in different languages to aid learning.
 
 ## Features
 
-- **Advanced Text-to-Speech**: Uses natural-sounding voices.
-- **Wide Voice Selection**: Over 10 natural voices and 30+ options.
-- **Supports Many Languages**: Available in 109 languages.
+- **Natural-Sounding Voices**: Advanced TTS with lifelike voices.
+- **Lots of Voice Choices**: Over 10 natural voices and 30+ options.
+- **Many Languages**: Supports 109 languages.
 - **Customizable Settings**: Adjust pitch, volume, and speed.
 - **Supports Multiple Formats**: Works with web pages, documents, and PDFs. Listen on any device.
-- **Highlight Options**: Choose your preferred highlight color.
-
+- **Highlight Options**: Pick your favorite highlight color.
 
 ## How It Helps
 
-Helperbird’s text-to-speech technology makes it easier to understand content, especially for people who struggle with reading or are learning a new language.
-
-For people who are visually impaired, blind, or have attention difficulties, text-to-speech is a helpful tool.
-
-It provides a way to get information without scrolling through long texts.
-
-Having content read aloud in different voices makes web pages more accessible and allows you to multitask efficiently.
+Helperbird’s text-to-speech makes understanding content easier, especially for people who struggle with reading or are learning a new language. It’s a big help for those who are visually impaired, blind, or have attention difficulties. You can get information without scrolling through long texts. Having content read aloud in different voices makes web pages more accessible and helps you multitask efficiently.
 
 ## List of Voices
 

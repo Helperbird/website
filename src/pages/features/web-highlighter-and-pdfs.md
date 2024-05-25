@@ -2,8 +2,8 @@
 new: false
 header: true
 layout: templates/features_two.liquid
-title: Web Highlighter extension for websites and PDFs
-description: Illuminate your reading and note-taking experience with Helperbird's Web Highlighter. With various color options, the Web Highlighter offers an engaging way to highlight text on web pages and PDFs thought Helperbirds browser extension.
+title: Highlight Text on Websites and PDFs with Helperbird
+description: Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web pages and PDFs in different colors with our easy-to-use browser extension.
 keywords:
   - Web Highlighter
   - Text Highlighter
@@ -16,12 +16,12 @@ keywords:
   - Voice typing for Chrome
   - Accessibility software
 
-featurePageTitle: Web Highlighter for Text and PDFs
+featurePageTitle: Highlight Text on Websites and PDFs with Helperbird
 img: 950R2dDH4lw
 icon: "/src/_includes/svgs/highlighter.svg"
 youtubeId: frjBvXjwbnk
 cardTitle: Web Highlighter
-featureDescription: Illuminate your reading and note-taking experience with Helperbird's Web Highlighter. With various color options, the Web Highlighter offers an engaging way to highlight text on web pages and PDFs.
+featureDescription: Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web pages and PDFs in different colors with our easy-to-use browser extension.
 group: productivity
 color: blue
 tags:
@@ -31,33 +31,37 @@ link: productivity
 url: features/web-highlighter-and-pdfs/
 ---
 
+## About This Feature
 
-Helperbird's Web Highlighter is the perfect tool for anyone who wants to elevate their reading and note-taking experience on the web. 
-
-Tailor your reading environment by highlighting text in different colors. This feature is also fully compatible with PDFs, making it a comprehensive solution for academic or professional use.
-
-The Web Highlighter not only allows you to highlight text but also offers a way to easily manage and review your highlights.
-
-A must-have for students, professionals, or anyone who wants to enhance their reading experience.
+Helperbird's Web Highlighter makes reading and taking notes on the web easy and fun. You can highlight text in different colors to help important information stand out. This feature works with PDFs too, making it perfect for both school and work.
 
 ## Benefits
 
-The Web Highlighter offers multiple benefits, such as:
+The Web Highlighter helps you:
 
-- Making critical information stand out by using various colors.
-- Simplifying the process of note-taking and information gathering.
-- Aiding in the retention of information by visually emphasizing text.
-- Providing an effective way to review highlighted content.
-- Enhancing focus and comprehension during reading.
+### Make Important Information Stand Out 
+Use different colors to highlight key points.
+
+### Simplify Note-Taking 
+Easily gather and organize information.
+
+### Remember Better
+Visually highlight text to improve retention.
+
+### Review Easily
+Quickly find and review your highlights.
+
+### Stay Focused
+Highlighting helps you concentrate and understand better.
 
 ## Features
 
-- Choose from a palette of colors to match your needs.
-- Highlight text on both web pages and PDFs.
-- Export highlighted text to other platforms or save them for future reference.
-- Quick toggle to enable or disable highlighting.
-- Compatibility with other Helperbird features for a seamless user experience.
+- **Multiple Colors**: Choose from a variety of colors to highlight text.
+- **Web and PDF Highlighting**: Works on web pages and PDFs.
+- **Save and Export**: Save your highlights or export them for later use.
+- **Easy On/Off**: Quickly turn highlighting on or off.
+- **Seamless Integration**: Works smoothly with other Helperbird features.
 
 ## Is This a Free Feature?
 
-Yes and no. The basic functionality is available for free to all users. However, for more advanced features and the ability to use the Web Highlighter on any website, you'll need to upgrade to the premium version.
+Yes and no. Basic highlighting is free for everyone. For advanced features and the ability to highlight on any website, you’ll need to upgrade to the premium version.
