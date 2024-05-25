@@ -208,6 +208,7 @@
             {{ featureDescription }}
           </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
+
           <button
           onclick="download_modal.showModal()"
           class="btn btn-secondary shadow-md"
@@ -242,14 +243,23 @@
 
 
 
-        <section class="overflow-hidden rounded-2xl  py-20">
+        <section class="overflow-hidden rounded-2xl  py-12 ppt-0">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
+
+          <div class="px-6 py-24 sm:py-32 lg:px-8 mb-12">
+            <div class="mx-auto max-w-2xl text-center">
+              <h2 class="text-4xl font-bold text-black sm:text-6xl">{{cardTitle }}</h2>
+              <p class="mt-6 text-2xl  text-black">{{ featureDescription }}</p>
+            </div>
+          </div>
+
+
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div class="lg:pr-8 lg:pt-4">
+
                 <div class="lg:max-w-lg text-black">
 
               
-                <h2 class="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl mb-4">{{cardTitle }} features</h2>
                   {{ content | safe }}
 
                 </div>
@@ -267,42 +277,6 @@
 
 
 
-
-
-        <section class="py-24 sm:py-32" aria-labelledby="features-section">
-          <div class="mx-auto max-w-7xl">
-            <div class="mx-auto mt-8 flow-root max-w-2xl sm:mt-16 lg:mx-0 lg:max-w-none">
-              <div class=" lg:grid lg:grid-cols-3 lg:gap-x-8">
-                {%- for post in collections.features limit: 3 -%}
-                  <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                    <div class="rounded-xl  bg-white p-8 shadow-md">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-black" aria-hidden="true">
-                        {{ post.data.icon | svgContents | safe }}
-                      </div>
-                      <h3 class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
-                        {{ post.data.cardTitle }}
-                      </h3>
-
-                      <p class=" line-clamp-3 font-sans text-base leading-relaxed my-4 text-black">
-                        {{ post.data.featureDescription }}
-                      </p>
-
-                      <div class="mt-4 flex items-center gap-x-4">
-                        <a
-                        class="btn-base btn btn-secondary shadow-md"
-                        href="{{ post.url }}"
-                        aria-label="More information on feature {{ post.data.cardTitle }}"
-                        title="Discover more about feature {{ post.data.cardTitle }}"
-                      >Discover more</a>
-                      
-                      </div>
-                    </div>
-                  </div>
-                {%- endfor -%}
-              </div>
-            </div>
-          </div>
-        </section>
 
 
 
