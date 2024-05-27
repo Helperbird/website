@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "89f29db8832b7b555f199a02d9af1185"
+    "revision": "b8a37f4baefbda5ef8936e7375283962"
   },
   {
     "url": "extension/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8e18f17c7d15f16c6c561750ba19aea5"
+    "revision": "0d2f0322dd5e941c0c13e0b68486786c"
   },
   {
     "url": "index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "4f6cd2dedb97f74ecfac4cec9a748fb3"
+    "revision": "6bab76428253f9f924b560387235c496"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "fcffdcbff55b95f34a1af1d8c71ae0e7"
+    "revision": "23751ffeb1c97dcc42e62d869f044f17"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "1283600e8c20729741e712af091a16c6"
+    "revision": "108137336964e72dc85a781bb668e607"
   },
   {
     "url": "products/firefox/index.png",
