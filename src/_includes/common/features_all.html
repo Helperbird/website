@@ -1,54 +1,51 @@
 <section class="py-24 sm:py-32" aria-labelledby="features-section">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-	  <div class="">
+		<div>
 
-		<h2 id="features-section" class="mt-2 text-3xl font-bold   text-gray-900 sm:text-4xl">Features at a glance</h2>
-		<p class="leading-relaxed font-sans  mt-4 text-xl text-black ">
-			Helperbird offers a range of power tools to customize the web to your needs to improve your accessibility, reading, writing, and productivity needs.
-</p>
-<p class="leading-relaxed font-sans  mt-4 text-xl text-black ">
-			Game-changing features such as Reading Mode, Immersive Reader, dyslexia support, text-to-speech with natural voices, text extracting, word prediction, voice typing, and 28 other features to transform your web experience.
-
-
-		</p>
-		<div class="mt-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
-		<a class="btn btn-primary mt-8 mb-8" href="/features/" aria-label="See all features">See all features</a>
-		</div>
-	  </div>
-	  <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-		<div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-			{%- for post in collections.features -%}
-			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-				<div class="rounded-xl  bg-white p-8 shadow-md">
-					<div
-						class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white"
-						aria-hidden="true"
-					>
-						{{ post.data.icon | svgContents | safe }}
-					</div>
-					<h3 class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
-						{{ post.data.cardTitle }}
-					</h3>
-
-					<p class=" line-clamp-3 font-sans text-base leading-relaxed my-4 text-black">
-						{{ post.data.featureDescription }}
-					</p>
-
-					<div class="mt-4 flex items-center gap-x-4">
-						<a
-						class="btn-base btn btn-secondary shadow-md"
-						href="{{ post.url }}"
-						aria-label="More information on feature {{ post.data.cardTitle }}"
-						title="More information on feature {{ post.data.cardTitle }}"
-					  >Read more</a>
-					  
-					</div>
-				</div>
+			<h2 id="features-section" class="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">Features at a Glance</h2>
+			<p class="leading-relaxed font-sans mt-4 text-xl text-black">
+				Helperbird offers many tools to help you use the web in a way that works best for you. Improve your accessibility, reading, writing, and productivity with our features.
+			</p>
+			<p class="leading-relaxed font-sans mt-4 text-xl text-black">
+				Our key features include Reading Mode, Immersive Reader, dyslexia support, text-to-speech with natural voices, text extraction, word prediction, voice typing, and 28 more features to enhance your web experience.
+			</p>
+			<div class="mt-8 flex flex-wrap space-y-4 text-center sm:space-y-0 sm:space-x-4">
+				<a class="btn btn-primary mt-8 mb-8" href="/features/" aria-label="See all features">See All Features</a>
 			</div>
-			{%- endfor -%}
-  
-
 		</div>
-	  </div>
+		
+
+	  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10 gap-x-8 gap-y-20">
+
+	  {%- for post in collections.features -%}
+
+    <div class="card card-compact border-2 border-stone-300 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
+      <div class="card-body">
+	
+			<div>
+			  <div class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white">
+				{{ post.data.icon | svgContents | safe }}
+			  </div>
+			  <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
+			</div>
+			<p class="mt-2 text-base text-black line-clamp-3">{{ post.data.featureDescription }}</p>
+			<div class="mt-4 mb-4 flex items-center gap-x-4">
+			  <a
+				class="btn-sm btn btn-secondary "
+				href="{{ post.url }}"
+				aria-label="More information on feature {{ post.data.cardTitle }}"
+				title="More information on feature {{ post.data.cardTitle }}"
+			  >
+				Read more
+			  </a>
+			</div>
+		  </div>
+    
+    </div>
+
+  {%- endfor -%}
+
+</div>
+
 	</div>
   </section>

@@ -3,20 +3,20 @@
 
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-4xl font-bold tracking-tight text-black">
-				<span class="block font-sans leading-relaxed text-black">Hear From Our Satisfied Users</span>
+				<span class="block font-sans leading-relaxed text-black">Real Feedback from Our Real Users
+				</span>
 			</h2>
 			<p class="mt-6 font-sans text-2xl leading-relaxed text-black">
-				See what over a million people who enhance their online accessibility and productivity daily
-				with Helperbird have to say.
+				Discover why over 700,000 people trust Helperbird to boost their online accessibility and productivity every day!
 			</p>
 			<div class="mt-10 flex items-center justify-center gap-x-6">
 				<a
 					href="/reviews/"
 					title="See all the reviews of Helperbird and their products."
 					aria-label="See all the reviews of Helperbird and their products."
-					class="btn btn-primary shadow-md"
+					class="btn btn-primary"
 					href="/reviews/"
-					>See all reviews</a
+					>Read All Reviews</a
 				>
 				
 			</div>
@@ -26,8 +26,9 @@
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4"
 		>
 			<figure
-				class="col-span-2 hidden rounded-xl bg-white shadow-md sm:block xl:col-start-2 xl:row-end-1"
+				class="col-span-2 hidden card card-compact border-2 border-stone-300 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500 sm:block xl:col-start-2 xl:row-end-1"
 			>
+			<div class="card-body">
 				<blockquote class="p-12 text-xl font-semibold leading-8 tracking-tight text-gray-900">
 					<p class="text-base">
 						“After using Helperbird I can't say enough positive things about it. This extension has
@@ -51,12 +52,14 @@
 						<div class="text-gray-600">Helperbird Pro user</div>
 					</div>
 				</figcaption>
+				</div>
 			</figure>
 
 			<div class="space-y-8 xl:contents xl:space-y-0">
 				<div class="space-y-8 xl:row-span-2">
 					{%- for review in reviews.reviews limit:2 -%}
-					<figure class="rounded-xl bg-white p-6 shadow-md">
+					<div class=" card card-compact border-2 border-stone-300 bg-base-100 transition-all duration-200 hover:-translate-y-1">
+						<div class="card-body">
 						<blockquote class="line-clamp-3 text-gray-900">
 							<p class="text-base">{{ review.review }}”</p>
 						</blockquote>
@@ -71,7 +74,8 @@
 								<div class="text-gray-600">{{ review.title }}</div>
 							</div>
 						</figcaption>
-					</figure>
+						</div>
+					</div>
 
 					{%- endfor -%}
 				</div>
@@ -79,7 +83,8 @@
 			<div class="space-y-8 xl:contents xl:space-y-0">
 				<div class="space-y-8 xl:row-span-2">
 					{%- for review in reviews.reviews limit:2 offset:8 -%}
-					<figure class="rounded-xl bg-white p-6 shadow-md">
+					<div class=" card card-compact border-2 border-stone-300 bg-base-100 transition-all duration-200 hover:-translate-y-1">
+						<div class="card-body">
 						<blockquote class="line-clamp-3 text-gray-900">
 							<p class="text-base">{{ review.review }}”</p>
 						</blockquote>
@@ -94,7 +99,8 @@
 								<div class="text-gray-600">{{ review.title }}</div>
 							</div>
 						</figcaption>
-					</figure>
+						</div>
+					</div>
 
 					{%- endfor -%}
 				</div>
