@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "fb17650e129e5195ae92e48b87819dcd"
+    "revision": "5bc2687351e396687e5c055185367b78"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1716,7 +1716,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "5a0225911125a25871a2a47eef75fbd0"
+    "revision": "680ffdcebfd4f244f637671bac8b5bae"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1732,7 +1732,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "994f38d0ce8c530cdb89eb62ca4358c6"
+    "revision": "03339ae1f636a98b40095123ad0e829e"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1740,7 +1740,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "90970a5b4b86dbd16ed3122d90159f1b"
+    "revision": "6ceccde419f12d29b3ca9db8200c8790"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1768,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.html",
-    "revision": "01401a4679fc008be22b54753f2f3f01"
+    "revision": "b04c23957c83eaaed115d5ffb31ce672"
   },
   {
     "url": "edu/index.png",
@@ -1776,7 +1776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "4364978a3c21447cb69569885784fb35"
+    "revision": "71f0957626695885a4d951884c07bb98"
   },
   {
     "url": "enterprise/index.png",
@@ -1784,11 +1784,11 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "15b4f826a3b71242d8faf8bb5819c311"
+    "revision": "89f29db8832b7b555f199a02d9af1185"
   },
   {
     "url": "extension/index.png",
-    "revision": "24d4216665f9e5a774cb26372b76e0a5"
+    "revision": "f3d3108022ad121a9bbb7a2d2bccf039"
   },
   {
     "url": "features/adjust-letters-and-words/index.html",
@@ -1832,11 +1832,11 @@ self.__precacheManifest = [
   },
   {
     "url": "features/bookmarks/index.html",
-    "revision": "e976bf26543de85c3f01652aaab08502"
+    "revision": "bfb8ca6997e1ca52767ea61bf3661f93"
   },
   {
     "url": "features/bookmarks/index.png",
-    "revision": "f38fb58bbd233e130756a8dd4324bad8"
+    "revision": "dd25b297879e816c9ec989a111deef3a"
   },
   {
     "url": "features/color-blindness/index.html",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "1394cb2c36b5871141c8d9d6d9dc33e4"
+    "revision": "a5cf47edc52c07b1030b66ae183e4ef5"
   },
   {
     "url": "features/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f210f77161bb000b624608733e990645"
+    "revision": "8e18f17c7d15f16c6c561750ba19aea5"
   },
   {
     "url": "index.png",
@@ -3012,7 +3012,7 @@ self.__precacheManifest = [
   },
   {
     "url": "pricing/index.html",
-    "revision": "41fb57b7c1e6f044755e6832799dbd77"
+    "revision": "06067a3f69e6b39086870e4c6559b065"
   },
   {
     "url": "pricing/index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "bbe43ccae8683e65d7fc0445471b0df3"
+    "revision": "4f6cd2dedb97f74ecfac4cec9a748fb3"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "095ea3eddacb9c2215cc012cbe3b13aa"
+    "revision": "fcffdcbff55b95f34a1af1d8c71ae0e7"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "95c0246e288f1c61d95df09f2bdfc5af"
+    "revision": "1283600e8c20729741e712af091a16c6"
   },
   {
     "url": "products/firefox/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "c794a9992c61ff5643bc810660cdfbd9"
+    "revision": "3f2769218cd73e92d3d4c7301e98fa48"
   },
   {
     "url": "products/ipad/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "dc9142621cec8f8a20e670e43ca268b0"
+    "revision": "4300b4de381ad4342cda83aae97520f8"
   },
   {
     "url": "sitemap/index.png",
