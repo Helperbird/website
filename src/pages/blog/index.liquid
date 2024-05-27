@@ -16,7 +16,7 @@ url: blog/
     <!-- Main Blog Post Section -->
     {% assign sortedBlogPosts = collections.blog | sort: 'date' | reverse %}
     {% assign firstPost = sortedBlogPosts.first %}
-    <a href="{{ firstPost.url }}" title="Read more about {{ firstPost.data.cardTitle }}" class="lg:col-span-2 card card-compact border-2 border-stone-500 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
+    <a href="{{ firstPost.url }}" title="Read more about {{ firstPost.data.cardTitle }}" class="lg:col-span-2 card card-compact border-2 border-stone-400 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
       <figure class="p-4">
         <img src="{{ firstPost.data.img }}" alt="{{ firstPost.data.cardTitle }} - Image" class="aspect-[16/9] h-64 w-full rounded-lg bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
         <figcaption class="sr-only">{{ firstPost.data.cardTitle }}</figcaption>
@@ -34,7 +34,7 @@ url: blog/
     <!-- Sidebar Section -->
     <div class="space-y-6">
       <!-- Additional Section (e.g., Managing Distributed Teams) -->
-      <div class="card card-compact border-2 border-stone-500 bg-base-100 p-6">
+      <div class="card card-compact border-2 border-stone-400 bg-base-100 p-6">
         <h3 class="text-xl font-bold mb-4">Get More Done with Helperbird! 🚀</h3>
         <p class="text-black mb-4 mt-4">Want to make browsing the web easier and more accessible? Helperbird is here to help! With features like text-to-speech, Immersive Reader, and reading tools, Helperbird makes your online experience better.</p>
         <button onclick="download_modal.showModal()" class="btn btn-primary gap-2 shadow-md" aria-label="Download Helperbird today and boost your accessibility & productivity">
@@ -43,7 +43,7 @@ url: blog/
       </div>
       
       <!-- Additional Section (e.g., Managing Distributed Teams) -->
-      <div class="card card-compact border-2 border-stone-500 bg-base-100 p-6">
+      <div class="card card-compact border-2 border-stone-400 bg-base-100 p-6">
         <h3 class="text-xl font-bold mb-4">Latest Updates</h3>
         <p class="text-black mb-4 mt-4">Stay up-to-date with the latest Helperbird developments right here.</p>
         <a href="/updates/" title="See the latest Helperbird Updates" class="btn btn-primary">Read now</a>
@@ -54,7 +54,7 @@ url: blog/
   <!-- Remaining Blog Posts -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10 gap-x-8 gap-y-20">
     {% for post in sortedBlogPosts offset:1 %}
-      <a href="{{ post.url }}" title="Read more about {{ post.data.cardTitle }}" class="card card-compact border-2 border-stone-500 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
+      <a href="{{ post.url }}" title="Read more about {{ post.data.cardTitle }}" class="card card-compact border-2 border-stone-400 bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500">
         <figure class="p-4">
           <img src="{{ post.data.img }}" alt="{{ post.data.cardTitle }} - Image" class="aspect-[16/9] w-full rounded-lg bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
           <figcaption class="sr-only">{{ post.data.cardTitle }}</figcaption>

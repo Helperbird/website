@@ -13,10 +13,15 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for ch
 
 url: guides/
 ---
+# Allow all user agents
 User-agent: *
 Allow: /
+
+# Disallow specific directories
 Disallow: /cdn-cgi/
 Disallow: /key/
 Disallow: /admin/
 Disallow: /demo/
+
+# Specify the location of the sitemap
 Sitemap: {{ site.url }}/sitemap.xml
