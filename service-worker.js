@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "3f681aadc356160accd69e73bb248f03"
+    "revision": "1394cb2c36b5871141c8d9d6d9dc33e4"
   },
   {
     "url": "features/index.png",
@@ -2912,7 +2912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "in-the-news/index.html",
-    "revision": "56968d87bfef9ae6eafb970a53c398c9"
+    "revision": "fbe06e51d3d689d1c999003db8ea4fee"
   },
   {
     "url": "in-the-news/index.png",
