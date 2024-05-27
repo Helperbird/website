@@ -2144,11 +2144,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feedback/index.html",
-    "revision": "0fa5e07621be468bff349ab652419dd4"
+    "revision": "b05b32c4110f9aa920cf3619ed58b460"
   },
   {
     "url": "feedback/index.png",
-    "revision": "3bbc4028371723caa3ced91bd439774e"
+    "revision": "b8b3a1b03234aa34b4a498d376c7f58f"
   },
   {
     "url": "firefox/index.html",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "8b06e621313fea9bf257a870385870d6"
+    "revision": "12de97325ae94554c083a7566fa45ad2"
   },
   {
     "url": "sitemap/index.png",
