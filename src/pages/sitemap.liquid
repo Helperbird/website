@@ -17,56 +17,42 @@ url: sitemap/
 ---
 
 
-<main class="isolate">
-  <div class="px-6 py-24 sm:py-16 lg:px-8 mb-4">
-    <div class="mx-auto max-w-3xl text-center">
-      <h1 class="leading-relaxed font-sans   text-4xl font-bold   text-black sm:text-6xl">
-        Helperbird's sitemap
 
-      </h1>
-      <p class="leading-relaxed font-sans  mt-6 text-2xl leading-8 text-black">
-        Don't know where to go next? Take a look at our sitemap and discover all the exciting pages waiting for you!
-      </p>
-    </div>
+<div class="px-6 py-20 sm:py-16 lg:px-4 mb-4">
+  <div class="mx-auto max-w-4xl text-center">
+    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">Helperbird's Sitemap</h2>
+    <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
+      Don't know where to go next? Take a look at our sitemap and discover all the exciting pages waiting for you!
+    </p>
   </div>
+</div>
 
 
-  <div class="card bg-white shadow-md">
-    <div class="card-body">
-      <div class=" grid gap-16 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
 
+<div class="mt-20">
+      <dl class="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
+        
+      {% for item in collections.all %}
+        <div>
+              <dt class="text-base font-semibold leading-7 text-black"> {{ item.data.title }}</dt>
+              <dd class="mt-2 text-base leading-7 text-black">{{ item.data.description }}</dd>
+              <div class="mt-3">
+                <a
+                  href="{{ item.url }}"
+                  title="{{ item.data.title }}"
+                  class="link link-hover text-blue-500 hover:text-blue-700">
+                  Visit
+                </a>
+              </div>
+        </div>
 
-        {% for item in collections.all %}
-
-
-          <div>
-
-          <a href="{{ item.url }}" class="leading-relaxed font-sans text-blue-600 hover:decoration-wavy hover:underline text-xl font-bold" title="{{ item.data.title }}">
-            {{ item.data.title }}
-          </a>
-          
-
-
-            <p class="leading-relaxed font-sans  mt-5  text-base text-black mb-5 line-clamp-3">
-              {{ item.data.description }}
-            </p>
-
-
-            <div class="mt-3">
-              <a
-                href="{{ item.url }}"
-                title="{{ item.data.title }}"
-                class="btn-sm btn-outline btn  rounded-xl shadow-md ">
-                Visit
-              </a>
-            </div>
-          </div>
-
-        {%- endfor -%}
-
-      </div>
+      {%- endfor -%}
+      </dl>
     </div>
-  </div>
 
 
-</main>
+
+
+
+
+
