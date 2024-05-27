@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "78086a20e02806e463f09053de256dfe"
+    "revision": "3f681aadc356160accd69e73bb248f03"
   },
   {
     "url": "features/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "70d14f52302756fde2cb5f3652d62680"
+    "revision": "f210f77161bb000b624608733e990645"
   },
   {
     "url": "index.png",
@@ -3092,7 +3092,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "d959c7e896b6643bcda859ca2b4b0e87"
+    "revision": "4018bbf467a7d8f1a42ac3123e0fb432"
   },
   {
     "url": "reviews/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "12de97325ae94554c083a7566fa45ad2"
+    "revision": "dc9142621cec8f8a20e670e43ca268b0"
   },
   {
     "url": "sitemap/index.png",
@@ -3192,7 +3192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.html",
-    "revision": "a326bf10a8679fd36c274f7619a44c59"
+    "revision": "054622db45240e67bb74d1256dbdcb7f"
   },
   {
     "url": "testimonials/index.png",
