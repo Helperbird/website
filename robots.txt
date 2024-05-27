@@ -1,7 +1,12 @@
+# Allow all user agents
 User-agent: *
 Allow: /
+
+# Disallow specific directories
 Disallow: /cdn-cgi/
 Disallow: /key/
 Disallow: /admin/
 Disallow: /demo/
+
+# Specify the location of the sitemap
 Sitemap: http://localhost:3000/sitemap.xml

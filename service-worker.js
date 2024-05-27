@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "c2ca2b55e6611008dab3d6c39bba1eba"
+    "revision": "fb17650e129e5195ae92e48b87819dcd"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1568,7 +1568,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "591d7e24a6a8eb5207604b7fb2cee377"
+    "revision": "9fad2f830ae361f51b343d68fc32c6ba"
   },
   {
     "url": "blog/index.png",
@@ -3068,7 +3068,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.html",
-    "revision": "dfd0127775c6ffaa870f8dc1c38aa7fa"
+    "revision": "c74111c75f5ba1aa2b701b07b3fc7ef3"
   },
   {
     "url": "recommends/index.png",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.html",
-    "revision": "3acb88dfcfc4ccf30781bd9ec5760c84"
+    "revision": "82572f691086bc9bdc02b17817c10995"
   },
   {
     "url": "sales/index.png",
@@ -3108,7 +3108,7 @@ self.__precacheManifest = [
   },
   {
     "url": "security/index.html",
-    "revision": "9b32d017f90cf26d50d900b82de6b21b"
+    "revision": "222d7e71e3f2d3683d7f0baf83bf003e"
   },
   {
     "url": "security/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "5433b96387b694608893f72a5d63141f"
+    "revision": "20804798bcc07d093d2b58683f47119c"
   },
   {
     "url": "sitemap/index.png",
@@ -3200,7 +3200,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.html",
-    "revision": "669f289614256c78d4bdc5db59498f52"
+    "revision": "840becccadbe2f83f131f3b3c3eaa6e4"
   },
   {
     "url": "tutorials/index.png",
