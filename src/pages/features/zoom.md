@@ -45,3 +45,4 @@ Just a few clicks to zoom in or out, making it simple for anyone to adjust the s
 - **Consistent Browsing**: Keep the same zoom level as you move between pages.
 - **Remove Clutter**: Zooming in can help clear away distractions on busy web pages.
 - **Simple to Use**: Adjusting the zoom is easy and quick, with just a few clicks.
+`
