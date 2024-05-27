@@ -2940,11 +2940,11 @@ self.__precacheManifest = [
   },
   {
     "url": "order/index.html",
-    "revision": "b6b570a56668d3ba543b4d51cb88d9d2"
+    "revision": "9e442a545f46632f98d9ec027a087621"
   },
   {
     "url": "order/index.png",
-    "revision": "d6492998491e95f47b94a99ca216344c"
+    "revision": "04645d440cff06ae6614f680a4fd9f8b"
   },
   {
     "url": "partners/adriana-garcia/index.html",
@@ -3068,7 +3068,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.html",
-    "revision": "c74111c75f5ba1aa2b701b07b3fc7ef3"
+    "revision": "2c4652e07aa65c3ebb87037632a92bb8"
   },
   {
     "url": "recommends/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "20804798bcc07d093d2b58683f47119c"
+    "revision": "8b06e621313fea9bf257a870385870d6"
   },
   {
     "url": "sitemap/index.png",
