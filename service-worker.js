@@ -1360,7 +1360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "d432992310ef7f931c66de3d46bfac36"
+    "revision": "c52fe24b5ac770dba583d159b4935b54"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1728,7 +1728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "85561c78f904627c6b2e35d943da1420"
+    "revision": "f4c2a7143bf3d01c66fb148bb8c1a747"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
