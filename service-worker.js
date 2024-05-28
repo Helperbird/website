@@ -1360,7 +1360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "c52fe24b5ac770dba583d159b4935b54"
+    "revision": "d432992310ef7f931c66de3d46bfac36"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1728,7 +1728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "27b1538401f5a3a147b0c239460a4bff"
+    "revision": "85561c78f904627c6b2e35d943da1420"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1744,7 +1744,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "cb6cda2116d768da9f95723a26d1765e"
+    "revision": "15adc90901180e330ca28e208126eb7d"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1752,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "adebc4ac31b59ac614ca96b38b68f387"
+    "revision": "39f8adbd735a74f4818b32db544fff20"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1796,7 +1796,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "e78909595787aa4a504679472cfeae40"
+    "revision": "3c7ce880ec4f155043dc245294c585af"
   },
   {
     "url": "extension/index.png",
@@ -2932,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "087ef5564e2bec35b39227269cad9e20"
+    "revision": "de0be8d57c5685bbd2dcd25ae924c6c4"
   },
   {
     "url": "index.png",
@@ -3040,7 +3040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "c445d2ba5e74ccadbac6736ce1bef93f"
+    "revision": "abb7f7dd8b84ae5e43508180895ceaad"
   },
   {
     "url": "products/chrome/index.png",
@@ -3048,7 +3048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "d5d0820c2412cf2e3a8c612ca8cf1605"
+    "revision": "b1acf4164cff52678eec60149f73387a"
   },
   {
     "url": "products/edge/index.png",
@@ -3056,7 +3056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "1ad559709207a22485df01a191a0185e"
+    "revision": "928fb96e81df48b9220fc01b8185708b"
   },
   {
     "url": "products/firefox/index.png",
