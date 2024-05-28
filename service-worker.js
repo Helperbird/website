@@ -1360,7 +1360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "4736a57b79cb8dc3d78de155028baebd"
+    "revision": "ed8fb42a42abb854c66282f16f82f514"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -3064,7 +3064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "9155fac55d86a622e398097d0fe77d44"
+    "revision": "655ab7562a9056ad246c02d9d0633ab4"
   },
   {
     "url": "products/google-addon/index.png",
