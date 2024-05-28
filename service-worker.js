@@ -3064,7 +3064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "655ab7562a9056ad246c02d9d0633ab4"
+    "revision": "630fab1f392d477434f3d4c9add945a5"
   },
   {
     "url": "products/google-addon/index.png",
