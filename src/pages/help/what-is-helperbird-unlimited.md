@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/new/help/post.html
 title: What is Helperbird Pro Unlimited?

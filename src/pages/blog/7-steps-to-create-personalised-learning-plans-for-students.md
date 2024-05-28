@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: 7 Steps to Create Personalised Learning Plans for Students

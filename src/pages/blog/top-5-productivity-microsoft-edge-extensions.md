@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Top 5 Productivity Microsoft Edge Extensions

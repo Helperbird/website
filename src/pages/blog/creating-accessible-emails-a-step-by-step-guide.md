@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: An 8-Step Guide to Creating Accessible Emails for Those with Dyslexia

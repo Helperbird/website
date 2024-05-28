@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Benefits of iPads in the Classroom 2023

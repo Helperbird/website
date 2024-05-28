@@ -1,6 +1,7 @@
 ---
 new: false
 updated: false
+footer: true
 header: true
 layout: templates/new/help/post.html
 title: How to add a border to paragraphs on a website

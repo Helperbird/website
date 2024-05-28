@@ -18,6 +18,7 @@ date: 2016-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Managed Keys
 featureDescription: Learn how to set Chrome storage managed keys using Google Admin Console with this comprehensive Helperbird guide for admins. Step-by-step instructions to ensure secure and compliant policy management for your organization.
+footer: true
 header: true
 ---
 

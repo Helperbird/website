@@ -1,6 +1,7 @@
 ---
 new: false
 submit: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How Helperbird Transformed a Student's Academic Experience

@@ -26,6 +26,7 @@ featureDescription: Unlock deep insights into your Helperbird usage with our Pro
   and more—spanning the last year down to the past 60 days. Plus, with
   continuous updates, you'll always have the most current data at your
   fingertips.
+footer: true
 header: true
 ---
 

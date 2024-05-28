@@ -24,6 +24,7 @@ featureDescription: Learn how to easily turn on and off sync in Chrome and Edge
   with this detailed step-by-step guide. Follow the instructions to link your
   Google account and synchronize your data, or disconnect and remove synced data
   from your browser.
+footer: true
 header: true
 ---
 

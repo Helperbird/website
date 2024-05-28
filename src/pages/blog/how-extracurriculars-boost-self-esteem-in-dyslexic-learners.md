@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How Extracurriculars Boost Self-Esteem in Dyslexic Learners

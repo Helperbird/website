@@ -21,6 +21,7 @@ cardTitle: Auto Scrolling
 featureDescription: Discover the step-by-step guide to effortlessly enable and
   customize the auto-scroll functionality using the Helperbird browser
   extension.
+footer: true
 header: true
 updated: false
 ---

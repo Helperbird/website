@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Celebrating 10 Years of Helperbird - Exciting Updates and Plans for the Future!

@@ -1,6 +1,7 @@
 ---
 new: false
 submit: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Empowering Students with Helperbird’s Reword Function

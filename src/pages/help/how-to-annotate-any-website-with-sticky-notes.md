@@ -17,6 +17,7 @@ featureDescription: Discover how to annotate websites and PDFs with Helperbird's
   sticky notes feature, a user-friendly tool that enhances your web browsing
   experience.
 redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
+footer: true
 header: true
 date: 2016-01-03
 updated: false

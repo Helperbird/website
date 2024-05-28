@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 updated: true
 layout: templates/new/help/post.html

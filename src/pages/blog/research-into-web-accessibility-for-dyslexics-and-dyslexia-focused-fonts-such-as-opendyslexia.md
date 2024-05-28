@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Research into Web Accessibility for Dyslexics and Dyslexia-Focused Fonts such as OpenDyslexic

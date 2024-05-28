@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/features_two.liquid
 title: Save Articles for Later with Helperbird

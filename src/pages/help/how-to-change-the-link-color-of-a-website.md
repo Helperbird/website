@@ -22,6 +22,7 @@ cardTitle: Link color
 featureDescription: Learn how to modify both regular and visited link colors
   across websites with Helperbird, making your web navigation more intuitive and
   visually appealing.
+footer: true
 header: true
 ---
 

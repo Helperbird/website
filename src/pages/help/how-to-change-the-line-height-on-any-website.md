@@ -22,6 +22,7 @@ cardTitle: Line height
 featureDescription: Follow our step-by-step guide to effortlessly adjust the
   line height on webpages, enhancing readability and improving your browsing
   experience with Helperbird.
+footer: true
 header: true
 ---
 

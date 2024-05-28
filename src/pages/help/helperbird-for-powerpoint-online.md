@@ -14,6 +14,7 @@ date: 2023-09-10T18:43:23.791Z
 youtubeId: vwT8SAJfU3E
 cardTitle: PowerPoint Online
 featureDescription: Unlock the full potential of your PowerPoint Online presentations with Helperbird's suite of accessibility tools. Our guide shows you how to seamlessly incorporate features like dyslexia fonts, text to speech, and more into your slides.
+footer: true
 header: true
 ---
 

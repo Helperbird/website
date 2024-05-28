@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/features_two.liquid
 title: Take Notes in Your Browser with Helperbird

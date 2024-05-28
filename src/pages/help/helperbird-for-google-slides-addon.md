@@ -22,6 +22,7 @@ cardTitle: Google Slides add-on
 featureDescription: Discover how to enhance your Google Slides experience with
   Helperbird's accessibility features. This step-by-step guide walks you through
   installation and usage, making document editing more accessible than ever.
+footer: true
 header: true
 ---
 

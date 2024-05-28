@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Fostering Inclusivity at Work - The Role of Helperbird in Modern Workplaces

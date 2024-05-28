@@ -22,6 +22,7 @@ cardTitle: Unlock all features
 featureDescription: Out of the box, Helperbird on iPad & iPhone comes with a
   limited feature set. Explore our guide to unlock the full array of
   functionalities and optimize your mobile experience.
+footer: true
 header: true
 ---
 

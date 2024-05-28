@@ -22,6 +22,7 @@ cardTitle: Background color
 featureDescription: Discover how to effortlessly change the background color of
   any website to suit your preferences using Helperbird's extension. Follow this
   simple guide to learn how.
+footer: true
 header: true
 ---
 

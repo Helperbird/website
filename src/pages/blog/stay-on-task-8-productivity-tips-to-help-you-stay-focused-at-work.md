@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title:  8 Productivity Tips to Help You Stay Focused at Work

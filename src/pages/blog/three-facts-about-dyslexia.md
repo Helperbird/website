@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: 3 Facts about Dyslexia and 1 Fact about Cats

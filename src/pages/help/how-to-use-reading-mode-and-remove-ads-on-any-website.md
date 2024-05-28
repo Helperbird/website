@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/new/help/post.html
 title: How to use Reading Mode on an website or PDF

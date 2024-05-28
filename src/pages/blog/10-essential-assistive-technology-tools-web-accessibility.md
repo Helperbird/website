@@ -21,6 +21,7 @@ blog_snip: In today's digital age, web accessibility is of paramount importance.
   content with ease, providing equal access to information and services.
 time: 5 min read
 isBlog: true
+footer: true
 header: true
 blog_cat: Blog
 ---

@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/features_two.liquid
 title: Speed Reading Extension - Boost Your Reading Speed and Efficiency

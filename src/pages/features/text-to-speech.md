@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/features_two.liquid
 title: Listen to Web Pages, Ebooks, and PDFs with Helperbird's Text to Speech

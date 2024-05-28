@@ -1,5 +1,6 @@
 ---
 new: true
+footer: true
 header: true
 layout: templates/single_page.liquid
 title: FERPA and COPPA Compliance Statement

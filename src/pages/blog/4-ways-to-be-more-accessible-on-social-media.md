@@ -20,6 +20,7 @@ blog_snip: Social media is a massive space of information sources and
   disabilities.
 time: 5 min read
 isBlog: true
+footer: true
 header: true
 blog_cat: Blog
 ---

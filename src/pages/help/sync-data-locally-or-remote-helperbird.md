@@ -18,6 +18,7 @@ date: 2016-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Storage
 featureDescription: Learn how to easily store your Helperbird data locally or sync across browsers.
+footer: true
 header: true
 ---
 

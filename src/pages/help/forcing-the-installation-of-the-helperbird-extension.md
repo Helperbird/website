@@ -21,6 +21,7 @@ cardTitle: Installing through G Suite
 featureDescription: Learn how to force install the Helperbird extension across
   your G Suite organization. Get step-by-step instructions to ensure universal
   access.
+footer: true
 header: true
 ---
 

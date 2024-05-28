@@ -20,6 +20,7 @@ cardTitle: Font size
 featureDescription: Learn the simple steps to customize and adjust the font size
   on any website to suit your reading preferences using the Helperbird
   extension.
+footer: true
 header: true
 updated: false
 ---

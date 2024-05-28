@@ -22,6 +22,7 @@ cardTitle: Letter spacing
 featureDescription: Easily enhance readability by customizing the spacing
   between letters on any website. Follow our step-by-step guide to adjust letter
   spacing with Helperbird.
+footer: true
 header: true
 ---
 

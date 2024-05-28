@@ -1,5 +1,6 @@
 ---
 new: true
+footer: true
 header: true
 layout: templates/user_profile.liquid
 title: Irene Hughes | Helperbird Partner

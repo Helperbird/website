@@ -1,6 +1,7 @@
 ---
 new: false
 updated: true
+footer: true
 header: true
 layout: templates/new/help/post.html
 title: How to Use the Dyslexia Ruler with Helperbird

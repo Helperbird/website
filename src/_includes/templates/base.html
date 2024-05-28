@@ -182,6 +182,7 @@
 
 </style>
 
+
 </head>
 
 <body class="helperbird-background-color">
@@ -192,7 +193,10 @@
     <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
       {{ content | safe }}
     </main>
+
+    {% if footer == true %}
     {% include templates/footer.html %}
+  {% endif %}
   </div>
   {% bundledJs %}
 </body>

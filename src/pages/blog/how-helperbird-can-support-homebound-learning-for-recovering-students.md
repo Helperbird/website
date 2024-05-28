@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How Helperbird Can Support Homebound Learning for Recovering Students

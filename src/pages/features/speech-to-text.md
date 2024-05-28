@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/features_two.liquid
 title: The Best Voice Typing Extension for Chrome, Firefox, Edge, and iOS

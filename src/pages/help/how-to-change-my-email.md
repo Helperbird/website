@@ -21,6 +21,7 @@ featureDescription: Follow this step-by-step guide to easily change the email
   address associated with your Helperbird account. From login to verification,
   we've got you covered.
 redirect_from: /support/how-to-change-my-email/
+footer: true
 header: true
 date: 2023-09-10T22:13:27.697Z
 youtubeId: vwT8SAJfU3E

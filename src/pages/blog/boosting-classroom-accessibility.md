@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Boosting Classroom Accessibility - Discover the Magic of Helperbird

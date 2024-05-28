@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Enhance Web Accessibility with 10 Essential Assistive Technology Tools

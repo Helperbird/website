@@ -22,6 +22,7 @@ cardTitle: "Family sharing "
 featureDescription: Learn how to effortlessly share, install, and manage the
   Helperbird App on iOS devices within your family. Your go-to guide for
   seamless accessibility features.
+footer: true
 header: true
 ---
 

@@ -22,6 +22,7 @@ cardTitle: Dyslexic Fonts
 featureDescription: Learn how to easily switch to dyslexic-friendly fonts on any
   website using the Helperbird browser extension. Make web browsing more
   accessible with just a few clicks.
+footer: true
 header: true
 ---
 

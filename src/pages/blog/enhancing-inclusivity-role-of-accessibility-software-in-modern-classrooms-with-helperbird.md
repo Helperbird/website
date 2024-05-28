@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Enhancing Inclusivity - Role of Accessibility Software in Modern Classrooms with Helperbird

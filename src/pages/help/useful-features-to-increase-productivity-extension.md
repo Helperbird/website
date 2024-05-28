@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/new/help/post.html
 title: Top 10 productivity features in Helperbird

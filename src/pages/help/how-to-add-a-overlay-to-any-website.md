@@ -19,6 +19,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Overlay & Tints
 featureDescription: Learn how to use the powerful overlay feature of the
   Helperbird browser extension
+footer: true
 header: true
 ---
 

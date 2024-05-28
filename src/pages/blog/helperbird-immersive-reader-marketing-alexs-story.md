@@ -1,6 +1,7 @@
 ---
 new: false
 submit: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: "Elevating Marketing Efforts with Immersive Reader in Helperbird"

@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Creating an Inclusive Online Experience, The Importance of Dyslexia-Friendly Design

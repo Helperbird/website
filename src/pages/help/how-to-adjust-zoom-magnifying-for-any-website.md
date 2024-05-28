@@ -18,6 +18,7 @@ cardTitle: Magnifying
 featureDescription: Master the art of magnifying and zooming on any webpage with
   Helperbird's comprehensive guide. Discover how to make text and images more
   accessible and easier to read
+footer: true
 header: true
 ---
 ## Introduction

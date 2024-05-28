@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How Positive Thoughts Might Benefit Dyslexic Students

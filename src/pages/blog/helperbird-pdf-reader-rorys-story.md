@@ -1,6 +1,7 @@
 ---
 new: false
 submit: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: "Making PDFs Easier with Helperbird's PDF Reader"

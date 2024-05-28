@@ -22,6 +22,7 @@ cardTitle: Highlight color
 featureDescription: '"Easily change the text highlight color across various web
   browsers like Safari, Chrome, Firefox, or Edge using the Helperbird extension.
   Follow our guide to learn how.'
+footer: true
 header: true
 ---
 

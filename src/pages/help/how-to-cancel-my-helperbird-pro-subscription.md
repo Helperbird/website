@@ -21,6 +21,7 @@ featureDescription: Learn the quick and easy steps to cancel your Helperbird Pro
 redirect_from:
   - /support/cancel/
   - /support/how-to-cancel-my-helperbird-pro-subscription/
+footer: true
 header: true
 date: 2023-09-10T22:07:10.397Z
 youtubeId: vwT8SAJfU3E

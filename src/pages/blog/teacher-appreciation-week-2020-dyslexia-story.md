@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How a Teacher Helped Me Achieve My Full Potential - Teacher Appreciation Week

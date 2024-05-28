@@ -22,6 +22,7 @@ cardTitle: Font color
 featureDescription: Learn how to effortlessly modify text colors on any website
   for a personalized browsing experience using Helperbird's text color
   adjustment feature.
+footer: true
 header: true
 ---
 

@@ -18,6 +18,7 @@ date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU
 cardTitle: Google Drive
 featureDescription: Learn how to elevate your Google Drive with Helperbird's accessibility tools. This guide will show you simple steps to integrate powerful features that make learning more accessible for everyone.
+footer: true
 header: true
 ---
 

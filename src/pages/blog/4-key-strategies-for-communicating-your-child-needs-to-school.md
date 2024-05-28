@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: 4 Key Strategies for Communicating Your Child's Needs to Schools

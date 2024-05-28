@@ -22,6 +22,7 @@ cardTitle: Cursor size
 featureDescription: Easily change the cursor size on any website to improve
   visibility and navigation. Learn how to utilize Helperbird's cursor adjustment
   feature for a tailored browsing experience.
+footer: true
 header: true
 ---
 

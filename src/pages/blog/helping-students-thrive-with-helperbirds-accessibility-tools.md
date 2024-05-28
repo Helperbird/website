@@ -1,6 +1,7 @@
 ---
 new: false
 submit: false
+footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Helping Students Thrive with Helperbird's Accessibility Tools

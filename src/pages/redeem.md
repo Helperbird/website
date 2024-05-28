@@ -1,5 +1,6 @@
 ---
 new: false
+footer: true
 header: true
 layout: templates/single_layout.liquid
 title: How to Redeem Your Helperbird Pro Voucher

@@ -14,6 +14,7 @@ date: 2023-09-10T18:43:23.791Z
 youtubeId: vwT8SAJfU3E
 cardTitle: Word Online
 featureDescription: Learn how to integrate Helperbird's powerful accessibility tools with Word Online. Our step-by-step guide makes it easy to enhance your document editing and reading experience, with features like dyslexia fonts, text to speech, and more.
+footer: true
 header: true
 ---
 

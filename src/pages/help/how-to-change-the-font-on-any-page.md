@@ -22,6 +22,7 @@ cardTitle: Fonts
 featureDescription: Customize your browsing experience by effortlessly changing
   the font on any website with Helperbird's easy-to-use extension. Follow our
   step-by-step guide to learn how.
+footer: true
 header: true
 ---
 
