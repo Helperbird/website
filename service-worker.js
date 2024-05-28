@@ -1360,7 +1360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "c52fe24b5ac770dba583d159b4935b54"
+    "revision": "75db5b97d521688705963c8ab8cd1710"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -2960,7 +2960,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/adriana-garcia/index.html",
-    "revision": "e22517745c9145d2058bd4ceb9dc1f12"
+    "revision": "de1d4b8c7532eae8c50f73fd333b32b3"
   },
   {
     "url": "partners/adriana-garcia/index.png",
@@ -2968,7 +2968,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/bonnie-shaver-troup/index.html",
-    "revision": "dbda9e416633e4c752fe101659c8ad33"
+    "revision": "7f81d0776edefe62c947213908729465"
   },
   {
     "url": "partners/bonnie-shaver-troup/index.png",
@@ -2984,7 +2984,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/irene-hughes/index.html",
-    "revision": "3166ad0fa5df6320d5241fc97f3f79df"
+    "revision": "e2fb141b944afa63325d8674b7cfa1f2"
   },
   {
     "url": "partners/irene-hughes/index.png",
@@ -2992,7 +2992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/nova-proton/index.html",
-    "revision": "341df0254dc8623a0d751ffe6bbb482f"
+    "revision": "c9dea9646cea1e48d093da3e53b39545"
   },
   {
     "url": "partners/nova-proton/index.png",
@@ -3000,7 +3000,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/paul-spencer/index.html",
-    "revision": "66c69e18051d49e8d312190f0e909100"
+    "revision": "4c44f01bada535edf6a7bb3b61c2c8b8"
   },
   {
     "url": "partners/paul-spencer/index.png",
@@ -3008,7 +3008,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sascharoos/index.html",
-    "revision": "b1a0037f073d6fbe089ba839d868e975"
+    "revision": "e49e0a82a773847d6969fbe09c9b694e"
   },
   {
     "url": "partners/sascharoos/index.png",
@@ -3016,7 +3016,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sprialisconsulting/index.html",
-    "revision": "40f9c582a9b2319481e7dd70881d9336"
+    "revision": "d208886a71d90c5fac7db638c42f05d1"
   },
   {
     "url": "partners/sprialisconsulting/index.png",
@@ -3088,7 +3088,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.html",
-    "revision": "96f24e712db18eb2cdff8e091cc9bfba"
+    "revision": "35feeb3cf34fa485921e0bc28e712761"
   },
   {
     "url": "redeem/index.png",
