@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "153bcc32419c3867fdcafd794c8a91cd"
+    "revision": "146be2e60380f507d8c70a2bebdd85ad"
   },
   {
     "url": "404.png",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "dfec687e6a75facdfda29f440fa73c78"
+    "revision": "85e3a877e23630dd4928f0ed06a79770"
   },
   {
     "url": "about/index.png",
@@ -1348,7 +1348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "5bc2687351e396687e5c055185367b78"
+    "revision": "97c426fa73621f3ced6e0290840371cd"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1568,7 +1568,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "9fad2f830ae361f51b343d68fc32c6ba"
+    "revision": "eeb08716b63941860a9bea2aef8bf26e"
   },
   {
     "url": "blog/index.png",
@@ -1716,7 +1716,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "680ffdcebfd4f244f637671bac8b5bae"
+    "revision": "8bcb1aa1488c2a630d0177e59e6e1336"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1724,7 +1724,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/index.html",
-    "revision": "1c1692a793db8afb6ba829f9dc9aee30"
+    "revision": "bf9968da0182727ef650eaf48790a1af"
   },
   {
     "url": "compare/index.png",
@@ -1732,7 +1732,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "03339ae1f636a98b40095123ad0e829e"
+    "revision": "f39f5b4119bacc1c7e2dc6ade5e2fc08"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1740,7 +1740,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "6ceccde419f12d29b3ca9db8200c8790"
+    "revision": "af2a34f1b1749668d95bc5dfa7b2987b"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1756,7 +1756,7 @@ self.__precacheManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "694f04333c36f26ed2397667e6e6d1b9"
+    "revision": "8dffbd7cb3f3573627d2e26841841082"
   },
   {
     "url": "contact/index.png",
@@ -1768,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.html",
-    "revision": "b04c23957c83eaaed115d5ffb31ce672"
+    "revision": "dbacba243757cbffff43211a569026ac"
   },
   {
     "url": "edu/index.png",
@@ -1776,7 +1776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "71f0957626695885a4d951884c07bb98"
+    "revision": "e53adca853569c90aef7605064944256"
   },
   {
     "url": "enterprise/index.png",
@@ -1784,7 +1784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "b8a37f4baefbda5ef8936e7375283962"
+    "revision": "47d18f3546966d1fc56d38585973e3f7"
   },
   {
     "url": "extension/index.png",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "a5cf47edc52c07b1030b66ae183e4ef5"
+    "revision": "bf9a173edc7d179cdb606a8cd7bc5090"
   },
   {
     "url": "features/index.png",
@@ -2144,7 +2144,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feedback/index.html",
-    "revision": "b05b32c4110f9aa920cf3619ed58b460"
+    "revision": "72891e0491ae9b786c0ff67308aabeec"
   },
   {
     "url": "feedback/index.png",
@@ -2912,7 +2912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "in-the-news/index.html",
-    "revision": "fbe06e51d3d689d1c999003db8ea4fee"
+    "revision": "9ff0569de80a1873b844f94db28482fc"
   },
   {
     "url": "in-the-news/index.png",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0e7b6a0e4d94c1fcdd16416ea99bff87"
+    "revision": "7198e957565e6c225004c5a8c70cd463"
   },
   {
     "url": "index.png",
@@ -2940,7 +2940,7 @@ self.__precacheManifest = [
   },
   {
     "url": "order/index.html",
-    "revision": "9e442a545f46632f98d9ec027a087621"
+    "revision": "cc99b0e7bb9f5a2271de89719ea2db8d"
   },
   {
     "url": "order/index.png",
@@ -2964,7 +2964,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/index.html",
-    "revision": "403b32f0b3ebd197846da294514735c3"
+    "revision": "fbad2f06d2b980fbb876a0cf4cdf078e"
   },
   {
     "url": "partners/index.png",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "d9feae959cb731996f28d5e7ef053bb5"
+    "revision": "f6b9c82a30b259d91b2b6c51b172fad7"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "82317782cc228594bb7cda5ddb1c05c1"
+    "revision": "f219109a18cdcddcb49d29ae91771315"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "aefb34b144a8e37897e4bc18b98d40de"
+    "revision": "a188bfb0fb4d780b6c2d7b27cbcd137e"
   },
   {
     "url": "products/firefox/index.png",
@@ -3052,7 +3052,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "cd0ec5bbe587123f3a981fa84a4ddfa4"
+    "revision": "6175bdc5bf6ea2f45a697123fc7c5950"
   },
   {
     "url": "products/google-addon/index.png",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "b1a77aa312a01ffcd44a7d4e11c835e3"
+    "revision": "cf7817fb1ca4da229eb59c3889cd825d"
   },
   {
     "url": "products/ipad/index.png",
@@ -3068,7 +3068,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.html",
-    "revision": "2c4652e07aa65c3ebb87037632a92bb8"
+    "revision": "347120bce87191460dc4b11d61e6d2a7"
   },
   {
     "url": "recommends/index.png",
@@ -3092,7 +3092,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "4018bbf467a7d8f1a42ac3123e0fb432"
+    "revision": "431f4003eff2f8e531bd98e0b1cf63d3"
   },
   {
     "url": "reviews/index.png",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.html",
-    "revision": "82572f691086bc9bdc02b17817c10995"
+    "revision": "a463385b9ab08cf77d6b2af218b57e6a"
   },
   {
     "url": "sales/index.png",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "4300b4de381ad4342cda83aae97520f8"
+    "revision": "732a5217a7a13691660badd5a6e0cda7"
   },
   {
     "url": "sitemap/index.png",
@@ -3124,7 +3124,7 @@ self.__precacheManifest = [
   },
   {
     "url": "success/index.html",
-    "revision": "203d92c823c6e9f0591cbcdcff72aa48"
+    "revision": "4bb25d90bc8f84fbf10705d1c178b6f4"
   },
   {
     "url": "success/index.png",
@@ -3168,7 +3168,7 @@ self.__precacheManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "8de0a831b28e5a896c9e7ed56ae27b4b"
+    "revision": "4c4042236acb87ed26cc92c905da0aa2"
   },
   {
     "url": "support/index.png",
@@ -3176,7 +3176,7 @@ self.__precacheManifest = [
   },
   {
     "url": "survey/index.html",
-    "revision": "a480fe929d123b0a65a14346e240efc9"
+    "revision": "582929d2f9670f8715af20a3767acc38"
   },
   {
     "url": "survey/index.png",
@@ -3192,7 +3192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.html",
-    "revision": "054622db45240e67bb74d1256dbdcb7f"
+    "revision": "d7938c2020b20aa7ad7a516b7f2b4ace"
   },
   {
     "url": "testimonials/index.png",
@@ -3200,7 +3200,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.html",
-    "revision": "840becccadbe2f83f131f3b3c3eaa6e4"
+    "revision": "79710067e0cb5d8c013faf6e0992ee2b"
   },
   {
     "url": "tutorials/index.png",
@@ -3220,7 +3220,7 @@ self.__precacheManifest = [
   },
   {
     "url": "updates/index.html",
-    "revision": "d8066a26ef60a8e9ce8d837859bad5af"
+    "revision": "98ef9e2297cfb5e660215e98759f1338"
   },
   {
     "url": "updates/index.png",
@@ -3232,7 +3232,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.html",
-    "revision": "81c5527fbfc1559ce4cccfbb2fa60c84"
+    "revision": "004ec3e461ef1a0f0b39833b6a48ec2c"
   },
   {
     "url": "usecases/index.png",
@@ -3240,7 +3240,7 @@ self.__precacheManifest = [
   },
   {
     "url": "welcome/index.html",
-    "revision": "8f52a1000a11e3de608fed07b94025ff"
+    "revision": "b0a2d385be552ebf82dd6a8727bea1e8"
   },
   {
     "url": "welcome/index.png",
