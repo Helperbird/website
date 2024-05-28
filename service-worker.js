@@ -1360,7 +1360,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "55171ab713c444656288750df76eb5fc"
+    "revision": "cca41eed3f2588350ab93fb9afe274f9"
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.html",
@@ -1788,7 +1788,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "d605f87eb2a8711b7b281ab7addbe988"
+    "revision": "4f36254117405f9d3f0bebd7904d4af3"
   },
   {
     "url": "enterprise/index.png",
