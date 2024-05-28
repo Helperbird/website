@@ -180,9 +180,45 @@
     background-color:rgb(246, 245, 231);
   }
 
+  
+
 </style>
 
-
+<style>
+  .game-board {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      height: 75vh;
+      max-height: 400px;
+      margin: 50px auto;
+      background-color: #1e293b;
+      border: 2px solid #4f46e5;
+  }
+  .ball {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-color: #facc15;
+      border-radius: 50%;
+  }
+  .paddle {
+      position: absolute;
+      width: 20%;
+      height: 10px;
+      background-color: #4f46e5;
+      bottom: 0;
+  }
+  .brick {
+      position: absolute;
+      width: 10%;
+      height: 20px;
+      background-color: #f43f5e;
+  }
+  .game-over, .game-won {
+      display: none;
+  }
+</style>
 </head>
 
 <body class="helperbird-background-color">
