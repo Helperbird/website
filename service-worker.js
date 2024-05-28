@@ -1752,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "517772c6fadc77968c4e8ab37c86fded"
+    "revision": "c409b35064e96eee80234dfe76ce90d9"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -2976,7 +2976,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/index.html",
-    "revision": "214da6fa29a267a35e5aab488e48aa12"
+    "revision": "33ac2d3ebea7de81db664e23ac977fe2"
   },
   {
     "url": "partners/index.png",
@@ -3128,7 +3128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "fc375599f57d040e007be191ba6a718e"
+    "revision": "8a6609d96b608e4fc54cc7f08af3e220"
   },
   {
     "url": "sitemap/index.png",
