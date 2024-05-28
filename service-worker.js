@@ -2960,7 +2960,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/adriana-garcia/index.html",
-    "revision": "de1d4b8c7532eae8c50f73fd333b32b3"
+    "revision": "ad1eb265b3db3a164a4c347c41458385"
   },
   {
     "url": "partners/adriana-garcia/index.png",
@@ -2968,7 +2968,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/bonnie-shaver-troup/index.html",
-    "revision": "7f81d0776edefe62c947213908729465"
+    "revision": "2af1905b5ee3294727a3a8a16e900850"
   },
   {
     "url": "partners/bonnie-shaver-troup/index.png",
@@ -2984,7 +2984,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/irene-hughes/index.html",
-    "revision": "e2fb141b944afa63325d8674b7cfa1f2"
+    "revision": "6f8264e782dc7a388838b8ae3f7769cd"
   },
   {
     "url": "partners/irene-hughes/index.png",
@@ -2992,7 +2992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/nova-proton/index.html",
-    "revision": "c9dea9646cea1e48d093da3e53b39545"
+    "revision": "3c7d52616e53122ffe5084628f8ed29a"
   },
   {
     "url": "partners/nova-proton/index.png",
@@ -3000,7 +3000,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/paul-spencer/index.html",
-    "revision": "4c44f01bada535edf6a7bb3b61c2c8b8"
+    "revision": "93595a125eb1b15fd2252f208acb6c6f"
   },
   {
     "url": "partners/paul-spencer/index.png",
@@ -3008,7 +3008,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sascharoos/index.html",
-    "revision": "e49e0a82a773847d6969fbe09c9b694e"
+    "revision": "9a317936e39a4f997f8f923549e6cdf7"
   },
   {
     "url": "partners/sascharoos/index.png",
@@ -3016,7 +3016,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sprialisconsulting/index.html",
-    "revision": "d208886a71d90c5fac7db638c42f05d1"
+    "revision": "66e05d68218c8b8dab9fc4a08d68eef0"
   },
   {
     "url": "partners/sprialisconsulting/index.png",
