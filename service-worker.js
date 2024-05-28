@@ -1728,7 +1728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "f4c2a7143bf3d01c66fb148bb8c1a747"
+    "revision": "2e7ebde8396206241424bcd86c7ac629"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1736,7 +1736,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/index.html",
-    "revision": "d0c55b222d35b6558c9cafadd8afe8ae"
+    "revision": "ff4db1a9153e751b8c41c4b96e030083"
   },
   {
     "url": "compare/index.png",
@@ -1744,7 +1744,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "15adc90901180e330ca28e208126eb7d"
+    "revision": "edb623ffa9df575b7c8f03f24d056734"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1752,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "39f8adbd735a74f4818b32db544fff20"
+    "revision": "517772c6fadc77968c4e8ab37c86fded"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -3128,7 +3128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "7d4231341c3d33cc8fb8639c0760f2d6"
+    "revision": "fc375599f57d040e007be191ba6a718e"
   },
   {
     "url": "sitemap/index.png",
