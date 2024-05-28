@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ab3b94e1cb9657da7f493e14406bd317"
+    "revision": "ab5bc4b23612766a062a49ff883cca96"
   },
   {
     "url": "404.png",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "4fca484200cdcf11e5271b46f266b108"
+    "revision": "005f8269f6393a272467bb203caeb55a"
   },
   {
     "url": "about/index.png",
@@ -403,16 +403,28 @@ self.__precacheManifest = [
     "revision": "0b53a11c7110e4cb4ed5f0b196d88282"
   },
   {
-    "url": "assets/images/fresh-start/cta-one.png",
+    "url": "assets/images/fresh-start/cta-one-old.png",
     "revision": "af569344f5b26e7a910d9fb36a2f62bc"
   },
   {
-    "url": "assets/images/fresh-start/reading.png",
+    "url": "assets/images/fresh-start/cta-one.png",
+    "revision": "cef371db0953c33485a2e2b37a339be1"
+  },
+  {
+    "url": "assets/images/fresh-start/reading-old.png",
     "revision": "5b324cc40c533bca482cf8d182b27612"
   },
   {
-    "url": "assets/images/fresh-start/writing.png",
+    "url": "assets/images/fresh-start/reading.png",
+    "revision": "fcf348852926fb6ab24b85a942ece25b"
+  },
+  {
+    "url": "assets/images/fresh-start/writing-old.png",
     "revision": "20d6db032b34b0de322fa660b5fed477"
+  },
+  {
+    "url": "assets/images/fresh-start/writing.png",
+    "revision": "87d0cf19bc5e1be3cce10f21ada1941e"
   },
   {
     "url": "assets/images/graph/compare/immersive-reader-vs-helperbird.png",
@@ -1568,7 +1580,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "50ada117240fd25039005f8b3e6cbab0"
+    "revision": "3012a73b222335975fd2fa0e87f0576d"
   },
   {
     "url": "blog/index.png",
@@ -1716,7 +1728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.html",
-    "revision": "01418d4605c2309b6992b0673261a82a"
+    "revision": "65c330829cea37819aeac9e8679a7c3e"
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
@@ -1724,7 +1736,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/index.html",
-    "revision": "4840a3e454b2ff0afae47365cd08b894"
+    "revision": "372d641dde47411168dcb0540ce8dce3"
   },
   {
     "url": "compare/index.png",
@@ -1732,7 +1744,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
-    "revision": "abf8eb1ccd4b314b16fab0f265025601"
+    "revision": "76f3b654bdf5475085d890aae6aedce9"
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
@@ -1740,7 +1752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
-    "revision": "24748cba98547021b760cf0983043828"
+    "revision": "8efe4ea5128d5486a0736050bce3f8b8"
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
@@ -1756,7 +1768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "ffaad8e4d04bbab8df171b703fdc3795"
+    "revision": "4c988c9a7fd31e3a983e103482abfe3f"
   },
   {
     "url": "contact/index.png",
@@ -1768,7 +1780,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.html",
-    "revision": "fab62418d4f755b0714953a4fb7df1da"
+    "revision": "3b2db3fcabd40fdded37ca7e76e7a4c0"
   },
   {
     "url": "edu/index.png",
@@ -1776,7 +1788,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.html",
-    "revision": "192d30720320c0cda8630d495340ad9a"
+    "revision": "6e9058c97dde75c2102f09dd6cc16098"
   },
   {
     "url": "enterprise/index.png",
@@ -1784,7 +1796,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "e44adfcc3316cce6fee23353fe554f5b"
+    "revision": "92a0acec0c63cd7989605da680ed16ec"
   },
   {
     "url": "extension/index.png",
@@ -1936,7 +1948,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "d5506982863ee0bb4b13466aa0f5891c"
+    "revision": "a448c4d55b3b599797a1700e0c822d6b"
   },
   {
     "url": "features/index.png",
@@ -2144,7 +2156,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feedback/index.html",
-    "revision": "028a61901fb89baab6bfe6ee96d90475"
+    "revision": "8d74e6dd853a807e88fc5566f1ac9392"
   },
   {
     "url": "feedback/index.png",
@@ -2912,7 +2924,7 @@ self.__precacheManifest = [
   },
   {
     "url": "in-the-news/index.html",
-    "revision": "21b01ff4f5db54f670e71ad95566a3b9"
+    "revision": "c08752986967e67dc5421455c344ed8f"
   },
   {
     "url": "in-the-news/index.png",
@@ -2920,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "bd60db0258a030106eef0021d8fef4b3"
+    "revision": "64c829a5233c13bd3120d52176d05084"
   },
   {
     "url": "index.png",
@@ -2940,7 +2952,7 @@ self.__precacheManifest = [
   },
   {
     "url": "order/index.html",
-    "revision": "fcdddc6159f681d9cce41d7879659190"
+    "revision": "6e6d63b781599e68b51c84e236322e1b"
   },
   {
     "url": "order/index.png",
@@ -2964,7 +2976,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/index.html",
-    "revision": "0c3692f30dd9c2e0c66e68e5a39b984e"
+    "revision": "4a158b205fd65bca71963a388f739187"
   },
   {
     "url": "partners/index.png",
@@ -3028,7 +3040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "430e3d3b5697b8a371a44b2db5f5c7ec"
+    "revision": "585749185305342576dc069b22facef2"
   },
   {
     "url": "products/chrome/index.png",
@@ -3036,7 +3048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "b106c2bb62b747651138266cea263bfa"
+    "revision": "b2c881e5778e95714a315977dd1357ba"
   },
   {
     "url": "products/edge/index.png",
@@ -3044,7 +3056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "0be6d5072e4d5ea2ebcfecc62994de5a"
+    "revision": "2515e81c62bafee4d0dbf128363c16e3"
   },
   {
     "url": "products/firefox/index.png",
@@ -3052,7 +3064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "a03784d7b46a8c89a8442c83608e7b73"
+    "revision": "9155fac55d86a622e398097d0fe77d44"
   },
   {
     "url": "products/google-addon/index.png",
@@ -3060,7 +3072,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "e64833efeb915f300142ec12e28196e4"
+    "revision": "75754e02c4afd1aba9b49664276e1e6a"
   },
   {
     "url": "products/ipad/index.png",
@@ -3068,7 +3080,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.html",
-    "revision": "4accd54bbc0f6cbea1abf145f4556dae"
+    "revision": "954a6a35f8f7b7620a07161db238af8b"
   },
   {
     "url": "recommends/index.png",
@@ -3092,7 +3104,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.html",
-    "revision": "3913cb95a9381037d5d0b3c1d7d42f95"
+    "revision": "c022984379ed3bddce54e322e74c11ce"
   },
   {
     "url": "reviews/index.png",
@@ -3100,7 +3112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.html",
-    "revision": "c0cfd75c910b970a8ea278681a76f417"
+    "revision": "e2f28609a5b2086d107a82ac999ae110"
   },
   {
     "url": "sales/index.png",
@@ -3116,7 +3128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "5d589b117eb20bd2ea565b5a06cf413a"
+    "revision": "6da0a7ec3aec94106f56fa2129d5d731"
   },
   {
     "url": "sitemap/index.png",
@@ -3124,7 +3136,7 @@ self.__precacheManifest = [
   },
   {
     "url": "success/index.html",
-    "revision": "c69ac47bb6a846153ad3e3aa87b52393"
+    "revision": "9280ed10339460d8534e1b5b3a02778b"
   },
   {
     "url": "success/index.png",
@@ -3168,7 +3180,7 @@ self.__precacheManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "739dd5f2beecc7caaac449bf824fff26"
+    "revision": "28afc8cf215706fa485d2d5816d1a38a"
   },
   {
     "url": "support/index.png",
@@ -3176,7 +3188,7 @@ self.__precacheManifest = [
   },
   {
     "url": "survey/index.html",
-    "revision": "a347c5c00bfc0b15b22fc14e478463d9"
+    "revision": "902db73c3d79768f2fc992b91ed76572"
   },
   {
     "url": "survey/index.png",
@@ -3192,7 +3204,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.html",
-    "revision": "bdb3e8591f86ac70b7583abb4d009ec7"
+    "revision": "877b2bbe8ee83518ca1baf00c71dcdd5"
   },
   {
     "url": "testimonials/index.png",
@@ -3200,7 +3212,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.html",
-    "revision": "eabf3287b76fdbbf2073e7a389142e63"
+    "revision": "bb064d1697e7db606ddee5f7b1fe988a"
   },
   {
     "url": "tutorials/index.png",
@@ -3220,7 +3232,7 @@ self.__precacheManifest = [
   },
   {
     "url": "updates/index.html",
-    "revision": "dd5548a9552ae7f6d7d8cfddcfe4b7eb"
+    "revision": "d98680dc9441ce35ae0ba18afc027291"
   },
   {
     "url": "updates/index.png",
@@ -3232,7 +3244,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.html",
-    "revision": "991c47327fe46538b61accd4b95a3cb1"
+    "revision": "dfbad45f3e3930444abf9a0bdc782f41"
   },
   {
     "url": "usecases/index.png",
@@ -3240,7 +3252,7 @@ self.__precacheManifest = [
   },
   {
     "url": "welcome/index.html",
-    "revision": "649d4d05dbdb3193ce01c316ace40e34"
+    "revision": "aa9eed618bdc884d8d2c7446f23f224f"
   },
   {
     "url": "welcome/index.png",
