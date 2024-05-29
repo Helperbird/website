@@ -85,7 +85,7 @@ const manifest = {
 };
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy({ 'src/pages/admin/': '/admin/' });
+
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
 	eleventyConfig.setWatchThrottleWaitTime(3000); // in milliseconds
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
