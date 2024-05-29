@@ -3040,7 +3040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "ee273302b526dc3f1a29aaf183791810"
+    "revision": "510614618541059c130558c343fa30b1"
   },
   {
     "url": "products/chrome/index.png",
@@ -3048,7 +3048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "4a9168365677e2a595c49f22fe34a0ec"
+    "revision": "a5ad0a783eff4d66142e55920386bcb1"
   },
   {
     "url": "products/edge/index.png",
@@ -3056,7 +3056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "7daf222053800824817d88c70541c543"
+    "revision": "5a0327a038c10ace05afc2df6a11c609"
   },
   {
     "url": "products/firefox/index.png",
@@ -3064,11 +3064,11 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.html",
-    "revision": "4be814a39b15a0e4684427ecf090fd6a"
+    "revision": "279e17c6bdf794328c21a99f11213672"
   },
   {
     "url": "products/google-addon/index.png",
-    "revision": "692f9b6902270a0be6f0198f39090bfd"
+    "revision": "a1d2571445577f80d5a061cb1b8b160d"
   },
   {
     "url": "products/ipad/index.html",
@@ -3128,7 +3128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "652e97ddea69768378e6ddb92ab7cd2e"
+    "revision": "1ddc230a61bb15254a03ccca3105da17"
   },
   {
     "url": "sitemap/index.png",
