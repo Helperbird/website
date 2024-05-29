@@ -13,7 +13,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Reading Mode
 featureDescription: Use Helperbird's Reading Mode to simplify web pages and remove distractions. Enjoy a clean, focused reading environment with added tools for accessibility and productivity.
 group: reading
-color: indigo
+color: orange
 tags: 
   - features
   - reading

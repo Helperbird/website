@@ -24,7 +24,7 @@ youtubeId: l_gDeSqvIqk
 cardTitle: OCR / Screenshot Reader
 featureDescription: Easily capture, read, and save text from images or screenshots with Helperbird's OCR/Screenshot Reader. Features include text-to-speech, saving to the clipboard, note-taking, and opening in Immersive Reader.
 group: reading
-color: indigo
+color: orange
 tags: 
   - features
   - accessibility

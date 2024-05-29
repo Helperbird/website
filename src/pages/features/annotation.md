@@ -14,7 +14,7 @@ cardTitle: Annotations & Sticky Notes
 featureDescription: Improve your research and workflow with Helperbird's Annotations & Sticky Notes. Highlight, annotate, and leave comments on any website or PDF. Choose different colors and sizes, organize your notes, save to the cloud, and export in multiple formats. Use our robust search function to find your notes easily.
 date: 2016-01-02
 group: reading
-color: indigo
+color: orange
 tags:
   - features
   - writing
