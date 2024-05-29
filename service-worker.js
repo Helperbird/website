@@ -2932,11 +2932,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f9fe7ce79cf7f7d4c8a18e921faaeb46"
+    "revision": "b8d869175bacc1fae38a7cc14a246c19"
   },
   {
     "url": "index.png",
-    "revision": "2930af88f2f66184eb65f60a4e06048a"
+    "revision": "54d3ebce6f122599cb467aacb4e12c4c"
   },
   {
     "url": "key/index.html",
@@ -3128,7 +3128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "8a6609d96b608e4fc54cc7f08af3e220"
+    "revision": "652e97ddea69768378e6ddb92ab7cd2e"
   },
   {
     "url": "sitemap/index.png",
