@@ -1796,7 +1796,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "1e7224feab7959e1004f9babddebdaf4"
+    "revision": "45d176c699f3141cd013b9d78da6e6c7"
   },
   {
     "url": "extension/index.png",
@@ -1948,7 +1948,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.html",
-    "revision": "dacb9404b54a102e6bbb27f72b9adcd4"
+    "revision": "7f5e8b08eea730d49ce76f907cca7931"
   },
   {
     "url": "features/index.png",
@@ -1996,7 +1996,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/pdfs/index.html",
-    "revision": "e4fd1438499dcd15e7b5dd6929d4ec78"
+    "revision": "73245ae91c965cb1117388695d3b2e93"
   },
   {
     "url": "features/pdfs/index.png",
@@ -2076,7 +2076,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speech-to-text/index.html",
-    "revision": "4b87ca5b05d0d42a2179a89b7d7f5e1b"
+    "revision": "37578e121c1e3d81a48bd3df475e5bdd"
   },
   {
     "url": "features/speech-to-text/index.png",
@@ -2932,7 +2932,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b8d869175bacc1fae38a7cc14a246c19"
+    "revision": "b39dc130da2a5f08d993a62960837a8f"
   },
   {
     "url": "index.png",
@@ -3040,7 +3040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "510614618541059c130558c343fa30b1"
+    "revision": "b8a64194195fb0553053a1cb694719ec"
   },
   {
     "url": "products/chrome/index.png",
@@ -3048,7 +3048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "a5ad0a783eff4d66142e55920386bcb1"
+    "revision": "6f7cb6c920766d65aa76e5a65b85fb05"
   },
   {
     "url": "products/edge/index.png",
@@ -3056,7 +3056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "5a0327a038c10ace05afc2df6a11c609"
+    "revision": "bb82f8ba2815f748430b8d3f63b136b0"
   },
   {
     "url": "products/firefox/index.png",
@@ -3072,7 +3072,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "013d4ac9580311e7418fd0aaf0a23ce9"
+    "revision": "ea6a266b01d866c24a4a9b51fd7e2ae8"
   },
   {
     "url": "products/ipad/index.png",
