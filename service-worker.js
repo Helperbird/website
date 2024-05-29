@@ -3024,7 +3024,7 @@ self.__precacheManifest = [
   },
   {
     "url": "pricing/index.html",
-    "revision": "2ff2722601dc5edb027eadac49a38dde"
+    "revision": "f70ca83878e18a8befe39ddd68a2e67b"
   },
   {
     "url": "pricing/index.png",
