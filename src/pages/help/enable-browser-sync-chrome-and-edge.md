@@ -33,7 +33,7 @@ header: true
 
 Helperbird utilizes the built-in sync feature in Chrome and Edge to access the email to which you're signed in within the browser.
 
-#### Privacy Note
+### Privacy Note
 We do not collect any of your information when you enable sync.
 
 ---
