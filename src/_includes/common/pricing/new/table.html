@@ -1,10 +1,14 @@
+<div class="rounded-xl  px-6 pt-16 pb-12  lg:px-8">
+	<div class="mx-auto max-w-2xl text-center">
+		<h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">Compare
+			Helperbird Plans
+		</h2>
+		<p class="leading-relaxed font-sans mt-6 text-xl  text-black">Explore and compare the different Helperbird
+			plans. If you need any assistance, feel free to reach out to our friendly support team!
 
-<div class="rounded-xl  px-6 py-24  lg:px-8">
-    <div class="mx-auto max-w-2xl text-center">
-      <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">Compare Helperbird plans</h2>
-      <p class="leading-relaxed font-sans mt-6 text-xl  text-black">Compare Helperbird plans, if you need more help just reach out to our support staff.</p>
-    </div>
-  </div>
+		</p>
+	</div>
+</div>
 
 <!-- Feature comparison (up to lg) -->
 <section aria-labelledby="mobile-comparison-heading" class="lg:hidden">
@@ -13,10 +17,8 @@
 	<div class="mx-auto max-w-2xl space-y-16 px-4 py-16 sm:px-6">
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-transparent pt-6 sm:w-1/2">
-				<h3
-					class="leading-relaxed font-sans text-xl font-bold  text-black"
-				>
-				Helperbird
+				<h3 class="leading-relaxed font-sans text-xl font-bold  text-black">
+					Helperbird
 				</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 					Access to all core features.
@@ -27,47 +29,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -79,9 +69,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -90,47 +78,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -142,9 +118,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -153,47 +127,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -205,9 +167,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -218,47 +178,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -270,9 +218,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -281,47 +227,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -333,9 +267,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -344,47 +276,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -396,9 +316,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -407,47 +325,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -459,18 +365,14 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 		</div>
 
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-blue-600 pt-6 sm:w-1/2">
-				<h3
-					class="leading-relaxed font-sans text-lg font-bold l  text-black"
-				>
+				<h3 class="leading-relaxed font-sans text-lg font-bold l  text-black">
 					Helperbird Pro
 				</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
@@ -482,47 +384,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow-md"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow-md border-2 border-pink-500 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  border-2 border-pink-500 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -543,47 +433,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -595,9 +473,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -606,47 +482,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -658,9 +522,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -671,47 +533,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -723,9 +573,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -734,47 +582,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -786,9 +622,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -797,47 +631,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -849,9 +671,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -860,47 +680,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -912,18 +720,14 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 		</div>
 
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-transparent pt-6 sm:w-1/2">
-				<h3
-					class="leading-relaxed font-sans text-lg font-bold  text-black"
-				>
+				<h3 class="leading-relaxed font-sans text-lg font-bold  text-black">
 					Pro Unlimited
 				</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
@@ -935,47 +739,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -987,9 +779,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -998,47 +788,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1050,9 +828,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -1061,47 +837,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1113,9 +877,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -1126,47 +888,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1178,9 +928,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -1189,47 +937,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1241,9 +977,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -1252,47 +986,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1304,9 +1026,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 
@@ -1315,47 +1035,35 @@
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white shadow"></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3 shadow ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:shadow-none sm:ring-0"
-				>
+					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
 							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1367,9 +1075,7 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div
-						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
-					></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 			</div>
 		</div>
@@ -1379,7 +1085,7 @@
 <!-- Feature comparison (lg+) -->
 <section aria-labelledby="comparison-heading" class="hidden lg:block">
 
-	<div class="mx-auto max-w-7xl px-8 pb-20 pt-16">
+	<div class="mx-auto max-w-7xl px-8 pb-20 pt-12">
 		<div class="flex w-full items-stretch">
 			<div class="-mt-px flex w-1/4 items-end py-6 pr-4">
 				<h3 class="mt-auto leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
@@ -1389,10 +1095,8 @@
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4 pr-4">
 				<div class="border-t-2 border-transparent py-6">
-					<p
-						class="leading-relaxed font-sans text-lg font-bold  text-black"
-					>
-					 Helperbird
+					<p class="leading-relaxed font-sans text-lg font-bold  text-black">
+						Helperbird
 					</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 						Access to all core features.
@@ -1402,10 +1106,8 @@
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4 pr-4">
 				<div class="border-t-2 border-blue-600 py-6">
-					<p
-						class="leading-relaxed font-sans text-lg font-bold l  text-pink-500"
-					>
-					Helperbird Pro
+					<p class="leading-relaxed font-sans text-lg font-bold l  text-pink-500">
+						Helperbird Pro
 					</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 						All of Helperbird Pro features.
@@ -1415,10 +1117,8 @@
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4">
 				<div class="border-t-2 border-transparent py-6">
-					<p
-						class="leading-relaxed font-sans text-lg font-bold  text-black"
-					>
-					Helperbird Pro Unlimited
+					<p class="leading-relaxed font-sans text-lg font-bold  text-black">
+						Helperbird Pro Unlimited
 					</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 						Unlimited users per school/business
@@ -1432,13 +1132,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -1478,34 +1178,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1515,34 +1204,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1553,35 +1231,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1615,13 +1282,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -1661,34 +1328,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1698,34 +1354,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1736,35 +1381,22 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-pink-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
-									<path
-										fill-rule="evenodd"
+								<svg class="mx-auto h-5 w-5 text-pink-600" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
 										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										clip-rule="evenodd" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1798,13 +1430,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -1844,34 +1476,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1881,34 +1502,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1919,35 +1529,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1983,13 +1582,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -2029,34 +1628,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -2066,34 +1654,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -2104,35 +1681,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -2166,13 +1732,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -2212,34 +1778,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -2249,34 +1804,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -2287,35 +1831,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -2349,13 +1882,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -2395,34 +1928,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -2432,34 +1954,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -2470,35 +1981,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -2532,13 +2032,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white shadow-md"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white shadow"></div>
+					<div class="h-full w-full rounded-xl bg-white "></div>
 				</div>
 			</div>
 
@@ -2578,34 +2078,23 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -2615,34 +2104,23 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -2653,35 +2131,24 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg
-									class="mx-auto h-5 w-5 text-green-600"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
+									aria-label="Check mark inside a circle indicating success">
+									<title>Check mark inside a circle indicating success</title>
 									<path
-										fill-rule="evenodd"
-										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd"
-									/>
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
+
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									class="mx-auto h-5 w-5 text-rose-500"
-								>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
+									role="img" aria-label="Cross mark inside a circle indicating error"
+									class="h-6 w-6 text-red-500  mx-auto">
+									<title>Cross mark inside a circle indicating error</title>
 									<path
-										fill-rule="evenodd"
-										d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-										clip-rule="evenodd"
-									></path>
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
