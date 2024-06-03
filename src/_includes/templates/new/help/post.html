@@ -220,8 +220,8 @@
                   <div class="text-lg font-bold text-black">Getting started</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.guideFeatures %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -238,8 +238,8 @@
                   <div class="text-lg font-bold text-black">Features</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.guideOverViewFeatures %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -256,8 +256,8 @@
                   <div class="text-lg font-bold text-black">Admin tools</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.adminTools %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -274,8 +274,8 @@
                   <div class="text-lg font-bold text-black">Apps</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.guideApps %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -292,8 +292,8 @@
                   <div class="text-lg font-bold text-black">iPad & iPhone</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.iOSHelp %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -310,8 +310,8 @@
                   <div class="text-lg font-bold text-black">Tricks and Tips</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.tricksHelp %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -328,8 +328,8 @@
                   <div class="text-lg font-bold text-black">My Account</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
                     {% for guide in collections.guideAccounts %}
-                      {% assign custom_classes = guide.url == page.url ? 'relative block pl-4 text-base font-medium text-black font-bold underline' : 'relative block pl-4 text-base font-medium text-black hover:underline' %}
-                      {% assign aria_current = guide.url == page.url ? 'page' : 'false' %}
+                    {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
+                    {% assign aria_current = 'page' %}
                       <li class="items-center">
                         <a href="{{ guide.url }}" class="{{ custom_classes }}" aria-current="{{ aria_current }}" title="{{ guide.data.cardTitle }}">
                           {{ guide.data.cardTitle }}
@@ -413,7 +413,7 @@
               <p>“After using Helperbird I can't say enough positive things about it. This extension has truly transformed my online reading experience. Whether it's adjusting font sizes, reducing eye strain with the gray filter, or using the dyslexia-friendly fonts, Helperbird offers a range of features that cater to individual preferences and needs. The customizable color options and text alignment have also been incredibly helpful for personalizing my browsing. And the speed reading feature? It's a game-changer! Overall, Helperbird is a versatile, user-friendly tool that enhances accessibility and makes online reading a breeze. Highly recommended!”</p>
             </blockquote>
             <figcaption class="mt-10 flex items-center gap-x-6">
-              <img class="h-12 w-12 rounded-full bg-gray-50" src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48" alt="Charlie Nishelle Calkins">
+              <img class="h-12 w-12 rounded-2xl bg-gray-50" src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48" alt="Charlie Nishelle Calkins">
               <div class="text-sm leading-6">
                 <div class="font-semibold">Charlie Nishelle Calkins</div>
                 <div class="mt-2 text-black">Helperbird Pro user</div>
