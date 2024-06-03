@@ -1,4 +1,4 @@
-<div class="mx-auto mt-12 max-w-7xl px-6  lg:px-8">
+<div class="mx-auto mt-12 max-w-7xl px-8">
 
 
 
@@ -18,13 +18,13 @@
 			> and we’ll be happy to help!
 		</p>
 
-			<div class="grid grid-cols-3 gap-4 gap-x-4 mb-12 mt-12">
+			<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 gap-x-4 mb-12 mt-12">
 				<div class="my-2">
 					<select
 						id="currency"
 						name="currency"
 						v-model="currency"
-						class="select-base select max-w-xs rounded-2xl border-2 border-stone-400"
+						class="select-base select w-fit max-w-xs rounded-2xl border-2 border-stone-400"
 					>
 						<option class="bg-black" value="aud">Australia (AUD) 🇦🇺</option>
 						<option class="bg-black" value="usd" selected="selected">United States (USD) 🇺🇸</option>
@@ -37,7 +37,7 @@
 				<!-- Currency Selector -->
 				<div class="my-2 ">
 					<fieldset
-						class="rounded-2xl border-2 border-stone-400 bg-white p-1 text-center text-base  w-fit mx-auto"
+						class="rounded-2xl border-2 border-stone-400 bg-white p-1 text-center text-base  w-fit max-w-xs mx-auto"
 					>
 						<legend class="sr-only">Payment frequency</legend>
 						<button
