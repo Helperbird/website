@@ -1580,7 +1580,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "0aa04a12efbc2abd3af3a3c8d6b17863"
+    "revision": "2e04bb630f8da284f13b94e3e77d9f80"
   },
   {
     "url": "blog/index.png",
@@ -1705,6 +1705,14 @@ self.__precacheManifest = [
   {
     "url": "blog/top-productivity-extensions-for-safari/index.png",
     "revision": "83206967ee26cb90132a47d73d25ada1"
+  },
+  {
+    "url": "blog/transforming-challenges-into-strengths/index.html",
+    "revision": "218636a130036409cc3a8ce65a023069"
+  },
+  {
+    "url": "blog/transforming-challenges-into-strengths/index.png",
+    "revision": "182ad80343ef774d93962a418c9e2895"
   },
   {
     "url": "blog/tv-and-movie-characters-with-dyslexia/index.html",
@@ -3128,7 +3136,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "03f337125adec510fcd81a604f89ba57"
+    "revision": "01b8f8b74efad2e5aaa77eac38aea238"
   },
   {
     "url": "sitemap/index.png",
