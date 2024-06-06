@@ -11,12 +11,12 @@ tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: vwT8SAJfU3E
-cardTitle:Key Skills for First-Time Jobseekers with Learning Disorders
-blog_snip: This article outlines essential skills for first-time jobseekers with learning disorders, focusing on practical skills, communication, and workplace accommodations.
-img: https://www.pexels.com/photo/person-holding-apple-magic-mouse-392018/
+cardTitle: Key Skills for First-Time Jobseekers with Learning Disorders
+blog_snip: This article outlines essential skills for first-time jobseekers with learning disorders, focusing on practical skills communication, and workplace accommodations.
+img: https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 des: Discover key skills for first-time jobseekers with learning disorders and how to navigate the job market and workplace successfully.
 name: Indiana Lee
-date: 2024-01-31T00:00:00.000Z
+date: 2024-06-06T00:00:00.000Z
 time: 5 mins
 ---
 # Transforming Challenges into Strengths: Key Skills for First-Time Jobseekers with Learning Disorders
