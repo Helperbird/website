@@ -183,7 +183,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addShortcode("youtubeEmbed", function(id) {
 		return `
-		<div class="mt-2 mb-8 bg-stone-400 rounded-2xl aspect-w-16 aspect-h-9">
+		<div class="mt-2 mb-8 bg-stone-200 rounded-2xl aspect-w-16 aspect-h-9">
 			<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>`;
 	  });

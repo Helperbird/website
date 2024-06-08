@@ -63,7 +63,7 @@ For Google accounts on Microsoft Edge: [Use the subscription key to log in.](/he
 ### Video Tutorial
 
 <div
-class="mt-12 mb-12  bg-stone-400 rounded-2xl  aspect-w-16 aspect-h-9"
+class="mt-12 mb-12  bg-stone-200 rounded-2xl  aspect-w-16 aspect-h-9"
 >
 <iframe   
 id="videos" 
@@ -106,7 +106,7 @@ This method is supported in Helperbird for Chrome, Edge, Firefox, iPhone & iPad.
 ### Video Tutorial
 
 <div
-class="mt-12 mb-12  bg-stone-400 rounded-2xl  aspect-w-16 aspect-h-9"
+class="mt-12 mb-12  bg-stone-200 rounded-2xl  aspect-w-16 aspect-h-9"
 >
 <iframe   
 id="videos" 
