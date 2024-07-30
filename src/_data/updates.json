@@ -1,6 +1,43 @@
 {
 	"new": [
 
+		{
+			"version": "2024.7.28",
+			"date": "2024-7-27",
+			"changes": [
+				{
+					"title": "🚀 Sleek and Speedy",
+					"description": "Cleaner UI for easier navigation. Helperbird is now 55% quicker and uses fewer resources."
+				},
+				{
+					"title": "🌟 Smarter Tools",
+					"description": "Improved word prediction that's faster and more accurate. Natural-sounding text to speech voices on Chrome and Edge."
+				},
+				{
+					"title": "🖍️ Highlighter Upgrades",
+					"description": "New support for highlighting PDFs with an improved UI. Now supports up to 100 highlights per page."
+				},
+				{
+					"title": "🌍 Expanded Language Support",
+					"description": "UK English is now available in word prediction. Revamped voice typing that supports 9 languages and is now integrated into the app."
+				},
+				{
+					"title": "🎨 Fresh Look",
+					"description": "New overlay colors to customize your reading experience."
+				},
+				{
+					"title": "🔧 Bug Fixes and Improvements",
+					"description": "51 bug fixes and UI improvements for a smoother experience."
+				},
+				{
+					"title": "📚 PDF Reader and Notes",
+					"description": "All Helperbird features now work in the PDF reader and notes app."
+				}
+			],
+			"upcoming": [],
+			"note": "We're excited for you to try these new features and improvements. Happy browsing! 😊"
+		},
+		
 
 		{
 			"version": "107.5.0",
