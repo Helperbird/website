@@ -16,7 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Update credit card
 featureDescription:  Learn how to update my credit card information in the Helperbird browser extension.
 headerTags: []
-tags: guideAccounts
+tags: Account
 url: help/how-to-update-my-credit-card/
 ---
 

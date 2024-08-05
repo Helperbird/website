@@ -12,7 +12,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/setting-chrome-storage-managed-keys/
 name: "Robert James "
 headerTags: []
-tags: adminTools
+tags: Admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: vwT8SAJfU3E

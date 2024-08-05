@@ -220,11 +220,9 @@
                 class="card border-2 bg-base-200 breadcrumbs text-lg mb-8 max-w-2xl rounded-lg p-4">
                 <ul>
                   <li><a href="/help/" class="link link-hover text-blue-500 hover:text-blue-700" title="Helperbird Help Guides homepage." >Home</a></li>
-                  {% if tags == 'guideFeatures' %}
-                  <li>Getting Started</li>
-                  {% else %}
-                    <li>Feature</li>
-                  {% endif %}
+            
+                  <li>{{ tags }}</li>
+              
                   <li>{{ title }}</li>
                 </ul>
               </div>

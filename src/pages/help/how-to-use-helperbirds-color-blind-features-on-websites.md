@@ -17,7 +17,7 @@ cardTitle: Color Blindness
 featureDescription: Learn how to add Color blindness support to websites with Helperbirds browser extension.
 date: 2018-01-03
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 ---
 

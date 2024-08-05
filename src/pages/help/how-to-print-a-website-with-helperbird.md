@@ -16,7 +16,7 @@ cardTitle: Print
 featureDescription: Learn how to quickly print a website with the Helperbird browser extension.
 date: 2022-02-09
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-print-a-website-with-helperbird/
 ---
 

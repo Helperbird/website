@@ -21,7 +21,7 @@ featureDescription:
   Edge.
 date: 2020-01-04
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-change-the-selection-highlight-color-of-a-website/
 ---
 

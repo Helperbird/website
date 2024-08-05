@@ -17,7 +17,7 @@ cardTitle: Paragraph widths
 featureDescription: Learn how to set the width of paragrahs on a website
 date: 2022-02-10
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-set-the-paragraph-width-on-any-page/
 ---
 

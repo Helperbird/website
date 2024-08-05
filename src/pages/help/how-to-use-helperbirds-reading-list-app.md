@@ -20,7 +20,7 @@ featureDescription:
   Helperbirds reading list extension allows you to save pages in a list to get back to later. It’s
   super easy to use, and it helps keep your tab count down.
 headerTags: []
-tags: guideApps
+tags: Apps
 url: help/how-to-use-helperbirds-reading-list-app/
 ---
 

@@ -219,7 +219,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Getting started</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.guideFeatures %}
+                    {% for guide in collections.Introduction %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -237,7 +237,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Features</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.guideOverViewFeatures %}
+                    {% for guide in collections.Overview %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -255,7 +255,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Admin tools</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.adminTools %}
+                    {% for guide in collections.Admin %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -273,7 +273,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Apps</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.guideApps %}
+                    {% for guide in collections.Apps %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -291,7 +291,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">iPad & iPhone</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.iOSHelp %}
+                    {% for guide in collections.iOS %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -309,7 +309,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Tricks and Tips</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.tricksHelp %}
+                    {% for guide in collections.Tips %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -327,7 +327,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">My Account</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.guideAccounts %}
+                    {% for guide in collections.Account %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -347,7 +347,7 @@
             <div class="min-w-0 flex-1 gap-x-12 pb-16 pt-8 lg:pt-12">
               <div class="max-w-2xl mx-auto mb-4 sm:hidden">
                 <select class="select select-bordered w-full" aria-label="Select a Guide" onchange="location = this.value;">
-                  {% assign all_guides = collections.guideAccounts | concat: collections.tricksHelp | concat: collections.iOSHelp | concat: collections.guideApps | concat: collections.adminTools | concat: collections.guideFeaturesMain | concat: collections.guideOverViewFeatures | concat: collections.guideFeatures %}
+                  {% assign all_guides = collections.Account | concat: collections.Tips | concat: collections.iOS | concat: collections.Apps | concat: collections.Admin | concat: collections.Features | concat: collections.Overview | concat: collections.Introduction %}
                   {% for guide in all_guides %}
                     <option value="{{ guide.url }}" {% if guide.url == page.url %}selected{% endif %}>{{ guide.data.cardTitle }}</option>
                   {% endfor %}

@@ -17,7 +17,7 @@ cardTitle: Dyslexia Ruler
 featureDescription: Discover how to enhance your reading experience on websites and PDFs using the Dyslexia Ruler feature of the Helperbird browser extension. Ideal for individuals with dyslexia or anyone seeking support with text navigation.
 date: 2019-01-03
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---
 

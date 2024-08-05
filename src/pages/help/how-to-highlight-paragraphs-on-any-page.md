@@ -17,7 +17,7 @@ cardTitle: Paragraph borders
 featureDescription: Learn how to add a border to paragraphs on a website.
 date: 2020-01-06
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-highlight-paragraphs-on-any-page/
 ---
 

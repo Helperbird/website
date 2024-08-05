@@ -14,7 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/helperbird-for-google-slides-addon/
 name: Robert James
 headerTags: []
-tags: guideApps
+tags: Apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:48:42.466Z
 youtubeId: vwT8SAJfU3E

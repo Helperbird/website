@@ -14,7 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/how-to-change-the-background-color-of-a-website/
 name: "Helperbird Staff "
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2017-01-01
 youtubeId: vwT8SAJfU3E

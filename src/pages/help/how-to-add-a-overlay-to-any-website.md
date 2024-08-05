@@ -12,7 +12,7 @@ keywords: Helperbird, Overlay, Tint, Feature, Browser Extension, Enable,
 url: help/how-to-add-a-overlay-to-any-website/
 name: Helperbird Staff
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-02-02
 youtubeId: vwT8SAJfU3E

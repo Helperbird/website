@@ -14,7 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/how-to-change-the-highlight-color-of-a-website/
 name: Helperbird Staff
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-07
 youtubeId: vwT8SAJfU3E

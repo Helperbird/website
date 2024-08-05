@@ -21,7 +21,7 @@ headerTags: [
     title: "📹 Video Tutorial"
   },
 ]
-tags: guideFeatures
+tags: Introduction
 date: 2016-01-01
 url: help/how-to-login-to-helperbird/
 redirect_from: [/login/,/support/how-to-login-into-helperbird/]

@@ -43,7 +43,7 @@
 			"link": "/features/immersive-reader-for-chrome/"
 		}
 	],
-	"features": [
+	"tools": [
 		{
 			"icon": "/src/_includes/svgs/reading-mode.svg",
 			"group": "reading",

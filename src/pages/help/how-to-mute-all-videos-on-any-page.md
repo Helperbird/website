@@ -17,7 +17,7 @@ cardTitle: Videos
 featureDescription: Learn how to Mute videos on any website, pdf or app.
 date: 2022-01-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-mute-all-videos-on-any-page/
 ---
 

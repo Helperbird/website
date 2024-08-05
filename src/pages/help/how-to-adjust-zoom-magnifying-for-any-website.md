@@ -10,7 +10,7 @@ keywords: Helperbird, magnify, zoom, website, browser extension, text, images, f
 url: help/how-to-adjust-zoom-magnifying-for-any-website/
 name: Helperbird Staff
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-12-01
 youtubeId: vwT8SAJfU3E

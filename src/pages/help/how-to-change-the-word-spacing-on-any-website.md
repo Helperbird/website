@@ -17,7 +17,7 @@ cardTitle: Word spacing
 featureDescription: Learn how easy it is to change the word spacing on any website.
 date: 2022-11-02
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-change-the-word-spacing-on-any-website/
 ---
 

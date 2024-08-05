@@ -17,7 +17,7 @@ cardTitle: Translate
 featureDescription: How to translate a website or selected text with the Helperbird browser extension.
 date: 2022-04-04
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---
 

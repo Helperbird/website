@@ -20,7 +20,7 @@ featureDescription:
   keyboard motion.
 date: 2016-01-01
 headerTags: []
-tags: guideOverViewFeatures
+tags: Overview
 url: help/how-to-use-helperbird-media-features/
 ---
 

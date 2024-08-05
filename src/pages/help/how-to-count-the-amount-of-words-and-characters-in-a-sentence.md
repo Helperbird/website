@@ -18,7 +18,7 @@ cardTitle: Analyze text
 featureDescription: Learn how to count the amount of words and characters in a sentence
 date: 2016-01-03
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
 ---
 

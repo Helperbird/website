@@ -17,7 +17,7 @@ cardTitle: Line focus
 featureDescription: Learn how to use the line focus ruler on a website or pdf with the Helperbird browser extension.
 date: 2021-01-03
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-use-a-line-focus-on-any-website/
 ---
 

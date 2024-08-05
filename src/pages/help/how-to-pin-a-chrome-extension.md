@@ -18,7 +18,7 @@ featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
 date: 2016-01-03
 headerTags: []
-tags: guideFeatures
+tags: Introduction
 url: help/how-to-pin-a-chrome-extension/
 ---
 

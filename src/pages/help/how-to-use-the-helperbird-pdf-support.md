@@ -18,7 +18,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: PDF support
 featureDescription: Learn how to use text to speech on PDFs, also Immersive Reader.
 headerTags: []
-tags: guideApps
+tags: Apps
 url: help/how-to-use-the-helperbird-pdf-support/
 ---
 

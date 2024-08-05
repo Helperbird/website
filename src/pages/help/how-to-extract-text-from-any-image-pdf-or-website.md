@@ -18,7 +18,7 @@ cardTitle: Extract Text (OCR)
 featureDescription: Learn how to extract text from any image, video pdf or website with Helperbirds OCR feature extension.
 date: 2022-02-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-extract-text-from-any-image-pdf-or-website/
 ---
 

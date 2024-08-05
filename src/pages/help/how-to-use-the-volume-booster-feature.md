@@ -7,7 +7,7 @@ keywords: Volume Booster, Chrome extension for volume, Loudness enhancement, Hel
 url: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 name: Helperbird Staff
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/volume-booster-feature.png
 date: 2023-12-02
 youtubeId: vwT8SAJfU3E

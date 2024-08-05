@@ -20,7 +20,7 @@ featureDescription:
   extension.
 date: 2020-01-05
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-use-the-highlight-menu-in-helperbird/
 ---
 

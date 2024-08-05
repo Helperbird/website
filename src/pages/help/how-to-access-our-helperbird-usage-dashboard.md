@@ -16,7 +16,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/how-to-access-usage-dashboard/
 name: Helperbird Staff
 headerTags: []
-tags: adminTools
+tags: Admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T19:06:16.157Z
 youtubeId: vwT8SAJfU3E

@@ -18,7 +18,7 @@ cardTitle: Installing to Certain Users
 featureDescription: Discover how to provide specific users with access to the Helperbird extension. This guide details the process for selective Helperbird installation.
 date: 2016-01-04
 headerTags: []
-tags: adminTools
+tags: Admin
 url: help/installing-helperbird-to-certain-users/
 ---
 

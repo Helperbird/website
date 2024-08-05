@@ -17,7 +17,7 @@ cardTitle: Spell Check
 featureDescription: How to enable spell check on a website using Helperbirds extension.
 date: 2022-04-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-enable-spell-check-on-any-website-or-app/
 ---
 

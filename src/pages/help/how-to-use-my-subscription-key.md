@@ -18,7 +18,7 @@ cardTitle: Use my subscription key
 featureDescription:
   Learn how to find and enter your subscription key in Helperbird, to unlocked Helperbird Pro.
 headerTags: []
-tags: guideAccounts
+tags: Account
 url: help/how-to-use-my-subscription-key/
 ---
 

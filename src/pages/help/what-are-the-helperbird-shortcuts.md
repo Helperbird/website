@@ -18,7 +18,7 @@ cardTitle: Shortcuts
 featureDescription: Learn the shortcuts to use the Helperbird features.
 date: 2022-02-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-extract-text-from-any-image-pdf-or-website/
 ---
 

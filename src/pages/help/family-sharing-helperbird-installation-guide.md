@@ -14,7 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/family-sharing-helperbird-installation-guide/
 name: Robert James
 headerTags: []
-tags: iOSHelp
+tags: iOS
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:29:20.461Z
 youtubeId: vwT8SAJfU3E

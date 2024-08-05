@@ -12,7 +12,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/how-to-change-the-font-size-on-any-website/
 name: Helperbird Staff
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-03
 youtubeId: vwT8SAJfU3E

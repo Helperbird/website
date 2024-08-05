@@ -230,7 +230,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">🏁 Getting started</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for guide in collections.guideFeatures -%}
+                        {%- for guide in collections.Introduction -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if guide.url == page.url %}
@@ -250,7 +250,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">🏃 Features</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for features in collections.guideFeaturesMain -%}
+                        {%- for features in collections.Features -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if features.url == page.url %}
@@ -266,7 +266,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">💬 Admin tools</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for apps in collections.adminTools -%}
+                        {%- for apps in collections.Admin -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if apps.url == page.url %}
@@ -282,7 +282,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">💬 Apps</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for apps in collections.guideApps -%}
+                        {%- for apps in collections.Apps -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if apps.url == page.url %}
@@ -298,7 +298,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">📱 iPad & iPhone</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for account in collections.iOSHelp -%}
+                        {%- for account in collections.iOS -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if account.url == page.url %}
@@ -314,7 +314,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">📚 Tips & Tricks</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for account in collections.tricksHelp -%}
+                        {%- for account in collections.Tips -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if account.url == page.url %}
@@ -330,7 +330,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">👤 My Account</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for account in collections.guideAccounts -%}
+                        {%- for account in collections.Account -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if account.url == page.url %}

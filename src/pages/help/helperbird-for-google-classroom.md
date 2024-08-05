@@ -12,7 +12,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/helperbird-for-google-docs-addon/
 name: Helperbird staff
 headerTags: []
-tags: guideApps
+tags: Apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU

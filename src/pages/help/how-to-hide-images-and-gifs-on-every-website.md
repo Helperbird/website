@@ -17,7 +17,7 @@ cardTitle: Images and GIFs
 featureDescription: Learn how to remove or hide images on any website or app using the Helperbird extension.
 date: 2021-01-02
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-hide-images-and-gifs-on-every-website/
 ---
 

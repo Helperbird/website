@@ -17,7 +17,7 @@ cardTitle: Alt and title tags
 featureDescription: Learn how to show alt and title tags on hover with the Helperbird extension.
 date: 2022-04-03
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 

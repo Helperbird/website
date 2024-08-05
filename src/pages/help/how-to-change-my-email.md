@@ -14,7 +14,7 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
 url: help/how-to-change-my-email/
 name: "Helperbird Staff "
 headerTags: []
-tags: guideAccounts
+tags: Account
 img: assets/images2/uploads/add-a-heading.png
 cardTitle: Update Email
 featureDescription: Follow this step-by-step guide to easily change the email

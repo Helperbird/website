@@ -17,7 +17,7 @@ cardTitle: Productivity features
 featureDescription:
   Helperbird has over 10 productivity features, discover how to use some of the popular ones.
 headerTags: []
-tags: tricksHelp
+tags: Tips
 url: help/useful-features-to-increase-productivity-extension/
 ---
 

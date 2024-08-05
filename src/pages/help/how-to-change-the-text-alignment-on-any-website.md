@@ -17,7 +17,7 @@ cardTitle: Text alignment
 featureDescription: Learn how easy it is to change the text alignment on any website.
 date: 2022-04-02
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-change-the-text-alignment-on-any-website/
 ---
 

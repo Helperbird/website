@@ -17,7 +17,7 @@ cardTitle: Speed reading
 featureDescription: Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
 date: 2022-04-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 ---
 

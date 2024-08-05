@@ -17,7 +17,7 @@ featureDescription:
   Learn how to reduce motion on a website with the Helperbird browser extension.
 date: 2016-01-01
 headerTags: []
-tags: guideFeaturesMain
+tags: Features
 url: help/how-to-stop-animations-on-any-website/
 ---
 
