@@ -1580,7 +1580,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.html",
-    "revision": "301499c348710da7ebce08702b04fb34"
+    "revision": "cb919c405a9ab3e003eea7e853eacac9"
   },
   {
     "url": "blog/index.png",
@@ -1731,6 +1731,14 @@ self.__precacheManifest = [
     "revision": "c9b1f72d0ed66eb65a5aede39170952a"
   },
   {
+    "url": "blog/why-internet-access-is-crucial-for-educational-equity-and-innovation/index.html",
+    "revision": "1ab5709ffbf3a0dba2e1bede07083b54"
+  },
+  {
+    "url": "blog/why-internet-access-is-crucial-for-educational-equity-and-innovation/index.png",
+    "revision": "92d63ba8027bb3ccd6c557688f182d97"
+  },
+  {
     "url": "chrome/index.html",
     "revision": "abde5775a8fa695d2d1437f240f34455"
   },
@@ -1804,7 +1812,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.html",
-    "revision": "1a4a247160424339f057c21bb6c5b92a"
+    "revision": "8b4e6126692ccde60a2897ade40f3157"
   },
   {
     "url": "extension/index.png",
@@ -2860,7 +2868,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/redeem-a-helperbird-voucher/index.html",
-    "revision": "a1624c5caf5753a92f541c94483cc218"
+    "revision": "11726766bbb9749bb6292353ad841765"
   },
   {
     "url": "help/redeem-a-helperbird-voucher/index.png",
@@ -2948,7 +2956,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e69559293ed5ffc698e4aaf5b0c943e0"
+    "revision": "db5583ea71a2b1ccfa63c52500f19567"
   },
   {
     "url": "index.png",
@@ -3056,7 +3064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.html",
-    "revision": "cb6960cb669e4e0d5c22e0d4a52f2544"
+    "revision": "1f6f5eba95d4aeecaba42ba124043bda"
   },
   {
     "url": "products/chrome/index.png",
@@ -3064,7 +3072,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.html",
-    "revision": "94034f62baa38b3aea4dc10c7a1a8f22"
+    "revision": "0dc991d865571454c1c58913b8c3c30b"
   },
   {
     "url": "products/edge/index.png",
@@ -3072,7 +3080,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.html",
-    "revision": "b43886645120083d860642764c42d3a2"
+    "revision": "2317243d15e7c7cfe860d17ba6105e6d"
   },
   {
     "url": "products/firefox/index.png",
@@ -3088,7 +3096,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.html",
-    "revision": "de1d3b8dca601a4b7e160dcbe536df8b"
+    "revision": "6431d373d6a4271b885bcfec3d844666"
   },
   {
     "url": "products/ipad/index.png",
@@ -3144,7 +3152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "099882ec1a71aa1042e516c92197abbc"
+    "revision": "a9b97741a84ac436ccd97939c1a133bf"
   },
   {
     "url": "sitemap/index.png",
