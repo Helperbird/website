@@ -139,6 +139,7 @@ module.exports = function (eleventyConfig) {
 
 	let markdownIt = require('markdown-it');
 	let markdownItClass = require('@toycode/markdown-it-class');
+	let markdownItAnchor = require('markdown-it-anchor');
 	let options = {
 		html: true,
 		breaks: false,
@@ -179,7 +180,11 @@ module.exports = function (eleventyConfig) {
 		}
 		return content;
 	});
-	eleventyConfig.setLibrary('md', markdownIt(options).use(markdownItClass, mapping));
+	eleventyConfig.setLibrary('md', markdownIt(options).use(markdownItClass, mapping)
+	.use(markdownItAnchor, {
+        permalink: false // or true if you want automatic anchor links
+    })
+);
 
 	eleventyConfig.addShortcode("youtubeEmbed", function(id) {
 		return `

@@ -1,128 +1,86 @@
 ---
-new: false
-updated: false
+new: true
 footer: true
 header: true
-layout: templates/new/help/post.html
-title: How to login to Helperbird
-description: Discover how to login to Helperbird to access your Pro features.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+updated: false
+layout: templates/new/help/post-new.html
+title: How to Login to Helperbird  
+description: Discover how to log in to Helperbird to access your Pro features.  
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic  
 
-youtubeId: vwT8SAJfU3E
-cardTitle: How to login into Helperbird
-featureDescription: Discover how to login to Helperbird to access your Pro features.
-headerTags: [
-  {
-    tag: "videos",
-    title: "📹 Video Tutorial"
-  },
-]
-tags: Introduction
-date: 2016-01-01
-url: help/how-to-login-to-helperbird/
-redirect_from: [/login/,/support/how-to-login-into-helperbird/]
+youtubeId: vwT8SAJfU3E  
+cardTitle: How to Log in to Helperbird  
+featureDescription: Discover how to log in to Helperbird to access your Pro features.  
+headerTags: [ { tag: "log-in-with-email", title: "Email login" },{ tag: "log-in-with-subscription-key", title: "Subscription key" },{ tag: "video-tutorial", title: "Video Tutorial" } ]  
+tags: Introduction  
+date: 2016-01-01  
+url: help/how-to-login-to-helperbird/  
+redirect_from: [/login/, /support/how-to-login-into-helperbird/]  
 ---
 
+Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
 
-## Key points
+## Log in with Email
 
-For Microsoft accounts on Google Chrome: [Use the subscription key to log in.](/help/how-to-use-my-subscription-key/)
+**Supported on Chrome and Edge**  
+[Make sure sync is enabled](/help/enable-browser-sync-chrome-and-edge/).
 
-For Google accounts on Microsoft Edge: [Use the subscription key to log in.](/help/how-to-use-my-subscription-key/)
+### 1. Open Helperbird
 
+Click the Helperbird icon in the top right of your browser.
 
-## Email Login
+### 2. Access Settings
 
-**This way is only supported on Chrome and Edge.** [You will need to have sync enabled.](/help/enable-browser-sync-chrome-and-edge/)
+Scroll to the bottom of Helperbird and click the **Settings** option.
 
+### 3. Login
 
-### Steps
+In the new tab, click **Login** on the account card.
 
-**Step 1**: Open Helperbird by clicking the icon in the top right of your browser.
+### 4. Grant Permission
 
-**Step 2**: Click the settings cog in the top right of the extension.
+Allow access to read your email address.
 
-**Step 3**: From the dropdown menu, click 'Login'.
+### 5. Check Subscription
 
-**Step 4**: In the new tab, click the login button on the account card.
+Your email will be checked for a Helperbird Pro subscription.
 
-**Step 5**: Grant permission to read your email address.
+### 6. Access Pro Features
 
-**Step 6**: Your email is checked for a Helperbird Pro subscription.
+If you have a subscription, you'll gain access to Pro features.
 
-**Step 8**: Access Pro features if you have a subscription.
+### 7. Alternative: Subscription Key
 
-**Step 9**: Alternatively, log in using your [subscription key](/help/how-to-use-my-subscription-key/).
+Log in using your [subscription key](/help/how-to-use-my-subscription-key/) if needed.
 
+##  Log in with Subscription Key
 
+**Supported on Chrome, Edge, Firefox, iPhone, and iPad**
 
-### Video Tutorial
+[Learn more about subscription keys](/help/how-to-use-my-subscription-key/).
 
-<div
-class="mt-12 mb-12  bg-stone-200 rounded-2xl  aspect-w-16 aspect-h-9"
->
-<iframe   
-id="videos" 
-class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" 
-title="YouTube video player" 
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen>
-</iframe>
+### 1. Open Helperbird
+
+Click the Helperbird icon in the top right of your browser.
+
+### 2. Access Settings
+
+Scroll to the bottom of Helperbird and click the **Settings** option.
+
+### 3. Enter Subscription Key
+
+In the new tab, scroll to the subscription section, enter your subscription key, and click **Save**.
+
+### 4. Confirmation
+
+If a subscription is found, you'll see confetti and a confirmation message.
+
+## Video Tutorial
+
+<div class="mt-12 mb-12 bg-stone-200 rounded-2xl aspect-w-16 aspect-h-9">
+<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Need More Help?
 
-
-## Subscription Key Login 
-
-This method is supported in Helperbird for Chrome, Edge, Firefox, iPhone & iPad.
-
-[Learn more about subscription keys](/help/how-to-use-my-subscription-key/)
-
-### Steps
-
-**Step 1**: Open Helperbird by clicking the icon in the top right of your browser.
-
-**Step 2**: Click the settings cog in the top right of the extension.
-
-**Step 3**: From the dropdown menu, click 'Login'.
-
-**Step 4**: In the new tab, scroll to the subscription section.
-
-**Step 5**: Enter your subscription key.
-
-**Step 6**: Click 'Save'.
-
-**Step 7**: If a subscription is found, you'll see confetti and a confirmation message.
-
-
-
-
-### Video Tutorial
-
-<div
-class="mt-12 mb-12  bg-stone-200 rounded-2xl  aspect-w-16 aspect-h-9"
->
-<iframe   
-id="videos" 
-class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-src="https://www.youtube-nocookie.com/embed/27jqq08vvxI" 
-title="YouTube video player" 
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen>
-</iframe>
-</div>
-
-
-## Need more help?
-
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
-
-
-
+Ran into a snag? No worries! Reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
