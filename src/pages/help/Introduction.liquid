@@ -1,0 +1,58 @@
+---
+new: false
+footer: true
+header: true
+layout: templates/base.html
+title: Helperbird Introduction Guides
+youtubeId: vwT8SAJfU3E
+cardTitle:  How to use Helperbird
+description: Find solutions to common Helperbird issues and discover resources to help you get the most out of your Helperbird products. Our regularly updated help center covers a range of popular topics.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
+
+
+url: help/Introduction/
+---
+
+
+
+<main class="mx-auto max-w-6xl p-8 my-12">
+    <header class="mx-auto max-w-4xl text-center">
+
+
+              <h1 class="leading-relaxed text-3xl font-bold text-black sm:text-6xl">
+                Introduction Guides for Helperbird
+        </h1>
+        <p class=" leading-relaxed mt-6 text-xl  text-black">
+            Below are the Introduction guides for Helperbird!
+        </p>
+    </header>
+    <div class="mt-16 sm:mt-20">
+        <ul role="list" class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+          
+        
+        {% for item in collections.Introduction %}
+
+            <li class="group flex flex-col items-start">
+                <div class="card card-compact  bg-base-100">
+                    <div class="card-body">
+                        <h2 class="leading-relaxed font-sans  card-title font-bold ">{{item.data.cardTitle}}</h2>
+                        <p class="leading-relaxed font-sans   text-base mb-2">{{item.data.description}}</p>
+                        <div class="card-actions justify-end mt-4">
+                            <a
+                                href="{{item.url}}"
+                                title="{{item.data.cardTitle }}"
+                                class="link link-hover text-blue-500 hover:text-blue-700"
+                                >Vist guide</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            {%- endfor -%}
+        </ul>
+    </div>
+</main>
