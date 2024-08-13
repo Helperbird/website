@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: What is Helperbird free?
 description:
   What is Helperbird free?, discover what features are included in the free version of Helperbird.
@@ -22,62 +22,69 @@ tags: Introduction
 url: help/what-is-helperbird-free/
 ---
 
-## What is included in the free version of Helperbird?
 
-The free version of Helperbird includes core features for everyone. So you can use Helperbird for
-your work and do not have to worry about paying for anything.
+The free version of Helperbird offers core features that are available to everyone. You can use Helperbird for your work without worrying about any costs.
 
-## What features are included?
+## Features Included
 
 ### Reading Mode
-Remove ads and other distractions from your web browsing experience. Giving you the text and content you need to read.
+
+Remove ads and other distractions from your web browsing experience, allowing you to focus on the text and content you need.
 
 ### Immersive Reader by Microsoft
-In the future, we might need to limit the amount of Characters  that can be read at once on the free version.
 
-### Text to speech
-Helperbird will automatically read aloud the text you are reading, so you can read it without having to click on the text.
+Please note that in the future, there may be a limit on the number of characters that can be read at once in the free version.
 
-### Dyslexia fonts
-Helperbird will automatically switch to the appropriate font for your dyslexia.
+### Text to Speech
 
-### Letter spacing
-Helperbird will automatically adjust the letter spacing for your dyslexia.
+Helperbird will automatically read aloud the text you are viewing, so you can listen without having to click on the text.
+
+### Dyslexia Fonts
+
+Helperbird will automatically switch to the appropriate font for users with dyslexia.
+
+### Letter Spacing
+
+Helperbird will adjust the letter spacing to improve readability for users with dyslexia.
 
 ### Magnifier
-Helperbird will automatically magnify the text you are reading.
 
-### Font changer
-Helperbird will automatically change the font for your dyslexia.
+Helperbird will magnify the text you are reading to make it easier to see.
+
+### Font Changer
+
+Helperbird will change the font to one that is more accessible for users with dyslexia.
 
 ### Picture Dictionary
 
-Helperbird will automatically show you the picture of the word you are reading.
+Helperbird will display images related to the words you are reading to enhance comprehension.
 
-### Screenshot tools
-Helperbird will automatically take a screenshot of the page you are reading.
+### Screenshot Tools
 
-### Printing tools
-Helperbird will automatically print the page you are reading.
+Helperbird allows you to take screenshots of the page you are viewing.
+
+### Printing Tools
+
+Helperbird provides tools to print the page you are reading easily.
 
 ### Translation
-Helperbird will automatically translate the text you are reading.
+
+Helperbird can automatically translate the text you are reading into another language.
 
 ### Emphasize Links
-Helperbird will automatically emphasize the links on the page you arevreading.
 
-### Color blindess tools
-Helperbird will automatically change the color of the text you are reading.
+Helperbird will emphasize links on the page to make them stand out.
 
-### Highlight colors
-Helperbird will automatically highlight the text you are reading.
+### Color Blindness Tools
 
+Helperbird will adjust the colors on the page to be more accessible for users with color blindness.
 
-## Video Tutorial
+### Highlight Colors
 
-- Coming soon.
+Helperbird will allow you to highlight text in different colors for better focus and study.
 
 
-## Need more help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
+## Need More Help?
+
+If you encounter any issues while getting started, don't worry! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you sort things out quickly.
