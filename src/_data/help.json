@@ -1,9 +1,9 @@
 {
 	"home": [
 		{
-            "title": "Account & Billing",
+            "title": "Introduction",
 			"description": "Manage your Helperbird account and billing effortlessly with our step-by-step guide for clear and hassle-free navigation",
-			"link": "/help/how-to-turn-helperbird-on/"
+			"link": "/help/introduction/"
 		},
         {
 			"title": "Writing features",
