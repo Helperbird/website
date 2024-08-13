@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to add a feature to the Quick Actions 
 description: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird. This detailed tutorial provides step-by-step instructions to efficiently customize your browsing experience, allowing you to swiftly access and manage your favorite Helperbird features right from the Quick Actions panel. Ideal for both new and seasoned users, our guide simplifies enhancing your productivity with Helperbird
 keywords:
@@ -14,43 +14,54 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Customize Quick actions
 featureDescription: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird.
-headerTags: []
+headerTags: [{ tag: "how-to-add-features-to-quick-actions", title: "Add Features" },{ tag: "how-to-remove-features-to-quick-actions", title: "Remove Features" }, { tag: "video-tutorial", title: "Video Tutorial" } ]  
 tags: Introduction
 url: help/how-to-favorite-a-feature-in-helperbird/
 ---
 
-## Key Points
-
-Helperbird has updated the favorite feature functionality. 
-
-Now, you can add any feature to the quick actions area for easy access.
-
-This guide explains how to customize your quick actions area in Helperbird.
-
-## How to Customize Quick Actions in Helperbird
-
-### Adding a feature to the Quick Actions
-
-**Step 1**: Open Helperbird: Click the Helperbird icon in your browser.
-
-**Step 2**: Locate Quick Actions Area: This is at the top of the Helperbird interface, where your frequently used features are saved.
-
-**Step 3**: Add to Quick Actions: Click the grey plus button in the quick actions area.
-
-**Step 4**: Choose a Feature: A modal will display all available features, each with a heart icon next to it.
-
-**Step 5**: Select Favorite: Click the heart icon next to a feature to add it to your quick actions. A solid heart indicates the feature is selected; an outlined heart means it's not.
-
-**Step 6**: Confirm Selection: Close the modal. The chosen feature will now be visible in the quick actions area.
 
 
-### Understanding Favorite Features
+Helperbird’s Quick Actions area allows you to easily access the features you use most often. This guide will show you how to add or remove features from the Quick Actions area to customize your experience.
 
-- Favorite features are easily accessible and appear at the top of your list in Helperbird.
-- By favoriting a feature, you prioritize it for quick access.
+## How to Add Features to Quick Actions
+
+### 1. Open Helperbird
+
+Click the Helperbird icon in the top right corner of your browser.
+
+### 2. Open the Quick Actions Setting
+
+Look for the plus sign near the top of Helperbird, within the icon boxes.
+
+### 3. Select Features to Add
+
+A module will open. Browse through the list of available features and click the heart next to the features you want to add to the Quick Actions area.
+
+### 4. Save Your Changes 
+
+The selected features will now appear in the Quick Actions area.
 
 
-### Video Tutorial
+## How to remove Features from Quick Actions
+
+### 1. Open Helperbird
+
+Click the Helperbird icon in the top right corner of your browser.
+
+### 2. Open the Quick Actions Setting
+
+Look for the plus sign near the top of Helperbird, within the icon boxes.
+
+
+### 3. Select Features to Remove
+
+A module will open. Browse through the list of available features and click the heart next to the features you want to remove from the Quick Actions area.
+
+### 4. Save Your Changes 
+
+The selected features will now appear in the Quick Actions area.
+
+## Video Tutorial
 
 <div
 class="mt-12 mb-12  bg-stone-200 rounded-2xl  aspect-w-16 aspect-h-9"
@@ -66,6 +77,12 @@ allowfullscreen>
 </iframe>
 </div>
 
-
 ## Need More Help?
-For assistance with customization or any issues, contact the Helperbird support team.
+
+If you run into any issues while customizing your Quick Actions area, don’t hesitate to contact our friendly [Helperbird support team](/support/), and we’ll help you out.
+
+
+
+
+
+
