@@ -1,10 +1,10 @@
 ---
-new: false
-updated: false
+new: true
 footer: true
 header: true
-layout: templates/new/help/post.html
-title: How to turn Helperbird on
+updated: false
+layout: templates/new/help/post-new.html
+title: How to turn Helperbird on and off
 description: Discover how to switch Helperbird from off to on in the Helperbird extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
@@ -16,40 +16,57 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to turn Helperbird on
 featureDescription: Discover how to switch Helperbird from off to on in the Helperbird extension.
 date: 2016-01-02
-headerTags: []
+headerTags: [ { tag: "how-to-turn-on-helperbird", title: "Turn Helperbird On" },{ tag: "how-to-turn-off-helperbird", title: "Turn Helperbird Off"  }]  
 tags: Introduction
 url: help/how-to-turn-helperbird-on/
 ---
 
-## Key points
 
-When Helperbird displays the red off icon, it means Helperbird is off.
 
-This guide is applicable for Chrome, Edge, Firefox, and other supported browsers.
 
+When Helperbird displays a red "Off" icon, it means the extension is currently turned off. This guide will show you how to turn Helperbird on and off in Chrome, Edge, Firefox, and other supported browsers.
 
 ## How to Turn On Helperbird
 
-### Steps
+### 1. Open Helperbird
 
-**Step 1**: Open Helperbird: Click its icon at the top right of your browser.
+Click the Helperbird icon located in the top right of your browser.
 
-**Step 2**: See Helperbird: The extension shows quick actions and features.
+### 2. View Helperbird Interface
 
-**Step 3**: Find Toggle: Look for the 'Helperbird is off' toggle near Quick Actions.
+The Helperbird extension will open, showing quick actions and features.
 
-**Step 4**: Turn On Helperbird: Click the toggle to activate it.
+### 3. Locate the Toggle
 
-**Step 5**: Features Active: All features you set before are running again.
+Look for the **Helperbird is off** toggle near the Quick Actions section.
 
-**Step 6**: Turn Off (Optional): Click the toggle again to deactivate.
+### 4. Turn On Helperbird
+Click the toggle to turn on Helperbird. The red **Off** icon will change, indicating that Helperbird is now on.
 
-**Step 7**: Restart (Optional): Click the toggle any time to turn Helperbird back on.
+### 5. Features Active
 
-
-
-## Need more help?
-
-If you encounter any issues with the process, please contact the Helperbird support team for assistance.
+Once activated, all previously configured features will be running again.
 
 
+
+
+## How to Turn Off Helperbird
+
+### 1. Open Helperbird
+
+Click the Helperbird icon in the top right of your browser.
+
+### 2. Locate the Toggle
+
+In the Helperbird, find the toggle currently set to **On.**, which is on the top right.
+
+### 3. Turn Off Helperbird
+
+Click the toggle to turn off Helperbird. The icon will change to red, indicating that Helperbird is now off.
+
+### 4. Restart (Optional)
+
+You can click the toggle at any time to turn Helperbird back on or off as needed.
+
+## Need More Help?
+If you encounter any issues with turning Helperbird on or off, please reach out to the Helperbird support team for assistance.
