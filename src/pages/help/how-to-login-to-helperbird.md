@@ -12,7 +12,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to Log in to Helperbird  
 featureDescription: Discover how to log in to Helperbird to access your Pro features.  
 headerTags: [ { tag: "log-in-with-email", title: "Email login" },{ tag: "log-in-with-subscription-key", title: "Subscription key" },{ tag: "video-tutorial", title: "Video Tutorial" } ]  
-tags: Introduction  
+tags: introduction  
 date: 2016-01-01  
 url: help/how-to-login-to-helperbird/  
 redirect_from: [/login/, /support/how-to-login-into-helperbird/]  

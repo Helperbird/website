@@ -19,7 +19,7 @@ featureDescription:
   Helperbird.
 date: 2016-01-08
 headerTags: []
-tags: Introduction
+tags: introduction
 url: help/what-is-helperbird-unlimited/
 ---
 

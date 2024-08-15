@@ -24,7 +24,7 @@ headerTags: [ { tag: "how-to-install-helperbird-for-google-chrome", title: "Goog
 { tag: "how-to-install-the-helperbird-on-ipad-iphone", title: "iPhone/iPad"  },
 
 ]  
-tags: Introduction
+tags: introduction
 url: help/installing-helperbird/
 ---
 

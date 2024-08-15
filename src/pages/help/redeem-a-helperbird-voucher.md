@@ -13,7 +13,7 @@ cardTitle: Redeem a Helperbird Pro voucher
 featureDescription:  Learn how to redeem your Helperbird Pro voucher with this simple, step-by-step guide. Activate your Pro features and enhance your browsing experience quickly and easily.
 date: 2016-01-04
 headerTags: []
-tags: Introduction
+tags: introduction
 url: help/how-to-redeem-helperbird-pro-voucher/
 ---
 

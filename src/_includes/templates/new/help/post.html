@@ -219,7 +219,7 @@
                 <li class="mt-8">
                   <div class="text-lg font-bold text-black">Getting started</div>
                   <ul class="mt-4 space-y-3.5 border-l border-zinc-200">
-                    {% for guide in collections.Introduction %}
+                    {% for guide in collections.introduction %}
                     {% assign custom_classes = 'relative block pl-4 text-base font-medium text-black hover:underline   font-bold underline' %}
                     {% assign aria_current = 'page' %}
                       <li class="items-center">
@@ -347,7 +347,7 @@
             <div class="min-w-0 flex-1 gap-x-12 pb-16 pt-8 lg:pt-12">
               <div class="max-w-2xl mx-auto mb-4 sm:hidden">
                 <select class="select select-bordered w-full" aria-label="Select a Guide" onchange="location = this.value;">
-                  {% assign all_guides = collections.Account | concat: collections.Tips | concat: collections.iOS | concat: collections.Apps | concat: collections.Admin | concat: collections.Features | concat: collections.Overview | concat: collections.Introduction %}
+                  {% assign all_guides = collections.Account | concat: collections.Tips | concat: collections.iOS | concat: collections.Apps | concat: collections.Admin | concat: collections.Features | concat: collections.Overview | concat: collections.introduction %}
                   {% for guide in all_guides %}
                     <option value="{{ guide.url }}" {% if guide.url == page.url %}selected{% endif %}>{{ guide.data.cardTitle }}</option>
                   {% endfor %}
