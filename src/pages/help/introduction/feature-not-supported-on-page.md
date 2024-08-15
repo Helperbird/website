@@ -17,6 +17,7 @@ date: 2020-01-04
 headerTags: []
 tags: introduction
 url: help/feature-not-supported-on-page/
+permalink:  help/feature-not-supported-on-page/
 ---
 
 

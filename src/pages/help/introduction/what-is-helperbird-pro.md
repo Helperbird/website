@@ -20,6 +20,7 @@ date: 2016-01-07
 headerTags: []
 tags: introduction
 url: help/what-is-helperbird-pro/
+permalink: help/what-is-helperbird-pro/
 ---
 
 

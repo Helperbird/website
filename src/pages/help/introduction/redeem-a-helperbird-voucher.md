@@ -15,6 +15,7 @@ date: 2016-01-04
 headerTags: []
 tags: introduction
 url: help/how-to-redeem-helperbird-pro-voucher/
+permalink:  help/how-to-redeem-helperbird-pro-voucher/
 ---
 
 

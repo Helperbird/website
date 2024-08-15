@@ -20,6 +20,7 @@ date: 2016-01-06
 headerTags: []
 tags: introduction
 url: help/what-is-helperbird-free/
+permalink: help/what-is-helperbird-free/
 ---
 
 

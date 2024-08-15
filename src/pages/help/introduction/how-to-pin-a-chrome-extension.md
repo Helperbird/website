@@ -20,6 +20,7 @@ date: 2016-01-03
 headerTags: [ { tag: "safari", title: "Safari" },{ tag: "google-chrome", title: "Google Chrome" },{ tag: "microsoft-edge", title: "Microsoft Edge" },{ tag: "mozilia-firefox", title: "Mozila Firefox" } ]  
 tags: introduction
 url: help/how-to-pin-a-chrome-extension/
+permalink:  help/how-to-pin-a-chrome-extension/
 ---
 
 Pinning an extension like Helperbird in your browser ensures quick and easy access. This guide covers how to pin extensions in Safari, Google Chrome, Microsoft Edge, and Firefox.

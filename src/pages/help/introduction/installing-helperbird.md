@@ -26,6 +26,7 @@ headerTags: [ { tag: "how-to-install-helperbird-for-google-chrome", title: "Goog
 ]  
 tags: introduction
 url: help/installing-helperbird/
+permalink:  help/installing-helperbird/
 ---
 
 

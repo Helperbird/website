@@ -14,7 +14,8 @@ featureDescription: Discover how to log in to Helperbird to access your Pro feat
 headerTags: [ { tag: "log-in-with-email", title: "Email login" },{ tag: "log-in-with-subscription-key", title: "Subscription key" },{ tag: "video-tutorial", title: "Video Tutorial" } ]  
 tags: introduction  
 date: 2016-01-01  
-url: help/how-to-login-to-helperbird/  
+url: help/how-to-login-to-helperbird/
+permalink: help/how-to-login-to-helperbird/
 redirect_from: [/login/, /support/how-to-login-into-helperbird/]  
 ---
 

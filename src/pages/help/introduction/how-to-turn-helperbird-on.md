@@ -19,6 +19,7 @@ date: 2016-01-02
 headerTags: [ { tag: "how-to-turn-on-helperbird", title: "Turn Helperbird On" },{ tag: "how-to-turn-off-helperbird", title: "Turn Helperbird Off"  }]  
 tags: introduction
 url: help/how-to-turn-helperbird-on/
+permalink:  help/how-to-turn-helperbird-on/
 ---
 
 

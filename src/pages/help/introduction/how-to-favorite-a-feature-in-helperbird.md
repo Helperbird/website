@@ -17,6 +17,7 @@ featureDescription: Explore our user-friendly guide on adding a feature to the Q
 headerTags: [{ tag: "how-to-add-features-to-quick-actions", title: "Add Features" },{ tag: "how-to-remove-features-to-quick-actions", title: "Remove Features" }, { tag: "video-tutorial", title: "Video Tutorial" } ]  
 tags: introduction
 url: help/how-to-favorite-a-feature-in-helperbird/
+permalink:  help/how-to-favorite-a-feature-in-helperbird/
 ---
 
 
