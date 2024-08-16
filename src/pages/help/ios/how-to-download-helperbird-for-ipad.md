@@ -17,8 +17,8 @@ cardTitle: How to Download the Helperbird App on iPad
 featureDescription: Follow these steps to download and start using the Helperbird app on your iPad.
 headerTags: [ { tag: "steps-to-download-helperbird", title: "Steps to Download Helperbird" },{ tag: "additional-steps", title: "Additional Steps" } ]  
 tags: iOS
-url: help/how-to-download-helperbird-for-iPad/
-permalink:  help/how-to-download-helperbird-for-iPad/
+url: help/how-to-download-helperbird-for-ipad/
+permalink:  help/how-to-download-helperbird-for-ipad/
 ---
 
 
