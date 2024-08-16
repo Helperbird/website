@@ -330,7 +330,7 @@ background-color:rgb(246, 245, 231);
                     <li class="mt-4 mb-4">
                       <h2 class="leading-relaxed font-sans  font-display font-black text-black text-xl mt-8">👤 My Account</h2>
                       <ul role="list" class="mt-4 space-y-2 text-base">
-                        {%- for account in collections.Account -%}
+                        {%- for account in collections.account -%}
                         {% assign custom_classes = 'text-black hover:text-white hover:bg-indigo-700 group flex gap-x-3 rounded-md p-2   font-semibold' %}
 {% assign aria_current = 'false' %}
                         {% if account.url == page.url %}

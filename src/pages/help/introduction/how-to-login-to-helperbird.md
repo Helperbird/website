@@ -16,7 +16,7 @@ tags: introduction
 date: 2016-01-01  
 url: help/how-to-login-to-helperbird/
 permalink: help/how-to-login-to-helperbird/
-redirect_from: [/login/, /support/how-to-login-into-helperbird/]  
+redirect_from: [/login/, /support/how-to-login-into-helperbird/, /help/helperbird-for-ios-ipad-iphone-is-missing-features/ ]  
 ---
 
 Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
