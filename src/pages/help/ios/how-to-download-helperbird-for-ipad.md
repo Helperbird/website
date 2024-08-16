@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Download the Helperbird App on iPad
 description: Follow these steps to download and start using the Helperbird app on your iPad.
 keywords:

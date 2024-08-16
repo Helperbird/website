@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use Helperbird with Family Sharing on iOS
 description: This guide walks you through the steps for installing and setting up the Helperbird extension or iOS app using Family Sharing. It also includes instructions on turning off Screen Time restrictions during installation and re-enabling them afterward.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
