@@ -9,8 +9,8 @@ keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   fonts, accessibility software, dyslexia software, Helperbird for Edge,
   Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-url: help/enable-browser-sync-chrome-and-edge/
-permalink:  help/enable-browser-sync-chrome-and-edge/
+url: help/sync-data-locally-or-remote-helperbird/
+permalink:  help/sync-data-locally-or-remote-helperbird/
 name: "Robert James "
 headerTags: []
 tags: Admin
