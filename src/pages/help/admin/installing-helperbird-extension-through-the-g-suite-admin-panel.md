@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Install Helperbird Through the G Suite Admin Panel
 description: This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite.
 keywords:
@@ -11,19 +11,15 @@ keywords:
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Install Helperbird Through the G Suite Admin Panel
-
 featureDescription: This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite.
 date: 2016-01-04
-headerTags: []
+headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "steps-to-deploy-helperbird-on-google-chrome", title: "Steps to Deploy Helperbird on Google Chrome" }]  
 tags: Admin
 url: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 permalink: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 ---
-
-
 
 This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite. 
 
@@ -39,7 +35,7 @@ You must have access to the Google Admin Console (for G Suite/Google Chrome).
 
 The extension ID for Chrome is **ahmapmilbkfamljbpgphfndeemhnajme**
 
-## Steps to Deploy Helperbird on Google Chrome (G Suite)
+## Steps to Deploy Helperbird on Google Chrome
 
 ### 1. Log into the Google Admin Console
 
@@ -70,4 +66,14 @@ Click Save to apply the settings and deploy the extension.
 
 **For Chrome** Verify the deployment by logging into a user account within the Organizational Unit and checking if the Helperbird extension is installed and functioning.
 
+
+## Video Tutorial
+
+Coming soon.
+
+
+
+## Need Additional Help?
+
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
 
