@@ -3,10 +3,10 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
-title:   Removing Helperbird for Everyone
+layout: templates/new/help/post-new.html
+title:  How to Remove Helperbird for Everyone in G Suite
 
-description:  Understand how to remove the Helperbird extension for all users. This guide will help you to successfully uninstall Helperbird across your organization.
+description:  This guide provides administrators with the steps needed to remove the Helperbird extension for all users within an organizational unit using G Suite.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,29 +14,46 @@ keywords:
   OpenDyslexic
 
 youtubeId: vwT8SAJfU3E
-cardTitle:   Removing Helperbird
-featureDescription: Understand how to remove the Helperbird extension for all users. This guide will help you to successfully uninstall Helperbird across your organization.
+cardTitle:  How to Remove Helperbird for Everyone in G Suite
+featureDescription: This guide provides administrators with the steps needed to remove the Helperbird extension for all users within an organizational unit using G Suite.
 
 
 date: 2016-01-04
 headerTags: []
 tags: Admin
 url: help/removing-helperbird-for-everyone/
+permalink: help/removing-helperbird-for-everyone/
 ---
 
-## Steps for Removing Helperbird for Everyone in G Suite
+
+This guide provides administrators with the steps needed to remove the Helperbird extension for all users within an organizational unit using G Suite.
 
 
-**Step 1**: Access Chrome Management
+##  Remove Helperbird for Everyone
 
-Access your G Suite Admin console Home page and navigate to `Devices > Chrome > Apps & Extensions`.
+### 1. Select the Organizational Unit
+Choose the organizational unit you wish to configure.
 
-**Step 2**: Remove Helperbird for Everyone
+### 2. Find the Helperbird Extension
 
-**Step 2.1**: Select the organizational unit you wish to configure.
+Locate the Helperbird extension (ID: **ahmapmilbkfamljbpgphfndeemhnajme**) in the list of Apps & Extensions.
 
-**Step 2.2**: Find the Helperbird extension (ID: `ahmapmilbkfamljbpgphfndeemhnajme`) in the list of Apps & Extensions.
+### 3. Click the Trash Bin Icon
 
-**Step 2.3**: Click on the Trash bin icon next to the Helperbird extension.
+Click on the trash bin icon next to the Helperbird extension.
 
-**Step 2.4**: Confirm the deletion by clicking `Remove`.
+### 4. Confirm Deletion
+
+Confirm the deletion by clicking Remove.
+
+
+
+## Video Tutorial
+
+Coming soon.
+
+
+## Need Additional Help?
+
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
+

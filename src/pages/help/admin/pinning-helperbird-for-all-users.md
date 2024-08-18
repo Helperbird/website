@@ -3,10 +3,9 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
-title:  Pinning Helperbird extension for All Users
-
-description:  Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.
+layout: templates/new/help/post-new.html
+title:  How to Force Pin the Helperbird
+description: This guide provides administrators with the steps needed to force pin the Helperbird extension for all users within an organizational unit using G Suite.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,37 +13,52 @@ keywords:
   OpenDyslexic
 
 youtubeId: vwT8SAJfU3E
-cardTitle:  Pinning Helperbird
-featureDescription: Learn how to pin the Helperbird extension for all users in your organization. This guide provides step-by-step instructions to ensure Helperbird is always at hand for your users.
-
-
+cardTitle:  How to Force Pin the Helperbird Extension
+featureDescription: This guide provides administrators with the steps needed to force pin the Helperbird extension for all users within an organizational unit using G Suite.
 date: 2016-01-04
-headerTags: []
+headerTags: [ { tag: "steps-for-pinning-helperbird-for-all-users-in-g-suite", title: "Pinning Helperbird" }]  
 tags: Admin
 url: help/pinning-helperbird-for-all-users/
+permalink: help/pinning-helperbird-for-all-users/
 ---
+
+This guide provides administrators with the steps needed to force pin the Helperbird extension for all users within an organizational unit using G Suite.
+
+
 
 ## Steps for Pinning Helperbird for All Users in G Suite
 
-**Step 1**: Access Chrome Management
+### 1. Access Chrome Management
 
-Navigate from your G Suite Admin console Home page to `Devices > Chrome > Apps & Extensions`.
+From your G Suite Admin console Home page, navigate to Devices > Chrome > Apps & Extensions.
 
-**Step 2**: Pin Helperbird for All Users
+## Pin Helperbird for All Users
 
-**Step 2.1**: Select the organizational unit you wish to configure.
+### 1. Select the Organizational Unit
 
-**Step 2.2**: Click on the `+` button (Yellow circle at the bottom right) next to "Apps & Extensions".
+Choose the organizational unit you wish to configure.
 
-**Step 2.3**: In the "Add Chrome app or extension by ID" section, enter `ahmapmilbkfamljbpgphfndeemhnajme` (Helperbird's extension ID).
+### 2. Add the Helperbird Extension
+Click on the + button (yellow circle at the bottom right) next to **Apps & Extensions**.
 
-**Step 2.4**: In the "Pin to taskbar" drop-down list, select `Pin`.
+### 3. Enter the Extension ID
 
-**Step 2.5**: Click `Save` to apply your changes.
+In the **Add Chrome app or extension by ID** section, enter **ahmapmilbkfamljbpgphfndeemhnajm**(Helperbird's extension ID).
 
-## Need more help?
+### 4. Pin to Taskbar
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
+In the **Pin to taskbar** drop-down list, select Pin.
+
+### 5.  Save Changes
+Click Save to apply your changes.
 
 
+## Video Tutorial
+
+Coming soon.
+
+
+## Need Additional Help?
+
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
 
