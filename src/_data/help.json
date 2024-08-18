@@ -18,6 +18,13 @@
 			"link": "/help/ios/"
 		},
 
+		{
+			"title": "Admin Features",
+			"description": "This section assists IT administrators and managers with common tasks, including handling installations and managing permissions.",
+			"link": "/help/admin/"
+		},
+
+
         {
 			"title": "Writing features",
 			"description": "Enhance your writing skills with ease using Helperbird's writing features.",
