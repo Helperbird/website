@@ -27,6 +27,8 @@ Manage your Helperbird Pro subscription efficiently by accessing your account on
 
 This guide provides clear steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
 
+---
+
 ## How to Manage Your Helperbird Pro Subscription
 
 ### 1. Access the Manage Page
@@ -53,7 +55,10 @@ You will be redirected to the Helperbird dashboard.
 
 Your subscription details and management options will be available on the dashboard.
 
-### How to Cancel My Helperbird Pro Subscription
+---
+
+## How to Cancel My Helperbird Pro Subscription
+
 
 ### 1. Access the Manage Page
 
@@ -82,11 +87,13 @@ Find the **Cancel subscription** button in your subscription details.
 
 Click to confirm and complete the cancellation process.
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need more help?
 

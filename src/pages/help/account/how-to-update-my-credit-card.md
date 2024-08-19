@@ -65,10 +65,10 @@ Click **Save** to update your payment details.
 
 Your credit card information is now updated in the Helperbird system.
 
-
+---
 
 
 ## Need more help?
 
-If you run into any issues while changing your email, don’t worry! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
+Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
 

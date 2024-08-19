@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: Sync or store data locally in Helperbird
 description: Learn how to easily store your Helperbird data locally or sync across browsers.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

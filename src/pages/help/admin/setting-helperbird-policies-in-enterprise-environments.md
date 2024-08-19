@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: Setting Helperbird Policies in Enterprise Environments
 description: In enterprise environments, administrators can control Helperbird settings across Windows, ChromeOS, and MacOS platforms using a managed schema.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic

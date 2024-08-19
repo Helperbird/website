@@ -3,6 +3,7 @@ const htmlmin = require('html-minifier');
 const svgContents = require('eleventy-plugin-svg-contents');
 const pluginPWA = require('./tools/eleventy-plugin-pwa');
 const fs = require('fs');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const path = require('path');
 const { format, parseISO } = require('date-fns');
@@ -109,7 +110,7 @@ module.exports = function (eleventyConfig) {
 			const [, title2] = data.match(/title:(.*)/);
 		}
 	});
-
+    eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',
 		globDirectory: './docs'

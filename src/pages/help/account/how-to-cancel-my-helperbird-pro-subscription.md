@@ -34,6 +34,8 @@ An active Helperbird Pro subscription.
 
 Access to the email account associated with your Helperbird Pro subscription.
 
+---
+
 ## Steps to Cancel Your Helperbird Pro Subscription
 
 ### 1. Visit Helperbird Manage Page
@@ -64,6 +66,7 @@ Locate and click on the **Cancel plan** button.
 
 Your subscription will be canceled at the end of your current billing cycle.
 
+---
 
 ## Need Additional Help?
 
