@@ -5,7 +5,11 @@
 			"description": "Start your journey with Helperbird with our simple guide on getting started, logging in, and exploring key features. We've made it easy to get up and running in no time.",
 			"link": "/help/introduction/"
 		},
-
+		{
+			"title": "Features ",
+			"description": "This section helps you use and understand how to use and understand the Helperbird Features. Learn how to use our Sticky Notes, Immersive Reader and more.",
+			"link": "/help/features/"
+		},
 		{
             "title": "My Account",
 			"description": "This section helps you manage your Helperbird account. You'll find guides on updating your email, credit card, and subscription details.",
