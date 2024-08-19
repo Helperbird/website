@@ -26,6 +26,7 @@ permalink:  help/how-to-turn-helperbird-on/
 
 
 When Helperbird displays a red "Off" icon, it means the extension is currently turned off. This guide will show you how to turn Helperbird on and off in Chrome, Edge, Firefox, and other supported browsers.
+---
 
 ## How to Turn On Helperbird
 
@@ -50,6 +51,7 @@ Once activated, all previously configured features will be running again.
 
 
 
+---
 
 ## How to Turn Off Helperbird
 
@@ -68,6 +70,7 @@ Click the toggle to turn off Helperbird. The icon will change to red, indicating
 ### 4. Restart (Optional)
 
 You can click the toggle at any time to turn Helperbird back on or off as needed.
+---
 
 ## Need More Help?
 If you encounter any issues with turning Helperbird on or off, please reach out to the Helperbird support team for assistance.

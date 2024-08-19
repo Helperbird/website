@@ -22,6 +22,7 @@ featureDescription: Learn how to enable and manage sync in Chrome or Edge to opt
 footer: true
 header: true
 ---
+---
 
 ## How to Turn On Sync in Chrome or Edge
 
@@ -72,6 +73,7 @@ You should now see **Sync is on** under the Sync and Google Services section, in
 ### Please Note
 
 The steps may differ slightly for Edge, as it transitions to a Chromium-based version. The instructions above are for Chromium-based Edge.
+---
 
 ## How to Turn Off Sync in Chrome or Edge
 
@@ -111,6 +113,7 @@ Disabling sync will remove all synced data from your browser and stop syncing to
 
 
 
+---
 
 ## Why Helperbird Uses Sync
 
@@ -123,12 +126,14 @@ This allows Helperbird to personalize your experience and ensure that your setti
 We do not collect any of your information when you enable sync. Your data remains secure and private.
 
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
 
+---
 
 ## Need Additional Help?
 

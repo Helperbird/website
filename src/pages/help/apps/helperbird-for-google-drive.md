@@ -34,6 +34,7 @@ header: true
 Helperbird for Google Drive is a great tool that brings all of Helperbird's accessibility features right into your files. Whether you need to open and read PDFs in a more accessible way or use dyslexia-friendly fonts, this add-on makes it easy. 
 
 This guide will show you how to get started with Helperbird in Google Drive.
+---
 
 ## Prerequisites
 
@@ -42,11 +43,13 @@ Before you dive in, make sure you’ve got the following:
 - **Google Account:** You’ll need a Google Account to access Google Drive.
 - **Helperbird Add-on:** Make sure you have the [Helperbird Google Workspace add-on installed.](https://workspace.google.com/marketplace/app/helperbird/844716805038)
 - **Helperbird Version:** Ensure you’re using Helperbird version 107 or later for the best experience.
+---
 
 ## Google Drive
 
 Once you're set up, you can start using Helperbird with Google Drive. Here’s how to open PDFs using Helperbird’s built-in PDF reader.
 
+---
 ---
 
 ## How to Open PDFs in Helperbird’s PDF Reader
@@ -76,6 +79,7 @@ If a pop-up asks if you want to open the PDF in a new tab, go ahead and confirm.
 Your PDF will now open in Helperbird’s PDF reader, where you can use all the accessibility tools.
 
 ---
+---
 
 ## Use Right-Click to Open PDFs in Helperbird’s PDF Reader
 
@@ -103,6 +107,7 @@ The PDF will open in Helperbird’s PDF reader, ready for you to use.
 
 
 ---
+---
 
 ## Video Tutorial
 
@@ -111,7 +116,8 @@ If you’re more of a visual learner, check out the video walkthrough below:
 {% youtubeEmbed 'xl5lZX_-GkU' %}
 
 
---- 
+--- ---
+
 ## Need More Help?
 
 If you have any questions or run into any issues, our friendly [Helperbird support team](/support/) is here to help. Just reach out!

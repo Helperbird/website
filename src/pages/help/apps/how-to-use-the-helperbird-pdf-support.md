@@ -32,6 +32,7 @@ permalink: help/how-to-use-the-helperbird-pdf-support/
 ---
 
 
+---
 
 ## How to Access PDF Reader in Helperbird
 
@@ -69,6 +70,7 @@ You can now load your PDF files into the reader.
 <iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+---
 ---
 
 ## How to Load a PDF in Helperbird's PDF Reader
@@ -110,6 +112,7 @@ You can also drag and drop a PDF file directly into the reader for quicker acces
 </div>
 
 ---
+---
 
 ## How to Use Text to Speech on PDFs in Helperbird
 
@@ -143,6 +146,7 @@ The selected text will be read out loud.
 </div>
 
 ---
+---
 
 ## How to Use Immersive Reader by Microsoft on PDFs in Helperbird
 
@@ -169,6 +173,7 @@ The Immersive Reader will open.
 You can now use the features of Microsoft's Immersive Reader for an enhanced reading experience.
 
 ---
+---
 
 ## How to Summarize PDFs in Helperbird
 
@@ -191,6 +196,7 @@ Click the Summarize button at the top of the PDF reader.
 The summarized bullet points will appear at the top after the summarization process is complete.
 
 ---
+---
 
 ## How to Use Extract Text (OCR) on PDF Files in Helperbird
 
@@ -212,6 +218,7 @@ Drag over the area of the PDF from which you want to extract text.
 
 The text will be extracted and automatically saved to your clipboard. The extracted text will also be read aloud.
 
+---
 ---
 
 ## How to Create a Sticky Note in a PDF File
@@ -240,6 +247,7 @@ The next time you open the PDF, your sticky note will appear where you left it.
 
 For more options and information on sticky notes, see the dedicated sticky note section in the help docs.
 
+---
 
 ## Video Tutorial
 
@@ -247,6 +255,7 @@ For more options and information on sticky notes, see the dedicated sticky note 
 <iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+---
 
 ## Need more help?
 

@@ -36,6 +36,7 @@ header: true
 ---
 
 Helperbird now works with PowerPoint Online, bringing a range of tools to make creating and viewing presentations easier. Make sure you have Helperbird version 115 or later installed.
+---
 
 ## Getting Started with Helperbird in PowerPoint Online
 
@@ -48,6 +49,7 @@ Open your web browser and go to PowerPoint Online.
 Log in with your Microsoft account and select or create a new presentation.
 
 ---
+---
 
 ## Enabling Helperbird Features in PowerPoint Online
 
@@ -59,6 +61,7 @@ Click the Helperbird icon in your browser’s toolbar to open the Helperbird men
 
 Make sure you’re using Helperbird version 115 or newer. You can see the version number at the bottom of the Helperbird menu.
 
+---
 ---
 
 ## Helperbird's Tools
@@ -81,6 +84,7 @@ For easier viewing, turn on 'Overlay' in the Helperbird menu and pick a color th
 
 ---
 
+---
 
 ## Finalizing
 
@@ -97,11 +101,13 @@ By following these steps, you can make PowerPoint Online a more accessible and u
 
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need More Help?

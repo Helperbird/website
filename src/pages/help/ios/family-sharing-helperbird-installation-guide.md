@@ -32,6 +32,7 @@ This guide walks you through the steps for installing and setting up the Helperb
 It also includes instructions on turning off Screen Time restrictions during installation and re-enabling them afterward.
 
 
+---
 
 ## Turn Off Screen Time Content & Privacy Restrictions for the Child
 
@@ -54,6 +55,7 @@ Tap on Content & Privacy Restrictions.
 ### 5. Turn Off Restrictions
 
 Turn off the switch if it's currently enabled.
+---
 
 ##  Install the Helperbird Extension/iOS App
 
@@ -73,6 +75,7 @@ Tap on the Helperbird app in the search results.
 
 Tap Get to start the installation. Enter your Apple ID password or use Touch ID/Face ID if prompted.
 
+---
 
 ## Enable the Helperbird Extension
 
@@ -87,6 +90,7 @@ Scroll to find Helperbird, then tap on it.
 ### 3. Allow Access
 
 Ensure all options under Allow Helperbird to Access are toggled on.
+---
 
 ## Turn On Screen Time Content & Privacy Restrictions (Important)
 
@@ -112,10 +116,12 @@ Enable the switch for Content & Privacy Restrictions.
 
 
 
+---
 
 ## Video Tutorial
 
 Coming Soon
+---
 
 ## Need Additional Help?
 

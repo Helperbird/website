@@ -27,6 +27,7 @@ url: help/how-to-use-dictionary-app-in-helperbird/
 permalink: help/how-to-use-dictionary-app-in-helperbird/
 ---
 
+---
 
 ## How to Use the Dictionary App in Helperbird Through the Highlight Menu
 
@@ -53,6 +54,7 @@ Click the dictionary button in the menu.
 A new tab will open with the definition of the highlighted word or sentence.
 
 --- 
+---
 
 ## How to Open the Dictionary App Directly in Helperbird
 
@@ -69,6 +71,7 @@ In Helperbird, look for the green button with a book icon in the Quick Actions a
 ### 3. Look Up a Word
 
 Click the book icon, then type any word in the Dictionary app to see its definition.
+---
 
 ## Please Note
 
@@ -79,11 +82,13 @@ Click the book icon, then type any word in the Dictionary app to see its definit
 
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need More Help?

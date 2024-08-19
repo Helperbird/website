@@ -32,6 +32,7 @@ permalink:  help/installing-helperbird/
 
 This guide covers installing Helperbird on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, Google Docs, Google Slides, and iPad/iPhone. Ensure your browser or app is updated for compatibility, and follow the steps for a successful installation.
 
+---
 
 ## How to Install Helperbird for Google Chrome
 
@@ -56,6 +57,7 @@ A pop-up window will appear for confirmation. Click **Add Extension**.
 Helperbird will be installed, and its icon will appear in the top-right corner of Chrome.
 
 
+---
 
 ## How to Install Helperbird for Microsoft Edge
 
@@ -80,6 +82,7 @@ A pop-up will ask for confirmation. Click **Add extension**.
 Helperbird will be installed, with its icon in the top-right corner of Edge.
 
 
+---
 
 ## How to Install Helperbird for Mozilla Firefox
 
@@ -102,6 +105,7 @@ Confirm the installation in the pop-up window.
 ### 5. Installation Complete
 
 Helperbird will be installed, with its icon visible in Firefox.
+---
 
 ## How to Install Helperbird for Safari
 
@@ -124,6 +128,7 @@ Click **Install** and follow the prompts.
 ### 5. Complete Installation
 
 Once installed, ensure Helperbird is enabled in the Extensions tab.
+---
 
 ## How to install Helperbird on Google Docs
 
@@ -156,6 +161,7 @@ Allow permissions in the pop-up window.
 The add-on will be available in the **Add-ons** menu.
 
 
+---
 
 ## How to Install Helperbird on Google Slides
 
@@ -186,6 +192,7 @@ Allow permissions in the pop-up window.
 ### 7. Use Helperbird
 
 The add-on will be available in the **Add-ons** menu.
+---
 
 ## How to Install the Helperbird on iPad/iPhone
 
@@ -210,6 +217,7 @@ Once installed, tap the Helperbird app icon to open it.
 Begin using the app's features.
 
 **Note**: The Helperbird app will require iOS 15.0 or later.
+---
 
 ## Need More Help?
 

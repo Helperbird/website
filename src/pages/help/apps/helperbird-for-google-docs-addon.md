@@ -35,6 +35,7 @@ Helperbird for Google Docs is a handy tool that brings all the great accessibili
 It makes it super easy to use tools like dyslexia-friendly fonts, text-to-speech, and more, right within your Docs.
 
 ---
+---
 
 ## How to Add the Helperbird Add-on to Google Docs
 
@@ -65,6 +66,7 @@ A pop-up window will appear—just follow the prompts to give the necessary perm
 ### 7. Use Helperbird
 
 That’s it! Now you’ll find Helperbird in the **Extensions** menu, ready to help with your Docs.
+---
 
 ## Please Note
 
@@ -72,11 +74,13 @@ You might need to sign in to your Helperbird account or get approval from your a
 
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need More Help?

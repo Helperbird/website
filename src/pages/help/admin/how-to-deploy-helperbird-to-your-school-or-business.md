@@ -28,6 +28,7 @@ time: 4 min
 
 
 This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite. Follow these steps to ensure that Helperbird is available to all users within your organization.
+---
 
 ## Prerequisites
 
@@ -45,6 +46,7 @@ The id is **ahmapmilbkfamljbpgphfndeemhnajme**
 The id is **bkibfggdahioahpokehoiimdmdjefjmd**
 
 
+---
 
 ## Deploying on Google Chrome 
 
@@ -75,6 +77,7 @@ Set the installation policy to Force Install or choose another preferred setting
 Click Save to apply the settings and deploy the extension.
 
 
+---
 
 ## Deploying on Microsoft Edge (Microsoft 365)
 
@@ -93,6 +96,7 @@ Under Manage Extensions, add Helperbird’s extension ID, **bkibfggdahioahpokeho
 ### 4. Save Changes
 
 Ensure that you save the configuration changes.
+---
 
 ## Verification
 
@@ -104,12 +108,14 @@ Verify the deployment by logging into a user account within the Organizational U
 
 Verify by accessing Microsoft Edge in a user account and checking for the presence of Helperbird.
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
 
+---
 
 ## Need Additional Help?
 

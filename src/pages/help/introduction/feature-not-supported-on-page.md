@@ -20,22 +20,27 @@ url: help/feature-not-supported-on-page/
 permalink:  help/feature-not-supported-on-page/
 ---
 
+---
 
 ## Friendly Notice
 
 Oops! It seems like the feature you tried to use isn't supported on this page yet. We're really sorry for any inconvenience this might have caused.
+---
 
 ## Technical Limitations
 
 Some sites, like Google Docs, use a [canvas to render text](https://zapier.com/blog/google-docs-canvas-based-rendering/) instead of traditional HTML. This means our usual magic tricks for changing fonts or adjusting text size don't work here—yet.
+---
 
 ## We're on It!
 
 Our team is dedicated to improving Helperbird, and we're actively working to expand our features to work on more sites, including those tricky ones that don't use standard text rendering methods.
+---
 
 ## Your Feedback Matters
 
 While we're tinkering away, we'd love to hear from you! Your [feedback](/feedback/) is crucial—it helps us identify the most needed improvements and the best ways to enhance your experience.
+---
 
 ## Stay Tuned
 

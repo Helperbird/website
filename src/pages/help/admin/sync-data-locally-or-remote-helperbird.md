@@ -22,6 +22,7 @@ featureDescription: Learn how to easily store your Helperbird data locally or sy
 footer: true
 header: true
 ---
+---
 
 ## Managing Helperbird Settings: Sync vs. Local
 
@@ -56,6 +57,7 @@ With Helperbird, you have the flexibility to synchronize your settings across mu
 Remember, you can change between sync and local at any time by revisiting the Helperbird settings.
 
 
+---
 ---
 
 ## Contact Us

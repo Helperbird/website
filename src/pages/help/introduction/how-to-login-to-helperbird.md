@@ -20,6 +20,7 @@ redirect_from: [/login/, /support/how-to-login-into-helperbird/, /help/helperbir
 ---
 
 Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
+---
 
 ## Log in with Email
 
@@ -53,6 +54,7 @@ If you have a subscription, you'll gain access to Pro features.
 ### 7. Alternative: Subscription Key
 
 Log in using your [subscription key](/help/how-to-use-my-subscription-key/) if needed.
+---
 
 ##  Log in with Subscription Key
 
@@ -75,12 +77,14 @@ In the new tab, scroll to the subscription section, enter your subscription key,
 ### 4. Confirmation
 
 If a subscription is found, you'll see confetti and a confirmation message.
+---
 
 ## Video Tutorial
 
 <div class="mt-12 mb-12 bg-stone-200 rounded-2xl aspect-w-16 aspect-h-9">
 <iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/oAxYuYptc3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+---
 
 ## Need More Help?
 

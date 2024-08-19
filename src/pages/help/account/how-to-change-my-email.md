@@ -26,6 +26,7 @@ headerTags: [ { tag: "steps-to-change-your-email", title: "Change Your Email" },
 
 Changing your email on your Helperbird account is a straightforward process. This guide provides step-by-step instructions to help you log in and update your email information smoothly.
 
+---
 
 ## Steps to Change Your Email
 
@@ -66,11 +67,13 @@ Your email address is now updated in the Helperbird system.
 We will email confirming the change.
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need more help?

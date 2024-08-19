@@ -29,6 +29,7 @@ header: true
 This guide assists Helperbird Pro Unlimited subscribers in unlocking deep insights into their usage. The dashboard, exclusive to Pro Unlimited users, provides real-time statistics including user activity, uninstalls, and more. 
 
 **The link to the dashboard is sent directly by a Helperbird team member.**
+---
 
 ## Prerequisites
 
@@ -39,6 +40,7 @@ You must have an active Helperbird Pro Unlimited subscription.
 ### Email Access
 
 The dashboard link is sent via email, so ensure you have access to your email.
+---
 
 ## Steps to Access Your Usage Dashboard
 
@@ -52,12 +54,14 @@ Click on the link provided in the email to access your dashboard. Here, you'll f
 
 
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
 
+---
 
 ## Need Additional Help?
 

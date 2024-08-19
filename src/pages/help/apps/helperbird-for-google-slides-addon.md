@@ -34,6 +34,7 @@ Helperbird for Google Slides is a handy tool that brings all the great accessibi
 It makes it super easy to use tools like dyslexia-friendly fonts, text-to-speech, and more, right within your slides.
 
 ---
+---
 
 ## How to Add the Helperbird Add-on to Google Slides
 
@@ -64,6 +65,7 @@ A pop-up window will appear—just follow the prompts to give the necessary perm
 ### 7. Use Helperbird
 
 That’s it! Now you’ll find Helperbird in the **Extensions** menu, ready to help with your slides.
+---
 
 ## Please Note
 
@@ -71,11 +73,13 @@ You might need to sign in to your Helperbird account or get approval from your a
 
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need More Help?

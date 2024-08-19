@@ -28,6 +28,7 @@ permalink: help/removing-helperbird-for-everyone/
 
 This guide provides administrators with the steps needed to remove the Helperbird extension for all users within an organizational unit using G Suite.
 
+---
 
 ##  Remove Helperbird for Everyone
 
@@ -47,11 +48,13 @@ Click on the trash bin icon next to the Helperbird extension.
 Confirm the deletion by clicking Remove.
 
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need Additional Help?
 

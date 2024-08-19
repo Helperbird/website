@@ -126,6 +126,7 @@ The managed schema for Helperbird includes three key settings that administrator
 **Usage**: Set to `true` for administrative control over settings. Useful for maintaining uniformity and compliance in Helperbird usage within the organization.
 
 These settings are configured in the JSON schema applied to the Helperbird extension through enterprise management consoles or tools.
+---
 
 ## Examples
 
@@ -196,11 +197,13 @@ This JSON configuration can be used in the Google Admin Console to apply these s
   }
 }
 ```
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need Additional Help?
 

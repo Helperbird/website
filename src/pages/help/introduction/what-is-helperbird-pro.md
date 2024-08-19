@@ -26,10 +26,12 @@ permalink: help/what-is-helperbird-pro/
 
 
 Helperbird Pro is the paid version of Helperbird that includes all the features available in the free version, plus additional advanced tools designed to enhance your work and browsing experience.
+---
 
 ## Helperbird Pro Pricing
 
 Helperbird Pro is available for $6.99 per month or $60.00 per year. We also offer a student discount at $40.00 per year.
+---
 
 ## What is Included in Helperbird Pro?
 
@@ -129,10 +131,13 @@ Helperbird will analyze the text on the page and provide details such as the num
 - PDF support
 - Reading list
 - Google Slides add-on
+---
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
+
+---
 
 ## Need More Help?
 

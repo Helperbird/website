@@ -25,6 +25,7 @@ header: true
 
 
 This guide provides step-by-step instructions for administrators on how to force install the Helperbird extension across an entire G Suite organization. By following these steps, you can ensure that all users in your organization have access to Helperbird's accessibility features.
+---
 
 ## Prerequisites
 
@@ -40,6 +41,7 @@ Ensure you are logged into your G Suite admin account before starting.
 
 
 
+---
 
 ## Access Chrome Management
 
@@ -58,6 +60,7 @@ Within Devices, go to Chrome.
 ### 4. Access Apps & Extensions
 
 Click on Apps & Extensions to manage extensions.
+---
 
 ## Force Install the Helperbird Extension
 
@@ -84,6 +87,7 @@ In the Installation Policy drop-down list, select Force install.
 ### 6. Save Changes
 
 Click Save to apply the changes.
+---
 
 ## Verification
 
@@ -97,12 +101,14 @@ Users will not be able to uninstall the extension unless the administrator chang
 
 
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
 
+---
 
 ## Need Additional Help?
 

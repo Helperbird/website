@@ -27,6 +27,7 @@ headerTags: [ { tag: "steps-to-cancel-your-helperbird-pro-subscription", title: 
 ---
 
 If you've decided that Helperbird Pro is not the right fit for you, we're here to help. This guide will walk you through each step of canceling your Helperbird Pro subscription.
+---
 
 ## Prerequisites
 
@@ -34,6 +35,7 @@ An active Helperbird Pro subscription.
 
 Access to the email account associated with your Helperbird Pro subscription.
 
+---
 ---
 
 ## Steps to Cancel Your Helperbird Pro Subscription
@@ -66,6 +68,7 @@ Locate and click on the **Cancel plan** button.
 
 Your subscription will be canceled at the end of your current billing cycle.
 
+---
 ---
 
 ## Need Additional Help?

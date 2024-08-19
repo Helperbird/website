@@ -26,12 +26,14 @@ permalink: help/how-to-use-my-subscription-key/
 Learn how to find and enter your Helperbird subscription key to unlock Helperbird Pro features.
 
 
+---
 
 ## Locating Your Subscription Key
 
 Your Helperbird Pro subscription key is sent in the second email after you sign up. If you have trouble finding your key or have any questions, our support team is ready to assist.
 
 --- 
+---
 
 ## Steps to Enter Your Subscription Key
 
@@ -81,6 +83,7 @@ If no subscription is detected, a message will inform you.
 
 You can also login using your email address. Refer to the email login guide for more details.
 
+---
 ---
 
 ## Need More Help?

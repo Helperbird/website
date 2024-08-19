@@ -25,12 +25,14 @@ permalink: help/pinning-helperbird-for-all-users/
 This guide provides administrators with the steps needed to force pin the Helperbird extension for all users within an organizational unit using G Suite.
 
 
+---
 
 ## Steps for Pinning Helperbird for All Users in G Suite
 
 ### 1. Access Chrome Management
 
 From your G Suite Admin console Home page, navigate to Devices > Chrome > Apps & Extensions.
+---
 
 ## Pin Helperbird for All Users
 
@@ -52,11 +54,13 @@ In the **Pin to taskbar** drop-down list, select Pin.
 ### 5.  Save Changes
 Click Save to apply your changes.
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need Additional Help?
 

@@ -28,6 +28,7 @@ Pinning an extension like Helperbird in your browser ensures quick and easy acce
 **Note:** Menu icons vary across browsers: a puzzle piece in Chrome, three vertical dots in Edge, a hamburger menu in Firefox, and a settings icon in Safari.
 
 
+---
 
 ## Safari
 
@@ -52,6 +53,7 @@ Check the box next to Helperbird to enable it in the toolbar.
 The Helperbird icon will now appear in the Safari toolbar.
 
 
+---
 
 ## Google Chrome
 
@@ -73,6 +75,7 @@ Click the pin icon next to Helperbird to keep it visible in the toolbar.
 ### 5. Helperbird Pinned 
 
 The Helperbird icon will now stay visible in the Chrome toolbar.
+---
 
 ## Microsoft Edge
 
@@ -95,6 +98,7 @@ Click the pin icon next to Helperbird to show it in the toolbar.
 ### 5. Helperbird Pinned 
 
 The Helperbird icon will be pinned to the Edge toolbar.
+---
 
 ## Mozilia Firefox
 
@@ -122,6 +126,7 @@ Click the pin icon next to Helperbird to keep it accessible in the toolbar.
 
 The Helperbird icon will now appear in the Firefox toolbar.
 
+---
 
 ## Need More Help?
 

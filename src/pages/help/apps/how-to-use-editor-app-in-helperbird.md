@@ -33,6 +33,7 @@ url: help/how-to-use-editor-app-in-helperbird/
 permalink: help/how-to-use-editor-app-in-helperbird/
 ---
 
+---
 
 ## How to Open the Helperbird Editor
 
@@ -51,6 +52,7 @@ The Helperbird interface will open. Look for the "Open Editor" icon, which is ma
 Click on the **Open Editor** icon to start editing text.
 
 ---
+---
 
 ## How to Create a New Document in the Helperbird Editor
 
@@ -68,6 +70,7 @@ At the top of the Editor, find the **New** button, which might look like a blank
 
 Click into the blank document and start typing your content.
 
+---
 ---
 
 ## How to Open Existing Documents in the Helperbird Editor
@@ -89,6 +92,7 @@ Browse the list of your saved documents and select the one you want to work on.
 The document will open in the Editor, ready for you to edit or review.
 
 ---
+---
 
 ## How to Save Your Document in the Helperbird Editor
 
@@ -100,6 +104,7 @@ Complete your content in the Editor.
 
 Click the **Save** button at the top of the Editor window to store your document securely.
 
+---
 ---
 
 ## How to Copy a Document in the Helperbird Editor
@@ -117,6 +122,7 @@ Click the **Copy Document** button, usually at the top of the Editor window, to 
 The copied document will appear in your documents area.
 
 ---
+---
 
 ## How to Delete a Document in the Helperbird Editor
 
@@ -132,6 +138,7 @@ Click the **Delete** button at the top of the Editor window. Confirm the deletio
 
 The document will be permanently removed from your collection.
 
+---
 ---
 
 ## How to Access Text Analytics in the Helperbird Editor
@@ -149,6 +156,7 @@ Click the **Text Analytics** button to see a detailed breakdown of your document
 Use these insights to improve your writing or get a snapshot of your style.
 
 ---
+---
 
 ## How to Import Notes into the Helperbird Editor
 
@@ -164,6 +172,7 @@ Find the **Import Notes** button on the top toolbar. Click it to open the notes 
 
 Drag your notes into the sidebar. The Editor will create references, organizing your content and notes side by side.
 
+---
 ---
 
 ## How to Export Your Notes from the Helperbird Editor
@@ -195,11 +204,13 @@ Select **Download to Text file** to save your notes as a .txt file.
 Now your notes are ready to be shared or used on different platforms!
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need more help?

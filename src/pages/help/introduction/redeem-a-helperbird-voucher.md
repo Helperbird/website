@@ -20,6 +20,7 @@ permalink:  help/how-to-redeem-helperbird-pro-voucher/
 
 
 Welcome to our step-by-step guide on redeeming your Helperbird Pro voucher. Follow these simple instructions to unlock all the Pro features and enhance your browsing experience. Let's get started!
+---
 
 ## Steps to Redeem Your Pro Voucher
 
@@ -48,6 +49,7 @@ Enter your email address and click the "Start Trial" button to complete the proc
 ### 6. Confirmation
 
 Check your email for a confirmation message that your account now has Helperbird Pro benefits.
+---
 
 ## All Set!
 

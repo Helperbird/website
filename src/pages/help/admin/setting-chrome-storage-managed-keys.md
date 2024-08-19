@@ -22,6 +22,7 @@ header: true
 
 
 This guide provides step-by-step instructions for administrators on how to set Chrome storage managed keys using the Google Admin Console. By following these steps, you can ensure secure and compliant policy management for your organization.
+---
 
 ## Create a JSON Policy File
 
@@ -34,6 +35,7 @@ First, create a JSON file that defines the policies you want to set. Your JSON f
   "isAdminControl": false
 }
 ```
+---
 
 ## Upload the JSON Policy File to Google Admin Console
 
@@ -60,6 +62,7 @@ Find the extension for which you want to set the policy. If the extension is not
 ### 6. Upload Custom Policy
 
 Once you have located or added the extension, click on it. Navigate to the **User settings** tab. Under **Policy for extensions**, you’ll see an option to upload your custom JSON policy file. Upload the JSON file you created in Step 1.
+---
 
 ## Apply the Policy
 
@@ -68,6 +71,7 @@ Save the changes. The policy will be applied to all users under the specified or
 
 ### 2. Verify Policy Application
 To verify that the policy has been applied, users can navigate to **chrome://policy** in their Chrome browser. They should see the policies listed under the **Managed Configuration** section.
+---
 
 ## Example of Applying Policies
 
@@ -82,6 +86,7 @@ Here's an example of how your managed storage policy might be configured for an 
   }
 }
 ```
+---
 
 ## Additional Tips
 
@@ -100,11 +105,13 @@ Use the **chrome://policy** URL to debug and verify the policies applied to Chro
 By following these steps, you can configure **chrome.storage.managed** keys using the Google Admin Console, ensuring that your Chrome extension receives the specified managed storage settings.
 
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need Additional Help?
 

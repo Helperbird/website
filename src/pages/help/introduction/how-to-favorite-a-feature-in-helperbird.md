@@ -23,6 +23,7 @@ permalink:  help/how-to-favorite-a-feature-in-helperbird/
 
 
 Helperbird’s Quick Actions area allows you to easily access the features you use most often. This guide will show you how to add or remove features from the Quick Actions area to customize your experience.
+---
 
 ## How to Add Features to Quick Actions
 
@@ -42,6 +43,7 @@ A module will open. Browse through the list of available features and click the 
 
 The selected features will now appear in the Quick Actions area.
 
+---
 
 ## How to remove Features from Quick Actions
 
@@ -61,6 +63,7 @@ A module will open. Browse through the list of available features and click the 
 ### 4. Save Your Changes 
 
 The selected features will now appear in the Quick Actions area.
+---
 
 ## Video Tutorial
 
@@ -77,6 +80,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen>
 </iframe>
 </div>
+---
 
 ## Need More Help?
 

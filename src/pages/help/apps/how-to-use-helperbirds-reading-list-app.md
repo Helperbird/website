@@ -29,6 +29,7 @@ permalink: help/how-to-use-helperbirds-reading-list-app/
 Learn how to use Helperbird's reading list feature to save, manage, and remove websites for later reading. 
 
 Step-by-step instructions to get the most out of Helperbird’s powerful tools, including how to add and remove items from your reading list.
+---
 
 ## How to Open Helperbird's Reading List
 
@@ -54,6 +55,7 @@ Click on the **Reading list** button. The reading list will open in a new tab.
 
 
 ---
+---
 
 ## How to Add a Website to Your Reading List
 
@@ -70,6 +72,7 @@ Click the Helperbird icon in your browser's toolbar to open the extension menu.
 Select **Add to Reading list** from the quick action menu. The current website will be added to your reading list.
 
 ---
+---
 
 ## How to Remove a Website from Your Reading List
 
@@ -81,6 +84,7 @@ Open your reading list.
 
 Click the **Remove** button next to the website you want to remove. The website will be removed from your reading list.
 
+---
 ---
 
 ## Need More Help?

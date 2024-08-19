@@ -25,6 +25,7 @@ permalink: help/what-is-helperbird-free/
 
 
 The free version of Helperbird offers core features that are available to everyone. You can use Helperbird for your work without worrying about any costs.
+---
 
 ## Features Included
 
@@ -85,6 +86,7 @@ Helperbird will adjust the colors on the page to be more accessible for users wi
 Helperbird will allow you to highlight text in different colors for better focus and study.
 
 
+---
 
 ## Need More Help?
 

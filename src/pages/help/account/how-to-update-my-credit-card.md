@@ -26,6 +26,7 @@ headerTags: [ { tag: "need-additional-help-?", title: "Need more help?" },{
 Updating your credit card information for Helperbird subscriptions is straightforward. Follow these steps to ensure your payment details are current.
 
 
+---
 
 ## Steps to Update Credit Card Information
 
@@ -67,6 +68,7 @@ Your credit card information is now updated in the Helperbird system.
 
 ---
 
+---
 
 ## Need more help?
 

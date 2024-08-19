@@ -22,6 +22,7 @@ permalink:  help/how-to-download-helperbird-for-iphone/
 ---
 
 Follow these steps to download and start using the Helperbird app on your iPhone.
+---
 
 ## Steps to Download Helperbird
 
@@ -52,6 +53,7 @@ Tap on the Helperbird app icon to open the app.
 ### 7. Start Using Helperbird
 
 You can start using the app's features.
+---
 
 ## Please Note
 

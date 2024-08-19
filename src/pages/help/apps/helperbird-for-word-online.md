@@ -31,6 +31,7 @@ header: true
 Helperbird now works with Word Online, offering a variety of tools to make editing and reading documents easier. Make sure you have Helperbird version 105 or later installed.
 
 
+---
 
 ## Using Helperbird with Word Online
 
@@ -90,11 +91,13 @@ By following these steps, you can use Helperbird to make Word Online more access
 Some features may require you to sign in to your Helperbird account.
 
 ---
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 ---
 
 ## Need More Help?
