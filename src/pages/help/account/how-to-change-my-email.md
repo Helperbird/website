@@ -65,11 +65,13 @@ Your email address is now updated in the Helperbird system.
 
 We will email confirming the change.
 
+---
 
 ## Video Tutorial
 
 Coming soon.
 
+---
 
 ## Need more help?
 
