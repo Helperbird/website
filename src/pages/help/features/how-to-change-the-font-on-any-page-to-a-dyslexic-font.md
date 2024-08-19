@@ -25,7 +25,7 @@ tags: Features
 img: assets/images2/uploads/add-a-heading.png
 date: 2019-01-01
 youtubeId: vwT8SAJfU3E
-cardTitle: Custom Fonts
+cardTitle: Dyslexia Fonts
 featureDescription: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
 footer: true
 header: true

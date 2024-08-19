@@ -2,16 +2,15 @@
 new: false
 updated: false
 layout: templates/new/help/post.html
-title: How to Change the Font on Any Website
-description: Customize your browsing experience by effortlessly changing the
-  font on any website with Helperbird's easy-to-use extension. Follow our
-  step-by-step guide to learn how.
+title: How to Use the Font Changer Feature in Helperbird
+description: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
   fonts, accessibility software, dyslexia software, Helperbird for Edge,
   Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/how-to-change-the-font-on-any-page/
+permalink:  help/how-to-change-the-font-on-any-page/
 name: Helperbird Staff
 headerTags: []
 tags: Features
@@ -19,41 +18,60 @@ img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Fonts
-featureDescription: Customize your browsing experience by effortlessly changing
-  the font on any website with Helperbird's easy-to-use extension. Follow our
-  step-by-step guide to learn how.
+featureDescription: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
 footer: true
 header: true
 ---
 
-## Using the Font Changer Feature in Helperbird
 
+Helperbird’s Font Changer feature allows you to choose dyslexia-friendly fonts like Lexend or OpenDyslexic, making reading easier for users with dyslexia.
 
-The Font Changer feature in Helperbird allows you to customize the font style on web pages, which can be particularly helpful for enhancing readability or for users with dyslexia.
+---
 
-### Enabling the Font Changer
+## How to Enable the Font Changer
 
-**Step 1**: Click on the Helperbird icon in your browser to open the extension menu.
+### 1. Open Helperbird
 
-**Step 2**: Use the search function at the top of the menu to quickly find the "Font" option.
+Click the Helperbird icon in your browser to open the extension’s menu.
 
-**Step 3**: Locate the "Font" toggle and turn it on by clicking it.
+### 2. Find the Font Option
 
-### Changing the Font
+Use the search feature within the menu to look for the "Font" option.
 
-**Step 4**: After enabling the Font option, you'll see a selection of fonts displayed.
+### 3. Turn On the Font Feature
 
-**Step 5**: Scroll through the available fonts and click on the one you prefer to apply it to the webpage.
+Find the toggle switch for "Font" and click it to activate the feature.
 
-**Step 6**: The page will automatically update with your selected font, changing the text to the font style you chose.
+---
 
+## How to Select a Dyslexia-Friendly Font
 
+### 1. View Font Choices
 
-## Available Font Choices
+With the Font feature enabled, a variety of font options will appear.
+
+### 2. Choose a Dyslexia-Friendly Font
+
+Browse through the fonts and select a dyslexia-friendly font like Lexend or OpenDyslexic by clicking on it.
+
+### 3. See the Change
+
+The text on the webpage will immediately update to the selected font, making it easier to read for dyslexic users.
+
+---
+
+## Available Dyslexia Friendly Fonts
+
+- OpenDyslexic
+- Lexend
+- Comic Sans
+
+---
+
+## Additional Font Options
 
 - Arial
 - Comic Sans
-- OpenDyslexic
 - Tahoma
 - Verdana
 - Gothic
@@ -66,10 +84,14 @@ The Font Changer feature in Helperbird allows you to customize the font style on
 - Impact
 - Times
 
+---
+
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
-## Need Additional Help?
+---
 
-If you face any challenges while using this feature, our Helperbird support team is always here to assist you.
+## Need More Help?
+
+If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is here to help you out.
