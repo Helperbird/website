@@ -5,7 +5,7 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to use Speed Reading on Websites & PDFs
-description:Discover how to use Helperbird's Speed Reading feature to breeze through text on web pages and PDFs. This guide walks you through getting started, adjusting settings, and making the most of your speed reading experience.
+description: Discover how to use Helperbird's Speed Reading feature to breeze through text on web pages and PDFs. This guide walks you through getting started, adjusting settings, and making the most of your speed reading experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
