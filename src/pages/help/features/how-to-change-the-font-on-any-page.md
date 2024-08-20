@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Font Changer Feature in Helperbird
 description: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
