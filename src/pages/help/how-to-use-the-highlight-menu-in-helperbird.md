@@ -80,7 +80,7 @@ url: help/how-to-use-the-highlight-menu-in-helperbird/
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

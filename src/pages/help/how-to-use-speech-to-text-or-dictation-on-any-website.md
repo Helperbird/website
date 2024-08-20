@@ -42,7 +42,7 @@ url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

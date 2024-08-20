@@ -78,7 +78,7 @@ To block the Translate feature. Simply block translate.google.com in your browse
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

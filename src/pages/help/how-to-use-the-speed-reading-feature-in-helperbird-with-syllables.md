@@ -77,7 +77,7 @@ Tailor your Speed Reading experience to suit your preferences by adjusting sever
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 ## Need more help?
 

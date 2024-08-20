@@ -381,7 +381,7 @@ Alt +  Shift + H + O
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 ## Need more help?
 

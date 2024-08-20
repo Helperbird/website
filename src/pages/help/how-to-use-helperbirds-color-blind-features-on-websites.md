@@ -52,7 +52,7 @@ url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

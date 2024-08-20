@@ -62,7 +62,7 @@ This is different than using an inverted display, though often times the high co
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

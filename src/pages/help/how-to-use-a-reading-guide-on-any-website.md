@@ -66,7 +66,7 @@ The Reading Guide feature in Helperbird helps you focus on the text you're readi
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 
 

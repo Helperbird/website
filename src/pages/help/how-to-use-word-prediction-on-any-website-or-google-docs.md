@@ -58,7 +58,7 @@ With Word Prediction active, you'll find writing in your selected language smoot
 
 ## Video Tutorial
 
-- Coming soon.
+Coming soon.
 
 ## Need more help?
 
