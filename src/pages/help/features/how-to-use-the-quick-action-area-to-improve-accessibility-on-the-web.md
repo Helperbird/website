@@ -19,6 +19,7 @@ date: 2022-02-20
 headerTags: []
 tags: Features
 url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
+permalink: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
 ## Quick Actions in Helperbird
