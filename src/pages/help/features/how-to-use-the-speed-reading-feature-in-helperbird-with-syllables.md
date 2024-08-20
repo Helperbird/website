@@ -5,7 +5,7 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to use Speed Reading on Websites & PDFs
-description: Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
+description:Discover how to use Helperbird's Speed Reading feature to breeze through text on web pages and PDFs. This guide walks you through getting started, adjusting settings, and making the most of your speed reading experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,9 +14,46 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Speed Reading
-featureDescription: Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
+featureDescription: Discover how to use Helperbird's Speed Reading feature to breeze through text on web pages and PDFs. This guide walks you through getting started, adjusting settings, and making the most of your speed reading experience.
 date: 2022-04-01
-headerTags: []
+headerTags: [
+  {
+    "tag": "what-is-speed-reading",
+    "title": "What is Speed Reading?"
+  },
+  {
+    "tag": "how-to-use-speed-reading-in-helperbird",
+    "title": "How to Use Speed Reading in Helperbird"
+  },
+  {
+    "tag": "starting-speed-reading",
+    "title": "Starting Speed Reading"
+  },
+  {
+    "tag": "playback-features",
+    "title": "Playback Features"
+  },
+  {
+    "tag": "customizing-speed-reading-in-helperbird",
+    "title": "Customizing Speed Reading in Helperbird"
+  },
+  {
+    "tag": "accessing-customization-options",
+    "title": "Accessing Customization Options"
+  },
+  {
+    "tag": "customization-options",
+    "title": "Customization Options"
+  },
+  {
+    "tag": "video-tutorial",
+    "title": "Video Tutorial"
+  },
+  {
+    "tag": "need-more-help",
+    "title": "Need More Help?"
+  }
+]
 tags: Features
 url: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 permalink: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
