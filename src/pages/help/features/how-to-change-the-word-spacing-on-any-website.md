@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Turn On Word Spacing in Helperbird
 description: Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to easily adjust the space between words for a more comfortable and readable text layout.
 keywords:
