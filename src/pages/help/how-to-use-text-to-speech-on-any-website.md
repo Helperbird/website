@@ -30,7 +30,7 @@ Helperbird's Text-to-Speech player makes it easy to listen to content on any web
 
 ### Using Text-to-Speech with Highlighted Text
 
-**Step 1**: Click on the Helperbird icon to open the extension menu.
+**Step 1**: Click on the Helperbird icon to open Helperbird.
 
 **Step 2**: Use the search bar to find the 'Text to speech' feature.
 

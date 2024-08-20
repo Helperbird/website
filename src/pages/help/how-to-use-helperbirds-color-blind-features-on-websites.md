@@ -28,7 +28,7 @@ url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 
 ### Turning On Emphasize Links
 
-1. Click the **Helperbird** icon in your browser to open the extension menu.
+1. Click the **Helperbird** icon in your browser to open Helperbird.
 2. Use the search bar and type `"Emphasize Links"`.
 3. Locate the `"Emphasize Links"` toggle and switch it to the **On** position.
 4. Links will now be more distinct on web pages, aiding those with color blindness.

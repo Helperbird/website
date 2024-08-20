@@ -32,7 +32,7 @@ The Word Prediction feature in Helperbird can aid your writing by suggesting wor
 
 ### Turning On Word Prediction
 
-**Step 1**: Click the Helperbird icon to open the extension menu.
+**Step 1**: Click the Helperbird icon to open Helperbird.
 
 **Step 2**: Use the search bar at the top to find the 'Word Prediction' feature.
 

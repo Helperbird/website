@@ -16,7 +16,6 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Columns
 featureDescription: Learn how to use Helperbird’s Paragraph Columns feature to organize text into easy-to-read columns on any webpage. This guide walks you through activating the feature and customizing the layout to suit your reading preferences
 headerTags: [
-  { tag: "how-to-use-the-paragraph-columns-feature-in-helperbird", title: "How to Use the Paragraph Columns Feature in Helperbird" },
   { tag: "how-to-turn-on-paragraph-columns", title: "How to Turn On Paragraph Columns" },
   { tag: "how-to-adjust-the-number-of-columns", title: "How to Adjust the Number of Columns" },
   { tag: "video-tutorial", title: "Video Tutorial" },
