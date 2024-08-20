@@ -28,6 +28,7 @@ headerTags: [
 
 tags: Features
 url: help/how-to-highlight-paragraphs-on-any-page/
+permalink:  help/how-to-highlight-paragraphs-on-any-page/
 ---
 
 
