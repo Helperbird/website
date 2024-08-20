@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to use Word Prediction on Google Docs or any website
 description:
   Learn how easy it is to use Word Prediction on Google Docs or any website with Helperbirds browser

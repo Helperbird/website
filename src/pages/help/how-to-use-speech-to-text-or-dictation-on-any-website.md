@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to use Voice typing or dictation on a website
 description:
   How to use Voice typing or dictation on a website with Helperbirds browser extension.

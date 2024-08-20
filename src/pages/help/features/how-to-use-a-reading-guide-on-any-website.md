@@ -3,9 +3,9 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to use a Reading guide ruler on any website
-description: Learn how to use a Reading guide ruler on a website or pdf with the Helperbird browser extension.
+description: Learn how to use Helperbird’s Reading Guide to keep your eyes on track while reading online. This guide shows you how to turn it on, customize its size, and even change its color to suit your reading style.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,9 +14,22 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Reading Guide
-featureDescription: Learn how to use a Reading guide on any website, pdf or app.
+featureDescription: Learn how to use Helperbird’s Reading Guide to keep your eyes on track while reading online. This guide shows you how to turn it on, customize its size, and even change its color to suit your reading style.
 date: 2022-03-02
-headerTags: []
+headerTags: [
+  { tag: "how-to-use-the-reading-guide-feature-in-helperbird", title: "How to Use the Reading Guide Feature in Helperbird" },
+  { tag: "open-helperbird", title: "Open Helperbird" },
+  { tag: "find-the-reading-guide-option", title: "Find the Reading Guide Option" },
+  { tag: "turn-on-the-reading-guide", title: "Turn On the Reading Guide" },
+  { tag: "start-reading", title: "Start Reading" },
+  { tag: "customizing-the-reading-guide", title: "Customizing the Reading Guide" },
+  { tag: "adjusting-the-height-of-the-guide", title: "Adjusting the Height of the Guide" },
+  { tag: "adjusting-the-width-of-the-guide", title: "Adjusting the Width of the Guide" },
+  { tag: "changing-the-color-of-the-guide", title: "Changing the Color of the Guide" },
+  { tag: "video-tutorial", title: "Video Tutorial" },
+  { tag: "need-more-help", title: "Need More Help?" }
+]
+
 tags: Features
 url: help/how-to-use-a-reading-guide-on-any-website/
 permalink: help/how-to-use-a-reading-guide-on-any-website/

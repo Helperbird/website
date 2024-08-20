@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Volume Booster on Any Website with Helperbird
 description: Maximize your audio experience on any website by learning how to increase the volume beyond the standard limits with Helperbird's Volume Booster feature.
 keywords: Volume Booster, Chrome extension for volume, Loudness enhancement, Helperbird features, Accessibility tools, Audio boost for Chrome, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome

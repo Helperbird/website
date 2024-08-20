@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to use Speed reading on a Website or PDFs
 description: Helperbirds speed reading feature helps the eye's journey through text by guiding it with  fixation points that focus only on initial letters. This removes eye relocation.
 keywords:

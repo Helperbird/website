@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: What are the Helperbird Shortcuts?
 description:
   Learn the shortcuts to use the Helperbird features.
