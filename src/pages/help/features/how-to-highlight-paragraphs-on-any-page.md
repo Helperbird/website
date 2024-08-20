@@ -6,12 +6,8 @@ header: true
 layout: templates/new/help/post.html
 title: How to Add a Border Color to Paragraphs in Helperbird
 description:Learn how to add and customize border colors around paragraphs using Helperbird. This guide helps you enhance text visibility and layout on web pages, making it easy to highlight and emphasize important sections.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: Paragraph Borders
 featureDescription: Learn how to add and customize border colors around paragraphs using Helperbird. This guide helps you enhance text visibility and layout on web pages, making it easy to highlight and emphasize important sections.
@@ -28,7 +24,7 @@ headerTags: [
 
 tags: Features
 url: help/how-to-highlight-paragraphs-on-any-page/
-permalink:  help/how-to-highlight-paragraphs-on-any-page/
+permalink: help/how-to-highlight-paragraphs-on-any-page/
 ---
 
 
