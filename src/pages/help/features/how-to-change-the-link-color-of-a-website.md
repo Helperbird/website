@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 updated: false
 title: HHow to Customize Link Colors on Websites
 description: Learn how to customize the color of links on web pages using Helperbird. This guide walks you through changing the colors of both unvisited and visited links to improve visibility and suit your preferences.
@@ -44,11 +44,11 @@ Click the Helperbird icon to open the extension menu.
 
 ### 2. Find Link Color
 
-Use the search function to locate 'Link color'.
+Use the search function to locate **Link color**.
 
 ### 3. Turn On Link Color Customization
 
-Toggle the 'Links' switch on to activate the link color customization feature.
+Toggle the **Links** switch on to activate the link color customization feature.
 
 ### 4. Choose a Color for Unvisited Links
 
@@ -60,7 +60,7 @@ Below the toggle, you’ll see a palette of colors. Click on the color circle yo
 
 ### 1. Scroll to the Visited Section
 
-With the 'Link color' feature active, scroll down to the 'Visited' section.
+With the 'Link color' feature active, scroll down to the **Visited** section.
 
 ### 2. Choose a Color for Visited Links
 
@@ -80,4 +80,5 @@ The color you choose will immediately apply to all visited links on the current 
 
 ## Need Additional Help?
 
-If you encounter any issues while using this feature, feel free to contact the Helperbird support team for further assistance.
+If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is here to help you out.
+

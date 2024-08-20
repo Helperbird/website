@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Change Background Color on Websites with Helperbird
 description: Learn how to change the background color of web pages using Helperbird. This guide shows you how to activate and customize the background color, making reading more comfortable and reducing eye strain.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

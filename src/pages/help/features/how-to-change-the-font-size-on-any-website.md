@@ -1,7 +1,7 @@
 ---
 new: false
-layout: templates/new/help/post.html
-title: How to Use the Text Size Feature in Helperbird
+layout: templates/new/help/post-new.html
+title: How to Use the Text Size on Wesbites
 description: Learn how to adjust the text size on web pages using Helperbird. This guide shows you how to easily customize text size for better readability and comfort.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
   chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia

@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Adjust Letter Spacing with Helperbird
 description: Learn how to adjust letter spacing on web pages using Helperbird. This guide shows you how to enable and customize letter spacing, making text easier to read, especially for users with dyslexia.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Font Color in Helperbird
 description: Learn how to change the color of text on websites using Helperbird's Font Color feature. This guide walks you through turning on the feature and selecting your preferred text color for easier reading.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

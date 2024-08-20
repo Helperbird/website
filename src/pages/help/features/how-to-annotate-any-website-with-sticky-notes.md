@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use Sticky Notes on Websites & PDF's in Helperbird
 description: Discover how to annotate websites and PDFs with Helperbird's sticky
   notes feature, a user-friendly tool that enhances your web browsing

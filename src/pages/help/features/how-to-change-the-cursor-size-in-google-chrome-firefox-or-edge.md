@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Adjust Cursor Size in Helperbird
 description: Learn how to adjust the cursor size on web pages using Helperbird. This guide makes it easy to customize your cursor for better visibility, with options ranging from small to extra large.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

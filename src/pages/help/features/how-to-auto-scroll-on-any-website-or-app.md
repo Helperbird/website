@@ -1,6 +1,6 @@
 ---
 new: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Auto Scroll Feature in Helperbird
 description: Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

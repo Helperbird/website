@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Magnifier Feature in Helperbird
 description: Need to zoom in on something? This guide shows you how to use Helperbird's Magnifier feature to get a closer look at anything on your screen. It’s easy to set up and customize, making your reading experience even better.
 keywords: Helperbird, magnify, zoom, website, browser extension, text, images, feature

@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Customize Text Highlight Color in Helperbird
 description: Learn how to customize the text highlight color in Helperbird. This guide shows you how to easily change the highlight color, making selected text easier to spot for better reading and editing.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for

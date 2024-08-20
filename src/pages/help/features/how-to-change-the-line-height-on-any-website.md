@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Adjust Line Height with Helperbird
 description: Learn how to adjust line height on web pages using Helperbird. This guide helps you customize line spacing for better readability and reduced visual stress, making reading easier for everyone.
 keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
