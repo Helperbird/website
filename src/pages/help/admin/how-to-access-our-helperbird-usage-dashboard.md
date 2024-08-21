@@ -13,7 +13,7 @@ url: help/how-to-access-usage-dashboard/
 permalink: help/how-to-access-usage-dashboard/
 name: Helperbird Staff
 headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "steps-to-access-your-usage-dashboard", title: "Access Your Usage Dashboard" }]  
-tags: Admin
+tags: admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T19:06:16.157Z
 youtubeId: vwT8SAJfU3E

@@ -17,7 +17,7 @@ cardTitle: How to Install Helperbird for Certain Users in G Suite and Microsoft 
 featureDescription: This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
 date: 2016-01-04
 headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "installing-helperbird-in-g-suite", title: "Installing Helperbird in G Suite" },{ tag: "installing-helperbird-in-microsoft-365", title: "Installing Helperbird in Microsoft 365" }]  
-tags: Admin
+tags: admin
 url: help/installing-helperbird-to-certain-users/
 permalink: help/installing-helperbird-to-certain-users/
 ---

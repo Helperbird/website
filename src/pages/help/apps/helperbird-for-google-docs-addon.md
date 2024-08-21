@@ -18,7 +18,7 @@ headerTags: [
   { tag: "please-note", title: "Please Note" },
   { tag: "contact-us", title: "Contact Us" }
 ]
-tags: Apps
+tags: apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: PfILiWebkuc

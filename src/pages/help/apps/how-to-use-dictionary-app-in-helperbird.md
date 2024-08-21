@@ -22,7 +22,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Apps
+tags: apps
 url: help/how-to-use-dictionary-app-in-helperbird/
 permalink: help/how-to-use-dictionary-app-in-helperbird/
 ---

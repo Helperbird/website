@@ -20,7 +20,7 @@ featureDescription: This guide provides administrators with the steps needed to 
 
 date: 2016-01-04
 headerTags: []
-tags: Admin
+tags: admin
 url: help/removing-helperbird-for-everyone/
 permalink: help/removing-helperbird-for-everyone/
 ---

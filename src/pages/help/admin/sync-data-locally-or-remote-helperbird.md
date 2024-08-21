@@ -13,7 +13,7 @@ url: help/sync-data-locally-or-remote-helperbird/
 permalink:  help/sync-data-locally-or-remote-helperbird/
 name: "Robert James "
 headerTags: []
-tags: Admin
+tags: admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: vwT8SAJfU3E

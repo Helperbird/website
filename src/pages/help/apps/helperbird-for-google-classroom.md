@@ -21,7 +21,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Walkthrough" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Apps
+tags: apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU

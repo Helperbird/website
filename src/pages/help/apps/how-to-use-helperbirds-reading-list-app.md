@@ -21,7 +21,7 @@ headerTags: [
   { tag: "how-to-remove-a-website-from-your-reading-list", title: "How to Remove a Website from Your Reading List" },
   { tag: "need-more-help", title: "Need more help?" }
 ]
-tags: Apps
+tags: apps
 url: help/how-to-use-helperbirds-reading-list-app/
 permalink: help/how-to-use-helperbirds-reading-list-app/
 ---

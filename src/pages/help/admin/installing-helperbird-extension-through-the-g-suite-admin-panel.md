@@ -16,7 +16,7 @@ cardTitle: How to Install Helperbird Through the G Suite Admin Panel
 featureDescription: This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite.
 date: 2016-01-04
 headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "steps-to-deploy-helperbird-on-google-chrome", title: "Steps to Deploy Helperbird on Google Chrome" }]  
-tags: Admin
+tags: admin
 url: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 permalink: help/installing-helperbird-extension-through-the-g-suite-admin-panel/
 ---

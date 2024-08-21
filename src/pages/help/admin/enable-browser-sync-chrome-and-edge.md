@@ -13,7 +13,7 @@ url: help/enable-browser-sync-chrome-and-edge/
 permalink: help/enable-browser-sync-chrome-and-edge/
 name: "Robert James "
 headerTags: [ { tag: "how-to-turn-on-sync-in-chrome-or-edge", title: "Turn on Sync" },{ tag: "how-to-turn-off-sync-in-chrome-or-edge", title: "Turn Off Sync" },{ tag: "why-helperbird-uses-sync", title: "Why Helperbird Uses Sync" }]  
-tags: Admin
+tags: admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: vwT8SAJfU3E

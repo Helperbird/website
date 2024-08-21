@@ -16,7 +16,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: How to Deploy Helperbird Through the Google Admin Console for EDU Accounts
 featureDescription: This guide provides administrators with step-by-step instructions on deploying the Helperbird extension across various platforms, including Google Chrome, Microsoft Edge, Microsoft 365, and G Suite.
 headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "deploying-on-google-chrome", title: "Deploying on Google Chrome" }]  
-tags: Admin
+tags: admin
 url: help/how-to-deploy-helperbird-to-your-school-or-business/
 permalink: help/how-to-deploy-helperbird-to-your-school-or-business/
 img: /assets/images/graph/twitter.png

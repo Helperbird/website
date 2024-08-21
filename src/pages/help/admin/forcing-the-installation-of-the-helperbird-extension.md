@@ -13,7 +13,7 @@ url: help/forcing-the-installation-of-the-helperbird-extension/
 permalink: help/forcing-the-installation-of-the-helperbird-extension/
 name: "Robert James Gabriel "
 headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "access-chrome-management", title: "Access Chrome Management" },{ tag: "force-install-the-helperbird-extension", title: "Force Install Helperbird" },{ tag: "verification", title: "Verification" }]  
-tags: Admin
+tags: admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:36:26.826Z
 youtubeId: vwT8SAJfU3E

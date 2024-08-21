@@ -12,7 +12,7 @@ cardTitle: Setting Policies
 featureDescription: In enterprise environments, administrators can control Helperbird settings across Windows, ChromeOS, and MacOS platforms using a managed schema.
 date: 2016-01-04
 headerTags: []
-tags: Admin
+tags: admin
 url: help/setting-helperbird-policies-in-enterprise-environments/
 permalink:  help/setting-helperbird-policies-in-enterprise-environments/
 ---

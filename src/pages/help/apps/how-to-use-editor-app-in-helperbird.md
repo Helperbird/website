@@ -28,7 +28,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Apps
+tags: apps
 url: help/how-to-use-editor-app-in-helperbird/
 permalink: help/how-to-use-editor-app-in-helperbird/
 ---

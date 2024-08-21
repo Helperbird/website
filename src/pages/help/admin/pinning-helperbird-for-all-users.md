@@ -17,7 +17,7 @@ cardTitle:  How to Force Pin the Helperbird Extension
 featureDescription: This guide provides administrators with the steps needed to force pin the Helperbird extension for all users within an organizational unit using G Suite.
 date: 2016-01-04
 headerTags: [ { tag: "steps-for-pinning-helperbird-for-all-users-in-g-suite", title: "Pinning Helperbird" }]  
-tags: Admin
+tags: admin
 url: help/pinning-helperbird-for-all-users/
 permalink: help/pinning-helperbird-for-all-users/
 ---

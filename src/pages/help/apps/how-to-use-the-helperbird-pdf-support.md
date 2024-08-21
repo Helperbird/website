@@ -26,7 +26,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "how-to-use-extract-text-ocr-on-pdf-files-in-helperbird", title: "How to Use Extract Text (OCR) on PDF Files in Helperbird" }
 ]
-tags: Apps
+tags: apps
 url: help/how-to-use-the-helperbird-pdf-support/
 permalink: help/how-to-use-the-helperbird-pdf-support/
 ---

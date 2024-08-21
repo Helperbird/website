@@ -25,7 +25,7 @@ headerTags: [
   { tag: "access-your-settings", title: "Access Your Settings" }
 ]
 
-tags: Apps
+tags: apps
 img: assets/images2/uploads/helperbird-powerpoint-online-integration.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: vwT8SAJfU3E
