@@ -41,6 +41,7 @@ Find the **Volume Booster** option within the Media Options section.
 
 Click on the toggle switch next to **Volume Booster** to turn the feature on. 
 
+---
 
 ## Adjusting the Volume Booster
 
