@@ -22,8 +22,8 @@ headerTags: [
   }
 ]
 tags: Features
-url: help/how-to-extract-text-from-any-image-pdf-or-website/
-permalink: help/how-to-extract-text-from-any-image-pdf-or-website/
+url: help/what-are-the-helperbird-shortcuts/
+permalink: help/what-are-the-helperbird-shortcuts/
 ---
 
 ## Turning On Helperbird Shortcuts
