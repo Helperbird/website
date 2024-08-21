@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Paragraph Columns Feature in Helperbird
 description: Learn how to use Helperbird’s Paragraph Columns feature to organize text into easy-to-read columns on any webpage. This guide walks you through activating the feature and customizing the layout to suit your reading preferences
 keywords:

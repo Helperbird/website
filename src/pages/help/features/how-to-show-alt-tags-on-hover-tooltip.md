@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title:  How to See Alt Text and Title Tags for Images and Links with Helperbird
 description: Learn how to easily view alt text for images and title tags for links on any webpage using Helperbird. This guide shows you how to activate the feature and gain extra context while browsing.
 keywords:

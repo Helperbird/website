@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: HHow to Turn On Reduced Motion in Helperbird
 description: Learn how to enable Reduced Motion in Helperbird to reduce animations on websites, creating a calmer and more comfortable browsing experience. Perfect for those sensitive to motion.
 keywords:

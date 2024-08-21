@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Line Focus Feature in Helperbird
 description:  Learn how to use and customize Helperbird’s Line Focus feature to improve your reading focus. This guide shows you how to highlight the current line of text while dimming the rest of the page, making reading easier and more comfortable.
 keywords:

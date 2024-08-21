@@ -3,7 +3,7 @@ new: false
 updated: true
 footer: true
 header: true
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Dyslexia Ruler in Helperbird
 description: Discover how to use and customize Helperbird’s Dyslexia Ruler to make reading easier. This guide shows you how to adjust the ruler’s height, width, color, and more for a better reading experience.
 keywords:

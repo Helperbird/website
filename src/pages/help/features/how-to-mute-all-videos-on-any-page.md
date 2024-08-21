@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use Video Playback Controls in Helperbird
 description: Learn how to control video playback speed and volume on any webpage using Helperbird. This guide shows you how to customize your video-watching experience, including turning on default controls.
 keywords:

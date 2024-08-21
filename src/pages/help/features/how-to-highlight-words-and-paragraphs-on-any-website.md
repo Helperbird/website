@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Highlighter Feature in Helperbird
 description: Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web pages. This guide walks you through activating the tool, choosing colors, and keeping track of your highlights.
 keywords:

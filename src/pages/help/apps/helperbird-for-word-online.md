@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use Helperbird with Microsoft Word Online
 description: Learn how to integrate Helperbird's powerful accessibility tools with Word Online to make document editing and reading more accessible.
 keywords: Dyslexia tools, Word Online accessibility, Voice typing for Word, Text to speech for Word, Dyslexia fonts for Word, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Lexend for Word, OpenDyslexic for Word

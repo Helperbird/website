@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Pause and Resume Helperbird
 description: Need a break from Helperbird? Learn how to pause and restart the extension anytime without losing your settings. This guide shows you how to easily turn Helperbird on and off whenever you want.
 keywords:

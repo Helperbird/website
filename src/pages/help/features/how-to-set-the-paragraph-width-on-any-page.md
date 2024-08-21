@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Set the  Paragraph Width with Helperbird
 description: Learn how to adjust paragraph width on any webpage using Helperbird. This guide helps you customize text layout to create a more comfortable reading experience.
 keywords:

@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use the Translate Feature in Helperbird
 description: Learn how to use Helperbird’s translation feature to easily translate selected text or entire webpages into your preferred language. Powered by Google Translate, this guide walks you through translating content and changing language settings.
 keywords:

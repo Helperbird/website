@@ -1,7 +1,7 @@
 ---
 new: false
 updated: false
-layout: templates/new/help/post.html
+layout: templates/new/help/post-new.html
 title: How to Use Helperbird with Microsoft Powerpoint Online
 description: Learn how to integrate Helperbird's powerful accessibility tools with Powerpoint Online to make document editing and reading more accessible.
 keywords: Dyslexia tools, PowerPoint Online accessibility, Voice typing for PowerPoint, Text to speech for PowerPoint, Dyslexia fonts for PowerPoint, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Lexend for PowerPoint, OpenDyslexic for PowerPoint
