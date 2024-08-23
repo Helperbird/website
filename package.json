@@ -74,7 +74,7 @@
 		"tiny-slider": "^2.9.4",
 		"webpack": "^5.90.0",
 		"webpack-cli": "^4.10.0",
-		"workbox-webpack-plugin": "^7.0.0"
+		"workbox-webpack-plugin": "^7.1.0"
 	},
 	"eslintConfig": {
 		"root": true,
