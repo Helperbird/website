@@ -26,7 +26,7 @@ headerTags: [
   { tag: "video-walkthrough", title: "Video Walkthrough" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-use-immersive-reader-on-any-website/
 redirect_from: /support/how-to-use-immersive-reader-in-google-chrome-firefox-edge/
 permalink:  help/how-to-use-immersive-reader-on-any-website/

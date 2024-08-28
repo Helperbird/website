@@ -20,7 +20,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-additional-help", title: "Need Additional Help?" }
 ]
-tags: Features
+tags: features
 img: assets/images2/uploads/add-a-heading.png
 cardTitle: Sticky notes
 featureDescription: Discover how to annotate websites and PDFs with Helperbird's

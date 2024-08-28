@@ -26,7 +26,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-show-alt-tags-on-hover-tooltip/
 permalink: help/how-to-show-alt-tags-on-hover-tooltip/
 ---

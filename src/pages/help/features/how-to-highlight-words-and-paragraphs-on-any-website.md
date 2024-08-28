@@ -25,7 +25,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-highlight-words-and-paragraphs-on-any-website/
 permalink:  help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---

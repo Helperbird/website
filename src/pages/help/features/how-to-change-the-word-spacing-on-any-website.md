@@ -23,7 +23,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-change-the-word-spacing-on-any-website/
 permalink:  help/how-to-change-the-word-spacing-on-any-website/
 ---

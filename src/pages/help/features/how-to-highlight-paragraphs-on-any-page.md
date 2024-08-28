@@ -21,7 +21,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-highlight-paragraphs-on-any-page/
 permalink: help/how-to-highlight-paragraphs-on-any-page/
 ---

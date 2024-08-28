@@ -21,7 +21,7 @@ headerTags: [
   { tag: "need-additional-help", title: "Need Additional Help?" }
 ]
 
-tags: Features
+tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2019-01-01
 youtubeId: vwT8SAJfU3E

@@ -26,7 +26,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-enable-spell-check-on-any-website-or-app/
 permalink:  help/how-to-enable-spell-check-on-any-website-or-app/
 ---

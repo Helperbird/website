@@ -21,7 +21,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 date: 2018-01-04
 url: help/how-to-set-the-column-width-on-any-page/
 permalink:  help/how-to-set-the-column-width-on-any-page/

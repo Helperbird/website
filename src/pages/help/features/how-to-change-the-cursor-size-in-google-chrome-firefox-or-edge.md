@@ -19,7 +19,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2018-01-02
 youtubeId: vwT8SAJfU3E

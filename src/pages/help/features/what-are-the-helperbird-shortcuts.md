@@ -21,7 +21,7 @@ headerTags: [
     "title": "View All Shortcut Combos"
   }
 ]
-tags: Features
+tags: features
 url: help/what-are-the-helperbird-shortcuts/
 permalink: help/what-are-the-helperbird-shortcuts/
 ---

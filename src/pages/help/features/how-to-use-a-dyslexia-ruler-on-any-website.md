@@ -28,7 +28,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-use-a-dyslexia-ruler-on-any-website/
 permalink: help/how-to-use-a-dyslexia-ruler-on-any-website/
 ---

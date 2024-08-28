@@ -19,7 +19,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Featuresl
+tags: featuresl
 url: help/how-to-pause-helperbird/
 permalink:  help/how-to-pause-helperbird/
 ---

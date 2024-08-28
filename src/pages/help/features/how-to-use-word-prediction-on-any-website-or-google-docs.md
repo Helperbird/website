@@ -34,7 +34,7 @@ headerTags: [
     "title": "Need More Help?"
   }
 ]
-tags: Features
+tags: features
 url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 permalink: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---

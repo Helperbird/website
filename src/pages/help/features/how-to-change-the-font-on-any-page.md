@@ -13,7 +13,7 @@ url: help/how-to-change-the-font-on-any-page/
 permalink:  help/how-to-change-the-font-on-any-page/
 name: Helperbird Staff
 headerTags: []
-tags: Features
+tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-01
 youtubeId: vwT8SAJfU3E

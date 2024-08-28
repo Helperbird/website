@@ -65,7 +65,7 @@ headerTags: [
   }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-use-the-highlight-menu-in-helperbird/
 permalink: help/how-to-use-the-highlight-menu-in-helperbird/
 ---

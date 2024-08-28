@@ -27,7 +27,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-print-a-website-with-helperbird/
 permalink:  help/how-to-print-a-website-with-helperbird/
 ---

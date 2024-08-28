@@ -22,7 +22,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-change-the-selection-highlight-color-of-a-website/
 permalink:  help/how-to-change-the-selection-highlight-color-of-a-website/
 ---

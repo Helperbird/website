@@ -16,7 +16,7 @@ cardTitle: Reading Mode
 featureDescription: Learn how to use Helperbird’s Reading Mode to create a clean, distraction-free reading experience on any website or PDF. Find out how to activate the feature, customize it, and discover the benefits of focusing on just the content that matters.
 date: 2022-03-01
 headerTags: []
-tags: Features
+tags: features
 url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 redirect_from: [/support/how-to-use-reading-mode-in-google-chrome-firefox-edge/,/support/how-to-use-reading-mode-to-remove-website-distractions-in-chrome-firefox-edge/]
 permalink: help/how-to-use-reading-mode-and-remove-ads-on-any-website/

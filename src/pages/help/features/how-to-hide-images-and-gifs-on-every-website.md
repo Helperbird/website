@@ -22,7 +22,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-hide-images-and-gifs-on-every-website/
 permalink:  help/how-to-hide-images-and-gifs-on-every-website/
 ---

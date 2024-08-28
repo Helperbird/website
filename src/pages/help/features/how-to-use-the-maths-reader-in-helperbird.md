@@ -17,7 +17,7 @@ cardTitle: Maths Reader
 featureDescription: Learn how to use Helperbird's Maths Reader feature, to easily extrac and read maths questions and stem in Immersive Reader. This guide walks you through each step, ensuring a smooth and accessible experience.
 date: 2022-02-01
 
-tags: Features
+tags: features
 url: help/how-to-use-the-maths-reader-in-helperbird/
 permalink:   help/how-to-use-the-maths-reader-in-helperbird.md/
 ---

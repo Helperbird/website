@@ -34,7 +34,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-use-text-to-speech-on-any-website/
 permalink: help/how-to-use-text-to-speech-on-any-website/
 ---

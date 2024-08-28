@@ -25,7 +25,7 @@ headerTags: [
   { tag: "need-more-help", title: "Need More Help?" }
 ]
 
-tags: Features
+tags: features
 url: help/how-to-mute-all-videos-on-any-page/
 permalink:  help/how-to-mute-all-videos-on-any-page/
 

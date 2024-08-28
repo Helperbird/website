@@ -25,7 +25,7 @@ headerTags: [
   { tag: "video-tutorial", title: "Video Tutorial" },
   { tag: "need-more-help", title: "Need More Help?" }
 ]
-tags: Features
+tags: features
 url: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 permalink: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
 ---

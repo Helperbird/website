@@ -38,7 +38,7 @@ headerTags: [
     "title": "Need More Help?"
   }
 ]
-tags: Features
+tags: features
 url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 permalink: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
