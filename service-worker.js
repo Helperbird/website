@@ -2940,7 +2940,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/trouble/index.html",
-    "revision": "e8c1b5b75cb9d1f5c71189af9cb0b5ee"
+    "revision": "a19d25f03bcc62060576d3276dfcd221"
   },
   {
     "url": "help/trouble/index.png",
@@ -2977,6 +2977,14 @@ self.__precacheManifest = [
   {
     "url": "help/what-is-helperbird-unlimited/index.png",
     "revision": "49eb2fb3022046570a7e5f150f852352"
+  },
+  {
+    "url": "help/why-helperbird-and-other-extensions-dont-work-on-certain-pages/index.html",
+    "revision": "b778f0ea8244e07bffcd632b4e9fbdf3"
+  },
+  {
+    "url": "help/why-helperbird-and-other-extensions-dont-work-on-certain-pages/index.png",
+    "revision": "90df61198ef09d2f8195c1564ef7ab2a"
   },
   {
     "url": "in-the-news/index.html",
@@ -3184,7 +3192,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.html",
-    "revision": "8f45343fcd279802371e0f0eff2752e8"
+    "revision": "f467153de51c04b9e9de01dc9bc6db53"
   },
   {
     "url": "sitemap/index.png",
