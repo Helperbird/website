@@ -10,75 +10,82 @@ const { format, parseISO } = require('date-fns');
 const moment = require('moment');
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
-const createSocialImageForArticle = (input, output) =>
-	new Promise((resolve, reject) => {
-		(async () => {
-			// Check if the output image already exists
-			if (fs.existsSync(output)) {
-				// If it exists, resolve the promise and return early
-				resolve();
-				return;
-			}
 
-			// read data from input file
-			try {
-				const data = fs.readFileSync(input, { encoding: 'utf-8' });
-				// get title from file data
-				const [, title] = data.match(/cardTitle:(.*)/);
+const createSocialImageForArticle = async (input, output) => {
+    try {
+        // Check if the output image already exists
+        if (fs.existsSync(output)) {
+            return;
+        }
 
-				const post = {
-					title: title.trim(),
-					author: 'Helperbird',
-					tagline: 'Your Accessibility Assistant'
-				};
+        // Read data from the input file
+        const data = fs.readFileSync(input, { encoding: 'utf-8' });
 
-				const width = 1200;
-				const height = 627;
-				const imagePosition = { w: 100, h: 100, x: 360, y: 260 };
-				const titleY = 300;
-				const titleLineHeight = 50;
+        // Get title from file data
+        const [, title] = data.match(/cardTitle:(.*)/);
 
-				const canvas = createCanvas(width, height);
-				const context = canvas.getContext('2d');
+        const post = {
+            title: title.trim(),
+            author: 'Helperbird',
+            tagline: 'Accessibility & Productivity App' // You can customize or remove this as needed
+        };
 
-				const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
+        const width = 1200;
+        const height = 627;
 
-				context.fillStyle = '#450a75';
-				context.fillRect(0, 0, width, height);
+        const canvas = createCanvas(width, height);
+        const context = canvas.getContext('2d');
 
-				context.font = "bold 30pt 'PT Sans'";
-				context.textAlign = 'left';
-				context.fillStyle = '#ffffff';
+        const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
 
-				const titleText = formatTitle(post.title);
-				context.fillText(titleText[0], 470, titleY);
-				if (titleText[1]) {
-					context.fillText(titleText[1], 485, titleY + titleLineHeight);
-				}
-				const authorY = titleText[1] ? 510 : 465; // Adjusted author's Y position
+        // Background
+        context.fillStyle = '#450a75';
+        context.fillRect(0, 0, width, height);
 
-				context.font = "20pt 'PT Sans'";
-				context.fillText(`${post.author} - ${post.tagline}`, 485, authorY);
+        // Calculate logo position centered horizontally above the title
+        const logoWidth = 100;
+        const logoHeight = 100;
+        const logoX = (width - logoWidth) / 2;
+        const logoY = 150;
 
-				const { w, h, x, y } = imagePosition;
-				context.drawImage(helperbirdLogo, x, y, w, h);
+        // Draw Helperbird Logo
+        context.drawImage(helperbirdLogo, logoX, logoY, logoWidth, logoHeight);
 
-				const outputDir = path.dirname(output);
-				if (!fs.existsSync(outputDir)) {
-					fs.mkdirSync(outputDir, { recursive: true });
-				}
+        // Title Styling and Positioning
+        context.font = "bold 40pt 'PT Sans'";
+        context.textAlign = 'center';
+        context.fillStyle = '#ffffff';
 
-				// write the output image
-				const stream = fs.createWriteStream(output);
-				stream.on('finish', resolve);
-				stream.on('error', reject);
-				canvas.createPNGStream({ quality: 1.0 }).pipe(stream);
-			} catch (e) {
-				console.error(input, e);
-				reject(e); // Reject the promise in case of an error
-			}
-		})();
-	});
+        const titleText = formatTitle(post.title);
+        const titleX = width / 2;
+        const titleY = logoY + logoHeight + 75; // Below the logo
+        context.fillText(titleText[0], titleX, titleY);
+        if (titleText[1]) {
+            context.fillText(titleText[1], titleX, titleY + 50);
+        }
+
+        // Author and Tagline at the Bottom Center
+        context.font = "25pt 'PT Sans'";
+        const authorText = `${post.author} - ${post.tagline}`;
+        context.fillText(authorText, width / 2, height - 50);
+
+        // Create output directory if it doesn't exist
+        const outputDir = path.dirname(output);
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+
+        // Write the output image
+        const stream = fs.createWriteStream(output);
+        stream.on('finish', () => console.log(`Image created at ${output}`));
+        stream.on('error', (error) => console.error(`Error writing image: ${error}`));
+        canvas.createPNGStream({ quality: 1.0 }).pipe(stream);
+
+    } catch (e) {
+        console.error(`Error processing file ${input}:`, e);
+        throw e; // Reject in case of an error
+    }
+};
 
 const manifest = {
 	'main.js': '/assets/js/main.bundle.js',
