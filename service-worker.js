@@ -32,7 +32,7 @@ self.__precacheManifest = [
   },
   {
     "url": "404.png",
-    "revision": "705c095a9e5869af74def9b4b87ac1e8"
+    "revision": "cd781cea608bdbfe7716356d56352188"
   },
   {
     "url": "about/index.html",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.png",
-    "revision": "d73e548ec1590e13f0c4757f575ed02d"
+    "revision": "f375e6c5cb6fe3eda4b23bf20adfbe98"
   },
   {
     "url": "accessibility-statement/index.html",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "accessibility-statement/index.png",
-    "revision": "9aee207c0305383ff538a720d05c252a"
+    "revision": "51609e45aa36b4addd149444788de714"
   },
   {
     "url": "assets/css/blog.css",
@@ -1368,7 +1368,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/10-essential-assistive-technology-tools-web-accessibility/index.png",
-    "revision": "4d74e75cb116139230da54ebf81f6bff"
+    "revision": "5bc48f6e7d8b8cd46ada2e4c5b7e33b5"
   },
   {
     "url": "blog/4-key-strategies-for-communicating-your-child-needs-to-school/index.html",
@@ -1376,7 +1376,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/4-key-strategies-for-communicating-your-child-needs-to-school/index.png",
-    "revision": "4b91a4496f0a111e83907ffa1df1f6f2"
+    "revision": "9b910c240380e252e5e805e529b15bec"
   },
   {
     "url": "blog/4-ways-to-be-more-accessible-on-social-media/index.html",
@@ -1384,7 +1384,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/4-ways-to-be-more-accessible-on-social-media/index.png",
-    "revision": "7a83dedffddf0682184e8c111dca2532"
+    "revision": "16bacb9c8b5384fd319a20bbf098c775"
   },
   {
     "url": "blog/6-famous-people-with-dyslexia/index.html",
@@ -1392,7 +1392,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/6-famous-people-with-dyslexia/index.png",
-    "revision": "3b62b938c6e7c2644bea3aa4a62c5a5e"
+    "revision": "203cde114b6f767623796e54d4a4a939"
   },
   {
     "url": "blog/7-steps-to-create-personalised-learning-plans-for-students/index.html",
@@ -1400,7 +1400,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/7-steps-to-create-personalised-learning-plans-for-students/index.png",
-    "revision": "f9413d1c1275d41a86be133eafbdd05c"
+    "revision": "ee7a9c675a6013c95aa222d8df2daeb1"
   },
   {
     "url": "blog/accessibility-tips-for-epilepsy/index.html",
@@ -1408,7 +1408,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/accessibility-tips-for-epilepsy/index.png",
-    "revision": "6b78ba83d51d3019bd49055002ed5a03"
+    "revision": "a4b27cf4436fe4f1909cd43c17fd1cb4"
   },
   {
     "url": "blog/benefits-of-ipads-in-the-classroom/index.html",
@@ -1416,7 +1416,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/benefits-of-ipads-in-the-classroom/index.png",
-    "revision": "58632803dcd69b60038ccf1dd6330491"
+    "revision": "d2b66c2c6b8aa794ad1d096a343ebc17"
   },
   {
     "url": "blog/best-careers-for-people-with-dyslexia/index.html",
@@ -1424,7 +1424,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/best-careers-for-people-with-dyslexia/index.png",
-    "revision": "c6aeacdb96f35bc702d7137504d3ca2e"
+    "revision": "0035d4822d43f15b1c1646b6597ec185"
   },
   {
     "url": "blog/boosting-classroom-accessibility/index.html",
@@ -1432,7 +1432,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/boosting-classroom-accessibility/index.png",
-    "revision": "a056654e362017180bf9ba16628f6c15"
+    "revision": "8662d936984b00a7065da27ba6658d56"
   },
   {
     "url": "blog/celebrating-10-years-of-helperbird/index.html",
@@ -1440,7 +1440,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/celebrating-10-years-of-helperbird/index.png",
-    "revision": "3efead1a7735c445386327d660d2516f"
+    "revision": "f26afc83513f9df28b72ea72bb81fcbb"
   },
   {
     "url": "blog/creating-accessible-emails-a-step-by-step-guide/index.html",
@@ -1448,7 +1448,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/creating-accessible-emails-a-step-by-step-guide/index.png",
-    "revision": "aa7eb8115b33f9857a408db74b72999d"
+    "revision": "6f05f8a77284824943c01b7e3e540b55"
   },
   {
     "url": "blog/enhancing-inclusivity-role-of-accessibility-software-in-modern-classrooms-with-helperbird/index.html",
@@ -1456,7 +1456,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/enhancing-inclusivity-role-of-accessibility-software-in-modern-classrooms-with-helperbird/index.png",
-    "revision": "2c0be92517fe5cbc5b5e2499dc95872d"
+    "revision": "19c05405fecd97c2b00f454a4a13f08d"
   },
   {
     "url": "blog/fostering-inclusivity-at-work/index.html",
@@ -1464,7 +1464,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/fostering-inclusivity-at-work/index.png",
-    "revision": "3a55e0a35d3efcfe157510a0db9204b6"
+    "revision": "32c92acc74dd1d0506ad8f557e0601d5"
   },
   {
     "url": "blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/index.html",
@@ -1472,7 +1472,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/heads-up-helperbirds-got-immersive-reader-too-extension-free/index.png",
-    "revision": "cf0431ff27105717a9479a773e4b30fd"
+    "revision": "6cc19a77dab5d4d824b135687aba6d87"
   },
   {
     "url": "blog/helperbird-dyslexia-solutions-jamies-story/index.html",
@@ -1480,7 +1480,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helperbird-dyslexia-solutions-jamies-story/index.png",
-    "revision": "5c532b928d132d061b33033b3e757d2a"
+    "revision": "566e56a531ce8ee1c3d56e68cf8ad9a5"
   },
   {
     "url": "blog/helperbird-immersive-reader-marketing-alexs-story/index.html",
@@ -1488,7 +1488,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helperbird-immersive-reader-marketing-alexs-story/index.png",
-    "revision": "60f3bb5eccfc52cccafdecf25f0bc825"
+    "revision": "95d4688f1bfa57f8941144c4b67107be"
   },
   {
     "url": "blog/helperbird-pdf-reader-rorys-story/index.html",
@@ -1496,7 +1496,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helperbird-pdf-reader-rorys-story/index.png",
-    "revision": "bfcdd986c3952b521a0fa6fd2e5a31da"
+    "revision": "97fcc1200e1f9a083e2b5c188b00d3b8"
   },
   {
     "url": "blog/helperbirds-winner-of-the-2021-chromebook/index.html",
@@ -1504,7 +1504,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helperbirds-winner-of-the-2021-chromebook/index.png",
-    "revision": "05bcb5ec934971f2275cef56b765ec25"
+    "revision": "b61542841114e5d1042da3d50a0de25d"
   },
   {
     "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.html",
@@ -1512,7 +1512,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/helping-students-thrive-with-helperbirds-accessibility-tools/index.png",
-    "revision": "242c82899f21a8688cf7be4607e1f624"
+    "revision": "6994df72bfffc7d5f30f6ec6ac6c33b8"
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.html",
@@ -1520,7 +1520,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-extracurriculars-boost-self-esteem-in-dyslexic-learners/index.png",
-    "revision": "e3e376946ca97c0cd5f97f1f6620d493"
+    "revision": "020e7130a539bc4f08e3a0253f95ca4c"
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.html",
@@ -1528,7 +1528,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-helperbird-can-support-homebound-learning-for-recovering-students/index.png",
-    "revision": "30f35355f519ec38ce198e12e4053f9c"
+    "revision": "602faefa501d08f39e29e69ce2eccaac"
   },
   {
     "url": "blog/how-to-add-extensions-to-safari/index.html",
@@ -1536,7 +1536,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-add-extensions-to-safari/index.png",
-    "revision": "bbeaa9e99210f7bde69fc4de0b8965b0"
+    "revision": "8518b88ac5e197919c9b0918ae3dd9ba"
   },
   {
     "url": "blog/how-to-avoid-wfh-burnout-and-maximize-productivity/index.html",
@@ -1544,7 +1544,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-avoid-wfh-burnout-and-maximize-productivity/index.png",
-    "revision": "3e8128aef90c0d6c1b89468fda50056e"
+    "revision": "eccff86f71cae41e354a9cab467b1814"
   },
   {
     "url": "blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/index.html",
@@ -1552,7 +1552,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-deploy-apps-and-extensions-through-the-google-admin-console/index.png",
-    "revision": "86158575242df3838df2ffd57e37d6f6"
+    "revision": "784a5e790851cfeb10f28f4a3e3bede6"
   },
   {
     "url": "blog/how-to-keep-wfh-employees-engaged-and-motivated/index.html",
@@ -1560,7 +1560,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-keep-wfh-employees-engaged-and-motivated/index.png",
-    "revision": "824cc7a8302c082d84c9d3e5b0089ccd"
+    "revision": "a564776c0baceecc8534a636bae8bbb1"
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.html",
@@ -1568,7 +1568,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/how-to-use-immersive-reader-in-google-docs/index.png",
-    "revision": "458bfac3cabe2c6bb35c46febb64a429"
+    "revision": "4d228ef256ad9766c2d41e8a31acf91b"
   },
   {
     "url": "blog/importance-dyslexia-friendly-design-websites-apps/index.html",
@@ -1576,7 +1576,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/importance-dyslexia-friendly-design-websites-apps/index.png",
-    "revision": "bcbcd7bc7675a837ede9d50bcca455ae"
+    "revision": "33a8b5eba8abe657813edcd17ac6f054"
   },
   {
     "url": "blog/index.html",
@@ -1584,7 +1584,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/index.png",
-    "revision": "bcc3e662977584207cb07f84a6998a44"
+    "revision": "ec2d47b7227ee780cd298562dbefcbf0"
   },
   {
     "url": "blog/interview-with-dyslexic-founder-of-helperbird/index.html",
@@ -1592,7 +1592,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/interview-with-dyslexic-founder-of-helperbird/index.png",
-    "revision": "9679806a64a6851a4412b3aa46c1bac6"
+    "revision": "597b49d96c3c7c17deca82aaaf3b90fe"
   },
   {
     "url": "blog/positive-thoughts-might-benefit-dyslexic-students/index.html",
@@ -1600,7 +1600,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/positive-thoughts-might-benefit-dyslexic-students/index.png",
-    "revision": "5f4be626ad5a45c7d2fedbaa34b97b7e"
+    "revision": "8623842727ea7c0ec892d3fe927e215e"
   },
   {
     "url": "blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/index.html",
@@ -1608,7 +1608,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/index.png",
-    "revision": "9575babd87f29a023b05444054d595fb"
+    "revision": "3fbb05ee0798d1a6fda7c26ade2e10be"
   },
   {
     "url": "blog/reword-function-student-success-story/index.html",
@@ -1616,7 +1616,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/reword-function-student-success-story/index.png",
-    "revision": "a4ec73425f5f10e3330268320f8f114b"
+    "revision": "8d51e7e0c2b8efa1d29f4975595728a8"
   },
   {
     "url": "blog/see-the-future-of-helperbird-2023-2024/index.html",
@@ -1624,7 +1624,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/see-the-future-of-helperbird-2023-2024/index.png",
-    "revision": "4400663ee9f606c9bc7c832e0f5ca3b5"
+    "revision": "5b16e1acbadddd6a523eeb7a27d630b2"
   },
   {
     "url": "blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/index.html",
@@ -1632,7 +1632,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/stay-on-task-8-productivity-tips-to-help-you-stay-focused-at-work/index.png",
-    "revision": "01ebe1541c7f967b621491088e50b561"
+    "revision": "2cf1306cc27c84169f5a8fd7c6d82461"
   },
   {
     "url": "blog/teacher-appreciation-week-2020-dyslexia-story/index.html",
@@ -1640,7 +1640,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/teacher-appreciation-week-2020-dyslexia-story/index.png",
-    "revision": "452d4e8557f7664ba0db68b9e49a7718"
+    "revision": "5eba9b76337cb235c8a4bbf54b902d03"
   },
   {
     "url": "blog/thanksgiving-message-from-helperbird/index.html",
@@ -1648,7 +1648,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/thanksgiving-message-from-helperbird/index.png",
-    "revision": "7b29c99874ad50438fc90b4d2009b24e"
+    "revision": "416357b72ef3c615f3543dfe9ff9aeeb"
   },
   {
     "url": "blog/the-5-must-have-accessibility-tools-for-students-in-2021/index.html",
@@ -1656,7 +1656,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/the-5-must-have-accessibility-tools-for-students-in-2021/index.png",
-    "revision": "6d4de0704a19ffeee27d3318021d722c"
+    "revision": "f75f69bbc0fabc4aed35024a2f2ae2ac"
   },
   {
     "url": "blog/three-facts-about-dyslexia/index.html",
@@ -1664,7 +1664,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/three-facts-about-dyslexia/index.png",
-    "revision": "f23f528aa1d9bcafbd7c6345de58e46f"
+    "revision": "dc9102d4d36664a7741ea570a7f049a3"
   },
   {
     "url": "blog/top-5-productivity-microsoft-edge-extensions/index.html",
@@ -1672,7 +1672,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-5-productivity-microsoft-edge-extensions/index.png",
-    "revision": "1e55f7a58e067bde42189a38c6d80845"
+    "revision": "6ac9a1982130af69fc09f1ad3c37a335"
   },
   {
     "url": "blog/top-6-chrome-extensions-for-teachers/index.html",
@@ -1680,7 +1680,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-6-chrome-extensions-for-teachers/index.png",
-    "revision": "a08b57d3c12073ed036ac54723c85dea"
+    "revision": "8abf4722d4056b5726a15a65815e96fd"
   },
   {
     "url": "blog/top-five-features-of-helperbird-to-help-your-students-in-2021/index.html",
@@ -1688,7 +1688,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-five-features-of-helperbird-to-help-your-students-in-2021/index.png",
-    "revision": "6bc4b01575a1968a762881381ede2723"
+    "revision": "8b31cfed7c306acbb9c8d670fb0d117c"
   },
   {
     "url": "blog/top-ipad-apps-for-accessibility/index.html",
@@ -1696,7 +1696,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-ipad-apps-for-accessibility/index.png",
-    "revision": "7407d17a7d63e915a6ff35805d2500de"
+    "revision": "b0414849536d11b8476fd81dc7962d35"
   },
   {
     "url": "blog/top-productivity-extensions-for-safari/index.html",
@@ -1704,7 +1704,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/top-productivity-extensions-for-safari/index.png",
-    "revision": "83206967ee26cb90132a47d73d25ada1"
+    "revision": "29984fb21ed53322ad898d8762559ea5"
   },
   {
     "url": "blog/transforming-challenges-into-strengths/index.html",
@@ -1712,7 +1712,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/transforming-challenges-into-strengths/index.png",
-    "revision": "182ad80343ef774d93962a418c9e2895"
+    "revision": "1bac64a205eab38e2bda158dff1176d7"
   },
   {
     "url": "blog/tv-and-movie-characters-with-dyslexia/index.html",
@@ -1720,7 +1720,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/tv-and-movie-characters-with-dyslexia/index.png",
-    "revision": "a72348b42a763fff4838b2229153d56e"
+    "revision": "f6c7f0cd675df113ecc34fee4c72ed54"
   },
   {
     "url": "blog/what-is-coppa-and-ferpa/index.html",
@@ -1728,7 +1728,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/what-is-coppa-and-ferpa/index.png",
-    "revision": "c9b1f72d0ed66eb65a5aede39170952a"
+    "revision": "8f1b42c4ae96486aa19382426109e2ca"
   },
   {
     "url": "blog/why-internet-access-is-crucial-for-educational-equity-and-innovation/index.html",
@@ -1736,7 +1736,7 @@ self.__precacheManifest = [
   },
   {
     "url": "blog/why-internet-access-is-crucial-for-educational-equity-and-innovation/index.png",
-    "revision": "92d63ba8027bb3ccd6c557688f182d97"
+    "revision": "7e1888e8dcaf2126df5f26d913fe37e8"
   },
   {
     "url": "chrome/index.html",
@@ -1748,7 +1748,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/immersive-reader-by-microsoft-alternative/index.png",
-    "revision": "819c07b52a3e982ede47014587ac0217"
+    "revision": "bc2183e9f56009a965ac861a1d9ea981"
   },
   {
     "url": "compare/index.html",
@@ -1756,7 +1756,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/index.png",
-    "revision": "2e859817dff77bee017ffb99853e6936"
+    "revision": "3efbaf90b15cad7a657da6edcf296eef"
   },
   {
     "url": "compare/read-and-write-alternative/index.html",
@@ -1764,7 +1764,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/read-and-write-alternative/index.png",
-    "revision": "35bfa7c07559c6db37ec9b6c1fdd6755"
+    "revision": "ade91dd0ac16fadb42e8d0d291dc285d"
   },
   {
     "url": "compare/snap-and-read-alternative/index.html",
@@ -1772,7 +1772,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compare/snap-and-read-alternative/index.png",
-    "revision": "14674aad30a1ca1875541c73b117cf87"
+    "revision": "c7dfb074fc219f815339c00e859b07bd"
   },
   {
     "url": "compliance/index.html",
@@ -1780,7 +1780,7 @@ self.__precacheManifest = [
   },
   {
     "url": "compliance/index.png",
-    "revision": "267fee6ba41bfd409948e803150a9344"
+    "revision": "59f069bdbc98b0acc562026627660fa8"
   },
   {
     "url": "contact/index.html",
@@ -1788,7 +1788,7 @@ self.__precacheManifest = [
   },
   {
     "url": "contact/index.png",
-    "revision": "75577815a9127c1f398977b3b83575d2"
+    "revision": "4e3e4902d752b7e0112291aaf11a0424"
   },
   {
     "url": "edge/index.html",
@@ -1800,7 +1800,7 @@ self.__precacheManifest = [
   },
   {
     "url": "edu/index.png",
-    "revision": "1614a96c22921d097817ce81a0b11ac5"
+    "revision": "ec3d9eb1071aecf69ffd8e798f13e32d"
   },
   {
     "url": "enterprise/index.html",
@@ -1808,7 +1808,7 @@ self.__precacheManifest = [
   },
   {
     "url": "enterprise/index.png",
-    "revision": "ad1af8d3a578b806d6bded1077d3c3bd"
+    "revision": "150bcb835beabeb8703e10c6c3ad8acd"
   },
   {
     "url": "extension/index.html",
@@ -1816,7 +1816,7 @@ self.__precacheManifest = [
   },
   {
     "url": "extension/index.png",
-    "revision": "f3d3108022ad121a9bbb7a2d2bccf039"
+    "revision": "e11edfbe9689e1f61ec0be4e3b1c57cd"
   },
   {
     "url": "features/adjust-letters-and-words/index.html",
@@ -1824,7 +1824,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/adjust-letters-and-words/index.png",
-    "revision": "4c053c69e3a28494e79be9af92cc3e52"
+    "revision": "b3467d058d369a2dde4319580ed4d2ab"
   },
   {
     "url": "features/alt-tool-tip-highlighter/index.html",
@@ -1832,7 +1832,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/alt-tool-tip-highlighter/index.png",
-    "revision": "7426ac3344cbcecaa9b4761b4bb7dea2"
+    "revision": "e695365d26b7cf8438f3ed4a9d9682fe"
   },
   {
     "url": "features/analyze/index.html",
@@ -1840,7 +1840,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/analyze/index.png",
-    "revision": "c7e26494dd04ff0fdaf4465a45118119"
+    "revision": "247e4b9342a877ef3b2fac55fe40273f"
   },
   {
     "url": "features/annotation/index.html",
@@ -1848,7 +1848,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/annotation/index.png",
-    "revision": "1cf7ea0ba3d98257af1577a7026ccd7c"
+    "revision": "75984f8c7dcc374f2c4be023461167a9"
   },
   {
     "url": "features/auto-scroll/index.html",
@@ -1856,7 +1856,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/auto-scroll/index.png",
-    "revision": "b5a1ba515d6c180057f1a91cbf3bf8ce"
+    "revision": "7735f5f5bf038ffdc1f3afefd4156927"
   },
   {
     "url": "features/bookmarks/index.html",
@@ -1864,7 +1864,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/bookmarks/index.png",
-    "revision": "dd25b297879e816c9ec989a111deef3a"
+    "revision": "6ddaa9fae46b017a14d5b70c4f4a6d78"
   },
   {
     "url": "features/color-blindness/index.html",
@@ -1872,7 +1872,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/color-blindness/index.png",
-    "revision": "320f408a60256fa424679f68bbb4bd2a"
+    "revision": "f7c9ec627a754801b6c783d1ed0f25b1"
   },
   {
     "url": "features/cursor-control/index.html",
@@ -1880,7 +1880,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/cursor-control/index.png",
-    "revision": "d5cf1f5042d8c07ff582a3cf502338c8"
+    "revision": "c820c03878001ddbc5eb2f0b487bef5b"
   },
   {
     "url": "features/dictionary/index.html",
@@ -1888,7 +1888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/dictionary/index.png",
-    "revision": "e7af7fa7e92ebd53c09c99a129f4a662"
+    "revision": "4aa2f2ebae6fbbbe6038dddf4bc1cab9"
   },
   {
     "url": "features/editor/index.html",
@@ -1896,7 +1896,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/editor/index.png",
-    "revision": "73e4784ddf6e274bb1d8d78d587e3a26"
+    "revision": "ac17a3f6190c5f2d93ade6300a37624d"
   },
   {
     "url": "features/font-sizes/index.html",
@@ -1904,7 +1904,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/font-sizes/index.png",
-    "revision": "ddc518a2a5bc110f0a173334ab6bd834"
+    "revision": "742757f3d7f9b9456b7f2901f8818427"
   },
   {
     "url": "features/google-translate/index.html",
@@ -1912,7 +1912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/google-translate/index.png",
-    "revision": "d438bc4cfb404c066f5130f385f7f7d2"
+    "revision": "a07b55bd6d3b7c4988fd1dc6816581d4"
   },
   {
     "url": "features/gray-hue-overlay/index.html",
@@ -1920,7 +1920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/gray-hue-overlay/index.png",
-    "revision": "03b7d4811de1fb5b746a8f1ac3e39a06"
+    "revision": "cab1f7fc862905a1102ea6c1854081ae"
   },
   {
     "url": "features/hide-images/index.html",
@@ -1928,7 +1928,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/hide-images/index.png",
-    "revision": "96cc4d22534dad2994341ad15050b953"
+    "revision": "4e76c04c9da18e46e097db186ce7c368"
   },
   {
     "url": "features/high-contrast/index.html",
@@ -1936,7 +1936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/high-contrast/index.png",
-    "revision": "bfdca07daff3f02d1971b008229a8b52"
+    "revision": "abe2114c11fe3e94da6845c485c31872"
   },
   {
     "url": "features/highlight-menu/index.html",
@@ -1944,7 +1944,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-menu/index.png",
-    "revision": "e43c6c6d0c79ffe7b86113f652b1f01f"
+    "revision": "f114cd8bb00b5c2ec2c6bb7e9a69a496"
   },
   {
     "url": "features/highlight-paragraphs/index.html",
@@ -1952,7 +1952,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/highlight-paragraphs/index.png",
-    "revision": "92c804b8f76ab5eb941468f19862861c"
+    "revision": "4868691d20397b5068c789cdc7e01ec2"
   },
   {
     "url": "features/immersive-reader-for-chrome/index.html",
@@ -1960,7 +1960,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/immersive-reader-for-chrome/index.png",
-    "revision": "c4d0ac0aca79f37bcb6730ac5f24e011"
+    "revision": "6857f6575ef16a2d4a8dd1c244eaa041"
   },
   {
     "url": "features/index.html",
@@ -1968,7 +1968,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/index.png",
-    "revision": "804cd692a6f130844fb42f982155fbc1"
+    "revision": "8a7775a81d38617095ac5c2ddb20cc4c"
   },
   {
     "url": "features/mute-videos/index.html",
@@ -1976,7 +1976,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/mute-videos/index.png",
-    "revision": "e3eb32b765f8d5f944d5fd3f77c11e0a"
+    "revision": "ea7c15f92a9158de42a05a3c79d636f1"
   },
   {
     "url": "features/notes/index.html",
@@ -1984,7 +1984,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/notes/index.png",
-    "revision": "b49d61249ac65edf1eeabda088515ec1"
+    "revision": "a3146224d9e18564f3777e83574ff83c"
   },
   {
     "url": "features/optical-character-recognition/index.html",
@@ -1992,7 +1992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/optical-character-recognition/index.png",
-    "revision": "6cb70582566fd42f243f5499992f0494"
+    "revision": "72fe16fb307dd69a55f97834d244d3df"
   },
   {
     "url": "features/overlay/index.html",
@@ -2000,7 +2000,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/overlay/index.png",
-    "revision": "3a1dc2218a135ac26966328c534787b6"
+    "revision": "fb234a5cf5efa9d2f3e216a97886c043"
   },
   {
     "url": "features/paragraph-widths/index.html",
@@ -2008,7 +2008,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/paragraph-widths/index.png",
-    "revision": "72d9cf91ce9ce12f9fa6ecb75bd3faac"
+    "revision": "73065184c377d5e3651357c6af2c0959"
   },
   {
     "url": "features/pdfs/index.html",
@@ -2016,7 +2016,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/pdfs/index.png",
-    "revision": "8bddafc220b30ccaee204af29dcd8d20"
+    "revision": "c534e1bbea67aca5315cc58d0435add4"
   },
   {
     "url": "features/printing-tool/index.html",
@@ -2024,7 +2024,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/printing-tool/index.png",
-    "revision": "5c7a033ec12157394726e746792b6797"
+    "revision": "7ecf1de33256ec2c80a5c7d80446277a"
   },
   {
     "url": "features/privacy/index.html",
@@ -2032,7 +2032,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/privacy/index.png",
-    "revision": "f99636300d30a943cc681190b5f61fd5"
+    "revision": "6e69989ab0ae085d45c117db6ef2ba68"
   },
   {
     "url": "features/reading-guide/index.html",
@@ -2040,7 +2040,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reading-guide/index.png",
-    "revision": "0ac4f34af6c76852a54bcb000c00c027"
+    "revision": "1a21707559a25289d5c991f63669d4b4"
   },
   {
     "url": "features/reading-mode-for-chrome-and-firefox/index.html",
@@ -2048,7 +2048,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reading-mode-for-chrome-and-firefox/index.png",
-    "revision": "49e5f4c10de0b3722e4300006ba043d4"
+    "revision": "54fdb0d71b638fdf0e08290b831eca35"
   },
   {
     "url": "features/reword-and-simplify-websites/index.html",
@@ -2056,7 +2056,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/reword-and-simplify-websites/index.png",
-    "revision": "8a177b98125fb8fcec142a893f6adc5d"
+    "revision": "c8a81e8be4afe3725f0bc966bc697446"
   },
   {
     "url": "features/ruler/index.html",
@@ -2064,7 +2064,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/ruler/index.png",
-    "revision": "55586186bb226cc0425ab23f084fe7d4"
+    "revision": "3304571ef3a502732ca0b28cc8f76e9a"
   },
   {
     "url": "features/screenshot/index.html",
@@ -2072,7 +2072,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/screenshot/index.png",
-    "revision": "c589342a9c5f7f5add560cf3f3de6aaa"
+    "revision": "e139f52aed3a9d3c2c91eb5c16bba6c1"
   },
   {
     "url": "features/shortcuts/index.html",
@@ -2080,7 +2080,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/shortcuts/index.png",
-    "revision": "1b04811d67706f94d515bd835e813976"
+    "revision": "dbca01f57324d8ea36e8f7430e091219"
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.html",
@@ -2088,7 +2088,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/specialised-dyslexic-fonts/index.png",
-    "revision": "6e56f8459d107c0016afb938d059532d"
+    "revision": "f562ec5c075bad4441560125b54f3de8"
   },
   {
     "url": "features/speech-to-text/index.html",
@@ -2096,7 +2096,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speech-to-text/index.png",
-    "revision": "4ca4836bd584b76b70c1ef70d20709a8"
+    "revision": "79c319da241f859ffa2da39310f02857"
   },
   {
     "url": "features/speed-reading-extension/index.html",
@@ -2104,7 +2104,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/speed-reading-extension/index.png",
-    "revision": "9ca54234dc7d55d22df67490c22cfa25"
+    "revision": "d07cb200d4bace79fc3528fd66208658"
   },
   {
     "url": "features/spell-check/index.html",
@@ -2112,7 +2112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/spell-check/index.png",
-    "revision": "25b6d5025b86fc8ef66c29ec95c55947"
+    "revision": "a31640bc029da88447c7e7c61f396d58"
   },
   {
     "url": "features/styles/index.html",
@@ -2120,7 +2120,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/styles/index.png",
-    "revision": "944deafb7b23814f97310e6f65f984b1"
+    "revision": "b66f81e682dcff22619f3cb398bb4d34"
   },
   {
     "url": "features/summarizing-tool/index.html",
@@ -2128,7 +2128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/summarizing-tool/index.png",
-    "revision": "41640846fcda32ddcf17bbae4a30e304"
+    "revision": "f4a63c499398a9b6cb8a3f5c32a10e90"
   },
   {
     "url": "features/text-align/index.html",
@@ -2136,7 +2136,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/text-align/index.png",
-    "revision": "c96a2e3ca7e06e4190e822ecc0e5f15f"
+    "revision": "205e526fe3053b23c08ffbf288aeee8e"
   },
   {
     "url": "features/text-to-speech/index.html",
@@ -2144,7 +2144,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/text-to-speech/index.png",
-    "revision": "a95da60c94b64152dfb20fea347e0964"
+    "revision": "a84266e47438d61a5803b12230535491"
   },
   {
     "url": "features/web-highlighter-and-pdfs/index.html",
@@ -2152,7 +2152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/web-highlighter-and-pdfs/index.png",
-    "revision": "b08f7de0e205af8a863a0667b19c25e7"
+    "revision": "9831bd9a78b19976ddf8c4eafa1c2802"
   },
   {
     "url": "features/word-prediction/index.html",
@@ -2160,7 +2160,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/word-prediction/index.png",
-    "revision": "0218dfa620c53bfa1b9f88fc53355c57"
+    "revision": "449badbd1139fcd35233bee775378c82"
   },
   {
     "url": "features/zoom/index.html",
@@ -2168,7 +2168,7 @@ self.__precacheManifest = [
   },
   {
     "url": "features/zoom/index.png",
-    "revision": "ef49935619769bf8483f9d29fe334f7c"
+    "revision": "b136efd1cd616455a0eb725945f9fa7a"
   },
   {
     "url": "feedback/index.html",
@@ -2176,7 +2176,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feedback/index.png",
-    "revision": "b8b3a1b03234aa34b4a498d376c7f58f"
+    "revision": "4291c2ceba9b25186759e5a8fd9f0c56"
   },
   {
     "url": "firefox/index.html",
@@ -2188,7 +2188,7 @@ self.__precacheManifest = [
   },
   {
     "url": "googlea4b2e0ff05c168d5.png",
-    "revision": "a87affc91bbdc7568da902f0fdcf3267"
+    "revision": "c6e148617c9095d50a3e2cf46ebe3a3b"
   },
   {
     "url": "guides/index.html",
@@ -2200,7 +2200,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/account/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/admin/index.html",
@@ -2208,7 +2208,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/admin/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/apps/index.html",
@@ -2216,7 +2216,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/apps/index.png",
-    "revision": "bc9c3a242e5822c6d4e8466e820a8518"
+    "revision": "717fc0ef2c3413ffaba7a2625392e346"
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.html",
@@ -2224,7 +2224,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/enable-browser-sync-chrome-and-edge/index.png",
-    "revision": "f0215246b702fba5204681715071a4bf"
+    "revision": "7807f2b1744020b78919c8e32129e2a0"
   },
   {
     "url": "help/family-sharing-helperbird-installation-guide/index.html",
@@ -2232,7 +2232,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/family-sharing-helperbird-installation-guide/index.png",
-    "revision": "83a7f19dc171ceca18b209bb1fcb2ffa"
+    "revision": "cc8bd075325ab9976b367e64ff448101"
   },
   {
     "url": "help/feature-not-supported-on-page/index.html",
@@ -2240,7 +2240,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/feature-not-supported-on-page/index.png",
-    "revision": "e9d9c024a3be318a3dfa97ed4e919da1"
+    "revision": "4c24685862b7da7677d3718dfd938043"
   },
   {
     "url": "help/features/index.html",
@@ -2248,7 +2248,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/features/index.png",
-    "revision": "7b766fafc485e2109dac690458373cbc"
+    "revision": "b9d0809f2a79e0ebba210cb40f23f349"
   },
   {
     "url": "help/forcing-the-installation-of-the-helperbird-extension/index.html",
@@ -2256,7 +2256,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/forcing-the-installation-of-the-helperbird-extension/index.png",
-    "revision": "9d7ee687c411675e5a918f5f399680c2"
+    "revision": "71e21ba5601d7188ff5e847df0f25b69"
   },
   {
     "url": "help/helperbird-for-google-docs-addon/index.html",
@@ -2264,7 +2264,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-google-docs-addon/index.png",
-    "revision": "2c94d6f43223733d603deed283417575"
+    "revision": "6624a005921bdb2ceaf9cb68bfa23f94"
   },
   {
     "url": "help/helperbird-for-google-drive-addon/index.html",
@@ -2272,7 +2272,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-google-drive-addon/index.png",
-    "revision": "96a324f34498f73ff15fe9048b2e79c3"
+    "revision": "12dcd68ab2a39823948336dc273a292a"
   },
   {
     "url": "help/helperbird-for-google-drive/index.html",
@@ -2280,7 +2280,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-google-drive/index.png",
-    "revision": "40392afa3c7c419a301da22d1f31cfe3"
+    "revision": "865b9e55b675b04ccea76b7fa798bdf6"
   },
   {
     "url": "help/helperbird-for-google-slides-addon/index.html",
@@ -2288,7 +2288,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-google-slides-addon/index.png",
-    "revision": "497b98e1437385e1cb2900549386e8be"
+    "revision": "d91b475ee4aa2b202a72a22718c9910a"
   },
   {
     "url": "help/helperbird-for-ios-ipad-iphone-is-missing-features/index.html",
@@ -2300,7 +2300,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-powerpoint-online/index.png",
-    "revision": "d400f0cce363c2a373a16ba2aa90a388"
+    "revision": "18014f34883af65b8142841e5829f0e7"
   },
   {
     "url": "help/helperbird-for-word-online/index.html",
@@ -2308,7 +2308,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-for-word-online/index.png",
-    "revision": "f718746ec35820362558573b4094af17"
+    "revision": "dc1821df105ccf134214cc114b47d1b1"
   },
   {
     "url": "help/helperbird-pro-firewall-issue/index.html",
@@ -2316,7 +2316,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/helperbird-pro-firewall-issue/index.png",
-    "revision": "2077163f970caad18748f7435a44db0c"
+    "revision": "acd8cce4e0a953b610e79dc000ea4fb4"
   },
   {
     "url": "help/how-to-access-usage-dashboard/index.html",
@@ -2324,7 +2324,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-access-usage-dashboard/index.png",
-    "revision": "fa60ee3adad5c2907c422cc1ce6f561e"
+    "revision": "cdd0e99034bbf7990d39f4a55df9d9f8"
   },
   {
     "url": "help/how-to-add-a-overlay-to-any-website/index.html",
@@ -2332,7 +2332,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-add-a-overlay-to-any-website/index.png",
-    "revision": "c9fb42e00409a38851e9f1f19ee39984"
+    "revision": "ba072f153a8e83bf745a94e805820bcf"
   },
   {
     "url": "help/how-to-adjust-zoom-magnifying-for-any-website/index.html",
@@ -2340,7 +2340,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-adjust-zoom-magnifying-for-any-website/index.png",
-    "revision": "1bdcdaf60630e42eb1b2f361eb076187"
+    "revision": "ed172895970c5e3922f71eeee72da39e"
   },
   {
     "url": "help/how-to-annotate-any-website-with-sticky-notes/index.html",
@@ -2348,7 +2348,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-annotate-any-website-with-sticky-notes/index.png",
-    "revision": "0b2babdd8610515133882308a950e649"
+    "revision": "568173b3307f2d995cdf6e1989f9fe0d"
   },
   {
     "url": "help/how-to-auto-scroll-on-any-website-or-app/index.html",
@@ -2356,7 +2356,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-auto-scroll-on-any-website-or-app/index.png",
-    "revision": "fec5e88581309822e0732e927503a560"
+    "revision": "2645ade1dd4e235f9934d0934a5abd76"
   },
   {
     "url": "help/how-to-cancel-my-helperbird-pro-subscription/index.html",
@@ -2364,7 +2364,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-cancel-my-helperbird-pro-subscription/index.png",
-    "revision": "886d9b04f340c60cebcbb849f8e77cbf"
+    "revision": "eef5720da1506430f20919dc3fb4d6e0"
   },
   {
     "url": "help/how-to-change-my-email/index.html",
@@ -2372,7 +2372,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-my-email/index.png",
-    "revision": "bfa2635ae8515949179d70f00abd46bb"
+    "revision": "f3fd193a1e2260dda547adce9f13f918"
   },
   {
     "url": "help/how-to-change-the-background-color-of-a-website/index.html",
@@ -2380,7 +2380,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-background-color-of-a-website/index.png",
-    "revision": "d6f4aac576655ce32097ac59959572bf"
+    "revision": "df3ed6573f5cb0d006f694c335227d40"
   },
   {
     "url": "help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/index.html",
@@ -2388,7 +2388,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/index.png",
-    "revision": "83162f5ba1402f0f7f210268ce59e03e"
+    "revision": "7abb9d76e85b37c3f4ceda0ad9e95990"
   },
   {
     "url": "help/how-to-change-the-font-color-of-a-website/index.html",
@@ -2396,7 +2396,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-font-color-of-a-website/index.png",
-    "revision": "8d4cb740e3871a582320ad04b33cbe38"
+    "revision": "c5dde284a54de6892025954f619dea6f"
   },
   {
     "url": "help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/index.html",
@@ -2404,7 +2404,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/index.png",
-    "revision": "f20eabba9717b0ed6733fa1602d3b575"
+    "revision": "48f2c665568b9d1c6cfe6172f25aad45"
   },
   {
     "url": "help/how-to-change-the-font-on-any-page/index.html",
@@ -2412,7 +2412,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-font-on-any-page/index.png",
-    "revision": "822009bffca1eec553b6278a5f723609"
+    "revision": "ba3205f5a229949d29c9428e2be409f3"
   },
   {
     "url": "help/how-to-change-the-font-size-on-any-website/index.html",
@@ -2420,7 +2420,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-font-size-on-any-website/index.png",
-    "revision": "53a29641bfbd4f0a28afb52e808772bc"
+    "revision": "3b57ef230b722c84c89d034d96133d8b"
   },
   {
     "url": "help/how-to-change-the-highlight-color-of-a-website/index.html",
@@ -2428,7 +2428,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-highlight-color-of-a-website/index.png",
-    "revision": "1cf79ed47e8c3a9fac08420602736fbb"
+    "revision": "2ab27599a1aff95951f8b0e5906e4c56"
   },
   {
     "url": "help/how-to-change-the-letter-spacing-on-any-website/index.html",
@@ -2436,7 +2436,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-letter-spacing-on-any-website/index.png",
-    "revision": "73fb58d11a288abbb4b036d708305f18"
+    "revision": "d78c06636f90e81cfdcce80aa66fe91b"
   },
   {
     "url": "help/how-to-change-the-line-height-on-any-website/index.html",
@@ -2444,7 +2444,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-line-height-on-any-website/index.png",
-    "revision": "0077eeb7fe4e5cb9ebbe4fa7525d2859"
+    "revision": "de761fc4edf30d8ebbb74516a23d7fa2"
   },
   {
     "url": "help/how-to-change-the-link-color-of-a-website/index.html",
@@ -2452,7 +2452,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-link-color-of-a-website/index.png",
-    "revision": "03b8aab013a0c03c0a13d69ac137b4c3"
+    "revision": "9ad3337964f08f0d46d835144ca8cce2"
   },
   {
     "url": "help/how-to-change-the-selection-highlight-color-of-a-website/index.html",
@@ -2460,7 +2460,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-selection-highlight-color-of-a-website/index.png",
-    "revision": "1cf79ed47e8c3a9fac08420602736fbb"
+    "revision": "2ab27599a1aff95951f8b0e5906e4c56"
   },
   {
     "url": "help/how-to-change-the-text-alignment-on-any-website/index.html",
@@ -2468,7 +2468,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-text-alignment-on-any-website/index.png",
-    "revision": "c96a2e3ca7e06e4190e822ecc0e5f15f"
+    "revision": "205e526fe3053b23c08ffbf288aeee8e"
   },
   {
     "url": "help/how-to-change-the-word-spacing-on-any-website/index.html",
@@ -2476,7 +2476,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-change-the-word-spacing-on-any-website/index.png",
-    "revision": "6a1bcbdc4beefc6db04b836afbeac822"
+    "revision": "811471d6748116fff78c7c3181fbede9"
   },
   {
     "url": "help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/index.html",
@@ -2484,7 +2484,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/index.png",
-    "revision": "8693fd6c166322a686de0b3bd0bcd1d9"
+    "revision": "419db8f98caade8b473f11fadf8b1545"
   },
   {
     "url": "help/how-to-deploy-helperbird-to-your-school-or-business/index.html",
@@ -2492,7 +2492,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-deploy-helperbird-to-your-school-or-business/index.png",
-    "revision": "f92058a72bfd81f55772b7b3a4ecf3a9"
+    "revision": "e93048233669c93298c173f3e0dd8563"
   },
   {
     "url": "help/how-to-download-helperbird-for-ipad/index.html",
@@ -2500,7 +2500,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-download-helperbird-for-ipad/index.png",
-    "revision": "c300049d53177f6a5412347d902f8a09"
+    "revision": "9d8dca71009ad43494b8a97ab185826f"
   },
   {
     "url": "help/how-to-download-helperbird-for-iphone/index.html",
@@ -2508,7 +2508,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-download-helperbird-for-iphone/index.png",
-    "revision": "79ad51d7f3a955079f65f243fd74803c"
+    "revision": "28f6360d179556da2e621a0c8147b528"
   },
   {
     "url": "help/how-to-enable-spell-check-on-any-website-or-app/index.html",
@@ -2516,7 +2516,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-enable-spell-check-on-any-website-or-app/index.png",
-    "revision": "287ef8a47f9bdfa62c196ff34ab64ed4"
+    "revision": "18b81b707d4ac3d3f56fc3ab70ac02ef"
   },
   {
     "url": "help/how-to-extract-text-from-any-image-pdf-or-website/index.html",
@@ -2524,7 +2524,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-extract-text-from-any-image-pdf-or-website/index.png",
-    "revision": "6a9b1bbfa83e0aefc64969ef260ae9f2"
+    "revision": "aae1dc9ca3791fb4bf29903aa4a9b34d"
   },
   {
     "url": "help/how-to-favorite-a-feature-in-helperbird/index.html",
@@ -2532,7 +2532,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-favorite-a-feature-in-helperbird/index.png",
-    "revision": "6b1de43e04da15779f096934f80dc836"
+    "revision": "065ebdb29072e07fc6d36e210d40e2f8"
   },
   {
     "url": "help/how-to-hide-images-and-gifs-on-every-website/index.html",
@@ -2540,7 +2540,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-hide-images-and-gifs-on-every-website/index.png",
-    "revision": "c272eab5e0a5110f3b3857e6db2aacc4"
+    "revision": "391d844cbdec17991a7c3edccea4c153"
   },
   {
     "url": "help/how-to-highlight-paragraphs-on-any-page/index.html",
@@ -2548,7 +2548,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-highlight-paragraphs-on-any-page/index.png",
-    "revision": "28497dc7101d9f6351126e8a884ee2dd"
+    "revision": "7cd692976c24c9c162752112e397883d"
   },
   {
     "url": "help/how-to-highlight-words-and-paragraphs-on-any-website/index.html",
@@ -2556,7 +2556,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-highlight-words-and-paragraphs-on-any-website/index.png",
-    "revision": "4d50728f6bc1a3079e12e68776225532"
+    "revision": "53a4fa41bb56117fd0b6ecce29872e95"
   },
   {
     "url": "help/how-to-login-to-helperbird/index.html",
@@ -2564,7 +2564,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-login-to-helperbird/index.png",
-    "revision": "be10a7e0e3681d8692b160389193efbb"
+    "revision": "eac8c3be3329abb2d13eeee035176258"
   },
   {
     "url": "help/how-to-mute-all-videos-on-any-page/index.html",
@@ -2572,7 +2572,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-mute-all-videos-on-any-page/index.png",
-    "revision": "804a70f3d8897279465c50796795636e"
+    "revision": "ac3574792e2372d246a691942936a590"
   },
   {
     "url": "help/how-to-pause-helperbird/index.html",
@@ -2580,7 +2580,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-pause-helperbird/index.png",
-    "revision": "663831f99d13895decd92d8d2dd74b17"
+    "revision": "976dbf016b69d41ed725cb3aff9d6aff"
   },
   {
     "url": "help/how-to-pin-a-chrome-extension/index.html",
@@ -2588,7 +2588,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-pin-a-chrome-extension/index.png",
-    "revision": "7ad0329c10116c8828df150017c40a29"
+    "revision": "3188577a65b35d4d100850f304551dbd"
   },
   {
     "url": "help/how-to-print-a-website-with-helperbird/index.html",
@@ -2596,7 +2596,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-print-a-website-with-helperbird/index.png",
-    "revision": "518c93d79721d6a8d9c4e826f663e7ea"
+    "revision": "d82d427ece13a229ac853e2a8001fd0b"
   },
   {
     "url": "help/how-to-redeem-helperbird-pro-voucher/index.html",
@@ -2604,7 +2604,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-redeem-helperbird-pro-voucher/index.png",
-    "revision": "c1d2f48979fee8202f88f07467d7727d"
+    "revision": "c3e6ba24c1e7419d52fde24fd4e0320c"
   },
   {
     "url": "help/how-to-set-the-column-width-on-any-page/index.html",
@@ -2612,7 +2612,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-set-the-column-width-on-any-page/index.png",
-    "revision": "1c9a490d79176d7376176fea62c67f94"
+    "revision": "2245b2f1e87e29a147409e62258650d1"
   },
   {
     "url": "help/how-to-set-the-paragraph-width-on-any-page/index.html",
@@ -2620,7 +2620,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-set-the-paragraph-width-on-any-page/index.png",
-    "revision": "042dfe00c83b4b30dd37f148a57e46f5"
+    "revision": "5b4b649835489bccd9705b0a033d7b41"
   },
   {
     "url": "help/how-to-show-alt-tags-on-hover-tooltip/index.html",
@@ -2628,7 +2628,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-show-alt-tags-on-hover-tooltip/index.png",
-    "revision": "b20cc249a06619ddd2f9e75d46a9bf84"
+    "revision": "5fb441a49246339547405dce981f244f"
   },
   {
     "url": "help/how-to-stop-animations-on-any-website/index.html",
@@ -2636,7 +2636,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-stop-animations-on-any-website/index.png",
-    "revision": "da11d1724970afe74b3301bc85f27d31"
+    "revision": "dc12fe8152049bf779d5473a1ee7fbf3"
   },
   {
     "url": "help/how-to-translate-a-whole-page-or-selected-text-on-any-website/index.html",
@@ -2644,7 +2644,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-translate-a-whole-page-or-selected-text-on-any-website/index.png",
-    "revision": "a7e0f4014caba6236bbb752b0791fb79"
+    "revision": "5d6e818d7e6940f75c4c3658bae4f07e"
   },
   {
     "url": "help/how-to-turn-helperbird-on/index.html",
@@ -2652,7 +2652,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-turn-helperbird-on/index.png",
-    "revision": "87f83f60b0ca2a0a7d0ad5fe26ca681a"
+    "revision": "09a3b627b03d7ef3cb2966adb3e3434d"
   },
   {
     "url": "help/how-to-update-my-credit-card/index.html",
@@ -2660,7 +2660,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-update-my-credit-card/index.png",
-    "revision": "f7da3b5b3245ae69677d96ce75ee7dbd"
+    "revision": "e1ba5dbc846bf96562c7ef4b279ae541"
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.html",
@@ -2668,7 +2668,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-a-dyslexia-ruler-on-any-website/index.png",
-    "revision": "55586186bb226cc0425ab23f084fe7d4"
+    "revision": "3304571ef3a502732ca0b28cc8f76e9a"
   },
   {
     "url": "help/how-to-use-a-line-focus-on-any-website/index.html",
@@ -2676,7 +2676,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-a-line-focus-on-any-website/index.png",
-    "revision": "5cd35259036903bfb8afb796d306540d"
+    "revision": "792343ce211328bfc5d25651a2dd2bfc"
   },
   {
     "url": "help/how-to-use-a-reading-guide-on-any-website/index.html",
@@ -2684,7 +2684,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-a-reading-guide-on-any-website/index.png",
-    "revision": "0ac4f34af6c76852a54bcb000c00c027"
+    "revision": "1a21707559a25289d5c991f63669d4b4"
   },
   {
     "url": "help/how-to-use-dictionary-app-in-helperbird/index.html",
@@ -2692,7 +2692,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-dictionary-app-in-helperbird/index.png",
-    "revision": "cd8280a3b82d318eaeef26801189bd20"
+    "revision": "81b94809fef87308e886ea2dc5497baa"
   },
   {
     "url": "help/how-to-use-editor-app-in-helperbird/index.html",
@@ -2700,7 +2700,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-editor-app-in-helperbird/index.png",
-    "revision": "91aa3893e2d59c21c34045e250d63e16"
+    "revision": "3f5c6876fca692ded859a0f1501821c9"
   },
   {
     "url": "help/how-to-use-helperbird-accessibility-features/index.html",
@@ -2724,7 +2724,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-helperbirds-color-blind-features-on-websites/index.png",
-    "revision": "06f667bad161874ad5a77f362b4f68d3"
+    "revision": "1633a7ca74382d1c6526d397358adbf5"
   },
   {
     "url": "help/how-to-use-helperbirds-high-contrast-features/index.html",
@@ -2732,7 +2732,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-helperbirds-high-contrast-features/index.png",
-    "revision": "58c3742391eee617cd13508226f41c70"
+    "revision": "d0981a0c4ea22c6912e5339fea440db7"
   },
   {
     "url": "help/how-to-use-helperbirds-reading-list-app/index.html",
@@ -2740,7 +2740,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-helperbirds-reading-list-app/index.png",
-    "revision": "fd21e4df36b8bad2a507b89b365023d6"
+    "revision": "5bb0d22447364c3d20b7f3f901e42f7b"
   },
   {
     "url": "help/how-to-use-helperbirds-writing-features/index.html",
@@ -2752,7 +2752,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-immersive-reader-on-any-website/index.png",
-    "revision": "c4d0ac0aca79f37bcb6730ac5f24e011"
+    "revision": "6857f6575ef16a2d4a8dd1c244eaa041"
   },
   {
     "url": "help/how-to-use-my-subscription-key/index.html",
@@ -2760,7 +2760,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-my-subscription-key/index.png",
-    "revision": "cbbb87667469e16f66c6841ba21e70b7"
+    "revision": "1df6c8e8f4a2c60d07544f5b2dfae91c"
   },
   {
     "url": "help/how-to-use-reading-mode-and-remove-ads-on-any-website/index.html",
@@ -2768,7 +2768,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-reading-mode-and-remove-ads-on-any-website/index.png",
-    "revision": "49e5f4c10de0b3722e4300006ba043d4"
+    "revision": "54fdb0d71b638fdf0e08290b831eca35"
   },
   {
     "url": "help/how-to-use-speech-to-text-or-dictation-on-any-website/index.html",
@@ -2776,7 +2776,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-speech-to-text-or-dictation-on-any-website/index.png",
-    "revision": "4ca4836bd584b76b70c1ef70d20709a8"
+    "revision": "79c319da241f859ffa2da39310f02857"
   },
   {
     "url": "help/how-to-use-text-to-speech-on-any-website/index.html",
@@ -2784,7 +2784,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-text-to-speech-on-any-website/index.png",
-    "revision": "ffb3d789acd1da27ac14f271a0be5dde"
+    "revision": "7e80459ef6bfda1c18d3b67db0b12084"
   },
   {
     "url": "help/how-to-use-the-helperbird-pdf-support/index.html",
@@ -2792,7 +2792,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-helperbird-pdf-support/index.png",
-    "revision": "c0557fda92737f932f2563f57f62e67e"
+    "revision": "f9b682b3431d43cc162d0ae8bf57f3b2"
   },
   {
     "url": "help/how-to-use-the-highlight-menu-in-helperbird/index.html",
@@ -2800,7 +2800,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-highlight-menu-in-helperbird/index.png",
-    "revision": "e43c6c6d0c79ffe7b86113f652b1f01f"
+    "revision": "f114cd8bb00b5c2ec2c6bb7e9a69a496"
   },
   {
     "url": "help/how-to-use-the-maths-reader-in-helperbird.md/index.html",
@@ -2808,7 +2808,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-maths-reader-in-helperbird.md/index.png",
-    "revision": "c7e08f21b5284fdee65ef584cb3155df"
+    "revision": "efb29c4024356b8d11aecec89decb6cb"
   },
   {
     "url": "help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/index.html",
@@ -2816,7 +2816,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/index.png",
-    "revision": "73b86e5c2a1a503dd24d446144eef75c"
+    "revision": "75773c8787dfebc6c98a1ee4b2efeec3"
   },
   {
     "url": "help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/index.html",
@@ -2824,7 +2824,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/index.png",
-    "revision": "9ca54234dc7d55d22df67490c22cfa25"
+    "revision": "d07cb200d4bace79fc3528fd66208658"
   },
   {
     "url": "help/how-to-use-volume-booster-on-any-website-with-helperbird/index.html",
@@ -2832,7 +2832,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-volume-booster-on-any-website-with-helperbird/index.png",
-    "revision": "1971c7c0e5b7c6c6a506e1e29205aa51"
+    "revision": "36f03747dbb36821abbfabcc56c4a7c8"
   },
   {
     "url": "help/how-to-use-word-prediction-on-any-website-or-google-docs/index.html",
@@ -2840,7 +2840,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/how-to-use-word-prediction-on-any-website-or-google-docs/index.png",
-    "revision": "0218dfa620c53bfa1b9f88fc53355c57"
+    "revision": "449badbd1139fcd35233bee775378c82"
   },
   {
     "url": "help/index.html",
@@ -2848,7 +2848,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/installing-helperbird-extension-through-the-g-suite-admin-panel/index.html",
@@ -2856,7 +2856,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird-extension-through-the-g-suite-admin-panel/index.png",
-    "revision": "a4009c68504af75ee1fb7950accacc14"
+    "revision": "cbb2e5611010e5511470d06eddd8c3d1"
   },
   {
     "url": "help/installing-helperbird-to-certain-users/index.html",
@@ -2864,7 +2864,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird-to-certain-users/index.png",
-    "revision": "ffad2e0f4b2350eda28b2a542c6280e1"
+    "revision": "d4dbf9abf86a66c936fe9617e4ed968f"
   },
   {
     "url": "help/installing-helperbird/index.html",
@@ -2872,7 +2872,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/installing-helperbird/index.png",
-    "revision": "e8f733409ecd812e28cb0e0803014e7b"
+    "revision": "a7d0ef8f38d544578c8f15e0e1559ac9"
   },
   {
     "url": "help/introduction/index.html",
@@ -2880,7 +2880,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/introduction/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/ios/index.html",
@@ -2888,7 +2888,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/ios/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/manage-my-helperbird-pro-subscription/index.html",
@@ -2896,7 +2896,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/manage-my-helperbird-pro-subscription/index.png",
-    "revision": "6328400f2b344eec9d13d6c87557c4e0"
+    "revision": "9f13c07e19c64b7e2fc65c2e45799b52"
   },
   {
     "url": "help/pinning-helperbird-for-all-users/index.html",
@@ -2904,7 +2904,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/pinning-helperbird-for-all-users/index.png",
-    "revision": "4823898d0c941b0f9fd9d2c919e44dc6"
+    "revision": "507f579ae81ccc7a01aac6d66c56753c"
   },
   {
     "url": "help/removing-helperbird-for-everyone/index.html",
@@ -2912,7 +2912,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/removing-helperbird-for-everyone/index.png",
-    "revision": "8faac7e18801398bd801bca306b8d9da"
+    "revision": "82aa3fcbd6b0b98de92e9bb606a590e7"
   },
   {
     "url": "help/setting-chrome-storage-managed-keys/index.html",
@@ -2920,7 +2920,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/setting-chrome-storage-managed-keys/index.png",
-    "revision": "850cb88f4e69118ce1943b6e1af1614b"
+    "revision": "eef8c2428e0b3892a9eec5d80ea9f39c"
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.html",
@@ -2928,7 +2928,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/setting-helperbird-policies-in-enterprise-environments/index.png",
-    "revision": "7adb93b484e7857d3dddd38d50d56cf5"
+    "revision": "3e635651855876c8b7d99fc436979ae1"
   },
   {
     "url": "help/sync-data-locally-or-remote-helperbird/index.html",
@@ -2936,7 +2936,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/sync-data-locally-or-remote-helperbird/index.png",
-    "revision": "15c48e1edb586ef6f9c12d00468903ca"
+    "revision": "5aafd71b7fa5ff77d157e15cbcdde994"
   },
   {
     "url": "help/trouble/index.html",
@@ -2944,7 +2944,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/trouble/index.png",
-    "revision": "daf0c41cb58873112c6acbb823137c94"
+    "revision": "39e69d50bbd40bce7f227a165b1772be"
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.html",
@@ -2952,7 +2952,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-are-the-helperbird-shortcuts/index.png",
-    "revision": "3f5b54fb7cc5bd9b2db4ee1b7e5f0661"
+    "revision": "93d83e3de4a3bc83cf10408291414b20"
   },
   {
     "url": "help/what-is-helperbird-free/index.html",
@@ -2960,7 +2960,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-is-helperbird-free/index.png",
-    "revision": "eb090d68e34fbfd938090be0dec5735a"
+    "revision": "3f9ac29dcc353ceddae3a72c3e206d79"
   },
   {
     "url": "help/what-is-helperbird-pro/index.html",
@@ -2968,7 +2968,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-is-helperbird-pro/index.png",
-    "revision": "3fadfc47888c5798b8d17f40e076628d"
+    "revision": "427e8213a93ad3387d5948e22af57286"
   },
   {
     "url": "help/what-is-helperbird-unlimited/index.html",
@@ -2976,7 +2976,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/what-is-helperbird-unlimited/index.png",
-    "revision": "49eb2fb3022046570a7e5f150f852352"
+    "revision": "72be9919e210ab6060c7e5fdc6ff88fb"
   },
   {
     "url": "help/why-helperbird-and-other-extensions-dont-work-on-certain-pages/index.html",
@@ -2984,7 +2984,7 @@ self.__precacheManifest = [
   },
   {
     "url": "help/why-helperbird-and-other-extensions-dont-work-on-certain-pages/index.png",
-    "revision": "90df61198ef09d2f8195c1564ef7ab2a"
+    "revision": "da05d5dc77ee505716f2ff6757ab6062"
   },
   {
     "url": "in-the-news/index.html",
@@ -2992,7 +2992,7 @@ self.__precacheManifest = [
   },
   {
     "url": "in-the-news/index.png",
-    "revision": "1e433f19067fa63407347bb2ace4c4f1"
+    "revision": "7877297a97ec2dbf6cbd52901867d7fd"
   },
   {
     "url": "index.html",
@@ -3000,7 +3000,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.png",
-    "revision": "54d3ebce6f122599cb467aacb4e12c4c"
+    "revision": "ead10b610476e22ab455365b491b0e80"
   },
   {
     "url": "key/index.html",
@@ -3008,7 +3008,7 @@ self.__precacheManifest = [
   },
   {
     "url": "key/index.png",
-    "revision": "e16bbb6de09f36b00cc23b2363bc1993"
+    "revision": "8604200dc57b4a8638ea4cf32dcba250"
   },
   {
     "url": "login/index.html",
@@ -3020,7 +3020,7 @@ self.__precacheManifest = [
   },
   {
     "url": "order/index.png",
-    "revision": "04645d440cff06ae6614f680a4fd9f8b"
+    "revision": "7e009757532a596b9a4f08fa8e5175ef"
   },
   {
     "url": "partners/adriana-garcia/index.html",
@@ -3028,7 +3028,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/adriana-garcia/index.png",
-    "revision": "551f388fbd5e2de86708b3507a32d57d"
+    "revision": "0034d3966fedd3566435079996de222c"
   },
   {
     "url": "partners/bonnie-shaver-troup/index.html",
@@ -3036,7 +3036,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/bonnie-shaver-troup/index.png",
-    "revision": "7e978fceaf6a6585e805d23995d43a4b"
+    "revision": "ec1ff0b40727ed60128619d2a577b055"
   },
   {
     "url": "partners/index.html",
@@ -3044,7 +3044,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/index.png",
-    "revision": "de4369e29e433881bf4e81cb2a5b05e2"
+    "revision": "d5eb399bd4ea7ca689150c8841f68df0"
   },
   {
     "url": "partners/irene-hughes/index.html",
@@ -3052,7 +3052,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/irene-hughes/index.png",
-    "revision": "5c61efc35204c2bf77950d079cdc1c32"
+    "revision": "286015601eb0e6349b1649b117f20c5f"
   },
   {
     "url": "partners/nova-proton/index.html",
@@ -3060,7 +3060,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/nova-proton/index.png",
-    "revision": "e8d0e14d9691222013db88806bfbf114"
+    "revision": "921fdcf2924dce3d2bc45415787627e2"
   },
   {
     "url": "partners/paul-spencer/index.html",
@@ -3068,7 +3068,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/paul-spencer/index.png",
-    "revision": "257cbb61b4e775e45cdd091510a94604"
+    "revision": "0a72d697f31f812dadf6f2442d39a8ea"
   },
   {
     "url": "partners/sascharoos/index.html",
@@ -3076,7 +3076,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sascharoos/index.png",
-    "revision": "606848d5693b937e41fd6e7e5abb2e41"
+    "revision": "219a85498b02a11ba9bd9f532767a576"
   },
   {
     "url": "partners/sprialisconsulting/index.html",
@@ -3084,7 +3084,7 @@ self.__precacheManifest = [
   },
   {
     "url": "partners/sprialisconsulting/index.png",
-    "revision": "52a34288362d9011a3a2a660039b17a1"
+    "revision": "7e2891062da66fcf5d1dde517970547b"
   },
   {
     "url": "pricing/index.html",
@@ -3092,7 +3092,7 @@ self.__precacheManifest = [
   },
   {
     "url": "pricing/index.png",
-    "revision": "ac6d7ccfbe6c561ebaad75bc8ecb4df5"
+    "revision": "db0974a8cc2028b5f213bc364b668ae0"
   },
   {
     "url": "privacy/index.html",
@@ -3100,7 +3100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "privacy/index.png",
-    "revision": "bf03aa7b6d51ae924df64f26aff42861"
+    "revision": "68d386f49942ea9685778103661e7d74"
   },
   {
     "url": "products/chrome/index.html",
@@ -3108,7 +3108,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/chrome/index.png",
-    "revision": "5b08f2ceb190b59bd4dce34e8893b9da"
+    "revision": "33f2dc1cc5480ba670bfad865d0159c1"
   },
   {
     "url": "products/edge/index.html",
@@ -3116,7 +3116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/edge/index.png",
-    "revision": "fb692305ff970c383dbdecbd955424a5"
+    "revision": "70650e70d77d630bcef70355267a089d"
   },
   {
     "url": "products/firefox/index.html",
@@ -3124,7 +3124,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/firefox/index.png",
-    "revision": "b0fe9d34c3e0930821b497ae9cab5f2d"
+    "revision": "ea337b2e67a8ece9a4c4019184514a8e"
   },
   {
     "url": "products/google-addon/index.html",
@@ -3132,7 +3132,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/google-addon/index.png",
-    "revision": "a1d2571445577f80d5a061cb1b8b160d"
+    "revision": "34603e82489130e51719fe9992ed2d9a"
   },
   {
     "url": "products/ipad/index.html",
@@ -3140,7 +3140,7 @@ self.__precacheManifest = [
   },
   {
     "url": "products/ipad/index.png",
-    "revision": "cdf490e432a84cfabf19790da83fccfa"
+    "revision": "ec464f149284489219a3850f422cc6fa"
   },
   {
     "url": "recommends/index.html",
@@ -3148,7 +3148,7 @@ self.__precacheManifest = [
   },
   {
     "url": "recommends/index.png",
-    "revision": "8e3db93e5cd233b708163833b893df89"
+    "revision": "921539eff4e25389d41dc0da024e0d3e"
   },
   {
     "url": "redeem/index.html",
@@ -3156,7 +3156,7 @@ self.__precacheManifest = [
   },
   {
     "url": "redeem/index.png",
-    "revision": "11395316e8042e3edd7ac01ad55d0428"
+    "revision": "af0e3ae9ed192d87fa2d35530a71fe8d"
   },
   {
     "url": "refund/index.html",
@@ -3164,7 +3164,7 @@ self.__precacheManifest = [
   },
   {
     "url": "refund/index.png",
-    "revision": "2871ab09944129faed6438a5b0112c70"
+    "revision": "d6406bd79387b27285b39ea8682060a5"
   },
   {
     "url": "reviews/index.html",
@@ -3172,7 +3172,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/index.png",
-    "revision": "567b9fa948a20e3e2bad91665d7d0773"
+    "revision": "0a52e02b3e1831b0337306561869ff0b"
   },
   {
     "url": "sales/index.html",
@@ -3180,7 +3180,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sales/index.png",
-    "revision": "04645d440cff06ae6614f680a4fd9f8b"
+    "revision": "7e009757532a596b9a4f08fa8e5175ef"
   },
   {
     "url": "security/index.html",
@@ -3188,7 +3188,7 @@ self.__precacheManifest = [
   },
   {
     "url": "security/index.png",
-    "revision": "3bc2f86b4359d9ecaf11de1f18245fe1"
+    "revision": "a0ee1b2f9ddea572459ce19d75392b12"
   },
   {
     "url": "sitemap/index.html",
@@ -3196,7 +3196,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap/index.png",
-    "revision": "7d24e8009ef2a1b80634d8ac5cb7e661"
+    "revision": "707e1b5bd2fbc9212021798589eb43fc"
   },
   {
     "url": "success/index.html",
@@ -3204,7 +3204,7 @@ self.__precacheManifest = [
   },
   {
     "url": "success/index.png",
-    "revision": "367f91d343e37907ba185fb2fd5b0fdb"
+    "revision": "ea8e144d0d9ef9326f8026ee03def12f"
   },
   {
     "url": "support/annotate-and-highlight-pdfs-with-helperbird-online-extension/index.html",
@@ -3248,7 +3248,7 @@ self.__precacheManifest = [
   },
   {
     "url": "support/index.png",
-    "revision": "e4977a66acae81dec924cf70c0f0806c"
+    "revision": "82e272687d2604eff81364a160757283"
   },
   {
     "url": "survey/index.html",
@@ -3256,7 +3256,7 @@ self.__precacheManifest = [
   },
   {
     "url": "survey/index.png",
-    "revision": "b2ec3cf9ced4b88a516da0d35ab0d0d4"
+    "revision": "189c0f70a233fc900511ad8e7766c644"
   },
   {
     "url": "terms-of-service/index.html",
@@ -3264,7 +3264,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-of-service/index.png",
-    "revision": "a98ab29a2f0316e320c3e5c0095235aa"
+    "revision": "746e9a526c79f454fae4516fb294aff3"
   },
   {
     "url": "testimonials/index.html",
@@ -3272,7 +3272,7 @@ self.__precacheManifest = [
   },
   {
     "url": "testimonials/index.png",
-    "revision": "40b264cf44466cdd6555c4225cc57720"
+    "revision": "7c5e250b797a0bae8fa4bf15fdb2da44"
   },
   {
     "url": "tutorials/index.html",
@@ -3280,7 +3280,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tutorials/index.png",
-    "revision": "41f34f3f03bf21b979ac501bc07effb8"
+    "revision": "a4af4d57abf47e6477f5883d9e71f828"
   },
   {
     "url": "updates/102-5-3/index.html",
@@ -3300,7 +3300,7 @@ self.__precacheManifest = [
   },
   {
     "url": "updates/index.png",
-    "revision": "93f8507bfde2cbe9e7ccf6552a3a0a61"
+    "revision": "85e359945974d5ef0f0f73b0d7ba722a"
   },
   {
     "url": "updates/robin/index.html",
@@ -3312,7 +3312,7 @@ self.__precacheManifest = [
   },
   {
     "url": "usecases/index.png",
-    "revision": "fbd835bdca6d4ae0bd48b317e863be80"
+    "revision": "e1459daad64fad6ddca04378f6f523c6"
   },
   {
     "url": "welcome/index.html",
@@ -3320,7 +3320,7 @@ self.__precacheManifest = [
   },
   {
     "url": "welcome/index.png",
-    "revision": "cd84828f4a0f2eb9bb22a81f065c67bf"
+    "revision": "c08fcb121bbf71b27dfa1e80efb73b7b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
