@@ -1,0 +1,175 @@
+<!-- Sale Banner -->
+<section aria-labelledby="sale-banner" class="flex bg-gray-900 px-6 py-2.5 sm:px-3.5">
+	<div class="leading-relaxed font-sans mx-auto text-center text-base text-white">
+	  <a
+		href="https://payments.coffeeandfun.com/b/fZe8yvfqA4qE7Ha6oU?prefilled_promo_code=blackfriday"
+		title="Check Helperbird's pricing page"
+		target="_blank"
+		class="font-bold text-white hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+	  >
+		<span id="sale-banner">Sale: Get Helperbird Pro for $15</span>
+	  </a>
+	</div>
+</section>
+  
+
+  
+
+<nav class="sticky top-0 z-50 bg-base-helperbird">
+	<div class="mx-auto max-w-7xl px-6">
+	  <div class="relative flex h-20 items-center justify-between">
+		<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+		  <!-- Mobile menu button -->
+		  <button
+			type="button"
+			class="inline-flex items-center justify-center rounded-md p-2 text-black hover:text-black focus:ring-white"
+			aria-controls="mobile-menu"
+			:aria-expanded="showMobileMenu ? 'true' : 'false'"
+			@click="handleMobileMenu"
+			aria-label="Toggle mobile menu"
+		  >
+			<span class="sr-only">Open Menu</span>
+			<svg
+			  v-if="!showMobileMenu"
+			  xmlns="http://www.w3.org/2000/svg"
+			  viewBox="0 -960 960 960"
+			  class="h-8 w-8"
+			  fill="currentColor"
+			>
+			  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+			</svg>
+			<svg
+			  v-else
+			  xmlns="http://www.w3.org/2000/svg"
+			  viewBox="0 -960 960 960"
+			  class="h-8 w-8"
+			  fill="currentColor"
+			>
+			  <path
+				d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+			  />
+			</svg>
+		  </button>
+		</div>
+		<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+		  <div class="flex flex-shrink-0 items-center">
+			<a href="/" title="Visit Helperbird Homepage" class="mr-5 flex-shrink-0">
+			  <span class="sr-only">Helperbird</span>
+			  <img
+				class="h-12 w-auto"
+				src="/assets/images/pwa/logo/full.png"
+				alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background."
+			  />
+			</a>
+		  </div>
+		  <div class="hidden sm:ml-6 sm:block">
+			<nav class="flex space-x-4 text-black">
+			  <ul class="flex">
+				<li>
+				  <a
+					href="/about/"
+					title="Learn about Helperbird's history and mission."
+					class="btn btn-link text-base font-medium no-underline text-blue-500 hover:text-blue-700"
+					>About</a
+				  >
+				</li>
+				<li class="relative dropdown dropdown-end dropdown-hover">
+				  <a
+					href="/features/"
+					title="Discover Helperbird features."
+					class="btn btn-link text-base font-medium no-underline text-blue-500 hover:text-blue-700"
+					>Features</a
+				  >
+				</li>
+				<li>
+				  <a
+					href="/pricing/"
+					title="Helperbird pricing."
+					class="btn btn-link text-base font-medium no-underline text-blue-500 hover:text-blue-700"
+					>Pricing</a
+				  >
+				</li>
+				<li class="relative dropdown dropdown-end dropdown-hover">
+				  <a
+					href="/support/"
+					class="btn btn-link text-base font-medium no-underline text-blue-500 hover:text-blue-700"
+					title="Helperbird's support page."
+					aria-haspopup="true"
+					aria-expanded="false"
+				  >
+					Support
+					<svg
+					  xmlns="http://www.w3.org/2000/svg"
+					  class="h-6 w-6"
+					  viewBox="0 -960 960 960"
+					  fill="currentColor"
+					>
+					  <path d="M480-360 280-560h400L480-360Z" />
+					</svg>
+				  </a>
+			
+				</li>
+			  </ul>
+			</nav>
+		  </div>
+		</div>
+  
+		<div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+		  <button
+			onclick="download_modal.showModal()"
+			class="btn btn-secondary shadow-md"
+		  >
+			<span class="sr-only">Try for free</span>
+			Download Helperbird!
+		  </button>
+		</div>
+	  </div>
+	</div>
+  
+	<!-- Mobile menu, show/hide based on menu state. -->
+	<div
+	  class="sm:hidden px-8"
+	  id="mobile-menu"
+	  v-if="showMobileMenu"
+	>
+	  <div class="card space-y-1 bg-white shadow-md px-2 pb-3 pt-2">
+		<a
+		  href="/about/"
+		  class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
+		  aria-current="page"
+		  aria-label="Learn about Helperbird"
+		>
+		  About
+		</a>
+		<a
+		  href="/features/"
+		  class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
+		  aria-label="Discover Helperbird features"
+		>
+		  Features
+		</a>
+		<a
+		  href="/pricing/"
+		  class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
+		  aria-label="Helperbird pricing"
+		>
+		  Pricing
+		</a>
+		<a
+		  href="/compare/"
+		  class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
+		  aria-label="Compare Helperbird"
+		>
+		  Compare
+		</a>
+		<a
+		  href="/support/"
+		  class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
+		  aria-label="Helperbird support"
+		>
+		  Support
+		</a>
+	  </div>
+	</div>
+  </nav>
+  

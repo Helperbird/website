@@ -1,6 +1,58 @@
 {
 	"new": [
-
+		{
+			"version": "2024.9.25",
+			"date": "2024-9-25",
+			"changes": [
+			  {
+				"title": "📄 Open PDFs Right in Safari",
+				"description": "You can now open PDFs directly in the PDF reader on Safari, and you'll get a notification to let you know it worked."
+			  },
+			  {
+				"title": "📚 Google Docs Support is Here!",
+				"description": "You can now select text in Google Docs, which means all the great features like immersive reader, text to speech, speed reading, and reading mode work there too. It's a game changer!"
+			  },
+			  {
+				"title": "🧠 Word Prediction Got Smarter",
+				"description": "Word prediction is even better now, and it automatically adds a space after you select a word. Nice little touch, right?"
+			  },
+			  {
+				"title": "📰 Reading Mode Just Got Smarter",
+				"description": "Reading Mode now checks if the page can use it, and it works with PDFs as well!"
+			  },
+			  {
+				"title": "🖱️ Better Select Inputs",
+				"description": "We’ve added more padding to select inputs to make things more comfortable and easier to use."
+			  },
+			  {
+				"title": "📱 Touch Support for Rulers and Guides",
+				"description": "Dyslexia rulers, Focus Rulers, and Reading Guides now have full touch support. They even work smoothly on iPads!"
+			  },
+			  {
+				"title": "🎙️ Voice Typing Improvements",
+				"description": "You can now have Voice Typing read your text back to you, and there’s a handy new copy button to grab your text quickly."
+			  },
+			  {
+				"title": "🚦 Quick Actions Made Easier",
+				"description": "Clicking the ruler button in Quick Actions now turns it on or off—simple as that!"
+			  },
+			  {
+				"title": "🔔 One Less Notification",
+				"description": "We’ve removed the extra notification that popped up when opening Reading Mode. Less clutter!"
+			  },
+			  {
+				"title": "🚫 'Not Supported' Badges",
+				"description": "Now, if a feature isn’t supported on a page, you’ll see a badge letting you know."
+			  },
+			  {
+				"title": "🔉 Summarize Tool Update",
+				"description": "The Summarize tool now has a button to read the text out loud. Super useful for anyone who prefers to listen!"
+			  }
+			],
+			"upcoming": [],
+			"note": "We’re excited for you to try these new features and updates. Enjoy using Helperbird, and happy browsing! 😊"
+		  }
+,		  
 		{
 			"version": "2024.7.28",
 			"date": "2024-7-27",
