@@ -1,0 +1,65 @@
+---
+new: true
+footer: true
+header: true
+layout: templates/base.html
+title: Customer Stories & Case Studies
+youtubeId: vwT8SAJfU3E
+cardTitle: Helperbird Customer Stories
+description: Explore genuine customer stories and detailed case studies highlighting the transformative impact of the Helperbird Chrome extension. Discover how users overcome learning challenges, enhance readability, and experience tailored digital solutions. Dive into success stories that validate Helperbird's commitment to accessibility and user-centric design.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, OpenDyslexic for Chrome, OpenDyslexic
+url: usecases/
+---
+
+
+
+<div class="px-6 py-20 sm:py-16 lg:px-4 mb-4">
+  <div class="mx-auto max-w-4xl text-center">
+    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">Customer Stories &amp; Case Studies </h2>
+    <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
+      Read from our customers on how Helperbird is changing their life.
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none md:grid-cols-3 lg:grid-cols-4 mt-16 mb-16">
+  {%- for post in collections.usecase -%}
+    <div class="card bg-white rounded-xl overflow-hidden flex flex-col">
+      <figure class="p-4">
+        <img 
+          src="{{ post.data.img }}" 
+          alt="{{ post.data.cardTitle }}" 
+          class="aspect-[16/9] w-full rounded-xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" 
+        />
+      </figure>
+      <div class="card-body p-4 flex flex-col flex-grow">
+        <h3 class="card-title font-bold text-lg">{{ post.data.cardTitle }}</h3>
+        <div class="badge badge-secondary mt-2 mb-4">{{ post.data.blog_cat }}</div>
+        <p class="text-base text-black overflow-hidden line-clamp-3 mb-4">{{ post.data.blog_snip }}</p>
+        <div class="card-actions mt-auto">
+          <a 
+            href="{{ post.url }}" 
+            title="Read more about {{ post.data.cardTitle }}" 
+            class="link link-hover text-blue-500 hover:text-blue-700"
+          >
+            Read use case
+          </a>
+        </div>
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+
+
+
+
+
+{% include templates/new/cta/download.html %}
