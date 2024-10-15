@@ -12,7 +12,7 @@ const load = () => {
 		el: '#helperbird-website',
 		data: {
 			menus: false,
-			mobileMenu: false,
+
 			productModal: false,
 			writer: null,
 			isYearly: true,
@@ -97,9 +97,6 @@ const load = () => {
 			},
 			handleMenu(menu) {
 				this.menus = this.menus !== menu ? menu : null;
-			},
-			handleMobileMenu() {
-				this.mobileMenu = !this.mobileMenu;
 			}
 		},
 		computed: {
@@ -126,9 +123,6 @@ const load = () => {
 			},
 			showMenu() {
 				return this.menus;
-			},
-			showMobileMenu() {
-				return this.mobileMenu;
 			}
 		}
 	});

@@ -21,13 +21,13 @@
 					type="button"
 					class="inline-flex items-center justify-center rounded-md p-2 text-black hover:text-black focus:ring-white"
 					aria-controls="mobile-menu"
-					:aria-expanded="showMobileMenu ? 'true' : 'false'"
-					@click="handleMobileMenu"
+
+					onclick="my_modal_site_menu.showModal()"
 					aria-label="Toggle mobile menu"
 				>
 					<span class="sr-only">Open Menu</span>
 					<svg
-						v-if="!showMobileMenu"
+			
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 -960 960 960"
 						class="h-8 w-8"
@@ -35,17 +35,7 @@
 					>
 						<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
 					</svg>
-					<svg
-						v-else
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 -960 960 960"
-						class="h-8 w-8"
-						fill="currentColor"
-					>
-						<path
-							d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-						/>
-					</svg>
+					
 				</button>
 			</div>
 			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
@@ -307,45 +297,5 @@
 		</div>
 	</div>
 
-	<!-- Mobile menu, show/hide based on menu state. -->
-	<div class="px-8 sm:hidden" id="mobile-menu" v-if="showMobileMenu">
-		<div class="card space-y-1 bg-white px-2 pb-3 pt-2 shadow-md">
-			<a
-				href="/about/"
-				class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
-				aria-current="page"
-				aria-label="Learn about Helperbird"
-			>
-				About
-			</a>
-			<a
-				href="/features/"
-				class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
-				aria-label="Discover Helperbird features"
-			>
-				Features
-			</a>
-			<a
-				href="/pricing/"
-				class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
-				aria-label="Helperbird pricing"
-			>
-				Pricing
-			</a>
-			<a
-				href="/compare/"
-				class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
-				aria-label="Compare Helperbird"
-			>
-				Compare
-			</a>
-			<a
-				href="/support/"
-				class="block rounded-md bg-white px-3 py-2 text-lg font-medium text-black hover:bg-black hover:text-white"
-				aria-label="Helperbird support"
-			>
-				Support
-			</a>
-		</div>
-	</div>
+
 </nav>
