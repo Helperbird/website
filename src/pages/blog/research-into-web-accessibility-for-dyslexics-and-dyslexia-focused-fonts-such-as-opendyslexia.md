@@ -4,24 +4,36 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Research into Web Accessibility for Dyslexics and Dyslexia-Focused Fonts such as OpenDyslexic
-description: Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for designing dyslexia-friendly interfaces.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts
+  like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for
+  designing dyslexia-friendly interfaces.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for
+  Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/research-into-web-accessibility-for-dyslexics-and-dyslexia-focused-fonts-such-as-opendyslexia/
 tags: blog
 isBlog: true
 blog_cat: Research
-cardTitle: Research into Web Accessibility for Dyslexics and Dyslexia-Focused Fonts such as OpenDyslexic
-blog_snip: Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for designing dyslexia-friendly interfaces.
+cardTitle:
+  Research into Web Accessibility for Dyslexics and Dyslexia-Focused Fonts such as OpenDyslexic
+blog_snip:
+  Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts
+  like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for
+  designing dyslexia-friendly interfaces.
 cat: Research
 
-des: Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for designing dyslexia-friendly interfaces.
+des:
+  Explore the research on web accessibility for dyslexics and the impact of dyslexia-focused fonts
+  like OpenDyslexic. Learn about the existing knowledge on dyslexia and discover suggestions for
+  designing dyslexia-friendly interfaces.
 
 name: Robert James
 date: 2020-02-09T00:00:00.000Z
 time: 7 min
 img: https://miro.medium.com/max/1400/0*fg-ZaVStYkFz5Azh.png
 ---
-
 
 There are few published papers about usability testing with dyslexia focused fonts, but there is a
 considerable collection of knowledge on dyslexia as well as many suggestions for authoring dyslexia

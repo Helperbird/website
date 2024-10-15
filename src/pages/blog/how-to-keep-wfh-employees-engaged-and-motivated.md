@@ -4,23 +4,32 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Engaging and Motivating WFH Employees, Strategies for Success
-description: Discover effective strategies for keeping remote employees engaged and motivated. In an era where remote work is becoming increasingly common, Upwork estimates that over 26% of the American workforce will be working from home by 2021.
-keywords: WFH employees, remote work engagement, motivation strategies, working from home, American workforce, Upwork
+description:
+  Discover effective strategies for keeping remote employees engaged and motivated. In an era where
+  remote work is becoming increasingly common, Upwork estimates that over 26% of the American
+  workforce will be working from home by 2021.
+keywords:
+  WFH employees, remote work engagement, motivation strategies, working from home, American
+  workforce, Upwork
 url: blog/how-to-keep-wfh-employees-engaged-and-motivated/
 tags: blog
 isBlog: true
 blog_cat: Guest Blog
 youtubeId: vwT8SAJfU3E
 cardTitle: Engaging and Motivating WFH Employees, Strategies for Success
-blog_snip: Discover effective strategies for keeping remote employees engaged and motivated. In an era where remote work is becoming increasingly common, Upwork estimates that over 26% of the American workforce will be working from home by 2021.
+blog_snip:
+  Discover effective strategies for keeping remote employees engaged and motivated. In an era where
+  remote work is becoming increasingly common, Upwork estimates that over 26% of the American
+  workforce will be working from home by 2021.
 cat: Guest blog
 img: /assets/images/blog/new-blog-2022/employees-engaged.png
-des: These days, working remotely is no longer uncharted territory. That's why Upwork estimates that more than 26% of the American workforce would work from home by 2021.
+des:
+  These days, working remotely is no longer uncharted territory. That's why Upwork estimates that
+  more than 26% of the American workforce would work from home by 2021.
 name: Andrew Chu
 date: 2023-03-17T00:00:00.000Z
 time: 11 min
 ---
-
 
 These days, working remotely is no longer uncharted territory. That's why Upwork estimated that more
 than [26% of the American workforce](https://www.apollotechnical.com/statistics-on-remote-workers/)

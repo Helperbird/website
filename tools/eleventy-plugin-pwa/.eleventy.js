@@ -1,7 +1,9 @@
 const shimmer = require("shimmer");
-const Eleventy = require("@11ty/eleventy/src/Eleventy");
 
-module.exports = {
+module.exports = async function () {
+  const { EleventyRenderPlugin, EleventyI18nPlugin, EleventyHtmlBasePlugin } =
+    await import("@11ty/eleventy");
+
   configFunction: (cfg, options = {}) => {
     process.on("unhandledRejection", (reason) => {
       console.log("Reason: " + reason);
@@ -16,5 +18,5 @@ module.exports = {
       });
     }
     setImmediate(postBuild);
-  }
+  };
 };

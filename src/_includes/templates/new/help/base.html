@@ -202,32 +202,36 @@
 		<div id="helperbird-website" class="helperbird-yellow">
 			{% include templates/header.html %}
 
-			<main class="mx-auto max-w-6xl p-8 my-12">
+			<main class="mx-auto my-12 max-w-6xl p-8">
 				<header class="mx-auto max-w-4xl text-center">
-		
-		
-						  <h1 class="leading-relaxed text-3xl font-bold text-black sm:text-4xl">
+					<h1 class="text-3xl font-bold leading-relaxed text-black sm:text-4xl">
 						Help guides to make you a master at Helperbird
 					</h1>
-					<p class=" leading-relaxed mt-6 text-xl  text-black">
-						Our help guides are designed to empower you with in-depth knowledge and practical tips. 
-                        Whether you're new to Helperbird or a seasoned user, you'll find step-by-step instructions, hidden features, and expert insights to enhance your experience.
+					<p class="mt-6 text-xl leading-relaxed text-black">
+						Our help guides are designed to empower you with in-depth knowledge and practical tips.
+						Whether you're new to Helperbird or a seasoned user, you'll find step-by-step
+						instructions, hidden features, and expert insights to enhance your experience.
 					</p>
 				</header>
 				<div class="mt-16 sm:mt-20">
-				    <ul role="list" class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+					<ul
+						role="list"
+						class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+					>
 						{% for item in help.home %}
 
 						<li class="group flex flex-col items-start">
-							<div class="card card-compact bg-base-100 transition-all duration-200 hover:-translate-y-1 shadow-md h-full flex flex-col">
-								<div class="card-body flex flex-col flex-grow">
-									<h2 class="leading-relaxed font-sans  card-title font-bold ">{{item.title}}</h2>
-									<p class="leading-relaxed font-sans   text-base mb-2">{{item.description}}</p>
-									<div class="card-actions justify-end mt-4">
+							<div
+								class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
+							>
+								<div class="card-body flex flex-grow flex-col">
+									<h2 class="card-title font-sans font-bold leading-relaxed">{{item.title}}</h2>
+									<p class="mb-2 font-sans text-base leading-relaxed">{{item.description}}</p>
+									<div class="card-actions mt-4 justify-end">
 										<a
 											href="{{item.link}}"
 											title="{{item.title }}"
-											class="link link-hover text-blue-500 hover:text-blue-700"
+											class="link-hover link text-blue-500 hover:text-blue-700"
 											>Vist guide</a
 										>
 									</div>

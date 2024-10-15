@@ -5,7 +5,11 @@ header: true
 layout: templates/blog/post.liquid
 title: 3 Facts about Dyslexia and 1 Fact about Cats
 description: Discover three facts about dyslexia and one interesting fact about cats.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 url: blog/three-facts-about-dyslexia/
 tags: blog
 isBlog: true

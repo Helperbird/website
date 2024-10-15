@@ -4,22 +4,32 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Top 5 Productivity Microsoft Edge Extensions
-description: Discover the top 5 productivity Microsoft Edge extensions to boost your productivity in 2022.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Discover the top 5 productivity Microsoft Edge extensions to boost your productivity in 2022.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 url: blog/top-5-productivity-microsoft-edge-extensions/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: vwT8SAJfU3E
 cardTitle: Top 5 Productivity Microsoft Edge Extensions
-blog_snip: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
+blog_snip:
+  If you're like a lot of people, you're probably thinking about ways you can become more productive
+  in 2022. There's no better place to start than by making sure your computer is set up for
+  productivity, in absolutely every way possible.
 img: /assets/images/blog/new-blog-2022/productivity-microsoft-edge.png
-des: If you're like a lot of people, you're probably thinking about ways you can become more productive in 2022. There's no better place to start than by making sure your computer is set up for productivity, in absolutely every way possible.
+des:
+  If you're like a lot of people, you're probably thinking about ways you can become more productive
+  in 2022. There's no better place to start than by making sure your computer is set up for
+  productivity, in absolutely every way possible.
 name: June Coffeecups
 date: 2021-08-10T00:00:00.000Z
 time: 4 min
 ---
-
 
 If you're like a lot of people, you're probably thinking about ways you can become more productive
 in 2022. There's no better place to start than by making sure your computer is set up for

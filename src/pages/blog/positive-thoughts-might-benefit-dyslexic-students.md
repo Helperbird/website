@@ -4,25 +4,33 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How Positive Thoughts Might Benefit Dyslexic Students
-description: Explore the potential benefits of positive thinking for dyslexic students and how it can contribute to their overall well-being and academic success.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Explore the potential benefits of positive thinking for dyslexic students and how it can
+  contribute to their overall well-being and academic success.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for
+  Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/positive-thoughts-might-benefit-dyslexic-students/
 tags: blog
 isBlog: true
 blog_cat: Guide
 youtubeId: vwT8SAJfU3E
 cardTitle: How Positive Thoughts Might Benefit Dyslexic Students
-blog_snip: Explore the potential benefits of positive thinking for dyslexic students and how it can contribute to their overall well-being and academic success.
+blog_snip:
+  Explore the potential benefits of positive thinking for dyslexic students and how it can
+  contribute to their overall well-being and academic success.
 cat: Facts
 
-des: Explore the potential benefits of positive thinking for dyslexic students and how it can contribute to their overall well-being and academic success.
+des:
+  Explore the potential benefits of positive thinking for dyslexic students and how it can
+  contribute to their overall well-being and academic success.
 
 name: Courtney Hood
 date: 2023-12-15T00:00:00.000Z
 img: /assets/images/blog/positive/GOODDAY-01.png
 time: 7 min
 ---
-
 
 ## TODAY WILL BE A GOOD DAY
 

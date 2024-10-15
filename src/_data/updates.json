@@ -1,118 +1,113 @@
 {
 	"new": [
-
-
 		{
 			"version": "2024.10.6",
 			"date": "2024 10 6",
 			"changes": [
-			  {
-				"title": "📄 Open PDFs Right in Safari",
-				"description": "You can now open PDFs directly in the PDF reader on Safari, and you'll get a notification to let you know it worked."
-			  },
-			  {
-				"title": "📚 Google Docs Support is Here!",
-				"description": "You can now select text in Google Docs, which means all the great features like immersive reader, text to speech, speed reading, and reading mode work there too. It's a game changer!"
-			  },
-			  {
-				"title": "🧠 Word Prediction Got Smarter",
-				"description": "Word prediction is now fixed and even better on Google Docs, automatically adding a space after selecting a word."
-			  },
-			  {
-				"title": "🔉 Summarize Tool Update",
-				"description": "The Summarize feature now has a listen-back button, making it easier for those who prefer to hear the content."
-			  },
-			  {
-				"title": "🎙️ Voice Typing Improvements",
-				"description": "Voice typing now supports copying, clearing, and listening to your text. Plus, the entire voice typing system has been completely rewritten for smoother use."
-			  },
-			  {
-				"title": "📚 Smarter Dictionary",
-				"description": "The Dictionary app is now smarter and supports 20 different languages, working better than ever."
-			  },
-			  {
-				"title": "📰 Reading Mode Just Got Smarter",
-				"description": "Reading Mode now checks if the page can use it, and it works with PDFs as well!"
-			  },
-			  {
-				"title": "🖱️ Better Select Inputs",
-				"description": "We’ve added more padding to select inputs to make things more comfortable and easier to use."
-			  },
-			  {
-				"title": "📱 Touch Support for Rulers and Guides",
-				"description": "Dyslexia rulers, Focus Rulers, and Reading Guides now have full touch support. They even work smoothly on iPads!"
-			  },
-			  {
-				"title": "🚦 Quick Actions Made Easier",
-				"description": "Clicking the ruler button in Quick Actions now turns it on or off—simple as that!"
-			  },
-			  {
-				"title": "🔔 One Less Notification",
-				"description": "We’ve removed the extra notification that popped up when opening Reading Mode. Less clutter!"
-			  },
-			  {
-				"title": "🚫 'Not Supported' Badges",
-				"description": "Now, if a feature isn’t supported on a page, you’ll see a badge letting you know."
-			  }
+				{
+					"title": "📄 Open PDFs Right in Safari",
+					"description": "You can now open PDFs directly in the PDF reader on Safari, and you'll get a notification to let you know it worked."
+				},
+				{
+					"title": "📚 Google Docs Support is Here!",
+					"description": "You can now select text in Google Docs, which means all the great features like immersive reader, text to speech, speed reading, and reading mode work there too. It's a game changer!"
+				},
+				{
+					"title": "🧠 Word Prediction Got Smarter",
+					"description": "Word prediction is now fixed and even better on Google Docs, automatically adding a space after selecting a word."
+				},
+				{
+					"title": "🔉 Summarize Tool Update",
+					"description": "The Summarize feature now has a listen-back button, making it easier for those who prefer to hear the content."
+				},
+				{
+					"title": "🎙️ Voice Typing Improvements",
+					"description": "Voice typing now supports copying, clearing, and listening to your text. Plus, the entire voice typing system has been completely rewritten for smoother use."
+				},
+				{
+					"title": "📚 Smarter Dictionary",
+					"description": "The Dictionary app is now smarter and supports 20 different languages, working better than ever."
+				},
+				{
+					"title": "📰 Reading Mode Just Got Smarter",
+					"description": "Reading Mode now checks if the page can use it, and it works with PDFs as well!"
+				},
+				{
+					"title": "🖱️ Better Select Inputs",
+					"description": "We’ve added more padding to select inputs to make things more comfortable and easier to use."
+				},
+				{
+					"title": "📱 Touch Support for Rulers and Guides",
+					"description": "Dyslexia rulers, Focus Rulers, and Reading Guides now have full touch support. They even work smoothly on iPads!"
+				},
+				{
+					"title": "🚦 Quick Actions Made Easier",
+					"description": "Clicking the ruler button in Quick Actions now turns it on or off—simple as that!"
+				},
+				{
+					"title": "🔔 One Less Notification",
+					"description": "We’ve removed the extra notification that popped up when opening Reading Mode. Less clutter!"
+				},
+				{
+					"title": "🚫 'Not Supported' Badges",
+					"description": "Now, if a feature isn’t supported on a page, you’ll see a badge letting you know."
+				}
 			],
 			"upcoming": [],
 			"note": "We’re excited for you to try these new features and updates. Enjoy using Helperbird, and happy browsing! 😊"
-		  }
-,		  
-
+		},
 		{
 			"version": "2024.9.25",
 			"date": "2024 9 25",
 			"changes": [
-			  {
-				"title": "📄 Open PDFs Right in Safari",
-				"description": "You can now open PDFs directly in the PDF reader on Safari, and you'll get a notification to let you know it worked."
-			  },
-			  {
-				"title": "📚 Google Docs Support is Here!",
-				"description": "You can now select text in Google Docs, which means all the great features like immersive reader, text to speech, speed reading, and reading mode work there too. It's a game changer!"
-			  },
-			  {
-				"title": "🧠 Word Prediction Got Smarter",
-				"description": "Word prediction is even better now, and it automatically adds a space after you select a word. Nice little touch, right?"
-			  },
-			  {
-				"title": "📰 Reading Mode Just Got Smarter",
-				"description": "Reading Mode now checks if the page can use it, and it works with PDFs as well!"
-			  },
-			  {
-				"title": "🖱️ Better Select Inputs",
-				"description": "We’ve added more padding to select inputs to make things more comfortable and easier to use."
-			  },
-			  {
-				"title": "📱 Touch Support for Rulers and Guides",
-				"description": "Dyslexia rulers, Focus Rulers, and Reading Guides now have full touch support. They even work smoothly on iPads!"
-			  },
-			  {
-				"title": "🎙️ Voice Typing Improvements",
-				"description": "You can now have Voice Typing read your text back to you, and there’s a handy new copy button to grab your text quickly."
-			  },
-			  {
-				"title": "🚦 Quick Actions Made Easier",
-				"description": "Clicking the ruler button in Quick Actions now turns it on or off—simple as that!"
-			  },
-			  {
-				"title": "🔔 One Less Notification",
-				"description": "We’ve removed the extra notification that popped up when opening Reading Mode. Less clutter!"
-			  },
-			  {
-				"title": "🚫 'Not Supported' Badges",
-				"description": "Now, if a feature isn’t supported on a page, you’ll see a badge letting you know."
-			  },
-			  {
-				"title": "🔉 Summarize Tool Update",
-				"description": "The Summarize tool now has a button to read the text out loud. Super useful for anyone who prefers to listen!"
-			  }
+				{
+					"title": "📄 Open PDFs Right in Safari",
+					"description": "You can now open PDFs directly in the PDF reader on Safari, and you'll get a notification to let you know it worked."
+				},
+				{
+					"title": "📚 Google Docs Support is Here!",
+					"description": "You can now select text in Google Docs, which means all the great features like immersive reader, text to speech, speed reading, and reading mode work there too. It's a game changer!"
+				},
+				{
+					"title": "🧠 Word Prediction Got Smarter",
+					"description": "Word prediction is even better now, and it automatically adds a space after you select a word. Nice little touch, right?"
+				},
+				{
+					"title": "📰 Reading Mode Just Got Smarter",
+					"description": "Reading Mode now checks if the page can use it, and it works with PDFs as well!"
+				},
+				{
+					"title": "🖱️ Better Select Inputs",
+					"description": "We’ve added more padding to select inputs to make things more comfortable and easier to use."
+				},
+				{
+					"title": "📱 Touch Support for Rulers and Guides",
+					"description": "Dyslexia rulers, Focus Rulers, and Reading Guides now have full touch support. They even work smoothly on iPads!"
+				},
+				{
+					"title": "🎙️ Voice Typing Improvements",
+					"description": "You can now have Voice Typing read your text back to you, and there’s a handy new copy button to grab your text quickly."
+				},
+				{
+					"title": "🚦 Quick Actions Made Easier",
+					"description": "Clicking the ruler button in Quick Actions now turns it on or off—simple as that!"
+				},
+				{
+					"title": "🔔 One Less Notification",
+					"description": "We’ve removed the extra notification that popped up when opening Reading Mode. Less clutter!"
+				},
+				{
+					"title": "🚫 'Not Supported' Badges",
+					"description": "Now, if a feature isn’t supported on a page, you’ll see a badge letting you know."
+				},
+				{
+					"title": "🔉 Summarize Tool Update",
+					"description": "The Summarize tool now has a button to read the text out loud. Super useful for anyone who prefers to listen!"
+				}
 			],
 			"upcoming": [],
 			"note": "We’re excited for you to try these new features and updates. Enjoy using Helperbird, and happy browsing! 😊"
-		  }
-,		  
+		},
 		{
 			"version": "2024.7.28",
 			"date": "2024-7-27",
@@ -149,125 +144,122 @@
 			"upcoming": [],
 			"note": "We're excited for you to try these new features and improvements. Happy browsing! 😊"
 		},
-		
 
 		{
 			"version": "107.5.0",
 			"date": "2024-04-11",
 			"changes": [
-			  {
-				"title": "🔑 Keyboard Navigation Improved",
-				"description": "Enhanced keyboard support for app navigation."
-			  },
-			  {
-				"title": "🎯 Focus Issue Fixes",
-				"description": "Improved button focus for better usability."
-			  },
-			  {
-				"title": "🆕 New Default Apps",
-				"description": "Added new default applications."
-			  },
-			  {
-				"title": "🔔 Updated Notification System",
-				"description": "Notifications and updates system improved."
-			  },
-			  {
-				"title": "🗣️ Text to Speech Enhancements",
-				"description": "Text to speech now includes natural voices and word highlighting."
-			  },
-			  {
-				"title": "🚪 Modal Escape Key",
-				"description": "Added escape key functionality to exit modals."
-			  },
-			  {
-				"title": "📸 Screenshot Feature Update",
-				"description": "Moved screenshot feature for easier access."
-			  },
-			  {
-				"title": "🔢 Math Reader Update",
-				"description": "Improved Math Reader for faster equation processing."
-			  },
-			  {
-				"title": "📝 Sticky Notes Redesign",
-				"description": "Made sticky notes smaller and more compact."
-			  },
-			  {
-				"title": "📚 Reading Level Indicator",
-				"description": "Added a reading level indicator under text input fields."
-			  },
-			  {
-				"title": "⚡ Speed Reading Settings",
-				"description": "Speed reading settings now have their own separate pages."
-			  },
-			  {
-				"title": "📱 Subscription Key Fix for iPhone Users",
-				"description": "Fixed a bug affecting subscription key recognition on iPhone."
-			  },
-			  {
-				"title": "🔐 Simplified Subscription Key Usage",
-				"description": "Removed login reminders for subscription key usage."
-			  },
-			  {
-				"title": "✨ UI Improvements",
-				"description": "Updated UI for a cleaner look and feel."
-			  }
+				{
+					"title": "🔑 Keyboard Navigation Improved",
+					"description": "Enhanced keyboard support for app navigation."
+				},
+				{
+					"title": "🎯 Focus Issue Fixes",
+					"description": "Improved button focus for better usability."
+				},
+				{
+					"title": "🆕 New Default Apps",
+					"description": "Added new default applications."
+				},
+				{
+					"title": "🔔 Updated Notification System",
+					"description": "Notifications and updates system improved."
+				},
+				{
+					"title": "🗣️ Text to Speech Enhancements",
+					"description": "Text to speech now includes natural voices and word highlighting."
+				},
+				{
+					"title": "🚪 Modal Escape Key",
+					"description": "Added escape key functionality to exit modals."
+				},
+				{
+					"title": "📸 Screenshot Feature Update",
+					"description": "Moved screenshot feature for easier access."
+				},
+				{
+					"title": "🔢 Math Reader Update",
+					"description": "Improved Math Reader for faster equation processing."
+				},
+				{
+					"title": "📝 Sticky Notes Redesign",
+					"description": "Made sticky notes smaller and more compact."
+				},
+				{
+					"title": "📚 Reading Level Indicator",
+					"description": "Added a reading level indicator under text input fields."
+				},
+				{
+					"title": "⚡ Speed Reading Settings",
+					"description": "Speed reading settings now have their own separate pages."
+				},
+				{
+					"title": "📱 Subscription Key Fix for iPhone Users",
+					"description": "Fixed a bug affecting subscription key recognition on iPhone."
+				},
+				{
+					"title": "🔐 Simplified Subscription Key Usage",
+					"description": "Removed login reminders for subscription key usage."
+				},
+				{
+					"title": "✨ UI Improvements",
+					"description": "Updated UI for a cleaner look and feel."
+				}
 			],
 			"upcoming": [
-			  {
-				"title": "✏️ New Highlighter Supports",
-				"description": "Enhanced highlighter functionality for improved document handling."
-			  },
-			  {
-				"title": "🎙️ Voice Typing into Inputs",
-				"description": "Added voice typing feature for text input fields."
-			  }
+				{
+					"title": "✏️ New Highlighter Supports",
+					"description": "Enhanced highlighter functionality for improved document handling."
+				},
+				{
+					"title": "🎙️ Voice Typing into Inputs",
+					"description": "Added voice typing feature for text input fields."
+				}
 			],
 			"note": "This update includes various enhancements and fixes aimed at improving user experience and application performance. Stay tuned for the upcoming features to make your experience even more seamless."
-		  }
-,		  
+		},
 		{
 			"version": "107.1.5",
 			"date": "February 22nd, 2024",
 			"changes": [
-			  {
-				"title": "Right-Click Pause: Fixed and Functional 🚫🎵",
-				"description": "Encountered a glitch with 'Stop Playing' on right-click? We've ironed out the creases. Your audio controls are now seamless."
-			  },
-			  {
-				"title": "Immersive Reader Customization: Your Read, Your Rules 📖⚙️",
-				"description": "Tailor your reading experience with customizable Immersive Reader settings. Choose your preferred voice, speed, and text size for a reading experience that's uniquely yours."
-			  },
-			  {
-				"title": "OCR Tool: Now with Translation Support 🌍✍️",
-				"description": "The OCR tool just got smarter! With translation support, accessing and understanding content in multiple languages is a breeze."
-			  },
-			  {
-				"title": "Highlighter on PDFs: Bug Squashed 🐛🖍️",
-				"description": "Frustrated with the highlighter not working on PDFs? Worry no more. We've zapped this bug for smooth, uninterrupted learning."
-			  },
-			  {
-				"title": "Summarizing Tool: Auto-Reset on New Pages 🔄📄",
-				"description": "Our summarizing tool now automatically resets with each new page you visit, ensuring a fresh start for every read."
-			  },
-			  {
-				"title": "Login & Account Redesign: Sleek and Secure 🔐💡",
-				"description": "Experience our new login and account pages, redesigned for a sleeker look and a more secure sign-in process."
-			  }
+				{
+					"title": "Right-Click Pause: Fixed and Functional 🚫🎵",
+					"description": "Encountered a glitch with 'Stop Playing' on right-click? We've ironed out the creases. Your audio controls are now seamless."
+				},
+				{
+					"title": "Immersive Reader Customization: Your Read, Your Rules 📖⚙️",
+					"description": "Tailor your reading experience with customizable Immersive Reader settings. Choose your preferred voice, speed, and text size for a reading experience that's uniquely yours."
+				},
+				{
+					"title": "OCR Tool: Now with Translation Support 🌍✍️",
+					"description": "The OCR tool just got smarter! With translation support, accessing and understanding content in multiple languages is a breeze."
+				},
+				{
+					"title": "Highlighter on PDFs: Bug Squashed 🐛🖍️",
+					"description": "Frustrated with the highlighter not working on PDFs? Worry no more. We've zapped this bug for smooth, uninterrupted learning."
+				},
+				{
+					"title": "Summarizing Tool: Auto-Reset on New Pages 🔄📄",
+					"description": "Our summarizing tool now automatically resets with each new page you visit, ensuring a fresh start for every read."
+				},
+				{
+					"title": "Login & Account Redesign: Sleek and Secure 🔐💡",
+					"description": "Experience our new login and account pages, redesigned for a sleeker look and a more secure sign-in process."
+				}
 			],
 			"fixes": [
-			  {
-				"title": "UI Clutter Cleanup: Enhanced Navigation 🧹✨",
-				"description": "We've cleaned up the UI, fixing cluttered features and buttons for a smoother navigation experience across Helperbird."
-			  }
+				{
+					"title": "UI Clutter Cleanup: Enhanced Navigation 🧹✨",
+					"description": "We've cleaned up the UI, fixing cluttered features and buttons for a smoother navigation experience across Helperbird."
+				}
 			],
 			"upcoming": [
-			  {
-				"title": "Bug Report Feature: Your Feedback Matters 🐞📝",
-				"description": "Stay tuned! A dedicated bug report feature is on its way, making it easier for you to share feedback and help us improve."
-			  }
+				{
+					"title": "Bug Report Feature: Your Feedback Matters 🐞📝",
+					"description": "Stay tuned! A dedicated bug report feature is on its way, making it easier for you to share feedback and help us improve."
+				}
 			]
-		  }
-,		  
+		},
 		{
 			"version": "107.1.0",
 			"date": "February 6th, 2024",

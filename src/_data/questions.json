@@ -1,53 +1,52 @@
 {
 	"helperbird": [
-	  {
-		"question": "What is Helperbird?",
-		"answer": "Helperbird is an easy-to-use tool that makes web pages, PDFs, and documents easier to read and use. It helps everyone by offering personalized support based on their needs and learning styles."
-	  },
-	  {
-		"question": "Do you offer discounts?",
-		"answer": "Yes, we do! If you pay for a yearly subscription, you get two months for free. Let us know if you have any other questions about pricing or discounts."
-	  },
-	  {
-		"question": "Do you accept purchase orders?",
-		"answer": "Yes, we do. If you want to use a purchase order, please contact our sales team. They will help you with the details and complete the process. We look forward to working with you!"
-	  },
-	  {
-		"question": "Do I need a student email for the student pricing?",
-		"answer": "No, you don’t need a student email. We trust you to be honest about being a student when you sign up for the discount."
-	  },
-	  {
-		"question": "Is Helperbird free?",
-		"answer": "Yes, we offer basic features for free and they will always be free. We also have a Pro version that helps support development and costs. We keep our prices as low as possible."
-	  },
-	  {
-		"question": "Can I cancel Helperbird at any time?",
-		"answer": "Yes, you can cancel anytime without any penalties or hassles."
-	  },
-	  {
-		"question": "Why do you charge for Helperbird?",
-		"answer": "We charge to cover the costs of making and maintaining Helperbird, including programming, design, servers, and support. The free version has some features, but the Pro version has more tools. We believe it’s worth the cost and hope you find it valuable too."
-	  },
-	  {
-		"question": "What browsers does Helperbird run on?",
-		"answer": "Helperbird works on Google Chrome, Mozilla Firefox, Microsoft Edge, iPad, iPhone, Safari, and Google Docs & Slides."
-	  },
-	  {
-		"question": "Do you accept suggestions?",
-		"answer": "Yes, we love hearing your ideas! Please email your suggestions to <a href='mailto:robert.gabriel@helperbird.com' title='Email your suggestion' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>robert.gabriel@helperbird.com</a>."
-	  },
-	  {
-		"question": "Why do some Helperbird features not work on Google Docs?",
-		"answer": "Some features might not work because Google Docs uses a different way to display text. They now use Canvas, which doesn’t support custom fonts like HTML does."
-	  },
-	  {
-		"question": "How do I log in to Helperbird?",
-		"answer": "Helperbird uses the email you’re logged into your browser with. To learn how to log in or use your subscription key, follow this <a href='https://www.helperbird.com/help/how-to-login-to-helperbird/' title='How to login to Helperbird' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>link</a>."
-	  },
-	  {
-		"question": "What if I have more questions?",
-		"answer": "If you have more questions, please contact our support team. They are happy to help. You can reach them through our website or by emailing <a href='mailto:support@helperbird.com' title='Email support' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>support@helperbird.com</a>. We look forward to assisting you!"
-	  }
+		{
+			"question": "What is Helperbird?",
+			"answer": "Helperbird is an easy-to-use tool that makes web pages, PDFs, and documents easier to read and use. It helps everyone by offering personalized support based on their needs and learning styles."
+		},
+		{
+			"question": "Do you offer discounts?",
+			"answer": "Yes, we do! If you pay for a yearly subscription, you get two months for free. Let us know if you have any other questions about pricing or discounts."
+		},
+		{
+			"question": "Do you accept purchase orders?",
+			"answer": "Yes, we do. If you want to use a purchase order, please contact our sales team. They will help you with the details and complete the process. We look forward to working with you!"
+		},
+		{
+			"question": "Do I need a student email for the student pricing?",
+			"answer": "No, you don’t need a student email. We trust you to be honest about being a student when you sign up for the discount."
+		},
+		{
+			"question": "Is Helperbird free?",
+			"answer": "Yes, we offer basic features for free and they will always be free. We also have a Pro version that helps support development and costs. We keep our prices as low as possible."
+		},
+		{
+			"question": "Can I cancel Helperbird at any time?",
+			"answer": "Yes, you can cancel anytime without any penalties or hassles."
+		},
+		{
+			"question": "Why do you charge for Helperbird?",
+			"answer": "We charge to cover the costs of making and maintaining Helperbird, including programming, design, servers, and support. The free version has some features, but the Pro version has more tools. We believe it’s worth the cost and hope you find it valuable too."
+		},
+		{
+			"question": "What browsers does Helperbird run on?",
+			"answer": "Helperbird works on Google Chrome, Mozilla Firefox, Microsoft Edge, iPad, iPhone, Safari, and Google Docs & Slides."
+		},
+		{
+			"question": "Do you accept suggestions?",
+			"answer": "Yes, we love hearing your ideas! Please email your suggestions to <a href='mailto:robert.gabriel@helperbird.com' title='Email your suggestion' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>robert.gabriel@helperbird.com</a>."
+		},
+		{
+			"question": "Why do some Helperbird features not work on Google Docs?",
+			"answer": "Some features might not work because Google Docs uses a different way to display text. They now use Canvas, which doesn’t support custom fonts like HTML does."
+		},
+		{
+			"question": "How do I log in to Helperbird?",
+			"answer": "Helperbird uses the email you’re logged into your browser with. To learn how to log in or use your subscription key, follow this <a href='https://www.helperbird.com/help/how-to-login-to-helperbird/' title='How to login to Helperbird' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>link</a>."
+		},
+		{
+			"question": "What if I have more questions?",
+			"answer": "If you have more questions, please contact our support team. They are happy to help. You can reach them through our website or by emailing <a href='mailto:support@helperbird.com' title='Email support' class='leading-relaxed font-sans text-base link link-hover text-blue-500 hover:text-blue-700'>support@helperbird.com</a>. We look forward to assisting you!"
+		}
 	]
-  }
-  
+}

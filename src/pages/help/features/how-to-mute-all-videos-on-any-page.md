@@ -5,7 +5,9 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use Video Playback Controls in Helperbird
-description: Learn how to control video playback speed and volume on any webpage using Helperbird. This guide shows you how to customize your video-watching experience, including turning on default controls.
+description:
+  Learn how to control video playback speed and volume on any webpage using Helperbird. This guide
+  shows you how to customize your video-watching experience, including turning on default controls.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,25 +16,30 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Video Controls
-featureDescription: Learn how to control video playback speed and volume on any webpage using Helperbird. This guide shows you how to customize your video-watching experience, including turning on default controls.
+featureDescription:
+  Learn how to control video playback speed and volume on any webpage using Helperbird. This guide
+  shows you how to customize your video-watching experience, including turning on default controls.
 date: 2022-01-01
-headerTags: [
-  { tag: "how-to-turn-on-video-playback-controls", title: "How to Turn On Video Playback Controls" },
-  { tag: "how-to-change-video-speed", title: "How to Change Video Speed" },
-  { tag: "how-to-adjust-video-volume", title: "How to Adjust Video Volume" },
-  { tag: "how-to-show-default-video-controls", title: "How to Show Default Video Controls" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+headerTags:
+  [
+    {
+      tag: 'how-to-turn-on-video-playback-controls',
+      title: 'How to Turn On Video Playback Controls'
+    },
+    { tag: 'how-to-change-video-speed', title: 'How to Change Video Speed' },
+    { tag: 'how-to-adjust-video-volume', title: 'How to Adjust Video Volume' },
+    { tag: 'how-to-show-default-video-controls', title: 'How to Show Default Video Controls' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 
 tags: features
 url: help/how-to-mute-all-videos-on-any-page/
-permalink:  help/how-to-mute-all-videos-on-any-page/
-
+permalink: help/how-to-mute-all-videos-on-any-page/
 ---
 
-
-With Helperbird, you can make watching videos on any webpage more enjoyable by adjusting the playback speed and volume right from the extension. 
+With Helperbird, you can make watching videos on any webpage more enjoyable by adjusting the
+playback speed and volume right from the extension.
 
 Here’s how to do it:
 
@@ -62,7 +69,8 @@ Once Video Playback is on, you’ll see a **Speed** slider.
 
 ### 2. Adjust the Speed
 
-Move the slider to the left for slower playback or to the right to speed things up. Find the pace that suits you best!
+Move the slider to the left for slower playback or to the right to speed things up. Find the pace
+that suits you best!
 
 ---
 
@@ -102,4 +110,5 @@ Coming soon.
 
 ## Need More Help?
 
-If you hit a snag or have any questions, don’t worry! Just reach out to our friendly [Helperbird support team](/support/), and we’ll help you out in no time.
+If you hit a snag or have any questions, don’t worry! Just reach out to our friendly
+[Helperbird support team](/support/), and we’ll help you out in no time.

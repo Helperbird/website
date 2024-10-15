@@ -26,21 +26,23 @@ blog_snip: ''
 website: https://www.sprialisconsulting.com/
 ---
 
-
-
 ## About
-Directed by Jim Sprialis, Sprialis Consulting offers a wealth of expertise in inclusive technology solutions through advice, presentations, professional development programs, and training.
+
+Directed by Jim Sprialis, Sprialis Consulting offers a wealth of expertise in inclusive technology
+solutions through advice, presentations, professional development programs, and training.
 
 ## Specialties
+
 - Inclusive Technology Solutions
 - Professional Development Programs
 - Universal Design Approaches
 
 ## Titles
+
 - Director, Inclusive Technology Advocate
 
 ## Contact
+
 - Email: contact@sprialisconsulting.com
 - Phone: (555) 555-5555
 - Website: [Sprialisconsulting.com](https://www.sprialisconsulting.com/)
-

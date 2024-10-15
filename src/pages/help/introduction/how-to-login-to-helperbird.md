@@ -4,23 +4,36 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Login to Helperbird  
-description: Discover how to log in to Helperbird to access your Pro features.  
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic  
+title: How to Login to Helperbird
+description: Discover how to log in to Helperbird to access your Pro features.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 
-youtubeId: vwT8SAJfU3E  
-cardTitle: How to Log in to Helperbird  
-featureDescription: Discover how to log in to Helperbird to access your Pro features.  
-headerTags: [ { tag: "log-in-with-email", title: "Email login" },{ tag: "log-in-with-subscription-key", title: "Subscription key" },{ tag: "video-tutorial", title: "Video Tutorial" } ]  
-tags: introduction  
-date: 2016-01-01  
+youtubeId: vwT8SAJfU3E
+cardTitle: How to Log in to Helperbird
+featureDescription: Discover how to log in to Helperbird to access your Pro features.
+headerTags:
+  [
+    { tag: 'log-in-with-email', title: 'Email login' },
+    { tag: 'log-in-with-subscription-key', title: 'Subscription key' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' }
+  ]
+tags: introduction
+date: 2016-01-01
 url: help/how-to-login-to-helperbird/
 permalink: help/how-to-login-to-helperbird/
-redirect_from: [/login/, /support/how-to-login-into-helperbird/, /help/helperbird-for-ios-ipad-iphone-is-missing-features/ ]  
+redirect_from:
+  [
+    /login/,
+    /support/how-to-login-into-helperbird/,
+    /help/helperbird-for-ios-ipad-iphone-is-missing-features/
+  ]
 ---
 
-Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
----
+## Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
 
 ## Log in with Email
 
@@ -53,10 +66,9 @@ If you have a subscription, you'll gain access to Pro features.
 
 ### 7. Alternative: Subscription Key
 
-Log in using your [subscription key](/help/how-to-use-my-subscription-key/) if needed.
----
+## Log in using your [subscription key](/help/how-to-use-my-subscription-key/) if needed.
 
-##  Log in with Subscription Key
+## Log in with Subscription Key
 
 **Supported on Chrome, Edge, Firefox, iPhone, and iPad**
 
@@ -76,8 +88,7 @@ In the new tab, scroll to the subscription section, enter your subscription key,
 
 ### 4. Confirmation
 
-If a subscription is found, you'll see confetti and a confirmation message.
----
+## If a subscription is found, you'll see confetti and a confirmation message.
 
 ## Video Tutorial
 
@@ -88,4 +99,5 @@ If a subscription is found, you'll see confetti and a confirmation message.
 
 ## Need More Help?
 
-Ran into a snag? No worries! Reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
+Ran into a snag? No worries! Reach out to our friendly [Helperbird support team](/support/), and
+we'll help you smooth things out in no time.

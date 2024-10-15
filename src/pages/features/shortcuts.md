@@ -4,17 +4,25 @@ footer: true
 header: true
 layout: templates/features_two.liquid
 title: Helperbird Keyboard Shortcuts
-description: Learn about Helperbird's keyboard shortcuts and become a pro at using Helperbird. Discover how to navigate Helperbird with ease and enhance your accessibility experience.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Learn about Helperbird's keyboard shortcuts and become a pro at using Helperbird. Discover how to
+  navigate Helperbird with ease and enhance your accessibility experience.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+  OpenDyslexic
 featurePageTitle: Helperbird Keyboard Shortcuts
 img: i1EeaekPHIo
-icon: "/src/_includes/svgs/shortcuts.svg"
+icon: '/src/_includes/svgs/shortcuts.svg'
 youtubeId: vwT8SAJfU3E
 cardTitle: Keyboard Shortcuts
-featureDescription: Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance your accessibility experience with quick and efficient shortcuts.
+featureDescription:
+  Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance
+  your accessibility experience with quick and efficient shortcuts.
 group: reading
 color: blue
-tags: 
+tags:
   - features
   - accessibility
 link: reading
@@ -24,7 +32,8 @@ redirect_from: [/support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefo
 
 ## About This Feature
 
-Helperbird supports keyboard shortcuts for all major features. Discover how to navigate Helperbird with ease and enhance your accessibility experience.
+Helperbird supports keyboard shortcuts for all major features. Discover how to navigate Helperbird
+with ease and enhance your accessibility experience.
 
 ## Helperbird Keyboard Shortcuts
 

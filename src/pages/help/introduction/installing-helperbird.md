@@ -29,8 +29,9 @@ url: help/installing-helperbird/
 permalink:  help/installing-helperbird/
 ---
 
-
-This guide covers installing Helperbird on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, Google Docs, Google Slides, and iPad/iPhone. Ensure your browser or app is updated for compatibility, and follow the steps for a successful installation.
+This guide covers installing Helperbird on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari,
+Google Docs, Google Slides, and iPad/iPhone. Ensure your browser or app is updated for
+compatibility, and follow the steps for a successful installation.
 
 ---
 
@@ -42,7 +43,8 @@ Launch Google Chrome on your computer.
 
 ### 2. Go to Extension Page
 
-Visit the [Helperbird extension page on the Chrome Web Store.](https://chrome.google.com/webstore/detail/helperbird/ahmapmilbkfamljbpgphfndeemhnajme)
+Visit the
+[Helperbird extension page on the Chrome Web Store.](https://chrome.google.com/webstore/detail/helperbird/ahmapmilbkfamljbpgphfndeemhnajme)
 
 ### 3. Add to Chrome
 
@@ -56,7 +58,6 @@ A pop-up window will appear for confirmation. Click **Add Extension**.
 
 Helperbird will be installed, and its icon will appear in the top-right corner of Chrome.
 
-
 ---
 
 ## How to Install Helperbird for Microsoft Edge
@@ -67,7 +68,8 @@ Start Microsoft Edge on your computer.
 
 ### 2. Go to Add-ons Store
 
-Visit the [Microsoft Edge Add-ons store.](https://microsoftedge.microsoft.com/addons/detail/helperbird/gfjkfjnhkpncjfjgcfhfhljomfejnpbk)
+Visit the
+[Microsoft Edge Add-ons store.](https://microsoftedge.microsoft.com/addons/detail/helperbird/gfjkfjnhkpncjfjgcfhfhljomfejnpbk)
 
 ### 3. Get Extension
 
@@ -80,7 +82,6 @@ A pop-up will ask for confirmation. Click **Add extension**.
 ### 5. Installation Complete
 
 Helperbird will be installed, with its icon in the top-right corner of Edge.
-
 
 ---
 
@@ -104,8 +105,7 @@ Confirm the installation in the pop-up window.
 
 ### 5. Installation Complete
 
-Helperbird will be installed, with its icon visible in Firefox.
----
+## Helperbird will be installed, with its icon visible in Firefox.
 
 ## How to Install Helperbird for Safari
 
@@ -119,7 +119,8 @@ Open Safari Preferences and navigate to the Extensions tab.
 
 ### 3. Search for Helperbird
 
-Search for [Helperbird for Safari in the App Store.](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053)
+Search for
+[Helperbird for Safari in the App Store.](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053)
 
 ### 4. Install Helperbird
 
@@ -127,8 +128,7 @@ Click **Install** and follow the prompts.
 
 ### 5. Complete Installation
 
-Once installed, ensure Helperbird is enabled in the Extensions tab.
----
+## Once installed, ensure Helperbird is enabled in the Extensions tab.
 
 ## How to install Helperbird on Google Docs
 
@@ -160,7 +160,6 @@ Allow permissions in the pop-up window.
 
 The add-on will be available in the **Add-ons** menu.
 
-
 ---
 
 ## How to Install Helperbird on Google Slides
@@ -191,8 +190,7 @@ Allow permissions in the pop-up window.
 
 ### 7. Use Helperbird
 
-The add-on will be available in the **Add-ons** menu.
----
+## The add-on will be available in the **Add-ons** menu.
 
 ## How to Install the Helperbird on iPad/iPhone
 
@@ -202,7 +200,8 @@ Launch the App Store on your iPad or iPhone.
 
 ### 2. Search for Helperbird
 
-Search for [Helperbird for Safari in the App Store.](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053)
+Search for
+[Helperbird for Safari in the App Store.](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053)
 
 ### 3. Install App
 
@@ -216,9 +215,9 @@ Once installed, tap the Helperbird app icon to open it.
 
 Begin using the app's features.
 
-**Note**: The Helperbird app will require iOS 15.0 or later.
----
+## **Note**: The Helperbird app will require iOS 15.0 or later.
 
 ## Need More Help?
 
-For any issues with the installation process, contact the [Helperbird support team](/support/) for assistance.
+For any issues with the installation process, contact the [Helperbird support team](/support/) for
+assistance.

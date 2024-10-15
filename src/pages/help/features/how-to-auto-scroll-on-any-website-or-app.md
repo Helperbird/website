@@ -2,36 +2,41 @@
 new: false
 layout: templates/new/help/post-new.html
 title: How to Use the Auto Scroll Feature in Helperbird
-description: Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
-  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
-  fonts, accessibility software, dyslexia software, Helperbird for Edge,
-  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+description:
+  Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This
+  guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/how-to-auto-scroll-on-any-website-or-app/
 permalink: help/how-to-auto-scroll-on-any-website-or-app/
 name: Helperbird Staff
-headerTags: [
-  { tag: "how-to-enable-auto-scroll", title: "How to Enable Auto Scroll" },
-  { tag: "how-to-adjust-scroll-speed", title: "How to Adjust Scroll Speed" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+headerTags:
+  [
+    { tag: 'how-to-enable-auto-scroll', title: 'How to Enable Auto Scroll' },
+    { tag: 'how-to-adjust-scroll-speed', title: 'How to Adjust Scroll Speed' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 
 tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Auto Scrolling
-featureDescription: Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
+featureDescription:
+  Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This
+  guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
   extension.
 footer: true
 header: true
 updated: false
 ---
 
-
-The Auto Scroll feature in Helperbird lets you enjoy a hands-free reading experience by automatically scrolling the page at a speed that suits you.
+The Auto Scroll feature in Helperbird lets you enjoy a hands-free reading experience by
+automatically scrolling the page at a speed that suits you.
 
 ---
 
@@ -75,4 +80,5 @@ Coming soon
 
 ## Need More Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is here to help you out.
+If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
+here to help you out.

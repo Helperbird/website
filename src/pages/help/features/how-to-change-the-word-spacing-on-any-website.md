@@ -5,7 +5,9 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Turn On Word Spacing in Helperbird
-description: Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to easily adjust the space between words for a more comfortable and readable text layout.
+description:
+  Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to
+  easily adjust the space between words for a more comfortable and readable text layout.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,18 +16,27 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Word spacing
-featureDescription: Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to easily adjust the space between words for a more comfortable and readable text layout.
+featureDescription:
+  Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to
+  easily adjust the space between words for a more comfortable and readable text layout.
 date: 2022-11-02
-headerTags: [
-  { tag: "how-to-turn-on-word-spacing-in-helperbird", title: "How to Turn On Word Spacing in Helperbird" },
-  { tag: "how-to-adjust-word-spacing-in-helperbird", title: "How to Adjust Word Spacing in Helperbird" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+headerTags:
+  [
+    {
+      tag: 'how-to-turn-on-word-spacing-in-helperbird',
+      title: 'How to Turn On Word Spacing in Helperbird'
+    },
+    {
+      tag: 'how-to-adjust-word-spacing-in-helperbird',
+      title: 'How to Adjust Word Spacing in Helperbird'
+    },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 
 tags: features
 url: help/how-to-change-the-word-spacing-on-any-website/
-permalink:  help/how-to-change-the-word-spacing-on-any-website/
+permalink: help/how-to-change-the-word-spacing-on-any-website/
 ---
 
 ## How to Turn On Word Spacing in Helperbird
@@ -58,9 +69,10 @@ After enabling Word Spacing, a slider will appear under the toggle switch.
 
 ### 6. Set Your Preferred Spacing
 
-Adjust the slider until you find the word spacing that best suits your readability preference. The page will update automatically with your changes.
+Adjust the slider until you find the word spacing that best suits your readability preference. The
+page will update automatically with your changes.
 
-*Enjoy a more comfortable reading experience with your tailored word spacing settings.*
+_Enjoy a more comfortable reading experience with your tailored word spacing settings._
 
 ---
 
@@ -72,4 +84,5 @@ Coming soon.
 
 ## Need More Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly
+[Helperbird support team](/support/), and we'll help you smooth things out in no time.

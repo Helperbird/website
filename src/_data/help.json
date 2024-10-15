@@ -1,7 +1,7 @@
 {
 	"home": [
 		{
-            "title": "Introduction",
+			"title": "Introduction",
 			"description": "Start your journey with Helperbird with our simple guide on getting started, logging in, and exploring key features. We've made it easy to get up and running in no time.",
 			"link": "/help/introduction/"
 		},
@@ -11,13 +11,13 @@
 			"link": "/help/features/"
 		},
 		{
-            "title": "My Account",
+			"title": "My Account",
 			"description": "This section helps you manage your Helperbird account. You'll find guides on updating your email, credit card, and subscription details.",
 			"link": "/help/account/"
 		},
 
 		{
-            "title": "iPhone & iPad",
+			"title": "iPhone & iPad",
 			"description": "This section helps you to get up and running with Helperbird for iPhone & iPad. You'll find guides on downloading Helperbird, unlocking features and more.",
 			"link": "/help/ios/"
 		},
@@ -33,16 +33,15 @@
 			"description": "This section helps you use and understand some of the Helperbird apps and Add-ons. Learn how to use our PDF Reader, Google Docs & Slides Addon, Google Drive, Microsoft Word and more.",
 			"link": "/help/apps/"
 		},
-        {
+		{
 			"title": "Staying in touch",
 			"description": "Discover effective ways to stay connected and informed with Helperbird.",
 			"link": "/support/"
-		}
-        ,
-        {
+		},
+		{
 			"title": "Trouble Shooting",
 			"description": "Fix common Helperbird problems easily with our straightforward troubleshooting guide.",
 			"link": "/help/trouble/"
 		}
-    ]
+	]
 }

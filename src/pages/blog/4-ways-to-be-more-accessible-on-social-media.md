@@ -2,11 +2,12 @@
 new: false
 layout: templates/blog/post.liquid
 title: 4 Ways to Make Social Media More Accessible in 2022
-description: Learn how to improve accessibility on social media platforms to
-  ensure inclusivity and enhance user experience for individuals with
-  disabilities.
-keywords: social media accessibility, image descriptions, video captions, camel
-  case hashtags, emojis, inclusivity, disabilities, accessibility tools
+description:
+  Learn how to improve accessibility on social media platforms to ensure inclusivity and enhance
+  user experience for individuals with disabilities.
+keywords:
+  social media accessibility, image descriptions, video captions, camel case hashtags, emojis,
+  inclusivity, disabilities, accessibility tools
 url: blog/4-ways-to-make-social-media-more-accessible/
 name: Helperbird Staff
 tags: blog
@@ -14,17 +15,18 @@ img: /assets/images/blog/new-blog-2022/accessible-social-media.png
 date: 2020-01-05T00:00:00.000Z
 youtubeId: vwT8SAJfU3E
 cardTitle: 4 Ways to Make Social Media More Accessible in 2022
-blog_snip: Social media is a massive space of information sources and
-  connections. Learn how to improve accessibility on social media platforms to
-  ensure inclusivity and enhance user experience for individuals with
-  disabilities.
+blog_snip:
+  Social media is a massive space of information sources and connections. Learn how to improve
+  accessibility on social media platforms to ensure inclusivity and enhance user experience for
+  individuals with disabilities.
 time: 5 min read
 isBlog: true
 footer: true
 header: true
 blog_cat: Blog
 ---
-![;lkjbvc](assets/images2/uploads/add-a-heading.png "mnbvcx")
+
+![;lkjbvc](assets/images2/uploads/add-a-heading.png 'mnbvcx')
 
 Social media is a massive space of information sources and connections. People are often glued to
 their phones because they always want to get the latest trending topics. Others simply would want to
@@ -38,10 +40,6 @@ Fortunately, there are ways to make internet consumption easier by the use of ac
 These tools serve as an aid to guide mostly vision-impaired or hard of hearing individuals in
 knowing the right information and remove the fear of missing out, enabling them to experience as
 close as what the actual media content is in reality.
-
-
-
-
 
 ## Use Image Descriptions
 

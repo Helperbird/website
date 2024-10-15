@@ -4,18 +4,29 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Winner of Our Chromebook Giveaway
-description: Discover the winner of our Chromebook giveaway, where participants had the chance to win a brand new Chromebook and a year of Helperbird Pro. Learn more about the competition and celebrate with us.
-keywords: Chromebook giveaway winner, Helperbird giveaway, competition winner announcement, celebrate the winner, Chromebook and Helperbird Pro prize, giveaway celebration
+description:
+  Discover the winner of our Chromebook giveaway, where participants had the chance to win a brand
+  new Chromebook and a year of Helperbird Pro. Learn more about the competition and celebrate with
+  us.
+keywords:
+  Chromebook giveaway winner, Helperbird giveaway, competition winner announcement, celebrate the
+  winner, Chromebook and Helperbird Pro prize, giveaway celebration
 url: blog/helperbirds-winner-of-the-2021-chromebook/
 tags: blog
 isBlog: true
 blog_cat: GUEST BLOG
 youtubeId: vwT8SAJfU3E
 cardTitle: Congratulations to Our Winner
-blog_snip: In February 2021, we ran a competition to celebrate the start of the new school term, giving participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's time to announce the lucky winner and celebrate their success.
+blog_snip:
+  In February 2021, we ran a competition to celebrate the start of the new school term, giving
+  participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's
+  time to announce the lucky winner and celebrate their success.
 cat: Blog
 img: /assets/images/blog/giveaway/giveaway.jpeg
-des: In February 2021, we ran a competition to celebrate the start of the new school term, giving participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's time to announce the lucky winner and celebrate their success.
+des:
+  In February 2021, we ran a competition to celebrate the start of the new school term, giving
+  participants the opportunity to win a brand new Chromebook and a year of Helperbird Pro. Now, it's
+  time to announce the lucky winner and celebrate their success.
 name: Robert James
 date: 2022-04-14T00:00:00.000Z
 time: 10 min read

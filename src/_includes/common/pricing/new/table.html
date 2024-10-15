@@ -1,63 +1,74 @@
-<div class="rounded-xl  px-6 pt-16 pb-12  lg:px-8">
+<div class="rounded-xl px-6 pb-12 pt-16 lg:px-8">
 	<div class="mx-auto max-w-2xl text-center">
-		<h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">Compare
-			Helperbird Plans
+		<h2 class="font-sans text-4xl font-bold leading-relaxed tracking-tight text-black sm:text-5xl">
+			Compare Helperbird Plans
 		</h2>
-		<p class="leading-relaxed font-sans mt-6 text-xl  text-black">Explore and compare the different Helperbird
-			plans. If you need any assistance, feel free to reach out to our friendly support team!
-
+		<p class="mt-6 font-sans text-xl leading-relaxed text-black">
+			Explore and compare the different Helperbird plans. If you need any assistance, feel free to
+			reach out to our friendly support team!
 		</p>
 	</div>
 </div>
 
 <!-- Feature comparison (up to lg) -->
 <section aria-labelledby="mobile-comparison-heading" class="lg:hidden">
-
-
 	<div class="mx-auto max-w-2xl space-y-16 px-4 py-16 sm:px-6">
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-transparent pt-6 sm:w-1/2">
-				<h3 class="leading-relaxed font-sans text-xl font-bold  text-black">
-					Helperbird
-				</h3>
+				<h3 class="font-sans text-xl font-bold leading-relaxed text-black">Helperbird</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 					Access to all core features.
 				</p>
 			</div>
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -69,44 +80,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -118,44 +146,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -167,46 +212,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
-				Writing tools
-			</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Writing tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -218,44 +278,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -267,44 +344,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -316,44 +410,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 
@@ -365,54 +476,69 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 		</div>
 
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-blue-600 pt-6 sm:w-1/2">
-				<h3 class="leading-relaxed font-sans text-lg font-bold l  text-black">
-					Helperbird Pro
-				</h3>
+				<h3 class="l font-sans text-lg font-bold leading-relaxed text-black">Helperbird Pro</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 					All of Helperbird Pro features.
 				</p>
 			</div>
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  border-2 border-pink-500 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl border-2 border-pink-500 bg-white px-4 py-3 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -428,40 +554,55 @@
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -473,44 +614,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -522,46 +680,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
-				Writing tools
-			</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Writing tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -573,44 +746,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -622,44 +812,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -671,44 +878,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 
@@ -720,54 +944,69 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 		</div>
 
 		<div class="border-t border-gray-200" key="plan.title">
 			<div class="-mt-px border-t-2 border-transparent pt-6 sm:w-1/2">
-				<h3 class="leading-relaxed font-sans text-lg font-bold  text-black">
-					Pro Unlimited
-				</h3>
+				<h3 class="font-sans text-lg font-bold leading-relaxed text-black">Pro Unlimited</h3>
 				<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 					Unlimited users per school/business
 				</p>
 			</div>
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.text -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -779,44 +1018,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading Tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.content -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -828,44 +1084,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Display options</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.display -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -877,46 +1150,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
-				Writing tools
-			</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Writing tools</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.navigation -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -928,44 +1216,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Styles & Colors</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.color -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -977,44 +1282,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Other features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Other features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.other -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1026,44 +1348,61 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 
-			<h4 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">App features</h4>
+			<h4 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">App features</h4>
 
 			<div class="relative mt-6">
 				<!-- Fake card background -->
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white "></div>
+					<div class="absolute right-0 h-full w-1/2 rounded-xl bg-white"></div>
 				</div>
 
 				<div
-					class="relative rounded-xl bg-white px-4 py-3  ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:-none sm:ring-0">
+					class="sm:-none relative rounded-xl bg-white px-4 py-3 ring-1 ring-black ring-opacity-5 sm:rounded-none sm:bg-transparent sm:p-0 sm:ring-0"
+				>
 					<dl class="divide-y divide-gray-200">
 						{%- for feature in pricing.apps -%}
 						<div class="flex items-center justify-between py-3 sm:grid sm:grid-cols-2">
-							<dt class="pr-4 text-base leading-relaxed font-sans  text-black">{{ feature.feature }}</dt>
+							<dt class="pr-4 font-sans text-base leading-relaxed text-black">
+								{{ feature.feature }}
+							</dt>
 							<dd class="flex items-center justify-end sm:justify-center sm:px-4">
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
@@ -1075,7 +1414,9 @@
 				</div>
 
 				<div aria-hidden="true" class="pointer-events-none absolute inset-0 hidden sm:block">
-					<div class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"></div>
+					<div
+						class="absolute right-0 h-full w-1/2 rounded-xl ring-1 ring-black ring-opacity-5"
+					></div>
 				</div>
 			</div>
 		</div>
@@ -1084,20 +1425,17 @@
 
 <!-- Feature comparison (lg+) -->
 <section aria-labelledby="comparison-heading" class="hidden lg:block">
-
 	<div class="mx-auto max-w-7xl px-8 pb-20 pt-12">
 		<div class="flex w-full items-stretch">
 			<div class="-mt-px flex w-1/4 items-end py-6 pr-4">
-				<h3 class="mt-auto leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+				<h3 class="mt-5 mt-auto font-sans text-lg font-semibold leading-relaxed text-black">
 					Reading options
 				</h3>
 			</div>
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4 pr-4">
 				<div class="border-t-2 border-transparent py-6">
-					<p class="leading-relaxed font-sans text-lg font-bold  text-black">
-						Helperbird
-					</p>
+					<p class="font-sans text-lg font-bold leading-relaxed text-black">Helperbird</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 						Access to all core features.
 					</p>
@@ -1106,9 +1444,7 @@
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4 pr-4">
 				<div class="border-t-2 border-blue-600 py-6">
-					<p class="leading-relaxed font-sans text-lg font-bold l  text-pink-500">
-						Helperbird Pro
-					</p>
+					<p class="l font-sans text-lg font-bold leading-relaxed text-pink-500">Helperbird Pro</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
 						All of Helperbird Pro features.
 					</p>
@@ -1117,7 +1453,7 @@
 
 			<div aria-hidden="true" class="-mt-px w-1/4 pl-4">
 				<div class="border-t-2 border-transparent py-6">
-					<p class="leading-relaxed font-sans text-lg font-bold  text-black">
+					<p class="font-sans text-lg font-bold leading-relaxed text-black">
 						Helperbird Pro Unlimited
 					</p>
 					<p class="500 mt-2 font-sans text-base leading-relaxed text-black">
@@ -1132,13 +1468,13 @@
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1169,7 +1505,7 @@
 					{%- for feature in pricing.text -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1178,23 +1514,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1204,23 +1552,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1231,24 +1591,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1267,7 +1639,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -1275,20 +1647,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Reading Tools</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Reading Tools</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1319,7 +1691,7 @@
 					{%- for feature in pricing.content -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1328,23 +1700,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1354,23 +1738,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1381,22 +1777,35 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg class="mx-auto h-5 w-5 text-pink-600" xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd"
+								<svg
+									class="mx-auto h-5 w-5 text-pink-600"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
 										d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-										clip-rule="evenodd" />
+										clip-rule="evenodd"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1415,7 +1824,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -1423,20 +1832,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Display options</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Display options</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1467,7 +1876,7 @@
 					{%- for feature in pricing.display -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1476,23 +1885,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1502,23 +1923,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1529,24 +1962,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1565,7 +2010,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -1573,22 +2018,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">
-			Writing tools
-		</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Writing tools</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1619,7 +2062,7 @@
 					{%- for feature in pricing.navigation -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1628,23 +2071,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1654,23 +2109,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1681,24 +2148,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1717,7 +2196,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -1725,20 +2204,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Styles & Colors</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Styles & Colors</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1769,7 +2248,7 @@
 					{%- for feature in pricing.color -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1778,23 +2257,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1804,23 +2295,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1831,24 +2334,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -1867,7 +2382,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -1875,20 +2390,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Bonus features</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Bonus features</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -1919,7 +2434,7 @@
 					{%- for feature in pricing.other -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -1928,23 +2443,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -1954,23 +2481,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -1981,24 +2520,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -2017,7 +2568,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
@@ -2025,20 +2576,20 @@
 			</div>
 		</div>
 
-		<h3 class="mt-12 leading-relaxed font-sans text-xl font-bold text-black">Helperbird Apps</h3>
+		<h3 class="mt-12 font-sans text-xl font-bold leading-relaxed text-black">Helperbird Apps</h3>
 
 		<div class="relative mt-6">
 			<!-- Fake card backgrounds -->
 			<div class="pointer-events-none absolute inset-0 flex items-stretch" aria-hidden="true">
 				<div class="w-1/4 pr-4"></div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 				<div class="w-1/4 pl-4">
-					<div class="h-full w-full rounded-xl bg-white "></div>
+					<div class="h-full w-full rounded-xl bg-white"></div>
 				</div>
 			</div>
 
@@ -2069,7 +2620,7 @@
 					{%- for feature in pricing.apps -%}
 
 					<tr>
-						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal  text-black">
+						<th scope="row" class="w-1/4 py-3 pr-4 text-left text-base font-normal text-black">
 							{{ feature.feature }}
 						</th>
 
@@ -2078,23 +2629,35 @@
 								<!-- Heroicon name: solid/check -->
 
 								{% if feature.free == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.free }}</span>
 
 								{% endif %} {% if feature.free == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.free }}</span>
 								{% endif %}
@@ -2104,23 +2667,35 @@
 						<td class="relative w-1/4 px-4 py-0 text-center">
 							<span class="relative h-full w-full py-3">
 								{% if feature.pro == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.pro }}</span>
 
 								{% endif %} {% if feature.pro == false %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.pro }}</span>
 								{% endif %}
@@ -2131,24 +2706,36 @@
 							<span class="relative h-full w-full py-3">
 								<!-- Heroicon name: solid/check -->
 								{% if feature.unlimited == true %}
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-									class="h-6 w-6 text-green-500  mx-auto" fill="currentColor" role="img"
-									aria-label="Check mark inside a circle indicating success">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									class="mx-auto h-6 w-6 text-green-500"
+									fill="currentColor"
+									role="img"
+									aria-label="Check mark inside a circle indicating success"
+								>
 									<title>Check mark inside a circle indicating success</title>
 									<path
-										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 
 								<span class="sr-only">{{ feature.unlimited }}</span>
 
 								{% endif %} {% if feature.unlimited == false %}
 
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor"
-									role="img" aria-label="Cross mark inside a circle indicating error"
-									class="h-6 w-6 text-red-500  mx-auto">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 -960 960 960"
+									fill="currentColor"
+									role="img"
+									aria-label="Cross mark inside a circle indicating error"
+									class="mx-auto h-6 w-6 text-red-500"
+								>
 									<title>Cross mark inside a circle indicating error</title>
 									<path
-										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+										d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+									/>
 								</svg>
 								<span class="sr-only">{{ feature.unlimited }}</span>
 								{% endif %}
@@ -2167,7 +2754,7 @@
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>
 				</div>
 				<div class="w-1/4 px-4">
-					<div class="h-full w-full rounded-xl border-2 border-pink-500  "></div>
+					<div class="h-full w-full rounded-xl border-2 border-pink-500"></div>
 				</div>
 				<div class="w-1/4 pl-4">
 					<div class="h-full w-full rounded-xl ring-1 ring-black ring-opacity-5"></div>

@@ -3,34 +3,43 @@ new: false
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use Helperbird with Family Sharing on iOS
-description: This guide walks you through the steps for installing and setting up the Helperbird extension or iOS app using Family Sharing. It also includes instructions on turning off Screen Time restrictions during installation and re-enabling them afterward.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
-  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
-  fonts, accessibility software, dyslexia software, Helperbird for Edge,
-  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+description:
+  This guide walks you through the steps for installing and setting up the Helperbird extension or
+  iOS app using Family Sharing. It also includes instructions on turning off Screen Time
+  restrictions during installation and re-enabling them afterward.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/family-sharing-helperbird-installation-guide/
-permalink:  help/family-sharing-helperbird-installation-guide/
+permalink: help/family-sharing-helperbird-installation-guide/
 name: Robert James
-headerTags: [ { tag: "turn-off-screen-time-content-&-privacy-restrictions-for-the-child", title: "Turn off Screen Time" },{ tag: "video-tutorial", title: "Video Tutorial" } ]  
+headerTags:
+  [
+    {
+      tag: 'turn-off-screen-time-content-&-privacy-restrictions-for-the-child',
+      title: 'Turn off Screen Time'
+    },
+    { tag: 'video-tutorial', title: 'Video Tutorial' }
+  ]
 tags: iOS
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:29:20.461Z
 youtubeId: vwT8SAJfU3E
-cardTitle: "Family sharing "
-featureDescription: This guide walks you through the steps for installing and setting up the Helperbird extension or iOS app using Family Sharing. 
+cardTitle: 'Family sharing '
+featureDescription:
+  This guide walks you through the steps for installing and setting up the Helperbird extension or
+  iOS app using Family Sharing.
 footer: true
 header: true
 ---
 
+This guide walks you through the steps for installing and setting up the Helperbird extension or iOS
+app using Family Sharing.
 
-
-
-
-This guide walks you through the steps for installing and setting up the Helperbird extension or iOS app using Family Sharing. 
-
-It also includes instructions on turning off Screen Time restrictions during installation and re-enabling them afterward.
-
+It also includes instructions on turning off Screen Time restrictions during installation and
+re-enabling them afterward.
 
 ---
 
@@ -54,10 +63,9 @@ Tap on Content & Privacy Restrictions.
 
 ### 5. Turn Off Restrictions
 
-Turn off the switch if it's currently enabled.
----
+## Turn off the switch if it's currently enabled.
 
-##  Install the Helperbird Extension/iOS App
+## Install the Helperbird Extension/iOS App
 
 ### 1. Open the App Store
 
@@ -89,8 +97,7 @@ Scroll to find Helperbird, then tap on it.
 
 ### 3. Allow Access
 
-Ensure all options under Allow Helperbird to Access are toggled on.
----
+## Ensure all options under Allow Helperbird to Access are toggled on.
 
 ## Turn On Screen Time Content & Privacy Restrictions (Important)
 
@@ -114,15 +121,13 @@ Tap on Content & Privacy Restrictions.
 
 Enable the switch for Content & Privacy Restrictions.
 
-
-
 ---
 
 ## Video Tutorial
 
-Coming Soon
----
+## Coming Soon
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our
+[Helperbird support team](https://www.helperbird.com/support).

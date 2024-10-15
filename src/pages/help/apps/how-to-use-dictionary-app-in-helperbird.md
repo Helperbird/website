@@ -5,7 +5,10 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use the Dictionary App in Helperbird
-description: Learn how to use the Helperbird Dictionary app to quickly look up word definitions while browsing the web. Simple steps to access the dictionary through the Highlight menu or directly from the Helperbird extension.
+description:
+  Learn how to use the Helperbird Dictionary app to quickly look up word definitions while browsing
+  the web. Simple steps to access the dictionary through the Highlight menu or directly from the
+  Helperbird extension.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,13 +17,23 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Dictionary
-featureDescription: Learn how to use the Helperbird Dictionary app to quickly look up word definitions while browsing the web. Simple steps to access the dictionary through the Highlight menu or directly from the Helperbird extension.
-headerTags: [
-  { tag: "how-to-use-the-dictionary-app-in-helperbird-through-the-highlight-menu", title: "How to Use the Dictionary App in Helperbird Through the Highlight Menu" },
-  { tag: "how-to-open-the-dictionary-app-directly-in-helperbird", title: "How to Open the Dictionary App Directly in Helperbird" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+featureDescription:
+  Learn how to use the Helperbird Dictionary app to quickly look up word definitions while browsing
+  the web. Simple steps to access the dictionary through the Highlight menu or directly from the
+  Helperbird extension.
+headerTags:
+  [
+    {
+      tag: 'how-to-use-the-dictionary-app-in-helperbird-through-the-highlight-menu',
+      title: 'How to Use the Dictionary App in Helperbird Through the Highlight Menu'
+    },
+    {
+      tag: 'how-to-open-the-dictionary-app-directly-in-helperbird',
+      title: 'How to Open the Dictionary App Directly in Helperbird'
+    },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 
 tags: apps
 url: help/how-to-use-dictionary-app-in-helperbird/
@@ -33,7 +46,8 @@ permalink: help/how-to-use-dictionary-app-in-helperbird/
 
 ### Requirements
 
-Make sure the Highlight menu is turned on in Helperbird. [Learn how to turn it on here](/help/how-to-use-the-highlight-menu-in-helperbird/).
+Make sure the Highlight menu is turned on in Helperbird.
+[Learn how to turn it on here](/help/how-to-use-the-highlight-menu-in-helperbird/).
 
 ### Steps
 
@@ -53,7 +67,8 @@ Click the dictionary button in the menu.
 
 A new tab will open with the definition of the highlighted word or sentence.
 
---- 
+---
+
 ---
 
 ## How to Open the Dictionary App Directly in Helperbird
@@ -70,18 +85,18 @@ In Helperbird, look for the green button with a book icon in the Quick Actions a
 
 ### 3. Look Up a Word
 
-Click the book icon, then type any word in the Dictionary app to see its definition.
----
+## Click the book icon, then type any word in the Dictionary app to see its definition.
 
 ## Please Note
 
-**Language Support**: The Dictionary app currently only supports English, but more languages are coming in 2024.
+**Language Support**: The Dictionary app currently only supports English, but more languages are
+coming in 2024.
 
-**Ways to Use**: You can use the Dictionary through the Highlight menu or directly from the Helperbird menu.
-
-
+**Ways to Use**: You can use the Dictionary through the Highlight menu or directly from the
+Helperbird menu.
 
 ---
+
 ---
 
 ## Video Tutorial
@@ -89,14 +104,10 @@ Click the book icon, then type any word in the Dictionary app to see its definit
 Coming soon.
 
 ---
+
 ---
 
 ## Need More Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you out in no time.
-
-
-
-
-
-
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly
+[Helperbird support team](/support/), and we'll help you out in no time.

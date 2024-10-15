@@ -2,35 +2,41 @@
 new: false
 layout: templates/new/help/post-new.html
 title: How to Use the Text Size on Wesbites
-description: Learn how to adjust the text size on web pages using Helperbird. This guide shows you how to easily customize text size for better readability and comfort.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
-  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
-  fonts, accessibility software, dyslexia software, Helperbird for Edge,
-  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+description:
+  Learn how to adjust the text size on web pages using Helperbird. This guide shows you how to
+  easily customize text size for better readability and comfort.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/how-to-change-the-font-size-on-any-website/
-permalink:  help/how-to-change-the-font-size-on-any-website/
+permalink: help/how-to-change-the-font-size-on-any-website/
 name: Helperbird Staff
-headerTags: [
-  { tag: "how-to-turn-on-text-size", title: "How to Turn On Text Size" },
-  { tag: "how-to-change-the-text-size", title: "How to Change the Text Size" },
-  { tag: "supported-text-elements", title: "Supported Text Elements" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-additional-help", title: "Need Additional Help?" }
-]
+headerTags:
+  [
+    { tag: 'how-to-turn-on-text-size', title: 'How to Turn On Text Size' },
+    { tag: 'how-to-change-the-text-size', title: 'How to Change the Text Size' },
+    { tag: 'supported-text-elements', title: 'Supported Text Elements' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
 
 tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-03
 youtubeId: vwT8SAJfU3E
 cardTitle: Font size
-featureDescription: Learn how to adjust the text size on web pages using Helperbird. This guide shows you how to easily customize text size for better readability and comfort.
+featureDescription:
+  Learn how to adjust the text size on web pages using Helperbird. This guide shows you how to
+  easily customize text size for better readability and comfort.
 footer: true
 header: true
 updated: false
 ---
 
-Helperbird’s Text Size feature lets you adjust the size of text on web pages, making it easier to read and customize for your comfort.
+Helperbird’s Text Size feature lets you adjust the size of text on web pages, making it easier to
+read and customize for your comfort.
 
 ---
 
@@ -66,9 +72,11 @@ Click and drag the slider to the left to decrease the text size, or to the right
 
 ### 3. Set Your Preferred Size
 
-Release the slider to set the text to your desired size. The change will take effect immediately on the page.
+Release the slider to set the text to your desired size. The change will take effect immediately on
+the page.
 
-*Tip: Test the text size on various websites to find the most comfortable setting for your reading preference.*
+_Tip: Test the text size on various websites to find the most comfortable setting for your reading
+preference._
 
 ---
 
@@ -101,4 +109,5 @@ Coming soon.
 
 ## Need Additional Help?
 
-If you encounter any issues while using this feature, our support team is ready to assist. Please contact us for further assistance.
+If you encounter any issues while using this feature, our support team is ready to assist. Please
+contact us for further assistance.

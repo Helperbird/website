@@ -4,17 +4,26 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Thanksgiving Day Message from Helperbird
-description: Discover the heartfelt Thanksgiving Day message from Helperbird, expressing gratitude for the things we are most thankful for this year.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Discover the heartfelt Thanksgiving Day message from Helperbird, expressing gratitude for the
+  things we are most thankful for this year.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for
+  Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/thanksgiving-message-from-helperbird/
 tags: blog
 isBlog: true
 blog_cat: Guide
 youtubeId: vwT8SAJfU3E
 cardTitle: Thanksgiving Day Message from Helperbird
-blog_snip: On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most grateful for this year.
+blog_snip:
+  On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most
+  grateful for this year.
 cat: Essay
-des: On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most grateful for this year.
+des:
+  On the day before Thanksgiving, Helperbird wants to express gratitude for the things we are most
+  grateful for this year.
 name: Robert James
 date: 2022-05-11T00:00:00.000Z
 img: /assets/images/blog/thanksgiving/GIVE-THANKS-01.png

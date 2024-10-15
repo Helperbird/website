@@ -4,8 +4,13 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to add a feature to the Quick Actions 
-description: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird. This detailed tutorial provides step-by-step instructions to efficiently customize your browsing experience, allowing you to swiftly access and manage your favorite Helperbird features right from the Quick Actions panel. Ideal for both new and seasoned users, our guide simplifies enhancing your productivity with Helperbird
+title: How to add a feature to the Quick Actions
+description:
+  Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird. This
+  detailed tutorial provides step-by-step instructions to efficiently customize your browsing
+  experience, allowing you to swiftly access and manage your favorite Helperbird features right from
+  the Quick Actions panel. Ideal for both new and seasoned users, our guide simplifies enhancing
+  your productivity with Helperbird
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -13,17 +18,20 @@ keywords:
   OpenDyslexic
 youtubeId: vwT8SAJfU3E
 cardTitle: Customize Quick actions
-featureDescription: Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird.
-headerTags: [{ tag: "how-to-add-features-to-quick-actions", title: "Add Features" },{ tag: "how-to-remove-features-to-quick-actions", title: "Remove Features" }, { tag: "video-tutorial", title: "Video Tutorial" } ]  
+featureDescription:
+  Explore our user-friendly guide on adding a feature to the Quick Actions in Helperbird.
+headerTags:
+  [
+    { tag: 'how-to-add-features-to-quick-actions', title: 'Add Features' },
+    { tag: 'how-to-remove-features-to-quick-actions', title: 'Remove Features' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' }
+  ]
 tags: introduction
 url: help/how-to-favorite-a-feature-in-helperbird/
-permalink:  help/how-to-favorite-a-feature-in-helperbird/
+permalink: help/how-to-favorite-a-feature-in-helperbird/
 ---
 
-
-
-Helperbird’s Quick Actions area allows you to easily access the features you use most often. This guide will show you how to add or remove features from the Quick Actions area to customize your experience.
----
+## Helperbird’s Quick Actions area allows you to easily access the features you use most often. This guide will show you how to add or remove features from the Quick Actions area to customize your experience.
 
 ## How to Add Features to Quick Actions
 
@@ -37,9 +45,10 @@ Look for the plus sign near the top of Helperbird, within the icon boxes.
 
 ### 3. Select Features to Add
 
-A module will open. Browse through the list of available features and click the heart next to the features you want to add to the Quick Actions area.
+A module will open. Browse through the list of available features and click the heart next to the
+features you want to add to the Quick Actions area.
 
-### 4. Save Your Changes 
+### 4. Save Your Changes
 
 The selected features will now appear in the Quick Actions area.
 
@@ -55,15 +64,14 @@ Click the Helperbird icon in the top right corner of your browser.
 
 Look for the plus sign near the top of Helperbird, within the icon boxes.
 
-
 ### 3. Select Features to Remove
 
-A module will open. Browse through the list of available features and click the heart next to the features you want to remove from the Quick Actions area.
+A module will open. Browse through the list of available features and click the heart next to the
+features you want to remove from the Quick Actions area.
 
-### 4. Save Your Changes 
+### 4. Save Your Changes
 
-The selected features will now appear in the Quick Actions area.
----
+## The selected features will now appear in the Quick Actions area.
 
 ## Video Tutorial
 
@@ -84,10 +92,5 @@ allowfullscreen>
 
 ## Need More Help?
 
-If you run into any issues while customizing your Quick Actions area, don’t hesitate to contact our friendly [Helperbird support team](/support/), and we’ll help you out.
-
-
-
-
-
-
+If you run into any issues while customizing your Quick Actions area, don’t hesitate to contact our
+friendly [Helperbird support team](/support/), and we’ll help you out.

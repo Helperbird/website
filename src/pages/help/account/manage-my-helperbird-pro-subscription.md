@@ -5,7 +5,9 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Manage Your Helperbird Pro Subscription
-description: This guide provides clear steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
+description:
+  This guide provides clear steps for both managing and canceling your subscription, ensuring you
+  have control over your Helperbird experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,20 +16,29 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Manage Your Helperbird Pro Subscription
-featureDescription: This guide provides clear steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
-headerTags: [ { tag: "how-to-manage-your-helperbird-pro-subscription", title: "Manage Your Subscription" },{ tag: "how-to-cancel-your-helperbird-pro-subscription", title: "Cancel Your Subscription" },{ tag: "video-tutorial", title: "Video Tutorial" },{ tag: "need-additional-help-?", title: "Need more help?" } ]  
+featureDescription:
+  This guide provides clear steps for both managing and canceling your subscription, ensuring you
+  have control over your Helperbird experience.
+headerTags:
+  [
+    { tag: 'how-to-manage-your-helperbird-pro-subscription', title: 'Manage Your Subscription' },
+    { tag: 'how-to-cancel-your-helperbird-pro-subscription', title: 'Cancel Your Subscription' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help-?', title: 'Need more help?' }
+  ]
 tags: account
 url: help/manage-my-helperbird-pro-subscription/
 permalink: help/manage-my-helperbird-pro-subscription/
+---
+
+Manage your Helperbird Pro subscription efficiently by accessing your account on the Helperbird
+Manage Page.
+
+This guide provides clear steps for both managing and canceling your subscription, ensuring you have
+control over your Helperbird experience.
 
 ---
 
-
-Manage your Helperbird Pro subscription efficiently by accessing your account on the Helperbird Manage Page. 
-
-This guide provides clear steps for both managing and canceling your subscription, ensuring you have control over your Helperbird experience.
-
----
 ---
 
 ## How to Manage Your Helperbird Pro Subscription
@@ -57,10 +68,10 @@ You will be redirected to the Helperbird dashboard.
 Your subscription details and management options will be available on the dashboard.
 
 ---
+
 ---
 
 ## How to Cancel My Helperbird Pro Subscription
-
 
 ### 1. Access the Manage Page
 
@@ -83,6 +94,7 @@ Enter the code in the box and click **Verify**.
 You will be redirected to the Helperbird dashboard.
 
 ### 6. Cancel Your Subscription
+
 Find the **Cancel subscription** button in your subscription details.
 
 ### 7. Confirm Cancellation
@@ -90,6 +102,7 @@ Find the **Cancel subscription** button in your subscription details.
 Click to confirm and complete the cancellation process.
 
 ---
+
 ---
 
 ## Video Tutorial
@@ -97,9 +110,10 @@ Click to confirm and complete the cancellation process.
 Coming soon.
 
 ---
+
 ---
 
 ## Need more help?
 
-If you run into any issues while changing your email, don’t worry! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
-
+If you run into any issues while changing your email, don’t worry! Just reach out to our friendly
+[Helperbird support team](/support/), and we'll help you smooth things out in no time.

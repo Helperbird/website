@@ -24,18 +24,24 @@ website: http://dyslexiasupport.ie/about/
 ---
 
 ## About
-Sascha Roos MA, HDGC, a celebrated author and dyslexia specialist from Ireland, has passionately supported individuals with dyslexia for over 15 years. Through her private practice, she employs an empathetic approach, celebrating the unique strengths of dyslexic individuals.
+
+Sascha Roos MA, HDGC, a celebrated author and dyslexia specialist from Ireland, has passionately
+supported individuals with dyslexia for over 15 years. Through her private practice, she employs an
+empathetic approach, celebrating the unique strengths of dyslexic individuals.
 
 ## Specialties
+
 - Dyslexia Support and Advocacy
 - Empathetic Coaching
 - Educational Therapy
 
 ## Titles
+
 - MA in Education
 - HDGC (Higher Diploma in Guidance Counseling)
 
 ## Contact
+
 - Email: contact@dyslexiasupport.ie
 - Phone: (555) 555-5555
 - Website: [https://dyslexiasupport.ie](https://dyslexiasupport.ie/about/)

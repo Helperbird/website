@@ -4,7 +4,10 @@ footer: true
 header: true
 layout: templates/features_two.liquid
 title: Summarize Articles and Pages with One Click
-description: Easily summarize web pages and articles with Helperbird's one-click tool. Turn long texts into quick, easy-to-read bullet points. Perfect for students, professionals, and anyone who wants to save time and understand key information fast.
+description:
+  Easily summarize web pages and articles with Helperbird's one-click tool. Turn long texts into
+  quick, easy-to-read bullet points. Perfect for students, professionals, and anyone who wants to
+  save time and understand key information fast.
 keywords:
   - Summarize Pages
   - Auto-Summary
@@ -18,10 +21,12 @@ keywords:
   - Accessibility software
 featurePageTitle: Quickly and Accurately Summarize Pages and Articles in a Click
 img: TyeON1QyW4g
-icon: "/src/_includes/svgs/summarize.svg"
+icon: '/src/_includes/svgs/summarize.svg'
 youtubeId: TyeON1QyW4g
 cardTitle: Summarize Pages
-featureDescription: With Helperbird's Auto-Summary feature, distill complex articles and web pages into key bullet points. Ideal for quick overviews, this feature enhances your productivity and comprehension.
+featureDescription:
+  With Helperbird's Auto-Summary feature, distill complex articles and web pages into key bullet
+  points. Ideal for quick overviews, this feature enhances your productivity and comprehension.
 group: reading
 color: orange
 tags:
@@ -34,22 +39,29 @@ url: features/summarizing-tool/
 
 ## Tell Me About This Feature
 
-Helperbird's Summarize feature makes it easy to turn long articles and web pages into simple bullet points. It uses smart technology to pick out the main ideas and key points, saving you time and making your reading easier.
+Helperbird's Summarize feature makes it easy to turn long articles and web pages into simple bullet
+points. It uses smart technology to pick out the main ideas and key points, saving you time and
+making your reading easier.
 
-It's perfect for anyone who needs to quickly get the gist of a document or web page, whether you're a student, a professional, or just someone who wants to save time.
+It's perfect for anyone who needs to quickly get the gist of a document or web page, whether you're
+a student, a professional, or just someone who wants to save time.
 
 ## Benefits
 
 ### Save Time
+
 Turn long articles into quick, easy-to-read summaries, so you can get the info you need fast.
 
 ### Improve Understanding
+
 Focus on the main ideas and key points to better understand what you're reading.
 
 ### Stay Informed
+
 Get the important details without having to read everything.
 
 ### Easy Recall
+
 Summarize information into bullet points for quick and easy reference later.
 
 ## Features
@@ -60,4 +72,5 @@ Summarize information into bullet points for quick and easy reference later.
 
 ## Is This a Free Feature?
 
-No, this is a premium feature that offers more detailed summarization options for a better reading experience.
+No, this is a premium feature that offers more detailed summarization options for a better reading
+experience.

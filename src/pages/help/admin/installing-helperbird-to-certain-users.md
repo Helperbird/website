@@ -5,7 +5,9 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Install Helperbird for Certain Users in G Suite and Microsoft 365
-description: This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
+description:
+  This guide details the process for administrators to install the Helperbird extension selectively
+  for certain users within an organization using G Suite and Microsoft 365.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,16 +16,25 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Install Helperbird for Certain Users in G Suite and Microsoft 365
-featureDescription: This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
+featureDescription:
+  This guide details the process for administrators to install the Helperbird extension selectively
+  for certain users within an organization using G Suite and Microsoft 365.
 date: 2016-01-04
-headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "installing-helperbird-in-g-suite", title: "Installing Helperbird in G Suite" },{ tag: "installing-helperbird-in-microsoft-365", title: "Installing Helperbird in Microsoft 365" }]  
+headerTags:
+  [
+    { tag: 'prerequisites', title: 'Prerequisites' },
+    { tag: 'installing-helperbird-in-g-suite', title: 'Installing Helperbird in G Suite' },
+    {
+      tag: 'installing-helperbird-in-microsoft-365',
+      title: 'Installing Helperbird in Microsoft 365'
+    }
+  ]
 tags: admin
 url: help/installing-helperbird-to-certain-users/
 permalink: help/installing-helperbird-to-certain-users/
 ---
 
-This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
----
+## This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
 
 ## Prerequisites
 
@@ -35,8 +46,7 @@ You must have access to the Google Admin Console (for G Suite) or Microsoft 365 
 
 Chrome ID is **ahmapmilbkfamljbpgphfndeemhnajme**
 
-Edge is **bkibfggdahioahpokehoiimdmdjefjmd**
----
+## Edge is **bkibfggdahioahpokehoiimdmdjefjmd**
 
 ## Installing Helperbird in G Suite
 
@@ -54,7 +64,8 @@ Select the Organizational Unit (OU) where you want to install Helperbird for spe
 
 ### 4. Add the Helperbird Extension
 
-Click the + icon and select Add from Chrome Web Store. Enter Helperbird’s extension ID **ahmapmilbkfamljbpgphfndeemhnajme**.
+Click the + icon and select Add from Chrome Web Store. Enter Helperbird’s extension ID
+**ahmapmilbkfamljbpgphfndeemhnajme**.
 
 ### 5. Set User-Level Installation
 
@@ -62,8 +73,7 @@ In the User Settings for the chosen OU, set the installation policy to Allow ins
 
 ### 6. Communicate with Users
 
-Inform the selected users that Helperbird from the Chrome Web Store has been installed and is available for use.
----
+## Inform the selected users that Helperbird from the Chrome Web Store has been installed and is available for use.
 
 ## Installing Helperbird in Microsoft 365
 
@@ -85,7 +95,8 @@ Choose the specific user groups or individual users for the Helperbird deploymen
 
 ### 5. Set Deployment Options
 
-Specify the installation as Optional to allow targeted users to install and pin Helperbird as needed.
+Specify the installation as Optional to allow targeted users to install and pin Helperbird as
+needed.
 
 ### 6. Communicate with Users
 
@@ -93,8 +104,8 @@ Inform the selected users that Helperbird is available for installation from the
 
 ### Verification
 
-After setting up, verify by checking a user's browser within the specified OU or group to ensure that Helperbird is available for installation.
-
+After setting up, verify by checking a user's browser within the specified OU or group to ensure
+that Helperbird is available for installation.
 
 ---
 
@@ -102,10 +113,9 @@ After setting up, verify by checking a user's browser within the specified OU or
 
 Coming soon.
 
-
 ---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
-
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our
+[Helperbird support team](https://www.helperbird.com/support).

@@ -15,8 +15,7 @@
 			"des": " Learn a new language just by browsing the internet.",
 			"url": "https://jointoucan.com/?utm_source=helperbird&utm_medium=extension&utm_campaign=beeline&utm_content=beeline",
 			"location": "Extension"
-		}
-		,
+		},
 		{
 			"title": "OpenDyslexic font",
 			"ideal": "Dyslexia",
@@ -34,7 +33,8 @@
 			"location": "Website"
 		},
 		{
-			"title": "Lexend Deca",	"ideal": "Reading",
+			"title": "Lexend Deca",
+			"ideal": "Reading",
 			"img": "/assets/images/recommends/lexend.png",
 			"des": "These changes led to the development of seven specially-designed fonts, which create an immediate improvement in reading performance.This is where Lexend was formed.",
 			"url": "https://www.lexend.com/",

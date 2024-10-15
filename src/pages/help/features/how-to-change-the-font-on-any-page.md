@@ -3,14 +3,17 @@ new: false
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use the Font Changer Feature in Helperbird
-description: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
-  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
-  fonts, accessibility software, dyslexia software, Helperbird for Edge,
-  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+description:
+  Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend
+  and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font
+  for easier reading
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/how-to-change-the-font-on-any-page/
-permalink:  help/how-to-change-the-font-on-any-page/
+permalink: help/how-to-change-the-font-on-any-page/
 name: Helperbird Staff
 headerTags: []
 tags: features
@@ -18,13 +21,16 @@ img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Fonts
-featureDescription: Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font for easier reading
+featureDescription:
+  Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend
+  and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font
+  for easier reading
 footer: true
 header: true
 ---
 
-
-Helperbird’s Font Changer feature allows you to choose dyslexia-friendly fonts like Lexend or OpenDyslexic, making reading easier for users with dyslexia.
+Helperbird’s Font Changer feature allows you to choose dyslexia-friendly fonts like Lexend or
+OpenDyslexic, making reading easier for users with dyslexia.
 
 ---
 
@@ -52,11 +58,13 @@ With the Font feature enabled, a variety of font options will appear.
 
 ### 2. Choose a Dyslexia-Friendly Font
 
-Browse through the fonts and select a dyslexia-friendly font like Lexend or OpenDyslexic by clicking on it.
+Browse through the fonts and select a dyslexia-friendly font like Lexend or OpenDyslexic by clicking
+on it.
 
 ### 3. See the Change
 
-The text on the webpage will immediately update to the selected font, making it easier to read for dyslexic users.
+The text on the webpage will immediately update to the selected font, making it easier to read for
+dyslexic users.
 
 ---
 
@@ -94,4 +102,5 @@ Coming soon.
 
 ## Need More Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is here to help you out.
+If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
+here to help you out.

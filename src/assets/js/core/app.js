@@ -189,7 +189,7 @@ const getPriceForCurrency = (currency) => {
 			},
 			monthly: {
 				pro: '6.99',
-				proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX', //done 
+				proLink: 'https://buy.stripe.com/00gaGDceocXad1udQX', //done
 
 				unlimited: '129.99',
 				unlimitedLink: 'https://buy.stripe.com/6oEg0X2DO5uId1u004' //done

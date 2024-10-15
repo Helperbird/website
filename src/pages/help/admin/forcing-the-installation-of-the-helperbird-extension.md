@@ -3,29 +3,38 @@ new: false
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Force Install the Helperbird Extension in a G Suite Organization
-description: This guide provides step-by-step instructions for administrators on how to force install the Helperbird extension across an entire G Suite organization. By following these steps, you can ensure that all users in your organization have access to Helperbird's accessibility features.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for
-  chrome, Text to speech for chrome,  text reader, Immersive Reader, dyslexia
-  fonts, accessibility software, dyslexia software, Helperbird for Edge,
-  Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
+description:
+  This guide provides step-by-step instructions for administrators on how to force install the
+  Helperbird extension across an entire G Suite organization. By following these steps, you can
+  ensure that all users in your organization have access to Helperbird's accessibility features.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
+  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/forcing-the-installation-of-the-helperbird-extension/
 permalink: help/forcing-the-installation-of-the-helperbird-extension/
-name: "Robert James Gabriel "
-headerTags: [ { tag: "prerequisites", title: "Prerequisites" },{ tag: "access-chrome-management", title: "Access Chrome Management" },{ tag: "force-install-the-helperbird-extension", title: "Force Install Helperbird" },{ tag: "verification", title: "Verification" }]  
+name: 'Robert James Gabriel '
+headerTags:
+  [
+    { tag: 'prerequisites', title: 'Prerequisites' },
+    { tag: 'access-chrome-management', title: 'Access Chrome Management' },
+    { tag: 'force-install-the-helperbird-extension', title: 'Force Install Helperbird' },
+    { tag: 'verification', title: 'Verification' }
+  ]
 tags: admin
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:36:26.826Z
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Force Install the Helperbird Extension in a G Suite Organization
-featureDescription: This guide provides step-by-step instructions for administrators on how to force install the Helperbird extension across an entire G Suite organization.
+featureDescription:
+  This guide provides step-by-step instructions for administrators on how to force install the
+  Helperbird extension across an entire G Suite organization.
 footer: true
 header: true
 ---
 
-
-This guide provides step-by-step instructions for administrators on how to force install the Helperbird extension across an entire G Suite organization. By following these steps, you can ensure that all users in your organization have access to Helperbird's accessibility features.
----
+## This guide provides step-by-step instructions for administrators on how to force install the Helperbird extension across an entire G Suite organization. By following these steps, you can ensure that all users in your organization have access to Helperbird's accessibility features.
 
 ## Prerequisites
 
@@ -36,10 +45,6 @@ You must have G Suite administrator rights to perform these steps.
 ### Admin Account
 
 Ensure you are logged into your G Suite admin account before starting.
-
-
-
-
 
 ---
 
@@ -59,8 +64,7 @@ Within Devices, go to Chrome.
 
 ### 4. Access Apps & Extensions
 
-Click on Apps & Extensions to manage extensions.
----
+## Click on Apps & Extensions to manage extensions.
 
 ## Force Install the Helperbird Extension
 
@@ -86,20 +90,15 @@ In the Installation Policy drop-down list, select Force install.
 
 ### 6. Save Changes
 
-Click Save to apply the changes.
----
+## Click Save to apply the changes.
 
 ## Verification
 
-After completing these steps, the Helperbird extension should be force-installed on all Chrome browsers linked to your selected organizational unit. 
+After completing these steps, the Helperbird extension should be force-installed on all Chrome
+browsers linked to your selected organizational unit.
 
-Users will not be able to uninstall the extension unless the administrator changes the installation policy.
-
-
-
-
-
-
+Users will not be able to uninstall the extension unless the administrator changes the installation
+policy.
 
 ---
 
@@ -107,9 +106,9 @@ Users will not be able to uninstall the extension unless the administrator chang
 
 Coming soon.
 
-
 ---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support).
+For any challenges or queries during the cancellation process, don't hesitate to reach out to our
+[Helperbird support team](https://www.helperbird.com/support).

@@ -4,7 +4,9 @@ footer: true
 header: true
 layout: templates/features_two.liquid
 title: Highlight Text on Websites and PDFs with Helperbird
-description: Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web pages and PDFs in different colors with our easy-to-use browser extension.
+description:
+  Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web
+  pages and PDFs in different colors with our easy-to-use browser extension.
 keywords:
   - Web Highlighter
   - Text Highlighter
@@ -19,10 +21,12 @@ keywords:
 
 featurePageTitle: Highlight Text on Websites and PDFs with Helperbird
 img: 950R2dDH4lw
-icon: "/src/_includes/svgs/highlighter.svg"
+icon: '/src/_includes/svgs/highlighter.svg'
 youtubeId: frjBvXjwbnk
 cardTitle: Web Highlighter
-featureDescription: Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web pages and PDFs in different colors with our easy-to-use browser extension.
+featureDescription:
+  Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web
+  pages and PDFs in different colors with our easy-to-use browser extension.
 group: productivity
 color: blue
 tags:
@@ -34,25 +38,32 @@ url: features/web-highlighter-and-pdfs/
 
 ## About This Feature
 
-Helperbird's Web Highlighter makes reading and taking notes on the web easy and fun. You can highlight text in different colors to help important information stand out. This feature works with PDFs too, making it perfect for both school and work.
+Helperbird's Web Highlighter makes reading and taking notes on the web easy and fun. You can
+highlight text in different colors to help important information stand out. This feature works with
+PDFs too, making it perfect for both school and work.
 
 ## Benefits
 
 The Web Highlighter helps you:
 
-### Make Important Information Stand Out 
+### Make Important Information Stand Out
+
 Use different colors to highlight key points.
 
-### Simplify Note-Taking 
+### Simplify Note-Taking
+
 Easily gather and organize information.
 
 ### Remember Better
+
 Visually highlight text to improve retention.
 
 ### Review Easily
+
 Quickly find and review your highlights.
 
 ### Stay Focused
+
 Highlighting helps you concentrate and understand better.
 
 ## Features
@@ -65,4 +76,5 @@ Highlighting helps you concentrate and understand better.
 
 ## Is This a Free Feature?
 
-Yes and no. Basic highlighting is free for everyone. For advanced features and the ability to highlight on any website, you’ll need to upgrade to the premium version.
+Yes and no. Basic highlighting is free for everyone. For advanced features and the ability to
+highlight on any website, you’ll need to upgrade to the premium version.

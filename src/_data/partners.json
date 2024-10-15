@@ -15,17 +15,16 @@
 			"url": "/partners/sascharoos/",
 			"location": "Ireland",
 			"website": "http://dyslexiasupport.ie/about/"
-		}
-,		
-{
-    "title": "Dr Bonnie Shaver-Troup, EdD",
-    "img": "/assets/images/partners/bonnie.jpeg",
-    "des": "Dr. Bonnie Shaver-Troup, EdD, has dedicated over two decades to enhancing reading proficiency through typographic innovations. Beginning her journey as an educational therapist in 1999, she noticed that conventional fonts often hindered reading performance. Her insights led to the formation of Lexend in 2000, a range of specially-designed fonts to improve reading. Collaborating with Google, she developed a variable font solution, significantly boosting reading proficiency by tailoring font characteristics to individual needs, aligning with Helperbird’s mission to personalize digital interactions.",
-    "url": "/partners/bonnie-shaver-troup/",
-    "location": "United States",
-    "website": "https://www.lexend.com"
-},
-		
+		},
+		{
+			"title": "Dr Bonnie Shaver-Troup, EdD",
+			"img": "/assets/images/partners/bonnie.jpeg",
+			"des": "Dr. Bonnie Shaver-Troup, EdD, has dedicated over two decades to enhancing reading proficiency through typographic innovations. Beginning her journey as an educational therapist in 1999, she noticed that conventional fonts often hindered reading performance. Her insights led to the formation of Lexend in 2000, a range of specially-designed fonts to improve reading. Collaborating with Google, she developed a variable font solution, significantly boosting reading proficiency by tailoring font characteristics to individual needs, aligning with Helperbird’s mission to personalize digital interactions.",
+			"url": "/partners/bonnie-shaver-troup/",
+			"location": "United States",
+			"website": "https://www.lexend.com"
+		},
+
 		{
 			"title": "Irene Hughes",
 			"img": "/assets/images/partners/irene.png",
@@ -33,9 +32,7 @@
 			"url": "/partners/irene-hughes",
 			"location": "Vancouver, WA",
 			"website": "https://www.ihugheseducator.com"
-		}
-		,
-		
+		},
 		{
 			"title": "NovaProton",
 			"img": "/assets/images/partners/nova.jpeg",
@@ -44,8 +41,7 @@
 			"location": "United Kingdom",
 			"website": "https://www.theproton.space"
 		},
-	
-		
+
 		{
 			"title": "Paul Spencer",
 			"img": "/assets/images/pwa/logo/full.png",
@@ -54,8 +50,7 @@
 			"location": "California",
 			"website": "https://www.claim3d.com"
 		},
-	
-		
+
 		{
 			"title": "Adriana Garcia",
 			"img": "/assets/images/partners/adriana-garcia.jpg",

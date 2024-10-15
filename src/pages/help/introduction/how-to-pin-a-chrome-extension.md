@@ -17,16 +17,23 @@ cardTitle: Pin a extension
 featureDescription:
   Discover how to switch Helperbird from off to on for Google Chrome, Firefox, Safari, and Edge.
 date: 2016-01-03
-headerTags: [ { tag: "safari", title: "Safari" },{ tag: "google-chrome", title: "Google Chrome" },{ tag: "microsoft-edge", title: "Microsoft Edge" },{ tag: "mozilia-firefox", title: "Mozila Firefox" } ]  
+headerTags:
+  [
+    { tag: 'safari', title: 'Safari' },
+    { tag: 'google-chrome', title: 'Google Chrome' },
+    { tag: 'microsoft-edge', title: 'Microsoft Edge' },
+    { tag: 'mozilia-firefox', title: 'Mozila Firefox' }
+  ]
 tags: introduction
 url: help/how-to-pin-a-chrome-extension/
-permalink:  help/how-to-pin-a-chrome-extension/
+permalink: help/how-to-pin-a-chrome-extension/
 ---
 
-Pinning an extension like Helperbird in your browser ensures quick and easy access. This guide covers how to pin extensions in Safari, Google Chrome, Microsoft Edge, and Firefox.
+Pinning an extension like Helperbird in your browser ensures quick and easy access. This guide
+covers how to pin extensions in Safari, Google Chrome, Microsoft Edge, and Firefox.
 
-**Note:** Menu icons vary across browsers: a puzzle piece in Chrome, three vertical dots in Edge, a hamburger menu in Firefox, and a settings icon in Safari.
-
+**Note:** Menu icons vary across browsers: a puzzle piece in Chrome, three vertical dots in Edge, a
+hamburger menu in Firefox, and a settings icon in Safari.
 
 ---
 
@@ -48,16 +55,16 @@ Locate Helperbird in the list of extensions.
 
 Check the box next to Helperbird to enable it in the toolbar.
 
-### 5. Helperbird Pinned**  
+### 5. Helperbird Pinned\*\*
 
 The Helperbird icon will now appear in the Safari toolbar.
-
 
 ---
 
 ## Google Chrome
 
 ### 1. Open Google Chrome
+
 Start Google Chrome.
 
 ### 2. Navigate to Extensions
@@ -72,10 +79,9 @@ Look for Helperbird in the list of extensions.
 
 Click the pin icon next to Helperbird to keep it visible in the toolbar.
 
-### 5. Helperbird Pinned 
+### 5. Helperbird Pinned
 
-The Helperbird icon will now stay visible in the Chrome toolbar.
----
+## The Helperbird icon will now stay visible in the Chrome toolbar.
 
 ## Microsoft Edge
 
@@ -95,10 +101,9 @@ Find Helperbird in the list of installed extensions.
 
 Click the pin icon next to Helperbird to show it in the toolbar.
 
-### 5. Helperbird Pinned 
+### 5. Helperbird Pinned
 
-The Helperbird icon will be pinned to the Edge toolbar.
----
+## The Helperbird icon will be pinned to the Edge toolbar.
 
 ## Mozilia Firefox
 
@@ -114,7 +119,7 @@ Click the hamburger menu in the top right corner.
 
 Choose 'Add-ons and Themes' from the menu.
 
-### 4. Locate Helperbird 
+### 4. Locate Helperbird
 
 In the 'Extensions' tab, find Helperbird.
 
@@ -122,7 +127,7 @@ In the 'Extensions' tab, find Helperbird.
 
 Click the pin icon next to Helperbird to keep it accessible in the toolbar.
 
-### 6. Helperbird Pinned 
+### 6. Helperbird Pinned
 
 The Helperbird icon will now appear in the Firefox toolbar.
 
@@ -130,4 +135,5 @@ The Helperbird icon will now appear in the Firefox toolbar.
 
 ## Need More Help?
 
-If you run into any issues or have questions about pinning Helperbird, feel free to contact our [Helperbird support team](/support/), and we'll be happy to assist you.
+If you run into any issues or have questions about pinning Helperbird, feel free to contact our
+[Helperbird support team](/support/), and we'll be happy to assist you.

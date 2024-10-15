@@ -4,18 +4,28 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Interview with Helperbird Founder, Robert James Gabriel
-description: Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal experience with dyslexia inspired the creation of Helperbird.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal
+  experience with dyslexia inspired the creation of Helperbird.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for
+  Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/interview-with-dyslexic-founder-of-helperbird/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: vwT8SAJfU3E
 cardTitle: Interview with Helperbird Founder, Robert James Gabriel
-blog_snip: Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal experience with dyslexia inspired the creation of Helperbird.
+blog_snip:
+  Discover the journey of Helperbird's founder, Robert James Gabriel, and how his personal
+  experience with dyslexia inspired the creation of Helperbird.
 cat: Interview
 
-des: At my first week at Teamwork, I was encouraged to build anything I wanted. I decided to create a simple extension for the font OpenDyslexic to help dyslexic readers like myself have a font option on webpages that were hard to read.
+des:
+  At my first week at Teamwork, I was encouraged to build anything I wanted. I decided to create a
+  simple extension for the font OpenDyslexic to help dyslexic readers like myself have a font option
+  on webpages that were hard to read.
 
 name: Courtney Hood
 date: 2023-10-07T00:00:00.000Z

@@ -10,8 +10,7 @@ module.exports = {
 	],
 	variants: {
 		extend: {
-		  backgroundColor: ['active']
-
+			backgroundColor: ['active']
 		}
 	},
 	darkMode: false, // or 'media' or 'class'
@@ -37,8 +36,8 @@ module.exports = {
 			},
 			colors: {
 				'base-helperbird': '#f4f6e7', // Replace #yournewcolor with the color code you want
-				'bg-base-helperbird': '#fef5ec', // Replace #yournewcolor with the color code you want
-			  },
+				'bg-base-helperbird': '#fef5ec' // Replace #yournewcolor with the color code you want
+			},
 
 			maxWidth: {
 				'2xl': '40rem'

@@ -5,7 +5,10 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use, Create, and Manage Documents in Helperbird
-description: Learn how to efficiently use the Helperbird Editor to create, open, save, copy, delete, and analyze documents. Step-by-step instructions to help you get the most out of Helperbird's powerful text editing and management tools."
+description:
+  Learn how to efficiently use the Helperbird Editor to create, open, save, copy, delete, and
+  analyze documents. Step-by-step instructions to help you get the most out of Helperbird's powerful
+  text editing and management tools."
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,20 +17,48 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Use, Create, and Manage Documents in Helperbird
-featureDescription: Learn how to efficiently use the Helperbird Editor to create, open, save, copy, delete, and analyze documents. Step-by-step instructions to help you get the most out of Helperbird's powerful text editing and management tools."
-headerTags: [
-  { tag: "how-to-open-the-helperbird-editor", title: "How to Open the Helperbird Editor" },
-  { tag: "how-to-create-a-new-document-in-the-helperbird-editor", title: "How to Create a New Document in the Helperbird Editor" },
-  { tag: "how-to-open-existing-documents-in-the-helperbird-editor", title: "How to Open Existing Documents in the Helperbird Editor" },
-  { tag: "how-to-save-your-document-in-the-helperbird-editor", title: "How to Save Your Document in the Helperbird Editor" },
-  { tag: "how-to-copy-a-document-in-the-helperbird-editor", title: "How to Copy a Document in the Helperbird Editor" },
-  { tag: "how-to-delete-a-document-in-the-helperbird-editor", title: "How to Delete a Document in the Helperbird Editor" },
-  { tag: "how-to-access-text-analytics-in-the-helperbird-editor", title: "How to Access Text Analytics in the Helperbird Editor" },
-  { tag: "how-to-import-notes-into-the-helperbird-editor", title: "How to Import Notes into the Helperbird Editor" },
-  { tag: "how-to-export-your-notes-from-the-helperbird-editor", title: "How to Export Your Notes from the Helperbird Editor" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+featureDescription:
+  Learn how to efficiently use the Helperbird Editor to create, open, save, copy, delete, and
+  analyze documents. Step-by-step instructions to help you get the most out of Helperbird's powerful
+  text editing and management tools."
+headerTags:
+  [
+    { tag: 'how-to-open-the-helperbird-editor', title: 'How to Open the Helperbird Editor' },
+    {
+      tag: 'how-to-create-a-new-document-in-the-helperbird-editor',
+      title: 'How to Create a New Document in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-open-existing-documents-in-the-helperbird-editor',
+      title: 'How to Open Existing Documents in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-save-your-document-in-the-helperbird-editor',
+      title: 'How to Save Your Document in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-copy-a-document-in-the-helperbird-editor',
+      title: 'How to Copy a Document in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-delete-a-document-in-the-helperbird-editor',
+      title: 'How to Delete a Document in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-access-text-analytics-in-the-helperbird-editor',
+      title: 'How to Access Text Analytics in the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-import-notes-into-the-helperbird-editor',
+      title: 'How to Import Notes into the Helperbird Editor'
+    },
+    {
+      tag: 'how-to-export-your-notes-from-the-helperbird-editor',
+      title: 'How to Export Your Notes from the Helperbird Editor'
+    },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 tags: apps
 url: help/how-to-use-editor-app-in-helperbird/
 permalink: help/how-to-use-editor-app-in-helperbird/
@@ -37,21 +68,25 @@ permalink: help/how-to-use-editor-app-in-helperbird/
 
 ## How to Open the Helperbird Editor
 
-The Helperbird Editor lets you easily edit and work with text on the web. Here’s how to open the Helperbird Editor:
+The Helperbird Editor lets you easily edit and work with text on the web. Here’s how to open the
+Helperbird Editor:
 
 ### 1. Open Helperbird
 
-Click the Helperbird icon in your browser’s extension area, usually in the top right corner of your browser window.
+Click the Helperbird icon in your browser’s extension area, usually in the top right corner of your
+browser window.
 
 ### 2. Find the Editor
 
-The Helperbird interface will open. Look for the "Open Editor" icon, which is marked with a pencil symbol.
+The Helperbird interface will open. Look for the "Open Editor" icon, which is marked with a pencil
+symbol.
 
 ### 3. Open the Editor
 
 Click on the **Open Editor** icon to start editing text.
 
 ---
+
 ---
 
 ## How to Create a New Document in the Helperbird Editor
@@ -64,13 +99,15 @@ Click on the Helperbird icon to open the Editor if it’s not already open.
 
 ### 2. Start a New Document
 
-At the top of the Editor, find the **New** button, which might look like a blank page icon. Click it to open a fresh, blank document.
+At the top of the Editor, find the **New** button, which might look like a blank page icon. Click it
+to open a fresh, blank document.
 
 ### 3. Begin Writing
 
 Click into the blank document and start typing your content.
 
 ---
+
 ---
 
 ## How to Open Existing Documents in the Helperbird Editor
@@ -92,6 +129,7 @@ Browse the list of your saved documents and select the one you want to work on.
 The document will open in the Editor, ready for you to edit or review.
 
 ---
+
 ---
 
 ## How to Save Your Document in the Helperbird Editor
@@ -105,6 +143,7 @@ Complete your content in the Editor.
 Click the **Save** button at the top of the Editor window to store your document securely.
 
 ---
+
 ---
 
 ## How to Copy a Document in the Helperbird Editor
@@ -122,6 +161,7 @@ Click the **Copy Document** button, usually at the top of the Editor window, to 
 The copied document will appear in your documents area.
 
 ---
+
 ---
 
 ## How to Delete a Document in the Helperbird Editor
@@ -139,6 +179,7 @@ Click the **Delete** button at the top of the Editor window. Confirm the deletio
 The document will be permanently removed from your collection.
 
 ---
+
 ---
 
 ## How to Access Text Analytics in the Helperbird Editor
@@ -149,13 +190,15 @@ With your document open, locate the "Text Analytics" button on the top toolbar o
 
 ### 2. View Document Statistics
 
-Click the **Text Analytics** button to see a detailed breakdown of your document's statistics, including word count, character count, and readability scores.
+Click the **Text Analytics** button to see a detailed breakdown of your document's statistics,
+including word count, character count, and readability scores.
 
 ### 3. Use the Data
 
 Use these insights to improve your writing or get a snapshot of your style.
 
 ---
+
 ---
 
 ## How to Import Notes into the Helperbird Editor
@@ -170,9 +213,11 @@ Find the **Import Notes** button on the top toolbar. Click it to open the notes 
 
 ### 3. Add Your Notes
 
-Drag your notes into the sidebar. The Editor will create references, organizing your content and notes side by side.
+Drag your notes into the sidebar. The Editor will create references, organizing your content and
+notes side by side.
 
 ---
+
 ---
 
 ## How to Export Your Notes from the Helperbird Editor
@@ -204,6 +249,7 @@ Select **Download to Text file** to save your notes as a .txt file.
 Now your notes are ready to be shared or used on different platforms!
 
 ---
+
 ---
 
 ## Video Tutorial
@@ -211,11 +257,10 @@ Now your notes are ready to be shared or used on different platforms!
 Coming soon.
 
 ---
+
 ---
 
 ## Need more help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
-
-
-
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly
+[Helperbird support team](/support/), and we'll help you smooth things out in no time.

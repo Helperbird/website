@@ -4,22 +4,32 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: How to Deploy Helperbird through the G Suite Console
-description: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
-keywords: Deploy Helperbird, G Suite Console, install Helperbird, streamline installation process, accessibility software deployment, multiple computers, step-by-step guide
+description:
+  Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite
+  Console. Follow this step-by-step guide to streamline the installation process and ensure
+  accessibility for all users.
+keywords:
+  Deploy Helperbird, G Suite Console, install Helperbird, streamline installation process,
+  accessibility software deployment, multiple computers, step-by-step guide
 url: blog/how-to-deploy-helperbird-through-gsuite-console/
 tags: blog
 isBlog: true
 blog_cat: Guide
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Deploy Helperbird through the G Suite Console
-blog_snip: Streamline the deployment process of Helperbird across multiple computers using the G Suite Console. This step-by-step guide will walk you through the installation and setup process, ensuring accessibility for all users.
+blog_snip:
+  Streamline the deployment process of Helperbird across multiple computers using the G Suite
+  Console. This step-by-step guide will walk you through the installation and setup process,
+  ensuring accessibility for all users.
 img: /assets/images/graph/twitter.png
-des: Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite Console. Follow this step-by-step guide to streamline the installation process and ensure accessibility for all users.
+des:
+  Learn how to easily deploy or install Helperbird in multiple computers at once using the G Suite
+  Console. Follow this step-by-step guide to streamline the installation process and ensure
+  accessibility for all users.
 name: June Coffeecups
 date: 2023-01-09T00:00:00.000Z
 time: 4 min read
 ---
-
 
 Click Device management in the Google Admin Console.
 

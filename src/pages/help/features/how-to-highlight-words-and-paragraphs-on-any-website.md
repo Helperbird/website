@@ -5,7 +5,10 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use the Highlighter Feature in Helperbird
-description: Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web pages. This guide walks you through activating the tool, choosing colors, and keeping track of your highlights.
+description:
+  Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web
+  pages. This guide walks you through activating the tool, choosing colors, and keeping track of
+  your highlights.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -14,24 +17,31 @@ keywords:
 
 youtubeId: vwT8SAJfU3E
 cardTitle: Highlighter
-featureDescription: Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web pages. This guide walks you through activating the tool, choosing colors, and keeping track of your highlights.
+featureDescription:
+  Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web
+  pages. This guide walks you through activating the tool, choosing colors, and keeping track of
+  your highlights.
 date: 2020-01-05
-headerTags: [
-  { tag: "how-to-activate-the-highlight-menu", title: "How to Activate the Highlight Menu" },
-  { tag: "how-to-turn-on-the-highlighter", title: "How to Turn On the Highlighter" },
-  { tag: "how-to-choose-a-highlight-color", title: "How to Choose a Highlight Color" },
-  { tag: "how-to-highlight-text-on-a-web-page", title: "How to Highlight Text on a Web Page" },
-  { tag: "how-to-view-and-manage-highlighted-text", title: "How to View and Manage Highlighted Text" },
-  { tag: "video-tutorial", title: "Video Tutorial" },
-  { tag: "need-more-help", title: "Need More Help?" }
-]
+headerTags:
+  [
+    { tag: 'how-to-activate-the-highlight-menu', title: 'How to Activate the Highlight Menu' },
+    { tag: 'how-to-turn-on-the-highlighter', title: 'How to Turn On the Highlighter' },
+    { tag: 'how-to-choose-a-highlight-color', title: 'How to Choose a Highlight Color' },
+    { tag: 'how-to-highlight-text-on-a-web-page', title: 'How to Highlight Text on a Web Page' },
+    {
+      tag: 'how-to-view-and-manage-highlighted-text',
+      title: 'How to View and Manage Highlighted Text'
+    },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-more-help', title: 'Need More Help?' }
+  ]
 tags: features
 url: help/how-to-highlight-words-and-paragraphs-on-any-website/
-permalink:  help/how-to-highlight-words-and-paragraphs-on-any-website/
+permalink: help/how-to-highlight-words-and-paragraphs-on-any-website/
 ---
 
-
-Helperbird’s Highlighter feature lets you highlight text on web pages, just like using a highlighter on paper. 
+Helperbird’s Highlighter feature lets you highlight text on web pages, just like using a highlighter
+on paper.
 
 Here’s how to get started:
 
@@ -45,7 +55,8 @@ Click the Helperbird icon in your browser to open the extension.
 
 ### 2. Find the Highlight Menu
 
-Look for the Highlight menu in the Quick Actions area. If you don’t see it, use the search bar to find it.
+Look for the Highlight menu in the Quick Actions area. If you don’t see it, use the search bar to
+find it.
 
 ### 3. Turn On the Highlight Menu
 
@@ -109,7 +120,7 @@ Your highlighted texts will appear on note cards.
 
 Click on a note card to return to the page where you made the highlight.
 
-#### Delete a Highlight 
+#### Delete a Highlight
 
 To remove a highlight, click the `X` in the top right corner of the note card.
 
@@ -125,4 +136,5 @@ Coming soon.
 
 ## Need More Help?
 
-If you need a hand or run into any problems, just reach out to our friendly [Helperbird support team](/support/), and we’ll help you out!
+If you need a hand or run into any problems, just reach out to our friendly
+[Helperbird support team](/support/), and we’ll help you out!

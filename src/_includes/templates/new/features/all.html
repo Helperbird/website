@@ -4,15 +4,18 @@
 			<h2 class="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">
 				<span class="block font-sans leading-relaxed text-black">Features at a Glace</span>
 			</h2>
-			<p class="leading-relaxed font-sans mt-4 text-xl text-black">
-				Helperbird offers many tools to help you use the web in a way that works best for you. Improve your accessibility, reading, writing, and productivity with our features.
+			<p class="mt-4 font-sans text-xl leading-relaxed text-black">
+				Helperbird offers many tools to help you use the web in a way that works best for you.
+				Improve your accessibility, reading, writing, and productivity with our features.
 			</p>
-			<p class="leading-relaxed font-sans mt-4 text-xl text-black">
-				Our key features include Immersive Reader, Rewording, Summarizing, Reading Mode, dyslexia support, text-to-speech with natural voices, text extraction, word prediction, voice typing, and 28 more features to enhance your web experience.
+			<p class="mt-4 font-sans text-xl leading-relaxed text-black">
+				Our key features include Immersive Reader, Rewording, Summarizing, Reading Mode, dyslexia
+				support, text-to-speech with natural voices, text extraction, word prediction, voice typing,
+				and 28 more features to enhance your web experience.
 			</p>
-		
+
 			<div class="mt-10 flex items-center justify-center gap-x-6">
-				<a href="/features/" class="btn btn-primary " href="/reviews/">See All Features</a>
+				<a href="/features/" class="btn btn-primary" href="/reviews/">See All Features</a>
 			</div>
 		</div>
 
@@ -20,29 +23,29 @@
 			<div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
 				{%- for post in collections.tools -%}
 				<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-					<div class="rounded-xl  bg-white p-8 shadow-md">
+					<div class="rounded-xl bg-white p-8 shadow-md">
 						<div
 							class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white"
 							aria-hidden="true"
 						>
 							{{ post.data.icon | svgContents | safe }}
 						</div>
-						<h3 class="leading-relaxed font-sans mt-5 text-lg font-semibold text-black">
+						<h3 class="mt-5 font-sans text-lg font-semibold leading-relaxed text-black">
 							{{ post.data.cardTitle }}
 						</h3>
 
-						<p class=" line-clamp-3 font-sans text-base leading-relaxed my-4 text-black">
+						<p class="my-4 line-clamp-3 font-sans text-base leading-relaxed text-black">
 							{{ post.data.featureDescription }}
 						</p>
 
 						<div class="mt-4 flex items-center gap-x-4">
 							<a
-							class="btn-base btn btn-secondary shadow-md"
-							href="{{ post.url }}"
-							aria-label="More information on feature {{ post.data.cardTitle }}"
-							title="Discover more about feature {{ post.data.cardTitle }}"
-						  >Discover more</a>
-						  
+								class="btn-base btn btn-secondary shadow-md"
+								href="{{ post.url }}"
+								aria-label="More information on feature {{ post.data.cardTitle }}"
+								title="Discover more about feature {{ post.data.cardTitle }}"
+								>Discover more</a
+							>
 						</div>
 					</div>
 				</div>

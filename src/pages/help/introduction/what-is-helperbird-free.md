@@ -23,23 +23,24 @@ url: help/what-is-helperbird-free/
 permalink: help/what-is-helperbird-free/
 ---
 
-
-The free version of Helperbird offers core features that are available to everyone. You can use Helperbird for your work without worrying about any costs.
----
+## The free version of Helperbird offers core features that are available to everyone. You can use Helperbird for your work without worrying about any costs.
 
 ## Features Included
 
 ### Reading Mode
 
-Remove ads and other distractions from your web browsing experience, allowing you to focus on the text and content you need.
+Remove ads and other distractions from your web browsing experience, allowing you to focus on the
+text and content you need.
 
 ### Immersive Reader by Microsoft
 
-Please note that in the future, there may be a limit on the number of characters that can be read at once in the free version.
+Please note that in the future, there may be a limit on the number of characters that can be read at
+once in the free version.
 
 ### Text to Speech
 
-Helperbird will automatically read aloud the text you are viewing, so you can listen without having to click on the text.
+Helperbird will automatically read aloud the text you are viewing, so you can listen without having
+to click on the text.
 
 ### Dyslexia Fonts
 
@@ -85,9 +86,9 @@ Helperbird will adjust the colors on the page to be more accessible for users wi
 
 Helperbird will allow you to highlight text in different colors for better focus and study.
 
-
 ---
 
 ## Need More Help?
 
-If you encounter any issues while getting started, don't worry! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you sort things out quickly.
+If you encounter any issues while getting started, don't worry! Just reach out to our friendly
+[Helperbird support team](/support/), and we'll help you sort things out quickly.

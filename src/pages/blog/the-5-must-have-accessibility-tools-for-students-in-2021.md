@@ -4,18 +4,28 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: The 5 Must-Have Accessibility Tools for Students in 2021
-description: Discover the top 5 must-have accessibility tools for students in 2021 to empower and enhance their online learning experience.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
+description:
+  Discover the top 5 must-have accessibility tools for students in 2021 to empower and enhance their
+  online learning experience.
+keywords:
+  Dyslexia software, Reading Mode for Google Chrome, Voice typing for Chrome, Text to speech for
+  Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, Helperbird for
+  Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic
 url: blog/the-5-must-have-accessibility-tools-for-students-in-2021/
 tags: blog
 isBlog: true
 blog_cat: Blog
 youtubeId: vwT8SAJfU3E
 cardTitle: The 5 Must-Have Accessibility Tools for Students in 2021
-blog_snip: With online learning and increased online activity, it's important that every student feels empowered and comfortable when working online. Discover our top 5 tools to use in 2021.
+blog_snip:
+  With online learning and increased online activity, it's important that every student feels
+  empowered and comfortable when working online. Discover our top 5 tools to use in 2021.
 cat: Blog
 img: /assets/images/graph/twitter.png
-des: With online learning and increased online activity, it's important that every student feels empowered and comfortable when working online. There are hundreds of tools out there, but here are our top 5 tools to use in 2021.
+des:
+  With online learning and increased online activity, it's important that every student feels
+  empowered and comfortable when working online. There are hundreds of tools out there, but here are
+  our top 5 tools to use in 2021.
 name: Robert James
 date: 2022-03-03T00:00:00.000Z
 time: 4 min

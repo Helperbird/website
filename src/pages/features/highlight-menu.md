@@ -3,8 +3,11 @@ new: false
 footer: true
 header: true
 layout: templates/features_two.liquid
-title:  Highlight Menu - Simplify Your Reading Experience
-description: Make reading easier with Helperbird's Highlight Menu. Use tools like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation—all from one simple menu when you highlight text."
+title: Highlight Menu - Simplify Your Reading Experience
+description:
+  Make reading easier with Helperbird's Highlight Menu. Use tools like text-to-speech, dictionary,
+  web search, immersive reader, highlighter, and translation—all from one simple menu when you
+  highlight text."
 keywords:
   - Highlight Menu
   - Text-to-Speech
@@ -17,10 +20,13 @@ keywords:
   - Accessibility software
 featurePageTitle: Highlight Menu - Your All-in-One Text Utility Tool
 img: U3h8al49y2U
-icon: "/src/_includes/svgs/highlight-menu.svg"
+icon: '/src/_includes/svgs/highlight-menu.svg'
 youtubeId: U3h8al49y2U
 cardTitle: Highlight Menu
-featureDescription: Helperbird's Highlight Menu offers a convenient all-in-one text utility solution. Highlight any text and instantly access features like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation.
+featureDescription:
+  Helperbird's Highlight Menu offers a convenient all-in-one text utility solution. Highlight any
+  text and instantly access features like text-to-speech, dictionary, web search, immersive reader,
+  highlighter, and translation.
 group: reading
 color: blue
 tags:
@@ -32,22 +38,29 @@ url: features/highlight-menu/
 
 ## About This Feature
 
-Helperbird's Highlight Menu is a versatile tool that appears when you highlight text. It gives you instant access to features like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation.
+Helperbird's Highlight Menu is a versatile tool that appears when you highlight text. It gives you
+instant access to features like text-to-speech, dictionary, web search, immersive reader,
+highlighter, and translation.
 
-Designed for students, researchers, and anyone who reads a lot online, the Highlight Menu makes text tasks easier.
+Designed for students, researchers, and anyone who reads a lot online, the Highlight Menu makes text
+tasks easier.
 
 ## Benefits
 
 ### Easy Access to Features
+
 Get quick access to many features in one menu.
 
 ### Better Understanding
+
 Use text-to-speech, dictionary, and immersive reader to improve comprehension.
 
 ### Save Time
+
 Quickly search the web and translate text without leaving the page.
 
 ### Simplify Note-Taking
+
 Highlight and save important text easily.
 
 ## Features
@@ -61,4 +74,5 @@ Highlight and save important text easily.
 
 ## Is This a Free Feature?
 
-Yes and no. Basic features like highlighting and web search are free. To use all features, including text-to-speech and immersive reader, you need to upgrade to the premium version.
+Yes and no. Basic features like highlighting and web search are free. To use all features, including
+text-to-speech and immersive reader, you need to upgrade to the premium version.

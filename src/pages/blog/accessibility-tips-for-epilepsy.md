@@ -4,8 +4,13 @@ footer: true
 header: true
 layout: templates/blog/post.liquid
 title: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
-description: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
-keywords: assistive technology, web accessibility, dyslexia software, Reading Mode, voice typing, text to speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
+description:
+  Discover 10 essential assistive technology tools that significantly improve web accessibility.
+  Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with
+  disabilities to overcome barriers and interact with digital platforms more effectively.
+keywords:
+  assistive technology, web accessibility, dyslexia software, Reading Mode, voice typing, text to
+  speech, dyslexia fonts, accessibility software, Helperbird, Opendyslexic
 url: blog/10-essential-assistive-technology-tools-web-accessibility/
 img: /assets/images/blog/new-blog-2022/10-essential-assistive-technology-tools.png
 name: Helperbird Staff
@@ -16,9 +21,11 @@ isBlog: true
 blog_cat: Blog
 youtubeId: vwT8SAJfU3E
 cardTitle: Enhance Web Accessibility with 10 Essential Assistive Technology Tools
-blog_snip: Discover 10 essential assistive technology tools that significantly improve web accessibility. Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with disabilities to overcome barriers and interact with digital platforms more effectively.
+blog_snip:
+  Discover 10 essential assistive technology tools that significantly improve web accessibility.
+  Learn how Helperbird, a comprehensive accessibility solution, empowers individuals with
+  disabilities to overcome barriers and interact with digital platforms more effectively.
 ---
-
 
 One of those challenging disability conditions is epilepsy. Epilepsy is one of humanity's oldest
 recognized diseases, which affects roughly 50 million people worldwide (diagnosed in nearly 1
