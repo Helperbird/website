@@ -1,6 +1,7 @@
 {
 	"name": "website",
 	"version": "2.5.0",
+	"type": "module",
 	"description": "It's (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it's still *really* small though.",
 	"scripts": {
 		"clean": "rimraf public src/css/styles.css",
@@ -36,7 +37,7 @@
 		"babel-preset-jest": "^21.2.0"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy": "^3.0.0",
 		"@babel/core": "^7.21.0",
 		"@babel/plugin-proposal-optional-chaining": "^7.21.0",
 		"@babel/preset-env": "^7.20.2",
