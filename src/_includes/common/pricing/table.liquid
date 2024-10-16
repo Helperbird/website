@@ -1306,7 +1306,7 @@
         id="tabs-1-tab-1"
         @click="currentTab = 1"
         class="flex-1 btn btn-outline text-base/8 font-medium text-black"
-        :class="{ 'btn-active': getCurrentTab === 1 }"
+      
         aria-controls="tabs-1-panel-1"
         role="tab"
         type="button"
@@ -1318,7 +1318,7 @@
         id="tabs-1-tab-2"
         @click="currentTab = 2"
         class="flex-1 btn btn-outline text-base/8 font-medium text-rose-600"
-        :class="{ 'btn-active': getCurrentTab === 2 }"
+
         aria-controls="tabs-1-panel-2"
         role="tab"
         type="button"
@@ -1330,7 +1330,7 @@
         id="tabs-1-tab-3"
         @click="currentTab = 3"
         class="flex-1 btn btn-outline text-base/8 font-medium text-indigo-600"
-        :class="{ 'btn-active': getCurrentTab === 3 }"
+       
         aria-controls="tabs-1-panel-3"
         role="tab"
         type="button"
@@ -1342,7 +1342,7 @@
     <!--- Free --->
     <div
       id="tabs-1-panel-1"
-      v-show="getCurrentTab === 1"
+class="hidden"
       aria-labelledby="tabs-1-tab-1"
       role="tabpanel"
       tabindex="0"
@@ -1801,8 +1801,9 @@
     <!--- Pro --->
     <div
       id="tabs-1-panel-2"
-      v-show="getCurrentTab === 2"
+     
       aria-labelledby="tabs-1-tab-2"
+      class="hidden"
       role="tabpanel"
       tabindex="0"
     >
@@ -2260,8 +2261,9 @@
     <!--- Unlimted --->
     <div
       id="tabs-1-panel-3"
-      v-show="getCurrentTab === 3"
+
       aria-labelledby="tabs-1-tab-3"
+      class="hidden"
       role="tabpanel"
       tabindex="0"
     >
