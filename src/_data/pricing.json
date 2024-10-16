@@ -98,6 +98,13 @@
 			"pro": true,
 			"unlimited": true
 		},
+
+		{
+			"feature": "Reword Text",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
 		{
 			"feature": "Summarize page",
 			"free": false,
@@ -144,19 +151,19 @@
 		},
 		{
 			"feature": "Dyslexia Ruler",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
 			"feature": "Reading Guide",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
 			"feature": "Overlay",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
@@ -175,7 +182,7 @@
 
 		{
 			"feature": "Line Focus",
-			"free": false,
+			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
@@ -314,7 +321,7 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Annotations / Sticky Notes",
+			"feature": "Sticky Notes",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -369,24 +376,7 @@
 			"pro": true,
 			"unlimited": true
 		},
-		{
-			"feature": "Exam Mode",
-			"free": false,
-			"pro": false,
-			"unlimited": true
-		},
-		{
-			"feature": "Analytics dashboard",
-			"free": false,
-			"pro": false,
-			"unlimited": true
-		},
-		{
-			"feature": "Exam Mode",
-			"free": false,
-			"pro": false,
-			"unlimited": true
-		},
+		
 		{
 			"feature": "Analytics dashboard",
 			"free": false,
@@ -394,5 +384,32 @@
 			"unlimited": true
 		}
 	],
+	"support": [
+		{
+			"feature": "23/7 online support",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Quarterly workshops",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "Priority phone support",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "1:1 onboarding tour",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		}
+	],
+
 	"soon": []
 }

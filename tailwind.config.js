@@ -1,6 +1,6 @@
 module.exports = {
 	enabled: true,
-	darkMode: 'class',
+	media: false,
 	content: [
 		'./src/**/**/*.html',
 		'./src/**/**/*.md',
@@ -13,7 +13,7 @@ module.exports = {
 			backgroundColor: ['active']
 		}
 	},
-	darkMode: false, // or 'media' or 'class'
+	
 	theme: {
 		fontSize: {
 			'xs': ['0.75rem', { lineHeight: '1rem' }],

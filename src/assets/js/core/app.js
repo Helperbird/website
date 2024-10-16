@@ -12,7 +12,7 @@ const load = () => {
 		el: '#helperbird-website',
 		data: {
 			menus: false,
-
+			currentTab: 2,
 			productModal: false,
 			writer: null,
 			isYearly: true,
@@ -100,6 +100,11 @@ const load = () => {
 			}
 		},
 		computed: {
+
+			getCurrentTab(){
+			return this.currentTab || 1;
+			},
+
 			showYearly() {
 				return this.isYearly;
 			},
