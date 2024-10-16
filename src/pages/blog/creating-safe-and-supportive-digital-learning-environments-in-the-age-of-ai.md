@@ -17,7 +17,7 @@ youtubeId: vwT8SAJfU3E
 cardTitle: Creating Safe and Supportive Digital Learning Environments In The Age of AI
 blog_snip:
   Digital learning is a powerful educational tool. It expands the variety of options available to students with differing learning needs. It can also give access to resources that some students may not get from traditional schools alone. One of the current developments that can impact digital learning is artificial intelligence (AI).
-img: /assets/images/blog/new-blog-2022/an-8-step-guide-to-creating-accessible-emails-for-those-with-dyslexia.png
+img: /assets/images/blog/new-blog-2022/creating-safe-and-supportive-digital-learning-environments-in-the-age-of-ai.png
 des:
   Digital learning is a powerful educational tool. It expands the variety of options available to students with differing learning needs. It can also give access to resources that some students may not get from traditional schools alone. One of the current developments that can impact digital learning is artificial intelligence (AI).
 name: Sam Bowman
