@@ -1,7 +1,7 @@
 const lodash = require('lodash');
 const htmlmin = require('html-minifier');
 const svgContents = require('eleventy-plugin-svg-contents');
-const pluginPWA = require('./tools/eleventy-plugin-pwa');
+const pluginPWA = require('eleventy-plugin-pwa-v2');
 const fs = require('fs');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
@@ -118,6 +118,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',
+		cleanupOutdatedCaches: true,
 		globDirectory: './docs'
 	});
 	eleventyConfig.addPlugin(svgContents);
