@@ -1,5 +1,42 @@
 {
 	"new": [
+
+		{
+			"version": "2024.11.6",
+			"date": "2024 11 6",
+			"changes": [
+				{
+					"title": "✨ Official Immersive Reader Icon Added",
+					"description": "We've integrated the official Immersive Reader icon within Helperbird for a more familiar look and feel."
+				},
+				{
+					"title": "💾 Immersive Reader Saves Your Settings",
+					"description": "Your Immersive Reader settings are now saved! When you reopen it, your preferences will be restored."
+				},
+				{
+					"title": "💡 New Onboarding Guide",
+					"description": "Click the lightbulb icon to start a step-by-step guide on using Helperbird's features."
+				},
+				{
+					"title": "🛠️ Google Drive to PDF Reader Fix",
+					"description": "We've fixed issues with the Google Drive to PDF reader for a smoother experience."
+				},
+				{
+					"title": "🧠 Word Prediction is Back",
+					"description": "Word prediction is up and running again, helping you type faster and more accurately."
+				},
+				{
+					"title": "🔖 New Features Header",
+					"description": "A new header has been added to better organize and highlight the features section."
+				},
+				{
+					"title": "⚙️ Quick Access to Settings",
+					"description": "A new section for easy access to the settings button has been added, making it simpler to customize Helperbird."
+				}
+			],
+			"upcoming": [],
+			"note": "We’re excited for you to try these new features and updates. Enjoy using Helperbird, and happy browsing! 😊"
+		},		
 		{
 			"version": "2024.10.6",
 			"date": "2024 10 6",
