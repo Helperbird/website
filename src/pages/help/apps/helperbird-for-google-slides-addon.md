@@ -85,7 +85,34 @@ You might need to sign in to your Helperbird account or get approval from your a
 features in Google Slides.
 
 ---
+---
 
+## How to Use the Translate in Helperbird Google Slides Add-on
+
+### 1. Highlight Your Text
+Select the text you want to translate on your Google Slide. Just click and drag over the words you need translated until they are highlighted.
+
+### 2. Open Extensions and Select Helperbird
+At the top of your screen, click on **Extensions** in the menu, then select **Helperbird** to open the Helperbird sidebar.
+
+### 3. Choose the Translate Feature
+In the Helperbird sidebar, look for the **Translate** option. It should be one of the quick actions or available under the options.
+
+### 4. Pick Your Language
+Click on **Translate**, and a new menu will pop up. Select your target language from the dropdown list.
+
+### 5. Translate the Text
+Click on **Translate** to see the translation, or **Translate & Replace** if you want the translated text to appear directly on your slide.
+
+### 6. Review the Translation
+Once translated, check if the text displays correctly on your slide. You’re all set!
+
+---
+
+Now you can easily translate text in your Google Slides with Helperbird!
+
+
+---
 ---
 
 ## Video Tutorial
