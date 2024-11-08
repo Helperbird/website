@@ -29,7 +29,7 @@ tags: apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:48:42.466Z
 youtubeId: vwT8SAJfU3E
-cardTitle: How to Install and Use the Helperbird Add-on for Google Slides
+cardTitle: Google Slides add-on
 featureDescription:
   Learn how to easily install and use the Helperbird add-on for Google Slides. This guide walks you
   through adding powerful accessibility features like dyslexia-friendly fonts and text-to-speech
