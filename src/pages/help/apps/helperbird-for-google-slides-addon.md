@@ -22,6 +22,10 @@ headerTags:
       tag: 'how-to-add-the-helperbird-add-on-to-google-slides',
       title: 'How to Add the Helperbird Add-on to Google Slides'
     },
+    {
+         tag: 'how-to-use-the-translate-in-helperbird-google-slides-add-on',
+         title: 'How to Use the Translate'
+    },
     { tag: 'please-note', title: 'Please Note' },
     { tag: 'contact-us', title: 'Contact Us' }
   ]
@@ -106,11 +110,6 @@ Click on **Translate** to see the translation, or **Translate & Replace** if you
 
 ### 6. Review the Translation
 Once translated, check if the text displays correctly on your slide. You’re all set!
-
----
-
-Now you can easily translate text in your Google Slides with Helperbird!
-
 
 ---
 ---
