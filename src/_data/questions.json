@@ -1,111 +1,94 @@
 {
-	"helperbird": [
+  "helperbird": [
+    {
+      "question": "What is Helperbird?",
+      "answer": "Helperbird is a tool designed to make websites, PDFs, and documents easier to read and use. It offers a range of features to support individual needs, from text adjustments to reading assistance, to help you get the most out of your online experience."
+    },
+    {
+      "question": "Do you offer discounts?",
+      "answer": "Yes! When you choose an annual subscription, you’ll get two months free. If you have questions about pricing or other discounts, feel free to reach out!"
+    },
+    {
+      "question": "Can I pay using a purchase order?",
+      "answer": "Yes, we accept purchase orders. Just reach out to our sales team, and they’ll guide you through the process to get Helperbird set up for your organization."
+    },
+    {
+      "question": "Do I need a student email to get the student discount?",
+      "answer": "No student email is needed! We trust you to let us know if you’re a student, and you’ll qualify for the discounted rate. Enjoy all the benefits of Helperbird for less."
+    },
+    {
+      "question": "Is Helperbird free?",
+      "answer": "Yes, we offer a free version with essential features that will always be free. We also have a Pro version with more advanced tools to support development costs and keep prices as low as possible."
+    },
+    {
+      "question": "Can I cancel my Helperbird subscription anytime?",
+      "answer": "Yes, you’re free to cancel your subscription whenever you like, with no penalties or extra charges."
+    },
+    {
+      "question": "Why is Helperbird a paid tool?",
+      "answer": "The subscription covers the costs of development, design, servers, and support. While we keep a range of features free, the Pro version offers more powerful tools. We hope you find it worth the value!"
+    },
+    {
+      "question": "What browsers is Helperbird available on?",
+      "answer": "Helperbird works on Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, as well as iPad and iPhone. You can also use Helperbird with Google Docs and Google Slides."
+    },
+    {
+      "question": "Can I send suggestions to Helperbird?",
+      "answer": "Yes! We love to hear your ideas for new features or improvements. Please email your suggestions to robert.gabriel@helperbird.com."
+    },
+    {
+      "question": "Why don’t some Helperbird features work on Google Docs?",
+      "answer": "Some features don’t work in Google Docs due to how they display text using a different format (called Canvas) instead of HTML. This limits certain customizations, like custom fonts."
+    },
+    {
+      "question": "How do I log in to Helperbird?",
+      "answer": "Helperbird uses the email associated with your browser account to log in. For detailed steps or help with your subscription key, check out our login guide at https://www.helperbird.com/help/how-to-login-to-helperbird/"
+    },
 
+    {
+      "question": "How do I install Helperbird on my browser?",
+      "answer": "You can install Helperbird on Chrome, Firefox, or Edge by visiting your browser’s extension store. Just search for 'Helperbird' and click 'Add to Browser.' Once installed, you'll see the Helperbird icon in your toolbar. Click it to access the features."
+    },
+    {
+      "question": "Can Helperbird help me with dyslexia?",
+      "answer": "Absolutely! Helperbird has a range of tools designed specifically for dyslexic users, like the OpenDyslexic font, text-to-speech, and a dyslexia ruler. These features make reading easier by improving text visibility and reducing visual stress."
+    },
+    {
+      "question": "How do I adjust the text size and font in Helperbird?",
+      "answer": "To adjust text size and font, open Helperbird, go to the 'Appearance' section, and use the sliders to make text larger or smaller. You can also change the font to OpenDyslexic, Arial, and more based on what’s easiest for you to read."
+    },
+    {
+      "question": "Can Helperbird read web pages out loud?",
+      "answer": "Yes! With Helperbird’s text-to-speech feature, you can have any webpage read out loud. Just highlight the text you want to hear, click the Helperbird icon, and choose 'Play.' You can adjust the speed and voice in the settings."
+    },
+    {
+      "question": "Does Helperbird store any personal information?",
+      "answer": "Helperbird is privacy-friendly. It only saves your settings locally on your browser, so no personal data is shared or stored on servers. This keeps your preferences secure and private."
+    },
+    {
+      "question": "How do I enable dark mode on Helperbird?",
+      "answer": "Helperbird's dark mode automatically follows your computer’s settings. So, if your system is set to dark mode, Helperbird will match it for a consistent look across your browser and desktop."
+    },
+    {
+      "question": "Is there a way to customize the Quick Actions in Helperbird?",
+      "answer": "Yes, you can customize your Quick Actions to display the tools you use most. Go to 'Settings,' find 'Quick Actions,' and you’ll be able to enable or disable specific tools, keeping only your favorites on the toolbar."
+    },
+    {
+      "question": "Can I use Helperbird offline?",
+      "answer": "Yes, Helperbird's features work offline, so you can access tools like font changes, text-to-speech (for downloaded voices), and dark mode without an internet connection."
+    },
+    {
+      "question": "How can I contact Helperbird support if I have an issue?",
+      "answer": "If you run into any issues or have questions, you can contact Helperbird support directly through the app. Go to the 'Help' section and choose 'Contact Support,' or email support@helperbird.com."
+    },
+    {
+      "question": "How do I redeem a Helperbird Pro voucher?",
+      "answer": "To redeem your Helperbird Pro voucher, go to helperbird.com/redeem, enter your voucher code, and follow the instructions. Once confirmed, your Pro subscription will be activated."
+    },
 
-
-
-	
-	{
-		"question": "What is Helperbird?",
-		"answer": "Helperbird is a tool designed to make websites, PDFs, and documents easier to read and use. It offers a range of features to support individual needs, from text adjustments to reading assistance, to help you get the most out of your online experience."
-	},
-	{
-		"question": "Do you offer discounts?",
-		"answer": "Yes! When you choose an annual subscription, you’ll get two months free. If you have questions about pricing or other discounts, feel free to reach out!"
-	},
-	{
-		"question": "Can I pay using a purchase order?",
-		"answer": "Yes, we accept purchase orders. Just reach out to our sales team, and they’ll guide you through the process to get Helperbird set up for your organization."
-	},
-	{
-		"question": "Do I need a student email to get the student discount?",
-		"answer": "No student email is needed! We trust you to let us know if you’re a student, and you’ll qualify for the discounted rate. Enjoy all the benefits of Helperbird for less."
-	},
-	{
-		"question": "Is Helperbird free?",
-		"answer": "Yes, we offer a free version with essential features that will always be free. We also have a Pro version with more advanced tools to support development costs and keep prices as low as possible."
-	},
-	{
-		"question": "Can I cancel my Helperbird subscription anytime?",
-		"answer": "Yes, you’re free to cancel your subscription whenever you like, with no penalties or extra charges."
-	},
-	{
-		"question": "Why is Helperbird a paid tool?",
-		"answer": "The subscription covers the costs of development, design, servers, and support. While we keep a range of features free, the Pro version offers more powerful tools. We hope you find it worth the value!"
-	},
-	{
-		"question": "What browsers is Helperbird available on?",
-		"answer": "Helperbird works on Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, as well as iPad and iPhone. You can also use Helperbird with Google Docs and Google Slides."
-	},
-	{
-		"question": "Can I send suggestions to Helperbird?",
-		"answer": "Yes! We love to hear your ideas for new features or improvements. Please email your suggestions to robert.gabriel@helperbird.com."
-	},
-	{
-		"question": "Why don’t some Helperbird features work on Google Docs?",
-		"answer": "Some features don’t work in Google Docs due to how they display text using a different format (called Canvas) instead of HTML. This limits certain customizations, like custom fonts."
-	},
-	{
-		"question": "How do I log in to Helperbird?",
-		"answer": "Helperbird uses the email associated with your browser account to log in. For detailed steps or help with your subscription key, check out our login guide at https://www.helperbird.com/help/how-to-login-to-helperbird/"
-	},
-
-
-
-
-
-
-
-		
-	{
-		"question": "How do I install Helperbird on my browser?",
-		"answer": "You can install Helperbird on Chrome, Firefox, or Edge by visiting your browser’s extension store. Just search for 'Helperbird' and click 'Add to Browser.' Once installed, you'll see the Helperbird icon in your toolbar. Click it to access the features."
-	},
-	{
-		"question": "Can Helperbird help me with dyslexia?",
-		"answer": "Absolutely! Helperbird has a range of tools designed specifically for dyslexic users, like the OpenDyslexic font, text-to-speech, and a dyslexia ruler. These features make reading easier by improving text visibility and reducing visual stress."
-	},
-	{
-		"question": "How do I adjust the text size and font in Helperbird?",
-		"answer": "To adjust text size and font, open Helperbird, go to the 'Appearance' section, and use the sliders to make text larger or smaller. You can also change the font to OpenDyslexic, Arial, and more based on what’s easiest for you to read."
-	},
-	{
-		"question": "Can Helperbird read web pages out loud?",
-		"answer": "Yes! With Helperbird’s text-to-speech feature, you can have any webpage read out loud. Just highlight the text you want to hear, click the Helperbird icon, and choose 'Play.' You can adjust the speed and voice in the settings."
-	},
-	{
-		"question": "Does Helperbird store any personal information?",
-		"answer": "Helperbird is privacy-friendly. It only saves your settings locally on your browser, so no personal data is shared or stored on servers. This keeps your preferences secure and private."
-	},
-	{
-		"question": "How do I enable dark mode on Helperbird?",
-		"answer": "Helperbird's dark mode automatically follows your computer’s settings. So, if your system is set to dark mode, Helperbird will match it for a consistent look across your browser and desktop."
-	},
-	{
-		"question": "Is there a way to customize the Quick Actions in Helperbird?",
-		"answer": "Yes, you can customize your Quick Actions to display the tools you use most. Go to 'Settings,' find 'Quick Actions,' and you’ll be able to enable or disable specific tools, keeping only your favorites on the toolbar."
-	},
-	{
-		"question": "Can I use Helperbird offline?",
-		"answer": "Yes, Helperbird's features work offline, so you can access tools like font changes, text-to-speech (for downloaded voices), and dark mode without an internet connection."
-	},
-	{
-		"question": "How can I contact Helperbird support if I have an issue?",
-		"answer": "If you run into any issues or have questions, you can contact Helperbird support directly through the app. Go to the 'Help' section and choose 'Contact Support,' or email support@helperbird.com."
-	},
-{
-	"question": "How do I redeem a Helperbird Pro voucher?",
-	"answer": "To redeem your Helperbird Pro voucher, go to helperbird.com/redeem, enter your voucher code, and follow the instructions. Once confirmed, your Pro subscription will be activated."
-},
-
-			{
-		"question": "Who can I contact if I have more questions?",
-		"answer": "Our support team is here to help! You can reach us through our website or by emailing support@helperbird.com. We’re happy to assist with any questions or issues you may have."
-	}
-
-
-
-
-		
-	]
+    {
+      "question": "Who can I contact if I have more questions?",
+      "answer": "Our support team is here to help! You can reach us through our website or by emailing support@helperbird.com. We’re happy to assist with any questions or issues you may have."
+    }
+  ]
 }
