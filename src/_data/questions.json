@@ -74,6 +74,26 @@
       "answer": "Yes, you can customize your Quick Actions to display the tools you use most. Go to 'Settings,' find 'Quick Actions,' and you’ll be able to enable or disable specific tools, keeping only your favorites on the toolbar."
     },
     {
+      "question": "Can Helperbird translate web pages into other languages?",
+      "answer": "Yes! Helperbird’s translation tool lets you translate text on any webpage into over 100 languages. Just open Helperbird, select 'Translate,' choose your preferred language, and enjoy reading content in a language that’s comfortable for you."
+    },
+    {
+      "question": "How does Helperbird help with focus while reading?",
+      "answer": "Helperbird includes focus tools like the dyslexia ruler, line focus, and screen masking. These features help you concentrate by highlighting specific sections of text and reducing visual distractions on the page."
+    },
+    {
+      "question": "Can I use Helperbird with PDFs?",
+      "answer": "Yes! Helperbird works with PDFs, allowing you to adjust text settings, read aloud, and apply focus tools. Just open the PDF in your browser, and Helperbird’s tools are ready to help you read and interact with the document just like any other webpage."
+    },
+    {
+      "question": "Is Helperbird accessible for people with ADHD?",
+      "answer": "Yes! Helperbird offers features like screen masking, text adjustments, and focus mode that can help people with ADHD stay focused, organized, and engaged with the content."
+    },
+    {
+      "question": "Can Helperbird be used by people with low vision?",
+      "answer": "Yes! Helperbird includes tools like large text, high contrast, and text-to-speech that make web content more accessible to users with low vision. These features help improve readability and make it easier to navigate online content."
+    },
+    {
       "question": "Can I use Helperbird offline?",
       "answer": "Yes, Helperbird's features work offline, so you can access tools like font changes, text-to-speech (for downloaded voices), and dark mode without an internet connection."
     },
