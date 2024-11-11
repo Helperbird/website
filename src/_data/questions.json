@@ -109,17 +109,17 @@
       "answer": "The subscription covers the costs of development, design, servers, and support. While we keep a range of features free, the Pro version offers more powerful tools. We hope you find it worth the value!"
     },
     {
-  		"question": "How do I update Helperbird to the latest version?",
-  		"answer": "Helperbird updates automatically with your browser. If you want to check for updates manually, go to your browser’s extension settings, find Helperbird, and click 'Update' if an update is available."
-  	},
-  	{
-  		"question": "Is there a way to pause or disable Helperbird temporarily?",
-  		"answer": "Yes! If you need to pause Helperbird, you can click the Helperbird icon in your toolbar and toggle it off. To enable it again, just toggle it back on."
-  	},
-  	{
-  		"question": "Can I get a refund if I’m not happy with Helperbird?",
-  		"answer": "Yes, we offer a refund policy for Pro subscriptions if you’re not completely satisfied. Contact our support team within 30 days of purchase, and they’ll assist you."
-  	},
+      "question": "How do I update Helperbird to the latest version?",
+      "answer": "Helperbird updates automatically with your browser. If you want to check for updates manually, go to your browser’s extension settings, find Helperbird, and click 'Update' if an update is available."
+    },
+    {
+      "question": "Is there a way to pause or disable Helperbird temporarily?",
+      "answer": "Yes! If you need to pause Helperbird, you can click the Helperbird icon in your toolbar and toggle it off. To enable it again, just toggle it back on."
+    },
+    {
+      "question": "Can I get a refund if I’m not happy with Helperbird?",
+      "answer": "Yes, we offer a refund policy for Pro subscriptions if you’re not completely satisfied. Contact our support team within 30 days of purchase, and they’ll assist you."
+    },
     {
       "question": "Can I cancel my Helperbird subscription anytime?",
       "answer": "Yes, you’re free to cancel your subscription whenever you like, with no penalties or extra charges."
@@ -135,9 +135,6 @@
     {
       "question": "Can I send suggestions to Helperbird?",
       "answer": "Yes! We love to hear your ideas for new features or improvements. Please email your suggestions to robert.gabriel@helperbird.com."
-    },
-
-
-
+    }
   ]
 }
