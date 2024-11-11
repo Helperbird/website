@@ -89,6 +89,7 @@ You might need to sign in to your Helperbird account or get approval from your a
 features in Google Slides.
 
 ---
+
 ---
 
 ## How to Use the Translate in Helperbird Google Slides Add-on
@@ -112,6 +113,7 @@ Click on **Translate** to see the translation, or **Translate & Replace** if you
 Once translated, check if the text displays correctly on your slide. You’re all set!
 
 ---
+
 ---
 
 ## Video Tutorial

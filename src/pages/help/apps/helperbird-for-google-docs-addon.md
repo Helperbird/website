@@ -90,6 +90,7 @@ You might need to sign in to your Helperbird account or get approval from your a
 features in Google Docs.
 
 ---
+
 ---
 
 # How to Use the Translate Feature in Helperbird Google Docs Add-on
@@ -114,6 +115,7 @@ Once translated, check if the text displays correctly in your document. You’re
 
 
 ---
+
 ---
 
 ## Video Tutorial
