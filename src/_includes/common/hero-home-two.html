@@ -1,0 +1,46 @@
+<div class="relative my-16">
+	<div class="card py-20 bg-base-100">
+	  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto max-w-4xl text-center">
+		  <h1 class="mt-2 font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">
+			<span>“</span>
+			<span class="font-extrabold text-blue-500" id="typewriter">Voice typing</span>
+			<span>”</span>
+			<span class="block font-sans leading-relaxed text-black">Helperbird has that.</span>
+		  </h1>
+  
+		  <p class="mt-6 font-sans text-2xl leading-relaxed text-black">
+			Helperbird is your all-in-one accessibility tool, making web pages, PDFs, and documents easier to browse, read, and write – personalized to meet your needs.
+		  </p>
+  
+		  <div class="mt-10 flex items-center justify-center gap-x-6">
+			<button onclick="download_modal.showModal()" class="btn btn-lg btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+			  Try Helperbird for free
+			</button>
+		  </div>
+  
+		  <!-- Star Rating Section with Mobile Responsive Layout -->
+		  <div class="mt-6 flex flex-col items-center justify-center gap-y-3 sm:flex-row sm:gap-x-3">
+			<div class="flex" aria-label="5-star rating">
+			  {%- for star in (1..5) -%}
+			  <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" role="img">
+				<title>Star</title>
+				<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+			  </svg>
+			  {%- endfor -%}
+			</div>
+			<span class="text-lg font-semibold text-black text-center">Rated 4.9 stars by over 700,000 people.</span>
+		  </div>
+		</div>
+  
+		<div class="mx-auto mt-16 flow-root max-w-4xl sm:mt-24">
+		  <div class="-m-2 rounded-xl lg:rounded-2xl">
+			<video aria-label="Demonstration of Helperbird features on Google Docs and Slides" autoplay controls loop muted playsinline width="2432" height="1442" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+			  <source src="/assets/videos/google-chrome.mp4" type="video/mp4" />
+			</video>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
