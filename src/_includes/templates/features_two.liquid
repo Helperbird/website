@@ -199,23 +199,28 @@
 
       <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
 
-
-      <div class="rounded-2xl text-black py-24 sm:py-32 sm:py-16 lg:px-4 mb-4">
-        <div class="mx-auto max-w-4xl text-center">
-          <h1 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">{{
-            featurePageTitle }}</h1>
-          <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-            {{ featureDescription }}
-          </p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-
-          <button onclick="download_modal.showModal()" class="btn btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
-            Download
-        </button>
+        <div class="card py-20 bg-base-100">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-4xl text-center">
+            <h1 class="mt-2 font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">
+              {{
+                featurePageTitle }}
+            </h1>
+        
+            <p class="mt-6 font-sans text-2xl leading-relaxed text-black">
+              {{ featureDescription }}
+            </p>
+        
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+            <button onclick="download_modal.showModal()" class="btn btn-lg btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+              Try Helperbird for free
+            </button>
+            </div>
+  
           </div>
-
-          <div class="mt-16 flow-root sm:mt-24 mx-auto max-w-3xl">
-            <div class="-m-2 rounded-xl bg-stone-200 p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
+        
+          <div class="mx-auto mt-16 flow-root max-w-4xl sm:mt-24">
+            <div class="-m-2 rounded-xl lg:rounded-2xl">
               <div class="aspect-w-16 aspect-h-9">
                 <iframe
                   src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
@@ -233,8 +238,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-      </div>
+
+        
+
+
+
 
 
 
