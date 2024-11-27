@@ -1,6 +1,109 @@
 {
 	"new": [
-
+		{
+			"version": "2024.11.26",
+			"date": "2024 11 26",
+			"changes": [
+				{
+					"title": "📱 PDF Reader Working on iPad & iPhone Again",
+					"description": "The PDF Reader is now fully functional on iPad and iPhone. This was caused by a bug in Safari, but everything is working perfectly now!",
+					"image": {
+						"src": "",
+						"alt": "Screenshot of the PDF Reader working on iPad"
+					}
+				},
+				{
+					"title": "🧠 Word Prediction Fixes",
+					"description": "We've fixed a bug where Word Prediction wouldn't remove the word you typed before inserting suggestions. Additionally, incorrect alt tags are now corrected.",
+					"image": {
+						"src": "",
+						"alt": "Word Prediction example interface"
+					}
+				},
+				{
+					"title": "🎨 Paragraph Feature is Now Free",
+					"description": "The Paragraph feature is now free for everyone! You can add borders, background colors, adjust width, and set columns for paragraphs with ease.",
+					"image": {
+						"src": "",
+						"alt": "Paragraph feature settings interface"
+					}
+				},
+				{
+					"title": "📖 Dyslexia Ruler, Line Ruler, and Reading Guide Are Free",
+					"description": "Great news! The Dyslexia Ruler, Line Ruler, and Reading Guide features are now free for all users.",
+					"image": {
+						"src": "",
+						"alt": "Dyslexia Ruler in action"
+					}
+				},
+				{
+					"title": "🔔 Redesigned Notifications",
+					"description": "Notifications and toasters have a fresh, rounded redesign for a cleaner, more modern look.",
+					"image": {
+						"src": "",
+						"alt": "Example of redesigned notification"
+					}
+				},
+				{
+					"title": "🛠️ Cleaner Action Buttons",
+					"description": "Behind the scenes, we've tidied up action buttons to make them look and feel smoother.",
+					"image": {
+						"src": "",
+						"alt": "Streamlined action buttons"
+					}
+				},
+				{
+					"title": "➗ Maths Reader is Out of Beta",
+					"description": "The Maths Reader is officially out of beta! Stay tuned as we add more features to this tool soon.",
+					"image": {
+						"src": "",
+						"alt": "Maths Reader in action"
+					}
+				},
+				{
+					"title": "🏴‍☠️ Emoji Bug Fix",
+					"description": "Fixed an embarrassing bug where flag emojis weren’t loading on Windows and Safari. That’s all sorted now!",
+					"image": {
+						"src": "",
+						"alt": "Flag emojis displayed correctly"
+					}
+				},
+				{
+					"title": "🔄 Feature List Reordered",
+					"description": "We've reordered some features in the list for better usability and easier navigation.",
+					"image": {
+						"src": "",
+						"alt": "Updated feature list layout"
+					}
+				},
+				{
+					"title": "🖍️ New Layout for Key Features",
+					"description": "Selecting high contrast, font picking, and translations now have a new layout for a better user experience.",
+					"image": {
+						"src": "",
+						"alt": "New layout for feature selection"
+					}
+				},
+				{
+					"title": "⚡ Redesigned Quick Actions",
+					"description": "Adding features to the Quick Actions menu has been redesigned for a smoother experience.",
+					"image": {
+						"src": "",
+						"alt": "Quick Actions redesign"
+					}
+				},
+				{
+					"title": "🚀 Improved Loading Time",
+					"description": "Helperbird now loads even faster with slight optimizations under the hood.",
+					"image": {
+						"src": "",
+						"alt": "Helperbird loading screen"
+					}
+				}
+			],
+			"upcoming": [],
+			"note": "We’re excited for you to explore these updates. Thanks for being part of Helperbird, and enjoy the new features! 😊"
+		},		
 		{
 			"version": "2024.11.6",
 			"date": "2024 11 6",
