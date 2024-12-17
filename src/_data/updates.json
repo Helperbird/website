@@ -5,6 +5,18 @@
 			"date": "2024 11 26",
 			"changes": [
 				{
+					"title": "Immersive Reader Fixed",
+					"description": "Some other app, using our API endpoint. We had to change our endpoint."
+				}
+			],
+			"upcoming": [],
+			"note": ""
+		},	
+		{
+			"version": "2024.11.26",
+			"date": "2024 11 26",
+			"changes": [
+				{
 					"title": "📱 PDF Reader Working on iPad & iPhone Again",
 					"description": "The PDF Reader is now fully functional on iPad and iPhone. This was caused by a bug in Safari, but everything is working perfectly now!",
 					"image": {
