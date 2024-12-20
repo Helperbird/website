@@ -1,17 +1,26 @@
 {
 	"new": [
 		{
-			"version": "2024.11.26",
-			"date": "2024 11 26",
+			"version": "2024.12.20",
+			"date": "2024 12 20",
 			"changes": [
-				{
-					"title": "Immersive Reader Fixed",
-					"description": "Some other app, using our API endpoint. We had to change our endpoint."
-				}
+			  {
+				"title": "Better Google Docs and Slides",
+				"description": "We've made Helperbird work even better with Google Docs and Slides by making it simpler and easier to use."
+			  },
+			  {
+				"title": "Unlimited Immersive Reader for Pro Users on Google Docs & Slides",
+				"description": "If you're a Helperbird Pro subscriber, you can now use the Immersive Reader as much as you want in the addons."
+			  },
+			  {
+				"title": "Improved Text-to-Speech on Google Docs & Slides",
+				"description": "Now, the text-to-speech feature won't overlap when talking. Plus, you can change the speed, volume, and pitch to suit your preferences."
+			  }
 			],
 			"upcoming": [],
-			"note": ""
-		},	
+			"note": "Thanks for using Helperbird! We're always working to make it better for you."
+		  },
+		  
 		{
 			"version": "2024.11.26",
 			"date": "2024 11 26",
