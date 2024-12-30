@@ -45,28 +45,22 @@ efficient and effective writing. Try it today and see the difference it makes!
 
 ## Benefits
 
-### Boost Productivity
-
+**Boost Productivity**
 Save time on typing and editing with smart word suggestions.
 
-### Enhance Accuracy
-
+**Enhance Accuracy**
 Get advanced AI-powered autocomplete to help you type accurately.
 
-### Adapt to Your Style
-
+**Adapt to Your Style**
 The extension learns and adapts to your unique writing style.
 
-### Reduce Typos
-
+**Reduce Typos**
 Minimize mistakes and repetitive words for cleaner writing.
 
-### Write Efficiently
-
+**Write Efficiently**
 Make your writing process smoother and more effective.
 
-### Easy to Use
-
+**Easy to Use**
 Simple to install and use on Google Docs and any website.
 
 ## Features

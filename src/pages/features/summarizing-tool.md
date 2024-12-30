@@ -46,6 +46,8 @@ making your reading easier.
 It's perfect for anyone who needs to quickly get the gist of a document or web page, whether you're
 a student, a professional, or just someone who wants to save time.
 
+---
+
 ## Benefits
 
 ### Save Time
@@ -64,13 +66,11 @@ Get the important details without having to read everything.
 
 Summarize information into bullet points for quick and easy reference later.
 
+---
+
 ## Features
 
 - One-click summarization to instantly turn articles and web pages into bullet points.
 - Save your summaries to your device for future reference.
 - Choose to summarize content into 5 or 7 key bullet points.
 
-## Is This a Free Feature?
-
-No, this is a premium feature that offers more detailed summarization options for a better reading
-experience.

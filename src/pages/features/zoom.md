@@ -35,28 +35,36 @@ Helperbird's Page & Text Magnifier makes it easy to zoom in on text and images o
 Whether you need to make things bigger for better readability or visibility, this tool lets you
 adjust the zoom to suit your needs.
 
+---
+
 ## Benefits
 
-### Better Readability
-
+**Better Readability**
 Make text and images larger so they are easier to see and read.
 
-### Consistent Zoom
-
+**Consistent Zoom**
 The zoom level stays the same as you move from page to page, so you don’t have to keep adjusting it.
 
-### Improved Focus
-
+**Improved Focus**
 Zooming in can help remove distractions, making it easier to focus on what’s important.
 
-### Easy to Use
-
+**Easy to Use**
 Just a few clicks to zoom in or out, making it simple for anyone to adjust the size of the text and
 images.
 
+
+--- 
+
 ## Features
 
-- **Control Zoom Level**: Easily zoom in and out to get the perfect size for text and images.
-- **Consistent Browsing**: Keep the same zoom level as you move between pages.
-- **Remove Clutter**: Zooming in can help clear away distractions on busy web pages.
-- **Simple to Use**: Adjusting the zoom is easy and quick, with just a few clicks. `
+**Control Zoom Level**
+Easily zoom in and out to get the perfect size for text and images.
+
+**Consistent Browsing**
+Keep the same zoom level as you move between pages.
+
+**Remove Clutter**
+Zooming in can help clear away distractions on busy web pages.
+
+**Simple to Use**
+Adjusting the zoom is easy and quick, with just a few clicks. `

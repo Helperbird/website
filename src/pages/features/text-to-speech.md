@@ -39,23 +39,48 @@ This extension works on Chrome, Firefox, Edge, and iPad. It uses advanced text-t
 technology to turn any web page into spoken words. It’s easy to use and customize, making it perfect
 for anyone who wants to improve their reading experience. Try it for free!
 
+---
+
 ## Benefits
 
-- **Improve Reading Speed and Understanding**: Listening helps you grasp content faster.
-- **Great for Visual Impairments or Reading Difficulties**: Perfect for those who struggle with
-  reading.
-- **Multitask Easily**: Listen to text while doing other tasks.
-- **Save Time**: Listen to articles instead of reading them.
-- **Learn Languages**: Hear text in different languages to aid learning.
+**Improve Reading Speed and Understanding**
+Listening helps you grasp content faster.
+
+**Great for Visual Impairments or Reading Difficulties**
+Perfect for those who struggle with reading.
+
+**Multitask Easily**
+Listen to text while doing other tasks.
+
+**Save Time**
+Listen to articles instead of reading them.
+
+**Learn Languages**
+Hear text in different languages to aid learning.
+
+---
 
 ## Features
 
-- **Natural-Sounding Voices**: Advanced TTS with lifelike voices.
-- **Lots of Voice Choices**: Over 10 natural voices and 30+ options.
-- **Many Languages**: Supports 109 languages.
-- **Customizable Settings**: Adjust pitch, volume, and speed.
-- **Supports Multiple Formats**: Works with web pages, documents, and PDFs. Listen on any device.
-- **Highlight Options**: Pick your favorite highlight color.
+**Natural-Sounding Voices**
+Advanced TTS with lifelike voices.
+
+**Lots of Voice Choices**
+Over 10 natural voices and 30+ options.
+
+**Many Languages**
+Supports 109 languages.
+
+**Customizable Settings**
+Adjust pitch, volume, and speed.
+
+**Supports Multiple Formats**
+Works with web pages, documents, and PDFs. Listen on any device.
+
+**Highlight Options**
+Pick your favorite highlight color.
+
+---
 
 ## How It Helps
 
@@ -64,6 +89,8 @@ with reading or are learning a new language. It’s a big help for those who are
 blind, or have attention difficulties. You can get information without scrolling through long texts.
 Having content read aloud in different voices makes web pages more accessible and helps you
 multitask efficiently.
+
+---
 
 ## List of Voices
 
@@ -134,7 +161,3 @@ multitask efficiently.
 - 🇨🇳 Google 普通话（中国大陆）
 - 🇭🇰 Google 粤語（香港）
 - 🇹🇼 Google 國語（臺灣）
-
-## Is It Free?
-
-Yes, but some features within text-to-speech are only available to premium users.

@@ -35,6 +35,8 @@ url: features/text-align/
 With Helperbird's Text Alignment feature, you can easily change how text is aligned on any web page.
 Make reading easier with just one click!
 
+---
+
 ## Benefits
 
 ### Easier to Read
@@ -53,16 +55,23 @@ When text is aligned well, it's easier for readers to scan and understand the co
 
 You can control how text looks to fit your needs, making it more user-friendly.
 
+---
+
 ## Features
 
 - Align text to the left, right, center, or justify it.
 - Change text alignment on any page with one click.
 - Save your favorite text alignment settings for quick use.
 
+---
+
 ## What is Text Alignment?
 
 Text alignment is about how text is positioned on a page. The most common types are left, right,
 center, and justified. Good text alignment makes reading easier and pages look nicer.
+
+
+---
 
 ## Credit
 

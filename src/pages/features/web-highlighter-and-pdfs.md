@@ -46,33 +46,39 @@ PDFs too, making it perfect for both school and work.
 
 The Web Highlighter helps you:
 
-### Make Important Information Stand Out
-
+**Make Important Information Stand Out**
 Use different colors to highlight key points.
 
-### Simplify Note-Taking
-
+**Simplify Note-Taking**
 Easily gather and organize information.
 
-### Remember Better
+**Remember Better**
 
 Visually highlight text to improve retention.
 
-### Review Easily
-
+**Review Easily**
 Quickly find and review your highlights.
 
-### Stay Focused
-
+**Stay Focused**
 Highlighting helps you concentrate and understand better.
+
 
 ## Features
 
-- **Multiple Colors**: Choose from a variety of colors to highlight text.
-- **Web and PDF Highlighting**: Works on web pages and PDFs.
-- **Save and Export**: Save your highlights or export them for later use.
-- **Easy On/Off**: Quickly turn highlighting on or off.
-- **Seamless Integration**: Works smoothly with other Helperbird features.
+**Multiple Colors**
+Choose from a variety of colors to highlight text.
+
+**Web and PDF Highlighting**
+Works on web pages and PDFs.
+
+**Save and Export**
+Save your highlights or export them for later use.
+
+**Easy On/Off**
+Quickly turn highlighting on or off.
+
+**Seamless Integration**
+Works smoothly with other Helperbird features.
 
 ## Is This a Free Feature?
 
