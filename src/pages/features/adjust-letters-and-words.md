@@ -34,31 +34,24 @@ tags:
 Stop straining your eyes! Adjust the spacing of letters and words on any website or PDF to suit your
 needs and make reading online easier with Helperbird.
 
-## Benefits
+---
 
+## Benefits
 Adjusting line, letter, and word spacing can help in many ways:
 
 ### Improved readability
-
 Making the spacing between text elements more consistent and clear makes reading easier.
 
 ### Customized reading experience
-
 Adjust the spacing to your liking for a more comfortable and enjoyable reading experience.
 
 ### Increased engagement
-
 Easier-to-read text encourages readers to engage more with the content, increasing retention.
 
 ### Better accessibility
-
 Adjustable spacing makes text more accessible for people with visual impairments, like dyslexia or
 low vision.
 
 ### Better online reading experience
-
 With more people reading on screens, adjustable spacing makes it more comfortable to read online.
 
-## Is this a Free Helperbird feature?
-
-Yes! Adjusting line, letter, and word spacing is a free feature of Helperbird.

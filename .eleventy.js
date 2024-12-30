@@ -154,17 +154,22 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl mb-8 font-bold text-gray-900',
-		h2: 'leading-relaxed font-display text-2xl mb-6 mt-12 font-semibold text-gray-800',
-		h3: 'leading-relaxed font-display text-xl mb-4 mt-10 font-semibold text-gray-700',
-		h4: 'leading-relaxed font-display text-lg mb-4 mt-8 font-semibold text-gray-600',
-		p: 'leading-relaxed font-display mb-4 mt-4 text-lg text-gray-900',
+		h1: 'leading-relaxed font-display text-3xl mb-8 font-bold text-black',
+		h2: 'leading-relaxed font-display text-2xl mb-8  font-semibold text-black',
+		h3: 'leading-relaxed font-display text-xl mb-8 font-semibold text-black',
+		h4: 'leading-relaxed font-display text-lg mb-8 font-semibold text-black',
+		p: 'leading-relaxed font-display mb-4 text-lg text-black',
 		strong: 'text-lg font-semibold text-gray-800',
-		bold: 'font-bold text-gray-900',
-		ul: 'leading-relaxed list-disc list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-gray-900',
-		ol: 'leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-gray-900',
-		li: 'leading-relaxed mb-2 text-lg font-display text-gray-900 flex items-center',
-
+		bold: 'font-bold text-black',
+		ul: 'leading-relaxed list-disc list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-black',
+		ol: 'leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 mb-8 text-black',
+		li: 'leading-relaxed mb-2 text-lg font-display text-black flex items-center',
+		table: "table-auto w-full border-collapse border border-gray-300 text-lg font-display text-black mt-4 mb-8",
+		thead: "bg-gray-100",
+		th: "border border-gray-300 px-4 py-2 text-left text-gray-700 font-medium",
+		tbody: "",
+		tr: "odd:bg-gray-50 even:bg-white",
+		td: "border border-gray-300 px-4 py-2 text-black",
 		img: 'aspect-square rounded-2xl mb-8 shadow-lg',
 		hr: 'divider divider-neutral my-10',
 		a: 'leading-relaxed font-sans text-lg text-blue-500 hover:text-blue-700 underline',
@@ -194,7 +199,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addShortcode('youtubeEmbed', function (id) {
 		return `
 		<div class="mt-2 mb-8 bg-stone-200 rounded-2xl aspect-w-16 aspect-h-9">
-			<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-black/10" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>`;
 	});
 

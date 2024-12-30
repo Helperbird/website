@@ -23,7 +23,7 @@ featureDescription:
   Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free
   today!
 group: reading
-color: green
+color: orange
 tags:
   - features
   - writing

@@ -12,7 +12,7 @@
       }
     </script>
 
-    <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
+    <link href="https://www.helperbird.com{{ page.url | default: '/' | safe }}" rel="canonical" />
     <meta content="{{ description }}" name="description" />
     <meta content="{{ keywords }}" name="keywords" />
 
@@ -29,11 +29,11 @@
     <meta name="twitter:title" content="{{ title }} - Helperbird" />
     <meta property="twitter:domain" content="helperbird.com" />
 
-    <meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+    <meta property="twitter:url" content="https://www.helperbird.com{{ page.url | default: '/' | safe }}" />
     <meta name="twitter:description" content="{{ description }}" />
 
     <meta name="twitter:image:alt" content="Helperbird promo art with text saying visit Helperbird" />
-    <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+    <meta name="twitter:image" content="https://www.helperbird.com{{ page.url | default: '/' | safe }}index.png" />
 
     <meta content="https://www.youtube.com/watch?v={{youtubeId}}" name="twitter:player" />
 
@@ -41,9 +41,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title }} - Helperbird" />
     <meta property="og:description" content="{{ description }}" />
-    <meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
+    <meta property="og:url" content="https://www.helperbird.com{{ page.url | default: '/' | safe }}" />
     <meta property="og:site_name" content="Helperbird" />
-    <meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+    <meta property="og:image" content="https://www.helperbird.com{{ page.url | default: '/' | safe }}index.png" />
     <meta property="og:video" content="https://www.youtube.com/watch?v={{youtubeId}}" />
 
 
@@ -199,10 +199,45 @@
 
       <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
 
-        <div class="card py-20 bg-base-100">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-4xl text-center">
-            <h1 class="mt-2 font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">
+        <div class="card py-20 bg-base-100 shadow-md">
+          <div class="mx-auto max-w-4xl px-6 lg:px-8 text-center">
+
+          <div class="breadcrumbs max-w-2xl text-lg mx-auto border-b border-gray-200 pb-4 mb-8">
+  <ul class="mx-auto w-fit gap-2">
+    <li>
+      <a href="/" class="text-blue-600 gap-2" aria-current="page" title="Helperbird Home page">
+       
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="currentColor h-6 w-6" fill="currentColor"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="/features/" class="text-blue-600 gap-2" aria-current="page" title="Helperbird Features page">
+      
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="currentColor h-6 w-6" fill="currentColor" ><path d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm0-240q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm0-240q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640ZM480-400q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm40 240v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T863-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
+        Features
+      </a>
+    </li>
+    <li>
+      <span class="inline-flex items-center gap-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="h-4 w-4 stroke-current">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        {{  cardTitle }}
+      </span>
+    </li>
+  </ul>
+</div>
+   
+            <h1 class="mt-2 font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">
               {{
                 featurePageTitle }}
             </h1>
@@ -217,9 +252,9 @@
             </button>
             </div>
   
-          </div>
+    
         
-          <div class="mx-auto mt-16 flow-root max-w-4xl sm:mt-24">
+          <div class="mx-auto mt-16 flow-root max-w-3xl sm:mt-24">
             <div class="-m-2 rounded-xl lg:rounded-2xl">
               <div class="aspect-w-16 aspect-h-9">
                 <iframe
@@ -249,35 +284,19 @@
 
 
 
-        <section class="overflow-hidden rounded-2xl  py-12 ppt-0">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
-
-          <div class="px-6 py-24 sm:py-32 lg:px-8 mb-12">
-            <div class="mx-auto max-w-2xl text-center">
-              <h2 class="text-3xl font-bold text-black sm:text-4xl">{{cardTitle }}</h2>
-              <p class="mt-6 text-2xl  text-black">{{ featureDescription }}</p>
-            </div>
-          </div>
+        <section class="overflow-hidden rounded-2xl  my-12 card bg-white shadow-md"> 
+          <div class="mx-auto max-w-7xl px-8 card-body">
 
 
-            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-              <div class="lg:pr-8 lg:pt-4">
-
-                <div class="lg:max-w-lg text-black">
+  
+           
+             
 
               
                   {{ content | safe }}
 
-                </div>
-              </div>
-              <img
-                src="https://www.helperbird.com/assets/images/fresh-start/writing.png"
-                alt="Screenshot of a Google Docs document titled 'Untitled document'. Within the document, there's partial text stating 'Hello everyone my nam'. Beneath the incomplete sentence, there's a word prediction tool suggesting completions like 'name', 'names', 'named', etc. On the right side, the Helperbird extension is active, displaying several features. There's a bright pink 'Helperbird note' that quotes Chef Gusteau from Ratatouille, saying, 'Your only limit is your soul. What I say is true—anyone can cook ... but only the fearless can be great.' Other visible Helperbird tools include 'Voice typing', 'Sticky note', 'Word Prediction', and 'Highlighter'."
-                class="w-[48rem] max-w-none rounded-xl  sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                width="2432"
-                height="1442"
-              />
-            </div>
+  
+
           </div>
         </section>
 
@@ -286,7 +305,7 @@
 
 
 
-        <section class="rounded-xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <section class="rounded-2xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
           <figure class="mx-auto max-w-2xl">
             <p class="sr-only">5 out of 5 stars</p>
             <div class="flex gap-x-1 text-blue-600 text-{{color}}-600">
@@ -342,25 +361,21 @@
               </svg>
             </div>
             <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">
-              <p>“After using Helperbird I can't say enough positive things about it. This extension has
-                truly transformed my online reading experience. Whether it's adjusting font sizes,
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        reducing eye strain with the gray filter, or using the dyslexia-friendly fonts,
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Helperbird offers a range of features that cater to individual preferences and needs.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        The customizable color options and text alignment have also been incredibly helpful for
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        personalizing my browsing. And the speed reading feature? It's a game-changer! Overall,
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Helperbird is a versatile, user-friendly tool that enhances accessibility and makes
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        online reading a breeze. Highly recommended!”</p>
+              <p>We are so excited about working with this company and helping support our students with this program! Their support is outstanding as well!
+
+              </p>
             </blockquote>
             <figcaption class="mt-10 flex items-center gap-x-6">
              <img
   class="h-12 w-12 rounded-2xl bg-gray-50"
-  src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48"
+  src="https://lh3.googleusercontent.com/a-/ALV-UjUIGu6eAxSsysN7EUFDJabk9TdGL32XCi0VxVtWbMQvAIB6R6fy=s96-w96-h96"
   alt="Charlie Nishelle Calkins, recognized for her contributions to Helperbird"
 >
 
               <div class="text-sm leading-6">
-                <div class="font-semibold">Charlie Nishelle Calkins</div>
-                <div class=" mt-2 text-black">Helperbird Pro user</div>
+                <div class="font-semibold">Jennifer Goodwin
+                  </div>
+                <div class=" mt-2 text-black">AT Teacher</div>
               </div>
             </figcaption>
           </figure>

@@ -21,7 +21,7 @@ featureDescription:
   Easily take and organize notes with Helperbird's In-Browser Document Editor. Create, edit, and
   manage your documents right in your browser. Export to Google Docs, Markdown, and more.
 group: reading
-color: green
+color: orange
 tags:
   - features
   - writing
