@@ -21,7 +21,7 @@ featureDescription:
   Change the text alignment on any website with Helperbird's Text Alignment feature. Make reading
   easier by customizing the text alignment to your preference.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - reading

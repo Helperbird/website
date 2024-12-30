@@ -21,7 +21,7 @@ featureDescription:
   Make reading easier on websites and PDFs with Helperbird's Dyslexia Reading Ruler. It helps people
   with dyslexia by highlighting the text, making it easier to focus and understand.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - reading

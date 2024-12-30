@@ -21,11 +21,10 @@ featureDescription:
   Use Helperbird's Media Filter to hide all images or GIFs on any webpage. Reduce distractions and
   focus better on reading. Easily show them again when you're ready.
 group: reading
-color: orange
+color: green
 tags:
   - features
   - accessibility
-  - reading
 link: reading
 url: features/hide-images/
 ---

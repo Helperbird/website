@@ -12,11 +12,11 @@ keywords:
   Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-featurePageTitle: Easy Translation Support
+featurePageTitle:  Translation Support
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/translate.svg'
 youtubeId: vwT8SAJfU3E
-cardTitle: Easy Translation Support
+cardTitle:  Translation Support
 featureDescription:
   Break language barriers with Helperbird's Translation feature. Select text on any website or PDF,
   right-click, and translate instantly with Google Translate.

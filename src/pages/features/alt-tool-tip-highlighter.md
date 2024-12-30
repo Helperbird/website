@@ -26,7 +26,6 @@ color: green
 tags:
   - features
   - accessibility
-  - reading
 link: reading
 url: features/alt-tool-tip-highlighter/
 ---

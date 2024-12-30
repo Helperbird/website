@@ -24,7 +24,7 @@ featureDescription:
   and across the web. Boost your productivity and type more accurately with our cutting-edge,
   AI-driven autocomplete and suggestions.
 group: reading
-color: green
+color: orange
 tags:
   - features
   - writing

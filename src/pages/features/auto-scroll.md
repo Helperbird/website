@@ -23,7 +23,7 @@ featureDescription:
   Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your
   own pace. Available across Chrome, Firefox, Edge, and Safari.
 group: reading
-color: orange
+color: blue
 tags:
   - features
   - accessibility

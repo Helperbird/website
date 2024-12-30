@@ -23,7 +23,7 @@ featureDescription:
   OpenDyslexic, or choose from 18 other fonts. Great for people with dyslexia or anyone who wants a
   different way to read.
 group: reading
-color: orange
+color: blue
 tags:
   - features
   - reading

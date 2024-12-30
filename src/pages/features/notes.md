@@ -21,7 +21,7 @@ featureDescription:
   Keep track of your notes, highlights, and text easily with Helperbird's Note Organizer. Access
   your notes from any device for a smooth and organized experience.
 group: reading
-color: green
+color: orange
 tags:
   - features
   - writing

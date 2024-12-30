@@ -21,7 +21,7 @@ featureDescription:
   Make reading easier and more enjoyable with Helperbird's Customize Your Paragraphs feature. Add
   colorful borders around paragraphs to break up long sections of text and improve readability.
 group: reading
-color: orange
+color: blue
 tags:
   - features
   - accessibility

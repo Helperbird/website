@@ -21,7 +21,7 @@ featureDescription:
   Easily capture screenshots of entire webpages or specific areas with Helperbird's Screenshot Tool.
   Save your captures directly to your device for quick access and future reference.
 group: reading
-color: blue
+color: orange
 tags:
   - features
   - accessibility

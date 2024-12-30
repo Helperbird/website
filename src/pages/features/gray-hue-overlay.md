@@ -27,7 +27,6 @@ color: green
 tags:
   - features
   - accessibility
-  - reading
 link: reading
 url: features/gray-hue-overlay/
 ---
