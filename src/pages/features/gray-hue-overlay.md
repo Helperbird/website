@@ -23,7 +23,7 @@ featureDescription:
   to any website to lessen glare, making your reading experience more enjoyable and reducing visual
   fatigue.
 group: reading
-color: pink
+color: green
 tags:
   - features
   - accessibility

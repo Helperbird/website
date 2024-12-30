@@ -22,7 +22,7 @@ featureDescription:
   Helperbird on any website or PDF. Gain quick insights into content by hovering over images and
   links.
 group: reading
-color: blue
+color: green
 tags:
   - features
   - accessibility

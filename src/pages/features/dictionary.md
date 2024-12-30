@@ -3,7 +3,7 @@ new: false
 footer: true
 header: true
 layout: templates/features_two.liquid
-title: English Dictionary | Research, Define, and Understand Words
+title: Dictionary | Research, Define, and Understand Words
 description:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
   define, and grasp the meaning of any English word to enrich your reading experience.
@@ -16,7 +16,7 @@ featurePageTitle: English Dictionary
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/dictionary.svg'
 youtubeId: vwT8SAJfU3E
-cardTitle: English Dictionary
+cardTitle: Dictionary
 featureDescription:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
   define, and grasp the meaning of any English word to enrich your reading experience.

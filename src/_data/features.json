@@ -4,42 +4,42 @@
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia support",
-			"description": "Empowering individuals to read with ease, by providing the option to switch between 15+ customizable fonts, including OpenDyslexic, Lexend, on any web page.",
+			"description": "Read with ease by switching between 15+ customizable fonts like OpenDyslexic and Lexend on any web page.",
 			"link": "/features/specialised-dyslexic-fonts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
 			"title": "Text to Speech",
-			"description": "Helperbird reads web pages, ebooks, and PDFs aloud with natural voices and offers 20 voice options.",
+			"description": "Let Helperbird read web pages, ebooks, and PDFs out loud with 20 natural voice options to choose from.",
 			"link": "/features/text-to-speech/"
 		},
 		{
 			"icon": "/src/_includes/svgs/reading-mode.svg",
 			"group": "reading",
 			"title": "Reading Mode",
-			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
+			"description": "Remove ads and distractions from web pages while fully customizing your reading experience.",
 			"link": "/features/reading-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"group": "learning",
 			"title": "PDF support",
-			"description": "Transform your PDF reading experience with Helperbird's accessibility features, including immersive reader support.",
+			"description": "Make reading PDFs easier with features like Immersive Reader and text-to-speech support.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Ruler",
-			"description": "Improve your reading experience with Helperbird's dyslexia ruler, featuring line focus and reading guide support for enhanced focus and understanding.",
+			"description": "Focus better while reading with Helperbird's dyslexia ruler and reading guide.",
 			"link": "/features/ruler/"
 		},
 		{
 			"icon": "/src/_includes/svgs/immersive.svg",
 			"group": "dyslexia",
 			"title": "Immersive Reader",
-			"description": "Experience the power of enhanced reading comprehension with Immersive Reader by Microsoft in Helperbird, available for use on Google Docs and PDFs.",
+			"description": "Boost your reading comprehension using Microsoft's Immersive Reader on Google Docs, PDFs, and more.",
 			"link": "/features/immersive-reader-for-chrome/"
 		}
 	],
@@ -48,204 +48,203 @@
 			"icon": "/src/_includes/svgs/reading-mode.svg",
 			"group": "reading",
 			"title": "Reading Mode",
-			"description": "Helperbirds' Reading Mode improves your browsing experience by removing ads and distractions from web pages, and allowing complete customization.",
+			"description": "Remove distractions and customize your reading experience on any website.",
 			"link": "/features/reading-mode-for-chrome-and-firefox/"
 		},
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Fonts",
-			"description": "Empowering individuals to read with ease, by providing the option to switch between 15+ customizable fonts, including OpenDyslexic, Lexend, on any web page.",
+			"description": "Switch between 15+ fonts, including OpenDyslexic and Lexend, to make reading easier.",
 			"link": "/features/specialised-dyslexic-fonts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
 			"title": "Dyslexia Ruler",
-			"description": "Improve your reading experience with Helperbird's dyslexia ruler, featuring line focus and reading guide support for enhanced focus and understanding.",
+			"description": "Enhance focus with a ruler that helps guide your reading line by line.",
 			"link": "/features/ruler/"
 		},
 		{
 			"icon": "/src/_includes/svgs/highlighter.svg",
 			"group": "research",
 			"title": "Highlighter",
-			"description": "Highlight any paragraph or text on a website. Any colour you want. Super handy for studying and revision. Pdf support is coming next month. ",
+			"description": "Highlight any text on websites in your choice of colors. Great for studying and revision!",
 			"link": "/features/highlight-paragraph/"
 		},
 		{
 			"icon": "/src/_includes/svgs/styles.svg",
 			"group": "reading",
 			"title": "Styles & Themes",
-			"description": "Change background, highlight & font colors to help with focus and improve reading.",
+			"description": "Change background, highlight, and font colors to improve focus and reading comfort.",
 			"link": "/features/styles/"
 		},
 		{
 			"icon": "/src/_includes/svgs/overlay.svg",
 			"group": "dyslexia",
 			"title": "Overlays",
-			"description": "A colour overlay is available to help those with Irlen Syndrome or those who dislike a web page's base colour but don't want to change it entirely.",
+			"description": "Add a color overlay to help with Irlen Syndrome or to reduce visual strain.",
 			"link": "/features/overlay/"
 		},
 		{
 			"icon": "/src/_includes/svgs/blindness.svg",
 			"group": "other",
 			"title": "Color blindness",
-			"description": "Color blindness features including Emphasize Links and stroke text",
+			"description": "Features like Emphasize Links and text strokes make content more visible for those with color blindness.",
 			"link": "/features/color-blindness/"
 		},
 		{
 			"icon": "/src/_includes/svgs/dictionary.svg",
 			"group": "research",
 			"title": "Dictionary",
-			"description": "Quickly look up word definitions with audio pronunciation as you browse the web, including synonyms, Etymology and related words.",
+			"description": "Look up word definitions with audio pronunciation, synonyms, etymology, and related words.",
 			"link": "/features/dictionary/"
 		},
 		{
 			"icon": "/src/_includes/svgs/privacy.svg",
 			"group": "other",
 			"title": "Privacy",
-			"description": "We never sell, store, or consume any user data. We do not store data or any other user-related content.",
+			"description": "We don’t store, sell, or consume any of your data—your privacy is always protected.",
 			"link": "/features/privacy/"
 		},
 		{
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
 			"title": "Text to Speech",
-			"description": "Turn text into lifelike natural speech. Helperbird can read aloud the content of any web pages, ebooks and PDFs with natural sounding voices.",
+			"description": "Turn text into natural-sounding speech on any web page, ebook, or PDF.",
 			"link": "/features/text-to-speech/"
 		},
 		{
 			"icon": "/src/_includes/svgs/voice-typing.svg",
 			"group": "dyslexia",
 			"title": "Voice typing",
-			"description": "Type text using your voice. Speak using your voice, and it will be typed into a notepad where you can edit it.",
+			"description": "Speak and watch your words appear in a notepad where you can edit them easily.",
 			"link": "/features/speech-to-text/"
 		},
 		{
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
 			"title": "Notes",
-			"description": "Save and manage snippets of text, images, websites and videos using the notes feature.",
+			"description": "Save and organize text, images, websites, and videos with the Notes feature.",
 			"link": "/features/notes/"
 		},
-
 		{
 			"icon": "/src/_includes/svgs/translate.svg",
 			"group": "learning",
 			"title": "Translate any page",
-			"description": "Translate any website or any snippet of text with Helperbird. Over 100 languages, all with one click.",
+			"description": "Translate websites or snippets of text into over 100 languages with a single click.",
 			"link": "/features/google-translate/"
 		},
 		{
 			"icon": "/src/_includes/svgs/screenshot.svg",
-			"group": "reseach",
+			"group": "research",
 			"title": "Screenshot",
-			"description": "Take screenshots in your browser the easy way. Screenshot any page your viewing. All in one click.",
+			"description": "Take quick screenshots of any page you’re viewing, all in one click.",
 			"link": "/features/screenshot/"
 		},
 		{
 			"icon": "/src/_includes/svgs/magnifier.svg",
 			"group": "reading",
 			"title": "Page & text magnifier",
-			"description": "Page & text magnifier allows you to manage zoom options more precisely.",
+			"description": "Easily manage zoom options for pages and text to suit your needs.",
 			"link": "/features/zoom/"
 		},
 		{
 			"icon": "/src/_includes/svgs/cursor.svg",
 			"group": "other",
 			"title": "Cursor control",
-			"description": "Make your mouse pointer more visible. Customize mouse cursor with sizes.",
+			"description": "Customize your mouse pointer’s size and style for better visibility.",
 			"link": "/features/high-contrast/"
 		},
 		{
 			"icon": "/src/_includes/svgs/immersive.svg",
 			"group": "dyslexia",
 			"title": "Immersive Reader",
-			"description": "Select text, right-click, and Microsoft's Immersive Reader will help you read it. Including Google docs, PDFs & ebooks.",
+			"description": "Select text, right-click, and use Microsoft’s Immersive Reader for easy reading on any page.",
 			"link": "/features/immersive-reader-for-chrome/"
 		},
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "reading",
 			"title": "Adjust letters and words",
-			"description": "Adjust letter and word spacing, font size and line-height according to your needs.",
+			"description": "Customize letter spacing, word spacing, font size, and line height to fit your preferences.",
 			"link": "/features/adjust-letters-and-words/"
 		},
 		{
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
 			"title": "Full document editor",
-			"description": "Create, edit and delete documents in a full editor. Export and import to Google docs, Markdown and more.",
+			"description": "Create and edit documents, then export or import them to Google Docs, Markdown, and more.",
 			"link": "/features/notes/"
 		},
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"group": "research",
 			"title": "PDF support",
-			"description": "Use immersive reader, text to speech and more on PDF files.",
+			"description": "Use features like Immersive Reader and text-to-speech to make PDFs more accessible.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/docs.svg",
 			"group": "learning",
-			"title": "Google docs support",
-			"description": "Change fonts, immersive reader, text to speech and more on any Google docs file.",
+			"title": "Google Docs support",
+			"description": "Enhance your Google Docs experience with font customization, text-to-speech, and Immersive Reader.",
 			"link": "/products/google-addon/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ocr.svg",
 			"group": "research",
-			"title": "Extract text from images. (OCR)",
-			"description": "A powerful optical character recognition (OCR) extension to capture and convert images, videos, PDFs  to text.",
+			"title": "Extract text from images (OCR)",
+			"description": "Quickly convert images, videos, and PDFs into editable text with optical character recognition.",
 			"link": "/features/optical-character-recognition/"
 		},
 		{
 			"icon": "/src/_includes/svgs/time.svg",
 			"group": "research",
-			"title": " Read it later",
-			"description": "Helperbirds Bookmark Manager that helps with Organization, Syncing across browsers and platforms.",
+			"title": "Read it later",
+			"description": "Use Helperbird’s Bookmark Manager to organize and sync across browsers and devices.",
 			"link": "/features/bookmarks/"
 		},
 		{
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
 			"title": "Annotate web pages",
-			"description": "Highlight or annotate web pages documents, PDFs, ebooks and more content to improve engagement and study.",
+			"description": "Highlight and annotate web pages, documents, PDFs, and ebooks to make studying easier.",
 			"link": "/features/annotation/"
 		},
 		{
 			"icon": "/src/_includes/svgs/graph.svg",
 			"group": "research",
-			"title": " Analyze",
-			"description": "Quickly find the number of characters, letters and breakdowns of all sentences on a webpage.",
+			"title": "Analyze",
+			"description": "Quickly see the number of characters, words, and sentence breakdowns on a webpage.",
 			"link": "/features/analyze/"
 		},
 		{
 			"icon": "/src/_includes/svgs/reading.svg",
 			"group": "dyslexia",
 			"title": "Reading guide",
-			"description": "Reading ruler, useful when you are reading long texts on the web.",
+			"description": "Use a reading ruler for long texts to help guide your focus and stay on track.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/reading.svg",
 			"group": "reading",
 			"title": "Line Focus",
-			"description": "Quickly find the number of characters, letters and breakdowns of all sentences on a webpage.",
+			"description": "Focus on one line at a time while reading to improve concentration and clarity.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/shortcuts.svg",
 			"group": "other",
-			"title": " Shortcuts",
-			"description": "Access Helperbird features with keyboard shortcuts.",
+			"title": "Shortcuts",
+			"description": "Quickly access Helperbird features with customizable keyboard shortcuts.",
 			"link": "/features/shortcuts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/summarize.svg",
 			"group": "reading",
 			"title": "Summarize",
-			"description": "Helperbird automatically summarizes the web page into bullet points.",
+			"description": "Get automatic summaries of web pages in easy-to-read bullet points.",
 			"link": "/features/summarize/"
 		}
 	]

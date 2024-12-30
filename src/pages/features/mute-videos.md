@@ -21,7 +21,7 @@ featureDescription:
   Stop annoying auto-playing videos and control playback speeds with Helperbird. Enjoy a quieter,
   more focused browsing experience on Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
-color: pink
+color: blue
 tags:
   - features
   - accessibility

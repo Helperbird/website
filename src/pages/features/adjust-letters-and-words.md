@@ -23,7 +23,7 @@ featureDescription:
 link: reading
 url: features/adjust-letters-and-words/
 group: reading
-color: green
+color: blue
 tags:
   - features
   - reading

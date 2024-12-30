@@ -22,7 +22,7 @@ featureDescription:
   better readability on any website.
 featurePageTitle: Color Blindness Support
 group: reading
-color: pink
+color: blue
 tags:
   - features
   - accessibility
