@@ -1,6 +1,66 @@
 {
 	"new": [
 		{
+			"version": "2024.12.30",
+			"date": "2024 12 30",
+			"changes": [
+			  {
+				"title": "Organize Your Notes Like Never Before",
+				"description": "We've introduced a new Notes section where you can seamlessly switch between Extracted Sections, Highlights, Notes, and Categories. It's all about keeping everything neat and easy to find."
+			  },
+			  {
+				"title": "Sticky Notes Got a Makeover",
+				"description": "Sticky notes are now taller, wider, and more customizable. Pick new colors easily from the bottom of the note, and enjoy their fresh look!"
+			  },
+			  {
+				"title": "A Smarter Reading List",
+				"description": "Finding what you need in the Reading List just got easier, thanks to a brand-new design that focuses on better search and organization."
+			  },
+			  {
+				"title": "Fixed: Enter Key Bug",
+				"description": "The Enter key will now behave properly on buttons, so no more accidental double clicks!"
+			  },
+			  {
+				"title": "Smoother Fonts Everywhere",
+				"description": "We've added a CSS font swap for a cleaner, more polished experience across the board."
+			  },
+			  {
+				"title": "Better Modals on iOS",
+				"description": "iOS modals now have a minimum height to make sure they display perfectly, every time."
+			  },
+			  {
+				"title": "Modals Redesigned",
+				"description": "Our modals have a fresh look, plus a new accessible Close button so everyone can use them effortlessly."
+			  },
+			  {
+				"title": "Voice Typing Goes Next Level",
+				"description": "Voice typing now lets you print spoken text directly—super handy for getting your thoughts on paper quickly!"
+			  },
+			  {
+				"title": "Helperbird Editor: Export to Word",
+				"description": "You can now export your work from the Helperbird Editor directly to Microsoft Word formats."
+			  },
+			  {
+				"title": "PDF Reader Updates",
+				"description": "The summarize feature is now presented in a sleek modal. Plus, there’s a new Reading Mode for PDFs that lets you fully customize the text for a better reading experience."
+			  },
+			  {
+				"title": "New Highlight Color: Red",
+				"description": "We’ve added a bold new highlight color to the menu—perfect for grabbing attention."
+			  },
+			  {
+				"title": "Accessibility Improvements for Highlighters",
+				"description": "Our highlighter colors have been tweaked to ensure they’re accessible to everyone."
+			  },
+			  {
+				"title": "Reading Mode Upgraded",
+				"description": "Reading Mode has been fine-tuned to handle text even better, so you can enjoy a smoother reading experience."
+			  }
+			],
+			"upcoming": [],
+			"note": "Thanks for being a part of the Helperbird community! Your feedback inspires every improvement we make, and we’re excited to keep delivering features that help you."
+		  },		  
+		{
 			"version": "2024.12.20",
 			"date": "2024 12 20",
 			"changes": [
