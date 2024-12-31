@@ -31,49 +31,73 @@ link: reading
 url: features/analyze/
 ---
 
-## Tell Me About This Feature
 
-Helperbird's Advanced Text Statistics feature lets you easily analyze text on any website or PDF.
-With just two clicks, you can get detailed information about the text you're reading or writing.
-This feature provides a comprehensive analysis, including the unique word count, shortest words,
-estimated reading time, and more. Whether you're a writer, editor, or just curious about your
-reading material, this tool can help you understand and optimize your text.
 
-## Benefits
 
-Using Helperbird's Text Statistics feature can help you in several ways:
+## What Is This Feature?
 
-### Optimize Your Writing
+Helperbird's Advanced Text Statistics makes it easy to analyze text on any website or PDF. With just a couple of clicks, you can uncover detailed insights about the text you’re reading or writing. From unique word counts and the shortest words to estimated reading time and more, this tool provides everything you need to better understand and optimize your content.
 
-Get precise metrics to optimize your writing for specific platforms or requirements, such as social
-media posts, email subject lines, or SMS messages that have character limits.
+Whether you’re a writer, editor, student, or just someone curious about the details of your text, this feature is a powerful way to make your work more effective and engaging.
 
-### Track Your Progress
 
-Monitor your writing progress by keeping track of word and character counts, ensuring you meet your
-desired goals.
 
-### Improve Clarity
+---
 
-Identify and eliminate unnecessary words or phrases to make your writing more concise and clear.
 
-### Enhance Understanding
 
-Gain insights into your reading material, such as the estimated reading time, to better manage your
-time and comprehension.
+## Benefits of This Feature
 
-Overall, Helperbird's Text Statistics feature is a valuable tool for anyone looking to improve the
-quality and effectiveness of their writing.
+Helperbird’s Text Statistics isn’t just for numbers—it’s about giving you the tools to make your writing clearer, smarter, and more efficient. Here’s how it can help:
+
+**Optimize Your Writing**: Easily tailor your text to fit specific platforms like social media posts, email subject lines, or any space where character limits matter.
+
+**Track Your Progress**: Keep an eye on word and character counts to ensure you’re hitting your goals, whether for a project, an essay, or creative writing.
+
+**Improve Clarity**: Spot and remove unnecessary words or phrases, making your writing concise and easy to understand.
+
+Whether you’re writing or analyzing, this feature helps you make the most of your text.
+
+---
 
 ## Features
 
+Here’s what you can do with Advanced Text Statistics:
+
 - Instantly find the number of characters in the selected text.
-- Quickly count the number of words in the selected text.
+- Quickly count the total words.
 - Get unique word counts and identify the shortest words.
-- See the estimated reading time for the selected text.
-- More features coming soon.
+- See the estimated reading time for any text.
 
-## Is This a Free Helperbird Feature?
+Stay tuned—more features are coming soon!
 
-This is a premium feature. You can try it for free for 3 days. After that, you can choose to
-continue using it for [$6.99/month or $49.99/year](/pricing/).
+---
+
+## Who Is It For?
+
+This feature is perfect for:
+
+**Writers and Editors**: Gain insights to refine and polish your content.
+
+**Students**: Analyze essays, reports, or study materials to ensure clarity and meet word count requirements.
+
+**Professionals**: Quickly assess emails, presentations, or reports to stay on point and concise.
+
+**Curious Readers**: Get a deeper understanding of the text you’re exploring.
+
+If you work with text, this feature is your go-to tool for improving quality and efficiency.
+
+---
+
+## Real-Life Examples
+
+
+Here’s how people use Helperbird’s Text Statistics in their day-to-day tasks:
+
+**A writer crafting a blog post**: Track word and character counts to meet platform-specific guidelines and stay concise.
+
+**A student writing an essay**: Analyze word usage and identify areas where text can be trimmed or improved for better clarity.
+
+**A professional creating a presentation**: Ensure slide text stays within character limits while remaining impactful.
+
+**Anyone reading an article**: Estimate how long it will take to read a piece, helping manage your time effectively.
