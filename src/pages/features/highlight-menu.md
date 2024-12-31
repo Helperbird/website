@@ -36,43 +36,57 @@ link: reading
 url: features/highlight-menu/
 ---
 
-## About This Feature
+## What Is This Feature?
 
-Helperbird's Highlight Menu is a versatile tool that appears when you highlight text. It gives you
-instant access to features like text-to-speech, dictionary, web search, immersive reader,
-highlighter, and translation.
+Helperbird's Highlight Menu is a versatile tool that appears whenever you highlight text. It provides instant access to features like text-to-speech, dictionary, web search, immersive reader, highlighter, and translation, all in one convenient menu.
 
-Designed for students, researchers, and anyone who reads a lot online, the Highlight Menu makes text
-tasks easier.
+This tool is perfect for students, researchers, and anyone who spends a lot of time reading online. It streamlines common text-related tasks, saving you time and effort.
 
-## Benefits
+---
 
-### Easy Access to Features
+## What Are the Benefits?
 
-Get quick access to many features in one menu.
 
-### Better Understanding
+**Easy Access to Features:** Quickly access tools like text-to-speech, dictionary, and translation from one menu.  
 
-Use text-to-speech, dictionary, and immersive reader to improve comprehension.
+**Improve Understanding:** Use tools like the dictionary, text-to-speech, and immersive reader to comprehend text more effectively.  
 
-### Save Time
+**Save Time:** Perform tasks like web searches and translations without leaving the page.  
 
-Quickly search the web and translate text without leaving the page.
+**Simplify Note-Taking:** Highlight and save important text for easy reference later.  
 
-### Simplify Note-Taking
+---
 
-Highlight and save important text easily.
+## Who Is It For?
+
+
+**Students:** Ideal for researching, studying, and annotating text.  
+
+**Professionals:** Streamline tasks like reading and translating documents.  
+
+**Researchers:** Access quick tools for deeper analysis of online content.  
+
+**Everyday Browsers:** Convenient for anyone looking to save, search, or understand text better.
+
+---
 
 ## Features
 
-- **Play/Stop:** Listen to highlighted text with text-to-speech.
-- **Dictionary:** Look up definitions of highlighted words.
-- **Search:** Quickly search the web for more information.
-- **Immersive Reader:** Focus on the text without distractions.
-- **Highlight:** Highlight text in different colors for better retention.
-- **Translate:** Translate highlighted text into different languages.
+
+**Play/Stop:** Listen to highlighted text using text-to-speech.  
+
+**Dictionary:** Look up definitions for highlighted words.  
+
+**Search:** Perform a quick web search for more information.  
+
+**Immersive Reader:** Read highlighted text without distractions.  
+
+**Highlight:** Save and organize text in different colors.  
+
+**Translate:** Translate highlighted text into multiple languages.  
+
+---
 
 ## Is This a Free Feature?
 
-Yes and no. Basic features like highlighting and web search are free. To use all features, including
-text-to-speech and immersive reader, you need to upgrade to the premium version.
+Yes and no. Basic features like highlighting and web search are free. For access to advanced tools like text-to-speech and immersive reader, you’ll need to upgrade to the premium version.

@@ -30,40 +30,50 @@ link: reading
 url: features/immersive-reader-for-chrome/
 ---
 
-## About This Feature
 
-Helperbird brings Microsoft's Immersive Reader to any website or PDF. This tool makes reading easier
-by removing distractions and allowing text customization and audio playback.
+
+## What Is This Feature?
+
+Helperbird brings Microsoft's Immersive Reader to any website or PDF, making reading easier and more accessible. This tool removes distractions and lets you customize text or listen to it read aloud, helping you focus and improve comprehension.
+
+---
+
+## What Are the Benefits of This Feature?
+
+
+**Improve Reading Comfort:** Customize text size, font, and layout to make reading easier on your eyes.  
+
+**Enhance Understanding:** Listen to text read aloud to improve comprehension and retention.  
+
+**Learn Grammar:** Use color-coded grammar tools to identify nouns, verbs, adjectives, and other parts of speech.  
+
+**Reduce Eye Strain:** Adjust text and background colors to reduce glare and make reading more comfortable.  
+
+**Focus Better:** Remove distractions from web pages so you can concentrate on the text.
+
+---
+
+## Who Is It For?
+
+
+**Students:** Improve focus and comprehension while studying or reading assignments.  
+
+**Professionals:** Read long documents or reports more comfortably and effectively.  
+
+**Language Learners:** Listen to text read aloud and learn grammar with visual aids.  
+
+**Anyone Who Wants a Better Reading Experience:** Customize text and reduce distractions for easier reading.  
+
+---
 
 ## Features
 
-- **Text Customization:** Change text size, font, and layout for a comfortable reading experience.
-- **Audio Playback:** Listen to text read aloud to improve understanding.
-- **Grammar Tools:** See nouns, verbs, adjectives, and other parts of speech with color-coding.
-- **Text Preferences:** Change text colors, background colors, and spacing to reduce eye strain.
 
-## Benefits
+**Text Customization:** Adjust text size, font, and layout for a personalized reading experience.  
 
-### Improve Reading Comfort
+**Audio Playback:** Listen to text read aloud to improve understanding.  
 
-Customize text to make reading easier on your eyes.
+**Grammar Tools:** Highlight parts of speech, such as nouns, verbs, and adjectives, with color-coding.  
 
-### Enhance Understanding
+**Text Preferences:** Change text and background colors, as well as spacing, to reduce eye strain.  
 
-Listen to text read aloud to help with comprehension.
-
-### Learn Grammar
-
-Use color-coded grammar tools to better understand sentence structure.
-
-### Reduce Eye Strain
-
-Change text and background colors to reduce glare and make reading more comfortable.
-
-### Focus Better
-
-Remove distractions from web pages to focus on the text.
-
-## Is This a Free Helperbird Feature?
-
-This is a premium feature. You can try it for free for 7 days.

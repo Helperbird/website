@@ -29,44 +29,50 @@ link: reading
 url: features/hide-images/
 ---
 
-## About This Feature
+## What Is This Feature?
 
-Helperbird's Media Filter feature lets you hide all images, GIFs, or flashing images on webpages for
-a distraction-free browsing experience. Reduce distractions and increase focus, making it easier to
-read and understand webpage content. It can also block unwanted images like advertisements.
+Helperbird's Image Blocker feature allows you to hide all images, GIFs, or flashing content on any webpage. This creates a distraction-free browsing experience, helping you focus on the text and important information. It’s also great for blocking unwanted images, like advertisements, or reducing visual clutter.
 
-## Benefits
+---
 
-### Hide All Images
+## What Are the Benefits of This Feature?
 
-Easily hide all images, GIFs, or flashing images on webpages for a distraction-free experience.
 
-### Increase Focus
+**Hide All Images:** Instantly remove all images, GIFs, or flashing content for a cleaner view.  
 
-Reduce distractions and improve focus, making it easier to read and understand webpage content.
+**Increase Focus:** Eliminate distractions and make it easier to read and understand webpage content.  
 
-### Block Unwanted Images
+**Block Unwanted Images:** Avoid advertisements or other visuals that interrupt your browsing experience.  
 
-Block unwanted images, such as advertisements, to enhance your browsing experience.
+**Save Data:** Reduce data usage by blocking images you don’t need to load.  
 
-### Reduce Data Usage
+**Improve User Experience:** Simplify webpages by reducing visual clutter, making content clearer.  
 
-Save data and bandwidth by blocking images that you don't need.
+**Support for Seizure Disorders:** Helps reduce the risk of discomfort or seizures for people sensitive to flashing images.  
 
-### Improve User Experience
+---
 
-Reduce visual clutter on webpages, making it easier to read and understand content.
+## Who Is It For?
 
-### Help People with Seizure Disorders
 
-Reduce the chance of seizures or discomfort for people sensitive to flashing images.
+**Students and Researchers:** Focus on text-heavy materials without distractions.  
+
+**Professionals:** Create a distraction-free browsing environment for work tasks.  
+
+**People with Seizure Disorders:** Safely browse without worrying about flashing content.  
+
+**Casual Browsers:** Block unnecessary images or ads to make reading more enjoyable.  
+
+---
 
 ## Features
 
-- Hide all images
-- Hide all GIFs
-- Hide all flashing images
+- Hide all images.  
+- Hide all GIFs.  
+- Hide all flashing images.  
+
+---
 
 ## Is This a Free Helperbird Feature?
 
-Yes, this is a free feature.
+Yes, this feature is free for all Helperbird users.

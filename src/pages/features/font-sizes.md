@@ -29,34 +29,48 @@ link: reading
 url: features/font-sizes/
 ---
 
-## About This Feature
 
-Helperbird's Font Size feature lets you easily increase or decrease the font size on any website.
-This makes it simple to customize your reading experience. It's perfect for people who find small
-text hard to read, have visual difficulties, or just prefer larger text.
+## What Is This Feature?
 
-## Benefits
+Helperbird's Font Size feature allows you to easily increase or decrease the font size on any website. It’s a simple way to customize your reading experience, making text more comfortable to read. 
 
-### Customize Your Reading Experience
+This feature is ideal for people who find small text hard to read, have visual impairments, or simply prefer larger text for easier browsing.
 
-Easily change the font size on any website to suit your reading comfort.
+---
 
-### Improve Accessibility
+## What Are the Benefits of This Feature?
 
-Ideal for users who have trouble reading small text or have visual impairments.
 
-### Save Time
+**Customize Your Reading Experience:** Adjust font sizes on any website to suit your comfort level.  
 
-No need to zoom in or out on your browser, saving you time and making reading more efficient.
+**Improve Accessibility:** Perfect for users with visual impairments or difficulty reading small text.  
 
-### Reduce Eye Strain
+**Save Time:** No need to zoom in or out—make adjustments quickly and efficiently.  
 
-Larger text can help reduce eye strain and make reading more comfortable.
+**Reduce Eye Strain:** Larger text helps minimize eye strain, making reading more comfortable.  
+
+---
+
+## Who Is It For?
+
+
+**People with Visual Impairments:** Makes reading easier for those who struggle with small text.  
+
+**Students and Researchers:** Adjust font sizes for better focus and a more comfortable reading experience.  
+
+**Casual Readers:** Customize text to your liking for everyday browsing.  
+
+**Anyone Who Prefers Larger Text:** A quick and simple way to make websites easier to read.
+
+---
 
 ## Features
 
-- Change header font sizes.
-- Change paragraph font sizes.
+Change header font sizes.  
+
+Change paragraph font sizes.  
+
+---
 
 ## Is This a Free Helperbird Feature?
 

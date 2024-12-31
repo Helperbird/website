@@ -31,35 +31,40 @@ link: reading
 url: features/gray-hue-overlay/
 ---
 
-## About This Feature
 
-Helperbird's Grayscale feature lets you add a gray overlay to any website, reducing glare and eye
-strain. This is perfect for people who experience eye fatigue, headaches, or light sensitivity from
-bright screens.
+## What Is This Feature?
 
-## Benefits
+Helperbird's Grayscale feature allows you to apply a gray overlay to any website, reducing glare and eye strain. It’s ideal for people who experience headaches, eye fatigue, or light sensitivity from bright screens, making browsing more comfortable and accessible.
 
-### Reduce Eye Strain
+---
 
-Adding a gray overlay helps reduce eye fatigue, headaches, and migraines caused by bright screens.
+## What Are the Benefits of This Feature?
 
-### Improve Comfort
+- **Reduce Eye Strain:** Helps alleviate eye fatigue, headaches, and migraines caused by bright screens.  
+- **Improve Comfort:** Makes it easier for individuals with light sensitivity to use their devices.  
+- **Lower Blue Light Exposure:** Reduces blue light emissions, which can improve sleep quality and help with insomnia.  
 
-Make it easier for people with light sensitivity to use their devices.
+---
 
-### Reduce Blue Light
+## Who Is It For?
 
-Lower the amount of blue light emitted by screens, which can improve sleep quality and reduce
-insomnia.
+- **People with Light Sensitivity:** Perfect for reducing the discomfort caused by bright screens.  
+- **Nighttime Users:** Great for browsing in low-light conditions without straining your eyes.  
+- **Anyone Who Experiences Eye Fatigue:** Helps minimize the impact of long hours spent on screens.  
+- **Professionals and Students:** Provides a more comfortable viewing experience during work or study sessions.
 
-## Features
+---
 
-- Grayscale theme
-- Inverted Grayscale theme
-- Yellow on Black theme
-- Inverted Color theme
-- Increased Contrast theme
+## Themes
 
-## Is This a Free Helperbird Feature?
+- Grayscale theme.  
+- Inverted Grayscale theme.  
+- Yellow on Black theme.  
+- Inverted Color theme.  
+- Increased Contrast theme.  
 
-No, this is a premium feature.
+---
+
+## Is This a Premium Feature?
+
+No, this is a premium feature available with Helperbird Pro.

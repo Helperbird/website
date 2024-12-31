@@ -30,59 +30,53 @@ link: reading
 url: features/overlay/
 ---
 
-## About This Feature
 
-Helperbird's Overlay feature lets you customize how any website looks. Adjust brightness, contrast,
-and color to make reading easier and reduce eye strain. Perfect for people with visual impairments
-or for reading at night.
 
-## Benefits
+## What Is This Feature?
 
-### Reduce Glare
+Helperbird's Overlay feature allows you to customize how any website looks by adding a tint or overlay. You can adjust brightness, contrast, and color to make reading easier and reduce eye strain. This feature is especially beneficial for people with visual impairments, light sensitivity, or Scotopic Sensitivity Syndrome (Irlen Syndrome), as it helps reduce distortions and makes text clearer. 
 
-Improve text readability by reducing glare and bright light.
+Bright web pages can often cause discomfort, but Helperbird lets you change the overlay color and opacity for a more comfortable and accessible reading experience.
 
-### Help with Visual Impairments
+---
 
-Assist users with light sensitivity or color blindness.
+## What Are the Benefits of This Feature?
 
-### Decrease Eye Strain
 
-Lower eye strain and fatigue while reading.
+**Reduce Glare:** Make text more readable by reducing bright light and glare.  
 
-### Customize Appearance
+**Assist with Visual Impairments:** Helps users with light sensitivity, color blindness, or visual distortions like Irlen Syndrome.  
 
-Change the look of a website to fit your preferences.
+**Decrease Eye Strain:** Minimize eye fatigue during extended reading sessions.  
 
-### Improve Focus
+**Customize Appearance:** Change the look of websites to suit your preferences.  
 
-Enhance concentration on the text.
+**Improve Focus:** Adjust overlays to concentrate better on the text.  
 
-### Night Mode
+**Night Mode:** Darken websites for more comfortable nighttime reading.  
 
-Darken a website for comfortable nighttime reading.
+**Change Color Scheme:** Alter website colors to create a personalized browsing experience.  
 
-### Change Color Scheme
+---
 
-Alter the color scheme of a website to match your taste.
+## Who Is It For?
+
+
+**Users with Visual Impairments:** Ideal for reducing glare or adjusting colors for clearer text.  
+
+**Nighttime Browsers:** Great for reading in low light or before bed.  
+
+**Students and Researchers:** Enhance focus and readability during long study sessions.  
+
+**Everyday Browsers:** Anyone who wants a more comfortable and customized web experience.
+
+---
 
 ## Features
 
-- Apply an overlay to any website you visit
-- Choose from 24 default colors or create a custom color
-- Adjust the opacity of the overlay or tint
-- Available on Chrome, Edge, Firefox, iPad, and iPhone
+- Apply an overlay to any website you visit.  
+- Choose from 24 default colors or create a custom color.  
+- Adjust the opacity of the overlay or tint.  
+- Available on Chrome, Edge, Firefox, iPad, and iPhone.  
 
-## Is This a Pro Feature?
-
-Yes, this is a Pro feature. You can try Helperbird Pro for free by clicking the button below.
-
-## More About This Feature
-
-Helperbird's Overlay feature adds a tint to your browser to make text more readable. You can fully
-customize the color and opacity. This feature helps people with visual distortions, such as Scotopic
-Sensitivity Syndrome, by making text clearer and reducing perceptual errors.
-
-Bright web pages can be hard to read and focus on. With Helperbird’s Overlay feature, users with
-Irlen Syndrome or those who prefer less bright screens can change the overlay color of a web page
-for a better reading experience.
+---

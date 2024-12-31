@@ -29,49 +29,48 @@ link: reading
 url: features/editor/
 ---
 
-## About This Feature
 
-Helperbird's Document Editor lets you easily take and organize notes while browsing the web. Create,
-edit, and organize text files right in your browser. Export your notes to Google Docs, Markdown, and
-other formats for easy sharing and access from anywhere.
 
-## Benefits
+## What Is This Feature?
 
-Using Helperbird's Document Editor offers several benefits:
+Helperbird's Document Editor lets you take, edit, and organize notes directly in your browser. Export your notes to Google Docs, Microsoft Word, Markdown, or Text formats for easy sharing and access.
 
-### Easy Note-Taking
+---
 
-Quickly jot down important information, ideas, or thoughts while browsing the web.
+## What Are the Benefits?
 
-### Organize Your Notes
 
-Keep your notes organized and easily accessible in one place.
+**Quick Note-Taking:** Write down ideas or important details without leaving your browser.  
 
-### Export and Share
+**Stay Organized:** Keep all your notes in one place for easy access and management.  
 
-Easily export your notes to Google Docs, Microsoft Word, Markdown, and other formats. Share and
-collaborate with others effortlessly.
+**Easy Export:** Save notes to Google Docs, Word, Markdown, or Text formats for sharing or backups.  
 
-### Save Time
+**Save Time:** No need to switch between apps or tools—everything is in one place.
 
-No need to switch to a separate note-taking app or website, saving you time and increasing
-efficiency.
+---
 
-### Enhance Productivity
+## Who Is It For?
 
-Stay organized and focused by keeping all your notes in one central location. Perfect for students,
-researchers, and professionals.
 
-### Improve Your Writing
+**Students:** Take notes for classes or study sessions.  
 
-Jot down ideas, thoughts, and inspiration, making the writing process more efficient and effective.
+**Professionals:** Manage meeting notes or task lists efficiently.  
+
+**Researchers:** Keep track of references and findings.  
+
+**Writers:** Capture drafts and ideas as they come.
+
+---
 
 ## Features
 
-- Create, edit, and delete documents.
-- Export to Google Docs, Microsoft Word, Markdown, and Text files.
+- Create, edit, and delete notes directly in your browser.  
+- Export to Google Docs, Microsoft Word, Markdown, or Text formats.  
 - Full-featured editor for all your note-taking needs.
+
+---
 
 ## Is This a Premium Feature?
 
-Yes, this is a premium feature. You can get it by upgrading to a premium plan.
+Yes, this feature is available with Helperbird Pro.

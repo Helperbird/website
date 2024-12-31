@@ -29,105 +29,114 @@ link: reading
 url: features/google-translate/
 ---
 
-## About This Feature
 
-Helperbird's Translation feature lets you easily translate words, websites, and PDFs into any
-language. Simply select the text, right-click, and choose Helperbird's Google Translate option. It's
-powered by Google Translate, ensuring accurate and reliable translations.
+## What Is This Feature?
 
-## Benefits
+Helperbird's Translation feature lets you translate words, websites, and PDFs into any language effortlessly. Simply select the text, right-click, and choose Helperbird's Google Translate option. Powered by Google Translate, it ensures accurate and reliable translations, making it easy to understand content in any language.
 
-### Easy Translation
+---
 
-Quickly translate words, websites, and PDFs into any language.
+## What Are the Benefits of This Feature?
 
-### Accurate Translations
 
-Powered by Google Translate for reliable and precise translations.
+**Easy Translation:** Translate words, websites, and PDFs into any language in just a few clicks.  
 
-### Save Time
+**Accurate Translations:** Powered by Google Translate for trusted and precise results.  
 
-No need to switch to a separate translation app or website, saving you time and increasing
-efficiency.
+**Save Time:** No need to switch between apps or websites—translate directly as you browse.  
 
-### Learn New Languages
+**Learn New Languages:** Explore new languages and cultures while improving your understanding.  
 
-Great for learning new languages and understanding different cultures.
+**Communicate Better:** Break language barriers and connect with people around the world.
 
-### Communicate Better
+---
 
-Improve your communication with people who speak different languages.
+## Who Is It For?
+
+
+**Students and Researchers:** Translate academic materials, articles, or references with ease.  
+
+**Professionals:** Communicate and collaborate with clients or colleagues in different languages.  
+
+**Travelers:** Navigate websites or documents in a foreign language effortlessly.  
+
+**Language Enthusiasts:** Perfect for learning new languages and expanding vocabulary.  
+
+**Everyday Browsers:** Translate any website or PDF while browsing the web.
+
+---
 
 ## Supported Languages
 
 Helperbird supports a wide range of languages, including:
 
-- 🇿🇦 Afrikaans
-- 🇦🇱 Albanian
-- 🇸🇦 Arabic
-- 🇦🇿 Azerbaijani
-- 🏴 Basque
-- 🇧🇩 Bengali
-- 🇧🇾 Belarusian
-- 🇧🇬 Bulgarian
-- 🏴 Catalan
-- 🇨🇳 Chinese Simplified
-- 🇨🇳 Chinese Traditional
-- 🇭🇷 Croatian
-- 🇨🇿 Czech
-- 🇩🇰 Danish
-- 🇳🇱 Dutch
-- 🇬🇧 English
-- 🏴 Esperanto
-- 🇪🇪 Estonian
-- 🇵🇭 Filipino
-- 🇫🇮 Finnish
-- 🇫🇷 French
-- 🇪🇸 Galician
-- 🇬🇪 Georgian
-- 🇩🇪 German
-- 🇬🇷 Greek
-- 🇮🇳 Gujarati
-- 🇭🇹 Haitian Creole
-- 🇮🇱 Hebrew
-- 🇮🇳 Hindi
-- 🇭🇺 Hungarian
-- 🇮🇸 Icelandic
-- 🇮🇩 Indonesian
-- 🇮🇪 Irish
-- 🇮🇹 Italian
-- 🇯🇵 Japanese
-- 🇮🇳 Kannada
-- 🇰🇷 Korean
-- 🏴 Latin
-- 🇱🇻 Latvian
-- 🇱🇹 Lithuanian
-- 🇲🇰 Macedonian
-- 🇲🇾 Malay
-- 🇲🇹 Maltese
-- 🇳🇴 Norwegian
-- 🇮🇷 Persian
-- 🇵🇱 Polish
-- 🇵🇹 Portuguese
-- 🇷🇴 Romanian
-- 🇷🇺 Russian
-- 🇷🇸 Serbian
-- 🇸🇰 Slovak
-- 🇸🇮 Slovenian
-- 🇪🇸 Spanish
-- 🏴 Swahili
-- 🇸🇪 Swedish
-- 🇮🇳 Tamil
-- 🇮🇳 Telugu
-- 🇹🇭 Thai
-- 🇹🇷 Turkish
-- 🇺🇦 Ukrainian
-- 🇵🇰 Urdu
-- 🇻🇳 Vietnamese
-- 🇬🇧 Welsh
-- 🇮🇱 Yiddish
+- 🇿🇦 Afrikaans  
+- 🇦🇱 Albanian  
+- 🇸🇦 Arabic  
+- 🇦🇿 Azerbaijani  
+- 🏴 Basque  
+- 🇧🇩 Bengali  
+- 🇧🇾 Belarusian  
+- 🇧🇬 Bulgarian  
+- 🏴 Catalan  
+- 🇨🇳 Chinese Simplified  
+- 🇨🇳 Chinese Traditional  
+- 🇭🇷 Croatian  
+- 🇨🇿 Czech  
+- 🇩🇰 Danish  
+- 🇳🇱 Dutch  
+- 🇬🇧 English  
+- 🏴 Esperanto  
+- 🇪🇪 Estonian  
+- 🇵🇭 Filipino  
+- 🇫🇮 Finnish  
+- 🇫🇷 French  
+- 🇪🇸 Galician  
+- 🇬🇪 Georgian  
+- 🇩🇪 German  
+- 🇬🇷 Greek  
+- 🇮🇳 Gujarati  
+- 🇭🇹 Haitian Creole  
+- 🇮🇱 Hebrew  
+- 🇮🇳 Hindi  
+- 🇭🇺 Hungarian  
+- 🇮🇸 Icelandic  
+- 🇮🇩 Indonesian  
+- 🇮🇪 Irish  
+- 🇮🇹 Italian  
+- 🇯🇵 Japanese  
+- 🇮🇳 Kannada  
+- 🇰🇷 Korean  
+- 🏴 Latin  
+- 🇱🇻 Latvian  
+- 🇱🇹 Lithuanian  
+- 🇲🇰 Macedonian  
+- 🇲🇾 Malay  
+- 🇲🇹 Maltese  
+- 🇳🇴 Norwegian  
+- 🇮🇷 Persian  
+- 🇵🇱 Polish  
+- 🇵🇹 Portuguese  
+- 🇷🇴 Romanian  
+- 🇷🇺 Russian  
+- 🇷🇸 Serbian  
+- 🇸🇰 Slovak  
+- 🇸🇮 Slovenian  
+- 🇪🇸 Spanish  
+- 🏴 Swahili  
+- 🇸🇪 Swedish  
+- 🇮🇳 Tamil  
+- 🇮🇳 Telugu  
+- 🇹🇭 Thai  
+- 🇹🇷 Turkish  
+- 🇺🇦 Ukrainian  
+- 🇵🇰 Urdu  
+- 🇻🇳 Vietnamese  
+- 🇬🇧 Welsh  
+- 🇮🇱 Yiddish  
+
+---
 
 ## Is This Feature Free?
 
-Yes, Helperbird offers free translation support for any website or text as you browse. It also works
-on PDFs and Google Docs.
+Yes, Helperbird offers free translation support for websites, text, PDFs, and even Google Docs.

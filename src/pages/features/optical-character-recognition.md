@@ -39,48 +39,58 @@ link: reading
 url: features/optical-character-recognition/
 ---
 
-## About This Feature
+## What Is This Feature?
 
-Helperbird's OCR (Optical Character Recognition) tool lets you capture and convert text from images,
-videos, and PDFs. This tool makes it easy to turn scanned documents or images into editable text.
+Helperbird's Extract Text tool uses OCR (Optical Character Recognition) technology to capture and convert text from images, videos, and PDFs into editable text. With this feature, you can easily extract text by selecting an area on the page. Once you’ve selected the text, Helperbird processes it for you to read, save, or use elsewhere.
 
-## Benefits
+You can read the extracted text aloud, open it in Immersive Reader, or save it as a note for future use. This tool supports multiple languages, including English, Australian, Icelandic, Spanish, and Arabic.
 
-### Easy Text Extraction
+---
 
-Quickly capture and convert text from images or screenshots.
+## What Are the Benefits of This Feature?
 
-### Text-to-Speech
 
-Have the extracted text read aloud to help with understanding.
+**Easy Text Extraction:** Select an area on the page, and Helperbird quickly extracts and processes the text for you.  
 
-### Save and Share
+**Text-to-Speech:** Have the extracted text read aloud to improve comprehension and accessibility.  
 
-Save the captured text to your clipboard or as a note for easy sharing.
+**Save and Share:** Save the text to your clipboard or as a note for easy sharing or later use.  
 
-### Open in Immersive Reader
+**Open in Immersive Reader:** View and customize the text in Immersive Reader for a distraction-free reading experience.  
 
-Read the extracted text in Immersive Reader for a better reading experience.
+**Boost Productivity:** Edit, search, and store text from images or other sources to streamline your workflow.
 
-### Boost Productivity
+---
 
-Easily search, edit, and store text from images to improve your workflow.
+## Who Is It For?
+
+
+**Students and Researchers:** Extract text from PDFs, books, or images for study or research purposes.  
+
+**Professionals:** Digitize text from printed documents or images to save time and effort.  
+
+**Language Learners:** Use text-to-speech and Immersive Reader to better understand and practice languages.  
+
+**Everyday Users:** Extract and save text from any visual content for personal or work use.
+
+---
 
 ## Features
 
-- Capture text from images, screenshots, and PDFs
-- Use text-to-speech to read the captured text aloud
-- Save the captured text to your clipboard for easy use in other applications
-- Save the captured text as a note for future reference or sharing
-- Open the captured text in Immersive Reader
+- Select an area on a page to extract text from images, screenshots, videos, and PDFs.  
+- Use text-to-speech to have the extracted text read aloud.  
+- Save the captured text to your clipboard for easy use in other applications.  
+- Save the captured text as a note for future reference or sharing.  
+- Open the captured text in Immersive Reader for a more accessible reading experience.  
 
-## What is OCR?
+---
 
-OCR stands for Optical Character Recognition. It's a technology that converts text in images or
-scanned documents into machine-readable text. This allows you to edit, search, and store the text on
-a computer. OCR is commonly used to digitize books, newspapers, and other printed materials.
+## What Is OCR?
+
+OCR stands for Optical Character Recognition. It’s a technology that converts text from images or scanned documents into machine-readable text. By selecting the area you want to extract, OCR processes the text so it can be edited, searched, or stored digitally. It’s commonly used for digitizing printed materials like books, newspapers, and PDFs.
+
+---
 
 ## Is This a Free Helperbird Feature?
 
-No, this is a premium feature. You can get it for $6.99 per month or $60.00 per year with Helperbird
-Pro.
+No, this is a premium feature. You can access it for $6.99 per month or $60.00 per year with Helperbird Pro.
