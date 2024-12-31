@@ -69,7 +69,7 @@ Spend long hours reading documents or studying? Adjusting spacing can make it ea
 **Anyone who prefers control**: 
 Whether you find certain fonts or layouts difficult to read, you can tweak the text to match your style.
 
-
+---
 
 ## Real-Life Examples
 
