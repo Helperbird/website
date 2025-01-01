@@ -51,34 +51,37 @@ url: reviews/
 <section class="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5 p-8 pt-16 pb-16">
   <div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
     {%- for review in reviews.reviews -%}
-      <figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
-        <blockquote class="relative">
-          <p class="leading-relaxed font-sans text-lg text-slate-900" aria-multiline="true">
+      <div class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500 p-6" 	>
+        <div class="card-body">  
+
+          <p class="leading-relaxed font-sans text-lg text-black" aria-multiline="true">
             {{ review.review }}
           </p>
-        </blockquote>
-        <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
-          <div>
-            <div class="font-display text-base text-slate-900">
+      
+        <div class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+<div>
+            <div class="font-display text-lg text-black">
               {{ review.name }}
             </div>
             <div class="mt-1 text-sm text-slate-500">
               {{ review.title }}
             </div>
-          </div>
-          <div class="overflow-hidden rounded-2xl bg-slate-50">
+            </div>  
+      
+          <div class="overflow-hidden rounded-full bg-slate-50">
             <img
               alt="Photo of Helperbird Pro user {{ review.name }}"
               src="{{ review.photo }}"
               width="56"
               height="56"
               decoding="async"
-              class="h-14 w-14 object-cover"
+              class="h-14 w-14 object-cover rounded-full"
               loading="lazy"
             />
           </div>
-        </figcaption>
-      </figure>
+        </div>
+        </div>
+      </div>
     {%- endfor -%}
   </div>
 </section>

@@ -22,13 +22,14 @@ keywords:
 featurePageTitle: Highlight Text on Websites and PDFs with Helperbird
 img: 950R2dDH4lw
 icon: '/src/_includes/svgs/highlighter.svg'
+free: false
 youtubeId: frjBvXjwbnk
 cardTitle: Web Highlighter
 featureDescription:
   Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web
   pages and PDFs in different colors with our easy-to-use browser extension.
 group: productivity
-color: blue
+color: orange
 tags:
   - features
   - productivity

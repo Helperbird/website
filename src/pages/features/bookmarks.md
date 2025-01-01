@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Bookmark and Save Your Favorite Websites
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/time.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Read it Later
 featureDescription:
@@ -23,7 +24,7 @@ featureDescription:
   your favorite websites effortlessly, ensuring you can return to must-read content whenever you
   like.
 group: reading
-color: blue
+color: orange
 tags:
   - features
   - reading

@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Helperbird Keyboard Shortcuts
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/shortcuts.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Keyboard Shortcuts
 featureDescription:

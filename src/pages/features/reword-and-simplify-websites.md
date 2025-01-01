@@ -22,6 +22,7 @@ keywords:
 featurePageTitle: Simplify and Reword Text on Web Pages
 img: 950R2dDH4lw
 icon: '/src/_includes/svgs/reword.svg'
+free: false
 youtubeId: pl5UKN2qLXs
 cardTitle: Reword and Simplify Websites
 featureDescription:

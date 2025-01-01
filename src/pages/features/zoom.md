@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Page & Text Magnifier Extension - Chrome, Edge & Safari
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/dictionary.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Page & Text Magnifier
 featureDescription:

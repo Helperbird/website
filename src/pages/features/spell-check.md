@@ -17,6 +17,7 @@ keywords:
 featurePageTitle: Simple Online Spell Checker - Chrome, Edge, Firefox, and iPad Extension
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/spellcheck.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Spelling & Grammar Checker
 featureDescription:

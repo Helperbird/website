@@ -17,6 +17,7 @@ keywords:
 featurePageTitle: Annotate and Highlight Websites, PDFs, and Ebooks
 img: X69hPUcBqME
 icon: '/src/_includes/svgs/notes.svg'
+free: false
 youtubeId: X69hPUcBqME
 cardTitle: Annotations & Sticky Notes
 featureDescription:

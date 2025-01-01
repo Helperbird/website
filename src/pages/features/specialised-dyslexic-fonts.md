@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Easily Change Fonts on Any Website with Dyslexia-Friendly and Specialized Options
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/fonts.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Specialized Fonts
 featureDescription:

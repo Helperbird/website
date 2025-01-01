@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Customize Your Paragraphs
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/border.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Customize Paragraphs
 featureDescription:

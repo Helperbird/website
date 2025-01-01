@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Enhance Your Visual Comfort with Customizable Overlays & Tints from Helperbird
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/overlay.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Overlays
 featureDescription:

@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Silence Distractions, Mute Annoying Auto-playing Videos with Ease
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/mute.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Mute Auto-playing Videos
 featureDescription:

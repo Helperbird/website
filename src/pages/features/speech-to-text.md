@@ -5,7 +5,7 @@ header: true
 layout: templates/features_two.liquid
 title: The Best Voice Typing Extension for Chrome, Firefox, Edge, and iOS
 description:
-  Experience fast, accurate speech-to-text conversion on Chrome, Firefox, Edge, and iOS with
+  Experience fast, accurate Speech to Text conversion on Chrome, Firefox, Edge, and iOS with
   Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free
   today!
 keywords:
@@ -16,10 +16,11 @@ keywords:
 featurePageTitle: The Best Voice Typing Extension
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/voice-typing.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Voice Typing
 featureDescription:
-  Experience fast, accurate speech-to-text conversion on Chrome, Firefox, Edge, and iOS with
+  Experience fast, accurate Speech to Text conversion on Chrome, Firefox, Edge, and iOS with
   Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free
   today!
 group: reading
@@ -35,7 +36,7 @@ url: features/speech-to-text/
 
 ## What Is This Feature?
 
-Some people call it speech-to-text, but we call it Voice Typing. With Helperbird’s Voice Typing feature, you can speak into your microphone, and it will turn your words into text. It’s an easy way to type hands-free, whether you’re writing an email, working on a document, or jotting down notes.
+Some people call it Speech to Text, but we call it Voice Typing. With Helperbird’s Voice Typing feature, you can speak into your microphone, and it will turn your words into text. It’s an easy way to type hands-free, whether you’re writing an email, working on a document, or jotting down notes.
 
 ---
 

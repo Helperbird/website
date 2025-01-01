@@ -2,58 +2,56 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 
 
-	<div class="text-center mb-4">
-		<h2
-		  id="question-section"
-		  class="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl"
-		>
-		  Helperbird Features
-		</h2>
+		<div class="text-center mb-8 max-w-4xl mx-auto">
+			<h2
+				id="question-section"
+				class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-5xl"
+			>
+				Helperbird Features
+			</h2>
 
-		<p class="mt-4 font-sans text-xl leading-relaxed text-black">
-		
-			Helperbird gives you tools to make the web easier to use your way. Boost your accessibility, reading, writing, and productivity with features built to fit your needs.
-		</p>
+			<p  class="leading-relaxed font-sans mt-6 text-2xl text-black">
+				Helperbird offers over 30 tools to make the web easier to use your way. Customize the web to your needs with features like Immersive Reader, dyslexia support, text-to-speech, word prediction, voice typing, and more.
+				<br>
+				All designed to help with accessibility, reading, writing, and productivity.	
+			</p>
 
-<p class="mt-4 font-sans text-xl leading-relaxed text-black">
-			Explore key features like Immersive Reader, Rewording, Summarizing, Reading Mode, dyslexia support, natural text-to-speech, text extraction, word prediction, voice typing, and more – over 30 tools to enhance your online experience.
-			
-			
-		</p>
-	  </div>
+			<div class="my-12">
+				<a
+				href="/features"
+				class="btn btn-secondary btn-lg"
+				aria-label="Learn more about Helperbird features"
+				title="Learn more about Helperbird features"
+				>
+				See All Features
+				</a>
+			</div>
+	  	</div>
 
 
 		<div class="mb-10 mt-10 grid grid-cols-1 gap-8 gap-x-8 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
 			{%- for post in collections.writing -%}
 
-			<div
-				class="card card-compact  shadow-md bg-base-100 transition-all duration-200 focus-within:border focus-within:border-indigo-500 hover:-translate-y-1"
+			<a 
+				class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" 	
+				href="{{ post.url }}"
+				aria-label="More information on feature {{ post.data.cardTitle }}"
+				title="More information on feature {{ post.data.cardTitle }}"
 			>
 				<div class="card-body">
 					<div>
-						<div
-							class="flex items-center justify-center h-12 w-12 rounded-xl bg-{{post.data.color}}-500 text-white"
-						>
+						<div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
 							{{ post.data.icon | svgContents | safe }}
 						</div>
-						<h3 class="mt-5 font-sans text-xl font-semibold leading-relaxed text-black">
-							{{ post.data.cardTitle }}
-						</h3>
+						<h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
 					</div>
-					<p class="mt-2 line-clamp-3 text-base text-black">{{ post.data.featureDescription }}</p>
-					<div class="mb-4 mt-4 flex items-center gap-x-4">
-						<a
-							class="btn btn-secondary btn-sm"
-							href="{{ post.url }}"
-							aria-label="More information on feature {{ post.data.cardTitle }}"
-							title="More information on feature {{ post.data.cardTitle }}"
-						>
-							Read more
-						</a>
-					</div>
+					<p class="mt-2 text-base text-black line-clamp-3">
+						{{ post.data.featureDescription }}
+					</p>
+				  	<div class="mt-4 mb-4 flex items-center gap-x-4">
+				  	</div>
 				</div>
-			</div>
-
+			</a>
 			{%- endfor -%}
 		</div>
 	</div>

@@ -17,6 +17,7 @@ featurePageTitle:
   View clutter-free web pages with productivity tools, using Helperbird's Reading Mode
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/reading-mode.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Reading Mode
 featureDescription:

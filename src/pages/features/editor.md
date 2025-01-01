@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: In-Browser Document Editor with Microsoft Word and Google Docs Support
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/editor.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Document Editor
 featureDescription:

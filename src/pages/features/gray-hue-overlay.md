@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Grayscale
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/high-contrast.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Grayscale
 featureDescription:
@@ -23,7 +24,7 @@ featureDescription:
   to any website to lessen glare, making your reading experience more enjoyable and reducing visual
   fatigue.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - accessibility

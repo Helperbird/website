@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Auto Scroll
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/scroll.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Auto Scroll
 featureDescription:
@@ -23,7 +24,7 @@ featureDescription:
   Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your
   own pace. Available across Chrome, Firefox, Edge, and Safari.
 group: reading
-color: blue
+color: orange
 tags:
   - features
   - accessibility

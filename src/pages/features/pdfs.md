@@ -17,6 +17,7 @@ featurePageTitle:
   Effortlessly Annotate and Highlight PDFs with Helperbird's Dyslexia-Friendly PDF Reader
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/pdf.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: PDF Reader
 featureDescription:
@@ -25,7 +26,7 @@ featureDescription:
   features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and
   studying PDFs becomes a seamless experience.
 group: reading
-color: red
+color: blue
 tags:
   - features
   - accessibility

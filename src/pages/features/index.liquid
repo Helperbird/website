@@ -31,58 +31,80 @@ url: features/
 ---
 
 
-<div class="px-6 py-20 lg:px-4 mb-4 rounded-2xl bg-black shadow-md mb-16">
-  <div class="mx-auto max-w-4xl text-center ">
-    <h1 class="leading-relaxed font-sans text-4xl font-bold text-white sm:text-6xl">Helperbird's Features</h1>
+<div class="px-6 py-20 lg:px-4 rounded-2xl bg-white shadow-md mb-16">
+  <div class="mx-auto max-w-4xl text-center">
+    <h1 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">
+      Helperbird's Features
+    </h1>
     
-    <p class="leading-relaxed font-sans mt-6 text-2xl text-white">
-	
-
-Helperbird’s tools make the web easier to use and help you stay organized. From reading aids to focus modes, Helperbird is built to support your unique accessibility and productivity needs and improve your online experience.
+    <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
+      Helperbird’s tools make the web simpler and help you stay organized. With features like Immersive Reader and Voice Typing, it’s built to support your accessibility, productivity, and unique reading and learning styles, improving your online experience.
     </p>
 
-    <div class="mt-6 text-2xl leading-8 text-white inline-flex items-center divide-x font-bold uppercase">
+    <div class="mt-6 text-2xl leading-8 text-black inline-flex items-center divide-x font-bold uppercase">
       <div class="flex flex-shrink-0 pr-5" aria-label="5 star rating">
         {%- for star in (1..5) -%}
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-yellow-400"
-            role="img"
-          >
-            <title>Star</title>
-            <path
-              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-            ></path>
-          </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 text-yellow-400"
+          role="img"
+        >
+          <title>Star</title>
+          <path
+            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+          ></path>
+        </svg>
         {%- endfor -%}
       </div>
       <div class="flex-1 py-1 pl-5 text-base sm:py-3">
-        Rated 4.9 stars by 700,000 people.
+        Rated 4.9 stars by 750,000 people.
       </div>
     </div>
 
-	<div class="mt-16 flow-root sm:mt-24 mx-auto max-w-5xl">
-		<div class="-m-2 rounded-xl bg-stone-200 p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
-			<video
-				aria-label="Demonstration of Helperbird features on Google Docs and Slides"
-				autoplay="autoplay"
-				controls="true"
-				loop="loop"
-				muted="muted"
-				playsinline="playsinline"
-				width="2432"
-				height="1442"
-				class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-			>
-			<source src="/assets/videos/new/dyslexia.webm" type="video/webm" />
-			<source src="/assets/videos/styles.mp4" type="video/mp4" />
-			</video>
-		</div>
-	</div>
-
+    <div class="grid grid-cols-1 gap-4 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 mt-16">
+      <a class="btn  btn-primary" href="#writing" aria-label="Go to Writing Features">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="h-8 w-8" role="img" aria-hidden="true">
+          <path d="M200-200h57l391-391-57-57-391 391v57Zm-80 80v-170l528-527q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L290-120H120Zm640-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z"/>
+        </svg>
+        Writing
+      </a>
+      
+      <a class="btn btn-secondary" href="#reading" aria-label="Go to Reading Features">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="h-8 w-8" role="img" aria-hidden="true">
+          <path d="M160-391h45l23-66h104l24 66h44l-97-258h-46l-97 258Zm81-103 38-107h2l38 107h-78Zm319-70v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-600q-38 0-73 9.5T560-564Zm0 220v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-380q-38 0-73 9t-67 27Zm0-110v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-490q-38 0-73 9.5T560-454ZM260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59ZM280-499Z"/>
+        </svg>
+        Reading
+      </a>
+      
+      <a class="btn btn-outline  btn-accent" href="#accessibility" aria-label="Go to Accessibility Features">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 -960 960 960"  fill="currentColor" role="img" aria-hidden="true">
+          <path d="M480-720q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720ZM360-80v-520q-60-5-122-15t-118-25l20-80q78 21 166 30.5t174 9.5q86 0 174-9.5T820-720l20 80q-56 15-118 25t-122 15v520h-80v-240h-80v240h-80Z"/>
+        </svg>
+        Accessibility
+      </a>
+    </div>
+    
+    <div class="mt-16 flow-root sm:mt-24 mx-auto max-w-5xl">
+      <div class="-m-2 rounded-xl bg-stone-200 p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
+        <video
+          aria-label="Demonstration of Helperbird features on Google Docs and Slides"
+          autoplay
+          controls
+          loop
+          muted
+          playsinline
+          width="2432"
+          height="1442"
+          class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+        >
+          <source src="/assets/videos/new/dyslexia.webm" type="video/webm" />
+          <source src="/assets/videos/styles.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -92,11 +114,14 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 
 
+
 <div class="px-6 py-20 sm:py-16 lg:px-4 mb-4 mt-24" id="reading">
   <div class="mx-auto max-w-4xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">  Reading Features</h2>
+    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-5xl"> 
+      Reading Features
+    </h2>
     <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-		Customize your reading experience to match your style and needs.
+      Discover reading tools that make content easier to understand and navigate, from text-to-speech to immersive reading modes, helping you focus and enjoy your reading experience.
     </p>
   </div>
 </div>
@@ -107,25 +132,27 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 mb-10 gap-x-8 gap-y-20">
 
-      {%- for post in collections.reading -%}
+  {%- for post in collections.reading -%}
 
-		<a class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" 	href="{{ post.url }}"
-		aria-label="More information on feature {{ post.data.cardTitle }}"
-		title="More information on feature {{ post.data.cardTitle }}">
+		<a 
+      class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" 	
+      href="{{ post.url }}"
+		  aria-label="More information on feature {{ post.data.cardTitle }}"
+		  title="More information on feature {{ post.data.cardTitle }}">
+
 			<div class="card-body">
-		  
-				  <div>
+				<div>
 					<div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
 					  {{ post.data.icon | svgContents | safe }}
+			    </div>
+			    <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
 			  </div>
-			  <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
-			</div>
-			<p class="mt-2 text-base text-black line-clamp-3">{{ post.data.featureDescription }}</p>
-			<div class="mt-4 mb-4 flex items-center gap-x-4">
-			
-			</div>
+			  <p class="mt-2 text-base text-black line-clamp-3">
+          {{ post.data.featureDescription }}
+        </p>
+        <div class="mt-4 mb-4 flex items-center gap-x-4">
+        </div>
 		  </div>
-    
     </a>
 
   {%- endfor -%}
@@ -152,9 +179,11 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 <div class="px-6 py-20 sm:py-16 lg:px-4 mb-4 mt-24" id="writing">
   <div class="mx-auto max-w-4xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl"> 		Writing Features</h2>
+    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-5xl"> 		
+      Writing Features
+    </h2>
     <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-		Tools to elevate your writing to the next level.
+      Explore writing tools that make it easier to express your ideas. From word prediction to voice typing, Helperbird’s features help you write faster, with fewer mistakes, and in a way that fits your style.
     </p>
   </div>
 </div>
@@ -164,27 +193,27 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 mb-10 gap-x-8 gap-y-20">
 
-{%- for post in collections.writing -%}
+  {%- for post in collections.writing -%}
+    <a 
+      class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" 	
+      href="{{ post.url }}"
+      aria-label="More information on feature {{ post.data.cardTitle }}"
+      title="More information on feature {{ post.data.cardTitle }}">
 
-    <a class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" href="{{ post.url }}"
-	aria-label="More information on feature {{ post.data.cardTitle }}"
-	title="More information on feature {{ post.data.cardTitle }}">
       <div class="card-body">
-	
-			<div>
-			  <div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
-				{{ post.data.icon | svgContents | safe }}
-			  </div>
-			  <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
-			</div>
-			<p class="mt-2 text-base text-black line-clamp-3">{{ post.data.featureDescription }}</p>
-			<div class="mt-4 mb-4 flex items-center gap-x-4">
-		
-			</div>
-		  </div>
-    
+        <div>
+          <div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
+            {{ post.data.icon | svgContents | safe }}
+          </div>
+          <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
+        </div>
+        <p class="mt-2 text-base text-black line-clamp-3">
+          {{ post.data.featureDescription }}
+        </p>
+        <div class="mt-4 mb-4 flex items-center gap-x-4">
+        </div>
+      </div>
     </a>
-
   {%- endfor -%}
 
 </div>
@@ -193,11 +222,13 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 
 
-<div class="px-6 py-20 sm:py-16 lg:px-4 mb-4 mt-24" id="accessibilty">
+<div class="px-6 py-20 sm:py-16 lg:px-4 mb-4 mt-24" id="accessibility">
   <div class="mx-auto max-w-4xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl"> 		Accessibility Features</h2>
+    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-5xl"> 		
+      Accessibility Features
+    </h2>
     <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-		Discover a wide range of accessibility features designed to support diverse needs. From dyslexia tools to color blindness aids, Helperbird has everything you need to enhance your online experience.
+      Explore a variety of accessibility features designed to meet different needs. From tools for dyslexia to support for color blindness, Helperbird helps make your online experience easier and more personalized.
     </p>
   </div>
 </div>
@@ -208,27 +239,27 @@ Helperbird’s tools make the web easier to use and help you stay organized. Fro
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 mb-10 gap-x-8 gap-y-20">
 
-{%- for post in collections.accessibility -%}
+  {%- for post in collections.writing -%}
+    <a 
+      class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" 	
+      href="{{ post.url }}"
+      aria-label="More information on feature {{ post.data.cardTitle }}"
+      title="More information on feature {{ post.data.cardTitle }}">
 
-    <a class="card card-compact  shadow-md rounded-xl bg-base-100 transition-all duration-200 hover:-translate-y-1 focus-within:border focus-within:border-indigo-500" href="{{ post.url }}"
-	aria-label="More information on feature {{ post.data.cardTitle }}"
-	title="More information on feature {{ post.data.cardTitle }}">
       <div class="card-body">
-	
-			<div>
-			  <div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
-				{{ post.data.icon | svgContents | safe }}
-			  </div>
-			  <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
-			</div>
-			<p class="mt-2 text-base text-black line-clamp-3">{{ post.data.featureDescription }}</p>
-			<div class="mt-4 mb-4 flex items-center gap-x-4">
-		
-			</div>
-		  </div>
-    
+        <div>
+          <div class="flex items-center justify-center p-12 rounded-xl bg-{{post.data.color}}-500 text-white">
+            {{ post.data.icon | svgContents | safe }}
+          </div>
+          <h3 class="leading-relaxed font-sans mt-5 text-xl font-semibold text-black">{{ post.data.cardTitle }}</h3>
+        </div>
+        <p class="mt-2 text-base text-black line-clamp-3">
+          {{ post.data.featureDescription }}
+        </p>
+        <div class="mt-4 mb-4 flex items-center gap-x-4">
+        </div>
+      </div>
     </a>
-
   {%- endfor -%}
 
 </div>

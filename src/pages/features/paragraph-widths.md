@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Custom Paragraph Width for Comfortable Reading
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/widths.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Paragraph Width
 featureDescription:

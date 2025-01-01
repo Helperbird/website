@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Show Image & Link Descriptions on Mouse Over
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/cursor.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Show Image & Link Descriptions
 featureDescription:
@@ -22,7 +23,7 @@ featureDescription:
   Helperbird on any website or PDF. Gain quick insights into content by hovering over images and
   links.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - accessibility

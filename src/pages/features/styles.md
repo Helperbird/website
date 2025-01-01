@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Styles & Colors
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/styles.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Custom Colors
 featureDescription:

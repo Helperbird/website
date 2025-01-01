@@ -13,6 +13,7 @@ keywords:
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 icon: '/src/_includes/svgs/blindness.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 img: i1EeaekPHIo
 cardTitle: Color Blindness Support

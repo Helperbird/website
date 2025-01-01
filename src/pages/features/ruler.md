@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Dyslexia Reading Ruler for Better Focus
 img: 950R2dDH4lw
 icon: '/src/_includes/svgs/ruler.svg'
+free: true
 youtubeId: ZI7yqBKd91E
 cardTitle: Dyslexia Ruler
 featureDescription:

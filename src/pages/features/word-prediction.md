@@ -17,6 +17,7 @@ featurePageTitle:
   Word Prediction Extension for Every Website and Google Docs - Enhance Your Writing Experience
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/word-prediction.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Word Prediction
 featureDescription:

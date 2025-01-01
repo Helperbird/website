@@ -23,6 +23,7 @@ keywords:
 featurePageTitle: Capture and Convert Text Seamlessly with Helperbird's OCR Tool
 img: l_gDeSqvIqk
 icon: '/src/_includes/svgs/ocr.svg'
+free: false
 youtubeId: l_gDeSqvIqk
 cardTitle: OCR / Screenshot Reader
 featureDescription:

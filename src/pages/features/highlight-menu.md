@@ -21,6 +21,7 @@ keywords:
 featurePageTitle: Highlight Menu - Your All-in-One Text Utility Tool
 img: U3h8al49y2U
 icon: '/src/_includes/svgs/highlight-menu.svg'
+free: true
 youtubeId: U3h8al49y2U
 cardTitle: Highlight Menu
 featureDescription:

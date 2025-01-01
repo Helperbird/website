@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Organize and Access Your Notes with Helperbird's Note Organizer
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/text-to-speech.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Note Organizer
 featureDescription:

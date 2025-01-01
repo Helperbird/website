@@ -3,18 +3,29 @@
 	  <div class="text-center mb-4">
 		<h2
 		  id="question-section"
-		  class="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl"
+		  class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-5xl"
 		>
 		  Questions & Answers
 		</h2>
-		<p class="mt-4 font-sans text-2xl leading-relaxed text-black">
-		  If you have any other questions - please get in touch
+		<p  class="leading-relaxed font-sans mt-6 text-2xl text-black">
+		  If you have any other questions. Please get in touch
 		</p>
+
+		<div class="my-8">
+			<a
+			href="/features"
+			class="btn btn-secondary btn-lg"
+			aria-label="Learn more about Helperbird features"
+			title="Learn more about Helperbird features"
+			>
+			See All Questions
+			</a>
+		</div>
 	  </div>
   
-	  <div class="mt-10 space-y-8 divide-y divide-stone-500">
-		<div class="join join-vertical w-full bg-white shadow-md">
-		  {%- for question in questions.helperbird -%}
+	  <div class="mt-10 space-y-8 divide-y ">
+		<div class="join join-vertical w-full bg-white shadow-md rounded-2xl">
+		  {%- for question in questions.helperbird limit:5 -%}
   
 		  <div class="collapse collapse-arrow join-item border-base-300 border">
 			<input type="radio" name="my-accordion-4" />

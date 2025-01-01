@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: One-Click Quick Print
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/print.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Quick Print
 featureDescription:

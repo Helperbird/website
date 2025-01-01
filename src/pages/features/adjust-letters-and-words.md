@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Easily Adjust Line, Letter, and Word Spacing
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/fonts.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Line, Letter, and Word Spacing
 featureDescription:

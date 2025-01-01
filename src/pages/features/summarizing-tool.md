@@ -22,6 +22,7 @@ keywords:
 featurePageTitle: Quickly and Accurately Summarize Pages and Articles in a Click
 img: TyeON1QyW4g
 icon: '/src/_includes/svgs/summarize.svg'
+free: false
 youtubeId: TyeON1QyW4g
 cardTitle: Summarize Pages
 featureDescription:

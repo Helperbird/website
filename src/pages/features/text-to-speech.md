@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Listen to Any Part of a Webpage or Google Docs
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/text-to-speech.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Text to Speech
 featureDescription:

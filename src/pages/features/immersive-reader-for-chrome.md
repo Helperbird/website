@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Read Better Everywhere with Immersive Reader
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/immersive.svg'
+free: true
 youtubeId: pFF3t3i-7Ik
 cardTitle: Immersive Reader
 featureDescription:

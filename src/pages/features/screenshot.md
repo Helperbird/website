@@ -15,13 +15,14 @@ keywords:
 featurePageTitle: One-Click Screenshot Tool for Webpages and PDFs
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/screenshot.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Screenshot Tool
 featureDescription:
   Easily capture screenshots of entire webpages or specific areas with Helperbird's Screenshot Tool.
   Save your captures directly to your device for quick access and future reference.
 group: reading
-color: orange
+color: blue
 tags:
   - features
   - accessibility

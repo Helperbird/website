@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Easily Count Letters and Characters on Any Website with Helperbird
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/graph.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Text Statistics
 featureDescription:
@@ -23,7 +24,7 @@ featureDescription:
   clicks, get a comprehensive analysis including unique word count, shortest words, estimated
   reading time, and more.
 group: reading
-color: orange
+color: blue
 tags:
   - features
   - writing

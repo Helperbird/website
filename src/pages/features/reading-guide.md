@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Reading Guide for Better Focus
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/ruler.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Reading Guide
 featureDescription:

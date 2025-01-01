@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Easily Align Text on Any Website
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/align.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Text Alignment
 featureDescription:

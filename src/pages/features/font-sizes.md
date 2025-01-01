@@ -15,6 +15,7 @@ keywords:
 featurePageTitle: Customizable Font Sizes
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/fonts.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Customizable Font Sizes
 featureDescription:

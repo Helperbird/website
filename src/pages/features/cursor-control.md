@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Customize Your Cursor Size
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/cursor.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Customize Your Cursor Size
 featureDescription:

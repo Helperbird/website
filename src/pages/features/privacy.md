@@ -15,13 +15,14 @@ keywords:
 featurePageTitle: Privacy Features
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/blindness.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: Strong Privacy Protection
 featureDescription:
   Trust Helperbird's strong privacy protection. We prioritize your privacy by not storing, selling,
   or misusing your data. Your information is safe with us.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - accessibility

@@ -15,6 +15,7 @@ keywords:
 featurePageTitle:  Translation Support
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/translate.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle:  Translation Support
 featureDescription:

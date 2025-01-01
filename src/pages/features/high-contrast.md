@@ -14,12 +14,13 @@ keywords:
 featurePageTitle: Improve Visibility and Accessibility with Helperbird's High Contrast Mode
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/high-contrast.svg'
+free: true
 youtubeId: vwT8SAJfU3E
 cardTitle: High Contrast Mode
 featureDescription:
   Choose from various high-contrast color filters to enhance readability and reduce eye strain.
 group: reading
-color: green
+color: blue
 tags:
   - features
   - accessibility

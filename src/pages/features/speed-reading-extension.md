@@ -16,6 +16,7 @@ keywords:
 featurePageTitle: Improve Your Reading Speed and Efficiency with our Speed Reading Extension
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/speed.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Speed Reading
 featureDescription:
@@ -23,7 +24,7 @@ featureDescription:
   reading speed and efficiency with customizable settings and easy-to-use features. Try it now and
   experience faster reading.
 group: reading
-color: blue
+color: orange
 tags:
   - features
   - reading

@@ -15,13 +15,14 @@ keywords:
 featurePageTitle: English Dictionary
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/dictionary.svg'
+free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Dictionary
 featureDescription:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
   define, and grasp the meaning of any English word to enrich your reading experience.
 group: reading
-color: blue
+color: orange
 tags:
   - features
   - reading
