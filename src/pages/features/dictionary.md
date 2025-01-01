@@ -38,7 +38,7 @@ Whether you’re reading an article, studying, or improving your vocabulary, thi
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 The Dictionary feature offers plenty of benefits that make it a must-have for anyone working with words:
 

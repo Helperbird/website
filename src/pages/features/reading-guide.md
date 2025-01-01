@@ -29,26 +29,50 @@ link: reading
 url: features/reading-guide/
 ---
 
-## About This Feature
 
-Helperbird's Reading Guide helps you read better by guiding your eyes along the text. It reduces
-distractions and makes it easier to focus and understand what you're reading. Perfect for students,
-researchers, and anyone who wants to improve their reading experience.
+## What Is This Feature?
 
-## Benefits
+Helperbird's Reading Guide helps you stay focused while reading by visually guiding your eyes along the text. This reduces distractions, improves comprehension, and makes reading smoother and more comfortable. It’s a helpful tool for students, researchers, and anyone looking to enhance their reading experience.
 
-- Improve reading speed and fluency by guiding your eyes along the text.
-- Reduce eye strain and fatigue.
-- Enhance focus and concentration on the text.
-- Help with dyslexia and other reading challenges by providing a visual aid for tracking the text.
+---
+
+## What Are the Benefits?
+
+- **Improve Reading Speed:** Guide your eyes along the text to read more fluently.  
+- **Reduce Eye Strain:** Minimize fatigue during long reading sessions.  
+- **Enhance Focus:** Stay concentrated on the text without distractions.  
+- **Support Reading Challenges:** Provides visual tracking for individuals with dyslexia or other reading difficulties.  
+
+---
+
+## How It Works
+
+The Reading Guide is based on the principle of **visual tracking**. By providing a visible guide or bar, it helps your eyes stay aligned with the text, reducing the cognitive load required to follow each line. This can improve focus and make reading feel less overwhelming, especially for individuals with dyslexia or visual processing challenges.
+
+The guide helps reduce the chance of **regression**, where the eyes unintentionally move backward while reading. It also minimizes the effects of **saccadic eye movements**, where the eyes jump between lines of text, which can disrupt comprehension and fluency.
+
+For people with visual sensitivities or eye strain, the adjustable color and transparency settings provide additional comfort, making the text easier to follow and reducing fatigue.
+
+---
+
+## Who Is It For?
+
+- **Students:** Great for reading assignments, textbooks, or study materials.  
+- **Researchers:** Stay focused while reviewing long articles or reports.  
+- **Professionals:** Improve concentration while reading work documents or emails.  
+- **Everyday Readers:** Make reading online content more comfortable and distraction-free.
+
+---
 
 ## Features
 
-- Adjust the width of the reading guide.
-- Change the color of the guide.
-- Adjust the transparency of the guide.
-- Lock the guide in place for steady reading.
+- Adjust the width of the reading guide.  
+- Change the color of the guide to suit your preferences.  
+- Adjust the transparency of the guide for a personalized experience.  
+- Lock the guide in place for steady and consistent reading.  
+
+---
 
 ## Is This a Helperbird Pro Feature?
 
-Yes and no, the basic version of this feature is available for free.
+Yes and no. The basic version of this feature is available for free, but advanced options are part of Helperbird Pro.

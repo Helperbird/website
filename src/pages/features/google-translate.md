@@ -36,7 +36,7 @@ Helperbird's Translation feature lets you translate words, websites, and PDFs in
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Easy Translation:** Translate words, websites, and PDFs into any language in just a few clicks.  

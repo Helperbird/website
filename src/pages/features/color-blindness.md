@@ -40,7 +40,7 @@ This feature is especially useful for people with Protanopia or Deuteranopia, tw
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 This feature makes websites easier to use for everyone, especially those with color vision problems. Here’s why it’s helpful:
 

@@ -42,7 +42,7 @@ You can customize your sticky notes with different colors and sizes, organize th
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 Helperbird’s sticky notes and annotations offer a variety of benefits to improve your productivity and browsing experience:
 

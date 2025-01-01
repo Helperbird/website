@@ -39,7 +39,7 @@ You can customize the borders with different colors, styles, and widths to creat
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Organize Your Text:** Add borders to visually separate and structure paragraphs, making content easier to follow.  

@@ -35,7 +35,7 @@ Helperbird's Image Blocker feature allows you to hide all images, GIFs, or flash
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Hide All Images:** Instantly remove all images, GIFs, or flashing content for a cleaner view.  

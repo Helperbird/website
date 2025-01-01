@@ -40,7 +40,7 @@ It’s especially helpful for users with mobility or dexterity challenges, as it
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 Helperbird’s Auto Scroll feature isn’t just convenient—it also makes your browsing experience smoother and more accessible. Here’s how it can help:
 

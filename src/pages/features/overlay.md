@@ -40,7 +40,7 @@ Bright web pages can often cause discomfort, but Helperbird lets you change the 
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Reduce Glare:** Make text more readable by reducing bright light and glare.  

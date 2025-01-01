@@ -29,135 +29,118 @@ tags:
 link: reading
 url: features/text-to-speech/
 ---
+## What Is This Feature?
 
-## About This Feature
+Helperbird’s Text-to-Speech feature lets you listen to text from any webpage, email, or document. Whether you’re catching up on news, studying, or just want to sit back and listen, this feature makes it easy to turn text into spoken words.
 
-With Helperbird's Text to Speech, you can listen to your news, emails, or articles instead of
-reading them. Just sit back, press play, and let the words come to you.
-
-This extension works on Chrome, Firefox, Edge, and iPad. It uses advanced text-to-speech (TTS)
-technology to turn any web page into spoken words. It’s easy to use and customize, making it perfect
-for anyone who wants to improve their reading experience. Try it for free!
+It works on Chrome, Firefox, Edge, and iPad, supporting 109 languages with natural-sounding voices. You can adjust the speed, pitch, and volume to suit your preferences. It’s perfect for multitasking, accessibility, or just making reading easier.
 
 ---
 
-## Benefits
+## What Are the Benefits of This Feature?
 
-**Improve Reading Speed and Understanding**
-Listening helps you grasp content faster.
 
-**Great for Visual Impairments or Reading Difficulties**
-Perfect for those who struggle with reading.
+**Listen Instead of Reading:** Great for times when you’d rather hear content than read it.  
 
-**Multitask Easily**
-Listen to text while doing other tasks.
+**Accessibility:** Helps users with dyslexia, low vision, or reading difficulties.  
 
-**Save Time**
-Listen to articles instead of reading them.
+**Save Time:** Get through articles, emails, or documents faster.  
 
-**Learn Languages**
-Hear text in different languages to aid learning.
+**Learn Languages:** Hear text read aloud to practice pronunciation or comprehension.  
+
+**Multitask:** Listen while working, cooking, or commuting.  
+
+---
+
+## Who Is It For?
+
+
+**Students:** Use it to listen to study materials, articles, or class notes.  
+
+**Professionals:** Catch up on reports or emails while multitasking.  
+
+**Language Learners:** Practice pronunciation and listening skills in different languages.  
+
+**Accessibility Advocates:** A great tool for users with reading challenges or low vision.  
+
+**Everyday Readers:** Enjoy a hands-free way to consume content.
 
 ---
 
 ## Features
 
-**Natural-Sounding Voices**
-Advanced TTS with lifelike voices.
 
-**Lots of Voice Choices**
-Over 10 natural voices and 30+ options.
+**Natural Voices:** Choose from over 10 lifelike voices.  
 
-**Many Languages**
-Supports 109 languages.
+**Supports 109 Languages:** Works with a variety of global languages.  
 
-**Customizable Settings**
-Adjust pitch, volume, and speed.
+**Customizable Settings:** Adjust speed, pitch, and volume.  
 
-**Supports Multiple Formats**
-Works with web pages, documents, and PDFs. Listen on any device.
+**Wide Compatibility:** Works with webpages, PDFs, and documents.  
 
-**Highlight Options**
-Pick your favorite highlight color.
+**Highlighting Options:** Follow along with customizable highlight colors.
 
 ---
 
-## How It Helps
+## How Does It Work?
 
-Helperbird’s text-to-speech makes understanding content easier, especially for people who struggle
-with reading or are learning a new language. It’s a big help for those who are visually impaired,
-blind, or have attention difficulties. You can get information without scrolling through long texts.
-Having content read aloud in different voices makes web pages more accessible and helps you
-multitask efficiently.
+Using Text-to-Speech is simple. Select the text you want to hear, press play, and let Helperbird read it aloud. You can customize the voice, speed, and pitch to suit your style. It’s especially helpful for understanding complex text, multitasking, or learning new languages.
 
 ---
 
 ## List of Voices
 
-- 🇮🇪 Moira
-- 🇺🇸 Alex
-- 🇮🇹 Alice
-- 🇸🇪 Alva
-- 🇨🇦 Amelie
-- 🇩🇪 Anna
-- 🇮🇱 Carmit
-- 🇮🇩 Damayanti
-- 🇬🇧 Daniel
-- 🇦🇷 Diego
-- 🇧🇪 Ellen
-- 🇺🇸 Fiona
-- 🇺🇸 Fred
-- 🇷🇴 Ioana
-- 🇵🇹 Joana
-- 🇪🇸 Jorge
-- 🇲🇽 Juan
-- 🇹🇭 Kanya
-- 🇦🇺 Karen
-- 🇯🇵 Kyoko
-- 🇸🇰 Laura
-- 🇮🇳 Lekha
-- 🇮🇹 Luca
-- 🇧🇷 Luciana
-- 🇸🇦 Maged
-- 🇭🇺 Mariska
-- 🇹🇼 Mei-Jia
-- 🇬🇷 Melina
-- 🇷🇺 Milena
-- 🇪🇸 Monica
-- 🇳🇴 Nora
-- 🇲🇽 Paulina
-- 🇮🇳 Rishi
-- 🇺🇸 Samantha
-- 🇩🇰 Sara
-- 🇫🇮 Satu
-- 🇭🇰 Sin-ji
-- 🇿🇦 Tessa
-- 🇫🇷 Thomas
-- 🇨🇳 Ting-Ting
-- 🇮🇳 Veena
-- 🇺🇸 Victoria
-- 🇳🇱 Xander
-- 🇹🇷 Yelda
-- 🇰🇷 Yuna
-- 🇷🇺 Yuri
-- 🇵🇱 Zosia
-- 🇨🇿 Zuzana
-- 🇩🇪 Google Deutsch
-- 🇺🇸 Google US English
-- 🇬🇧 Google UK English Female
-- 🇬🇧 Google UK English Male
-- 🇪🇸 Google español
-- 🇺🇸 Google español de Estados Unidos
-- 🇫🇷 Google français
-- 🇮🇳 Google हिन्दी
-- 🇮🇩 Google Bahasa Indonesia
-- 🇮🇹 Google italiano
-- 🇯🇵 Google 日本語
-- 🇰🇷 Google 한국의
-- 🇳🇱 Google Nederlands
-- 🇵🇱 Google polski
-- 🇧🇷 Google português do Brasil
-- 🇷🇺 Google русский
-- 🇨🇳 Google 普通话（中国大陆）
-- 🇭🇰 Google 粤語（香港）
-- 🇹🇼 Google 國語（臺灣）
+Here’s a sample of the voices available:
+
+
+- 🇮🇪 Moira  
+- 🇺🇸 Alex  
+- 🇮🇹 Alice  
+- 🇸🇪 Alva  
+- 🇨🇦 Amelie  
+- 🇩🇪 Anna  
+- 🇮🇱 Carmit  
+- 🇮🇩 Damayanti  
+- 🇬🇧 Daniel  
+- 🇦🇷 Diego  
+- 🇧🇪 Ellen  
+- 🇺🇸 Fiona  
+- 🇺🇸 Fred  
+- 🇷🇴 Ioana  
+- 🇵🇹 Joana  
+- 🇪🇸 Jorge  
+- 🇲🇽 Juan  
+- 🇹🇭 Kanya  
+- 🇦🇺 Karen  
+- 🇯🇵 Kyoko  
+- 🇸🇰 Laura  
+- 🇮🇳 Lekha  
+- 🇮🇹 Luca  
+- 🇧🇷 Luciana  
+- 🇸🇦 Maged  
+- 🇭🇺 Mariska  
+- 🇹🇼 Mei-Jia  
+- 🇬🇷 Melina  
+- 🇷🇺 Milena  
+- 🇪🇸 Monica  
+- 🇳🇴 Nora  
+- 🇲🇽 Paulina  
+- 🇮🇳 Rishi  
+- 🇺🇸 Samantha  
+- 🇩🇰 Sara  
+- 🇫🇮 Satu  
+- 🇭🇰 Sin-ji  
+- 🇿🇦 Tessa  
+- 🇫🇷 Thomas  
+- 🇨🇳 Ting-Ting  
+- 🇮🇳 Veena  
+- 🇺🇸 Victoria  
+- 🇳🇱 Xander  
+- 🇹🇷 Yelda  
+- 🇰🇷 Yuna  
+- 🇷🇺 Yuri  
+- 🇵🇱 Zosia  
+- 🇨🇿 Zuzana  
+
+And many more! With over 109 languages supported, there’s a voice for everyone.
+

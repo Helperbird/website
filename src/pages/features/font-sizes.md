@@ -38,7 +38,7 @@ This feature is ideal for people who find small text hard to read, have visual i
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Customize Your Reading Experience:** Adjust font sizes on any website to suit your comfort level.  

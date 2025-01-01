@@ -43,7 +43,7 @@ This feature is perfect for studying, working, or simply reading for pleasure, w
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Easy Annotation:** Add annotations and sticky notes to PDFs for better organization and understanding.  

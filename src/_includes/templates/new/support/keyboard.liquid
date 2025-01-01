@@ -1,0 +1,25 @@
+<div class="overflow-x-auto">
+  <table class="table-auto border-collapse border border-gray-300 w-full text-left">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="border border-gray-300 px-4 py-2">Action</th>
+        <th class="border border-gray-300 px-4 py-2">Mac Shortcut</th>
+        <th class="border border-gray-300 px-4 py-2">Windows Shortcut</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    {%- for shortcut in shortcuts.combos -%}
+
+      <tr class="hover:bg-gray-50">
+        <td class="border border-gray-300 px-4 py-2">{{ shortcut.message }}</td>
+        <td class="border border-gray-300 px-4 py-2">
+            <div class="kbd kbd-sm">⌥</div> + <div class="kbd kbd-sm">{{ shortcut.key }}</div></td>
+        <td class="border border-gray-300 px-4 py-2">
+            <div class="kbd kbd-sm">Shift</div> +   <div class="kbd kbd-sm">{{ shortcut.key }}</div></td>
+      </tr>
+
+    {% endfor %}
+    </tbody>
+  </table>
+</div>

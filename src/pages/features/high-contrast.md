@@ -36,7 +36,7 @@ This feature also reduces eye strain and makes reading more comfortable, whether
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Better Visibility:** High contrast themes make text and images stand out, improving readability.  

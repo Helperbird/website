@@ -30,49 +30,83 @@ tags:
 link: reading
 url: features/reading-mode-for-chrome-and-firefox/
 ---
+## What Is This Feature?
 
-## About This Feature
+Helperbird's Reading Mode transforms any webpage into a clean, distraction-free reading experience. It removes ads, pop-ups, and other clutter, allowing you to focus on the content. With customizable font size, background color, line spacing, and margins, you can tailor your reading environment to your needs. Reading Mode also includes tools like text-to-speech, annotations, and dyslexia support to enhance accessibility and comprehension.
 
-Helperbird's Reading Mode transforms any webpage into a simple, clean reading experience. It removes
-ads and distractions, allowing you to focus on the content. Customize font size, background color,
-line spacing, and margins to suit your needs. It includes text-to-speech, annotation tools, and
-dyslexia support.
+---
 
-## Benefits
+## What Are the Benefits?
 
-- Simplifies web pages by removing ads and distractions.
-- Customizes layout to improve readability and focus.
-- Provides dyslexia support with customizable fonts and colors.
-- Improves reading comprehension by decluttering web pages.
-- Enhances accessibility for users with reading difficulties.
-- Increases productivity by making it easier to read and research.
-- Makes web reading more pleasant and less overwhelming.
-- Includes text-to-speech and other accessibility tools.
-- Works on Chrome, Firefox, Edge, and iOS browsers.
+
+**Distraction-Free Reading:** Simplifies web pages by removing ads and unnecessary elements.  
+
+**Customizable Layout:** Adjust fonts, colors, spacing, and margins for a personalized reading experience.  
+
+**Dyslexia Support:** Offers customizable fonts, colors, and layouts to support users with dyslexia.  
+
+**Improves Focus:** Declutters web pages to help you concentrate on the content.  
+
+**Accessibility Tools:** Includes text-to-speech and other features for users with reading difficulties.  
+
+**Increases Productivity:** Makes reading and researching online content easier and more efficient.  
+
+**Better Reading Experience:** Turns web pages into a pleasant, less overwhelming environment.  
+
+---
+
+## How Does It Work?
+
+Reading Mode is based on principles of **cognitive load reduction** and **visual ergonomics**, which aim to make reading less mentally and visually taxing:
+
+
+**Decluttering Content:** By removing ads, flashing images, and other distractions, Reading Mode reduces unnecessary stimuli that compete for your attention. This helps you focus entirely on the text.  
+
+**Customizable Settings:** Adjusting fonts, colors, and spacing makes the text easier to process, reducing eye strain and increasing readability. For example, wider line spacing can help users with dyslexia by reducing the overlap of letters.  
+
+**Improving Accessibility:** Text-to-speech and font customization cater to users with reading challenges like dyslexia or ADHD. Studies show that altering fonts and colors can improve reading speed and comprehension for certain users.  
+
+**Reducing Cognitive Load:** Simplified layouts make it easier for your brain to process the content, improving focus and retention.  
+
+By tailoring the reading environment to the user, Reading Mode creates a more comfortable and efficient experience, whether you're reading for work, study, or leisure.
+
+---
+
+## Who Is It For?
+
+
+**Students and Researchers:** Perfect for studying, taking notes, and reading academic articles.  
+
+**Professionals:** Great for reading reports, emails, or industry news without distractions.  
+
+**Accessibility Advocates:** Supports users with dyslexia, ADHD, or visual impairments.  
+
+**Everyday Readers:** Ideal for anyone who wants a simpler, cleaner way to read online content.
+
+---
 
 ## Features
 
-- Simplifies webpage layout by removing ads and distractions.
-- Adjustable font size and type.
-- Adjustable background color and contrast.
-- Adjustable line spacing and margins.
-- Text-to-speech with different voices and speeds.
-- Highlighting and annotation tools.
-- Support for dyslexia and other reading difficulties.
-- Saving and sharing options.
-- Print and export options.
-- Option to hide images, videos, and multimedia elements.
-- Built-in dictionary for looking up words.
-- Adjustable paragraph width.
-- Immersive Reader by Microsoft.
+- Simplifies webpage layout by removing ads and distractions.  
+- Adjustable font size, type, background color, and contrast.  
+- Customizable line spacing, margins, and paragraph width.  
+- Text-to-speech with adjustable voices and speeds.  
+- Highlighting and annotation tools.  
+- Dyslexia support tools, including fonts and layouts.  
+- Saving, sharing, and print/export options.  
+- Option to hide images, videos, and multimedia elements.  
+- Built-in dictionary for quick word lookups.  
+- Integrates with Microsoft’s Immersive Reader.  
+- Available on Chrome, Firefox, Edge, and iOS browsers.  
+
+---
 
 ## Is This a Free Feature?
 
-Yes, Helperbird's Reading Mode is free. It removes clutter and lets you customize the layout for a
-better reading experience.
+Yes, Helperbird's Reading Mode is free. It simplifies web pages and provides tools to customize your reading experience.
+
+---
 
 ## How Does It Help?
 
-- Gives you just the content you want and need.
-- No ads, no flashing images.
-- A distraction-free reading experience.
+Helperbird's Reading Mode focuses on giving you a distraction-free experience by removing ads, pop-ups, and flashing images. You can enjoy clean, uncluttered content that’s tailored to your preferences, making reading online more comfortable and productive.

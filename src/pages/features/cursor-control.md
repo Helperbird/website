@@ -35,7 +35,7 @@ Helperbird's Cursor Size feature allows you to easily change the size of your cu
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 Adjusting the size of your cursor offers several practical benefits that can enhance your browsing experience:
 

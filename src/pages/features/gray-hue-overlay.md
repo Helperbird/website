@@ -38,7 +38,7 @@ Helperbird's Grayscale feature allows you to apply a gray overlay to any website
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 - **Reduce Eye Strain:** Helps alleviate eye fatigue, headaches, and migraines caused by bright screens.  
 - **Improve Comfort:** Makes it easier for individuals with light sensitivity to use their devices.  

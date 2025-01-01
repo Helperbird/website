@@ -35,7 +35,7 @@ Helperbird's Note Organizer keeps all your sticky notes, highlights, and text in
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Stay Organized:** Keep all your notes, highlights, and text sorted and easy to find in one place.  

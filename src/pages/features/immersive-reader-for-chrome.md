@@ -38,7 +38,7 @@ Helperbird brings Microsoft's Immersive Reader to any website or PDF, making rea
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Improve Reading Comfort:** Customize text size, font, and layout to make reading easier on your eyes.  

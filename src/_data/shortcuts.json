@@ -1,0 +1,149 @@
+{
+	"combos": [
+		{
+			"message": "Turn on Helperbird",
+			"key": "."
+		},
+		{
+			"message": "Turn on Word Prediction",
+			"key": "w"
+		},
+
+		{
+			"message": "Create a Sticky Note",
+			"key": "s"
+		},
+
+		{
+			"message": "Turn on Reading Mode",
+			"key": "r"
+		},
+		{
+			"message": "Turn on Overlay",
+			"key": "o"
+		},
+		{
+			"message": "Turn on Immersive Reader",
+			"key": "i"
+		},
+
+		{
+			"message": "Turn on Extract Text",
+			"key": "e"
+		},
+		{
+			"message": "Turn on Dyslexia Ruler",
+			"key": "d"
+		},
+		{
+			"message": "Turn on Auto Scrolling",
+			"key": "a"
+		},
+		{
+			"message": "Turn on Text Color",
+			"key": "t"
+		},
+		{
+			"message": "Turn on Link Colors",
+			"key": "l"
+		},
+
+		{
+			"message": "Turn on Background Color",
+			"key": "b"
+		},
+		{
+			"message": "Turn on Paragraph Width",
+			"key": "x"
+		},
+		{
+			"message": "Turn on Column Width",
+			"key": "y"
+		},
+		{
+			"message": "Turn on Paragraph Borders",
+			"key": "z"
+		},
+		{
+			"message": "Turn on Paragraph Background",
+			"key": "g"
+		},
+		{
+			"message": "Turn on Word Spacing",
+			"key": "f"
+		},
+		{
+			"message": "Turn on Font Size",
+			"key": "u"
+		},
+		{
+			"message": "Turn on Text Alignments",
+			"key": "j"
+		},
+		{
+			"message": "Turn on Line Height",
+			"key": "k"
+		},
+		{
+			"message": "Turn on Letter Spacing",
+			"key": "q"
+		},
+		{
+			"message": "Turn on Custom Fonts",
+			"key": "n"
+		},
+		{
+			"message": "Turn on Zoom/Magnifier",
+			"key": "1"
+		},
+		{
+			"message": "Turn on ALT Text",
+			"key": "2"
+		},
+		{
+			"message": "Turn on Hide Images",
+			"key": "3"
+		},
+		{
+			"message": "Turn on Hide Gifs",
+			"key": "4"
+		},
+		{
+			"message": "Turn on Text Stroke",
+			"key": "5"
+		},
+		{
+			"message": "Turn on Saturation",
+			"key": "6"
+		},
+		{
+			"message": "Turn on High Contrast",
+			"key": "7"
+		},
+		{
+			"message": "Turn on Underline Links",
+			"key": "8"
+		},
+		{
+			"message": "Turn on Cursor Size",
+			"key": "9"
+		},
+		{
+			"message": "Turn on Spell Check",
+			"key": "0"
+		},
+		{
+			"message": "Turn on Reduce Motion",
+			"key": "m"
+		},
+
+		{
+			"message": "Turn on Translation",
+			"key": "c"
+		},
+		{
+			"message": "Take a Screenshot",
+			"key": "v"
+		}
+	]
+}

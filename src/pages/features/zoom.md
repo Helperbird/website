@@ -29,42 +29,54 @@ link: reading
 url: features/zoom/
 ---
 
-## About This Feature
 
-Helperbird's Page & Text Magnifier makes it easy to zoom in on text and images on any web page.
-Whether you need to make things bigger for better readability or visibility, this tool lets you
-adjust the zoom to suit your needs.
+## What Is This Feature?
+
+Helperbird's Page & Text Magnifier makes it easy to zoom in on text and images on any web page. Whether you need larger text for better readability or want to focus on a specific section, this tool lets you adjust the zoom level to suit your needs.
+
+The zoom stays consistent as you move between pages, so you don’t have to keep readjusting it. It’s a simple way to improve visibility and focus while browsing.
 
 ---
 
-## Benefits
-
-**Better Readability**
-Make text and images larger so they are easier to see and read.
-
-**Consistent Zoom**
-The zoom level stays the same as you move from page to page, so you don’t have to keep adjusting it.
-
-**Improved Focus**
-Zooming in can help remove distractions, making it easier to focus on what’s important.
-
-**Easy to Use**
-Just a few clicks to zoom in or out, making it simple for anyone to adjust the size of the text and
-images.
+## What Are the Benefits of This Feature?
 
 
---- 
+**Better Readability:** Make text and images larger so they’re easier to see and read.  
+
+**Consistent Zoom:** Keep the same zoom level as you navigate different pages.  
+
+**Improved Focus:** Zooming in helps remove distractions and lets you focus on what matters.  
+
+**Easy to Use:** Adjust the size of text and images with just a few clicks.  
+
+---
+
+## Who Is It For?
+
+
+**Users with Visual Impairments:** Make content easier to see without straining your eyes.  
+
+**Students and Professionals:** Zoom in on small text in documents or reports for better clarity.  
+
+**Casual Browsers:** Adjust text or image sizes to make reading more comfortable.  
+
+**Anyone Needing Better Visibility:** Great for improving readability on busy or cluttered web pages.  
+
+---
 
 ## Features
 
-**Control Zoom Level**
-Easily zoom in and out to get the perfect size for text and images.
 
-**Consistent Browsing**
-Keep the same zoom level as you move between pages.
+**Control Zoom Level:** Adjust the size of text and images to the perfect level.  
 
-**Remove Clutter**
-Zooming in can help clear away distractions on busy web pages.
+**Consistent Browsing:** Maintain the same zoom setting as you move between pages.  
 
-**Simple to Use**
-Adjusting the zoom is easy and quick, with just a few clicks. `
+**Reduce Clutter:** Focus on the content that matters by zooming in on busy web pages.  
+
+**Simple to Use:** Quickly zoom in or out with just a few clicks.  
+
+---
+
+## Is This a Free Feature?
+
+Yes, this feature is free for all Helperbird users.

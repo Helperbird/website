@@ -47,7 +47,7 @@ You can read the extracted text aloud, open it in Immersive Reader, or save it a
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Easy Text Extraction:** Select an area on the page, and Helperbird quickly extracts and processes the text for you.  

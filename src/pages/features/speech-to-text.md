@@ -32,49 +32,54 @@ link: reading
 url: features/speech-to-text/
 ---
 
-## About This Feature
 
-Instead of typing, you can speak and Helperbird will turn your speech into text.
+## What Is This Feature?
 
-## Tell Me About This Feature
+Some people call it speech-to-text, but we call it Voice Typing. With Helperbird’s Voice Typing feature, you can speak into your microphone, and it will turn your words into text. It’s an easy way to type hands-free, whether you’re writing an email, working on a document, or jotting down notes.
 
-Experience fast and accurate speech-to-text conversion with our voice typing extension for Chrome,
-Firefox, Edge, or iOS. Say goodbye to tedious typing and hello to efficient communication. Try it
-now for free!
+---
 
-## Benefits
+## What Are the Benefits of This Feature?
 
-- Increases productivity by allowing users to type hands-free.
-- Improves efficiency by enabling faster communication.
-- Offers accurate speech-to-text conversion.
-- Simple and easy-to-use interface.
-- Free to try.
-- Saves time and effort.
-- Compatible with Google Chrome, Firefox, Edge, and iOS.
-- Can be used for a variety of tasks such as writing emails, documents, and more.
-- Supports popular web apps like Google Docs and Gmail.
-- Helpful for individuals with disabilities or injuries that make typing difficult.
+- **Hands-Free Typing:** Say what you want to write instead of typing it out.  
+- **Save Time:** Quickly turn your thoughts into text without the extra effort.  
+- **Accessibility:** Ideal for anyone with an injury or disability that makes typing difficult.  
+- **Simple and Intuitive:** Easy to use, even if you’ve never tried voice typing before.  
+- **Multilingual Support:** Works in over 40 languages for global accessibility.  
+- **Compatible with Popular Apps:** Use it with Google Docs, Gmail, and more.  
+
+---
+
+## Who Is It For?
+
+- **Busy Professionals:** Quickly draft emails or documents without typing.  
+- **Students:** Take notes or work on assignments hands-free.  
+- **Language Learners:** Practice pronunciation and typing in a new language.  
+- **Anyone Who Prefers Speaking:** Great for those who find typing slow or difficult.  
+
+---
 
 ## Features
 
-- Save recorded text to notes.
-- Use Helperbird Voice Typing to compose emails easily in Gmail, Outlook, and other popular email
-  sites.
-- Fewer errors – provides an accurate and reliable method of documentation.
-- Saves time with increased efficiency and less paperwork to worry about.
-- Go hands-free and type with your voice. Get your thoughts out and take a quick pass at the end to
-  fix mistakes.
-- Practice language pronunciation using our Voice Typing engine. Helperbird supports 40+ languages.
+- Real-time conversion of speech to text.  
+- Save text directly to Helperbird notes.  
+- Compose emails in Gmail, Outlook, and other email apps.  
+- Works in over 40 languages.  
+- Hands-free functionality to speak your thoughts and edit later.  
 
-## Tell Me More About This Feature
+---
 
-Speak into the microphone, and your speech is converted into text with Helperbird's Voice Typing.
-Captured text can be saved into Helperbird notes or shared in other forms.
+## How Does It Work?
 
-Voice typing provides an alternative for people who have trouble expressing their ideas in written
-form.
+Using Helperbird's Voice Typing is easy:  
+1. Open the feature and start speaking into your microphone.  
+2. Watch as your speech is instantly converted into text.  
+3. Save the text, share it, or use it in apps like Google Docs or Gmail.
+
+Voice Typing is perfect for getting your ideas down quickly or when typing isn’t an option.
+
+---
 
 ## Is This a Free Feature?
 
-No, it is a premium feature. You can try it for free for 7 days. After that, you will need to
-purchase a subscription to continue using it.
+No, this is a premium feature. You can try it free for 7 days, and after that, you’ll need a subscription.

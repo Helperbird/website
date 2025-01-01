@@ -32,94 +32,15 @@ redirect_from: [/support/how-to-set-custom-shortcuts-in-helperbird-chrome-firefo
 
 ## About This Feature
 
-Helperbird supports keyboard shortcuts for all major features. Discover how to navigate Helperbird
-with ease and enhance your accessibility experience.
+Helperbird offers keyboard shortcuts for all its major features, making it easier to navigate and improve your  experience.
 
-## Helperbird Keyboard Shortcuts
 
-<table class="min-w-full divide-y divide-gray-200 flex-1">
-<thead>
-<tr>
-<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-base-content uppercase tracking-wider">Platform</th>
-<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-base-content uppercase tracking-wider">Windows/Chrome</th>
-<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-base-content uppercase tracking-wider">Mac</th>
-</tr>
-</thead>
-<tbody class="divide-y divide-gray-200">
-<tr>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">Use OCR</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">alt</kbd> + <kbd class="kbd">shift</kbd> + <kbd class="kbd">h</kbd>
-</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<span class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">⌥</kbd> + <kbd class="kbd">h</kbd>
-</span>
-</td>
-</tr>
-<tr>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">Use Immersive Reader</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">alt</kbd> + <kbd class="kbd">shift</kbd> + <kbd class="kbd">i</kbd>
-</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<span class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">⌥</kbd> + <kbd class="kbd">i</kbd>
-</span>
-</td>
-</tr>
-<tr>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">Annotate Website</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">alt</kbd> + <kbd class="kbd">shift</kbd> + <kbd class="kbd">n</kbd>
-</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<span class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">⌥</kbd> + <kbd class="kbd">n</kbd>
-</span>
-</td>
-</tr>
-<tr>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">Use Reading Mode</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">alt</kbd> + <kbd class="kbd">shift</kbd> + <kbd class="kbd">r</kbd>
-</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<span class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">⌥</kbd> + <kbd class="kbd">r</kbd>
-</span>
-</td>
-</tr>
-<tr>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">Pause Helperbird</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<div class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">alt</kbd> + <kbd class="kbd">shift</kbd> + <kbd class="kbd">o</kbd>
-</div>
-</td>
-<td class="px-6 py-4 whitespace-nowrap">
-<span class="leading-relaxed font-sans text-sm text-base-content">
-<kbd class="kbd">⌥</kbd> + <kbd class="kbd">o</kbd>
-</span>
-</td>
-</tr>
-</tbody>
-</table>
+## Note
+
+You will need to turn on the shortcuts for Helperbird first. They are in the Accessibility section of Helperbird.
+
+## Keyboard Shortcuts
+
+Below are the available keyboard shortcuts for Helperbird:
+
+{% include templates/new/support/keyboard.liquid %}

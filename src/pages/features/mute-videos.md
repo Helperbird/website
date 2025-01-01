@@ -36,7 +36,7 @@ This feature also helps reduce data usage and is ideal for people who are sensit
 
 ---
 
-## What Are the Benefits of This Feature?
+## What Are the Benefits?
 
 
 **Silence Distractions:** Automatically mute auto-playing videos and audio, so you can focus on what you’re browsing.  
