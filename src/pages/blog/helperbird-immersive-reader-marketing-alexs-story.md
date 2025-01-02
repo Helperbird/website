@@ -4,11 +4,8 @@ submit: false
 footer: true
 header: true
 layout: templates/blog/post.liquid
-title: Elevating Marketing Efforts with Immersive Reader in Helperbird
-description:
-  "Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how
-  the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient
-  and effective campaign management."
+title: Improving Marketing Workflows with Helperbird’s Immersive Reader
+description: Discover how Alex used the Read Aloud and Text Spacing features to simplify his workload and manage campaigns more efficiently with Helperbird.
 keywords:
   'Marketing, Immersive Reader, Read Aloud, Text Spacing, Helperbird for Chrome, productivity tools,
   accessibility software'
@@ -16,11 +13,8 @@ url: blog/immersive-reader-marketing-alexs-story/
 isBlog: true
 blog_cat: Usecase
 youtubeId: HqSjk8fC1tA
-cardTitle: 'Elevating Marketing Efforts with Immersive Reader in Helperbird'
-blog_snip:
-  "Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how
-  the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient
-  and effective campaign management."
+cardTitle: Improving Marketing Workflows with Helperbird’s Immersive Reader
+blog_snip: Discover how Alex used the Read Aloud and Text Spacing features to simplify his workload and manage campaigns more efficiently with Helperbird.
 name: Robert James Gabriel
 img: /assets/images/blog/immersive-reader-marketing-alexs-story/immersive-reader.png
 date: 2021-12-19T00:00:00.000Z

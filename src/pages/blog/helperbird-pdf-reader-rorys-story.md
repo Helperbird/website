@@ -4,10 +4,10 @@ submit: false
 footer: true
 header: true
 layout: templates/blog/post.liquid
-title: "Making PDFs Easier with Helperbird's PDF Reader"
+title: Making PDFs Easier with Helperbird's PDF Reader
 description:
-  "Follow  Rory's story as he discovers Helperbird's PDF Reader. Learn how features like Text to
-  Speech, Summarize, and more helped him handle PDF documents with ease."
+  Follow  Rory's story as he discovers Helperbird's PDF Reader. Learn how features like Text to
+  Speech, Summarize, and more helped him handle PDF documents with ease.
 keywords:
   'PDF Reader, Text to Speech, Summarize, Overlays, Dyslexia Rulers, Sticky Notes, Translation
   Support, OCR Support, Immersive Reader, Helperbird for Chrome, document accessibility'
@@ -15,10 +15,10 @@ url: blog/helperbird-pdf-reader-sams-story/
 isBlog: true
 blog_cat: Usecase
 youtubeId: M8j9v9uVnGg
-cardTitle: "Making PDFs Easier with Helperbird's PDF Reader"
+cardTitle: Making PDFs Easier with Helperbird's PDF Reader
 blog_snip:
-  "Discover how rory, a hardworking professional, used Helperbird's PDF Reader to make dealing with
-  PDF documents simpler and faster."
+  Discover how rory, a hardworking professional, used Helperbird's PDF Reader to make dealing with
+  PDF documents simpler and faster.
 name: Robert James Gabriel
 img: /assets/images/blog/helperbird-pdf-reader-rorys-story/pdf-reader.png
 date: 2022-02-05T00:00:00.000Z

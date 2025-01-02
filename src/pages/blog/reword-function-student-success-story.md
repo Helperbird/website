@@ -4,22 +4,17 @@ submit: false
 footer: true
 header: true
 layout: templates/blog/post.liquid
-title: Empowering Students with Helperbird’s Reword Function
+title: Helping Students with Helperbird’s Reword Feature
 description:
   Discover how a high school student overcame academic hurdles with the help of Helperbird's Reword
   function. Witness the transformation from avoidance to accomplishment.
-keywords:
-  'Marketing, Immersive Reader, Read Aloud, Text Spacing, Helperbird for Chrome, productivity tools,
-  accessibility software'
+keywords: Marketing, Immersive Reader, Read Aloud, Text Spacing, Helperbird for Chrome, productivity tools,accessibility software
 url: blog/reword-function-student-success-story/
 isBlog: true
 blog_cat: Usecase
 youtubeId: HqSjk8fC1tA
-cardTitle: Empowering Students with Helperbird’s Reword Function
-blog_snip:
-  "Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how
-  the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient
-  and effective campaign management."
+cardTitle: Helping Students with Helperbird’s Reword Feature
+blog_snip: Dive into Alex’s transformative marketing journey with Helperbird's Immersive Reader. Learn how the Read Aloud and Text Spacing features significantly eased his workload, enabling more efficient and effective campaign management.
 name: Robert James Gabriel
 img: /assets/images/blog/reword-function-student-success-story/reword-helperbird.png
 date: 2020-04-16T00:00:00.000Z
@@ -28,6 +23,7 @@ tags:
   - usecase
   - blog
 ---
+
 ## Supporting Student Success with Helperbird
 
 At Helperbird, our focus is on empowering every user to succeed. We know how the right tools can make a difference, and it’s inspiring to hear how our features help individuals overcome challenges.
