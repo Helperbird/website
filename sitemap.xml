@@ -1564,6 +1564,13 @@
       </url>
     
       <url>
+        <loc>https://www.helperbird.com/questions/</loc>
+        <lastmod>2025-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
         <loc>https://www.helperbird.com/recommends/</loc>
         <lastmod>2025-01-02</lastmod>
         <changefreq>monthly</changefreq>
