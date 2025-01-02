@@ -151,6 +151,22 @@ url: features/
           {{ post.data.featureDescription }}
         </p>
         <div class="mt-4 mb-4 flex items-center gap-x-4">
+
+       
+        {% if post.data.free == true %}
+          <div
+          class="badge badge-info">
+        Free Feature
+        </div>
+      {% endif %}
+      {% if post.data.free == false %}
+        <div
+        class="badge badge-error">
+      Pro Feature
+      </div>
+      {% endif %}
+
+    
         </div>
 		  </div>
     </a>
@@ -211,6 +227,19 @@ url: features/
           {{ post.data.featureDescription }}
         </p>
         <div class="mt-4 mb-4 flex items-center gap-x-4">
+            
+        {% if post.data.free == true %}
+          <div
+          class="badge badge-info">
+        Free Feature
+        </div>
+      {% endif %}
+      {% if post.data.free == false %}
+        <div
+        class="badge badge-error">
+      Pro Feature
+      </div>
+      {% endif %}
         </div>
       </div>
     </a>
@@ -257,6 +286,19 @@ url: features/
           {{ post.data.featureDescription }}
         </p>
         <div class="mt-4 mb-4 flex items-center gap-x-4">
+            
+        {% if post.data.free == true %}
+          <div
+          class="badge badge-info">
+        Free Feature
+        </div>
+      {% endif %}
+      {% if post.data.free == false %}
+        <div
+        class="badge badge-error">
+      Pro Feature
+      </div>
+      {% endif %}
         </div>
       </div>
     </a>
