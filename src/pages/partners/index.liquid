@@ -3,9 +3,9 @@ new: false
 footer: true
 header: true
 layout: templates/base.html
-title: Sign Up for Free Helperbird Pro - Become a Helperbird Trainer
+title: Helperbird Pro For Free - Helperbird Trainers & Discounts
 youtubeId: vwT8SAJfU3E
-cardTitle: Helperbird Trainers
+cardTitle: Helperbird Discounts
 description: Teachers can sign up for a free copy of Helperbird Pro. Explore our resources, get expert assistance, and find solutions with the help of our dedicated Helperbird support team.
 keywords:
   - Dyslexia software
@@ -31,19 +31,32 @@ url: partners/
 <div class="rounded-2xl text-black py-24 sm:py-32 sm:py-16 lg:px-4 mb-4">
   <div class="mx-auto max-w-4xl text-center">
     <h1
-      class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl"
+      class="leading-relaxed font-sans text-4xl font-semibold text-black sm:text-6xl"
     >
-    Get Helperbird Pro for Free
+    Educational Tech Trainers and Teachers
+    <br>
+    <b>
+    Get Helperbird Pro for Free!
+    </b>
+
+
     </h1>
-    <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-      Educational tech trainers and teachers, grab our exclusive offer! Get free access to Helperbird Pro and enjoy complimentary swag and goodies, with no hidden fees or catches. Simply fill out the form below, and our team will swiftly review your details and have you set up in no time.
+    <p class="leading-relaxed font-sans mt-8 text-2xl text-black">
+      Sign up today for free access to Helperbird Pro, plus some great swag and goodies—no fees, no catches. Just fill out the form below, and we’ll review your details and get you started quickly.
+
+
+
+
+
+
+
     </p>
     <div class="mt-10 flex items-center justify-center gap-x-6">
-      <button onclick="download_modal.showModal()" class="btn btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+      <button onclick="download_modal.showModal()" class="btn btn-lg btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
         Download
     </button>
 
-      <a href="#apply" class="btn-base btn-secondary btn shadow-md" title="Join our team and help others by becoming a Helperbird trainer">Apply to be a Helperbird trainer</a>
+      <a href="#apply" class="btn btn-secondary btn-lg shadow-md" title="Join our team and help others by becoming a Helperbird trainer">Get the Discount</a>
 
     </div>
 
@@ -60,9 +73,9 @@ url: partners/
 
 
 
-<section class="relative isolate border-2 border-stone-300 bg-base-100 card rounded-2xl shadow-md mt-16 mb-16 " id="apply">
+<section class="relative mt-16 mb-16 " id="apply">
   <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-    <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 ">
+    <div class="relative px-6 pb-20 pt-24  card card-compact  shadow-md rounded-xl bg-base-100 lg:px-8 ">
       <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
         <h2 class="leading-relaxed font-sans text-3xl font-bold text-black">Apply to be a Helperbird Trainer</h2>
         <p class="leading-relaxed font-sans mt-6 text-lg text-black">
@@ -114,7 +127,7 @@ url: partners/
 
 
 
-<div class="border-2 border-stone-300 bg-base-100 card rounded-xl py-24 sm:py-32 my-16">
+<div class="card card-compact  shadow-md rounded-xl bg-base-100  py-24 sm:py-32 my-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Helperbird Trainers</h2>
@@ -124,7 +137,7 @@ url: partners/
       {%- for friend in partners.friends -%}
         <li>
           <img
-            class="mx-auto h-24 w-24 rounded-2xl"
+            class="mx-auto h-24 w-24 rounded-full"
             src="{{ friend.img }}"
             alt="Photo of {{ friend.title }}">
           <h3 class="leading-relaxed font-sans mt-6 text-base font-semibold text-black line-clamp-1">{{ friend.title }}</h3>
