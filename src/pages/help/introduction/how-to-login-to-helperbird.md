@@ -92,7 +92,7 @@ In the new tab, scroll to the subscription section, enter your subscription key,
 
 ## Video Tutorial
 
-<div class="mt-12 mb-12 bg-stone-200 rounded-2xl aspect-w-16 aspect-h-9">
+<div class="mt-12 mb-12 bg-stone-300 rounded-2xl aspect-w-16 aspect-h-9">
 <iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/oAxYuYptc3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 ---
