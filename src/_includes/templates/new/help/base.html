@@ -221,22 +221,19 @@
 						{% for item in help.home %}
 
 						<li class="group flex flex-col items-start">
-							<div
+							<a
+								href="{{item.link}}"
+								title="{{item.title }}"
 								class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
 							>
 								<div class="card-body flex flex-grow flex-col">
-									<h2 class="card-title font-sans font-bold leading-relaxed">{{item.title}}</h2>
-									<p class="mb-2 font-sans text-base leading-relaxed">{{item.description}}</p>
+									<h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.title}}</h2>
+									<p class="mt-2 text-base text-black">{{item.description}}</p>
 									<div class="card-actions mt-4 justify-end">
-										<a
-											href="{{item.link}}"
-											title="{{item.title }}"
-											class="link-hover link text-blue-500 hover:text-blue-700"
-											>Vist guide</a
-										>
+									
 									</div>
 								</div>
-							</div>
+							</a>
 						</li>
 
 						{%- endfor -%}
