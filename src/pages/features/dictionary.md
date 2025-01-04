@@ -22,7 +22,7 @@ featureDescription:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
   define, and grasp the meaning of any English word to enrich your reading experience.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

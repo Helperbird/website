@@ -24,7 +24,7 @@ featureDescription:
   your favorite websites effortlessly, ensuring you can return to must-read content whenever you
   like.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

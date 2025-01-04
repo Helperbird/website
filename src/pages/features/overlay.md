@@ -22,7 +22,7 @@ featureDescription:
   Make websites easier to read with Helperbird's Overlay & Tint feature. Adjust brightness,
   contrast, and colors to reduce glare and ease eye strain.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

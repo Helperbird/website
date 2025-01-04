@@ -22,7 +22,7 @@ featureDescription:
   Personalize your reading comfort with Helperbird's Font Size feature. Easily increase or decrease
   text size on any website to improve readability and tailor your online reading experience.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

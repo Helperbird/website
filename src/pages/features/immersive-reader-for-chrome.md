@@ -22,7 +22,7 @@ featureDescription:
   Use Microsoft's Immersive Reader on any website or PDF with Helperbird. Improve reading fluency
   and understanding. Compatible with Chrome, Edge, Firefox, and iOS devices.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features
