@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Customizable Auto Scroll
 description:
   Personalize your browsing experience with Helperbird's Customizable Auto Scroll feature.
@@ -24,6 +24,7 @@ featureDescription:
   Effortlessly set your scroll speed to slow, medium, or fast and navigate through websites at your
   own pace. Available across Chrome, Firefox, Edge, and Safari.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

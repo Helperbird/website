@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: High Contrast Modes
 description:
   Choose from various high-contrast color filters to enhance readability and reduce eye strain.
@@ -20,6 +20,7 @@ cardTitle: High Contrast Mode
 featureDescription:
   Choose from various high-contrast color filters to enhance readability and reduce eye strain.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

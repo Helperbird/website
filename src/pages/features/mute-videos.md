@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Mute Auto-playing Videos
 description:
   Stop annoying auto-playing videos and control playback speeds with Helperbird. Enjoy a quieter,
@@ -22,6 +22,7 @@ featureDescription:
   Stop annoying auto-playing videos and control playback speeds with Helperbird. Enjoy a quieter,
   more focused browsing experience on Chrome, Edge, Firefox, iPad, and iPhone.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

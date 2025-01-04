@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Easily Align Text on Any Website | Helperbird
 description:
   Change the text alignment on any website with Helperbird's easy Text Alignment feature. Make
@@ -22,6 +22,7 @@ featureDescription:
   Change the text alignment on any website with Helperbird's Text Alignment feature. Make reading
   easier by customizing the text alignment to your preference.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Easily Change Fonts on Any Website with Dyslexia-Friendly Options
 description:
   Discover how Helperbird's Easy Font Change feature improves your reading experience. Choose from
@@ -24,6 +24,7 @@ featureDescription:
   OpenDyslexic, or choose from 18 other fonts. Great for people with dyslexia or anyone who wants a
   different way to read.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

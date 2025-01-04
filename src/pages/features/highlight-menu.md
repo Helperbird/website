@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Highlight Menu - Simplify Your Reading Experience
 description:
   Make reading easier with Helperbird's Highlight Menu. Use tools like text-to-speech, dictionary,
@@ -29,6 +29,7 @@ featureDescription:
   text and instantly access features like text-to-speech, dictionary, web search, immersive reader,
   highlighter, and translation.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

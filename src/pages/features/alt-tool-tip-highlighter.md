@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Show Image & Link Descriptions on Mouse Over
 description:
   Show image and link descriptions when you hover over them with Helperbird on any website or PDF.
@@ -23,6 +23,7 @@ featureDescription:
   Helperbird on any website or PDF. Gain quick insights into content by hovering over images and
   links.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

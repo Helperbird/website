@@ -251,6 +251,8 @@ height: 1.5rem !important;
           <div class="mx-auto mt-16 flow-root max-w-3xl sm:mt-24">
             <div class="-m-2 rounded-xl lg:rounded-2xl">
               <div class="aspect-w-16 aspect-h-9">
+         
+                {% if isCompare == false %}
                 <iframe
                   src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
                   autoplay="autoplay"
@@ -264,6 +266,20 @@ height: 1.5rem !important;
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen>
                 </iframe>
+              {% endif %}
+              {% if isCompare == true %}
+                <div class="diff aspect-[16/9]  p-4 rounded-xl bg-black" data-theme="dark">
+                <div class="diff-item-1 rounded-2xl">
+                  <img alt="After {{cardTitle}} was enabled" src="/assets/images/difference/{{url}}before.png" />
+                </div>
+                <div class="diff-item-2 rounded-2xl">
+                  <img
+                    alt="Before {{cardTitle}} was enabled"
+                    src="/assets/images/difference/{{url}}after.png" />
+                </div>
+                <div class="diff-resizer bg-black"></div>
+              </div>
+              {% endif %}
               </div>
             </div>
           </div>

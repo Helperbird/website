@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Take Notes in Your Browser with Helperbird
 description:
   Easily take and organize notes with Helperbird's In-Browser Document Editor. Create, edit, and
@@ -22,6 +22,7 @@ featureDescription:
   Easily take and organize notes with Helperbird's In-Browser Document Editor. Create, edit, and
   manage your documents right in your browser. Export to Google Docs, Markdown, and more.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

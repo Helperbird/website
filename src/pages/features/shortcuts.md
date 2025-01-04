@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Helperbird Keyboard Shortcuts
 description:
   Learn about Helperbird's keyboard shortcuts and become a pro at using Helperbird. Discover how to
@@ -22,6 +22,7 @@ featureDescription:
   Discover Helperbird's keyboard shortcuts and become a pro at navigating the extension. Enhance
   your accessibility experience with quick and efficient shortcuts.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

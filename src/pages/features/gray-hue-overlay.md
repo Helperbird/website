@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Reduce Eye Strain with a Grayscale Overlay
 description:
   Minimize eye strain and improve comfort with Helperbird's Grayscale feature. Apply a gray overlay
@@ -24,6 +24,7 @@ featureDescription:
   to any website to lessen glare, making your reading experience more enjoyable and reducing visual
   fatigue.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

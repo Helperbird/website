@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Customize Your Paragraphs
 description:
   Make reading easier and more enjoyable with Helperbird's Customize Your Paragraphs feature. Add
@@ -22,6 +22,7 @@ featureDescription:
   Make reading easier and more enjoyable with Helperbird's Customize Your Paragraphs feature. Add
   colorful borders around paragraphs to break up long sections of text and improve readability.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

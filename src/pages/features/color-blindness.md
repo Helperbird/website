@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Color Blindness Assistance
 description:
   Improve web accessibility for people with color blindness using Helperbird. Make links and text
@@ -23,6 +23,7 @@ featureDescription:
   better readability on any website.
 featurePageTitle: Color Blindness Support
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

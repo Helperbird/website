@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Custom Paragraph Width for Comfortable Reading
 description:
   Easily adjust the width of paragraphs with Helperbird's feature. Improve readability and reduce
@@ -22,6 +22,7 @@ featureDescription:
   Easily adjust the width of paragraphs with Helperbird's feature. Improve readability and reduce
   eye strain on websites and PDFs by customizing text layout to your needs.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

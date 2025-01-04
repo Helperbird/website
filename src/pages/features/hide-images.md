@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Hide Images or GIFs
 description:
   Use Helperbird's Media Filter to hide all images or GIFs on any webpage. Reduce distractions and
@@ -22,6 +22,7 @@ featureDescription:
   Use Helperbird's Media Filter to hide all images or GIFs on any webpage. Reduce distractions and
   focus better on reading. Easily show them again when you're ready.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

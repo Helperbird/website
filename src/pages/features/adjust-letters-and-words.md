@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Easily Adjust Line, Letter, and Word Spacing
 description:
   Fine-tune the spacing of lines, letters, and words on any website or PDF with ease. Improve
@@ -24,6 +24,7 @@ featureDescription:
 link: reading
 url: features/adjust-letters-and-words/
 group: reading
+isCompare: true
 color: blue
 tags:
   - features

@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Strong Privacy Protection
 description:
   Trust Helperbird's strong privacy protection. We prioritize your privacy by not storing, selling,
@@ -22,6 +22,7 @@ featureDescription:
   Trust Helperbird's strong privacy protection. We prioritize your privacy by not storing, selling,
   or misusing your data. Your information is safe with us.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

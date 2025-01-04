@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: One-Click Screenshot Tool for Webpages and PDFs
 description:
   Easily capture screenshots of entire webpages or specific areas with Helperbird's Screenshot Tool.
@@ -22,6 +22,7 @@ featureDescription:
   Easily capture screenshots of entire webpages or specific areas with Helperbird's Screenshot Tool.
   Save your captures directly to your device for quick access and future reference.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

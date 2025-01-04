@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Reading Guide for Better Focus
 description:
   Improve your reading with Helperbird's Reading Guide. It helps you stay focused on the text,
@@ -22,6 +22,7 @@ featureDescription:
   Improve your reading with Helperbird's Reading Guide. It helps you stay focused on the text,
   reducing distractions and enhancing comprehension.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

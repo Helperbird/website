@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Stem & Maths Reader Extension with Immersive Reader
 description:
   Helperbird's Maths Reader makes it easy to read and understand math and STEM problems. Select an area on the screen, and Helperbird will extract the problem and open it in Immersive Reader.
@@ -17,6 +17,7 @@ cardTitle: Maths Reader
 featureDescription:
   Quickly understand math problems with Helperbird's Maths Reader. Select an area, and we'll open the problem in Immersive Reader for easier comprehension.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

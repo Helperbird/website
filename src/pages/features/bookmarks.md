@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Save Articles for Later with Helperbird
 description:
   Never lose track of important articles with Helperbird's Read it Later feature. Bookmark and save
@@ -24,6 +24,7 @@ featureDescription:
   your favorite websites effortlessly, ensuring you can return to must-read content whenever you
   like.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

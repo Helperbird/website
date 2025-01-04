@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Dyslexia Reading Ruler for Better Focus
 description:
   Make reading easier on websites and PDFs with Helperbird's Dyslexia Reading Ruler. It helps people
@@ -22,6 +22,7 @@ featureDescription:
   Make reading easier on websites and PDFs with Helperbird's Dyslexia Reading Ruler. It helps people
   with dyslexia by highlighting the text, making it easier to focus and understand.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

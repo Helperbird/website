@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: OCR/Screenshot Reader - Extract and Read Text from Images
 description:
   Easily capture, read, and save text from images or screenshots with Helperbird's OCR tool. Enjoy
@@ -31,6 +31,7 @@ featureDescription:
   Reader. Features include text-to-speech, saving to the clipboard, note-taking, and opening in
   Immersive Reader.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

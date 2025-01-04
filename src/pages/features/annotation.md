@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title:  Annotate and Highlight Web Pages & PDFs
 description:
   Improve your research and workflow with Helperbird's Annotations & Sticky Notes. Highlight,
@@ -27,6 +27,7 @@ featureDescription:
   find your notes easily.
 date: 2016-01-02
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

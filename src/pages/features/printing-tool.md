@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: One-Click Quick Print
 description:
   Easily print any webpage with Helperbird's One-Click Quick Print feature. Print the whole page or
@@ -22,6 +22,7 @@ featureDescription:
   Easily print any webpage with Helperbird's One-Click Quick Print feature. Print the whole page or
   just the content you select, making printing simple and hassle-free.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

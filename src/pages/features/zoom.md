@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Page & Text Magnifier Extension
 description:
   Make reading online easier with Helperbird's Page & Text Magnifier. Zoom in on text and images for
@@ -22,6 +22,7 @@ featureDescription:
   Enhance your online reading with Helperbird's Page & Text Magnifier. Easily zoom in on text and
   entire pages for better readability and visibility.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

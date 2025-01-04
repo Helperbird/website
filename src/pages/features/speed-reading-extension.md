@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Speed Reading Extension - Boost Your Reading Speed and Efficiency
 description:
   Unlock your reading potential with Helperbird's powerful speed reading extension. Improve your
@@ -24,6 +24,7 @@ featureDescription:
   reading speed and efficiency with customizable settings and easy-to-use features. Try it now and
   experience faster reading.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

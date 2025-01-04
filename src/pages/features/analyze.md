@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Advanced Text Statistics
 description:
   Easily track various text metrics on any website or PDF with Helperbird's extension. With just two
@@ -24,6 +24,7 @@ featureDescription:
   clicks, get a comprehensive analysis including unique word count, shortest words, estimated
   reading time, and more.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Immersive Reader Extension - Website or PDF
 description:
   Use Microsoft's Immersive Reader on any website or PDF with Helperbird. Improve reading fluency
@@ -22,6 +22,7 @@ featureDescription:
   Use Microsoft's Immersive Reader on any website or PDF with Helperbird. Improve reading fluency
   and understanding. Compatible with Chrome, Edge, Firefox, and iOS devices.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Reading Mode for a Cleaner, Focused Reading Experience
 description:
   Use Helperbird's Reading Mode to simplify web pages and remove distractions. Enjoy a clean,
@@ -24,6 +24,7 @@ featureDescription:
   Use Helperbird's Reading Mode to simplify web pages and remove distractions. Enjoy a clean,
   focused reading environment with added tools for accessibility and productivity.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Listen to Web Pages, Ebooks, and PDFs with Helperbird's Text to Speech
 description:
   Make reading easier with Helperbird's text to speech extension. Convert any web page, ebook, or
@@ -23,6 +23,7 @@ featureDescription:
   Convert written text into lifelike speech effortlessly. With Helperbird, have the contents of web
   pages, ebooks, and PDFs read aloud to you using realistic, natural-sounding voices.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

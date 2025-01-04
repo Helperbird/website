@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Simplify and Reword Text on Web Pages
 description:
   Make reading easier with Helperbird's Reword and Simplify feature. Adjust the reading level of
@@ -30,6 +30,7 @@ featureDescription:
   text to make complex content easier to understand, perfect for improving reading skills or
   overcoming language barriers.
 group: comprehension
+isCompare: false 
 color: orange
 tags:
   - features

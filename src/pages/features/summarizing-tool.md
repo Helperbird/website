@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Summarize Articles and Pages with One Click
 description:
   Easily summarize web pages and articles with Helperbird's one-click tool. Turn long texts into
@@ -29,6 +29,7 @@ featureDescription:
   With Helperbird's Auto-Summary feature, distill complex articles and web pages into key bullet
   points. Ideal for quick overviews, this feature enhances your productivity and comprehension.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

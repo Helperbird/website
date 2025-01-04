@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Custom Colors for Links, Backgrounds, and Fonts
 description:
   Customize the link, visited links, background, and font colors on any website with Helperbird's
@@ -22,6 +22,7 @@ featureDescription:
   Adjust font, background, and link colors to enhance your online experience and make websites work
   for you.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

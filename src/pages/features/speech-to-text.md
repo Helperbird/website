@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: The Best Voice Typing Extension for Chrome, Firefox, Edge, and iOS
 description:
   Experience fast, accurate Speech to Text conversion on Chrome, Firefox, Edge, and iOS with
@@ -24,6 +24,7 @@ featureDescription:
   Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free
   today!
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

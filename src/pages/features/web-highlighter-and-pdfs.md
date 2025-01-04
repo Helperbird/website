@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Highlight Text on Websites and PDFs with Helperbird
 description:
   Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web
@@ -29,6 +29,7 @@ featureDescription:
   Make your reading and note-taking easier with Helperbird's Web Highlighter. Highlight text on web
   pages and PDFs in different colors with our easy-to-use browser extension.
 group: productivity
+isCompare: false 
 color: orange
 tags:
   - features

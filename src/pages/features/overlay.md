@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Customizable Overlay and Tint Extension
 description:
   Make websites easier to read with Helperbird's Overlay & Tint feature. Adjust brightness,
@@ -22,6 +22,7 @@ featureDescription:
   Make websites easier to read with Helperbird's Overlay & Tint feature. Adjust brightness,
   contrast, and colors to reduce glare and ease eye strain.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

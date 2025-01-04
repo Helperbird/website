@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Word Prediction Extension for Every Website and Google Docs
 description:
   Maximize your writing skills with Helperbird's word prediction extension, available on Google Docs
@@ -25,6 +25,7 @@ featureDescription:
   and across the web. Boost your productivity and type more accurately with our cutting-edge,
   AI-driven autocomplete and suggestions.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

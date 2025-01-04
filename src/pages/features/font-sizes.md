@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Customizable Font Sizes
 description:
   Personalize your reading comfort with Helperbird's Font Size feature. Easily increase or decrease
@@ -22,6 +22,7 @@ featureDescription:
   Personalize your reading comfort with Helperbird's Font Size feature. Easily increase or decrease
   text size on any website to improve readability and tailor your online reading experience.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

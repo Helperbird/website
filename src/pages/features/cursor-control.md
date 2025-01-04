@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Customize Your Cursor Size
 description:
   Easily adjust your cursor size with Helperbird's Cursor Size feature. Perfect for users with
@@ -23,6 +23,7 @@ featureDescription:
   Easily adjust your cursor size with Helperbird's Cursor Size feature. Perfect for users with
   visual or dexterity challenges, and for those who want a personalized browsing experience.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

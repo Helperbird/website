@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Dictionary | Research, Define, and Understand Words
 description:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
@@ -22,6 +22,7 @@ featureDescription:
   Unlock deeper understanding of words using Helperbird's Dictionary feature. Easily look up,
   define, and grasp the meaning of any English word to enrich your reading experience.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

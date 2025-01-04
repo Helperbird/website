@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Easily Translate Words, Websites, and PDFs
 description:
   Break language barriers with Helperbird's Translation feature. Select text on any website or PDF,
@@ -22,6 +22,7 @@ featureDescription:
   Break language barriers with Helperbird's Translation feature. Select text on any website or PDF,
   right-click, and translate instantly with Google Translate.
 group: reading
+isCompare: false 
 color: blue
 tags:
   - features

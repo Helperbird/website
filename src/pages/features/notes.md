@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Easy Note Organization with Helperbird
 description:
   Keep track of your notes, highlights, and text easily with Helperbird's Note Organizer. Access
@@ -22,6 +22,7 @@ featureDescription:
   Keep track of your notes, highlights, and text easily with Helperbird's Note Organizer. Access
   your notes from any device for a smooth and organized experience.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features

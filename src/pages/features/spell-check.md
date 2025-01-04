@@ -2,7 +2,7 @@
 new: false
 footer: true
 header: true
-layout: templates/features_two.liquid
+layout: templates/features.liquid
 title: Simple Online Spell Check Extension
 description:
   Improve your writing with Helperbird's easy-to-use online spell checker. Available as a Chrome,
@@ -24,6 +24,7 @@ featureDescription:
   Boost your writing confidence with Helperbird's Spelling & Grammar Checker. Available on Chrome,
   Edge, and iPad, our tool helps you polish your spelling and grammar effortlessly.
 group: reading
+isCompare: false 
 color: orange
 tags:
   - features
