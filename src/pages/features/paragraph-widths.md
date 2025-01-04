@@ -22,7 +22,7 @@ featureDescription:
   Easily adjust the width of paragraphs with Helperbird's feature. Improve readability and reduce
   eye strain on websites and PDFs by customizing text layout to your needs.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

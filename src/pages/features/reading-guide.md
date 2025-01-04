@@ -22,7 +22,7 @@ featureDescription:
   Improve your reading with Helperbird's Reading Guide. It helps you stay focused on the text,
   reducing distractions and enhancing comprehension.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

@@ -24,7 +24,7 @@ featureDescription:
   Helperbird's Voice Typing feature. Make communication simpler and more efficient. Try it free
   today!
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

@@ -22,7 +22,7 @@ featureDescription:
   Adjust font, background, and link colors to enhance your online experience and make websites work
   for you.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

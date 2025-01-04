@@ -27,7 +27,7 @@ featureDescription:
   find your notes easily.
 date: 2016-01-02
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

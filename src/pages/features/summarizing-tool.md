@@ -29,7 +29,7 @@ featureDescription:
   With Helperbird's Auto-Summary feature, distill complex articles and web pages into key bullet
   points. Ideal for quick overviews, this feature enhances your productivity and comprehension.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

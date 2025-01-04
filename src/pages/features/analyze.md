@@ -24,7 +24,7 @@ featureDescription:
   clicks, get a comprehensive analysis including unique word count, shortest words, estimated
   reading time, and more.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

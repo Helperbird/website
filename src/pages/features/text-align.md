@@ -22,7 +22,7 @@ featureDescription:
   Change the text alignment on any website with Helperbird's Text Alignment feature. Make reading
   easier by customizing the text alignment to your preference.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

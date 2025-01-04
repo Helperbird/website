@@ -24,7 +24,7 @@ featureDescription:
   reading speed and efficiency with customizable settings and easy-to-use features. Try it now and
   experience faster reading.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features
