@@ -31,19 +31,21 @@ permalink:  help/admin/
     <div class="mt-16 sm:mt-20">
         <ul role="list" class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
             {% for item in collections.admin %}
-            <li class="group flex flex-col items-start">
-                <div class="card card-compact bg-base-100 transition-all duration-200 hover:-translate-y-1 shadow-md h-full flex flex-col">
-                    <div class="card-body flex flex-col flex-grow">
-                        <h2 class="leading-relaxed font-sans card-title font-bold">{{item.data.cardTitle}}</h2>
-                        <p class="leading-relaxed font-sans text-base mb-2 flex-grow">{{item.data.description}}</p>
-                        <div class="card-actions justify-end mt-auto">
-                            <a href="{{item.url}}" title="{{item.data.cardTitle }}" class="link link-hover text-blue-500 hover:text-blue-700">
-                                Visit guide
-                            </a>
+                <li class="group flex flex-col items-start">
+                    <a
+                        href="{{item.url}}"
+                        title="{{item.data.cardTitle }}"
+                        class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
+                    >
+                        <div class="card-body flex flex-grow flex-col">
+                            <h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.data.cardTitle}}</h2>
+                            <p class="mt-2 text-base text-black">{{item.data.description}}</p>
+                            <div class="card-actions mt-4 justify-end">
+                            <div class="btn btn-sm btn-outline btn-primary">Read more</div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </li>
+                    </a>
+                </li>
             {% endfor %}
         </ul>
         
