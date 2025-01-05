@@ -14,7 +14,7 @@ keywords:
   OpenDyslexic
 featurePageTitle: Organize and Access Your Notes with Helperbird's Note Organizer
 img: i1EeaekPHIo
-icon: '/src/_includes/svgs/text-to-speech.svg'
+icon: '/src/_includes/svgs/organizer.svg'
 free: false
 youtubeId: vwT8SAJfU3E
 cardTitle: Note Organizer
