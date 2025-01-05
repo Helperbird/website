@@ -203,6 +203,7 @@ height: 1.5rem !important;
     border-color: black !important;
     --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1)  !important;
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color) !important;
+    content: '↔️' !important;
   }
   </style>
 
@@ -219,9 +220,22 @@ height: 1.5rem !important;
         <div class="card py-20 bg-base-100 shadow-md">
           <div class="mx-auto max-w-4xl px-6 lg:px-8 text-center">
 
-          <div class="breadcrumbs max-w-2xl text-lg mx-auto border-b border-gray-200 pb-4 mb-12">
-  <ul class="mx-auto w-fit gap-2">
-  
+          <div class="breadcrumbs max-w-2xl text-lg mx-auto border-b border-gray-200 pb-2 mb-8">
+
+     
+
+  <ul class="mx-auto w-fit ">
+  <li>
+    <a href="/" title="Visit Helperbird Homepage" class=" btn btn-ghost">
+    <span class="sr-only">Helperbird</span>
+    <img
+      class="h-8 "
+      src="/assets/images/pwa/logo/full.png"
+      alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background."
+    />
+ 
+  </a>
+  </li>
     <li>
       <a href="/features/" class="btn btn-sm btn-outline gap-2" aria-current="page" title="Helperbird Features page">
       
@@ -317,6 +331,23 @@ height: 1.5rem !important;
                   {{ content | safe }}
 
   
+                  <hr class="mt-4">
+                  <h2 id="how-does-it-work%3F" tabindex="-1" class="leading-relaxed font-display text-2xl my-8 font-semibold text-black">Video</h2>
+                  <div class="relative aspect-w-16 aspect-h-9"> 
+                  <iframe
+                    src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
+                    autoplay="autoplay"
+                    controls="true"
+                    loop="loop"
+                    muted="muted"
+                    playsinline="playsinline"
+                class="absolute inset-0 w-full h-full rounded-xl"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                  </iframe>
+               </div>
 
           </div>
         </section>
@@ -388,10 +419,10 @@ height: 1.5rem !important;
             </blockquote>
             <figcaption class="mt-10 flex items-center gap-x-6">
              <img
-  class="h-12 w-12 rounded-2xl bg-gray-50"
-  src="https://lh3.googleusercontent.com/a-/ALV-UjUIGu6eAxSsysN7EUFDJabk9TdGL32XCi0VxVtWbMQvAIB6R6fy=s96-w96-h96"
-  alt="Charlie Nishelle Calkins, recognized for her contributions to Helperbird"
->
+                class="h-12 w-12 rounded-2xl bg-gray-50"
+                src="https://lh3.googleusercontent.com/a-/ALV-UjUIGu6eAxSsysN7EUFDJabk9TdGL32XCi0VxVtWbMQvAIB6R6fy=s96-w96-h96"
+                alt="Charlie Nishelle Calkins, recognized for her contributions to Helperbird"
+              >
 
               <div class="text-sm leading-6">
                 <div class="font-semibold">Jennifer Goodwin

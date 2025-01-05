@@ -23,7 +23,7 @@ featureDescription:
   Easily adjust your cursor size with Helperbird's Cursor Size feature. Perfect for users with
   visual or dexterity challenges, and for those who want a personalized browsing experience.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features
