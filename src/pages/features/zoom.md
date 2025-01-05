@@ -22,7 +22,7 @@ featureDescription:
   Enhance your online reading with Helperbird's Page & Text Magnifier. Easily zoom in on text and
   entire pages for better readability and visibility.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features
