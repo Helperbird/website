@@ -23,7 +23,7 @@ featureDescription:
   Convert written text into lifelike speech effortlessly. With Helperbird, have the contents of web
   pages, ebooks, and PDFs read aloud to you using realistic, natural-sounding voices.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

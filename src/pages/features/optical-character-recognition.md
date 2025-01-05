@@ -31,7 +31,7 @@ featureDescription:
   Reader. Features include text-to-speech, saving to the clipboard, note-taking, and opening in
   Immersive Reader.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

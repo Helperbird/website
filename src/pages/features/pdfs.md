@@ -26,13 +26,13 @@ featureDescription:
   features. With integrated text-to-speech, Immersive Reader, and a highlighter tool, navigating and
   studying PDFs becomes a seamless experience.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features
   - accessibility
 link: reading
-url: features/PDFs/
+url: features/pdfs/
 ---
 
 

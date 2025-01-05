@@ -30,7 +30,7 @@ featureDescription:
   text to make complex content easier to understand, perfect for improving reading skills or
   overcoming language barriers.
 group: comprehension
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

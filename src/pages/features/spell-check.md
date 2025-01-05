@@ -24,7 +24,7 @@ featureDescription:
   Boost your writing confidence with Helperbird's Spelling & Grammar Checker. Available on Chrome,
   Edge, and iPad, our tool helps you polish your spelling and grammar effortlessly.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

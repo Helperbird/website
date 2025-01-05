@@ -22,7 +22,7 @@ featureDescription:
   Easily print any webpage with Helperbird's One-Click Quick Print feature. Print the whole page or
   just the content you select, making printing simple and hassle-free.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

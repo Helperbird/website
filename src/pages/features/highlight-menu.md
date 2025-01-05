@@ -29,7 +29,7 @@ featureDescription:
   text and instantly access features like text-to-speech, dictionary, web search, immersive reader,
   highlighter, and translation.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

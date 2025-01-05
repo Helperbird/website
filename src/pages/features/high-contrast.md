@@ -20,7 +20,7 @@ cardTitle: High Contrast Mode
 featureDescription:
   Choose from various high-contrast color filters to enhance readability and reduce eye strain.
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features

@@ -17,7 +17,7 @@ cardTitle: Maths Reader
 featureDescription:
   Quickly understand math problems with Helperbird's Maths Reader. Select an area, and we'll open the problem in Immersive Reader for easier comprehension.
 group: reading
-isCompare: false 
+isCompare: true 
 color: orange
 tags:
   - features

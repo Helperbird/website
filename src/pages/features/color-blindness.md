@@ -23,7 +23,7 @@ featureDescription:
   better readability on any website.
 featurePageTitle: Color Blindness Support
 group: reading
-isCompare: false 
+isCompare: true 
 color: blue
 tags:
   - features
