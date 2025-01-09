@@ -1,6 +1,22 @@
 {
 	"new": [
 		{
+			"version": "2025.1.8",
+			"date": "2024 1 8",
+			"changes": [
+			  {
+				"title": "OCR Beta is Here!",
+				"description": "In side the 'Extract Text' section, turn on the beta option to see the next generation of OCR. It's faster, more accurate, and supports more languages."
+			  },
+			  {
+				"title": "Immersive Reader is Faster",
+				"description": "We've made the Immersive Reader even faster, so you can enjoy a smoother reading experience."
+			  }
+			],
+			"upcoming": [],
+			"note": "Thanks for being a part of the Helperbird community! Your feedback inspires every improvement we make, and we’re excited to keep delivering features that help you."
+		  },	
+		{
 			"version": "2024.12.30",
 			"date": "2024 12 30",
 			"changes": [
