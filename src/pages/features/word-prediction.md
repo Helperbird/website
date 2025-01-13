@@ -18,7 +18,7 @@ featurePageTitle:
 img: i1EeaekPHIo
 icon: '/src/_includes/svgs/word-prediction.svg'
 free: false
-youtubeId: vwT8SAJfU3E
+youtubeId: 5nz0bM6ZGVQ
 cardTitle: Word Prediction
 featureDescription:
   Maximize your writing skills with Helperbird's word prediction extension, available on Google Docs
