@@ -35,24 +35,18 @@ happy to help.
 
 ### Intellectual Property Rights
 
-At Helperbird, we take pride in our work. All the materials on Helperbird - be it text, images,
-software, or anything else - are our exclusive intellectual property or that of our licensors. We
-hold all the rights to these materials. What this means for you is that you can use Helperbird for
-your personal, non-commercial purposes, as long as you stick to the terms we’ve set out.
+At Helperbird, we take pride in our work. All the materials on Helperbird,be it text, images, software, or anything else are our exclusive intellectual property or that of our licensors. We hold all rights to these materials.
+
+Helperbird's free version is available for both personal and commercial use. However, some features are limited to our paid plans.
 
 #### Helperbird Pro
-
-This license is tied to one email address. Think of it as your personal Helperbird access pass.
+This license is tied to one email address and unlocks additional features beyond the free version.
 
 #### Helperbird Pro Unlimited
-
-Ideal for organizations, this license covers an unlimited number of users within your specific
-domain or school.
+Ideal for organizations, this license covers an unlimited number of users within your specific domain or school.
 
 #### Helperbird Pro Unlimited +
-
-Designed for larger entities like school districts or enterprises, this license extends to unlimited
-schools within a district or unlimited sub-businesses within a company.
+Designed for larger entities like school districts or enterprises, this license extends to unlimited schools within a district or unlimited sub-businesses within a company.
 
 ### Important Notes on Subscription
 
