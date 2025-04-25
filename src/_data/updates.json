@@ -1,6 +1,35 @@
 {
 	"new": [
 		{
+			"version": "2025.4.24",
+			"date": "2025 4 24",
+			"changes": [
+			  {
+				"title": "PDF Reader Annotations & Notes",
+				"description": "You can now take notes, write directly on the PDF page, voice type, and use spell and grammar check within the PDF Reader."
+			  },
+			  {
+				"title": "New Spell & Grammar Corrector",
+				"description": "Helperbird now includes a Spell and Grammar corrector across the entire app and text."
+			  },
+			  {
+				"title": "Hover Word Highlight",
+				"description": "Under Media Options, hovering over a word now highlights it with a yellow background to help you focus."
+			  },
+			  {
+				"title": "10  Increments",
+				"description": "You can now jump in 10 increments instead of 20, giving you finer control."
+			  },
+			  {
+				"title": "Coco Easter Egg",
+				"description": "When a search can’t find a feature, Coco the Helperbird cat will show up as a fun easter egg."
+			  }
+			],
+			"upcoming": [],
+			"note": "Thanks for using Helperbird! We’re always working to make it better for you."
+		  }
+,		  
+		{
 			"version": "2025.2.28",
 			"date": "2025 2 28",
 			"changes": [
