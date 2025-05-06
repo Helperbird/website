@@ -115,6 +115,14 @@ module.exports = function (eleventyConfig) {
 			const [, title2] = data.match(/title:(.*)/);
 		}
 	});
+	eleventyConfig.addFilter("mtime", function(inputPath) {
+		try {
+		  let stats = fs.statSync(inputPath);
+		  return stats.mtime;       // JS Date object
+		} catch (e) {
+		  return null;
+		}
+	  });
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',

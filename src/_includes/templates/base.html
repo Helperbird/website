@@ -236,7 +236,7 @@
 			{% if header == true %} {% include templates/header.liquid %} {% endif %}
 			<main class="mx-auto max-w-7xl pb-12 pl-4 pr-4 pt-12" id="content">{{ content | safe }}</main>
 
-			{% if footer == true %} {% include templates/footer.html %} {% endif %}
+			{% if footer == true %} {% include templates/footer.liquid %} {% endif %}
 		</div>
 		{% bundledJs %}
 	</body>
