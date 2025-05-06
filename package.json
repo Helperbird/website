@@ -4,7 +4,7 @@
 	"description": "It's (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it's still *really* small though.",
 	"scripts": {
 		"clean": "rimraf public src/css/styles.css",
-		"dev": "NODE_ENV=development  webpack --mode development   && ELEVENTY_ENV=development eleventy --serve",
+		"dev": "NODE_ENV=development  webpack --mode development   && ELEVENTY_ENV=development eleventy --serve ",
 		"live": "NODE_ENV=production  webpack --mode production ",
 		"start": " ELEVENTY_ENV=development eleventy --serve",
 		"format": "prettier  --write .",

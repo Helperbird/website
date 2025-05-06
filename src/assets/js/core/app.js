@@ -100,9 +100,8 @@ const load = () => {
 			}
 		},
 		computed: {
-
-			getCurrentTab(){
-			return this.currentTab || 1;
+			getCurrentTab() {
+				return this.currentTab || 1;
 			},
 
 			showYearly() {

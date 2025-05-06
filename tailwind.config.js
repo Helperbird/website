@@ -13,7 +13,7 @@ module.exports = {
 			backgroundColor: ['active']
 		}
 	},
-	
+
 	theme: {
 		fontSize: {
 			'xs': ['0.75rem', { lineHeight: '1rem' }],

@@ -17,11 +17,11 @@ module.exports = async (options, outputDir) => {
       {
         urlPattern:
           /^.*\.(html|jpg|png|gif|webp|ico|svg|woff2|woff|eot|ttf|otf|ttc|json)$/,
-        handler: `staleWhileRevalidate`
+        handler: "staleWhileRevalidate"
       },
       {
         urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
-        handler: `staleWhileRevalidate`
+        handler: "staleWhileRevalidate"
       }
     ]
   };
