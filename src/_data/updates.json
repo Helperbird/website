@@ -1,6 +1,67 @@
 {
 	"new": [
 		{
+  "version": "2025.8.18",
+  "date": "2025 8 18",
+  "changes": [
+    {
+      "title": "Voice Typing Rebuilt",
+      "description": "Completely rebuilt voice typing now works across Firefox, Edge, Chrome, and Safari. Powered by Microsoft Azure, it supports over 20 languages for better accessibility."
+    },
+    {
+      "title": "Cleaner UI with Modal Windows",
+      "description": "All settings sections now open in focused modal windows instead of long panels, keeping your workspace clean and helping you stay focused."
+    },
+    {
+      "title": "Notes on Firefox",
+      "description": "The Notes feature is now fully supported on Firefox, bringing all your note-taking capabilities to every browser."
+    },
+    {
+      "title": "Unified Dyslexia Tools",
+      "description": "Overlay colors and ruler overlays are now merged into one streamlined tool, making dyslexia support simpler and more effective."
+    },
+    {
+      "title": "Google Workspace Redesign",
+      "description": "Google Docs and Google Slides add-ons have been completely redesigned for a cleaner, more intuitive experience."
+    },
+    {
+      "title": "Firefox Side Panel",
+      "description": "Firefox users now enjoy a dedicated side panel instead of a popup, providing better screen real estate and workflow."
+    },
+    {
+      "title": "Audio File Transcription",
+      "description": "Hidden feature: You can now transcribe audio files directly through the voice typing tool."
+    },
+    {
+      "title": "Safari Scrolling Fix",
+      "description": "Fixed scrolling issues in Safari where certain sections weren't properly scrollable."
+    },
+    {
+      "title": "Smart Permission Prompts",
+      "description": "Instead of showing errors, Helperbird now intelligently prompts you to grant necessary permissions when needed."
+    },
+    {
+      "title": "Performance Improvements",
+      "description": "Fixed memory leaks for better performance and smoother operation across all browsers."
+    },
+    {
+      "title": "Quick Settings Access",
+      "description": "Click the free/unlimited badge to jump directly to the settings page for quick login access."
+    }
+  ],
+  "upcoming": [
+    {
+      "title": "IT Admin Remote Config",
+      "description": "Coming soon: IT administrators will be able to remotely configure subscription keys for large organizations."
+    },
+    {
+      "title": "Natural Voice Options",
+      "description": "More natural-sounding voices are on the way for an even better text-to-speech experience."
+    }
+  ],
+  "note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience over the coming days. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
+},
+		{
 			"version": "2025.4.24",
 			"date": "2025 4 24",
 			"changes": [
