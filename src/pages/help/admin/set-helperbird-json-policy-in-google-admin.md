@@ -4,7 +4,7 @@ footer: true
 header: true
 updated: true
 layout: templates/new/help/post-new.html
-title: How to Set Helperbird JSON Policy in Google Admin (isAdmin & subKey)
+title: How to Set Helperbird JSON Policy in Google Admin
 description:
   This guide shows Google Workspace admins how to apply Helperbird’s JSON policy in the Google Admin
   Console—specifically setting the isAdmin flag and the subKey for the Helperbird Chrome extension.
@@ -37,39 +37,48 @@ url: help/set-helperbird-json-policy-in-google-admin/
 permalink: help/set-helperbird-json-policy-in-google-admin/
 ---
 
-This guide walks you through applying Helperbird’s JSON policy in the Google Admin Console so you can enforce two key settings across your domain: the **isAdmin flag** and the **subKey**.
+This guide walks you through applying Helperbird’s JSON policy in the Google Admin Console so you can enforce two key settings across your domain.
 
 > TL;DR: You’ll open the Helperbird extension settings at **Devices → Chrome → Apps & extensions**, pick your OU, click **Helperbird**, then paste the JSON below into the **Policy for extensions** (or **Extension settings/JSON**) section and hit **Save**.
 
 ## Prerequisites
 
-- **Administrator access** to the Google Admin Console (admin.google.com).
-- The Helperbird Chrome extension is either already added to your OU or you know the **extension ID**.
-- **Helperbird Extension ID (Chrome):** **ahmapmilbkfamljbpgphfndeemhnajme**
+**Administrator access** to the Google Admin Console (admin.google.com).
+
+The Helperbird Chrome extension is either already added to your OU or you know the **extension ID**.
+
+**Helperbird Extension ID (Chrome):** **ahmapmilbkfamljbpgphfndeemhnajme**
 
 ## Add or Locate the Helperbird Extension
 
-1. Sign in to **admin.google.com** with an admin account.  
+1. Sign in to  [admin.google.com](https://admin.google.com) with an admin account.  
 2. Go to **Devices** → **Chrome** → **Apps & extensions** → **Users & browsers**.  
 3. Select the **Organizational Unit (OU)** you want to configure.  
 4. If Helperbird isn’t listed:
-   - Click **+** → **Add from Chrome Web Store**.
-   - Search for **Helperbird** or paste the ID **ahmapmilbkfamljbpgphfndeemhnajme**.
-   - Set **Installation policy** to **Force install** (recommended) or your preferred setting.
-   - Click **Save**.
+
+Click **+** → **Add from Chrome Web Store**.
+Search for **Helperbird** or paste the ID **ahmapmilbkfamljbpgphfndeemhnajme**.
+Set **Installation policy** to **Force install** (recommended) or your preferred setting.
+Click **Save**.
+
 5. Click the **Helperbird** tile to open its settings panel for the selected OU.
 
 ## Apply the JSON Policy (isAdmin & subKey)
 
-1. In the Helperbird settings panel, locate the **Policy** section. Depending on your Admin Console version, this may appear as:
-   - **Policy for extensions**, **Additional settings**, or **Extension settings (JSON)**.
+In the Helperbird settings panel, locate the **Policy** section. 
+
+Depending on your Admin Console version, this may appear as:
+**Policy for extensions**
+**Additional settings**
+**Extension settings (JSON)**.
+
 2. Click **Edit** (or **Add**) to open the JSON editor.
 3. Paste the following JSON, updating the `subKey` value if needed:
 
 ```json
 {
   "subKey": {
-    "Value": "batman"
+    "Value": "YOUR SUBSCRIPTION KEY"
   },
   "isAdminControl": {
     "Value": true
@@ -88,18 +97,24 @@ This guide walks you through applying Helperbird’s JSON policy in the Google A
 1. On a device within the configured OU, sign in with a managed user.  
 2. Ensure the Helperbird extension is installed (Chrome menu → **Extensions**).  
 3. Open Helperbird and confirm that:
-   - The **admin-specific options** (if applicable to your plan) are active.
-   - The **subKey**-based features/license routing behaves as expected.
+
+The **admin-specific options** (if applicable to your plan) are active.
+The **subKey**-based features/license routing behaves as expected.
 
 ### Force a policy refresh (optional)
-- On Windows/macOS/Linux: Restart Chrome, or visit `chrome://policy` → **Reload policies**.
-- On ChromeOS: Reboot the device or sign out/in to pull the latest policy.
+On Windows/macOS/Linux: Restart Chrome, or visit `chrome://policy` → **Reload policies**.
+
+On ChromeOS: Reboot the device or sign out/in to pull the latest policy.
 
 ### Common gotchas
-- **Wrong OU**: Double-check you edited the same OU the user/device belongs to.  
-- **JSON formatting**: Make sure the JSON is valid (matching braces, proper quotes, correct `Value` types).  
-- **Policy precedence**: A child OU may override a parent OU—verify inheritance settings.  
-- **Propagation time**: Policies usually apply quickly, but allow a few minutes and refresh policies if needed.
+
+**Wrong OU**: Double-check you edited the same OU the user/device belongs to.
+
+**JSON formatting**: Make sure the JSON is valid (matching braces, proper quotes, correct `Value` types).  
+
+**Policy precedence**: A child OU may override a parent OU—verify inheritance settings.  
+
+**Propagation time**: Policies usually apply quickly, but allow a few minutes and refresh policies if needed.
 
 ---
 
