@@ -1,6 +1,18 @@
 {
 	"new": [
 		{
+  "version": "2025.8.22",
+  "date": "2025 8 22",
+  "changes": [
+    {
+      "title": "IT Admin Remote Config",
+      "description": "Coming August 22nd. IT administrators can now remotely configure subscription keys across Chrome and Edge. Once set, users automatically gain access to Helperbird Pro without individual logins or setup."
+    }
+  ],
+  "note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
+}
+,
+		{
   "version": "2025.8.18",
   "date": "2025 8 18",
   "changes": [
