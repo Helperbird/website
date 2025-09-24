@@ -162,30 +162,41 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl my-8 font-bold text-black',
-		h2: 'leading-relaxed font-display text-2xl my-8  font-semibold text-black',
-		h3: 'leading-relaxed font-display text-xl my-8 font-semibold text-black',
-		h4: 'leading-relaxed font-display text-lg my-8 font-semibold text-black',
-		p: 'leading-relaxed font-display mb-4 text-lg text-black',
-		strong: 'text-lg font-semibold text-gray-800',
-		bold: 'font-bold text-black mx-4',
-		ul: 'leading-relaxed list-disc l mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
-		ol: 'leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
-		li: 'leading-relaxed my-2 text-lg font-display text-black flex items-center',
-		table: "table-auto w-full border-collapse border border-gray-300 text-lg font-display text-black mt-4 my-8",
-		thead: "bg-gray-100",
-		th: "border border-gray-300 px-4 py-2 text-left text-gray-700 font-medium",
-		tbody: "",
-		tr: "odd:bg-gray-50 even:bg-white",
-		td: "border border-gray-300 px-4 py-2 text-black",
-		img: 'aspect-square rounded-2xl my-8 shadow-lg',
-		hr: 'divider divider-neutral my-16',
-		a: 'leading-relaxed font-sans text-lg text-blue-500 hover:text-blue-700 underline mx-4',
-		iframe: 'w-full h-96 rounded-xl shadow-lg my-10',
-		blockquote: 'border-l-4 border-gray-300 pl-4 italic text-gray-700 my-4',
-		code: 'bg-gray-100 text-gray-800 rounded p-2 text-sm font-mono',
-		pre: 'bg-gray-100 p-4 rounded overflow-x-auto'
-	};
+  h1: 'leading-relaxed font-display text-3xl my-8 font-bold text-black',
+  h2: 'leading-relaxed font-display text-2xl my-8 font-semibold text-black',
+  h3: 'leading-relaxed font-display text-xl my-8 font-semibold text-black',
+  h4: 'leading-relaxed font-display text-lg my-8 font-semibold text-black',
+
+  p: 'leading-relaxed font-display mb-4 text-lg text-black',
+
+  // Keep inline, no margins, no size bump
+  strong: 'font-semibold text-black',
+  // You don't need a separate "bold" key; remove it or mirror strong without margins
+  // bold: 'font-bold text-black', // (optional) only if your renderer uses <bold>, no mx-*
+
+  ul: 'leading-relaxed list-disc mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
+  ol: 'leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
+  // Don’t force flex on list items unless you really need icons
+  li: 'leading-relaxed my-2 text-lg font-display text-black ml-4',
+
+  table: 'table-auto w-full border-collapse border border-gray-300 text-lg font-display text-black mt-4 my-8',
+  thead: 'bg-gray-100',
+  th: 'border border-gray-300 px-4 py-2 text-left text-gray-700 font-medium',
+  tbody: '',
+  tr: 'odd:bg-gray-50 even:bg-white',
+  td: 'border border-gray-300 px-4 py-2 text-black',
+
+  img: 'aspect-square rounded-2xl my-8 shadow-lg',
+  hr: 'divider divider-neutral my-16',
+
+  // Keep inline; remove mx-* so normal spaces work
+  a: 'font-sans text-lg text-blue-600 hover:text-blue-800 underline underline-offset-2',
+
+  iframe: 'w-full h-96 rounded-xl shadow-lg my-10',
+blockquote: 'bg-gray-100 border-l-4 border-blue-400 pl-4 pr-6 py-3 rounded-lg italic text-gray-800 my-6 shadow-sm',
+  code: 'bg-gray-100 text-gray-800 rounded p-1 text-sm font-mono',
+  pre: 'bg-gray-100 p-4 rounded overflow-x-auto'
+};
 
 	eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
 		if (process.env.ELEVENTY_ENV === 'production' && outputPath.endsWith('.html')) {
