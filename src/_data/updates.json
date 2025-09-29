@@ -1,257 +1,349 @@
 {
 	"new": [
 		{
-  "version": "2025.8.22",
-  "date": "2025 8 22",
-  "changes": [
-    {
-      "title": "IT Admin Remote Config",
-      "description": "Coming August 22nd. IT administrators can now remotely configure subscription keys across Chrome and Edge. Once set, users automatically gain access to Helperbird Pro without individual logins or setup."
-    }
-  ],
-  "note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
-}
-,
+			"version": "2025.9.29",
+			"date": "2025 9 29",
+			"changes": [
+				{
+					"title": "Better Button Styling",
+					"description": "Account page buttons are now larger and styled with backgrounds that adapt to your browser."
+				},
+				{
+					"title": "Browser Logos",
+					"description": "We’ve added crisp new SVG logos for Chrome and Edge to make the UI feel more personalized."
+				},
+				{
+					"title": "Gentler Error Logging",
+					"description": "Word prediction errors now show as warnings instead of errors, reducing unnecessary noise."
+				},
+				{
+					"title": "Firefox & Safari Updates",
+					"description": "Bumped Firefox manifest versions and made sure Safari banners always show the instructions button."
+				},
+				{
+					"title": "Sticky Notes Fix",
+					"description": "Removed old Firefox-only conditions so sticky notes now load properly everywhere."
+				},
+				{
+					"title": "Safari Voice Typing Fixes",
+					"description": "Added special Safari workarounds for microphone permissions and session timeouts in Azure voice typing. Sessions refresh automatically and errors are handled more smoothly."
+				},
+				{
+					"title": "Modal Sizing",
+					"description": "Tweaked modal box sizing in the voice typing options menu for a cleaner look."
+				},
+				{
+					"title": "Conditional Options Rendering",
+					"description": "The options section now only appears when both 'quick' and 'isExamMode' are turned off, keeping the UI uncluttered."
+				},
+				{
+					"title": "Admin Controls",
+					"description": "Added managed storage so admins can control keys and settings. Account alerts also hide when managed by an admin."
+				},
+				{
+					"title": "Efficient Syncing",
+					"description": "Managed settings now only update when values actually change, cutting down on unnecessary writes."
+				},
+				{
+					"title": "Word Prediction Overhaul",
+					"description": "Refactored word prediction for faster performance, better accessibility, and smarter personalization. Includes context tracking, faster UI updates, and improved Google Docs integration."
+				},
+				{
+					"title": "Ruler Default",
+					"description": "The ruler tool’s follow feature is now off by default, giving you more control."
+				},
+				{
+					"title": "Immersive Reader on PDFs",
+					"description": "Immersive Reader settings now fully work with PDFs."
+				},
+				{
+					"title": "Language Defaults",
+					"description": "Irish is now the default selected language."
+				},
+				{
+					"title": "UI Consistency Tweaks",
+					"description": "Standardized capitalization, refreshed backgrounds, adjusted grid layouts, and fine-tuned modal spacing for a smoother UI."
+				},
+				{
+					"title": "Improved Word Prediction Learning",
+					"description": "Predictions now use up to 5 words of context, learn from your choices, and adapt to sentence patterns. Google Docs space key events are also detected more reliably."
+				},
+				{
+					"title": "Performance Boost",
+					"description": "Helperbird now uses less memory, runs lighter, and feels faster overall."
+				},
+				{
+					"title": "New Voice Options",
+					"description": "We’ve added new natural Azure voices and offline voices, and removed the low-quality ones."
+				},
+				{
+					"title": "PDF Detection Alerts",
+					"description": "When we detect a PDF, you’ll now get a prompt asking if you’d like to open it in Helperbird."
+				},
+				{
+					"title": "Redesigned PDF Reader",
+					"description": "The PDF reader has a new floating action button (FAB) for quick OCR and tools, plus a streamlined design."
+				},
+				{
+					"title": "Offline Button",
+					"description": "There’s now a dedicated button to access offline features more quickly."
+				},
+				{
+					"title": "PDF Loading Fixes",
+					"description": "Improved the PDF loading sequence to prevent duplicate handling, reduce memory issues, and ensure smoother initialization."
+				}
+			],
+			"note": "Thanks for using Helperbird! This release is packed with polish, fixes, and fresh features. And yes — Coco the Helperbird Cat 🐱 might still be hiding in there somewhere."
+		},
 		{
-  "version": "2025.8.18",
-  "date": "2025 8 18",
-  "changes": [
-    {
-      "title": "Voice Typing Rebuilt",
-      "description": "Completely rebuilt voice typing now works across Firefox, Edge, Chrome, and Safari. Powered by Microsoft Azure, it supports over 20 languages for better accessibility."
-    },
-    {
-      "title": "Cleaner UI with Modal Windows",
-      "description": "All settings sections now open in focused modal windows instead of long panels, keeping your workspace clean and helping you stay focused."
-    },
-    {
-      "title": "Notes on Firefox",
-      "description": "The Notes feature is now fully supported on Firefox, bringing all your note-taking capabilities to every browser."
-    },
-    {
-      "title": "Unified Dyslexia Tools",
-      "description": "Overlay colors and ruler overlays are now merged into one streamlined tool, making dyslexia support simpler and more effective."
-    },
-    {
-      "title": "Google Workspace Redesign",
-      "description": "Google Docs and Google Slides add-ons have been completely redesigned for a cleaner, more intuitive experience."
-    },
-    {
-      "title": "Firefox Side Panel",
-      "description": "Firefox users now enjoy a dedicated side panel instead of a popup, providing better screen real estate and workflow."
-    },
-    {
-      "title": "Audio File Transcription",
-      "description": "Hidden feature: You can now transcribe audio files directly through the voice typing tool."
-    },
-    {
-      "title": "Safari Scrolling Fix",
-      "description": "Fixed scrolling issues in Safari where certain sections weren't properly scrollable."
-    },
-    {
-      "title": "Smart Permission Prompts",
-      "description": "Instead of showing errors, Helperbird now intelligently prompts you to grant necessary permissions when needed."
-    },
-    {
-      "title": "Performance Improvements",
-      "description": "Fixed memory leaks for better performance and smoother operation across all browsers."
-    },
-    {
-      "title": "Quick Settings Access",
-      "description": "Click the free/unlimited badge to jump directly to the settings page for quick login access."
-    }
-  ],
-  "upcoming": [
-    {
-      "title": "IT Admin Remote Config",
-      "description": "Coming soon: IT administrators will be able to remotely configure subscription keys for large organizations."
-    },
-    {
-      "title": "Natural Voice Options",
-      "description": "More natural-sounding voices are on the way for an even better text-to-speech experience."
-    }
-  ],
-  "note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience over the coming days. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
-},
+			"version": "2025.8.22",
+			"date": "2025 8 22",
+			"changes": [
+				{
+					"title": "IT Admin Remote Config",
+					"description": "Coming August 22nd. IT administrators can now remotely configure subscription keys across Chrome and Edge. Once set, users automatically gain access to Helperbird Pro without individual logins or setup."
+				}
+			],
+			"note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
+		},
+		{
+			"version": "2025.8.18",
+			"date": "2025 8 18",
+			"changes": [
+				{
+					"title": "Voice Typing Rebuilt",
+					"description": "Completely rebuilt voice typing now works across Firefox, Edge, Chrome, and Safari. Powered by Microsoft Azure, it supports over 20 languages for better accessibility."
+				},
+				{
+					"title": "Cleaner UI with Modal Windows",
+					"description": "All settings sections now open in focused modal windows instead of long panels, keeping your workspace clean and helping you stay focused."
+				},
+				{
+					"title": "Notes on Firefox",
+					"description": "The Notes feature is now fully supported on Firefox, bringing all your note-taking capabilities to every browser."
+				},
+				{
+					"title": "Unified Dyslexia Tools",
+					"description": "Overlay colors and ruler overlays are now merged into one streamlined tool, making dyslexia support simpler and more effective."
+				},
+				{
+					"title": "Google Workspace Redesign",
+					"description": "Google Docs and Google Slides add-ons have been completely redesigned for a cleaner, more intuitive experience."
+				},
+				{
+					"title": "Firefox Side Panel",
+					"description": "Firefox users now enjoy a dedicated side panel instead of a popup, providing better screen real estate and workflow."
+				},
+				{
+					"title": "Audio File Transcription",
+					"description": "Hidden feature: You can now transcribe audio files directly through the voice typing tool."
+				},
+				{
+					"title": "Safari Scrolling Fix",
+					"description": "Fixed scrolling issues in Safari where certain sections weren't properly scrollable."
+				},
+				{
+					"title": "Smart Permission Prompts",
+					"description": "Instead of showing errors, Helperbird now intelligently prompts you to grant necessary permissions when needed."
+				},
+				{
+					"title": "Performance Improvements",
+					"description": "Fixed memory leaks for better performance and smoother operation across all browsers."
+				},
+				{
+					"title": "Quick Settings Access",
+					"description": "Click the free/unlimited badge to jump directly to the settings page for quick login access."
+				}
+			],
+			"upcoming": [
+				{
+					"title": "IT Admin Remote Config",
+					"description": "Coming soon: IT administrators will be able to remotely configure subscription keys for large organizations."
+				},
+				{
+					"title": "Natural Voice Options",
+					"description": "More natural-sounding voices are on the way for an even better text-to-speech experience."
+				}
+			],
+			"note": "Thanks for using Helperbird! We're excited about these improvements and will continue polishing the experience over the coming days. P.S. Did you find Coco the Helperbird Cat hiding in the app? 🐱"
+		},
 		{
 			"version": "2025.4.24",
 			"date": "2025 4 24",
 			"changes": [
-			  {
-				"title": "PDF Reader Annotations & Notes",
-				"description": "You can now take notes, write directly on the PDF page, voice type, and use spell and grammar check within the PDF Reader."
-			  },
-			  {
-				"title": "New Spell & Grammar Corrector",
-				"description": "Helperbird now includes a Spell and Grammar corrector across the entire app and text."
-			  },
-			  {
-				"title": "Hover Word Highlight",
-				"description": "Under Media Options, hovering over a word now highlights it with a yellow background to help you focus."
-			  },
-			  {
-				"title": "10  Increments",
-				"description": "You can now jump in 10 increments instead of 20, giving you finer control."
-			  },
-			  {
-				"title": "Coco Easter Egg",
-				"description": "When a search can’t find a feature, Coco the Helperbird cat will show up as a fun easter egg."
-			  }
+				{
+					"title": "PDF Reader Annotations & Notes",
+					"description": "You can now take notes, write directly on the PDF page, voice type, and use spell and grammar check within the PDF Reader."
+				},
+				{
+					"title": "New Spell & Grammar Corrector",
+					"description": "Helperbird now includes a Spell and Grammar corrector across the entire app and text."
+				},
+				{
+					"title": "Hover Word Highlight",
+					"description": "Under Media Options, hovering over a word now highlights it with a yellow background to help you focus."
+				},
+				{
+					"title": "10  Increments",
+					"description": "You can now jump in 10 increments instead of 20, giving you finer control."
+				},
+				{
+					"title": "Coco Easter Egg",
+					"description": "When a search can’t find a feature, Coco the Helperbird cat will show up as a fun easter egg."
+				}
 			],
 			"upcoming": [],
 			"note": "Thanks for using Helperbird! We’re always working to make it better for you."
-		  }
-,		  
+		},
 		{
 			"version": "2025.2.28",
 			"date": "2025 2 28",
 			"changes": [
-			  {
-				"title": "Dark Mode is Here!",
-				"description": "You can now switch between light and dark mode in Helperbird! Find the toggle under the Accessibility section to customize your experience."
-			  },
-			  {
-				"title": "Smoother Quick Actions",
-				"description": "We’ve given the Quick Actions area a refresh! Buttons are now smaller, fully circular, and neatly arranged with five per row for a cleaner look."
-			  },
-			  {
-				"title": "Updated On/Off Toggle",
-				"description": "The Helperbird toggle got a small redesign! It’s slightly smaller and now clearly shows when it's on (✔️) or off (❌)."
-			  },
-			  {
-				"title": "Faster, Sleeker Search",
-				"description": "Search has been redesigned across Helperbird with less padding and a speed boost. It’s not flashy, but it makes a big difference!"
-			  },
-			  {
-				"title": "Reading Mode Upgrade",
-				"description": "We've updated Reading Mode to the latest Readability version by Mozilla, making it smoother and more accurate."
-			  },
-			  {
-				"title": "Onboarding is Back!",
-				"description": "The onboarding experience is back when you first install Helperbird! You can skip it or bring it back anytime from the Settings page."
-			  },
-			  {
-				"title": "A More Organized Helperbird",
-				"description": "We’ve started reorganizing features to make Helperbird easier to use. For example, Paragraphs and Colors are now under Reading Options."
-			  },
-			  {
-				"title": "Immersive Reader on PDFs Fixed",
-				"description": "Your Immersive Reader settings now save properly on PDFs—no more resets!"
-			  },
-			  {
-				"title": "Better Text-to-Speech Voices",
-				"description": "Some of the voices weren’t great, so we did an audit and removed the lower-quality ones. Now, the experience is much better!"
-			  },
-			  {
-				"title": "Smarter, Faster Word Prediction",
-				"description": "Word Prediction now suggests both the next word and the current one as you type. It’s lighter, quicker, and smarter—learning from mistakes along the way!"
-			  },
-			  {
-				"title": "Media Options Fixed on iOS",
-				"description": "Media options were missing on iOS, but we’ve fixed that! Everything should now work as expected."
-			  }
+				{
+					"title": "Dark Mode is Here!",
+					"description": "You can now switch between light and dark mode in Helperbird! Find the toggle under the Accessibility section to customize your experience."
+				},
+				{
+					"title": "Smoother Quick Actions",
+					"description": "We’ve given the Quick Actions area a refresh! Buttons are now smaller, fully circular, and neatly arranged with five per row for a cleaner look."
+				},
+				{
+					"title": "Updated On/Off Toggle",
+					"description": "The Helperbird toggle got a small redesign! It’s slightly smaller and now clearly shows when it's on (✔️) or off (❌)."
+				},
+				{
+					"title": "Faster, Sleeker Search",
+					"description": "Search has been redesigned across Helperbird with less padding and a speed boost. It’s not flashy, but it makes a big difference!"
+				},
+				{
+					"title": "Reading Mode Upgrade",
+					"description": "We've updated Reading Mode to the latest Readability version by Mozilla, making it smoother and more accurate."
+				},
+				{
+					"title": "Onboarding is Back!",
+					"description": "The onboarding experience is back when you first install Helperbird! You can skip it or bring it back anytime from the Settings page."
+				},
+				{
+					"title": "A More Organized Helperbird",
+					"description": "We’ve started reorganizing features to make Helperbird easier to use. For example, Paragraphs and Colors are now under Reading Options."
+				},
+				{
+					"title": "Immersive Reader on PDFs Fixed",
+					"description": "Your Immersive Reader settings now save properly on PDFs—no more resets!"
+				},
+				{
+					"title": "Better Text-to-Speech Voices",
+					"description": "Some of the voices weren’t great, so we did an audit and removed the lower-quality ones. Now, the experience is much better!"
+				},
+				{
+					"title": "Smarter, Faster Word Prediction",
+					"description": "Word Prediction now suggests both the next word and the current one as you type. It’s lighter, quicker, and smarter—learning from mistakes along the way!"
+				},
+				{
+					"title": "Media Options Fixed on iOS",
+					"description": "Media options were missing on iOS, but we’ve fixed that! Everything should now work as expected."
+				}
 			],
 			"upcoming": [],
 			"note": "Thanks for using Helperbird! We’re always working to make it better for you."
-		  }
-,		  
+		},
 		{
 			"version": "2025.1.8",
 			"date": "2024 1 8",
 			"changes": [
-			  {
-				"title": "OCR Beta is Here!",
-				"description": "In side the 'Extract Text' section, turn on the beta option to see the next generation of OCR. It's faster, more accurate, and supports more languages."
-			  },
-			  {
-				"title": "Immersive Reader is Faster",
-				"description": "We've made the Immersive Reader even faster, so you can enjoy a smoother reading experience."
-			  }
+				{
+					"title": "OCR Beta is Here!",
+					"description": "In side the 'Extract Text' section, turn on the beta option to see the next generation of OCR. It's faster, more accurate, and supports more languages."
+				},
+				{
+					"title": "Immersive Reader is Faster",
+					"description": "We've made the Immersive Reader even faster, so you can enjoy a smoother reading experience."
+				}
 			],
 			"upcoming": [],
 			"note": "Thanks for being a part of the Helperbird community! Your feedback inspires every improvement we make, and we’re excited to keep delivering features that help you."
-		  },	
+		},
 		{
 			"version": "2024.12.30",
 			"date": "2024 12 30",
 			"changes": [
-			  {
-				"title": "Organize Your Notes Like Never Before",
-				"description": "We've introduced a new Notes section where you can seamlessly switch between Extracted Sections, Highlights, Notes, and Categories. It's all about keeping everything neat and easy to find."
-			  },
-			  {
-				"title": "Sticky Notes Got a Makeover",
-				"description": "Sticky notes are now taller, wider, and more customizable. Pick new colors easily from the bottom of the note, and enjoy their fresh look!"
-			  },
-			  {
-				"title": "A Smarter Reading List",
-				"description": "Finding what you need in the Reading List just got easier, thanks to a brand-new design that focuses on better search and organization."
-			  },
-			  {
-				"title": "Fixed: Enter Key Bug",
-				"description": "The Enter key will now behave properly on buttons, so no more accidental double clicks!"
-			  },
-			  {
-				"title": "Smoother Fonts Everywhere",
-				"description": "We've added a CSS font swap for a cleaner, more polished experience across the board."
-			  },
-			  {
-				"title": "Better Modals on iOS",
-				"description": "iOS modals now have a minimum height to make sure they display perfectly, every time."
-			  },
-			  {
-				"title": "Modals Redesigned",
-				"description": "Our modals have a fresh look, plus a new accessible Close button so everyone can use them effortlessly."
-			  },
-			  {
-				"title": "Voice Typing Goes Next Level",
-				"description": "Voice typing now lets you print spoken text directly—super handy for getting your thoughts on paper quickly!"
-			  },
-			  {
-				"title": "Helperbird Editor: Export to Word",
-				"description": "You can now export your work from the Helperbird Editor directly to Microsoft Word formats."
-			  },
-			  {
-				"title": "PDF Reader Updates",
-				"description": "The summarize feature is now presented in a sleek modal. Plus, there’s a new Reading Mode for PDFs that lets you fully customize the text for a better reading experience."
-			  },
-			  {
-				"title": "New Highlight Color: Red",
-				"description": "We’ve added a bold new highlight color to the menu—perfect for grabbing attention."
-			  },
-			  {
-				"title": "Accessibility Improvements for Highlighters",
-				"description": "Our highlighter colors have been tweaked to ensure they’re accessible to everyone."
-			  },
-			  {
-				"title": "Reading Mode Upgraded",
-				"description": "Reading Mode has been fine-tuned to handle text even better, so you can enjoy a smoother reading experience."
-			  }
+				{
+					"title": "Organize Your Notes Like Never Before",
+					"description": "We've introduced a new Notes section where you can seamlessly switch between Extracted Sections, Highlights, Notes, and Categories. It's all about keeping everything neat and easy to find."
+				},
+				{
+					"title": "Sticky Notes Got a Makeover",
+					"description": "Sticky notes are now taller, wider, and more customizable. Pick new colors easily from the bottom of the note, and enjoy their fresh look!"
+				},
+				{
+					"title": "A Smarter Reading List",
+					"description": "Finding what you need in the Reading List just got easier, thanks to a brand-new design that focuses on better search and organization."
+				},
+				{
+					"title": "Fixed: Enter Key Bug",
+					"description": "The Enter key will now behave properly on buttons, so no more accidental double clicks!"
+				},
+				{
+					"title": "Smoother Fonts Everywhere",
+					"description": "We've added a CSS font swap for a cleaner, more polished experience across the board."
+				},
+				{
+					"title": "Better Modals on iOS",
+					"description": "iOS modals now have a minimum height to make sure they display perfectly, every time."
+				},
+				{
+					"title": "Modals Redesigned",
+					"description": "Our modals have a fresh look, plus a new accessible Close button so everyone can use them effortlessly."
+				},
+				{
+					"title": "Voice Typing Goes Next Level",
+					"description": "Voice typing now lets you print spoken text directly—super handy for getting your thoughts on paper quickly!"
+				},
+				{
+					"title": "Helperbird Editor: Export to Word",
+					"description": "You can now export your work from the Helperbird Editor directly to Microsoft Word formats."
+				},
+				{
+					"title": "PDF Reader Updates",
+					"description": "The summarize feature is now presented in a sleek modal. Plus, there’s a new Reading Mode for PDFs that lets you fully customize the text for a better reading experience."
+				},
+				{
+					"title": "New Highlight Color: Red",
+					"description": "We’ve added a bold new highlight color to the menu—perfect for grabbing attention."
+				},
+				{
+					"title": "Accessibility Improvements for Highlighters",
+					"description": "Our highlighter colors have been tweaked to ensure they’re accessible to everyone."
+				},
+				{
+					"title": "Reading Mode Upgraded",
+					"description": "Reading Mode has been fine-tuned to handle text even better, so you can enjoy a smoother reading experience."
+				}
 			],
 			"upcoming": [],
 			"note": "Thanks for being a part of the Helperbird community! Your feedback inspires every improvement we make, and we’re excited to keep delivering features that help you."
-		  },		  
+		},
 		{
 			"version": "2024.12.20",
 			"date": "2024 12 20",
 			"changes": [
-			  {
-				"title": "Better Google Docs and Slides",
-				"description": "We've made Helperbird work even better with Google Docs and Slides by making it simpler and easier to use."
-			  },
-			  {
-				"title": "Unlimited Immersive Reader for Pro Users on Google Docs & Slides",
-				"description": "If you're a Helperbird Pro subscriber, you can now use the Immersive Reader as much as you want in the addons."
-			  },
-			  {
-				"title": "Improved Text-to-Speech on Google Docs & Slides",
-				"description": "Now, the text-to-speech feature won't overlap when talking. Plus, you can change the speed, volume, and pitch to suit your preferences."
-			  }
+				{
+					"title": "Better Google Docs and Slides",
+					"description": "We've made Helperbird work even better with Google Docs and Slides by making it simpler and easier to use."
+				},
+				{
+					"title": "Unlimited Immersive Reader for Pro Users on Google Docs & Slides",
+					"description": "If you're a Helperbird Pro subscriber, you can now use the Immersive Reader as much as you want in the addons."
+				},
+				{
+					"title": "Improved Text-to-Speech on Google Docs & Slides",
+					"description": "Now, the text-to-speech feature won't overlap when talking. Plus, you can change the speed, volume, and pitch to suit your preferences."
+				}
 			],
 			"upcoming": [],
 			"note": "Thanks for using Helperbird! We're always working to make it better for you."
-		  },
-		  
+		},
+
 		{
 			"version": "2024.11.26",
 			"date": "2024 11 26",
@@ -355,7 +447,7 @@
 			],
 			"upcoming": [],
 			"note": "We’re excited for you to explore these updates. Thanks for being part of Helperbird, and enjoy the new features! 😊"
-		},		
+		},
 		{
 			"version": "2024.11.6",
 			"date": "2024 11 6",
@@ -391,7 +483,7 @@
 			],
 			"upcoming": [],
 			"note": "We’re excited for you to try these new features and updates. Enjoy using Helperbird, and happy browsing! 😊"
-		},		
+		},
 		{
 			"version": "2024.10.6",
 			"date": "2024 10 6",
