@@ -1,6 +1,57 @@
 {
 	"new": [
 		{
+	"version": "2025.10.03",
+	"date": "2025 10 05",
+	"changes": [
+		{
+			"title": "More Natural Speech Speed",
+			"description": "We've tweaked the default TTS speed to 0.5 wpm and adjusted pitch/rate limits. It sounds way more natural now—like an actual person talking!"
+		},
+		{
+			"title": "Text-to-Speech Reading Fix",
+			"description": "Fixed a bug where text-to-speech was reading backwards. No more rewinding—it now reads from start to finish like it should."
+		},
+		{
+			"title": "Immersive Reader in Presentations",
+			"description": "Good news! Immersive Reader now works in presentation and viewer modes, so you can focus on your slides without distractions."
+		},
+		{
+			"title": "App Name Updates",
+			"description": "Refreshed the app name, TTS slider, and manifest versions to keep everything consistent across browsers."
+		},
+		{
+			"title": "Smoother Install Process",
+			"description": "Cleaned up the install logic and version numbering behind the scenes. Updates should feel smoother going forward."
+		},
+		{
+			"title": "Version Bump",
+			"description": "Bumped the extension to version 2025.10.03 across Chrome, Edge, Firefox, and Safari."
+		},
+		{
+			"title": "Simplified Options Page",
+			"description": "Removed those locked-feature badges and paid checks from options. Less clutter, easier navigation."
+		},
+		{
+			"title": "Better Debugging Tools",
+			"description": "Added debug logs for mail and selection handling so we can squash bugs faster when things go weird."
+		},
+		{
+			"title": "Smarter Settings Access",
+			"description": "The settings link now only shows up for paid non-iOS users—no more confusion about what's available."
+		},
+		{
+			"title": "UI State Updates",
+			"description": "Improved how we handle the user interface state file for snappier performance."
+		},
+		{
+			"title": "Project Cleanup",
+			"description": "Updated app name, entitlements, and project settings to match our latest standards."
+		}
+	],
+	"note": "Thanks for sticking with Helperbird! This update is all about making text-to-speech sound more like a human and less like a robot. We also fixed that annoying backwards reading bug. Happy reading! 📖"
+},
+		{
 			"version": "2025.9.29",
 			"date": "2025 9 29",
 			"changes": [
