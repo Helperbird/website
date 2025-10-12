@@ -12,34 +12,60 @@ url: help/ios/
 permalink: help/ios/
 ---
 
-<main class="mx-auto max-w-6xl p-8 my-12">
-  <header class="mx-auto max-w-4xl text-center">
-    <h1 class="text-3xl sm:text-4xl font-bold text-black leading-relaxed">
-      iPhone & iPad Guides for Helperbird
+<style>
+  .ios-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ios-card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  .ios-card-hover:active {
+    transform: translateY(-2px);
+  }
+</style>
+
+<main class="mx-auto my-16 max-w-6xl px-6 sm:px-8 lg:px-12">
+  <header class="mx-auto max-w-3xl text-center">
+    <h1 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+ iPhone & iPad Guides for Helperbird
     </h1>
-    <p class="mt-6 text-xl text-black leading-relaxed">
-      Get started with Helperbird on your iPhone or iPad. Find guides on downloading the app, accessing features, and making the most of Helperbird on iOS.
+    <p class="mt-6 text-lg leading-relaxed text-gray-600 sm:text-xl">
+      Get started with Helperbird on your iPhone or iPad. From downloading the app to mastering your favorite features, these guides will help you make the web more accessible on iOS.
     </p>
   </header>
 
-  <div class="mt-16 sm:mt-20">
-    <ul role="list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+  <div class="mt-20 sm:mt-24">
+    <h2 class="sr-only">iOS help guides</h2>
+    <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {% for item in collections.iOSHelpGuides %}
-      <li class="group">
+      <li>
         <a
           href="{{ item.url }}"
           title="{{ item.data.cardTitle }}"
-          class="card bg-base-100 shadow-md hover:-translate-y-1 transition-all duration-200 flex flex-col h-full"
+          class="ios-card-hover group block h-full rounded-2xl bg-white p-8 shadow-sm ring-1 ring-gray-200 hover:ring-2 hover:ring-blue-500"
+          aria-label="Read guide about {{ item.data.cardTitle }}"
         >
-          <div class="card-body flex-grow">
-            <h2 class="text-xl font-semibold text-black">
+          <div class="flex h-full flex-col">
+            <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600">
               {{ item.data.cardTitle }}
-            </h2>
-            <p class="mt-2 text-base text-black">
+            </h3>
+            <p class="mt-3 flex-grow text-base leading-relaxed text-gray-600">
               {{ item.data.description }}
             </p>
-            <div class="card-actions justify-end mt-4">
-              <div class="btn btn-sm btn-outline btn-info">Read more</div>
+            <div class="mt-6 flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700">
+              <span>Read guide</span>
+              <svg 
+                class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
             </div>
           </div>
         </a>

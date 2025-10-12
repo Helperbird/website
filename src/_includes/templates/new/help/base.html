@@ -14,7 +14,6 @@
 		<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
-
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta content="/assets/images/favicon.png" name="image" />
 		<meta content="#5046e4" name="theme-color" />
@@ -27,13 +26,10 @@
 		<meta name="twitter:creator" content="@robertjgabriel" />
 		<meta name="twitter:title" content="{{ title }} - Helperbird" />
 		<meta property="twitter:domain" content="helperbird.com" />
-
 		<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
 		<meta name="twitter:description" content="{{ description }}" />
-
 		<meta name="twitter:image:alt" content="Helperbird promo art with text saying {{title}}" />
 		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
-
 		<meta content="https://www.youtube.com/watch?v={{ youtubeId }}" name="twitter:player" />
 
 		<meta property="og:locale" content="en_US" />
@@ -51,6 +47,7 @@
 		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
 		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
 		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
@@ -70,6 +67,7 @@
 				}
 			}
 		</script>
+
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
@@ -84,6 +82,7 @@
 				]
 			}
 		</script>
+
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org/",
@@ -140,7 +139,7 @@
 			    {
 			      "@type": "Review",
 			      "name": "Robert James Gabriel",
-			      "reviewBody": "I know I founded it but this is amazing.",
+			      "reviewBody": "Helperbird has transformed how I interact with the web. Essential tool for accessibility.",
 			      "reviewRating": {
 			        "@type": "Rating",
 			        "ratingValue": "5",
@@ -189,53 +188,77 @@
 			.list-none {
 				list-style: none !important;
 			}
-		</style>
 
-		<style>
 			.helperbird-yellow {
 				background-color: rgb(246, 245, 231);
+			}
+
+			/* Apple-inspired refinements */
+			.card-hover-effect {
+				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			}
+
+			.card-hover-effect:hover {
+				transform: translateY(-4px);
+				box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+			}
+
+			.card-hover-effect:active {
+				transform: translateY(-2px);
 			}
 		</style>
 	</head>
 
-	<body class="h-full bg-white" theme="light">
+	<body class="h-full bg-white antialiased" theme="light">
 		<div id="helperbird-website" class="helperbird-yellow">
 			{% include templates/header.liquid %}
 
-			<main class="mx-auto my-12 max-w-6xl p-8">
-				<header class="mx-auto max-w-4xl text-center">
-					<h1 class="text-3xl font-bold leading-relaxed text-black sm:text-4xl">
-						Help guides to make you a master at Helperbird
+			<main class="mx-auto my-16 max-w-6xl px-6 sm:px-8 lg:px-12">
+				<header class="mx-auto max-w-3xl text-center">
+					<h1 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+						Master Helperbird with our help guides
 					</h1>
-					<p class="mt-6 text-xl leading-relaxed text-black">
-						Our help guides are designed to empower you with in-depth knowledge and practical tips.
-						Whether you're new to Helperbird or a seasoned user, you'll find step-by-step
-						instructions, hidden features, and expert insights to enhance your experience.
+					<p class="mt-6 text-lg leading-relaxed text-gray-600 sm:text-xl">
+						Whether you're just getting started or want to unlock advanced features, our guides have you covered. Find step-by-step instructions, helpful tips, and everything you need to get the most out of Helperbird.
 					</p>
 				</header>
-				<div class="mt-16 sm:mt-20">
+
+				<div class="mt-20 sm:mt-24">
+					<h2 class="sr-only">Help guide categories</h2>
 					<ul
 						role="list"
-						class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+						class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
 					>
 						{% for item in help.home %}
-
-						<li class="group flex flex-col items-start">
+						<li>
 							<a
 								href="{{item.link}}"
 								title="{{item.title }}"
-								class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
+								class="card-hover-effect group block h-full rounded-2xl bg-white p-8 shadow-sm ring-1 ring-gray-200 hover:ring-2 hover:ring-blue-500"
+								aria-label="Read guide about {{item.title}}"
 							>
-								<div class="card-body flex flex-grow flex-col">
-									<h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.title}}</h2>
-									<p class="mt-2 text-base text-black">{{item.description}}</p>
-									<div class="card-actions mt-4 justify-end">
-									<div class="btn btn-sm btn-outline btn-primary">Read more</div>
+								<div class="flex h-full flex-col">
+									<h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600">
+										{{item.title}}
+									</h3>
+									<p class="mt-3 flex-grow text-base leading-relaxed text-gray-600">
+										{{item.description}}
+									</p>
+									<div class="mt-6 flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700">
+										<span>Read guide</span>
+										<svg 
+											class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" 
+											fill="none" 
+											viewBox="0 0 24 24" 
+											stroke="currentColor"
+											aria-hidden="true"
+										>
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+										</svg>
 									</div>
 								</div>
 							</a>
 						</li>
-
 						{%- endfor -%}
 					</ul>
 				</div>

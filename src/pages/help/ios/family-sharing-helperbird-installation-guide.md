@@ -44,7 +44,7 @@ Setting up Helperbird for your child using Family Sharing is straightforward. Yo
 
 Open the **Settings** app on your child's iOS device. Scroll down and tap **Screen Time**. If you've set a Screen Time Passcode, enter it now. Tap **Content & Privacy Restrictions**, then toggle the switch to turn it **off**. This temporarily removes restrictions so you can install Helperbird.
 
-![Turning off Screen Time restrictions in iOS Settings](screen-time-off.png)
+
 
 ---
 
@@ -52,15 +52,15 @@ Open the **Settings** app on your child's iOS device. Scroll down and tap **Scre
 
 Open the **App Store** on your child's device and tap the search icon at the bottom. Type "Helperbird" in the search bar and tap **Search**. Find the Helperbird app (look for the blue bird icon) and tap **Get**. You may need to enter your Apple ID password or use Touch ID/Face ID to confirm the download. Wait for the app to finish installing.
 
-![Downloading Helperbird from the App Store](helperbird-download-family.png)
 
 ---
 
 ## Step 3: Enable Helperbird and Restore Screen Time
 
-Once installed, go back to the **Settings** app and scroll down to find **Helperbird**. Tap on it and make sure all options under **Allow Helperbird to Access** are toggled on. Now it's time to turn Screen Time back on. Go to **Settings > Screen Time**, enter your passcode, then tap **Content & Privacy Restrictions** and toggle the switch back **on**. Your child can now use Helperbird with your Screen Time settings restored.
+Once installed, go back to the **Settings** app and scroll down to find **Helperbird**. Tap on it and make sure all options under **Allow Helperbird to Access** are toggled on. 
 
-![Enabling Helperbird permissions and restoring Screen Time](helperbird-enable-screen-time.png)
+Now it's time to turn Screen Time back on. Go to **Settings > Screen Time**, enter your passcode, then tap **Content & Privacy Restrictions** and toggle the switch back **on**. Your child can now use Helperbird with your Screen Time settings restored.
+
 
 **Tip:** Make sure to test Helperbird with your child after setup to ensure all features are working properly while Screen Time is active!
 
