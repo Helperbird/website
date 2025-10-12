@@ -2,114 +2,124 @@
 footer: true
 header: true
 layout: templates/base.html
-title: What’s new in Helperbird
+title: What's new in Helperbird
 youtubeId: vwT8SAJfU3E
-cardTitle: What’s new in Helperbird
-description: Discover the latest enhancements and fixes in Helperbird! Stay in the loop with our most recent version updates, continuously improving your experience with new features and optimizations.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+cardTitle: What's new in Helperbird
+description: See what's new in Helperbird. Browse our complete changelog with new features, bug fixes, and upcoming improvements for each version.
+keywords: Helperbird updates, Helperbird changelog, what's new Helperbird, Helperbird features, dyslexia software updates, accessibility tool updates, Chrome extension updates
 url: updates/
 redirect_from: [/updates/robin/, /updates/102-5-3/, /updates/102-7-0/, /updates/102-7-1/]
 ---
 
+<style>
+  .update-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
+  .update-card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+</style>
 
-<div class="px-6 py-20 sm:py-16 lg:px-4 mb-4">
+<div class="px-6 py-20 sm:py-24 lg:px-8">
   <div class="mx-auto max-w-4xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">What’s new in Helperbird</h2>
-    <p class="leading-relaxed font-sans mt-6 text-2xl text-black">
+    <h1 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+      What's new in Helperbird
+    </h1>
+    <p class="mt-6 text-xl leading-relaxed text-gray-600 sm:text-2xl">
       Stay up-to-date with the latest Helperbird developments right here.
     </p>
   </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="max-w-7xl mx-auto p-4 py-12 sm:p-6 sm:pt-16 sm:pb-20 lg:pt-18 lg:p-8">
+<div class="mx-auto max-w-7xl px-6 py-12 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
   {%- for update in updates.new -%}
-    <section id="{{ update.version }}" aria-labelledby="{{ update.version }}-heading" class="md:flex mb-24 mt-12">
-      <div id="{{ update.version }}-heading" class=" md:w-1/4 md:pr-12  mb-4 md:mb-0">
+    <article 
+      id="{{ update.version }}" 
+      aria-labelledby="{{ update.version }}-heading" 
+      class="mb-24 md:flex md:gap-12"
+    >
+      <header class="mb-8 md:mb-0 md:w-1/4">
+        <h2 id="{{ update.version }}-heading" class="text-lg font-semibold text-gray-900">
+          Version
+        </h2>
+        <a 
+          class="badge badge-info mt-2 inline-block" 
+          href="#{{ update.version }}" 
+          title="Learn more about Helperbird version {{ update.version }} updates and features"
+          aria-label="Version {{ update.version }}"
+        >
+          {{ update.version }}
+        </a>
+
+        <h3 class="mt-6 text-lg font-semibold text-gray-900">
+          Release Date
+        </h3>
+        <span class="badge badge-neutral mt-2 inline-block">
+          {{ update.date }}
+        </span>
+      </header>
       
-
-      <h2 class="text-xl font-bold text-black mb-4">Version:  <a class="badge badge-secondary ml-2" href="#{{ update.version }}" title="Learn more about Helperbird version {{ update.version }} updates and features">
-       
-      {{ update.version }}
-
-       </a></h2>
-     
-
-       <h2 class="text-xl font-bold text-black">Release Date:  
-
-       <span class="badge badge-primary ml-2">{{ update.version }}</span>
-      </h2>
-        
-
-      </div>
-      
-      <div class="relative md:w-3/4">
-        <div class="bg-white rounded-2xl shadow-md p-6 mb-6">
+      <div class="md:w-3/4">
+        <div class="update-card rounded-2xl bg-white p-8 shadow-sm ring-1 ring-gray-200">
           {%- if update.changes and update.changes.size > 0 -%}
-          <div>
-            <h3 class="text-2xl font-bold mb-8">Changes</h3>
-            {%- for change in update.changes -%}
-              <div class="mt-4 mb-6 text-lg text-black flex items-start">
-                <span class="badge badge-secondary mr-2">New</span>
-                <div class="ml-4">
-                  <span class="font-semibold">{{ change.title }}</span>
-                  <p class="mt-1 text-base">{{ change.description }}</p>
-                </div>
-              </div>
-            {%- endfor -%}
-          </div>
-        {%- endif -%}
+          <section aria-labelledby="{{ update.version }}-changes">
+            <h3 id="{{ update.version }}-changes" class="mb-8 text-2xl font-semibold text-gray-900">
+              Changes
+            </h3>
+            <ul role="list" class="space-y-6">
+              {%- for change in update.changes -%}
+                <li class="flex items-start gap-4">
+                  <span class="badge badge-secondary mt-1 flex-shrink-0">New</span>
+                  <div>
+                    <h4 class="font-semibold text-gray-900">{{ change.title }}</h4>
+                    <p class="mt-1 text-base text-gray-600">{{ change.description }}</p>
+                  </div>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </section>
+          {%- endif -%}
 
           {%- if update.fixes and update.fixes.size > 0 -%}
-            <div class="mt-16">
-              <h3 class="text-2xl font-bold mb-8">Fixes</h3>
+          <section aria-labelledby="{{ update.version }}-fixes" class="mt-12">
+            <h3 id="{{ update.version }}-fixes" class="mb-8 text-2xl font-semibold text-gray-900">
+              Fixes
+            </h3>
+            <ul role="list" class="space-y-6">
               {%- for fix in update.fixes -%}
-                <div class="mt-4 mb-6 text-lg text-black flex items-start">
-                  <span class="badge badge-primary mr-2">Fix</span>
-                  <div class="ml-4">
-                    <span class="font-semibold">{{ fix.title }}</span>
-                    <p class="mt-1 text-base">{{ fix.description }}</p>
+                <li class="flex items-start gap-4">
+                  <span class="badge badge-primary mt-1 flex-shrink-0">Fix</span>
+                  <div>
+                    <h4 class="font-semibold text-gray-900">{{ fix.title }}</h4>
+                    <p class="mt-1 text-base text-gray-600">{{ fix.description }}</p>
                   </div>
-                </div>
+                </li>
               {%- endfor -%}
-            </div>
+            </ul>
+          </section>
           {%- endif -%}
           
           {%- if update.upcoming and update.upcoming.size > 0 -%}
-            <div class="mt-8">
-              <h3 class="text-2xl font-bold mb-8">Upcoming</h3>
+          <section aria-labelledby="{{ update.version }}-upcoming" class="mt-12">
+            <h3 id="{{ update.version }}-upcoming" class="mb-8 text-2xl font-semibold text-gray-900">
+              Upcoming
+            </h3>
+            <ul role="list" class="space-y-6">
               {%- for upcoming in update.upcoming -%}
-                <div class="mt-4 mb-6 text-lg text-black flex items-start">
-                  <span class="badge badge-warning mr-2">Upcoming</span>
-                  <div class="ml-4">
-                    <span class="font-semibold">{{ upcoming.title }}</span>
-                    <p class="mt-1 text-base">{{ upcoming.description }}</p>
+                <li class="flex items-start gap-4">
+                  <span class="badge badge-warning mt-1 flex-shrink-0">Upcoming</span>
+                  <div>
+                    <h4 class="font-semibold text-gray-900">{{ upcoming.title }}</h4>
+                    <p class="mt-1 text-base text-gray-600">{{ upcoming.description }}</p>
                   </div>
-                </div>
+                </li>
               {%- endfor -%}
-            </div>
+            </ul>
+          </section>
           {%- endif -%}
         </div>
       </div>
-    </section>
+    </article>
   {%- endfor -%}
 </div>
