@@ -1,93 +1,77 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Hide GIFs & Images in Helperbird
+title: How to Hide GIFs and Images on Websites
 description:
-  Learn how to use Helperbird to hide GIFs and images on web pages, reducing distractions and
-  improving focus. This guide makes it easy to stop animations and simplify your browsing
-  experience.
+  Learn how to use Helperbird to hide GIFs and images on web pages, reducing distractions and improving focus while browsing.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, hide gifs, hide images, reduce distractions
+url: help/how-to-hide-images-and-gifs-on-every-website/
+permalink: help/how-to-hide-images-and-gifs-on-every-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-media-options', title: 'Step 2: Go to Media Options' },
+    { tag: 'step-3-toggle-hide-gifs-or-images', title: 'Step 3: Toggle Hide Gifs or Images' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2021-01-02
 youtubeId: vwT8SAJfU3E
 cardTitle: Images and GIFs
 featureDescription:
-  Learn how to use Helperbird to hide GIFs and images on web pages, reducing distractions and
-  improving focus. This guide makes it easy to stop animations and simplify your browsing
-  experience.
-date: 2021-01-02
-headerTags:
-  [
-    { tag: 'how-to-hide-gifs-in-helperbird', title: 'How to Hide GIFs in Helperbird' },
-    { tag: 'how-to-hide-images-in-helperbird', title: 'How to Hide Images in Helperbird' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-hide-images-and-gifs-on-every-website/
-permalink: help/how-to-hide-images-and-gifs-on-every-website/
+  Learn how to use Helperbird to hide GIFs and images on web pages, reducing distractions and improving focus while browsing.
+footer: true
+header: true
 ---
 
-## How to Hide GIFs in Helperbird
-
-The **Hide GIFs** feature in Helperbird lets you stop animated GIFs from playing on web pages, which
-can help reduce distractions or prevent motion sensitivity issues.
-
-### 1. Open Helperbird
-
-Click the Helperbird extension icon to open the menu.
-
-### 2. Find Hide GIFs
-
-Use the search bar at the top of the menu to search for **Hide GIFs**.
-
-### 3. Turn On Hide GIFs
-
-Toggle the switch next to **Hide GIFs** to turn the feature on.
-
-### 4. See the Change
-
-Once activated, all animated GIFs on the current web page will be hidden, helping to create a
-distraction-free experience.
+Hide GIFs and images to reduce visual distractions, prevent motion sensitivity issues, or speed up page loading on slower connections.
 
 ---
 
-## How to Hide Images in Helperbird
+## Step 1: Open Helperbird
 
-The 'Hide Images' feature in Helperbird allows you to hide all images on web pages, which can
-improve loading speeds on slower connections or help you focus on text content.
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-### 1. Open Helperbird
 
-Click the Helperbird extension icon to open the menu.
+---
 
-### 2. Find Hide Images
+## Step 2: Go to Media Options
 
-In the search bar within the menu, type **Hide Images**.
+Scroll down in the list of tools, find **Media Options** and click the open icon next to it.
 
-### 3. Turn On Hide Images
+---
 
-Find the toggle for **Hide Images** and switch it on.
+## Step 3: Toggle Hide Gifs or Images
 
-### 4. Simplify Your Page
+In the Media Options panel, you'll see two options:
+- **Hide Gifs**: Toggle on to stop animated GIFs from playing on web pages
+- **Hide images**: Toggle on to hide all images on web pages, showing only text content
 
-The page will refresh with all images hidden, leaving only the text.
+Toggle either or both options on based on your needs.
+
+
+**Tip:** Use Hide Gifs if moving images are distracting or cause discomfort. Use Hide images when you want to focus purely on text or need pages to load faster.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+If you run into issues or want to learn more about Helperbird's media controls, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make browsing more comfortable.

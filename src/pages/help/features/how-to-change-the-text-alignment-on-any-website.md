@@ -1,88 +1,79 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Adjust Text Alignment with Helperbird
+title: How to Adjust Text Alignment on Websites
 description:
-  Learn how to adjust text alignment on web pages using Helperbird. This guide shows you how to
-  easily set your preferred text alignment, whether it's left, center, right, or fully justified,
-  for a more comfortable reading experience.
+  Learn how to adjust text alignment on web pages using Helperbird for a more comfortable reading experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, text alignment, align text, center text, justify text
+url: help/how-to-change-the-text-alignment-on-any-website/
+permalink: help/how-to-change-the-text-alignment-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-adjust-text-alignment', title: 'Step 3: Adjust Text Alignment' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-04-02
 youtubeId: vwT8SAJfU3E
 cardTitle: Text Alignment
 featureDescription:
-  Learn how to adjust text alignment on web pages using Helperbird. This guide shows you how to
-  easily set your preferred text alignment, whether it's left, center, right, or fully justified,
-  for a more comfortable reading experience.
-date: 2022-04-02
-headerTags:
-  [
-    { tag: 'how-to-set-up-text-alignment', title: 'How to Set Up Text Alignment' },
-    { tag: 'alignment-options', title: 'Alignment Options' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-change-the-text-alignment-on-any-website/
-permalink: help/how-to-change-the-text-alignment-on-any-website/
+  Learn how to adjust text alignment on web pages using Helperbird for a more comfortable reading experience.
+footer: true
+header: true
 ---
 
-Helperbird’s text alignment feature lets you customize how text is presented on your screen,
-allowing you to choose the layout that’s most comfortable for you.
-
-You can align text to the left, center, right, or fully justify it. Here’s how to set it up:
+Adjusting text alignment helps you read more comfortably by choosing how text is positioned on the page—left, center, right, or justified.
 
 ---
 
-## How to Set Up Text Alignment
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser's toolbar to open the extension.
-
-### 2. Find Text Alignment
-
-Use the search bar in the Helperbird menu to look for the **Text Alignment** feature.
-
-### 3. Turn On Text Alignment
-
-Toggle the 'Text Alignment' switch to **On** to view the alignment options.
-
-### 4. Choose Your Alignment
-
-With the options now visible, select your desired alignment: **left**, **center**, **right**, or
-**justify**.
-
-### 5. See the Change
-
-Watch as the text on the page adjusts to your chosen alignment in real-time.
 
 ---
 
-## Alignment Options
+## Step 2: Go to Reading Options
 
-- Left
-- Center
-- Right
-- Justify
-- Unjustify
+In the list of tools, find **Reading Options** and click the open icon next to it.
+
+
+
+---
+
+## Step 3: Adjust Text Alignment
+
+In the Reading Options panel:
+1. Go to the **Text** tab.
+2. Toggle **Text Align** **on**.
+3. Choose your preferred alignment: **Left**, **Center**, **Right**, or **Justify**.
+4. The text will immediately align according to your selection.
+
+
+**Tip:** Left alignment is easiest for most readers, while justified text creates clean edges on both sides.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

@@ -4,137 +4,80 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Translate Feature in Helperbird
+title: How to Translate a Webpage with Helperbird
 description:
-  Learn how to use Helperbird’s translation feature to easily translate selected text or entire
-  webpages into your preferred language. Powered by Google Translate, this guide walks you through
-  translating content and changing language settings.
+  Learn how to translate any webpage into your preferred language using Helperbird's translate
+  feature. Powered by Google Translate, this guide shows you how to quickly translate entire pages.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, Google Translate, translate webpage, language translation
 youtubeId: vwT8SAJfU3E
-cardTitle: Google Translate
+cardTitle: Translate
 featureDescription:
-  Learn how to use Helperbird’s translation feature to easily translate selected text or entire
-  webpages into your preferred language. Powered by Google Translate, this guide walks you through
-  translating content and changing language settings.
-date: 2022-04-04
+  Learn how to translate any webpage into your preferred language using Helperbird's translate
+  feature. Powered by Google Translate, this guide shows you how to quickly translate entire pages.
+date: 2025-10-12
 headerTags:
   [
-    {
-      tag: 'how-to-use-the-translate-feature-in-helperbird',
-      title: 'How to Use the Translate Feature in Helperbird'
-    },
-    {
-      tag: 'how-to-translate-an-entire-webpage-in-helperbird',
-      title: 'How to Translate an Entire Webpage in Helperbird'
-    },
-    {
-      tag: 'how-to-translate-selected-text-in-helperbird',
-      title: 'How to Translate Selected Text in Helperbird'
-    },
-    {
-      tag: 'how-to-change-the-language-for-translation',
-      title: 'How to Change the Language for Translation'
-    },
-    { tag: 'things-to-note', title: 'Things to Note' },
+    { tag: 'open-helperbird', title: 'Open Helperbird' },
+    { tag: 'go-to-translate', title: 'Go to Translate' },
+    { tag: 'choose-language-and-translate', title: 'Choose Language and Translate' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
+
 tags: features
-url: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
-permalink: help/how-to-translate-a-whole-page-or-selected-text-on-any-website/
+url: help/how-to-translate-a-webpage-with-helperbird/
+permalink: help/how-to-translate-a-webpage-with-helperbird/
 ---
 
-Helperbird's translation feature, powered by Google Translate, lets you easily translate selected
-text or entire webpages into your preferred language.
-
----
-
-## How to Translate an Entire Webpage in Helperbird
-
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser's toolbar to open Helperbird.
-
-### 2. Find the Translate Feature
-
-Use the search bar in the menu to find the "Translate" feature.
-
-### 3. Choose Your Language
-
-Once you find the **Translate** feature, you’ll see a list of languages. Click on the flag icon of
-the language you want.
-
-### 4. Translate the Page
-
-After selecting your language, click the **TRANSLATE WEBSITE** button at the bottom of the language
-list.
-
-### 5. View the Translated Page
-
-A new tab will open, and the entire webpage will be translated into the language you selected.
+Helperbird makes it easy to translate any webpage into your preferred language using Google Translate. Whether you're reading news from another country or researching in a foreign language, you can get an instant translation.
 
 ---
 
-## How to Translate Selected Text in Helperbird
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird icon in your browser toolbar to open the extension.
 
-Click the Helperbird icon in your browser’s toolbar to open Helperbird.
-
-### 2. Enable the Translate Feature
-
-Make sure the **Translate** feature is turned on in your Helperbird settings.
-
-### 3. Highlight the Text
-
-On the webpage, highlight the text you want to translate.
-
-### 4. Use the Highlight Menu
-
-After highlighting the text, a Helperbird quick action menu will pop up. Click the **Translate**
-button.
-
-### 5. See the Translation
-
-The highlighted text will be translated into the default language you’ve set in Helperbird.
 
 ---
 
-## How to Change the Language for Translation
+## Step 2: Go to Translate
 
-### 1. Open Helperbird
+In the list of tools, find **Translate** and click the open icon next to it.
 
-Click the Helperbird icon in your browser’s toolbar to open Helperbird.
-
-### 2. Find the Translate Feature
-
-Use the search bar to find the **Translate** feature.
-
-### 3. Choose Your Language
-
-You’ll see a list of languages. Click on the flag icon of the language you want to use.
 
 ---
 
-## Things to Note
+## Step 3: Choose Language and Translate
 
-If you want to block the Translate feature, you can simply block **translate.google.com** in your
-browser settings.
+You'll see a list of available languages. 
+
+Click on the language you want to translate the page into. 
+
+Once you've selected your language, click the **Translate website** button at the bottom. 
+
+A new tab will open showing the entire webpage translated into your chosen language.
+
+
+**Tip:** Your language choice stays selected, so the next time you want to translate a page, you can just open Helperbird and hit the translate button without choosing a language again.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support), and we’ll help you out.
+If you run into any issues or have questions about translating webpages, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!

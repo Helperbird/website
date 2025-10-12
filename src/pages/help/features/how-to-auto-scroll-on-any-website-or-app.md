@@ -1,84 +1,72 @@
 ---
 new: false
+updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Auto Scroll Feature in Helperbird
+title: How to Auto Scroll on Websites
 description:
-  Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This
-  guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
+  Learn how to use Helperbird's Auto Scroll feature for hands-free reading that scrolls at your preferred speed.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  OpenDyslexic, auto scroll, automatic scrolling
 url: help/how-to-auto-scroll-on-any-website-or-app/
 permalink: help/how-to-auto-scroll-on-any-website-or-app/
 name: Helperbird Staff
 headerTags:
   [
-    { tag: 'how-to-enable-auto-scroll', title: 'How to Enable Auto Scroll' },
-    { tag: 'how-to-adjust-scroll-speed', title: 'How to Adjust Scroll Speed' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-activate-auto-scroll', title: 'Step 3: Activate Auto Scroll' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
-
 tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2016-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Auto Scrolling
 featureDescription:
-  Discover how to use Helperbird's Auto Scroll feature for a hands-free reading experience. This
-  guide walks you through enabling auto-scroll and adjusting the speed to match your reading pace.
-  extension.
+  Learn how to use Helperbird's Auto Scroll feature for hands-free reading that scrolls at your preferred speed.
 footer: true
 header: true
-updated: false
 ---
 
-The Auto Scroll feature in Helperbird lets you enjoy a hands-free reading experience by
-automatically scrolling the page at a speed that suits you.
-
----
-
-## How to Enable Auto Scroll
-
-### 1. Open Helperbird
-
-Click the Helperbird extension icon in your browser to open Helperbird.
-
-### 2. Find Auto Scroll
-
-Use the search bar in the menu to find the **Auto Scroll** option.
-
-### 3. Start Auto Scroll
-
-Click the **Start** button to begin using the Auto Scroll feature.
+Auto Scroll lets the page scroll automatically at a steady pace, perfect for hands-free reading or following along with long articles.
 
 ---
 
-## How to Adjust Scroll Speed
+## Step 1: Open Helperbird
 
-### 1. Access the Scroll Speed Slider
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Once Auto Scroll is enabled, a **Scroll Speed** slider will appear.
+---
 
-### 2. Set Your Speed
+## Step 2: Go to Reading Options
 
-Drag the slider to choose your preferred speed—slow, normal, or fast.
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-### 3. Begin Auto-Scrolling
+---
 
-After setting your desired speed, click the **Start** button to start auto-scrolling.
+## Step 3: Activate Auto Scroll
+
+In the Reading Options panel, find **Auto scroll** at the bottom of the list and click on it to start automatic scrolling.
+
+
+**Tip:** If the page is scrolling too fast or too slow, you can usually adjust the speed using browser controls or by clicking Auto scroll again to access speed settings.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
 Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

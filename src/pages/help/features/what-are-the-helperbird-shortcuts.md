@@ -4,72 +4,80 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Turn on & Use the Helperbird Shorts.
+title: How to Enable and Use Keyboard Shortcuts in Helperbird
 description:
-  Find out how to turn on keyboard shortcuts in Helperbird to make things faster and easier. Plus,
-  see where you can find all the shortcut combos for your favorite features
+  Learn how to enable keyboard shortcuts in Helperbird for faster access to your favorite features.
+  View all available shortcut combinations and boost your productivity.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  OpenDyslexic, keyboard shortcuts, hotkeys
 youtubeId: vwT8SAJfU3E
-cardTitle: Shortcuts
+cardTitle: Keyboard Shortcuts
 featureDescription:
-  Find out how to turn on keyboard shortcuts in Helperbird to make things faster and easier. Plus,
-  see where you can find all the shortcut combos for your favorite features
-date: 2022-02-01
+  Learn how to enable keyboard shortcuts in Helperbird for faster access to your favorite features.
+  View all available shortcut combinations and boost your productivity.
+date: 2025-10-12
 headerTags:
   [
-    { 'tag': 'turning-on-shortcuts', 'title': 'Turning On Shortcuts' },
-    { 'tag': 'view-all-shortcut-combos', 'title': 'View All Shortcut Combos' }
+    { tag: 'open-helperbird', title: 'Open Helperbird' },
+    { tag: 'enable-shortcuts', title: 'Enable Shortcuts' },
+    { tag: 'view-all-shortcuts', title: 'View All Shortcuts' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
+
 tags: features
 url: help/what-are-the-helperbird-shortcuts/
 permalink: help/what-are-the-helperbird-shortcuts/
 ---
 
-## Turning On Helperbird Shortcuts
+Helperbird's keyboard shortcuts let you quickly activate features with simple key combinations, making your browsing more efficient. Shortcuts are disabled by default to avoid conflicts with other websites.
 
-Helperbird makes it easier to get things done with keyboard shortcuts, letting you quickly activate
-features with just a few key presses.
+---
 
-Here’s how to turn on this handy feature:
+## Step 1: Open Helperbird
 
-## Turning On Shortcuts
+Click the Helperbird icon in your browser toolbar to open the extension.
 
-### 1. Open Helperbird
+![Helperbird main dashboard](Screenshot_2025-10-12_at_11_37_13_AM.png)
 
-Click the Helperbird icon in your browser's toolbar to open the extension.
+---
 
-### 2. Go to Accessibility Options
+## Step 2: Enable Shortcuts
 
-Scroll down in the Helperbird panel until you see the **Accessibility** options.
+Scroll down to find **Accessibility** and click the open icon next to it. In the Accessibility panel, find **Shortcuts** and toggle it on.
 
-### 3. Find the Shortcuts Toggle
+Shortcuts are disabled by default because some websites have their own keyboard shortcuts that might conflict with Helperbird's. Once enabled, you can use keyboard combinations to quickly access Helperbird features.
 
-Look for the **Shortcuts** option with a switch next to it.
+---
 
-### 4. Turn On Shortcuts
+## Step 3: View All Shortcuts
 
-Click the switch to turn on shortcuts. When it’s on, the switch will change color, showing that
-shortcuts are now active.
+To see all available keyboard shortcuts, click the Helperbird icon at the top left of the extension panel to open the Options menu. Select **Shortcuts** from the menu.
 
-### 5. Start Using Shortcuts
+A Keyboard shortcuts panel will appear showing all available shortcuts. 
 
-With shortcuts turned on, you can now use keyboard combinations to quickly access different
-Helperbird features.
+Each shortcut shows the feature name and its key combination. Common shortcuts include turning Helperbird on/off, activating Word Prediction, opening Reading Mode, and more.
 
-## View All Shortcut Combos
 
-Want to see all the available shortcuts? Head to the 'Settings' section in Helperbird. There, you'll
-find a list of all the keyboard combos you can use to make things even quicker.
+**Tip:** The shortcuts use the Command key (⌘) on Mac or Control key (Ctrl) on Windows. Practice using a few shortcuts for features you use most often to speed up your workflow.
+
+---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
-## Need More Help?
+---
 
-If you run into any issues or have questions, don’t hesitate to reach out to our friendly
-[Helperbird support team](/support). We’re here to help you every step of the way.
+## Need Additional Help?
+
+If you run into any issues or have questions about keyboard shortcuts, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!

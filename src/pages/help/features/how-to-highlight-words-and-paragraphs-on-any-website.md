@@ -1,140 +1,84 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Highlighter Feature in Helperbird
+title: How to Highlight any Text on Websites
 description:
-  Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web
-  pages. This guide walks you through activating the tool, choosing colors, and keeping track of
-  your highlights.
+  Learn how to highlight text on web pages using Helperbird's highlighter tool for easier studying and reference.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, text highlighter, highlight text, study tool
+url: help/how-to-highlight-words-and-paragraphs-on-any-website/
+permalink: help/how-to-highlight-words-and-paragraphs-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-turn-on-highlighter', title: 'Step 2: Turn On Highlighter' },
+    { tag: 'step-3-enable-the-highlight-menu', title: 'Step 3: Enable the Highlight Menu' },
+    { tag: 'step-4-highlight-text-on-pages', title: 'Step 4: Highlight Text on Pages' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-05
 youtubeId: vwT8SAJfU3E
 cardTitle: Highlighter
 featureDescription:
-  Learn how to use Helperbird's Highlighter feature to easily highlight and manage text on web
-  pages. This guide walks you through activating the tool, choosing colors, and keeping track of
-  your highlights.
-date: 2020-01-05
-headerTags:
-  [
-    { tag: 'how-to-activate-the-highlight-menu', title: 'How to Activate the Highlight Menu' },
-    { tag: 'how-to-turn-on-the-highlighter', title: 'How to Turn On the Highlighter' },
-    { tag: 'how-to-choose-a-highlight-color', title: 'How to Choose a Highlight Color' },
-    { tag: 'how-to-highlight-text-on-a-web-page', title: 'How to Highlight Text on a Web Page' },
-    {
-      tag: 'how-to-view-and-manage-highlighted-text',
-      title: 'How to View and Manage Highlighted Text'
-    },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-highlight-words-and-paragraphs-on-any-website/
-permalink: help/how-to-highlight-words-and-paragraphs-on-any-website/
+  Learn how to highlight text on web pages using Helperbird's highlighter tool for easier studying and reference.
+footer: true
+header: true
 ---
 
-Helperbird’s Highlighter feature lets you highlight text on web pages, just like using a highlighter
-on paper.
-
-Here’s how to get started:
+The highlighter tool lets you mark important text on web pages with different colors, making it easy to study and reference information later.
 
 ---
 
-## How to Activate the Highlight Menu
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser to open the extension.
-
-### 2. Find the Highlight Menu
-
-Look for the Highlight menu in the Quick Actions area. If you don’t see it, use the search bar to
-find it.
-
-### 3. Turn On the Highlight Menu
-
-Make sure the Highlight menu is turned on by checking the first icon in the Quick Actions area.
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
 ---
 
-## How to Turn On the Highlighter
+## Step 2: Turn On Highlighter
 
-### 1. Search for Highlighter
+Scroll down in the Helperbird menu and toggle **Highlighter** **on**.
 
-In the Helperbird menu, use the search bar to find the **Highlighter** option.
-
-### 2. Turn On the Highlighter
-
-Flip the switch to turn on the Highlighter feature.
 
 ---
 
-## How to Choose a Highlight Color
+## Step 3: Enable the Highlight Menu
 
-### 1. Pick a Color
+In the Quick Actions area at the top of the menu, click the **Highlight menu** icon (chat bubble) to enable it.
 
-With the Highlighter turned on, choose your highlight color from the palette in the Helperbird menu.
-
----
-
-## How to Highlight Text on a Web Page
-
-### 1. Highlight the Text
-
-Use your cursor to select the text you want to highlight on the page.
-
-### 2. Apply the Highlight
-
-Click the highlight button that pops up near the selected text to apply your chosen color.
-
-Now your text is highlighted, making it easy to spot important information as you browse.
 
 ---
 
-## How to View and Manage Highlighted Text
+## Step 4: Highlight Text on Pages
 
-Here’s how to see and manage all the text you’ve highlighted:
+On any web page:
+1. The highlighter menu will appear at the top with color options.
+2. Select your preferred color from the menu.
+3. Highlight any text on the page and it will be marked with your chosen color.
 
-### 1. Open Helperbird
 
-Click the Helperbird icon in your browser to open the extension.
-
-### 2. View Your Highlights
-
-In the Helperbird menu, click on the **Open Notes** button in the Quick Actions area.
-
-### 3. Manage Your Highlights
-
-#### See Your Highlights
-
-Your highlighted texts will appear on note cards.
-
-#### Go Back to the Source
-
-Click on a note card to return to the page where you made the highlight.
-
-#### Delete a Highlight
-
-To remove a highlight, click the `X` in the top right corner of the note card.
-
-These steps make it easy to keep track of your highlights and stay organized.
+**Tip:** Use different colors to categorize information—like yellow for key points, green for definitions, and pink for questions.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you need a hand or run into any problems, just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you out!
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

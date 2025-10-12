@@ -1,122 +1,81 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Line Focus Feature in Helperbird
+title: How to Use the Focus Ruler on Websites
 description:
-  Learn how to use and customize Helperbird’s Line Focus feature to improve your reading focus. This
-  guide shows you how to highlight the current line of text while dimming the rest of the page,
-  making reading easier and more comfortable.
+  Learn how to use Helperbird's Focus Ruler to highlight the current line while dimming the rest of the page for better reading focus.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, focus ruler, line focus, reading focus
+url: help/how-to-use-a-line-focus-on-any-website/
+permalink: help/how-to-use-a-line-focus-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-dyslexia-tools', title: 'Step 2: Go to Dyslexia Tools' },
+    { tag: 'step-3-customize-focus-ruler', title: 'Step 3: Customize Focus Ruler' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2021-01-03
 youtubeId: vwT8SAJfU3E
 cardTitle: Line Focus
 featureDescription:
-  Learn how to use and customize Helperbird’s Line Focus feature to improve your reading focus. This
-  guide shows you how to highlight the current line of text while dimming the rest of the page,
-  making reading easier and more comfortable.
-date: 2021-01-03
-headerTags:
-  [
-    {
-      tag: 'how-to-use-the-line-focus-feature-in-helperbird',
-      title: 'How to Use the Line Focus Feature in Helperbird'
-    },
-    { tag: 'customizing-the-line-focus-feature', title: 'Customizing the Line Focus Feature' },
-    {
-      tag: 'adjusting-the-height-of-the-focus-line',
-      title: 'Adjusting the Height of the Focus Line'
-    },
-    {
-      tag: 'adjusting-the-width-of-the-focus-line',
-      title: 'Adjusting the Width of the Focus Line'
-    },
-    {
-      tag: 'changing-the-color-of-the-line-focus-overlay',
-      title: 'Changing the Color of the Line Focus Overlay'
-    },
-    {
-      tag: 'adjusting-the-brightness-of-the-overlay',
-      title: 'Adjusting the Brightness of the Overlay'
-    },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-use-a-line-focus-on-any-website/
-permalink: help/how-to-use-a-line-focus-on-any-website/
+  Learn how to use Helperbird's Focus Ruler to highlight the current line while dimming the rest of the page for better reading focus.
+footer: true
+header: true
 ---
 
-The Line Focus feature in Helperbird helps you concentrate on your reading by highlighting the line
-you’re focused on while dimming the rest of the page.
-
-It’s a great tool for anyone, especially those with dyslexia, who wants to improve reading focus.
+The Focus Ruler combines the best of both worlds—it highlights the line you're reading while dimming everything else on the page, helping you stay focused without distractions.
 
 ---
 
-## How to Use the Line Focus Feature in Helperbird
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser’s toolbar to open Helperbird.
 
-### 2. Find the Line Focus Feature
-
-Use the search bar in the menu to find the **Line Focus** feature.
-
-### 3. Turn On Line Focus
-
-Toggle the switch next to **Line Focus** to turn it on.
-
-### 4. Start Reading
-
-A transparent line will appear aligned with your cursor, highlighting the current line of text while
-shading the rest of the page.
 
 ---
 
-## Customizing the Line Focus Feature
+## Step 2: Go to Dyslexia Tools
 
-### Adjusting the Height of the Focus Line
+In the list of tools, find **Dyslexia Tools** and click the open icon next to it. Then toggle **Focus ruler** **on**.
 
-1. Make sure Line Focus is active, then click on **Settings**.
-2. Find the **Height** slider in the settings panel.
-3. Move the slider to adjust the height of the focus line to your liking.
 
-### Adjusting the Width of the Focus Line
+---
 
-1. With Line Focus turned on, go to the **Settings** panel.
-2. Find the **Width** slider.
-3. Adjust the slider to set the width of the focus line so it fits the text you're reading.
+## Step 3: Customize Focus Ruler
 
-### Changing the Color of the Line Focus Overlay
+In the Dyslexia Tools panel, click the **Settings** tab to customize your focus ruler:
+- **Height**: Adjust how tall the highlighted area appears
+- **Width**: Control how wide the focus area extends
+- **Color**: Choose the color for the dimmed overlay around your focus area
+- **Brightness**: Make the overlay more or less transparent
+- **Follow Cursor**: Toggle on to make the focus area follow your mouse, or off to keep it fixed
+- **Position**: Set where the focus area appears when Follow Cursor is off
 
-1. Make sure Line Focus is turned on, then open the settings.
-2. In the **Color** options, click on a colored circle.
-3. Pick a color for the overlay that contrasts well with the text and background for better focus.
 
-### Adjusting the Brightness of the Overlay
-
-1. Activate Line Focus by following the earlier steps.
-2. Open the **Settings** for customization options.
-3. Find the **Brightness** slider.
-4. Slide left to make the overlay lighter, or right to make it darker, depending on your preference.
+**Tip:** Try enabling Follow Cursor mode with a darker overlay color and medium brightness to create a reading spotlight effect that moves with you.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support), and we’ll help you out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

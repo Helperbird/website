@@ -36,50 +36,46 @@ footer: true
 header: true
 ---
 
-Changing the highlight color in Helperbird makes it easier to spot selected text, which is helpful
-for both reading and editing.
+
+
+Changing your highlight color makes it easier to mark important sections of text when studying or annotating web pages.
 
 ---
 
-## How to Activate the Highlight Color Feature
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser's toolbar to open the extension.
-
-### 2. Access Styles & Colors
-
-Look for the **Styles & Colors** dropdown menu and click to expand it if it’s not already open.
-
-### 3. Turn On Highlight Color
-
-Find the **Highlight color** option and toggle the switch to the right to turn it on.
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
 ---
 
-## How to Change the Highlight Color
+## Step 2: Go to Reading Options
 
-### 1. View Color Options
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-With the **Highlight color** feature activated, you’ll see a range of color options below the toggle
-switch.
+---
 
-### 2. Select Your Highlight Color
+## Step 3: Customize Highlight Color
 
-Click on the color circle that represents the color you want to use for text highlights.
+In the Reading Options panel:
+1. Go to the **Colors** tab.
+2. Toggle **Highlight color** **on**.
+3. Choose your preferred color from the palette below.
+4. Test it by highlighting any text on the page.
 
-_Tip: As soon as you select a color, any text you highlight on the webpage will display with the
-chosen highlight color._
+**Tip:** Pick a color that stands out but doesn't strain your eyes during long study sessions.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

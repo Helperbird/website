@@ -1,86 +1,77 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Paragraph Columns Feature in Helperbird
+title: How to Split Text into Columns on Websites
 description:
-  Learn how to use Helperbird’s Paragraph Columns feature to organize text into easy-to-read columns
-  on any webpage. This guide walks you through activating the feature and customizing the layout to
-  suit your reading preferences
+  Learn how to organize text into multiple columns using Helperbird for easier reading and better focus.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, paragraph columns, text columns, column layout
+url: help/how-to-set-the-column-width-on-any-page/
+permalink: help/how-to-set-the-column-width-on-any-page/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-adjust-paragraph-columns', title: 'Step 3: Adjust Paragraph Columns' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2018-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Columns
 featureDescription:
-  Learn how to use Helperbird’s Paragraph Columns feature to organize text into easy-to-read columns
-  on any webpage. This guide walks you through activating the feature and customizing the layout to
-  suit your reading preferences
-headerTags:
-  [
-    { tag: 'how-to-turn-on-paragraph-columns', title: 'How to Turn On Paragraph Columns' },
-    { tag: 'how-to-adjust-the-number-of-columns', title: 'How to Adjust the Number of Columns' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-date: 2018-01-04
-url: help/how-to-set-the-column-width-on-any-page/
-permalink: help/how-to-set-the-column-width-on-any-page/
+  Learn how to organize text into multiple columns using Helperbird for easier reading and better focus.
+footer: true
+header: true
 ---
 
-Helperbird’s Paragraph Columns feature helps you organize text into columns, making it easier to
-read large blocks of text on web pages.
+Splitting text into columns helps you read more comfortably by breaking up wide paragraphs into narrower sections, similar to how newspapers organize content.
 
 ---
 
-## How to Turn On Paragraph Columns
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser's toolbar to open the extension menu.
-
-### 2. Find the Columns Option
-
-Use the search bar at the top of the menu to quickly find the "Columns" option.
-
-### 3. Turn On Columns
-
-Toggle the switch next to "Columns" to turn the feature on.
 
 ---
 
-## How to Adjust the Number of Columns
+## Step 2: Go to Reading Options
 
-### 4. Adjust the Columns Slider
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-Once Columns is turned on, you’ll see a slider labeled "Columns." It might be set to 2 columns by
-default.
 
-### 5. Choose Your Layout
+---
 
-Move the slider to choose how many columns you want. You can set the text to flow into 2, 3, or more
-columns, depending on what works best for you.
+## Step 3: Adjust Paragraph Columns
 
-### 6. See the Change
+In the Reading Options panel:
+1. Go to the **Border** tab.
+2. Toggle **Paragraph Columns** **on**.
+3. Use the **slider** to choose how many columns you want—slide left for fewer columns or right for more.
 
-As you adjust the slider, the text on the page will automatically reflow into the number of columns
-you selected, giving you a customized reading layout.
+
+**Tip:** Two or three columns work great for wide screens, while one column is perfect for smaller displays or focused reading.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

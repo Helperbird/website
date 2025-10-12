@@ -1,30 +1,23 @@
 ---
 new: false
-layout: templates/new/help/post-new.html
 updated: false
-title: HHow to Customize Link Colors on Websites
+layout: templates/new/help/post-new.html
+title: How to Customize Link Colors on Websites
 description:
-  Learn how to customize the color of links on web pages using Helperbird. This guide walks you
-  through changing the colors of both unvisited and visited links to improve visibility and suit
-  your preferences.
+  Learn how to customize the color of links on web pages using Helperbird for better visibility and easier navigation.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  OpenDyslexic, link colors, hyperlink colors, visited links
 url: help/how-to-change-the-link-color-of-a-website/
 permalink: help/how-to-change-the-link-color-of-a-website/
 name: Helperbird Staff
 headerTags:
   [
-    {
-      tag: 'how-to-change-the-color-of-unvisited-links',
-      title: 'How to Change the Color of Unvisited Links'
-    },
-    {
-      tag: 'how-to-change-the-color-of-visited-links',
-      title: 'How to Change the Color of Visited Links'
-    },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-customize-link-colors', title: 'Step 3: Customize Link Colors' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -34,64 +27,53 @@ date: 2021-01-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Link Color
 featureDescription:
-  Learn how to customize the color of links on web pages using Helperbird. This guide walks you
-  through changing the colors of both unvisited and visited links to improve visibility and suit
-  your preferences.
+  Learn how to customize the color of links on web pages using Helperbird for better visibility and easier navigation.
 footer: true
 header: true
 ---
 
-Helperbird allows you to change the color of links on web pages, making them more visible for those
-with visual impairments or specific color preferences.
-
-You can set different colors for unvisited and visited links.
+Customizing link colors helps you easily distinguish between regular and visited links, making web navigation clearer and more accessible.
 
 ---
 
-## How to Change the Color of Unvisited Links
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon to open the extension menu.
-
-### 2. Find Link Color
-
-Use the search function to locate **Link color**.
-
-### 3. Turn On Link Color Customization
-
-Toggle the **Links** switch on to activate the link color customization feature.
-
-### 4. Choose a Color for Unvisited Links
-
-Below the toggle, you’ll see a palette of colors. Click on the color circle you want to apply to
-unvisited links.
 
 ---
 
-## How to Change the Color of Visited Links
+## Step 2: Go to Reading Options
 
-### 1. Scroll to the Visited Section
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-With the 'Link color' feature active, scroll down to the **Visited** section.
 
-### 2. Choose a Color for Visited Links
 
-Select a color from the palette for visited links, just like you did for unvisited links.
+---
 
-### 3. See the Change
+## Step 3: Customize Link Colors
 
-The color you choose will immediately apply to all visited links on the current web page.
+In the Reading Options panel:
+1. Go to the **Colors** tab.
+2. Toggle **Links** **on**.
+3. Choose a color from the palette for regular links.
+4. Scroll to the **Visited** section and select a different color for visited links.
+
+
+**Tip:** Pick contrasting colors to easily tell which links you've already visited.
 
 ---
 
 ## Video Tutorial
 
-- Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

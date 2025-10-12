@@ -4,59 +4,28 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Text to Speech Player in Helperbird
+title: How to Use Text to Speech in Helperbird
 description:
-  Learn how to use Helperbird's Text to Speech feature to listen to any text on a webpage. Whether
-  you want to hear highlighted text, paste your own, or listen to an entire page, this guide shows
-  you how. Plus, customize the voice, speed, and more to make it just right for you.
+  Learn how to use Helperbird's Text to Speech feature to have any text read aloud. Perfect for
+  listening to articles, emails, or any written content on the web.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, text to speech, TTS, read aloud
 youtubeId: vwT8SAJfU3E
-cardTitle: Text to speech
+cardTitle: Text to Speech
 featureDescription:
-  Learn how to use Helperbird's Text to Speech feature to listen to any text on a webpage. Whether
-  you want to hear highlighted text, paste your own, or listen to an entire page, this guide shows
-  you how. Plus, customize the voice, speed, and more to make it just right for you.
-date: 2022-04-05
+  Learn how to use Helperbird's Text to Speech feature to have any text read aloud. Perfect for
+  listening to articles, emails, or any written content on the web.
+date: 2025-10-12
 headerTags:
   [
-    {
-      tag: 'how-to-use-the-text-to-speech-player-in-helperbird',
-      title: 'How to Use the Text to Speech player in Helperbird'
-    },
-    {
-      tag: 'using-text-to-speech-with-highlighted-text',
-      title: 'Using Text to Speech with Highlighted Text'
-    },
-    {
-      tag: 'using-text-to-speech-with-pasted-text',
-      title: 'Using Text to Speech with Pasted Text'
-    },
-    {
-      tag: 'using-text-to-speech-for-all-page-text',
-      title: 'Using Text to Speech for All Page Text'
-    },
-    {
-      tag: 'how-to-use-text-to-speech-via-the-highlight-menu-in-helperbird',
-      title: 'How to Use Text to Speech via the Highlight Menu in Helperbird'
-    },
-    {
-      tag: 'how-to-customize-text-to-speech-settings-in-helperbird',
-      title: 'How to Customize Text to Speech Settings in Helperbird'
-    },
-    { tag: 'accessing-text-to-speech-settings', title: 'Accessing Text to Speech Settings' },
-    { tag: 'changing-voices', title: 'Changing Voices' },
-    { tag: 'adjusting-speed', title: 'Adjusting Speed' },
-    { tag: 'modifying-pitch', title: 'Modifying Pitch' },
-    { tag: 'controlling-volume', title: 'Controlling Volume' },
-    { tag: 'changing-the-players-color', title: 'Changing the Player’s Color' },
-    { tag: 'available-voice-options', title: 'Available Voice Options' },
+    { tag: 'open-helperbird', title: 'Open Helperbird' },
+    { tag: 'go-to-text-to-speech', title: 'Go to Text to Speech' },
+    { tag: 'use-text-to-speech', title: 'Use Text to Speech' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
 tags: features
@@ -64,164 +33,62 @@ url: help/how-to-use-text-to-speech-on-any-website/
 permalink: help/how-to-use-text-to-speech-on-any-website/
 ---
 
-## How to Use the Text to Speech player in Helperbird
-
-Helperbird's Text to Speech player lets you listen to content on any webpage, whether you want to
-highlight specific text, paste it directly, or listen to everything on the page. Here’s how to get
-started:
-
-## Using Text to Speech with Highlighted Text
-
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser to open Helperbird.
-
-### 2. Find Text-to-Speech
-
-Use the search bar to locate the **Text to Speech** feature.
-
-### 3. Highlight Text
-
-Select the text you want to hear on the webpage.
-
-### 4. Play
-
-Once highlighted, click the **Play** button that appears in the Helperbird Text to Speech player.
-
-## Using Text to Speech with Pasted Text
-
-### 1. Paste Text
-
-If you have specific text you want to hear, paste it into the text box in the Helperbird Text to
-Speech player.
-
-### 2. Play
-
-Click the **Play** button to start listening.
-
-## Using Text to Speech for All Page Text
-
-### 1. Play All
-
-To have the entire page read aloud, simply click the **Play** button without highlighting or pasting
-any text. Helperbird will read everything from top to bottom.
-
-You can customize your experience by selecting different voices or adjusting the reading speed in
-the **Options** within the Text to Speech player.
+Helperbird's Text to Speech feature reads any text aloud, letting you listen to articles, documents, or any written content on the web. You can listen to the entire page, just highlighted text, or type your own text.
 
 ---
 
-## How to Use Text to Speech via the Highlight Menu in Helperbird
+## Step 1: Open Helperbird
 
-Helperbird's Text to Speech feature can also be accessed through the Highlight Menu.
+Click the Helperbird icon in your browser toolbar to open the extension.
 
-Here’s how:
-
-### 1. Activate Helperbird
-
-Click the Helperbird icon to open the extension.
-
-### 2. Enable Highlight Menu
-
-Make sure the highlight menu is turned on in the **Quick Actions** section.
-
-### 3. Highlight Text
-
-Navigate to the webpage and highlight the text you want to hear.
-
-#### 4. Use the Highlight Menu
-
-After highlighting, the Helperbird menu will appear near the text.
-
-#### 5. Play
-
-Click the **Play** button in the menu to start the Text to Speech feature.
 
 ---
 
-## How to Customize Text to Speech Settings in Helperbird
+## Step 2: Go to Text to Speech
 
-You can easily personalize your Text to Speech experience in Helperbird. Here’s how you can change
-**voices**, **speed**, **pitch**, **volume**, and the player’s color:
+In the list of tools, find **Text to Speech** and click the open icon next to it.
 
-### Accessing Text to Speech Settings
-
-#### 1. Open Settings
-
-Click the Helperbird icon and use the search bar to find the **Text to Speech** feature.
-
-#### 2. Options
-
-Next to the **Play** button, click the **Options** button to access the settings.
-
-### Changing Voices
-
-#### 1. Select a Voice
-
-In the options panel, find the **Voice** drop-down menu and click it to see a list of available
-voices.
-
-#### 2. Choose a Voice
-
-Pick the one you like, and it will change how the Text to Speech sounds.
-
-### Adjusting Speed
-
-#### 1. Find the Speed Slider
-
-In the options panel, locate the **Speed** slider.
-
-#### 2. Set Speed
-
-Slide left to slow down the speech or right to speed it up.
-
-### Modifying Pitch
-
-#### 1. Adjust the Pitch
-
-Find the **Pitch** slider and move it left to lower the pitch or right to raise it.
-
-### Controlling Volume
-
-#### 1. Set Volume
-
-Use the **Volume** slider to decrease or increase the sound level.
-
-### Changing the Player’s Color
-
-#### 1. Change Color
-
-In the options, select the **Color** option to pick a new color for the Text to Speech player.
-
-These settings will be saved and applied every time you use the Text to Speech feature in
-Helperbird.
 
 ---
 
-## Available Voice Options
+## Step 3: Use Text to Speech
 
-Here are some of the voices you can choose from:
+A panel will open with a text box and playback controls. Here's how it works:
 
-- Moira
-- Alex
-- Alice
-- Alva
-- Amelie
-- Google US English
-- Google UK English Female
-- Google français
-- Google italiano
-- And many more...
+**Reading Options:**
+
+- **No text highlighted**: Click play to read all the text on the current page
+- **Text highlighted**: Click play to read only the highlighted text
+- **Custom text**: Type or paste your own text into the text box to have it read aloud
+
+**Playback Controls:**
+
+Choose a voice from the dropdown menu, then click the play button to start listening. Click pause to stop playback at any time.
+
+**Settings:**
+
+Click the **Settings** button to customize your listening experience with options for highlight color, reading speed, and pitch.
+
+**Alternative Access:**
+
+You can also access Text to Speech by highlighting text on any page and clicking the play button in the toolbar that appears, or by right-clicking selected text and choosing **Helperbird > Play**.
+
+**Tip:** Adjust the reading speed and pitch to match your preference. A slower speed is helpful for learning or complex material, while faster speeds let you consume content more quickly. The color setting changes the highlight color that follows along as text is read.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support). We’re here to help!
+If you run into any issues or have questions about Text to Speech, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!

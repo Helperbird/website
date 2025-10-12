@@ -1,147 +1,77 @@
 ---
 new: false
+updated: false
 layout: templates/new/help/post-new.html
-title: How to Use Sticky Notes on Websites & PDF's in Helperbird
+title: How to Add Sticky Notes to Websites
 description:
-  Discover how to annotate websites and PDFs with Helperbird's sticky notes feature, a user-friendly
-  tool that enhances your web browsing experience.
+  Learn how to use Helperbird's Sticky Notes to add reminders and annotations directly on web pages and PDFs.
 keywords:
   annotate, sticky notes, websites, PDFs, Helperbird extension, browser tool, web browsing
-  experience
+  experience, notes, annotations
 url: help/how-to-annotate-any-website-with-sticky-notes/
 permalink: help/how-to-annotate-any-website-with-sticky-notes/
 name: Helperbird Staff
 headerTags:
   [
-    { tag: 'how-to-create-a-sticky-note', title: 'How to Create a Sticky Note' },
-    {
-      tag: 'how-to-use-text-to-speech-on-a-sticky-note',
-      title: 'How to Use Text to Speech on a Sticky Note'
-    },
-    { tag: 'how-to-view-all-sticky-notes', title: 'How to View All Sticky Notes' },
-    {
-      tag: 'how-to-change-sticky-note-background-and-text-color',
-      title: 'How to Change Sticky Note Background and Text Color'
-    },
-    { tag: 'how-to-delete-a-sticky-note', title: 'How to Delete a Sticky Note' },
-    { tag: 'additional-information', title: 'Additional Information' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-create-a-sticky-note', title: 'Step 2: Create a Sticky Note' },
+    { tag: 'step-3-customize-your-note', title: 'Step 3: Customize Your Note' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 tags: features
 img: assets/images2/uploads/add-a-heading.png
+date: 2016-01-03
+youtubeId: vwT8SAJfU3E
 cardTitle: Sticky notes
 featureDescription:
-  Discover how to annotate websites and PDFs with Helperbird's sticky notes feature, a user-friendly
-  tool that enhances your web browsing experience.
+  Learn how to use Helperbird's Sticky Notes to add reminders and annotations directly on web pages and PDFs.
 redirect_from: /support/annotate-and-highlight-pdfs-with-helperbird-online-extension/
 footer: true
 header: true
-date: 2016-01-03
-updated: false
-youtubeId: vwT8SAJfU3E
 ---
 
-Helperbird's Sticky Notes feature lets you add digital sticky notes to any website, making it easy
-to jot down reminders or important information right where you need it.
+Sticky Notes let you add digital notes to any website or PDF, perfect for jotting down reminders, ideas, or important information right where you need it.
 
 ---
 
-## How to Create a Sticky Note
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon to open the extension menu.
-
-### 2. Find the Sticky Note Option
-
-Scroll to the **Writing Tools** section.
-
-### 3. Create a Sticky Note
-
-Click the **CREATE** button next to **Sticky note**. A new sticky note will appear on the page,
-ready for you to type your note.
 
 ---
 
-## How to Use Text to Speech on a Sticky Note
+## Step 2: Create a Sticky Note
 
-### 1. Open the Sticky Note
+In the Quick Actions area at the top, click the **Sticky note** icon. A new sticky note will appear on the page.
 
-Click on the sticky note you want to hear.
-
-### 2. Play the Text
-
-Click the **Play** button at the top of the sticky note to start the text-to-speech function.
-
-### 3. Listen to Your Note
-
-Helperbird will read the header and the text of your note aloud.
 
 ---
 
-## How to View All Sticky Notes
+## Step 3: Customize Your Note
 
-### 1. Open Helperbird
+On your sticky note:
+1. Click the **Title** field and add a title for your note.
+2. Click in the text area below to write your note content.
+3. Choose a **color** from the palette at the bottom to change the note's appearance.
+4. Click the **X** in the corner when you're done to delete it.
 
-Click the Helperbird icon to open the extension.
 
-### 2. View All Notes
-
-Click on the **View All Notes** option within the sticky note feature. A list or panel showing all
-your sticky notes will appear.
-
----
-
-## How to Change Sticky Note Background and Text Color
-
-### 1. Select the Sticky Note
-
-Click on the sticky note you want to personalize.
-
-### 2. Change the Background Color
-
-Click on the **Color** option to choose a new background color for your note.
-
-### 3. Change the Text Color
-
-To change the text color, click on the **Text Color** option and select the color you prefer.
-
----
-
-## How to Delete a Sticky Note
-
-### 1. Open the Sticky Note
-
-Click on the sticky note you want to delete.
-
-### 2. Delete the Note
-
-Click on the **Delete** button, usually shown as a trash can icon, at the top of the sticky note.
-
-### 3. Confirm Deletion
-
-If prompted, confirm the deletion to remove the note permanently.
-
----
-
-## Additional Information
-
-You can add multiple sticky notes to a single webpage or PDF.
-
-Sticky notes can be organized by grouping them under different categories.
+**Tip:** You can create multiple sticky notes on the same page and use different colors to organize them by category or priority.
 
 ---
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/jX3vbq5GD5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have more questions, feel free to
-[contact Helperbird Support](/support) for personalized assistance.
+If you run into issues or want to learn more about Helperbird's annotation tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make note-taking easier.

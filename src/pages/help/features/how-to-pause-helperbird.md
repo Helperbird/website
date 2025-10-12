@@ -1,73 +1,77 @@
 ---
 new: false
-footer: true
-header: true
+updated: false
 layout: templates/new/help/post-new.html
 title: How to Pause and Resume Helperbird
 description:
-  Need a break from Helperbird? Learn how to pause and restart the extension anytime without losing
-  your settings. This guide shows you how to easily turn Helperbird on and off whenever you want.
+  Learn how to temporarily pause and resume Helperbird without losing your settings or data.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, pause helperbird, turn off helperbird
+url: help/how-to-pause-helperbird/
+permalink: help/how-to-pause-helperbird/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-find-the-on-off-toggle', title: 'Step 2: Find the On/Off Toggle' },
+    { tag: 'step-3-pause-or-resume-helperbird', title: 'Step 3: Pause or Resume Helperbird' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Pause and Resume Helperbird
 featureDescription:
-  Need a break from Helperbird? Learn how to pause and restart the extension anytime without losing
-  your settings. This guide shows you how to easily turn Helperbird on and off whenever you want.
-headerTags:
-  [
-    { tag: 'how-to-turn-helperbird-on-and-off', title: 'How to Turn Helperbird On and Off' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: featuresl
-url: help/how-to-pause-helperbird/
-permalink: help/how-to-pause-helperbird/
+  Learn how to temporarily pause and resume Helperbird without losing your settings or data.
+footer: true
+header: true
 ---
 
-## Note
-
-Turning off Helperbird won’t delete any of your settings or data. You can easily turn Helperbird
-back on whenever you’re ready.
+Sometimes you need a break from your customizations. Pausing Helperbird turns off all features temporarily without losing any of your settings.
 
 ---
 
-## How to Turn Helperbird On and Off
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the extension.
 
-Click the Helperbird icon in the top right corner of your browser window to open the extension.
+![Screenshot showing Helperbird open with the toggle in the on position](Screenshot_2025-10-11_at_11_45_16_PM.png)
 
-### 2. Find the Toggle
+---
 
-Once the extension is open, you’ll see quick actions and other features. Look for the **Helperbird
-is off** toggle in the top right.
+## Step 2: Find the On/Off Toggle
 
-### 3. Turn Helperbird On
+At the top of the Helperbird panel, you'll see a toggle button that says either **Helperbird is on** or **Helperbird is off**.
 
-Click the toggle to turn Helperbird on. Now all Helperbird features will be active.
+---
 
-### 4. Turn Helperbird Off (Optional)
+## Step 3: Pause or Resume Helperbird
 
-To turn Helperbird off, click the toggle button again. It will now say **Helperbird is off**.
+Click the toggle to turn Helperbird off or back on:
+- **To pause**: Click the toggle when it says "Helperbird is on"—it will switch to "Helperbird is off"
+- **To resume**: Click the toggle when it says "Helperbird is off"—it will switch back to "Helperbird is on"
 
-### 5. Resume Helperbird (Optional)
+![Screenshot showing Helperbird with the toggle in the off position](Screenshot_2025-10-11_at_11_45_22_PM.png)
 
-If Helperbird is off, you can turn it back on anytime by clicking the toggle button again.
+**Tip:** Pausing Helperbird is perfect when you need to see a website in its original format or want to take screenshots without customizations.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you out in no time.
+If you run into issues or want to learn more about Helperbird's features, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help.

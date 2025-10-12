@@ -1,88 +1,78 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Turn On Word Spacing in Helperbird
+title: How to Adjust Word Spacing on Websites
 description:
-  Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to
-  easily adjust the space between words for a more comfortable and readable text layout.
+  Learn how to adjust word spacing on web pages using Helperbird for easier reading and improved text clarity.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, word spacing, text spacing, adjust spacing
+url: help/how-to-change-the-word-spacing-on-any-website/
+permalink: help/how-to-change-the-word-spacing-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-adjust-word-spacing', title: 'Step 3: Adjust Word Spacing' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-11-02
 youtubeId: vwT8SAJfU3E
 cardTitle: Word spacing
 featureDescription:
-  Learn how to customize word spacing on web pages using Helperbird. This guide shows you how to
-  easily adjust the space between words for a more comfortable and readable text layout.
-date: 2022-11-02
-headerTags:
-  [
-    {
-      tag: 'how-to-turn-on-word-spacing-in-helperbird',
-      title: 'How to Turn On Word Spacing in Helperbird'
-    },
-    {
-      tag: 'how-to-adjust-word-spacing-in-helperbird',
-      title: 'How to Adjust Word Spacing in Helperbird'
-    },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-
-tags: features
-url: help/how-to-change-the-word-spacing-on-any-website/
-permalink: help/how-to-change-the-word-spacing-on-any-website/
+  Learn how to adjust word spacing on web pages using Helperbird for easier reading and improved text clarity.
+footer: true
+header: true
 ---
 
-## How to Turn On Word Spacing in Helperbird
-
-### 1. Open Helperbird
-
-oPEN the Helperbird extension by clicking the Helperbird icon in your browser's toolbar.
-
-### 2. Find Word Spacing
-
-Use the search function at the top of the Helperbird menu to locate the **Word Spacing** feature.
-
-### 3. Turn On Word Spacing
-
-Click on the toggle next to **Word Spacing** to turn the feature on.
+Adjusting word spacing improves readability by increasing or decreasing the space between words to match your reading comfort.
 
 ---
 
-## How to Adjust Word Spacing in Helperbird
+## Step 1: Open Helperbird
 
-### 4. Access the Spacing Slider
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-After enabling Word Spacing, a slider will appear under the toggle switch.
 
-### 5. Adjust the Spacing
+---
 
-**Slide to the left**: Decrease the spacing for tighter text.
+## Step 2: Go to Reading Options
 
-**Slide to the right**: Increase the spacing for a more open text layout.
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-### 6. Set Your Preferred Spacing
 
-Adjust the slider until you find the word spacing that best suits your readability preference. The
-page will update automatically with your changes.
 
-_Enjoy a more comfortable reading experience with your tailored word spacing settings._
+---
+
+## Step 3: Adjust Word Spacing
+
+In the Reading Options panel:
+1. Go to the **Text** tab.
+2. Toggle **Word spacing** **on**.
+3. Use the **slider** below to adjust the spacing until it feels comfortable.
+
+
+**Tip:** Start with a small increase and fine-tune until words are easy to distinguish without feeling too spread out.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

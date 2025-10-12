@@ -1,110 +1,80 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to use a Reading guide ruler on any website
+title: How to Use the Reading Guide on Websites
 description:
-  Learn how to use Helperbird’s Reading Guide to keep your eyes on track while reading online. This
-  guide shows you how to turn it on, customize its size, and even change its color to suit your
-  reading style.
+  Learn how to use Helperbird's Reading Guide to keep your eyes on track while reading by following your cursor with a solid guide bar.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, reading guide, reading ruler, cursor guide
+url: help/how-to-use-a-reading-guide-on-any-website/
+permalink: help/how-to-use-a-reading-guide-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-dyslexia-tools', title: 'Step 2: Go to Dyslexia Tools' },
+    { tag: 'step-3-customize-reading-guide', title: 'Step 3: Customize Reading Guide' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-03-02
 youtubeId: vwT8SAJfU3E
 cardTitle: Reading Guide
 featureDescription:
-  Learn how to use Helperbird’s Reading Guide to keep your eyes on track while reading online. This
-  guide shows you how to turn it on, customize its size, and even change its color to suit your
-  reading style.
-date: 2022-03-02
-headerTags:
-  [
-    {
-      tag: 'how-to-use-the-reading-guide-feature-in-helperbird',
-      title: 'How to Use the Reading Guide Feature in Helperbird'
-    },
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'find-the-reading-guide-option', title: 'Find the Reading Guide Option' },
-    { tag: 'turn-on-the-reading-guide', title: 'Turn On the Reading Guide' },
-    { tag: 'start-reading', title: 'Start Reading' },
-    { tag: 'customizing-the-reading-guide', title: 'Customizing the Reading Guide' },
-    { tag: 'adjusting-the-height-of-the-guide', title: 'Adjusting the Height of the Guide' },
-    { tag: 'adjusting-the-width-of-the-guide', title: 'Adjusting the Width of the Guide' },
-    { tag: 'changing-the-color-of-the-guide', title: 'Changing the Color of the Guide' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-
-tags: features
-url: help/how-to-use-a-reading-guide-on-any-website/
-permalink: help/how-to-use-a-reading-guide-on-any-website/
+  Learn how to use Helperbird's Reading Guide to keep your eyes on track while reading by following your cursor with a solid guide bar.
+footer: true
+header: true
 ---
 
-The Reading Guide feature in Helperbird helps you focus on the text you're reading by adding a solid
-bar that follows your cursor.
-
-This can be especially helpful for users with dyslexia or anyone who wants to improve their reading
-focus online.
+The Reading Guide adds a solid bar that follows your cursor, helping you stay focused on the line you're reading without losing your place.
 
 ---
 
-## How to Use the Reading Guide Feature in Helperbird
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser’s toolbar to open the menu.
-
-### 2. Find the Reading Guide Option
-
-Use the search bar at the top of the menu to quickly find the 'Reading Guide' option.
-
-### 3. Turn On the Reading Guide
-
-Toggle the switch next to 'Reading Guide' to turn it on.
-
-### 4. Start Reading
-
-A solid bar will appear on your screen, following your cursor to help guide your eyes through the
-text.
 
 ---
 
-## Customizing the Reading Guide
+## Step 2: Go to Dyslexia Tools
 
-### Adjusting the Height of the Guide
+In the list of tools, find **Dyslexia Tools** and click the open icon next to it. Then toggle **Reading Guide** **on**.
 
-1. Make sure the Reading Guide is turned on.
-2. Click the 'Settings' button in the Reading Guide section.
-3. Find the 'Height' slider in the settings panel.
-4. Drag the slider to adjust the height of the guide bar to your preference.
 
-### Adjusting the Width of the Guide
+---
 
-1. With the Reading Guide active, open the 'Settings' panel.
-2. Look for the 'Width' slider.
-3. Adjust the slider to set how wide you want the guide bar to extend across your screen.
+## Step 3: Customize Reading Guide
 
-### Changing the Color of the Guide
+In the Dyslexia Tools panel, click the **Settings** tab to customize your reading guide:
+- **Height**: Adjust how tall the guide bar appears
+- **Width**: Control how wide the guide extends across the screen
+- **Color**: Choose a color that contrasts well with the page
+- **Brightness**: Make the guide more or less transparent
+- **Follow Cursor**: Toggle on to make the guide follow your mouse, or off for a fixed position
+- **Position**: Set where the guide appears when Follow Cursor is off
 
-1. Ensure the Reading Guide feature is turned on and open the settings.
-2. Scroll to the 'Color' section.
-3. Choose your preferred color by clicking on one of the color circles to change the guide bar's
-   color.
+
+**Tip:** Try using a bright, contrasting color with Follow Cursor enabled—the guide will move with your mouse and act as a handy reading tracker.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support), and we’ll help you out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

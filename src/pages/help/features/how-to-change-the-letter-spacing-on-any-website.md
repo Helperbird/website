@@ -9,7 +9,7 @@ description:
   dyslexia.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/how-to-change-the-letter-spacing-on-any-website/
@@ -22,11 +22,10 @@ headerTags:
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
-
 tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2021-01-07
-youtubeId: vwT8SAJfU3E
+youtubeId: pFF3t3i-7Ik
 cardTitle: Letter Spacing
 featureDescription:
   Learn how to adjust letter spacing on web pages using Helperbird. This guide shows you how to
@@ -36,51 +35,53 @@ footer: true
 header: true
 ---
 
-Helperbird’s Letter Spacing feature allows you to adjust the spacing between letters, making text
-easier to read, especially for users with dyslexia.
+Make text easier to read with Helperbird’s **Letter Spacing** tool. Add more space between letters to improve readability and reduce visual stress — especially helpful for users with **dyslexia**, **visual strain**, or anyone who wants a cleaner reading experience.
 
 ---
 
-## How to Enable Letter Spacing
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the **Helperbird owl icon 🦉** in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser's extension area to open the Helperbird options.
 
-### 2. Find Letter Spacing
-
-Use the search bar in the Helperbird menu to quickly find **Letter spacing**.
-
-### 3. Turn On Letter Spacing
-
-Toggle the 'Letter spacing' switch to the **On** position to activate the feature.
 
 ---
 
-## How to Adjust the Spacing
+## Step 2: Go to Reading Options
 
-### 1. Access the Spacing Slider
+In the list of tools, find **Reading Options** and click the **open icon** next to it.
 
-Once Letter Spacing is enabled, a slider labeled **Spacing** will appear below the toggle switch.
 
-### 2. Adjust the Spacing
-
-Click and drag the slider to adjust the spacing between letters. Moving the slider to the right
-increases the spacing, while moving it to the left decreases it.
-
-### 3. Set Your Preferred Spacing
-
-Adjust the slider until you find a comfortable letter spacing that makes reading easier for you.
 
 ---
 
-## Video Tutorial
+## Step 3: Adjust Letter Spacing
 
-Coming soon.
+Once the Reading Options panel opens:
+
+1. Click the **Text** tab (if it’s not already selected).  
+2. Find **Letter Spacing**.  
+3. Toggle it **on**.  
+4. Use the **slider** to increase or decrease the spacing — adjust until it feels most comfortable for you.
+
+
+
+💡 **Tip:** Small changes can make a big difference. Try experimenting with different spacing levels until reading feels smooth and natural for your eyes.
 
 ---
 
-## Need Additional Help?
+## 📹 Video Tutorial
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
+
+---
+
+## 🤝 Need Additional Help?
+
+If you run into issues or want to learn more about Helperbird’s reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team.
+
+We’re always happy to help make reading easier 💛

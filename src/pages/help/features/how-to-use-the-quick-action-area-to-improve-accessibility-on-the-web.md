@@ -4,90 +4,75 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: What is Helperbirds Quick Action Menu?
+title: How to Use Quick Actions in Helperbird
 description:
-  Learn how to quickly access and customize your favorite Helperbird features using the Quick
-  Actions area. This guide will show you how to add, remove, and organize the tools you use most for
-  easy, one-click access.
+  Learn how to use and customize Helperbird's Quick Actions to access your favorite features with
+  one click. Add or remove tools to create your perfect accessibility toolbar.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, quick actions, toolbar
 youtubeId: vwT8SAJfU3E
-cardTitle: Quick Action Menu
+cardTitle: Quick Actions
 featureDescription:
-  Learn how to quickly access and customize your favorite Helperbird features using the Quick
-  Actions area. This guide will show you how to add, remove, and organize the tools you use most for
-  easy, one-click access.
-date: 2022-02-20
+  Learn how to use and customize Helperbird's Quick Actions to access your favorite features with
+  one click. Add or remove tools to create your perfect accessibility toolbar.
+date: 2025-10-12
 headerTags:
   [
-    { 'tag': 'quick-actions-in-helperbird', 'title': 'Quick Actions in Helperbird' },
-    { 'tag': 'accessing-quick-actions', 'title': 'Accessing Quick Actions' },
-    { 'tag': 'customizing-quick-actions', 'title': 'Customizing Quick Actions' },
-    { 'tag': 'video-tutorial', 'title': 'Video Tutorial' },
-    { 'tag': 'need-more-help', 'title': 'Need More Help?' }
+    { tag: 'open-helperbird', title: 'Open Helperbird' },
+    { tag: 'view-quick-actions', title: 'View Quick Actions' },
+    { tag: 'customize-quick-actions', title: 'Customize Quick Actions' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
+
 tags: features
 url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 permalink: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
-## Quick Actions in Helperbird
-
-Quick Actions provide swift access to your most-used features in Helperbird, right from the top of
-the interface.
+Quick Actions in Helperbird give you instant access to your most-used features right at the top of the extension. Customize which tools appear for one-click access to the features you use most.
 
 ---
 
-## Accessing Quick Actions
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser's toolbar.
-
-### 2. View Quick Actions
-
-When you open Helperbird, Quick Actions are visible at the top, represented by vibrant icons.
-
-### 3. Activate Features
-
-Simply click any icon to instantly activate that feature.
+Click the Helperbird icon in your browser toolbar to open the extension.
 
 ---
 
-## Customizing Quick Actions
+## Step 2: View Quick Actions
 
-### 1. Open Customization
+When you open Helperbird, Quick Actions appear at the top as colorful circular icons. Each icon represents a different feature you can activate with a single click.
 
-Click the grey plus (+) button within the Quick Actions area.
+---
 
-### 2. Choose Features
+## Step 3: Customize Quick Actions
 
-A modal will show all available features, each with a heart icon beside it.
+To add or remove features from Quick Actions, click the plus (+) button in the Quick Actions area. 
 
-### 3. Select Features
+A menu will appear showing all available features. Features with green checkmarks are currently in your Quick Actions. Click any feature to toggle it on or off.
 
-Click the heart icon to add a feature to Quick Actions. A filled heart means it's selected; an
-outlined heart means it's not.
+When you're done customizing, close the menu to save your changes.
 
-### 4. Finalize Setup
-
-Close the modal to save your customized Quick Actions.
-
-Customize Quick Actions for one-click access to your essential Helperbird tools.
+*Tip:* Add the features you use most often to Quick Actions for faster access. You can have as many or as few tools as you want in your Quick Actions area.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
-## Need more help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+If you run into any issues or have questions about Quick Actions, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!

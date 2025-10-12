@@ -2,93 +2,72 @@
 new: false
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Adjust Cursor Size in Helperbird
+title: How to Change Cursor Size on Websites
 description:
-  Learn how to adjust the cursor size on web pages using Helperbird. This guide makes it easy to
-  customize your cursor for better visibility, with options ranging from small to extra large.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  Learn how to use Helperbird's Cursor Size feature to make your mouse pointer larger for better visibility.
+keywords: 
+  Helperbird, cursor size, mouse pointer, large cursor, accessibility, visibility, cursor, mouse
 url: help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 permalink: help/how-to-change-the-cursor-size-in-google-chrome-firefox-or-edge/
 name: Helperbird Staff
 headerTags:
   [
-    { tag: 'how-to-turn-on-cursor-size', title: 'How to Turn On Cursor Size' },
-    { tag: 'how-to-change-the-cursor-size', title: 'How to Change the Cursor Size' },
-    { tag: 'supported-sizes', title: 'Supported Sizes' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-display-options', title: 'Step 2: Go to Display Options' },
+    { tag: 'step-3-adjust-cursor-size', title: 'Step 3: Adjust Cursor Size' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 tags: features
 img: assets/images2/uploads/add-a-heading.png
-date: 2018-01-02
+date: 2022-12-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Cursor Size
 featureDescription:
-  Learn how to adjust the cursor size on web pages using Helperbird. This guide makes it easy to
-  customize your cursor for better visibility, with options ranging from small to extra large.
+  Learn how to use Helperbird's Cursor Size feature to make your mouse pointer larger for better visibility.
 footer: true
 header: true
 ---
 
-Helperbird's Cursor Size feature lets you change the size of your cursor on web pages, making it
-easier to see and track on the screen.
+The Cursor Size feature lets you make your mouse pointer larger, making it easier to see and track as you move around web pages.
 
 ---
 
-## How to Turn On Cursor Size
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser to open Helperbird.
-
-### 2. Find Cursor Size
-
-Use the search bar at the top of the menu to search for **Cursor Size**.
-
-### 3. Turn On Cursor Size
-
-Locate the **Cursor Size** toggle and switch it to the **On** position.
 
 ---
 
-## How to Change the Cursor Size
+## Step 2: Go to Display Options
 
-### 1. Access the Size Slider
+Scroll down in the list of tools, find **Display Options** and click the open icon next to it.
 
-With the Cursor Size feature turned on, you’ll see a slider for adjusting the size.
-
-### 2. Adjust the Cursor Size
-
-Slide the control to choose your preferred cursor size: **small**, **medium**, **large**, or **extra
-large**.
-
-### 3. See the Change in Real-Time
-
-The cursor size will adjust in real-time as you move the slider, helping you pick the size that best
-suits your needs.
 
 ---
 
-## Sizes
+## Step 3: Adjust Cursor Size
 
-- Extra Large
-- Large
-- Medium
-- Small
+In the Display Options panel:
+1. Toggle **Cursor size** **on**.
+2. Use the **slider** to adjust how large you want your cursor—slide right to make it bigger or left to make it smaller.
+3. The label shows your current size (Small, Medium, Large, etc.).
+
+**Tip:** A larger cursor is especially helpful on high-resolution displays or when you have trouble tracking the standard pointer.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's display features, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make browsing easier.

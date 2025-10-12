@@ -2,105 +2,77 @@
 new: false
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use the Font Changer Feature in Helperbird
+title: How to Change Fonts on Websites
 description:
-  Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend
-  and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font
-  for easier reading
+  Learn how to change fonts on web pages using Helperbird for easier reading and improved accessibility.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+  OpenDyslexic, font changer, dyslexia friendly fonts, Lexend, Comic Sans
 url: help/how-to-change-the-font-on-any-page/
 permalink: help/how-to-change-the-font-on-any-page/
 name: Helperbird Staff
-headerTags: []
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-choose-your-font', title: 'Step 3: Choose Your Font' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
 tags: features
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Fonts
 featureDescription:
-  Learn how to use Helperbird's Font Changer feature to choose dyslexia-friendly fonts like Lexend
-  and OpenDyslexic. This guide walks you through enabling the feature and selecting the best font
-  for easier reading
+  Learn how to change fonts on web pages using Helperbird for easier reading and improved accessibility.
 footer: true
 header: true
 ---
 
-Helperbird’s Font Changer feature allows you to choose dyslexia-friendly fonts like Lexend or
-OpenDyslexic, making reading easier for users with dyslexia.
+Changing fonts helps make text easier to read, especially dyslexia-friendly options like Lexend and OpenDyslexic.
 
 ---
 
-## How to Enable the Font Changer
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser to open the extension’s menu.
-
-### 2. Find the Font Option
-
-Use the search feature within the menu to look for the "Font" option.
-
-### 3. Turn On the Font Feature
-
-Find the toggle switch for "Font" and click it to activate the feature.
 
 ---
 
-## How to Select a Dyslexia-Friendly Font
+## Step 2: Go to Reading Options
 
-### 1. View Font Choices
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-With the Font feature enabled, a variety of font options will appear.
-
-### 2. Choose a Dyslexia-Friendly Font
-
-Browse through the fonts and select a dyslexia-friendly font like Lexend or OpenDyslexic by clicking
-on it.
-
-### 3. See the Change
-
-The text on the webpage will immediately update to the selected font, making it easier to read for
-dyslexic users.
 
 ---
 
-## Available Dyslexia Friendly Fonts
+## Step 3: Choose Your Font
 
-- OpenDyslexic
-- Lexend
-- Comic Sans
+In the Reading Options panel:
+1. Go to the **Text** tab.
+2. Toggle **Font** **on**.
+3. Select your preferred font from the list (like Comic sans, Lexend Deca, or OpenDyslexic).
+4. The font will apply immediately to all text on the page.
 
----
 
-## Additional Font Options
-
-- Arial
-- Comic Sans
-- Tahoma
-- Verdana
-- Gothic
-- Lexend
-- Trebuchet
-- Bookman
-- Courier
-- Georgia
-- Helvetica
-- Impact
-- Times
+**Tip:** Try dyslexia-friendly fonts like Lexend or OpenDyslexic for easier reading.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

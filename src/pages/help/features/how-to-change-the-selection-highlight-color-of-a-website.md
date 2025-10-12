@@ -1,91 +1,75 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Use the Highlight Color Feature in Helperbird
 description:
-  Learn how to customize the highlight color of text on web pages using Helperbird. This guide shows
-  you how to easily change and test your highlight color for better studying, annotating, and
-  marking important sections.
+  Learn how to customize the highlight color of text on web pages using Helperbird for better studying and annotating.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, highlight color, text highlighting, annotation
+url: help/how-to-change-the-selection-highlight-color-of-a-website/
+permalink: help/how-to-change-the-selection-highlight-color-of-a-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-customize-highlight-color', title: 'Step 3: Customize Highlight Color' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2020-01-04
 youtubeId: vwT8SAJfU3E
 cardTitle: Highlight color
 featureDescription:
-  Learn how to customize the highlight color of text on web pages using Helperbird. This guide shows
-  you how to easily change and test your highlight color for better studying, annotating, and
-  marking important sections.
-date: 2020-01-04
-headerTags:
-  [
-    { tag: 'how-to-turn-on-highlight-color', title: 'How to Turn On Highlight Color' },
-    { tag: 'how-to-change-the-highlight-color', title: 'How to Change the Highlight Color' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-change-the-selection-highlight-color-of-a-website/
-permalink: help/how-to-change-the-selection-highlight-color-of-a-website/
+  Learn how to customize the highlight color of text on web pages using Helperbird for better studying and annotating.
+footer: true
+header: true
 ---
 
-## How to Use the Highlight Color Feature in Helperbird
-
-Helperbird’s Highlight Color feature lets you change the color of text you highlight on web pages.
-
-This can be useful for studying, annotating, or simply marking important sections of text.
+Changing your highlight color makes it easier to mark important sections of text when studying or annotating web pages.
 
 ---
 
-## How to Turn On Highlight Color
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
-
-Click the Helperbird icon in your browser to open Helperbird.
-
-### 2. Find Highlight Color
-
-Use the search bar at the top of the menu to search for **Highlight Color**.
-
-### 3. Turn On Highlight Color
-
-Find the "Highlight Color" toggle and switch it to the **On** position.
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
 ---
 
-## How to Change the Highlight Color
+## Step 2: Go to Reading Options
 
-### 4. View Color Options
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-Once the Highlight Color feature is turned on, a palette of colors will appear below the toggle.
+---
 
-### 5. Select Your Highlight Color
+## Step 3: Customize Highlight Color
 
-Click on the color you wish to use for highlighting text. The selected color will be marked with a
-check.
+In the Reading Options panel:
+1. Go to the **Colors** tab.
+2. Toggle **Highlight color** **on**.
+3. Choose your preferred color from the palette below.
+4. Test it by highlighting any text on the page.
 
-### 6. Test the Highlight
-
-To test it out, simply highlight some text on the webpage. The selected color will now be used to
-highlight the text.
-
-_Tip: Remember to save your preferred settings if the extension allows it, so your highlight color
-remains consistent across browsing sessions._
+**Tip:** Pick a color that stands out but doesn't strain your eyes during long study sessions.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions, our friendly [Helperbird support team](/support/) is
-here to help you out.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

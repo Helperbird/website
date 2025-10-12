@@ -4,122 +4,79 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Access Text Analytics in the Helperbird Editor
-description:
-  Explore your writing in detail with Helperbird’s Text Analytics. This guide shows you how to
-  access and understand key writing statistics, helping you refine your work and gain insights into
-  your text.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: How to Use Text Analytics in Helperbird Editor
+description: Learn how to access detailed writing statistics in Helperbird Editor, including word count, character count, reading time, and more to help you analyze and improve your writing.
+keywords: text analytics, word counter, character counter, writing statistics, reading time calculator, Helperbird editor, writing tools, text analysis, document statistics, Helperbird chrome extension
 youtubeId: vwT8SAJfU3E
-cardTitle: Text Analytics
-featureDescription:
-  Explore your writing in detail with Helperbird’s Text Analytics. This guide shows you how to
-  access and understand key writing statistics, helping you refine your work and gain insights into
-  your text.
-date: 2016-01-03
+cardTitle: Text Analytics in Editor
+featureDescription: Get instant insights into your writing with detailed statistics including word count, character count, sentences, reading time, speaking time, and writing time estimates.
+date: 2025-10-12
 headerTags:
   [
-    {
-      tag: 'how-to-access-text-analytics-in-the-helperbird-editor',
-      title: 'How to Access Text Analytics in the Helperbird Editor'
-    },
-    { tag: 'open-your-document', title: 'Open Your Document' },
-    { tag: 'open-text-analytics', title: 'Open Text Analytics' },
-    { tag: 'review-your-writing-stats', title: 'Review Your Writing Stats' },
-    { tag: 'use-the-insights', title: 'Use the Insights' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'open-helperbird', title: 'Open Helperbird' },
+    { tag: 'go-to-editor', title: 'Go to Editor' },
+    { tag: 'view-text-analytics', title: 'View Text Analytics' }
   ]
 tags: features
-url: help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
-permalink: help/how-to-count-the-amount-of-words-and-characters-in-a-sentence/
+url: help/how-to-use-text-analytics-in-helperbird-editor/
+permalink: help/how-to-use-text-analytics-in-helperbird-editor/
 ---
 
-## How to Access Text Analytics in the Helperbird Editor
+Want to understand your writing better? Helperbird's Text Analytics gives you instant insights into your documents with detailed statistics about word count, reading time, and much more.
 
-Get ready to explore the details of your writing with Helperbird’s Text Analytics feature. Here's
-how to access and understand the statistics it provides:
+---
 
-### 1. Open Your Document
+## Step 1: Open Helperbird
 
-With your document open in the Helperbird Editor, find the "Text Analytics" button, usually located
-on the top toolbar.
+Click the Helperbird icon in your browser toolbar to open the main dashboard. You'll see all your available tools and features organized by category.
 
-### 2. Open Text Analytics
+---
 
-Click the "Text Analytics" button to view a detailed breakdown of your document's statistics.
+## Step 2: Go to Editor
 
-### 3. Review Your Writing Stats
+In the Helperbird dashboard, locate **Writing Tools** in the menu. Click on it to open the Helperbird Editor where you can write or paste your text.
 
-Helperbird’s Text Analytics will give you the following insights:
 
-#### Words
+---
 
-The total number of words in your document.
+## Step 3: View Text Analytics
 
-#### Characters
+Once you have text in your editor, click the **Text statistics** button in the toolbar. 
 
-The total number of characters, including spaces.
+A window will open showing detailed analytics about your writing:
 
-#### Sentences
+- **Words**: Total word count in your document
+- **Characters**: Total number of characters including spaces
+- **Sentences**: Number of sentences in your text
+- **Reading time**: Estimated time to read your text
+- **Speaking time**: Estimated time to speak your text aloud
+- **Writing time**: Estimated time it took to write your text
 
-The number of sentences in your text.
+![Text Analytics modal displaying statistics including 31 words, 169 characters, 4 sentences, and time estimates](Screenshot_2025-10-12_at_12_12_31_PM.png)
 
-#### Reading Time
-
-Estimated time it would take to read the text.
-
-#### Speaking Time
-
-Estimated time it would take to speak the text aloud.
-
-#### Writing Time
-
-Estimated time it would take to write the text.
-
-#### Unique Words
-
-The number of unique words in your text.
-
-#### Average Characters
-
-The average number of characters per word.
-
-#### Longest Sentence
-
-The length (in words) of the longest sentence in your text.
-
-#### Shortest Sentence
-
-The length (in words) of the shortest sentence in your text.
-
-#### Lines
-
-The number of lines in your document.
-
-#### Paragraphs
-
-The number of paragraphs in your document.
-
-### 4. Use the Insights
-
-These insights are great for helping you refine your writing, focus on areas that need improvement,
-or simply get a better understanding of your text.
+**Tip**: Use Text Analytics to check if your writing meets specific requirements like word limits for essays or to estimate how long your content will take readers to consume.*
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="border-radius: 19px;"
+></iframe>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+Ran into a snag while using Text Analytics? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

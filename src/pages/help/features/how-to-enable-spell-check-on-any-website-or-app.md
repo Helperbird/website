@@ -1,78 +1,81 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Use Spell Check in Helperbird
+title: How to Check Grammar and Spelling on Websites
 description:
-  Learn how to activate spell check in Helperbird to help you write error-free. Plus, stay tuned for
-  updates as we integrate Microsoft Editor for even better spelling and grammar checks.
+  Learn how to use Helperbird's Grammar/Spell Check to review text for errors with built-in text-to-speech and correction options.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, grammar check, spell check, proofreading
+url: help/how-to-enable-spell-check-on-any-website-or-app/
+permalink: help/how-to-enable-spell-check-on-any-website-or-app/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-writing-tools', title: 'Step 2: Go to Writing Tools' },
+    { tag: 'step-3-check-your-text', title: 'Step 3: Check Your Text' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-04-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Spell Check
 featureDescription:
-  Learn how to activate spell check in Helperbird to help you write error-free. Plus, stay tuned for
-  updates as we integrate Microsoft Editor for even better spelling and grammar checks.
-date: 2022-04-01
-headerTags:
-  [
-    { tag: 'how-to-use-spell-check-in-helperbird', title: 'How to Use Spell Check in Helperbird' },
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'find-spell-check', title: 'Find Spell Check' },
-    { tag: 'turn-on-spell-check', title: 'Turn On Spell Check' },
-    { tag: 'whats-coming-next', title: 'What’s Coming Next?' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-
-tags: features
-url: help/how-to-enable-spell-check-on-any-website-or-app/
-permalink: help/how-to-enable-spell-check-on-any-website-or-app/
+  Learn how to use Helperbird's Grammar/Spell Check to review text for errors with built-in text-to-speech and correction options.
+footer: true
+header: true
 ---
 
-## How to Use Spell Check in Helperbird
-
-Helperbird incorporates your browser's built-in spell check to help you write without errors. Here’s
-how to activate it:
-
-### 1. Open Helperbird
-
-Click the Helperbird extension icon to access the main menu.
-
-### 2. Find Spell Check
-
-Use the search feature to quickly find the **Spell check** option.
-
-### 3. Turn On Spell Check
-
-Toggle the switch to activate the spell check feature.
-
-_Note: The spell check functionality is based on your browser's native engine, so it’s seamlessly
-integrated and easy to use._
+Grammar/Spell Check helps you catch writing errors by analyzing selected text and providing feedback with text-to-speech support.
 
 ---
 
-## What’s Coming Next?
+## Step 1: Open Helperbird
 
-Exciting news! We’re working on adding Microsoft Editor to Helperbird to make your spelling and
-grammar checks even more powerful. Follow us on social media to stay updated on when these features
-roll out!
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+
+
+---
+
+## Step 2: Go to Writing Tools
+
+In the list of tools, find **Writing Tools** and click the open icon next to it. Then click on **Grammar/Spell Check** to open the checker.
+
+
+---
+
+## Step 3: Check Your Text
+
+To check text for grammar and spelling errors:
+
+1. **Highlight** the text you want to check on any webpage
+2. The Grammar/Spell Check popup will appear with your selected text
+3. Click the **Check** button to analyze the text
+4. Click **Options** to customize checking settings
+5. Use **Listen** to hear the text read aloud
+6. Click **Clear** to remove the text and start over
+
+
+**Tip:** Use the Listen feature to hear your text read aloud—this can help you catch errors you might miss when reading silently.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+If you run into issues or want to learn more about Helperbird's writing tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make writing easier.

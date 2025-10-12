@@ -1,79 +1,78 @@
 ---
 new: false
-footer: true
-header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Set the  Paragraph Width with Helperbird
+title: How to Adjust Paragraph Width on Websites
 description:
-  Learn how to adjust paragraph width on any webpage using Helperbird. This guide helps you
-  customize text layout to create a more comfortable reading experience.
+  Learn how to adjust paragraph width on web pages using Helperbird for a more comfortable reading experience.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, paragraph width, text width, reading width
+url: help/how-to-set-the-paragraph-width-on-any-page/
+permalink: help/how-to-set-the-paragraph-width-on-any-page/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
+    { tag: 'step-3-adjust-paragraph-width', title: 'Step 3: Adjust Paragraph Width' },
+    { tag: 'video-tutorial', title: 'Video Tutorial' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2022-02-10
 youtubeId: vwT8SAJfU3E
 cardTitle: Paragraph Widths
 featureDescription:
-  Learn how to adjust paragraph width on any webpage using Helperbird. This guide helps you
-  customize text layout to create a more comfortable reading experience.
-date: 2022-02-10
-headerTags:
-  [
-    {
-      tag: 'how-to-adjust-paragraph-width-in-helperbird',
-      title: 'How to Adjust Paragraph Width in Helperbird'
-    },
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'find-paragraph-width', title: 'Find Paragraph Width' },
-    { tag: 'turn-on-paragraph-width', title: 'Turn On Paragraph Width' },
-    { tag: 'adjust-the-width', title: 'Adjust the Width' },
-    { tag: 'enjoy-your-customized-layout', title: 'Enjoy Your Customized Layout' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-tags: features
-url: help/how-to-set-the-paragraph-width-on-any-page/
-permalink: help/how-to-set-the-paragraph-width-on-any-page/
+  Learn how to adjust paragraph width on web pages using Helperbird for a more comfortable reading experience.
+footer: true
+header: true
 ---
 
-## How to Set the Paragraph Width with Helperbird
+Adjusting paragraph width helps you focus on text by narrowing or widening how much content appears on each line, making reading feel more natural.
 
-With Helperbird, you can easily tweak the width of paragraphs on any webpage to make reading more
-comfortable for you.
+---
 
-### 1. Open Helperbird
+## Step 1: Open Helperbird
 
-First, click the Helperbird icon in your browser's toolbar to open the menu.
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-### 2. Find Paragraph Width
 
-Use the search bar in the Helperbird menu to quickly find the **Paragraph Width** option.
+---
 
-### 3. Turn On Paragraph Width
+## Step 2: Go to Reading Options
 
-Flip the switch next to **Paragraph Width** to turn it on.
+In the list of tools, find **Reading Options** and click the open icon next to it.
 
-### 4. Adjust the Width
 
-Once the feature is on, you’ll see a slider. Move it left to make the paragraphs narrower or right
-to make them wider—whatever feels best for you.
+---
 
-### 5. Enjoy Your Customized Layout
+## Step 3: Adjust Paragraph Width
 
-Now, kick back and enjoy reading with paragraphs set to the width that’s just right for you.
+In the Reading Options panel:
+1. Go to the **Border** tab.
+2. Toggle **Width** **on**.
+3. Use the **slider** to adjust the width—slide left to narrow paragraphs or right to widen them until it feels just right.
+
+
+
+**Tip:** Try setting paragraphs to around 60-80% width for easier eye tracking and less strain during long reading sessions.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support/), and we’ll get you sorted in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.

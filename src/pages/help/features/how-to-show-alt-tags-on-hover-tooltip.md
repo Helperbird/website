@@ -4,79 +4,80 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to See Alt Text and Title Tags for Images and Links with Helperbird
+title: How to Show Image and Link Descriptions on Hover with Helperbird
 description:
-  Learn how to easily view alt text for images and title tags for links on any webpage using
-  Helperbird. This guide shows you how to activate the feature and gain extra context while
-  browsing.
+  Learn how to display alt text for images and title tags for links when you hover over them using
+  Helperbird's hover descriptions feature. Perfect for gaining extra context while browsing.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, alt text, image descriptions, link descriptions, hover tooltips
 youtubeId: vwT8SAJfU3E
-cardTitle: Show Alt & Title tags
+cardTitle: Hover Descriptions
 featureDescription:
-  Learn how to easily view alt text for images and title tags for links on any webpage using
-  Helperbird. This guide shows you how to activate the feature and gain extra context while
-  browsing.
-date: 2022-04-03
+  Learn how to display alt text for images and title tags for links when you hover over them using
+  Helperbird's hover descriptions feature. Perfect for gaining extra context while browsing.
+date: 2025-10-12
 headerTags:
   [
-    {
-      tag: 'how-to-see-alt-text-and-title-tags-for-images-and-links-with-helperbird',
-      title: 'How to See Alt Text and Title Tags for Images and Links with Helperbird'
-    },
     { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'find-the-show-alt-feature', title: 'Find the Show Alt Feature' },
-    { tag: 'turn-on-show-alt', title: 'Turn On Show Alt' },
-    { tag: 'hover-over-images-or-links', title: 'Hover Over Images or Links' },
-    { tag: 'see-the-alt-text-or-title-tag', title: 'See the Alt Text or Title Tag' },
+    { tag: 'go-to-media-options', title: 'Go to Media Options' },
+    { tag: 'enable-hover-descriptions', title: 'Enable Hover Descriptions' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
+
 tags: features
 url: help/how-to-show-alt-tags-on-hover-tooltip/
 permalink: help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 
-## How to See Alt Text and Title Tags for Images and Links with Helperbird
+Helperbird's hover descriptions feature lets you see alt text for images and title tags for links simply by moving your mouse over them. This is incredibly helpful for understanding context, checking accessibility information, or just learning more about what's on the page.
 
-Helperbird makes it easy to see alt text for images and title tags for links just by hovering your
-mouse over them. This feature is super helpful for anyone using a screen reader or anyone who needs
-extra context when browsing. Here’s how to turn it on and use it:
+---
 
-### 1. Open Helperbird
+## Step 1: Open Helperbird
 
-Click the Helperbird icon in your browser's toolbar to open the extension menu.
+Click the Helperbird icon in your browser toolbar to open the main dashboard.
 
-### 2. Find the Show Alt Feature
 
-Use the search bar in the Helperbird menu to look for the **Show Alt** option.
+---
 
-### 3. Turn On Show Alt
+## Step 2: Go to Media Options
 
-Once you find **Show Alt**, toggle the switch to turn it on.
+Scroll down through the Helperbird menu and click on **Media Options** to open the media settings panel.
 
-### 4. Hover Over Images or Links
 
-Move your mouse over any image or link on the webpage.
+---
 
-### 5. See the Alt Text or Title Tag
+## Step 3: Enable Hover Descriptions
 
-When you hover over an image, a popup will show the alt text. If you hover over a link, it will
-display the title tag.
+In the Media Options panel, click on the **Hover** tab at the top. You'll see two options you can toggle:
+
+**Link descriptions**: Displays the title tag (descriptive text) of any link when you hover your mouse over it, giving you context about where the link leads before clicking.
+
+**Image descriptions**: Shows the alt text (alternative text description) of images when you hover over them, letting you see what the image represents even if it hasn't loaded or for accessibility purposes.
+
+Toggle on the descriptions you want to see. Once enabled, simply hover your mouse over any image or link on a webpage to see its description appear in a tooltip.
+
+
+**Tip:** Turn on both Link descriptions and Image descriptions together to get the fullest picture of webpage content, especially useful when researching or checking if a site is accessible.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you out in no time.
+If you run into any issues or have questions about hover descriptions, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!

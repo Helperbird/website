@@ -1,123 +1,79 @@
 ---
 new: false
 updated: true
-footer: true
-header: true
 layout: templates/new/help/post-new.html
-title: How to Use the Dyslexia Ruler in Helperbird
+title: How to Use the Dyslexia Ruler on Websites
 description:
-  Discover how to use and customize Helperbird’s Dyslexia Ruler to make reading easier. This guide
-  shows you how to adjust the ruler’s height, width, color, and more for a better reading
-  experience.
+  Learn how to use and customize Helperbird's Dyslexia Ruler to make reading easier by highlighting lines as you read.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+  OpenDyslexic, dyslexia ruler, reading ruler, line tracker
+url: help/how-to-use-a-dyslexia-ruler-on-any-website/
+permalink: help/how-to-use-a-dyslexia-ruler-on-any-website/
+name: Helperbird Staff
+headerTags:
+  [
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-dyslexia-tools', title: 'Step 2: Go to Dyslexia Tools' },
+    { tag: 'step-3-customize-dyslexia-ruler', title: 'Step 3: Customize Dyslexia Ruler' },
+    { tag: 'video-walkthrough', title: 'Video Walkthrough' },
+    { tag: 'need-additional-help', title: 'Need Additional Help?' }
+  ]
+tags: features
+img: assets/images2/uploads/add-a-heading.png
+date: 2019-01-03
 youtubeId: ZI7yqBKd91E
 cardTitle: Dyslexia Ruler
 featureDescription:
-  Discover how to use and customize Helperbird’s Dyslexia Ruler to make reading easier. This guide
-  shows you how to adjust the ruler’s height, width, color, and more for a better reading
-  experience.
-date: 2019-01-03
-headerTags:
-  [
-    {
-      tag: 'how-to-use-the-dyslexia-ruler-in-helperbird',
-      title: 'How to Use the Dyslexia Ruler in Helperbird'
-    },
-    { tag: 'how-to-customize-the-dyslexia-ruler', title: 'How to Customize the Dyslexia Ruler' },
-    { tag: 'change-the-rulers-height', title: 'Change the Ruler’s Height' },
-    { tag: 'adjust-the-rulers-width', title: 'Adjust the Ruler’s Width' },
-    { tag: 'change-the-rulers-color', title: 'Change the Ruler’s Color' },
-    { tag: 'adjust-the-rulers-brightness', title: 'Adjust the Ruler’s Brightness' },
-    { tag: 'follow-mode', title: 'Follow Mode' },
-    { tag: 'video-walkthrough', title: 'Video Walkthrough' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
-
-tags: features
-url: help/how-to-use-a-dyslexia-ruler-on-any-website/
-permalink: help/how-to-use-a-dyslexia-ruler-on-any-website/
+  Learn how to use and customize Helperbird's Dyslexia Ruler to make reading easier by highlighting lines as you read.
+footer: true
+header: true
 ---
 
-The Dyslexia Ruler feature in Helperbird helps make reading easier by adding a semi-transparent
-ruler that follows your cursor.
-
-It’s especially useful for individuals with dyslexia or anyone who needs help tracking lines while
-reading.
+The Dyslexia Ruler helps you track lines while reading by adding a semi-transparent bar that highlights text—especially helpful for people with dyslexia or anyone who struggles to follow long lines of text.
 
 ---
 
-How to Use the Dyslexia Ruler in Helperbird
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
 
-Click the Helperbird icon in your browser’s toolbar to open Helperbird.
-
-### 2. Find the Dyslexia Ruler
-
-Use the search bar to quickly find the **Dyslexia Ruler** option.
-
-### 3. Turn On the Dyslexia Ruler
-
-Toggle the Dyslexia Ruler on. A semi-transparent bar will appear on your screen, highlighting the
-line you’re reading.
-
-### 4. Start Reading
-
-Move your cursor to have the Dyslexia Ruler follow along, helping you keep your place in the text.
 
 ---
 
-## How to Customize the Dyslexia Ruler
+## Step 2: Go to Dyslexia Tools
 
-### Change the Ruler’s Height
+In the list of tools, find **Dyslexia Tools** and click the open icon next to it. Then toggle **Dyslexia ruler** **on**.
 
-1. With the Dyslexia Ruler on, go to the **Settings** button.
-2. Adjust the 'Height' slider to change how tall the ruler appears on your screen.
+---
 
-### Adjust the Ruler’s Width
+## Step 3: Customize Dyslexia Ruler
 
-1. Open the **Settings** while the Dyslexia Ruler is turned on.
-2. Use the **Width** slider to set the desired width of the ruler to span across your text.
+In the Dyslexia Tools panel, click the **Settings** tab to customize your ruler:
+- **Height**: Adjust how tall the ruler appears
+- **Width**: Control how wide the ruler extends across the screen
+- **Color**: Choose a color that works best for your eyes
+- **Brightness**: Make the ruler more or less transparent
+- **Follow Cursor**: Toggle on to make the ruler follow your mouse, or off to keep it in a fixed position
+- **Position**: Set where the ruler appears on the screen when Follow Cursor is off
 
-### Change the Ruler’s Color
 
-1. Make sure the Dyslexia Ruler is on, then open **Settings**.
-2. Choose a new color by clicking on one of the color options to change the ruler’s appearance.
-
-### Adjust the Ruler’s Brightness
-
-For more comfortable reading in different lighting or to reduce eye strain:
-
-1. Activate the Dyslexia Ruler and go to **Settings**.
-2. Use the 'Brightness' slider to adjust the transparency, making the text easier to read.
-
-### Follow Mode
-
-You can set the Dyslexia Ruler to either follow your cursor automatically or stay in a fixed
-position:
-
-1. Turn on the Dyslexia Ruler by opening Helperbird.
-2. Go to **Settings** in the Dyslexia Ruler options.
-3. Find the **Follow Cursor** toggle in the settings panel.
-4. Click the toggle to choose whether the ruler follows your cursor (on) or stays fixed on the
-   screen (off).
+**Tip:** Try enabling Follow Cursor mode and using a light blue or beige color with medium brightness for comfortable line tracking.
 
 ---
 
 ## Video Walkthrough
 
-Here’s a video guide to help you get started:
-
-{% youtubeEmbed 'ZI7yqBKd91E' %}
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you run into any issues or have questions, just reach out to our friendly
-[Helperbird support team](/support), and we’ll help you out in no time.
+If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
