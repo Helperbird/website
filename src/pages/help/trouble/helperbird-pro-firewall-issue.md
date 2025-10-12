@@ -9,15 +9,24 @@ description:
   hitch.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/helperbird-pro-firewall-issue/
 permalink: help/helperbird-pro-firewall-issue/
 name: Robert James
-tags: trouble
+headerTags:
+  [
+    { tag: 'check-helperbird-server-connection', title: 'Check Helperbird Server Connection' },
+    { tag: 'test-your-network-and-firewall', title: 'Test Your Network and Firewall' },
+    { tag: 'get-help-if-still-blocked', title: 'Get Help If Still Blocked' }
+  ]
+tags:
+  - trouble
+  - helpguides
+  - troubleHelpGuides
 img: assets/images2/uploads/add-a-heading.png
-date: 2023-09-10T18:29:20.461Z
+date: 2023-09-10
 youtubeId: vwT8SAJfU3E
 cardTitle: Network and Firewall
 featureDescription:
@@ -28,46 +37,60 @@ footer: true
 header: true
 ---
 
-If you've entered your subscription key or logged in with your email, but Helperbird Pro isn't
-unlocking, it might be because of a network or firewall issue. Don’t worry—here’s how you can check
-and fix it.
+If you've entered your subscription key or logged in but Helperbird Pro still won't unlock, your network or firewall might be blocking the connection. 
 
-### 1. Make Sure Helperbird Can Connect
+Let's figure out what's happening and get you back up and running.
 
-Helperbird needs to connect to our server to verify your subscription. To do this, your network
-needs to allow access to:
+---
 
-- [https://engine.helperbird.app](https://engine.helperbird.app)
+## Step 1: Check Helperbird Server Connection
 
-If you're on a work or school network, you might need to ask your IT admin to allow this URL.
+Helperbird needs to connect to our server to verify your subscription. Your network must allow access to **https://engine.helperbird.app**. 
 
-### 2. Check for Network or Firewall Blockages
+If you're on a work or school network, your IT department might be blocking this URL. You may need to ask your IT admin to whitelist it so Helperbird can connect properly.
 
-If you think your network might be blocking Helperbird, you can quickly check it yourself:
 
-#### 1. Visit the Firewall Test Page
+---
 
-- Go to [https://engine.helperbird.app/firewall/](https://engine.helperbird.app/firewall/).
+## Step 2: Test Your Network and Firewall
 
-#### 2. See the Test Result
+The easiest way to check if your network is blocking Helperbird is to run our quick test. Open your browser and go to **https://engine.helperbird.app/firewall/**. 
 
-- If you see a message that says, **"You should be able to unlock Helperbird Pro—no network or
-  firewall is blocking you,"** then your network is clear, and Helperbird should work fine.
-- But if Helperbird Pro still isn't unlocking, it might be something else. In that case, get in
-  touch with our support team.
+If you see the message **You should be able to unlock Helperbird Pro—no network or firewall is blocking you.** then your network is clear and Helperbird should work. 
 
-### 3. Still Having Trouble?
+If you see a different message or get an error, your network or firewall is likely blocking the connection.
 
-If you've done all this and Helperbird Pro still won't unlock, we're here to help. Just
-[contact Helperbird support](mailto:support@helperbird.com), and we'll get you sorted out.
+
+---
+
+## Step 3: Get Help If Still Blocked
+
+If the firewall test shows everything is clear but Helperbird Pro still won't unlock, something else might be going on. Reach out to our support team at **support@helperbird.com** and let us know you've already run the firewall test. We'll help you troubleshoot and get Helperbird working for you.
+
+
+**Tip:** If you're on a school or work network, having your IT admin whitelist https://engine.helperbird.app ahead of time can save you a lot of hassle!
 
 ---
 
 ## Video Tutorial
 
-## Coming Soon
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+</div>
+{% else %}
+Coming soon
+{% endif %}
+
+---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our
-[Helperbird support team](https://www.helperbird.com/support).
+If you're still having trouble unlocking Helperbird Pro after checking your network and firewall, don't hesitate to reach out to our [Helperbird support team](https://www.helperbird.com/support). We're here to help!

@@ -68,6 +68,7 @@ Once you're signed in, you can start exploring all of Helperbird's accessibility
 ## Video Tutorial
 
 {% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe
   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
   src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
@@ -76,6 +77,7 @@ Once you're signed in, you can start exploring all of Helperbird's accessibility
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
+</div>
 {% else %}
 Coming soon
 {% endif %}

@@ -69,6 +69,7 @@ Once installed, go back to the **Settings** app and scroll down to find **Helper
 ## Video Tutorial
 
 {% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 <iframe
   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
   src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
@@ -77,6 +78,7 @@ Once installed, go back to the **Settings** app and scroll down to find **Helper
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
+</div>
 {% else %}
 Coming soon
 {% endif %}
