@@ -9,7 +9,7 @@ description:
   restrictions during installation and re-enabling them afterward.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 url: help/family-sharing-helperbird-installation-guide/
@@ -17,17 +17,18 @@ permalink: help/family-sharing-helperbird-installation-guide/
 name: Robert James
 headerTags:
   [
-    {
-      tag: 'turn-off-screen-time-content-&-privacy-restrictions-for-the-child',
-      title: 'Turn off Screen Time'
-    },
-    { tag: 'video-tutorial', title: 'Video Tutorial' }
+    { tag: 'turn-off-screen-time-restrictions', title: 'Turn off Screen Time Restrictions' },
+    { tag: 'download-and-install-helperbird', title: 'Download and Install Helperbird' },
+    { tag: 'enable-helperbird-and-restore-screen-time', title: 'Enable Helperbird and Restore Screen Time' }
   ]
-tags: iOS
+tags:
+  - iOS
+  - helpguides
+  - iOSHelpGuides
 img: assets/images2/uploads/add-a-heading.png
-date: 2023-09-10T18:29:20.461Z
+date: 2023-09-10
 youtubeId: vwT8SAJfU3E
-cardTitle: 'Family sharing '
+cardTitle: Family Sharing
 featureDescription:
   This guide walks you through the steps for installing and setting up the Helperbird extension or
   iOS app using Family Sharing.
@@ -35,99 +36,53 @@ footer: true
 header: true
 ---
 
-This guide walks you through the steps for installing and setting up the Helperbird extension or iOS
-app using Family Sharing.
-
-It also includes instructions on turning off Screen Time restrictions during installation and
-re-enabling them afterward.
+Setting up Helperbird for your child using Family Sharing is straightforward. You'll need to temporarily turn off Screen Time restrictions, install the app, and then turn those restrictions back on. Here's how to do it.
 
 ---
 
-## Turn Off Screen Time Content & Privacy Restrictions for the Child
+## Step 1: Turn off Screen Time Restrictions
 
-### 1. Open Settings
+Open the **Settings** app on your child's iOS device. Scroll down and tap **Screen Time**. If you've set a Screen Time Passcode, enter it now. Tap **Content & Privacy Restrictions**, then toggle the switch to turn it **off**. This temporarily removes restrictions so you can install Helperbird.
 
-Open the Settings app on your iOS device.
-
-### 2. Go to Screen Time
-
-Scroll down and tap on Screen Time.
-
-### 3. Enter Your Passcode
-
-Enter your Screen Time Passcode if it is set.
-
-### 4. Access Content & Privacy Restrictions
-
-Tap on Content & Privacy Restrictions.
-
-### 5. Turn Off Restrictions
-
-## Turn off the switch if it's currently enabled.
-
-## Install the Helperbird Extension/iOS App
-
-### 1. Open the App Store
-
-Open the App Store on your iOS device.
-
-### 2. Search for Helperbird
-
-Tap on the search bar at the bottom and type Helperbird, then tap the search button.
-
-### 3. Select the Helperbird App
-
-Tap on the Helperbird app in the search results.
-
-### 4. Download the App
-
-Tap Get to start the installation. Enter your Apple ID password or use Touch ID/Face ID if prompted.
+![Turning off Screen Time restrictions in iOS Settings](screen-time-off.png)
 
 ---
 
-## Enable the Helperbird Extension
+## Step 2: Download and Install Helperbird
 
-### 1. Open Settings
+Open the **App Store** on your child's device and tap the search icon at the bottom. Type "Helperbird" in the search bar and tap **Search**. Find the Helperbird app (look for the blue bird icon) and tap **Get**. You may need to enter your Apple ID password or use Touch ID/Face ID to confirm the download. Wait for the app to finish installing.
 
-After installation, go to your device's settings.
+![Downloading Helperbird from the App Store](helperbird-download-family.png)
 
-### 2. Find Helperbird
+---
 
-Scroll to find Helperbird, then tap on it.
+## Step 3: Enable Helperbird and Restore Screen Time
 
-### 3. Allow Access
+Once installed, go back to the **Settings** app and scroll down to find **Helperbird**. Tap on it and make sure all options under **Allow Helperbird to Access** are toggled on. Now it's time to turn Screen Time back on. Go to **Settings > Screen Time**, enter your passcode, then tap **Content & Privacy Restrictions** and toggle the switch back **on**. Your child can now use Helperbird with your Screen Time settings restored.
 
-## Ensure all options under Allow Helperbird to Access are toggled on.
+![Enabling Helperbird permissions and restoring Screen Time](helperbird-enable-screen-time.png)
 
-## Turn On Screen Time Content & Privacy Restrictions (Important)
-
-### 1. Open Settings
-
-Open Settings on your iOS device.
-
-### 2. Go to Screen Time
-
-Scroll down and select Screen Time.
-
-### 3. Enter Your Passcode
-
-Enter your Screen Time Passcode if set.
-
-### 4. Access Content & Privacy Restrictions
-
-Tap on Content & Privacy Restrictions.
-
-### 5. Re-enable Restrictions
-
-Enable the switch for Content & Privacy Restrictions.
+**Tip:** Make sure to test Helperbird with your child after setup to ensure all features are working properly while Screen Time is active!
 
 ---
 
 ## Video Tutorial
 
-## Coming Soon
+{% if youtubeId %}
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+{% else %}
+Coming soon
+{% endif %}
+
+---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our
-[Helperbird support team](https://www.helperbird.com/support).
+If you run into any issues setting up Helperbird with Family Sharing, our support team is here to help! Visit our [Help Center](https://helperbird.com/help/) or reach out to our [Helperbird support team](https://www.helperbird.com/support) directly.

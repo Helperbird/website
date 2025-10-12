@@ -8,69 +8,79 @@ title: How to Download the Helperbird App on iPhone
 description: Follow these steps to download and start using the Helperbird app on your iPhone.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Download the Helperbird App on iPhone
 featureDescription:
   Follow these steps to download and start using the Helperbird app on your iPhone.
 headerTags:
   [
-    { tag: 'steps-to-download-helperbird', title: 'Steps to Download Helperbird' },
-    { tag: 'additional-steps', title: 'Additional Steps' }
+    { tag: 'open-the-app-store', title: 'Open the App Store' },
+    { tag: 'download-and-install-helperbird', title: 'Download and Install Helperbird' },
+    { tag: 'open-and-start-using', title: 'Open and Start Using' }
   ]
-tags: iOS
+tags:
+  - iOS
+  - helpguides
+  - iOSHelpGuides
 url: help/how-to-download-helperbird-for-iphone/
 permalink: help/how-to-download-helperbird-for-iphone/
+date: 2025-01-15
 ---
 
-## Follow these steps to download and start using the Helperbird app on your iPhone.
+Getting Helperbird on your iPhone is quick and easy. Follow these three simple steps to download the app and start using its accessibility features right away.
 
-## Steps to Download Helperbird
+---
 
-### 1. Open the App Store
+## Step 1: Open the App Store
 
-Open the App Store on your iPhone.
+Unlock your iPhone and tap on the **App Store** icon on your home screen. Once the App Store opens, tap on the **Search** tab at the bottom of the screen to begin looking for Helperbird.
 
-### 2. Search for Helperbird
 
-In the search bar at the top of the screen, type
-[Helperbird](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053 'Helperbird for Safari link')
-and search for the app.
+---
 
-### 3. Locate the Helperbird App
+## Step 2: Download and Install Helperbird
 
-Find the Helperbird app in the search results.
+In the search bar at the top, type "Helperbird" and tap **Search**. 
 
-### 4. Download the App
+Look for the Helperbird app in the results (it has a blue bird icon). Once you find it, tap the **GET** button, then confirm with Face ID, Touch ID, or your Apple ID password. 
 
-Tap on the **GET** or **INSTALL** button to start the download and installation process.
+The app will download and install automatically. You'll see the app icon appear on your home screen when it's ready.
 
-### 5. Installation Complete
 
-Once the installation is complete, the app icon will appear on your home screen.
+---
 
-### 6. Open the App
+## Step 3: Open and Start Using
 
-Tap on the Helperbird app icon to open the app.
+Tap the **Helperbird** app icon on your home screen to open it. When you first launch the app, you may need to sign in with your Helperbird account or create a new one. 
 
-### 7. Start Using Helperbird
+Once you're signed in, you can start exploring all of Helperbird's accessibility features right away.
 
-## You can start using the app's features.
+**Important:** Make sure your iPhone is running **iOS 15.0 or later** to use Helperbird. The app may not be available in all regions or languages.
 
-## Please Note
 
-### Additional Steps
+**Tip:** After installing, head to your iPhone's Settings > Safari > Extensions and enable Helperbird to use it while browsing in Safari!
 
-The Helperbird app might require steps such as signing in to your account or connecting to another
-service.
+---
 
-### Availability
+## Video Tutorial
 
-The app may not be available in all regions or languages.
+{% if youtubeId %}
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
-### iOS Requirement
+---
 
-Ensure your iPhone is running at least **iOS 15.0** or later to install and use the Helperbird app.
+## Need Additional Help?
+If you run into any issues downloading or using Helperbird on your iPhone, our support team is here to help! Visit our [Help Center](https://helperbird.com/help/) or contact us directly for personalized assistance.Retry
