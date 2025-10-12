@@ -3,53 +3,48 @@ new: false
 footer: true
 header: true
 layout: templates/base.html
-title: Helperbird Introduction Guides
+title: Getting Started with Helperbird
 youtubeId: vwT8SAJfU3E
-cardTitle:  How to use Helperbird
-description: Find solutions to common Helperbird issues and discover resources to help you get the most out of your Helperbird products. Our regularly updated help center covers a range of popular topics.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
-
+cardTitle: Getting Started with Helperbird
+description: New to Helperbird? Start here! Learn the basics, explore key features, and discover how Helperbird can help you read, write, and browse more comfortably.
+keywords: Helperbird tutorial, getting started Helperbird, Helperbird guide, how to use Helperbird, Helperbird basics, accessibility tool guide, Helperbird introduction
 url: help/introduction/
-permalink:  help/introduction/
+permalink: help/introduction/
 ---
 
-
-
 <main class="mx-auto max-w-6xl p-8 my-12">
-    <header class="mx-auto max-w-4xl text-center">
+  <header class="mx-auto max-w-4xl text-center">
+    <h1 class="text-3xl sm:text-4xl font-bold text-black leading-relaxed">
+      Getting Started with Helperbird
+    </h1>
+    <p class="mt-6 text-xl text-black leading-relaxed">
+      New to Helperbird? Start here! Learn the basics, explore key features, and discover how Helperbird can help you read, write, and browse more comfortably.
+    </p>
+  </header>
 
-
-              <h1 class="leading-relaxed text-3xl font-bold text-black sm:text-4xl">
-                Introduction Guides for Helperbird
-        </h1>
-        <p class=" leading-relaxed mt-6 text-xl  text-black">
-            Find solutions to common Helperbird issues and discover resources to help you get the most out of your Helperbird products. Our regularly updated help center covers a range of popular topics.
-        </p>
-    </header>
-    <div class="mt-16 sm:mt-20">
-        <ul role="list" class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
-            {% for item in collections.introduction %}
-                <li class="group flex flex-col items-start">
-                    <a
-                        href="{{item.url}}"
-                        title="{{item.data.cardTitle }}"
-                        class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
-                    >
-                        <div class="card-body flex flex-grow flex-col">
-                            <h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.data.cardTitle}}</h2>
-                            <p class="mt-2 text-base text-black">{{item.data.description}}</p>
-                            <div class="card-actions mt-4 justify-end">
-                            <div class="btn btn-sm btn-outline btn-primary">Read more</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-        
-    </div>
+  <div class="mt-16 sm:mt-20">
+    <ul role="list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+      {% for item in collections.introductionHelpGuides %}
+      <li class="group">
+        <a
+          href="{{ item.url }}"
+          title="{{ item.data.cardTitle }}"
+          class="card bg-base-100 shadow-md hover:-translate-y-1 transition-all duration-200 flex flex-col h-full"
+        >
+          <div class="card-body flex-grow">
+            <h2 class="text-xl font-semibold text-black">
+              {{ item.data.cardTitle }}
+            </h2>
+            <p class="mt-2 text-base text-black">
+              {{ item.data.description }}
+            </p>
+            <div class="card-actions justify-end mt-4">
+              <div class="btn btn-sm btn-outline btn-primary">Read more</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </main>

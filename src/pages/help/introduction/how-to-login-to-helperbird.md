@@ -11,17 +11,18 @@ keywords:
   Chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Log in to Helperbird
 featureDescription: Discover how to log in to Helperbird to access your Pro features.
 headerTags:
   [
-    { tag: 'log-in-with-email', title: 'Email login' },
-    { tag: 'log-in-with-subscription-key', title: 'Subscription key' },
-    { tag: 'video-tutorial', title: 'Video Tutorial' }
+    { tag: 'log-in-with-email', title: 'Log in with Email' },
+    { tag: 'log-in-with-subscription-key', title: 'Log in with Subscription Key' }
   ]
-tags: introduction
+tags:
+  - introduction
+  - helpguides
+  - introductionHelpGuides
 date: 2016-01-01
 url: help/how-to-login-to-helperbird/
 permalink: help/how-to-login-to-helperbird/
@@ -33,71 +34,95 @@ redirect_from:
   ]
 ---
 
-## Welcome to our guide on logging in to Helperbird. Whether you're using email login or a subscription key, follow these simple steps to access all your Pro features.
+There are two ways to log in to Helperbird and unlock your Pro features. You can use your email or a subscription key. Pick whichever method works best for you.
+
+---
 
 ## Log in with Email
 
-**Supported on Chrome and Edge**  
-[Make sure sync is enabled](/help/enable-browser-sync-chrome-and-edge/).
+**Works on Chrome and Edge**  
+Make sure [browser sync is enabled](/help/enable-browser-sync-chrome-and-edge/) before you start.
 
-### 1. Open Helperbird
+### Step 1: Open Helperbird Settings
 
-Click the Helperbird icon in the top right of your browser.
+Click the Helperbird icon in the top right corner of your browser. Scroll down to the bottom of the menu and click **Settings**. This will open a new tab with your Helperbird settings.
 
-### 2. Access Settings
+![Opening Helperbird settings](helperbird-settings-open.png)
 
-Scroll to the bottom of Helperbird and click the **Settings** option.
+---
 
-### 3. Login
+### Step 2: Click Login and Grant Permission
 
-In the new tab, click **Login** on the account card.
+In the settings tab, find the account card and click **Login**. You'll be asked to allow Helperbird to read your email address. 
 
-### 4. Grant Permission
+Click to grant permission so Helperbird can check if you have an active Pro subscription.
 
-Allow access to read your email address.
 
-### 5. Check Subscription
+---
 
-Your email will be checked for a Helperbird Pro subscription.
+### Step 3: Access Your Pro Features
 
-### 6. Access Pro Features
+Helperbird will check your email for an active subscription. 
 
-If you have a subscription, you'll gain access to Pro features.
+If you have one, you'll instantly get access to all Pro features. If you don't have a subscription or run into issues, you can use a [subscription key](/help/how-to-use-my-subscription-key/) instead.
 
-### 7. Alternative: Subscription Key
 
-## Log in using your [subscription key](/help/how-to-use-my-subscription-key/) if needed.
+**Tip:** Email login is the easiest method if you're on Chrome or Edge. Your login will sync across all your devices automatically!
+
+---
 
 ## Log in with Subscription Key
 
-**Supported on Chrome, Edge, Firefox, iPhone, and iPad**
-
+**Works on Chrome, Edge, Firefox, iPhone, and iPad**  
 [Learn more about subscription keys](/help/how-to-use-my-subscription-key/).
 
-### 1. Open Helperbird
+### Step 1: Open Helperbird Settings
 
-Click the Helperbird icon in the top right of your browser.
+Click the Helperbird icon in the top right corner of your browser. Scroll down to the bottom and click **Settings**. A new tab will open with all your Helperbird settings.
 
-### 2. Access Settings
 
-Scroll to the bottom of Helperbird and click the **Settings** option.
 
-### 3. Enter Subscription Key
+---
 
-In the new tab, scroll to the subscription section, enter your subscription key, and click **Save**.
+### Step 2: Find the Subscription Section
 
-### 4. Confirmation
+In the settings tab, scroll down until you see the subscription section. 
 
-## If a subscription is found, you'll see confetti and a confirmation message.
+This is where you'll enter your subscription key.
+
+
+---
+
+### Step 3: Enter Your Key and Save
+
+Type or paste your subscription key into the field and click **Save**. If the key is valid and you have an active subscription, you'll see confetti and a confirmation message. 
+
+You now have access to all Pro features!
+
+
+**Tip:** Keep your subscription key somewhere safe. You'll need it if you switch browsers or devices, or if you use Firefox, iPhone, or iPad!
+
+---
 
 ## Video Tutorial
 
-<div class="mt-12 mb-12 bg-stone-300 rounded-2xl aspect-w-16 aspect-h-9">
-<iframe id="videos" class="rounded-md shadow-2xl ring-1 ring-gray-900/10" src="https://www.youtube-nocookie.com/embed/oAxYuYptc3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 </div>
+{% else %}
+Coming soon
+{% endif %}
+
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-Ran into a snag? No worries! Reach out to our friendly [Helperbird support team](/support/), and
-we'll help you smooth things out in no time.
+Having trouble logging in? Reach out to our [Helperbird support team](/support/) and we'll get you sorted out right away!

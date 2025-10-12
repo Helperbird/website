@@ -21,62 +21,55 @@ headerTags:
     { tag: 'how-to-turn-on-helperbird', title: 'Turn Helperbird On' },
     { tag: 'how-to-turn-off-helperbird', title: 'Turn Helperbird Off' }
   ]
-tags: introduction
+tags:
+  - introduction
+  - helpguides
+  - introductionHelpGuides
 url: help/how-to-turn-helperbird-on/
 permalink: help/how-to-turn-helperbird-on/
 ---
 
-When Helperbird displays a red "Off" icon, it means the extension is currently turned off. This
-guide will show you how to turn Helperbird on and off in Chrome, Edge, Firefox, and other supported
-browsers.
+
+Sometimes you need a break from your customizations. Pausing Helperbird turns off all features temporarily without losing any of your settings.
 
 ---
 
-## How to Turn On Helperbird
+## Step 1: Open Helperbird
 
-### 1. Open Helperbird
+Click the Helperbird owl icon in your browser toolbar to open the extension.
 
-Click the Helperbird icon located in the top right of your browser.
-
-### 2. View Helperbird Interface
-
-The Helperbird extension will open, showing quick actions and features.
-
-### 3. Locate the Toggle
-
-Look for the **Helperbird is off** toggle near the Quick Actions section.
-
-### 4. Turn On Helperbird
-
-Click the toggle to turn on Helperbird. The red **Off** icon will change, indicating that Helperbird
-is now on.
-
-### 5. Features Active
-
-Once activated, all previously configured features will be running again.
+![Screenshot showing Helperbird open with the toggle in the on position](Screenshot_2025-10-11_at_11_45_16_PM.png)
 
 ---
 
-## How to Turn Off Helperbird
+## Step 2: Find the On/Off Toggle
 
-### 1. Open Helperbird
+At the top of the Helperbird panel, you'll see a toggle button that says either **Helperbird is on** or **Helperbird is off**.
 
-Click the Helperbird icon in the top right of your browser.
+---
 
-### 2. Locate the Toggle
+## Step 3: Pause or Resume Helperbird
 
-In the Helperbird, find the toggle currently set to **On.**, which is on the top right.
+Click the toggle to turn Helperbird off or back on:
+- **To pause**: Click the toggle when it says "Helperbird is on"—it will switch to "Helperbird is off"
+- **To resume**: Click the toggle when it says "Helperbird is off"—it will switch back to "Helperbird is on"
 
-### 3. Turn Off Helperbird
+![Screenshot showing Helperbird with the toggle in the off position](Screenshot_2025-10-11_at_11_45_22_PM.png)
 
-Click the toggle to turn off Helperbird. The icon will change to red, indicating that Helperbird is
-now off.
+**Tip:** Pausing Helperbird is perfect when you need to see a website in its original format or want to take screenshots without customizations.
 
-### 4. Restart (Optional)
+---
 
-## You can click the toggle at any time to turn Helperbird back on or off as needed.
+## Video Tutorial
 
-## Need More Help?
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
 
-If you encounter any issues with turning Helperbird on or off, please reach out to the Helperbird
-support team for assistance.
+---
+
+## Need Additional Help?
+
+If you run into issues or want to learn more about Helperbird's features, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help.

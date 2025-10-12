@@ -5,165 +5,163 @@ header: true
 layout: templates/new/help/post-new.html
 title: What is Helperbird Pro?
 description:
-  What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
+  What is Helperbird Pro? Discover what features are included in the paid version of Helperbird.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: What is Helperbird Pro?
 featureDescription:
-  What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
+  What is Helperbird Pro? Discover what features are included in the paid version of Helperbird.
 date: 2016-01-07
 headerTags: []
-tags: introduction
+tags:
+  - introduction
+  - helpguides
+  - introductionHelpGuides
 url: help/what-is-helperbird-pro/
 permalink: help/what-is-helperbird-pro/
 ---
 
-## Helperbird Pro is the paid version of Helperbird that includes all the features available in the free version, plus additional advanced tools designed to enhance your work and browsing experience.
+Helperbird Pro is the paid version that unlocks everything. You get all the free features plus a ton of advanced tools designed to make your work and browsing even better. If you use Helperbird regularly, Pro is worth it.
 
-## Helperbird Pro Pricing
+---
 
-## Helperbird Pro is available for $6.99 per month or $60.00 per year. We also offer a student discount at $40.00 per year.
+## How Much Does Helperbird Pro Cost?
 
-## What is Included in Helperbird Pro?
+Helperbird Pro is **$6.99 per month** or **$60.00 per year**. Students get a discount at **$40.00 per year**.
 
-### Reading Mode
+---
 
-Remove ads and other distractions from your web browsing experience, allowing you to focus on the
-text and content you need.
+## What's Included in Helperbird Pro?
 
-### Immersive Reader by Microsoft
+Helperbird Pro includes everything from the free version, plus these additional features:
 
-In the future, there may be a limit on the number of characters that can be read at once in the free
-version.
+**Everything from Helperbird Free**  
+All the features you get in the free version—Reading Mode, Text to Speech, Dyslexia Fonts, Magnifier, Translation, and more—are included in Pro.
 
-### Text to Speech
+**Word Spacing**  
+Adjust the spacing between words to make reading more comfortable.
 
-Helperbird will automatically read aloud the text you are viewing, so you can listen without having
-to click on the text.
+**Line Height**  
+Change the line height of text so it's easier on your eyes.
 
-### Dyslexia Fonts
+**Font Size Control**  
+Adjust font size to whatever works best for you.
 
-Helperbird will automatically switch to the appropriate font for your text.
+**Paragraph Width**  
+Control how wide paragraphs are for optimal reading.
 
-### Letter Spacing
+**Text Alignment**  
+Change text alignment to suit your reading style.
 
-Helperbird will adjust the letter spacing to improve readability.
+**Annotations & Sticky Notes**  
+Add notes and annotations to any website, text, or PDF right in your browser. Perfect for research and studying.
 
-### Magnifier
+**Summarize Page**  
+Click a button and Helperbird will summarize the text on the page for you. Great for getting the main points fast.
 
-Helperbird will magnify the text you are reading for better visibility.
+**Text Analysis**  
+Get details about the text you're reading—character count, word count, paragraphs, and more.
 
-### Font Changer
+**Voice Typing**  
+Speak and have your words typed out automatically.
 
-Helperbird will change the font to one that suits your reading preferences.
+**Word Prediction**  
+Get word suggestions as you type to speed things up.
 
-### Picture Dictionary
+**Extract Text from Images (OCR)**  
+Pull text out of images so you can read, copy, or edit it.
 
-Helperbird will display images related to the words you are reading to enhance comprehension.
+**Extract Text from PDFs**  
+Grab text from PDF files easily.
 
-### Screenshot Tools
+**Dyslexia Ruler**  
+A reading guide that helps you stay focused on one line at a time.
 
-Helperbird allows you to take screenshots of the pages you are viewing.
+**Reading Guide**  
+Keeps your place on the page while you read.
 
-### Printing Tools
+**Overlay**  
+Add a colored overlay to reduce screen glare and eye strain.
 
-Helperbird provides tools to easily print the pages you are reading.
+**High Contrast**  
+Boost contrast to make text easier to see.
 
-### Translation
+**Hide Images**  
+Remove images from pages to reduce distractions.
 
-Helperbird can automatically translate the text you are reading into another language.
+**Line Focus**  
+Highlight the line you're reading and dim everything else.
 
-### Emphasize Links
+**Highlighter Tool**  
+Highlight text on any page in different colors.
 
-Helperbird will emphasize links on the page to make them stand out.
+**Advanced Text to Speech Options**  
+More control over how text is read aloud, with 14 different voices to choose from.
 
-### Color Blindness Tools
+**Volume Control**  
+Adjust the volume of Text to Speech directly in Helperbird.
 
-Helperbird will adjust the colors on the page to be more accessible for users with color blindness.
+**Cursor Options**  
+Customize your cursor for better visibility.
 
-### Highlight Colors
+**Auto Scrolling**  
+Have the page scroll automatically while you read.
 
-Helperbird allows you to highlight text in different colors for better focus and study.
+**Color Customization**  
+Change highlight colors, font colors, background colors, and link colors to whatever you prefer.
 
-### Word Spacing
+**Sync Settings & Styles**  
+Your settings sync across devices so you don't have to set things up again.
 
-Helperbird will adjust the spacing between words to improve readability.
+**Google Docs Support**  
+Use Helperbird features in Google Docs with our add-on.
 
-### Line Height
+**Google Slides Support**  
+Access Helperbird tools in Google Slides with our add-on.
 
-Helperbird will adjust the line height of the text for better readability.
+**Word Support**  
+Use Helperbird with Microsoft Word documents.
 
-### Font Size
+**Dictionary App**  
+Built-in dictionary for quick word lookups.
 
-Helperbird will automatically adjust the font size to suit your preferences.
+**Document Editor**  
+Edit documents with Helperbird's accessibility features built in.
 
-### Paragraph Width
+**PDF Support**  
+Use Helperbird features on PDF files.
 
-Helperbird will adjust the width of paragraphs for optimal reading.
+**Reading List**  
+Save articles and pages to read later.
 
-### Text Align
-
-Helperbird will adjust the text alignment to suit your needs.
-
-### Annotations
-
-Add sticky notes and annotations to any website, text, or PDF file in the browser.
-
-### Summarize Page
-
-With the click of a button, Helperbird will automatically summarize the text on the page you are
-reading.
-
-### Text Analysis
-
-Helperbird will analyze the text on the page and provide details such as the number of characters,
-words, and paragraphs.
-
-### Other Features
-
-- Highlight paragraphs
-- Volume control
-- Extract text from images (OCR)
-- Extract text from PDFs
-- Dyslexia ruler
-- Reading guide
-- Overlay
-- High contrast
-- Hide images
-- Line focus
-- Highlighter
-- Text to speech options
-- 14 voices
-- Voice typing
-- Word prediction
-- Cursor options
-- Auto scrolling
-- Color features (highlight, font, background, and link colors)
-- Sync settings & styles
-- Google Docs support
-- Word support
-- Google Docs add-on
-- Dictionary app
-- Annotations / Sticky notes
-- Document Editor
-- PDF support
-- Reading list
-- Google Slides add-on
+**Highlight Paragraphs**  
+Highlight entire paragraphs for better focus.
 
 ---
 
 ## Video Tutorial
 
-Coming soon.
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+</div>
+{% else %}
+Coming soon
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you encounter any issues while getting started, don’t worry! Just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you sort things out quickly.
+Want to know more about upgrading to Pro or have questions about pricing? Reach out to our [Helperbird support team](/support/) and we'll help you out!

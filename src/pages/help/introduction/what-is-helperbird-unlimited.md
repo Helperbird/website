@@ -5,44 +5,71 @@ header: true
 layout: templates/new/help/post-new.html
 title: What is Helperbird Pro Unlimited?
 description:
-  What is Helperbird Pro?, discover what features are included in the paid version of Helperbird.
+  What is Helperbird Pro Unlimited? Discover what features are included in this plan designed for schools, districts, and businesses.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
-
 youtubeId: vwT8SAJfU3E
 cardTitle: What is Helperbird Pro Unlimited?
 featureDescription:
-  What is Helperbird Pro Unlimited?, discover what features are included in the paid version of
-  Helperbird.
+  What is Helperbird Pro Unlimited? Discover what features are included in this plan designed for schools, districts, and businesses.
 date: 2016-01-08
 headerTags: []
-tags: introduction
+tags:
+  - introduction
+  - helpguides
+  - introductionHelpGuides
 url: help/what-is-helperbird-unlimited/
 permalink: help/what-is-helperbird-unlimited/
 ---
 
-## Helperbird Pro Unlimited is a paid version of Helperbird designed specifically for schools, districts, and businesses. It offers a complete, all-in-one solution with features tailored to meet the needs of larger organizations.
-
-## Helperbird Pro Unlimited Features
-
-## Helperbird Pro Unlimited includes all the features of Helperbird Pro, with the added benefit of unlimited users. This means that everyone within your domain can access Helperbird Pro features. The pricing is $1,500 per year or $129.99 per month, making it a cost-effective option for schools and businesses.
-
-## What is a Domain?
-
-## A domain refers to the email address domain associated with your organization. For example, if your email address is **user@helperbird.com**, everyone with an **@helperbird.com** email address can access Helperbird Pro features. Those outside of your domain will not have access.
-
-## Helperbird for Districts or Multiple Businesses
-
-We offer discounts for multiple licenses of Helperbird for schools or businesses. If you need
-Helperbird for several organizations, just contact us, and we’ll be happy to assist you with a
-customized plan.
+Helperbird Pro Unlimited is built for schools, districts, and businesses that want to give everyone access to Helperbird Pro. Instead of paying per user, you pay one price and everyone in your organization gets full access. It's simple and cost-effective.
 
 ---
 
-## Need More Help?
+## What's Included?
 
-If you encounter any issues while getting started, don’t worry! Just reach out to our friendly
-[Helperbird support team](/support/), and we’ll help you sort things out quickly.
+You get everything from Helperbird Pro, but for unlimited users within your organization. Everyone with an email address from your domain can use all the Pro features. No per-seat pricing, no user limits.
+
+**Pricing:** $1,500 per year or $129.99 per month.
+
+---
+
+## What's a Domain?
+
+A domain is the part of your email address after the @ symbol. For example, if your email is **user@helperbird.com**, your domain is **helperbird.com**. With Pro Unlimited, anyone with an email ending in your domain gets access. People outside your domain won't have access.
+
+**Example:** If your school's domain is **@yourschool.edu**, every student and staff member with a **@yourschool.edu** email can use Helperbird Pro.
+
+---
+
+## Need Coverage for Multiple Organizations?
+
+If you're managing multiple schools, districts, or businesses, we offer discounts for bulk licenses. Just reach out to us and we'll work out a plan that fits your needs.
+
+---
+
+## Video Tutorial
+
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+</div>
+{% else %}
+Coming soon
+{% endif %}
+
+---
+
+## Need Additional Help?
+
+Interested in Pro Unlimited for your school or business? Have questions about pricing or setup? Reach out to our [Helperbird support team](/support/) and we'll walk you through everything!
