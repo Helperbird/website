@@ -28,7 +28,10 @@ headerTags:
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 permalink: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 ---

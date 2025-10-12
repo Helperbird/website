@@ -22,7 +22,10 @@ headerTags:
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-05
 youtubeId: vwT8SAJfU3E

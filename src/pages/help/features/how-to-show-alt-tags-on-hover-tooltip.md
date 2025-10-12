@@ -28,7 +28,10 @@ headerTags:
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-show-alt-tags-on-hover-tooltip/
 permalink: help/how-to-show-alt-tags-on-hover-tooltip/
 ---

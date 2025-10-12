@@ -28,7 +28,10 @@ headerTags:
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 permalink: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 ---

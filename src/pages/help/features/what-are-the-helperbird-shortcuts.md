@@ -28,7 +28,10 @@ headerTags:
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/what-are-the-helperbird-shortcuts/
 permalink: help/what-are-the-helperbird-shortcuts/
 ---

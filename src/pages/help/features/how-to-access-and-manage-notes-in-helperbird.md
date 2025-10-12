@@ -17,7 +17,10 @@ headerTags:
     { tag: 'go-to-notebook', title: 'Go to Notebook' },
     { tag: 'manage-your-notes', title: 'Manage Your Notes' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-access-and-manage-notes-in-helperbird/
 permalink: help/how-to-access-and-manage-notes-in-helperbird/
 ---

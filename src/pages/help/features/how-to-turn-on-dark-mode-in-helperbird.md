@@ -17,7 +17,10 @@ headerTags:
     { tag: 'go-to-accessibility', title: 'Go to Accessibility' },
     { tag: 'enable-dark-mode', title: 'Enable Dark Mode' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-turn-on-dark-mode-in-helperbird/
 permalink: help/how-to-turn-on-dark-mode-in-helperbird/
 ---

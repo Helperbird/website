@@ -17,7 +17,10 @@ headerTags:
     { tag: 'open-search', title: 'Open Search' },
     { tag: 'search-for-features', title: 'Search for Features' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-search-and-filter-features-in-helperbird/
 permalink: help/how-to-search-and-filter-features-in-helperbird/
 ---

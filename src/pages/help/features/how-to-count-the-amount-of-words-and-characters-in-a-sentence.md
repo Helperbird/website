@@ -17,7 +17,10 @@ headerTags:
     { tag: 'go-to-editor', title: 'Go to Editor' },
     { tag: 'view-text-analytics', title: 'View Text Analytics' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-use-text-analytics-in-helperbird-editor/
 permalink: help/how-to-use-text-analytics-in-helperbird-editor/
 ---

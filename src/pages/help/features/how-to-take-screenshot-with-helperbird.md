@@ -17,7 +17,10 @@ headerTags:
     { tag: 'find-screenshot-tool', title: 'Find Screenshot Tool' },
     { tag: 'capture-screenshot', title: 'Capture Screenshot' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-take-screenshot-with-helperbird/
 permalink: help/how-to-take-screenshot-with-helperbird/
 ---

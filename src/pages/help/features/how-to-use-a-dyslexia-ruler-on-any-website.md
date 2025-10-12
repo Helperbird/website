@@ -21,7 +21,10 @@ headerTags:
     { tag: 'video-walkthrough', title: 'Video Walkthrough' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 img: assets/images2/uploads/add-a-heading.png
 date: 2019-01-03
 youtubeId: ZI7yqBKd91E

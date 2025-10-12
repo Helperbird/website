@@ -28,7 +28,10 @@ headerTags:
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
 
-tags: features
+tags:
+  - features
+  - helpguides
+  - featuresHelpGuides
 url: help/how-to-use-immersive-reader-on-any-website/
 permalink: help/how-to-use-immersive-reader-on-any-website/
 ---
