@@ -5,48 +5,72 @@ header: true
 layout: templates/base.html
 title: Helperbird Apps Guides
 youtubeId: vwT8SAJfU3E
-cardTitle:  Helperbird Apps Guides
+cardTitle: Helperbird Apps Guides
 description: This section helps you get started with Helperbird's apps and add-ons. You'll find guides on adding Helperbird to Google Docs, Slides, and our built-in apps too.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: Helperbird apps, Helperbird Google Docs, Helperbird Slides, Helperbird add-ons, Google Workspace accessibility, Chrome extension apps, dyslexia software apps
 url: help/apps/
-permalink:  help/apps/
+permalink: help/apps/
 ---
 
+<style>
+  .apps-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
+  .apps-card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
 
-<main class="mx-auto max-w-6xl p-8 my-12">
-    <header class="mx-auto max-w-4xl text-center">
+  .apps-card-hover:active {
+    transform: translateY(-2px);
+  }
+</style>
 
+<main class="mx-auto my-16 max-w-6xl px-6 sm:px-8 lg:px-12">
+  <header class="mx-auto max-w-3xl text-center">
+    <h1 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+      Helperbird App Guides
+    </h1>
+    <p class="mt-6 text-lg leading-relaxed text-gray-600 sm:text-xl">
+      This section helps you get started with Helperbird's apps and add-ons. You'll find guides on adding Helperbird to Google Docs, Slides, and our built-in apps too.
+    </p>
+  </header>
 
-              <h1 class="leading-relaxed text-3xl font-bold text-black sm:text-4xl">
-         Helperbird App Guides
-        </h1>
-        <p class=" leading-relaxed mt-6 text-xl  text-black">
-            This section helps you get started with Helperbird's apps and add-ons. You'll find guides on adding Helperbird to Google Docs, Slides, and our built-in apps too.        </p>
-    </header>
-    <div class="mt-16 sm:mt-20">
-        <ul role="list" class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
-            {% for item in collections.apps %}
-                <li class="group flex flex-col items-start">
-                    <a
-                        href="{{item.url}}"
-                        title="{{item.data.cardTitle }}"
-                        class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
-                    >
-                        <div class="card-body flex flex-grow flex-col">
-                            <h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.data.cardTitle}}</h2>
-                            <p class="mt-2 text-base text-black">{{item.data.description}}</p>
-                            <div class="card-actions mt-4 justify-end">
-                            <div class="btn btn-sm btn-outline btn-primary">Read more</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-        
-    </div>
+  <div class="mt-20 sm:mt-24">
+    <h2 class="sr-only">App guides</h2>
+    <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {% for item in collections.appsHelpGuides %}
+      <li>
+        <a
+          href="{{ item.url }}"
+          title="{{ item.data.cardTitle }}"
+          class="apps-card-hover group block h-full rounded-2xl bg-white p-8 shadow-sm ring-1 ring-gray-200 hover:ring-2 hover:ring-blue-500"
+          aria-label="Read app guide about {{ item.data.cardTitle }}"
+        >
+          <div class="flex h-full flex-col">
+            <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600">
+              {{ item.data.cardTitle }}
+            </h3>
+            <p class="mt-3 flex-grow text-base leading-relaxed text-gray-600">
+              {{ item.data.description }}
+            </p>
+            <div class="mt-6 flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700">
+              <span>Read guide</span>
+              <svg 
+                class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </main>

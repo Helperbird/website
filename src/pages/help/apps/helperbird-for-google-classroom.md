@@ -3,144 +3,110 @@ new: false
 updated: true
 layout: templates/new/help/post-new.html
 title: How to Install and Use the Helperbird Add-on for Google Classroom
-description:
-  Learn how to easily install and use the Helperbird add-on for Google Classroom. This guide walks
-  you through adding powerful accessibility features like dyslexia-friendly fonts and text-to-speech
-  directly to your presentations.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-url: help/helperbird-for-google-drive/
-permalink: help/helperbird-for-google-drive/
+description: Learn how to easily install and use the Helperbird add-on for Google Classroom. This guide walks you through adding powerful accessibility features like dyslexia-friendly fonts and text-to-speech directly to your classroom materials and PDFs.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic, Google Classroom, PDF reader
+url: help/helperbird-for-google-classroom/
+permalink: help/helperbird-for-google-classroom/
 name: Helperbird staff
 headerTags:
-  [
-    {
-      tag: 'how-to-install-and-use-the-helperbird-add-on-for-google-drive',
-      title: 'How to Install and Use the Helperbird Add-on for Google Classroom'
-    },
-    { tag: 'prerequisites', title: 'Prerequisites' },
-    { tag: 'google-drive', title: 'Google Classroom' },
-    {
-      tag: 'how-to-open-pdfs-in-helperbirds-pdf-reader',
-      title: 'How to Open PDFs in Helperbird’s PDF Reader'
-    },
-    {
-      tag: 'use-right-click-to-open-pdfs-in-helperbirds-pdf-reader',
-      title: 'Use Right-Click to Open PDFs in Helperbird’s PDF Reader'
-    },
-    { tag: 'video-tutorial', title: 'Video Walkthrough' },
-    { tag: 'need-more-help', title: 'Need More Help?' }
-  ]
+  - tag: installing-helperbird-for-google-classroom
+    title: Installing Helperbird for Google Classroom
+  - tag: opening-pdfs-with-helperbird
+    title: Opening PDFs with Helperbird
+  - tag: using-right-click-to-open-pdfs
+    title: Using Right-Click to Open PDFs
 tags: apps
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU
 cardTitle: Google Classroom
-featureDescription:
-  Learn how to easily install and use the Helperbird add-on for Google Classroom. This guide walks
-  you through adding powerful accessibility features like dyslexia-friendly fonts and text-to-speech
-  directly to your presentations.
+featureDescription: Learn how to easily install and use the Helperbird add-on for Google Classroom. This guide walks you through adding powerful accessibility features like dyslexia-friendly fonts and text-to-speech directly to your classroom materials and PDFs.
 footer: true
 header: true
 ---
 
-Helperbird for Google Classroom is a great tool that brings all of Helperbird's accessibility
-features right into your files. Whether you need to open and read PDFs in a more accessible way or
-use dyslexia-friendly fonts, this add-on makes it easy.
-
-## This guide will show you how to get started with Helperbird in Google Classroom.
-
-## Prerequisites
-
-Before you dive in, make sure you’ve got the following:
-
-- **Google Account:** You’ll need a Google Account to access Google Classroom.
-- **Helperbird Add-on:** Make sure you have the
-  [Helperbird Google Workspace add-on installed.](https://workspace.google.com/marketplace/app/helperbird/844716805038)
-- **Helperbird Version:** Ensure you’re using Helperbird version 107 or later for the best
-  experience.
+Helperbird for Google Classroom brings all your favorite accessibility features right into your classroom materials. Open PDFs in a more accessible way, use dyslexia-friendly fonts, and access all of Helperbird's tools without leaving Google Classroom.
 
 ---
 
-## Google Classroom
+## Installing Helperbird for Google Classroom
 
-Once you're set up, you can start using Helperbird with Google Classroom. Here’s how to open PDFs
-using Helperbird’s built-in PDF reader.
+### Step 1: Check Your Setup
 
----
-
----
-
-## How to Open PDFs in Helperbird’s PDF Reader
-
-### 1. Go to Google Classroom
-
-Open Google Classroom in your web browser.
-
-### 2. Select a PDF
-
-Find and click on the PDF you want to read.
-
-### 3. Choose "Open with"
-
-At the top of the PDF viewer, click the **Open with** button.
-
-### 4. Open in Helperbird
-
-From the list, choose **Open in Helperbird**.
-
-### 5. Confirm Opening
-
-If a pop-up asks if you want to open the PDF in a new tab, go ahead and confirm.
-
-### 6. View Your PDF
-
-Your PDF will now open in Helperbird’s PDF reader, where you can use all the accessibility tools.
+You'll need a Google Account and Helperbird version 107 or later for the best experience.
 
 ---
 
----
+### Step 2: Install the Add-on
 
-## Use Right-Click to Open PDFs in Helperbird’s PDF Reader
-
-You can also use the right-click menu to open PDFs in Helperbird.
-
-### 1. Go to Google Classroom
-
-Navigate to Google Classroom and find the PDF you want to open.
-
-### 2. Right-Click the PDF
-
-Right-click on the PDF file or its icon.
-
-### 3. Open in Helperbird
-
-In the menu that pops up, select **Open in Helperbir'**.
-
-### 4. Confirm Opening
-
-A new tab will open. If prompted, click **Yes** or **OK** to proceed.
-
-### 5. View Your PDF
-
-The PDF will open in Helperbird’s PDF reader, ready for you to use.
+Head to the [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/helperbird/844716805038) and search for **Helperbird**. Click **Install** and follow the prompts.
 
 ---
+
+### Step 3: Start Using It
+
+Once installed, Helperbird will appear as an option when you open files in Google Classroom.
+
+**Tip:** If you're using a work or school account, you might need admin approval to install add-ons.
+
+---
+
+## Opening PDFs with Helperbird
+
+### Step 1: Find Your PDF
+
+Open Google Classroom and click on the PDF you want to read.
+
+---
+
+### Step 2: Use "Open with"
+
+At the top of the PDF preview, click the **Open with** dropdown button.
+
+---
+
+### Step 3: Select Helperbird
+
+Choose **Open in Helperbird** from the list. The PDF will open in a new tab with all your accessibility tools.
+
+**Tip:** The first time you open a PDF, you might see a popup asking for permission. Just click "Yes" or "Allow."
+
+---
+
+## Using Right-Click to Open PDFs
+
+### Step 1: Find Your PDF
+
+Go to Google Classroom and locate the PDF file you want to open.
+
+---
+
+### Step 2: Right-Click the File
+
+Right-click directly on the PDF file. A context menu will appear.
+
+---
+
+### Step 3: Open in Helperbird
+
+Select **Open in Helperbird** from the menu. Your PDF will open in Helperbird's reader in a new tab.
+
+**Tip:** Right-clicking is the fastest way to open PDFs in Helperbird, especially when working with multiple files.
 
 ---
 
 ## Video Tutorial
 
-If you’re more of a visual learner, check out the video walkthrough below:
-
-{% youtubeEmbed 'xl5lZX_-GkU' %}
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
+Coming soon.
+{% endif %}
 
 ---
 
-## Need More Help?
+## Need Additional Help?
 
-If you have any questions or run into any issues, our friendly [Helperbird support team](/support/)
-is here to help. Just reach out!
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

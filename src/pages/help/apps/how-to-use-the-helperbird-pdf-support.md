@@ -49,249 +49,105 @@ headerTags:
       title: 'How to Use Extract Text (OCR) on PDF Files in Helperbird'
     }
   ]
-tags: apps
+tags:
+  - apps
+  - helpguides
+  - appsHelpGuides
 url: help/how-to-use-the-helperbird-pdf-support/
 permalink: help/how-to-use-the-helperbird-pdf-support/
 ---
 
----
-
-## How to Access PDF Reader in Helperbird
-
-This guide explains how to use the PDF reading features in Helperbird. When a PDF is detected in
-your browser, a popup will ask if you want to open it in Helperbird's PDF reader.
-
-### 1. Open Helperbird
-
-Click the Helperbird icon in the top right corner of your browser window.
-
-### 2. Access the Quick Actions
-
-The extension will open, showing the quick actions and other features.
-
-### 3. Find the PDF Button
-
-Scroll to the Quick Actions area and look for the pink PDF button.
-
-### 4. Open the PDF Reader
-
-Click the pink PDF button to open the PDF reader.
-
-### 5. Load Your PDFs
-
-You can now load your PDF files into the reader.
-
-### Automatic PDF Detection
-
-**PDF Popup**: When Helperbird detects a PDF file in your browser, a popup will appear.
-
-**Open in PDF Reader**: The popup will offer the option to open the PDF directly in Helperbird's PDF
-reader, giving you access to enhanced accessibility features.
-
-### Video Tutorial
-
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+Helperbird's PDF Reader makes working with PDF documents easier with built-in tools for reading, annotating, note-taking, and more. Open any PDF and access powerful features like voice typing, translation, text extraction, and summarization.
 
 ---
 
----
+## Step 1: Open PDF in Helperbird
 
-## How to Load a PDF in Helperbird's PDF Reader
+When viewing a PDF in your browser, look for the green **"Open PDF in Helperbird – Click to Open"** button at the bottom of the page. Click this button to open the PDF in Helperbird's reader.
 
-This guide walks you through the process of loading a PDF file into Helperbird's PDF reader.
 
-### 1. Open the PDF Reader
+The PDF will load in Helperbird's reader interface with all tools available.
 
-Follow the steps from the previous guide to open the PDF reader in Helperbird.
 
-### 2. Locate the File Icon
-
-In the top right of the PDF reader, look for a file icon with a tooltip that says "open file."
-
-### 3. Click the File Icon
-
-Click the file icon to open a file dialog.
-
-### 4. Choose Your PDF File
-
-Browse your computer and select the PDF file you want to open.
-
-### 5. Wait for Loading
-
-The file will take a moment to load into the reader.
-
-### 6. PDF Ready
-
-Your PDF file is now open and ready for use in the Helperbird PDF reader.
-
-### 7. Drag and Drop Option
-
-You can also drag and drop a PDF file directly into the reader for quicker access.
-
-### Video Tutorial
-
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 ---
 
----
+## Step 2: Navigate and Take Notes
 
-## How to Use Text to Speech on PDFs in Helperbird
+Once your PDF is open, you'll see page numbers at the top for easy navigation. To open the note-taking panel, click the **note button** in the top toolbar. 
 
-This guide shows how to use the Text to Speech feature on PDFs in Helperbird.
+This will open a split view with your PDF on the left and a note editor on the right.
 
-### 1. Open the PDF Reader
 
-Follow the steps from the previous guide to open your PDF in Helperbird's PDF reader.
+**Note-Taking Features**:
 
-### 2. Select Text
+**Voice Typing**: Click the microphone icon to start dictating your notes instead of typing. Great for quickly capturing thoughts while reading.
 
-Highlight the text you want to be read aloud.
 
-### 3. Activate Text to Speech
+**Grammar/Spell Check**: Click the "A" with checkmark icon to check your notes for spelling and grammar errors.
 
-Click the play button at the top of the PDF reader to start reading the text aloud.
+**Print**: Click the print icon to quickly print your notes.
 
-### 4. Listen to the Reading
+**Download Options**: Click the download icon in the toolbar to see your options. You can download your notes separately, download the original PDF, or download the PDF with your annotations included.
 
-The selected text will be read out loud.
-
-### Optional Steps:
-
-- **Pause Text to Speech**: Click the pause button to pause the reading.
-- **Stop Text to Speech**: Click the stop button to stop the reading entirely.
-
-### Video Tutorial
-
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 ---
 
----
+## Step 3: Annotate Your PDF
 
-## How to Use Immersive Reader by Microsoft on PDFs in Helperbird
+Click the **Annotation Mode** button in the top toolbar to start adding text boxes and annotations directly onto your PDF pages. 
 
-This guide explains how to use Microsoft's Immersive Reader on PDF documents within Helperbird's PDF
-reader.
+Once enabled, click anywhere on the PDF to add a text box where you can type your annotation.
 
-### 1. Open the PDF Reader
-
-Follow the steps from the previous guide to open your PDF in Helperbird's PDF reader.
-
-### 2. Select Text
-
-Highlight the text you want to be read aloud.
-
-### 3. Activate Immersive Reader
-
-Click the Immersive Reader button at the top of the PDF reader.
-
-### 4. Open Immersive Reader
-
-The Immersive Reader will open.
-
-### 5. Access Features
-
-You can now use the features of Microsoft's Immersive Reader for an enhanced reading experience.
 
 ---
 
----
+## Step 4: PDF Text to Speech
 
-## How to Summarize PDFs in Helperbird
+Use the playback controls to manage your annotation workflow:
 
-This guide explains how to use the Summarize feature on PDF documents in Helperbird's PDF reader.
-
-### 1. Open the PDF Reader
-
-Follow the steps from the previous guide to open your PDF in Helperbird's PDF reader.
-
-### 2. Highlight Text to Summarize
-
-Highlight the text you want to be summarized.
-
-### 3. Click the Summarize Button
-
-Click the Summarize button at the top of the PDF reader.
-
-### 4. View the Summary
-
-The summarized bullet points will appear at the top after the summarization process is complete.
+- **Play**: Continue adding annotations
+- **Pause**: Temporarily stop annotation mode
+- **Stop**: Exit annotation mode
 
 ---
 
----
+## Step 5: Use Quick PDF Tools
 
-## How to Use Extract Text (OCR) on PDF Files in Helperbird
+Click the floating pink menu button on the right side of the screen to access quick tools for working with your PDF:
 
-This guide explains how to use the Extract Text (OCR) feature on PDF documents in Helperbird's PDF
-reader.
+**Extract Text**: Pull text from the PDF to use in other documents or applications.
 
-### 1. Open the PDF Reader
+**Summarize**: Get a quick summary of the PDF content to understand key points faster.
 
-Follow the steps from the previous guide to open your PDF in Helperbird's PDF reader.
+**View in Immersive Reader**: Open the PDF in an immersive reading mode with enhanced readability features.
 
-### 2. Click the Extract Text Button
+**Translate**: Translate the PDF content into different languages.
 
-Click the Extract Text button at the top of the PDF reader.
 
-### 3. Select the Text Area
-
-Drag over the area of the PDF from which you want to extract text.
-
-### 4. Copy the Extracted Text
-
-The text will be extracted and automatically saved to your clipboard. The extracted text will also
-be read aloud.
-
----
-
----
-
-## How to Create a Sticky Note in a PDF File
-
-This guide shows how to create a sticky note in a PDF file using Helperbird's PDF reader.
-
-### 1. Open the PDF Reader
-
-Follow the steps from the previous guide to open your PDF in Helperbird's PDF reader.
-
-### 2. Click the Create Note Button
-
-Click the **create a note** button in the PDF reader's toolbar.
-
-### 3. Type Your Message
-
-A sticky note will appear on your PDF. Type your message into the note.
-
-### 4. Auto-Save Sticky Note
-
-Your note will be saved automatically.
-
-### 5. Reopen the PDF
-
-The next time you open the PDF, your sticky note will appear where you left it.
-
-For more options and information on sticky notes, see the dedicated sticky note section in the help
-docs.
+**Tip:** The PDF Reader combines all of Helperbird's powerful tools in one place, making it perfect for studying, research, and document review. Use voice typing for quick note-taking and Annotation Mode to mark up important sections directly on the PDF.
 
 ---
 
 ## Video Tutorial
 
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/Y8X5bE70nrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% if youtubeId %}
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/{{youtubeId}}"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="border-radius: 19px;"
+></iframe>
+{% else %}
+Coming soon.
+{% endif %}
 
 ---
 
-## Need more help?
+## Need Additional Help?
 
-Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth
-things out in no time.
+Ran into a snag while using the PDF Reader? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

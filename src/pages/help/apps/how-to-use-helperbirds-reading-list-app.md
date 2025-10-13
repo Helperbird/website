@@ -4,107 +4,107 @@ updated: false
 footer: true
 header: true
 layout: templates/new/help/post-new.html
-title: How to Use Helperbird's Reading list App
-description:
-  Learn how to use Helperbird's reading list feature to save, manage, and remove websites for later
-  reading. Step-by-step instructions to get the most out of Helperbird’s powerful tools, including
-  how to add and remove items from your reading list.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: How to Use Helperbird's Reading List Feature
+description: Learn how to save websites to your reading list for later and manage your saved pages. Step-by-step guide to adding, viewing, and removing websites from your Helperbird reading list.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic, reading list, save for later
 youtubeId: vwT8SAJfU3E
-cardTitle: Reading list
-featureDescription:
-  Learn how to use Helperbird's reading list feature to save, manage, and remove websites for later
-  reading. Step-by-step instructions to get the most out of Helperbird’s powerful tools, including
-  how to add and remove items from your reading list.
+cardTitle: Reading List
+featureDescription: Learn how to save websites to your reading list for later and manage your saved pages. Step-by-step guide to adding, viewing, and removing websites from your Helperbird reading list.
 headerTags:
-  [
-    { tag: 'how-to-open-helperbirds-reading-list', title: "How to Open Helperbird's Reading List" },
-    {
-      tag: 'how-to-add-a-website-to-your-reading-list',
-      title: 'How to Add a Website to Your Reading List'
-    },
-    {
-      tag: 'how-to-remove-a-website-from-your-reading-list',
-      title: 'How to Remove a Website from Your Reading List'
-    },
-    { tag: 'need-more-help', title: 'Need more help?' }
-  ]
-tags: apps
-url: help/how-to-use-helperbirds-reading-list-app/
-permalink: help/how-to-use-helperbirds-reading-list-app/
+  - tag: adding-a-website-to-your-reading-list
+    title: Adding a Website to Your Reading List
+  - tag: viewing-and-managing-your-reading-list
+    title: Viewing and Managing Your Reading List
+date: 2025-10-12
+tags:
+  - apps
+  - helpguides
+  - appsHelpGuides
+url: help/how-to-use-helperbirds-reading-list-feature/
+permalink: help/how-to-use-helperbirds-reading-list-feature/
 ---
 
-Learn how to use Helperbird's reading list feature to save, manage, and remove websites for later
-reading.
-
-## Step-by-step instructions to get the most out of Helperbird’s powerful tools, including how to add and remove items from your reading list.
-
-## How to Open Helperbird's Reading List
-
-### 1. Open Helperbird
-
-Click the Helperbird icon in the top right corner of your browser window.
-
-### 2. View Quick Actions
-
-The extension will display quick actions and other features.
-
-### 3. Scroll to Quick Actions Area
-
-Scroll to the quick actions area card.
-
-### 4. Locate the Reading List
-
-Find the **Reading list** button, which is yellow.
-
-### 5. Open the Reading List
-
-Click on the **Reading list** button. The reading list will open in a new tab.
+Helperbird's Reading List lets you save websites for later reading. Think of it as your personal bookmark collection that's always just a click away.
 
 ---
 
+## Adding a Website to Your Reading List
+
+### Step 1: Open Helperbird
+
+Click the Helperbird icon in the top right corner of your browser to open the extension.
+
+![Helperbird main dashboard showing quick actions and feature categories](screenshot-1-helperbird-dashboard.png)
+
 ---
 
-## How to Add a Website to Your Reading List
+### Step 2: Find the Add to Reading List Button
 
-### 1. Open the Website
+In the quick actions area at the top of Helperbird, you'll see an **Add to Reading list** button. This button lets you save the current webpage you're viewing.
 
-Go to the website you wish to add to your reading list.
+![Add to Reading list button highlighted in Helperbird's quick actions](screenshot-2-add-button.png)
 
-### 2. Open Helperbird
+---
+
+### Step 3: Save the Current Page
+
+Click the **Add to Reading list** button. You'll see a confirmation message at the bottom of your screen that says "Added to Reading List."
+
+The current webpage is now saved to your reading list, and you can access it anytime.
+
+![Browser showing Added to Reading List confirmation message](screenshot-3-added-confirmation.png)
+
+**Tip:** You can add as many websites as you want to your reading list. It's perfect for saving articles, recipes, or research materials you want to read later.
+
+---
+
+## Viewing and Managing Your Reading List
+
+### Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser's toolbar to open the extension menu.
 
-### 3. Add to Reading List
-
-Select **Add to Reading list** from the quick action menu. The current website will be added to your
-reading list.
+![Helperbird main dashboard](screenshot-1-helperbird-dashboard.png)
 
 ---
 
----
+### Step 2: Open Your Reading List
 
-## How to Remove a Website from Your Reading List
+Look for the **Open Reading list** button in the quick actions area (it's the yellow button). Click it to open your reading list in a new tab.
 
-### 1. Open the Reading List
-
-Open your reading list.
-
-### 2. Remove the Website
-
-Click the **Remove** button next to the website you want to remove. The website will be removed from
-your reading list.
+![Open Reading list button highlighted in the quick actions menu](screenshot-4-open-list-button.png)
 
 ---
 
+### Step 3: Manage Your Saved Websites
+
+Your reading list will open showing all the websites you've saved. Each saved page displays:
+
+- The website title and description
+- The date you saved it (shown in pink)
+- **Remove** button to delete it from your list
+- **Visit** button to open the website
+
+Click **Visit** to open any saved webpage, or click **Remove** to delete it from your reading list when you're done with it.
+
+![Reading list page showing saved website with Remove and Visit buttons](screenshot-5-reading-list-page.png)
+
+**Tip:** Your reading list syncs across all devices where you use Helperbird, so you can save something on your computer and read it later on your phone.
+
 ---
 
-## Need More Help?
+## Video Tutorial
 
-Ran into a snag while getting started? No worries at all! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
+Coming soon.
+{% endif %}
+
+---
+
+## Need Additional Help?
+
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
