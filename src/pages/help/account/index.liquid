@@ -5,49 +5,53 @@ header: true
 layout: templates/base.html
 title: My Account Guides
 youtubeId: vwT8SAJfU3E
-cardTitle:  How to use Helperbird
+cardTitle: How to use Helperbird
 description: This section helps you manage your Helperbird account. You'll find guides on updating your email, credit card, and subscription details.
-keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
+keywords: Helperbird account, manage subscription, update payment, change email, Helperbird billing, account settings, cancel subscription, update credit card
 url: help/account/
-permalink:  help/account/
+permalink: help/account/
 ---
 
+<main class="mx-auto my-16 max-w-6xl px-6 sm:px-8 lg:px-12">
+  <header class="mx-auto max-w-3xl text-center">
+    <h1 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+      My Account Guides for Helperbird
+    </h1>
+    <p class="mt-6 text-lg leading-relaxed text-gray-600 sm:text-xl">
+      This section helps you manage your Helperbird account. You'll find guides on updating your email, credit card, and subscription details.
+    </p>
+  </header>
 
-
-<main class="mx-auto max-w-6xl p-8 my-12">
-    <header class="mx-auto max-w-4xl text-center">
-
-
-              <h1 class="leading-relaxed text-3xl font-bold text-black sm:text-4xl">
-                My Account Guides for Helperbird
-        </h1>
-        <p class=" leading-relaxed mt-6 text-xl  text-black">
-            This section helps you manage your Helperbird account. You'll find guides on updating your email, credit card, and subscription details.
-        </p>
-    </header>
-    <div class="mt-16 sm:mt-20">
-        <ul role="list" class="not-prose grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
-            {% for item in collections.account %}
-                <li class="group flex flex-col items-start">
-                    <a
-                        href="{{item.url}}"
-                        title="{{item.data.cardTitle }}"
-                        class="card card-compact flex h-full flex-col bg-base-100 shadow-md transition-all duration-200 hover:-translate-y-1"
-                    >
-                        <div class="card-body flex flex-grow flex-col">
-                            <h2 class="leading-relaxed font-sans  text-xl font-semibold text-black">{{item.data.cardTitle}}</h2>
-                            <p class="mt-2 text-base text-black">{{item.data.description}}</p>
-                            <div class="card-actions mt-4 justify-end">
-                            <div class="btn btn-sm btn-outline btn-primary">Read more</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-        
-    </div>
+  <div class="mt-20 sm:mt-24">
+    <h2 class="sr-only">Account management guides</h2>
+    <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {% for item in collections.accountHelpGuides %}
+      <li>
+        <a
+          href="{{ item.url }}"
+          title="{{ item.data.cardTitle }}"
+          class="card bg-base-100 shadow-sm hover:shadow-lg transition-all duration-300 h-full"
+          aria-label="Read account guide about {{ item.data.cardTitle }}"
+        >
+          <div class="card-body">
+            <h3 class="card-title text-xl text-gray-900">
+              {{ item.data.cardTitle }}
+            </h3>
+            <p class="text-base text-gray-600 flex-grow">
+              {{ item.data.description }}
+            </p>
+            <div class="card-actions justify-end mt-4">
+              <span class="btn btn-sm btn-ghost btn-primary">
+                Read guide
+                <svg class="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </main>

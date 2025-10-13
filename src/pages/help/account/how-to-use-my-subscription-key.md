@@ -6,96 +6,74 @@ updated: false
 layout: templates/new/help/post-new.html
 title: How to Use Your Subscription Key for Helperbird
 description:
-  Learn how to find and enter your Helperbird subscription key to unlock Helperbird Pro features.
+  Got your Helperbird subscription key? Here's how to activate it and unlock all your Pro features in just a few clicks.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
+  chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
   OpenDyslexic
 
 youtubeId: vwT8SAJfU3E
 cardTitle: How to Use Your Subscription Key for Helperbird
 featureDescription:
-  Learn how to find and enter your Helperbird subscription key to unlock Helperbird Pro features.
+  Got your Helperbird subscription key? Here's how to activate it and unlock all your Pro features in just a few clicks.
 headerTags:
   [
-    { tag: 'locating-your-subscription-key', title: 'Locating Your Subscription Key' },
-    { tag: 'enter-your-subscription-key', title: 'Enter Your Subscription Key' },
-    { tag: 'need-additional-help-?', title: 'Need more help?' }
+    { tag: 'step-1-open-helperbird', title: 'Open Helperbird' },
+    { tag: 'step-2-go-to-settings-and-login', title: 'Go to Settings and Login' },
+    { tag: 'step-3-enter-your-subscription-key', title: 'Enter Your Subscription Key' }
   ]
-tags: account
+tags:
+  - account
+  - helpguides
+  - accountHelpGuides
 url: help/how-to-use-my-subscription-key/
 permalink: help/how-to-use-my-subscription-key/
 ---
 
-Learn how to find and enter your Helperbird subscription key to unlock Helperbird Pro features.
+Your Helperbird subscription key unlocks all your Pro features. You'll find it in the second email we sent after you signed up. If you can't locate it, no worries—our support team can help you track it down.
 
 ---
 
-## Locating Your Subscription Key
+## Step 1: Open Helperbird
 
-Your Helperbird Pro subscription key is sent in the second email after you sign up. If you have
-trouble finding your key or have any questions, our support team is ready to assist.
+Click the Helperbird icon in the top right corner of your browser to open the extension. You'll see your quick actions and main features displayed.
 
----
 
 ---
 
-## Steps to Enter Your Subscription Key
+## Step 2: Go to Settings and Login
 
-### 1. Open Helperbird
+Scroll to the bottom of the Helperbird app and click the **Settings** cog icon. In the menu that appears, click the **Login** button. This will open a new tab where you can manage your subscription.
 
-Click the Helperbird icon in the top right corner of your browser.
-
-### 2. View the Extension
-
-The Helperbird extension will open, displaying quick actions and other features.
-
-### 3. Access Settings
-
-Scroll to the bottom of the Helperbird app and look for the **Settings** section.
-
-### 4. Open Menu Modal
-
-A menu will appear after clicking the settings cog.
-
-### 5. Login
-
-Click the login button in the drop-down menu.
-
-### 6. New Tab Opens
-
-A new tab will open.
-
-### 7. Go to the Subscription Section
-
-Scroll down to the subscription section.
-
-### 8. Enter Your Subscription Key
-
-Enter your subscription key in the provided field.
-
-### 9. Save Your Key
-
-Click the **Save** button to update your Subscription information.
-
-### 10. Subscription Confirmation
-
-If a valid subscription is found, you'll see confetti and a confirmation message.
-
-### 11. No Subscription Alert
-
-If no subscription is detected, a message will inform you.
-
-### 12. Alternative Login Option
-
-You can also login using your email address. Refer to the email login guide for more details.
 
 ---
 
+## Step 3: Enter Your Subscription Key
+
+Scroll down to the subscription section on the new tab. Enter your subscription key in the field provided and click **Save**. 
+
+If your key is valid, you'll see confetti and a confirmation message—you're all set! 
+
+If no subscription is detected, you'll see a message letting you know, and you can reach out to support for help.
+
+
+*Tip:* Can't find your subscription key email? Check your spam folder first. If it's still missing, you can also log in using your email address instead—just click the email login option on the same page.
+
 ---
 
-## Need More Help?
+## Video Tutorial
 
-If you run into any issues while changing your email, don’t worry! Just reach out to our friendly
-[Helperbird support team](/support/), and we'll help you smooth things out in no time.
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
+Coming soon.
+{% endif %}
+
+---
+
+## Need Additional Help?
+
+If you run into any issues while entering your subscription key, just reach out to our friendly [Helperbird support team](/support/), and we'll help you get it sorted out.
