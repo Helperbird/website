@@ -75,12 +75,11 @@ In the **Additional Policies for Chrome** section, paste this JSON configuration
 
 ```json
 {
-  "ExtensionSettings": {
-    "ahmapmilbkfamljbpgphfndeemhnajme": {
-      "subKey": "Your_Pro_Subscription_Key_Here",
-      "isExamMode": true,
-      "isAdminControl": true
-    }
+  "subKey": {
+    "Value": "YOUR SUBSCRIPTION KEY"
+  },
+  "isAdminControl": {
+    "Value": true
   }
 }
 ```
@@ -111,20 +110,11 @@ In the **ExtensionSettings** section, paste this JSON configuration (replace **Y
 
 ```json
 {
-  "ExtensionSettings": {
-    "ahmapmilbkfamljbpgphfndeemhnajme": {
-      "Policy": {
-        "subKey": {
-          "Value": "Your_Pro_Subscription_Key_Here"
-        },
-        "isExamMode": {
-          "Value": true
-        },
-        "isAdminControl": {
-          "Value": true
-        }
-      }
-    }
+  "subKey": {
+    "Value": "YOUR SUBSCRIPTION KEY"
+  },
+  "isAdminControl": {
+    "Value": true
   }
 }
 ```

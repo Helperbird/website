@@ -72,7 +72,7 @@ Copy and paste this JSON, replacing `YOUR SUBSCRIPTION KEY` with the actual subs
     "Value": "YOUR SUBSCRIPTION KEY"
   },
   "isAdminControl": {
-    "Value": false
+    "Value": true
   }
 }
 ```
