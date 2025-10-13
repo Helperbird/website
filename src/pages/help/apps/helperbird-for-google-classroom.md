@@ -15,7 +15,10 @@ headerTags:
     title: Opening PDFs with Helperbird
   - tag: using-right-click-to-open-pdfs
     title: Using Right-Click to Open PDFs
-tags: apps
+tags:
+  - apps
+  - helpguides
+  - appsHelpGuides
 img: assets/images2/uploads/add-a-heading.png
 date: 2023-09-10T18:43:23.791Z
 youtubeId: xl5lZX_-GkU

@@ -5,117 +5,113 @@ header: true
 updated: false
 layout: templates/new/help/post-new.html
 title: How to Install Helperbird for Certain Users in G Suite and Microsoft 365
-description:
-  This guide details the process for administrators to install the Helperbird extension selectively
-  for certain users within an organization using G Suite and Microsoft 365.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+description: Learn how administrators can selectively install the Helperbird extension for specific users or groups within G Suite and Microsoft 365 organizations.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic, G Suite, Microsoft 365, selective deployment
 youtubeId: vwT8SAJfU3E
-cardTitle: How to Install Helperbird for Certain Users in G Suite and Microsoft 365
-featureDescription:
-  This guide details the process for administrators to install the Helperbird extension selectively
-  for certain users within an organization using G Suite and Microsoft 365.
+cardTitle: Install Helperbird for Specific Users
+featureDescription: Learn how administrators can selectively install the Helperbird extension for specific users or groups within G Suite and Microsoft 365 organizations.
 date: 2016-01-04
 headerTags:
-  [
-    { tag: 'prerequisites', title: 'Prerequisites' },
-    { tag: 'installing-helperbird-in-g-suite', title: 'Installing Helperbird in G Suite' },
-    {
-      tag: 'installing-helperbird-in-microsoft-365',
-      title: 'Installing Helperbird in Microsoft 365'
-    }
-  ]
-tags: admin
+  - tag: installing-helperbird-in-g-suite
+    title: Installing Helperbird in G Suite
+  - tag: installing-helperbird-in-microsoft-365
+    title: Installing Helperbird in Microsoft 365
+  - tag: verifying-the-installation
+    title: Verifying the Installation
+tags:
+  - admin
+  - helpguides
+  - adminHelpGuides
 url: help/installing-helperbird-to-certain-users/
 permalink: help/installing-helperbird-to-certain-users/
 ---
 
-## This guide details the process for administrators to install the Helperbird extension selectively for certain users within an organization using G Suite and Microsoft 365.
+This guide shows administrators how to install Helperbird for specific users or groups in your organization, rather than deploying it to everyone. This is useful when you want to pilot the extension with a small group or only provide it to users who need accessibility features.
 
-## Prerequisites
+**Before you start:** You'll need administrator access to either the Google Admin Console or Microsoft 365 Admin Center, and the appropriate Helperbird extension ID:
+- Chrome: **ahmapmilbkfamljbpgphfndeemhnajme**
+- Edge: **bkibfggdahioahpokehoiimdmdjefjmd**
 
-### Administrator Access
-
-You must have access to the Google Admin Console (for G Suite) or Microsoft 365 Admin Center.
-
-### Helperbird Extension ID
-
-Chrome ID is **ahmapmilbkfamljbpgphfndeemhnajme**
-
-## Edge is **bkibfggdahioahpokehoiimdmdjefjmd**
+---
 
 ## Installing Helperbird in G Suite
 
-### 1. Access Google Admin Console
+### Step 1: Access Chrome Management
 
-Navigate to admin.google.com and log in with your administrator credentials.
+Log into the Google Admin Console at **admin.google.com**. Navigate to **Devices** > **Chrome** > **Apps & Extensions**.
 
-### 2. Open Chrome Management
+---
 
-From the Admin console Home page, go to Devices > Chrome Management > Apps & Extensions.
+### Step 2: Add Helperbird to an Organizational Unit
 
-### 3. Choose the Organizational Unit
+Select the Organizational Unit (OU) containing the users who need Helperbird. Click the **+** icon, select **Add from Chrome Web Store**, and enter Helperbird's extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
 
-Select the Organizational Unit (OU) where you want to install Helperbird for specific users.
+---
 
-### 4. Add the Helperbird Extension
+### Step 3: Set to Allow Install
 
-Click the + icon and select Add from Chrome Web Store. Enter Helperbird’s extension ID
-**ahmapmilbkfamljbpgphfndeemhnajme**.
+In the installation policy, select **Allow install & Pin** instead of "Force install." This makes Helperbird available to users in that OU without automatically installing it. Click **Save**.
 
-### 5. Set User-Level Installation
+**Tip:** Let your selected users know that Helperbird is now available in the Chrome Web Store and they can install it themselves. Consider sending them installation instructions to make it easier.
 
-In the User Settings for the chosen OU, set the installation policy to Allow install & Pin.
-
-### 6. Communicate with Users
-
-## Inform the selected users that Helperbird from the Chrome Web Store has been installed and is available for use.
+---
 
 ## Installing Helperbird in Microsoft 365
 
-### 1. Access Microsoft 365 Admin Center
+### Step 1: Access Edge Management
 
-Visit the Microsoft 365 Admin Center at admin.microsoft.com and log in.
+Log into the Microsoft 365 Admin Center at **admin.microsoft.com**. Navigate to **Settings** > **Services & Add-ins** > **Microsoft Edge Management**.
 
-### 2. Navigate to Edge Management
+---
 
-Go to **Settings** > **Services & Add-ins** > **Microsoft Edge Management**.
+### Step 2: Add Helperbird for Specific Users
 
-### 3. Manage Extensions
+Select **Manage Extensions** and add Helperbird's extension ID: **bkibfggdahioahpokehoiimdmdjefjmd**. Choose the specific user groups or individual users who should have access to Helperbird.
 
-Select Manage Extensions and add Helperbird's extension ID **bkibfggdahioahpokehoiimdmdjefjmd**.
+---
 
-### 4. Specify User Groups
+### Step 3: Set Deployment Options
 
-Choose the specific user groups or individual users for the Helperbird deployment.
+Set the installation policy to **Optional** to allow your selected users to install Helperbird when they need it. Click **Save** to apply your changes.
 
-### 5. Set Deployment Options
+**Tip:** Communicate with your selected users that Helperbird is now available for them to install. You might want to include a link to installation instructions or a quick start guide.
 
-Specify the installation as Optional to allow targeted users to install and pin Helperbird as
-needed.
+---
 
-### 6. Communicate with Users
+## Verifying the Installation
 
-Inform the selected users that Helperbird is available for installation from the Chrome Web Store.
+### Step 1: Log in as a Target User
 
-### Verification
+Log into Chrome or Edge using an account from your selected Organizational Unit or user group.
 
-After setting up, verify by checking a user's browser within the specified OU or group to ensure
-that Helperbird is available for installation.
+---
+
+### Step 2: Check Extension Availability
+
+For G Suite, check the Chrome Web Store to confirm Helperbird appears as an available extension. For Microsoft 365, check that Helperbird is listed in the available extensions for Edge.
+
+---
+
+### Step 3: Test Installation
+
+Install Helperbird and confirm it works correctly for your target users.
+
+**Tip:** Ask a few users from your pilot group to test the installation and provide feedback before rolling out more widely.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our
-[Helperbird support team](https://www.helperbird.com/support).
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

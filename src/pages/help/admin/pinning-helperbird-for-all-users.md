@@ -4,72 +4,70 @@ footer: true
 header: true
 updated: false
 layout: templates/new/help/post-new.html
-title: How to Force Pin the Helperbird
-description:
-  This guide provides administrators with the steps needed to force pin the Helperbird extension for
-  all users within an organizational unit using G Suite.
-keywords:
-  Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
-  chrome,  text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
-  Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic
-
+title: How to Force Pin the Helperbird Extension
+description: Learn how administrators can force pin the Helperbird extension to the browser toolbar for all users in a G Suite organizational unit, ensuring easy access for everyone.
+keywords: Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software, Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome, OpenDyslexic, G Suite, force pin
 youtubeId: vwT8SAJfU3E
-cardTitle: How to Force Pin the Helperbird Extension
-featureDescription:
-  This guide provides administrators with the steps needed to force pin the Helperbird extension for
-  all users within an organizational unit using G Suite.
+cardTitle: Force Pin Helperbird Extension
+featureDescription: Learn how administrators can force pin the Helperbird extension to the browser toolbar for all users in a G Suite organizational unit, ensuring easy access for everyone.
 date: 2016-01-04
 headerTags:
-  [{ tag: 'steps-for-pinning-helperbird-for-all-users-in-g-suite', title: 'Pinning Helperbird' }]
-tags: admin
+  - tag: pinning-helperbird-for-all-users
+    title: Pinning Helperbird for All Users
+tags:
+  - admin
+  - helpguides
+  - adminHelpGuides
 url: help/pinning-helperbird-for-all-users/
 permalink: help/pinning-helperbird-for-all-users/
 ---
 
-This guide provides administrators with the steps needed to force pin the Helperbird extension for
-all users within an organizational unit using G Suite.
+This guide shows G Suite administrators how to force pin the Helperbird extension to the browser toolbar for all users in an organizational unit. Pinning ensures the extension is always visible and easy to access, so users don't have to search for it in their extensions menu.
+
+**Before you start:** You'll need administrator access to the Google Admin Console and Helperbird should already be installed in your organization.
 
 ---
 
-## Steps for Pinning Helperbird for All Users in G Suite
+## Pinning Helperbird for All Users
 
-### 1. Access Chrome Management
+### Step 1: Access Chrome Management
 
-## From your G Suite Admin console Home page, navigate to Devices > Chrome > Apps & Extensions.
+Log into your Google Admin Console at **admin.google.com**. Navigate to **Devices** > **Chrome** > **Apps & Extensions**.
 
-## Pin Helperbird for All Users
+---
 
-### 1. Select the Organizational Unit
+### Step 2: Configure the Extension
 
-Choose the organizational unit you wish to configure.
+Select the Organizational Unit where you want to pin Helperbird. 
 
-### 2. Add the Helperbird Extension
+If Helperbird isn't already added, click the **+** button and enter Helperbird's extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
 
-Click on the + button (yellow circle at the bottom right) next to **Apps & Extensions**.
+---
 
-### 3. Enter the Extension ID
+### Step 3: Set Pin to Toolbar
 
-In the **Add Chrome app or extension by ID** section, enter
-**ahmapmilbkfamljbpgphfndeemhnajm**(Helperbird's extension ID).
+In the extension settings, find the **Pin to taskbar** dropdown and select **Pin**. 
 
-### 4. Pin to Taskbar
+Click **Save** to apply your changes.
 
-In the **Pin to taskbar** drop-down list, select Pin.
+The Helperbird icon will now appear pinned to the browser toolbar for all users in your selected organizational unit.
 
-### 5. Save Changes
-
-Click Save to apply your changes.
+**Tip:** Pinning the extension makes it much easier for users to find and use Helperbird. They'll see the icon right in their toolbar instead of having to click through their extensions menu.
 
 ---
 
 ## Video Tutorial
 
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
 Coming soon.
+{% endif %}
 
 ---
 
 ## Need Additional Help?
 
-For any challenges or queries during the cancellation process, don't hesitate to reach out to our
-[Helperbird support team](https://www.helperbird.com/support).
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

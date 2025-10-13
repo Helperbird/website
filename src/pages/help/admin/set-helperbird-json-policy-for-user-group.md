@@ -5,77 +5,66 @@ header: true
 updated: true
 layout: templates/new/help/post-new.html
 title: How to Set Helperbird JSON Policy for a User Group in Google Admin
-description:
-  This guide shows Google Workspace admins how to apply Helperbird’s JSON policy in the Google Admin
-  Console for a specific user group—setting the subKey and optional isAdmin flag for the Helperbird Chrome extension.
-keywords:
-  Helperbird admin policy, Chrome extension policy, Google Admin Console, JSON policy, Helperbird isAdmin, Helperbird subKey, Chrome app extension settings, Chrome policy JSON, Google Admin user group
+description: Learn how Google Workspace admins can apply Helperbird's JSON policy in the Google Admin Console for a specific user group, setting their subscription key and admin permissions.
+keywords: Helperbird admin policy, Chrome extension policy, Google Admin Console, JSON policy, Helperbird isAdmin, Helperbird subKey, Chrome app extension settings, Chrome policy JSON, Google Admin user group
 youtubeId:
-cardTitle: Set Helperbird JSON Policy for a User Group in Google Admin
-featureDescription:
-  Learn how to paste and apply Helperbird’s JSON policy in Google Admin for a group of users so the
-  subKey and optional admin controls apply just to them.
+cardTitle: Set Helperbird JSON Policy for User Group
+featureDescription: Learn how to paste and apply Helperbird's JSON policy in Google Admin for a group of users so the subscription key and optional admin controls apply just to them.
 date: 2025-08-20
 headerTags:
-  [
-    { tag: 'prerequisites', title: 'Prerequisites' },
-    {
-      tag: 'add-helperbird',
-      title: 'Add or Locate the Helperbird Extension'
-    },
-    {
-      tag: 'apply-json-policy',
-      title: 'Apply the JSON Policy to a User Group'
-    },
-    {
-      tag: 'verify-and-troubleshoot',
-      title: 'Verify & Troubleshoot'
-    }
-  ]
-tags: admin
+  - tag: adding-helperbird-for-the-group
+    title: Adding Helperbird for the Group
+  - tag: applying-the-json-policy
+    title: Applying the JSON Policy
+  - tag: verifying-and-troubleshooting
+    title: Verifying and Troubleshooting
+tags:
+  - admin
+  - helpguides
+  - adminHelpGuides
 url: help/set-helperbird-json-policy-for-user-group/
 permalink: help/set-helperbird-json-policy-for-user-group/
 ---
 
-This guide walks you through applying Helperbird’s JSON policy in the Google Admin Console for **a specific user group** in your domain. This is ideal for phased rollouts, pilot programs, or granting specific features to a select team.  
+This guide shows you how to apply Helperbird's JSON policy for a specific user group in your Google Workspace. This is perfect for phased rollouts, pilot programs, or giving Helperbird features to select teams.
 
-> TL;DR: You’ll open the Helperbird extension settings at **Devices → Chrome → Apps & extensions → Users & browsers**, select the **user group**, click **Helperbird**, then paste the JSON below into the **Policy for extensions** section and hit **Save**.
-
----
-
-## Prerequisites
-
-- **Administrator access** to the Google Admin Console (admin.google.com).  
-- The Helperbird Chrome extension is already installed, or you know the **extension ID**.  
-
-**Helperbird Extension ID (Chrome):** **ahmapmilbkfamljbpgphfndeemhnajme**
+**Before you start:** You'll need administrator access to the Google Admin Console and Helperbird's extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
 
 ---
 
-## Add or Locate the Helperbird Extension
+## Adding Helperbird for the Group
 
-1. Sign in to [admin.google.com](https://admin.google.com) with an admin account.  
-2. Go to **Devices** → **Chrome** → **Apps & extensions** → **Users & browsers**.  
-3. In the left panel, instead of choosing the entire **Organizational Unit**, select the **user group** you want to configure.  
-   - User groups appear under the same selection tree but let you target a subset of users.  
-4. If Helperbird isn’t listed for this group:  
-   - Click **+** → **Add from Chrome Web Store**.  
-   - Search for **Helperbird** or paste the ID **ahmapmilbkfamljbpgphfndeemhnajme**.  
-   - Set **Installation policy** to **Force install** (recommended) or your preferred setting.  
-   - Click **Save**.  
-5. Click the **Helperbird** tile to open its settings panel for that group.  
+### Step 1: Access Group Settings
+
+Log into **admin.google.com** and go to **Devices** → **Chrome** → **Apps & extensions** → **Users & browsers**. In the left panel, select the specific user group you want to configure (not an organizational unit or individual user).
 
 ---
 
-## Apply the JSON Policy to a User Group
+### Step 2: Add Helperbird
 
-1. In the Helperbird settings panel, locate the **Policy** section.  
-   Depending on your Admin Console version, this may appear as:  
-   - **Policy for extensions**  
-   - **Additional settings**  
-   - **Extension settings (JSON)**  
-2. Click **Edit** (or **Add**) to open the JSON editor.  
-3. Paste the following JSON, replacing `YOUR SUBSCRIPTION KEY` with the correct key for this group:  
+If Helperbird isn't already listed for this group, click **+** and select **Add from Chrome Web Store**. Search for Helperbird or paste the extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
+
+---
+
+### Step 3: Set Installation Policy
+
+Set the **Installation policy** to **Force install** (recommended) so the extension installs automatically for all users in this group. Click **Save**, then click on the Helperbird tile to open its settings.
+
+**Tip:** User groups let you target specific teams without affecting your entire organization. This is great for testing or gradual rollouts.
+
+---
+
+## Applying the JSON Policy
+
+### Step 1: Open the Policy Editor
+
+In the Helperbird settings panel, find the **Policy for extensions** section (it might also be called "Additional settings" or "Extension settings"). Click **Edit** or **Add** to open the JSON editor.
+
+---
+
+### Step 2: Paste the JSON Policy
+
+Copy and paste this JSON, replacing `YOUR SUBSCRIPTION KEY` with the actual subscription key for this group:
 
 ```json
 {
@@ -88,38 +77,56 @@ This guide walks you through applying Helperbird’s JSON policy in the Google A
 }
 ```
 
-> Note: Set `"isAdminControl": true` only if all members of this group should have admin-level Helperbird controls.  
+---
 
-4. Click **Save**.  
-5. At the top right, click **Save** again (if prompted) to confirm changes for the group.  
+### Step 3: Save Your Changes
+
+Click **Save** in the JSON editor, then click **Save** again at the top right to confirm all changes for this group.
+
+**Tip:** Set `"isAdminControl": true` only if everyone in this group needs admin-level controls in Helperbird. Most groups should have this set to `false`.
 
 ---
 
-## Verify & Troubleshoot
+## Verifying and Troubleshooting
 
-### Verify on a user’s device
+### Step 1: Check on a Group Member's Device
 
-1. Have someone in the group sign in on their managed Chrome browser or Chromebook.  
-2. Confirm the Helperbird extension is installed (Chrome menu → **Extensions**).  
-3. Open Helperbird and check that:  
-   - Features tied to the **subKey** are unlocked.  
-   - Admin-only options (if enabled) appear correctly.  
-
-### Force a policy refresh (optional)
-
-- On Windows/macOS/Linux: Restart Chrome, or go to `chrome://policy` → **Reload policies**.  
-- On ChromeOS: Reboot the device or sign out/in.  
-
-### Common gotchas
-
-- **Wrong target**: Double-check you applied settings at the **user group** level, not an OU or individual user.  
-- **JSON errors**: Ensure braces, quotes, and `"Value"` formatting are correct.  
-- **Policy precedence**: User group policies override OU policies. Verify no conflicts are happening.  
-- **Propagation time**: Policies usually apply fast, but allow a few minutes and reload.  
+Have someone from the group sign into their managed Chrome browser. Helperbird should be installed automatically (check Chrome menu → **Extensions**).
 
 ---
 
-## Need a hand?
+### Step 2: Test the Settings
 
-If the policy isn’t applying to your group as expected, reach out to the  
-[Helperbird support team](https://www.helperbird.com/support). We’ll help troubleshoot with you.  
+Ask a group member to open Helperbird and confirm that features tied to their subscription key are unlocked and working correctly.
+
+---
+
+### Step 3: Force a Policy Refresh if Needed
+
+If the settings don't appear right away:
+- **On Windows/Mac/Linux**: Restart Chrome or go to `chrome://policy` and click **Reload policies**
+- **On ChromeOS**: Sign out and sign back in, or restart the device
+
+**Common issues:**
+- **Wrong target**: Double-check you applied settings at the user group level, not an organizational unit
+- **JSON formatting errors**: Make sure all braces, quotes, and commas are correct
+- **Policy conflicts**: User group policies override OU policies, so check for conflicts
+- **Wait a few minutes**: Policies can take a few minutes to propagate
+
+---
+
+## Video Tutorial
+
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
+Coming soon.
+{% endif %}
+
+---
+
+## Need Additional Help?
+
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.

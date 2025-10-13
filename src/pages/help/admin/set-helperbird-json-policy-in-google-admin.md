@@ -5,75 +5,66 @@ header: true
 updated: true
 layout: templates/new/help/post-new.html
 title: How to Set Helperbird JSON Policy in Google Admin
-description:
-  This guide shows Google Workspace admins how to apply Helperbird’s JSON policy in the Google Admin
-  Console—specifically setting the isAdmin flag and the subKey for the Helperbird Chrome extension.
-keywords:
-  Helperbird admin policy, Chrome extension policy, Google Admin Console, JSON policy, Helperbird isAdmin, Helperbird subKey, Chrome app extension settings, Chrome policy JSON
+description: Learn how Google Workspace admins can apply Helperbird's JSON policy in the Google Admin Console, setting the subscription key and admin controls for an organizational unit.
+keywords: Helperbird admin policy, Chrome extension policy, Google Admin Console, JSON policy, Helperbird isAdmin, Helperbird subKey, Chrome app extension settings, Chrome policy JSON
 youtubeId:
 cardTitle: Set Helperbird JSON Policy in Google Admin
-featureDescription:
-  Learn how to paste and apply Helperbird’s JSON policy in Google Admin so the isAdmin flag and subKey
-  are enforced for your users.
+featureDescription: Learn how to paste and apply Helperbird's JSON policy in Google Admin so the subscription key and admin controls are enforced for your organizational unit.
 date: 2025-08-20
 headerTags:
-  [
-    { tag: 'prerequisites', title: 'Prerequisites' },
-    {
-      tag: 'add-helperbird',
-      title: 'Add or Locate the Helperbird Extension'
-    },
-    {
-      tag: 'apply-json-policy',
-      title: 'Apply the JSON Policy (isAdmin & subKey)'
-    },
-    {
-      tag: 'verify-and-troubleshoot',
-      title: 'Verify & Troubleshoot'
-    }
-  ]
-tags: admin
+  - tag: adding-helperbird-for-your-ou
+    title: Adding Helperbird for Your OU
+  - tag: applying-the-json-policy
+    title: Applying the JSON Policy
+  - tag: verifying-and-troubleshooting
+    title: Verifying and Troubleshooting
+tags:
+  - admin
+  - helpguides
+  - adminHelpGuides
 url: help/set-helperbird-json-policy-in-google-admin/
 permalink: help/set-helperbird-json-policy-in-google-admin/
 ---
 
-This guide walks you through applying Helperbird’s JSON policy in the Google Admin Console so you can enforce two key settings across your domain.
+This guide shows you how to apply Helperbird's JSON policy for an entire organizational unit (OU) in your Google Workspace. This lets you enforce subscription keys and admin controls across all users in that OU.
 
-> TL;DR: You’ll open the Helperbird extension settings at **Devices → Chrome → Apps & extensions**, pick your OU, click **Helperbird**, then paste the JSON below into the **Policy for extensions** (or **Extension settings/JSON**) section and hit **Save**.
+**Before you start:** You'll need administrator access to the Google Admin Console and Helperbird's extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
 
-## Prerequisites
+---
 
-**Administrator access** to the Google Admin Console (admin.google.com).
+## Adding Helperbird for Your OU
 
-The Helperbird Chrome extension is either already added to your OU or you know the **extension ID**.
+### Step 1: Access Your Organizational Unit
 
-**Helperbird Extension ID (Chrome):** **ahmapmilbkfamljbpgphfndeemhnajme**
+Log into **admin.google.com** and go to **Devices** → **Chrome** → **Apps & extensions** → **Users & browsers**. Select the Organizational Unit you want to configure.
 
-## Add or Locate the Helperbird Extension
+---
 
-1. Sign in to  [admin.google.com](https://admin.google.com) with an admin account.  
-2. Go to **Devices** → **Chrome** → **Apps & extensions** → **Users & browsers**.  
-3. Select the **Organizational Unit (OU)** you want to configure.  
-4. If Helperbird isn’t listed:
+### Step 2: Add Helperbird
 
-Click **+** → **Add from Chrome Web Store**.
-Search for **Helperbird** or paste the ID **ahmapmilbkfamljbpgphfndeemhnajme**.
-Set **Installation policy** to **Force install** (recommended) or your preferred setting.
-Click **Save**.
+If Helperbird isn't already listed for this OU, click **+** and select **Add from Chrome Web Store**. Search for Helperbird or paste the extension ID: **ahmapmilbkfamljbpgphfndeemhnajme**
 
-5. Click the **Helperbird** tile to open its settings panel for the selected OU.
+---
 
-## Apply the JSON Policy (isAdmin & subKey)
+### Step 3: Set Installation Policy
 
-In the Helperbird settings panel, locate the **Policy** section. 
+Set the **Installation policy** to **Force install** (recommended) so the extension installs automatically for all users in this OU. Click **Save**, then click on the Helperbird tile to open its settings.
 
-Depending on your Admin Console version, this may appear as:
-**Policy for extensions**
-**Additional settings**
-**Extension settings (JSON)**.
+**Tip:** If you manage multiple OUs, you'll need to repeat these steps for each one. Child OUs can override parent OU settings, so make sure you're configuring the right OU.
 
-2. Click **Edit** (or **Add**) to open the JSON editor.
-3. Paste the following JSON, updating the `subKey` value if needed:
+---
+
+## Applying the JSON Policy
+
+### Step 1: Open the Policy Editor
+
+In the Helperbird settings panel, find the **Policy for extensions** section (it might also be called "Additional settings" or "Extension settings"). Click **Edit** or **Add** to open the JSON editor.
+
+---
+
+### Step 2: Paste the JSON Policy
+
+Copy and paste this JSON, replacing `YOUR SUBSCRIPTION KEY` with your actual subscription key:
 
 ```json
 {
@@ -86,39 +77,56 @@ Depending on your Admin Console version, this may appear as:
 }
 ```
 
-4. Click **Save**.
-5. At the top right of the page, click **Save** again (if prompted) to confirm changes for the OU.
+---
 
-> Pro tip: If you manage multiple OUs, repeat these steps for each OU where you want this policy applied. Policies in child OUs can override parent OU settings, so make sure you’re in the right OU before editing.
+### Step 3: Save Your Changes
 
-## Verify & Troubleshoot
+Click **Save** in the JSON editor, then click **Save** again at the top right to confirm all changes for this OU.
 
-### Verify on a managed device
-1. On a device within the configured OU, sign in with a managed user.  
-2. Ensure the Helperbird extension is installed (Chrome menu → **Extensions**).  
-3. Open Helperbird and confirm that:
-
-The **admin-specific options** (if applicable to your plan) are active.
-The **subKey**-based features/license routing behaves as expected.
-
-### Force a policy refresh (optional)
-On Windows/macOS/Linux: Restart Chrome, or visit `chrome://policy` → **Reload policies**.
-
-On ChromeOS: Reboot the device or sign out/in to pull the latest policy.
-
-### Common gotchas
-
-**Wrong OU**: Double-check you edited the same OU the user/device belongs to.
-
-**JSON formatting**: Make sure the JSON is valid (matching braces, proper quotes, correct `Value` types).  
-
-**Policy precedence**: A child OU may override a parent OU—verify inheritance settings.  
-
-**Propagation time**: Policies usually apply quickly, but allow a few minutes and refresh policies if needed.
+**Tip:** The `isAdminControl` value set to `true` enables admin-specific options in Helperbird. Set it to `false` if you don't want users to have admin controls.
 
 ---
 
-## Need a hand?
+## Verifying and Troubleshooting
 
-If anything’s acting sus or you want us to sanity-check your JSON, ping the  
-[Helperbird support team](https://www.helperbird.com/support). We’ve got you.
+### Step 1: Check on a Managed Device
+
+Sign into a Chrome browser on a device within your configured OU. Helperbird should be installed automatically (check Chrome menu → **Extensions**).
+
+---
+
+### Step 2: Test the Settings
+
+Open Helperbird and confirm that admin options are active (if applicable) and features tied to your subscription key are working correctly.
+
+---
+
+### Step 3: Force a Policy Refresh if Needed
+
+If the settings don't appear right away:
+- **On Windows/Mac/Linux**: Restart Chrome or go to `chrome://policy` and click **Reload policies**
+- **On ChromeOS**: Sign out and sign back in, or restart the device
+
+**Common issues:**
+- **Wrong OU**: Double-check you edited the same OU the user belongs to
+- **JSON formatting errors**: Make sure all braces, quotes, and commas are correct
+- **Child OU overrides**: Verify that a child OU isn't overriding your parent OU settings
+- **Wait a few minutes**: Policies can take a few minutes to propagate
+
+---
+
+## Video Tutorial
+
+{% if youtubeId %}
+<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
+<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% else %}
+Coming soon.
+{% endif %}
+
+---
+
+## Need Additional Help?
+
+Ran into a snag while getting started? No worries at all! Just reach out to our friendly [Helperbird support team](/support/), and we'll help you smooth things out in no time.
