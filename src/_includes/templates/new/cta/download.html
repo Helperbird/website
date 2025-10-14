@@ -1,23 +1,48 @@
-<div class="my-16 rounded-3xl ">
-	<div class="px-6 py-16 lg:px-8 ">
-		<div class="card-body">
+<div class="my-16 rounded-[2rem]   transition-all duration-500 ease-out hover:shadow-apple-hover">
+	<div class="px-6 py-20 lg:px-8 lg:py-24">
 		<div class="mx-auto max-w-2xl text-center">
-			<img 	src="/assets/images/pwa/logo/full.png"
-			alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background." alt="Helperbird" class="w-20 mx-auto" />
-			<h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl mt-4">
+			<!-- Logo -->
+			<img 
+				src="/assets/images/pwa/logo/full.png"
+				alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background." 
+				class="mx-auto h-20 w-20 drop-shadow-sm transition-transform duration-300 hover:scale-105" 
+			/>
+			
+			<!-- Heading -->
+			<h2 class="mt-6 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
 				Download Helperbird!
 			</h2>
-			<p class="mx-auto mt-6 max-w-xl text-2xl leading-8 text-black">
+			
+			<!-- Description -->
+			<p class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-zinc-600 sm:text-xl">
 				Want to make browsing easier and more accessible? Helperbird has everything you need! With tools like 
-				<a href="/features/speech-to-text/" class="text-blue-500 hover:text-blue-700" title="Explore text-to-speech features">Text to Speech</a>, 
-				<a href="/features/immersive-reader-for-chrome/" class="text-blue-500 hover:text-blue-700" title="Learn about the Immersive Reader">Immersive Reader</a>, 
+				<a 
+					href="/features/speech-to-text/" 
+					class="font-medium text-blue-600 underline decoration-blue-600/30 underline-offset-2 transition-colors hover:text-blue-700 hover:decoration-blue-700" 
+					title="Explore text-to-speech features"
+				>
+					Text to Speech
+				</a>, 
+				<a 
+					href="/features/immersive-reader-for-chrome/" 
+					class="font-medium text-blue-600 underline decoration-blue-600/30 underline-offset-2 transition-colors hover:text-blue-700 hover:decoration-blue-700" 
+					title="Learn about the Immersive Reader"
+				>
+					Immersive Reader
+				</a>, 
 				and more.
 			</p>
+			
+			<!-- CTA Button -->
 			<div class="mt-10 flex items-center justify-center gap-x-4">
-				<button onclick="download_modal.showModal()" class="btn btn-lg btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+				<button 
+					onclick="download_modal.showModal()" 
+					class="btn btn-lg btn-secondary rounded-full px-8 py-4 text-base font-semibold shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2" 
+					aria-label="Download Helperbird" 
+					title="Download Helperbird"
+				>
 					Download Now
 				</button>
-			</div>
 			</div>
 		</div>
 	</div>
