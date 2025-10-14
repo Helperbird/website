@@ -187,8 +187,6 @@
 
 
 
-
-
 <body class="helperbird-background-color">
   <div id="helperbird-website">
 
@@ -196,36 +194,31 @@
       {% include templates/header.liquid %}
     {% endif %}
 
-    <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-12" id="content">
 
-      <div class="mx-auto max-w-3xl mb-8 mt-8">
+      <div class="mx-auto max-w-3xl">
 
-        <div class="px-6 py-16 lg:px-8 mb-4">
-                
-          <h1 class="text-center leading-relaxed font-sans text-4xl font-bold text-black sm:text-6xl">
+        <!-- Hero Section -->
+        <div class="mb-12 mt-8 px-6 py-12 text-center lg:px-8">
+          <h1 class="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
             {{ cardTitle }}
           </h1>
-          <p class="text-center    mt-6 text-xl font-sans mt-6 md:text-2xl text-black">
+          <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 sm:text-xl">
             {{ blog_snip }}
           </p>
         </div>
   
+        <!-- Content Card -->
+        <article class="prose prose-lg prose-zinc mx-auto mb-16 max-w-none rounded-2xl bg-white px-8 py-12 shadow-apple-lg ring-1 ring-zinc-100 sm:px-12 sm:py-16">
+          {{ content | safe }}
+        </article>
 
-        <div class="card bg-white w-full mx-auto mb-10 shadow-md ">
-          <div class="card-body">
-            {{ content | safe }}
-          </div>
-        </div>
+      </div>
+    </main>
 
-    </div>
-  </main>
-  {% include templates/footer.liquid %}
+    {% include templates/footer.liquid %}
   </div>
   {% bundledJs %}
 </body>
-
-
-
-
 
 </html>
