@@ -13,45 +13,71 @@ url: compare/
 ---
 
 
-<div class=" px-6 py-26 lg:px-8 my-16">
-  <div class="mx-auto max-w-2xl text-center">
-    <h2 class="leading-relaxed font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">How does Helperbird compare with others?</h2>
-    <p class="leading-relaxed font-sans mt-6 text-xl text-black"> See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.</p>
+<!-- Header Section -->
+<div class="px-6 py-20 lg:px-8 my-16 sm:py-24">
+  <div class="mx-auto max-w-4xl text-center">
+    <h2 class="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
+      How does Helperbird compare with others?
+    </h2>
+    <p class="mt-6 text-xl leading-relaxed text-zinc-600 sm:text-2xl">
+      See how Helperbird compares to others such as Snap and Read, Text Help, Read and Write and others.
+    </p>
   </div>
 </div>
 
-
-
-<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-
-
+<!-- Comparison Cards Grid -->
+<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 px-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-10 lg:px-8">
   {%- for post in collections.compare -%}
 
-
-    <div class="flex flex-col  overflow-hidden card bg-white rounded-xl p-6 shadow-md ">
-      <div class="flex-shrink-0"><img
-          alt="{{post.data.cardTitle}}"
-          class="h-48 w-full object-cover"
-          src="/{{ post.data.facebookSocial}}"></div>
-      <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-        <div class="flex-1">
-          <a class="decoration-pink-500 block mt-2" href="{{post.url}}" title="{{ post.data.cardTitle }}: {{ post.data.description }}">
-            <p class="leading-relaxed font-sans text-xl font-semibold text-gray-900">{{ post.data.cardTitle }}</p>
-            <p class="leading-relaxed font-sans mt-3 text-base text-black ">{{ post.data.description }}</p>
-          </a>
-          
-
-
+    <article class="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-zinc-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+      <!-- Image Section -->
+      <a 
+        href="{{post.url}}" 
+        title="{{ post.data.cardTitle }}: {{ post.data.description }}"
+        class="block overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+      >
+        <div class="relative overflow-hidden bg-zinc-100">
+          <img
+            alt="{{post.data.cardTitle}} comparison"
+            class="h-56 w-full object-cover transition-transform duration-500  "
+            src="/{{ post.data.facebookSocial}}"
+            loading="lazy"
+          />
         </div>
-        <div class="mt-6 flex items-center"></div>
-        <a
-          class=" btn btn-secondary mt-8 shadow-md"
-          href="{{post.url}}"
-          title="Read {{post.data.cardTitle}}">{{ post.data.cardTitle }}</a>
+      </a>
 
+      <!-- Content Section -->
+      <div class="flex flex-1 flex-col justify-between p-6 sm:p-8">
+        <div class="flex-1">
+          <a 
+            href="{{post.url}}" 
+            title="{{ post.data.cardTitle }}: {{ post.data.description }}"
+            class="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 focus-visible:rounded-lg"
+          >
+            <h3 class="text-xl font-bold tracking-tight text-zinc-900 transition-colors duration-200 group-hover:text-blue-600 sm:text-2xl">
+              {{ post.data.cardTitle }}
+            </h3>
+            <p class="mt-3 line-clamp-3 text-base leading-relaxed text-zinc-600">
+              {{ post.data.description }}
+            </p>
+          </a>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="mt-6">
+          <a
+            class="inline-flex w-full items-center justify-center gap-2 rounded-full bg-zinc-900 px-6 py-3 text-base font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-zinc-800 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2"
+            href="{{post.url}}"
+            title="Read {{post.data.cardTitle}} comparison"
+          >
+            View Comparison
+            <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
       </div>
-    </div>
-
+    </article>
 
   {%- endfor -%}
 </div>

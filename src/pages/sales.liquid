@@ -31,42 +31,52 @@ blog_snip: >
   Looking for a discount or white labeling? Please use the form below to get in touch with our sales
   team.
 ---
+	
+<!-- Header Section -->
+<div class="mb-8 px-6 py-20 sm:py-16 lg:px-4">
+  <div class="mx-auto max-w-4xl text-center">
+    <h1 class="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
+      Contact our Sales Team
+    </h1>
+    <p class="mt-6 text-xl leading-relaxed text-zinc-600 sm:text-2xl">
+      Looking for a discount, need a quote, or planning to buy multiple subscriptions? Please use the form below to get in touch with us.
+    </p>
 
-<div class="mb-4 px-6 py-20 sm:py-16 lg:px-4">
-	<div class="mx-auto max-w-4xl text-center">
-		<h1 class="font-sans text-4xl font-bold leading-relaxed text-black sm:text-6xl">
-			Contact our Sales Team
-		</h1>
-		<p class="leading-relaxed font-sans mt-6 text-2xl text-black">
-			Looking for a discount, need a quote, or planning to buy multiple subscriptions? Please use
-			the form below to get in touch with us.
-		</p>
-
-		<div class="mt-10 flex items-center justify-center gap-x-6">
-			<a href="#contact" title="Contact sales team." class="btn btn-lg btn-secondary">Contact sales</a>
-			<a href="/compare/" title="Link to Helperbird compare pages." class="btn btn-lg btn-primary"
-				>Compare Helperbird</a
-			>
-		</div>
-	</div>
+    <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+      <a 
+        href="#contact" 
+        title="Contact sales team" 
+        class="inline-flex items-center gap-2 rounded-full bg-purple-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-purple-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2"
+      >
+        Contact sales
+      </a>
+      <a 
+        href="/compare/" 
+        title="Link to Helperbird compare pages" 
+        class="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-blue-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+      >
+        Compare Helperbird
+      </a>
+    </div>
+  </div>
 </div>
 
-<section class="mx-auto mb-12 mt-8 max-w-3xl text-center">
-	<div class="card mx-auto mb-10 w-full bg-white shadow-md">
-		<div class="card-body">
-			<iframe
-				frameborder="0"
-				height="1006"
-				marginwidth="0"
-				loading="lazy"
-				src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSchfyeDdrm7JTBWpzGhw9wQC00iF7VRcBkhCssEp0QlV21SGQ/formResponse?embedded=true"
-				title="Helperbird feedback form"
-				width="100%"
-			>
-				Loading...
-			</iframe>
-		</div>
-	</div>
+<!-- Contact Form Section -->
+<section class="mx-auto mb-12 mt-8 max-w-3xl px-6">
+  <div class="overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-zinc-100">
+    <iframe
+      frameborder="0"
+      height="1006"
+      marginwidth="0"
+      loading="lazy"
+      src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSchfyeDdrm7JTBWpzGhw9wQC00iF7VRcBkhCssEp0QlV21SGQ/formResponse?embedded=true"
+      title="Helperbird sales contact form"
+      width="100%"
+      class="block"
+    >
+      Loading...
+    </iframe>
+  </div>
 </section>
 
 {% include common/questions.html %}

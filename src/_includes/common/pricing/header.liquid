@@ -1,201 +1,238 @@
-<div class="isolate overflow-hidden bg-gray-900 rounded-3xl">
-    <div class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
-        <div class="mx-auto max-w-4xl">
-
-            <h1 class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Perfect Plans for Individuals,
-                Schools, and Teams</h1>
-        </div>
-        <div class="relative mt-6">
-            <p class="mx-auto max-w-2xl text-xl leading-8 text-white">
-
-                <button class="link-hover link font-sans font-bold text-pink-500 hover:text-pink-700"
-                    onclick="download_modal.showModal()"> Helperbird is free </button> to use, and you can try our paid
-                features with a 3-day trial. <br />
-
-                Need something custom? Just <a href="/sales/"
-                    class="link-hover link font-sans font-bold text-pink-500 hover:text-pink-700">let us know!</a>
-
-            </p>
-
-
-            <div class="my-2 mt-4">
-                <select id="currency" name="currency" v-model="currency"
-                    class="select-base select w-fit max-w-xs rounded-2xl border-2 border-stone-200">
-                    <option class="bg-black" value="aud">Australia (AUD) 🇦🇺</option>
-                    <option class="bg-black" value="usd" selected="selected">United States (USD) 🇺🇸</option>
-                    <option class="bg-black" value="cad">Canada (CAD) 🇨🇦</option>
-                    <option class="bg-black" value="euro">Europe (EUR) 🇪🇺</option>
-                    <option class="bg-black" value="gbp">United Kingdom (GBP) 🇬🇧</option>
-                    <option class="bg-black" value="nz">New Zealand (NZ) 🇳🇿</option>
-                </select>
-            </div>
-        </div>
+<div class="isolate overflow-hidden rounded-[2rem] bg-gradient-to-b from-zinc-900 to-zinc-800 shadow-2xl">
+  <!-- Header Section -->
+  <div class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
+    <div class="mx-auto max-w-4xl">
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+        Perfect Plans for Individuals, Schools, and Teams
+      </h1>
     </div>
-    <div class="flow-root  pb-24 sm:pb-32">
-        <div class="-mt-80">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
-                    <div
-                        class="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10">
-                        <div>
-                            <h3 id="tier-hobby" class="text-lg font-semibold leading-7 text-indigo-600">Helperbird Pro</h3>
-                            <div class="mt-4 flex items-baseline gap-x-2">
-                                <span class="text-5xl font-bold tracking-tight text-gray-900">
-                                    <span
-                                        v-html="priceDetails.currency">$</span>
-                                        <span v-html="yearlyProPricing">30.00</span>
-                                </span>
-                                <span class="text-base font-semibold leading-7 text-gray-600">/yearly</span>
-                            </div>
-                            <p class="mt-6 text-base leading-7 text-gray-600">Get all features, priority support, and more with Helperbird Pro. Perfect for individuals!</p>
-                            <ul role="list" class="mt-10 space-y-4 text-sm leading-6 text-black">
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Advanced Features
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    PDF Reader
+    
+    <div class="relative mt-8">
+      <p class="mx-auto max-w-2xl text-lg leading-relaxed text-zinc-300 sm:text-xl">
+        <button 
+          class="font-semibold text-pink-400 underline decoration-pink-400/30 underline-offset-2 transition-colors duration-200 hover:text-pink-300 hover:decoration-pink-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-900 focus-visible:rounded-sm"
+          onclick="download_modal.showModal()"
+        >
+          Helperbird is free
+        </button> 
+        to use, and you can try our paid features with a 3-day trial.
+      </p>
 
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    AI-Powered Reading
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    AI-Powered Summarizing
+      <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-zinc-400">
+        Need something custom? Just 
+        <a 
+          href="/sales/"
+          class="font-semibold text-pink-400 underline decoration-pink-400/30 underline-offset-2 transition-colors duration-200 hover:text-pink-300 hover:decoration-pink-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-900 focus-visible:rounded-sm"
+        >
+          let us know!
+        </a>
+      </p>
 
-                                </li>
-
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Immersive Reader
-
-
-                                </li>
-                            </ul>
-                        </div>
-                        <a 				href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
-                        target="_blank"
-                        :href="priceDetails.yearly.proLink + '?prefilled_promo_code=50cent'" aria-describedby="tier-hobby" class="mt-8 btn btn-secondary mt-8">Get Started</a>
-                    </div>
-                    <div
-                        class="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10">
-                        <div>
-                            <h3 id="tier-team" class="text-lg font-semibold leading-7 text-indigo-600">Helperbird Pro Unlimited
-                            </h3>
-                            <div class="mt-4 flex items-baseline gap-x-2">
-                                <span class="text-5xl font-bold tracking-tight text-gray-900">
-                                    <span
-                                        v-html="priceDetails.currency">$</span>
-                                    <span v-html="yearlyUnlimitedPricing">1500</span>
-                                </span>
-                                <span class="text-base font-semibold leading-7 text-gray-600">/yearly</span>
-                            </div>
-                            <p class="mt-6 text-base leading-7 text-gray-600">Helperbird Pro Unlimited gives your entire school or business access to all features.</p>
-                            <ul role="list" class="mt-10 space-y-4 text-sm leading-6 text-gray-600">
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Everything in Pro
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Unlimited Subscribers*
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Success manager
-
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                   Dedicated support response time
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                                        class="h-5 w-5 text-green-600" fill="currentColor" role="img"
-                                        aria-label="Check mark inside a circle indicating success">
-                                        <title>Check mark inside a circle indicating success</title>
-                                        <path
-                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-                                    </svg>
-                                    Usage Dashboard
-
-                                </li>
-                            </ul>
-                        </div>
-                        <a 		href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
-                         target="_blank"
-                        :href="priceDetails.yearly.unlimitedLink " aria-describedby="tier-team" class="btn btn-secondary mt-8">Get Started</a>
-                    </div>
-
-                    <div
-                        class="flex flex-col bg-white items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
-                        <div class="lg:min-w-0 lg:flex-1">
-                            <h3 class="text-lg font-semibold leading-8 tracking-tight text-black">Pro Unlimited +</h3>
-                            <p class="mt-1 text-base leading-7 text-black">Designed for Enterprise and Districts, with
-                                premium support, an admin panel, early access to new features, and more.
-                            </p>
-                        </div>
-                        <a href="/sales/" class="btn btn-outline">Contact Sales</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <!-- Currency Selector -->
+      <div class="mt-8 inline-flex items-center gap-3">
+        <label for="currency" class="text-sm font-medium text-zinc-400">
+          Currency:
+        </label>
+        <select 
+          id="currency" 
+          name="currency" 
+          v-model="currency"
+          class="rounded-xl border-2 border-zinc-700 bg-zinc-800 px-4 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-200 hover:border-zinc-600 focus:border-pink-500 focus:outline-none focus:ring-2 focus:ring-pink-500"
+        >
+          <option value="aud">🇦🇺 Australia (AUD)</option>
+          <option value="usd" selected="selected">🇺🇸 United States (USD)</option>
+          <option value="cad">🇨🇦 Canada (CAD)</option>
+          <option value="euro">🇪🇺 Europe (EUR)</option>
+          <option value="gbp">🇬🇧 United Kingdom (GBP)</option>
+          <option value="nz">🇳🇿 New Zealand (NZ)</option>
+        </select>
+      </div>
     </div>
+  </div>
+
+  <!-- Pricing Cards -->
+  <div class="flow-root pb-24 sm:pb-32">
+    <div class="-mt-80">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
+          
+          <!-- Helperbird Pro Card -->
+          <div class="group flex flex-col justify-between overflow-hidden rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-zinc-900/5   hover:shadow-[0_20px_70px_rgba(0,0,0,0.3)] sm:p-10">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 id="tier-hobby" class="text-lg font-bold tracking-tight text-purple-600">
+                  Helperbird Pro
+                </h3>
+                <span class="inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-700 ring-1 ring-purple-200">
+                  Most Popular
+                </span>
+              </div>
+
+              <div class="mt-6 flex items-baseline gap-x-2">
+                <span class="text-5xl font-bold tracking-tight text-zinc-900">
+                  <span v-html="priceDetails.currency">$</span>
+                  <span v-html="yearlyProPricing">30.00</span>
+                </span>
+                <span class="text-base font-semibold leading-7 text-zinc-600">/year</span>
+              </div>
+
+              <p class="mt-6 text-base leading-relaxed text-zinc-600">
+                Get all features, priority support, and more with Helperbird Pro. Perfect for individuals!
+              </p>
+
+              <ul role="list" class="mt-8 space-y-3 text-sm leading-6">
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Advanced Features</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">PDF Reader</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">AI-Powered Reading</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">AI-Powered Summarizing</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Immersive Reader</span>
+                </li>
+              </ul>
+            </div>
+
+            <a 
+              href="https://buy.stripe.com/eVa163fqA8GU9Pi6ot"
+              target="_blank"
+              :href="priceDetails.yearly.proLink + '?prefilled_promo_code=50cent'" 
+              aria-describedby="tier-hobby" 
+              class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-purple-600 px-6 py-4 text-base font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-purple-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2"
+            >
+              Get Started
+              <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Helperbird Pro Unlimited Card -->
+          <div class="group flex flex-col justify-between overflow-hidden rounded-3xl bg-gradient-to-br from-blue-50 to-purple-50 p-8 shadow-2xl ring-1 ring-zinc-900/5   hover:shadow-[0_20px_70px_rgba(0,0,0,0.3)] sm:p-10">
+            <div>
+              <div class="flex items-center justify-between">
+                <h3 id="tier-team" class="text-lg font-bold tracking-tight text-blue-600">
+                  Helperbird Pro Unlimited
+                </h3>
+                <span class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700 ring-1 ring-blue-200">
+                   Teams
+                </span>
+                      <span class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700 ring-1 ring-blue-200">
+                  Schools
+                </span>
+              </div>
+
+              <div class="mt-6 flex items-baseline gap-x-2">
+                <span class="text-5xl font-bold tracking-tight text-zinc-900">
+                  <span v-html="priceDetails.currency">$</span>
+                  <span v-html="yearlyUnlimitedPricing">1500</span>
+                </span>
+                <span class="text-base font-semibold leading-7 text-zinc-600">/year</span>
+              </div>
+
+              <p class="mt-6 text-base leading-relaxed text-zinc-700">
+                Helperbird Pro Unlimited gives your entire school or business access to all features.
+              </p>
+
+              <ul role="list" class="mt-8 space-y-3 text-sm leading-6">
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Everything in Pro</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Unlimited Subscribers*</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Success Manager</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Dedicated Support Response Time</span>
+                </li>
+                <li class="flex items-start gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5 flex-shrink-0 text-emerald-600" fill="currentColor" aria-hidden="true">
+                    <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                  </svg>
+                  <span class="text-zinc-900">Usage Dashboard</span>
+                </li>
+              </ul>
+            </div>
+
+            <a 
+              href="https://buy.stripe.com/4gw7t9gtK6oc98I8wJ"
+              target="_blank"
+              :href="priceDetails.yearly.unlimitedLink" 
+              aria-describedby="tier-team" 
+              class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-blue-600 px-6 py-4 text-base font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-blue-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            >
+              Get Started
+              <svg class="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Enterprise Card -->
+          <div class="flex flex-col items-start gap-y-6 overflow-hidden rounded-3xl bg-gradient-to-br from-zinc-50 to-white p-8 ring-1 ring-zinc-900/5 shadow-xl transition-all duration-300 hover:shadow-2xl sm:gap-y-8 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center lg:gap-x-10">
+            <div class="lg:min-w-0 lg:flex-1">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold tracking-tight text-zinc-900">
+                  Pro Unlimited +
+                </h3>
+                <span class="inline-flex items-center rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700 ring-1 ring-amber-200">
+                  Enterprise
+                </span>
+                     <span class="inline-flex items-center rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700 ring-1 ring-amber-200">
+                  Districts
+                </span>
+              </div>
+              <p class="mt-4 text-base leading-relaxed text-zinc-600">
+                Designed for Enterprise and Districts, with premium support, an admin panel, early access to new features, and more.
+              </p>
+            </div>
+            <a 
+              href="/sales/" 
+              class="inline-flex w-full items-center justify-center gap-2 rounded-full border-2 border-zinc-900 bg-transparent px-8 py-3.5 text-base font-semibold text-zinc-900 shadow-md transition-all duration-200 hover:scale-105 hover:bg-zinc-900 hover:text-white hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2 lg:w-auto"
+            >
+              Contact Sales
+              <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

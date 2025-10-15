@@ -1,60 +1,72 @@
 <div class="relative my-16">
-	<div class="card py-20 bg-base-100">
-		<div class="mx-auto max-w-7xl px-6 lg:px-8">
-			<div class="mx-auto max-w-3xl text-center">
-				<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-					<span class="block font-sans leading-relaxed text-black">Helperbird for </span>
-					<span class="font-sans leading-relaxed text-sky-500">Google Docs</span>
-					<span class="font-sans leading-relaxed text-black"> & </span>
-					<span class="font-sans leading-relaxed text-yellow-500">Slides</span>
-				</h1>
-				<p class="mt-6 font-sans text-xl leading-relaxed text-gray-700 max-w-2xl mx-auto">
-					Working on Google Docs and Slides just got easier. Read text out loud, change to dyslexia-friendly fonts, translate documents instantly, Microsoft’s Immersive Reader,  and more. It's all free and works right in Google Workspace.
-				</p>
-				<div class="mt-10 flex items-center justify-center gap-x-6 flex-wrap">
-					<a
-						aria-label="Download Helperbird for Google Docs from Google Workspace Marketplace"
-						href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="btn btn-lg btn-secondary shadow-md"
-					
-						>Get Helperbird</a
-					>
+  <section class="overflow-hidden rounded-[2rem] bg-gradient-to-b from-white to-zinc-50 py-20 shadow-xl ring-1 ring-zinc-100 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <!-- Hero Heading -->
+        <h1 class="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
+          <span class="block">Helperbird for</span>
+          <span class="text-sky-500">Google Docs</span>
+          <span class="text-zinc-900"> & </span>
+          <span class="text-yellow-500">Slides</span>
+        </h1>
 
-					<a
-						href="https://www.youtube.com/watch?v=hUBfceYUm3I"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Watch how Helperbird works on YouTube"
-						class="btn btn-lg btn-primary shadow-md"
-					>
-						See how it works</a
-					>
-				</div>
-			</div>
+        <!-- Hero Description -->
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 sm:text-xl">
+          Working on Google Docs and Slides just got easier. Read text out loud, change to dyslexia-friendly fonts, translate documents instantly, use Microsoft's Immersive Reader, and more. It's all free and works right in Google Workspace.
+        </p>
 
-			<div class="mx-auto mt-16 flow-root max-w-3xl sm:mt-24">
-				<div class="-m-2 rounded-xl bg-stone-300 p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
-					<video
-						aria-describedby="video-description"
-						autoplay
-						controls
-						loop
-						muted
-						playsinline
-						width="2432"
-						height="1442"
-						class="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-					>
-						<source src="/assets/videos/google-addon-3.mp4" type="video/mp4" />
-						Your browser doesn't support video. <a href="/features">Check out our features instead</a>.
-					</video>
-					<p id="video-description" class="sr-only">
-						Video showing Helperbird's features in Google Docs and Slides - text-to-speech, font options, translation, and other reading and writing tools.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+        <!-- CTA Buttons -->
+        <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+          <a
+            aria-label="Download Helperbird for Google Docs from Google Workspace Marketplace"
+            href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group inline-flex items-center gap-2 rounded-full bg-purple-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-purple-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2"
+          >
+            Get Helperbird
+            <svg class="h-5 w-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=hUBfceYUm3I"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Watch how Helperbird works on YouTube"
+            class="group inline-flex items-center gap-2 rounded-full border-2 border-zinc-900 bg-transparent px-8 py-4 text-lg font-semibold text-zinc-900 shadow-lg transition-all duration-200 hover:scale-105 hover:bg-zinc-900 hover:text-white hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2"
+          >
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            See how it works
+          </a>
+        </div>
+      </div>
+
+      <!-- Video Section -->
+      <div class="mx-auto mt-16 flow-root max-w-3xl sm:mt-24">
+        <div class="rounded-2xl bg-zinc-900 p-2 shadow-2xl ring-1 ring-zinc-800 lg:rounded-3xl lg:p-3">
+          <video
+            aria-describedby="video-description"
+            autoplay
+            controls
+            loop
+            muted
+            playsinline
+            width="2432"
+            height="1442"
+            class="rounded-xl shadow-2xl ring-1 ring-zinc-900/10"
+          >
+            <source src="/assets/videos/google-addon-3.mp4" type="video/mp4" />
+            Your browser doesn't support video. <a href="/features" class="text-blue-600 underline hover:text-blue-700">Check out our features instead</a>.
+          </video>
+          <p id="video-description" class="sr-only">
+            Video showing Helperbird's features in Google Docs and Slides - text-to-speech, font options, translation, and other reading and writing tools.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
