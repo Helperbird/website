@@ -174,271 +174,239 @@
     <meta name="msapplication-config" content="/assets/images/social/browserconfig.xml">
   
    
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <style>
     .header_background {
       background-color: rgb(246, 245, 231);
     }
-    .helperbird-background-color{
+    .helperbird-background-color {
       background-color: rgb(246, 245, 231) !important;
     }
-    .helperbird-yellow{
-      background-color:rgb(246, 245, 231);
+    .helperbird-yellow {
+      background-color: rgb(246, 245, 231);
     }
-  
-  </style>
-  
-
-  <style>
     .helperbird-tab-current > svg {
-width: 1.5rem !important;
-height: 1.5rem !important;
+      width: 1.5rem !important;
+      height: 1.5rem !important;
     }
-
-    </style>
-
-<style>
-  .diff-item-1:after {
-    background-color: black !important;
-    border-color: black !important;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1)  !important;
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color) !important;
-    content: '↔️' !important;
-  }
+    .diff-item-1:after {
+      background-color: black !important;
+      border-color: black !important;
+      --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1) !important;
+      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color) !important;
+      content: '↔️' !important;
+    }
   </style>
+</head>
 
-  </head>
+<body class="helperbird-background-color">
+  <div id="helperbird-website">
+    {% include templates/header.liquid %}
 
-  <body class="helperbird-background-color">
-    <div id="helperbird-website">
-      {% include templates/header.liquid %}
+    <main class="mx-auto max-w-7xl px-4 pt-12 pb-12" id="content">
 
+      <!-- Hero Section -->
+      <section class="rounded-[2rem] bg-gradient-to-b from-white to-zinc-50 shadow-xl ring-1 ring-zinc-100 transition-all duration-300">
+        <div class="mx-auto max-w-4xl px-6 py-20 lg:px-8 text-center">
 
+          <!-- Breadcrumbs -->
+          <nav class="max-w-2xl text-lg mx-auto border-b border-zinc-200 pb-2 mb-8" aria-label="Breadcrumb">
+            <ol class="flex items-center justify-center gap-2">
+              <li>
+                <a 
+                  href="/" 
+                  title="Visit Helperbird Homepage" 
+                  class="inline-flex items-center gap-2 rounded-lg px-3 py-2 font-medium text-zinc-700 transition-all duration-200 hover:bg-zinc-100 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+                >
+                  <span class="sr-only">Helperbird</span>
+                  <img
+                    class="h-8"
+                    src="/assets/images/pwa/logo/full.png"
+                    alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background."
+                    loading="lazy"
+                  />
+                </a>
+              </li>
+              <li>
+                <svg class="h-5 w-5 text-zinc-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                </svg>
+              </li>
+              <li>
+                <a 
+                  href="/features/" 
+                  class="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium text-zinc-700 ring-1 ring-zinc-200 transition-all duration-200 hover:bg-zinc-50 hover:text-zinc-900 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2" 
+                  aria-current="page" 
+                  title="Helperbird Features page"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="h-5 w-5" fill="currentColor">
+                    <path d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm0-240q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm0-240q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640ZM480-400q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm40 240v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T863-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/>
+                  </svg>
+                  Features
+                </a>
+              </li>
+              <li>
+                <svg class="h-5 w-5 text-zinc-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                </svg>
+              </li>
+              <li>
+                <span class="inline-flex items-center gap-2 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-semibold text-white ring-1 ring-zinc-200 shadow-lg helperbird-tab-current">
+                  {{ icon | svgContents | safe }}
+                  {{ cardTitle }}
+                </span>
+              </li>
+            </ol>
+          </nav>
 
-      <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
+          <!-- Page Title -->
+          <h1 class="mt-2 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
+            {{ featurePageTitle }}
+          </h1>
 
-        <div class="card py-20 bg-base-100 shadow-md">
-          <div class="mx-auto max-w-4xl px-6 lg:px-8 text-center">
+          <!-- Description -->
+          <p class="mt-6 text-xl leading-relaxed text-zinc-600 sm:text-2xl">
+            {{ featureDescription }}
+          </p>
 
-          <div class="breadcrumbs max-w-2xl text-lg mx-auto border-b border-gray-200 pb-2 mb-8">
-
-     
-
-  <ul class="mx-auto w-fit ">
-  <li>
-    <a href="/" title="Visit Helperbird Homepage" class=" btn btn-ghost">
-    <span class="sr-only">Helperbird</span>
-    <img
-      class="h-8 "
-      src="/assets/images/pwa/logo/full.png"
-      alt="Helperbird logo: Stylized owl with large yellow eyes and a beige face, against a green background."
-    />
- 
-  </a>
-  </li>
-    <li>
-      <a href="/features/" class="btn btn-sm btn-outline gap-2" aria-current="page" title="Helperbird Features page">
-      
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="currentColor h-6 w-6" fill="currentColor" ><path d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm0-240q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm0-240q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640ZM480-400q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm40 240v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T863-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
-        Features
-      </a>
-    </li>
-    <li>
-      <span class="btn btn-outline btn-sm gap-2 helperbird-tab-current">
-       
-          {{ icon | svgContents | safe }}
-
-        {{  cardTitle }}
-      </span>
-    </li>
-  </ul>
-</div>
-   
-            <h1 class="mt-2 font-sans text-4xl font-bold tracking-tight text-black sm:text-5xl">
-              {{
-                featurePageTitle }}
-            </h1>
-        
-            <p class="mt-6 font-sans text-2xl leading-relaxed text-black">
-              {{ featureDescription }}
-            </p>
-        
-            <div class="mt-10 flex items-center justify-center gap-x-6">
-            <button onclick="download_modal.showModal()" class="btn btn-lg btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+          <!-- CTA Button -->
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <button 
+              onclick="download_modal.showModal()" 
+              class="rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-200 hover:scale-105 hover:bg-blue-700 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2" 
+              aria-label="Download Helperbird" 
+              title="Download Helperbird"
+            >
               Try Helperbird for free
             </button>
-            </div>
-  
-    
-        
+          </div>
+
+          <!-- Video/Image Container -->
           <div class="mx-auto mt-16 flow-root max-w-3xl sm:mt-24">
-            <div class="-m-2 rounded-xl lg:rounded-2xl">
+            <div class="rounded-2xl bg-zinc-900 p-2 shadow-2xl ring-1 ring-zinc-800">
               <div class="aspect-w-16 aspect-h-9">
-         
                 {% if isCompare == false %}
                 <iframe
-                  src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
+                  src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'}}"
                   autoplay="autoplay"
                   controls="true"
                   loop="loop"
                   muted="muted"
                   playsinline="playsinline"
-                  class="rounded-md shadow-2xl1 ring-gray-900/10"
+                  class="rounded-xl shadow-2xl"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen>
-                </iframe>
-              {% endif %}
-              {% if isCompare == true %}
-               
-                <div class="diff aspect-[16/9]  b-4 border-black rounded-xl bg-black" data-theme="dark">
-                <div class="diff-item-1 border-black ">
-                  <img
-                  alt="Before {{cardTitle}} was enabled"
-                  src="/assets/images/difference/{{url}}after.png" />
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+                {% endif %}
                 
+                {% if isCompare == true %}
+                <div class="diff aspect-[16/9] rounded-xl bg-black shadow-2xl" data-theme="dark">
+                  <div class="diff-item-1">
+                    <img
+                      alt="Before {{cardTitle}} was enabled"
+                      src="/assets/images/difference/{{url}}after.png"
+                      class="rounded-xl"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="diff-item-2">
+                    <img 
+                      alt="After {{cardTitle}} was enabled" 
+                      src="/assets/images/difference/{{url}}before.png"
+                      class="rounded-xl"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="diff-resizer bg-black"></div>
                 </div>
-                <div class="diff-item-2 border-black">
-                  <img alt="After {{cardTitle}} was enabled" src="/assets/images/difference/{{url}}before.png" />
-                </div>
-                <div class="diff-resizer bg-black"></div>
-              </div>
-              {% endif %}
+                {% endif %}
               </div>
             </div>
-          </div>
           </div>
         </div>
+      </section>
 
-        
+      <!-- Content Section -->
+      <article class="my-12 overflow-hidden rounded-[2rem] bg-white shadow-xl ring-1 ring-zinc-100 transition-all duration-300 hover:shadow-2xl">
+        <div class="mx-auto max-w-7xl p-8 sm:p-16">
+          {{ content | safe }}
 
-
-
-
-
-
-
-        <section class="overflow-hidden rounded-2xl  my-12 card bg-white shadow-md"> 
-          <div class="mx-auto max-w-7xl p-8 sm:p-16 card-body">
-
-
-  
-           
-             
-
-              
-                  {{ content | safe }}
-
-  
-                  <hr class="mt-4">
-                  <h2 id="how-does-it-work%3F" tabindex="-1" class="leading-relaxed font-display text-2xl my-8 font-semibold text-black">Video</h2>
-                  <div class="relative aspect-w-16 aspect-h-9"> 
-                  <iframe
-                    src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'  }}"
-                    autoplay="autoplay"
-                    controls="true"
-                    loop="loop"
-                    muted="muted"
-                    playsinline="playsinline"
-                class="absolute inset-0 w-full h-full rounded-xl"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                  </iframe>
-               </div>
-
+          <!-- Video Section -->
+          <hr class="mt-12 border-zinc-200">
+          <h2 id="how-does-it-work" tabindex="-1" class="my-8 text-3xl font-bold tracking-tight text-zinc-900 lg:text-4xl">
+            Video
+          </h2>
+          <div class="relative aspect-w-16 aspect-h-9 rounded-2xl bg-zinc-900 p-2 shadow-2xl">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/{{youtubeId | default: 'vwT8SAJfU3E'}}"
+              autoplay="autoplay"
+              controls="true"
+              loop="loop"
+              muted="muted"
+              playsinline="playsinline"
+              class="absolute inset-0 h-full w-full rounded-xl"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
           </div>
-        </section>
+        </div>
+      </article>
 
-
-
-
-
-
-        <section class="rounded-2xl shadow-md bg-white px-6 py-24 sm:py-32 lg:px-8">
-          <figure class="mx-auto max-w-2xl">
-            <p class="sr-only">5 out of 5 stars</p>
-            <div class="flex gap-x-1 text-blue-600 text-{{color}}-600">
-              <svg
-                class="h-5 w-5 flex-none"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                  clip-rule="evenodd" />
-              </svg>
-              <svg
-                class="h-5 w-5 flex-none"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                  clip-rule="evenodd" />
-              </svg>
-              <svg
-                class="h-5 w-5 flex-none"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                  clip-rule="evenodd" />
-              </svg>
-              <svg
-                class="h-5 w-5 flex-none"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                  clip-rule="evenodd" />
-              </svg>
-              <svg
-                class="h-5 w-5 flex-none"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                  clip-rule="evenodd" />
-              </svg>
+      <!-- Testimonial Section -->
+      <section class="rounded-[2rem] bg-white px-6 py-24 shadow-xl ring-1 ring-zinc-100 transition-all duration-300 hover:shadow-2xl sm:py-32 lg:px-8">
+        <figure class="mx-auto max-w-2xl">
+          <p class="sr-only">5 out of 5 stars</p>
+          <div class="flex gap-x-1 text-amber-400">
+            <svg class="h-6 w-6 flex-none transition-transform duration-200 hover:scale-110" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+            </svg>
+            <svg class="h-6 w-6 flex-none transition-transform duration-200 hover:scale-110" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+            </svg>
+            <svg class="h-6 w-6 flex-none transition-transform duration-200 hover:scale-110" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+            </svg>
+            <svg class="h-6 w-6 flex-none transition-transform duration-200 hover:scale-110" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+            </svg>
+            <svg class="h-6 w-6 flex-none transition-transform duration-200 hover:scale-110" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          
+          <blockquote class="mt-10 text-xl font-semibold leading-relaxed tracking-tight text-zinc-900 sm:text-2xl sm:leading-9">
+            <p>
+              We are so excited about working with this company and helping support our students with this program! Their support is outstanding as well!
+            </p>
+          </blockquote>
+          
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img
+              class="h-14 w-14 rounded-full bg-zinc-50 shadow-md ring-2 ring-zinc-100 transition-transform duration-200 hover:scale-105"
+              src="https://lh3.googleusercontent.com/a-/ALV-UjUIGu6eAxSsysN7EUFDJabk9TdGL32XCi0VxVtWbMQvAIB6R6fy=s96-w96-h96"
+              alt="Charlie Nishelle Calkins, recognized for her contributions to Helperbird"
+              loading="lazy"
+            />
+            <div class="text-sm leading-6">
+              <div class="font-semibold text-zinc-900">Jennifer Goodwin</div>
+              <div class="mt-1 text-zinc-600">AT Teacher</div>
             </div>
-            <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">
-              <p>We are so excited about working with this company and helping support our students with this program! Their support is outstanding as well!
+          </figcaption>
+        </figure>
+      </section>
 
-              </p>
-            </blockquote>
-            <figcaption class="mt-10 flex items-center gap-x-6">
-             <img
-                class="h-12 w-12 rounded-2xl bg-gray-50"
-                src="https://lh3.googleusercontent.com/a-/ALV-UjUIGu6eAxSsysN7EUFDJabk9TdGL32XCi0VxVtWbMQvAIB6R6fy=s96-w96-h96"
-                alt="Charlie Nishelle Calkins, recognized for her contributions to Helperbird"
-              >
+    </main>
 
-              <div class="text-sm leading-6">
-                <div class="font-semibold">Jennifer Goodwin
-                  </div>
-                <div class=" mt-2 text-black">AT Teacher</div>
-              </div>
-            </figcaption>
-          </figure>
-        </section>
-
-      </main>
-
-
-      {% include templates/footer.liquid %}
-    </div>
-  </body>
+    {% include templates/footer.liquid %}
+  </div>
   {% bundledJs %}
-
+</body>
 </html>

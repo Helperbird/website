@@ -202,74 +202,94 @@
 
   </head>
 
-  <body class="base-helperbird bg-base-helperbird">
-    <div id="helperbird-website">
-      {% include templates/header.liquid %}
-  
-      <main class="mx-auto max-w-7xl pt-12 pb-12 px-6" id="content">
-        <div class="mx-auto max-w-3xl">
-          <article aria-labelledby="article-title">
-            <header class="flex flex-col">
-              <div class="flex gap-4">
-                <a
-                  href="/blog/"
-                  type="button"
-                  aria-label="Go back to articles"
-                  class="btn btn-circle btn-sm btn-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+<body class="base-helperbird bg-base-helperbird">
+  <div id="helperbird-website">
+    {% include templates/header.liquid %}
+
+    <main class="mx-auto max-w-7xl px-6 pt-12 pb-12" id="content">
+      <div class="mx-auto max-w-3xl">
+        <article aria-labelledby="article-title">
+          <header class="flex flex-col">
+            <!-- Back Button -->
+            <div class="flex gap-4">
+              <a
+                href="/blog/"
+                aria-label="Go back to articles"
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-zinc-100 text-zinc-700 shadow-md ring-1 ring-zinc-200 transition-all duration-200 hover:bg-zinc-200 hover:shadow-lg hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+              >
+                <svg
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  aria-hidden="true"
+                  stroke="currentColor"
+                  class="h-5 w-5"
+                  stroke-width="1.5"
                 >
-                  <svg
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    aria-hidden="true"
-                    stroke="currentColor"
-                    class="h-6 w-6"
-                  >
-                    <path
-                      d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
+                  <path
+                    d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Article Title -->
+            <h1 
+              id="article-title" 
+              class="mt-8 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl lg:text-5xl"
+            >
+              {{ cardTitle }}
+            </h1>
+
+            <!-- Divider -->
+            <hr class="mt-8 border-zinc-200" />
+
+            <!-- Meta Information -->
+            <div class="mt-6 flex flex-wrap items-center justify-between gap-4">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700 ring-1 ring-blue-200">
+                  {{name}}
+                </span>
+                <span class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700 ring-1 ring-blue-200">
+                  {{time}}
+                </span>
               </div>
-              <h1 id="article-title" class="mt-6 text-2xl font-bold tracking-tight text-black sm:text-4xl">
-                {{ cardTitle }}
-              </h1>
-              <div class="divider"></div>
-  
-              <div class="flex">
-                <div class="flex-1 gap-4">
-                  <div class="badge badge-secondary badge-outline">{{name}}</div>
-                  <span class="badge badge-secondary badge-outline">{{time}}</span>
-                </div>
-                <div class="flex-0">
-                  <time datetime="{{date | formatDateWithOrdinal }}" class="items-center text-base">
-                    <span class="badge badge-secondary badge-outline">{{date | formatDateWithOrdinal }}</span>
-                  </time>
-                </div>
-              </div>
-            </header>
-  
-            <div class="mt-10">
+              <time 
+                datetime="{{date | formatDateWithOrdinal}}" 
+                class="inline-flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700 ring-1 ring-zinc-200"
+              >
+                {{date | formatDateWithOrdinal}}
+              </time>
+            </div>
+          </header>
+
+          <!-- Featured Image -->
+          <div class="mt-10">
+            <div class="overflow-hidden rounded-2xl shadow-xl ring-1 ring-zinc-200">
               <img
                 src="{{img}}"
                 alt="{{name}}"
-                class="aspect-square rounded-xl mb-10"
+                class="aspect-square w-full object-cover transition-transform duration-500 hover:scale-105"
                 title="{{name}}"
+                loading="eager"
               />
-  
+            </div>
+
+            <!-- Article Content -->
+            <div class="prose prose-zinc mt-12 max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-h2:text-2xl prose-h2:text-zinc-900 prose-h3:text-xl prose-h3:text-zinc-900 prose-p:text-zinc-700 prose-p:leading-relaxed prose-a:font-medium prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600/30 prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:text-blue-700 hover:prose-a:decoration-blue-700 prose-strong:text-zinc-900 prose-code:rounded-md prose-code:bg-zinc-100 prose-code:px-1 prose-code:py-0.5 prose-code:text-zinc-900 prose-code:before:content-none prose-code:after:content-none prose-pre:rounded-xl prose-pre:bg-zinc-900 prose-pre:shadow-lg prose-img:rounded-xl prose-img:shadow-md">
               {{ content | safe }}
             </div>
-          </article>
-        </div>
-  
-        {% include templates/new/cta/download.html %}
-      </main>
-  
-      {% include templates/footer.liquid %}
-    </div>
-  </body>
+          </div>
+        </article>
+      </div>
+
+      {% include templates/new/cta/download.html %}
+    </main>
+
+    {% include templates/footer.liquid %}
+  </div>
+</body>
   
   {% bundledJs %}
 
