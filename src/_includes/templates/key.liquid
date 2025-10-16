@@ -186,123 +186,136 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="/assets/images/social/browserconfig.xml">
 
- 
-
-<style>
+ <style>
 	.header_background {
 		background-color: rgb(246, 245, 231);
 	}
-	.helperbird-background-color{
+	
+	.helperbird-background-color {
 		background-color: rgb(246, 245, 231) !important;
 	}
-  .helperbird-yellow{
-    background-color:rgb(246, 245, 231);
-  }
-
-</style>
-
-    <style>
-      .helperbird-key {
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-        line-height: 3rem;
-
-        overflow: auto;
-
-      }
-    </style>
-  <style>
-
-.helperbird-yellow{
-background-color:rgb(246, 245, 231);
-}
-
+	
+	.helperbird-yellow {
+		background-color: rgb(246, 245, 231);
+	}
+	
+	.helperbird-key {
+		display: block;
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 600;
+		line-height: 1.6;
+		font-family: ui-monospace, SFMono-Regular, 'SF Mono', Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Consolas, 'Courier New', monospace;
+		letter-spacing: 0.05em;
+		color: #1d1d1f;
+		padding: 1.5rem;
+		background: white;
+		border-radius: 12px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+		overflow-wrap: break-word;
+		word-break: break-all;
+	}
+	
+	body {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 </style>
 
 </head>
 <body class="helperbird-background-color">
-  <div id="helperbird-website">
-    <main class="mx-auto max-w-7xl pt-12 pb-12 pl-4 pr-4" id="content">
-      <div class="mb-32">
-        <div class="mx-auto max-w-7xl lg:px-8 pt-10">
-          <div class="relative px-4 sm:px-8 lg:px-12">
-            <div class="mx-auto max-w-2xl">
-              <div class="text-base leading-7 text-black">
-                <a href="/" title="Visit Helperbird Homepage">
-                  <span class="sr-only">Helperbird owl logo</span>
-                  <img
-                    src="/assets/images/pwa/logo/full.png"
-                    alt="The Helperbird logo, depicting a stylized owl with large, round yellow eyes and a beige face. The owl has brown accents for its feathers and horns, and a distinct pattern on its forehead resembling a crown. Set against a green background with a subtle striped pattern."
-                    class="mx-auto"
-                    style="height: 80px;">
-                </a>
+	<div id="helperbird-website">
+		<main class="mx-auto max-w-7xl pt-16 pb-16 px-4 sm:px-6 lg:px-8" id="content">
+			<div class="mb-32">
+				<div class="mx-auto max-w-7xl pt-10">
+					<div class="relative px-4 sm:px-8 lg:px-12">
+						<div class="mx-auto max-w-2xl">
+							<div class="text-base leading-7 text-gray-900">
+								
+								<!-- Logo -->
+								<a href="/" title="Visit Helperbird Homepage" class=" mb-10 transition-transform duration-300 hover:scale-105">
+									<span class="sr-only">Helperbird owl logo</span>
+									<img
+										src="/assets/images/pwa/logo/full.png"
+										alt="The Helperbird logo, depicting a stylized owl with large, round yellow eyes and a beige face. The owl has brown accents for its feathers and horns, and a distinct pattern on its forehead resembling a crown. Set against a green background with a subtle striped pattern."
+										class="mx-auto"
+										style="height: 80px;">
+								</a>
 
-                <div class="header__helperbird_single__tagline" style="transform: unset; font-size: 1.5rem; border-radius: .8rem;">
-                  <span>{{ cardTitle }}</span>
-                </div>
+								<!-- Title -->
+								<div class="mb-10 mt-10 text-center ">
+									<h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 leading-tight">
+										{{ cardTitle }}
+									</h1>
+								</div>
 
-                <article class="space-y-7 text-base text-black card bg-white shadow-md">
-                  <div class="card-body">
-                    {{ content | safe }}
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+								<!-- Content Card -->
+								<article class="rounded-2xl bg-white shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-all duration-300 hover:shadow-[0_8px_28px_rgba(0,0,0,0.12)]">
+									<div class="px-8 py-10 sm:px-12 sm:py-14 space-y-7 text-base leading-relaxed text-gray-700">
+										{{ content | safe }}
+									</div>
+								</article>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      {% include templates/footer.liquid %}
+			{% include templates/footer.liquid %}
 
-      <script>
-        function copyToClipboard() {
-          // Select the text within the resultDiv
-          var resultDiv = document.getElementById('resultDiv');
-          var range = document.createRange();
-          range.selectNodeContents(resultDiv);
-          var selection = window.getSelection();
-          selection.removeAllRanges();
-          selection.addRange(range);
+			<script>
+				function copyToClipboard() {
+					// Select the text within the resultDiv
+					var resultDiv = document.getElementById('resultDiv');
+					var range = document.createRange();
+					range.selectNodeContents(resultDiv);
+					var selection = window.getSelection();
+					selection.removeAllRanges();
+					selection.addRange(range);
 
-          // Copy the selected text to the clipboard
-          document.execCommand('copy');
+					// Copy the selected text to the clipboard
+					document.execCommand('copy');
 
-          // Deselect the text
-          selection.removeAllRanges();
+					// Deselect the text
+					selection.removeAllRanges();
 
-          // Update the copyButton text
-          var copyButton = document.getElementById('copyButton');
-          copyButton.textContent = 'Copied!';
-          copyButton.disabled = false;
-        }
+					// Update the copyButton text and style
+					var copyButton = document.getElementById('copyButton');
+					copyButton.textContent = 'Copied!';
+					copyButton.disabled = false;
+					
+					// Reset button text after 2 seconds
+					setTimeout(function() {
+						copyButton.textContent = 'Copy Subscription key';
+					}, 2000);
+				}
 
-        // Get the value of the "sk" parameter from the URL query string
-        function getURLParameter(name) {
-          name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
-          var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-          var results = regex.exec(location.search);
-          return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-        }
+				// Get the value of the "sk" parameter from the URL query string
+				function getURLParameter(name) {
+					name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
+					var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+					var results = regex.exec(location.search);
+					return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+				}
 
-        // Check if the "sk" parameter exists
-        var skValue = getURLParameter('sk');
-        if (skValue) {
-          // Insert the value into a div with the id "resultDiv"
-          var resultDiv = document.getElementById('resultDiv');
-          if (resultDiv) {
-            resultDiv.textContent = skValue;
+				// Check if the "sk" parameter exists
+				var skValue = getURLParameter('sk');
+				if (skValue) {
+					// Insert the value into a div with the id "resultDiv"
+					var resultDiv = document.getElementById('resultDiv');
+					if (resultDiv) {
+						resultDiv.textContent = skValue;
 
-            // Enable the copyButton if the key value exists
-            var copyButton = document.getElementById('copyButton');
-            copyButton.disabled = false;
-          }
-        }
-      </script>
-    </main>
-  </div>
+						// Enable the copyButton if the key value exists
+						var copyButton = document.getElementById('copyButton');
+						copyButton.disabled = false;
+					}
+				}
+			</script>
+		</main>
+	</div>
 
-  {% bundledJs %}
+	{% bundledJs %}
 </body>
-
 </html>
