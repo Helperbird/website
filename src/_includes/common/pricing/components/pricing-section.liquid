@@ -1,0 +1,26 @@
+<tbody class="group">
+  <tr>
+    <th
+      scope="colgroup"
+      colspan="4"
+      class="px-0 pb-0 pt-10 group-first-of-type:pt-5"
+    >
+      <div
+        class="-mx-4 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100/50 px-5 py-3.5 text-sm font-semibold tracking-wide text-gray-900 shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
+      >
+        {{ sectionTitle }}
+      </div>
+    </th>
+  </tr>
+  {%- for feature in features -%}
+  <tr class="border-b border-gray-100/60 last:border-none transition-colors hover:bg-gray-50/30">
+    <th scope="row" class="px-0 py-4 text-sm font-normal text-gray-700 leading-relaxed">
+      {{ feature.feature }}
+    </th>
+
+    {%- include common/pricing/components/pricing-icon.liquid, included: feature.free -%}
+    {%- include common/pricing/components/pricing-icon.liquid, included: feature.pro -%}
+    {%- include common/pricing/components/pricing-icon.liquid, included: feature.unlimited -%}
+  </tr>
+  {%- endfor -%}
+</tbody>

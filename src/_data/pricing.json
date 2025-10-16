@@ -49,7 +49,7 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Alignment Options",
+			"feature": "Text Alignment Options",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -75,20 +75,32 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Screenshot tools",
+			"feature": "Screenshot Tools",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Printing tools",
+			"feature": "Printing Tools",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Translation",
+			"feature": "Text Translation",
 			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Math Reader",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Speed Reading",
+			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
@@ -98,39 +110,38 @@
 			"pro": true,
 			"unlimited": true
 		},
-
 		{
-			"feature": "Reword Text",
+			"feature": "Text Rewording",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Summarize page",
+			"feature": "Summarize Page",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Text analyze",
+			"feature": "Text Analysis",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Highlight paragraphs",
+			"feature": "Highlight Paragraphs",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Volume control",
+			"feature": "Volume Control",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Extract text from images (OCR)",
+			"feature": "Extract Text from Images (OCR)",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -138,7 +149,7 @@
 	],
 	"display": [
 		{
-			"feature": "Emphasize Links",
+			"feature": "Link Highlighting",
 			"free": true,
 			"pro": true,
 			"unlimited": true
@@ -162,13 +173,13 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Overlay",
+			"feature": "Color Overlay",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "High Contrast",
+			"feature": "High Contrast Mode",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -179,7 +190,6 @@
 			"pro": true,
 			"unlimited": true
 		},
-
 		{
 			"feature": "Line Focus",
 			"free": true,
@@ -187,33 +197,27 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Edit website",
+			"feature": "Live Website Editing",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Reduce motion",
+			"feature": "Reduce Motion",
 			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Auto scroll",
-			"free": false,
 			"pro": true,
 			"unlimited": true
 		}
 	],
 	"navigation": [
 		{
-			"feature": "Highlighter",
+			"feature": "Text Highlighter",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Web search",
+			"feature": "Web Search",
 			"free": true,
 			"pro": true,
 			"unlimited": true
@@ -225,13 +229,13 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Text-to-Speech Options",
+			"feature": "Advanced Text-to-Speech Options",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "20 Natural Voices",
+			"feature": "Premium Natural Voices",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -249,7 +253,7 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Cursor Options",
+			"feature": "Custom Cursor Styles",
 			"free": false,
 			"pro": true,
 			"unlimited": true
@@ -301,7 +305,7 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Word Support",
+			"feature": "Microsoft Word Support",
 			"free": true,
 			"pro": true,
 			"unlimited": true
@@ -333,8 +337,14 @@
 			"unlimited": true
 		},
 		{
-			"feature": "PDF Support",
+			"feature": "PDF Reader",
 			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Write on PDFs",
+			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
@@ -376,9 +386,8 @@
 			"pro": true,
 			"unlimited": true
 		},
-		
 		{
-			"feature": "Analytics dashboard",
+			"feature": "Analytics Dashboard",
 			"free": false,
 			"pro": false,
 			"unlimited": true
@@ -386,30 +395,29 @@
 	],
 	"support": [
 		{
-			"feature": "23/7 online support",
+			"feature": "24/7 Online Support",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Quarterly workshops",
+			"feature": "Quarterly Workshops",
 			"free": false,
 			"pro": false,
 			"unlimited": true
 		},
 		{
-			"feature": "Priority phone support",
+			"feature": "Priority Phone Support",
 			"free": false,
 			"pro": false,
 			"unlimited": true
 		},
 		{
-			"feature": "1:1 onboarding tour",
+			"feature": "1:1 Onboarding Tour",
 			"free": false,
 			"pro": false,
 			"unlimited": true
 		}
 	],
-
 	"soon": []
 }
