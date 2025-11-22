@@ -1,6 +1,57 @@
 {
 	"new": [
 		{
+  "version": "2025.11.20",
+  "date": "2025 11 22",
+  "changes": [
+    {
+      "title": "Customizable Word Prediction",
+      "description": "You can now choose how many words Helperbird suggests — anywhere from 2 to 9. More control, cleaner typing vibes."
+    },
+    {
+      "title": "Calmer, More Polished UI Colors",
+      "description": "We refreshed the whole color system to be softer, more balanced, and way less overwhelming. Feature icons now use a more intentional palette, so everything feels cleaner and easier on the eyes."
+    },
+    {
+      "title": "Cleaner, Modern Visual Layout",
+      "description": "The interface has been fully redesigned to reduce noise. Icons are spaced better, grouped more logically, and the overall layout feels more modern and organized."
+    },
+    {
+      "title": "Collapsible Features List",
+      "description": "You can now collapse the features list to keep the page focused. No more giant wall of icons staring you down — just open what you need, when you need it."
+    },
+    {
+      "title": "Easier Feature Discovery",
+      "description": "Tools are now grouped more clearly and laid out in a way that actually makes sense. It’s way easier to spot the tool you're looking for without scrolling through a crowded grid."
+    },
+    {
+      "title": "Quick Actions Button Moved Up Top",
+      "description": "The ‘Customize Quick Actions’ button now lives at the very top of the page, making it way faster to personalize your setup."
+    },
+    {
+      "title": "Friendlier Wording Throughout the App",
+      "description": "We updated a bunch of labels and text to sound more natural and human. Less technical jargon, more “real person” energy."
+    },
+    {
+      "title": "Smoother, Faster App Experience",
+      "description": "We cleaned up a ton behind the scenes to make Helperbird feel snappier and more responsive. The whole thing just feels smoother."
+    },
+    {
+      "title": "Upgraded Math Tools",
+      "description": "Math Reader got a fresh upgrade to make equation reading faster, clearer, and more accurate."
+    },
+    {
+      "title": "Improved Full-Page Text Extraction",
+      "description": "Extract Text is now strong enough to handle full-page extraction, making long documents way easier to work with."
+    },
+    {
+      "title": "Settings Modal Updates",
+      "description": "Dark Mode and Keyboard Shortcuts now live inside the settings modal for a cleaner, less cluttered interface."
+    }
+  ],
+  "note": "Thanks for using Helperbird! This update brings a calmer, cleaner design with smarter layouts, softer colors, and easier navigation. Plus we added upgrades across Word Prediction, Math tools, and Text Extraction. Enjoy the smoother, more modern Helperbird! 🦉✨"
+},
+		{
 			"version": "2025.10.10",
 			"date": "2025 10th of October",
 			"changes": [
