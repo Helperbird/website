@@ -87,6 +87,9 @@ It enables admin control and feature disabling, but does not disable anything ye
 
 ```json
 {
+  "subKey": {
+    "Value": "YOUR SUBSCRIPTION KEY"
+  },
   "isAdminControl": {
     "Value": true
   },
@@ -225,6 +228,9 @@ To disable the Helperbird Editor feature everywhere it appears, add:
 
 ```json
 {
+  "subKey": {
+    "Value": "YOUR SUBSCRIPTION KEY"
+  },
   "isAdminControl": {
     "Value": true
   },
@@ -256,6 +262,9 @@ Example JSON:
 
 ```json
 {
+  "subKey": {
+    "Value": "YOUR SUBSCRIPTION KEY"
+  },
   "isAdminControl": {
     "Value": true
   },
