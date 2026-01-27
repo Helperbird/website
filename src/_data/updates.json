@@ -1,6 +1,84 @@
 {
 	"new": [
 		{
+			"version": "2026.1.24",
+			"date": "January 26th, 2026",
+			"changes": [
+				{
+					"title": "All-New Audio Player Experience 🎧",
+					"description": "A sleek new TTS player bar with play, pause, stop, and speed controls. See your progress as you listen with a real-time progress bar and timer."
+				},
+				{
+					"title": "Instant Playback, Zero Wait ⚡",
+					"description": "Audio now starts immediately with streaming mode — no more waiting for files to generate before you can listen."
+				},
+				{
+					"title": "Speed Up Your Listening 🏃💨",
+					"description": "Control your listening pace from 0.5x to 2x with one-click speed cycling. Find your perfect tempo."
+				},
+				{
+					"title": "PDF Reader Gets an Audio Upgrade 📄🎵",
+					"description": "New integrated TTS player bar in the PDF Reader — play, pause, and control speed without leaving your document."
+				},
+				{
+					"title": "Reading Mode Audio Player 📖🔊",
+					"description": "The same beautiful TTS player is now available in distraction-free Reading Mode. Listen to articles your way."
+				},
+				{
+					"title": "Rich Text Annotations ✏️🎨",
+					"description": "PDF annotations now support bold, italic, lists, and colors. Your notes just got a serious upgrade."
+				},
+				{
+					"title": "Share Any PDF Page, Instantly 🔗",
+					"description": "Deep linking with page numbers — share a link like #doc#5 and it opens directly to page 5."
+				},
+				{
+					"title": "Settings Page Cleanup 🧹",
+					"description": "A cleaner, more organized settings experience. We removed the clutter so you can find what you need faster."
+				},
+				{
+					"title": "Streamlined Controls 🎚️",
+					"description": "Removed unnecessary sliders for speed, color, and pitch. Everything you need, nothing you don't."
+				}
+			],
+			"fixes": [
+				{
+					"title": "Text Selection Fixed 🎯",
+					"description": "Selecting text in PDFs no longer grabs entire paragraphs. Select exactly what you need, every time."
+				},
+				{
+					"title": "PDF Notes Keep Their Formatting 📝✅",
+					"description": "Downloaded PDFs now preserve all your note formatting — bold, lists, and line breaks stay intact."
+				},
+				{
+					"title": "Play/Pause Icons Now Sync Correctly ▶️⏸️",
+					"description": "Fixed an issue where the pause icon would show even when audio was paused. Icons now reflect the actual playback state."
+				},
+				{
+					"title": "Progress Bar Actually Moves 📊",
+					"description": "The TTS progress bar and timer now update in real-time during playback. No more frozen progress."
+				},
+				{
+					"title": "Smoother Annotation Dragging 🖱️",
+					"description": "Repositioning notes on PDFs is now buttery smooth with improved drag performance."
+				},
+				{
+					"title": "No More Double-Click Chaos 🚫🖱️🖱️",
+					"description": "Buttons now properly prevent accidental repeated clicks. One click does the job."
+				},
+				{
+					"title": "Offline Mode Works Seamlessly 📴✅",
+					"description": "TTS now automatically falls back to browser voices when you're offline or using Firefox. No interruptions."
+				}
+			],
+			"upcoming": [
+				{
+					"title": "More TTS Voices Coming Soon 🗣️🌍",
+					"description": "We're working on expanding our voice library with more accents and languages. Stay tuned!"
+				}
+			]
+		},
+		{
 			"version": "2026.01.17",
 			"date": "2026 01 17",
 			"changes": [
