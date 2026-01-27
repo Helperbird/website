@@ -1,6 +1,76 @@
 {
 	"new": [
 		{
+	"version": "2026.1.27",
+	"date": "January 27th, 2026",
+	"changes": [
+		{
+			"title": "Reader Mode Header Redesign 📖✨",
+			"description": "The Reader Mode header now has a cleaner layout with properly aligned buttons on the right side for a more polished look."
+		},
+		{
+			"title": "Smarter Keyboard Shortcuts ⌨️",
+			"description": "Shortcuts now toggle features on and off. Press once to enable, press again to disable — no more one-way shortcuts."
+		},
+		{
+			"title": "Proportional Font Scaling 🔤📏",
+			"description": "Font size changes now use CSS zoom for truly proportional scaling. Headings stay larger than body text, just as intended."
+		},
+		{
+			"title": "Auto-Enable Highlights 🖍️",
+			"description": "When you pick a highlight color from the toolbar, Show Highlights automatically turns on. No extra steps needed."
+		}
+	],
+	"fixes": [
+		{
+			"title": "Highlight Menu Now Disables Properly ✅",
+			"description": "Fixed an issue where the highlight toolbar and classes wouldn't fully clean up when disabled."
+		},
+		{
+			"title": "Show Highlights Toggle Fixed 🎯",
+			"description": "Fixed a bug where Show Highlights would flash on then immediately turn off when selecting a color."
+		},
+		{
+			"title": "Settings Save from Content Scripts 💾",
+			"description": "Fixed settings not saving properly when changed from the highlight menu. Your preferences now persist correctly."
+		},
+		{
+			"title": "Keyboard Shortcuts Actually Work 🔧⌨️",
+			"description": "Fixed a critical bug where shortcuts weren't working on Windows/Linux due to a typo in the shortcut handler."
+		},
+		{
+			"title": "No More Duplicate Shortcut Handlers 🚫🔁",
+			"description": "Shortcuts now properly unbind before rebinding, preventing memory leaks and duplicate triggers on settings reload."
+		},
+		{
+			"title": "Font Scale Classes Clean Up ✨",
+			"description": "Font scaling classes now properly remove when turning off the feature. No more leftover zoom styles."
+		},
+		{
+			"title": "Line Focus Event Listeners Fixed 🎯",
+			"description": "Fixed line focus not fully disabling because event listeners weren't being properly removed."
+		},
+		{
+			"title": "Stroke CSS Selector Typo 📝",
+			"description": "Fixed a typo where 'lo' was used instead of 'ol' for ordered lists in the text stroke feature."
+		},
+		{
+			"title": "Spellcheck Boolean Fixed ✓",
+			"description": "Spellcheck now properly enables with a boolean instead of a string value."
+		},
+		{
+			"title": "Highlighter JSON Parsing Safety 🛡️",
+			"description": "Added error handling for corrupted highlight data to prevent crashes when loading saved highlights."
+		}
+	],
+	"upcoming": [
+		{
+			"title": "More Shortcut Customization 🎹",
+			"description": "We're exploring letting you customize your own keyboard shortcuts. Stay tuned!"
+		}
+	]
+},
+		{
 			"version": "2026.1.24",
 			"date": "January 26th, 2026",
 			"changes": [
