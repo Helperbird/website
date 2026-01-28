@@ -160,7 +160,9 @@ module.exports = function (eleventyConfig) {
 			// return normal content
 			return content;
 		} catch (error) {
-			const [, title2] = data.match(/title:(.*)/);
+			// Log error but don't fail the build - social image generation is non-critical
+			console.error(`Social image generation failed for ${this.inputPath}:`, error.message);
+			return content;
 		}
 	});
 	eleventyConfig.addFilter('mtime', function (inputPath) {
@@ -188,7 +190,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('shuffle', (arr) => lodash.shuffle(arr));
 
 	eleventyConfig.addFilter('formatDateWithOrdinal', function (dateString) {
-		console.log(dateString);
 		try {
 			const date2 = moment(dateString);
 			const formattedDate = date2.format('MMMM Do, YYYY');
@@ -210,64 +211,28 @@ module.exports = function (eleventyConfig) {
 	};
 
 	const mapping = {
-		h1: 'leading-relaxed font-display text-3xl my-8 font-bold text-black',
-		h2: 'leading-relaxed font-display text-2xl my-8 font-semibold text-black',
-		h3: 'leading-relaxed font-display text-xl my-8 font-semibold text-black',
-		h4: 'leading-relaxed font-display text-lg my-8 font-semibold text-black',
-
-		p: 'leading-relaxed font-display mb-4 text-lg text-black',
-
-		// Keep inline, no margins, no size bump
-		strong: 'font-semibold text-black',
-		// You don't need a separate "bold" key; remove it or mirror strong without margins
-		// bold: 'font-bold text-black', // (optional) only if your renderer uses <bold>, no mx-*
-
-		ul: 'leading-relaxed list-disc mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
-		ol: 'leading-relaxed list-decimal list-inside mt-4 space-y-2 pl-6 text-lg font-display ml-6 my-8 text-black',
-		// Don’t force flex on list items unless you really need icons
-		li: 'leading-relaxed my-2 text-lg font-display text-black ml-4',
-
-		table:
-			'table-auto w-full border-collapse border border-gray-300 text-lg font-display text-black mt-4 my-8',
-		thead: 'bg-gray-100',
-		th: 'border border-gray-300 px-4 py-2 text-left text-gray-700 font-medium',
-		tbody: '',
-		tr: 'odd:bg-gray-50 even:bg-white',
-		td: 'border border-gray-300 px-4 py-2 text-black',
-
-		img: 'aspect-square rounded-2xl my-8 shadow-lg',
-		hr: 'divider divider-neutral my-16',
-
-		// Keep inline; remove mx-* so normal spaces work
-		a: 'font-sans text-lg text-blue-600 hover:text-blue-800 underline underline-offset-2',
-
-		iframe: 'w-full h-96 rounded-xl shadow-lg my-10',
-		blockquote:
-			'bg-gray-100 border-l-4 border-blue-400 pl-4 pr-6 py-3 rounded-lg italic text-gray-800 my-6 shadow-sm',
-		code: 'bg-gray-100 text-gray-800 rounded p-1 text-sm font-mono',
-		pre: 'bg-gray-100 p-4 rounded overflow-x-auto',
-		h1: 'leading-relaxed font-display text-pretty text-3xl mb-8 font-bold text-pretty text-gray-900',
-		h2: 'leading-relaxed font-display text-pretty text-2xl mb-6 mt-12 font-semibold text-pretty text-gray-800',
-		h3: 'leading-relaxed font-display text-pretty text-xl mb-4 mt-10 font-semibold text-pretty text-gray-700',
-		h4: 'leading-relaxed font-display text-pretty text-lg mb-4 mt-8 font-semibold text-pretty text-gray-600',
-		p: 'leading-relaxed font-display mb-4 mt-4 text-pretty text-lg text-pretty text-gray-900',
-		strong: 'text-lg font-semibold text-pretty text-gray-800 ',
+		h1: 'leading-relaxed font-display text-pretty text-3xl mb-8 font-bold text-gray-900',
+		h2: 'leading-relaxed font-display text-pretty text-2xl mb-6 mt-12 font-semibold text-gray-800',
+		h3: 'leading-relaxed font-display text-pretty text-xl mb-4 mt-10 font-semibold text-gray-700',
+		h4: 'leading-relaxed font-display text-pretty text-lg mb-4 mt-8 font-semibold text-gray-600',
+		p: 'leading-relaxed font-display mb-4 mt-4 text-pretty text-lg text-gray-900',
+		strong: 'text-lg font-semibold text-pretty text-gray-800',
 		bold: 'font-bold text-pretty text-gray-900',
-		ul: 'list-disc list-inside mt-4 space-y-2 pl-6 text-pretty text-lg font-display ml-6 mb-8 text-pretty text-gray-900',
-		ol: 'list-decimal list-inside mt-4 space-y-2 pl-6 text-pretty text-lg font-display ml-6 mb-8 text-pretty text-gray-900',
-		li: 'mb-2 text-pretty text-lg font-display text-pretty text-gray-900 ',
-		table:
-			'table-auto w-full border-collapse border border-gray-300 text-pretty text-lg font-display text-pretty text-gray-900 mt-4 mb-8',
+		ul: 'list-disc list-inside mt-4 space-y-2 pl-6 text-pretty text-lg font-display ml-6 mb-8 text-gray-900',
+		ol: 'list-decimal list-inside mt-4 space-y-2 pl-6 text-pretty text-lg font-display ml-6 mb-8 text-gray-900',
+		li: 'mb-2 text-pretty text-lg font-display text-gray-900',
+		table: 'table-auto w-full border-collapse border border-gray-300 text-pretty text-lg font-display text-gray-900 mt-4 mb-8',
 		thead: 'bg-gray-100',
-		th: 'border border-gray-300 px-4 py-2 text-pretty text-left text-pretty text-gray-700 font-medium',
+		th: 'border border-gray-300 px-4 py-2 text-pretty text-left text-gray-700 font-medium',
+		tbody: '',
 		tr: 'odd:bg-gray-50 even:bg-white',
 		td: 'border border-gray-300 px-4 py-2 text-pretty text-gray-900',
 		img: 'aspect-square rounded-3xl mb-8 border-gray-300 border-2',
 		hr: 'divider divider-neutral my-10',
-		a: 'text-lg text-pretty text-blue-500 hover:text-blue-700 underline mx-2',
+		a: 'text-lg text-pretty text-blue-500 hover:text-blue-700 underline underline-offset-2',
 		iframe: 'w-full h-96 rounded-3xl shadow-lg my-10',
 		blockquote: 'border-l-4 border-gray-300 pl-4 italic text-pretty text-gray-700 my-4',
-		code: 'bg-gray-100 text-pretty text-gray-800 rounded p-2 text-pretty text-sm font-mono',
+		code: 'bg-gray-100 text-pretty text-gray-800 rounded p-2 text-sm font-mono',
 		pre: 'bg-gray-100 p-4 rounded overflow-x-auto'
 	};
 

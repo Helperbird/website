@@ -16,7 +16,6 @@
     <meta content="{{ description }}" name="description" />
     <meta content="{{ keywords }}" name="keywords" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta content="/assets/images/favicon.png" name="image" />
     <meta content="#5046e4" name="theme-color" />
     <meta content="Helperbird" itemprop="name" />
@@ -50,7 +49,7 @@
     <meta property="article:tag" content="blog">
 
     <link href="/assets/images/social/favicon.png" rel="shortcut icon" />
-    <link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+    <link href="/assets/images/pwa/icons/apple-touch-icon.png" rel="apple-touch-icon" />
     <link
       href="/assets/images/favicon.png"
       rel="apple-touch-icon"
@@ -115,7 +114,7 @@
         "url": "https://www.helperbird.com/pricing/",
         "priceCurrency": "USD",
         "price": "30",
-        "priceValidUntil": "2020-12-31",
+        "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/OnlineOnly",
         "itemCondition": "https://schema.org/NewCondition"
       },
@@ -139,7 +138,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-10",
+          "datePublished": "2025-01-01",
           "author": {
             "@type": "Person",
             "name": "{{ review.name }}"
@@ -160,7 +159,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-10",
+          "datePublished": "2025-01-01",
           "author": {
             "@type": "Person",
             "name": "Robert James Gabriel"
@@ -174,7 +173,6 @@
     }
   </script>
 
-    <meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
     <link
       href="/assets/images/social/apple-touch-icon.png"
       rel="apple-touch-icon"
@@ -193,7 +191,7 @@
     <link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
     <link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
     <meta content="#ffffff" name="msapplication-TileColor" />
-    <meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+    <meta content="/assets/images/social/browserconfig.xml" name="msapplication-config" />
 
 
     <style>
@@ -203,9 +201,6 @@
       .helperbird-background-color {
         background-color: rgb(246, 245, 231) !important;
       }
-  >
-    <style>
-
       .helperbird-yellow {
         background-color: rgb(246, 245, 231);
       }
@@ -242,11 +237,10 @@
   
         <div class="px-6 py-32 lg:px-8 pt-12 pb-12">
           <div class="mx-auto max-w-3xl text-base">
-            <article class="text-black card-compact border-2 border-stone-300 bg-base-100  rounded-2xl">
+            <article class="text-black card-compact border-2 border-stone-300 bg-base-100 rounded-2xl">
               <div class="card-body">
-               
-                  {{ content | safe }}
-    
+                {{ content | safe }}
+              </div>
             </article>
           </div>
         </div>
@@ -259,8 +253,6 @@
   
     </div>
   
+    {% bundledJs %}
   </body>
-  {% bundledJs %}
-
-  
-  </html>
+</html>

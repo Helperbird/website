@@ -15,8 +15,6 @@
     <link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
     <meta content="{{ description }}" name="description" />
     <meta content="{{ keywords }}" name="keywords" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta content="/assets/images/favicon.png" name="image" />
     <meta content="#5046e4" name="theme-color" />
     <meta content="Helperbird" itemprop="name" />
@@ -50,7 +48,7 @@
     <meta property="article:tag" content="blog">
 
     <link href="/assets/images/social/favicon.png" rel="shortcut icon" />
-    <link href="touch-icon-iphone.png" rel="apple-touch-icon" />
+    <link href="/assets/images/pwa/icons/apple-touch-icon.png" rel="apple-touch-icon" />
     <link
       href="/assets/images/favicon.png"
       rel="apple-touch-icon"
@@ -118,7 +116,7 @@
         "url": "https://www.helperbird.com/pricing/",
         "priceCurrency": "USD",
         "price": "30",
-        "priceValidUntil": "2020-12-31",
+        "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/OnlineOnly",
         "itemCondition": "https://schema.org/NewCondition"
       },
@@ -142,7 +140,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-10",
+          "datePublished": "2025-01-01",
           "author": {
             "@type": "Person",
             "name": "{{ review.name }}"
@@ -163,7 +161,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-10",
+          "datePublished": "2025-01-01",
           "author": {
             "@type": "Person",
             "name": "Robert James Gabriel"
@@ -262,8 +260,6 @@
 				</div>
 			</div>
 
-			{% include templates/footer.liquid %}
-
 			<script>
 				function copyToClipboard() {
 					// Select the text within the resultDiv
@@ -314,6 +310,8 @@
 				}
 			</script>
 		</main>
+
+		{% include templates/footer.liquid %}
 	</div>
 
 	{% bundledJs %}

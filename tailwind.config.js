@@ -1,6 +1,4 @@
 module.exports = {
-	enabled: true,
-	media: false,
 	content: [
 		'./src/**/**/*.html',
 		'./src/**/**/*.md',
@@ -8,11 +6,6 @@ module.exports = {
 		'./src/**/**/*.njk',
 		'./src/assets/js/**/*.js'
 	],
-	variants: {
-		extend: {
-			backgroundColor: ['active']
-		}
-	},
 
 	theme: {
 		fontSize: {
@@ -35,37 +28,29 @@ module.exports = {
 				'4xl': '2rem'
 			},
 			colors: {
-				'base-helperbird': '#f4f6e7', // Replace #yournewcolor with the color code you want
-				'bg-base-helperbird': '#fef5ec' // Replace #yournewcolor with the color code you want
+				'base-helperbird': '#f4f6e7',
+				'bg-base-helperbird': '#fef5ec'
 			},
-
 			maxWidth: {
 				'2xl': '40rem'
 			},
-
 			gridTemplateRows: {
 				'[auto,auto,1fr]': 'auto auto 1fr'
 			}
 		}
 	},
-	variants: {
-		extend: {}
-	},
+
 	daisyui: {
 		styled: true,
-		themes: true,
 		base: true,
 		utils: true,
 		logs: true,
-		rtl: false,
-		darkTheme: false,
-		themes: ['light'],
-		rtl: false
+		themes: ['light']
 	},
+
 	plugins: [
 		require('daisyui'),
 		require('@tailwindcss/aspect-ratio'),
-		require('@tailwindcss/typography'),
-		require('@tailwindcss/line-clamp')
+		require('@tailwindcss/typography')
 	]
 };

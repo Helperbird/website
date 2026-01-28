@@ -128,7 +128,7 @@ a place where accessibility is just the way things are.
 ## Get in Touch
 
 Got something to say? Need a hand? We're all ears. Contact us at
-[robert.gabriel@helperbird.com](robert.gabriel@helperbird.com). Together, we're going to make a big
+[robert.gabriel@helperbird.com](mailto:robert.gabriel@helperbird.com). Together, we're going to make a big
 difference.
 
 ## Here's to a Brighter, More Accessible Web

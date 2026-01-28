@@ -71,13 +71,13 @@
 			"other": true
 		},
 		{
-			"feature": " Speak As I Type",
+			"feature": "Speak As I Type",
 			"helperbird": true,
 			"other": true
 		},
 
 		{
-			"feature": "Voice Note            ",
+			"feature": "Voice Note",
 			"helperbird": true,
 			"other": true
 		},
@@ -87,7 +87,7 @@
 			"other": true
 		},
 		{
-			"feature": " Audio Maker",
+			"feature": "Audio Maker",
 			"helperbird": true,
 			"other": true
 		},
@@ -153,7 +153,7 @@
 			"other": false
 		},
 		{
-			"feature": "Color blindess tools",
+			"feature": "Color blindness tools",
 			"helperbird": true,
 			"other": false
 		},
@@ -245,7 +245,7 @@
 			"other": true
 		},
 		{
-			"feature": "Word Prediction            ",
+			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
 		},
@@ -331,7 +331,7 @@
 			"other": true
 		},
 		{
-			"feature": " Similar Word Checker",
+			"feature": "Similar Word Checker",
 			"helperbird": true,
 			"other": true
 		},
@@ -342,7 +342,7 @@
 			"other": false
 		},
 		{
-			"feature": "Dication app",
+			"feature": "Dictation app",
 			"helperbird": true,
 			"other": true
 		},
@@ -435,13 +435,13 @@
 			"other": true
 		},
 		{
-			"feature": " Speak As I Type",
+			"feature": "Speak As I Type",
 			"helperbird": true,
 			"other": true
 		},
 
 		{
-			"feature": "Voice Note            ",
+			"feature": "Voice Note",
 			"helperbird": true,
 			"other": true
 		},
@@ -451,7 +451,7 @@
 			"other": true
 		},
 		{
-			"feature": " Audio Maker",
+			"feature": "Audio Maker",
 			"helperbird": true,
 			"other": true
 		},
@@ -517,7 +517,7 @@
 			"other": false
 		},
 		{
-			"feature": "Color blindess tools",
+			"feature": "Color blindness tools",
 			"helperbird": true,
 			"other": false
 		},
@@ -609,7 +609,7 @@
 			"other": true
 		},
 		{
-			"feature": "Word Prediction            ",
+			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
 		},
@@ -695,7 +695,7 @@
 			"other": true
 		},
 		{
-			"feature": " Similar Word Checker",
+			"feature": "Similar Word Checker",
 			"helperbird": true,
 			"other": true
 		},
@@ -706,7 +706,7 @@
 			"other": false
 		},
 		{
-			"feature": "Dication app",
+			"feature": "Dictation app",
 			"helperbird": true,
 			"other": true
 		},
@@ -799,13 +799,13 @@
 			"other": false
 		},
 		{
-			"feature": " Speak As I Type",
+			"feature": "Speak As I Type",
 			"helperbird": true,
 			"other": false
 		},
 
 		{
-			"feature": "Voice Note            ",
+			"feature": "Voice Note",
 			"helperbird": true,
 			"other": false
 		},
@@ -815,7 +815,7 @@
 			"other": false
 		},
 		{
-			"feature": " Audio Maker",
+			"feature": "Audio Maker",
 			"helperbird": true,
 			"other": false
 		},
@@ -881,7 +881,7 @@
 			"other": false
 		},
 		{
-			"feature": "Color blindess tools",
+			"feature": "Color blindness tools",
 			"helperbird": true,
 			"other": false
 		},
@@ -973,7 +973,7 @@
 			"other": false
 		},
 		{
-			"feature": "Word Prediction            ",
+			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": false
 		},
@@ -1059,7 +1059,7 @@
 			"other": false
 		},
 		{
-			"feature": " Similar Word Checker",
+			"feature": "Similar Word Checker",
 			"helperbird": true,
 			"other": false
 		},
@@ -1070,7 +1070,7 @@
 			"other": false
 		},
 		{
-			"feature": "Dication app",
+			"feature": "Dictation app",
 			"helperbird": true,
 			"other": true
 		},
