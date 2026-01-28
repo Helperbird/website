@@ -11,6 +11,18 @@ const moment = require('moment');
 const { createCanvas, loadImage } = require('canvas');
 const { formatTitle } = require('./tools/format-title');
 
+/**
+ * Extract front matter value from markdown content
+ * @param {string} data - File content
+ * @param {string} key - Front matter key to extract
+ * @returns {string|null} - Extracted value or null
+ */
+const extractFrontMatter = (data, key) => {
+	const regex = new RegExp(`^${key}:\\s*(.*)$`, 'm');
+	const match = data.match(regex);
+	return match ? match[1].trim() : null;
+};
+
 const createSocialImageForArticle = async (input, output) => {
 	try {
 		// Check if the output image already exists
@@ -21,53 +33,89 @@ const createSocialImageForArticle = async (input, output) => {
 		// Read data from the input file
 		const data = fs.readFileSync(input, { encoding: 'utf-8' });
 
-		// Get title from file data
-		const [, title] = data.match(/cardTitle:(.*)/);
+		// Extract front matter fields
+		const title = extractFrontMatter(data, 'cardTitle') || extractFrontMatter(data, 'title') || 'Helperbird';
+		const category = extractFrontMatter(data, 'blog_cat');
+		const description = extractFrontMatter(data, 'blog_snip') || extractFrontMatter(data, 'description');
 
 		const post = {
 			title: title.trim(),
-			author: 'Helperbird',
-			tagline: 'Accessibility & Productivity App' // You can customize or remove this as needed
+			category: category ? category.trim() : null,
+			description: description ? description.trim() : null,
+			domain: 'Helperbird.com'
 		};
 
 		const width = 1200;
 		const height = 627;
 
 		const canvas = createCanvas(width, height);
-		const context = canvas.getContext('2d');
+		const ctx = canvas.getContext('2d');
 
+		// === BACKGROUND ===
+		// Clean purple background
+		ctx.fillStyle = '#450a75';
+		ctx.fillRect(0, 0, width, height);
+
+		// === LOGO ===
 		const helperbirdLogo = await loadImage('./tools/images/helperbird-logo.png');
+		const logoSize = 100;
+		const logoX = (width - logoSize) / 2;
+		const logoY = 120;
+		ctx.drawImage(helperbirdLogo, logoX, logoY, logoSize, logoSize);
 
-		// Background
-		context.fillStyle = '#450a75';
-		context.fillRect(0, 0, width, height);
-
-		// Calculate logo position centered horizontally above the title
-		const logoWidth = 100;
-		const logoHeight = 100;
-		const logoX = (width - logoWidth) / 2;
-		const logoY = 150;
-
-		// Draw Helperbird Logo
-		context.drawImage(helperbirdLogo, logoX, logoY, logoWidth, logoHeight);
-
-		// Title Styling and Positioning
-		context.font = "bold 40pt 'PT Sans'";
-		context.textAlign = 'center';
-		context.fillStyle = '#ffffff';
+		// === TITLE ===
+		ctx.font = "bold 42pt 'PT Sans'";
+		ctx.textAlign = 'center';
+		ctx.fillStyle = '#FFFFFF';
 
 		const titleText = formatTitle(post.title);
-		const titleX = width / 2;
-		const titleY = logoY + logoHeight + 75; // Below the logo
-		context.fillText(titleText[0], titleX, titleY);
+		const titleStartY = logoY + logoSize + 80;
+		const lineHeight = 58;
+
+		ctx.fillText(titleText[0], width / 2, titleStartY);
 		if (titleText[1]) {
-			context.fillText(titleText[1], titleX, titleY + 50);
+			ctx.fillText(titleText[1], width / 2, titleStartY + lineHeight);
 		}
 
-		// Author and Tagline at the Bottom Center
-		context.font = "25pt 'PT Sans'";
-		const authorText = `${post.author} - ${post.tagline}`;
-		context.fillText(authorText, width / 2, height - 50);
+		// === CATEGORY BADGE (only if available, below title) ===
+		if (post.category) {
+			ctx.font = "bold 16pt 'PT Sans'";
+			const badgeText = post.category.toUpperCase();
+			const badgeMetrics = ctx.measureText(badgeText);
+			const badgePadding = 20;
+			const badgeWidth = badgeMetrics.width + badgePadding * 2;
+			const badgeHeight = 40;
+			const badgeX = (width - badgeWidth) / 2;
+			// Position badge below title (accounting for 1 or 2 lines)
+			const badgeY = titleText[1] ? titleStartY + lineHeight + 30 : titleStartY + 30;
+
+			// Badge background
+			ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+			ctx.beginPath();
+			ctx.roundRect(badgeX, badgeY, badgeWidth, badgeHeight, 20);
+			ctx.fill();
+
+			// Badge border
+			ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
+			ctx.lineWidth = 2;
+			ctx.stroke();
+
+			// Badge text
+			ctx.fillStyle = '#E9D5FF';
+			ctx.textAlign = 'center';
+			ctx.fillText(badgeText, width / 2, badgeY + 28);
+		}
+
+		// === BOTTOM BAR ===
+		// Subtle tagline
+		ctx.font = "18pt 'PT Sans'";
+		ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+		ctx.fillText('Accessibility & Productivity App', width / 2, height - 75);
+
+		// Domain/URL at bottom
+		ctx.font = "600 22pt 'PT Sans'";
+		ctx.fillStyle = '#FFFFFF';
+		ctx.fillText(post.domain, width / 2, height - 40);
 
 		// Create output directory if it doesn't exist
 		const outputDir = path.dirname(output);
