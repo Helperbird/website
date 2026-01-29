@@ -26,7 +26,7 @@
 			"group": "learning",
 			"title": "PDF support",
 			"description": "Make reading PDFs easier with features like Immersive Reader and text-to-speech support.",
-			"link": "/features/shortcuts/"
+			"link": "/features/pdfs/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
@@ -182,7 +182,7 @@
 			"group": "research",
 			"title": "PDF support",
 			"description": "Use features like Immersive Reader and text-to-speech to make PDFs more accessible.",
-			"link": "/features/shortcuts/"
+			"link": "/features/pdfs/"
 		},
 		{
 			"icon": "/src/_includes/svgs/docs.svg",
@@ -224,14 +224,14 @@
 			"group": "dyslexia",
 			"title": "Reading guide",
 			"description": "Use a reading ruler for long texts to help guide your focus and stay on track.",
-			"link": "/features/shortcuts/"
+			"link": "/features/reading-guide/"
 		},
 		{
 			"icon": "/src/_includes/svgs/reading.svg",
 			"group": "reading",
 			"title": "Line Focus",
 			"description": "Focus on one line at a time while reading to improve concentration and clarity.",
-			"link": "/features/shortcuts/"
+			"link": "/features/reading-guide/"
 		},
 		{
 			"icon": "/src/_includes/svgs/shortcuts.svg",

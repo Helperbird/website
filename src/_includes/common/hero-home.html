@@ -1,5 +1,5 @@
 <div class="relative my-16">
-	<div class="card border-2 border-stone-300 bg-base-100 py-20 shadow-md">
+	<div class="card rounded-3xl bg-white py-20 shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all duration-500 hover:shadow-[0_12px_40px_rgba(0,0,0,0.12)]">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-3xl text-center">
 				<h1 class="mt-10 font-sans text-4xl font-bold tracking-tight text-black sm:text-6xl">
@@ -43,15 +43,23 @@
 					PDFs, and documents more accessible and productive to meet your needs.
 				</p>
 
-				<div class="mt-10 flex items-center justify-center gap-x-6">
-					<button onclick="download_modal.showModal()" class="btn btn-secondary shadow-md" aria-label="Download Helperbird" title="Download Helperbird">
+				<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+					<button
+						onclick="download_modal.showModal()"
+						class="group inline-flex items-center justify-center rounded-full bg-gray-900 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-200 hover:bg-gray-800 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+						aria-label="Download Helperbird"
+						title="Download Helperbird"
+					>
 						Download
+						<svg class="ml-2 h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+						</svg>
 					</button>
 					<a
 						href="https://www.youtube.com/watch?v=vwT8SAJfU3E&t=39s"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="btn btn-primary shadow-md"
+						class="inline-flex items-center justify-center rounded-full border-2 border-gray-900 px-8 py-4 text-base font-semibold text-gray-900 transition-all duration-200 hover:bg-gray-900 hover:text-white hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
 						aria-label="Watch a demonstration of Helperbird in action"
 					>
 						See It in Action
