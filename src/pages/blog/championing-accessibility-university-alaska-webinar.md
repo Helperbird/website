@@ -40,7 +40,7 @@ On March 25, 2025, Helperbird had the privilege of collaborating with the Univer
 
 ## Hands On Helperbird Training
 
-I joined the University of Alaskas  educators and staff live to showcase Helperbird’s suite of tools: text-to-speech, dyslexia-friendly fonts, translation services, color overlays, and more. Together, we explored real-time demonstrations, adjusted settings on the fly, and celebrated those **aha** moments when small tweaks reveal their big impact on learning.
+I joined the University of Alaska'seducators and staff live to showcase Helperbird’s suite of tools: text-to-speech, dyslexia-friendly fonts, translation services, color overlays, and more. Together, we explored real-time demonstrations, adjusted settings on the fly, and celebrated those **aha** moments when small tweaks reveal their big impact on learning.
 
 ## A Surprise in Real Time
 
@@ -48,7 +48,7 @@ Just when I thought things couldn’t get more inclusive, the University of Alas
 
 ## Extending Accessibility Beyond the Live Event
 
-the University of Alaskas  commitment didn’t end when the webinar wrapped up. They promptly uploaded the recording to YouTube complete with full captions, ensuring that anyone who missed the live session—or prefers reading—can still engage with the material.
+The University of Alaska's commitment didn't end when the webinar wrapped up. They promptly uploaded the recording to YouTube complete with full captions, ensuring that anyone who missed the live session—or prefers reading—can still engage with the material.
 
 Why this matters:
 
@@ -66,13 +66,13 @@ A heartfelt thank you to the University of Alaska for raising the standard of di
 
 Missed the live session? You can still experience the full webinar here:👉 [https://www.youtube.com/watch?v=AA6mKcGJY0k](https://www.youtube.com/watch?v=AA6mKcGJY0k)
 
-Tune in, take notes, and get inspired by the University of Alaskas  remarkable approach to inclusive education.
+Tune in, take notes, and get inspired by the University of Alaska'sremarkable approach to inclusive education.
 
 ---
 
 ## Looking Ahead: The Future of Accessible Webinars
 
-Inspired by the University of Alaskas  leadership, we’re enhancing our own webinars with:
+Inspired by the University of Alaska'sleadership, we’re enhancing our own webinars with:
 
 - Live captions blending automated and human-generated transcripts
 - Multi-language support for a global audience

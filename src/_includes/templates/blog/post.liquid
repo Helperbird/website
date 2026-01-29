@@ -1,3 +1,4 @@
+{% assign updated = page.inputPath | mtime %}
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -191,6 +192,7 @@
           }
         },
         "datePublished": "{{ date }}",
+        "dateModified": "{{ updated }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "{{ url }}"

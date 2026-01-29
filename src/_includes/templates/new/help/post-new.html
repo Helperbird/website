@@ -4,6 +4,13 @@
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 		<title>{{ title }} - Helperbird</title>
+
+		<!-- Preconnect to external resources for faster loading -->
+		<link rel="preconnect" href="https://www.youtube.com" />
+		<link rel="preconnect" href="https://www.youtube-nocookie.com" />
+		<link rel="preconnect" href="https://lh3.googleusercontent.com" />
+		<link rel="dns-prefetch" href="https://www.youtube.com" />
+		<link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
 		{% bundledCss %}
 		<script>
 			if ('serviceWorker' in navigator) {
@@ -15,7 +22,6 @@
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta content="/assets/images/favicon.png" name="image" />
 		<meta content="#5046e4" name="theme-color" />
 		<meta content="Helperbird" itemprop="name" />

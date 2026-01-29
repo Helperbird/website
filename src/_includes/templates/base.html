@@ -4,6 +4,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title }} - Helperbird</title>
+
+		<!-- Preconnect to external resources for faster loading -->
+		<link rel="preconnect" href="https://www.youtube.com" />
+		<link rel="preconnect" href="https://www.youtube-nocookie.com" />
+		<link rel="preconnect" href="https://lh3.googleusercontent.com" />
+		<link rel="dns-prefetch" href="https://www.youtube.com" />
+		<link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
 		{% bundledCss %}
 		<script>
 			if ('serviceWorker' in navigator) {
@@ -73,8 +80,9 @@
 				"@type": "Organization",
 				"name": "Helperbird",
 				"url": "https://www.helperbird.com",
+				"logo": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
 				"sameAs": [
-					"http://www.facebook.com/helperbird",
+					"https://www.facebook.com/helperbird",
 					"https://www.linkedin.com/company/19112429",
 					"https://twitter.com/helperbird",
 					"https://www.youtube.com/helperbird"

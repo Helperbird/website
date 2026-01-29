@@ -54,7 +54,7 @@ In the list of tools, find **Dyslexia Tools** and click the open icon next to it
 
 In the Dyslexia Tools panel:
 1. Click the **Settings** tab.
-3. Adjust the **Brigtness** slider to control the brightness of the  overlay.
+3. Adjust the **Brightness** slider to control the brightness of the overlay.
 4. Choose a **Color** from the palette that feels comfortable for your eyes.
 
 

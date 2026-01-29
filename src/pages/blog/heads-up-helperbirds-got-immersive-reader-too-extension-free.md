@@ -62,7 +62,7 @@ simply highlight your desired text and click the Immersive Reader button.
 
 ## YouTube Tutorial
 
-<iframe width="560" height="315" class="aspect-square rounded-2xl  mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/pFF3t3i-7Ik?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/pFF3t3i-7Ik?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 

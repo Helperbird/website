@@ -141,7 +141,7 @@ We ensure that Helperbird applications are safe for all users, including childre
 the [Children’s Online Privacy Protection Act (COPPA)](/compliance/) and the Family Educational
 Rights and Privacy Act (FERPA), we do not collect personal information from anyone, especially
 children under the age of 13. Our commitment to these standards underscores our dedication to user
-privacy and security across all age groups. [You can read more on our statementhere](/compliance/)
+privacy and security across all age groups. [You can read more on our compliance statement here](/compliance/).
 
 ---
 
