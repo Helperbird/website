@@ -1,228 +1,216 @@
-<!-- Download Modal - Apple-inspired design -->
-<dialog id="download_modal" class="modal backdrop:bg-black/40 backdrop:backdrop-blur-sm" aria-labelledby="download_modal_title" aria-modal="true">
-	<div class="modal-box max-w-2xl overflow-hidden rounded-3xl border-0 bg-white/95 p-0 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)] backdrop-blur-xl">
-		<!-- Header with subtle gradient -->
-		<div class="relative border-b border-zinc-100 bg-gradient-to-b from-zinc-50/80 to-white px-8 pb-6 pt-8">
-			<button
-				onclick="download_modal.close()"
-				class="absolute right-5 top-5 flex h-8 w-8 items-center justify-center rounded-full bg-zinc-100/80 text-zinc-500 transition-all duration-200 hover:bg-zinc-200/80 hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2"
-				aria-label="Close modal"
+<!-- Download Modal -->
+<dialog id="download_modal" class="modal" aria-labelledby="download_modal_title" aria-modal="true">
+	<div class="modal-box max-w-3xl rounded-3xl bg-white shadow-2xl">
+		<button
+			onclick="download_modal.close()"
+			class="btn btn-circle btn-ghost btn-sm absolute right-4 top-4 transition-all duration-200 hover:scale-110 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+			aria-label="Close the extension modal popup"
+		>
+			<span class="sr-only">Close the extension modal popup</span>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-5 w-5"
+				viewBox="0 -960 960 960"
+				fill="currentColor"
+				aria-hidden="true"
 			>
-				<span class="sr-only">Close</span>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-				</svg>
-			</button>
+				<path
+					d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+				/>
+			</svg>
+		</button>
 
-			<div class="text-center">
-				<div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-green-400 to-emerald-600 shadow-lg shadow-green-500/25">
-					<img
-						src="/assets/images/pwa/logo/full.png"
-						alt="Helperbird"
-						class="h-10 w-10"
-						width="40"
-						height="40"
-					/>
-				</div>
-				<h2 id="download_modal_title" class="text-2xl font-semibold tracking-tight text-zinc-900">
-					Get Helperbird
-				</h2>
-				<p class="mt-2 text-sm text-zinc-500">
-					Choose your browser or platform
-				</p>
-			</div>
-		</div>
-
-		<!-- Platform grid -->
-		<div class="p-6">
-			<!-- Browsers Section -->
-			<div class="mb-6">
-				<h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-zinc-400">Browsers</h3>
-				<div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
-					<a
-						href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Chrome"
-						class="group flex flex-col items-center rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/chrome.png"
-							alt="Chrome"
-							class="mb-3 h-12 w-12 transition-transform duration-300 group-hover:scale-110"
-							width="48"
-							height="48"
-							loading="lazy"
+		<div class="mt-8 w-full px-2">
+			<h2 id="download_modal_title" class="mb-8 text-center text-2xl font-bold tracking-tight text-zinc-900">
+				Download Helperbird
+			</h2>
+			<ul role="list" class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Chrome Extension" 
+							title="Helperbird Chrome Extension Logo" 
+							loading="lazy" 
+							src="/assets/images/home/chrome.png" 
+							width="48" 
+							height="48" 
 						/>
-						<span class="text-sm font-medium text-zinc-700">Chrome</span>
-					</a>
-
-					<a
-						href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Safari"
-						class="group flex flex-col items-center rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/safari.png"
-							alt="Safari"
-							class="mb-3 h-12 w-12 transition-transform duration-300 group-hover:scale-110"
-							width="48"
-							height="48"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://chrome.google.com/webstore/detail/helperbird-accessibility/ahmapmilbkfamljbpgphfndeemhnajme" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Chrome"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Safari Extension" 
+							title="Helperbird Safari Extension Icon" 
+							loading="lazy" 
+							src="/assets/images/home/safari.png" 
+							width="48" 
+							height="48" 
 						/>
-						<span class="text-sm font-medium text-zinc-700">Safari</span>
-					</a>
-
-					<a
-						href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Edge"
-						class="group flex flex-col items-center rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/edge.png"
-							alt="Edge"
-							class="mb-3 h-12 w-12 transition-transform duration-300 group-hover:scale-110"
-							width="48"
-							height="48"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Safari"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Edge Extension" 
+							title="Helperbird Edge Extension Icon" 
+							loading="lazy" 
+							src="/assets/images/home/edge.png" 
+							width="48" 
+							height="48" 
 						/>
-						<span class="text-sm font-medium text-zinc-700">Edge</span>
-					</a>
-
-					<a
-						href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Firefox"
-						class="group flex flex-col items-center rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/firefox.png"
-							alt="Firefox"
-							class="mb-3 h-12 w-12 transition-transform duration-300 group-hover:scale-110"
-							width="48"
-							height="48"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://microsoftedge.microsoft.com/addons/detail/bkibfggdahioahpokehoiimdmdjefjmd" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Edge"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Firefox Extension" 
+							title="Helperbird Firefox Extension Icon" 
+							loading="lazy" 
+							src="/assets/images/home/firefox.png" 
+							width="48" 
+							height="48" 
 						/>
-						<span class="text-sm font-medium text-zinc-700">Firefox</span>
-					</a>
-				</div>
-			</div>
-
-			<!-- Mobile & Tablet Section -->
-			<div class="mb-6">
-				<h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-zinc-400">Mobile & Tablet</h3>
-				<div class="grid grid-cols-2 gap-3">
-					<a
-						href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for iPad"
-						class="group flex items-center gap-4 rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/ipados.png"
-							alt="iPad"
-							class="h-10 w-10 transition-transform duration-300 group-hover:scale-110"
-							width="40"
-							height="40"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://addons.mozilla.org/en-CA/firefox/addon/helperbird/" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Firefox"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Google Docs Add-on" 
+							title="Helperbird Google Docs Add-on Icon" 
+							loading="lazy" 
+							src="/assets/images/home/docs.png" 
+							width="48" 
+							height="48" 
 						/>
-						<div>
-							<span class="block text-sm font-medium text-zinc-700">iPad</span>
-							<span class="text-xs text-zinc-400">Safari Extension</span>
-						</div>
-					</a>
-
-					<a
-						href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for iPhone"
-						class="group flex items-center gap-4 rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/ios-logo.png"
-							alt="iPhone"
-							class="h-10 w-10 transition-transform duration-300 group-hover:scale-110"
-							width="40"
-							height="40"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://workspace.google.com/marketplace/app/helperbird/844716805038" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Google Docs"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird Google Slides Add-on" 
+							title="Helperbird Google Slides Add-on Icon" 
+							loading="lazy" 
+							src="/assets/images/home/slides.png" 
+							width="48" 
+							height="48" 
 						/>
-						<div>
-							<span class="block text-sm font-medium text-zinc-700">iPhone</span>
-							<span class="text-xs text-zinc-400">Safari Extension</span>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<!-- Google Workspace Section -->
-			<div>
-				<h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-zinc-400">Google Workspace</h3>
-				<div class="grid grid-cols-2 gap-3">
-					<a
-						href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Google Docs"
-						class="group flex items-center gap-4 rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/docs.png"
-							alt="Google Docs"
-							class="h-10 w-10 transition-transform duration-300 group-hover:scale-110"
-							width="40"
-							height="40"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://workspace.google.com/marketplace/app/helperbird/844716805038" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for Google Slides"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird iPad Extension" 
+							title="Helperbird Safari iPad OS Extension Icon" 
+							loading="lazy" 
+							src="/assets/images/home/ipados.png" 
+							width="48" 
+							height="48" 
 						/>
-						<div>
-							<span class="block text-sm font-medium text-zinc-700">Google Docs</span>
-							<span class="text-xs text-zinc-400">Add-on</span>
-						</div>
-					</a>
-
-					<a
-						href="https://workspace.google.com/marketplace/app/helperbird/844716805038"
-						rel="noopener noreferrer"
-						target="_blank"
-						title="Download Helperbird for Google Slides"
-						class="group flex items-center gap-4 rounded-2xl border border-zinc-100 bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-200 hover:shadow-lg hover:shadow-zinc-200/50"
-					>
-						<img
-							src="/assets/images/home/slides.png"
-							alt="Google Slides"
-							class="h-10 w-10 transition-transform duration-300 group-hover:scale-110"
-							width="40"
-							height="40"
-							loading="lazy"
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for iPad"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			
+				<li class="group text-center">
+					<div class="rounded-2xl bg-gradient-to-b from-white to-zinc-50 p-6 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+						<img 
+							class="mx-auto mb-4 transition-transform" 
+							alt="Helperbird iOS Extension" 
+							title="Helperbird Safari iOS Extension Icon" 
+							loading="lazy" 
+							src="/assets/images/home/ios-logo.png" 
+							width="48" 
+							height="48" 
 						/>
-						<div>
-							<span class="block text-sm font-medium text-zinc-700">Google Slides</span>
-							<span class="text-xs text-zinc-400">Add-on</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Footer -->
-		<div class="border-t border-zinc-100 bg-zinc-50/50 px-6 py-4">
-			<p class="text-center text-xs text-zinc-400">
-				Free to use with optional Pro features.
-				<a href="/pricing/" class="font-medium text-zinc-600 underline decoration-zinc-300 underline-offset-2 transition-colors hover:text-zinc-900 hover:decoration-zinc-500">View pricing</a>
-			</p>
+						<a 
+							class="btn btn-secondary btn-sm w-full rounded-full font-semibold shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg" 
+							href="https://apps.apple.com/us/app/helperbird-for-safari/id1589138053" 
+							rel="noopener noreferrer" 
+							target="_blank" 
+							title="Download Helperbird for iOS"
+						>
+							Download
+						</a>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
-
-	<!-- Click outside to close -->
-	<form method="dialog" class="modal-backdrop">
-		<button class="cursor-default">Close</button>
-	</form>
 </dialog>
 
 <!-- Mobile Menu Modal -->
@@ -253,8 +241,9 @@
 			<div class="divider my-3"></div>
 			<ul class="mb-10 grid grid-cols-2 gap-4">
 				<li>
-				<a
+				<a	
 						href="/about/"
+						rel="noopener noreferrer"
 						title="Helperbird About Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -271,8 +260,9 @@
 					</a>
 				</li>
 				<li>
-				<a
+				<a	
 						href="/pricing/"
+						rel="noopener noreferrer"
 						title="Helperbird Pricing Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -280,8 +270,9 @@
 					</a>
 				</li>
 				<li>
-				<a
+				<a	
 						href="/features/"
+						rel="noopener noreferrer"
 						title="Helperbird Features Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -289,8 +280,9 @@
 					</a>
 				</li>
 				<li>
-				<a
+				<a	
 						href="/compare/"
+						rel="noopener noreferrer"
 						title="Helperbird Compare Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -332,7 +324,7 @@
 				<li>
 				<a	
 						href="/products/chrome/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Chrome Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -342,7 +334,7 @@
 				<li>
 				<a	
 						href="/products/edge/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Edge Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -352,7 +344,7 @@
 				<li>
 				<a	
 						href="/products/firefox/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Firefox Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -362,7 +354,7 @@
 				<li>
 				<a	
 						href="/products/ipad/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Safari Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -372,7 +364,7 @@
 				<li>
 				<a	
 						href="/products/google-addon/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Google Docs Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -382,7 +374,7 @@
 				<li>
 				<a	
 						href="/products/google-addon/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Google Slides Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -397,7 +389,7 @@
 				<li>
 				<a	
 						href="/help/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Help Guides"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
@@ -407,7 +399,7 @@
 				<li>
 				<a	
 						href="/support/"
-
+						rel="noopener noreferrer"
 						title="Helperbird Support Page"
 						class="btn btn-outline btn-sm h-auto w-full rounded-xl border-zinc-200 font-semibold text-zinc-700 transition-all duration-200 hover:scale-105 hover:border-zinc-300 hover:bg-zinc-50 hover:text-zinc-900"
 					>
