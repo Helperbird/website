@@ -122,6 +122,32 @@ Click the **Settings** tab to adjust how the text is read:
 
 ---
 
+## Frequently Asked Questions
+
+**Why isn't Text to Speech working?**
+First, check that your device volume is not muted. Also check that the browser tab isn't muted (look for a speaker icon in the tab). If it still doesn't work, try refreshing the page or restarting your browser.
+
+**Can I use Text to Speech offline?**
+Some voices require an internet connection to work. If you're offline, only local system voices will be available.
+
+**How do I change the voice language?**
+In the Settings tab, look through the available voices. Voices are named by language and accent (e.g., "English (US)", "English (UK)", "Spanish").
+
+**Does Text to Speech work on PDFs?**
+Yes! Open the PDF in Helperbird's PDF reader and you can use Text to Speech on the document content.
+
+**Can I use keyboard shortcuts?**
+Yes, you can use keyboard shortcuts to control playback. Check the Helperbird settings for the available shortcuts.
+
+---
+
+## Related Guides
+
+- [How to Use Immersive Reader](/help/how-to-use-immersive-reader-on-any-website/)
+- [How to Use Reading Mode](/help/how-to-use-reading-mode-on-any-website/)
+- [Text to Speech Not Working - Troubleshooting](/help/text-to-speech-not-working/)
+
+---
 
 ## Video Tutorial
 

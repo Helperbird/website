@@ -37,7 +37,7 @@ Your Helperbird subscription key unlocks all your Pro features. You'll find it i
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird icon in the top right corner of your browser to open the extension. You'll see your quick actions and main features displayed.
+Click the Helperbird icon in the top right corner of your browser to open the extension. You'll see your Quick Actions and main features displayed.
 
 
 ---

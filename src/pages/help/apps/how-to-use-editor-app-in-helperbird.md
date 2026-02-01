@@ -52,7 +52,7 @@ Click the Helperbird icon in the top right corner of your browser to open the ex
 
 ### Step 2: Locate the Editor Button
 
-In the quick actions area at the top of Helperbird, find the **Open Editor** button. It's the blue icon with a pencil symbol.
+In the Quick Actions area at the top of Helperbird, find the **Open Editor** button. It's the blue icon with a pencil symbol.
 
 
 
@@ -95,7 +95,7 @@ Your new blank document is ready. Just click in the text area and start typing. 
 
 ### Step 1: Access the Editor
 
-Open the Helperbird Editor from your quick actions.
+Open the Helperbird Editor from your Quick Actions.
 
 
 

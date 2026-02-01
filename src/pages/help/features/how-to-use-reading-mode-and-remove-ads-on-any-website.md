@@ -127,6 +127,32 @@ This will return you to the normal webpage.
 
 ---
 
+## Frequently Asked Questions
+
+**Is Reading Mode free?**
+Yes! Reading Mode is included in Helperbird Free.
+
+**Does Reading Mode work on all websites?**
+Reading Mode works best on articles, blog posts, and news sites. Some complex web apps, paywalled content, or image-heavy sites may not work perfectly.
+
+**Will Reading Mode save my settings?**
+Yes, your font, color, and size preferences are saved and will be applied the next time you use Reading Mode.
+
+**Can I print from Reading Mode?**
+Yes! You can print the clean Reading Mode view, which gives you a nicely formatted printout without ads or clutter.
+
+**What's the difference between Reading Mode and Immersive Reader?**
+Reading Mode is Helperbird's built-in feature for clean reading. Immersive Reader is Microsoft's tool with additional features like syllable breaking and parts of speech highlighting. Both remove distractions, but Immersive Reader has more learning-focused tools.
+
+---
+
+## Related Guides
+
+- [How to Use Immersive Reader](/help/how-to-use-immersive-reader-on-any-website/)
+- [How to Use Text to Speech](/help/how-to-use-text-to-speech-on-any-website/)
+- [How to Change Fonts](/help/how-to-change-the-font-on-any-website/)
+
+---
 
 ## Video Tutorial
 

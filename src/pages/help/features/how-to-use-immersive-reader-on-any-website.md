@@ -127,6 +127,32 @@ This is useful when you want to focus on a specific section of a long article.
 
 ---
 
+## Frequently Asked Questions
+
+**Is Immersive Reader free?**
+Yes! Immersive Reader is included in Helperbird Free. No Pro subscription required.
+
+**Does Immersive Reader work on all websites?**
+It works on most websites with readable text content. Some complex web apps or sites with unusual layouts may not work perfectly.
+
+**Can I use Immersive Reader on PDFs?**
+Yes! Open the PDF in Helperbird's PDF reader and use Immersive Reader from there.
+
+**What languages does Immersive Reader support?**
+Immersive Reader supports over 60 languages for text-to-speech and translation features.
+
+**Can I save my Immersive Reader settings?**
+Yes, your preferences (text size, colors, etc.) are saved automatically and will apply the next time you use Immersive Reader.
+
+---
+
+## Related Guides
+
+- [How to Use Text to Speech](/help/how-to-use-text-to-speech-on-any-website/)
+- [How to Use Reading Mode](/help/how-to-use-reading-mode-on-any-website/)
+- [How to Use Dyslexia Fonts](/help/how-to-change-the-font-on-any-website/)
+
+---
 
 ## Video Tutorial
 
