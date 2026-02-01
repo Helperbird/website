@@ -38,8 +38,6 @@ Sometimes you need a break from your customizations. Pausing Helperbird turns of
 
 Click the Helperbird owl icon in your browser toolbar to open the extension.
 
-![Screenshot showing Helperbird open with the toggle in the on position](Screenshot_2025-10-11_at_11_45_16_PM.png)
-
 ---
 
 ## Step 2: Find the On/Off Toggle
@@ -53,8 +51,6 @@ At the top of the Helperbird panel, you'll see a toggle button that says either 
 Click the toggle to turn Helperbird off or back on:
 - **To pause**: Click the toggle when it says "Helperbird is on"—it will switch to "Helperbird is off"
 - **To resume**: Click the toggle when it says "Helperbird is off"—it will switch back to "Helperbird is on"
-
-![Screenshot showing Helperbird with the toggle in the off position](Screenshot_2025-10-11_at_11_45_22_PM.png)
 
 **Tip:** Pausing Helperbird is perfect when you need to see a website in its original format or want to take screenshots without customizations.
 

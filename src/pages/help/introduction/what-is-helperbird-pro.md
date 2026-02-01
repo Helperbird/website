@@ -31,7 +31,7 @@ Helperbird Pro is the paid version that unlocks everything. You get all the free
 
 ## How Much Does Helperbird Pro Cost?
 
-Helperbird Pro is **$6.99 per month** or **$60.00 per year**. Students get a discount at **$40.00 per year**.
+Helperbird Pro is **$30.00 per year**. It's the best value for individuals who want to unlock all of Helperbird's features.
 
 ---
 
@@ -90,8 +90,11 @@ Add a colored overlay to reduce screen glare and eye strain.
 **High Contrast**  
 Boost contrast to make text easier to see.
 
-**Hide Images**  
+**Hide Images**
 Remove images from pages to reduce distractions.
+
+**Hide GIFs**
+Stop animated GIFs from playing to reduce visual distractions.
 
 **Line Focus**  
 Highlight the line you're reading and dim everything else.
@@ -138,24 +141,33 @@ Use Helperbird features on PDF files.
 **Reading List**  
 Save articles and pages to read later.
 
-**Highlight Paragraphs**  
+**Highlight Paragraphs**
 Highlight entire paragraphs for better focus.
+
+**Word Spotlight**
+Highlight words as you hover over them for better focus while reading.
+
+**Spell Check**
+Check your spelling as you type on any website.
+
+**Simplify Page**
+Simplify complex text on any page to make it easier to understand.
+
+**Speed Reading**
+Practice and improve your reading speed with guided exercises.
+
+**Math Support**
+Get help with math problems and equations on the web.
+
+**Edit Website Text**
+Make temporary edits to any website text for easier reading.
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon
 {% endif %}

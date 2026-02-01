@@ -140,7 +140,6 @@ Start Safari on your Mac. Open the App Store application.
 
 Search for [Helperbird for Safari in the App Store](https://apps.apple.com/us/app/helperbird-for-safari/id1589138053).
 
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
 ---
 
 ### Step 3: Install Helperbird
@@ -311,8 +310,6 @@ Follow the on-screen instructions to enable Helperbird in Safari. You'll need to
 
 Helperbird is now ready to use in Safari on your iPhone or iPad!
 
-![Using Helperbird on iOS](ios-helperbird-ready.png)
-
 **Note:** Helperbird requires iOS 15.0 or later.
 
 **Tip:** After installing on any browser, consider pinning Helperbird to your toolbar for quick access. Check out our [guide on pinning extensions](/help/how-to-pin-a-chrome-extension/)!
@@ -322,16 +319,7 @@ Helperbird is now ready to use in Safari on your iPhone or iPad!
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon
 {% endif %}
