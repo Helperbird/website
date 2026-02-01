@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Auto Scroll on Websites
 description:
@@ -39,6 +41,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Auto Scroll?
 
 Auto Scroll makes the page scroll automatically at a steady pace. Instead of manually scrolling with your mouse or keyboard, the page moves down on its own.
@@ -46,6 +49,7 @@ Auto Scroll makes the page scroll automatically at a steady pace. Instead of man
 You can adjust the speed to match how fast you read.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,11 +81,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Tools
 
 Look through the list of features until you see **Tools**.
 
 ---
+
 
 ## Step 4: Open Tools
 
@@ -88,6 +96,7 @@ Click on **Tools** to open it.
 A panel will appear showing various tools you can use.
 
 ---
+
 
 ## Step 5: Turn on Auto Scroll
 
@@ -98,6 +107,7 @@ Click the toggle switch next to it to turn it **on**. The toggle will turn green
 The page will immediately start scrolling down automatically.
 
 ---
+
 
 ## Step 6: Adjust the Speed
 
@@ -114,6 +124,7 @@ Find a speed that matches your comfortable reading pace.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -123,6 +134,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Dyslexia Ruler on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is the Dyslexia Ruler?
 
 The Dyslexia Ruler is a colored bar that appears on screen to help you focus on one line of text at a time. It works like a physical reading ruler that you might place on a book.
@@ -47,6 +50,7 @@ The Dyslexia Ruler is a colored bar that appears on screen to help you focus on 
 The ruler can follow your mouse cursor as you read, or you can set it to stay in a fixed position. This helps you keep track of where you are and prevents your eyes from jumping to other lines.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dyslexia Support
 
 Look through the list of features until you see **Dyslexia support**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Dyslexia support**.
 It has a purple icon with a brain symbol on it.
 
 ---
+
 
 ## Step 4: Open Dyslexia Support
 
@@ -94,6 +102,7 @@ Make sure the **Tools** tab is selected. This is where you will find the Dyslexi
 
 ---
 
+
 ## Step 5: Turn on Dyslexia Ruler
 
 In the Tools tab, look for **Dyslexia ruler**.
@@ -104,6 +113,7 @@ A colored ruler bar will immediately appear on the screen.
 
 ---
 
+
 ## Step 6: Customize the Ruler
 
 To adjust how the ruler looks and behaves, click on the **Settings** tab at the top of the panel.
@@ -111,6 +121,7 @@ To adjust how the ruler looks and behaves, click on the **Settings** tab at the 
 Here you can change the height, width, color, and other settings to make the ruler work best for you.
 
 ---
+
 
 ## Ruler Settings
 
@@ -132,6 +143,7 @@ In the Settings tab, you can customize the following:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -141,6 +153,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

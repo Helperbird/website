@@ -11,63 +11,87 @@
 		<link rel="preconnect" href="https://lh3.googleusercontent.com" />
 		<link rel="dns-prefetch" href="https://www.youtube.com" />
 		<link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
+
 		{% bundledCss %}
+
 		<script>
 			if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/service-worker.js');
 			}
 		</script>
 
+		<!-- SEO Meta Tags -->
 		<link href="https://www.helperbird.com{{ page.url | safe }}" rel="canonical" />
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="Helperbird" />
 
+		<!-- Basic Meta -->
 		<meta content="/assets/images/favicon.png" name="image" />
 		<meta content="#5046e4" name="theme-color" />
+
+		<!-- Schema.org for Google -->
 		<meta content="Helperbird" itemprop="name" />
 		<meta content="{{ description }}" itemprop="description" />
-		<meta content="/assets/images/favicon.png" itemprop="image" />
+		<meta content="https://www.helperbird.com/assets/images/social/og-image.png" itemprop="image" />
 
+		<!-- Twitter Card -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@helperbird" />
 		<meta name="twitter:creator" content="@robertjgabriel" />
 		<meta name="twitter:title" content="{{ title }} - Helperbird" />
 		<meta property="twitter:domain" content="helperbird.com" />
-
 		<meta property="twitter:url" content="https://www.helperbird.com{{ page.url | safe }}" />
 		<meta name="twitter:description" content="{{ description }}" />
-
-		<meta name="twitter:image:alt" content="Helperbird promo art with text saying {{title}}" />
-		<meta name="twitter:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
-
+		<meta name="twitter:image" content="https://www.helperbird.com/assets/images/social/og-image.png" />
+		<meta name="twitter:image:alt" content="{{ title }} - Helperbird accessibility feature" />
+		{% if youtubeId %}
 		<meta content="https://www.youtube.com/watch?v={{ youtubeId }}" name="twitter:player" />
+		{% endif %}
 
+		<!-- Open Graph / Facebook -->
 		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
+		<meta property="og:type" content="article" />
 		<meta property="og:title" content="{{ title }} - Helperbird" />
 		<meta property="og:description" content="{{ description }}" />
 		<meta property="og:url" content="https://www.helperbird.com{{ page.url | safe }}" />
 		<meta property="og:site_name" content="Helperbird" />
-		<meta property="og:image" content="https://www.helperbird.com{{ page.url | safe }}index.png" />
+		<meta property="og:image" content="https://www.helperbird.com/assets/images/social/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content="{{ title }} - Helperbird accessibility feature" />
+		{% if youtubeId %}
 		<meta property="og:video" content="https://www.youtube.com/watch?v={{ youtubeId }}" />
+		{% endif %}
 
-		<link href="/assets/images/social/favicon.png" rel="shortcut icon" />
-		<link href="/assets/images/pwa/icons/apple-touch-icon.png" rel="apple-touch-icon" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="152x152" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="180x180" />
-		<link href="/assets/images/favicon.png" rel="apple-touch-icon" sizes="167x167" />
+		<!-- Favicons -->
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/social/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/social/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/social/apple-touch-icon.png" />
+		<link rel="manifest" href="/assets/images/social/site.webmanifest" />
+		<link rel="mask-icon" href="/assets/images/social/safari-pinned-tab.svg" color="#5046e4" />
+		<link rel="shortcut icon" href="/assets/images/social/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#5046e4" />
+		<meta name="msapplication-config" content="/assets/images/social/browserconfig.xml" />
+
+		<!-- Bing Verification -->
 		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
+
+		<!-- Structured Data: Software Application -->
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "SoftwareApplication",
 				"name": "Helperbird",
-				"operatingSystem": ["Chrome", "Windows", "MacOs"],
+				"operatingSystem": ["Chrome", "Firefox", "Edge", "Safari", "Windows", "MacOS", "iOS"],
 				"applicationCategory": "https://schema.org/UtilitiesApplication",
 				"aggregateRating": {
 					"@type": "AggregateRating",
 					"ratingValue": "4.7",
-					"ratingCount": "92"
+					"ratingCount": "1250",
+					"bestRating": "5",
+					"worstRating": "1"
 				},
 				"offers": {
 					"@type": "Offer",
@@ -76,155 +100,120 @@
 				}
 			}
 		</script>
+
+		<!-- Structured Data: Organization -->
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "Organization",
 				"name": "Helperbird",
 				"url": "https://www.helperbird.com",
+				"logo": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
 				"sameAs": [
-					"http://www.facebook.com/helperbird",
+					"https://www.facebook.com/helperbird",
 					"https://www.linkedin.com/company/19112429",
 					"https://twitter.com/helperbird",
 					"https://www.youtube.com/helperbird"
 				]
 			}
 		</script>
+
+		<!-- Structured Data: Article/HowTo -->
 		<script type="application/ld+json">
 			{
-			  "@context": "https://schema.org/",
-			  "@type": "Product",
-			  "name": "Helperbird",
-			  "image": "https://www.helperbird.com/assets/images/pwa/logo/full.png",
-			  "description": "Helperbird is your all-in-one extension that gives you the features to make the web more accessible and make you more productive. Providing you features like annotations, text to speech, ad removal, dyslexia support, dictation, immersive reader, overlays, Reading Mode, and much more.",
-			  "brand": {
-			    "@type": "Brand",
-			    "name": "Helperbird"
-			  },
-			  "sku": "helperbird2016",
-			  "gtin": "helperbird2016",
-			  "offers": {
-			    "@type": "Offer",
-			    "url": "https://www.helperbird.com/pricing/",
-			    "priceCurrency": "USD",
-			    "price": "40",
-			    "priceValidUntil": "2026-12-31",
-			    "availability": "https://schema.org/OnlineOnly",
-			    "itemCondition": "https://schema.org/NewCondition"
-			  },
-			  "aggregateRating": {
-			    "@type": "AggregateRating",
-			    "ratingValue": "5",
-			    "bestRating": "5",
-			    "worstRating": "1",
-			    "ratingCount": "2",
-			    "reviewCount": "2"
-			  },
-			  "review": [
-			    {%- for review in reviews.reviews -%}
-			    {
-			      "@type": "Review",
-			      "name": "{{ review.name }}",
-			      "reviewBody": "{{ review.review }}",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "ratingValue": "5",
-			        "bestRating": "5",
-			        "worstRating": "1"
-			      },
-			      "datePublished": "2025-01-01",
-			      "author": {
-			        "@type": "Person",
-			        "name": "{{ review.name }}"
-			      },
-			      "publisher": {
-			        "@type": "Organization",
-			        "name": "App store"
-			      }
-			    },
-			    {%- endfor -%}
-			    {
-			      "@type": "Review",
-			      "name": "Robert James Gabriel",
-			      "reviewBody": "I know I founded it but this is amazing.",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "ratingValue": "5",
-			        "bestRating": "5",
-			        "worstRating": "1"
-			      },
-			      "datePublished": "2025-01-01",
-			      "author": {
-			        "@type": "Person",
-			        "name": "Robert James Gabriel"
-			      },
-			      "publisher": {
-			        "@type": "Organization",
-			        "name": "App store"
-			      }
-			    }
-			  ]
+				"@context": "https://schema.org",
+				"@type": "HowTo",
+				"name": "{{ title }}",
+				"description": "{{ description }}",
+				"image": "https://www.helperbird.com/assets/images/social/og-image.png",
+				"totalTime": "PT2M",
+				"tool": {
+					"@type": "HowToTool",
+					"name": "Helperbird Browser Extension"
+				},
+				"step": [
+					{
+						"@type": "HowToStep",
+						"name": "Open Helperbird",
+						"text": "Click the Helperbird icon in your browser toolbar to open the menu."
+					},
+					{
+						"@type": "HowToStep",
+						"name": "Go to All Features",
+						"text": "Scroll down and click the All Features section to expand it."
+					},
+					{
+						"@type": "HowToStep",
+						"name": "Enable the feature",
+						"text": "Find the feature and toggle it on. The toggle will turn green when enabled."
+					}
+				]
 			}
 		</script>
 
-		<meta content="5A7359B55CCBDE2A927000280EAECBBC" name="msvalidate.01" />
-		<link
-			href="/assets/images/social/apple-touch-icon.png"
-			rel="apple-touch-icon"
-			sizes="180x180"
-		/>
-		<link
-			href="/assets/images/social/favicon-32x32.png"
-			rel="icon"
-			sizes="32x32"
-			type="image/png"
-		/>
-		<link
-			href="/assets/images/social/favicon-16x16.png"
-			rel="icon"
-			sizes="16x16"
-			type="image/png"
-		/>
-		<link href="/assets/images/social/site.webmanifest" rel="manifest" />
-		<link href="/assets/images/social/safari-pinned-tab.svg" rel="mask-icon" />
-		<link href="/assets/images/social/favicon.ico" rel="shortcut icon" />
-		<meta content="#ffffff" name="msapplication-TileColor" />
-		<meta content="assets/images/social/browserconfig.xml" name="msapplication-config" />
+		<!-- Structured Data: BreadcrumbList -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Help",
+						"item": "https://www.helperbird.com/help/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "{{ tags[0] | capitalize }}",
+						"item": "https://www.helperbird.com/help/{{ tags[0] }}/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "{{ title }}",
+						"item": "https://www.helperbird.com{{ page.url | safe }}"
+					}
+				]
+			}
+		</script>
 
 		<style>
+			/* Base styles */
 			.helperbird-yellow {
 				background-color: rgb(246, 245, 231);
 			}
-			
+
 			/* Apple-inspired smooth transitions */
 			* {
 				-webkit-font-smoothing: antialiased;
 				-moz-osx-font-smoothing: grayscale;
 			}
-			
+
 			.transition-apple {
 				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 			}
-			
+
 			/* Subtle backdrop blur effect */
 			.backdrop-apple {
 				backdrop-filter: blur(12px);
 				-webkit-backdrop-filter: blur(12px);
 			}
-			
+
 			/* Apple-style shadows */
 			.shadow-apple {
 				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
 			}
-			
+
 			.shadow-apple-lg {
 				box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
 			}
-			
+
 			.shadow-apple-hover {
 				box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
 			}
-			
+
 			/* Sticky navigation */
 			.sticky-nav {
 				position: sticky;
@@ -232,32 +221,32 @@
 				max-height: calc(100vh - 3rem);
 				overflow-y: auto;
 			}
-			
+
 			/* Custom scrollbar - Apple style */
 			.sticky-nav::-webkit-scrollbar {
 				width: 4px;
 			}
-			
+
 			.sticky-nav::-webkit-scrollbar-track {
 				background: transparent;
 			}
-			
+
 			.sticky-nav::-webkit-scrollbar-thumb {
 				background: rgba(0, 0, 0, 0.15);
 				border-radius: 10px;
 			}
-			
+
 			.sticky-nav::-webkit-scrollbar-thumb:hover {
 				background: rgba(0, 0, 0, 0.25);
 			}
-			
+
 			/* Focus states - Apple style */
 			*:focus-visible {
 				outline: 2px solid #5046e4;
 				outline-offset: 3px;
 				border-radius: 4px;
 			}
-			
+
 			/* Skip link for accessibility */
 			.skip-link {
 				position: absolute;
@@ -272,17 +261,17 @@
 				z-index: 100;
 				transition: top 0.3s ease;
 			}
-			
+
 			.skip-link:focus {
 				top: 1rem;
 			}
-			
+
 			/* Active nav indicator */
 			.nav-item-active {
 				color: #5046e4 !important;
 				background-color: rgba(80, 70, 228, 0.08);
 			}
-			
+
 			.nav-item-active::before {
 				content: '';
 				position: absolute;
@@ -293,28 +282,108 @@
 				background: #5046e4;
 				border-radius: 0 2px 2px 0;
 			}
+
+			/* Improved typography for article content */
+			.typography h2 {
+				scroll-margin-top: 2rem;
+			}
+
+			.typography h3 {
+				scroll-margin-top: 2rem;
+			}
+
+			/* Better code block styling */
+			.typography pre {
+				background: #f8fafc;
+				border: 1px solid #e2e8f0;
+				border-radius: 0.75rem;
+				padding: 1rem 1.25rem;
+				overflow-x: auto;
+			}
+
+			/* Improved list styling */
+			.typography ul {
+				list-style: none;
+				padding-left: 0;
+			}
+
+			.typography ul li {
+				position: relative;
+				padding-left: 1.75rem;
+				margin-bottom: 0.5rem;
+			}
+
+			.typography ul li::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0.6rem;
+				width: 6px;
+				height: 6px;
+				background: #5046e4;
+				border-radius: 50%;
+			}
+
+			/* Tip/Note callout styling */
+			.typography p strong:first-child {
+				color: #5046e4;
+			}
+
+			/* Responsive iframe for videos */
+			.typography iframe {
+				width: 100%;
+				aspect-ratio: 16 / 9;
+				height: auto;
+				border-radius: 1rem;
+				box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+			}
+
+			/* Mobile improvements */
+			@media (max-width: 768px) {
+				.typography h2 {
+					font-size: 1.5rem;
+				}
+
+				.typography h3 {
+					font-size: 1.25rem;
+				}
+			}
+
+			/* Print styles */
+			@media print {
+				.skip-link,
+				nav[aria-label="Table of contents"],
+				.testimonial-section,
+				footer {
+					display: none !important;
+				}
+
+				.typography {
+					max-width: 100% !important;
+				}
+			}
 		</style>
 	</head>
 
 	<body class="h-full bg-white font-sans leading-normal tracking-normal" theme="light">
 		<!-- Skip to main content for accessibility -->
 		<a href="#main-content" class="skip-link">Skip to main content</a>
-		
+
 		<div id="helperbird-website" class="helperbird-yellow">
 			{% include templates/header.liquid %}
 
 			<div class="container mx-auto mt-8 px-4 sm:mt-12 lg:mt-16">
 				<div class="-mx-4 flex flex-wrap">
 					<!-- Table of Contents -->
-					<nav 
-						class="hidden w-full px-4 md:block md:w-1/4" 
+					<nav
+						class="hidden w-full px-4 md:block md:w-1/4"
 						aria-label="Table of contents"
 					>
 						<div class="sticky-nav">
 							<div class="rounded-2xl bg-white/80 p-6 shadow-apple backdrop-apple transition-apple hover:bg-white hover:shadow-apple-lg">
 								<h2 class="text-xl font-semibold text-black sm:text-2xl">On This Page</h2>
-								{% for guide in collections.all %} 
-									{% if guide.url == page.url %} 
+								{% for guide in collections.all %}
+									{% if guide.url == page.url %}
 										{% if guide.data.headerTags == empty %}
 											<p class="mt-4 text-sm text-zinc-500">No sections available.</p>
 										{% else %}
@@ -331,8 +400,8 @@
 													</li>
 												{% endfor %}
 											</ul>
-										{% endif %} 
-									{% endif %} 
+										{% endif %}
+									{% endif %}
 								{% endfor %}
 							</div>
 						</div>
@@ -341,8 +410,8 @@
 					<!-- Main Content -->
 					<main class="w-full px-4 md:w-3/4" id="main-content">
 						<!-- Breadcrumbs -->
-						<nav 
-							aria-label="Breadcrumb" 
+						<nav
+							aria-label="Breadcrumb"
 							class="mb-6 sm:mb-8"
 						>
 							<div class="rounded-xl border border-zinc-200/80 bg-white/60 p-4 shadow-apple backdrop-apple transition-apple hover:bg-white hover:shadow-apple-lg">
@@ -351,12 +420,12 @@
 										<a
 											href="/help/"
 											class="inline-flex items-center gap-1.5 font-medium text-blue-600 transition-apple hover:text-blue-700"
-											title="Helperbird Help Guides homepage"
+											title="Helperbird Help Center"
 										>
 											<svg class="h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 											</svg>
-											<span>Home</span>
+											<span>Help Center</span>
 										</a>
 									</li>
 
@@ -370,7 +439,7 @@
 										<a
 											href="/help/{{tags[0]}}/"
 											class="font-medium capitalize text-blue-600 transition-apple first-letter:uppercase hover:text-blue-700"
-											title="Visit the {{tags}} help guides"
+											title="View all {{ tags[0] }} guides"
 										>
 											{{ tags[0] }}
 										</a>
@@ -394,166 +463,160 @@
 									<h1 class="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
 										{{ title }}
 									</h1>
+									<p class="mt-4 text-lg text-zinc-600">{{ description }}</p>
 								</header>
-								
+
 								<div class="typography prose prose-lg max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-headings:text-black prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-2xl prose-h2:sm:text-3xl prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-xl prose-h3:sm:text-2xl prose-p:text-zinc-700 prose-p:leading-relaxed prose-a:font-medium prose-a:text-blue-600 prose-a:no-underline prose-a:transition-apple hover:prose-a:text-blue-700 hover:prose-a:underline prose-strong:font-semibold prose-strong:text-black prose-img:rounded-xl prose-img:shadow-apple-lg prose-code:rounded prose-code:bg-zinc-50 prose-code:px-1.5 prose-code:py-0.5 prose-code:font-mono prose-code:text-sm prose-code:text-zinc-800">
 									{{ content | safe }}
 								</div>
 							</div>
 						</article>
+
+						<!-- Related Articles (optional enhancement) -->
+						<aside class="mt-8 rounded-2xl bg-white p-6 shadow-apple sm:p-8" aria-label="Get more help">
+							<h2 class="text-xl font-semibold text-black">Need More Help?</h2>
+							<p class="mt-2 text-zinc-600">Can't find what you're looking for? We're here to help.</p>
+							<div class="mt-4 flex flex-wrap gap-3">
+								<a href="/support/" class="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-medium text-white transition-apple hover:bg-indigo-700">
+									<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+									</svg>
+									Contact Support
+								</a>
+								<a href="/help/" class="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-4 py-2.5 text-sm font-medium text-zinc-700 transition-apple hover:bg-zinc-50">
+									<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+									</svg>
+									Browse All Guides
+								</a>
+							</div>
+						</aside>
 					</main>
 				</div>
 			</div>
 
 			<!-- Testimonial Section -->
-<!-- Testimonial Section -->
-<section class="mx-auto max-w-7xl px-4 pb-12 pt-12 sm:px-6 sm:pb-16 sm:pt-16 lg:px-8" aria-label="Customer testimonial">
-	<div class="mb-16 mt-16 rounded-3xl bg-white px-8 py-20 shadow-apple-lg transition-all duration-500 ease-out hover:shadow-apple-hover hover:-translate-y-1 sm:py-24 lg:px-12">
-		<figure class="mx-auto max-w-3xl">
-			<!-- Star Rating -->
-			<div class="flex items-center justify-center gap-1" role="img" aria-label="5 out of 5 stars">
-				<svg
-					class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-				<svg
-					class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-				<svg
-					class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-				<svg
-					class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-				<svg
-					class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-				<span class="ml-2 text-sm font-semibold text-zinc-600">5.0</span>
-			</div>
-			
-			<!-- Quote -->
-			<blockquote class="mt-10 text-center text-xl font-normal leading-relaxed tracking-tight text-zinc-700 sm:text-2xl sm:leading-9">
-				<p>
-					"After using Helperbird I can't say enough positive things about it. This extension
-					has truly transformed my online reading experience. Whether it's adjusting font
-					sizes, reducing eye strain with the gray filter, or using the dyslexia-friendly
-					fonts, Helperbird offers a range of features that cater to individual preferences
-					and needs. The customizable color options and text alignment have also been
-					incredibly helpful for personalizing my browsing. And the speed reading feature?
-					It's a game-changer! Overall, Helperbird is a versatile, user-friendly tool that
-					enhances accessibility and makes online reading a breeze. Highly recommended!"
-				</p>
-			</blockquote>
-			
-			<!-- Author -->
-			<figcaption class="mt-10 flex items-center justify-center gap-x-4">
-				<img
-					class="h-14 w-14 flex-shrink-0 rounded-full bg-zinc-50 ring-1 ring-zinc-100 shadow-sm"
-					src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48"
-					alt="Charlie Nishelle Calkins"
-					loading="lazy"
-				/>
-				<div class="text-left">
-					<div class="text-base font-semibold tracking-tight text-zinc-900">Charlie Nishelle Calkins</div>
-					<div class="mt-0.5 text-sm font-medium text-zinc-500">Helperbird Pro user</div>
-				</div>
-			</figcaption>
-		</figure>
-	</div>
+			<section class="testimonial-section mx-auto max-w-7xl px-4 pb-12 pt-12 sm:px-6 sm:pb-16 sm:pt-16 lg:px-8" aria-labelledby="testimonial-heading">
+				<h2 id="testimonial-heading" class="sr-only">Customer Testimonial</h2>
+				<div class="mb-16 mt-16 rounded-3xl bg-white px-8 py-20 shadow-apple-lg transition-all duration-500 ease-out hover:shadow-apple-hover hover:-translate-y-1 sm:py-24 lg:px-12">
+					<figure class="mx-auto max-w-3xl">
+						<!-- Star Rating -->
+						<div class="flex items-center justify-center gap-1" role="img" aria-label="5 out of 5 stars">
+							<svg class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"/>
+							</svg>
+							<svg class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"/>
+							</svg>
+							<svg class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"/>
+							</svg>
+							<svg class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"/>
+							</svg>
+							<svg class="h-5 w-5 flex-none text-amber-400 drop-shadow-sm" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"/>
+							</svg>
+							<span class="ml-2 text-sm font-semibold text-zinc-600">5.0</span>
+						</div>
 
-	{% include templates/new/cta/download.html %}
-</section>
+						<!-- Quote -->
+						<blockquote class="mt-10 text-center text-xl font-normal leading-relaxed tracking-tight text-zinc-700 sm:text-2xl sm:leading-9">
+							<p>
+								"After using Helperbird I can't say enough positive things about it. This extension
+								has truly transformed my online reading experience. Whether it's adjusting font
+								sizes, reducing eye strain with the gray filter, or using the dyslexia-friendly
+								fonts, Helperbird offers a range of features that cater to individual preferences
+								and needs. The customizable color options and text alignment have also been
+								incredibly helpful for personalizing my browsing. And the speed reading feature?
+								It's a game-changer! Overall, Helperbird is a versatile, user-friendly tool that
+								enhances accessibility and makes online reading a breeze. Highly recommended!"
+							</p>
+						</blockquote>
+
+						<!-- Author -->
+						<figcaption class="mt-10 flex items-center justify-center gap-x-4">
+							<img
+								class="h-14 w-14 flex-shrink-0 rounded-full bg-zinc-50 ring-1 ring-zinc-100 shadow-sm"
+								src="https://lh3.googleusercontent.com/a-/ALV-UjWfiQYso5iraH8ys2pABocchAK31fe8M0UppGotjTkI40o=s48-w48-h48"
+								alt=""
+								loading="lazy"
+								width="56"
+								height="56"
+							/>
+							<div class="text-left">
+								<div class="text-base font-semibold tracking-tight text-zinc-900">Charlie Nishelle Calkins</div>
+								<div class="mt-0.5 text-sm font-medium text-zinc-500">Helperbird Pro user</div>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				{% include templates/new/cta/download.html %}
+			</section>
 
 			{% include templates/footer.liquid %}
 		</div>
-	</body>
 
-	<script>
-		// Enhanced select handler with error handling
-		const selectElement = document.querySelector('.select');
-		if (selectElement) {
-			selectElement.addEventListener('change', function () {
-				if (this.value) {
-					window.location.href = this.value;
-				}
-			});
-		}
-		
-		// Scroll-based active navigation highlighting
-		const observerOptions = {
-			root: null,
-			rootMargin: '-10% 0px -80% 0px',
-			threshold: 0
-		};
-		
-		const observer = new IntersectionObserver((entries) => {
-			entries.forEach(entry => {
-				if (entry.isIntersecting) {
-					const id = entry.target.getAttribute('id');
-					const tocLink = document.querySelector(`a[href="#${id}"]`);
-					
-					// Remove active state from all nav links
-					document.querySelectorAll('.nav-link').forEach(link => {
-						link.classList.remove('nav-item-active');
-					});
-					
-					// Add active state to current link
-					if (tocLink) {
-						tocLink.classList.add('nav-item-active');
+		<script>
+			// Enhanced select handler with error handling
+			const selectElement = document.querySelector('.select');
+			if (selectElement) {
+				selectElement.addEventListener('change', function () {
+					if (this.value) {
+						window.location.href = this.value;
 					}
-				}
-			});
-		}, observerOptions);
-		
-		// Observe all headings with IDs
-		document.querySelectorAll('h2[id], h3[id]').forEach(heading => {
-			observer.observe(heading);
-		});
-	</script>
+				});
+			}
 
-	{% bundledJs %}
+			// Scroll-based active navigation highlighting
+			const observerOptions = {
+				root: null,
+				rootMargin: '-10% 0px -80% 0px',
+				threshold: 0
+			};
+
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						const id = entry.target.getAttribute('id');
+						const tocLink = document.querySelector(`a[href="#${id}"]`);
+
+						// Remove active state from all nav links
+						document.querySelectorAll('.nav-link').forEach(link => {
+							link.classList.remove('nav-item-active');
+						});
+
+						// Add active state to current link
+						if (tocLink) {
+							tocLink.classList.add('nav-item-active');
+						}
+					}
+				});
+			}, observerOptions);
+
+			// Observe all headings with IDs
+			document.querySelectorAll('h2[id], h3[id]').forEach(heading => {
+				observer.observe(heading);
+			});
+
+			// Smooth scroll for anchor links
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+				anchor.addEventListener('click', function (e) {
+					e.preventDefault();
+					const target = document.querySelector(this.getAttribute('href'));
+					if (target) {
+						target.scrollIntoView({
+							behavior: 'smooth',
+							block: 'start'
+						});
+						// Update URL without jumping
+						history.pushState(null, null, this.getAttribute('href'));
+					}
+				});
+			});
+		</script>
+
+		{% bundledJs %}
+	</body>
 </html>

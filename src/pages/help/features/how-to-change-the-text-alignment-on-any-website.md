@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Change Text Alignment on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Text Alignment?
 
 Text alignment controls how text is positioned horizontally on the page. You can align text to the left edge, center it, align it to the right edge, or justify it so both edges are even.
@@ -47,6 +50,7 @@ Text alignment controls how text is positioned horizontally on the page. You can
 Different alignment styles can make reading easier depending on your preferences and the type of content you are reading.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -94,6 +102,7 @@ Make sure the **Text** tab is selected. This is where you will find the text ali
 
 ---
 
+
 ## Step 5: Turn on Text Alignment
 
 In the Text tab, scroll down until you see **Text align**.
@@ -102,6 +111,7 @@ Click the toggle switch next to it to turn it **on**. The toggle will turn green
 
 ---
 
+
 ## Step 6: Choose Your Alignment
 
 Once Text align is turned on, four alignment buttons will appear below the toggle.
@@ -109,6 +119,7 @@ Once Text align is turned on, four alignment buttons will appear below the toggl
 Click on the alignment style you prefer. The text on the website will immediately change to match your selection.
 
 ---
+
 
 ## Alignment Options
 
@@ -126,6 +137,7 @@ Helperbird offers four text alignment options:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -135,6 +147,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

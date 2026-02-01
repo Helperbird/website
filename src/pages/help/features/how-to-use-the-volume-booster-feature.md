@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 permalink: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 ---
 
+
 ## What is Volume Booster?
 
 Volume Booster increases the audio volume beyond what the website normally allows. Even when a video is at maximum volume and it is still too quiet, Volume Booster can make it louder.
@@ -45,6 +48,7 @@ Volume Booster increases the audio volume beyond what the website normally allow
 You can increase volume up to 600% of the original level.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -74,11 +80,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Media Options
 
 Look through the list of features until you see **Media options**.
 
 ---
+
 
 ## Step 4: Open Media Options
 
@@ -88,6 +96,7 @@ A panel will appear showing the media-related settings you can adjust.
 
 ---
 
+
 ## Step 5: Turn on Volume Booster
 
 In the Media options panel, look for **Volume booster**.
@@ -95,6 +104,7 @@ In the Media options panel, look for **Volume booster**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Adjust the Volume
 
@@ -112,6 +122,7 @@ The volume change applies immediately to any audio or video on the page.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -121,6 +132,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

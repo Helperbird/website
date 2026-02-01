@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Dictionary in Helperbird
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is the Dictionary?
 
 The Dictionary feature lets you look up the meaning of any word on a webpage instantly. Simply select a word and click the Dictionary button to see its definition without having to open a new tab or search manually.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,6 +78,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dictionary
 
 Look through the list of features until you see **Dictionary**.
@@ -80,11 +87,13 @@ Click the **open** button next to Dictionary. This will prepare the dictionary t
 
 ---
 
+
 ## Step 4: Select a Word
 
 Go to any webpage and use your mouse to select the word you want to define. Click and drag to highlight the word.
 
 ---
+
 
 ## Step 5: View the Definition
 
@@ -100,6 +109,7 @@ You can close the definition panel when you are done and select another word to 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -109,6 +119,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

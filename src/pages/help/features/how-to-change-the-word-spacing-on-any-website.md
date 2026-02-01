@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Change Word Spacing on Any Website
 description:
@@ -39,6 +41,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Word Spacing?
 
 Word spacing adds extra space between each word in the text. Instead of words being close together, they are spread out more.
@@ -46,6 +49,7 @@ Word spacing adds extra space between each word in the text. Instead of words be
 For example, "The quick brown fox" with increased word spacing would have larger gaps between each word, making it easier to see where one word ends and the next begins.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,6 +81,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -82,6 +89,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -93,6 +101,7 @@ Make sure the **Text** tab is selected. This is where you will find the word spa
 
 ---
 
+
 ## Step 5: Turn on Word Spacing
 
 In the Text tab, scroll down until you see **Word spacing**.
@@ -100,6 +109,7 @@ In the Text tab, scroll down until you see **Word spacing**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Adjust the Spacing
 
@@ -113,6 +123,7 @@ The changes will apply to the website immediately, so you can see the effect as 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -122,6 +133,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

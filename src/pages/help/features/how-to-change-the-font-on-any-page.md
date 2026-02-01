@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Change Fonts on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is the Font Feature?
 
 Helperbird lets you change the font on any website to one that is easier for you to read. This means you can replace hard-to-read fonts with clearer, more comfortable options like Lexend, OpenDyslexic, or Comic Sans.
@@ -47,6 +50,7 @@ Helperbird lets you change the font on any website to one that is easier for you
 The font change applies to all the text on the page instantly, so you can see the difference right away.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -94,6 +102,7 @@ Make sure the **Text** tab is selected. This is where you will find the font opt
 
 ---
 
+
 ## Step 5: Turn on the Font Feature
 
 In the Text tab, you will see **Font** at the top with a toggle switch next to it.
@@ -101,6 +110,7 @@ In the Text tab, you will see **Font** at the top with a toggle switch next to i
 Click the toggle switch to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Choose Your Font
 
@@ -111,6 +121,7 @@ Click on any font name to select it. A green checkmark will appear next to the f
 The font will apply to the website immediately. You can try different fonts to see which one you like best.
 
 ---
+
 
 ## Available Fonts
 
@@ -155,6 +166,7 @@ Helperbird includes 25 font options:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -164,6 +176,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

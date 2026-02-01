@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-show-alt-tags-on-hover-tooltip/
 permalink: help/how-to-show-alt-tags-on-hover-tooltip/
 ---
 
+
 ## What are Link & Image Descriptions?
 
 Link & Image Descriptions shows you hidden information about images and links on a webpage. When you hover your mouse over an image, you will see its alt text (a description of what the image shows). When you hover over a link, you will see where it leads.
@@ -45,6 +48,7 @@ Link & Image Descriptions shows you hidden information about images and links on
 This helps you understand what images contain and where links go before clicking them.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -74,6 +80,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Link & Image Descriptions
 
 Look through the list of features until you see **Link & Image Descriptions**.
@@ -81,6 +88,7 @@ Look through the list of features until you see **Link & Image Descriptions**.
 It has an image icon with a link symbol next to it.
 
 ---
+
 
 ## Step 4: Turn on the Feature
 
@@ -92,6 +100,7 @@ Now hover your mouse over any image or link on the page. A tooltip will appear s
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -101,6 +110,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

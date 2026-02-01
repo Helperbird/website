@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Emphasize Links on Any Website
 description:
@@ -37,11 +39,13 @@ footer: true
 header: true
 ---
 
+
 ## What is Emphasize Links?
 
 Emphasize Links makes all clickable links on a webpage more visible by adding clear styling like underlines. Many websites remove underlines from links, which can make them hard to find. This feature ensures you can always spot links easily.
 
 ---
+
 
 ## Who is This For?
 
@@ -55,6 +59,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -62,6 +67,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -71,11 +77,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Emphasize Links
 
 Look through the list of features until you see **Emphasize links**.
 
 ---
+
 
 ## Step 4: Turn on Emphasize Links
 
@@ -87,6 +95,7 @@ All links on the page will immediately become more visible with clear underline 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -96,6 +105,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use Dyslexia Friendly Fonts with Helperbird
 description:
@@ -38,6 +40,7 @@ footer: true
 header: true
 ---
 
+
 ## What are Dyslexia Friendly Fonts?
 
 Dyslexia friendly fonts are specially designed typefaces that make reading easier for people with dyslexia. Fonts like OpenDyslexic and Lexend use unique letter shapes that help reduce confusion between similar letters like b and d or p and q.
@@ -45,6 +48,7 @@ Dyslexia friendly fonts are specially designed typefaces that make reading easie
 Helperbird lets you change any webpage to use these fonts instantly.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -73,6 +79,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Text Settings
 
@@ -84,6 +91,7 @@ A panel will appear with the Text tab already open.
 
 ---
 
+
 ## Step 4: Turn on Font
 
 In the Text tab, find **Font** with a toggle switch next to it.
@@ -91,6 +99,7 @@ In the Text tab, find **Font** with a toggle switch next to it.
 Click the toggle to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Choose a Dyslexia Friendly Font
 
@@ -108,6 +117,7 @@ The font will apply immediately to all text on the page.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -117,6 +127,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

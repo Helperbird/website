@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -30,6 +32,7 @@ url: help/how-to-access-and-manage-notes-in-helperbird/
 permalink: help/how-to-access-and-manage-notes-in-helperbird/
 ---
 
+
 ## What is the Notebook?
 
 The Notebook is a central place where all your saved content is stored. This includes sticky notes you have created, text you have extracted from images, and passages you have highlighted on websites.
@@ -37,6 +40,7 @@ The Notebook is a central place where all your saved content is stored. This inc
 You can filter, organize, print, and export all your notes from this one location.
 
 ---
+
 
 ## Who is This For?
 
@@ -50,6 +54,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -57,6 +62,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -66,6 +72,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Open Notes
 
 Look through the list of features until you see **Open Notes** or **Notebook**.
@@ -73,6 +80,7 @@ Look through the list of features until you see **Open Notes** or **Notebook**.
 Click on it to open your Notebook in a new browser tab.
 
 ---
+
 
 ## Step 4: View Your Notes
 
@@ -86,6 +94,7 @@ Your Notebook shows all your saved content. At the top, you will see tabs to fil
 Click any tab to filter your notes.
 
 ---
+
 
 ## Step 5: Manage Your Notes
 
@@ -103,6 +112,7 @@ Once in your Notebook, you can:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -112,6 +122,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

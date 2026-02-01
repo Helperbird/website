@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -41,6 +43,7 @@ url: help/how-to-use-high-contrast-mode-in-helperbird/
 permalink: help/how-to-use-helperbirds-high-contrast-features/
 ---
 
+
 ## What is High Contrast?
 
 High Contrast mode changes the colors on a website to make text and images easier to see. It increases the difference between light and dark areas, which can make reading much easier.
@@ -48,6 +51,7 @@ High Contrast mode changes the colors on a website to make text and images easie
 Helperbird offers several different contrast styles so you can choose the one that works best for you.
 
 ---
+
 
 ## Who is This For?
 
@@ -61,6 +65,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -68,6 +73,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -77,11 +83,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Display Options
 
 Look through the list of features until you see **Display options**.
 
 ---
+
 
 ## Step 4: Open Display Options
 
@@ -91,6 +99,7 @@ A panel will appear showing various display settings you can adjust.
 
 ---
 
+
 ## Step 5: Turn on High Contrast
 
 In the Display options panel, look for **High contrast**.
@@ -99,6 +108,7 @@ Click the toggle switch next to it to turn it **on**. The toggle will turn green
 
 ---
 
+
 ## Step 6: Choose a Contrast Style
 
 Once High contrast is turned on, several style buttons will appear below the toggle.
@@ -106,6 +116,7 @@ Once High contrast is turned on, several style buttons will appear below the tog
 Click on any style to apply it. The website will immediately change to show your chosen contrast settings.
 
 ---
+
 
 ## Contrast Styles
 
@@ -125,6 +136,7 @@ Helperbird offers five different high contrast styles:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -134,6 +146,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

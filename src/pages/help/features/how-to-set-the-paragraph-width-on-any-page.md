@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Adjust Paragraph Width on Websites
 description:
@@ -39,6 +41,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Paragraph Width?
 
 Paragraph Width controls how wide the text appears on a webpage. Instead of text stretching all the way across the screen, you can make paragraphs narrower so your eyes do not have to travel as far from line to line.
@@ -46,6 +49,7 @@ Paragraph Width controls how wide the text appears on a webpage. Instead of text
 Narrower text is often easier and more comfortable to read.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -74,6 +80,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Text Settings
 
@@ -85,6 +92,7 @@ A panel will appear with several tabs at the top.
 
 ---
 
+
 ## Step 4: Open the Border Tab
 
 At the top of the Text settings panel, you will see tabs like Text, Colors, and Border.
@@ -93,6 +101,7 @@ Click on the **Border** tab.
 
 ---
 
+
 ## Step 5: Turn on Width
 
 In the Border tab, find **Width** with a toggle switch next to it.
@@ -100,6 +109,7 @@ In the Border tab, find **Width** with a toggle switch next to it.
 Click the toggle to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Adjust the Width
 
@@ -111,6 +121,7 @@ Move the slider left to make paragraphs narrower, or right to make them wider.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -120,6 +131,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

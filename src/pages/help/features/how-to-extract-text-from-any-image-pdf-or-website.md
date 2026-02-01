@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Extract Text from Images Using OCR
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Extract Text?
 
 Extract Text uses OCR (Optical Character Recognition) to read text from images. This means you can take text that is stuck inside a picture and turn it into real text that you can copy, edit, read aloud, or translate.
@@ -47,6 +50,7 @@ Extract Text uses OCR (Optical Character Recognition) to read text from images. 
 This is useful for text in screenshots, infographics, scanned documents, or any image where you cannot select the text normally.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,11 +82,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Extract Text
 
 Look through the list of features until you see **Extract text (OCR)**.
 
 ---
+
 
 ## Step 4: Open Extract Text
 
@@ -89,6 +97,7 @@ Click on **Extract text (OCR)** to open it.
 A panel will appear with several options you can configure.
 
 ---
+
 
 ## Step 5: Configure Options
 
@@ -108,6 +117,7 @@ After choosing your options, click the **Start** button.
 
 ---
 
+
 ## Step 6: Select the Area
 
 After clicking Start, your cursor will change to a crosshair.
@@ -117,6 +127,7 @@ Click and drag to draw a rectangle around the area of the screen that contains t
 Helperbird will show "Looking for Text" while it processes the image.
 
 ---
+
 
 ## Step 7: Use the Extracted Text
 
@@ -132,6 +143,7 @@ Once the text is extracted:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -141,6 +153,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

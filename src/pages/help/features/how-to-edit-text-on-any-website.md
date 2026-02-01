@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Edit Text on Any Website
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is Edit Website?
 
 Edit Website lets you click on any text on a webpage and change it. This is useful for making notes, simplifying confusing text, or temporarily modifying content for your own use. The changes only appear on your screen and are not saved when you leave the page.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,11 +78,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Edit Website
 
 Look through the list of features until you see **Edit website**.
 
 ---
+
 
 ## Step 4: Turn on Edit Website
 
@@ -85,6 +93,7 @@ Click the toggle switch next to **Edit website** to turn it **on**. The toggle w
 The page is now editable.
 
 ---
+
 
 ## Step 5: Edit the Content
 
@@ -98,6 +107,7 @@ The changes appear immediately on the page.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -107,6 +117,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

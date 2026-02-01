@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -28,11 +30,13 @@ url: help/how-to-search-and-filter-features-in-helperbird/
 permalink: help/how-to-search-and-filter-features-in-helperbird/
 ---
 
+
 ## What is Search?
 
 The Search feature helps you quickly find any Helperbird tool or setting. Instead of scrolling through all the features, you can type what you are looking for and see matching results instantly.
 
 ---
+
 
 ## Who is This For?
 
@@ -46,6 +50,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -53,6 +58,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open Search
 
@@ -63,6 +69,7 @@ Click the search icon or click the **Open search** button.
 A search bar will appear where you can type.
 
 ---
+
 
 ## Step 3: Search for Features
 
@@ -80,6 +87,7 @@ As you type, the results update in real time. Click on any feature in the result
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -89,6 +97,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

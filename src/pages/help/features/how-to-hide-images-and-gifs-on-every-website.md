@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Hide Images and GIFs on Any Website
 description:
@@ -37,6 +39,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Hide Images?
 
 The Hide Images feature removes all pictures from a webpage, leaving only the text. The Hide GIFs feature stops animated images from playing.
@@ -44,6 +47,7 @@ The Hide Images feature removes all pictures from a webpage, leaving only the te
 This helps you focus on reading the actual content without being distracted by pictures or moving images.
 
 ---
+
 
 ## Who is This For?
 
@@ -57,6 +61,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -64,6 +69,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -73,6 +79,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Hide Images or Hide GIFs
 
 Look through the list of features until you see **Hide images** and **Hide GIFs**.
@@ -80,6 +87,7 @@ Look through the list of features until you see **Hide images** and **Hide GIFs*
 These are separate features in the All Features list. Hide images has a pink image icon and Hide GIFs has a blue GIF icon.
 
 ---
+
 
 ## Step 4: Turn on Hide Images or Hide GIFs
 
@@ -97,6 +105,7 @@ You can turn on one or both features depending on what you need.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -106,6 +115,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

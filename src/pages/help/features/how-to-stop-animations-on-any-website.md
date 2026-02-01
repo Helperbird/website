@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -37,6 +39,7 @@ url: help/how-to-stop-animations-on-any-website/
 permalink: help/how-to-stop-animations-on-any-websites/
 ---
 
+
 ## What is Reduce Motion?
 
 Reduce Motion tells websites to minimize or stop animations and moving effects. This includes things like sliding menus, bouncing buttons, parallax scrolling, and other animated elements.
@@ -44,6 +47,7 @@ Reduce Motion tells websites to minimize or stop animations and moving effects. 
 When enabled, websites that respect this setting will show simpler, calmer versions of their pages with less movement.
 
 ---
+
 
 ## Who is This For?
 
@@ -57,6 +61,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -64,6 +69,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -73,11 +79,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Accessibility
 
 Look through the list of features until you see **Accessibility**.
 
 ---
+
 
 ## Step 4: Open Accessibility
 
@@ -86,6 +94,7 @@ Click on **Accessibility** to open it.
 A panel will appear showing the accessibility options available in Helperbird.
 
 ---
+
 
 ## Step 5: Turn on Reduce Motion
 
@@ -99,6 +108,7 @@ Websites will now show with reduced animations. The effect depends on how each w
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -108,6 +118,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

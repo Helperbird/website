@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Add a Color Overlay to Any Website
 description:
@@ -38,6 +40,7 @@ footer: true
 header: true
 ---
 
+
 ## What is a Color Overlay?
 
 A color overlay adds a transparent colored layer on top of the entire webpage. It is like looking through a sheet of colored plastic or glass.
@@ -45,6 +48,7 @@ A color overlay adds a transparent colored layer on top of the entire webpage. I
 Many people find that a tinted overlay reduces the harsh contrast of black text on white backgrounds. This can make text appear calmer and easier to read.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -74,6 +80,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dyslexia Support
 
 Look through the list of features until you see **Dyslexia support**.
@@ -81,6 +88,7 @@ Look through the list of features until you see **Dyslexia support**.
 It has a purple icon with a brain symbol on it.
 
 ---
+
 
 ## Step 4: Open Dyslexia Support
 
@@ -92,6 +100,7 @@ Make sure the **Tools** tab is selected. This is where you will find the Overlay
 
 ---
 
+
 ## Step 5: Turn on Overlay
 
 In the Tools tab, look for **Overlay**.
@@ -102,6 +111,7 @@ A colored tint will immediately appear over the entire webpage.
 
 ---
 
+
 ## Step 6: Customize the Overlay
 
 To adjust the overlay color and intensity, click on the **Settings** tab at the top of the panel.
@@ -109,6 +119,7 @@ To adjust the overlay color and intensity, click on the **Settings** tab at the 
 Here you can choose different colors and adjust how strong the overlay appears.
 
 ---
+
 
 ## Overlay Settings
 
@@ -122,6 +133,7 @@ In the Settings tab, you can customize the following:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -131,6 +143,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

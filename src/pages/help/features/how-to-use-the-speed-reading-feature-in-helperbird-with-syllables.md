@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -40,6 +42,7 @@ url: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 permalink: help/how-to-use-the-speed-reading-feature-in-helperbird-with-syllables/
 ---
 
+
 ## What is Speed Reading?
 
 Speed Reading displays one word at a time in the center of your screen. This technique helps you read faster because your eyes do not have to move across the page.
@@ -47,6 +50,7 @@ Speed Reading displays one word at a time in the center of your screen. This tec
 You can adjust how many words appear per minute and add helpful features like syllable breakdown for difficult words.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -68,6 +73,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Open the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -75,6 +81,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Speed Reading
 
@@ -86,6 +93,7 @@ Click on **Speed Reading** to open it.
 
 ---
 
+
 ## Step 4: Select Text and Start
 
 First, highlight the text you want to speed read on the webpage. Click and drag your mouse to select a passage.
@@ -93,6 +101,7 @@ First, highlight the text you want to speed read on the webpage. Click and drag 
 A Speed Reading panel will appear showing one word at a time in large text.
 
 ---
+
 
 ## Step 5: Control Playback
 
@@ -106,6 +115,7 @@ Use the controls in the Speed Reading panel:
 Previous and upcoming words appear in smaller boxes below the main word so you have context.
 
 ---
+
 
 ## Step 6: Customize Settings
 
@@ -123,6 +133,7 @@ Click **Save** to apply your changes.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -132,6 +143,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

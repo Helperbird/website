@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Change Line Height on Any Website
 description:
@@ -39,6 +41,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Line Height?
 
 Line height is the vertical space between each line of text. When you increase line height, the lines spread apart more, giving text more breathing room.
@@ -46,6 +49,7 @@ Line height is the vertical space between each line of text. When you increase l
 For example, a paragraph with increased line height will have larger gaps between each row of text, making it easier to follow from one line to the next without accidentally skipping or rereading lines.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,6 +81,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -82,6 +89,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -93,6 +101,7 @@ Make sure the **Text** tab is selected. This is where you will find the line hei
 
 ---
 
+
 ## Step 5: Turn on Line Height
 
 In the Text tab, scroll down until you see **Line height**.
@@ -100,6 +109,7 @@ In the Text tab, scroll down until you see **Line height**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Adjust the Height
 
@@ -113,6 +123,7 @@ The changes will apply to the website immediately, so you can see the effect as 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -122,6 +133,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -31,6 +33,7 @@ url: help/how-to-turn-on-dark-mode-in-helperbird/
 permalink: help/how-to-turn-on-dark-mode-in-helperbird/
 ---
 
+
 ## What is Dark Mode?
 
 Dark Mode changes websites to use dark colors instead of bright white backgrounds. This makes websites easier on your eyes, especially when browsing in low-light conditions or at night.
@@ -38,6 +41,7 @@ Dark Mode changes websites to use dark colors instead of bright white background
 Dark Mode inverts the colors on websites so that light areas become dark and dark text becomes light.
 
 ---
+
 
 ## Who is This For?
 
@@ -51,6 +55,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -58,6 +63,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -67,6 +73,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dark Reader
 
 Look through the list of features until you see **Dark reader**.
@@ -75,6 +82,7 @@ It has a moon icon next to it.
 
 ---
 
+
 ## Step 4: Open Dark Reader Settings
 
 Click on **Dark reader** to open it.
@@ -82,6 +90,7 @@ Click on **Dark reader** to open it.
 A settings panel will appear with options to configure Dark Mode.
 
 ---
+
 
 ## Step 5: Turn on Dark Mode
 
@@ -92,6 +101,7 @@ Click the toggle switch to turn Dark Mode **on**. The toggle will turn green whe
 The current webpage will immediately switch to a dark color scheme.
 
 ---
+
 
 ## Step 6: Customize Settings
 
@@ -111,6 +121,7 @@ Experiment with these settings to find what is most comfortable for your eyes.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -120,6 +131,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

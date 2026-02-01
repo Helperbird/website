@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -41,6 +43,7 @@ url: help/how-to-use-the-highlight-menu-in-helperbird/
 permalink: help/how-to-use-the-highlight-menu-in-helperbird/
 ---
 
+
 ## What is the Highlight Menu?
 
 The Highlight Menu is a toolbar that appears when you select text on any webpage. It gives you quick access to Helperbird's most useful tools without having to open the main extension panel.
@@ -48,6 +51,7 @@ The Highlight Menu is a toolbar that appears when you select text on any webpage
 Simply highlight some text and a small menu will appear right next to your selection.
 
 ---
+
 
 ## Who is This For?
 
@@ -61,6 +65,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -68,6 +73,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -77,17 +83,20 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Highlight Menu
 
 Look through the list of features until you see **Highlight menu**.
 
 ---
 
+
 ## Step 4: Turn on Highlight Menu
 
 Click the toggle switch next to **Highlight menu** to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Select Text on a Webpage
 
@@ -97,11 +106,13 @@ A small toolbar will appear near your selected text.
 
 ---
 
+
 ## Step 6: Use the Menu Tools
 
 Click any button in the toolbar to use that tool on your selected text. The action happens immediately.
 
 ---
+
 
 ## Available Tools
 
@@ -125,6 +136,7 @@ The Highlight Menu includes these tools:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -134,6 +146,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

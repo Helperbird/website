@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Show Link and Image Descriptions on Any Website
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What are Link and Image Descriptions?
 
 This feature shows hidden information about links and images when you hover over them. Many links have title text that describes where they lead, and images often have alt text that describes what the image shows. This feature displays that information in a tooltip so you can see it easily.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,17 +78,20 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Link & Image Descriptions
 
 Look through the list of features until you see **Link & Image Descriptions**.
 
 ---
 
+
 ## Step 4: Turn on the Feature
 
 Click the toggle switch next to **Link & Image Descriptions** to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Hover Over Links and Images
 
@@ -99,6 +108,7 @@ This helps you understand what links and images are about before interacting wit
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -108,6 +118,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

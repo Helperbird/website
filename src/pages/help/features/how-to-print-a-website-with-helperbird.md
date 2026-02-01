@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -39,6 +41,7 @@ url: help/how-to-print-a-webpage-with-helperbird/
 permalink: help/how-to-print-a-webpage-with-helperbird/
 ---
 
+
 ## What is the Print Feature?
 
 The Print feature gives you quick access to your browser's print dialog. You can print the current webpage to paper or save it as a PDF file.
@@ -46,6 +49,7 @@ The Print feature gives you quick access to your browser's print dialog. You can
 This is useful when you need a physical copy of online content or want to save a webpage for offline reading.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,11 +81,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Accessibility
 
 Look through the list of features until you see **Accessibility**.
 
 ---
+
 
 ## Step 4: Open Accessibility
 
@@ -88,6 +96,7 @@ Click on **Accessibility** to open it.
 A panel will appear showing the accessibility options available in Helperbird.
 
 ---
+
 
 ## Step 5: Click Print
 
@@ -107,6 +116,7 @@ Once you are happy with your settings, click the **Save** or **Print** button.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -116,6 +126,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

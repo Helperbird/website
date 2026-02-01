@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Reading List in Helperbird
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is the Reading List?
 
 The Reading List lets you save webpages to read later. When you find an interesting article or page but do not have time to read it now, you can add it to your reading list. You can then come back and access all your saved pages whenever you are ready.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,11 +78,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Reading List
 
 Look through the list of features until you see **Reading list**.
 
 ---
+
 
 ## Step 4: Add a Page to Your List
 
@@ -85,6 +93,7 @@ When you are on a page you want to save, click the **Add** button next to Readin
 The current page will be saved to your reading list. You will see a confirmation that the page was added.
 
 ---
+
 
 ## Step 5: View Your Reading List
 
@@ -98,6 +107,7 @@ You can also remove pages from your reading list when you have finished reading 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -107,6 +117,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

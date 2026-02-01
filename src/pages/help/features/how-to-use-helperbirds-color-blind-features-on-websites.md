@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -39,6 +41,7 @@ url: help/how-to-use-helperbirds-color-blind-features-on-websites/
 permalink: help/how-to-use-helperbirds-color-blind-features-on-websitess/
 ---
 
+
 ## What is Emphasize Links?
 
 Emphasize Links adds colorblind-friendly underlines beneath every link on a webpage. This makes links much easier to spot, even if you have difficulty distinguishing certain colors.
@@ -46,6 +49,7 @@ Emphasize Links adds colorblind-friendly underlines beneath every link on a webp
 Many websites style links with just a color change and no underline. This can make them impossible to find for people with color blindness. Emphasize Links solves this by adding clear visual indicators to all links.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,11 +81,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Display Options
 
 Look through the list of features until you see **Display options**.
 
 ---
+
 
 ## Step 4: Open Display Options
 
@@ -88,6 +96,7 @@ Click on **Display options** to open it.
 A panel will appear showing various display settings you can adjust.
 
 ---
+
 
 ## Step 5: Turn on Emphasize Links
 
@@ -101,6 +110,7 @@ All links on the page will now have colorblind-friendly underlines, making them 
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -110,6 +120,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

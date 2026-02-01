@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -37,6 +39,7 @@ url: help/how-to-translate-a-webpage-with-helperbird/
 permalink: help/how-to-translate-a-webpage-with-helperbird/
 ---
 
+
 ## What is Translate?
 
 The Translate feature converts text on a website from one language to another. You can translate an entire webpage or just the text you select.
@@ -44,6 +47,7 @@ The Translate feature converts text on a website from one language to another. Y
 Helperbird uses Google Translate to provide translations in many different languages.
 
 ---
+
 
 ## Who is This For?
 
@@ -57,6 +61,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -72,6 +78,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Translate
 
@@ -83,6 +90,7 @@ A panel will appear showing a list of languages you can translate to.
 
 ---
 
+
 ## Step 4: Choose Your Language
 
 Scroll through the list of languages and click on the language you want to translate the page into.
@@ -90,6 +98,7 @@ Scroll through the list of languages and click on the language you want to trans
 A green checkmark will appear next to your selected language.
 
 ---
+
 
 ## Step 5: Translate the Page
 
@@ -101,9 +110,11 @@ Helperbird remembers your language choice, so next time you can just click the T
 
 ---
 
+
 **Tip:** You can also highlight text on a webpage first, then use the Highlight Menu that appears to quickly translate just the selected text.
 
 ---
+
 
 ## Video Tutorial
 
@@ -114,6 +125,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

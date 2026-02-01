@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Adjust Color Saturation on Any Website
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is Saturation?
 
 Saturation controls how vivid or muted the colors appear on a website. You can reduce saturation to make colors less intense, or even turn a page completely grayscale (black and white). This can help reduce visual distractions and make reading easier.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,17 +78,20 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Saturation
 
 Look through the list of features until you see **Saturation**.
 
 ---
 
+
 ## Step 4: Turn on Saturation
 
 Click the toggle switch next to **Saturation** to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Adjust the Level
 
@@ -99,6 +108,7 @@ The changes apply to the page immediately so you can see the effect in real time
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -108,6 +118,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

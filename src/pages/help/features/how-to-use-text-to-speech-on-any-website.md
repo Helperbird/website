@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -37,6 +39,7 @@ url: help/how-to-use-text-to-speech-on-any-website/
 permalink: help/how-to-use-text-to-speech-on-any-website/
 ---
 
+
 ## What is Text to Speech?
 
 Text to Speech reads text out loud using a computer voice. Instead of reading text with your eyes, you can listen to it being spoken.
@@ -44,6 +47,7 @@ Text to Speech reads text out loud using a computer voice. Instead of reading te
 Helperbird can read an entire webpage, just the text you have highlighted, or custom text that you type or paste.
 
 ---
+
 
 ## Who is This For?
 
@@ -57,6 +61,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -72,6 +78,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Text to Speech
 
@@ -82,6 +89,7 @@ Click on **Text to Speech** to open it.
 A panel will appear with a text area and playback controls.
 
 ---
+
 
 ## Step 4: Play the Text
 
@@ -96,6 +104,7 @@ There are several ways to use Text to Speech:
 To stop the audio, click the pause or stop button.
 
 ---
+
 
 ## Step 5: Customize Settings
 
@@ -113,6 +122,7 @@ Click the **Settings** tab to adjust how the text is read:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -122,6 +132,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

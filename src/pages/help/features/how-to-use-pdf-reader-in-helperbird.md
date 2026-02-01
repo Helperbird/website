@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -29,11 +31,13 @@ url: help/how-to-use-pdf-reader-in-helperbird/
 permalink: help/how-to-use-pdf-reader-in-helperbird/
 ---
 
+
 ## What is the PDF Reader?
 
 The PDF Reader is a built-in tool that lets you open and read PDF documents directly in your browser with extra accessibility features. It includes tools for note-taking, annotations, voice typing, translation, and more.
 
 ---
+
 
 ## Who is This For?
 
@@ -47,6 +51,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open a PDF in Helperbird
 
 When you view a PDF in your browser, look for the green **"Open PDF in Helperbird – Click to Open"** button at the bottom of the page.
@@ -57,6 +62,7 @@ The PDF will open in Helperbird's reader interface with all tools available.
 
 ---
 
+
 ## Step 2: Navigate and Read
 
 Once your PDF is open, you will see page numbers at the top for easy navigation.
@@ -66,6 +72,7 @@ Use the arrow buttons or type a page number to jump to a specific page.
 You can also zoom in and out using the zoom controls.
 
 ---
+
 
 ## Step 3: Take Notes
 
@@ -83,6 +90,7 @@ In the note editor you can:
 
 ---
 
+
 ## Step 4: Use Quick Tools
 
 Click the floating pink menu button on the right side of the screen to access quick tools:
@@ -96,6 +104,7 @@ Click the floating pink menu button on the right side of the screen to access qu
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -105,6 +114,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

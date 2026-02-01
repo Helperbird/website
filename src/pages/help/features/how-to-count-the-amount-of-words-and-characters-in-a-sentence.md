@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -30,11 +32,13 @@ url: help/how-to-use-text-analytics-in-helperbird-editor/
 permalink: help/how-to-use-text-analytics-in-helperbird-editor/
 ---
 
+
 ## What is Text Analytics?
 
 Text Analytics gives you detailed statistics about your writing. You can see how many words, characters, and sentences you have written, plus estimates for how long it will take to read or speak your text.
 
 ---
+
 
 ## Who is This For?
 
@@ -48,6 +52,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -55,6 +60,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -64,11 +70,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Writing Tools
 
 Look through the list of features until you see **Writing tools**.
 
 ---
+
 
 ## Step 4: Open the Editor
 
@@ -79,6 +87,7 @@ In the Writing tools panel, click on **Editor** to open the Helperbird text edit
 A new tab will open with the editor where you can write or paste your text.
 
 ---
+
 
 ## Step 5: View Text Analytics
 
@@ -97,6 +106,7 @@ A window will open showing detailed analytics about your writing:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -106,6 +116,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

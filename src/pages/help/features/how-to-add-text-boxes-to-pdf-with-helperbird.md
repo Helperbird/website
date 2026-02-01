@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,11 +40,13 @@ url: help/how-to-add-text-boxes-to-pdf-with-helperbird/
 permalink: help/how-to-add-text-boxes-to-pdf-with-helperbird/
 ---
 
+
 ## What are PDF Annotations?
 
 PDF Annotations let you add text boxes directly onto PDF documents. You can write notes, add comments, or fill in forms. The annotations become part of the PDF and can be saved and shared.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open a PDF in Helperbird
 
 When you view any PDF in your browser, look for the green button that says **"Open PDF in Helperbird - Click to Open"** at the bottom of the page.
@@ -66,6 +71,7 @@ The PDF will open in Helperbird's PDF Reader with a clean interface and navigati
 
 ---
 
+
 ## Step 2: Enable Annotation Mode
 
 In the toolbar at the top of the PDF Reader, click the **pen icon** to activate Annotation Mode.
@@ -73,6 +79,7 @@ In the toolbar at the top of the PDF Reader, click the **pen icon** to activate 
 When annotation mode is active, you will see "Annotation Mode" displayed in pink below the toolbar. A message will also appear saying "Click anywhere on the page to add a text box".
 
 ---
+
 
 ## Step 3: Add Text Boxes
 
@@ -83,6 +90,7 @@ A white text box will appear at that location. Type your text inside the box. Th
 You can add as many text boxes as you need by clicking different areas of the PDF.
 
 ---
+
 
 ## Step 4: Download Your Annotated PDF
 
@@ -102,6 +110,7 @@ A green notification will confirm "PDF downloaded with annotations". Your browse
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -111,6 +120,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

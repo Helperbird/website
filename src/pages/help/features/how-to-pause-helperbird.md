@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Pause and Resume Helperbird
 description:
@@ -36,6 +38,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Pause?
 
 Pausing Helperbird turns off all features temporarily without losing any of your settings. When you resume, all your customizations come back exactly as they were.
@@ -43,6 +46,7 @@ Pausing Helperbird turns off all features temporarily without losing any of your
 This is useful when you want to see a website in its original format or need to take screenshots without any Helperbird changes applied.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -64,6 +69,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Find the On/Off Toggle
 
 At the very top of the Helperbird panel, you will see a toggle button. It says either **Helperbird is on** or **Helperbird is off**.
@@ -71,6 +77,7 @@ At the very top of the Helperbird panel, you will see a toggle button. It says e
 This toggle controls whether Helperbird features are active.
 
 ---
+
 
 ## Step 3: Pause or Resume Helperbird
 
@@ -86,6 +93,7 @@ Your settings are preserved when Helperbird is paused. Nothing is lost.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -95,6 +103,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

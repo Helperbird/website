@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Highlight Text on Any Website
 description:
@@ -38,6 +40,7 @@ footer: true
 header: true
 ---
 
+
 ## What is the Highlighter?
 
 The Highlighter lets you mark text on any website with colored highlights, just like using a highlighter pen on paper. The highlights stay visible while you are on the page.
@@ -45,6 +48,7 @@ The Highlighter lets you mark text on any website with colored highlights, just 
 You can use different colors to organize information or mark important points.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -73,6 +79,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Enable the Highlight Menu
 
@@ -84,6 +91,7 @@ Now when you select text on any webpage, a small toolbar will appear near your s
 
 ---
 
+
 ## Step 4: Select Text to Highlight
 
 Go to any webpage and use your mouse to select the text you want to highlight. Click and drag to highlight a word, sentence, or paragraph.
@@ -91,6 +99,7 @@ Go to any webpage and use your mouse to select the text you want to highlight. C
 A small toolbar will appear near your selected text with several options.
 
 ---
+
 
 ## Step 5: Choose a Color
 
@@ -106,6 +115,7 @@ You can select more text and highlight it in the same or different colors.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -115,6 +125,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

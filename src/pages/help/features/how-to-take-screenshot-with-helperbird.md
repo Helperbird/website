@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -29,6 +31,7 @@ url: help/how-to-take-screenshot-with-helperbird/
 permalink: help/how-to-take-screenshot-with-helperbird/
 ---
 
+
 ## What is the Screenshot Tool?
 
 The Screenshot Tool captures an image of the current webpage. It takes a picture of exactly what you see on your screen and saves it as a file on your computer.
@@ -36,6 +39,7 @@ The Screenshot Tool captures an image of the current webpage. It takes a picture
 This is useful for saving information from websites, keeping a record of important pages, or sharing what you see with others.
 
 ---
+
 
 ## Who is This For?
 
@@ -49,6 +53,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -56,6 +61,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -65,6 +71,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Screenshot
 
 Look through the list of features until you see **Screenshot**.
@@ -72,6 +79,7 @@ Look through the list of features until you see **Screenshot**.
 It has a camera or lightning bolt icon next to it.
 
 ---
+
 
 ## Step 4: Capture Screenshot
 
@@ -85,6 +93,7 @@ The screenshot will be saved automatically to your browser's downloads folder as
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -94,6 +103,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

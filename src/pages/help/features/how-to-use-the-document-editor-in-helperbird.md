@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Document Editor in Helperbird
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is the Document Editor?
 
 The Document Editor is a built-in text editor that opens in a new tab. It provides a clean, distraction-free writing space with all of Helperbird's accessibility features available. You can use dyslexia-friendly fonts, text-to-speech, and other tools while writing.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,11 +78,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Document Editor
 
 Look through the list of features until you see **Document Editor**.
 
 ---
+
 
 ## Step 4: Open the Editor
 
@@ -85,6 +93,7 @@ Click the **open** button next to Document Editor.
 A new browser tab will open with the Helperbird document editor.
 
 ---
+
 
 ## Step 5: Start Writing
 
@@ -103,6 +112,7 @@ The editor provides a simple, clean space for writing without the distractions o
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -112,6 +122,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

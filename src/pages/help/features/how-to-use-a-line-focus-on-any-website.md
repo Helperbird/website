@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Line Focus on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Line Focus?
 
 Line Focus (also called Focus Ruler) creates a spotlight effect on the line you are reading. It dims everything on the page except for one strip of text, making it much easier to concentrate.
@@ -47,6 +50,7 @@ Line Focus (also called Focus Ruler) creates a spotlight effect on the line you 
 Think of it like shining a flashlight on just one line while the rest of the page fades into the background. This helps reduce visual clutter and keeps your attention on the text you are reading.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dyslexia Support
 
 Look through the list of features until you see **Dyslexia support**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Dyslexia support**.
 It has a purple icon with a brain symbol on it.
 
 ---
+
 
 ## Step 4: Open Dyslexia Support
 
@@ -94,6 +102,7 @@ Make sure the **Tools** tab is selected. This is where you will find the Line Fo
 
 ---
 
+
 ## Step 5: Turn on Line Focus
 
 In the Tools tab, look for **Focus ruler** (also called Line Focus).
@@ -104,6 +113,7 @@ The page will immediately dim except for a strip of text where you can focus.
 
 ---
 
+
 ## Step 6: Customize the Focus
 
 To adjust how the line focus looks and behaves, click on the **Settings** tab at the top of the panel.
@@ -111,6 +121,7 @@ To adjust how the line focus looks and behaves, click on the **Settings** tab at
 Here you can change the size, color, and behavior of the focus area.
 
 ---
+
 
 ## Focus Settings
 
@@ -132,6 +143,7 @@ In the Settings tab, you can customize the following:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -141,6 +153,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

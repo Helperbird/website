@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/what-are-the-helperbird-shortcuts/
 permalink: help/what-are-the-helperbird-shortcuts/
 ---
 
+
 ## What are Keyboard Shortcuts?
 
 Keyboard shortcuts let you quickly activate Helperbird features by pressing key combinations instead of opening the menu and clicking. For example, you could press a few keys to instantly start text-to-speech or turn on Reading Mode.
@@ -45,6 +48,7 @@ Keyboard shortcuts let you quickly activate Helperbird features by pressing key 
 Shortcuts are disabled by default because some websites have their own keyboard shortcuts that might conflict with Helperbird's.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Open the Options Menu
 
 Click the **gear icon** in the top-left corner of the Helperbird menu.
@@ -73,6 +79,7 @@ Click the **gear icon** in the top-left corner of the Helperbird menu.
 This will open the Options panel with various settings and options.
 
 ---
+
 
 ## Step 3: Enable Shortcuts
 
@@ -83,6 +90,7 @@ Click the toggle switch to turn it **on**. The toggle will turn green when it is
 You can now use keyboard combinations to quickly access Helperbird features.
 
 ---
+
 
 ## Step 4: View All Shortcuts
 
@@ -101,6 +109,7 @@ Common shortcuts include:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -110,6 +119,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

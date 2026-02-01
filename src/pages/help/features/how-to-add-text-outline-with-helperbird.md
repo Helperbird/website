@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -39,6 +41,7 @@ url: help/how-to-add-text-outline-with-helperbird/
 permalink: help/how-to-add-text-outline-with-helperbird/
 ---
 
+
 ## What is Text Outline?
 
 Text outline (also called text stroke) adds a colored border around each letter on a website. This creates a clear edge around the text that makes it stand out from the background.
@@ -46,6 +49,7 @@ Text outline (also called text stroke) adds a colored border around each letter 
 The outline goes around the outside of every letter, making the text easier to see even on busy or colorful backgrounds.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -75,6 +81,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -82,6 +89,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -91,6 +99,7 @@ A panel will appear with three tabs at the top: **Text**, **Colors**, and **Bord
 
 ---
 
+
 ## Step 5: Go to the Border Tab
 
 Click on the **Border** tab to see the text border options.
@@ -99,6 +108,7 @@ This is where you will find the text stroke (outline) feature.
 
 ---
 
+
 ## Step 6: Turn on Text Stroke
 
 In the Border tab, look for **Text stroke**.
@@ -106,6 +116,7 @@ In the Border tab, look for **Text stroke**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 7: Choose Your Outline Color
 
@@ -119,6 +130,7 @@ If you do not see a color you like, you can click the color picker icon to choos
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -128,6 +140,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

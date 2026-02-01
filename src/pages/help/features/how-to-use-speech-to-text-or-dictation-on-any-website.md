@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 permalink: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
+
 ## What is Voice Typing?
 
 Voice Typing (also called Speech to Text or Dictation) lets you speak into your microphone and have your words automatically typed out as text. Instead of typing on a keyboard, you just talk.
@@ -45,6 +48,7 @@ Voice Typing (also called Speech to Text or Dictation) lets you speak into your 
 Helperbird converts your speech into written text that you can then copy and paste wherever you need it.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -73,6 +79,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Voice Typing
 
@@ -84,6 +91,7 @@ A panel will appear with a text box and recording controls.
 
 ---
 
+
 ## Step 4: Select Your Language
 
 Before you start speaking, choose your language from the dropdown menu in the panel.
@@ -91,6 +99,7 @@ Before you start speaking, choose your language from the dropdown menu in the pa
 This tells Helperbird which language you will be speaking so it can recognize your words correctly.
 
 ---
+
 
 ## Step 5: Start Speaking
 
@@ -110,6 +119,7 @@ You can also:
 
 ---
 
+
 ## Step 6: Use Your Text
 
 Once you are happy with your text, click the **Copy** button to copy it to your clipboard.
@@ -117,6 +127,7 @@ Once you are happy with your text, click the **Copy** button to copy it to your 
 You can then paste the text anywhere you need it, such as into an email, document, or form field.
 
 ---
+
 
 ## Video Tutorial
 
@@ -127,6 +138,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

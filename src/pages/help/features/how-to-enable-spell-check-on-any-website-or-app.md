@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Check Grammar and Spelling on Websites
 description:
@@ -38,6 +40,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Grammar/Spell Check?
 
 Grammar/Spell Check helps you find and fix errors in your writing. It analyzes your text and identifies spelling mistakes and grammar problems.
@@ -45,6 +48,7 @@ Grammar/Spell Check helps you find and fix errors in your writing. It analyzes y
 You can also listen to your text read aloud to help catch errors you might miss when reading silently.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -66,6 +71,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Go to the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -73,6 +79,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Grammar Check
 
@@ -84,6 +91,7 @@ A panel will appear with a text area where you can enter or paste your text.
 
 ---
 
+
 ## Step 4: Enter Your Text
 
 You can add text to check in two ways:
@@ -92,6 +100,7 @@ You can add text to check in two ways:
 - **Select text** on a webpage first, then open Grammar Check. The selected text will appear automatically.
 
 ---
+
 
 ## Step 5: Check Your Text
 
@@ -110,6 +119,7 @@ Additional options:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -119,6 +129,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 permalink: help/how-to-use-word-prediction-on-any-website-or-google-docs/
 ---
 
+
 ## What is Word Prediction?
 
 Word Prediction suggests words as you type. When you start typing a word, Helperbird shows you a list of words that you might be trying to write. You can click on a suggestion to insert it instead of typing the whole word.
@@ -45,6 +48,7 @@ Word Prediction suggests words as you type. When you start typing a word, Helper
 This helps you write faster and also helps with spelling, since you can see the correct spelling before you finish typing.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -74,6 +80,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Word Prediction
 
 Look through the list of features until you see **Word Prediction**.
@@ -82,6 +89,7 @@ Click on **Word Prediction** to open its settings panel.
 
 ---
 
+
 ## Step 4: Turn on Word Prediction
 
 In the Word Prediction panel, you will see a toggle switch at the top.
@@ -89,6 +97,7 @@ In the Word Prediction panel, you will see a toggle switch at the top.
 Click the toggle switch to turn Word Prediction **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Adjust Settings
 
@@ -99,6 +108,7 @@ You can customize Word Prediction with these options:
 **Language** – Click on the language you will be typing in. Options include English, French, German, Spanish, and Portuguese. A green checkmark will appear next to your selected language.
 
 ---
+
 
 ## Step 6: Start Typing
 
@@ -117,6 +127,7 @@ The suggestions update as you continue typing.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -126,6 +137,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

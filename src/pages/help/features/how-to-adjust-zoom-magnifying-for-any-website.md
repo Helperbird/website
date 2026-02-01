@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Zoom In and Magnify Any Website
 description:
@@ -36,6 +38,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Zoom?
 
 The Zoom feature magnifies the entire webpage, making everything larger. Text, images, buttons, and all other content get bigger so you can see them more easily.
@@ -43,6 +46,7 @@ The Zoom feature magnifies the entire webpage, making everything larger. Text, i
 You can set the zoom level to any percentage you prefer, from making things smaller to making them much larger.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -72,11 +78,13 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Display Options
 
 Look through the list of features until you see **Display options**.
 
 ---
+
 
 ## Step 4: Open Display Options
 
@@ -86,6 +94,7 @@ A panel will appear showing various display settings you can adjust.
 
 ---
 
+
 ## Step 5: Turn on Zoom
 
 In the Display options panel, look for **Zoom**.
@@ -93,6 +102,7 @@ In the Display options panel, look for **Zoom**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 6: Adjust the Zoom Level
 
@@ -108,6 +118,7 @@ The zoom applies immediately so you can see the change right away.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -117,6 +128,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

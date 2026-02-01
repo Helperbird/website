@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use the Reading Guide on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is the Reading Guide?
 
 The Reading Guide is a solid colored bar that appears on screen to show you exactly where you are reading. It acts like a ruler that you would place under a line of text in a book.
@@ -47,6 +50,7 @@ The Reading Guide is a solid colored bar that appears on screen to show you exac
 The guide can follow your mouse cursor as you move down the page, or you can set it to stay in one place. This helps you keep track of which line you are on.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Dyslexia Support
 
 Look through the list of features until you see **Dyslexia support**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Dyslexia support**.
 It has a purple icon with a brain symbol on it.
 
 ---
+
 
 ## Step 4: Open Dyslexia Support
 
@@ -94,6 +102,7 @@ Make sure the **Tools** tab is selected. This is where you will find the Reading
 
 ---
 
+
 ## Step 5: Turn on Reading Guide
 
 In the Tools tab, look for **Reading guide**.
@@ -104,6 +113,7 @@ A solid colored bar will appear on the screen to guide your reading.
 
 ---
 
+
 ## Step 6: Customize the Guide
 
 To adjust how the reading guide looks and behaves, click on the **Settings** tab at the top of the panel.
@@ -111,6 +121,7 @@ To adjust how the reading guide looks and behaves, click on the **Settings** tab
 Here you can change the size, color, and position of the guide.
 
 ---
+
 
 ## Guide Settings
 
@@ -132,6 +143,7 @@ In the Settings tab, you can customize the following:
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -141,6 +153,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

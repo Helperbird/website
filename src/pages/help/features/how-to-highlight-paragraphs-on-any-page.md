@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Add Borders to Paragraphs on Websites
 description:
@@ -39,6 +41,7 @@ footer: true
 header: true
 ---
 
+
 ## What are Paragraph Borders?
 
 Paragraph Borders adds visible colored outlines around each paragraph on a webpage. This helps you clearly see where one paragraph ends and another begins, making it easier to track your place while reading.
@@ -46,6 +49,7 @@ Paragraph Borders adds visible colored outlines around each paragraph on a webpa
 You can choose any border color you like to match your reading preferences.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Open the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -74,6 +80,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Text Settings
 
@@ -85,6 +92,7 @@ A panel will appear with several tabs at the top.
 
 ---
 
+
 ## Step 4: Open the Border Tab
 
 At the top of the Text settings panel, you will see tabs like Text, Colors, and Border.
@@ -92,6 +100,7 @@ At the top of the Text settings panel, you will see tabs like Text, Colors, and 
 Click on the **Border** tab.
 
 ---
+
 
 ## Step 5: Turn on Border
 
@@ -102,6 +111,7 @@ Click the toggle to turn it **on**. The toggle will turn green when it is enable
 All paragraphs on the page will now have colored borders around them.
 
 ---
+
 
 ## Step 6: Choose a Color
 
@@ -115,6 +125,7 @@ Your choice is saved automatically.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -124,6 +135,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

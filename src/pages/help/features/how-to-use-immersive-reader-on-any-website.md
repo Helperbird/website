@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -37,6 +39,7 @@ url: help/how-to-use-immersive-reader-on-any-website/
 permalink: help/how-to-use-immersive-reader-on-any-website/
 ---
 
+
 ## What is Immersive Reader?
 
 Immersive Reader is a reading tool made by Microsoft. It takes the text from a webpage and shows it in a clean, simple view without any distractions like ads, menus, or sidebars.
@@ -44,6 +47,7 @@ Immersive Reader is a reading tool made by Microsoft. It takes the text from a w
 Immersive Reader also includes helpful features like text-to-speech, syllable breaking, parts of speech highlighting, and adjustable text size and spacing.
 
 ---
+
 
 ## Who is This For?
 
@@ -57,6 +61,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -64,6 +69,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -73,6 +79,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Immersive Reader
 
 Look through the list of features until you see **Immersive Reader**.
@@ -81,6 +88,7 @@ It has a book icon next to it.
 
 ---
 
+
 ## Step 4: Click Immersive Reader
 
 Click on **Immersive Reader**.
@@ -88,6 +96,7 @@ Click on **Immersive Reader**.
 The webpage will transform into a clean reading view. You will see just the text and images from the page, without any of the extra elements like navigation menus, ads, or sidebars.
 
 ---
+
 
 ## Step 5: Use Immersive Reader Features
 
@@ -103,6 +112,7 @@ Once in Immersive Reader, you will see a toolbar at the top. Here are some featu
 
 ---
 
+
 ## Reading Selected Text
 
 If you only want to read part of a webpage:
@@ -117,6 +127,7 @@ This is useful when you want to focus on a specific section of a long article.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -126,6 +137,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

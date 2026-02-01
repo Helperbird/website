@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Use Word Spotlight on Any Website
 description:
@@ -38,11 +40,13 @@ footer: true
 header: true
 ---
 
+
 ## What is Word Spotlight?
 
 Word Spotlight creates a spotlight effect that highlights the area around your cursor as you move it across a webpage. This helps you focus on specific text by making the surrounding content less prominent. It works like shining a flashlight on what you are reading.
 
 ---
+
 
 ## Who is This For?
 
@@ -56,6 +60,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -63,6 +68,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -72,17 +78,20 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Word Spotlight
 
 Look through the list of features until you see **Word Spotlight**.
 
 ---
 
+
 ## Step 4: Turn on Word Spotlight
 
 Click the toggle switch next to **Word Spotlight** to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 5: Read with Focus
 
@@ -96,6 +105,7 @@ Move your cursor down the page as you read to keep the spotlight on the text you
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -105,6 +115,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

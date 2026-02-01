@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 permalink: help/how-to-use-reading-mode-and-remove-ads-on-any-website/
 ---
 
+
 ## What is Reading Mode?
 
 Reading Mode removes distractions from a webpage and shows you just the main content. It gets rid of ads, navigation menus, sidebars, and other elements that can make reading difficult.
@@ -45,6 +48,7 @@ Reading Mode removes distractions from a webpage and shows you just the main con
 The result is a clean, simple view that looks like a book or document, making it much easier to focus on reading.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Go to the All Features Section
 
@@ -74,6 +80,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Reading Mode
 
 Look through the list of features until you see **Reading Mode**.
@@ -81,6 +88,7 @@ Look through the list of features until you see **Reading Mode**.
 It has a document or page icon next to it.
 
 ---
+
 
 ## Step 4: Click Reading Mode
 
@@ -91,6 +99,7 @@ The webpage will transform into a clean reading view. All the ads, sidebars, nav
 You will see just the main text and images from the article.
 
 ---
+
 
 ## Step 5: Customize Your View
 
@@ -107,6 +116,7 @@ These settings help you create a reading experience that works best for you.
 
 ---
 
+
 ## Step 6: Exit Reading Mode
 
 When you are done reading, click the **X** button in the top corner of the Reading Mode view.
@@ -117,6 +127,7 @@ This will return you to the normal webpage.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -126,6 +137,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

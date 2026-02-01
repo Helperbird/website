@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -38,6 +40,7 @@ url: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 permalink: help/how-to-use-the-quick-action-area-to-improve-accessibility-on-the-web/
 ---
 
+
 ## What are Quick Actions?
 
 Quick Actions are buttons at the top of the Helperbird menu that give you one-click access to your most-used features. Instead of scrolling through all the features, you can click a Quick Action button to instantly use a tool.
@@ -45,6 +48,7 @@ Quick Actions are buttons at the top of the Helperbird menu that give you one-cl
 You can customize which features appear in Quick Actions so you have fast access to the tools you use most.
 
 ---
+
 
 ## Who is This For?
 
@@ -58,6 +62,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -65,6 +70,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: View Quick Actions
 
@@ -74,6 +80,7 @@ Each button represents a different feature. Default Quick Actions include Highli
 
 ---
 
+
 ## Step 3: Use a Quick Action
 
 Click any Quick Action button to use that feature immediately.
@@ -81,6 +88,7 @@ Click any Quick Action button to use that feature immediately.
 Some buttons toggle a feature on or off (like Highlight Menu). Other buttons open a panel with more options (like Text to Speech or Translate).
 
 ---
+
 
 ## Step 4: Customize Quick Actions
 
@@ -98,6 +106,7 @@ Your changes are saved automatically.
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -107,6 +116,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

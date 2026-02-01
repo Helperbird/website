@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 updated: true
 title: How to Change Link Color on Any Website
 description:
@@ -40,6 +42,7 @@ footer: true
 header: true
 ---
 
+
 ## What is Link Color?
 
 The link color feature lets you change the color of all clickable links on a website. Links are the text you click to go to other pages.
@@ -47,6 +50,7 @@ The link color feature lets you change the color of all clickable links on a web
 By default, links are often blue, but some websites use colors that are hard to see or do not stand out enough. With Helperbird, you can choose any color that makes links easier to find and read.
 
 ---
+
 
 ## Who is This For?
 
@@ -60,6 +64,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ Click the Helperbird icon in your browser toolbar. It looks like a small owl and
 This will open the Helperbird menu.
 
 ---
+
 
 ## Step 2: Open the All Features Section
 
@@ -76,6 +82,7 @@ Click the arrow next to **All Features** to expand it and show all available fea
 
 ---
 
+
 ## Step 3: Find Text Settings
 
 Look through the list of features until you see **Text settings**.
@@ -83,6 +90,7 @@ Look through the list of features until you see **Text settings**.
 It has a yellow icon with the letter "T" on it.
 
 ---
+
 
 ## Step 4: Open Text Settings
 
@@ -92,6 +100,7 @@ A panel will appear with three tabs at the top: **Text**, **Colors**, and **Bord
 
 ---
 
+
 ## Step 5: Go to the Colors Tab
 
 Click on the **Colors** tab to see all the color options.
@@ -100,6 +109,7 @@ This is where you will find the link color option along with other color setting
 
 ---
 
+
 ## Step 6: Turn on Link Color
 
 In the Colors tab, look for **Link**.
@@ -107,6 +117,7 @@ In the Colors tab, look for **Link**.
 Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
 
 ---
+
 
 ## Step 7: Choose Your Color
 
@@ -120,6 +131,7 @@ If you do not see a color you like, you can click the color picker icon to choos
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -129,6 +141,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 

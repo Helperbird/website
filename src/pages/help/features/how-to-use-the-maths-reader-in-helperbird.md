@@ -1,5 +1,7 @@
 ---
+
 new: false
+layout: templates/new/help/post-new.html
 footer: true
 header: true
 updated: true
@@ -39,6 +41,7 @@ url: help/how-to-use-the-maths-reader-in-helperbird/
 permalink: help/how-to-use-the-maths-reader-in-helperbird/
 ---
 
+
 ## What is Math Reader?
 
 Math Reader extracts math problems and equations from any webpage and opens them in Microsoft Immersive Reader. This gives you a cleaner, more focused view of the math content.
@@ -46,6 +49,7 @@ Math Reader extracts math problems and equations from any webpage and opens them
 In Immersive Reader, you can adjust text size, use text-to-speech to hear the equation read aloud, and use other reading tools.
 
 ---
+
 
 ## Who is This For?
 
@@ -59,6 +63,7 @@ This feature is helpful for:
 
 ---
 
+
 ## Step 1: Open Helperbird
 
 Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
@@ -67,6 +72,7 @@ This will open the Helperbird menu.
 
 ---
 
+
 ## Step 2: Open the All Features Section
 
 Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
@@ -74,6 +80,7 @@ Scroll down to the bottom of the Helperbird menu. You will see a section called 
 Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
+
 
 ## Step 3: Find Math Reader
 
@@ -85,6 +92,7 @@ Click on **Math Reader** to start using it.
 
 ---
 
+
 ## Step 4: Select the Math Area
 
 After clicking Math Reader, a message will appear saying **Drag to Select an Area on the Screen**.
@@ -94,6 +102,7 @@ Your cursor will change to a crosshair. Click and drag to draw a rectangle aroun
 Try to select just the math content, avoiding extra text or images.
 
 ---
+
 
 ## Step 5: View in Immersive Reader
 
@@ -110,6 +119,7 @@ The equation will automatically open in Microsoft Immersive Reader. Here you can
 
 ---
 
+
 ## Video Tutorial
 
 {% if youtubeId %}
@@ -119,6 +129,7 @@ Coming soon
 {% endif %}
 
 ---
+
 
 ## Need Additional Help?
 
