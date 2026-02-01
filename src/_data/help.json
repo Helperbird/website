@@ -6,8 +6,8 @@
 			"link": "/help/introduction/"
 		},
 		{
-			"title": "Features ",
-			"description": "This section helps you use and understand how to use and understand the Helperbird Features. Learn how to use our Sticky Notes, Immersive Reader and more.",
+			"title": "Features",
+			"description": "This section helps you understand and use the Helperbird features. Learn how to use our Sticky Notes, Immersive Reader and more.",
 			"link": "/help/features/"
 		},
 		{
@@ -29,7 +29,7 @@
 		},
 
 		{
-			"title": "Apps & Addons ",
+			"title": "Apps & Addons",
 			"description": "This section helps you use and understand some of the Helperbird apps and Add-ons. Learn how to use our PDF Reader, Google Docs & Slides Addon, Google Drive, Microsoft Word and more.",
 			"link": "/help/apps/"
 		},
@@ -39,7 +39,7 @@
 			"link": "/support/"
 		},
 		{
-			"title": "Trouble Shooting",
+			"title": "Troubleshooting",
 			"description": "Fix common Helperbird problems easily with our straightforward troubleshooting guide.",
 			"link": "/help/trouble/"
 		}

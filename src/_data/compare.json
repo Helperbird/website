@@ -133,11 +133,6 @@
 			"other": false
 		},
 		{
-			"feature": "Readability Analyzer",
-			"helperbird": true,
-			"other": true
-		},
-		{
 			"feature": "Extract text from images (OCR)",
 			"helperbird": true,
 			"other": true
@@ -240,11 +235,6 @@
 			"other": true
 		},
 		{
-			"feature": "Similar Word Checker",
-			"helperbird": false,
-			"other": true
-		},
-		{
 			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
@@ -302,11 +292,6 @@
 		},
 		{
 			"feature": "Bibliographer",
-			"helperbird": true,
-			"other": true
-		},
-		{
-			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
 		},
@@ -497,11 +482,6 @@
 			"other": false
 		},
 		{
-			"feature": "Readability Analyzer",
-			"helperbird": true,
-			"other": true
-		},
-		{
 			"feature": "Extract text from images (OCR)",
 			"helperbird": true,
 			"other": true
@@ -604,11 +584,6 @@
 			"other": true
 		},
 		{
-			"feature": "Similar Word Checker",
-			"helperbird": false,
-			"other": true
-		},
-		{
 			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
@@ -666,11 +641,6 @@
 		},
 		{
 			"feature": "Bibliographer",
-			"helperbird": true,
-			"other": true
-		},
-		{
-			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": true
 		},
@@ -861,11 +831,6 @@
 			"other": false
 		},
 		{
-			"feature": "Readability Analyzer",
-			"helperbird": true,
-			"other": false
-		},
-		{
 			"feature": "Extract text from images (OCR)",
 			"helperbird": true,
 			"other": false
@@ -968,11 +933,6 @@
 			"other": false
 		},
 		{
-			"feature": "Similar Word Checker",
-			"helperbird": false,
-			"other": false
-		},
-		{
 			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": false
@@ -1030,11 +990,6 @@
 		},
 		{
 			"feature": "Bibliographer",
-			"helperbird": true,
-			"other": false
-		},
-		{
-			"feature": "Word Prediction",
 			"helperbird": true,
 			"other": false
 		},

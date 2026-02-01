@@ -66,7 +66,7 @@
 	],
 	"basics": [
 		{
-			"description": "Learn how to use Helperbirds high contrast themes and how to apply them.",
+			"description": "Learn how to use Helperbird's high contrast themes and how to apply them.",
 			"link": "",
 			"new": false,
 			"title": "Enable high contrast mode",
@@ -87,7 +87,7 @@
 			"id": "QmFo0u4aIF4"
 		},
 		{
-			"description": "Apply a grey scale filter to your website to make it more readable.",
+			"description": "Apply a greyscale filter to your website to make it more readable.",
 			"link": "",
 			"new": false,
 			"title": "Make any website greyscale",
@@ -101,14 +101,14 @@
 			"id": "O6iawJul2Qs"
 		},
 		{
-			"description": "Annotate every website, PDFs and more with Helperbirds sticky notes. What how to use them.",
+			"description": "Annotate every website, PDFs and more with Helperbird's sticky notes. Watch how to use them.",
 			"link": "",
 			"new": false,
 			"title": "How to add sticky notes/annotate to any website",
 			"id": "u67t7Ap61Nc"
 		},
 		{
-			"description": "Some times, you want to reset everything back to the default settings. Do you know how to do it?",
+			"description": "Sometimes, you want to reset everything back to the default settings. Do you know how to do it?",
 			"link": "",
 			"new": false,
 			"title": "How to reset Helperbird",
@@ -129,7 +129,7 @@
 			"id": "TIW1DiUMVUI"
 		},
 		{
-			"description": "Change the cursor to any several different sizes, match it to your needs.",
+			"description": "Change the cursor to several different sizes to match your needs.",
 			"link": "",
 			"new": false,
 			"title": "How to change cursor size on websites ",
@@ -137,7 +137,7 @@
 		},
 
 		{
-			"description": "Helperbirds dyslexia ruler and several settings make it easy to read and write on websites.",
+			"description": "Helperbird's dyslexia ruler and several settings make it easy to read and write on websites.",
 			"link": "",
 			"new": false,
 			"title": "How to add a dyslexia ruler to any website",
@@ -165,13 +165,6 @@
 			"id": "ylAICmLakaA"
 		},
 
-		{
-			"description": "Learn how to add a greyscale filter to any website.",
-			"link": "",
-			"new": false,
-			"title": "Make any website greyscale",
-			"id": "jFdlR85Tzrg"
-		},
 		{
 			"description": "",
 			"link": "",
