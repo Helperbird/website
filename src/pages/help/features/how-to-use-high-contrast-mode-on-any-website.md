@@ -22,8 +22,6 @@ headerTags:
   ]
 tags:
   - features
-  - accessibility
-  - vision
   - Pro
 url: help/how-to-use-high-contrast-mode-on-any-website/
 permalink: help/how-to-use-high-contrast-mode-on-any-website/

@@ -22,8 +22,6 @@ headerTags:
   ]
 tags:
   - features
-  - accessibility
-  - reading
   - Pro
 url: help/how-to-use-auto-scroll-on-any-website/
 permalink: help/how-to-use-auto-scroll-on-any-website/

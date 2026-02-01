@@ -22,8 +22,6 @@ headerTags:
   ]
 tags:
   - features
-  - accessibility
-  - media
 url: help/how-to-use-volume-booster-on-any-website/
 permalink: help/how-to-use-volume-booster-on-any-website/
 date: 2025-01-27

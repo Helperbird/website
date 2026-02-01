@@ -22,8 +22,6 @@ headerTags:
   ]
 tags:
   - features
-  - accessibility
-  - reading
   - Pro
 url: help/how-to-adjust-paragraph-width-on-any-website/
 permalink: help/how-to-adjust-paragraph-width-on-any-website/
