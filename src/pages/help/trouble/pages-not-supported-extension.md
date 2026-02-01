@@ -59,8 +59,6 @@ Any page starting with **chrome://**, **edge://**, **about:**, or similar won't 
 
 Just go to any regular website and Helperbird will work normally. Only internal browser pages are restricted. If Helperbird isn't working on a normal website, contact our support team.
 
-![Helperbird working on regular websites](helperbird-working-normal.png)
-
 **Tip:** Quick way to tell if a page is internal—check if the URL starts with chrome://, edge://, or about:. If it does, extensions won't work there!
 
 ---
@@ -68,16 +66,7 @@ Just go to any regular website and Helperbird will work normally. Only internal 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-  src="https://www.youtube-nocookie.com/embed/{{youtubeId}}"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon
 {% endif %}
