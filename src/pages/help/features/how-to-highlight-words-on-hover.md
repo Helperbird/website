@@ -2,8 +2,7 @@
 new: false
 footer: true
 header: true
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Highlight Words on Hover with Helperbird
 description:
   Learn how to enable Helperbird's highlight on hover feature that adds a yellow background to
@@ -21,9 +20,12 @@ featureDescription:
 date: 2025-10-12
 headerTags:
   [
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'go-to-media-options', title: 'Go to Media Options' },
-    { tag: 'enable-highlight-word', title: 'Enable Highlight Word' },
+    { tag: 'what-is-highlight-word-on-hover', title: 'What is Highlight Word on Hover?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-highlight-word', title: 'Step 3: Find Highlight Word' },
+    { tag: 'step-4-turn-on-highlight-word', title: 'Step 4: Turn on Highlight Word' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -36,49 +38,70 @@ url: help/how-to-highlight-words-on-hover/
 permalink: help/how-to-highlight-words-on-hover/
 ---
 
-Helperbird's highlight word feature helps you stay focused while reading by adding a yellow background to whatever word your mouse is hovering over. This makes it easier to track your place on the page and follow along with the text.
+## What is Highlight Word on Hover?
+
+Highlight Word on Hover adds a colored background to any word your mouse cursor passes over. As you move your mouse across the page, each word lights up as you hover over it.
+
+This acts like a digital finger following along with your reading, making it much easier to track your place on the page.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People who lose their place while reading
+- Anyone who struggles to focus on text
+- Students reading long articles or textbooks
+- People with dyslexia or attention difficulties
+- Anyone who wants visual feedback while reading
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Media Options
-
-Scroll down through the Helperbird menu and click on **Media Options** to open the media settings panel.
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Enable Highlight Word
+## Step 2: Open the All Features Section
 
-In the Media Options panel, click on the **Hover** tab at the top. 
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
-Toggle on **Highlight Word** to activate the feature. 
+Click the arrow next to **All Features** to expand it and show all available features.
 
-Once enabled, move your mouse over any word on a webpage and it will be highlighted with a yellow background, making it easy to see exactly which word you're looking at.
+---
 
+## Step 3: Find Highlight Word
 
-**Tip:** This feature is especially helpful when reading long articles or documents. It acts like a digital finger, helping you keep your place and maintain focus as you read through the content.
+Look through the list of features until you see **Highlight word**.
+
+It has a lightbulb icon next to it.
+
+---
+
+## Step 4: Turn on Highlight Word
+
+Click the toggle switch next to **Highlight word** to turn it **on**. The toggle will turn green when it is enabled.
+
+Now move your mouse over any text on the page. Each word you hover over will be highlighted with a colored background.
+
+**Tip:** This feature works great when combined with other reading tools like the Reading Guide or text-to-speech for maximum focus.
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
-Coming soon.
+Coming soon
 {% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions about highlighting words on hover, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

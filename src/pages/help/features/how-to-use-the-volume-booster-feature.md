@@ -2,12 +2,10 @@
 new: false
 footer: true
 header: true
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Use Volume Booster in Helperbird
+updated: true
+title: How to Use Volume Booster on Any Website
 description:
-  Learn how to boost audio volume on any webpage with Helperbird's Volume Booster feature. Increase
-  volume up to 600% for videos, music, and other media content.
+  Learn how to boost audio volume on any website using Helperbird. Make quiet videos and audio louder, even beyond the normal maximum volume.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -16,14 +14,18 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Volume Booster
 featureDescription:
-  Learn how to boost audio volume on any webpage with Helperbird's Volume Booster feature. Increase
-  volume up to 600% for videos, music, and other media content.
+  Learn how to boost audio volume on any website using Helperbird. Make quiet videos and audio louder, even beyond the normal maximum volume.
 date: 2025-10-12
 headerTags:
   [
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'find-media-options', title: 'Find Media Options' },
-    { tag: 'use-volume-booster', title: 'Use Volume Booster' },
+    { tag: 'what-is-volume-booster', title: 'What is Volume Booster?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-media-options', title: 'Step 3: Find Media Options' },
+    { tag: 'step-4-open-media-options', title: 'Step 4: Open Media Options' },
+    { tag: 'step-5-turn-on-volume-booster', title: 'Step 5: Turn on Volume Booster' },
+    { tag: 'step-6-adjust-the-volume', title: 'Step 6: Adjust the Volume' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -36,48 +38,90 @@ url: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 permalink: help/how-to-use-volume-booster-on-any-website-with-helperbird/
 ---
 
-Helperbird's Volume Booster lets you increase audio volume beyond your device's maximum level, making it easier to hear videos, music, and other media on webpages.
+## What is Volume Booster?
+
+Volume Booster increases the audio volume beyond what the website normally allows. Even when a video is at maximum volume and it is still too quiet, Volume Booster can make it louder.
+
+You can increase volume up to 600% of the original level.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with hearing difficulties who need louder audio
+- Anyone watching videos that have quiet audio
+- People in noisy environments who need to hear over background noise
+- Anyone whose device speakers are too quiet
+- People who struggle to hear spoken content
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird icon in your browser toolbar to open the extension.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
+
+This will open the Helperbird menu.
 
 ---
 
-## Step 2: Find Media Options
+## Step 2: Open the All Features Section
 
-Scroll down in the list of tools to find **Media Options**. It has a picture frame icon. Click the open icon next to it.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
+
+Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
 
-## Step 3: Use Volume Booster
+## Step 3: Find Media Options
 
-The Media Options panel will open. Make sure you're on the **Media** tab at the top. Find **Volume booster** and toggle it on.
+Look through the list of features until you see **Media options**.
 
-Once enabled, use the slider to adjust the volume boost level. 
+---
 
-Drag the slider left to decrease or right to increase the volume. The percentage shows your current boost level. You can boost volume up to 600% of the original level.
+## Step 4: Open Media Options
 
-The volume change applies immediately to any playing media on the page.
+Click on **Media options** to open it.
 
-*Tip:* Be cautious with high volume levels, especially when using headphones, as they can harm your hearing. Start with a lower boost and gradually increase if needed.
+A panel will appear showing the media-related settings you can adjust.
+
+---
+
+## Step 5: Turn on Volume Booster
+
+In the Media options panel, look for **Volume booster**.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Adjust the Volume
+
+Once Volume booster is turned on, a slider will appear below the toggle.
+
+Drag the slider to the right to increase the volume. The percentage shows how much the volume is boosted above the normal maximum.
+
+- 100% means normal maximum volume
+- 200% means twice as loud as normal
+- 600% means six times as loud as normal
+
+The volume change applies immediately to any audio or video on the page.
+
+**Warning:** Be careful with very high volume levels, especially when using headphones. Very loud audio can damage your hearing. Start with a small increase and gradually adjust until you can hear comfortably.
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
-Coming soon.
+Coming soon
 {% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions about Volume Booster, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

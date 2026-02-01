@@ -2,12 +2,10 @@
 new: false
 footer: true
 header: true
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Use Voice Typing in Helperbird
+updated: true
+title: How to Use Voice Typing (Speech to Text) on Any Website
 description:
-  Learn how to use Helperbird's Voice Typing feature to dictate text on any website. Speak your
-  thoughts and let Helperbird transcribe them into written text.
+  Learn how to use Helperbird's Voice Typing feature to speak and have your words typed out. Perfect for hands-free writing, dictation, or when typing is difficult.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -16,14 +14,18 @@ keywords:
 youtubeId: vwT8SAJfU3E
 cardTitle: Voice Typing
 featureDescription:
-  Learn how to use Helperbird's Voice Typing feature to dictate text on any website. Speak your
-  thoughts and let Helperbird transcribe them into written text.
+  Learn how to use Helperbird's Voice Typing feature to speak and have your words typed out. Perfect for hands-free writing, dictation, or when typing is difficult.
 date: 2025-10-12
 headerTags:
   [
-    { tag: 'open-helperbird', title: 'Open Helperbird' },
-    { tag: 'go-to-voice-typing', title: 'Go to Voice Typing' },
-    { tag: 'use-voice-typing', title: 'Use Voice Typing' },
+    { tag: 'what-is-voice-typing', title: 'What is Voice Typing?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
+    { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
+    { tag: 'step-2-go-to-the-all-features-section', title: 'Step 2: Go to the All Features Section' },
+    { tag: 'step-3-find-voice-typing', title: 'Step 3: Find Voice Typing' },
+    { tag: 'step-4-select-your-language', title: 'Step 4: Select Your Language' },
+    { tag: 'step-5-start-speaking', title: 'Step 5: Start Speaking' },
+    { tag: 'step-6-use-your-text', title: 'Step 6: Use Your Text' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -36,60 +38,96 @@ url: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 permalink: help/how-to-use-speech-to-text-or-dictation-on-any-website/
 ---
 
-Helperbird's Voice Typing feature lets you speak instead of type, converting your words into text on any website. Perfect for hands-free writing or when you want to capture your thoughts quickly.
+## What is Voice Typing?
+
+Voice Typing (also called Speech to Text or Dictation) lets you speak into your microphone and have your words automatically typed out as text. Instead of typing on a keyboard, you just talk.
+
+Helperbird converts your speech into written text that you can then copy and paste wherever you need it.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with dyslexia who find typing difficult
+- Anyone with motor difficulties that make typing hard
+- People who think better when speaking than writing
+- Students who want to take notes quickly
+- Anyone who wants to write hands-free
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird icon in your browser toolbar to open the extension.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Voice Typing
-
-In the list of tools, find **Voice Typing** and click the open icon next to it.
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Use Voice Typing
+## Step 2: Go to the All Features Section
 
-A Voice Typing panel will open with several options:
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
-**Speed dropdown**: Choose between Normal, Fast, or Slow dictation speeds to match your speaking pace.
+Click the arrow next to **All Features** to expand it and show all available features.
 
-**Text box**: Your spoken words appear here as you dictate.
+---
 
-**Language selector**: Choose which language you're speaking from the dropdown menu.
+## Step 3: Find Voice Typing
 
-**Microphone button** (pink): Click to start recording your voice. Speak clearly into your microphone and your words will appear in the text box. Click again to stop recording.
+Look through the list of features until you see **Voice Typing**.
 
-**Grammar/Spell Check button**: Automatically checks and corrects your dictated text.
+Click on **Voice Typing** to open it.
 
-**Options button**: Access additional settings for voice typing.
+A panel will appear with a text box and recording controls.
 
-**Listen button**: Plays back your dictated text using text-to-speech.
+---
 
-**Copy button**: Copies your dictated text to the clipboard so you can paste it anywhere.
+## Step 4: Select Your Language
 
+Before you start speaking, choose your language from the dropdown menu in the panel.
 
-**Tip:** Speak punctuation marks like "comma," "period," or "question mark" to add them to your text. If you make a mistake, you can either use the Grammar/Spell Check feature or manually edit the text before copying it.
+This tells Helperbird which language you will be speaking so it can recognize your words correctly.
+
+---
+
+## Step 5: Start Speaking
+
+Click the microphone button to start recording. The button may turn pink or show an active indicator.
+
+Speak clearly into your microphone. As you talk, your words will appear in the text box.
+
+When you are done speaking, click the microphone button again to stop recording.
+
+You can also:
+
+- Click **Grammar/Spell Check** to fix any errors in your dictated text
+- Click **Listen** to hear your text read back to you
+- Adjust the speed setting to match how fast you speak
+
+**Tip:** To add punctuation, you can say the punctuation mark out loud. For example, say "Hello comma how are you question mark" to get "Hello, how are you?"
+
+---
+
+## Step 6: Use Your Text
+
+Once you are happy with your text, click the **Copy** button to copy it to your clipboard.
+
+You can then paste the text anywhere you need it, such as into an email, document, or form field.
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
-Coming soon.
+Coming soon
 {% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions about Voice Typing, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

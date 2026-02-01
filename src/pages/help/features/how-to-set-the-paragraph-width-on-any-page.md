@@ -1,7 +1,6 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Adjust Paragraph Width on Websites
 description:
   Learn how to adjust paragraph width on web pages using Helperbird for a more comfortable reading experience.
@@ -15,9 +14,14 @@ permalink: help/how-to-set-the-paragraph-width-on-any-page/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-paragraph-width', title: 'What is Paragraph Width?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-adjust-paragraph-width', title: 'Step 3: Adjust Paragraph Width' },
+    { tag: 'step-2-go-to-the-all-features-section', title: 'Step 2: Go to the All Features Section' },
+    { tag: 'step-3-find-text-settings', title: 'Step 3: Find Text Settings' },
+    { tag: 'step-4-open-the-border-tab', title: 'Step 4: Open the Border Tab' },
+    { tag: 'step-5-turn-on-width', title: 'Step 5: Turn on Width' },
+    { tag: 'step-6-adjust-the-width', title: 'Step 6: Adjust the Width' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -35,32 +39,73 @@ footer: true
 header: true
 ---
 
-Adjusting paragraph width helps you focus on text by narrowing or widening how much content appears on each line, making reading feel more natural.
+## What is Paragraph Width?
+
+Paragraph Width controls how wide the text appears on a webpage. Instead of text stretching all the way across the screen, you can make paragraphs narrower so your eyes do not have to travel as far from line to line.
+
+Narrower text is often easier and more comfortable to read.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People who find wide text blocks tiring to read
+- Anyone who loses their place on long lines
+- Students reading on wide monitors
+- People with dyslexia who benefit from shorter line lengths
+- Anyone who wants a more comfortable reading experience
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Reading Options
-
-In the list of tools, find **Reading Options** and click the open icon next to it.
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Adjust Paragraph Width
+## Step 2: Go to the All Features Section
 
-In the Reading Options panel:
-1. Go to the **Border** tab.
-2. Toggle **Width** **on**.
-3. Use the **slider** to adjust the width—slide left to narrow paragraphs or right to widen them until it feels just right.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
+---
+
+## Step 3: Find Text Settings
+
+Look through the list of features until you see **Text settings**.
+
+Click on **Text settings** to open it.
+
+A panel will appear with several tabs at the top.
+
+---
+
+## Step 4: Open the Border Tab
+
+At the top of the Text settings panel, you will see tabs like Text, Colors, and Border.
+
+Click on the **Border** tab.
+
+---
+
+## Step 5: Turn on Width
+
+In the Border tab, find **Width** with a toggle switch next to it.
+
+Click the toggle to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Adjust the Width
+
+After turning on Width, a slider will appear.
+
+Move the slider left to make paragraphs narrower, or right to make them wider.
 
 **Tip:** Try setting paragraphs to around 60-80% width for easier eye tracking and less strain during long reading sessions.
 
@@ -78,4 +123,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

@@ -1,7 +1,6 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Add Sticky Notes to Websites
 description:
   Learn how to use Helperbird's Sticky Notes to add reminders and annotations directly on web pages and PDFs.
@@ -13,9 +12,13 @@ permalink: help/how-to-annotate-any-website-with-sticky-notes/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-are-sticky-notes', title: 'What are Sticky Notes?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-create-a-sticky-note', title: 'Step 2: Create a Sticky Note' },
-    { tag: 'step-3-customize-your-note', title: 'Step 3: Customize Your Note' },
+    { tag: 'step-2-go-to-the-all-features-section', title: 'Step 2: Go to the All Features Section' },
+    { tag: 'step-3-find-sticky-note', title: 'Step 3: Find Sticky Note' },
+    { tag: 'step-4-create-a-sticky-note', title: 'Step 4: Create a Sticky Note' },
+    { tag: 'step-5-customize-your-note', title: 'Step 5: Customize Your Note' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -34,34 +37,70 @@ footer: true
 header: true
 ---
 
-Sticky Notes let you add digital notes to any website or PDF, perfect for jotting down reminders, ideas, or important information right where you need it.
+## What are Sticky Notes?
+
+Sticky Notes let you add digital notes to any website or PDF. They work just like real sticky notes that you would put on a document, except they stay attached to the webpage.
+
+You can add titles, write content, and use different colors to organize your notes.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- Students who want to take notes while reading online
+- Researchers who need to annotate web articles
+- Anyone who wants to save reminders on specific web pages
+- People who learn better by writing things down
+- Anyone who needs to organize information from websites
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Create a Sticky Note
-
-In the Quick Actions area at the top, click the **Sticky note** icon. A new sticky note will appear on the page.
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Customize Your Note
+## Step 2: Go to the All Features Section
+
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
+
+Click the arrow next to **All Features** to expand it and show all available features.
+
+---
+
+## Step 3: Find Sticky Note
+
+Look through the list of features until you see **Sticky note**.
+
+It has a note icon next to it.
+
+---
+
+## Step 4: Create a Sticky Note
+
+Click the **plus (+)** button next to **Sticky note**.
+
+A new sticky note will appear on the page. You can drag it to any position on the webpage.
+
+---
+
+## Step 5: Customize Your Note
 
 On your sticky note:
-1. Click the **Title** field and add a title for your note.
-2. Click in the text area below to write your note content.
-3. Choose a **color** from the palette at the bottom to change the note's appearance.
-4. Click the **X** in the corner when you're done to delete it.
 
+1. Click the **Title** field at the top and add a title for your note
+2. Click in the text area below to write your note content
+3. Choose a **color** from the palette at the bottom to change the note's appearance
+4. Click the **X** in the corner when you want to delete it
 
-**Tip:** You can create multiple sticky notes on the same page and use different colors to organize them by category or priority.
+You can create multiple sticky notes on the same page. Use different colors to organize them by category or priority.
+
+**Tip:** Your sticky notes are saved and will appear again when you revisit the same webpage.
 
 ---
 
@@ -77,4 +116,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's annotation tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make note-taking easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

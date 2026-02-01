@@ -1,23 +1,27 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Adjust Word Spacing on Websites
+updated: true
+title: How to Change Word Spacing on Any Website
 description:
-  Learn how to adjust word spacing on web pages using Helperbird for easier reading and improved text clarity.
+  Learn how to increase the space between words on any website using Helperbird. Word spacing makes text easier to read by giving each word more breathing room.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic, word spacing, text spacing, adjust spacing
+  OpenDyslexic, word spacing, text spacing, adjust spacing, reading accessibility
 url: help/how-to-change-the-word-spacing-on-any-website/
 permalink: help/how-to-change-the-word-spacing-on-any-website/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-word-spacing', title: 'What is Word Spacing?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-adjust-word-spacing', title: 'Step 3: Adjust Word Spacing' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-text-settings', title: 'Step 3: Find Text Settings' },
+    { tag: 'step-4-open-text-settings', title: 'Step 4: Open Text Settings' },
+    { tag: 'step-5-turn-on-word-spacing', title: 'Step 5: Turn on Word Spacing' },
+    { tag: 'step-6-adjust-the-spacing', title: 'Step 6: Adjust the Spacing' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -28,41 +32,84 @@ tags:
 img: assets/images2/uploads/add-a-heading.png
 date: 2022-11-02
 youtubeId: vwT8SAJfU3E
-cardTitle: Word spacing
+cardTitle: Word Spacing
 featureDescription:
-  Learn how to adjust word spacing on web pages using Helperbird for easier reading and improved text clarity.
+  Learn how to increase the space between words on any website using Helperbird. Word spacing makes text easier to read by giving each word more breathing room.
 footer: true
 header: true
 ---
 
-Adjusting word spacing improves readability by increasing or decreasing the space between words to match your reading comfort.
+## What is Word Spacing?
+
+Word spacing adds extra space between each word in the text. Instead of words being close together, they are spread out more.
+
+For example, "The quick brown fox" with increased word spacing would have larger gaps between each word, making it easier to see where one word ends and the next begins.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with dyslexia who find words blending together
+- Anyone who loses their place while reading
+- People with visual processing difficulties
+- Students reading dense paragraphs of text
+- Anyone who finds it hard to distinguish between words
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Reading Options
-
-In the list of tools, find **Reading Options** and click the open icon next to it.
-
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Adjust Word Spacing
+## Step 2: Open the All Features Section
 
-In the Reading Options panel:
-1. Go to the **Text** tab.
-2. Toggle **Word spacing** **on**.
-3. Use the **slider** below to adjust the spacing until it feels comfortable.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
-**Tip:** Start with a small increase and fine-tune until words are easy to distinguish without feeling too spread out.
+---
+
+## Step 3: Find Text Settings
+
+Look through the list of features until you see **Text settings**.
+
+It has a yellow icon with the letter "T" on it.
+
+---
+
+## Step 4: Open Text Settings
+
+Click on **Text settings** to open it.
+
+A panel will appear with three tabs at the top: **Text**, **Colors**, and **Border**.
+
+Make sure the **Text** tab is selected. This is where you will find the word spacing option.
+
+---
+
+## Step 5: Turn on Word Spacing
+
+In the Text tab, scroll down until you see **Word spacing**.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Adjust the Spacing
+
+Once Word spacing is turned on, a slider will appear below the toggle.
+
+Drag the slider to the right to increase the space between words. Drag it to the left to decrease the spacing.
+
+The changes will apply to the website immediately, so you can see the effect as you adjust the slider.
+
+**Tip:** Word spacing works well when combined with letter spacing and line height. Try adjusting all three together to find your perfect reading setup.
 
 ---
 
@@ -78,4 +125,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

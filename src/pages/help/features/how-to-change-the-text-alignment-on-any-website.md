@@ -1,10 +1,9 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Adjust Text Alignment on Websites
+updated: true
+title: How to Change Text Alignment on Any Website
 description:
-  Learn how to adjust text alignment on web pages using Helperbird for a more comfortable reading experience.
+  Learn how to change text alignment on any website using Helperbird. Choose between left, center, right, or justified text to find what works best for you.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,9 +14,15 @@ permalink: help/how-to-change-the-text-alignment-on-any-website/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-text-alignment', title: 'What is Text Alignment?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-adjust-text-alignment', title: 'Step 3: Adjust Text Alignment' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-text-settings', title: 'Step 3: Find Text Settings' },
+    { tag: 'step-4-open-text-settings', title: 'Step 4: Open Text Settings' },
+    { tag: 'step-5-turn-on-text-alignment', title: 'Step 5: Turn on Text Alignment' },
+    { tag: 'step-6-choose-your-alignment', title: 'Step 6: Choose Your Alignment' },
+    { tag: 'alignment-options', title: 'Alignment Options' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -30,40 +35,94 @@ date: 2022-04-02
 youtubeId: vwT8SAJfU3E
 cardTitle: Text Alignment
 featureDescription:
-  Learn how to adjust text alignment on web pages using Helperbird for a more comfortable reading experience.
+  Learn how to change text alignment on any website using Helperbird. Choose between left, center, right, or justified text to find what works best for you.
 footer: true
 header: true
 ---
 
-Adjusting text alignment helps you read more comfortably by choosing how text is positioned on the page—left, center, right, or justified.
+## What is Text Alignment?
+
+Text alignment controls how text is positioned horizontally on the page. You can align text to the left edge, center it, align it to the right edge, or justify it so both edges are even.
+
+Different alignment styles can make reading easier depending on your preferences and the type of content you are reading.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People who find left-aligned text easier to track
+- Anyone who prefers a specific text layout
+- People with dyslexia who may find certain alignments easier to read
+- Students who want consistent formatting across different websites
+- Anyone who finds justified text creates uneven spacing that is hard to read
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Reading Options
-
-In the list of tools, find **Reading Options** and click the open icon next to it.
-
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Adjust Text Alignment
+## Step 2: Open the All Features Section
 
-In the Reading Options panel:
-1. Go to the **Text** tab.
-2. Toggle **Text Align** **on**.
-3. Choose your preferred alignment: **Left**, **Center**, **Right**, or **Justify**.
-4. The text will immediately align according to your selection.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
-**Tip:** Left alignment is easiest for most readers, while justified text creates clean edges on both sides.
+---
+
+## Step 3: Find Text Settings
+
+Look through the list of features until you see **Text settings**.
+
+It has a yellow icon with the letter "T" on it.
+
+---
+
+## Step 4: Open Text Settings
+
+Click on **Text settings** to open it.
+
+A panel will appear with three tabs at the top: **Text**, **Colors**, and **Border**.
+
+Make sure the **Text** tab is selected. This is where you will find the text alignment option.
+
+---
+
+## Step 5: Turn on Text Alignment
+
+In the Text tab, scroll down until you see **Text align**.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Choose Your Alignment
+
+Once Text align is turned on, four alignment buttons will appear below the toggle.
+
+Click on the alignment style you prefer. The text on the website will immediately change to match your selection.
+
+---
+
+## Alignment Options
+
+Helperbird offers four text alignment options:
+
+- **Left** – Text aligns to the left edge. This is the most common and often easiest to read because your eye always returns to the same starting point.
+
+- **Center** – Text is centered in the middle. This works well for headings or short text but can be harder to read for long paragraphs.
+
+- **Right** – Text aligns to the right edge. This is less common for reading but can be useful for certain layouts.
+
+- **Justify** – Text stretches to align with both the left and right edges. This creates clean margins but can cause uneven spacing between words that some people find distracting.
+
+**Tip:** Most people find left-aligned text easiest to read because each line starts at the same place. If you have dyslexia, avoid justified text as the uneven word spacing can make reading harder.
 
 ---
 
@@ -79,4 +138,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

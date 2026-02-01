@@ -1,20 +1,24 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Zoom In and Out on Websites
+updated: true
+title: How to Zoom In and Magnify Any Website
 description:
-  Learn how to use Helperbird's Zoom feature to magnify web pages for easier reading and better visibility.
-keywords: 
+  Learn how to zoom in and magnify any website using Helperbird. Make text and images larger for easier reading and better visibility.
+keywords:
   Helperbird, magnify, zoom, website, browser extension, text, images, feature, accessibility, magnifier, page zoom
 url: help/how-to-adjust-zoom-magnifying-for-any-website/
 permalink: help/how-to-adjust-zoom-magnifying-for-any-website/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-zoom', title: 'What is Zoom?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-display-options', title: 'Step 2: Go to Display Options' },
-    { tag: 'step-3-adjust-zoom-level', title: 'Step 3: Adjust Zoom Level' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-display-options', title: 'Step 3: Find Display Options' },
+    { tag: 'step-4-open-display-options', title: 'Step 4: Open Display Options' },
+    { tag: 'step-5-turn-on-zoom', title: 'Step 5: Turn on Zoom' },
+    { tag: 'step-6-adjust-the-zoom-level', title: 'Step 6: Adjust the Zoom Level' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -27,36 +31,80 @@ date: 2022-12-01
 youtubeId: vwT8SAJfU3E
 cardTitle: Magnifier
 featureDescription:
-  Learn how to use Helperbird's Zoom feature to magnify web pages for easier reading and better visibility.
+  Learn how to zoom in and magnify any website using Helperbird. Make text and images larger for easier reading and better visibility.
 footer: true
 header: true
 ---
 
-The Zoom feature lets you magnify web pages to make text and images larger or smaller, helping you read more comfortably.
+## What is Zoom?
+
+The Zoom feature magnifies the entire webpage, making everything larger. Text, images, buttons, and all other content get bigger so you can see them more easily.
+
+You can set the zoom level to any percentage you prefer, from making things smaller to making them much larger.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with low vision who need larger text and images
+- Anyone who finds website text too small to read
+- People using small screens or sitting far from their monitor
+- Anyone who experiences eye strain from squinting at small content
+- People who want more control over how websites appear
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
+
+This will open the Helperbird menu.
 
 ---
 
-## Step 2: Go to Display Options
+## Step 2: Open the All Features Section
 
-Scroll down in the list of tools, find **Display Options** and click the open icon next to it.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
+
+Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
 
-## Step 3: Adjust Zoom Level
+## Step 3: Find Display Options
 
-In the Display Options panel:
-1. Toggle **Zoom** **on**.
-2. Use the **slider** to adjust your zoom level—slide right to zoom in (magnify) or left to zoom out (shrink).
-3. The percentage shows your current zoom level.
+Look through the list of features until you see **Display options**.
 
+---
 
-**Tip:** Set zoom to 150-200% for easier reading of small text, or reduce it below 100% to see more content on your screen at once.
+## Step 4: Open Display Options
+
+Click on **Display options** to open it.
+
+A panel will appear showing various display settings you can adjust.
+
+---
+
+## Step 5: Turn on Zoom
+
+In the Display options panel, look for **Zoom**.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Adjust the Zoom Level
+
+Once Zoom is turned on, a slider will appear below the toggle.
+
+Drag the slider to the right to zoom in and make the page larger. Drag it to the left to zoom out and make the page smaller.
+
+A percentage number will show you the current zoom level. 100% is normal size, 150% is half again as large, 200% is twice as large, and so on.
+
+The zoom applies immediately so you can see the change right away.
+
+**Tip:** Most people find 125% to 175% comfortable for everyday reading. If you need even larger text, you can combine zoom with the font size feature for maximum enlargement.
 
 ---
 
@@ -72,4 +120,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's display features, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

@@ -2,8 +2,7 @@
 new: false
 footer: true
 header: true
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Add Text Boxes to PDFs in Helperbird
 description:
   Learn how to add text boxes and annotations to any PDF using Helperbird's PDF Reader. Write notes,
@@ -21,10 +20,12 @@ featureDescription:
 date: 2025-10-12
 headerTags:
   [
-    { tag: 'open-pdf-in-helperbird', title: 'Open PDF in Helperbird' },
-    { tag: 'enable-annotation-mode', title: 'Enable Annotation Mode' },
-    { tag: 'add-text-boxes', title: 'Add Text Boxes' },
-    { tag: 'download-annotated-pdf', title: 'Download Annotated PDF' },
+    { tag: 'what-are-pdf-annotations', title: 'What are PDF Annotations?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
+    { tag: 'step-1-open-a-pdf-in-helperbird', title: 'Step 1: Open a PDF in Helperbird' },
+    { tag: 'step-2-enable-annotation-mode', title: 'Step 2: Enable Annotation Mode' },
+    { tag: 'step-3-add-text-boxes', title: 'Step 3: Add Text Boxes' },
+    { tag: 'step-4-download-your-annotated-pdf', title: 'Step 4: Download Your Annotated PDF' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -37,57 +38,65 @@ url: help/how-to-add-text-boxes-to-pdf-with-helperbird/
 permalink: help/how-to-add-text-boxes-to-pdf-with-helperbird/
 ---
 
-Helperbird's PDF Reader lets you add text boxes and annotations directly to any PDF. Write notes, add comments, and save your annotated PDF to download or share.
+## What are PDF Annotations?
+
+PDF Annotations let you add text boxes directly onto PDF documents. You can write notes, add comments, or fill in forms. The annotations become part of the PDF and can be saved and shared.
 
 ---
 
-## Step 1: Open PDF in Helperbird
+## Who is This For?
 
-When viewing any PDF in your browser, look for the green button that says "Open PDF in Helperbird - Click to Open" or "Open this PDF in Helperbird". Click this button.
+This feature is helpful for:
 
-The PDF will open in Helperbird's PDF Reader with a clean interface showing the document and navigation tools at the top.
+- Students who want to add notes to study materials
+- Anyone who needs to fill out PDF forms
+- People who want to add comments to documents for review
+- Researchers who need to annotate academic papers
+- Anyone who wants to mark up PDF documents
 
+---
 
+## Step 1: Open a PDF in Helperbird
+
+When you view any PDF in your browser, look for the green button that says **"Open PDF in Helperbird - Click to Open"** at the bottom of the page.
+
+Click this button.
+
+The PDF will open in Helperbird's PDF Reader with a clean interface and navigation tools at the top.
 
 ---
 
 ## Step 2: Enable Annotation Mode
 
-In the toolbar at the top of the PDF Reader, click the pen icon to activate **Annotation Mode**. 
+In the toolbar at the top of the PDF Reader, click the **pen icon** to activate Annotation Mode.
 
-When annotation mode is active, you'll see "Annotation Mode" displayed in pink below the toolbar, and a message saying "Click anywhere on the page to add a text box" will appear at the top of the document.
-
+When annotation mode is active, you will see "Annotation Mode" displayed in pink below the toolbar. A message will also appear saying "Click anywhere on the page to add a text box".
 
 ---
 
 ## Step 3: Add Text Boxes
 
-Click anywhere on the PDF page where you want to add a text box. A white text box will appear at that location.
+Click anywhere on the PDF page where you want to add a text box.
 
-Type your text inside the box. The text box will expand as you type. You can add as many text boxes as you need by clicking different areas of the PDF.
+A white text box will appear at that location. Type your text inside the box. The text box will expand as you type.
 
----
-
-## Step 4: Access Download Options
-
-When you're finished adding your annotations, click the **Download PDF** button (download icon with arrow) in the toolbar at the top.
-
-An Options menu will appear with three download choices:
-
-- **Download Note**: Save just your annotations as a separate file
-- **Download PDF**: Download the original PDF without any annotations
-- **Download PDF with Annotations**: Download the PDF with all your text boxes included
-
-![Options menu showing three download choices](Screenshot_2025-10-12_at_11_45_12_AM.png)
+You can add as many text boxes as you need by clicking different areas of the PDF.
 
 ---
 
-## Step 5: Download Your Annotated PDF
+## Step 4: Download Your Annotated PDF
 
-Click **Download PDF with Annotations**. A green notification will appear confirming "PDF downloaded with annotations".
+When you are finished adding your annotations, click the **Download PDF** button (download icon with arrow) in the toolbar at the top.
 
-Your browser will download the annotated PDF. The file will include all your text boxes permanently embedded in the document. You can now share this annotated PDF with others.
+An Options menu will appear with three choices:
 
+- **Download Note** – Save just your annotations as a separate file
+- **Download PDF** – Download the original PDF without any annotations
+- **Download PDF with Annotations** – Download the PDF with all your text boxes included
+
+Click **Download PDF with Annotations**.
+
+A green notification will confirm "PDF downloaded with annotations". Your browser will download the annotated PDF with all your text boxes permanently embedded.
 
 **Tip:** Your annotations are saved as part of the PDF, so anyone who opens the file in any PDF reader will see your text boxes. This makes it perfect for adding comments, notes, or feedback to documents.
 
@@ -96,15 +105,13 @@ Your browser will download the annotated PDF. The file will include all your tex
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-square rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
-Coming soon.
+Coming soon
 {% endif %}
 
 ---
 
 ## Need Additional Help?
 
-If you run into any issues or have questions about PDF annotations, reach out to our friendly [Helperbird support team](/support/), and we'll be happy to help!
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

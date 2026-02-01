@@ -1,7 +1,6 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Auto Scroll on Websites
 description:
   Learn how to use Helperbird's Auto Scroll feature for hands-free reading that scrolls at your preferred speed.
@@ -15,9 +14,14 @@ permalink: help/how-to-auto-scroll-on-any-website-or-app/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-auto-scroll', title: 'What is Auto Scroll?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-activate-auto-scroll', title: 'Step 3: Activate Auto Scroll' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-tools', title: 'Step 3: Find Tools' },
+    { tag: 'step-4-open-tools', title: 'Step 4: Open Tools' },
+    { tag: 'step-5-turn-on-auto-scroll', title: 'Step 5: Turn on Auto Scroll' },
+    { tag: 'step-6-adjust-the-speed', title: 'Step 6: Adjust the Speed' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -35,28 +39,78 @@ footer: true
 header: true
 ---
 
-Auto Scroll lets the page scroll automatically at a steady pace, perfect for hands-free reading or following along with long articles.
+## What is Auto Scroll?
+
+Auto Scroll makes the page scroll automatically at a steady pace. Instead of manually scrolling with your mouse or keyboard, the page moves down on its own.
+
+You can adjust the speed to match how fast you read.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People who want hands-free reading
+- Anyone with motor difficulties that make scrolling hard
+- People who want to focus on reading without interruptions
+- Students reading long articles or documents
+- Anyone who prefers a consistent reading pace
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
+
+This will open the Helperbird menu.
 
 ---
 
-## Step 2: Go to Reading Options
+## Step 2: Open the All Features Section
 
-In the list of tools, find **Reading Options** and click the open icon next to it.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
+
+Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
 
-## Step 3: Activate Auto Scroll
+## Step 3: Find Tools
 
-In the Reading Options panel, find **Auto scroll** at the bottom of the list and click on it to start automatic scrolling.
+Look through the list of features until you see **Tools**.
 
+---
 
-**Tip:** If the page is scrolling too fast or too slow, you can usually adjust the speed using browser controls or by clicking Auto scroll again to access speed settings.
+## Step 4: Open Tools
+
+Click on **Tools** to open it.
+
+A panel will appear showing various tools you can use.
+
+---
+
+## Step 5: Turn on Auto Scroll
+
+In the Tools panel, look for **Auto scroll**.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+The page will immediately start scrolling down automatically.
+
+---
+
+## Step 6: Adjust the Speed
+
+Once Auto scroll is turned on, a slider will appear below the toggle.
+
+Drag the slider to adjust how fast the page scrolls:
+
+- Slide to the left to scroll slower
+- Slide to the right to scroll faster
+
+Find a speed that matches your comfortable reading pace.
+
+**Tip:** Start with a slower speed and increase it as you get used to auto-scrolling. You can click anywhere on the page or press any key to pause the scrolling temporarily.
 
 ---
 
@@ -72,4 +126,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

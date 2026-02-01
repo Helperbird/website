@@ -1,23 +1,27 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Adjust Text Size on Websites
+updated: true
+title: How to Change the Font Size on Any Website
 description:
-  Learn how to adjust the text size on web pages using Helperbird for better readability and comfort.
+  Learn how to increase or decrease the font size on any website using Helperbird. Make text larger for easier reading or smaller to fit more content on screen.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
   Helperbird for Edge, Helperbird for Firefox, Helperbird for Chrome, Opendyslexic for Chrome,
-  OpenDyslexic, font size, text size, increase text size, larger text
+  OpenDyslexic, font size, text size, increase text size, larger text, bigger text
 url: help/how-to-change-the-font-size-on-any-website/
 permalink: help/how-to-change-the-font-size-on-any-website/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-the-font-size-feature', title: 'What is the Font Size Feature?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-adjust-the-text-size', title: 'Step 3: Adjust the Text Size' },
+    { tag: 'step-2-open-the-all-features-section', title: 'Step 2: Open the All Features Section' },
+    { tag: 'step-3-find-text-settings', title: 'Step 3: Find Text Settings' },
+    { tag: 'step-4-open-text-settings', title: 'Step 4: Open Text Settings' },
+    { tag: 'step-5-turn-on-font-size', title: 'Step 5: Turn on Font Size' },
+    { tag: 'step-6-adjust-the-size', title: 'Step 6: Adjust the Size' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -28,40 +32,84 @@ tags:
 img: assets/images2/uploads/add-a-heading.png
 date: 2020-01-03
 youtubeId: vwT8SAJfU3E
-cardTitle: Font size
+cardTitle: Font Size
 featureDescription:
-  Learn how to adjust the text size on web pages using Helperbird for better readability and comfort.
+  Learn how to increase or decrease the font size on any website using Helperbird. Make text larger for easier reading or smaller to fit more content on screen.
 footer: true
 header: true
 ---
 
-Adjusting text size makes web pages easier to read by increasing or decreasing the font size to suit your comfort level.
+## What is the Font Size Feature?
+
+Helperbird lets you change the size of text on any website. You can make text larger if it is too small to read comfortably, or make it smaller if you prefer more compact text.
+
+The size change applies to all text on the page instantly. You can adjust it using a simple slider to find the perfect size for you.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with low vision who need larger text
+- Anyone who finds website text too small to read comfortably
+- People who get eye strain from reading small text
+- Students reading long articles or documents online
+- Anyone who wants more control over how websites look
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Reading Options
-
-In the list of tools, find **Reading Options** and click the open icon next to it.
-
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Adjust the Text Size
+## Step 2: Open the All Features Section
 
-In the Reading Options panel:
-1. Go to the **Text** tab.
-2. Toggle **Text size** **on**.
-3. Use the **slider** below to adjust the size until text feels comfortable to read.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
-**Tip:** Test different sizes on various websites to find what works best for you.
+---
+
+## Step 3: Find Text Settings
+
+Look through the list of features until you see **Text settings**.
+
+It has a yellow icon with the letter "T" on it.
+
+---
+
+## Step 4: Open Text Settings
+
+Click on **Text settings** to open it.
+
+A panel will appear with three tabs at the top: **Text**, **Colors**, and **Border**.
+
+Make sure the **Text** tab is selected. This is where you will find the font size option.
+
+---
+
+## Step 5: Turn on Font Size
+
+In the Text tab, look for **Font size**. It has a yellow icon with an "A+" symbol.
+
+Click the toggle switch next to it to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 6: Adjust the Size
+
+Once Font size is turned on, a slider will appear below the toggle.
+
+Drag the slider to the right to make text larger, or drag it to the left to make text smaller.
+
+The changes will apply to the website immediately, so you can see the effect as you adjust the slider.
+
+**Tip:** Start with a small adjustment and keep increasing until the text feels comfortable to read. Everyone has different preferences, so take your time to find the size that works best for you.
 
 ---
 
@@ -77,4 +125,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

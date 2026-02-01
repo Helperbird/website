@@ -1,10 +1,9 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
-title: How to Highlight any Text on Websites
+updated: true
+title: How to Highlight Text on Any Website
 description:
-  Learn how to highlight text on web pages using Helperbird's highlighter tool for easier studying and reference.
+  Learn how to highlight text on any website using Helperbird. Mark important information with different colors to help with studying and reference.
 keywords:
   Dyslexia software, Reading Mode for Google Chrome, Voice typing for chrome, Text to speech for
   chrome, text reader, Immersive Reader, dyslexia fonts, accessibility software, dyslexia software,
@@ -15,10 +14,13 @@ permalink: help/how-to-highlight-words-and-paragraphs-on-any-website/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-is-the-highlighter', title: 'What is the Highlighter?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-turn-on-highlighter', title: 'Step 2: Turn On Highlighter' },
+    { tag: 'step-2-go-to-the-all-features-section', title: 'Step 2: Go to the All Features Section' },
     { tag: 'step-3-enable-the-highlight-menu', title: 'Step 3: Enable the Highlight Menu' },
-    { tag: 'step-4-highlight-text-on-pages', title: 'Step 4: Highlight Text on Pages' },
+    { tag: 'step-4-select-text-to-highlight', title: 'Step 4: Select Text to Highlight' },
+    { tag: 'step-5-choose-a-color', title: 'Step 5: Choose a Color' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -31,44 +33,76 @@ date: 2020-01-05
 youtubeId: vwT8SAJfU3E
 cardTitle: Highlighter
 featureDescription:
-  Learn how to highlight text on web pages using Helperbird's highlighter tool for easier studying and reference.
+  Learn how to highlight text on any website using Helperbird. Mark important information with different colors to help with studying and reference.
 footer: true
 header: true
 ---
 
-The highlighter tool lets you mark important text on web pages with different colors, making it easy to study and reference information later.
+## What is the Highlighter?
+
+The Highlighter lets you mark text on any website with colored highlights, just like using a highlighter pen on paper. The highlights stay visible while you are on the page.
+
+You can use different colors to organize information or mark important points.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- Students studying and taking notes from online content
+- Anyone who wants to mark important information while reading
+- People doing research who need to track key points
+- Anyone who learns better by marking up text
+- People who want to organize information by color
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
+
+This will open the Helperbird menu.
 
 ---
 
-## Step 2: Turn On Highlighter
+## Step 2: Go to the All Features Section
 
-Scroll down in the Helperbird menu and toggle **Highlighter** **on**.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
 ---
 
 ## Step 3: Enable the Highlight Menu
 
-In the Quick Actions area at the top of the menu, click the **Highlight menu** icon (chat bubble) to enable it.
+Look through the list of features until you see **Highlight menu**.
 
+Click the toggle switch next to **Highlight menu** to turn it **on**. The toggle will turn green when it is enabled.
+
+Now when you select text on any webpage, a small toolbar will appear near your selection.
 
 ---
 
-## Step 4: Highlight Text on Pages
+## Step 4: Select Text to Highlight
 
-On any web page:
-1. The highlighter menu will appear at the top with color options.
-2. Select your preferred color from the menu.
-3. Highlight any text on the page and it will be marked with your chosen color.
+Go to any webpage and use your mouse to select the text you want to highlight. Click and drag to highlight a word, sentence, or paragraph.
 
+A small toolbar will appear near your selected text with several options.
 
-**Tip:** Use different colors to categorize information—like yellow for key points, green for definitions, and pink for questions.
+---
+
+## Step 5: Choose a Color
+
+In the toolbar that appears, click the **Highlighter** button.
+
+A color palette will appear. Click on the color you want to use.
+
+The text you selected will immediately be highlighted in that color.
+
+You can select more text and highlight it in the same or different colors.
+
+**Tip:** Use different colors to organize your highlights. For example, use yellow for main ideas, green for definitions, and pink for things you want to review later.
 
 ---
 
@@ -84,4 +118,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.

@@ -1,7 +1,6 @@
 ---
 new: false
-updated: false
-layout: templates/new/help/post-new.html
+updated: true
 title: How to Use Dyslexia Friendly Fonts with Helperbird
 description:
   Learn how to use dyslexia-friendly fonts like Lexend and OpenDyslexic with Helperbird for easier reading.
@@ -15,9 +14,13 @@ permalink: help/how-to-change-the-font-on-any-page-to-a-dyslexic-font/
 name: Helperbird Staff
 headerTags:
   [
+    { tag: 'what-are-dyslexia-friendly-fonts', title: 'What are Dyslexia Friendly Fonts?' },
+    { tag: 'who-is-this-for', title: 'Who is This For?' },
     { tag: 'step-1-open-helperbird', title: 'Step 1: Open Helperbird' },
-    { tag: 'step-2-go-to-reading-options', title: 'Step 2: Go to Reading Options' },
-    { tag: 'step-3-choose-a-dyslexia-friendly-font', title: 'Step 3: Choose a Dyslexia-Friendly Font' },
+    { tag: 'step-2-go-to-the-all-features-section', title: 'Step 2: Go to the All Features Section' },
+    { tag: 'step-3-find-text-settings', title: 'Step 3: Find Text Settings' },
+    { tag: 'step-4-turn-on-font', title: 'Step 4: Turn on Font' },
+    { tag: 'step-5-choose-a-dyslexia-friendly-font', title: 'Step 5: Choose a Dyslexia Friendly Font' },
     { tag: 'video-tutorial', title: 'Video Tutorial' },
     { tag: 'need-additional-help', title: 'Need Additional Help?' }
   ]
@@ -35,33 +38,73 @@ footer: true
 header: true
 ---
 
-Dyslexia-friendly fonts like OpenDyslexic, Lexend, and Comic Sans make reading easier by reducing letter confusion and improving text clarity.
+## What are Dyslexia Friendly Fonts?
+
+Dyslexia friendly fonts are specially designed typefaces that make reading easier for people with dyslexia. Fonts like OpenDyslexic and Lexend use unique letter shapes that help reduce confusion between similar letters like b and d or p and q.
+
+Helperbird lets you change any webpage to use these fonts instantly.
+
+---
+
+## Who is This For?
+
+This feature is helpful for:
+
+- People with dyslexia
+- Anyone who finds standard fonts hard to read
+- Students who struggle with reading
+- People who confuse similar-looking letters
+- Anyone who wants a more readable font on websites
 
 ---
 
 ## Step 1: Open Helperbird
 
-Click the Helperbird owl icon in your browser toolbar to open the main dashboard.
+Click the Helperbird icon in your browser toolbar. It looks like a small owl and is usually in the top-right corner of your browser.
 
-
----
-
-## Step 2: Go to Reading Options
-
-In the list of tools, find **Reading Options** and click the open icon next to it.
+This will open the Helperbird menu.
 
 ---
 
-## Step 3: Choose a Dyslexia-Friendly Font
+## Step 2: Go to the All Features Section
 
-In the Reading Options panel:
-1. Go to the **Text** tab.
-2. Toggle **Font** **on**.
-3. Select a dyslexia-friendly font like **Comic sans**, **Lexend Deca**, or **OpenDyslexic**.
-4. The font will apply immediately to all text on the page.
+Scroll down to the bottom of the Helperbird menu. You will see a section called **All Features**.
 
+Click the arrow next to **All Features** to expand it and show all available features.
 
-**Tip:** OpenDyslexic and Lexend are specially designed to reduce letter confusion and improve reading flow for people with dyslexia.
+---
+
+## Step 3: Find Text Settings
+
+Look through the list of features until you see **Text settings**.
+
+Click on **Text settings** to open it.
+
+A panel will appear with the Text tab already open.
+
+---
+
+## Step 4: Turn on Font
+
+In the Text tab, find **Font** with a toggle switch next to it.
+
+Click the toggle to turn it **on**. The toggle will turn green when it is enabled.
+
+---
+
+## Step 5: Choose a Dyslexia Friendly Font
+
+After turning on Font, a dropdown menu will appear showing available fonts.
+
+Click the dropdown and select a dyslexia-friendly font such as:
+
+- **OpenDyslexic** – Designed specifically for dyslexia with weighted bottoms on letters
+- **Lexend Deca** – Optimized for reading fluency
+- **Comic Sans** – A familiar font that many find easier to read
+
+The font will apply immediately to all text on the page.
+
+**Tip:** Try different fonts to see which one works best for you. Everyone's reading preferences are different.
 
 ---
 
@@ -77,4 +120,4 @@ Coming soon
 
 ## Need Additional Help?
 
-If you run into issues or want to learn more about Helperbird's reading tools, visit our [Help Center](https://www.helperbird.com/help) or reach out to our support team. We're always happy to help make reading easier.
+If you have any questions or run into any issues, please contact the Helperbird support team. You can reach us at [Helperbird support](/support/). We are happy to help you get the most out of Helperbird.
