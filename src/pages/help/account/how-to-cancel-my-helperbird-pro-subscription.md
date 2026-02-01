@@ -44,15 +44,11 @@ If you've decided Helperbird Pro isn't the right fit for you right now, that's t
 
 Head over to the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII) and enter the email address you used when you signed up for Helperbird Pro.
 
-![Screenshot showing the Helperbird manage page login](helperbird-manage-login.png)
-
 ---
 
 ## Step 2: Verify Your Email
 
 Check your inbox for a verification code (it should arrive within a minute or two). The code is valid for 10 minutes, so grab it while it's fresh. Enter the code on the verification page and click **Verify** to access your dashboard.
-
-![Screenshot showing the email verification screen](helperbird-verification.png)
 
 ---
 
@@ -60,18 +56,14 @@ Check your inbox for a verification code (it should arrive within a minute or tw
 
 Once you're in your dashboard, look for the **Cancel plan** button and click it. Confirm your cancellation, and you're all set. Your subscription will remain active until the end of your current billing cycle, so you'll still have access to all Pro features until then.
 
-![Screenshot showing the cancel plan button in the dashboard](helperbird-cancel-button.png)
-
-*Tip:* Your cancellation takes effect at the end of your billing cycle, so you can keep using Helperbird Pro until then. If you change your mind, you can always resubscribe later!
+**Tip:** Your cancellation takes effect at the end of your billing cycle, so you can keep using Helperbird Pro until then. If you change your mind, you can always resubscribe later!
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon.
 {% endif %}

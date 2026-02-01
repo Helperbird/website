@@ -34,15 +34,11 @@ Helperbird's Reading List lets you save websites for later reading. Think of it 
 
 Click the Helperbird icon in the top right corner of your browser to open the extension.
 
-![Helperbird main dashboard showing quick actions and feature categories](screenshot-1-helperbird-dashboard.png)
-
 ---
 
 ### Step 2: Find the Add to Reading List Button
 
-In the quick actions area at the top of Helperbird, you'll see an **Add to Reading list** button. This button lets you save the current webpage you're viewing.
-
-![Add to Reading list button highlighted in Helperbird's quick actions](screenshot-2-add-button.png)
+In the Quick Actions area at the top of Helperbird, you'll see an **Add to Reading list** button. This button lets you save the current webpage you're viewing.
 
 ---
 
@@ -51,8 +47,6 @@ In the quick actions area at the top of Helperbird, you'll see an **Add to Readi
 Click the **Add to Reading list** button. You'll see a confirmation message at the bottom of your screen that says "Added to Reading List."
 
 The current webpage is now saved to your reading list, and you can access it anytime.
-
-![Browser showing Added to Reading List confirmation message](screenshot-3-added-confirmation.png)
 
 **Tip:** You can add as many websites as you want to your reading list. It's perfect for saving articles, recipes, or research materials you want to read later.
 
@@ -64,30 +58,19 @@ The current webpage is now saved to your reading list, and you can access it any
 
 Click the Helperbird icon in your browser's toolbar to open the extension menu.
 
-![Helperbird main dashboard](screenshot-1-helperbird-dashboard.png)
-
 ---
 
 ### Step 2: Open Your Reading List
 
-Look for the **Open Reading list** button in the quick actions area (it's the yellow button). Click it to open your reading list in a new tab.
-
-![Open Reading list button highlighted in the quick actions menu](screenshot-4-open-list-button.png)
+Look for the **Open Reading list** button in the Quick Actions area (it's the yellow button). Click it to open your reading list in a new tab.
 
 ---
 
 ### Step 3: Manage Your Saved Websites
 
-Your reading list will open showing all the websites you've saved. Each saved page displays:
-
-- The website title and description
-- The date you saved it (shown in pink)
-- **Remove** button to delete it from your list
-- **Visit** button to open the website
+Your reading list will open showing all the websites you've saved. Each saved page displays the website title and description, the date you saved it, a **Remove** button to delete it from your list, and a **Visit** button to open the website.
 
 Click **Visit** to open any saved webpage, or click **Remove** to delete it from your reading list when you're done with it.
-
-![Reading list page showing saved website with Remove and Visit buttons](screenshot-5-reading-list-page.png)
 
 **Tip:** Your reading list syncs across all devices where you use Helperbird, so you can save something on your computer and read it later on your phone.
 
@@ -96,9 +79,7 @@ Click **Visit** to open any saved webpage, or click **Remove** to delete it from
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon.
 {% endif %}

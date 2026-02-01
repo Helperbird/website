@@ -39,15 +39,11 @@ Whether your card expired or you just got a new one, updating your payment infor
 
 Visit the [Helperbird Manage Page](https://payments.coffeeandfun.com/p/login/cN214adE29toci4bII) and enter the email address linked to your Helperbird account.
 
-![Screenshot showing the Helperbird manage page login screen](helperbird-manage-login.png)
-
 ---
 
 ## Step 2: Verify Your Email
 
 Check your inbox for a verification code (it's good for 10 minutes). Enter the code in the verification box and click **Verify**. You'll be taken straight to your Helperbird dashboard.
-
-![Screenshot showing the email verification screen](helperbird-verification-screen.png)
 
 ---
 
@@ -55,18 +51,14 @@ Check your inbox for a verification code (it's good for 10 minutes). Enter the c
 
 In your dashboard, click the **Add payment method** button. Enter your new credit card details and click **Save**. Your payment information is now updated and ready to go.
 
-![Screenshot showing the add payment method section in dashboard](helperbird-payment-method.png)
-
-*Tip:* If you're updating because your card is about to expire, do it a few days early to avoid any interruption in your subscription. Your next billing cycle will automatically use the new card.
+**Tip:** If you're updating because your card is about to expire, do it a few days early to avoid any interruption in your subscription. Your next billing cycle will automatically use the new card.
 
 ---
 
 ## Video Tutorial
 
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon.
 {% endif %}

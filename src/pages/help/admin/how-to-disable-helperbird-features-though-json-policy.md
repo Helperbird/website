@@ -10,6 +10,7 @@ description: Learn how to disable specific Helperbird features using JSON policy
 keywords: Helperbird disable features, Helperbird JSON policy, Chrome extension admin policy, Google Admin Console Helperbird, Helperbird EditorReader
 cardTitle: Disable Helperbird Features with JSON Policy
 featureDescription: Learn how administrators can disable specific Helperbird features for users using managed JSON policy.
+youtubeId: vwT8SAJfU3E
 date: 2025-08-20
 headerTags:
 
@@ -307,7 +308,16 @@ Double-check:
 
 ---
 
+## Video Tutorial
+
+{% if youtubeId %}
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% else %}
+Coming soon
+{% endif %}
+
+---
+
 ## Need Additional Help?
 
-If you need help finding a feature code or validating your policy, our friendly
-[Helperbird support team](/support/) is always happy to help 💙
+If you need help finding a feature code or validating your policy, reach out to our [Helperbird support team](/support/) and we'll help you out!

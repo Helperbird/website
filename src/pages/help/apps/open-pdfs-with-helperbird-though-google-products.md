@@ -27,6 +27,7 @@ img: assets/images2/uploads/open-with-helperbird.png
 date: 2025-10-28T18:45:00.000Z
 cardTitle: Open PDFs with Helperbird
 featureDescription: Learn how to open PDFs directly in Helperbird from Google Drive or Gmail. This guide shows you how to set up the Helperbird add-on and extension for easy access to accessibility tools like text-to-speech and dyslexia-friendly fonts.
+youtubeId: vwT8SAJfU3E
 footer: true
 header: true
 ---
@@ -83,14 +84,12 @@ Select **Helperbird**, and the PDF will open in Helperbird’s reader, giving yo
 
 Here’s what it looks like when Helperbird appears in your **“Open with”** menu:
 
-![Open With Helperbird Example](assets/images2/uploads/open-with-helperbird.png)
-
 ---
 
+## Video Tutorial
+
 {% if youtubeId %}
-<div class="aspect-w-16 aspect-h-9 mt-12 mb-12">
-<iframe id="videos" src="https://www.youtube-nocookie.com/embed/{{youtubeId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" class="aspect-video rounded-2xl mb-8 mt-8" src="https://www.youtube-nocookie.com/embed/{{ youtubeId }}?si=6BtkhydcpJ8UFQ_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {% else %}
 Coming soon.
 {% endif %}
