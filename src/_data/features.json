@@ -10,8 +10,8 @@
 		{
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
-			"title": "Text to Speech",
-			"description": "Let Helperbird read web pages, ebooks, and PDFs out loud with 20 natural voice options to choose from.",
+			"title": "Text to speech",
+			"description": "Let Helperbird read web pages, ebooks, and PDFs out loud with natural voice options to choose from.",
 			"link": "/features/text-to-speech/"
 		},
 		{
@@ -24,14 +24,14 @@
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"group": "learning",
-			"title": "PDF support",
+			"title": "PDF Reader",
 			"description": "Make reading PDFs easier with features like Immersive Reader and text-to-speech support.",
 			"link": "/features/pdfs/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
-			"title": "Dyslexia Ruler",
+			"title": "Dyslexia ruler",
 			"description": "Focus better while reading with Helperbird's dyslexia ruler and reading guide.",
 			"link": "/features/ruler/"
 		},
@@ -54,14 +54,14 @@
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "dyslexia",
-			"title": "Dyslexia Fonts",
+			"title": "Font",
 			"description": "Switch between 15+ fonts, including OpenDyslexic and Lexend, to make reading easier.",
 			"link": "/features/specialised-dyslexic-fonts/"
 		},
 		{
 			"icon": "/src/_includes/svgs/ruler.svg",
 			"group": "dyslexia",
-			"title": "Dyslexia Ruler",
+			"title": "Dyslexia ruler",
 			"description": "Enhance focus with a ruler that helps guide your reading line by line.",
 			"link": "/features/ruler/"
 		},
@@ -75,22 +75,22 @@
 		{
 			"icon": "/src/_includes/svgs/styles.svg",
 			"group": "reading",
-			"title": "Styles & Themes",
+			"title": "Colors",
 			"description": "Change background, highlight, and font colors to improve focus and reading comfort.",
 			"link": "/features/styles/"
 		},
 		{
 			"icon": "/src/_includes/svgs/overlay.svg",
 			"group": "dyslexia",
-			"title": "Overlays",
+			"title": "Color overlay",
 			"description": "Add a color overlay to help with Irlen Syndrome or to reduce visual strain.",
 			"link": "/features/overlay/"
 		},
 		{
 			"icon": "/src/_includes/svgs/blindness.svg",
 			"group": "other",
-			"title": "Color blindness",
-			"description": "Features like Emphasize Links and text strokes make content more visible for those with color blindness.",
+			"title": "Highlight links",
+			"description": "Make links stand out with highlighting and text strokes for better visibility.",
 			"link": "/features/color-blindness/"
 		},
 		{
@@ -110,7 +110,7 @@
 		{
 			"icon": "/src/_includes/svgs/text-to-speech.svg",
 			"group": "reading",
-			"title": "Text to Speech",
+			"title": "Text to speech",
 			"description": "Turn text into natural-sounding speech on any web page, ebook, or PDF.",
 			"link": "/features/text-to-speech/"
 		},
@@ -131,7 +131,7 @@
 		{
 			"icon": "/src/_includes/svgs/translate.svg",
 			"group": "learning",
-			"title": "Translate any page",
+			"title": "Translate page",
 			"description": "Translate websites or snippets of text into over 100 languages with a single click.",
 			"link": "/features/google-translate/"
 		},
@@ -145,15 +145,15 @@
 		{
 			"icon": "/src/_includes/svgs/magnifier.svg",
 			"group": "reading",
-			"title": "Page & text magnifier",
+			"title": "Magnifier",
 			"description": "Easily manage zoom options for pages and text to suit your needs.",
 			"link": "/features/zoom/"
 		},
 		{
 			"icon": "/src/_includes/svgs/cursor.svg",
 			"group": "other",
-			"title": "Cursor control",
-			"description": "Customize your mouse pointer’s size and style for better visibility.",
+			"title": "Cursor size",
+			"description": "Customize your mouse pointer's size and style for better visibility.",
 			"link": "/features/high-contrast/"
 		},
 		{
@@ -166,28 +166,28 @@
 		{
 			"icon": "/src/_includes/svgs/fonts.svg",
 			"group": "reading",
-			"title": "Adjust letters and words",
-			"description": "Customize letter spacing, word spacing, font size, and line height to fit your preferences.",
+			"title": "Text settings",
+			"description": "Customize letter spacing, word spacing, font size, and line spacing to fit your preferences.",
 			"link": "/features/adjust-letters-and-words/"
 		},
 		{
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
-			"title": "Full document editor",
+			"title": "Editor",
 			"description": "Create and edit documents, then export or import them to Google Docs, Markdown, and more.",
 			"link": "/features/notes/"
 		},
 		{
 			"icon": "/src/_includes/svgs/pdf.svg",
 			"group": "research",
-			"title": "PDF support",
+			"title": "PDF Reader",
 			"description": "Use features like Immersive Reader and text-to-speech to make PDFs more accessible.",
 			"link": "/features/pdfs/"
 		},
 		{
 			"icon": "/src/_includes/svgs/docs.svg",
 			"group": "learning",
-			"title": "Google Docs support",
+			"title": "Google Docs & Slides",
 			"description": "Enhance your Google Docs experience with font customization, text-to-speech, and Immersive Reader.",
 			"link": "/products/google-addon/"
 		},
@@ -201,21 +201,21 @@
 		{
 			"icon": "/src/_includes/svgs/time.svg",
 			"group": "research",
-			"title": "Read it later",
-			"description": "Use Helperbird’s Bookmark Manager to organize and sync across browsers and devices.",
+			"title": "Reading list",
+			"description": "Save pages to read later and sync across browsers and devices.",
 			"link": "/features/bookmarks/"
 		},
 		{
 			"icon": "/src/_includes/svgs/notes.svg",
 			"group": "research",
-			"title": "Annotate web pages",
+			"title": "Add notes",
 			"description": "Highlight and annotate web pages, documents, PDFs, and ebooks to make studying easier.",
 			"link": "/features/annotation/"
 		},
 		{
 			"icon": "/src/_includes/svgs/graph.svg",
 			"group": "research",
-			"title": "Analyze",
+			"title": "Text stats",
 			"description": "Quickly see the number of characters, words, and sentence breakdowns on a webpage.",
 			"link": "/features/analyze/"
 		},
@@ -223,20 +223,20 @@
 			"icon": "/src/_includes/svgs/reading.svg",
 			"group": "dyslexia",
 			"title": "Reading guide",
-			"description": "Use a reading ruler for long texts to help guide your focus and stay on track.",
+			"description": "Use a reading guide for long texts to help guide your focus and stay on track.",
 			"link": "/features/reading-guide/"
 		},
 		{
 			"icon": "/src/_includes/svgs/reading.svg",
 			"group": "reading",
-			"title": "Line Focus",
+			"title": "Focus ruler",
 			"description": "Focus on one line at a time while reading to improve concentration and clarity.",
 			"link": "/features/reading-guide/"
 		},
 		{
 			"icon": "/src/_includes/svgs/shortcuts.svg",
 			"group": "other",
-			"title": "Shortcuts",
+			"title": "Keyboard shortcuts",
 			"description": "Quickly access Helperbird features with customizable keyboard shortcuts.",
 			"link": "/features/shortcuts/"
 		},
