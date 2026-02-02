@@ -11,6 +11,10 @@
 		<link rel="preconnect" href="https://lh3.googleusercontent.com" />
 		<link rel="dns-prefetch" href="https://www.youtube.com" />
 		<link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
+
+		<!-- Preconnect for Crisp chat widget -->
+		<link rel="preconnect" href="https://client.crisp.chat" />
+		<link rel="dns-prefetch" href="https://client.crisp.chat" />
 		{% bundledCss %}
 		<script>
 			if ('serviceWorker' in navigator) {
@@ -116,8 +120,8 @@
 			    "ratingValue": "5",
 			    "bestRating": "5",
 			    "worstRating": "1",
-			    "ratingCount": "2",
-			    "reviewCount": "2"
+			    "ratingCount": "92",
+			    "reviewCount": "92"
 			  },
 			  "review": [
 			    {%- for review in reviews.reviews -%}
@@ -201,42 +205,6 @@
 			}
 		</style>
 
-		<style>
-			.game-board {
-				position: relative;
-				width: 100%;
-				max-width: 600px;
-				height: 75vh;
-				max-height: 400px;
-				margin: 50px auto;
-				background-color: #1e293b;
-				border: 2px solid #4f46e5;
-			}
-			.ball {
-				position: absolute;
-				width: 15px;
-				height: 15px;
-				background-color: #facc15;
-				border-radius: 50%;
-			}
-			.paddle {
-				position: absolute;
-				width: 20%;
-				height: 10px;
-				background-color: #4f46e5;
-				bottom: 0;
-			}
-			.brick {
-				position: absolute;
-				width: 10%;
-				height: 20px;
-				background-color: #f43f5e;
-			}
-			.game-over,
-			.game-won {
-				display: none;
-			}
-		</style>
 	</head>
 
 	<body class="helperbird-background-color">
