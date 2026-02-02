@@ -1,61 +1,73 @@
 {
 	"text": [
 		{
-			"feature": "Customizable Fonts",
+			"feature": "Dyslexia-friendly fonts",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Dyslexia-Friendly Fonts",
+			"feature": "Custom fonts",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Zoom and Magnification",
+			"feature": "Font size",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Letter spacing",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Word spacing",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Adjustable Word Spacing",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Customizable Line Spacing",
+			"feature": "Line spacing",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Adjustable Letter Spacing",
+			"feature": "Text alignment",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Flexible Font Sizing",
+			"feature": "Line width",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Customizable Paragraph Width",
+			"feature": "Text columns",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Text Alignment Options",
+			"feature": "Text stroke",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		}
 	],
-	"content": [
+	"reading": [
+		{
+			"feature": "Immersive Reader",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
 		{
 			"feature": "Reading Mode",
 			"free": true,
@@ -63,249 +75,293 @@
 			"unlimited": true
 		},
 		{
-			"feature": "Immersive Reader by Microsoft",
+			"feature": "Text to speech",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Picture Dictionary",
+			"feature": "Natural voices",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Speed reading",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Dyslexia ruler",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Screenshot Tools",
+			"feature": "Reading guide",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Printing Tools",
+			"feature": "Line focus",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Text Translation",
+			"feature": "Auto-scroll",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Page magnifier",
 			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Math Reader",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Speed Reading",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Annotations",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Text Rewording",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Summarize Page",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Text Analysis",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Highlight Paragraphs",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Volume Control",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Extract Text from Images (OCR)",
-			"free": false,
 			"pro": true,
 			"unlimited": true
 		}
 	],
 	"display": [
 		{
-			"feature": "Link Highlighting",
+			"feature": "Color overlay",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Color Blindness Tools",
+			"feature": "High contrast",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Dark mode",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Grayscale",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Dyslexia Ruler",
+			"feature": "Saturation control",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Hide images",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Hide GIFs",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Reduce motion",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Reading Guide",
+			"feature": "Cursor size",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Link highlighting",
 			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Color Overlay",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "High Contrast Mode",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Hide Images",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Line Focus",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Live Website Editing",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Reduce Motion",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		}
-	],
-	"navigation": [
-		{
-			"feature": "Text Highlighter",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Web Search",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Text-to-Speech",
-			"free": true,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Advanced Text-to-Speech Options",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Premium Natural Voices",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Voice Typing",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Word Prediction",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Custom Cursor Styles",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Auto Scrolling",
-			"free": false,
 			"pro": true,
 			"unlimited": true
 		}
 	],
 	"color": [
 		{
-			"feature": "Highlight Colors",
+			"feature": "Highlight color",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Font Colors",
+			"feature": "Text color",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Background Colors",
+			"feature": "Background color",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Link Colors",
+			"feature": "Link color",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Paragraph borders",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Paragraph background",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		}
 	],
-	"other": [
+	"writing": [
 		{
-			"feature": "Sync Settings & Styles",
+			"feature": "Voice typing",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Google Docs Support",
+			"feature": "Word prediction",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Spell check",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Sticky notes",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Document editor",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Edit website",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		}
+	],
+	"tools": [
+		{
+			"feature": "Translate",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Microsoft Word Support",
+			"feature": "Dictionary",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Summarize",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Simplify text",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Text highlighter",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Screenshot",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "OCR text extraction",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Math reader",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Print",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Text statistics",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Volume boost",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Video playback speed",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		}
+	],
+	"accessibility": [
+		{
+			"feature": "Color blindness support",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Show image alt text",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Show link descriptions",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Word spotlight",
+			"free": false,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Mute videos",
 			"free": true,
 			"pro": true,
 			"unlimited": true
@@ -313,107 +369,189 @@
 	],
 	"apps": [
 		{
-			"feature": "Google Docs Add-on",
+			"feature": "PDF reader",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Dictionary App",
+			"feature": "Annotate PDFs",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Sticky Notes",
+			"feature": "Reading list",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Document Editor",
+			"feature": "Notes manager",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "PDF Reader",
+			"feature": "Google Docs add-on",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Write on PDFs",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Reading List",
-			"free": false,
-			"pro": true,
-			"unlimited": true
-		},
-		{
-			"feature": "Google Slides Add-on",
+			"feature": "Google Slides add-on",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		}
 	],
-	"bonus": [
+	"other": [
 		{
-			"feature": "Unlimited Usage",
-			"free": false,
-			"pro": false,
-			"unlimited": true
-		},
-		{
-			"feature": "Keyboard Shortcuts",
+			"feature": "Sync settings",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Premium Support",
+			"feature": "Keyboard shortcuts",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "iPad & iPhone App",
+			"feature": "Pause Helperbird",
 			"free": true,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Analytics Dashboard",
-			"free": false,
-			"pro": false,
+			"feature": "Quick actions",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Search features",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		}
+	],
+	"platforms": [
+		{
+			"feature": "Chrome extension",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Firefox extension",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Edge extension",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Safari extension",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "iPad & iPhone app",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		}
+	],
+	"admin": [
+		{
+			"feature": "License management",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "G Suite Admin deployment",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Microsoft Intune deployment",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Force installation",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "JSON policy configuration",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Disable features control",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Exam mode",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Admin control",
+			"free": true,
+			"pro": true,
 			"unlimited": true
 		}
 	],
 	"support": [
 		{
-			"feature": "24/7 Online Support",
+			"feature": "Email support",
+			"free": true,
+			"pro": true,
+			"unlimited": true
+		},
+		{
+			"feature": "Priority support",
 			"free": false,
 			"pro": true,
 			"unlimited": true
 		},
 		{
-			"feature": "Quarterly Workshops",
+			"feature": "Phone support",
 			"free": false,
 			"pro": false,
 			"unlimited": true
 		},
 		{
-			"feature": "Priority Phone Support",
+			"feature": "1:1 onboarding",
 			"free": false,
 			"pro": false,
 			"unlimited": true
 		},
 		{
-			"feature": "1:1 Onboarding Tour",
+			"feature": "Training workshops",
+			"free": false,
+			"pro": false,
+			"unlimited": true
+		},
+		{
+			"feature": "Usage analytics",
 			"free": false,
 			"pro": false,
 			"unlimited": true
