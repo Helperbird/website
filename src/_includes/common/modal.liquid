@@ -214,7 +214,7 @@
 </dialog>
 
 <!-- Mobile Menu Modal -->
-<dialog id="my_modal_site_menu" class="modal" title="Menu" role="dialog">
+<dialog id="my_modal_site_menu" class="modal" aria-labelledby="mobile_menu_title" aria-modal="true">
 	<div class="modal-box max-w-2xl rounded-3xl bg-white shadow-2xl">
 		<form method="dialog">
 			<button
@@ -235,9 +235,9 @@
 				</svg>
 			</button>
 		</form>
-		
+
 		<div class="mt-8 w-full">
-			<h2 class="mb-4 text-2xl font-bold tracking-tight text-zinc-900">Helperbird</h2>
+			<h2 id="mobile_menu_title" class="mb-4 text-2xl font-bold tracking-tight text-zinc-900">Helperbird</h2>
 			<div class="divider my-3"></div>
 			<ul class="mb-10 grid grid-cols-2 gap-4">
 				<li>

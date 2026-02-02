@@ -10,7 +10,6 @@
 		<meta content="{{ description }}" name="description" />
 		<meta content="{{ keywords }}" name="keywords" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta content="/assets/images/favicon.png" name="image" />
 		<meta content="#5046e4" name="theme-color" />
 		<meta content="Helperbird" itemprop="name" />
@@ -192,9 +191,10 @@
 	</head>
 
 	<body class="helperbird-background-color">
+		<a href="#content" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-blue-600">Skip to main content</a>
 		<div id="helperbird-website">
 			{% include templates/header.liquid %}
-			<main class="mx-auto max-w-7xl pb-12 pl-4 pr-4 pt-12">{{ content | safe }}</main>
+			<main id="content" class="mx-auto max-w-7xl pb-12 pl-4 pr-4 pt-12">{{ content | safe }}</main>
 			{% include templates/footer.liquid %}
 		</div>
 	</body>
